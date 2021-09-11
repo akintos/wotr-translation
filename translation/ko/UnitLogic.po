@@ -1,27 +1,26 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 01:17+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-09-11 23:52+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.4.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbilitySillyFeed::m_DisplayName
-#, fuzzy
 msgctxt "246accef-137b-4e59-bcc9-af8c83561dcc"
 msgid "Feed Critters"
 msgstr "먹이 주기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbilitySillyFeed::m_Description
-#, fuzzy
 msgctxt "1a7cf3bf-cb34-488b-9469-7f92176211e5"
 msgid "Attract critters from the whole area."
 msgstr "지역 전체에서 야생 동물들을 불러 모읍니다."
@@ -31,7 +30,6 @@ msgstr "지역 전체에서 야생 동물들을 불러 모읍니다."
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AbjurationResistanceAcidBuff::m_DisplayName
-#, fuzzy
 msgctxt "b779d799-f398-4adc-b81b-eed1f0c9e564"
 msgid "Resistance — Acid"
 msgstr "저항 - 산성"
@@ -41,7 +39,6 @@ msgstr "저항 - 산성"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AbjurationResistanceColdBuff::m_DisplayName
-#, fuzzy
 msgctxt "a8f5f5bb-ba16-4c26-80b5-cbbb84e8e3c5"
 msgid "Resistance — Cold"
 msgstr "저항 - 냉기"
@@ -51,7 +48,6 @@ msgstr "저항 - 냉기"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AbjurationResistanceElectricityBuff::m_DisplayName
-#, fuzzy
 msgctxt "5a5c7d08-12c4-4f61-890a-e7dbff05b9d5"
 msgid "Resistance — Electricity"
 msgstr "저항 - 전기"
@@ -61,7 +57,6 @@ msgstr "저항 - 전기"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AbjurationResistanceFireBuff::m_DisplayName
-#, fuzzy
 msgctxt "07238e96-8920-4524-b40e-9882f1847e5c"
 msgid "Resistance — Fire"
 msgstr "저항 - 화염"
@@ -71,7 +66,6 @@ msgstr "저항 - 화염"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AbjurationResistanceSonicBuff::m_DisplayName
-#, fuzzy
 msgctxt "70dcedac-1df5-47fc-8ec6-129d714f14fb"
 msgid "Resistance — Sonic"
 msgstr "저항 - 음파"
@@ -123,7 +117,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbsoluteOrderHalt::LocalizedDuration
-#, fuzzy
 msgctxt "6250ccf0-1ed0-460f-8ce7-094c2da7e198"
 msgid "1 round/level"
 msgstr "1 라운드 / 레벨"
@@ -142,7 +135,6 @@ msgstr "1 라운드 / 레벨"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbsoluteOrderHalt::LocalizedSavingThrow
-#, fuzzy
 msgctxt "7ac9f1bb-ab14-4d64-8543-4c97a64a71bd"
 msgid "Will negates"
 msgstr "의지로 무효"
@@ -392,29 +384,18 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidArrow::LocalizedDuration
-#, fuzzy
-#| msgid "1 round + 1 round per three levels"
 msgctxt "4df8ce12-a3ac-4e44-9969-8c0e2df40874"
 msgid "1 {g|Encyclopedia:Combat_Round}round{/g} + 1 round per three levels"
-msgstr "1 라운드 + 3 레벨당 1 라운드"
+msgstr "1 {g|Encyclopedia:Combat_Round}라운드{/g} + 3 레벨당 1 라운드"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidArrow::m_DisplayName
-#, fuzzy
 msgctxt "03365303-4f7a-4f99-ae9f-75ed90546ab4"
 msgid "Acid Arrow"
 msgstr "산성 화살"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidArrow::m_Description
-#, fuzzy
-#| msgid ""
-#| "An arrow of acid springs from your hand and speeds to its target. You must "
-#| "succeed on a ranged touch attack to hit your target. The arrow deals 2d4 "
-#| "points of acid damage with no splash damage. For every three caster levels "
-#| "you possess, the acid, unless neutralized, lasts for another round (to a "
-#| "maximum of 6 additional rounds at 18th level), dealing another 2d4 points of "
-#| "damage in each round."
 msgctxt "83733c1b-9fc4-4ddb-9eaa-90300e0a5095"
 msgid ""
 "An arrow of acid springs from your hand and speeds to its target. You must "
@@ -427,9 +408,11 @@ msgid ""
 "maximum of 6 additional rounds at 18th level), dealing another 2d4 points of "
 "damage in each round."
 msgstr ""
-"산성 화살이 손에서 튀어 나와 목표물까지 날아갑니다. 명중시키려면 원거리 접촉 공격에 성공해야 합니다. 화살은 확산 피해 없이 2d4 "
-"점의 산성 피해를 입힙니다. 산성 피해는 중화하지 않는 한 시전자 레벨 3 마다 1 라운드 씩 추가로 지속되며, (18 레벨에 최대 6 "
-"라운드 추가) 매 라운드 2d4 점의 피해를 받습니다."
+"산성 화살이 손에서 튀어 나와 목표물까지 날아갑니다. 명중시키려면 원거리 {g|Encyclopedia:TouchAttack}접촉 "
+"공격{/g}에 성공해야 합니다. 화살은 확산 피해 없이 {g|Encyclopedia:Dice}2d4{/g} 점의 "
+"{g|Encyclopedia:Energy_Damage}산성 피해{/g}를 입힙니다. 산성 피해는 중화하지 않는 한 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} 3 마다 1 라운드 씩 추가로 지속되며, (18 레벨에 최대 6 "
+"라운드 추가) 매 {g|Encyclopedia:Combat_Round}라운드{/g} 2d4 점의 피해를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidBomb::LocalizedDuration
@@ -445,7 +428,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CelerityShort::LocalizedDuration
-#, fuzzy
 msgctxt "62761fbe-42ce-4474-ae10-14f9024f4c57"
 msgid "1 round"
 msgstr "1 라운드"
@@ -464,7 +446,6 @@ msgstr "1 라운드"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ArcaneBombsElectricityAbility::LocalizedSavingThrow
-#, fuzzy
 msgctxt "e21d0585-46a5-41ff-8cea-451ffd8023aa"
 msgid "Reflex halves splash damage"
 msgstr "반사로 확산 피해 절반"
@@ -474,13 +455,6 @@ msgstr "반사로 확산 피해 절반"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AcidBombBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "On a direct hit, an alchemist's acid bomb inflicts 3d6+5 points of acid "
-#| "damage. Splash damage from an alchemist bomb is always 8 damage. The DC of "
-#| "this save is equal to 17.\n"
-#| "Creatures that take a direct hit from an acid bomb take an additional 1d6 "
-#| "points of acid damage 1 round later."
 msgctxt "68c5f956-20ab-44c0-bc50-0372ec71a564"
 msgid ""
 "On a direct hit, an alchemist's acid bomb inflicts "
@@ -491,9 +465,12 @@ msgid ""
 "Creatures that take a direct hit from an acid bomb take an additional 1d6 "
 "points of acid damage 1 {g|Encyclopedia:Combat_Round}round{/g} later."
 msgstr ""
-"직격당한 대상에게 알케미스트의 산성 폭탄은 3d6+5점의 산성 피해를 입힙니다. 산성 폭탄으로 인한 확산 피해는 언제나 8점입니다. 이때 "
-"내성의 DC는 17입니다.\n"
-"산성 폭탄에 직격당한 크리처는 1 라운드 후에 추가적인 1d6점의 산성 피해를 받습니다."
+"직격당한 대상에게 알케미스트의 산성 폭탄은 {g|Encyclopedia:Dice}3d6{/g}+5점의 "
+"{g|Encyclopedia:Energy_Damage}산성 피해{/g}를 입힙니다. 산성 폭탄으로 인한 확산 "
+"{g|Encyclopedia:Damage}피해{/g}는 언제나 8점입니다. 이때 "
+"{g|Encyclopedia:Saving_Throw}내성{/g}의 {g|Encyclopedia:DC}DC{/g}는 17입니다.\n"
+"산성 폭탄에 직격당한 크리처는 1 {g|Encyclopedia:Combat_Round}라운드{/g} 후에 추가적인 1d6점의 산성 피해를 "
+"받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidBreathSpell_Cutscene::LocalizedSavingThrow
@@ -509,29 +486,18 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AzaraDragonBreathWeapon::LocalizedSavingThrow
-#, fuzzy
 msgctxt "dccd7029-0a51-4e5b-9cb2-7a2969b61516"
 msgid "Reflex half"
 msgstr "반사로 절반"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidFog::m_DisplayName
-#, fuzzy
 msgctxt "de46d641-8d55-481a-a1b8-96f4b9787900"
 msgid "Acid Fog"
 msgstr "산성 안개"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidFog::m_Description
-#, fuzzy
-#| msgid ""
-#| "Acid fog creates a billowing mass of highly acidic, misty vapors that slow "
-#| "down creatures. Creatures moving through acid fog move at half their normal "
-#| "speed and take a –2 penalty on all melee attack and melee damage rolls. The "
-#| "vapors prevent effective ranged weapon attacks, granting all creatures "
-#| "inside the fog a +8 bonus to AC against normal ranged attacks. Each round on "
-#| "your turn, starting when you cast the spell, the fog deals 2d6 points of "
-#| "acid damage to each creature and object within it."
 msgctxt "3c7c46b5-205d-497e-a5ea-41712d5b74b0"
 msgid ""
 "Acid fog creates a billowing mass of highly acidic, misty vapors that slow "
@@ -548,9 +514,14 @@ msgid ""
 "{g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Energy_Damage}acid "
 "damage{/g} to each creature and object within it."
 msgstr ""
-"물질을 지글지글 태워버리는 강산성의 안개를 만들어냅니다. 안개를 지나가려는 크리처는 정상 속도의 절반으로 이동하고, 모든 근접 공격의 "
-"명중 및 피해 굴림에 -2 페널티를 받습니다. 또한 평범한 원거리 공격으로부터 +8 AC 보너스를 받습니다. 안개는 안에 있는 크리처와 "
-"물체에 매 라운드 2d6 점의 산성 피해를 줍니다."
+"물질을 지글지글 태워버리는 강산성의 안개를 만들어냅니다. 안개를 지나가려는 크리처는 정상 "
+"{g|Encyclopedia:Speed}속도{/g}의 절반으로 이동하고, 모든 {g|Encyclopedia:MeleeAttack}근접 "
+"공격{/g}의 명중 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 -2 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 또한 안에 있는 크리쳐들을 보호하여, "
+"{g|Encyclopedia:RangedAttack}원거리 공격{/g}으로부터 +8 "
+"{g|Encyclopedia:Armor_Class}AC{/g} {g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 안개는 "
+"안에 있는 크리처와 물체에 매 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"{g|Encyclopedia:Dice}2d6{/g} 점의 {g|Encyclopedia:Energy_Damage}산성 피해{/g}를 줍니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidicSpray::LocalizedSavingThrow
@@ -566,7 +537,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShiningLightAbility::LocalizedSavingThrow
-#, fuzzy
 msgctxt "ee80d5e4-4f06-41a2-b41e-db395c35e2e6"
 msgid "Reflex partial, see text"
 msgstr "반사로 일부, 설명 참조"
@@ -576,7 +546,6 @@ msgstr "반사로 일부, 설명 참조"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidicSpray_PuzzleTrap::m_DisplayName
-#, fuzzy
 msgctxt "e92c2904-b211-4348-a40d-dafe63f1b09c"
 msgid "Acidic Spray"
 msgstr "산성 분사"
