@@ -1,41 +1,38 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 01:17+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-09-11 23:52+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.4.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = BandedType::m_TypeNameText
-#, fuzzy
 msgctxt "6fe7ef2d-523a-43cb-b666-c20217ce42dc"
 msgid "Heavy Armor — Banded"
 msgstr "중장 갑옷 — 철판 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = BandedType::m_DefaultNameText
-#, fuzzy
 msgctxt "ad8c2481-c790-4350-bbff-646340d11769"
 msgid "Banded Mail"
 msgstr "철판 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = BreastplateType::m_TypeNameText
-#, fuzzy
 msgctxt "976056f2-bdaf-4228-9af6-f608fe173aa5"
 msgid "Medium Armor — Breastplate"
-msgstr "평장 갑옷 - 판금 흉갑"
+msgstr "평장 갑옷 — 판금 흉갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = BreastplateType::m_DefaultNameText
-#, fuzzy
 msgctxt "1582facf-b8e9-4202-bfc1-9e2a7828bdf2"
 msgid "Breastplate"
 msgstr "판금 흉갑"
@@ -44,24 +41,22 @@ msgstr "판금 흉갑"
 #. Path = ChainmailBardingType::m_TypeNameText
 msgctxt "defbeeab-5e76-4514-8ce1-e44ed8f5ed84"
 msgid "Medium Armor — Chainmail Barding"
-msgstr ""
+msgstr "평장 갑옷 — 사슬갑옷 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ChainmailBardingType::m_DefaultNameText
 msgctxt "6db5748b-9cd1-458d-b269-2fa7fe4b6b71"
 msgid "Chainmail Barding"
-msgstr ""
+msgstr "사슬갑옷 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ChainmailType::m_TypeNameText
-#, fuzzy
 msgctxt "57c1ddb6-bc64-4b30-90fb-42ec07abeefb"
 msgid "Medium Armor — Chainmail"
-msgstr "평장 갑옷 - 사슬갑옷"
+msgstr "평장 갑옷 — 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ChainmailType::m_DefaultNameText
-#, fuzzy
 msgctxt "a890179d-ac92-4796-870d-eb5b235d7213"
 msgid "Chainmail"
 msgstr "사슬갑옷"
@@ -70,38 +65,34 @@ msgstr "사슬갑옷"
 #. Path = ChainshirtBardingType::m_TypeNameText
 msgctxt "7f54452c-cd55-4e84-ad76-5984fc914c7c"
 msgid "Light Armor — Chainshirt Barding"
-msgstr ""
+msgstr "경장 갑옷 — 사슬조끼 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ChainshirtBardingType::m_DefaultNameText
 msgctxt "92f960ae-61f9-4f61-a0cb-ebc3c6f9815b"
 msgid "Chainshirt Barding"
-msgstr ""
+msgstr "사슬조끼 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ChainshirtType::m_TypeNameText
-#, fuzzy
 msgctxt "f855ff88-96a7-4c29-970e-35b02a9e6ef2"
 msgid "Light Armor — Chainshirt"
-msgstr "경장 갑옷 - 사슬조끼"
+msgstr "경장 갑옷 — 사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ChainshirtType::m_DefaultNameText
-#, fuzzy
 msgctxt "ca20e3b0-85bc-411d-8287-aacf93065648"
 msgid "Chainshirt"
 msgstr "사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ClothType::m_TypeNameText
-#, fuzzy
 msgctxt "e366b18a-d111-4fc3-a113-8e1fe7e3cbdd"
 msgid "Cloth"
 msgstr "의복"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ClothType::m_DefaultNameText
-#, fuzzy
 msgctxt "1201676c-060f-4bb1-bbd5-22b9db92f315"
 msgid "Cloth"
 msgstr "의복"
@@ -110,40 +101,34 @@ msgstr "의복"
 #. Path = FullBardingType::m_TypeNameText
 msgctxt "16610ba2-5dc6-4aac-8e9c-4de5bccee716"
 msgid "Heavy Armor — Full Barding"
-msgstr ""
+msgstr "중장 갑옷 — 전신 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = FullBardingType::m_DefaultNameText
 msgctxt "ba61ab30-d54f-4723-af8b-43129edd7562"
 msgid "Full Barding"
-msgstr ""
+msgstr "전신 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = FullplateType::m_TypeNameText
-#, fuzzy
 msgctxt "c82a3afa-0316-4b0c-8a80-2697a11aabee"
 msgid "Heavy Armor — Full Plate"
-msgstr "중장 갑옷 - 전신 판금갑옷"
+msgstr "중장 갑옷 — 전신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = FullplateType::m_DefaultNameText
-#, fuzzy
 msgctxt "72c941b7-98e5-42b2-b059-50567d1f39ea"
 msgid "Full Plate"
 msgstr "전신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = HalfplateType::m_TypeNameText
-#, fuzzy
-#| msgid "Heavy Armor — Half-plate"
 msgctxt "599a5f95-8195-41d8-a01f-0f83ce99b662"
 msgid "Heavy Armor — Half-Plate"
-msgstr "중장 갑옷 - 반신 판금갑옷"
+msgstr "중장 갑옷 — 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = HalfplateType::m_DefaultNameText
-#, fuzzy
-#| msgid "Half-plate"
 msgctxt "8b7667a3-2bf5-4e04-adfe-9091ece240a2"
 msgid "Half-Plate"
 msgstr "반신 판금갑옷"
@@ -152,36 +137,34 @@ msgstr "반신 판금갑옷"
 #. Path = HaramakiType::m_TypeNameText
 msgctxt "515dbcd7-d498-4140-9ba6-964357180f3e"
 msgid "Light Armor — Haramaki"
-msgstr ""
+msgstr "경장 갑옷 — 하라마키"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = HaramakiType::m_DefaultNameText
 msgctxt "24d7464a-369f-42bf-81a8-b939c2af213a"
 msgid "Haramaki"
-msgstr ""
+msgstr "하라마키"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = HideBardingType::m_TypeNameText
 msgctxt "352efcfa-bef6-4b6e-8dbe-3914c34b103a"
 msgid "Medium Armor — Hide Barding"
-msgstr ""
+msgstr "평장 갑옷 — 털가죽 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = HideBardingType::m_DefaultNameText
 msgctxt "9bbea6cc-874e-4229-9c97-f689b518a2b7"
 msgid "Hide Barding"
-msgstr ""
+msgstr "털가죽 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = HideType::m_TypeNameText
-#, fuzzy
 msgctxt "98ca5b52-f3df-4c64-8027-0a7b0e5f5aa0"
 msgid "Medium Armor — Hide"
-msgstr "평장 갑옷 - 털가죽 갑옷"
+msgstr "평장 갑옷 — 털가죽 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = HideType::m_DefaultNameText
-#, fuzzy
 msgctxt "c87baa09-4734-4e89-a21f-3a1ba2fa3450"
 msgid "Hide Armor"
 msgstr "털가죽 갑옷"
@@ -190,44 +173,40 @@ msgstr "털가죽 갑옷"
 #. Path = LeatherBardingType::m_TypeNameText
 msgctxt "45967249-90e6-4820-8d65-390d801882c5"
 msgid "Light Armor — Leather Barding"
-msgstr ""
+msgstr "경장 갑옷 — 가죽 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = LeatherBardingType::m_DefaultNameText
 msgctxt "1ba7c32e-45dc-4b63-a3b8-221f9516fc57"
 msgid "Leather Barding"
-msgstr ""
+msgstr "가죽 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = LeatherType::m_TypeNameText
 #. 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = OakLeathersType::m_TypeNameText
-#, fuzzy
 msgctxt "35228a84-126d-4e7b-893b-0770fd2b856f"
 msgid "Light Armor — Leather"
-msgstr "경장 갑옷 - 가죽"
+msgstr "경장 갑옷 — 가죽"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = LeatherType::m_DefaultNameText
 #. 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = OakLeathersType::m_DefaultNameText
-#, fuzzy
 msgctxt "04675995-01d8-406d-897f-7ac22f974d9e"
 msgid "Leather Armor"
 msgstr "가죽갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = PaddedType::m_TypeNameText
-#, fuzzy
 msgctxt "4129eade-e95e-4fbc-ace0-8d36f1324caf"
 msgid "Light Armor — Padded"
-msgstr "경장 갑옷 - 누비갑옷"
+msgstr "경장 갑옷 — 누비갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = PaddedType::m_DefaultNameText
-#, fuzzy
 msgctxt "295837aa-943b-4460-afdc-234f069ac443"
 msgid "Padded Armor"
 msgstr "누비갑옷"
@@ -236,101 +215,88 @@ msgstr "누비갑옷"
 #. Path = ScaleBardingType::m_TypeNameText
 msgctxt "245a1c1a-5dad-4feb-86dc-42ea0db58a24"
 msgid "Medium Armor — Scale Barding"
-msgstr ""
+msgstr "평장 갑옷 — 미늘갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ScaleBardingType::m_DefaultNameText
 msgctxt "f1679421-ff72-48fc-9ce2-29e95088ec3d"
 msgid "Scale Barding"
-msgstr ""
+msgstr "미늘갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ScalemailType::m_TypeNameText
-#, fuzzy
 msgctxt "8f16536a-1a23-4af8-96c7-642a416b99f0"
 msgid "Medium Armor — Scalemail"
-msgstr "평장 갑옷 - 미늘갑옷"
+msgstr "평장 갑옷 — 미늘갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = ScalemailType::m_DefaultNameText
-#, fuzzy
 msgctxt "eb24c88b-69ea-4fa7-a3f5-c051a26c97b6"
 msgid "Scalemail"
 msgstr "미늘갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = StuddedType::m_TypeNameText
-#, fuzzy
 msgctxt "c69dd758-258f-4c5b-b024-02ad91fb4c2c"
 msgid "Light Armor — Studded"
-msgstr "경장 갑옷 - 징 박힌 가죽갑옷"
+msgstr "경장 갑옷 — 징 박힌 가죽갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintArmorType
 #. Path = StuddedType::m_DefaultNameText
-#, fuzzy
 msgctxt "eeac8216-f3b9-42ef-8206-fca6567521ff"
 msgid "Studded Leather"
 msgstr "징 박힌 가죽갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBanded::m_DisplayNameText
-#, fuzzy
 msgctxt "cdb7f8e5-c2dd-40b8-a221-1b827058b55c"
 msgid "Adamantine Banded Mail"
 msgstr "아다만틴 철판 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBandedPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "da37efb3-405e-41cf-8505-deb1a1d29f46"
 msgid "Adamantine Banded Mail +1"
 msgstr "아다만틴 철판 사슬갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBandedPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "1d59f121-1863-4cc7-8ca7-9f0ec8a15b06"
 msgid "Adamantine Banded Mail +2"
 msgstr "아다만틴 철판 사슬갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBandedPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "65a5972c-936c-4618-b234-89151e0a054b"
 msgid "Adamantine Banded Mail +3"
 msgstr "아다만틴 철판 사슬갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBandedPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "52a517d6-bddd-459a-a57b-0076b3adfc58"
 msgid "Adamantine Banded Mail +4"
 msgstr "아다만틴 철판 사슬갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBandedPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "6dd1a994-2ef5-4d95-ad80-db0fa1656967"
 msgid "Adamantine Banded Mail +5"
 msgstr "아다만틴 철판 사슬갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBreastplate::m_DisplayNameText
-#, fuzzy
 msgctxt "09365041-6b5d-4203-a3df-6223ea42d3b8"
 msgid "Adamantine Breastplate"
 msgstr "아다만틴 판금 흉갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBreastplatePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "9a35d952-2525-4478-830e-ed322bf13fda"
 msgid "Adamantine Breastplate +1"
 msgstr "아다만틴 판금 흉갑 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBreastplatePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "e461971f-86bd-4200-ad34-7d82eee9702e"
 msgid "Adamantine Breastplate +2"
 msgstr "아다만틴 판금 흉갑 +2"
@@ -340,126 +306,108 @@ msgstr "아다만틴 판금 흉갑 +2"
 #. 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBreastplateStandartPlus3_Hellknight::m_DisplayNameText
-#, fuzzy
 msgctxt "3b54ebec-78e7-4c1d-89b3-148cdef98707"
 msgid "Adamantine Breastplate +3"
 msgstr "아다만틴 판금 흉갑 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBreastplatePlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "4300b12e-4ba5-446b-b71e-1497eb5c55be"
 msgid "Adamantine Breastplate +4"
 msgstr "아다만틴 판금 흉갑 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineBreastplatePlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "6f9b8f81-6541-41d7-99b2-60b7bdebc645"
 msgid "Adamantine Breastplate +5"
 msgstr "아다만틴 판금 흉갑 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainmail::m_DisplayNameText
-#, fuzzy
 msgctxt "c7b0fb85-88f8-45e5-bbd3-d9520402c7ff"
 msgid "Adamantine Chainmail"
 msgstr "아다만틴 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainmailPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "9fd1726e-ec19-4454-96d5-40f82efea5d3"
 msgid "Adamantine Chainmail +1"
 msgstr "아다만틴 사슬갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainmailPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "5dffcdbf-7de1-4347-bf66-498193a70eb5"
 msgid "Adamantine Chainmail +2"
 msgstr "아다만틴 사슬갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainmailPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "bfede73b-73a3-46cc-9d5a-191c13c9ba6a"
 msgid "Adamantine Chainmail +3"
 msgstr "아다만틴 사슬갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainmailPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "811b8678-42ef-424b-9ec6-e3f163424653"
 msgid "Adamantine Chainmail +4"
 msgstr "아다만틴 사슬갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainmailPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "6e90a8f1-afd1-4f23-93d6-2cc2adf669c6"
 msgid "Adamantine Chainmail +5"
 msgstr "아다만틴 사슬갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainshirt::m_DisplayNameText
-#, fuzzy
 msgctxt "8de1920a-a050-44d1-9836-20051f218f53"
 msgid "Adamantine Chainshirt"
 msgstr "아다만틴 사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainshirtPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "5b78f5c5-62f2-4240-8a1f-5bc4cde9cdf9"
 msgid "Adamantine Chainshirt +1"
 msgstr "아다만틴 사슬조끼 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainshirtPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "35b84b29-0e9d-4a57-826f-1f7d012ce98c"
 msgid "Adamantine Chainshirt +2"
 msgstr "아다만틴 사슬조끼 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainshirtPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "910d619f-0a9a-4c8b-ba91-327df15c4d17"
 msgid "Adamantine Chainshirt +3"
 msgstr "아다만틴 사슬조끼 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainshirtPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "78360b7e-03a3-4de3-bd41-4ce7c6745a42"
 msgid "Adamantine Chainshirt +4"
 msgstr "아다만틴 사슬조끼 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineChainshirtPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "b3a28a72-d846-4c51-a360-4aabf03a3e37"
 msgid "Adamantine Chainshirt +5"
 msgstr "아다만틴 사슬조끼 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineFullplateStandart::m_DisplayNameText
-#, fuzzy
 msgctxt "2bb20e31-9762-47e8-92d7-1317157fef76"
 msgid "Adamantine Full Plate"
 msgstr "아다만틴 전신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineFullplateStandartPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "c5fcb9cb-0afd-4198-8f30-a963c5f3a01d"
 msgid "Adamantine Full Plate +1"
 msgstr "아다만틴 전신 판금갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineFullplateStandartPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "ea2f8f8b-ccfd-43fe-8d72-5a7cd58f68e6"
 msgid "Adamantine Full Plate +2"
 msgstr "아다만틴 전신 판금갑옷 +2"
@@ -468,14 +416,13 @@ msgstr "아다만틴 전신 판금갑옷 +2"
 #. Path = AdamantineFullplateStandartPlus2_Hellknight::m_DisplayNameText
 msgctxt "dd104126-f18c-4d61-951f-5c9f29bf902b"
 msgid "Adamantine Full Plate +2"
-msgstr ""
+msgstr "아다만틴 전신 판금갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineFullplateStandartPlus3::m_DisplayNameText
 #. 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineFullplateStandartPlus3_Hellknight::m_DisplayNameText
-#, fuzzy
 msgctxt "92cb3c08-de6e-4b96-8be3-43895a1504c8"
 msgid "Adamantine Full Plate +3"
 msgstr "아다만틴 전신 판금갑옷 +3"
@@ -484,108 +431,88 @@ msgstr "아다만틴 전신 판금갑옷 +3"
 #. Path = AdamantineFullplateStandartPlus4_Hellknight::m_DisplayNameText
 msgctxt "d426e95c-3ece-4184-850d-4ab926120520"
 msgid "Adamantine Full Plate +4"
-msgstr ""
+msgstr "아다만틴 전신 판금갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineFullplateStandartPlus4_UseThisOne::m_DisplayNameText
-#, fuzzy
 msgctxt "148b21bc-5e36-4e1b-841d-a17038b42e4b"
 msgid "Adamantine Full Plate +4"
 msgstr "아다만틴 전신 판금갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineFullplateStandartPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "0bd5cd5d-45bf-43cf-b72c-b3d1f817cade"
 msgid "Adamantine Full Plate +5"
 msgstr "아다만틴 전신 판금갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineHalfplate::m_DisplayNameText
-#, fuzzy
-#| msgid "Adamantine Half-plate"
 msgctxt "3ee77fe3-2b08-41f1-be03-a10c165f176d"
 msgid "Adamantine Half-Plate"
 msgstr "아다만틴 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineHalfplatePlus1::m_DisplayNameText
-#, fuzzy
-#| msgid "Adamantine Half-plate +1"
 msgctxt "653140a0-6766-4526-b890-b5ae01393dd6"
 msgid "Adamantine Half-Plate +1"
 msgstr "아다만틴 반신 판금갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineHalfplatePlus2::m_DisplayNameText
-#, fuzzy
-#| msgid "Adamantine Half-plate +2"
 msgctxt "2fff69a2-50af-4a9f-ac4c-1c38e41bd60b"
 msgid "Adamantine Half-Plate +2"
 msgstr "아다만틴 반신 판금갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineHalfplatePlus3::m_DisplayNameText
-#, fuzzy
-#| msgid "Adamantine Half-plate +3"
 msgctxt "7e1ed67d-40c5-4735-acd2-2cfb21781274"
 msgid "Adamantine Half-Plate +3"
 msgstr "아다만틴 반신 판금갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineHalfplatePlus4::m_DisplayNameText
-#, fuzzy
-#| msgid "Adamantine Half-plate +4"
 msgctxt "b1f8e38c-c72d-4f4c-a3e2-dd299abf0e6f"
 msgid "Adamantine Half-Plate +4"
 msgstr "아다만틴 반신 판금갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineHalfplatePlus5::m_DisplayNameText
-#, fuzzy
-#| msgid "Adamantine Half-plate +5"
 msgctxt "47c0c91d-6cd7-4f13-b4c8-82cea0edb7e8"
 msgid "Adamantine Half-Plate +5"
 msgstr "아다만틴 반신 판금갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineScalemail::m_DisplayNameText
-#, fuzzy
 msgctxt "e2cd8066-2f03-4970-9154-514dac4d7826"
 msgid "Adamantine Scalemail"
 msgstr "아다만틴 미늘갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineScalemailPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "6c03c149-6e6d-40bb-8478-57c7a12f157c"
 msgid "Adamantine Scalemail +1"
 msgstr "아다만틴 미늘갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineScalemailPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "4cc44cec-2ec7-4069-a332-89cd0fc8c4a8"
 msgid "Adamantine Scalemail +2"
 msgstr "아다만틴 미늘갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineScalemailPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "7e1e8733-591b-462f-bc15-1ad1b2c7c81c"
 msgid "Adamantine Scalemail +3"
 msgstr "아다만틴 미늘갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineScalemailPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "789bd057-757e-4b06-aa57-bcb963a09051"
 msgid "Adamantine Scalemail +4"
 msgstr "아다만틴 미늘갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AdamantineScalemailPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "efdd30b4-3d5c-4dbc-9d24-b4b5d3fd28fc"
 msgid "Adamantine Scalemail +5"
 msgstr "아다만틴 미늘갑옷 +5"
@@ -608,7 +535,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArbitersRobeItem::m_DisplayNameText
-#, fuzzy
 msgctxt "f8a72ae8-d68d-48b8-b6c9-bef981e078b1"
 msgid "Arbiter's Robe"
 msgstr "중재자의 로브"
@@ -647,11 +573,6 @@ msgstr "대가의 질투"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArchmagesEnvyRobeItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer a +6 enhancement bonus to Intelligence, a +4 "
-#| "enhancement bonus to Wisdom, a +4 armor bonus to AC and the ability to cast "
-#| "prediction of failure spell once per day as a 15th level wizard."
 msgctxt "c43a84e0-35b5-408d-b954-3b6adf3174cf"
 msgid ""
 "This robe grants its wearer a +6 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
@@ -660,8 +581,10 @@ msgid ""
 "{g|Encyclopedia:Armor_Class}AC{/g} and the ability to cast prediction of "
 "failure {g|Encyclopedia:Spell}spell{/g} once per day as a 15th level wizard."
 msgstr ""
-"이 로브는 착용자에게 지능에 +6 강화 보너스, 지혜에 +4 강화 보너스, AC에 +4 갑옷 보너스와 하루에 한 번 15 레벨 위저드의 "
-"실패 예측 주문 시전 능력을 제공합니다."
+"이 로브는 착용자에게 지능에 +6 강화 {g|Encyclopedia:Bonus}보너스{/g}, "
+"{g|Encyclopedia:Wisdom}지혜{/g}에 +4 강화 보너스, {g|Encyclopedia:Armor_Class}AC{/g}"
+"에 +4 갑옷 보너스와 하루에 한 번 15 레벨 위저드의 실패 예측 {g|Encyclopedia:Spell}주문{/g} 시전 능력을 "
+"제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArchmagesEnvyRobeItem::m_FlavorText
@@ -677,7 +600,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PurlingRobeItem::m_FlavorText
-#, fuzzy
 msgctxt "78da2230-7850-4d84-a085-5b195b06f687"
 msgid ""
 "Court artisan Sharel crafted this amazing artifact. He spared no expense for "
@@ -703,30 +625,26 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmagsBreastplate::m_DisplayNameText
-#, fuzzy
 msgctxt "5e4828cf-8f3a-4c26-8aea-0bc6b8565563"
 msgid "Adamantine Breastplate +4"
 msgstr "아다만틴 판금 흉갑 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorBandedMailArmyItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 studded armor grants its wearer a +2 bonus on attack and damage "
-#| "rolls with crossbows."
 msgctxt "f696f565-29ed-4e8f-8d6d-de01ed689882"
 msgid ""
 "This +5 studded armor grants its wearer a +2 {g|Encyclopedia:Bonus}bonus{/g} "
 "on {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage "
 "rolls{/g} with crossbows."
-msgstr "이 +5 징 박힌 가죽갑옷은 착용자가 쇠뇌를 쓸 때 명중 및 피해 굴림에 +2 보너스를 줍니다."
+msgstr ""
+"이 +5 징 박힌 가죽갑옷은 착용자가 쇠뇌를 쓸 때 {g|Encyclopedia:Attack}명중{/g} 및 "
+"{g|Encyclopedia:Damage}피해{/g} 굴림에 +2 {g|Encyclopedia:Bonus}보너스{/g}를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorChainshirtEvilItem::m_DescriptionText
-#, fuzzy
 msgctxt "ff1d6e95-7856-4a36-888d-bf3541bda5c9"
 msgid "This +1 adamantine chainshirt grants its wearer acid resistance 15."
-msgstr "이 +1 아다만틴 사슬조끼는 착용자에게 산성 저항 15를 줍니다."
+msgstr "이 +1 아다만틴 사슬조끼는 착용자에게 산성 저항 15 를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfDispersionItem::m_DisplayNameText
@@ -778,24 +696,20 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfWealthItem::m_DisplayNameText
-#, fuzzy
 msgctxt "e1e2c929-a3d0-444a-86bf-d091a26f9cca"
 msgid "Armor of Wealth"
 msgstr "부귀의 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfWealthItem::m_DescriptionText
-#, fuzzy
-#| msgid "This +5 scalemail grants its wearer DR 5/-."
 msgctxt "f9c9f2f1-a1c9-468c-9769-cea3579d36d3"
 msgid ""
 "This +5 scalemail grants its wearer {g|Encyclopedia:Damage_Reduction}DR{/g} "
 "5/-."
-msgstr "이 +5 미늘갑옷은 착용자에게 DR 5/— 을 제공합니다."
+msgstr "이 +5 미늘갑옷은 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 5/— 을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfWealthItem::m_FlavorText
-#, fuzzy
 msgctxt "7abfbfdc-c44d-40fe-b4d9-e8892611e978"
 msgid "A ridiculously lavish piece of armor."
 msgstr "터무니없이 호화로운 갑옷입니다."
@@ -816,131 +730,113 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = Artifact_TigerArmorItem::m_DisplayNameText
-#, fuzzy
 msgctxt "3952a8c9-8d3c-43b2-9ce7-4196d1cc9b75"
 msgid "Tiger's Stripes"
 msgstr "호랑이 줄무늬"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AssassinsChainshirtItem::m_DisplayNameText
-#, fuzzy
 msgctxt "c37aa60a-c929-4a68-9e0d-e5d2401f4ebb"
 msgid "Assassin's Chainshirt"
 msgstr "암살자의 사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AssassinsChainshirtItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 adamantine chainshirt grants its wearer a +4 bonus on critical "
-#| "confirmation rolls."
 msgctxt "fadaeef1-db17-4438-bb6a-df7b65b399f9"
 msgid ""
 "This +4 adamantine chainshirt grants its wearer a +4 "
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Critical}critical{/g} "
 "confirmation {g|Encyclopedia:Dice}rolls{/g}."
-msgstr "이 +4 아다만틴 사슬조끼는 착용자의 치명타 확정 굴림에 +4의 보너스를 제공합니다."
+msgstr ""
+"이 +4 아다만틴 사슬조끼는 착용자의 {g|Encyclopedia:Critical}치명타{/g} 확정 굴림에 +4의 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AssassinsChainshirtItem::m_FlavorText
-#, fuzzy
 msgctxt "20b77729-7f18-40e6-bbcb-cfed4749da1c"
 msgid "This chainshirt is stained with non-erasable splashes of dried blood."
 msgstr "이 사슬조끼는 튀긴 피가 말라 붙어 지워지지 않는 얼룩이 남았습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AugmentedPlateItem::m_DisplayNameText
-#, fuzzy
 msgctxt "e35d2755-a519-4370-927a-1318558be3ce"
 msgid "Onslaught"
 msgstr "맹격"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AugmentedPlateItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 mithral full plate grants its wearer a +8 enhancement bonus to "
-#| "Strength and increases their movement speed by 20."
 msgctxt "6e295927-9ac1-43da-9b27-dd4bc03d4f84"
 msgid ""
 "This +5 mithral full plate grants its wearer a +8 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Strength}Strength{/g} and "
 "increases their movement {g|Encyclopedia:Speed}speed{/g} by 20."
-msgstr "이 +5 미스랄 전신 판금갑옷은 착용자에게 힘에 +8 강화 보너스와 이동속도 20 증가를 제공합니다."
+msgstr ""
+"이 +5 미스랄 전신 판금갑옷은 착용자의 {g|Encyclopedia:Strength}힘{/g} +8 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}와 {g|Encyclopedia:Speed}이동속도{/g} 20 증가를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = AvinashFullplate::m_DisplayNameText
-#, fuzzy
 msgctxt "cbfef58b-de8c-46d6-b11a-5601155b0e9d"
 msgid "Full Plate +4"
 msgstr "전신 판금갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandart3ACAgainstGiantPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "9c02941d-1216-47fe-8fbd-c79335542844"
 msgid "Giant's Nemesis"
 msgstr "거인의 숙적"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandart3ACAgainstGiantPlus2::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +2 banded mail grants its wearer +3 morale bonus to AC against the "
-#| "attacks of monsters with Giant subtype."
 msgctxt "551ff5d8-a451-481f-9a63-eb91f4f130e4"
 msgid ""
 "This +2 banded mail grants its wearer +3 morale "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
 "against the {g|Encyclopedia:Attack}attacks{/g} of monsters with Giant "
 "subtype."
-msgstr "이 +2 철판 사슬갑옷은 착용자에게 거인 하위유형의 괴물이 가하는 공격에 대한 AC에 +3의 사기 보너스를 제공합니다."
+msgstr ""
+"이 +2 철판 사슬갑옷은 착용자에게 거인 하위유형의 괴물이 가하는 {g|Encyclopedia:Attack}공격{/g}에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +3의 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandartAcidresist25Plus3::m_DisplayNameText
-#, fuzzy
 msgctxt "84f8a100-5ba5-447d-9b70-d779a5d54142"
 msgid "Banded Armor of Greater Acid Resistance"
 msgstr "상급 산성 저항의 철판 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandartAcidresist25Plus3::m_DescriptionText
-#, fuzzy
 msgctxt "296b7a0c-af2c-4c06-a383-2b522e51b907"
 msgid "This +3 banded armor grants its wearer acid resistance 30."
-msgstr "이 +3 철판 사슬갑옷의 착용자에게 산성 저항 +30을 제공합니다."
+msgstr "이 +3 철판 사슬갑옷의 착용자에게 산성 저항 +30 을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandartPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "615c41df-7107-4749-88b8-50c33274078e"
 msgid "Banded Mail +1"
 msgstr "철판 사슬갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandartPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "9118d61b-e366-410d-9bc9-59dd892c70f7"
 msgid "Banded Mail +2"
 msgstr "철판 사슬갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandartPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "c55c851d-fd6e-45f6-806c-b63a6dde7939"
 msgid "Banded Mail +3"
 msgstr "철판 사슬갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandartPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "dbc38326-e8d1-4e24-ad9c-13b7d5c69983"
 msgid "Banded Mail +4"
 msgstr "철판 사슬갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BandedStandartPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "4563407c-ef98-4fa2-be84-218e1596748e"
 msgid "Banded Mail +5"
 msgstr "철판 사슬갑옷 +5"
@@ -993,33 +889,28 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BashingShieldArmor::m_DisplayNameText
-#, fuzzy
 msgctxt "ba9a34a7-473a-4327-97f7-ff117f351888"
 msgid "Bashing Shield"
 msgstr "타격용 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BattlemastersPlate::m_DisplayNameText
-#, fuzzy
 msgctxt "37b127d4-5e51-4d11-a9a6-f720ddf7d5e7"
 msgid "Battlemaster's Plate"
 msgstr "전투대가의 판금"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BattlemastersPlate::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This a +4 mithral full plate grants its wearer ability to cast greater "
-#| "heroism spell once per day as a 11th level wizard."
 msgctxt "6bcc4626-e6ee-4448-a6c0-f95f1e4057ae"
 msgid ""
 "This a +4 mithral full plate grants its wearer ability to cast greater "
 "heroism {g|Encyclopedia:Spell}spell{/g} once per day as a 11th level wizard."
-msgstr "이 +4 미스랄 전신 판금갑옷은 착용자가 하루에 한 번 11 레벨 위저드의 영웅심 주문을 쓸 수 있게 해줍니다."
+msgstr ""
+"이 +4 미스랄 전신 판금갑옷은 착용자가 하루에 한 번 11 레벨 위저드의 영웅심 {g|Encyclopedia:Spell}주문{/g}을 "
+"시전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BattlemastersPlate::m_FlavorText
-#, fuzzy
 msgctxt "94e63fe6-755d-4dea-92ff-5d5a43e2bc5c"
 msgid ""
 "This well-polished, without a scratch, plate armor belonged to a commander "
@@ -1043,30 +934,26 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BlackDragonBreastplateItem::m_DisplayNameText
-#, fuzzy
 msgctxt "d700d238-d63a-4731-b16f-68ae742bb550"
 msgid "Black Dragon Breastplate"
 msgstr "블랙 드래곤 판금 흉갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BlackDragonBreastplateItem::m_DescriptionText
-#, fuzzy
 msgctxt "816d8903-35e9-4021-8e7a-3dce522dcb14"
 msgid ""
 "This +5 breastplate grants its wearer acid resistance 30. It can be used by "
 "druids."
-msgstr "이 +5 판금 흉갑은 착용자에게 산성 저항 30을 제공합니다. 드루이드가 입을 수 있습니다."
+msgstr "이 +5 판금 흉갑은 착용자에게 산성 저항 30 을 제공합니다. 드루이드가 착용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BlackDragonBreastplateItem::m_FlavorText
-#, fuzzy
 msgctxt "c5708176-9e8a-4d3f-9545-b3f514139c40"
 msgid "This armor is adorned with a pattern of fighting dragons."
 msgstr "이 갑옷에는 용이 싸우는 모습이 새겨져 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BladedPlateItem::m_DisplayNameText
-#, fuzzy
 msgctxt "5e115690-39cc-40bf-8c16-4130081b3b21"
 msgid "Bladed Plate"
 msgstr "칼날 판금갑옷"
