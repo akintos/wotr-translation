@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-12 00:04+0900\n"
+"POT-Creation-Date: 2021-09-12 01:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22076,9 +22076,11 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Stats/0/Name
+#, fuzzy
+#| msgid "Community"
 msgctxt "7d11bcd4-c323-4a85-ae4a-5ccd27769a7e"
 msgid "Leadership"
-msgstr ""
+msgstr "주민"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Stats/0/Description
@@ -22103,9 +22105,11 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Stats/2/Name
+#, fuzzy
+#| msgid "Economy"
 msgctxt "9e5b394b-7db2-46ef-9861-87f524720148"
 msgid "Diplomacy"
-msgstr ""
+msgstr "경제"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Stats/2/Description
@@ -22117,9 +22121,11 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Stats/3/Name
+#, fuzzy
+#| msgid "Relations"
 msgctxt "381a2343-5df5-4281-b5a3-19bc1ed94ca2"
 msgid "Military"
-msgstr ""
+msgstr "외교"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Stats/3/Description
@@ -22131,27 +22137,31 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::RavenTexts/BPPerLastPeriod
+#, fuzzy
 msgctxt "9ac32024-02ac-4248-a145-da9f3072b9d0"
 msgid "{0} per last month"
-msgstr ""
+msgstr "지난 달 {0}"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomEventDaysToResolveFormat
+#, fuzzy
 msgctxt "2c1509b4-87ba-4aae-a002-cda4df30d73c"
 msgid "Requires {0} days to solve"
-msgstr ""
+msgstr "해결에 {0}일 필요"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomEventEndTimeFormat
+#, fuzzy
 msgctxt "67b11f18-1d0c-4a3c-9640-a13d5d165fb5"
 msgid "Ends in {0} days"
-msgstr ""
+msgstr "{0}일 후 종료"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/BuildFreeCost
+#, fuzzy
 msgctxt "9afc76dc-63d8-4ed8-a2bf-9dbabbf8a8d1"
 msgid "Free"
-msgstr ""
+msgstr "무료"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomStartEventLabel
@@ -22161,9 +22171,11 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomStartProjectLabel
+#, fuzzy
+#| msgid "Start Project"
 msgctxt "857622ae-6de8-486c-ab69-ce61d2e59f4c"
 msgid "Pass Decree"
-msgstr ""
+msgstr "계획 시작"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomStartClaimLabel
@@ -22173,45 +22185,57 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomSpendProjectTitle
+#, fuzzy
+#| msgid "<b>{0}</b> is occupied with the project \"<b>{1}</b>\"."
 msgctxt "d24c5d23-dde7-4374-892a-985792cb083f"
 msgid "<b>{0}</b> is occupied with the decree \"<b>{1}</b>\"."
-msgstr ""
+msgstr "<b>{0}</b> 은/는 \"<b>{1}</b>\" 계획에 전념중입니다."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomSpendProjectTime
+#, fuzzy
 msgctxt "8cc14b75-3d62-4efc-a2c3-26568c9b0529"
 msgid "Days left: <b>{0}</b>."
-msgstr ""
+msgstr "남은 날짜: <b>{0}</b>."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomProjectStartBPCostFormat
+#, fuzzy
+#| msgid "Project cost: {0} BP"
 msgctxt "fadd27e6-93ef-4f15-940e-0087a4c901f7"
 msgid "Decree cost: {0}"
-msgstr ""
+msgstr "계획 비용: {0} BP"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomProjectStartBPCostInsufficientFormat
+#, fuzzy
+#| msgid "Project cost: {0} BP <#5A2614>(insufficient funds)"
 msgctxt "cc7e3864-16df-469d-8b03-1803afd651c4"
 msgid "Decree cost: {0} <#5A2614>(insufficient funds)"
-msgstr ""
+msgstr "계획 비용: {0} BP <#5A2614>(자금 부족)"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomProjectStartBPCostStartLabelFormat
+#, fuzzy
+#| msgid "Cost: {0} BP"
 msgctxt "2b35f2b3-4208-495a-9552-2d5ca609d534"
 msgid "Cost: {0}"
-msgstr ""
+msgstr "비용: {0} BP"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomProjectStartBPCostStartLabelInsufficientFormat
+#, fuzzy
+#| msgid "Cost: {0} BP <#5A2614>(insufficient funds)"
 msgctxt "291358d3-6d53-43a7-9a79-8ec59468f8eb"
 msgid "Cost: {0} <#5A2614>(insufficient funds)"
-msgstr ""
+msgstr "비용: {0} BP <#5A2614>(자금 부족)"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/RegionWindowSettlementNotClaimHint
+#, fuzzy
 msgctxt "767c55a7-7e4a-4c9a-a125-401de88a67ed"
 msgid "This region has not yet been claimed."
-msgstr ""
+msgstr "이 지역을 아직 점령하지 않았습니다."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/RegionWindowUpgradeTitle
@@ -22227,27 +22251,31 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomIsDeadName
+#, fuzzy
 msgctxt "7e627506-a393-4a59-9719-c34d740ba8a7"
 msgid "Destroyed"
-msgstr ""
+msgstr "멸망"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomLeaderStatByState
+#, fuzzy
 msgctxt "fac398e3-5a0a-42f9-bf08-3853a3ff7741"
 msgid "Kingdom Stat"
-msgstr ""
+msgstr "왕국 지표"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomLeaderStatByRank
+#, fuzzy
 msgctxt "a1db1ffb-7473-49d1-a28c-7d35bbe714be"
 msgid "Stat Rank"
-msgstr ""
+msgstr "지표 등급"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomTeleportationCircle
+#, fuzzy
 msgctxt "38b3c662-956c-4f79-a95e-2e5ccad51510"
 msgid "Teleportation Circle"
-msgstr ""
+msgstr "순간이동 마법진"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomEventWindowDropEventLabel
@@ -22257,9 +22285,11 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomEventWindowDropProjectLabel
+#, fuzzy
+#| msgid "Canceling this project will refund <b>{0}</b> BP."
 msgctxt "7e20bcaf-e1f4-4f70-83e2-ba1ade62016a"
 msgid "Canceling this decree will refund <b>{0}</b>."
-msgstr ""
+msgstr "이 계획을 취소하면 <b>{0}</b> BP를 돌려받습니다."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomEventWindowDropDialogueEventLabel
@@ -22269,39 +22299,46 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomEventWindowDropDialogueProjectLabel
+#, fuzzy
+#| msgid "Cancel Project"
 msgctxt "8c67d41c-6e64-48dc-834a-1f82aa73ba9d"
 msgid "Cancel Decree"
-msgstr ""
+msgstr "계획 취소"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/ConsumableBonusFormat
+#, fuzzy
 msgctxt "2721671f-d6be-4e95-b390-2f6caae5410c"
 msgid "{0} to roll"
-msgstr ""
+msgstr "굴림에 {0}"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/ConsumableCountFormat
+#, fuzzy
 msgctxt "88685360-d39f-4c79-ae42-ecfac89feccf"
 msgid "Available: {0}"
-msgstr ""
+msgstr "사용가능: {0}"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomBptTooltipTotal
+#, fuzzy
 msgctxt "afeaf64b-7e76-4faf-ae9f-ff1ed52200b7"
 msgid "Total"
-msgstr ""
+msgstr "합계"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomBptTooltipBase
+#, fuzzy
 msgctxt "55fc8804-1cc3-42f9-93b5-61de71cdd0b7"
 msgid "Base Income"
-msgstr ""
+msgstr "기본 세입"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomBptTooltipRegion
+#, fuzzy
 msgctxt "783c6035-328f-44a5-b4a8-7cf597e1ba98"
 msgid "Income from Regions"
-msgstr ""
+msgstr "지역별 세입"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomResourcesRequired
@@ -22341,113 +22378,134 @@ msgstr ""
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Settlement/DaysToBuildFormat
+#, fuzzy
 msgctxt "c60c6cf2-0a47-4262-9b3c-cd8253df6bf8"
 msgid "The construction of the building will be finished in <b>{0}</b> days."
-msgstr ""
+msgstr "이 건물은 <b>{0}</b> 일 후에 건설이 완료됩니다."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Settlement/DaysToBuildSimpleFormat
+#, fuzzy
 msgctxt "ed350f3f-87f6-4761-b6cd-55d778304fde"
 msgid "<b>{0}</b> days"
-msgstr ""
+msgstr "<b>{0}</b> 일"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Settlement/SellPriceFormat
+#, fuzzy
+#| msgid "Sell: {0}"
 msgctxt "2f09e1be-86de-460d-96be-8a8ca72d456f"
 msgid "Sell:"
-msgstr ""
+msgstr "판매: {0}"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Settlement/BuyPriceFormat
+#, fuzzy
+#| msgid "Build: {0}"
 msgctxt "89a20bd9-b95a-4f6f-92dc-bde053c480b0"
 msgid "Build:"
-msgstr ""
+msgstr "건물: {0}"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Tooltip/StatValueFormat
+#, fuzzy
 msgctxt "fd274950-1b4e-4977-9c7f-043383b5f8c8"
 msgid "Kingdom Stat Value: {0}"
-msgstr ""
+msgstr "왕국 지표 수치: {0}"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Tooltip/StatRankFormat
+#, fuzzy
 msgctxt "b7f5ab72-d37a-4ca1-9e0c-394402010117"
 msgid "Kingdom Stat Rank: {0}"
-msgstr ""
+msgstr "왕국 지표 등급: {0}"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Tooltip/BuildClickAndDragFormat
+#, fuzzy
 msgctxt "42ea3b2d-2565-4ec5-94cc-67245c42caf1"
 msgid "Click and drag to build"
-msgstr ""
+msgstr "클릭후 드래그로 건설하세요"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Tooltip/BuildCostBpFormat
+#, fuzzy
+#| msgid "Building costs <b>{0}</b> BP"
 msgctxt "fa0ff768-e7ad-4e77-a703-cc8d8b14f99d"
 msgid "Building costs <b>{0}</b>"
-msgstr ""
+msgstr "건설 비용 <b>{0}</b> BP"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Tooltip/BuildCostSlotFormat
+#, fuzzy
 msgctxt "7a47351a-4aba-437d-b232-3ff4ebcd6fdc"
 msgid "Need <b>{0}</b> free slots to build."
-msgstr ""
+msgstr "건물을 지으려면 빈 공간이 <b>{0}</b>칸 필요합니다."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Tooltip/SpendDayDisable
+#, fuzzy
 msgctxt "0af16168-5a6d-42cb-9d41-eb68b2e03fda"
 msgid "You cannot skip time while adventuring."
-msgstr ""
+msgstr "모험 중엔 시간을 건너 뛸 수 없습니다."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Tooltip/SpendDayDisableName
+#, fuzzy
 msgctxt "1928a93b-1361-46a1-9d3a-510a9cceaddc"
 msgid "Skip one day"
-msgstr ""
+msgstr "하루 건너뛰기"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::KingdomStatusChangeReasons/0/Description
+#, fuzzy
 msgctxt "2ea2d520-4dfd-4144-a2c5-492772d8a826"
 msgid "Unknown."
-msgstr ""
+msgstr "알려지지 않음."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::KingdomStatusChangeReasons/3/Description
+#, fuzzy
 msgctxt "60e30c1a-59f8-402c-b56b-ff5ea0fe305d"
 msgid "Event resolution."
-msgstr ""
+msgstr "사건 해결."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::KingdomStatusChangeReasons/4/Description
+#, fuzzy
 msgctxt "2cb062ff-1dde-414b-aa17-3bfb19ccc28a"
 msgid "Quest."
-msgstr ""
+msgstr "퀘스트."
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::ExResourceStateTypeStrings/CantClaimNoKingdom
+#, fuzzy
 msgctxt "b2a7e8d7-89af-4095-a89f-a3f24e92c9db"
 msgid ""
 "This resource can be claimed by any kingdom that has claimed the surrounding "
 "territory"
-msgstr ""
+msgstr "이 자원은 이 지역을 점령해야 사용할 수 있습니다"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::ExResourceStateTypeStrings/CantClaimWrongRegion
+#, fuzzy
 msgctxt "28e84dee-0355-4ab3-815b-22d31daf6919"
 msgid "This resource belongs to a region outside your territories"
-msgstr ""
+msgstr "이 자원은 당신의 영토 밖에 있습니다"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::ExResourceStateTypeStrings/CanClaim
+#, fuzzy
 msgctxt "62814aa3-36ad-4c60-a49d-92968db0dd03"
 msgid "Available for claiming"
-msgstr ""
+msgstr "점령 가능"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::ExResourceStateTypeStrings/Claimed
+#, fuzzy
 msgctxt "95d13551-22b4-42b5-bbc4-c81e26c60e15"
 msgid "Resource claimed"
-msgstr ""
+msgstr "자원 보유"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = AlchemistLaboratory::Description

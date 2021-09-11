@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-12 00:04+0900\n"
+"POT-Creation-Date: 2021-09-12 01:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -788,9 +788,10 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = PuluraFall::Components/0/OnRestActions/Actions/0/IfFalse/Actions/0/Text
+#, fuzzy
 msgctxt "3531dad0-dbfd-428c-a9b1-4109156eee26"
 msgid "You cannot rest here."
-msgstr ""
+msgstr "여기서는 휴식을 취할 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = RaspingRifts::AreaName
@@ -2456,9 +2457,10 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaPreset
 #. Path = AlushinyrraMediumCity_DemonCH4_Preset::m_OverrideGameDifficulty/LocalizedName
+#, fuzzy
 msgctxt "60176daf-5aeb-40b3-aa55-2c350fe1258c"
 msgid "Normal"
-msgstr ""
+msgstr "일반"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaPreset
 #. Path = Alpha_Start_Preset::m_OverrideGameDifficulty/LocalizedDescription
@@ -2474,6 +2476,20 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaPreset
 #. Path = AlushinyrraMediumCity_DemonCH4_Preset::m_OverrideGameDifficulty/LocalizedDescription
+#, fuzzy
+#| msgid ""
+#| "The damage you suffer from enemies and traps is <b>reduced by 20%</b>. "
+#| "Enemies <b>inflict reduced damage on critical hits</b>.\n"
+#| "Your character <b>will not die after suffering a deadly injury</b> for the "
+#| "first time. Instead, they'll be afflicted by the <b>Death's Door</b> "
+#| "condition. If a character with this condition suffers a deadly injury, they "
+#| "will then die. Resting in a comfortable and safe place, such as Oleg's "
+#| "Trading Post, removes the Death's Door condition. Your character can still "
+#| "die from an instant death effect, energy drain, poison, or other similar "
+#| "condition.\n"
+#| "If your main character dies, the game is over. If a companion dies, you can "
+#| "resurrect them with Raise Dead or a similar spell – an extremely expensive "
+#| "service unavailable to most adventurers."
 msgctxt "bba2e8fb-3b6e-4394-8f4d-f72804c283dc"
 msgid ""
 "The damage your character suffers from enemies and traps is <b>reduced by "
@@ -2489,6 +2505,13 @@ msgid ""
 "resurrect them with Raise Dead or a similar spell — an extremely expensive "
 "service unavailable to most adventurers."
 msgstr ""
+"적과 함정으로부터 받게되는 피해량은 <b>20 % 만큼 감소합니다</b>. 적들의 <b>치명타 공격은 감소된 피해를 입힙니다</b>.\n"
+"당신의 캐릭터는 처음에는 <b>치명적인 상해를 입은 뒤에도 죽지는 않을 것</b> 입니다. 대신, 그들은 <b>죽음의 문턱</b> 상태에 "
+"시달릴 것입니다. 이 상태의 캐릭터가 치명적인 상해를 입으면, 그들은 죽을 것입니다. 올레그의 무역소와 같이 편안하고 안전한 장소에서 "
+"쉬면 죽음의 문턱 상태는 제거됩니다. 당신의 캐릭터는 즉시 죽음의 효과, 에너지 드레인, 독 또는 다른 유사한 상태로 인하여 여전히 죽을 "
+"수 있습니다.\n"
+"lf 주인공이 사망하면 게임이 끝납니다. 동료가 죽으면 Raise Dead 또는 대부분의 모험가가 지불하기 어려워하는 매우 비싼 서비스를 "
+"통해 부활시킬 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaPreset
 #. Path = GrayGarrison_FinalSiege_AllFollowers_StoryMode::m_OverrideGameDifficulty/LocalizedName
@@ -2498,9 +2521,10 @@ msgstr ""
 #. 
 #. Type = Kingmaker.QA.Clockwork.BlueprintClockworkScenario
 #. Path = test::OverridePresetDifficulty/LocalizedName
+#, fuzzy
 msgctxt "3f56276e-8f98-4ed5-84ee-b7e89a900cb1"
 msgid "Story"
-msgstr ""
+msgstr "이야기"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaPreset
 #. Path = GrayGarrison_FinalSiege_AllFollowers_StoryMode::m_OverrideGameDifficulty/LocalizedDescription
@@ -2510,6 +2534,14 @@ msgstr ""
 #. 
 #. Type = Kingmaker.QA.Clockwork.BlueprintClockworkScenario
 #. Path = test::OverridePresetDifficulty/LocalizedDescription
+#, fuzzy
+#| msgid ""
+#| "The damage you suffer from enemies and traps is <b>reduced by 80%</b>. "
+#| "Enemies have <b>significantly decreased power and cannot critically hit "
+#| "you.</b>\n"
+#| "Your character <b>will not die after suffering a deadly injury</b>. Instead, "
+#| "they'll fall <b>unconscious</b> until the end of the battle.\n"
+#| "If all your characters fall unconscious, the game is over."
 msgctxt "e6bd12d5-6573-44f6-bad7-20c1db31618e"
 msgid ""
 "The damage your character suffers from enemies and traps is <b>reduced by "
@@ -2519,6 +2551,10 @@ msgid ""
 "they'll fall <b>unconscious</b> until the end of the battle.\n"
 "If all your characters fall unconscious, the game is over."
 msgstr ""
+"적과 함정으로부터 받는 피해는 <b>80% 만큼 감소합니다</b>. 적들은 <b>힘이 상당히 낮아지며 치명타를 낼 수 없습니다.</b>\n"
+"당신의 캐릭터는 <b>치명적인 부상을 당한 후에도 죽지 않을 것</b> 입니다. 대신, 그들은 전투가 끝날 때까지 <b>의식을 잃을</"
+"b> 것입니다.\n"
+"lf 모든 캐릭터가 의식을 잃으면 게임이 끝납니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = Alushinyrra_HigherCity_VellodusMansion::m_Actions/0/Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -2846,9 +2882,10 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintTrap
 #. Path = Lvl7_DraftFireballTrap::TrapActions/Actions/2/WhatToBark
+#, fuzzy
 msgctxt "ac9fe248-4e53-4d57-b525-0bf029a293ee"
 msgid "Trap triggered!"
-msgstr ""
+msgstr "함정 발동!"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Tutorial_Loot::EnterActions/Actions/0/WhatToBark
