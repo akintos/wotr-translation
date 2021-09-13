@@ -1,16 +1,17 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-09-13 22:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.4.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbilitySillyFeed::m_DisplayName
@@ -551,14 +552,6 @@ msgstr "산성 분사"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidicSpray::m_Description
-#, fuzzy
-#| msgid ""
-#| "A spray of acid erupts from your outstretched hand, dealing 1d6 points of "
-#| "acid damage per caster level (maximum 15d6) to each creature within its area "
-#| "(Reflex half). This acid continues to burn for 1 round. At the end of this "
-#| "round every creatures that failed their saving throw against the spell must "
-#| "succeed on another Reflex save or receive 1d6 points of acid damage per two "
-#| "caster levels (maximum 7d6)."
 msgctxt "ff7e8789-4f47-447b-8fda-a57bb1761f15"
 msgid ""
 "A spray of acid erupts from your outstretched hand, dealing "
@@ -571,9 +564,12 @@ msgid ""
 "save or receive 1d6 points of acid {g|Encyclopedia:Damage}damage{/g} per two "
 "caster levels (maximum 7d6)."
 msgstr ""
-"손을 뻗어 산성 액체를 분출하여 범위 내 모든 크리처에게 시전자 레벨 당 1d6 점의 산성 피해를 (최대 15d6) 줍니다. 반사 내성에 "
-"성공하면 피해를 절반으로 줄일 수 있습니다. 이 산은 1 라운드 동안 지속되어 라운드가 끝날 때, 내성에 실패한 모든 크리처는 다시 반사 "
-"내성을 굴려 실패하면 시전자 레벨 2 마다 1d6점의 산성 피해를 (최대 7d6) 받습니다."
+"손을 뻗어 산성 액체를 분출하여 범위 내 모든 크리처에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 "
+"{g|Encyclopedia:Dice}1d6{/g} 점의 {g|Encyclopedia:Energy_Damage}산성 피해{/g}를 (최대 "
+"15d6) 줍니다. 반사 내성에 성공하면 피해를 절반으로 줄일 수 있습니다. 이 산은 1 라운드 동안 지속되어 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}가 끝날 때, 내성에 실패한 모든 크리처는 다시 "
+"{g|Encyclopedia:Spell}주문{/g}에 대해 반사 {g|Encyclopedia:Saving_Throw}내성{/g}을 굴려 "
+"실패하면 시전자 레벨 2 마다 1d6점의 산성 피해를 (최대 7d6) 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidMaw::LocalizedDuration
@@ -589,30 +585,18 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AlignWeaponEvil::LocalizedDuration
-#, fuzzy
 msgctxt "00b2e4c2-aafe-487b-b890-d57473373da7"
 msgid "1 minute/level"
 msgstr "1 분 / 레벨"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidMaw::m_DisplayName
-#, fuzzy
 msgctxt "f3474697-f580-4255-9624-e2be5eccea76"
 msgid "Acid Maw"
-msgstr "산성 아가리"
+msgstr "산성 물기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidMaw::m_Description
-#, fuzzy
-#| msgid ""
-#| "Your animal companion's bite attack deals an additional 1d4 points of acid "
-#| "damage, and the acid deals another 1d4 points of acid damage to the target "
-#| "on the next round.[LONGSTART] The acid continues to deal damage for 1 "
-#| "additional round per 4 caster levels (to a maximum of 6 total rounds at "
-#| "caster level 20th). This ongoing acid damage doesn't stack from multiple "
-#| "attacks, but the duration resets if a newer bite would cause the ongoing "
-#| "damage to last longer than the duration remaining from a previous one. The "
-#| "acid does not harm the animal companion.[LONGEND]"
 msgctxt "b83d61d7-87bf-41ca-b696-9eefd9f0e3ad"
 msgid ""
 "Your animal companion's bite {g|Encyclopedia:Attack}attack{/g} deals an "
@@ -627,10 +611,13 @@ msgid ""
 "the duration remaining from a previous one. The acid does not harm the "
 "animal companion.[LONGEND]"
 msgstr ""
-"동물 동료의 물기 공격은 대상에게 추가적인 1d4점의 산성 피해를 입히고, 그 다음 라운드에 다시 1d4점의 산성 피해를 "
-"입힙니다.[LONGSTART] 이 산성 피해는 시전자 레벨 4마다 추가적으로 한 라운드 더 피해를 입힙니다(20 레벨에 최대 6 라운드 "
-"동안). 이 지속적인 산성 피해는 여러 번의 공격으로 중첩되지는 않지만, 새로운 물기 공격이 명중했을 경우 기존에 남아있던 지속시간을 더 "
-"긴 것으로 갱신합니다. 이 산성은 동물 동료에게는 해가 되지 않습니다.[LONGEND]"
+"동물 동료의 물기 {g|Encyclopedia:Attack}공격{/g}은 대상에게 추가로 "
+"{g|Encyclopedia:Dice}1d4{/g} 점의 {g|Encyclopedia:Energy_Damage}산성 피해{/g}를 "
+"입히고, 그 다음 {g|Encyclopedia:Combat_Round}라운드{/g}에 다시 1d4점의 산성 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다.[LONGSTART] 이 산성 피해는 시전자 레벨 4마다 추가적으로 한 "
+"라운드 더 피해를 입힙니다 ({g|Encyclopedia:Caster_Level}시전자 레벨{/g} 20 에 최대 6 라운드). 이 "
+"지속적인 산성 피해는 여러 번의 공격으로 중첩되지는 않지만, 새로운 물기 공격이 명중했을 경우 기존에 남아있던 지속시간을 더 긴 것으로 "
+"갱신합니다. 이 산성은 동물 동료에게는 해가 되지 않습니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidPit::LocalizedDuration
@@ -646,7 +633,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SpikedPit::LocalizedDuration
-#, fuzzy
 msgctxt "fb690795-9d4e-423b-a81f-44f6e43a17b5"
 msgid "1 round + 1 round/level"
 msgstr "1 라운드 + 1 라운드/레벨"
@@ -665,39 +651,18 @@ msgstr "1 라운드 + 1 라운드/레벨"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CreatePit::LocalizedSavingThrow
-#, fuzzy
 msgctxt "c649bb57-1a11-4d76-ae8c-8caa59feb39b"
 msgid "Reflex negates"
 msgstr "반사로 무효"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidPit::m_DisplayName
-#, fuzzy
 msgctxt "f2860467-d509-4b6f-b0be-a444f2602f7f"
 msgid "Acid Pit"
 msgstr "산성 구덩이"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AcidPit::m_Description
-#, fuzzy
-#| msgid ""
-#| "You create an extra-dimensional hole with a depth of 10 feet per two caster "
-#| "levels (maximum 100 feet). At the bottom of the pit is a pool of acid.\n"
-#| "Any large or smaller creature standing in the area where you first conjured "
-#| "the pit must make a Reflex saving throw to jump to safety in the nearest "
-#| "open space. In addition, the edges of the pit are sloped, and any creature "
-#| "ending its turn on a square adjacent to the pit must make a Reflex saving "
-#| "throw with a +2 bonus to avoid falling into it. Creatures subjected to an "
-#| "effect intended to push them into the pit (such as bull rush) do not get a "
-#| "saving throw to avoid falling in if they are affected by the pushing effect."
-#| "\n"
-#| "Creatures who fall into the pit take falling damage as normal (1d6 "
-#| "bludgeoning damage pet 10 feet), plus 2d6 points of acid damage from per "
-#| "round spent in the pit. The walls of the pit are quite slippery: to climb "
-#| "them, a creature need a successful Athletics or Mobility skill check with a "
-#| "DC of 30. When the duration of the spell ends, creatures within the hole "
-#| "rise up with the bottom of the pit until they are standing on the surface "
-#| "over the course of a single round."
 msgctxt "35dc4761-adc8-48eb-90bf-8cd54ae4cde5"
 msgid ""
 "You create an extra-dimensional hole with a depth of 10 feet per two "
@@ -724,14 +689,19 @@ msgid ""
 "the bottom of the pit until they are standing on the surface over the course "
 "of a single round."
 msgstr ""
-"시전자 레벨 2 마다 10 피트 깊이의 (최대 100 피트) 확장 차원의 구멍을 만듭니다. 구덩이의 바닥에는 산성 웅덩이가 있습니다.\n"
-"처음 구덩이를 생성한 지역에 서있던 모든 대형 크기 이하의 크리처는 반사 내성 굴림을 시도하여 가까운 평지로 뛸 수 있습니다. 또한 "
-"구덩이의 가장자리는 가파르기 때문에 구덩이에 근처에서 턴을 마친 모든 크리처는 +2 보너스를 받고 반사 내성을 굴려 구덩이로 떨어지는 "
-"것을 피해야 합니다. 구덩이로 떨어뜨리기 위한 (황소 돌진 같은) 효과의 영향을 받는 크리처는 밀쳐지는 효과의 영향을 받는 동안 떨어지는 "
-"것을 피하기 위한 내성 굴림을 할 수 없습니다.\n"
-"구덩이로 떨어진 크리처는 정상적인 피해에 (10 피트 당 1d6 부수기 피해) 더해 구덩이 안에 있는 라운드 당 2d6 점의 산성 피해를 "
-"받습니다. 구덩이의 꽤 미끄러운 벽을 오르려면 DC 30의 운동이나 기동성 기술 판정에 성공해야 합니다. 주문의 지속 시간이 끝나면, "
-"구멍 안의 크리처가 서 있는 구덩이의 바닥이 지면까지 솟아오르는 데 한 라운드의 시간이 걸립니다."
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} 2 마다 10 피트 깊이의 (최대 100 피트) 확장 차원의 "
+"구멍을 만듭니다. 구덩이의 바닥에는 산성 웅덩이가 있습니다.\n"
+"처음 구덩이를 생성한 지역에 서있던 모든 대형 크기 이하의 크리처는 반사 {g|Encyclopedia:Saving_Throw}내성 "
+"굴림{/g}을 시도하여 가까운 평지로 뛸 수 있습니다. 또한 구덩이의 가장자리는 가파르기 때문에 구덩이에 근처에서 턴을 마친 모든 "
+"크리처는 +2 {g|Encyclopedia:Bonus}보너스{/g}를 받고 반사 내성을 굴려 구덩이로 떨어지는 것을 피해야 합니다. "
+"구덩이로 떨어뜨리기 위한 (황소 돌진 같은) 효과의 영향을 받는 크리처는 밀쳐지는 효과의 영향을 받는 동안 떨어지는 것을 피하기 위한 "
+"내성 굴림을 할 수 없습니다.\n"
+"구덩이로 떨어진 크리처는 일반적인 낙하 {g|Encyclopedia:Damage}피해{/g}에 (10 피트 당 "
+"{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage_Type}부수기 피해{/g}) 더해 구덩이 "
+"안에 있는 라운드 당 2d6 점의 산성 피해를 받습니다. 구덩이의 꽤 미끄러운 벽을 오르려면 {g|Encyclopedia:DC}DC{/g}"
+" 30의 {g|Encyclopedia:Athletics}운동{/g}이나 {g|Encyclopedia:Mobility}기동성{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 성공해야 합니다. {g|Encyclopedia:Spell}주문{/g}의 지속 "
+"시간이 끝나면, 구멍 안의 크리처가 서 있는 구덩이의 바닥이 지면까지 솟아오르는 데 한 라운드의 시간이 걸립니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AeonBlackHoleAbility::m_DisplayName
@@ -773,7 +743,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Aid::m_DisplayName
-#, fuzzy
 msgctxt "9ff810dd-425f-4b72-b96b-b2ebb82aea70"
 msgid "Aid"
 msgstr "지원"
@@ -783,11 +752,6 @@ msgstr "지원"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AidBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "Aid grants the target a +1 morale bonus on attack rolls and saves against "
-#| "fear effects, plus temporary hit points equal to 1d8 + caster level (to a "
-#| "maximum of 1d8+10 temporary hit points at caster level 10th)."
 msgctxt "ed08f544-58bc-4c7b-981d-7a8a1c53f5e6"
 msgid ""
 "Aid grants the target a +1 morale {g|Encyclopedia:Bonus}bonus{/g} on "
@@ -797,8 +761,10 @@ msgid ""
 "{g|Encyclopedia:Caster_Level}caster level{/g} (to a maximum of 1d8+10 "
 "temporary hit points at caster level 10th)."
 msgstr ""
-"지원은 대상에게 명중 굴림과 공포 효과에 대한 내성에 +1 사기 보너스를 주고, 1d8 + 시전자 레벨 (시전자 레벨 10에 최대 1d8 "
-"+ 10) 의 임시 생명점을 더해줍니다."
+"지원은 대상에게 {g|Encyclopedia:Attack}공격 굴림{/g}과 공포 효과에 대한 "
+"{g|Encyclopedia:Saving_Throw}내성{/g}에 +1 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"주고, {g|Encyclopedia:Dice}1d8{/g} + {g|Encyclopedia:Caster_Level}시전자 레벨{/g} ("
+"시전자 레벨 10 에 최대 1d8 + 10) 의 임시 {g|Encyclopedia:HP}생명점{/g}을 더해줍니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AirBlessingMajorAbility::m_DisplayName
@@ -834,21 +800,12 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AirDomainBaseAbility::m_DisplayName
-#, fuzzy
 msgctxt "32586181-5712-4d57-98ed-e483e76bd669"
 msgid "Lightning Arc"
 msgstr "번개 줄기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AirDomainBaseAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can unleash an arc of electricity targeting any "
-#| "foe within 30 feet as a ranged touch attack. This arc of electricity deals "
-#| "1d6 points of electricity damage + 1 point for every two levels you possess "
-#| "in the class that gave you access to this domain.[LONGSTART] You can use "
-#| "this ability a number of times per day equal to 3 + your Wisdom "
-#| "modifier.[LONGEND]"
 msgctxt "5b122fc7-4d1b-4903-afa1-abbc9ba142f1"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can unleash "
@@ -860,9 +817,11 @@ msgid ""
 "ability a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier.[LONGEND]"
 msgstr ""
-"일반 행동을 사용해서 30 피트 이내에 있는 적에게 원거리 접촉 공격으로 한 줄기의 번개를 방출할 수 있습니다. 번개 줄기는 1d6 + "
-"이 영역을 사용할 수 있게 하는 클래스 레벨 2 당 1 점의 전기 피해를 입힙니다. [LONGSTART]하루에 3 + 지혜 수정치 만큼 "
-"이 능력을 사용할 수 있습니다.[LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 30 피트 이내에 있는 적에게 원거리 "
+"{g|Encyclopedia:TouchAttack}접촉 공격{/g}으로 한 줄기의 번개를 방출합니다. 번개 줄기는 "
+"{g|Encyclopedia:Dice}1d6{/g} + 이 영역을 사용할 수 있게 하는 클래스 레벨 2 당 1 점의 "
+"{g|Encyclopedia:Energy_Damage}전기 피해{/g}를 입힙니다. [LONGSTART]하루에 3 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AirElementalGreaterWhirlwindAbility::m_DisplayName
@@ -878,7 +837,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AirElementalSmallWhirlwindAbility::m_DisplayName
-#, fuzzy
 msgctxt "2e0d1a51-f627-484c-9a0c-5465b09e8ad5"
 msgid "Whirlwind"
 msgstr "회오리바람"
@@ -897,17 +855,6 @@ msgstr "회오리바람"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AirElementalSmallWhirlwindAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "Some creatures can transform themselves into whirlwinds and remain in that "
-#| "form for up to 1 round for every 2 HD they have. A creature in whirlwind "
-#| "form cannot make its normal attacks and does not threaten the area around "
-#| "it. Creatures caught in the whirlwind take a –4 penalty to Dexterity and a –"
-#| "2 penalty on attack rolls and must succeed on a concentration check (DC 15 + "
-#| "spell level) to cast a spell. An affected creature must succeed on a Reflex "
-#| "save (DC 10 + half monster's HD + the monster's Strength modifier) each "
-#| "round or take damage as if it were hit by the whirlwind creature's slam "
-#| "attack."
 msgctxt "cc964698-2c75-4685-8184-5a473937c8a1"
 msgid ""
 "Some creatures can transform themselves into whirlwinds and remain in that "
@@ -926,28 +873,24 @@ msgid ""
 "take {g|Encyclopedia:Damage}damage{/g} as if it were hit by the whirlwind "
 "creature's slam attack."
 msgstr ""
-"일부 크리처들은 그들 자신을 회오리바람 형태로 변환하여 그 형태를 2 HD마다 1라운드씩 유지 할 수 있습니다. 회오리바람 형태의 "
-"크리처는 일반 공격을 할 수 없으며 주변을 위협할 수도 없습니다.(기회 공격 불가) 회오리바람에 붙잡힌 크리처들은 민첩에 -4 페널티와 "
-"명중 굴림에 -2 페널티를 얻고, 주문 시전을 하기 위해선 집중 판정 (DC 15 + 주문레벨)에 성공 해야만 합니다. 영향을 받은 "
-"크리처들은 회오리바람 형태의 크리처가 가진 후려치기 공격의 피해와 같은 피해를 받거나 반사 내성(DC 10 + HD의 절반 + 힘 수정치)"
-"에 성공해야 합니다."
+"일부 크리처들은 회오리바람으로 변신하여 그 형태를 2 HD 마다 1 {g|Encyclopedia:Combat_Round}라운드{/g}씩 "
+"유지 할 수 있습니다. 회오리바람 형태의 크리처는 일반 {g|Encyclopedia:Attack}공격{/g}을 할 수 없으며 주변을 "
+"{g|Encyclopedia:Threatened_Area}위협{/g}할 수도 없습니다 (기회 공격 불가). 회오리바람에 붙잡힌 크리처들은 "
+"{g|Encyclopedia:Dexterity}민첩{/g} 에 -4 {g|Encyclopedia:Penalty}페널티{/g}와 명중 "
+"{g|Encyclopedia:Dice}굴림{/g}에 -2 페널티를 받고, 주문 시전을 하기 위해선 "
+"{g|Encyclopedia:Concentration}집중 판정{/g} ({g|Encyclopedia:DC}DC{/g} 15 + "
+"{g|Encyclopedia:Spell}주문{/g} 레벨) 에 성공해야 합니다. 영향을 받은 크리처들은 회오리바람 형태의 크리처가 가진 "
+"후려치기 공격을 당한것과 같은 피해를 받거나 {g|Encyclopedia:Saving_Throw}반사 내성{/g} (DC 10 + HD의 "
+"절반 + 힘 수정치) 에 성공해야 합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AlchemistsFireThrowCutscene::m_DisplayName
-#, fuzzy
 msgctxt "178510b1-7494-4ae0-a906-e241d3aa0ae5"
 msgid "Alchemist's Fire"
 msgstr "연금술사의 불"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AlchemistsFireThrowCutscene::m_Description
-#, fuzzy
-#| msgid ""
-#| "You can throw a flask of alchemist's fire as a splash weapon with a range "
-#| "increment of 10 feet.\n"
-#| "A direct hit deals 2d6 points of fire damage. Every creature within 5 feet "
-#| "of the point where the flask hits takes 1 point of fire damage from the "
-#| "splash."
 msgctxt "288fe54a-0e12-4c5f-aa3a-932e78eb567d"
 msgid ""
 "You can throw a flask of alchemist's fire as a splash weapon with a range "
@@ -958,8 +901,9 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} from the splash."
 msgstr ""
 "연금술사의 불 플라스크를 던져 10 피트 범위의 확산 무기로 쓸 수 있습니다. \n"
-"직격시 2d6점의 화염 피해를 입힙니다. 플라스크가 부딪히는 지점에서 5 피트 이내에 있는 모든 크리처는 확산으로 인한 화염 피해 1 "
-"점을 받습니다."
+"직격시 {g|Encyclopedia:Dice}2d6{/g} 점의 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 "
+"입힙니다. 플라스크가 부딪히는 지점에서 5 피트 이내에 있는 모든 크리처는 확산으로 인한 화염 "
+"{g|Encyclopedia:Damage}피해{/g} 1 점을 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AlignWeapon::m_DisplayName
@@ -1026,10 +970,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DominateMonster::LocalizedSavingThrow
-#, fuzzy
 msgctxt "50f1639f-a789-4939-bab6-557375828c4d"
 msgid "Will negates (save each round)"
-msgstr "의지로 무효"
+msgstr "의지로 무효 (매 라운드마다 판정)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AmberLoveRodItemDominatePerson::m_DisplayName
@@ -1039,7 +982,6 @@ msgstr "의지로 무효"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DominatePersonKitsune::m_DisplayName
-#, fuzzy
 msgctxt "e117c652-1032-4798-abec-31fa585c96e1"
 msgid "Dominate Person"
 msgstr "사람 지배"
@@ -1052,11 +994,6 @@ msgstr "사람 지배"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DominatePersonKitsune::m_Description
-#, fuzzy
-#| msgid ""
-#| "You can make any humanoid creature fight on your side as if it was your "
-#| "ally. It will attack your opponents to the best of its ability. However this "
-#| "creature will try to throw off the domination, making a Will save each round."
 msgctxt "9955e3b2-5df8-4f07-bd59-3445b94ffce0"
 msgid ""
 "You can make any humanoid creature fight on your side as if it was your "
@@ -1065,12 +1002,12 @@ msgid ""
 "making a {g|Encyclopedia:Saving_Throw}Will save{/g} each "
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
-"어떤 인간형 크리처라도 당신의 편에 서서 싸우게 만듭니다. 대상은 자신의 능력을 최대한 활용해 적을 공격합니다. 그러나 매 라운드 마다 "
-"의지 내성을 굴려 성공하면 지배에서 벗어납니다."
+"어떤 인간형 크리처라도 당신의 편에 서서 싸우게 만듭니다. 대상은 자신의 능력을 최대한 활용해 적을 공격합니다. 그러나 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}마다 {g|Encyclopedia:Saving_Throw}의지 내성{/g}"
+"을 굴려 성공하면 지배에서 벗어납니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AncientWarWispLightningForm::m_DisplayName
-#, fuzzy
 msgctxt "89c28454-2cdd-4ff2-a763-631400726574"
 msgid "Lightning Form"
 msgstr "번개치기"
@@ -1174,6 +1111,18 @@ msgid ""
 "throws. It also needs to make a successful Reflex saving throw, or become "
 "prone."
 msgstr ""
+"강력한 에너지의 줄기를 내뿜어 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d6{/g} 점의 신성 {g|Encyclopedia:Damage}피해{/g}를 가합니다. 대상이 "
+"{g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 실패하면 쓰러집니다.\n"
+"만약 대상이 악 성향이면, 이 {g|Encyclopedia:Spell}주문{/g}은 대신 시전자 레벨당 1d8 점의 "
+"{g|Encyclopedia:Energy_Damage}신성 피해{/g}를 가합니다. 대상이 반사 내성 굴림에 실패하면 쓰러지며 "
+"{g|Encyclopedia:Armor_Class}AC{/g}, {g|Encyclopedia:Attack}공격 굴림{/g}, 내성 굴림에 "
+"-2 의 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다.\n"
+"만약 대상이 악 성향의 외차원체나 언데드라면, 이 주문은 대신 시전자 레벨 당 1d10 점의 신성 피해를 가합니다. 대상이 반사 내성 "
+"굴림에 실패하면 쓰러지며 AC, 공격 굴림, 내성 굴림에 -4 의 페널티를 받습니다.\n"
+"만약 대상이 악마 군주, 악 성향 드래곤이거나 언데드 군주(리치, 언데드 드래곤, 나이트셰이드와 같은 강력한 언데드)일 경우, 이 주문은 "
+"대신 시전자 레벨 당 1d12 점의 신성 피해를 가합니다. 대상은 AC, 공격 굴림, 내성 굴림에 -4 의 페널티를 받으며, 반사 내성 "
+"굴림에 실패하면 쓰러집니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelBringBackCast::LocalizedSavingThrow
@@ -1189,7 +1138,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ArmyCureSeriousWounds::LocalizedSavingThrow
-#, fuzzy
 msgctxt "9ed3f157-8f6b-4118-817f-58483ef27f9c"
 msgid "Will half if used to damage"
 msgstr "피해로 쓰면 의지로 절반"
@@ -1228,7 +1176,7 @@ msgstr ""
 #. Path = AngelCleansingFlames::m_DisplayName
 msgctxt "ef29e688-7e01-4125-a14f-61fda50b99d9"
 msgid "Cleansing Flames"
-msgstr ""
+msgstr "정화의 불꽃"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelCleansingFlames::m_Description
@@ -1244,12 +1192,17 @@ msgid ""
 "conditions. Additionally, it tries to dispel all diseases, poisons and "
 "curses from the allies."
 msgstr ""
+"주문의 범위 안에 있는 모든 적에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d6{/g} 점의 {g|Encyclopedia:Energy_Damage}신성 피해{/g}를 "
+"가합니다. 아군들은 시전자 레벨당 1 점의 신성 피해를 받지만, 대신 모든 종류의 "
+"{g|Encyclopedia:Ability_Scores}능력치{/g} 피해, 실명, 혼란, 눈부심, 피로, 탈진, 구토, 고통 상태에서 "
+"회복됩니다. 추가로, 모든 질병, 독, 저주의 해제를 시도합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelEyeOfTheSun::m_DisplayName
 msgctxt "3e874eb5-fc8f-4a95-bef0-eb2a0d5a9059"
 msgid "Eye of the Sun"
-msgstr ""
+msgstr "태양의 눈"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelEyeOfTheSun::m_Description
@@ -1261,6 +1214,10 @@ msgid ""
 "successful {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} reduces the "
 "amount to {g|Encyclopedia:Dice}1d12{/g} damage per caster level."
 msgstr ""
+"30 피트 범위 내에 있는 모든 적에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 12 점의 "
+"{g|Encyclopedia:Damage}피해{/g}를 가합니다. 이 피해의 절반은 {g|Encyclopedia:Energy_Damage}"
+"화염 피해{/g}이고, 나머지 절반은 신성 피해입니다. {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 "
+"성공하면 피해량이 시전자 레벨 당 {g|Encyclopedia:Dice}1d12{/g} 로 감소합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelfireApostleVersatileChannelBreathOfLifeCast::m_DisplayName
@@ -1273,7 +1230,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WhiteMageBreathOfLifeCast::m_DisplayName
-#, fuzzy
 msgctxt "07abdaf2-d67e-4079-b7bd-133f0d96bd45"
 msgid "Breath of Life"
 msgstr "생명의 숨결"
@@ -1289,22 +1245,6 @@ msgstr "생명의 숨결"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WhiteMageBreathOfLifeCast::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell cures 5d8 points of damage + 1 point per caster level (maximum "
-#| "+25).\n"
-#| "Unlike other spells that heal damage, breath of life can bring recently "
-#| "slain creatures back to life. If cast upon a creature that has died within 2 "
-#| "rounds, apply the healing from this spell to the creature. If the healed "
-#| "creature's hit point total is at a negative amount less than its "
-#| "Constitution score, it comes back to life and stabilizes at its new hit "
-#| "point total. If the creature's hit point total is at a negative amount equal "
-#| "to or greater than its Constitution score, the creature remains dead. "
-#| "Creatures brought back to life through breath of life gain a temporary "
-#| "negative level that lasts for 1 day.\n"
-#| "Creatures slain by death effects cannot be saved by breath of life.\n"
-#| "Like cure spells, breath of life deals damage to undead creatures rather "
-#| "than curing them, and cannot bring them back to life."
 msgctxt "3c13dd71-0d76-47fb-a1c0-c2eded2b9bbc"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} cures {g|Encyclopedia:Dice}5d8{/g} "
@@ -1325,13 +1265,16 @@ msgid ""
 "Like cure spells, breath of life deals damage to undead creatures rather "
 "than curing them, and cannot bring them back to life."
 msgstr ""
-"이 주문은 5d8 + 시전자 레벨당 1 점 (최대 +25)의 생명점을 치료합니다.\n"
-"피해를 치유하는 다른 주문과 달리, 생명의 숨결 주문은 최근에 살해당한 크리처의 생명을 되돌릴 수 있습니다. 이 주문을 2 라운드 내에 "
-"죽은 크리처에게 시전하면 치유 효과를 적용합니다. 치유 받는 크리처의 생명점이 해당 크리처의 건강 능력치의 음수보다 높다면 대상은 "
-"되살아나고 새로운 생명점을 가진 채로 안정 상태가 됩니다. 만약 크리처의 생명점이 해당 크리처의 건강 수치의 음수와 같거나 그보다 낮다면 "
-"크리처는 죽은 상태로 남아있습니다. 생명의 숨결 주문을 통해 살아난 크리처는 하루 동안 일시적으로 레벨이 1 감소합니다.\n"
-"즉사 효과로 인해 죽은 크리처는 생명의 숨결을 통해 되살릴 수 없습니다.\n"
-"치료 주문들처럼 생명의 숨결은 언데드 크리처에게는 치료 대신 피해를 주며, 언데드를 다시 되살리지 않습니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 {g|Encyclopedia:Dice}5d8{/g} + "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 1 점 (최대 +25) 의 생명점을 치료합니다.\n"
+"{g|Encyclopedia:Damage}피해{/g}를 {g|Encyclopedia:Healing}치유{/g}하는 다른 주문과 달리, "
+"생명의 숨결 주문은 최근에 살해당한 크리처를 되살릴 수 있습니다. 이 주문을 2 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 내에 죽은 크리처에게 시전하면 대상에게 치유 효과를 적용합니다. 치유를 "
+"받은 크리처의 생명점이 해당 크리처의 건강 능력치의 음수보다 높다면 대상은 되살아나고 새로운 생명점을 가진 채로 안정 상태가 됩니다. "
+"만약 크리처의 생명점이 해당 크리처의 건강 수치의 음수와 같거나 그보다 낮다면 크리처는 죽은 상태로 남아있습니다. 생명의 숨결 주문을 "
+"통해 살아난 크리처는 하루 동안 일시적으로 레벨이 1 감소합니다.\n"
+"{g|Encyclopedia:Injury_Death}즉사{/g} 효과로 인해 죽은 크리처는 생명의 숨결을 통해 되살릴 수 없습니다.\n"
+"다른 치료 주문들과 같이, 생명의 숨결은 언데드 크리처에게는 치료 대신 피해를 주며, 언데드를 되살리지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelfireApostleVersatileChannelHealCast::m_DisplayName
@@ -1341,7 +1284,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HealDamage::m_DisplayName
-#, fuzzy
 msgctxt "71a82dce-0b4a-4a6a-bda6-3198f1d11e02"
 msgid "Heal"
 msgstr "치유"
@@ -1357,17 +1299,6 @@ msgstr "치유"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HealDamage::m_Description
-#, fuzzy
-#| msgid ""
-#| "Heal enables you to channel positive energy into a creature to wipe away "
-#| "injury and afflictions. It immediately ends any and all of the following "
-#| "adverse conditions affecting the target: ability damage, blinded, confused, "
-#| "dazed, dazzled, diseased, exhausted, fatigued, nauseated, poisoned, "
-#| "sickened, and stunned. It also cures 10 hit points of damage per level of "
-#| "the caster, to a maximum of 150 points at 15th level.\n"
-#| "Heal does not remove negative levels or restore permanently drained ability "
-#| "score points.\n"
-#| "If used against an undead creature, heal instead acts like harm."
 msgctxt "482fff6e-067f-47d6-b251-fcd1c9fed9a7"
 msgid ""
 "{g|Encyclopedia:Healing}Heal{/g} enables you to channel positive energy into "
@@ -1382,9 +1313,10 @@ msgid ""
 "{g|Encyclopedia:Ability_Scores}ability score{/g} points.\n"
 "If used against an undead creature, heal instead acts like harm."
 msgstr ""
-"치유는 한 크리처가 지닌 상처와 고통을 없애는 양에너지를 전달합니다. 이 주문은 즉시 대상이 지닌 능력치 피해, 실명, 혼란, 몽롱, "
-"눈부심, 질병, 탈진, 피로, 구토, 중독, 고통, 기절 상태를 제거합니다. 또한 시전자 레벨당 10점의 생명점을 치료하여, 15 레벨에 "
-"최대 150 점까지 피해를 치료합니다..\n"
+"{g|Encyclopedia:Healing}치유{/g}는 한 크리처가 지닌 {g|Encyclopedia:Injury_Death}상처{/g}"
+"와 고통을 없애는 양에너지를 전달합니다. 이 주문은 즉시 대상이 지닌 {g|Encyclopedia:AbilityDamage}능력치 "
+"피해{/g}, 실명, 혼란, 몽롱, 눈부심, 질병, 탈진, 피로, 구토, 중독, 고통, 기절 상태를 제거합니다. 또한 시전자 레벨당 10 "
+"점의 생명점을 치료하여, 15 레벨에 최대 150 점까지 피해를 치료합니다.\n"
 "치유는 음수 레벨을 제거하거나 영구적으로 흡수된 능력치 점수를 회복하지 않습니다. \n"
 "언데드 크리처에게 사용할 경우 위해와 같은 효과를 지닙니다."
 
@@ -1393,7 +1325,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = NeutralizePoison::m_DisplayName
-#, fuzzy
 msgctxt "219b9353-7864-46d6-944e-6a8883487c45"
 msgid "Neutralize Poison"
 msgstr "독 중화"
@@ -1403,16 +1334,6 @@ msgstr "독 중화"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = NeutralizePoison::m_Description
-#, fuzzy
-#| msgid ""
-#| "You detoxify any sort of venom in the creature or object touched. If the "
-#| "target is a creature, you must make a caster level check (1d20 + caster "
-#| "level) against the DC of each poison affecting the target. Success means "
-#| "that the poison is neutralized.[LONGSTART] A cured creature suffers no "
-#| "additional effects from the poison, and any temporary effects are ended, but "
-#| "the spell does not reverse instantaneous effects, such as hit point damage, "
-#| "temporary ability damage, or effects that don't go away on their "
-#| "own.[LONGEND]"
 msgctxt "314e535e-523a-4ebe-83f1-7fff35a0ba83"
 msgid ""
 "You detoxify any sort of venom in the creature or object touched. If the "
@@ -1426,17 +1347,18 @@ msgid ""
 "temporary {g|Encyclopedia:AbilityDamage}ability damage{/g}, or effects that "
 "don't go away on their own.[LONGEND]"
 msgstr ""
-"당신은 접촉한 크리처나 물체의 독을 제거합니다. 대상이 크리처면 대상에 영향을 미치는 각 독의 DC에 대해 시전자 레벨 판정을 (1d20 "
-"+ 시전자 레벨) 수행해야합니다. 성공이란 독이 무력화되었음을 의미합니다.[LONGSTART] 치료된 크리처는 독으로부터 추가적인 "
-"영향이나 일시적인 효과를 받지 않게 되지만, 생명점 피해나 일시적인 능력치 피해 같은 즉발 효과나, 저절로 사라지지 않는 효과는 되돌릴 "
-"수 없습니다. [LONGEND]"
+"당신은 접촉한 크리처나 물체의 독을 제거합니다. 대상이 크리처면 대상에 영향을 미치는 각 독의 "
+"{g|Encyclopedia:DC}DC{/g} 에 대해 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} "
+"{g|Encyclopedia:Check}판정{/g}을 ({g|Encyclopedia:Dice}1d20{/g} + 시전자 레벨) "
+"수행해야합니다. 성공하면 독이 중화됩니다.[LONGSTART] 치료된 크리처는 독으로부터 추가적인 영향이나 일시적인 효과를 받지 않게 "
+"되지만 생명점 피해, 일시적인 {g|Encyclopedia:AbilityDamage}능력치 피해{/g}와 같은 즉발 효과, 저절로 "
+"사라지지 않는 효과는 되돌릴 수 없습니다. [LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelfireApostleVersatileChannelRemoveBlindness::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveBlindness::m_DisplayName
-#, fuzzy
 msgctxt "e76bc3ff-c6f5-40de-b099-bb677a77fdf1"
 msgid "Remove Blindness"
 msgstr "실명 제거"
@@ -1446,7 +1368,6 @@ msgstr "실명 제거"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveBlindness::m_Description
-#, fuzzy
 msgctxt "39db39e8-3367-47bf-b7d6-5c751a8c1018"
 msgid ""
 "Remove blindness cures blindness, whether the effect is normal or magical in "
@@ -1458,7 +1379,6 @@ msgstr "실명 제거는 일반적이거나 마법적인 실명 효과를 치료
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveDisease::m_DisplayName
-#, fuzzy
 msgctxt "075d4f1a-1e75-4030-bd3f-ced8307e25f4"
 msgid "Remove Disease"
 msgstr "질병 제거"
@@ -1468,11 +1388,6 @@ msgstr "질병 제거"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveDisease::m_Description
-#, fuzzy
-#| msgid ""
-#| "Remove disease can cure all diseases from which the subject is suffering. "
-#| "You must make a caster level check (1d20 + caster level) against the DC of "
-#| "each disease affecting the target. Success means that the disease is cured."
 msgctxt "dd23f04b-a0b4-4de1-8780-2a2b3da0cc5e"
 msgid ""
 "Remove disease can {g|Encyclopedia:Healing}cure{/g} all diseases from which "
@@ -1482,7 +1397,9 @@ msgid ""
 "{g|Encyclopedia:DC}DC{/g} of each disease affecting the target. Success "
 "means that the disease is cured."
 msgstr ""
-"대상이 앓는 모든 질병을 치료할 수 있습니다. 대상에게 걸린 질병 각각의 DC로 시전자 레벨 판정(1d20 + 시전자 레벨)을 합니다. "
+"대상이 가진 모든 질병을 {g|Encyclopedia:Healing}치료{/g}합니다. 대상에게 걸린 질병 각각의 "
+"{g|Encyclopedia:DC}DC{/g} 로 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} "
+"{g|Encyclopedia:Check}판정{/g}({g|Encyclopedia:Dice}1d20{/g}+ 시전자 레벨)을 합니다. "
 "성공하면 그 질병은 제거됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -1490,7 +1407,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveParalysis::m_DisplayName
-#, fuzzy
 msgctxt "e96d76e9-ac5d-4c1e-a117-2b0237cae7ac"
 msgid "Remove Paralysis"
 msgstr "마비 제거"
@@ -1500,7 +1416,6 @@ msgstr "마비 제거"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveParalysis::m_Description
-#, fuzzy
 msgctxt "72e097b9-9ba4-4a0d-abfc-72b07c1dd5e2"
 msgid "Removes paralysis from target creature."
 msgstr "대상 크리처의 마비 상태를 제거합니다."
@@ -1510,7 +1425,6 @@ msgstr "대상 크리처의 마비 상태를 제거합니다."
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Restoration::m_DisplayName
-#, fuzzy
 msgctxt "f41d0ac6-2bea-4b52-9af9-ff901b703e9c"
 msgid "Restoration"
 msgstr "상태회복"
@@ -1536,6 +1450,13 @@ msgid ""
 "subject's ability scores. It also eliminates any fatigue suffered by the "
 "character. It does not restore permanent ability drain."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 모든 일시적 음수 레벨 또는 하나의 영구적인 음수 레벨을 제거한다는 점을 빼면 "
+"하급 상태회복과 동일합니다.\n"
+"상태회복은 일시적인 {g|Encyclopedia:AbilityDamage}능력치 피해{/g}를 모두 치료하고, 영구적으로 소진당한 능력치 "
+"하나를 전부 회복하며, 대상의 피로와 탈진을 제거합니다.\n"
+"하급 상태회복: 이 주문은 대상의 능력치 하나를 일시적으로 감소시키는 모든 마법 효과 (저주나 질병 같은 영구적인 효과는 제거하지 "
+"못합니다) 를 해제하거나, 능력치 하나의 일시적인 피해를 {g|Encyclopedia:Dice}1d4{/g} 점 치료합니다. 또한 "
+"캐릭터의 모든 피로 상태를 제거합니다. 이 주문으로는 영구적인 능력치 흡수는 회복할 수 없습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelfireApostleVersatileChannelRestorationLesser::m_DisplayName
@@ -1545,7 +1466,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RestorationLesserAasimar::m_DisplayName
-#, fuzzy
 msgctxt "5c326089-2e9f-4493-a556-525436428d44"
 msgid "Restoration, Lesser"
 msgstr "상태회복, 하급"
@@ -1558,13 +1478,6 @@ msgstr "상태회복, 하급"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RestorationLesserAasimar::m_Description
-#, fuzzy
-#| msgid ""
-#| "Lesser restoration dispels any temporary magical effects reducing one of the "
-#| "subject's ability scores (it does not remove permanent effects such as "
-#| "curses or diseases) or cures 1d4 points of temporary ability damage to one "
-#| "of the subject's ability scores. It also eliminates any fatigue suffered by "
-#| "the character. It does not restore permanent ability drain."
 msgctxt "4b7bf98d-b1df-43e6-a1b1-1c359b26443d"
 msgid ""
 "Lesser {g|Encyclopedia:Healing}restoration{/g} dispels any temporary magical "
@@ -1575,16 +1488,16 @@ msgid ""
 "ability scores. It also eliminates any fatigue suffered by the character. It "
 "does not restore permanent ability drain."
 msgstr ""
-"하급 상태회복은 대상의 능력치 하나를 줄이는 모든 일시적 마법 효과(저주나 질병 같은 영구적인 효과는 제거하지 못합니다)를 해제하거나, "
-"능력치 하나의 일시적인 피해를 1d4점 치료합니다. 또한 캐릭터의 모든 피로 상태를 제거합니다. 이 주문으로는 영구적인 능력치 흡수는 "
-"회복할 수 없습니다."
+"하급 상태회복은 대상의 {g|Encyclopedia:Ability_Scores}능력치{/g} 하나를 일시적으로 감소시키는 모든 마법 효과 "
+"(저주나 질병 같은 영구적인 효과는 제거하지 못합니다) 를 해제하거나, 능력치 하나의 일시적인 "
+"{g|Encyclopedia:AbilityDamage}피해{/g}를 {g|Encyclopedia:Dice}1d4{/g} 점 치료합니다. "
+"또한 캐릭터의 모든 피로 상태를 제거합니다. 이 주문으로는 영구적인 능력치 흡수는 회복할 수 없습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelfireApostleVersatileChannelResurrection::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Resurrection::m_DisplayName
-#, fuzzy
 msgctxt "25c550cb-96d6-4d3e-b498-9b7ac90844a0"
 msgid "Resurrection"
 msgstr "부활"
@@ -1594,13 +1507,6 @@ msgstr "부활"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Resurrection::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell functions like raise dead, except that you are able to restore "
-#| "life and complete strength to any deceased creature, even the ones killed by "
-#| "death effect or disintegration.\n"
-#| "Upon completion of the spell, the creature is immediately restored to full "
-#| "hit points, vigor, and health, with no loss of prepared spells."
 msgctxt "1893195f-61a7-4ced-9275-18ef3b75628c"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} functions like raise dead, except that "
@@ -1612,9 +1518,10 @@ msgid ""
 "{g|Encyclopedia:HP}hit points{/g}, vigor, and "
 "{g|Encyclopedia:Healing}health{/g}, with no loss of prepared spells."
 msgstr ""
-"이 주문은 모든 사망한 크리처, 심지어 즉사 효과 또는 분해로 인해 사망한 크리처까지도 생명과 완전한 힘을 회복할 수 있다는 점을 "
-"제외하고는 소생과 같은 기능을 합니다. \n"
-"주문이 완성되면, 즉시 생명점, 활기 및 건강에 회복되며 준비해둔 주문을 잃지 않습니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 소생과 같은 기능을 하지만, 모든 사망한 크리처, 심지어는 "
+"{g|Encyclopedia:Injury_Death}즉사{/g} 효과 또는 분해로 인해 사망한 크리처까지도 되살릴 수 있으며, 완전한 "
+"상태로 회복시킨다는 점에서 다릅니다.\n"
+"주문이 완성되면, 대상 크리처는 즉시 완전한 생명점, 활기 및 건강으로 회복되며 준비한 주문 또한 모두 회복됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelFortressOfTheFaithful::LocalizedDuration
@@ -1630,7 +1537,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ObsidianFlow::LocalizedDuration
-#, fuzzy
 msgctxt "9e29a1ac-9b6c-42e1-aa32-08b51962127f"
 msgid "1 hour"
 msgstr "1 시간"
@@ -1639,7 +1545,7 @@ msgstr "1 시간"
 #. Path = AngelFortressOfTheFaithful::m_DisplayName
 msgctxt "e631d38d-1396-41d3-8b47-fcaac643169a"
 msgid "Fortress of the Faithful"
-msgstr ""
+msgstr "신앙의 요새"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelFortressOfTheFaithful::m_Description
@@ -1648,12 +1554,14 @@ msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} works as Aegis of the Faithful, but "
 "affects all allies in 20 feet radius and lasts for 1 hour."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 신앙의 방패와 동일한 효과를 갖지만, 20 피트 내에 있는 모든 아군에게 "
+"적용되며 1 시간 동안 지속됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelGaleOfLife::m_DisplayName
 msgctxt "7daa4f07-b061-44a0-b3a8-87a2832da0a4"
 msgid "Gale of Life"
-msgstr ""
+msgstr "생명의 질풍"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelGaleOfLife::m_Description
@@ -1662,6 +1570,8 @@ msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} works as Breath of Life, but affects "
 "all allies in 20 feet radius."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 생명의 숨결와 동일한 효과를 갖지만, 20 피트 내에 있는 모든 아군에게 "
+"적용됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelGrantRepose::m_DisplayName
@@ -1685,12 +1595,16 @@ msgid ""
 "{g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Damage}damage{/g} plus 1 damage "
 "per 2 {g|Encyclopedia:Caster_Level}caster levels{/g}."
 msgstr ""
+"언데드 크리처에게 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 합니다. 대상이 "
+"{g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}에 실패하면 즉시 파괴됩니다. 대상이 내성 굴림에 성공하면, "
+"{g|Encyclopedia:Dice}2d6{/g} + 2 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 1 "
+"점의 피해를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelHolyHymn::m_DisplayName
 msgctxt "93c239e0-52b7-49d1-af73-eb0a05d98b88"
 msgid "Holy Hymn"
-msgstr ""
+msgstr "신성한 찬가"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelHolyHymn::m_Description
@@ -1707,7 +1621,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelicAspect::m_DisplayName
-#, fuzzy
 msgctxt "b26f1398-c33b-4287-b325-65e369e40a1c"
 msgid "Angelic Aspect"
 msgstr "천사의 형상"
@@ -1742,10 +1655,9 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelicAspectGreater::m_DisplayName
-#, fuzzy
 msgctxt "f44715de-c76d-4ee2-a0ae-be210f487766"
 msgid "Angelic Aspect, Greater"
-msgstr "상급 천사의 형상 오라"
+msgstr "상급 천사의 형상"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelicAspectGreater::m_Description
@@ -4387,7 +4299,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIId3::m_DisplayName
-#, fuzzy
 msgctxt "b2053d53-cae4-4ef8-98aa-ad3a42fd82e1"
 msgid "Summon Nature's Ally II (1d3 Mites)"
 msgstr "자연의 동맹 소환 II (1d3 마이트)"
@@ -4397,11 +4308,6 @@ msgstr "자연의 동맹 소환 II (1d3 마이트)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural mites. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "7c1c1e6b-4d96-4e85-9700-c05e6ca01bea"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4411,8 +4317,9 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 마이트 1d3 명을 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 "
-"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 마이트{g|Encyclopedia:Dice}1d3{/g} 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIIId3::m_DisplayName
@@ -4422,7 +4329,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIIId3::m_DisplayName
-#, fuzzy
 msgctxt "8deb3460-328f-40ad-8c47-6daa3c83c8f2"
 msgid "Summon Nature's Ally III (1d3 Giant Frogs)"
 msgstr "자연의 동맹 소환 III (거대 개구리 1d3 마리)"
@@ -4435,11 +4341,6 @@ msgstr "자연의 동맹 소환 III (거대 개구리 1d3 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural giant frogs. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "8a6428f1-85a7-407f-86c5-33c9f7d9afd5"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4449,8 +4350,9 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 거대 개구리 1d3 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 "
-"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 거대 개구리 {g|Encyclopedia:Dice}1d3{/g} "
+"마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g}"
+" {g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIIId4plus1::m_DisplayName
@@ -4460,7 +4362,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIIId4plus1::m_DisplayName
-#, fuzzy
 msgctxt "3ba50350-a9c9-41d1-b0cb-397bce2c0ea9"
 msgid "Summon Nature's Ally III (1d4+1 Mites)"
 msgstr "자연의 동맹 소환 III (1d4+1 마이트)"
@@ -4473,11 +4374,6 @@ msgstr "자연의 동맹 소환 III (1d4+1 마이트)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIIId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d4+1 natural mites. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "5caa2777-4bbc-4015-849a-324c66da561a"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4487,8 +4383,9 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 마이트 1d4+1 명을 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 "
-"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 마이트{g|Encyclopedia:Dice}1d4{/g}+1 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIIISingle::m_DisplayName
@@ -4498,7 +4395,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIIISingle::m_DisplayName
-#, fuzzy
 msgctxt "171f08af-eeac-4908-8004-96d194498bf3"
 msgid "Summon Nature's Ally III (Leopard)"
 msgstr "자연의 동맹 소환 III (표범)"
@@ -4511,11 +4407,6 @@ msgstr "자연의 동맹 소환 III (표범)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural leopard. The summoned ally appears "
-#| "where you designate and acts according to its initiative check results. It "
-#| "attacks your opponents to the best of its ability."
 msgctxt "bb251448-adbe-4b4c-b55e-81a2ee6001c5"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural leopard. "
@@ -4524,15 +4415,15 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 자연으로부터 표범을 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 표범을 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 "
+"나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}의 결과에 "
+"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIISingle::m_DisplayName
-#, fuzzy
 msgctxt "9b810cef-db4d-4b86-a06f-aa198cc1b018"
 msgid "Summon Nature's Ally II (Giant Frog)"
 msgstr "자연의 동맹 소환 II (거대 개구리)"
@@ -4542,11 +4433,6 @@ msgstr "자연의 동맹 소환 II (거대 개구리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural giant frog. The summoned ally "
-#| "appears where you designate and acts according to its initiative check "
-#| "results. It attacks your opponents to the best of its ability."
 msgctxt "3c22db5b-b23c-4e6d-8f08-89eb649f7a4f"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural giant "
@@ -4555,15 +4441,15 @@ msgid ""
 " results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best "
 "of its ability."
 msgstr ""
-"이 주문은 자연으로부터 거대 개구리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 거대 개구리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 "
+"곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}의 "
+"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIVd3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIVd3::m_DisplayName
-#, fuzzy
 msgctxt "3775784f-dcaa-43c3-b13d-d56bfa4965d6"
 msgid "Summon Nature's Ally IV (1d3 Leopards)"
 msgstr "자연의 동맹 소환 IV (표범 1d3 마리)"
@@ -4573,11 +4459,6 @@ msgstr "자연의 동맹 소환 IV (표범 1d3 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIVd3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural leopards. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "0061251d-936b-412f-9c65-4df5b2e35911"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4587,15 +4468,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 표범 1d3 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 "
-"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 표범 {g|Encyclopedia:Dice}1d3{/g} 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIVd4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIVd4plus1::m_DisplayName
-#, fuzzy
 msgctxt "d6adacc7-509c-477c-8663-c1b37b6f9dbf"
 msgid "Summon Nature's Ally IV (1d4+1 Giant Frogs)"
 msgstr "자연의 동맹 소환 IV (거대 개구리 1d4+1 마리)"
@@ -4605,11 +4486,6 @@ msgstr "자연의 동맹 소환 IV (거대 개구리 1d4+1 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIVd4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d4+1 natural giant frogs. The summoned "
-#| "allies appear where you designate and act according to their initiative "
-#| "check results. They attack your opponents to the best of their ability."
 msgctxt "f3c07d17-73ec-4bc7-a768-8f5600c79c91"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4619,15 +4495,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 거대 개구리 1d4+1 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 "
-"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 거대 개구리 {g|Encyclopedia:Dice}1d4{/g}+1 "
+"마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g}"
+" {g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIVSingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIVSingle::m_DisplayName
-#, fuzzy
 msgctxt "9221e145-8d71-4476-a8c0-a2669626a122"
 msgid "Summon Nature's Ally IV (Dire Boar)"
 msgstr "자연의 동맹 소환 IV (커다란 맷돼지)"
@@ -4637,11 +4513,6 @@ msgstr "자연의 동맹 소환 IV (커다란 맷돼지)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIVSingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural dire boar. The summoned ally "
-#| "appears where you designate and acts according to its initiative check "
-#| "results. It attacks your opponents to the best of its ability."
 msgctxt "4f2c6c02-8aca-447c-ae1f-5110be496d72"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural dire "
@@ -4650,15 +4521,15 @@ msgid ""
 " results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best "
 "of its ability."
 msgstr ""
-"이 주문은 자연으로부터 커다란 맷돼지를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 커다란 맷돼지를 아군으로 소환합니다. 소환되는 아군은 시전자가 "
+"지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}"
+"의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIXd3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIXd3::m_DisplayName
-#, fuzzy
 msgctxt "0705d84b-76ff-418e-88a5-dfb8c168fcdd"
 msgid "Summon Nature's Ally IX (1d3 Nereids)"
 msgstr "자연의 동맹 소환 IX (1d3 네레이드)"
@@ -4668,11 +4539,6 @@ msgstr "자연의 동맹 소환 IX (1d3 네레이드)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIXd3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural nereids. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "34a7d3e9-85ff-49b4-8df6-8fa79483cdd8"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4682,15 +4548,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 1d3 네레이드를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 네레이드 {g|Encyclopedia:Dice}1d3{/g} 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIXd4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIXd4plus1::m_DisplayName
-#, fuzzy
 msgctxt "24e730b7-1394-452e-80eb-9a89fa0d69eb"
 msgid "Summon Nature's Ally IX (1d4+1 Mastodons)"
 msgstr "자연의 동맹 소환 IX (마스토돈 1d4+1)"
@@ -4700,11 +4566,6 @@ msgstr "자연의 동맹 소환 IX (마스토돈 1d4+1)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIXd4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d4+1 natural mastodons. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "3cf9a0ae-e8d4-4449-97e3-1b64438e8f33"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4714,15 +4575,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 마스토돈 1d4+1 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 "
-"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 마스토돈 {g|Encyclopedia:Dice}1d4{/g}+1 "
+"마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g}"
+" {g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyIXSingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIXSingle::m_DisplayName
-#, fuzzy
 msgctxt "f3ca7daf-fae2-45b1-abf3-9ecf5a396cfa"
 msgid "Summon Nature's Ally IX (Hamadryad)"
 msgstr "자연의 동맹 소환 IX (하마드라이어드)"
@@ -4732,11 +4593,6 @@ msgstr "자연의 동맹 소환 IX (하마드라이어드)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyIXSingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural hamadryad. The summoned ally "
-#| "appears where you designate and acts according to its initiative check "
-#| "results. It attacks your opponents to the best of its ability."
 msgctxt "a8c42dbb-9d4e-412e-8eca-615c18bab845"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural "
@@ -4745,15 +4601,15 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} results. It "
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
-"이 주문은 자연으로부터 하마드라이어드를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 하마드라이어드를 아군으로 소환합니다. 소환되는 아군은 시전자가 "
+"지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}"
+"의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVd3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVd3::m_DisplayName
-#, fuzzy
 msgctxt "e3f0e22a-b1e0-4ec1-b227-b943f4a431e3"
 msgid "Summon Nature's Ally V (1d3 Dire Boars)"
 msgstr "자연의 동맹 소환 V (커다란 맷돼지 1d3 마리)"
@@ -4763,11 +4619,6 @@ msgstr "자연의 동맹 소환 V (커다란 맷돼지 1d3 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVd3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural dire boars. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "8cd1ec05-1bd6-4b7e-98c4-ee080455cca2"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4777,29 +4628,24 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 커다란 맷돼지 1d3 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 "
-"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 커다란 멧돼지 {g|Encyclopedia:Dice}1d3{/g} "
+"마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g}"
+" {g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVd4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVd4plus1::m_DisplayName
-#, fuzzy
 msgctxt "fd44249b-84cf-4494-87cb-050e93f7c3f3"
 msgid "Summon Nature's Ally V (1d4+1 Leopards)"
-msgstr "자연의 동맹 소환 V (표범 1d3+1 마리)"
+msgstr "자연의 동맹 소환 V (표범 1d4+1 마리)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVd4plus1::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVd4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d4+1 natural leopards. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "2d234dc8-6080-41ed-818a-1b83b50dc132"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4809,15 +4655,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 표범 1d4+1 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 "
-"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 표범 {g|Encyclopedia:Dice}1d4{/g}+1 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVId3::m_DisplayName
-#, fuzzy
 msgctxt "980a72a2-5453-47bd-83e5-7e108f6702eb"
 msgid "Summon Nature's Ally VI (1d3 Manticores)"
 msgstr "자연의 동맹 소환 VI (만티코어 1d3 마리)"
@@ -4827,11 +4673,6 @@ msgstr "자연의 동맹 소환 VI (만티코어 1d3 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural manticores. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "5ab57060-9c60-4233-820d-f2200f49b8c6"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4841,15 +4682,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 만티코어 1d3 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 "
-"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 만티코어 {g|Encyclopedia:Dice}1d3{/g} 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVId4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVId4plus1::m_DisplayName
-#, fuzzy
 msgctxt "59e6eec8-3d15-4ce1-bec5-68dcfb9fa6b0"
 msgid "Summon Nature's Ally VI (1d4+1 Dire Boars)"
 msgstr "자연의 동맹 소환 VI (커다란 맷돼지 1d4+1 마리)"
@@ -4859,11 +4700,6 @@ msgstr "자연의 동맹 소환 VI (커다란 맷돼지 1d4+1 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d4+1 natural dire boars. The summoned "
-#| "allies appear where you designate and act according to their initiative "
-#| "check results. They attack your opponents to the best of their ability."
 msgctxt "ae6b90ee-375f-4cd8-bb18-00b7d675a6c1"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4873,15 +4709,16 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 커다란 맷돼지 1d4+1 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 "
-"판정의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 커다란 멧돼지 {g|Encyclopedia:Dice}1d4{/g}+"
+"1 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}의 결과에 따라 "
+"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVIId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIId3::m_DisplayName
-#, fuzzy
 msgctxt "d8273410-f276-4b75-96c3-37ac6119678a"
 msgid "Summon Nature's Ally VII (1d3 Smilodons)"
 msgstr "자연의 동맹 소환 VII (검치호 1d3 마리)"
@@ -4891,11 +4728,6 @@ msgstr "자연의 동맹 소환 VII (검치호 1d3 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural smilodons. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "9df34431-fb50-428d-9c83-c62da5a164fb"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4905,15 +4737,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 검치호 1d3 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 "
-"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 검치호 {g|Encyclopedia:Dice}1d3{/g} 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVIId4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIId4plus1::m_DisplayName
-#, fuzzy
 msgctxt "9089783b-6e0c-46b7-bad3-0f1b174a369c"
 msgid "Summon Nature's Ally VII (1d4+1 Manticores)"
 msgstr "자연의 동맹 소환 VII (만티코어 1d4+1 마리)"
@@ -4923,11 +4755,6 @@ msgstr "자연의 동맹 소환 VII (만티코어 1d4+1 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d4+1 natural manticores. The summoned "
-#| "allies appear where you designate and act according to their initiative "
-#| "check results. They attack your opponents to the best of their ability."
 msgctxt "bca4731c-5649-4a8d-b0fc-fa73270fc9a5"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4937,15 +4764,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 만티코어 1d4+1 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 "
-"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 만티코어 {g|Encyclopedia:Dice}1d4{/g}+1 "
+"마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g}"
+" {g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVIIId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIIId3::m_DisplayName
-#, fuzzy
 msgctxt "7c876118-61f1-451c-bdde-c277cc6e8414"
 msgid "Summon Nature's Ally VIII (1d3 Mastodons)"
 msgstr "자연의 동맹 소환 VIII (마스토돈 1d3 마리)"
@@ -4955,11 +4782,6 @@ msgstr "자연의 동맹 소환 VIII (마스토돈 1d3 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d3 natural mastodons. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "4744a964-e392-4aab-988e-e004505973ef"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -4969,15 +4791,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 마스토돈 1d3 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 "
-"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 마스토돈 {g|Encyclopedia:Dice}1d3{/g} 마리를 "
+"아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVIIId4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIIId4plus1::m_DisplayName
-#, fuzzy
 msgctxt "8f006fcd-81e7-42cb-aefe-799be699fcbe"
 msgid "Summon Nature's Ally VIII (1d4+1 Smilodons)"
 msgstr "자연의 동맹 소환 VIII (검치호 1d4+1 마리)"
@@ -4987,11 +4809,6 @@ msgstr "자연의 동맹 소환 VIII (검치호 1d4+1 마리)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIIId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side 1d4+1 natural smilodons. The summoned allies "
-#| "appear where you designate and act according to their initiative check "
-#| "results. They attack your opponents to the best of their ability."
 msgctxt "280a1abb-25ec-4e69-a93a-40a84b286182"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side "
@@ -5001,15 +4818,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 자연으로부터 검치호 1d4+1 마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 "
-"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 검치호 {g|Encyclopedia:Dice}1d4{/g}+1 "
+"마리를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g}"
+" {g|Encyclopedia:Check}판정{/g}의 결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVIIISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIIISingle::m_DisplayName
-#, fuzzy
 msgctxt "0ce346e5-b12e-432d-8fb9-b6f285c29712"
 msgid "Summon Nature's Ally VIII (Nereid)"
 msgstr "자연의 동맹 소환 VIII (네레이드)"
@@ -5019,11 +4836,6 @@ msgstr "자연의 동맹 소환 VIII (네레이드)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural nereid. The summoned ally appears "
-#| "where you designate and acts according to its initiative check results. It "
-#| "attacks your opponents to the best of its ability."
 msgctxt "ffe0e5c5-845f-4999-85a9-77834928d973"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural nereid. "
@@ -5032,15 +4844,15 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 자연으로부터 네레이드를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 네레이드를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 "
+"곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}의 "
+"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVIISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIISingle::m_DisplayName
-#, fuzzy
 msgctxt "f79869fe-47f2-42c0-80ef-e7130771e635"
 msgid "Summon Nature's Ally VII (Mastodon)"
 msgstr "자연의 동맹 소환 VII (마스토돈)"
@@ -5050,11 +4862,6 @@ msgstr "자연의 동맹 소환 VII (마스토돈)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural mastodon. The summoned ally "
-#| "appears where you designate and acts according to its initiative check "
-#| "results. It attacks your opponents to the best of its ability."
 msgctxt "1916f8b3-b641-4835-a06d-8da4624e3cc3"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural "
@@ -5063,15 +4870,15 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} results. It "
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
-"이 주문은 자연으로부터 마스토돈을 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 마스톧돈을 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 "
+"곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}의 "
+"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVISingle::m_DisplayName
-#, fuzzy
 msgctxt "dea30bea-98fe-4f0e-8687-1847f12749e8"
 msgid "Summon Nature's Ally VI (Smilodon)"
 msgstr "자연의 동맹 소환 VI (검치호)"
@@ -5081,11 +4888,6 @@ msgstr "자연의 동맹 소환 VI (검치호)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural smilodon. The summoned ally "
-#| "appears where you designate and acts according to its initiative check "
-#| "results. It attacks your opponents to the best of its ability."
 msgctxt "1d6ead1d-1e5f-4ebb-ad85-93c51895cd7c"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural "
@@ -5094,15 +4896,15 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} results. It "
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
-"이 주문은 자연으로부터 검치호를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 검치호를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 "
+"나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}의 결과에 "
+"따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastCallSummonNaturesAllyVSingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVSingle::m_DisplayName
-#, fuzzy
 msgctxt "9d5623a7-f1c6-4d36-81e2-6bea980ce19a"
 msgid "Summon Nature's Ally V (Manticore)"
 msgstr "자연의 동맹 소환 V (만티코어)"
@@ -5112,11 +4914,6 @@ msgstr "자연의 동맹 소환 V (만티코어)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonNaturesAllyVSingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons to your side a natural manticore. The summoned ally "
-#| "appears where you designate and acts according to its initiative check "
-#| "results. It attacks your opponents to the best of its ability."
 msgctxt "c2661d99-579a-4310-b471-b603ef8b1633"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons to your side a natural "
@@ -5125,8 +4922,9 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} results. It "
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
-"이 주문은 자연으로부터 만티코어를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 자연으로부터 만티코어를를 아군으로 소환합니다. 소환되는 아군은 시전자가 지정한 "
+"곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}의 "
+"결과에 따라 행동합니다. 아군은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastShapeIVShamblingMound::m_DisplayName
@@ -5142,7 +4940,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BeastShapeIVShamblingMoundBuff::m_DisplayName
-#, fuzzy
 msgctxt "ad3c9d7d-0b45-491d-89a4-1208f60e0c83"
 msgid "Beast Shape IV (Shambling Mound)"
 msgstr "짐승의 모습 IV (섐블링 마운드)"
@@ -5161,30 +4958,6 @@ msgstr "짐승의 모습 IV (섐블링 마운드)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WildShapeIVShamblingMoundAbillity::m_Description
-#, fuzzy
-#| msgid ""
-#| "You become a Large shambling mound. You gain a +4 size bonus to your "
-#| "Strength, a +2 size bonus to your Constitution, +4 natural armor bonus, "
-#| "resist fire 20, and resist electricity 20. Your movement speed is reduced by "
-#| "10 feet. You also have two 2d6 slam attacks, the constricting vines ability, "
-#| "and the poison ability.\n"
-#| "Constricting Vines: A shambling mound's vines coil around any creature it "
-#| "hits with a slam attack. The shambling mound attempts a grapple maneuver "
-#| "check against its target, and on a successful check its vines deal 2d6+5 "
-#| "damage and the foe is grappled.\n"
-#| "Grappled characters cannot move, and take a -2 penalty on all attack rolls "
-#| "and a -4 penalty to Dexterity. Grappled characters attempt to escape every "
-#| "round by making a successful combat maneuver, Strength, Athletics, or "
-#| "Mobility check. The DC of this check is the shambling mound's CMD.\n"
-#| "Each round, creatures grappled by a shambling mound suffer 4d6+Strength "
-#| "modifier × 2 damage.\n"
-#| "A shambling mound receives a +4 bonus on grapple maneuver checks.\n"
-#| "Poison:\n"
-#| "Slam; Save: Fortitude\n"
-#| "Frequency: 1/round for 2 rounds\n"
-#| "Effect: 1d2 Strength and 1d2 Dexterity damage\n"
-#| "Cure: 1 save\n"
-#| "The save DC is Constitution-based."
 msgctxt "cc04b2e8-6169-4f75-bdf4-cc3c3199a50c"
 msgid ""
 "You become a Large shambling mound. You gain a +4 "
@@ -5219,19 +4992,27 @@ msgid ""
 "{g|Encyclopedia:Healing}Cure{/g}: 1 save\n"
 "The save DC is Constitution-based."
 msgstr ""
-"대형 섐블링 마운드로 변신합니다. 힘에 +4 크기 보너스, 건강에 +2 크기 보너스와 +4 자연 방어 보너스 및 화염 저항 20과 전기 "
-"저항 20을 얻습니다. 이동속도는 10 피트 감소합니다. 추가로 두 번의 2d6 후려치기 공격, 죄여오는 덩굴과 독 능력을 얻습니다.\n"
-"죄여오는 덩굴: 섐블링 마운드의 후려치기 공격에 맞은 적들은 덩굴에 휘감깁니다. 섐블링 마운드는 대상에 대한 붙잡기 전법 판정에 성공시 "
-"덩굴로 2d6+5의 피해를 입히고 붙잡을 수 있습니다.\n"
-"붙잡힌 캐릭터는 움직일 수 없으며, 모든 명중 굴림에 -2 페널티, 민첩에 -4 페널티를 받습니다. 붙잡힌 크리처는 매 라운드 전법, "
-"힘, 운동 또는 기동성 판정을 성공적으로 시도하여 탈출할 수 있습니다. 이 판정에 대한 DC는 섐블링 마운드의 CMD입니다.\n"
-"매 라운드마다, 섐블링 마운드에게 붙잡힌 크리처는 4d6 + 힘 수정치 × 2의 피해를 받습니다.\n"
+"대형 섐블링 마운드로 변신합니다. {g|Encyclopedia:Strength}힘{/g}에 +4 "
+"{g|Encyclopedia:Size}크기{/g} {g|Encyclopedia:Bonus}보너스{/g}, "
+"{g|Encyclopedia:Constitution}건강{/g}에 +2 크기 보너스, "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +4 자연 방어 보너스, 화염 저항 20, 전기 저항 20 을 얻습니다. "
+"이동{g|Encyclopedia:Speed}속도{/g}는 10 피트 감소합니다. 추가로 두 번의 "
+"{g|Encyclopedia:Dice}2d6{/g} 후려치기 공격, 죄여오는 덩굴 능력, 독 능력을 얻습니다.\n"
+"죄여오는 덩굴: 섐블링 마운드의 후려치기 공격에 맞은 적들은 덩굴에 휘감깁니다. 섐블링 마운드는 대상에 대한 붙잡기 "
+"{g|Encyclopedia:Combat_Maneuvers}전법{/g} {g|Encyclopedia:Check}판정{/g}에 성공시 "
+"덩굴로 2d6+5 의 {g|Encyclopedia:Damage}피해{/g}를 입히고 붙잡을 수 있습니다.\n"
+"붙잡힌 캐릭터는 움직일 수 없으며, 모든 명중 굴림에 -2 {g|Encyclopedia:Penalty}페널티{/g}, "
+"{g|Encyclopedia:Dexterity}민첩{/g}에 -4 페널티를 받습니다. 붙잡힌 크리처는 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 전법, 힘, {g|Encyclopedia:Athletics}운동{/g} "
+"또는 {g|Encyclopedia:Mobility}기동성{/g} 판정을 성공적으로 시도하여 탈출할 수 있습니다. 이 판정에 대한 "
+"{g|Encyclopedia:DC}DC{/g}는 섐블링 마운드의 {g|Encyclopedia:CMD}CMD{/g}입니다.\n"
+"매 라운드마다, 섐블링 마운드에게 붙잡힌 크리처는 4d6 + 힘 수정치 × 2 의 피해를 받습니다.\n"
 "섐블링 마운드는 붙잡기 전법 판정에 +4 보너스를 받습니다.\n"
 "독:\n"
-"후려치기; 내성: 인내\n"
-"빈도: 1/라운드마다 2 라운드\n"
-"효과: 힘 및 민첩에 1d2의 피해\n"
-"치료: 내성 1회 성공\n"
+"후려치기; {g|Encyclopedia:Saving_Throw}내성{/g}: 인내\n"
+"빈도: 2 라운드 동안 라운드당 1회\n"
+"효과: 힘 및 민첩에 1d2의 {g|Encyclopedia:AbilityDamage}피해{/g}\n"
+"{g|Encyclopedia:Healing}치료{/g}: 내성 1회 성공\n"
 "내성 DC는 건강에 기반합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -5248,13 +5029,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WildShapeIIISmilodonAbillity::m_Description
-#, fuzzy
-#| msgid ""
-#| "You become a large smilodon. You gain a +4 size bonus to your Strength, a –2 "
-#| "penalty to your Dexterity, and a +4 natural armor bonus. Your movement speed "
-#| "is increased by 10 feet. You also gain four 1d8 claw attacks, one 2d6 bite "
-#| "attack, and the pounce ability.\n"
-#| "Pounce: When a smilodon makes a charge, it can make a full attack."
 msgctxt "f5fc9046-8c55-4437-89f5-a4598e22feea"
 msgid ""
 "You become a large smilodon. You gain a +4 {g|Encyclopedia:Size}size{/g} "
@@ -5267,8 +5041,11 @@ msgid ""
 "1d8 bite attack, and the pounce ability.\n"
 "Pounce: When a smilodon makes a charge, it can make a full attack."
 msgstr ""
-"대형 검치호로 변신합니다. 힘에 +4 크기 보너스, 민첩에 -2 패널티와 +4 자연 방어 보너스를 얻습니다. 이동속도가 10 피트 "
-"증가합니다. 추가로 네 번의 1d8 발톱 공격, 한 번의 2d6 물기, 급습 능력을 얻습니다.\n"
+"대형 검치호로 변신합니다. {g|Encyclopedia:Strength}힘{/g}에 +4 {g|Encyclopedia:Size}크기{/g}"
+" {g|Encyclopedia:Bonus}보너스{/g} , {g|Encyclopedia:Dexterity}민첩{/g}에 -2 "
+"{g|Encyclopedia:Penalty}페널티{/g}, {g|Encyclopedia:Armor_Class}AC{/g}에 +4 자연 "
+"방어 보너스를 얻습니다. 이동속도가 10 피트 증가합니다. 추가로 두 번의 {g|Encyclopedia:Dice}1d6{/g} 발톱 "
+"{g|Encyclopedia:Attack}공격{/g}, 한 번의 2d6 물기, 급습 능력을 얻습니다.\n"
 "급습: 검치호가 돌격으로 전력 공격을 할 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -5285,21 +5062,12 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BeastShapeIVWyvernBuff::m_DisplayName
-#, fuzzy
 msgctxt "474a61c9-55bd-4146-8598-9cb86c8ddd37"
 msgid "Beast Shape IV (Wyvern)"
 msgstr "짐승의 모습 IV (와이번)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BeastShapeIVWyvern::m_Description
-#, fuzzy
-#| msgid ""
-#| "You become a Large wyvern. You gain a +4 size bonus to your Strength, a –2 "
-#| "penalty to your Dexterity, and a +4 natural armor bonus. Your movement speed "
-#| "is reduced by 10 feet. You also have one 2d6 bite attack, two 1d6 talon "
-#| "attacks, 1d6 sting attack plus poison.\n"
-#| "Wyvern Poison: Sting — injury; Fortitude save (DC 17); frequency: 1/round "
-#| "for 6 rounds; effect: 1d4 Constitution damage; cure: 2 consecutive saves."
 msgctxt "e75afef4-dacb-41ac-b194-e9c7c3950df0"
 msgid ""
 "You become a Large wyvern. You gain a +4 {g|Encyclopedia:Size}size{/g} "
@@ -5317,10 +5085,17 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g}; {g|Encyclopedia:Healing}cure{/g}: 2 "
 "consecutive saves."
 msgstr ""
-"와이번 형태로 변신합니다. 힘에 +4 크기 보너스, 민첩에 -2 페널티와 +4 자연 방어 보너스를 얻습니다. 이동속도가 10 피트 "
-"감소합니다. 추가로 2d6 물기 공격 한 번, 1d6 맹금 발톱 공격 두 번, 독을 동반한 1d6 쏘기 공격을 얻습니다.\n"
-"와이번 독: 쏘기 - 부상; 상처; 인내 내성 (DC 17); 빈도: 매 1 라운드 / 6 라운드 동안; 효과: 1d4 건강 피해; 치료:"
-" 내성 2회 연속 성공."
+"대형 와이번 형태로 변신합니다. {g|Encyclopedia:Strength}힘{/g}에 +4 "
+"{g|Encyclopedia:Size}크기{/g} {g|Encyclopedia:Bonus}보너스{/g} , "
+"{g|Encyclopedia:Dexterity}민첩{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}, "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +4 자연 방어 보너스를 얻습니다. "
+"이동{g|Encyclopedia:Speed}속도{/g}가 10 피트 감소합니다. 추가로 {g|Encyclopedia:Dice}2d6{/g}"
+" 물기 {g|Encyclopedia:Attack}공격{/g} 한 번, 1d6 맹급 발톱 공격 두 번, 독을 동반한 1d6 쏘기 공격을 "
+"얻습니다.\n"
+"와이번 독: 쏘기 — {g|Encyclopedia:Injury_Death}부상{/g}; "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g} ({g|Encyclopedia:DC}DC{/g}17); 빈도: 6 "
+"라운드 동안 라운드당 1회; 효과: 1d4 {g|Encyclopedia:Constitution}건강{/g} "
+"{g|Encyclopedia:Damage}피해{/g}; 치료: 내성 2회 연속 성공."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BelieveInYourself::m_DisplayName
@@ -5408,7 +5183,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LegendaryProportions::m_DisplayName
-#, fuzzy
 msgctxt "54c9443f-5d3e-47f7-b61e-7b211e72a5e9"
 msgid "Legendary Proportions"
 msgstr "전설적인 크기"
@@ -8967,13 +8741,6 @@ msgstr "동굴 송곳니: 종유석"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CaveFangsStalactites::m_Description
-#, fuzzy
-#| msgid ""
-#| "Shards of rock drop from above, dealing 3d8 points of bludgeoning and "
-#| "piercing damage (Reflex half). A creature that fails its Reflex save is "
-#| "pinned to the ground under stalactites and rubble, gaining the entangled "
-#| "condition until it can free itself with a successful DC 15 Strength check or "
-#| "DC 20 Mobility check."
 msgctxt "e5a72d7a-b7f7-46d1-aa4f-1fca3e763201"
 msgid ""
 "Shards of rock drop from above, dealing {g|Encyclopedia:Dice}3d8{/g} points "
@@ -8985,39 +8752,33 @@ msgid ""
 "{g|Encyclopedia:Strength}Strength{/g} {g|Encyclopedia:Check}check{/g} or DC "
 "20 {g|Encyclopedia:Mobility}Mobility check{/g}."
 msgstr ""
-"바위 조각이 위에서 떨어져 부수기 및 찌르기 피해를 3d8 점 (반사로 절반) 받습니다. 반사 내성 굴림에 실패한 크리처는 종유석과 "
-"돌무더기에 깔려서 DC 15 힘 판정 또는 DC 20 기동성 판정이 성공할 때까지 속박 상태를 유지합니다."
+"바위 조각이 위에서 떨어져 {g|Encyclopedia:Damage_Type}부수기{/g} 및 찌르기 "
+"{g|Encyclopedia:Damage}피해{/g}를 {g|Encyclopedia:Dice}3d8{/g} 점 (반사로 절반) 받습니다. "
+"{g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 실패한 크리처는 종유석과 돌무더기에 깔려서 "
+"{g|Encyclopedia:DC}DC{/g} 15 {g|Encyclopedia:Strength}힘{/g} "
+"{g|Encyclopedia:Check}판정{/g} 또는 DC 20 {g|Encyclopedia:Mobility}기동성 판정{/g}이 "
+"성공할 때까지 속박 상태를 유지합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CaveFangsStalactitesAbility::m_DisplayName
-#, fuzzy
 msgctxt "7595ae04-ec7e-4c1e-839d-06032f2cf687"
 msgid "Cave Fangs"
 msgstr "동굴 송곳니"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CaveFangsStalactitesAbility::m_Description
-#, fuzzy
 msgctxt "f57200d9-abe1-4f1c-bd49-ddcad2a5f19f"
 msgid "Create Stalactites Trap"
 msgstr "종유석 함정 생성"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CaveFangsStalagmites::m_DisplayName
-#, fuzzy
 msgctxt "85711536-c0e0-4100-9f84-01c9bcc77593"
 msgid "Cave Fangs: Stalagmites"
 msgstr "동굴 송곳니: 석순"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CaveFangsStalagmites::m_Description
-#, fuzzy
-#| msgid ""
-#| "Piercing spires of rock erupt up from the ground, dealing 3d8 points of "
-#| "piercing damage and knocking the creature prone (a successful Reflex saving "
-#| "throw halves this damage and avoids being knocked prone). Once the "
-#| "stalagmites appear, they function thereafter as spike stones for 1 minute "
-#| "per caster level and then crumble to dust."
 msgctxt "7c5e4deb-9170-4671-9a0b-2a198bcf7cb9"
 msgid ""
 "{g|Encyclopedia:Damage_Type}Piercing{/g} spires of rock erupt up from the "
@@ -9028,19 +8789,20 @@ msgid ""
 "function thereafter as spike stones for 1 minute per "
 "{g|Encyclopedia:Caster_Level}caster level{/g} and then crumble to dust."
 msgstr ""
-"바위의 첨탑이 지면에서 솟아올라 희생자를 꿰뚫습니다. 3d8 점의 찌르기 피해를 주고 크리처를 쓰러뜨립니다. 반사 내성에 성공하면 피해는 "
-"절반만 받고 쓰러지지도 않습니다. 석순이 솟고나면 시전자 레벨 당 1분 동안 돌가시 주문의 효과를 내다가 먼지로 부서져 사라집니다."
+"바위의 첨탑이 지면에서 솟아올라 희생자를 꿰뚫습니다. {g|Encyclopedia:Dice}3d8{/g} 점의 "
+"{g|Encyclopedia:Damage_Type}찌르기{/g} {g|Encyclopedia:Damage}피해{/g} 를 주고 크리처를 "
+"쓰러뜨립니다. {g|Encyclopedia:Saving_Throw}반사 내성{/g}에 성공하면 피해는 절반만 받고 쓰러지지도 않습니다. "
+"석순이 솟고 나면 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 1분 동안 돌가시 주문의 효과를 내다가 "
+"먼지로 부서져 사라집니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CaveFangsStalagmitesAbility::m_DisplayName
-#, fuzzy
 msgctxt "77ecb3f0-019f-4f3b-80d8-c029257c1200"
 msgid "Cave Fangs"
 msgstr "동굴 송곳니"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CaveFangsStalagmitesAbility::m_Description
-#, fuzzy
 msgctxt "bd95dd5a-bba7-4247-9f0a-680e0426cb65"
 msgid "Create Stalagmites Trap"
 msgstr "석순 함정 생성"
@@ -9075,7 +8837,7 @@ msgstr "기민 - 짧게"
 #. Path = OtherworldlyCompanionFiendishAbility::m_DisplayName
 msgctxt "1a6f931a-3b0f-4945-831f-bf414c15d638"
 msgid "Smite Good"
-msgstr ""
+msgstr "선 처단"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CelestialSmiteEvilAbility::m_Description
@@ -14592,10 +14354,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = EaglesSplendorBuff::m_DisplayName
-#, fuzzy
 msgctxt "c3f2ce65-41be-4fdb-9918-d262eddc9fc1"
 msgid "Eagle's Splendor"
-msgstr "독수리의 광휘"
+msgstr "독수리의 위엄"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EaglesSplendor::m_Description
@@ -14630,10 +14391,9 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EaglesSplendorMass::m_DisplayName
-#, fuzzy
 msgctxt "05d1c62d-fbc6-4943-bf8a-6061486eb2a2"
 msgid "Eagle's Splendor, Mass"
-msgstr "집단 독수리의 광휘"
+msgstr "집단 독수리의 위엄"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EaglesSplendorMass::m_Description
@@ -21584,10 +21344,6 @@ msgstr "영웅심"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = HeroismBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell imbues a single creature with great bravery and morale in battle. "
-#| "The target gains a +2 morale bonus on attack rolls, saves, and skill checks."
 msgctxt "ca8cc82f-e0e3-4c74-a041-61b4f6c12f14"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} imbues a single creature with great "
@@ -21596,23 +21352,18 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saves{/g}, and {g|Encyclopedia:Skills}skill "
 "checks{/g}."
 msgstr ""
-"이 주문은 전투에서 크리처 하나에게 위대한 용기와 사기를 불어넣습니다. 대상은 명중 굴림, 내성 굴림, 기술 판정에 +2의 사기 보너스를 "
-"얻습니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 전투에서 크리처 하나에게 위대한 용기와 사기를 불어넣습니다. 대상은 "
+"{g|Encyclopedia:Attack}공격 굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}, "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +2의 사기 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HeroismGreater::m_DisplayName
-#, fuzzy
 msgctxt "928b928f-c5d9-455f-b04c-7fe05d323d03"
 msgid "Heroism, Greater"
 msgstr "상급 영웅심"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HeroismGreater::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell functions like heroism, except the creature gains a +4 morale "
-#| "bonus on attack rolls, saves, and skill checks, immunity to fear effects, "
-#| "and temporary hit points equal to your caster level (maximum 20)."
 msgctxt "6dd8b3b3-f90a-457c-8747-91b3db2aab49"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} functions like heroism, except the "
@@ -21623,8 +21374,11 @@ msgid ""
 "points{/g} equal to your {g|Encyclopedia:Caster_Level}caster level{/g} ("
 "maximum 20)."
 msgstr ""
-"이 주문은 명중 굴림, 내성 굴림 및 기술 판정, 공포 효과에 대한 내성에 +4 사기 보너스와 시전자 레벨만큼 (최대 20) 임시 "
-"생명점을 부여하는 영웅심입니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 영웅심과 비슷하지만, {g|Encyclopedia:Attack}공격 굴림{/g}"
+", {g|Encyclopedia:Saving_Throw}내성 굴림{/g}, {g|Encyclopedia:Skills}기술 판정{/g} +"
+"4 의 사기 {g|Encyclopedia:Bonus}보너스{/g}를 제공하고, 공포 효과에 대한 면역, "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}과 같은 양의 임시 {g|Encyclopedia:HP}생명점{/g}"
+"을 부여합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HeroNeverSurrender::m_DisplayName
@@ -21646,7 +21400,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HideousLaughterTiefling::m_DisplayName
-#, fuzzy
 msgctxt "e7a1f254-57e7-4114-8d38-096cab9e678b"
 msgid "Hideous Laughter"
 msgstr "끔찍한 웃음"
@@ -21656,14 +21409,6 @@ msgstr "끔찍한 웃음"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HideousLaughterTiefling::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell afflicts the subject with uncontrollable laughter. It collapses "
-#| "into gales of manic laughter, falling prone. The subject can take no actions "
-#| "while laughing, but is not considered helpless. After the spell ends, it can "
-#| "act normally. On the creature's next turn, it may attempt a new saving throw "
-#| "to end the effect.[LONGSTART] A creature with an Intelligence score of 2 or "
-#| "lower is not affected.[LONGEND]"
 msgctxt "47b3bf1f-185c-4f88-9964-2dea1b846810"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} afflicts the subject with "
@@ -21676,10 +21421,12 @@ msgid ""
 "{g|Encyclopedia:Intelligence}Intelligence{/g} score of 2 or lower is not "
 "affected.[LONGEND]"
 msgstr ""
-"이 주문은 통제할 수 없는 웃음으로 대상을 괴롭힙니다. 대상은 미친 듯이 웃으며 쓰러짐 상태가 됩니다. 대상은 웃는 동안 아무런 행동도 "
-"취할 수 없지만, 무력화 상태는 아닌 것으로 간주합니다. 주문이 끝나면 정상적으로 행동할 수 있습니다. 다음 턴에 다시 내성을 시도해 "
-"성공하면 주문의 효과를 끝낼 수 있습니다.[LONGSTART] 지능 능력치가 2 점 이하인 크리처는 이 주문의 영향을 받지 "
-"않습니다.[LONGEND]"
+"이 {g|Encyclopedia:Spell}주문{/g}은 통제할 수 없는 웃음으로 대상을 괴롭힙니다. 대상은 미친 듯이 웃으며 쓰러짐 "
+"상태가 됩니다. 대상은 웃는 동안 아무런 {g|Encyclopedia:CA_Types}행동{/g}도 취할 수 없지만, "
+"{g|Encyclopedia:Helpless}무력화{/g} 상태는 아닌 것으로 간주합니다. 주문이 끝나면 정상적으로 행동할 수 있습니다. "
+"다음 턴에 다시 의지 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도해 성공하면 주문의 효과를 끝낼 수 "
+"있습니다.[LONGSTART] {g|Encyclopedia:Intelligence}지능{/g} 능력치가 2 점 이하인 크리처는 이 주문의 "
+"영향을 받지 않습니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HoldAnimal::m_DisplayName
@@ -23676,18 +23423,12 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LayOnHandsSelf::m_DisplayName
-#, fuzzy
 msgctxt "147aed76-e916-43b3-aa56-bdbdc6508908"
 msgid "Lay On Hands — Self"
 msgstr "안수 치료 - 자신"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LayOnHandsSelf::m_Description
-#, fuzzy
-#| msgid ""
-#| "A paladin can heal her wounds as a swift action. With one use of this "
-#| "ability, a paladin can heal 1d6 hit points of damage for every two paladin "
-#| "levels she possesses."
 msgctxt "af1e37c3-78e9-41b3-82a5-9db4d1c778e1"
 msgid ""
 "A paladin can {g|Encyclopedia:Healing}heal{/g} her wounds as a "
@@ -23696,14 +23437,15 @@ msgid ""
 "points{/g} of {g|Encyclopedia:Damage}damage{/g} for every two paladin levels "
 "she possesses."
 msgstr ""
-"팔라딘은 자신의 상처를 신속 행동으로 치유할 수 있습니다. 이 능력을 사용하면, 팔라딘은 팔라딘 레벨 2 당 1d6점의 피해를 치유합니다."
+"팔라딘은 {g|Encyclopedia:Swift_Action}신속 행동{/g}으로 자신의 상처를 "
+"{g|Encyclopedia:Healing}치유{/g}할 수 있습니다. 이 능력을 사용하면, 팔라딘은 팔라딘 레벨 2 당 "
+"{g|Encyclopedia:Dice}1d6{/g} 점의 {g|Encyclopedia:Damage}피해{/g}를 치유합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LeadBlades::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LeadBladesOread::m_DisplayName
-#, fuzzy
 msgctxt "48b3056e-ba4c-4936-beb8-2d6054186bba"
 msgid "Lead Blades"
 msgstr "무거운 칼날"
@@ -23713,16 +23455,6 @@ msgstr "무거운 칼날"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LeadBladesOread::m_Description
-#, fuzzy
-#| msgid ""
-#| "[LONGSTART]Lead blades increases the momentum and density of your melee "
-#| "weapons just as they strike a foe. [LONGEND]All melee weapons you are "
-#| "carrying when the spell is cast deal damage as if one size category larger "
-#| "than they actually are. For instance, a Medium longsword normally deals 1d8 "
-#| "points of damage, but it would instead deal 2d6 points of damage if "
-#| "benefiting from lead blades.[LONGSTART] Only you can benefit from this "
-#| "spell. If anyone else uses one of your weapons to make an attack, it deals "
-#| "damage as normal for its size.[LONGEND]"
 msgctxt "7bbbf6f1-3c12-4f1c-b55a-a7938b8f520a"
 msgid ""
 "[LONGSTART]Lead blades increases the momentum and density of your melee "
@@ -23736,10 +23468,12 @@ msgid ""
 "weapons to make an {g|Encyclopedia:Attack}attack{/g}, it deals damage as "
 "normal for its size.[LONGEND]"
 msgstr ""
-"[LONGSTART]무거운 칼날 주문은 근접 무기로 적을 공격하는 그 순간 동안 무기의 운동량과 밀도를 증가시킵니다. [LONGEND] "
-"주문을 시전하면 들고 있는 모든 근접 무기는 실제 크기 보다 한 범주 크기가 큰 무기처럼 피해를 입힙니다. 예를 들어 중형 장검은 "
-"일반적으로 1d8 점의 피해를 입힙니다. 그러나 무거운 칼날을 사용하면 2d6 점의 피해를 입힙니다.[LONGSTART] 이 주문은 "
-"당신에게만 적용됩니다. 다른 이가 이 주문이 적용된 무기를 들고 공격해도 증가된 피해를 입히지 않습니다. [LONGEND]"
+"[LONGSTART]무거운 칼날 주문은 근접 무기로 적을 {g|Encyclopedia:Attack}공격{/g}하는 그 순간 동안 무기의 "
+"운동량과 밀도를 증가시킵니다. [LONGEND] 주문을 시전하면 들고 있는 모든 근접 무기는 실제 크기 보다 한 단계 "
+"{g|Encyclopedia:Size}크기{/g}가 큰 무기처럼 {g|Encyclopedia:Damage}피해{/g}를 입힙니다. 예를 "
+"들어 중형 장검은 일반적으로 {g|Encyclopedia:Dice}1d8{/g} 점의 피해를 입힙니다. 그러나 무거운 칼날을 사용하면 "
+"2d6 점의 피해를 입힙니다.[LONGSTART] 이 주문은 당신에게만 적용됩니다. 다른 이가 이 주문이 적용된 무기를 들고 공격해도 "
+"증가된 피해를 입히지 않습니다. [LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LiberationBlessingMajorAbility::m_DisplayName
@@ -27634,11 +27368,6 @@ msgstr "거대화"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PlantDomainBaseAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a swift action you can enlarge yourself for 1 round, as if you were the "
-#| "target of the enlarge person spell.[LONGSTART] You can use this power a "
-#| "number of times per day equal to 3 + your Wisdom modifier.[LONGEND]"
 msgctxt "16fe641b-0d7c-4f8b-95a8-6fdedee38ba3"
 msgid ""
 "As a {g|Encyclopedia:Swift_Action}swift action{/g} you can enlarge yourself "
@@ -27647,8 +27376,9 @@ msgid ""
 "this power a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier.[LONGEND]"
 msgstr ""
-"신속 행동을 사용해서 마치 사람 확대 주문처럼 자신을 1 라운드 동안 확대할 수 있습니다.[LONGSTART] 하루에 3 + 지혜 수정치 "
-"만큼 이 능력을 사용할 수 있습니다.[LONGEND]"
+"{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 사람 확대 {g|Encyclopedia:Spell}주문{/g}과 "
+"같이 자신을 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 확대합니다.[LONGSTART] 하루에 3 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PlantDomainGreaterAbility::m_DisplayName
@@ -30296,17 +30026,6 @@ msgstr "소생"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RaiseDead::m_Description
-#, fuzzy
-#| msgid ""
-#| "You restore life to a deceased party member. A raised creature has a number "
-#| "of hit points equal to its current HD. Raise dead also removes the death's "
-#| "door condition.\n"
-#| "Coming back from the dead is an ordeal. The subject of the spell gains two "
-#| "permanent negative levels when it is raised, just as if it had been hit by "
-#| "an energy-draining creature, thought it can not gain a number of negative "
-#| "levels equal to or greater than its total Hit Dice this way.\n"
-#| "A creature whose permanent negative levels already equal its Hit Dice cannot "
-#| "be brought back to life through raise dead."
 msgctxt "3355d508-0ecc-41aa-b5c0-b69c10b69fc9"
 msgid ""
 "You restore life to a deceased party member. A raised creature has a number "
@@ -30320,36 +30039,27 @@ msgid ""
 "A creature whose permanent negative levels already equal its Hit Dice cannot "
 "be brought back to life through raise dead."
 msgstr ""
-"사망한 일행의 생명을 회복합니다. 소생된 크리처는 현재 HD와 동일한 만큼의 생명점을 가집니다. 소생은 죽음의 문턱 상태 역시 제거합니다."
-"\n"
-"죽음에서 돌아오는 것은 고된 일입니다. 주문의 대상은 원기를 소진시키는 크리처에게 맞았을 때와 마찬가지로 영구적인 음수 레벨을 2 만큼 "
-"얻습니다. 이런 식으로 얻는 음수 레벨은 총 생명 주사위 이상으로 쌓일 수 없습니다.\n"
+"사망한 동료를 되살립니다. 소생된 크리처는 현재 HD 와 동일한 만큼의 {g|Encyclopedia:HP}hit points{/g}을 "
+"가집니다. 소생은 죽음의 문턱 상태 또한 제거합니다.\n"
+"죽음에서 돌아오는 것은 고된 일입니다. {g|Encyclopedia:Spell}주문{/g}의 대상은 원기 흡수 공격을 당한 것과 같이 "
+"영구적인 음수 레벨을 2 만큼 얻습니다. 이런 식으로 얻는 음수 레벨은 총 {g|Encyclopedia:Hit_Dice}생명 주사위{/g}"
+" 이상으로 쌓일 수 없습니다.\n"
 "영구적 음수 레벨이 이미 생명 주사위 만큼 쌓인 크리처는 소생으로 되살릴 수 없습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RayOfEnfeeblement::LocalizedSavingThrow
-#, fuzzy
 msgctxt "1e6eed87-edf5-4144-9dca-c896b2ce1364"
 msgid "Fortitude halves strength penalty"
 msgstr "인내로 힘 페널티 절반"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RayOfEnfeeblement::m_DisplayName
-#, fuzzy
 msgctxt "b50ab7ce-e9dd-4e91-9a9f-fdfc19b0c4eb"
 msgid "Ray of Enfeeblement"
 msgstr "쇠약의 광선"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RayOfEnfeeblement::m_Description
-#, fuzzy
-#| msgid ""
-#| "A coruscating ray springs from your hand. You must succeed on a ranged touch "
-#| "attack to strike a target. The subject takes a penalty to Strength equal to "
-#| "1d6+1 per two caster levels (maximum 1d6+5). The subject's Strength score "
-#| "cannot drop below 1. A successful Fortitude save reduces this penalty by "
-#| "half. This penalty does not stack with itself. Apply the highest penalty "
-#| "instead."
 msgctxt "eda236ca-e525-4e67-bbeb-fd8205dd1832"
 msgid ""
 "A coruscating ray springs from your hand. You must succeed on a ranged "
@@ -30362,15 +30072,18 @@ msgid ""
 "half. This penalty does not stack with itself. Apply the highest penalty "
 "instead."
 msgstr ""
-"손에서 반짝이는 광선이 나갑니다. 목표를 명중시키려면 원거리 접촉 공격을 성공해야 합니다. 대상은 1d6 + 2 시전자 레벨 당 1 ("
-"최대 1d5 + 5) 점의 힘 페널티를 받습니다. 이 페널티는 대상의 힘을 1 미만으로 떨어 뜨릴 수 없습니다. 인내 내성 굴림에 "
-"성공하면 이 페널티가 절반으로 줄어듭니다. 여러 번 시전해도 이 페널티는 중복되지 않고 가장 높은 값의 페널티 하나를 적용합니다."
+"손에서 번쩍이는 광선을 쏘아냅니다. 목표를 명중시키려면 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 "
+"성공해야 합니다. 대상은 {g|Encyclopedia:Dice}1d6{/g} + 2 {g|Encyclopedia:Caster_Level}"
+"시전자 레벨{/g} 당 1 (최대 1d6 + 5) 점의 {g|Encyclopedia:Strength}힘{/g} "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 이 페널티는 대상의 힘을 1 미만으로 떨어 뜨릴 수 없습니다. "
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 성공하면 페널티가 절반으로 감소합니다. 여러 번 시전해도 이 "
+"페널티는 중복되지 않고 가장 높은 값의 페널티 하나만 적용됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RayOfExhaustion::m_DisplayName
 msgctxt "b99954fe-901c-44a7-beec-a40284b02e9a"
 msgid "Ray of Exhaustion"
-msgstr ""
+msgstr "탈진의 광선"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RayOfExhaustion::m_Description
@@ -30387,36 +30100,39 @@ msgid ""
 "normal exhaustion or fatigue, the effect ends as soon as the spell's "
 "duration expires."
 msgstr ""
+"검지 손가락으로 검은 광선을 쏘아냅니다. 목표를 명중시키려면 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 "
+"성공해야 합니다.\n"
+"대상은 주문의 지속 시간 동안 즉시 탈진 상태가 됩니다. {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 "
+"성공하면 탈진 대신 피로 상태가 됩니다.\n"
+"이미 피로 상태인 크리처 또한 탈진 상태가 됩니다.\n"
+"이 주문은 이미 탈진 상태인 대상에게는 효과가 없습니다. 일반적인 피로나 탈진과 달리, 이 주문의 효과로 적용된 탈진 상태는 주문의 지속 "
+"시간이 끝나면 사라집니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RayOfSickening::m_DisplayName
-#, fuzzy
 msgctxt "6c11ad85-6d4d-438c-a559-4213636d3bd9"
 msgid "Ray of Sickening"
 msgstr "고통의 광선"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RayOfSickening::m_Description
-#, fuzzy
-#| msgid ""
-#| "The subject is immediately sickened for the spell's duration. A successful "
-#| "Fortitude save negates the effect."
 msgctxt "4389b8ec-44a7-443a-b78d-d818f2e2cfee"
 msgid ""
 "The subject is immediately sickened for the {g|Encyclopedia:Spell}spell{/g}"
 "'s duration. A successful {g|Encyclopedia:Saving_Throw}Fortitude save{/g} "
 "negates the effect."
-msgstr "대상은 즉시 주문의 지속시간동안 고통 상태가 됩니다. 인내 내성에 성공 시 이 효과를 무효화합니다."
+msgstr ""
+"대상은 즉시 {g|Encyclopedia:Spell}주문{/g}의 지속시간 동안 고통 상태가 됩니다. "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g}에 성공 시 이 효과를 무효화합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RedDragon_Sanctum_BreathAbility::m_DisplayName
 msgctxt "90d8f5ce-8798-4555-a3eb-0962f66de96a"
 msgid "Entropic Breath"
-msgstr ""
+msgstr "혼돈의 숨결"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ReducePerson::m_DisplayName
-#, fuzzy
 msgctxt "0d320bc2-4e11-4a79-8837-d9607205f27a"
 msgid "Reduce Person"
 msgstr "사람 축소"
@@ -38487,7 +38203,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarWispLightningForm::m_DisplayName
-#, fuzzy
 msgctxt "56bb7963-badc-46be-a5c2-7e6b4853a03f"
 msgid "Lightning Form"
 msgstr "번개치기"
@@ -38496,7 +38211,7 @@ msgstr "번개치기"
 #. Path = WaterBlessingMajorAbility::m_DisplayName
 msgctxt "aa6cc566-3c95-4b7e-9fd8-25f0818cb80c"
 msgid "Armor of Ice"
-msgstr ""
+msgstr "얼음의 갑옷"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WaterBlessingMajorAbility::m_Description

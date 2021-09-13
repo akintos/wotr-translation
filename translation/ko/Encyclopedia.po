@@ -1,20 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-09-13 22:23+0000\n"
+"Last-Translator: Bumsoo <jake0208@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.4.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaChapter
 #. Path = Basics::Title
-#, fuzzy
 msgctxt "80fb0b02-d295-47e0-b142-d771d462f65b"
 msgid "Basics"
 msgstr "기초지식"
@@ -23,11 +23,10 @@ msgstr "기초지식"
 #. Path = Character_Creation::Blocks/0/Text
 msgctxt "2690277b-5b19-4c02-9ad3-cd4f1b53da09"
 msgid "This section describes the key terms and stages of character creation."
-msgstr ""
+msgstr "이 항목은 캐릭터 생성 시 중요 용어나 단계에 대해 설명합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaChapter
 #. Path = Character_Creation::Title
-#, fuzzy
 msgctxt "653f91a6-e5c7-466c-9acb-d45c7545963d"
 msgid "Character Creation"
 msgstr "캐릭터 생성(Character Creation)"
@@ -36,25 +35,22 @@ msgstr "캐릭터 생성(Character Creation)"
 #. Path = Combat_Rules::Title
 msgctxt "eb12038c-694c-45d0-8a97-6787a1ffa46c"
 msgid "Combat rules"
-msgstr ""
+msgstr "전투 규칙 (Combat Rules)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaChapter
 #. Path = Common_Terms::Title
-#, fuzzy
 msgctxt "8fda3a52-3e48-44d9-9988-6b526b788f4a"
 msgid "Common Terms"
 msgstr "공통 용어(Common Terms)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaChapter
 #. Path = Equipment::Title
-#, fuzzy
 msgctxt "1307e990-578a-435f-82d2-f6b250199755"
 msgid "Equipment"
 msgstr "장비"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaChapter
 #. Path = Magic::Title
-#, fuzzy
 msgctxt "8593b9c1-dcb2-4ddb-9378-ce413cb421ce"
 msgid "Magic"
 msgstr "마법"
@@ -63,7 +59,7 @@ msgstr "마법"
 #. Path = Tutorial::Title
 msgctxt "9e450eaa-4e4b-43d2-998c-d03d0f4bfeaf"
 msgid "Tutorial"
-msgstr ""
+msgstr "튜토리얼"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = AbilityDamage::Blocks/0/Text
@@ -91,23 +87,27 @@ msgid ""
 "Ability drain is a more severe type of ability damage. It doesn't heal "
 "naturally, but can be healed through the use of spells such as restoration."
 msgstr ""
+"질병, 독, {g|Encyclopedia:Spell}주문{/g}, 그리고 기타 효과들은 당신의 "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 직접적인 {g|Encyclopedia:Damage}피해{/g}"
+"를 입힐 수 있습니다. 이 피해는 일정 시간동안 능력치를 약화시키고 {g|Encyclopedia:Skills}기술{/g}과 그 능력에 "
+"기반한 수치에 {g|Encyclopedia:Penalty}페널티(약화,감소효과){/g}를 부여합니다.\n"
+"당신이 단일 능력치에 받는 매 2포인트의 피해량 마다 스킬, 건강의 경우 {g|Encyclopedia:HP}체력(HP){/g}, 그리고 "
+"능력치와 관련된 수치에 a - 1 만큼의 페널티를 부여 받습니다.\n"
+"만약 받은 능력치 피해가 당신의 능력치 점수 이상일 경우 당신은 즉시 그 데미지가 능력치 점수 미만이 될 때 까지 "
+"{g|Encyclopedia:Injury_Death}혼수상태{/g}에 빠지며 건강의 경우에 즉시 사망합니다. 특이사항으로 표기되어있는 "
+"경우가 아니라면 각 능력치 점수에 가해진 피해는 모두 하루에 1씩 {g|Encyclopedia:Healing}회복{/g}됩니다. 능력치 "
+"피해는 하급 복원 등과 같은 주문으로 회복될 수 있습니다.\n"
+"<b>능력치 소진(Ability Drain)</b>\n"
+"능력치 소진은 보다 심각한 형태의 능력치 피해입니다. 이것은 자연적으로 회복되지 않으나 복원 등의 주문으로 회복될 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = AbilityDamage::Title
 msgctxt "1654244e-c16c-4e62-b68c-47af4f844066"
 msgid "Ability Damage"
-msgstr ""
+msgstr "능력치 피해 (Ability Damage)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Ability_Scores::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Character creation starts by generating your character's ability scores. "
-#| "These six scores determine your character's most basic features and are used "
-#| "to decide a wide variety of details and statistics. Some class selections "
-#| "require you to have better than average scores for some of your abilities. "
-#| "Your choice of race will offer one or more bonuses to apply to your ability "
-#| "scores."
 msgctxt "ee92e12a-7cf0-40c9-80ce-ff39fa5a29bf"
 msgid ""
 "Ability scores determine your character's most basic features and are used "
@@ -116,24 +116,18 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonuses{/g} to apply to your ability scores, as well "
 "as {g|Encyclopedia:Penalty}penalties{/g}."
 msgstr ""
-"캐릭터 생성은 능력치를 배정하는 것으로 시작합니다. 이 6 가지의 점수는 당신의 캐릭터의 가장 기본적인 특징을 결정하고 다양한 세부 "
-"정보와 수치 계산에 사용됩니다. 어떤 클래스는 선택하려면 능력치가 평균보다 높아야 합니다. 종족에 따라 능력치에 1 혹은 그 이상의 "
-"보너스를 받습니다."
+"능력치 점수는 캐릭터의 가장 기본적인 요소이며 다양한 수치와 세부사항을 결정하는데 사용됩니다. 당신의 선택한 "
+"{g|Encyclopedia:Race}종족{/g}은 능력치에 하나 또는 그 이상의 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여할 수 있지만, {g|Encyclopedia:Penalty}페널티{/g}도 존재할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Ability_Scores::Title
-#, fuzzy
 msgctxt "ff808f14-e07b-4adf-9315-ea34b77aa57c"
 msgid "Ability scores"
-msgstr "능력치"
+msgstr "능력치 점수"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Abjuration::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Abjurations are protective spells. They create physical or magical barriers, "
-#| "negate magical or physical abilities, harm trespassers, or even banish the "
-#| "subject of the spell to another plane of existence."
 msgctxt "dd814f67-f8d8-40f9-a983-e2ba94aa70f5"
 msgid ""
 "Abjurations are protective {g|Encyclopedia:Spell}spells{/g}. They create "
@@ -141,28 +135,17 @@ msgid ""
 "trespassers, or even banish the subject of the spell to another plane of "
 "existence."
 msgstr ""
-"업저레이션은 보호 주문입니다. 이 주문들은 물리적 또는 마법적 장벽을 만들거나, 물리적 마법적 능력을 무효화하거나, 습격자를 해칠 수도 "
-"주문의 대상을 다른 차원으로 추방시킬 수도 있습니다."
+"업저레이션은 보호 {g|Encyclopedia:Spell}주문{/g} 입니다. 이 주문들은 물리적 또는 마법적 장벽을 만들거나, 물리적 "
+"마법적 능력을 무효화하거나, 습격자를 해칠 수도 주문의 대상을 다른 차원으로 추방시킬 수도 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Abjuration::Title
-#, fuzzy
 msgctxt "8396e0b1-fffa-4329-a730-9f133e6a13b1"
 msgid "Abjuration"
 msgstr "업저레이션"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Adapted_rules::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "When your character's current hit points drop to a negative amount equal to "
-#| "their <link=\"Encyclopedia:Constitution\"><b>Constitution</b></link> score "
-#| "or lower, they get the Death Door Condition. If they already had the Death "
-#| "Door Condition, they die. A character can also die from taking ability "
-#| "damage or suffering an ability drain that reduces their Constitution score "
-#| "to 0.\n"
-#| "Certain types of powerful magic, such as raise dead and resurrection, can "
-#| "restore life to a dead character."
 msgctxt "1d55b91a-54e3-4ba5-94b3-d2ab407d727d"
 msgid ""
 "When your character's current {g|Encyclopedia:HP}hit points{/g} drop to a "
@@ -175,14 +158,13 @@ msgid ""
 "Certain types of powerful magic, such as raise dead and resurrection, can "
 "restore life to a dead character."
 msgstr ""
-"캐릭터의 현재 생명점이 <link=\"Encyclopedia:Constitution\"><b>건강</b></link> 수치의 음수만큼 "
-"떨어지면, 죽음의 문턱 상태가 됩니다. 이미 죽음의 문턱 상태라면, 죽습니다. 또한 능력치 피해나 능력치 소진으로 건강 점수가 0이 되도 "
-"죽습니다.\n"
+"캐릭터의 현재 생명점이 {g|Encyclopedia:HP}건강{/g} 수치의 음수만큼 떨어지면, "
+"{g|Encyclopedia:Injury_Death}죽음의 문턱{/g} 상태가 됩니다. 이미 죽음의 문턱 상태라면, 죽습니다. 또한 "
+"{g|Encyclopedia:AbilityDamage}능력치 피해{/g}나 능력치 소진으로 건강 점수가 0이 되도 죽습니다.\n"
 "소생과 부활 등 특정 유형의 강력한 마법은 죽은 캐릭터를 되살릴 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Adapted_rules::Title
-#, fuzzy
 msgctxt "31db21b0-a1be-4191-883e-79aad36c14e4"
 msgid "Normal Mode"
 msgstr "일반 모드"
@@ -235,14 +217,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Alignment::Title
-#, fuzzy
 msgctxt "788d9e71-86dc-4555-8350-f46b200162bf"
 msgid "Alignment"
 msgstr "성향"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Armor_and_Shields::Title
-#, fuzzy
 msgctxt "e488c5a4-8f8d-4be3-ba5d-0a6112ddeacf"
 msgid "Armor and Shields"
 msgstr "갑옷과 방패"
@@ -262,28 +242,26 @@ msgid ""
 "A character's encumbrance may also incur a penalty. Medium encumbrance adds "
 "a -3 penalty to skill checks, and Heavy encumbrance adds a -6 penalty."
 msgstr ""
+"가죽보다 무거운 갑옷과 방패는 캐릭터의 {g|Encyclopedia:Dexterity}민첩{/g}과 "
+"{g|Encyclopedia:Strength}힘{/g} 수치에 관련된 {g|Encyclopedia:Skills}기술{/g}에 부정적인 "
+"영향을 미칩니다. 갑옷과 방패의 {g|Encyclopedia:Penalty}불이익{/g} 은 중첩됩니다.\n"
+"예를 들어, 캐릭터가 전신 판금 갑옷을 입고 무거운 돌덩이를 움직이려고 할 때 ({g|Encyclopedia:Athletics}운동{/g}"
+" 기술 {g|Encyclopedia:Check}판정{/g}), 이 상황에서는 판정의 최종 결과값에 -6 의 불이익을 받으며, 성공하기 "
+"매우 어려워집니다.\n"
+"캐릭터의 하중 또한 페널티를 초래할 수 있습니다. 중간의 하중은 기술 판정에 -3 의 페널티를 주며, 무거운 하중은 -6 의 페널티를 "
+"줍니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Armor_Check_Penalty::Title
 msgctxt "e738edac-4d04-4029-af2e-a89254ae38fc"
 msgid "Armor Check Penalty"
-msgstr ""
+msgstr "방어구 판정 페널티"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Armor_Class::Blocks/0/Text
 #. 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Tutorial_16_Attack::Blocks/1/Text
-#, fuzzy
-#| msgid ""
-#| "Your Armor Class (AC) represents how hard it is for opponents to land a "
-#| "solid, damaging blow on you. It's the attack roll result that an opponent "
-#| "needs to achieve to hit you.\n"
-#| "Your AC is equal to the following:\n"
-#| "10 + armor bonus + shield bonus + <link=\"Encyclopedia:Dexterity\""
-#| "><b>Dexterity</b></link> modifier + other modifiers.\n"
-#| "Note that armor limits your Dexterity bonus, so if you're wearing armor, you "
-#| "might not be able to apply your whole Dexterity bonus to your AC."
 msgctxt "1648a590-71d7-471e-9fb1-dbb1a86e7531"
 msgid ""
 "Your Armor Class (AC) represents how hard it is for opponents to land a "
@@ -296,22 +274,22 @@ msgid ""
 "Note: some armor limits the wearer's {g|Encyclopedia:Max_Dex_Bonus}maximum "
 "Dexterity bonus{/g}."
 msgstr ""
-"방어도 (AC)는 상대방이 얼마나 단단하고 피해를 가하기 어려운지를 나타냅니다. \n"
+"방어도 (AC)는 상대방이 당신에게 얼마나 깔끔한 피해를 가하기 어려운지를 나타냅니다.\n"
+"상대방의 {g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Dice}굴림{/g} 결과가 당신의 AC보다 "
+"같거나 높아야만 타격이 유효합니다.\n"
 "AC의 계산은 다음과 같습니다:\n"
-"10 + 방어구 보너스 + 방패 보너스 + <link=\"Encyclopedia:Dexterity\"><b>민첩</b></link> "
-"수정치 + 다른 수정치\n"
-"갑옷은 민첩 보너스를 제한 할 수 있으므로 갑옷을 입은 경우 AC에 민첩 보너스 전체를 적용하지 못할 수도 있습니다."
+"10 + 방어구 {g|Encyclopedia:Bonus}보너스{/g} + 방패 보너스 + "
+"{g|Encyclopedia:Dexterity}민첩{/g} 수정치 + 다른 수정치.\n"
+"주목: 어떠한 갑옷은 착용자의 {g|Encyclopedia:Max_Dex_Bonus}최대 민첩 보너스{/g}를 제한합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Armor_Class::Title
-#, fuzzy
 msgctxt "9b6f3c67-831c-41a5-b7b6-2ca0d7fd499c"
 msgid "Armor Class (AC)"
 msgstr "방어도 (AC)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Athletics::Title
-#, fuzzy
 msgctxt "24978975-00e1-437a-babd-42e81d39c67b"
 msgid "Athletics"
 msgstr "운동"
@@ -339,6 +317,16 @@ msgid ""
 "critical threat — it means a {g|Encyclopedia:Critical}critical{/g} hit is "
 "possible."
 msgstr ""
+"공격 {g|Encyclopedia:Dice}굴림{/g}은 적을 타격하기 위한 시도입니다.\n"
+"당신의 공격 굴림은 다음의 공식으로 계산됩니다:\n"
+"d20 + {g|Encyclopedia:BAB}기본 공격 보너스{/g} + {g|Encyclopedia:Ability_Scores}능력 "
+"점수{/g} 보정치 (보통 {g|Encyclopedia:MeleeAttack}근접 공격{/g}은 "
+"{g|Encyclopedia:Strength}힘,  {g|Encyclopedia:RangedAttack}원거리 공격{/g}은 "
+"{g|Encyclopedia:Dexterity}민첩{/g}) + 추가 보정치.\n"
+"굴림 결과가 목표의 {g|Encyclopedia:Armor_Class}방어도{/g} 이상이면 타격이 유효하고 "
+"{g|Encyclopedia:Damage}피해{/g}를 줍니다.\n"
+"1 의 굴림 (d20 주사위 결과가 1일 경우)은 절대 타격할 수 없고 20의 굴림 (d20 주사위 결과가 20일 경우)은 항상 "
+"타격합니다. 20의 굴림은 치명타 기회이며 {g|Encyclopedia:Critical}치명{/g}타 공격을 할 기회가 주어집니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Attack::Blocks/1/Text
@@ -352,12 +340,19 @@ msgid ""
 "{g|Encyclopedia:NaturalAttack}Natural Attacks{/g}\n"
 "{g|Encyclopedia:TouchAttack}Touch Attacks{/g}"
 msgstr ""
+"{br}다양한 형태의 공격들이 존재합니다:\n"
+"{g|Encyclopedia:MeleeAttack}근접 공격{/g}\n"
+"{g|Encyclopedia:UnarmedAttack}비무장 공격{/g}\n"
+"{g|Encyclopedia:RangedAttack}원거리 공격{/g}\n"
+"{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}\n"
+"{g|Encyclopedia:NaturalAttack}자연 공격{/g}\n"
+"{g|Encyclopedia:TouchAttack}접촉 공격{/g}"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Attack::Title
 msgctxt "79145d9a-8561-4a7d-acea-e3872952e4b2"
 msgid "Attack roll"
-msgstr ""
+msgstr "공격 굴림 (Attack roll)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Attack_Of_Opportunity::Blocks/0/Text
@@ -386,12 +381,30 @@ msgid ""
 "foot step to leave melee without provoking an attack. Spellcasters, when "
 "they cast in melee, automatically make an attempt to cast defensively."
 msgstr ""
+"기회 공격(AoO)은 특별한 {g|Encyclopedia:MeleeAttack}근접 공격{/g}입니다. 적이 공격 범위 내에서 행동을 "
+"통해 공격의 기회를 제공했을 때 캐릭터는 이 공격이 가능합니다. 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
+"크리쳐가 수행 가능한 이러한 공격의 횟수는 제한적입니다 - 주로 두번 이상의 기회의 공격을 수행 할 수 없으며, 두번 이상 기회가 주어진 "
+"경우에도 마찬가지 입니다.\n"
+"{g|Encyclopedia:Threatened_Area}공격 범위{/g}내 적들의 다음 "
+"{g|Encyclopedia:CA_Types}행동{/g}들이 기회 공격(AoO)을 유발합니다:\n"
+"*근접 범위를 벗어나려 할 때\n"
+"*{g|Encyclopedia:RangedAttack}원거리 공격{/g}을 할 때\n"
+"*쓰러진 상태에서 일어나려고 할 때\n"
+"*{g|Encyclopedia:Spell}주문{/g}을 시전하려고 할 때\n"
+"*포션을 마실 때\n"
+"대부분의 경우 기회 공격은 회피될 수 있습니다. 근접 범위를 벗어나려는 캐릭터의 경우 "
+"{g|Encyclopedia:Special_Abilities}특수 능력{/g}을 사용해 "
+"{g|Encyclopedia:Attack}공격{/g}을 유발하지 않고 "
+"{g|Encyclopedia:Mobility}이동{/g}{g|Encyclopedia:Skills}기술{/g} "
+"{g|Encyclopedia:Check}검사{/g}를 실시할 수 있습니다. 턴 기반 모드의 경우 캐릭터는 다섯 발자국 걸음(5-foot "
+"step)을 수행해 공격을 유발하지 않고 근접 범위를 벗어 날 수 있습니다. 주문 시전자들은 근접 범위에서는 자동으로 방어적으로 시전을 "
+"시도하게 됩니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Attack_Of_Opportunity::Title
 msgctxt "65716805-ef50-4da0-af02-1ee1be6e901e"
 msgid "Attack of Opportunity"
-msgstr ""
+msgstr "기회 공격(AoO, Attack of Opportunity)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = BAB::Blocks/0/Text
@@ -423,7 +436,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = BAB::Title
-#, fuzzy
 msgctxt "1a155337-ffd3-4ba5-a512-5fc3db3a9792"
 msgid "Base Attack Bonus (BAB)"
 msgstr "기본 공격 보너스 (BAB, Base Attack Bonus)"
@@ -458,14 +470,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Bonus::Title
-#, fuzzy
 msgctxt "c802f875-6e7a-4c17-b21b-3d06c261c66b"
 msgid "Bonus Types"
 msgstr "보너스 유형(Bonus Types)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Buffs::Blocks/0/Text
-#, fuzzy
 msgctxt "bbb27f52-31de-4afe-8971-706ee3dae889"
 msgid ""
 "Characters can be affected by different effects and conditions that can be "
@@ -479,7 +489,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Buffs::Title
-#, fuzzy
 msgctxt "597d8374-c210-4230-bf44-0c865f1fde9e"
 msgid "Effects and conditions"
 msgstr "효과와 상태"
@@ -518,12 +527,17 @@ msgid ""
 " bar to activate its automatic casting. This can be especially useful for "
 "cantrips and orisons."
 msgstr ""
+"0레벨의 아케인 {g|Encyclopedia:Spell}주문들{/g}은 "
+"{g|Encyclopedia:Cantrips_Orisons}캔트립{/g}이라고 불리며 0레벨의 신성 주문들은 오리즌이라고 불립니다. 이 "
+"주문들은 하루에 다른 것들과는 다르게 무제한으로 사용 가능합니다.\n"
+"주: 당신의 {g|Encyclopedia:CA_Types}행동{/g}바의 주문에 우측 마우스 버튼(RMB)을 클릭해서 자동 시전 설정을 "
+"할 수 있습니다. 이 기능은 캔트립과 오리즌에 특히 유용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Cantrips_Orisons::Title
 msgctxt "4f138754-bf3b-40ca-826f-6baa05888aba"
 msgid "Cantrips and Orisons"
-msgstr ""
+msgstr "캔트립과 오리즌"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Caster_Level::Blocks/0/Text
@@ -671,11 +685,6 @@ msgstr "행동 유형(Action Types)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Character_Class::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "A character's class is one of their defining features. It's the source of "
-#| "most of their powers, and it gives them a specific role in any adventuring "
-#| "party"
 msgctxt "ba51cb9a-8194-4411-82d6-924f9ecdf433"
 msgid ""
 "A character's class is one of their defining features. It's the source of "
@@ -683,7 +692,7 @@ msgid ""
 "party."
 msgstr ""
 "캐릭터의 클래스는 게임의 본질적인 특징 중 하나입니다. 클래스는 대부분의 능력의 원천이며, 모험하는 일행 안에서 캐릭터에 특별한 역할을 "
-"부여합니다"
+"부여합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Character_Class::Title
@@ -903,12 +912,21 @@ msgid ""
 "and penalties) must meet or exceed the {g|Encyclopedia:DC}Difficulty Class "
 "(DC){/g} of this check."
 msgstr ""
+"당신은 게임을 진행함에 따라 다양한 도전을 맞닥뜨릴 것입니다. 때때로 당신은 원하는 것을 이루기 위해 캐릭터를 설득해야 할 것이며, "
+"흔들거리는 사다리를 올라야 할 수도 있고, 적들의 {g|Encyclopedia:Spell}주문{/g}으로 부터 당신을 보호해야 할 "
+"것입니다. 이러한 모든 도전들은 검사(check)라고 불립니다. 검사의 흔한 종류들은 {g|Encyclopedia:Attack}공격 "
+"굴림{/g}, {g|Encyclopedia:Ability_Scores}능력치 검사{/g}, {g|Encyclopedia:Skills}기술 "
+"검사{/g}, 그리고 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}이 있습니다.\n"
+"검사를 통과하고 성공적으로 {g|Encyclopedia:CA_Types}행동{/g}을 성공시키기 위해 당신은 "
+"{g|Encyclopedia:Dice}20면체 주사위(d20){/g}를 굴리고 그 결과에는 당신의 캐릭터의 능력치와 효과들, 적들과 "
+"환경에 따른 {g|Encyclopedia:Bonus}보너스{/g}와 {g|Encyclopedia:Penalty}페널티{/g}와 같은 "
+"다양한 변수들이 더해집니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Check::Title
 msgctxt "b79f8f57-e353-485a-9119-c6c832a836f4"
 msgid "Check"
-msgstr ""
+msgstr "판정 (Check)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Class::Blocks/0/Text
@@ -1768,12 +1786,29 @@ msgid ""
 "If a spell causes {g|Encyclopedia:AbilityDamage}ability damage{/g} or drain, "
 "the damage or drain is doubled on a critical hit."
 msgstr ""
+"운이 좋다면 당신은 치명타를 통해 증가된 {g|Encyclopedia:Damage}피해{/g}를 입힐 수 있습니다.\n"
+"{g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Dice}굴림{/g}을 수행해서 당신의 무기의 치명타 "
+"위협 범위 내의 숫자가 나온다면, 당신은 공격이 치명타로 적용될 수 있는 \"치명타 위협\"을 달성한 것입니다. 기본적으로 20이 모든 "
+"무기의 치명타 위협 범위이지만 특정 무기들은 18-20 (그래도 치명타 위협을 달성하려면 적을 명중시켜야 합니다) 과 같이 20보다 넓은 "
+"범위를 가집니다. 무기의 위협 범위는 설명에 구체적으로 표기되어 있습니다. 위협을 성공적으로 치명타 적중으로 연결시키기 위해 방금 "
+"수행했던 것과 정확히 똑같은 공격 굴림을 통해 \"확인\"하는 시도를 거칩니다. 이 확인 굴림은 그저 치명타를 부여하기 위한 것이며 위협 "
+"범위에 들어갈 필요는 없습니다.\n"
+"치명타란 당신이 모든 보너스들과 함께 피해량을 한번 이상 굴린다는 뜻이며 모든 굴림 결과는 합쳐집니다. 대부분의 무기들은 피해 굴림을 "
+"두번 수행하게 해주지만 활, 도끼, 그리고 대부분의 {g|Encyclopedia:Light_Weapon}양손{/g}무기와 같은 특정 "
+"무기들은 치명타로 두배 이상의 피해를 줍니다. 그 수치들은 각 무기의 설명란에 표기되어 있습니다.\n"
+"<b>정밀 피해(Precision damage)</b>\n"
+"도적의 암습과 같은 정밀 피해와 화염피해와 같이 무기의 {g|Encyclopedia:Special_Abilities}특수 능력{/g}을 "
+"통한 추가 피해량 굴림은 치명타 공격을 가할 때 곱해지지 않습니다.\n"
+"<b>{g|Encyclopedia:Spell}주문{/g}과 치명타</b>\n"
+"공격 굴림을 필요로하는 주문(대부분 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 통한)의 경우 치명타로 적용될 "
+"수 있으며 두배의 피해를 가합니다. 만약 치명타로 작용한 주문이 {g|Encyclopedia:AbilityDamage}능력치 피해{/g}"
+"나 능력치 소진을 유발한다면 그 수치는 두배가 됩니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Critical::Title
 msgctxt "db1abc4b-403c-40cc-822f-56094db3e5e6"
 msgid "Critical Hits"
-msgstr ""
+msgstr "치명타"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Damage::Blocks/0/Text
@@ -1805,6 +1840,22 @@ msgid ""
 "There are two main types of damage: {g|Encyclopedia:Energy_Damage}energy "
 "damage{/g} and {g|Encyclopedia:Physical_Damage}physical damage{/g}."
 msgstr ""
+"당신의 {g|Encyclopedia:Attack}공격{/g}이 성공하면 공격 대상에게 일정한 피해를 입힙니다. 피해량은 당신이 사용하는 "
+"무기와 다른 변수들로 인한 {g|Encyclopedia:Bonus}보너스{/g}와 {g|Encyclopedia:Penalty}페널티{/g}"
+"가 합쳐진 주사위 {g|Encyclopedia:Dice}굴림{/g}을 통해 계산됩니다. 피해량은 대상의 현재 "
+"{g|Encyclopedia:HP}생명점{/g}을 감소시킵니다.\n"
+"<b>최소 피해량</b>\n"
+"만약 공격자의 페널티가 피해량의 결과값을 1 밑으로 내려버린다면, 그 공격은 여전히 1의 피해를 입힙니다. 이 피해량은 여전히 적들의 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g}나 "
+"{g|Encyclopedia:Energy_Resistance}에너지 저항{/g}과 같은 능력으로 감소될 수 있습니다.\n"
+"<b>{g|Encyclopedia:Strength}힘{/g} 보너스</b>\n"
+"근접 무기나 투척 무기로 공격할 때, 피해량 결과값에 힘 수정치를 더합니다.\n"
+"보조 무기로 피해를 가할 때, 힘 보너스의 절반만을 더합니다. 힘 페널티를 보유중이라면,전체 페널티가 적용됩니다.\n"
+"{g|Encyclopedia:Light_Weapon}양손{/g}으로 들고있는 무기로 피해를 가할 때, 힘 보너스(힘 페널티는 곱해지지 "
+"않습니다.)의 1.5 배만큼 더합니다. 하지만 양손 경량 무기를 사용할 때는 이 높은 보너스가 적용되지 않습니다.\n"
+"<b>피해의 종류</b>\n"
+"피해에는 다음의 두가지 종류가 있습니다: {g|Encyclopedia:Energy_Damage}에너지 피해{/g}와 "
+"{g|Encyclopedia:Physical_Damage}물리 피해{/g}."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Damage::Title
@@ -1906,13 +1957,19 @@ msgid ""
 "+3 weapons overcome Cold Iron/Silver type of DR, +4 weapons overcome "
 "Adamantine type of DR, +5 weapons overcome Alignment-based DR."
 msgstr ""
+"<b>DR 극복(Overcoming DR)</b>\n"
+"{g|Encyclopedia:Damage}피해{/g} 감소는 특수 재료(냉기 철이나 아다만타인 등과 같은)로 만들어진 무기, 마법 무기("
+"명품을 제외한 +1 이상의 강화 {g|Encyclopedia:Bonus}보너스{/g}를 가진), 특정 종류의 "
+"무기({g|Encyclopedia:Damage_Type}베는{/g} 또는 부수는), 그리고 "
+"{g|Encyclopedia:Alignment}성향{/g}(선성향이 깃든것과 같이)이 깃든 무기로 극복될 수 있습니다.\n"
+"+3 이상의 강화 보너스를 가진 무기들은 그것들의 본래 재료나 성향에 관계 없이 특정 종류의 피해 감소를 극복할 수 있습니다.\n"
+"+3 무기들은 냉기 철/ 은 종류의 DR을, +4 무기들은 아다만타인 종류의 DR을, +5 무기들은 성향-기반의 DR을 극복합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Damage_Reduction::Title
-#, fuzzy
 msgctxt "25202278-e675-448b-ad31-5ddbe5df4fa3"
 msgid "Damage Reduction"
-msgstr "피해 감소(Damage Reduction)"
+msgstr "피해 감소 (Damage Reduction)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Damage_Type::Blocks/0/Text
@@ -1925,12 +1982,15 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g}. Some weapons deal damage of multiple "
 "types."
 msgstr ""
+"무기들은 그것들이 가하는 {g|Encyclopedia:Physical_Damage}물리 피해{/g}의 종류에 따라 분류됩니다: 부수기, "
+"꿰뚫기, 또는 베기. 특정 몬스터들은 특정 {g|Encyclopedia:Damage}피해{/g}종류의 "
+"{g|Encyclopedia:Attack}공격들{/g}에 면역일 수 있습니다. 특정 무기들은 2개 이상의 종류의 피해를 가합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Damage_Type::Title
 msgctxt "3df8482c-cc62-4961-b820-d52d5c841576"
 msgid "Damage Type"
-msgstr ""
+msgstr "피해 종류(Damage Type)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = DC::Blocks/0/Text
@@ -2071,12 +2131,21 @@ msgid ""
 "There are many types of dice, but the most common are: d3, d4, d6, d8, d10, "
 "d12, d20."
 msgstr ""
+"이 게임의 대부분의 메커닉들은 주사위를 이용해 다양한{g|Encyclopedia:CA_Types}행동{/g}들의 결과를 결정하는 "
+"TRPG인 Pathfinder에 기반하고 있습니다.\n"
+"가장 일반적으로 사용되는 주사위는 20개의 면을 가지고 있으며(이에 기반한 룰이 d20으로 표기되어있습니다.) - 이것이 "
+"{g|Encyclopedia:Attack}공격{/g}, {g|Encyclopedia:Skills}기술{/g} "
+"{g|Encyclopedia:Check}검사{/g}와 다양한 다른 경우에 사용되는 주사위입니다. 주사위를 굴려야 할 때, 특정한 종류의 "
+"굴림은 XdN으로 표기되며, N은 굴려야하는 주사위의 면의 갯수, 그리고 X는 주사위를 굴리는 횟수를 의미합니다. 예를 들어, 1d20의 "
+"결과는 1에서 20까지(20면체 주사위를 한번 굴림) 나올 수 있으며 , 2d6는 2에서 12까지 (6면체 주사위를 두번 굴려 값을 더함)"
+"의 결과를 가질 수 있습니다.\n"
+"많은 종류의 주사위가 있지만 흔히 사용되는 주사위의 종류는 다음과 같습니다: d3, d4, d6, d8, d10, d12, d20."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dice::Title
 msgctxt "4c55ca80-c354-48dc-9120-5f6cc648b437"
 msgid "Dice"
-msgstr ""
+msgstr "주사위"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Divination::Blocks/0/Text
@@ -2180,12 +2249,20 @@ msgid ""
 "The other main type of damage is {g|Encyclopedia:Physical_Damage}physical "
 "damage{/g}."
 msgstr ""
+"에너지 {g|Encyclopedia:Damage}피해{/g}는 기본적으로 {g|Encyclopedia:Spell}주문{/g}들에 의해 "
+"가해집니다. 주문이나 [산성], [음파] 또는 [전기]와 같은 {g|Encyclopedia:Spell_descriptors}기술어{/g}"
+"가 붙은 효과들은 에너지 피해를 가합니다.\n"
+"크리쳐는 이렇게 가해지는 피해의 수치를 감소시키기 위해 {g|Encyclopedia:Energy_Resistance}에너지 저항{/g}을 "
+"가져야합니다. 크리쳐의 {g|Encyclopedia:Special_Abilities}특수 능력{/g}인 "
+"{g|Encyclopedia:Energy_Immunity}에너지 면역{/g}은 어떤 {g|Encyclopedia:Damage_Type}"
+"피해 종류{/g}의 에너지 피해를 완전히 무효화시킬 수 있게 해줍니다. 다른 종류의 주 피해 종류는 "
+"{g|Encyclopedia:Physical_Damage}물리 피해{/g}입니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Damage::Title
 msgctxt "8b0faa4c-a6da-4186-b3c9-92b2a77c7d65"
 msgid "Energy Damage"
-msgstr ""
+msgstr "에너지 피해"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Immunity::Blocks/0/Text
@@ -2196,12 +2273,15 @@ msgid ""
 "electricity, see {g|Encyclopedia:Spell_Descriptor}spell descriptors{/g}). "
 "For example, most demons are immune to electricity."
 msgstr ""
+"에너지 면역을 가진 크리쳐는 절대로 그 에너지 종류의(냉기나 전기와 같은, {g|Encyclopedia:Spell_Descriptor}"
+"주문 기술어{/g}를 참조하십시오) {g|Encyclopedia:Damage}피해{/g}를 입지 않습니다.\n"
+"예를 들어, 대부분의 데몬들은 전기에 면역을 가집니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Immunity::Title
 msgctxt "c7597172-d1d9-43c4-9598-7e55eb71f168"
 msgid "Energy Immunity"
-msgstr ""
+msgstr "에너지 면역"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Resistance::Blocks/0/Text
@@ -2219,6 +2299,14 @@ msgid ""
 "{g|Encyclopedia:Spell}Spells{/g} are not disrupted if the spellcaster's "
 "energy resistance completely negates the damage from an enemy energy attack."
 msgstr ""
+"에너지에 저항을 가진 크리쳐는 어떤 종류의 {g|Encyclopedia:Damage}피해{/g}를 매 "
+"{g|Encyclopedia:Attack}공격{/g}마다 무시할 수 있는 능력(주로 예외적인)을 가지고 있지만 , 완전한 면역을 가지고 "
+"있지는 않습니다. 같은 종류의 저항은 중첩되지 않습니다.\n"
+"각 저항 능력은 \"에너지 저항 (화염) 10\"이 가해지는 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 "
+"10만큼 감소시키는 것과 같이 어떤 종류의 에너지를 저항하는지(냉기나 전기와 같은)와 얼마나 많은 점수의 피해를 저항하는지에 따라 "
+"정의됩니다. 가해지는 피해가 마법에 의한 것인지 일반적인 것인지는 상관 없습니다.\n"
+"주문시전자의 에너지 저항이 적의 에너지 공격의 피해를 완전히 무시한다면 그의 {g|Encyclopedia:Spell}주문들{/g}은 "
+"방해받지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Resistance::Title
@@ -2240,12 +2328,18 @@ msgid ""
 "throw{/g}, the effects apply in the following order:\n"
 "1. Saving Throw: 2. Energy Vulnerability; 3. Energy Resistance."
 msgstr ""
+"에너지 취약성은 크리쳐가 그 종류의 에너지에 (냉기와 전기와 같은, {g|Encyclopedia:Spell_Descriptor}주문 "
+"기술어{/g}를 참조하세요)일반적인 피해보다 50% 더 많은 {g|Encyclopedia:Damage}피해{/g}를 입게 합니다. 만약 "
+"크리쳐가 취약성과 {g|Encyclopedia:Energy_Resistance}에너지 저항{/g}을 모두 가지고, 가해진 "
+"{g|Encyclopedia:Spell}주문{/g}이 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 허용한다면, "
+"다음 순서에 따라 효과가 적용됩니다:\n"
+"1. 내성 굴림: 2. 에너지 취약성; 3. 에너지 저항."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Vulnerability::Title
 msgctxt "7f9936ac-e729-436f-9f93-d7e35f79ff01"
 msgid "Energy Vulnerability"
-msgstr ""
+msgstr "에너지 취약성(Energy Vulnerability)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Equip::Blocks/0/Text
@@ -2394,12 +2488,18 @@ msgid ""
 "Flat-footed character cannot perform {g|Encyclopedia:Attack_Of_Opportunity}"
 "attacks of opportunity{/g}."
 msgstr ""
+"전투에서 아직 행동하지 않은 캐릭터는 무방비 상태이며, 상황에 정상적으로 반응할 수 없습니다. 무방비 상태의 캐릭터는 그들의 "
+"{g|Encyclopedia:Armor_Class}AC{/g} (와 피하기와 같이 그에 영향을 받는 효과들)에 더해지는 "
+"{g|Encyclopedia:Dexterity}민첩{/g}{g|Encyclopedia:Bonus}보너스{/g}와 "
+"{g|Encyclopedia:CMD}전법 방어도{/g} (CMD)(만약 있다면)를 잃습니다. 이 상태의 캐릭터는 로그와 슬레이어의 암행 "
+"{g|Encyclopedia:Attack}공격들{/g}에 노출됩니다.\n"
+"무방비 상태의 캐릭터는 {g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을 실행할 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Flat_Footed::Title
 msgctxt "c08e0958-b2ed-41c2-a454-1ccf27cd8976"
 msgid "Flat-Footed condition"
-msgstr ""
+msgstr "무방비 상태"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Flat_Footed_AC::Blocks/0/Text
@@ -2678,28 +2778,20 @@ msgid ""
 "character level{/g}. To learn a creature's hit dice, you can inspect it.\n"
 "Hit dice is often used to determine {g|Encyclopedia:Spell}spell{/g} effects."
 msgstr ""
+"크리쳐는 레벨을 올리면서 추가 생명 주사위를 얻습니다. 생명 주사위는 크리쳐의 총 {g|Encyclopedia:HP}생명점{/g}을 "
+"결정할 때 사용됩니다.\n"
+"플레이어 캐릭터의 경우, 생명 주사위는 그들의 {g|Encyclopedia:Character_Level}캐릭터 레벨{/g}과 일치합니다. "
+"크리쳐의 생명 주사위를 알고 싶다면, 조사를 통해 알아볼 수 있습니다.\n"
+"생명 주사위는 {g|Encyclopedia:Spell}주문{/g}효과를 결정할 때 자주 사용됩니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Hit_Dice::Title
 msgctxt "b0405954-651e-4868-9392-123e50789c4d"
 msgid "Hit Dice"
-msgstr ""
+msgstr "생명 주사위(HD, Hit Dice)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = HP::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Hit points are an abstraction signifying how robust and healthy a creature "
-#| "is at the current moment. To determine a creature's hit points, roll the "
-#| "dice indicated by its Hit Dice. A creature gains maximum hit points if its "
-#| "first Hit Die roll is for a character class level. Creatures whose first Hit "
-#| "Die comes from an NPC class or from his race roll their first Hit Die "
-#| "normally. Wounds subtract hit points, while healing (both natural and "
-#| "magical) restores hit points. Some abilities and spells grant temporary hit "
-#| "points that disappear after a specific duration. When a creature's hit "
-#| "points drop below 0, it becomes unconscious. When a creature's hit points "
-#| "reach a negative total equal to its <link=\"Encyclopedia:Constitution\""
-#| "><b>Constitution</b></link> score, it dies."
 msgctxt "8ba593ba-1bae-4352-9f09-b7c360d933c7"
 msgid ""
 "Your hit points measure how hard you are to kill. The most common way that "
@@ -2713,39 +2805,33 @@ msgid ""
 "reach a negative total equal to its "
 "{g|Encyclopedia:Constitution}Constitution{/g} score, it dies."
 msgstr ""
-"생명점은 현재 크리처가 얼마나 강하고 건강한지를 나타냅니다. 생물의 생명점을 확인하려면 생명 주사위로 표시된 주사위를 굴립니다. 생물의 "
-"첫 번째 생명 주사위 굴림이 캐릭터 클래스 레벨인 경우 최대 생명점를 획득합니다. 첫 생명 주사위 굴림이 NPC 클래스나 그의 레이스에서 "
-"온 생물들은 그들의 첫 생명 주사위를 정상적으로 굴립니다. 피해는 생명점을 빼는 반면 치유(자연 치유와 마법 모두)는 생명점을 "
-"회복시킵니다. 일부 능력과 주문은 특정 기간 후에 사라지는 임시 생명점을 부여합니다. 크리처의 생명점이 0 아래로 떨어지면 의식을 잃게 "
-"됩니다. 피조물의 생명점이 음수가 되면, 그 총계는 <link=\"Encyclopedia:Constitution\"><b>건강</b></"
-"link> 점수와 같고, 죽습니다."
+"생명점은 당신이 얼마나 죽이기 어려운지를 측정합니다. 캐릭터가 다치는 가장 일반적인 경우는 "
+"{g|Encyclopedia:Damage}피해{/g}를 입어 생명점이 줄어드는 것입니다.\n"
+"일부 능력과 {g|Encyclopedia:Spell}주문{/g}은 특정 기간 후에 사라지는 임시 생명점을 부여합니다. 크리처가 피해를 "
+"입을 시 임시 생명점부터 먼저 잃게 됩니다.\n"
+"크리처의 생명점이 0 아래로 떨어지면 {g|Encyclopedia:Injury_Death}의식불명{/g} 상태에 빠집니다. 생명점이 "
+"음수가 되어 그 총합이 {g|Encyclopedia:Constitution}건강{/g} 점수와 같아진다면 크리처는 죽습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = HP::Title
-#, fuzzy
 msgctxt "ea1d37da-fb90-475e-b828-1eb519c8dc84"
 msgid "Hit Points (HP)"
-msgstr "생명점(HP)"
+msgstr "생명점 (HP)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Illusion::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Illusion spells deceive the senses or minds of others. They cause people to "
-#| "see things that are not there, not see things that are there, hear phantom "
-#| "noises, or remember things that never happened."
 msgctxt "35db3d31-4c86-4af3-82e1-a180cf458e67"
 msgid ""
 "Illusion {g|Encyclopedia:Spell}spells{/g} deceive the senses or minds of "
 "others. They cause people to see things that are not there, not see things "
 "that are there, hear phantom noises, or remember things that never happened."
 msgstr ""
-"일루전 주문들은 다른 이의 정신이나 감각을 속입니다. 이 주문들은 사람들에게 실제로 존재하지 않는 어떤 것을 보게 만들거나, 실제로 "
-"존재하는 것을 보지 못하게 만들거나, 환청을 듣게 하거나, 실제로 일어나지 않은 일을 기억하게 만듭니다."
+"일루전 {g|Encyclopedia:Spell}주문{/g}은 다른 이의 정신이나 감각을 속입니다. 이 주문들은 사람들에게 실제로 존재하지 "
+"않는 어떤 것을 보게 만들거나, 실제로 존재하는 것을 보지 못하게 만들거나, 환청을 듣게 하거나, 실제로 일어나지 않은 일을 기억하게 "
+"만듭니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Illusion::Title
-#, fuzzy
 msgctxt "23226241-d467-4144-a5a8-e6f2a1edc5d2"
 msgid "Illusion"
 msgstr "일루전"
@@ -2763,12 +2849,17 @@ msgid ""
 "armor bonuses granted by force effects, such as mage armor "
 "{g|Encyclopedia:Spell}spell{/g} and bracers of armor item."
 msgstr ""
+"귀신과 같은 몇 크리쳐들은 비실체의 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 할 수 있는 능력을 가집니다. "
+"이 {g|Encyclopedia:Attack}공격{/g}은 갑옷과 방패와 같은 고체 물질들을 무시하고 통과해 지나갑니다. 비실체의 접촉 "
+"공격은 일반적인 접촉 공격과 비슷하게 작용하지만 또한 엄폐 {g|Encyclopedia:Bonus}보너스{/g}도 무시합니다. 비실체의 "
+"접촉 공격은 마법사의 갑옷 {g|Encyclopedia:Spell}주문{/g}이나 방어의 팔찌같이 역장 효과로 얻은 갑옷 보너스들은 "
+"무시하지 못합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Incorporeal_Touch_Attack::Title
 msgctxt "8bb7b3c2-3896-45f0-8dd7-805d3f31feee"
 msgid "Incorporeal Touch Attack"
-msgstr ""
+msgstr "비실체 접촉 공격(Incorporeal Toch Attack)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Initiative::Blocks/0/Text
@@ -2943,18 +3034,13 @@ msgstr "지능"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Journal::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Linzi's Journal contains your current quests and tasks. When their status "
-#| "changes, you will also see a notification on the main screen. To open the "
-#| "Journal, press <b>{bind|OpenJournal}</b>."
 msgctxt "da28ce8e-9f91-4ae3-b383-c72e41b8b698"
 msgid ""
 "The Journal contains your current quests and errands. When their status "
 "changes, you will also see a notification on the main screen. To open the "
 "Journal, press <b>{bind|OpenJournal}</b>."
 msgstr ""
-"린지의 저널은 당신의 현재 퀘스트와 임무를 나타냅니다. 변경 사항이 생기면 메인 스크린에서 표시가 될 것입니다. 저널을 열려면 "
+"저널은 당신의 현재 퀘스트와 임무를 나타냅니다. 변경 사항이 생기면 메인 스크린에서 표시가 될 것입니다. 저널을 열려면 "
 "<b>{bind|저널열기}</b>를 누르십시오."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
@@ -2967,30 +3053,18 @@ msgstr "린지의 저널"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Knowledge_Arcana::Title
-#, fuzzy
 msgctxt "517944b2-4dc3-4c4a-a97a-462ef10e8e0f"
 msgid "Knowledge: Arcana"
-msgstr "지식: 비전 기술"
+msgstr "지식: 비전"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Knowledge_World::Title
-#, fuzzy
 msgctxt "4dfd7d1e-4cc8-47a9-b611-c359732566d3"
 msgid "Knowledge: World"
 msgstr "지식: 세계"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Level_Up::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Victories in combat and other successes will reward your characters with "
-#| "experience points. After gaining a certain amount of experience, a character "
-#| "will achieve a new level. This allows them to gain a new class or increase "
-#| "their level in one of their already taken classes. This also provides other "
-#| "benefits, such as increasing the character's total hit points. If you are "
-#| "new to the game and want to learn how the game works first, try to stick to "
-#| "the class you've chosen first until you feel confident enough to take on "
-#| "another one."
 msgctxt "d2dedb0a-57b8-42f0-a43a-7ab222ae70c2"
 msgid ""
 "Victories in combat and other successes will reward your characters with "
@@ -3002,17 +3076,16 @@ msgid ""
 "learn how the game works first, try to stick to the class you've chosen "
 "first until you feel confident enough to take on another one."
 msgstr ""
-"전투에서 승리하거나 부가적인 행동을 성공적으로 마치면 경험치를 보상으로 받을 수 있습니다.경험치가 일정량에 도달하면 캐릭터는 레벨업을 "
-"합니다. 이를 통해 새로운 직업을 얻거나 이미 가진 직업의 레벨을 올릴 수 있습니다. 당연히 캐릭터의 HP총량도 늘어납니다. 만약 당신이 "
-"초심자이고 게임이 어떻게 돌아가는지 알고 싶다면 처음에 선택한 직업에만 집중하십시오. 충분히 자신감이 들었을 때 다른 직업을 선택해도 "
-"늦지 않습니다."
+"전투에서 승리하거나 부가적인 행동을 성공적으로 마치면 {g|Encyclopedia:XP}경험치{/g}를 보상으로 받을 수 "
+"있습니다.경험치가 일정량에 도달하면 캐릭터는 레벨업을 합니다. 이를 통해 새로운 클래스를 얻거나 이미 가진 클래스의 레벨을 올릴 수 "
+"있습니다. 당연히 캐릭터의 {g|Encyclopedia:HP}생명점{/g} 총량도 늘어납니다. 만약 당신이 초심자이고 게임이 어떻게 "
+"돌아가는지 알고 싶다면 처음에 선택한 직업에만 집중하십시오. 충분히 자신감이 들었을 때 다른 직업을 선택해도 늦지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Level_Up::Title
-#, fuzzy
 msgctxt "dfdd5d59-3c0b-4fe7-b40b-fde86a5e8264"
 msgid "Level Up"
-msgstr "레벨업"
+msgstr "레벨 상승"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Light_Weapon::Blocks/0/Text
@@ -3047,18 +3120,16 @@ msgstr ""
 #. Path = Light_Weapon::Title
 msgctxt "bca855bc-52ed-4e4b-bb76-2088f30ea662"
 msgid "Light Weapon, One-Handed or Two-Handed"
-msgstr ""
+msgstr "경량 무기, 한손 또는 양손"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Lore_Nature::Title
-#, fuzzy
 msgctxt "3415af9f-a9ff-43b5-9b41-2830bc19cdea"
 msgid "Lore: Nature"
 msgstr "전승: 자연"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Lore_Religion::Title
-#, fuzzy
 msgctxt "1c6f52ba-d61a-4b9c-b002-f6716c71f168"
 msgid "Lore: Religion"
 msgstr "전승: 종교"
@@ -3081,10 +3152,9 @@ msgid ""
 "For example, some feats can increase effectiveness of spells from a certain "
 "school."
 msgstr ""
-"<b>학파 (하위학파)</b>\n"
-"주문 이름의 아래에 주문이 속한 마법 학파 (있는 경우 하위 학파도 포함)를 표기하는 줄이 있습니다.\n"
-"거의 모든 주문들이 마법의 여덟 학파중 하나에 속합니다. 마법 학파는 비슷한 방식으로 동작하는 관련 주문들의 모임입니다. 몇몇 소수의 "
-"주문들은 어떤 학파에도 속하지 않은 범용 주문입니다."
+"모든 {g|Encyclopedia:Spell}주문{/g}은 여덟 마법 학파 중 하나에 속합니다. 학파는 학파에 속한 주문의 특성을 가졌고 "
+"{g|Encyclopedia:Feat}특기{/g}나 마법 아이템과 같은 다른 게임 요소와 주문의 상호작용을 담당합니다. 예를 들어, 일부 "
+"특기는 특정 학파의 주문 효율을 높입니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Magic_School::Title
@@ -3095,16 +3165,6 @@ msgstr "마법학파"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Map_Movement::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "To set out for a location, click on one of the arrows near your party token. "
-#| "You can learn the whereabouts of significant locations by talking to "
-#| "characters or happening upon them during your journey. After learning about "
-#| "a location, you must find the way there yourself. Along the way, random "
-#| "encounters await. You may be attacked by monsters, or you may meet new "
-#| "acquaintances. After exiting the location of a random encounter, you will "
-#| "not be able to return there.\n"
-#| "Click this icon to exit the area."
 msgctxt "fc058d8f-79eb-4053-9881-5a70b9916764"
 msgid ""
 "To set out for a location, click on one of the arrows near your party token. "
@@ -3118,13 +3178,12 @@ msgid ""
 msgstr ""
 "다른 장소로 이동하려면 당신의 파티 근처에 있는 화살표를 클릭하십시오. 여행을 하면서 일어난 일이나 다른 캐릭터와의 대화를 통해서 중요한 "
 "장소에 대해 알아낼 수 있습니다. 장소에 대한 정보를 알아냈으면 그 이후부터는 당신이 직접 가는 길을 찾아야 합니다. 그러는 와중에 랜덤 "
-"인카운터가 발생할 수도 있습니다. 몬스터에게 공격당하거나 새로운 인물과 마주칠 수도 있지요. 랜덤 인카운터 지역에서 벗어난다면 다시는 그 "
-"지역으로 돌아갈 수 없습니다.\n"
+"인카운터가 발생할 수도 있습니다. 몬스터에게 {g|Encyclopedia:Attack}공격{/g}당하거나 새로운 인물과 마주칠 수도 "
+"있지요. 랜덤 인카운터 지역에서 벗어난다면 다시는 그 지역으로 돌아갈 수 없습니다.\n"
 "지역을 벗어나려면 이 아이콘을 클릭하십시오."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Map_Movement::Title
-#, fuzzy
 msgctxt "2215e9fb-e114-4741-8d68-284ab3e88022"
 msgid "Map Movement"
 msgstr "맵 이동"
@@ -3148,12 +3207,21 @@ msgid ""
 "Class. In case of medium encumbrance maximum Dexterity bonus to AC is +3, in "
 "case of heavy encumbrance — only +1."
 msgstr ""
+"이 숫자는 이 종류의 갑옷 (그리고 타워 실드)이 허용하는 {g|Encyclopedia:Armor_Class}AC{/g}의 최대 "
+"{g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Bonus}보너스{/g}입니다. 착용자의 AC를 "
+"결정할 때 이 숫자를 넘어가는 민첩 보너스는 무시되어 이 수치만큼만 적용됩니다. 더 무거운 갑옷들은 착용자의 "
+"{g|Encyclopedia:Mobility}기동성{/g}을 제한하여 공격을 피하는것을 제한시킵니다. 이 제한은 다른 민첩 관련 "
+"능력들에는 영향을 전혀 미치지 않습니다.\n"
+"예를 들어, 캐릭터가 +4 의 민첩 보너스를 가지고 전신 판금 갑옷을 착용하고 있다고 가정합시다. 전신 판금 갑옷은 최대 민첩 보너스가 +"
+"1 이기 때문에, 착용자의 AC에는 +1 만큼의 민첩 보너스만이 더해집니다.\n"
+"캐릭터의 하중 (갑옷을 포함해 가지고 다니는 장비의 총 무게) 또한 AC에 대한 민첩 보너스의 최대치를 제한시킵니다. 중간 정도의 하중일 "
+"때 AC에 대한 최대 민첩 보너스는 +3 이며, 무거운 하중일 때는 +1 밖에 되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Max_Dex_Bonus::Title
 msgctxt "d9bd0fd7-85f6-454e-8995-95fe77561759"
 msgid "Maximum Dexterity Bonus"
-msgstr ""
+msgstr "최대 민첩 보너스"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = MeleeAttack::Blocks/0/Text
@@ -3167,33 +3235,27 @@ msgid ""
 "{g|Encyclopedia:BAB}Base attack bonus{/g} + "
 "{g|Encyclopedia:Strength}Strength{/g} modifier + other modifiers."
 msgstr ""
+"근접 {g|Encyclopedia:Attack}공격{/g}은 {g|Encyclopedia:Threatened_Area}근접 사거리{/g}"
+"내에서 당신의 무기나 {g|Encyclopedia:TouchAttack}접촉 공격{/g}(다시 말해서 상대방에 대한 접촉을 요구하는 "
+"{g|Encyclopedia:Spell}주문{/g})을 이용해 타격을 성공시키려 하는 시도를 뜻합니다.\n"
+"당신의 근접 공격의 공격 {g|Encyclopedia:Bonus}보너스{/g}는:\n"
+"{g|Encyclopedia:BAB}기본 공격 보너스(BAB){/g} + {g|Encyclopedia:Strength}힘{/g} 수정치 +"
+" 기타 수정치 입니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = MeleeAttack::Title
-#, fuzzy
 msgctxt "ab68136b-8222-4a81-bf1e-8f281f9d0706"
 msgid "Melee Attacks"
 msgstr "근접 공격"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Mobility::Title
-#, fuzzy
 msgctxt "21ebab84-0e8c-49f4-8672-f8f2dfba5f37"
 msgid "Mobility"
 msgstr "기동성"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Moral_Choices::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Sometimes your character has to make difficult decisions, relying on their "
-#| "conscience (or lack thereof). Such decisions impact your character's <link="
-#| "\"Encyclopedia:Alignment\"><b>alignment</b></link>, gradually shifting your "
-#| "character toward good or evil, lawful or chaotic. Some dialogues feature "
-#| "special options that are available only to characters with certain "
-#| "alignments. Your choices may also have negative consequences for your "
-#| "character, especially for classes that heavily rely on their deities ("
-#| "paladins, clerics, inquisitors, druids, etc.)."
 msgctxt "cb033918-cf33-4a60-b952-d30238b328ab"
 msgid ""
 "Sometimes your character has to make difficult decisions, relying on their "
@@ -3205,10 +3267,10 @@ msgid ""
 "for classes that heavily rely on their deities (paladins, clerics, "
 "inquisitors, druids, etc.)."
 msgstr ""
-"때로는 당신의 캐릭터가 양심에 따라어려운 결정을 내려하는 경우가 생길 수 있습니다. 이러한 결정은 캐릭터의 <link="
-"\"encyclopedia:Alignment\"><b>성향</b></link>에 영향을 끼칩니다. 점점 선과 악, 혹은 질서와 혼돈 "
-"쪽으로 치우치게 되지요. 대화문에서 캐릭터의 성향에 따라 특별한 선택지가 주어지기도 합니다. 당신의 선택은 캐릭터에 부정적인 결과를 "
-"가져올 수 있습니다. 특히나 신을 섬기는 직업이 그런 경향이 크지요. (팔라딘,클레릭,인퀴지터,드루이드,기타 등등)."
+"때로는 당신의 캐릭터가 양심에 따라 어려운 결정을 내려하는 경우가 생길 수 있습니다. 이러한 결정은 캐릭터의 "
+"{g|Encyclopedia:Alignment}성향{/g}에 영향을 끼칩니다. 점점 선과 악, 혹은 질서와 혼돈 쪽으로 치우치게 되지요. "
+"대화문에서 캐릭터의 성향에 따라 특별한 선택지가 주어지기도 합니다. 당신의 선택은 캐릭터에 부정적인 결과를 가져올 수 있습니다. 특히나 "
+"신을 섬기는 직업이 그런 경향이 크지요. (팔라딘,클레릭,인퀴지터,드루이드,기타 등등)."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Moral_Choices::Title
@@ -3219,7 +3281,6 @@ msgstr "도덕적 선택"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Movement::Blocks/0/Text
-#, fuzzy
 msgctxt "abdce2af-6b1b-473f-a7a1-279fefae1ec9"
 msgid ""
 "Click on the location you want to walk to, and your character will start "
@@ -3227,12 +3288,11 @@ msgid ""
 "location is inaccessible, the symbol will instead appear in the nearest "
 "accessible location."
 msgstr ""
-"이동하고 싶은 장소로 클릭하면 캐릭터가 그 곳으로 이동할 것입니다. 그 지점은 특별한 표시로 마크되어 있을 것입니다. 이동불가지역을 "
-"클릭할 시, 근처의 이동가능지역에 표시가 나타날 것입니다."
+"이동하고 싶은 장소로 클릭하면 캐릭터가 그 곳으로 이동할 것입니다. 그 지점은 특별한 표시로 마크되어 있을 것입니다. 이동 불가 지역을 "
+"클릭할 시, 근처의 이동 가능 지역에 표시가 나타날 것입니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Movement::Title
-#, fuzzy
 msgctxt "367be9b9-9a53-4774-bdd8-e4e1c19fb1f3"
 msgid "Movement"
 msgstr "이동"
@@ -3289,12 +3349,25 @@ msgid ""
 "as secondary natural attacks. A limb that holds a weapon can't be used to "
 "perform a natural attack."
 msgstr ""
+"자연 공격들은 발톱, 이빨이나 날개 등 자연 무기를 이용한 {g|Encyclopedia:Attack}공격{/g}들을 뜻합니다. 크리처는 "
+"높은 {g|Encyclopedia:BAB}기본 공격 보너스(BAB){/g}를 통해 추가적인 공격을 얻지는 못하지만, 가속 "
+"{g|Encyclopedia:Spell}주문{/g}과 같은 효과들로 부터 추가 공격을 얻습니다. 동물 동료와 같은 크리처는 한가지 이상의 "
+"자연 공격을 가질 수 있고 레벨을 올리면서 추가적인 공격(가능한 신체 부위에 따라)을 얻을 수 있습니다.\n"
+"자연 공격에는 다음과 같은 두가지 대표 종류가 있습니다: 발톱이나 이빨과 같은 주요 공격, 그리고 발굽이나 날개와 같은 부차 공격입니다."
+"\n"
+"주요 자연 공격들은 입히는 {g|Encyclopedia:Damage}피해{/g}에 {g|Encyclopedia:Strength}힘{/g} "
+"수정치를 추가합니다. 그것이 크리처의 유일한 공격이라면 가해지는 피해에 1.5배 만큼의 힘 수정치를 더합니다.\n"
+"부차 자연 공격들은 공격 {g|Encyclopedia:Dice}굴림들{/g}에 -5 만큼의 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 부여하고 힘 수정치의 절반만을 피해량에 더합니다.\n"
+"만약 크리처가 무기 공격과 자연 공격을 모두 지니고 있는 경우 항상 무기 공격이 먼저 실시되고 정상적으로 작동하며 (기본 공격 "
+"{g|Encyclopedia:Bonus}보너스{/g}에 따른 추가 공격도 마찬가지입니다) 모든 자연 공격은 항상 이차적으로 행해집니다. "
+"무기를 들고 있는 신체 부위는 자연공격을 실시할 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = NaturalAttack::Title
 msgctxt "bd65e576-4ca4-494a-957e-e71d08d790c0"
 msgid "Natural Attacks"
-msgstr ""
+msgstr "자연 공격(Natural Attacks)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Necromancy::Blocks/0/Text
@@ -3328,6 +3401,10 @@ msgid ""
 "another, but only if they originate from different sources (different "
 "{g|Encyclopedia:Spell}spells{/g}, for example)."
 msgstr ""
+"페널티란 {g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Dice}굴림{/g}, "
+"{g|Encyclopedia:Check}검사{/g} 또는 {g|Encyclopedia:Ability_Scores}능력치{/g}에서 "
+"덜어지는 수치를 말합니다. 페널티에는 따로 종류가 있지 않으며 대부분의 페널티는 서로 중첩되지만, 서로 다른 출처에서 기인한 경우에만 "
+"해당됩니다 (예를 들면 서로 다른 {g|Encyclopedia:Spell}주문{/g}들)."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Penalty::Title
@@ -3338,14 +3415,12 @@ msgstr "페널티"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Perception::Title
-#, fuzzy
 msgctxt "25384e7b-52ec-435b-8580-77e5752decd4"
 msgid "Perception"
 msgstr "지각"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Persuasion::Title
-#, fuzzy
 msgctxt "f5573d9c-9343-4b9e-8dd0-e6569f8e997d"
 msgid "Persuasion"
 msgstr "설득"
@@ -3366,12 +3441,20 @@ msgid ""
 "The other main type of damage is {g|Encyclopedia:Energy_Damage}energy "
 "damage{/g}."
 msgstr ""
+"물리 {g|Encyclopedia:Damage}피해{/g}는 통상적으로 무기를 이용한 {g|Encyclopedia:MeleeAttack}"
+"근접 공격{/g}과 {g|Encyclopedia:RangedAttack}원거리 공격{/g}들, "
+"g|Encyclopedia:UnarmedAttack}비무장 공격{/g}들 그리고 {g|Encyclopedia:NaturalAttack}"
+"자연 공격{/g}들로 가해집니다.\n"
+"무기 피해는 다음과 같은 하위 유형을 가집니다: {g|Encyclopedia:Damage_Type}부수기{/g}, 꿰뚫기,또는 베기.\n"
+"일부 능력, 아이템이나 {g|Encyclopedia:Spell}주문{/g}들 은 크리처에게 받는 피해의 전부나 대부분을 감소시켜 주는 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 부여해줍니다.\n"
+"다른 주요 유형의 피해는 {g|Encyclopedia:Energy_Damage}에너지 피해{/g}입니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Physical_Damage::Title
 msgctxt "89789a96-ed3f-4dd2-affb-48d0fb0ce282"
 msgid "Physical Damage"
-msgstr ""
+msgstr "물리 피해(Physical Damage)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Race::Blocks/0/Text
@@ -3399,15 +3482,14 @@ msgid ""
 "and the culture that all of these things imply — all of these frame your "
 "character."
 msgstr ""
-"종족은 캐릭터를 만드는데 있어 중요한 부분입니다. 캐릭터 생성 과정에서 그들의 기초 점수와 캐릭터의 목소리를 설정하는데 모두 중요한 "
-"정보를 제공합니다. 종족은 문화와 일대기를 혼합하며, 그 뒤 그것들에서 추출한 개념을 종족 특성으로 변환합니다. 특히 누군가가 강력한 "
-"마법의 힘을 고려하는 경우라면 일대기와 문화는 변할수 있습니다만, 종족 특성은 매우 다양하기에 두 명의 엘프가 유산과 문화를 공유하더라도 "
-"극단적으로 다르게 만들 수 있습니다. 종족의 특성, 역사, 다른 종과의 관계, 그리고 그들이 살아온 문화권 모두가 당신의 캐릭터를 "
-"정의합니다."
+"종족은 캐릭터가 누구인지에 있어 중요한 부분을 차지합니다. 종족은 캐릭터 형성에 출발점을 제공하고 캐릭터 진행에 따른 억양을 설정합니다. "
+"종족은 문화와 일대기를 혼합하여 그 뒤 그것들에서 추출한 개념을 종족 {g|Encyclopedia:Trait}특성{/g}으로 이끌어 "
+"냅니다. 특히 누군가가 강력한 마법의 힘을 고려하는 경우라면 일대기와 문화는 변할수 있습니다만, 종족 특성은 매우 다양하기에 두 명의 "
+"엘프가 종족의 유산과 문화를 공유하더라도 극단적으로 다를 수 있습니다. 종족의 특성, 역사, 다른 종과의 관계, 그리고 그들이 살아온 "
+"문화권 모두가 당신의 캐릭터를 정의합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Race::Title
-#, fuzzy
 msgctxt "4e8c5c7e-a567-4251-90a0-cad2bc9775db"
 msgid "Race"
 msgstr "종족"
@@ -3794,6 +3876,15 @@ msgid ""
 "This also applies for ranged {g|Encyclopedia:TouchAttack}touch attacks{/g} ("
 "i.e. {g|Encyclopedia:Spell}spells{/g} that require a ranged touch attack)."
 msgstr ""
+"당신이 근접 교전중에 있는 적에게 공격 굴림을 요구하는 원거리 무기를 쏘거나 던질 때, 당신은 "
+"{g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Dice}굴림{/g}에 –4 만큼의 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 부여받습니다. 두명의 캐릭터는 서로 적대적이고 둘 중 하나라도 상대를 "
+"{g|Encyclopedia:Threatened_Area}위협{/g}중이라면 근접 교전중으로 간주됩니다.\n"
+"<b>정밀 사격</b>\n"
+"당신이 정밀 사격 {g|Encyclopedia:Feat}피트{/g}를 보유중이라면 이 페널티는 적용되지 않습니다.\n"
+"<b>원거리 접촉 공격들</b>\n"
+"이것은 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}들에도 적용됩니다 (i.e. 원거리 접촉 공격을 필요로 "
+"하는 {g|Encyclopedia:Spell}주문{/g}들)."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Shooting_into_Melee::Title
@@ -4295,12 +4386,15 @@ msgid ""
 "any effect). If a character is wearing armor and using a shield, add the two "
 "numbers together to get the effective arcane spell failure chance."
 msgstr ""
+"비전 {g|Encyclopedia:Spell}주문 시전자{/g}가 갑옷을 입고 있다면 비전 주문을 실패할 확률이 있습니다. 갑옷 설명에 "
+"써있는 숫자는 주문이 실패할 확률을 퍼센트로 보여줍니다(이 경우 아무런 효과가 없이 주문을 소모하게 됩니다). 만약 캐릭터가 갑옷과 "
+"방패를 동시에 사용하는 경우, 두 값을 합하여 비전 주문 실패 확률을 계산할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Spell_Fail_Chance::Title
 msgctxt "3592f29a-535b-4886-af7e-701f65793345"
 msgid "Arcane Spell Failure Chance"
-msgstr ""
+msgstr "비전 주문 실패 확률"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Spell_Resistance::Blocks/0/Text
@@ -4753,7 +4847,7 @@ msgstr ""
 #. Path = Threatened_Area::Title
 msgctxt "2268281b-b811-404e-9725-ecd169fd2a2e"
 msgid "Threatened Area"
-msgstr ""
+msgstr "위협 영역"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = TouchAttack::Blocks/0/Text
@@ -4784,7 +4878,7 @@ msgstr ""
 #. Path = TouchAttack::Title
 msgctxt "91534efc-09f7-40d9-bd87-de0a06e275e4"
 msgid "Touch Attacks"
-msgstr ""
+msgstr "접촉 공격들"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Touch_AC::Blocks/0/Text
@@ -5145,6 +5239,14 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}round{/g} and depicts this character's current "
 "scheduled {g|Encyclopedia:CA_Types}action{/g}."
 msgstr ""
+"전투가 시작되면 게임은 일시정지됩니다. 일시정지는 당신의 캐릭터들에게 명령을 내리는 데 유용합니다.\n"
+"{br}게임을 일시정지 시키거나 재개하기 위해서는, <b>[{bind|Pause}]</b> 키를 누르십시오.\n"
+"당신의 캐릭터에게 {g|Encyclopedia:Attack}공격{/g}을 명령하려면 그들을 선택하고 적에게 <b>[마우스 왼쪽 버튼]</"
+"b>을 클릭하십시오. 턴 기반 모드와 실시간 모드를 서로 변경하려면 {ui|SwitchTBM} 버튼을 사용하거나 키보드의 "
+"<b>[{bind|SwitchTBM}]</b> 키를 누르십시오.\n"
+"{br}당신의 적들은 붉은색으로 강조 표시되며 아군들은 초록색으로 표시됩니다. 캐릭터와 현재 목표가 점선으로 연결되어 표시됩니다.\n"
+"{br}캐릭터의 머리 위의 타이머가 다음 {g|Encyclopedia:Combat_Round}라운드{/g}까지 남은 시간을 표시하며 해당 "
+"캐릭터의 다음 예정된 {g|Encyclopedia:CA_Types}행동{/g}을 그림으로 보여줍니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Tutorial_11_Battle::Title
@@ -5154,7 +5256,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_11_Battle_Gamepad::m_TitleText
-#, fuzzy
 msgctxt "79222729-bf25-459d-ad3f-e64c337b0a8b"
 msgid "Combat"
 msgstr "전투"
@@ -5833,7 +5934,7 @@ msgstr ""
 #. Path = NewTutorial_6_Party::m_TitleText
 msgctxt "e044f4ad-f6ca-4d03-a427-9ba0cb75b5ce"
 msgid "Party"
-msgstr ""
+msgstr "일행"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Tutorial_7_LootCrates::Blocks/0/Text
@@ -5888,6 +5989,9 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g} on the character marching ahead of the "
 "party. The second is giving a torch item to one of the characters."
 msgstr ""
+"동굴과 같이 어두운 장소들은 당신이 주변을 살피는 것을 어렵게 합니다. 어둠을 몰아내는 데에는 두가지 방법이 있습니다. 첫번째는 파티의 "
+"선두에서 진행하고 있는 캐릭터에게 빛 {g|Encyclopedia:Spell}주문{/g}을 시전하는 것입니다. 두번째는 캐릭터들 중 "
+"한명에게 횃불 아이템을 쥐어주는 것입니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Tutorial_9_1_Light::Title
@@ -5910,6 +6014,8 @@ msgid ""
 "Don't forget to check your inventory and improve your character's equipment —"
 " it will make them stronger."
 msgstr ""
+"아이템을 착용하기 위해서는 그것을 더블 클릭 하거나 끌어서 적절한 장비칸에 (끌고 있는 동안 강조되어 표시될 것입니다) 넣으십시오.\n"
+"소지품 창을 확인해 당신의 캐릭터의 장비를 개선하는 것을 잊지 마세요 — 그것들이 그들을 더 강하게 만들어 줄 것입니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Tutorial_9_Equip::Title
@@ -6042,7 +6148,7 @@ msgstr ""
 #. Path = UnarmedAttack::Title
 msgctxt "d32da405-8450-4359-93af-17634426f28c"
 msgid "Unarmed Attacks"
-msgstr ""
+msgstr "비무장 공격"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Use_Magic_Device::Title
@@ -6068,6 +6174,9 @@ msgid ""
 "efficiency. Weapon proficiency types are Simple, Martial and Exotic weapons. "
 "Many classes can use Simple and Martial weapons from the start."
 msgstr ""
+"무기는 다양한 방법으로 분류될 수 있습니다. 그런 분류 방법 중 하나는 무기 숙련입니다. 당신이 특정한 숙련도를 필요로 하는 무기들을 "
+"사용할 수 있게 하거나 그것들의 효율성을 높이게 해주는 {g|Encyclopedia:Feat}피트{/g}들과 능력들이 존재합니다. 무기 "
+"숙련 유형은 단순, 군용 그리고 특수 무기입니다. 많은 클래스는 단순 무기와 군용 무기를 시작부터 사용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Weapon_Proficiency::Title
@@ -6084,12 +6193,14 @@ msgid ""
 "A few melee weapons have a longer range than others, which is called "
 "{g|Encyclopedia:Reach}reach{/g}. All ranged weapons have different range."
 msgstr ""
+"검이나 메이스같은 근접 무기들과 활과 같은 원거리 무기들이 있습니다. 특정 근접 무기들은 더 긴 사거리를 가지며 "
+"{g|Encyclopedia:Reach}장병기{/g}로 분류됩니다. 모든 원거리 무기들은 서로 다른 사거리를 가집니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Weapon_Range::Title
 msgctxt "9f883311-5ed3-4115-bce7-4e9f6d680e91"
 msgid "Weapon Range"
-msgstr ""
+msgstr "무기 사거리"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Wisdom::Blocks/0/Text
@@ -6146,11 +6257,6 @@ msgstr "지혜 (Wis)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = XP::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "As a character overcomes challenges, defeats monsters, and completes quests, "
-#| "she gains experience points. These points accumulate over time, and when "
-#| "they reach or surpass a specific value, the character gains a level."
 msgctxt "4334cb6f-b4ab-462c-a115-242177fcb37e"
 msgid ""
 "As a character overcomes challenges, defeats monsters, and completes quests, "
@@ -6162,7 +6268,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = XP::Title
-#, fuzzy
 msgctxt "fc437f4e-f340-4a44-990d-19c94df2c968"
 msgid "Experience Points (XP)"
-msgstr "경험치(Experience Points (XP))"
+msgstr "경험치(Experience Points, XP)"

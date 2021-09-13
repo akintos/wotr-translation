@@ -1,22 +1,23 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-09-13 22:24+0000\n"
+"Last-Translator: Bumsoo <jake0208@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.4.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDamage::m_TitleText
 msgctxt "2b2aa676-a1c3-4c0e-8a27-9fb92d19e5d2"
 msgid "Ability Damage"
-msgstr ""
+msgstr "능력치 피해"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDamage::m_TriggerText
@@ -26,6 +27,8 @@ msgid ""
 "ability damage{/g}. The {g|Encyclopedia:Bonus}bonus{/g} from that ability is "
 "reduced."
 msgstr ""
+"당신의 {t|TargetUnit} 캐릭터가 {g|Encyclopedia:AbilityDamage}능력치 피해{/g}를 받았습니다. 해당 "
+"능력치로부터 받는 {g|Encyclopedia:Bonus}보너스{/g}가 감소합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDamage::m_DescriptionText
@@ -50,6 +53,8 @@ msgid ""
 "damage{/g}, use a {g|Encyclopedia:Spell}spell{/g} (or spell scroll), such as "
 "heal or lesser restoration."
 msgstr ""
+"{g|Encyclopedia:AbilityDamage}능력치 피해{/g}를 {g|Encyclopedia:Healing}치료{/g}하기 "
+"위해서는 치유나 하급 상태회복 같은 {g|Encyclopedia:Spell}주문{/g} 또는 주문 두루마리를 활용하세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDamage::m_SolutionNotFoundText
@@ -65,7 +70,7 @@ msgstr ""
 #. Path = ContextTutor_AbilityDrain::m_TitleText
 msgctxt "cce940c8-8f1d-431b-bbfa-42f10007f02c"
 msgid "Ability Drain"
-msgstr ""
+msgstr "능력치 소진"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDrain::m_TriggerText
@@ -108,7 +113,7 @@ msgstr ""
 #. Path = ContextTutor_ArcaneSpellFailure::m_TitleText
 msgctxt "dfe5c864-33b8-42e4-9fbe-bc4fa531c8b1"
 msgid "Arcane Spell Failure Chance"
-msgstr ""
+msgstr "비전 주문 실패 확률"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArcaneSpellFailure::m_TriggerText
@@ -184,7 +189,7 @@ msgstr ""
 #. Path = ContextTutor_ArmorDexMax::m_TitleText
 msgctxt "f2e9208a-0751-4955-88a4-fe709dc6185f"
 msgid "Maximum Dexterity Bonus"
-msgstr ""
+msgstr "최대 민첩 보너스"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorDexMax::m_TriggerText
@@ -272,7 +277,7 @@ msgstr ""
 #. Path = ContextTutor_Autocast::m_TitleText
 msgctxt "0950813e-6480-4cda-a1a0-890dab3f8801"
 msgid "Auto Casting"
-msgstr ""
+msgstr "주문 자동 시전"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Autocast::m_TriggerText
@@ -340,7 +345,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BaseAttackBonus::m_TitleText
-#, fuzzy
 msgctxt "367621f4-4b2a-491c-9f3d-c36be635267a"
 msgid "Base Attack Bonus"
 msgstr "기본 공격 보너스"
@@ -378,7 +382,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Blindness::m_TitleText
-#, fuzzy
 msgctxt "61cd4ff3-b512-40e1-8dfa-bb385b516055"
 msgid "Blindness"
 msgstr "실명"
@@ -486,7 +489,7 @@ msgstr ""
 #. Path = ContextTutor_ChannelHealEnemy::m_TitleText
 msgctxt "c9399cb9-1d72-4d55-bb6a-ffdf18dd4e1a"
 msgid "Healing Enemies"
-msgstr ""
+msgstr "적군 치유"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ChannelHealEnemy::m_TriggerText
@@ -629,7 +632,7 @@ msgstr ""
 #. Path = ContextTutor_Confusion::m_TitleText
 msgctxt "80706cff-c306-44d6-8835-7999544af8bb"
 msgid "Confusion"
-msgstr ""
+msgstr "혼란"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Confusion::m_TriggerText
@@ -670,7 +673,7 @@ msgstr ""
 #. Path = ContextTutor_CriticalOutgoing::m_TitleText
 msgctxt "b9f1c3eb-3d0d-4f3b-afe6-fd9c9bda47c2"
 msgid "Critical Hits"
-msgstr ""
+msgstr "치명타"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CriticalIncoming::m_TriggerText
@@ -752,7 +755,7 @@ msgstr ""
 #. Path = ContextTutor_Desease::m_TitleText
 msgctxt "a5ea36e4-8cc0-4141-9805-2b6e79da3812"
 msgid "Diseases"
-msgstr ""
+msgstr "질병"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Desease::m_TriggerText
@@ -797,7 +800,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRNormal::m_TitleText
-#, fuzzy
 msgctxt "05becfdc-2a12-4a99-bac8-c1cf91b3c9a5"
 msgid "Damage Reduction"
 msgstr "피해 감소"
@@ -849,7 +851,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRUltimate::m_TitleText
-#, fuzzy
 msgctxt "01484f3a-e985-48cb-a073-fc29d8714548"
 msgid "Damage Reduction N/-"
 msgstr "피해 감소 N/-"
@@ -894,7 +895,7 @@ msgstr ""
 #. Path = ContextTutor_DualWielding::m_TitleText
 msgctxt "bf6119f1-3af1-48fb-b9fc-2c8fdaeb7fc0"
 msgid "Two-Weapon Fighting"
-msgstr ""
+msgstr "쌍수 무기 전투"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DualWielding::m_TriggerText
@@ -935,14 +936,14 @@ msgstr ""
 #. Path = ContextTutor_EncumbranceParty::m_TitleText
 msgctxt "7c533c88-90ec-40dd-b358-4fab195c9a6b"
 msgid "Overload"
-msgstr ""
+msgstr "과중"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EncumbranceParty::m_TriggerText
 msgctxt "8640ab2f-a642-4746-893e-79158d17c417"
 msgid ""
 "Your party is overloaded with equipment and loot, and its movement is slowed."
-msgstr ""
+msgstr "일행이 너무 많은 장비와 물건들을 짊어지고 있어서 움직임이 느려집니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EncumbranceParty::m_DescriptionText
@@ -1048,7 +1049,7 @@ msgstr ""
 #. Path = ContextTutor_EnergyImmunity::m_TitleText
 msgctxt "d91c202a-d53a-4c4a-a79a-1a0e3ee3a492"
 msgid "Energy Damage Immunity"
-msgstr ""
+msgstr "에너지 피해에 면역"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EnergyImmunity::m_TriggerText
@@ -1087,7 +1088,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EnergyResistance::m_TitleText
-#, fuzzy
 msgctxt "614aa353-fcbd-49ab-a7d2-ba53a26ac038"
 msgid "Energy Resistance"
 msgstr "에너지 저항"
@@ -1138,7 +1138,7 @@ msgstr ""
 #. Path = ContextTutor_Exhausted::m_TitleText
 msgctxt "987e6236-b1e4-4aff-8d85-d4de766a0c4e"
 msgid "Fatigue"
-msgstr ""
+msgstr "피로"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Exhausted::m_TriggerText
@@ -1174,7 +1174,7 @@ msgstr ""
 #. Path = ContextTutor_Flatfooted::m_TitleText
 msgctxt "e27a9b7c-7989-46c1-995b-c9e365532c62"
 msgid "Flat-footed Creatures"
-msgstr ""
+msgstr "무방비한 크리처"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Flatfooted::m_TriggerText
@@ -1183,6 +1183,8 @@ msgid ""
 "Your character {t|TargetUnit} was {g|Encyclopedia:Attack}attacked{/g} while "
 "they were {g|Encyclopedia:Flat_Footed}flat-footed{/g}."
 msgstr ""
+"당신의 캐릭터 {t|TargetUnit} (이)가 {g|Encyclopedia:Flat_Footed}무방비{/g} 상태일 때 "
+"{g|Encyclopedia:Attack}공격{/g}당했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Flatfooted::m_DescriptionText
@@ -1200,6 +1202,13 @@ msgid ""
 "allies, they outflank you, treating your characters as flat-footed and "
 "getting an attack bonus."
 msgstr ""
+"{g|Encyclopedia:Flat_Footed}무방비{/g} 상태인 크리처는 {g|Encyclopedia:Attack}공격{/g}에 "
+"대응할 수 없습니다. 이 상태에서는 {g|Encyclopedia:Armor_Class}AC{/g}의 "
+"{g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Bonus}보너스{/g}를 잃으며 암습에 "
+"취약해집니다. 전투의 첫 {g|Encyclopedia:Combat_Round}라운드{/g} 동안, 모든 크리처는 각자의 "
+"{g|Encyclopedia:Initiative}우선권{/g}에 따라 행동하기 전까지 무방비 상태가 됩니다. 적을 볼 수 없는 경우 ("
+"실명 상태이거나 적이 투명할 때) 에도 무방비 상태로 취급됩니다. 근거리에 적의 수가 아군보다 많을 경우, 포위당한 캐릭터들을 무방비 "
+"상태로 취급하며 적들이 공격 보너스를 받습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Flatfooted::m_SolutionNotFoundText
@@ -1224,7 +1233,7 @@ msgctxt "1436dff1-01ea-430e-9547-4b390475eaf7"
 msgid ""
 "Most enemies try to {g|Encyclopedia:Attack}attack{/g} your most vulnerable "
 "party members."
-msgstr ""
+msgstr "대부분의 적들은 일행 중 가장 취약한 캐릭터를 공격하려 시도할 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Formation::m_DescriptionText
@@ -1255,7 +1264,7 @@ msgstr ""
 #. Path = ContextTutor_GazeAttack::m_TitleText
 msgctxt "1bb3d631-b9b9-48e8-b3db-dcf031897f22"
 msgid "Gaze Attacks"
-msgstr ""
+msgstr "응시 공격"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_GazeAttack::m_TriggerText
@@ -1264,6 +1273,8 @@ msgid ""
 "Your character {t|TargetUnit} was affected by a gaze "
 "{g|Encyclopedia:Attack}attack{/g} of the enemy {t|SourceUnit}."
 msgstr ""
+"당신의 캐릭터 {t|TargetUnit} (이)가 적 {t|SourceUnit} 의 응시 "
+"{g|Encyclopedia:Attack}공격{/g}에 당했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_GazeAttack::m_DescriptionText
@@ -1273,6 +1284,8 @@ msgid ""
 "available to rare creatures. A creature that possesses such an attack "
 "attempts to use it against all its enemies in a 30 feet radius."
 msgstr ""
+"응시 {g|Encyclopedia:Attack}공격{/g}은 특별한 유형의 공격으로, 소수의 크리쳐들만이 사용 가능합니다. 이러한 능력을 "
+"가진 크리처는 반경 30 피트 내의 모든 적에게 능력을 사용하려 시도합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_GazeAttack::m_SolutionFoundText
@@ -1892,7 +1905,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Petrification::m_TitleText
-#, fuzzy
 msgctxt "1b9bfef2-8d89-4f5d-9272-bfb323544f19"
 msgid "Petrification"
 msgstr "석화"
@@ -2244,10 +2256,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SneakAttackRecruit::m_TitleText
-#, fuzzy
 msgctxt "87a174cf-2d90-4493-baef-2106ccb340c3"
 msgid "Sneak Attack"
-msgstr "기습 공격"
+msgstr "암습"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SneakAttack::m_TriggerText
@@ -2303,7 +2314,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistance::m_TitleText
-#, fuzzy
 msgctxt "82d56138-bb8a-4170-9574-cc1c39a918ff"
 msgid "Spell Resistance"
 msgstr "주문 저항"
@@ -2574,7 +2584,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_TouchAC::m_TitleText
-#, fuzzy
 msgctxt "25e3f0ad-44a6-46b7-841f-fba36050f0ad"
 msgid "Touch AC"
 msgstr "접촉 AC"
@@ -2625,10 +2634,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_WeaponPlusThree::m_TitleText
-#, fuzzy
 msgctxt "2599dbb2-0822-4361-bb2d-e5682bb37d01"
 msgid "Enhanced Weapons"
-msgstr "강화된 무기들"
+msgstr "강화된 무기"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_WeaponPlusFive::m_TriggerText
@@ -3290,10 +3298,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_16_Attack::Components/1/m_TitleText
-#, fuzzy
 msgctxt "5bf77251-d111-4537-9db6-8fb0e6696d05"
 msgid "Armor Class"
-msgstr "방어도"
+msgstr "방어도 (AC)"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_16_ArmorClass::m_DescriptionText
@@ -3351,7 +3358,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_16_Damage::m_TitleText
-#, fuzzy
 msgctxt "d4047895-bc1b-4f24-9a3a-3200a1714c92"
 msgid "Damage"
 msgstr "피해"
@@ -3446,10 +3452,9 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_25_Camping_2::m_TitleText
-#, fuzzy
 msgctxt "c91aefde-a548-41e0-a34b-714dd96b67e1"
 msgid "Camp"
-msgstr "캠프"
+msgstr "야영"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_25_Camping_2::m_DescriptionText
@@ -3496,7 +3501,6 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_2_Camera_Reminder::m_TitleText
-#, fuzzy
 msgctxt "95eb9ff1-fab7-417b-aad4-85b97d25f144"
 msgid "Camera"
 msgstr "카메라"
@@ -3659,7 +3663,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_TBM_Gamepad::m_TitleText
-#, fuzzy
 msgctxt "71fd344e-2f6e-45fd-ba83-eef61b86a5ff"
 msgid "Turn-based mode"
 msgstr "턴 기반 모드"

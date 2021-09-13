@@ -1,67 +1,59 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-09-13 22:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.4.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #, fuzzy
 msgctxt "ccb870aa-b4ab-449b-9370-9ebbac5dd018"
 msgid "draft"
 msgstr "초안"
 
-#, fuzzy
 msgctxt "97c38312-bf23-420c-b6c4-fc003e1fa652"
 msgid "Acid Splash"
 msgstr "산성 분사"
 
-#, fuzzy
 msgctxt "185c2082-a20e-4c99-bac1-4d49bde80469"
 msgid "Daze"
 msgstr "몽롱"
 
 msgctxt "092b2287-4b91-4155-8e6f-365f5c73ec51"
 msgid "Disrupt Undead"
-msgstr ""
+msgstr "언데드 분해"
 
-#, fuzzy
 msgctxt "be76d361-d6fe-46a4-bfd6-a01497f7e61c"
 msgid "Flare"
 msgstr "섬광"
 
-#, fuzzy
 msgctxt "af325aa2-4d3b-4787-9546-694acca54de8"
 msgid "Guidance"
 msgstr "인도"
 
-#, fuzzy
 msgctxt "ee54c899-47fb-4c51-92fc-ec404d2c0125"
 msgid "Jolt"
-msgstr "충격"
+msgstr "감전"
 
-#, fuzzy
 msgctxt "9d6f7687-6c0a-4ab5-bb49-2701d410ce2e"
 msgid "Light"
 msgstr "빛"
 
-#, fuzzy
 msgctxt "dbd7475e-0e1b-40a0-82dd-f433c7fed33d"
 msgid "Ray of Frost"
 msgstr "서리 광선"
 
-#, fuzzy
 msgctxt "2739408e-0bda-4eb9-9a6f-ff2fdaee5802"
 msgid "Resistance"
 msgstr "저항"
 
-#, fuzzy
 msgctxt "2a0fd272-067c-4e73-9d09-2b4ea1743723"
 msgid "Touch of Fatigue"
 msgstr "피로의 손길"
@@ -16451,11 +16443,9 @@ msgctxt "88bd89eb-acde-434a-9c00-da0d2a58af4f"
 msgid "Melee weapon required"
 msgstr "근접 무기 필요"
 
-#, fuzzy
-#| msgid "A condition hasn't been met"
 msgctxt "d4e419d9-68b4-428d-9dfa-95f654dbf120"
 msgid "A condition hasn't been met: {text}"
-msgstr "조건이 충족되지 않음"
+msgstr "조건이 충족되지 않음: {text}"
 
 #, fuzzy
 msgctxt "4535d1bd-a134-4643-a6d5-ba08322d3273"
@@ -21185,11 +21175,9 @@ msgctxt "ebf8125e-97cf-4f45-8b9a-ab1454634af0"
 msgid "You can't memorize spells from the \"Favorites\" section"
 msgstr "\"즐겨찾기\" 항목에서는 주문을 암기할 수 없음"
 
-#, fuzzy
-#| msgid "<sprite name=\"star\" color=#ccb793FF>"
 msgctxt "adf2f14f-8371-4ead-ab5a-452de23a03d1"
 msgid "<sprite name=\"star\" color=#{0}>"
-msgstr "<sprite name=\"star\" color=#ccb793FF>"
+msgstr "<sprite name=\"star\" color=#{0}>"
 
 msgctxt "b45a81a1-4df4-4376-81ba-c6a2da722eee"
 msgid ""
@@ -24262,16 +24250,12 @@ msgstr ""
 "공격 결과: {roll} (굴림 결과: {d20} + 수정치: {mod}). \n"
 "대상의 방어도: {dc}."
 
-#, fuzzy
-#| msgid ""
-#| "Attack result: Natural 20.\n"
-#| "Target's Armor Class: {dc}."
 msgctxt "b622d9b2-1a57-4f43-8397-c98ec1f1c15b"
 msgid ""
 "Attack result: Natural {d20}.\n"
 "Target's Armor Class: {dc}."
 msgstr ""
-"공격 결과: 순수 20. \n"
+"공격 결과: 순수 {d20}. \n"
 "대상의 방어도: {dc}."
 
 #, fuzzy
@@ -24279,125 +24263,104 @@ msgctxt "623ee37d-9de9-48c6-91d5-e6bccd64618b"
 msgid "Critical confirmation result: {roll} (roll: {d20} + modifiers: {mod})."
 msgstr "치명타 확정 결과: {roll} (굴림 결과: {d20} + 수정치: {mod})."
 
-#, fuzzy
-#| msgid "Critical confirmation result: Natural 20."
 msgctxt "c365fe58-9fa1-4423-8874-046046598ed6"
 msgid "Critical confirmation result: Natural {d20}."
-msgstr "치명타 확정 결과: 순수 20."
+msgstr "치명타 확정 결과: 순수 {d20}."
 
-#, fuzzy
 msgctxt "c996e431-163c-4b27-91b9-a9bc7553d5e5"
 msgid "Result: critical hit confirmed"
-msgstr "결과: 치명타 확정"
+msgstr "결과: 치명타 확정 성공"
 
 #, fuzzy
 msgctxt "119a9e57-187e-4ba6-aab8-2abaeb36fe9a"
 msgid "Result: critical miss"
 msgstr "결과: 치명적 실패"
 
-#, fuzzy
 msgctxt "4dc44cc9-1cf5-421f-b03d-348dd4b92941"
 msgid "Result: critical hit not confirmed"
-msgstr "결과: 치명타 실패"
+msgstr "결과: 치명타 확정 실패"
 
-#, fuzzy
 msgctxt "e79960aa-afa0-43e8-95ce-7d6f5e58a638"
 msgid "Result: hit"
 msgstr "결과: 명중"
 
-#, fuzzy
 msgctxt "f5afd74e-fa99-4f46-b6f4-cdedbdc23fe2"
 msgid "Result: miss"
 msgstr "결과: 빗나감"
 
-#, fuzzy
 msgctxt "8ce7a152-6295-475d-91d7-a6e68d7efa14"
 msgid "Touch"
 msgstr "접촉"
 
-#, fuzzy
 msgctxt "a0bebec9-7f2f-428e-b270-f9045fe04fed"
 msgid "<b>{source}</b> makes attack of opportunity against <b>{target}</b>"
 msgstr "<b>{source}</b>: <b>{target}</b>에게 기회 공격"
 
-#, fuzzy
 msgctxt "7dc9feab-9a3f-47cf-b799-0a11b80cfb1d"
 msgid "Event finished"
 msgstr "사건 완료"
 
-#, fuzzy
 msgctxt "8715abe3-04c6-478d-8fdc-52adb247db83"
 msgid "Event started"
 msgstr "사건 시작"
 
-#, fuzzy
 msgctxt "f1b2422d-7ae5-4382-b8a1-37a4472e38f1"
 msgid "Hunters were attacked!"
 msgstr "사냥꾼이 공격당했습니다!"
 
-#, fuzzy
 msgctxt "1ec36b75-67b9-4f89-bc79-9f2c62d06119"
 msgid "Rest was interrupted after {text}."
 msgstr "{text} 이후 휴식을 방해 받았습니다."
 
-#, fuzzy
 msgctxt "6ca8b46a-9c0a-424b-ad16-2d38e4507be2"
 msgid "Rest took {text}."
-msgstr "휴식에 {text}이 걸렸습니다."
+msgstr "휴식에 {text} 이 걸렸습니다."
 
-#, fuzzy
 msgctxt "dc2e5fcf-f8cc-4739-b33e-fc9b75e7a267"
 msgid "<b>{source}</b> can't disarm the trap."
 msgstr "<b>{source}</b>: 함정 해제 불가."
 
-#, fuzzy
 msgctxt "4bffb019-c9af-4c79-b100-8abf4c2ec38a"
 msgid "<b>{source}</b>: casting defensively check failed"
-msgstr "<b>{source}</b>: 방어적 주문 시전 실패"
+msgstr "<b>{source}</b>: 방어적 주문 시전 판정 실패"
 
-#, fuzzy
 msgctxt "a5e24336-6210-418d-bda3-c383dfdfee82"
 msgid "<b>{source}</b>: casting defensively check succeeded"
-msgstr "<b>{source}</b>: 방어적 주문 시전 성공"
+msgstr "<b>{source}</b>: 방어적 주문 시전 판정 성공"
 
-#, fuzzy
 msgctxt "fa4899df-3e2d-4127-9f78-9c8d6dc2d66e"
 msgid "<b>{source}</b> casts <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 주문 시전."
 
-#, fuzzy
 msgctxt "175e8e45-d7f4-4c32-b792-f6640f154eda"
 msgid "Combat is finished."
 msgstr "전투가 끝났습니다."
 
 msgctxt "210528b2-febf-42ca-8de2-b08cbdd1033b"
 msgid "CMB"
-msgstr ""
+msgstr "CMB"
 
 msgctxt "46689f34-0397-4c7e-854e-4fc82d989af3"
 msgid "CMD"
-msgstr ""
+msgstr "CMD"
 
 msgctxt "1e4be199-e98d-4a6e-904d-8f2dcf330864"
 msgid ""
 "<b>{source}</b> tries to use <b>{text}</b> against <b>{target}</b> and fails."
-msgstr ""
+msgstr "<b>{source}</b>: <b>{target}</b> 에게 <b>{text}</b> 사용 시도, 실패."
 
 msgctxt "56b49679-6689-4b30-943a-0de80f3c2388"
 msgid "<b>{source}</b> uses <b>{text}</b> against <b>{target}</b>!"
-msgstr ""
+msgstr "<b>{source}</b>: <b>{target}</b> 에게 <b>{text}</b> 사용!"
 
-#, fuzzy
 msgctxt "19f7ca9b-10f1-4ef0-8bcd-1b98f7d3b4e5"
 msgid "Combat started."
 msgstr "전투가 시작되었습니다."
 
-#, fuzzy
 msgctxt "ac572f15-1bb6-41a8-8ac3-9d3722237d53"
 msgid "<b>{source}</b> failed concentration check."
 msgstr "<b>{source}</b>: 집중 판정 실패."
 
-#, fuzzy
 msgctxt "456e1aad-060c-4abb-94de-0259c1a7c929"
 msgid "<b>{source}</b> made concentration check."
 msgstr "<b>{source}</b>: 집중 판정 성공."
@@ -24422,234 +24385,197 @@ msgctxt "1d3fa05f-61f0-4271-98ca-a364a98a1a8b"
 msgid "Force"
 msgstr "역장"
 
-#, fuzzy
 msgctxt "474fde1d-b9b1-4571-b4c9-2626e0013943"
 msgid "(Immune)"
 msgstr "(면역)"
 
 msgctxt "8f19e8b5-6b70-43f9-a7d0-c02a921cbbd7"
 msgid "(Multiplied by {0})"
-msgstr ""
+msgstr "({0}배)"
 
-#, fuzzy
 msgctxt "ade530c6-1fc6-4a34-9b5c-cdd3fa93096c"
 msgid "(Maximized)"
 msgstr "(극대화)"
 
-#, fuzzy
 msgctxt "0fd76be7-34f4-4d96-994b-5284bc4641dd"
 msgid "(Precision)"
 msgstr "(정밀)"
 
-#, fuzzy
 msgctxt "4374bf0f-4195-4834-8a28-6f61770e7f7a"
 msgid "(Reduced)"
 msgstr "(감소)"
 
-#, fuzzy
 msgctxt "1c08dfeb-7eaf-4ba8-9d13-31c48bb089b2"
 msgid "(Sneak)"
 msgstr "(암습)"
 
-#, fuzzy
 msgctxt "3a537ff3-88fd-4764-b044-9d74c39d921f"
 msgid "(Vulnerability)"
 msgstr "(취약)"
 
-#, fuzzy
 msgctxt "d1725727-ceb7-4f6f-989a-1dabaaa4f5ae"
 msgid "<b>{source}</b> deals <b>{count}</b> damage to <b>{target}</b>."
 msgstr "<b>{source}</b>: <b>{target}</b>에게 <b>{count}</b>의 피해."
 
-#, fuzzy
 msgctxt "317116fe-6d73-4986-abdc-b8b9078acb78"
 msgid "<b>{target}</b> receives <b>{count}</b> damage due to a failed check."
-msgstr "<b>{target}</b>: 판정 실패로 <b>{count}</b>의 피해 입음."
+msgstr "<b>{target}</b>: 판정 실패로 <b>{count}</b> 의 피해 입음."
 
-#, fuzzy
 msgctxt "69989fbb-15f2-4f42-bf41-0512d19c63df"
 msgid ""
 "<b>{source}</b> deals <b>{count}</b> damage (reduced) to <b>{target}</b>."
-msgstr "<b>{source}</b>: <b>{target}</b>에게 <b>{count}</b>의 피해(피해 감소됨)."
+msgstr "<b>{source}</b>: <b>{target}</b>에게 <b>{count}</b>의 피해 (감소됨)."
 
-#, fuzzy
 msgctxt "bc38fbd0-5988-45d9-a925-cf3edd0f7a19"
 msgid "<b>{target}</b> receives <b>{count}</b> damage."
 msgstr "<b>{target}</b>: <b>{count}</b>의 피해 입음."
 
-#, fuzzy
 msgctxt "5d7c17f9-5430-444b-8d2c-42fd83437168"
 msgid "Damage result: <b>{count}</b>."
 msgstr "피해 결과: <b>{count}</b>."
 
-#, fuzzy
 msgctxt "b783aedc-1dd9-46f0-a344-1ac9985b7e2d"
 msgid "Current difficulty settings adjusts damage to <b>{count}</b>."
 msgstr "현재 난이도 설정으로 인해 피해가 <b>{count}</b>(으)로 조정됨."
 
-#, fuzzy
 msgctxt "c0d3ce7e-2c12-4b79-b7d6-580aa051f6d9"
 msgid "Improved Evasion halves the damage."
 msgstr "향상된 회피로 인해 피해가 절반으로 줄어듦."
 
-#, fuzzy
 msgctxt "acbc24bb-b3ab-479c-8337-c5466552ca1b"
 msgid "Successful saving throw halves the damage."
 msgstr "내성 굴림 성공으로 인해 피해가 절반으로 줄어듦."
 
 msgctxt "70a1bead-70c0-473c-9c0d-7cf0a938a860"
 msgid "Successful saving throw reduced damage by {count}%"
-msgstr ""
+msgstr "내성 굴림 성공으로 인해 피해가 {count}%로 줄어듦"
 
-#, fuzzy
 msgctxt "36986f5d-fec9-4ff7-baea-52b5dddbcfb2"
 msgid "Damage to <b>{target}</b> was reduced to <b>{count}</b>."
 msgstr "<b>{target}</b>에게 입히는 피해가 <b>{count}</b>(으)로 감소됨."
 
-#, fuzzy
 msgctxt "744a6931-0c02-4d4f-bc11-9f819747368a"
 msgid "<b>{count}</b> precision damage is dealt due to sneak attack."
-msgstr "암습으로 인해 <b>{count}</b>의 정밀 피해."
+msgstr "암습으로 <b>{count}</b>의 정밀 피해를 가함."
 
-#, fuzzy
 msgctxt "ab186e48-1532-4cc1-b54b-beafc340e626"
 msgid "Damage source: <b>{text}</b>."
 msgstr "피해 원인: <b>{text}</b>."
 
-#, fuzzy
 msgctxt "3544c89c-03e3-4adc-809a-559e5bf36361"
 msgid "{target} deflects projectile!"
 msgstr "{target}이/가 발사체를 쳐냄!"
 
-#, fuzzy
 msgctxt "422ca7b0-a7bb-4136-826f-c778233f6ad8"
 msgid "Dialogue finished."
 msgstr "대화가 끝났습니다."
 
-#, fuzzy
 msgctxt "b9807166-97b8-4694-bdfb-216b59eaf5a8"
 msgid "Dialogue started."
 msgstr "대화가 시작되었습니다."
 
-#, fuzzy
 msgctxt "fdbf7ca5-3e98-4f83-9c8e-49cf45d53c54"
 msgid "<b>{source}</b> fails to disarm the trap and accidentally triggers it."
-msgstr "<b>{source}</b> 함정 해제에 실패해서 실수로 발동시켰습니다."
+msgstr "<b>{source}</b>: 함정 해제에 실패해서 실수로 발동시켰습니다."
 
-#, fuzzy
 msgctxt "822498da-f9d5-4c2c-86f0-cc8dfa70c908"
 msgid "<b>{source}</b> fails to disarm the trap."
 msgstr "<b>{source}</b>: 함정 해제 실패."
 
-#, fuzzy
 msgctxt "4885fa05-33f7-4951-832b-87135d19e13d"
 msgid "<b>{source}</b> successfully disarms the trap."
 msgstr "<b>{source}</b>: 함정 해제 성공."
 
-#, fuzzy
 msgctxt "e8eae248-e167-4023-b55f-1241b62d329b"
 msgid "<b>{source}</b> fails to dispel <b>{text}</b> from <b>{target}</b>."
 msgstr "<b>{source}</b>: <b>{target}</b>의 <b>{text}</b> 해제 실패."
 
-#, fuzzy
 msgctxt "8977d772-462c-4898-9ac6-4a55985366b4"
 msgid ""
 "Difficulty (DR): {dc}.\n"
 "Caster level check: {roll} (roll {d20} + modifiers: {mod}).\n"
 "Result: fail."
 msgstr ""
-"난이도 (DR): {dc}. \n"
-"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod}). \n"
+"난이도 (DR): {dc}.\n"
+"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod}).\n"
 "결과: 실패."
 
-#, fuzzy
 msgctxt "236942d0-28a8-4423-ab2f-f64157acfd34"
 msgid "<b>{source}</b> dispels <b>{text}</b> from <b>{target}</b>"
 msgstr "<b>{source}</b>: <b>{target}</b>의 <b>{text}</b> 해제 성공"
 
-#, fuzzy
 msgctxt "bd93872e-2b6b-4884-bdee-f87abf80cc67"
 msgid ""
 "Difficulty (DR): {dc}.\n"
 "Caster level check: {roll} (roll {d20} + modifiers: {mod}).\n"
 "Result: success."
 msgstr ""
-"난이도 (DR): {dc}. \n"
-"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod}). \n"
+"난이도 (DR): {dc}.\n"
+"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod}).\n"
 "결과: 성공."
 
-#, fuzzy
 msgctxt "c530abc7-682a-41a2-83d9-5934021125e4"
 msgid "<b>{source}</b> spots a secret door."
-msgstr "<b>{source}</b>: 비밀문 탐지."
+msgstr "<b>{source}</b>: 비밀 문 발견."
 
-#, fuzzy
 msgctxt "621dbea9-964d-4d97-a041-c5617db74408"
 msgid "<b>{source}</b> evades the effect of <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 효과 회피."
 
-#, fuzzy
 msgctxt "1057a184-34f7-43ab-af94-0c9da411ea40"
 msgid ""
 "{source} restores {count} permanent negative {count_form|level|levels} to "
 "{target}."
 msgstr "<b>{source}</b>: <b>{target}</b>의 영구적 음수 레벨을 <b>{count} 레벨</b> 회복."
 
-#, fuzzy
 msgctxt "b81dd48b-a91d-4db8-b384-9c36eb8e5cf5"
 msgid ""
 "{source} restores {count} temporary negative {count_form|level|levels} to "
 "{target}."
 msgstr "<b>{source}</b>: <b>{target}</b>의 일시적 음수 레벨을 <b>{count} 레벨</b> 회복."
 
-#, fuzzy
 msgctxt "8106a3f7-1f4a-40d6-a554-d8c79ebe33ae"
 msgid "{target} is immune to energy drain."
 msgstr "<b>{target}</b>: 원기 소진에 면역."
 
-#, fuzzy
 msgctxt "fdad0bca-6d1a-424c-9f40-1c190c69278a"
 msgid ""
 "{source} permanently drains {count} {count_form|level|levels} from {target}."
 msgstr "<b>{source}</b>: <b>{target}</b>의 레벨을 영구적으로 <b>{count} 레벨</b> 소진."
 
-#, fuzzy
 msgctxt "e224c76b-8aec-4c6b-9065-6d130b5fb839"
 msgid ""
 "{source} temporarily drains {count} {count_form|level|levels} from {target}."
 msgstr "<b>{source}</b>: <b>{target}</b>의 레벨을 일시적으로 <b>{count} 레벨</b> 소진."
 
-#, fuzzy
 msgctxt "8d066567-9749-4467-965e-e29f5867cc69"
 msgid "<b>{source}</b> heals <b>{target}</b> for <b>{count}</b> hit points."
 msgstr "<b>{source}</b>: <b>{target}</b>의 생명점 <b>{count}</b> 치유."
 
 msgctxt "cc2142fc-376e-427d-a739-f609492c002c"
 msgid "<b>{source}</b> heals <b>{target}</b> for <b>{count}</b> hit points."
-msgstr ""
+msgstr "<b>{source}</b>: <b>{target}</b>의 생명점 <b>{count}</b> 치유."
 
 msgctxt "27020580-3530-4662-9d62-8e695375de5e"
 msgid "<b>{source}</b> heals for <b>{count}</b> hit points."
-msgstr ""
+msgstr "<b>{source}</b>: 생명점이 <b>{count}</b> 치유됨."
 
 msgctxt "e3e60ce1-1773-4d3d-b19d-edde1004c326"
 msgid "<b>{target}</b> gains <b>{count}</b> hit points from unknown source."
-msgstr ""
+msgstr "<b>{target}</b>: 알 수 없는 출처로부터 생명점 <b>{count}</b> 획득."
 
 msgctxt "36b31a8f-07fb-49ba-9218-0af3ce4ee600"
 msgid "Effective heal: <b>{count}</b>."
-msgstr ""
+msgstr "실효 치유: <b>{count}</b>."
 
 msgctxt "e68dd31b-4998-4327-bf6f-327d1afa87ac"
 msgid "Roll result: <b>{count}</b>"
-msgstr ""
+msgstr "굴림 결과: <b>{count}</b>"
 
-#, fuzzy
 msgctxt "b0a122d3-1bf7-47e5-b1c4-89878f86052b"
 msgid "<b>{source}</b> heals for <b>{count}</b> hit points."
 msgstr "<b>{source}</b>: 생명점이 <b>{count}</b> 치유됨."
 
-#, fuzzy
 msgctxt "6f04663f-50f0-4ce0-b72b-eca3f96f0194"
 msgid ""
 "<b>{source}</b> restored <b>{count} {description}</b> damage to "
@@ -24657,76 +24583,66 @@ msgid ""
 msgstr ""
 "<b>{source}</b>: <b>{target}</b>의 <b>{description}</b> 피해 <b>{count}</b> 회복."
 
-#, fuzzy
 msgctxt "6c8a1950-825d-427d-a8c6-3fd0684b0f60"
 msgid "<b>{target}</b> had <b>{count} {description}</b> damage restored."
 msgstr "<b>{target}</b>: <b>{count} {description}</b> 피해 <b>{count}</b> 회복됨."
 
 msgctxt "542b722f-fb01-4e09-9d7c-a849f84aa231"
 msgid "Restored: <b>{count} {description}</b>."
-msgstr ""
+msgstr "회복됨: <b>{count} {description}</b>."
 
 msgctxt "1e79d4a6-358b-46ca-aa02-ce3d35f3cfc9"
 msgid "Source: <b>{source}</b>."
-msgstr ""
+msgstr "출처: <b>{source}</b>."
 
-#, fuzzy
 msgctxt "6381e747-4976-4057-bdff-fb4636c15dc3"
 msgid ""
 "<b>{source}</b> restored <b>{count}</b> drained <b>{description}</b> to "
 "<b>{target}</b>."
 msgstr ""
-"<b>{source}</b>: <b>{target}</b>의 <b>{description}</b> 흡수 <b>{count}</b> 회복."
+"<b>{source}</b>: <b>{target}</b>의 소진된 <b>{description}</b> <b>{count}</b> 회복."
 
-#, fuzzy
 msgctxt "603d67a0-55bf-490f-9ba6-7d67b2a8047b"
 msgid ""
 "<b>{target}</b> had <b>{count}</b> drained <b>{description}</b> restored."
-msgstr "<b>{target}</b>: <b>{description}</b> 흡수 <b>{count}</b> 회복됨."
+msgstr "<b>{target}</b>: 소진된 <b>{description}</b> <b>{count}</b> 회복함."
 
 msgctxt "093d453c-19b7-47c6-8144-b2cbad4992a7"
 msgid "Restored: <b>{count} {description}</b>."
-msgstr ""
+msgstr "회복됨: <b>{count} {description}</b>."
 
 msgctxt "d69fec0c-db7e-4ef6-b63e-c38db247cba5"
 msgid "Source: <b>{source}</b>."
-msgstr ""
+msgstr "출처: <b>{source}</b>."
 
-#, fuzzy
 msgctxt "b7cbbb0e-c915-4dfd-9474-8da2e645a797"
 msgid "<b>{target}</b> gains <b>{count}</b> hit points from unknown source."
-msgstr "<b>{target}</b>: 신원미상의 출처로부터 생명점 <b>{count}</b> 획득."
+msgstr "<b>{target}</b>: 알 수 없는 출처로부터 생명점 <b>{count}</b> 획득."
 
 msgctxt "3614a181-9d64-4776-8f4c-faca5f39cb2c"
 msgid "<b>{target}</b> has {count} HD and cannot be affected by <b>{text}</b>."
-msgstr ""
+msgstr "<b>{target}</b>의 HD 가 {count} 이므로 <b>{text}</b> 의 영향을 받지 않음."
 
-#, fuzzy
 msgctxt "9eb800a5-4d71-479c-b4c1-d226af4c6983"
 msgid "<b>{source}</b>: Initiative check <b>{roll}</b>."
 msgstr "<b>{source}</b>: 우선권 판정 <b>{roll}</b>."
 
-#, fuzzy
 msgctxt "bdc36cb6-422f-482a-8b86-c1e1dd72a4e3"
 msgid "Check: {roll} (roll: {d20} + modifiers: {mod})."
 msgstr "판정: {roll} (굴림 결과: {d20} + 수정치: {mod})."
 
-#, fuzzy
 msgctxt "ee65b61a-52cc-44ee-a6b0-9769bf3324a9"
 msgid "<b>{source}</b> equips <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 장비."
 
-#, fuzzy
 msgctxt "99c4964b-9040-4328-8de2-a411541a880b"
 msgid "Received item: <b>{text}</b>."
 msgstr "물품 획득: <b>{text}</b>."
 
-#, fuzzy
 msgctxt "1e0ef02f-6805-41c2-9f5c-da8625624d2d"
 msgid "<b>{source}</b> identifies <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 식별."
 
-#, fuzzy
 msgctxt "eca20cdd-8265-4b8f-be46-d63df2290281"
 msgid ""
 "<b>{text}</b>\n"
@@ -24735,124 +24651,102 @@ msgstr ""
 "<b>{text}</b>\n"
 "{description}"
 
-#, fuzzy
 msgctxt "67766d1b-5b3d-4dc0-aaf0-6a43bcfb3ade"
 msgid "Lost item: <b>{text}</b>."
 msgstr "아이템 손실: <b>{text}</b>."
 
-#, fuzzy
 msgctxt "a029839b-d627-4a36-8240-ce5daf88b737"
 msgid "Received items: <b>{text} x{count}</b>."
 msgstr "아이템 획득: <b>{text} {count}개</b>."
 
-#, fuzzy
 msgctxt "95c42752-0e46-4aa0-b68c-59e1c3e587e1"
 msgid "Lost items: <b>{text} x{count}</b>."
 msgstr "아이템 손실: <b>{text} {count}개</b>."
 
-#, fuzzy
 msgctxt "92f92f19-7e26-48b1-a198-ef1479edd090"
 msgid "<b>{source}</b> removes <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 장비 해제."
 
-#, fuzzy
 msgctxt "fc58c6f4-5675-406b-8eb6-ac1155da4041"
 msgid "Unable to identify <b>{text}</b>."
 msgstr "<b>{text}</b> 식별 불가."
 
-#, fuzzy
 msgctxt "0cb0810e-48aa-4aba-ac1e-9a9694899171"
 msgid "Unable to identify <b>{text}</b>. Failed at a {text_with_tags} check."
-msgstr "<b>{text}</b> 식별 불가. {text_with_tags} 체크 실패함."
+msgstr "<b>{text}</b> 식별 불가. {text_with_tags} 판정 실패."
 
-#, fuzzy
 msgctxt "2521695d-85ff-47fc-9cd8-3dce69b45a54"
 msgid "<b>{source}</b> accepts <b>{count}</b> points of burn."
-msgstr "<b>{source}</b>이/가 <b>{count}</b> 점의 과열을 받음."
+msgstr "<b>{source}</b>: <b>{count}</b> 점의 과열을 받음."
 
-#, fuzzy
 msgctxt "6bcf3cb1-7c60-4e95-971a-ee6a8ac2738a"
 msgid "<b>{source}</b> heals <b>{count}</b> points of burn."
-msgstr "<b>{source}</b>이/가 <b>{count}</b> 점의 과열을 치유함."
+msgstr "<b>{source}</b>: <b>{count}</b> 점의 과열을 치유함."
 
-#, fuzzy
 msgctxt "07ee1721-8e83-41d3-a40c-cab342dce9eb"
 msgid "New location discovered: <b>{text}</b>."
 msgstr "새로운 장소 발견: <b>{text}</b>."
 
 msgctxt "86f9e496-a40b-4746-9276-09fb90d3f9c3"
 msgid "The lock is jammed"
-msgstr ""
+msgstr "자물쇠 고장"
 
 msgctxt "3a42d43d-e87f-421b-a6ac-339e177871c0"
 msgid "The lock is jammed"
-msgstr ""
+msgstr "자물쇠 고장"
 
-#, fuzzy
 msgctxt "d480ae6c-e448-43e9-aa9f-68d1ba2626d9"
 msgid "Gained <b>{count} GP</b>."
 msgstr "<b>{count} GP</b> 획득."
 
-#, fuzzy
 msgctxt "a44f0bea-3130-4a94-9b93-12176adef44b"
 msgid "Lost <b>{count} GP</b>."
 msgstr "<b>{count} GP</b> 손실."
 
-#, fuzzy
 msgctxt "31f0024c-04d5-4fea-88f7-bb7e281770b8"
 msgid "{text}"
 msgstr "{text}"
 
-#, fuzzy
 msgctxt "512baeb1-9526-40fd-8662-0005c3134e07"
 msgid "The party suffers from heavy encumbrance."
 msgstr "일행이 무거운 하중의 영향을 받고 있습니다."
 
-#, fuzzy
 msgctxt "e9957937-e8fe-49e2-942a-8301bc02eb1a"
 msgid "The party suffers from light encumbrance."
 msgstr "일행이 가벼운 하중의 영향을 받고 있습니다."
 
-#, fuzzy
 msgctxt "9ebeccc4-7217-416c-aed9-6713357596a6"
 msgid "The party suffers from medium encumbrance."
 msgstr "일행이 중간 하중의 영향을 받고 있습니다."
 
-#, fuzzy
 msgctxt "9919fc91-cbb2-457f-aa06-00d1aa782cec"
 msgid "The party is overloaded and cannot travel."
 msgstr "일행의 짐이 너무 무거워 여행할 수 없습니다."
 
-#, fuzzy
 msgctxt "6cb02bce-6bcf-42a4-845b-58aa2f2c6599"
 msgid "<b>{source}</b>: <b>{text}</b> check failed."
 msgstr "<b>{source}</b>: <b>{text}</b> 판정 실패."
 
-#, fuzzy
 msgctxt "40b33d2c-33e3-4dff-ac31-f502cc47cf24"
 msgid "<b>{source}</b>: <b>{text}</b> check succeeded."
 msgstr "<b>{source}</b>: <b>{text}</b> 판정 성공."
 
 msgctxt "14247cf3-c882-4e5e-99e0-46aa4154c540"
 msgid "<b>{source}</b> fails to pick the lock. The lock is jammed now."
-msgstr ""
+msgstr "<b>{source}</b>: 자물쇠 따기 실패. 자물쇠가 고장났습니다."
 
-#, fuzzy
 msgctxt "ab74807a-6e28-40ab-9e4c-8d82bcc1a189"
 msgid "<b>{source}</b> fails to pick the lock."
 msgstr "<b>{source}</b>: 자물쇠 따기 실패."
 
-#, fuzzy
 msgctxt "7defb529-d8c9-4553-89ca-6dfb6849730c"
 msgid "<b>{source}</b> successfully picks the lock."
 msgstr "<b>{source}</b>: 자물쇠 따기 성공."
 
-#, fuzzy
 msgctxt "38085c3a-ba41-4562-9bd4-ac5d9192d586"
 msgid "<b>{source}</b>: <b>{text}</b> saving throw failed."
 msgstr "<b>{source}</b>: <b>{text}</b> 내성 굴림 실패."
 
-#, fuzzy
 msgctxt "d701199d-0be8-4cef-acf7-419ab81ae352"
 msgid ""
 "Saving throw result: {roll} (roll {d20} + modifiers: {mod}).\n"
@@ -24863,12 +24757,10 @@ msgstr ""
 "난이도 (DC): {dc}. \n"
 "결과: 실패."
 
-#, fuzzy
 msgctxt "49b6da79-3991-41f7-92cb-57d34835f07e"
 msgid "<b>{source}</b>: <b>{text}</b> saving throw succeeded."
 msgstr "<b>{source}</b>: <b>{text}</b> 내성 굴림 성공."
 
-#, fuzzy
 msgctxt "f9326820-eefb-4454-9c5b-da8a32afa655"
 msgid ""
 "Saving throw result: {roll} (roll {d20} + modifiers: {mod}).\n"
@@ -24879,27 +24771,22 @@ msgstr ""
 "난이도 (DC): {dc}. \n"
 "결과: 성공."
 
-#, fuzzy
 msgctxt "4d5d1259-68ed-45e7-819a-8ab0ef00ca6e"
 msgid "<b>{source}</b>: <b>{text}</b> check failed."
 msgstr "<b>{source}</b>: <b>{text}</b> 판정 실패."
 
-#, fuzzy
 msgctxt "a83ddb2c-8ebe-4cd3-a0aa-4f1b5103900b"
 msgid "<b>{source}</b>: <b>{text}</b> check succeeded."
 msgstr "<b>{source}</b>: <b>{text}</b> 판정 성공."
 
-#, fuzzy
 msgctxt "c03314f7-61e6-4e6f-ba3e-bde33d3d5593"
 msgid "{source} tries skinning {target}."
 msgstr "<b>{source}</b>: {target} 가죽 벗기기 시도."
 
-#, fuzzy
 msgctxt "59cf93e2-a431-4cec-8aeb-e4bb15d83a06"
 msgid "<b>{source}</b> spell was lost."
 msgstr "<b>{source}</b> 주문 손실됨."
 
-#, fuzzy
 msgctxt "99bee009-b9e0-4f5b-b6f8-e57e5020e04f"
 msgid ""
 "Check: {d100}.\n"
@@ -24912,26 +24799,25 @@ msgstr ""
 
 msgctxt "3be12469-f1e5-41d9-a52c-1098f363ee7e"
 msgid "<b>{source}</b> spell was lost."
-msgstr ""
+msgstr "<b>{source}</b> 주문 손실됨."
 
 msgctxt "81b6666b-80ac-4bd1-be19-6dc952c2b7e0"
 msgid ""
 "Spell Failure chance: {chance_dc}.\n"
 "Result: failure."
 msgstr ""
+"주문 실패 확률: {chance_dc}.\n"
+"결과: 실패."
 
-#, fuzzy
 msgctxt "3b94c1b4-725e-4d64-860b-6c609fcb3afb"
 msgid "<b>{target}</b> is immune to <b>{text}</b>."
 msgstr "<b>{target}</b>: <b>{text}</b>에 면역."
 
-#, fuzzy
 msgctxt "7e5fc7b1-c273-4d7b-a518-b326e363599a"
 msgid ""
 "<b>{source}</b> fails to overcome the spell resistance of <b>{target}</b>."
 msgstr "<b>{source}</b>: <b>{target}</b>의 주문 저항에 막힘."
 
-#, fuzzy
 msgctxt "0ab13989-cd78-46b0-96b3-c89a6c0e954b"
 msgid ""
 "Check: {roll} (roll: {d20} + modifiers: {mod}).\n"
@@ -24942,12 +24828,10 @@ msgstr ""
 "주문 저항 (SR): {dc}. \n"
 "결과: 실패."
 
-#, fuzzy
 msgctxt "f83aaa49-e70a-4756-bb4b-604466d5a190"
 msgid "<b>{source}</b> overcomes the spell resistance of <b>{target}</b>."
 msgstr "<b>{source}</b>: <b>{target}</b>의 주문 저항을 관통."
 
-#, fuzzy
 msgctxt "5bffdd24-5e14-48b4-996e-3fd67cc55fdc"
 msgid ""
 "Check: {roll} (roll: {d20} + modifiers: {mod}).\n"
@@ -24958,29 +24842,24 @@ msgstr ""
 "주문 저항 (SR): {dc}. \n"
 "결과: 성공."
 
-#, fuzzy
 msgctxt "a239a6c7-c8b7-4de2-8dab-188a08d340ac"
 msgid "{}"
 msgstr "{}"
 
-#, fuzzy
 msgctxt "ea43c9cd-91d3-44ea-9b9d-b3477fadc7fb"
 msgid ""
 "<b>{source}</b> deals <b>{count} {description}</b> damage to <b>{target}</b>."
 msgstr ""
-"<b>{source}</b>: <b>{target}</b>에게 <b>{count}</b>의 <b>{description}</b> 피해."
+"<b>{source}</b>: <b>{target}</b>에게 <b>{count}</b> <b>{description}</b> 피해."
 
-#, fuzzy
 msgctxt "a710ca9e-22c5-4b77-a17e-3551ad6f4ebf"
 msgid "{text} deals {count} {description} damage to {target}."
-msgstr "<b>{text}</b>: <b>{target}</b>에게 <b>{count}</b>의 {description} 피해."
+msgstr "<b>{text}</b>: <b>{target}</b>에게 <b>{count}</b> {description} 피해."
 
-#, fuzzy
 msgctxt "21533e2c-c87c-42fc-b7a3-6a419d3a0d46"
 msgid "{text} deals {count} {description} damage to {target}."
-msgstr "<b>{text}</b>: <b>{target}</b>에게 <b>{count}</b>의 {description} 피해."
+msgstr "<b>{text}</b>: <b>{target}</b>에게 <b>{count}</b> {description} 피해."
 
-#, fuzzy
 msgctxt "c2666bd4-18c4-4b6b-8a99-f07c98c6fedb"
 msgid ""
 "<b>{target}</b> received <b>{count} {description}</b> damage from unknown "
@@ -24992,14 +24871,16 @@ msgid ""
 "Damage result: <b>{count}</b>.\n"
 "Damage source: <b>{text}</b>."
 msgstr ""
+"피해 결과: <b>{count}</b>.\n"
+"피해 출처: <b>{text}</b>."
 
 msgctxt "18515b8d-cfd4-47bb-baeb-c77be35a48a4"
 msgid "Damage result: <b>{count} {description}</b>."
-msgstr ""
+msgstr "피해 결과: <b>{count} {description}</b>."
 
 msgctxt "a7d4cad8-2e7e-4067-9962-9db451bd5cdf"
 msgid "Damage source: <b>{source}</b>."
-msgstr ""
+msgstr "피해 출처: <b>{source}</b>."
 
 #, fuzzy
 msgctxt "a0e64f5f-9790-4cf7-90d7-ad6e8020bc1e"
