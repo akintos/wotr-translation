@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-13 22:24+0000\n"
+"PO-Revision-Date: 2021-09-14 23:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -3531,14 +3531,6 @@ msgstr "레비아탄의 선물"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LeviathanSkinRobeItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer the ability to cast up to six spells per day "
-#| "that are maximized as though using the Maximize Spell feat. It affects "
-#| "spells of 6th level or lower.\n"
-#| "All variable, numeric effects of a spell modified by this feat are "
-#| "maximized. Saving throws and opposed rolls are not affected, nor are spells "
-#| "without random variables."
 msgctxt "5557bf5e-0d44-4467-aef7-e36a15b144b3"
 msgid ""
 "This robe grants its wearer the ability to cast up to six "
@@ -3550,21 +3542,20 @@ msgid ""
 "{g|Encyclopedia:Dice}rolls{/g} are not affected, nor are spells without "
 "random variables."
 msgstr ""
-"이 로브는 착용자에게 하루에 최대 6개 주문의 극대화 시전 능력을 제공합니다. 이것은 메타매직(극대화) 특기를 사용한 것과 동일합니다. "
-"6 레벨 이하의 주문에만 효과가 있습니다.\n"
-"이 특기로 수정된 주문의 모든 변수 효과 수치 효과가 최대화됩니다. 내성 굴림과 반대 굴림은 영향을 받지 않으며 무작위 변수가 없는 "
-"주문입니다."
+"이 로브는 착용자에게 하루에 최대 6 개 {g|Encyclopedia:Spell}주문{/g}의 극대화 시전 능력을 제공합니다. 이것은 "
+"메타매직(극대화) {g|Encyclopedia:Feat}특기{/g}를 사용한 것과 동일합니다. 6 레벨 이하의 주문에만 효과가 있습니다."
+"\n"
+"이 특기로 수정된 주문의 모든 변수 효과 수치 효과가 최대화됩니다. {g|Encyclopedia:Saving_Throw}내성 굴림{/g}"
+"과 반대 {g|Encyclopedia:Dice}굴림{/g}은 영향을 받지 않으며 무작위 변수가 없는 주문입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LightAbsorberChainshirtItem::m_DisplayNameText
-#, fuzzy
 msgctxt "da6fe42b-3742-4f64-a9c2-6df506a3a515"
 msgid "Light Absorber"
 msgstr "빛의 흡수자"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LightAbsorberChainshirtItem::m_DescriptionText
-#, fuzzy
 msgctxt "90dfe984-2882-4590-b339-d2d1149cc600"
 msgid "This +2 chainshirt protects its wearer from blinding effects."
 msgstr "이 +2 사슬조끼는 착용자를 실명 효과로부터 보호합니다."
@@ -3586,50 +3577,45 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LightShieldArmorItemPlus3againstEvocation::m_DisplayNameText
-#, fuzzy
 msgctxt "c368c0fb-b138-4351-9fd7-22691d6194a0"
 msgid "Shield of Evocation Resilience"
-msgstr "이보케이션 도탄의 방패"
+msgstr "방출마법 도탄의 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LightShieldArmorItemPlus3againstEvocation::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 light shield grants its wielder a +4 bonus on saving throws against "
-#| "all spells of Evocation school."
 msgctxt "72e334d4-7683-4cd6-8d06-dc29aabb786e"
 msgid ""
 "This +3 light shield grants its wielder a +4 {g|Encyclopedia:Bonus}bonus{/g} "
 "on {g|Encyclopedia:Saving_Throw}saving throws{/g} against all "
 "{g|Encyclopedia:Spell}spells{/g} of Evocation school."
-msgstr "이 +3 소형 방패는 착용자의 이보케이션 학파에 대한 내성 굴림에 +4 보너스를 줍니다."
+msgstr ""
+"이 +3 소형 방패는 모든 방출학파 {g|Encyclopedia:Spell}주문{/g}에 대한 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LinnormHideItem::m_DisplayNameText
-#, fuzzy
 msgctxt "d24adb9d-35cd-400a-9372-8928a776875b"
 msgid "Linnorm Hide"
 msgstr "린놈 가죽"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LinnormHideItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 hide armor grants its wearer immunity to fire and a +4 bonus to "
-#| "saving throws against Transmutation school spells."
 msgctxt "f9146e85-38de-4a74-ad4a-30880136398f"
 msgid ""
 "This +5 hide armor grants its wearer immunity to fire and a +4 "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g} against Transmutation school {g|Encyclopedia:Spell}spells{/g}."
-msgstr "이 +5 털가죽 갑옷은 착용자에게 화염 면역과 트랜스뮤테이션 학파 주문에 대한 내성 굴림에 +4 보너스를 제공합니다."
+msgstr ""
+"이 +5 털가죽 갑옷은 착용자에게 화염 면역과 변환학파 {g|Encyclopedia:Spell}주문{/g}에 대한 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LinnormHideItem::m_FlavorText
-#, fuzzy
 msgctxt "e7fae32e-076d-4f2f-bce7-ea075fee5271"
 msgid "An armor made of thick skin of a serpent-like monster."
-msgstr "뱀 같은 괴물의 얇은 가죽으로 만든 갑옷."
+msgstr "파충류 괴물의 두꺼운 가죽으로 만든 갑옷."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LivingRamItem::m_DisplayNameText
@@ -3668,19 +3654,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MarkOfTheGuardianArmorItem::m_DisplayNameText
-#, fuzzy
 msgctxt "04215a69-cd17-4d95-b444-2888735387fa"
 msgid "Mark of the Guardian"
 msgstr "수호자의 징표"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MarkOfTheGuardianArmorItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 full plate grants its wearer Negative Energy Resistance 30, Fire "
-#| "Resistance 10, Acid Resistance 10, Cold Resistance 10, and Electricity "
-#| "Resistance 10. It also grants its wearer the ability to cast searing light "
-#| "once per day as a 5th level cleric."
 msgctxt "fc487d19-7f4c-4b88-9385-dea70ec6eaf3"
 msgid ""
 "This +5 full plate grants its wearer Negative "
@@ -3689,33 +3668,26 @@ msgid ""
 "It also grants its wearer the ability to cast searing light once per day as "
 "a 5th level cleric."
 msgstr ""
-"이 +5 전신 판금갑옷은 착용자에게 음에너지 저항 30, 화염 저항 10, 산성 저항 10, 냉기 저항 10 및 전기 저항 10을 "
-"제공합니다. 또한 착용자에게 하루에 한번 5레벨 성직자의 타오르는 빛 시전 능력을 제공합니다."
+"이 +5 전신 판금갑옷은 착용자에게 {g|Encyclopedia:Energy_Resistance}음에너지 저항{/g} 30, 화염 저항 "
+"10, 산성 저항 10, 냉기 저항 10 및 전기 저항 10을 제공합니다. 또한 착용자에게 하루에 한번 5레벨 성직자의 타오르는 빛 시전 "
+"능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MarkOfTheGuardianArmorItem::m_FlavorText
-#, fuzzy
 msgctxt "7c23bd74-502b-4962-8952-94e0c967b241"
 msgid ""
 "The fancy material of this shiny armor is extremely smooth. It seems to "
 "reflect everything that falls on its surface, like a mirror."
-msgstr "이 반짝이는 갑옷의 멋진 소재는 매우 부드럽습니다. 겉에 비치는 모든 것을 거울처럼 반영하는 것 같습니다."
+msgstr "이 반짝이는 갑옷의 멋진 소재는 매우 부드럽습니다. 겉에 비치는 모든 것을 거울처럼 반사합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MirroredDefenseLeathArmorItem::m_DisplayNameText
-#, fuzzy
 msgctxt "5d66e3b9-7f91-476f-9036-8d017826eaf5"
 msgid "Vest of Mirrors"
 msgstr "거울의 조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MirroredDefenseLeathArmorItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If the wearer of this +3 leather armor has the Bardic Performance ability, "
-#| "it allows them to use it for 4 additional rounds per day. It also grants "
-#| "them the ability to cast displacement spell three times per day as a 5th "
-#| "level wizard."
 msgctxt "657128d7-076a-4b79-8716-552df574c4d6"
 msgid ""
 "If the wearer of this +3 leather armor has the Bardic Performance ability, "
@@ -3724,138 +3696,120 @@ msgid ""
 "ability to cast displacement {g|Encyclopedia:Spell}spell{/g} three times per "
 "day as a 5th level wizard."
 msgstr ""
-"만약 이 +3 가죽갑옷의 착용자가 바드 공연 능력을 지녔다면, 하루당 사용횟수를 4 라운드 추가합니다. 또한 하루에 세 번 5 레벨 "
-"위저드의 환위 주문을 시전 능력을 제공합니다."
+"만약 이 +3 가죽갑옷의 착용자가 바드 공연 능력을 지녔다면, 하루당 사용횟수를 4 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 추가합니다. 또한 하루에 세 번 5 레벨 위저드의 환위 "
+"{g|Encyclopedia:Spell}주문{/g} 시전 능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBanded::m_DisplayNameText
-#, fuzzy
 msgctxt "1a16257e-d53b-4585-b068-0d170662c058"
 msgid "Mithral Banded Mail"
 msgstr "미스랄 철판 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBandedPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "15be3cfb-42ba-4f1d-8851-3040045af09f"
 msgid "Mithral Banded Mail +1"
 msgstr "미스랄 철판 사슬갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBandedPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "958e3b82-bb1c-40ae-93e4-f1ed10d6ba26"
 msgid "Mithral Banded Mail +2"
 msgstr "미스랄 철판 사슬갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBandedPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "0e0ad07b-f62f-4c6d-81e5-d38faf1ba917"
 msgid "Mithral Banded Mail +3"
 msgstr "미스랄 철판 사슬갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBandedPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "94d1e7cd-2f5b-4207-a6c7-2d3c5e2525a1"
 msgid "Mithral Banded Mail +4"
 msgstr "미스랄 철판 사슬갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBandedPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "5fd1e991-b1a4-4a38-a9f1-53fa22be69c2"
 msgid "Mithral Banded Mail +5"
 msgstr "미스랄 철판 사슬갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBreastplate::m_DisplayNameText
-#, fuzzy
 msgctxt "935438e7-69cd-43b4-a705-824229b90a1e"
 msgid "Mithral Breastplate"
 msgstr "미스랄 판금 흉갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBreastplatePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "9a227dce-e6ed-4416-beee-5ee518d6b0eb"
 msgid "Mithral Breastplate +1"
 msgstr "미스랄 판금 흉갑 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBreastplatePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "2ef570a6-da91-4dc4-8942-c1641d653f1b"
 msgid "Mithral Breastplate +2"
 msgstr "미스랄 판금 흉갑 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBreastplatePlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "3093c83a-d91e-406b-a0cd-adf204cd62b3"
 msgid "Mithral Breastplate +3"
 msgstr "미스랄 판금 흉갑 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBreastplatePlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "1914b83e-0871-4990-b375-f8562d46607b"
 msgid "Mithral Breastplate +4"
 msgstr "미스랄 판금 흉갑 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralBreastplatePlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "4589c2b4-850f-4c1a-bb6f-d97e93961817"
 msgid "Mithral Breastplate +5"
 msgstr "미스랄 판금 흉갑 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainmail::m_DisplayNameText
-#, fuzzy
 msgctxt "4d5c026a-1f1c-45c2-a578-05c613be10bf"
 msgid "Mithral Chainmail"
 msgstr "미스랄 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainmailPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "4f976cc3-f9b8-472b-b6d6-42c9c8fa6874"
 msgid "Mithral Chainmail +1"
 msgstr "미스랄 사슬갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainmailPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "5a92bb86-3165-4912-99ef-ecf68c9c8b96"
 msgid "Mithral Chainmail +2"
 msgstr "미스랄 사슬갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainmailPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "ee8e4310-fbab-4680-9198-9d2612748309"
 msgid "Mithral Chainmail +3"
 msgstr "미스랄 사슬갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainmailPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "21459787-245e-4691-a59b-d8361ae2a111"
 msgid "Mithral Chainmail +4"
 msgstr "미스랄 사슬갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainmailPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "4ac86000-c044-4cc5-a936-59e16dfed80d"
 msgid "Mithral Chainmail +5"
 msgstr "미스랄 사슬갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainshirt::m_DisplayNameText
-#, fuzzy
 msgctxt "25755614-2222-44d6-a286-fea5622ddd90"
 msgid "Mithral Chainshirt"
 msgstr "미스랄 사슬조끼"
@@ -3874,14 +3828,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainshirtPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "62470576-6af4-46ce-92ed-19f4a3314354"
 msgid "Mithral Chainshirt +1"
 msgstr "미스랄 사슬조끼 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainshirtPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "0b8d1bf5-bec4-407a-85f6-878445fda73a"
 msgid "Mithral Chainshirt +2"
 msgstr "미스랄 사슬조끼 +2"
@@ -3908,46 +3860,36 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainshirtPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "f0fd16f3-f8ca-41b5-87e5-4e0b7462c043"
 msgid "Mithral Chainshirt +3"
 msgstr "미스랄 사슬조끼 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainshirtPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "4d8d7064-17bd-4a1e-bf10-9656877b6f2b"
 msgid "Mithral Chainshirt +4"
 msgstr "미스랄 사슬조끼 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralChainshirtPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "8cd48769-2523-4882-9cf2-6565cf972b5c"
 msgid "Mithral Chainshirt +5"
 msgstr "미스랄 사슬조끼 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullplate::m_DisplayNameText
-#, fuzzy
 msgctxt "dfd4d828-4f16-4653-8ddd-7420195654c4"
 msgid "Mithral Full Plate"
 msgstr "미스랄 전신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullPlateOfCrusadeItem::m_DisplayNameText
-#, fuzzy
 msgctxt "b40513fa-c994-42e9-bc2a-84bce5299d12"
 msgid "Crusader's Mithral Full Plate"
 msgstr "성전사의 미스랄 전신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullPlateOfCrusadeItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 mithral full plate grants the wearer a +3 enhancement bonus to "
-#| "Wisdom and the ability to cast angelic aspect spell once per day as a 9th "
-#| "level wizard."
 msgctxt "c10f45d9-c0e4-4d23-b2a3-6a00ae15ecf2"
 msgid ""
 "This +3 mithral full plate grants the wearer a +3 enhancement "
@@ -3955,139 +3897,116 @@ msgid ""
 "ability to cast angelic aspect {g|Encyclopedia:Spell}spell{/g} once per day "
 "as a 9th level wizard."
 msgstr ""
-"이 +3 미스랄 전신 판금갑옷은 착용자의 지혜에 +3의 강화 보너스를 주고, 하루에 한 번 9 레벨 위저드의 천사의 형상 주문을 시전할 "
-"수 있게 해줍니다."
+"이 +3 미스랄 전신 판금갑옷은 착용자의 {g|Encyclopedia:Wisdom}지혜{/g}에 +3 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공하며, 하루에 한 번 9 레벨 위저드의 천사의 형상 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullPlateOfCrusadeItem::m_FlavorText
-#, fuzzy
 msgctxt "24bb13a1-cde4-4ca8-a143-bec84a0a7b07"
 msgid ""
 "There is a gold-plated symbol of Iomedae on this armor's shoulder pad and a "
 "fancy ornament of small topazes on the chest piece."
-msgstr "이 갑옷은 어깨는 금빛 아이오메데의 상징으로, 가슴은 작은 토파즈로 장식되어 있습니다."
+msgstr "이 갑옷의 어깨는 금빛 아이오메데의 상징으로, 가슴은 작은 토파즈로 장식되어 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullplateStandartPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "1b237451-e9a0-4ec1-b8b3-f0f499acf007"
 msgid "Mithral Full Plate +1"
 msgstr "미스랄 전신 판금갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullplateStandartPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "0a15321e-f10c-4768-a7c7-c6f596c70695"
 msgid "Mithral Full Plate +2"
 msgstr "미스랄 전신 판금갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullplateStandartPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "9908c311-1e99-40e7-b781-5471851b488d"
 msgid "Mithral Full Plate +3"
 msgstr "미스랄 전신 판금갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullplateStandartPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "9bd99a97-ab10-4c79-adb0-363978228e0f"
 msgid "Mithral Full Plate +4"
 msgstr "미스랄 전신 판금갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralFullplateStandartPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "6002726c-b5eb-412b-80a5-73d37e79fa32"
 msgid "Mithral Full Plate +5"
 msgstr "미스랄 전신 판금갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralHalfplate::m_DisplayNameText
-#, fuzzy
-#| msgid "Mithral Half-plate"
 msgctxt "6c9e97d8-9d5f-43e9-bc7e-ba69fc910c07"
 msgid "Mithral Half-Plate"
 msgstr "미스랄 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralHalfplatePlus1::m_DisplayNameText
-#, fuzzy
-#| msgid "Mithral Half-plate +1"
 msgctxt "588838a1-727e-473d-94b4-b6a581990b79"
 msgid "Mithral Half-Plate +1"
 msgstr "미스랄 반신 판금갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralHalfplatePlus2::m_DisplayNameText
-#, fuzzy
-#| msgid "Mithral Half-plate +2"
 msgctxt "8b7fc5c3-00cf-4f89-a795-95ef0aca6123"
 msgid "Mithral Half-Plate +2"
 msgstr "미스랄 반신 판금갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralHalfplatePlus3::m_DisplayNameText
-#, fuzzy
-#| msgid "Mithral Half-plate +3"
 msgctxt "44f3059c-9ba3-4bc5-bb42-7be9b7c22ef9"
 msgid "Mithral Half-Plate +3"
 msgstr "미스랄 반신 판금갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralHalfplatePlus4::m_DisplayNameText
-#, fuzzy
-#| msgid "Mithral Half-plate +4"
 msgctxt "8730b99e-9e5e-4fd8-a65e-8046e21caf1c"
 msgid "Mithral Half-Plate +4"
 msgstr "미스랄 반신 판금갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralHalfplatePlus5::m_DisplayNameText
-#, fuzzy
-#| msgid "Mithral Half-plate +5"
 msgctxt "9d136210-0129-4a2e-a06a-7f2c3cc07cf6"
 msgid "Mithral Half-Plate +5"
 msgstr "미스랄 반신 판금갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralScalemail::m_DisplayNameText
-#, fuzzy
 msgctxt "461c1d2c-e8ed-4040-acad-6f71415752de"
 msgid "Mithral Scalemail"
 msgstr "미스랄 미늘갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralScalemailPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "7062f3ec-af4c-45bf-8eb6-6b953d16127d"
 msgid "Mithral Scalemail +1"
 msgstr "미스랄 미늘갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralScalemailPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "48c0aadf-ca46-4bc1-9c58-93b259d6bfde"
 msgid "Mithral Scalemail +2"
 msgstr "미스랄 미늘갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralScalemailPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "19c9676d-1cd8-4992-9035-95ca769f9a30"
 msgid "Mithral Scalemail +3"
 msgstr "미스랄 미늘갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralScalemailPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "091b322b-67c0-4b54-9fa4-b489807fd14e"
 msgid "Mithral Scalemail +4"
 msgstr "미스랄 미늘갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MithralScalemailPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "52922fa8-d4fb-44d4-b317-1f5bf23cdd99"
 msgid "Mithral Scalemail +5"
 msgstr "미스랄 미늘갑옷 +5"
@@ -4128,26 +4047,20 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = OakLeathers::m_DisplayNameText
-#, fuzzy
 msgctxt "908137f6-7b35-41f7-a35c-a5609ca01dd6"
 msgid "Oak's Pelt"
 msgstr "참나무 가죽"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = OakLeathers::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 leather armor gives the wearer a natural armor bonus instead of an "
-#| "armor bonus."
 msgctxt "a88a38d7-9450-4940-8bf1-1cbe8153150c"
 msgid ""
 "This +3 leather armor gives the wearer a natural armor "
 "{g|Encyclopedia:Bonus}bonus{/g} instead of an armor bonus."
-msgstr "이 +3 가죽갑옷은 착용자에게 갑옷 보너스 대신 자연 방어 보너스를 줍니다."
+msgstr "이 +3 가죽갑옷은 착용자의 AC에 갑옷 보너스 대신 자연 방어 {g|Encyclopedia:Bonus}보너스{/g}를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = OakLeathers::m_FlavorText
-#, fuzzy
 msgctxt "c5e7a6d2-fb2a-48f0-822b-4e31de9950a6"
 msgid ""
 "Killing an owlbear-like treant is no small feat, but skinning it to make an "
@@ -4213,84 +4126,72 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedFortitudePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "439907f2-a344-4f31-b4e1-1f6d09a3e3d2"
 msgid "Padded Armor of Fortitude"
 msgstr "인내의 누비갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedFortitudePlus1::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +1 padded armor grants its wearer +3 resistance bonus on Fortitude "
-#| "saving throws."
 msgctxt "a78138c1-85a1-48a2-82f5-524f5c754849"
 msgid ""
 "This +1 padded armor grants its wearer +3 resistance "
 "{g|Encyclopedia:Bonus}bonus{/g} on Fortitude {g|Encyclopedia:Saving_Throw}"
 "saving throws{/g}."
-msgstr "이 +1 반신 판금갑옷은 인내 내성 굴림에 +3 저항 보너스를 제공합니다."
+msgstr ""
+"이 +1 반신 판금갑옷은 인내 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +3 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedNegative25Plus3::m_DisplayNameText
-#, fuzzy
 msgctxt "c654b0a6-3da9-4ddc-9e2f-ff77c9bf0816"
 msgid "Padded Armor of Greater Negative Energy Resistance"
 msgstr "상급 음에너지 저항의 누비갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedNegative25Plus3::m_DescriptionText
-#, fuzzy
 msgctxt "2e384396-3b0f-418b-bd00-64117f088884"
 msgid ""
 "This +3 padded armor grants the wearer resistance to negative energy 30."
-msgstr "이 +3 누비갑옷의 착용자에게 음에너지 저항 +30을 제공합니다."
+msgstr "이 +3 누비갑옷은 착용자에게 음에너지 저항 +30 을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedStandartPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "0e4a26cd-5322-4581-ac2e-9978c46e7812"
 msgid "Padded Armor +1"
 msgstr "누비갑옷 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedStandartPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "bcabb205-23c2-4dd1-aeaa-54c2f9c521aa"
 msgid "Padded Armor +2"
 msgstr "누비갑옷 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedStandartPlus3::m_DisplayNameText
-#, fuzzy
 msgctxt "c79fb07a-9119-4e68-9198-b31fe41848fd"
 msgid "Padded Armor +3"
 msgstr "누비갑옷 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedStandartPlus4::m_DisplayNameText
-#, fuzzy
 msgctxt "3ce26595-d7e9-4fce-b8e0-16e4440e32c4"
 msgid "Padded Armor +4"
 msgstr "누비갑옷 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedStandartPlus5::m_DisplayNameText
-#, fuzzy
 msgctxt "50a1ecd9-bbdf-4237-a6ec-afd604709f6e"
 msgid "Padded Armor +5"
 msgstr "누비갑옷 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedTripImmunityPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "b5b3caac-e384-4211-84d9-6ffd79cf2f0a"
 msgid "Padded Armor of Firm Steps"
-msgstr "굳센 디딤의 누비갑옷"
+msgstr "굳센 걸음의 누비갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedTripImmunityPlus2::m_DescriptionText
-#, fuzzy
 msgctxt "87c55573-3352-4110-9119-9b29fd48167d"
 msgid "This +2 padded armor grants its wearer immunity to trip."
 msgstr "이 +2 누비갑옷은 착용자에게 넘어뜨리기 면역을 제공합니다."
@@ -4313,21 +4214,20 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PerfectDefenseItem::m_DisplayNameText
-#, fuzzy
 msgctxt "e91b06b7-3844-4356-83b2-37e468e73479"
 msgid "Archer's Archfoe"
 msgstr "궁수의 대적자"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PerfectDefenseItem::m_DescriptionText
-#, fuzzy
-#| msgid "This +5 padded armor grants its wearer DR 5/- against ranged attacks"
 msgctxt "da121cc8-0eb7-44cf-98e9-44c3a55780da"
 msgid ""
 "This +5 padded armor grants its wearer "
 "{g|Encyclopedia:Damage_Reduction}DR{/g} 5/- against "
 "{g|Encyclopedia:RangedAttack}ranged attacks{/g}"
-msgstr "이 +5 누비갑옷은 착용자에게 원거리 공격에 대한 DR 5/— 를 제공합니다."
+msgstr ""
+"이 +5 누비갑옷은 착용자에게 {g|Encyclopedia:RangedAttack}원거리 공격{/g}에 대한 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 5/— 를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PerfectStormItem::m_DisplayNameText
@@ -4446,14 +4346,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ProtectorOfUnjustArmorItem::m_DisplayNameText
-#, fuzzy
 msgctxt "9a4a1058-6974-4696-94ff-a3c0885329a5"
 msgid "Protector of Unjust"
 msgstr "불의의 수호자"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ProtectorsRobeItem::m_DisplayNameText
-#, fuzzy
 msgctxt "6e6868c4-0078-4706-aab2-d4098bb57d54"
 msgid "Protector's Robe"
 msgstr "수호자의 로브"
@@ -19916,7 +19814,7 @@ msgstr ""
 #, fuzzy
 msgctxt "f30eeea6-03db-4b98-b0fa-1d3f73bdd2ce"
 msgid "Cold Iron"
-msgstr "콜드 아이언"
+msgstr "한철"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ColdIronWeaponEnchantment::m_Description
@@ -27487,7 +27385,7 @@ msgctxt "a6a50247-5f90-42cf-bfb3-49d6617530ed"
 msgid ""
 "This helmet grants its wearer {g|Encyclopedia:Damage_Reduction}DR{/g} 10/"
 "cold iron and good."
-msgstr "이 투구는 착용자에게 DR 10/콜드 아이언 및 선을 줍니다."
+msgstr "이 투구는 착용자에게 DR 10/한철 및 선을 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = HatOfHearteningSongItem::m_DisplayNameText
@@ -27560,7 +27458,7 @@ msgid ""
 "to {g|Encyclopedia:Wisdom}Wisdom{/g} {g|Encyclopedia:Ability_Scores}ability "
 "score{/g}. It also increases by 1 the {g|Encyclopedia:DC}DC{/g} of all "
 "Divination school {g|Encyclopedia:Spell}spells{/g} cast by the wearer."
-msgstr "이 모자는 착용자의 지혜에 +6 강화 보너스를 줍니다. 또한 착용자가 시전하는 디비네이션 주문의 DC가 1 증가합니다."
+msgstr "이 모자는 착용자의 지혜에 +6 강화 보너스를 줍니다. 또한 착용자가 시전하는 예지학파 주문의 DC가 1 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = HatWitchGreenItem::m_DescriptionText
@@ -29768,8 +29666,8 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} with a +2 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} to attack and damage rolls."
 msgstr ""
-"이 투구는 착용자에게 명중 및 피해 굴림에 +2 강화 보너스를 받고 1d8 콜드 아이언 피해를 입히는 꿰뚫기 공격을 사용할 수 있는 "
-"능력을 줍니다."
+"이 투구는 착용자에게 명중 및 피해 굴림에 +2 강화 보너스를 받고 1d8 한철 피해를 입히는 꿰뚫기 공격을 사용할 수 있는 능력을 "
+"줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = TripleFinHelmetItem::m_FlavorText
@@ -31436,8 +31334,8 @@ msgid ""
 ". Only characters with a good {g|Encyclopedia:Alignment}alignment{/g} can "
 "wear Maya's Charm."
 msgstr ""
-"착용자의 모든 일루젼 및 인챈트먼트 학파 주문의 DC가 2 증가하지만 힘에 -2 페널티를 받습니다. 오직 선 성향의 인물만이 마야의 "
-"매력을 착용할 수 있습니다."
+"착용자의 모든 일루젼 및 부여학파 학파 주문의 DC가 2 증가하지만 힘에 -2 페널티를 받습니다. 오직 선 성향의 인물만이 마야의 매력을 "
+"착용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = MayasCharmItem::m_FlavorText
@@ -31493,7 +31391,7 @@ msgid ""
 "the ability to cast color spray (DC 13) spell three times a day as a 1st "
 "level wizard."
 msgstr ""
-"이 부적은 착용자가 시전하는 모든 인챈트먼트 학파 주문의 DC를 +1씩 증가시킵니다. 또한 하루에 세 번 1레벨 위저드의 색채 분사( "
+"이 부적은 착용자가 시전하는 모든 부여학파 학파 주문의 DC를 +1씩 증가시킵니다. 또한 하루에 세 번 1레벨 위저드의 색채 분사( "
 "DC13) 주문을 시전할 수 있는 능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
@@ -35423,7 +35321,7 @@ msgctxt "566724ed-9b86-4694-b0a4-f067bda4f3ec"
 msgid ""
 "This cape increases by 3 the {g|Encyclopedia:DC}DC{/g} of all Divination "
 "school {g|Encyclopedia:Spell}spells{/g} cast by the wearer."
-msgstr "이 케이프는 착용자가 사용하는 디비네이션 학파 주문의 DC에 +3의 보너스를 제공합니다."
+msgstr "이 케이프는 착용자가 사용하는 예지학파 학파 주문의 DC에 +3의 보너스를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CelestialProtectionItem::m_DisplayNameText
@@ -37942,7 +37840,7 @@ msgid ""
 "gives a +2 {g|Encyclopedia:Bonus}bonus{/g} to both "
 "{g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage{/g} "
 "against fey."
-msgstr "이 화살통은 페이에 대한 명중 및 피해 굴림에 +2 보너스를 주는 질서, 콜드 아이언 화살을 무한정 제공합니다."
+msgstr "이 화살통은 페이에 대한 명중 및 피해 굴림에 +2 보너스를 주는 질서, 한철 화살을 무한정 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ElvenProtectorQuiverItem::m_FlavorText
@@ -40536,7 +40434,7 @@ msgstr ""
 #, fuzzy
 msgctxt "ffdcd372-53d9-4e42-b182-affc794ca4c0"
 msgid "Scroll of Divination"
-msgstr "디비네이션 스크롤"
+msgstr "예지학파 스크롤"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfDivinationItem::m_DescriptionText
@@ -43969,7 +43867,7 @@ msgid ""
 "this influence, the DC of subsequent saving throws is increased by 1 until "
 "the end of the combat."
 msgstr ""
-"오빈르베인 안의 영혼은 사용자 주변의 현실을 조작하여 업저레이션 및 트랜스뮤테이션 학파의 주문 일부를 시전할 수 있습니다.\n"
+"오빈르베인 안의 영혼은 사용자 주변의 현실을 조작하여 방호학파 및 트랜스뮤테이션 학파의 주문 일부를 시전할 수 있습니다.\n"
 "오빈르베인의 사용자는 전투에서 매 라운드 마다 오빈르베인에게 지배되어 행동을 통제하지 못하게 될 위험성이 있습니다. 매 라운드마다 "
 "사용자는 DC 23 의지 내성에 실패하면 가장 가까운 대상을 공격해야 합니다. 매 라운드 사용자는 통제권을 회복하기 위해 다시 내성을 "
 "굴릴 수 있습니다. 이 효과에 대한 내성 굴림에 성공할 때마다, 전투가 끝날 때까지 다음 내성 굴림의 DC가 1 씩 증가합니다."
@@ -45770,7 +45668,7 @@ msgstr ""
 #, fuzzy
 msgctxt "666965f9-1329-4f74-9665-ec0f9c1cb4da"
 msgid "Cold Iron Holy Bastard Sword +1"
-msgstr "성스러운 콜드 아이언 바스타드 소드 +1"
+msgstr "성스러운 한철 바스타드 소드 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdIronBattleaxe::m_DisplayNameText
@@ -45795,7 +45693,7 @@ msgstr ""
 #, fuzzy
 msgctxt "6733d4bd-5ef2-454f-99d8-9011ba2ebdea"
 msgid "Cold Iron Dagger +1"
-msgstr "콜드 아이언 단검 +1"
+msgstr "한철 단검 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdIronDart::m_DisplayNameText
@@ -45844,7 +45742,7 @@ msgstr ""
 #, fuzzy
 msgctxt "25d7c5b7-71c3-4e89-8141-8324a88dff11"
 msgid "Cold Iron Dwarven Waraxe +3"
-msgstr "콜드 아이언 드워프 전투도끼 +3"
+msgstr "한철 드워프 전투도끼 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdIronEarthBreaker::m_DisplayNameText
@@ -45857,7 +45755,7 @@ msgstr ""
 #, fuzzy
 msgctxt "b2d35e83-146e-4c74-a3a8-842ba5e565ff"
 msgid "Cold Iron Earth Breaker +1"
-msgstr "콜드 아이언 지진 망치 +1"
+msgstr "한철 지진 망치 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdIronElvenCurvedBlade::m_DisplayNameText
@@ -45957,7 +45855,7 @@ msgstr ""
 #, fuzzy
 msgctxt "599ffbac-0042-4296-a586-e17a708c957b"
 msgid "Cold Iron Handaxe +1"
-msgstr "콜드 아이언 손도끼 +1"
+msgstr "한철 손도끼 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdIronHeavyFlail::m_DisplayNameText
@@ -46030,7 +45928,7 @@ msgstr ""
 #, fuzzy
 msgctxt "f88be25d-9b6b-42c0-82e9-507c1c6a00c1"
 msgid "Cold Iron Longsword +1"
-msgstr "콜드 아이언 장검 +1"
+msgstr "한철 장검 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdIronMasterworkBardiche::m_DisplayNameText
@@ -46434,7 +46332,7 @@ msgstr ""
 #, fuzzy
 msgctxt "07bfbc82-3629-4d53-92e7-33b4a526f565"
 msgid "Cold Iron Rapier +1"
-msgstr "콜드 아이언 레이피어 +1"
+msgstr "한철 레이피어 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdIronSai::m_DisplayNameText
@@ -46551,7 +46449,7 @@ msgid ""
 "a {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} "
 "({g|Encyclopedia:DC}DC{/g} 17) or suffer {g|Encyclopedia:Dice}1d4{/g} "
 "{g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Damage}damage{/g}."
-msgstr "이 +3 콜드 아이언 낫으로 명중시킬 때마다, 대상이 DC 17 인내 내성에 성공하지 못하면 1d4 민첩 피해를 가합니다."
+msgstr "이 +3 한철 낫으로 명중시킬 때마다, 대상이 DC 17 인내 내성에 성공하지 못하면 1d4 민첩 피해를 가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ColdMidnightItem::m_FlavorText
@@ -47258,7 +47156,7 @@ msgstr "뇌성의 다트 +1"
 #. Path = DawnflowersKiss_Good_Scimitar::m_DisplayNameText
 msgctxt "568a9be5-b7f9-41c2-9273-59c46f7b8e2e"
 msgid "Dawnflower's Kiss"
-msgstr ""
+msgstr "새벽꽃의 입맞춤"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DawnflowersKiss_Basic_Scimitar::m_DescriptionText
@@ -49317,7 +49215,7 @@ msgstr "이 +3 격분 황동 팔카타는 하루에 한 번 9 레벨 클레릭�
 #, fuzzy
 msgctxt "0f93f229-f460-4e82-9119-eec3fb0c89a6"
 msgid "Fey Bane Cold Iron Tongi +4"
-msgstr "페이 파멸 콜드 아이언 통기 +4"
+msgstr "페이 파멸 한철 통기 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FieryBloodItem::m_DisplayNameText
@@ -49904,7 +49802,7 @@ msgstr "이 무기는 +3 빙결의 전투도끼 입니다."
 #, fuzzy
 msgctxt "ba17d6be-bdd9-4bcc-bd18-3def09354d09"
 msgid "Frost Cold Iron Dwarven Urgrosh +5"
-msgstr "서리의 콜드 아이언 드워프 우르그로쉬 +5"
+msgstr "서리의 한철 드워프 우르그로쉬 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FrostEmbraceItem::m_DisplayNameText
@@ -51511,7 +51409,7 @@ msgstr ""
 #. Path = HowlingDoomItem::m_DisplayNameText
 msgctxt "46da19da-79d3-4c91-adbe-d19d99c71967"
 msgid "Howling Doom"
-msgstr ""
+msgstr "울부짖는 파멸"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = HowlingDoomItem::m_DescriptionText
@@ -51519,11 +51417,10 @@ msgctxt "23e420af-48fa-4ede-a6af-f090a2278917"
 msgid ""
 "Whenever the wielder of this +5 furious bastard sword lands a killing blow, "
 "it casts Greater Shout as a 18th level wizard immediately afterwards."
-msgstr ""
+msgstr "이 +5 맹렬한 바스타드 소드로 적을 처치하면, 즉시 18 레벨 위저드의 상급 고함을 시전합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = HugeMasterworkGreatclub::m_DisplayNameText
-#, fuzzy
 msgctxt "3b7c61e4-ace4-4749-95ae-a34ecb0e31a5"
 msgid "Masterwork Greatclub"
 msgstr "명품 대형 몽둥이"
@@ -58928,14 +58825,14 @@ msgstr ""
 #, fuzzy
 msgctxt "5a9b2c32-1399-40a0-916e-e6a4cc71d34a"
 msgid "Cold Iron Corrosive Orc Double Axe +2"
-msgstr "콜드 아이언 부식성 오크 쌍날도끼 +2"
+msgstr "한철 부식성 오크 쌍날도끼 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = StandardDoubleAxeColdIronCorrosiveSecondPlus5::m_DisplayNameText
 #, fuzzy
 msgctxt "631d011a-5298-496d-b962-4a3bb15d1620"
 msgid "Cold Iron Corrosive Orc Double Axe +2"
-msgstr "콜드 아이언 부식성 오크 쌍날도끼 +2"
+msgstr "한철 부식성 오크 쌍날도끼 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = StandardDoubleAxeCorrosivePlus1::m_DisplayNameText
@@ -61117,7 +61014,7 @@ msgctxt "6184b672-06e8-497d-a0f4-02d82d150a32"
 msgid ""
 "This +4 cold iron battleaxe grants the wielder immunity to fear and emotion "
 "effects."
-msgstr "이 +4 콜드 아이언 전투도끼는 착용자에게 공포와 감정효과에 대한 면역을 부여합니다."
+msgstr "이 +4 한철 전투도끼는 착용자에게 공포와 감정효과에 대한 면역을 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = UnboundBladeItem::m_DisplayNameText
@@ -61478,7 +61375,7 @@ msgstr ""
 #. Path = VoidsKissItem::m_DisplayNameText
 msgctxt "d492cd38-e950-4cd5-92e6-18c2af16b8a8"
 msgid "Void's Kiss"
-msgstr ""
+msgstr "공허의 입맞춤"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = VoidsKissItem::m_DescriptionText
