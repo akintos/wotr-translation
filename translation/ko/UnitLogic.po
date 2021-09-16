@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-14 23:24+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-09-16 06:23+0000\n"
+"Last-Translator: wanzzzz <wanzzzz@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "저항 - 음파"
 #. Path = AbrogailSummonPersonalGuard::m_DisplayName
 msgctxt "0c0a2879-9ce8-4986-b48f-037611463a2e"
 msgid "Summon Personal Guard"
-msgstr ""
+msgstr "개인 경호원 소환"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbrogailSummonPersonalGuard::m_Description
@@ -85,12 +85,15 @@ msgid ""
 "to fight. They are under the effects of heroism, haste, shield of faith, and "
 "foresight {g|Encyclopedia:Spell}spell{/g} effects."
 msgstr ""
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로, 아브로게일은 에리니에스를 수호병으로 소환할 수 "
+"있습니다. 이들은 절대 방심하지 않으며 싸울 준비가 되어 있습니다. 그들은 영웅심, 가속, 신념의 방패, 미래시 "
+"{g|Encyclopedia:Spell}주문{/g}의 효과를 가집니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbsoluteDeath::m_DisplayName
 msgctxt "a44ff5e1-874b-410c-9a24-e094cb820a6c"
 msgid "Absolute Death"
-msgstr ""
+msgstr "절대적인 죽음"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbsoluteDeath::m_Description
@@ -102,6 +105,10 @@ msgid ""
 "the target receives 10 {g|Encyclopedia:Damage}damage{/g} per "
 "{g|Encyclopedia:Caster_Level}caster level{/g}."
 msgstr ""
+"임박한 {g|Encyclopedia:Injury_Death}죽음{/g}에 대한 공포가 대상을 가득 채웁니다. 대상은 "
+"{g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}을 실행하며 실패할 경우 즉시 사망합니다. 내성에 성공할 경우, "
+"대상은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10 의 "
+"{g|Encyclopedia:Damage}피해{/g}를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbsoluteOrder::LocalizedDuration
@@ -143,7 +150,7 @@ msgstr "의지로 무효"
 #. Path = AbsoluteOrder::m_DisplayName
 msgctxt "062dd6b2-ba43-4fe9-9732-faa071a36bb6"
 msgid "Absolute Order"
-msgstr ""
+msgstr "절대 명령"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbsoluteOrder::m_Description
@@ -201,7 +208,7 @@ msgstr ""
 #. Path = AbyssalChains::m_DisplayName
 msgctxt "5633032b-52da-4937-8228-22cab7a9d2e1"
 msgid "Abyssal Chains"
-msgstr ""
+msgstr "심연의 사슬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalChains::m_Description
@@ -222,12 +229,21 @@ msgid ""
 "targets must be within 30 feet of the primary target, and no target can be "
 "struck more than once."
 msgstr ""
+"{g|Encyclopedia:Spell}주문{/g}은 적에게 {g|Encyclopedia:Damage}피해{/g}를 입히고 적들을 휘감기 "
+"시작하는 심연의 사슬을 생성합니다.\n"
+"사슬은 주 대상에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d8{/g} 점의 {g|Encyclopedia:Damage_Type}부수기{/g} 피해를 주고, "
+"시전자 레벨과 동일한 수의{g|Encyclopedia:Combat_Round}라운드{/g} 동안 속박합니다. 그 후, 시전자 레벨과 "
+"동일한 숫자의 2차 대상들에 계속 작용합니다. 2차 사슬들은 각각 하나의 대상을 공격해 주요 목표물과 동일한 피해를 입히고 대상을 "
+"휘감습니다.\n"
+"각각의 대상은 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}을 통해 피해를 반감하고 속박 효과를 무시할 수 "
+"있습니다. 2차 대상들은 주 대상의 30 피트 이내에 있어야 하며, 어떤 대상도 두 번 이상 공격받을 수 없습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureAcidBreathWeapon::m_DisplayName
 msgctxt "1f6a4b75-c2d0-4a83-8ec6-f87883d13abd"
 msgid "Breath Weapon (Acid)"
-msgstr ""
+msgstr "숨결 무기 (산성)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureAcidBreathWeapon::m_Description
@@ -258,7 +274,7 @@ msgstr ""
 #. Path = AbyssalCreatureColdBreathWeapon::m_DisplayName
 msgctxt "9d2f6f98-ef67-4264-944a-09c9c6337a39"
 msgid "Breath Weapon (Cold)"
-msgstr ""
+msgstr "숨결 무기 (냉기)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureColdBreathWeapon::m_Description
@@ -274,7 +290,7 @@ msgstr ""
 #. Path = AbyssalCreatureColdSpecialAttackAbility::m_DisplayName
 msgctxt "ec937d5b-e92c-403b-b7da-870bf6f0d243"
 msgid "Abyssal Discharge (Cold)"
-msgstr ""
+msgstr "심연의 방출 (냉기)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureColdSpecialAttackAbility::m_Description
@@ -289,7 +305,7 @@ msgstr ""
 #. Path = AbyssalCreatureElectricityBreathWeapon::m_DisplayName
 msgctxt "4e7a3966-86ff-48e4-a8f9-00c723b7b8b1"
 msgid "Breath Weapon (Electricity)"
-msgstr ""
+msgstr "숨결 무기 (전기)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureElectricityBreathWeapon::m_Description
@@ -305,7 +321,7 @@ msgstr ""
 #. Path = AbyssalCreatureElectricitySpecialAttackAbility::m_DisplayName
 msgctxt "f8ece078-f30d-420f-a608-391f06934cdc"
 msgid "Abyssal Discharge (Electricity)"
-msgstr ""
+msgstr "심연의 방출 (전기)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureElectricitySpecialAttackAbility::m_Description
@@ -320,7 +336,7 @@ msgstr ""
 #. Path = AbyssalCreatureFireBreathWeapon::m_DisplayName
 msgctxt "cb6125e7-1dd9-454b-9bed-65be6090496a"
 msgid "Breath Weapon (Fire)"
-msgstr ""
+msgstr "숨결 무기 (화염)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureFireBreathWeapon::m_Description
@@ -336,7 +352,7 @@ msgstr ""
 #. Path = AbyssalCreatureFireSpecialAttackAbility::m_DisplayName
 msgctxt "2a844895-2c12-4cd3-9d17-21118294089b"
 msgid "Abyssal Discharge (Fire)"
-msgstr ""
+msgstr "심연의 방출 (화염)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalCreatureFireSpecialAttackAbility::m_Description
@@ -351,7 +367,7 @@ msgstr ""
 #. Path = AbyssalSkin::m_DisplayName
 msgctxt "07f8348e-f683-4f5d-a8c0-4896c826cc24"
 msgid "Abyssal Skin"
-msgstr ""
+msgstr "심연의 피부"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalSkin::m_Description
@@ -365,12 +381,16 @@ msgid ""
 "a total of 10 points of damage per {g|Encyclopedia:Caster_Level}caster "
 "level{/g}, it is discharged."
 msgstr ""
+"타격, 자르기, 찌르기, {g|Encyclopedia:Damage_Type}베기{/g}에 대한 저항을 얻습니다. 시전자는 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 10/한철, 선 을 얻습니다. 무기로 피해를 받을 때마다 10의 "
+"{g|Encyclopedia:Damage}피해{/g}를 무시합니다. 이 {g|Encyclopedia:Spell}주문{/g}은 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10 의 피해를 막아내면 해제됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalStorm::m_DisplayName
 msgctxt "0588fd80-d7b0-43e0-9219-4864ad2f896f"
 msgid "Abyssal Storm"
-msgstr ""
+msgstr "심연의 폭풍"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AbyssalStorm::m_Description
@@ -1171,6 +1191,14 @@ msgid ""
 "its Constitution score, the creature remains dead. Creatures brought back to "
 "life with this spell gain a temporary negative level that lasts for 1 day."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10 "
+"{g|Encyclopedia:HP}HP{/g}를 회복합니다.\n"
+"다른 {g|Encyclopedia:Damage}피해{/g}를 {g|Encyclopedia:Healing}치유{/g}하는 주문들과 달리, "
+"이 주문은 최근에 사망한 크리처를 되살릴 수 있습니다. 1 {g|Encyclopedia:Combat_Round}라운드{/g}안에 사망한 "
+"크리처에게 시전하면 치유 효과를 적용합니다. 치유 받은 크리처의 총 생명점이 해당 크리처의 "
+"{g|Encyclopedia:Constitution}건강{/g} 수치의 음수보다 높다면 대상은 되살아나고 새로운 생명점을 가진 채로 안정 "
+"상태가 됩니다. 만약 크리처의 총 생명점이 해당 크리처의 건강 수치의 음수와 같거나 그보다 낮다면 크리처는 되살아나지 못합니다. 이 "
+"주문을 통해 되살아난 크리처는 하루 동안 일시적으로 레벨이 1 감소합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelCleansingFlames::m_DisplayName
@@ -1813,7 +1841,7 @@ msgstr ""
 #. Path = AngelSolarChains::m_DisplayName
 msgctxt "dd4d3364-7729-4a06-a367-f5cfe3ddb47c"
 msgid "Solar Chains"
-msgstr ""
+msgstr "태양의 사슬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelSolarChains::m_Description
@@ -1829,6 +1857,12 @@ msgid ""
 "each round to end the effect. If the initial saving throw is successful, the "
 "target is staggered for one round and is dealt the same amount of damage."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}의 대상이 된 크리처는 순수한 태양빛으로 이루어진 황금빛 사슬로 움직일 수 없도록 "
+"붙잡힙니다. 당신의 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}과 동일한 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안, 대상 크리쳐는 마비되며, 고정되고, 매 라운드마다 "
+"{g|Encyclopedia:Dice}4d6{/g} + 시전자 레벨당 1 의 피해를 입습니다. 대상은 매 라운드마다 새로 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도하며, 성공하면 풀려납니다. 최초 내성 굴림에 성공하면, "
+"대상은 한 라운드 동안 비틀거리게 되며, 동일한 양의 피해를 입습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelStormOfJusticeAbility::m_Description
@@ -1842,7 +1876,7 @@ msgstr ""
 #. Path = AngelSunForm::m_DisplayName
 msgctxt "e0cae293-4ba9-450d-9544-921bac008770"
 msgid "Sun Form"
-msgstr ""
+msgstr "태양의 형상"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelSunForm::m_Description
@@ -1856,12 +1890,18 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} per caster level, half of which is fire "
 "and half is holy."
 msgstr ""
+"당신의 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}과 동일한 수의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안, 당신은 "
+"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g}가 되며 "
+"{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 시전자 레벨 당 "
+"{g|Encyclopedia:Dice}1d6{/g} 의 {g|Encyclopedia:Damage}피해{/g}를 입히는 신성한 불길의 "
+"광선을 쏘아내는 능력을 얻습니다. 광선의 피해의 절반은 화염, 나머지 절반은 신성 피해를 입힙니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelSunFormRay::m_DisplayName
 msgctxt "b9e3a732-0586-4eda-b194-885403d5a335"
 msgid "Sun Form — Ray"
-msgstr ""
+msgstr "태양의 형상 — 광선"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelSunFormRay::m_Description
@@ -1872,6 +1912,9 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} per {g|Encyclopedia:Caster_Level}caster "
 "level{/g}, half of which is fire and half is holy."
 msgstr ""
+"{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 {g|Encyclopedia:Caster_Level}시전자 "
+"레벨{/g}당 {g|Encyclopedia:Dice}1d6{/g} 의 {g|Encyclopedia:Damage}피해{/g}를 입히는 "
+"신성한 불길의 광선을 쏘아냅니다. 피해의 절반은 화염, 나머지 절반은 신성 피해를 입힙니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelSunMarked::m_DisplayName
@@ -1895,7 +1938,7 @@ msgstr ""
 #. Path = AngelWallOfLight::m_DisplayName
 msgctxt "8104bee3-2b98-4e3f-b6bb-2db291dfd2ad"
 msgid "Wall of Light"
-msgstr ""
+msgstr "빛의 장벽"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWallOfLight::m_Description
@@ -1910,6 +1953,11 @@ msgid ""
 "through the wall, it instead deals 1d6 holy damage per caster level with "
 "their next attack."
 msgstr ""
+"빛의 장벽을 세워, 지나가는 악한 크리처에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d6{/g} 점의 신성 {g|Encyclopedia:Damage}피해{/g}를 가합니다. 선하거나 "
+"중립인 크리처가 지나가면 다음 {g|Encyclopedia:Attack}공격{/g}에 2d6 점의 추가 "
+"{g|Encyclopedia:Energy_Damage}신성 피해{/g}를 가하는 능력을 얻습니다. 선하거나 중립인 크리처가 장벽을 통과해 "
+"돌격한다면, 다음 공격에 시전자 레벨 당 1d6 점의 신성 피해를 가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWardFromHarm::m_DisplayName
@@ -1955,6 +2003,8 @@ msgid ""
 "conditions, diseases, poisons, {g|Encyclopedia:AbilityDamage}ability "
 "damage{/g} and ability drain for 10 minutes."
 msgstr ""
+"대상이 10 분 동안 피로, 탈진, 구토, 중독, {g|Encyclopedia:AbilityDamage}능력치 피해{/g}, 능력치 "
+"소진에 대한 면역을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWardFromWeaknessCommunal::m_DisplayName
@@ -1970,6 +2020,8 @@ msgid ""
 "and sickened conditions, diseases, poisons, {g|Encyclopedia:AbilityDamage}"
 "ability damage{/g} and ability drain for 10 minutes."
 msgstr ""
+"20 피트 범위 내의 모든 아군이 10 분 동안 피로, 탈진, 구토, 중독, {g|Encyclopedia:AbilityDamage}능력치 "
+"피해{/g}, 능력치 소진에 대한 면역을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWardOfDisease::m_DisplayName
@@ -1983,7 +2035,7 @@ msgctxt "d5fb8e7a-5d6a-47bd-ad33-c460bf95c25f"
 msgid ""
 "The target gains immunity to diseases for 10 minutes per "
 "{g|Encyclopedia:Caster_Level}caster level{/g}."
-msgstr ""
+msgstr "대상은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10 분 동안 질병에 대한 면역을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWardOfDiseaseCommunal::m_DisplayName
@@ -1995,7 +2047,7 @@ msgstr ""
 #. Path = AngelWardOfDiseaseCommunal::m_Description
 msgctxt "eb248c1d-97f4-48b2-a488-74a5577077b0"
 msgid "All allies in 20 feet radius gain immunity to diseases for 10 minutes."
-msgstr ""
+msgstr "20 피트 범위 내의 모든 아군이 10 분 동안 질병에 대한 면역을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWardOfUnclean::m_DisplayName
@@ -2010,6 +2062,8 @@ msgid ""
 "The target gains immunity to nauseated and sickened conditions, diseases and "
 "poisons for 10 minutes per {g|Encyclopedia:Caster_Level}caster level{/g}."
 msgstr ""
+"대상은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10 분 동안 구토, 마비, 질병, 중독에 대한 면역을 "
+"얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWardOfUncleanCommunal::m_DisplayName
@@ -2023,13 +2077,13 @@ msgctxt "feab15b2-cf2e-46b7-9a1f-40ac2834fda1"
 msgid ""
 "All allies in 20 feet radius gain immunity to nauseated and sickened "
 "conditions, diseases and poisons for 10 minutes."
-msgstr ""
+msgstr "20 피트 범위 내의 모든 아군이 10 분 동안 구토, 마비, 질병, 중독에 대한 면역을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWrathOfTheRighteous::m_DisplayName
 msgctxt "63227f21-5b59-4eae-a7a0-8933583c4d41"
 msgid "Wrath of the Righteous"
-msgstr ""
+msgstr "의인의 분노"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelWrathOfTheRighteous::m_Description
@@ -2042,6 +2096,10 @@ msgid ""
 "successful, the demon is dealt {g|Encyclopedia:Dice}1d6{/g} damage per "
 "caster level."
 msgstr ""
+"시전자 주위 40피트 반경 내의 모든 데몬들은 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}을 시도합니다. "
+"실패한 경우, 데몬은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10 "
+"{g|Encyclopedia:Damage}피해{/g}를 받습니다. 내성 굴림에 성공한 경우 데몬은 시전자 레벨 당 "
+"{g|Encyclopedia:Dice}1d6{/g} 피해를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AnimalAspectBase::m_DisplayName
@@ -23734,10 +23792,6 @@ msgstr "성큼걸이"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Longstrider::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell gives you a +10-foot enhancement bonus to your base speed. It has "
-#| "no effect on other modes of movement, such as burrow, climb, fly, or swim."
 msgctxt "39b106dd-5450-46af-9c31-ae51db576e8d"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} gives you a +10-foot enhancement "
@@ -23745,8 +23799,9 @@ msgid ""
 ". It has no effect on other modes of movement, such as burrow, climb, fly, "
 "or swim."
 msgstr ""
-"이 주문은 당신의 기본 이동속도에 +10 피트의 강화 보너스를 줍니다. 잠복, 등반, 비행, 수영 등과 같은 다른 종류의 이동속도에는 "
-"영향을 주지 않습니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 당신의 기본 {g|Encyclopedia:Speed}이동속도{/g}에 +10 "
+"피트의 강화 {g|Encyclopedia:Bonus}보너스{/g}를 줍니다. (잠복, 등반, 비행, 수영 등과 같은 움직임들에는 영향을 "
+"주지 않습니다.)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LongstriderGreater::m_DisplayName
@@ -23851,12 +23906,6 @@ msgstr "작은 행운"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LuckDomainBaseAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "You can touch a willing creature as a standard action, giving it a bit of "
-#| "luck. For the next round, any time the target rolls a d20, he may roll twice "
-#| "and take the more favorable result.[LONGSTART] You can use this ability a "
-#| "number of times per day equal to 3 + your Wisdom modifier.[LONGEND]"
 msgctxt "17ca32f9-7810-4306-a3f2-db3071447856"
 msgid ""
 "You can {g|Encyclopedia:TouchAttack}touch{/g} a willing creature as a "
@@ -23867,20 +23916,20 @@ msgid ""
 "per day equal to 3 + your {g|Encyclopedia:Wisdom}Wisdom{/g} "
 "modifier.[LONGEND]"
 msgstr ""
-"일반 행동을 사용해서 효과를 받길 원하는 하나의 크리처와 접촉하고 작은 행운을 불어넣을 수 있습니다. 다음 라운드 동안 대상은 d20을 "
-"굴릴 때마다 두 번 굴려 둘 중 더 좋은 결과를 취합니다. [LONGSTART]하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 "
-"있습니다.[LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 효과를 주기를 원하는 크리처와 "
+"{g|Encyclopedia:TouchAttack}접촉{/g}하여 작은 행운을 불어넣을 수 있습니다. "
+"다음{g|Encyclopedia:Combat_Round}라운드{/g} 동안 대상은 d20 주사위를 "
+"{g|Encyclopedia:Dice}굴릴{/g}때마다, 두 번 굴려 둘 중 더 좋은 결과를 취합니다. [LONGSTART]하루에 3 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LuckDomainGreaterAbility::LocalizedDuration
-#, fuzzy
 msgctxt "9fcd72f5-2968-42a5-bf7c-22b7001fbae8"
 msgid "1 round / 2 class levels"
 msgstr "1 라운드 / 2 클래스 레벨"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LuckDomainGreaterAbility::m_DisplayName
-#, fuzzy
 msgctxt "2abc3c17-aca6-426a-a3c2-99093e14b0b6"
 msgid "Divine Fortune"
 msgstr "신성한 행운"
@@ -23889,7 +23938,7 @@ msgstr "신성한 행운"
 #. Path = Lullaby::m_DisplayName
 msgctxt "13b6bcfb-92a2-44fc-be75-29448dd7bb90"
 msgid "Lullaby"
-msgstr ""
+msgstr "자장가"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Lullaby::m_Description
@@ -23901,6 +23950,10 @@ msgid ""
 "checks{/g} and a -2 penalty on Will saves against sleep effects while the "
 "lullaby is in effect."
 msgstr ""
+"대상 범위에 있는 모든 크리처는 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}에 실패할 경우 졸리고 "
+"부주의해져서 {g|Encyclopedia:Perception}지각 판정{/g}에 대해 -5의 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받으며, 자장가의 범위 안에 있는 동안 수면 상태이상에 저항하는 의지 내성 "
+"굴림에 -2의 페널티를 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MadnessBlessingMajorAbilityActNormally::m_DisplayName
@@ -23945,7 +23998,7 @@ msgstr ""
 #. Path = MadnessBlessingMinorAbilityBuff::m_DisplayName
 msgctxt "413f256a-e304-4bf8-9ad0-36dc78184739"
 msgid "Madness Supremacy"
-msgstr ""
+msgstr "광기의 지배자"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MadnessBlessingMinorAbility::m_Description
@@ -23964,6 +24017,11 @@ msgid ""
 "round spent confused counts toward the duration of the suspended effect. At "
 "the end of the confused round, the suspended condition resumes."
 msgstr ""
+"1 레벨에, {g|Encyclopedia:Swift_Action}신속 행동{/g}으로 30 피트 범위 내에 있는 위축, 겁먹음 또는 마비 "
+"상태의 크리처를 대상으로 지목합니다. 지목된 대상의 상태이상은 1 {g|Encyclopedia:Combat_Round}라운드{/g}동안 "
+"뒤로 미뤄지며, 대산 혼란 상태이상을 얻습니다. 혼란된 크리처는 \"자신 공격\" 또는 \"가장 가까운 크리처 공격\" 을 제외한 결과를 "
+"{g|Encyclopedia:Dice}굴립니다{/g}. 혼란 상태로 행동한 라운드도 기존 상태의 지속시간에 포함됩니다. 혼란 상태의 "
+"라운드가 끝나면, 미뤄진 상태가 다시 적용됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MadnessDomainBaseAbility::m_DisplayName

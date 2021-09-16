@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-14 23:24+0000\n"
+"PO-Revision-Date: 2021-09-16 06:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -570,7 +570,7 @@ msgstr ""
 #. Path = ContextTutor_CompanionDeath::m_TitleText
 msgctxt "596d6612-32fa-465d-bdfd-ef006db33365"
 msgid "Death and Resurrection"
-msgstr ""
+msgstr "죽음과 부활"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CompanionDeath::m_TriggerText
@@ -1314,7 +1314,7 @@ msgstr ""
 #. Path = ContextTutor_Identification::m_TitleText
 msgctxt "5d308461-a254-440c-9678-7136975c85e0"
 msgid "Identifying Items"
-msgstr ""
+msgstr "물품 감정"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Identification::m_TriggerText
@@ -1398,7 +1398,7 @@ msgstr ""
 #. Path = ContextTutor_Insanity::m_TitleText
 msgctxt "3a666b86-e0fe-4376-bb5f-34f8972d145d"
 msgid "Insanity"
-msgstr ""
+msgstr "정신 이상"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Insanity::m_TriggerText
@@ -1460,7 +1460,7 @@ msgstr ""
 #. Path = ContextTutor_LowHPHeal::m_TitleText
 msgctxt "d5b0d88d-6b59-4435-a267-40390115387b"
 msgid "Healing in Combat"
-msgstr ""
+msgstr "전투 중 회복"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_LowHPHeal::m_TriggerText
@@ -1469,6 +1469,8 @@ msgid ""
 "One of your characters' {g|Encyclopedia:HP}HP{/g} has dropped below 50%. You "
 "should {g|Encyclopedia:Healing}cure{/g} their wounds."
 msgstr ""
+"캐릭터들 중 한명의 {g|Encyclopedia:HP}HP{/g}가 절반 아래로 떨어졌습니다. 부상을 "
+"{g|Encyclopedia:Healing}치료{/g}해야 합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_LowHPHeal::m_DescriptionText
@@ -1479,12 +1481,14 @@ msgid ""
 "of {g|Encyclopedia:Healing}cure{/g} wounds from vendors, or get them as "
 "trophies."
 msgstr ""
+"{g|Encyclopedia:Spell}주문{/g}이나 물약을 사용하거나 휴식을 해서 잃은 {g|Encyclopedia:HP}HP{/g}"
+"를 회복할 수 있습니다. 상처 치료 물약은 상점에서 구매하거나, 적들에게서 전리품으로 얻을 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_LowHPHeal::m_SolutionFoundText
 msgctxt "fdc82207-3dac-4fc8-b2c5-f1b8be6084e1"
 msgid "You can cure a character with:"
-msgstr ""
+msgstr "캐릭터 치료 방법:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_LowHPHeal::m_SolutionNotFoundText
@@ -1494,12 +1498,14 @@ msgid ""
 "as cure light wounds, are available to many classes, including bard, cleric, "
 "druid, inquisitor, oracle, paladin, shaman, and witch."
 msgstr ""
+"바드, 클레릭, 드루이드, 인퀴지터, 오라클, 팔라딘, 샤먼, 위치 등 다양한 클래스가 가벼운 상처 치료 등의 "
+"{g|Encyclopedia:Healing}치유{/g} {g|Encyclopedia:Spell}주문{/g}을 사용할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_MagicRod::m_TitleText
 msgctxt "cc1efbf6-bd98-43c4-8201-2243d49b4729"
 msgid "Rods"
-msgstr ""
+msgstr "지팡이"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_MagicRod::m_TriggerText
@@ -1532,7 +1538,7 @@ msgstr ""
 #. Path = ContextTutor_MagicWand::m_TitleText
 msgctxt "32b1669a-dad6-4630-9203-73b5c57d4806"
 msgid "Wands"
-msgstr ""
+msgstr "마법봉"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_MagicWand::m_TriggerText
@@ -1540,7 +1546,7 @@ msgctxt "c50bf40b-3305-49a0-8273-e5cd11c3d1fa"
 msgid ""
 "You have acquired the wand {t|SourceItem}. Character {t|SolutionUnit} can "
 "use it."
-msgstr ""
+msgstr "{t|SourceItem} 마법봉을 획득했습니다. {t|SolutionUnit} 캐릭터가 사용할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_MagicWand::m_DescriptionText
