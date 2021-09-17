@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-14 23:23+0000\n"
+"PO-Revision-Date: 2021-09-17 12:23+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -58,13 +58,20 @@ msgid ""
 "Choosing this difficulty is NOT RECOMMENDED for the players not familiar "
 "with the Pathfinder system.</color></b>"
 msgstr ""
+"당신의 캐릭터는 적과 함정으로부터 <b>완전한 피해</b>를 입습니다. 적들은 <b>더 많이 나타나고</b>, <b>일반적인 치명타 "
+"피해</b>를 가합니다.\n"
+"당신의 캐릭터는 <b>치명적인 부상을 당하면 사망</b>합니다.\n"
+"주인공이 사망하면 게임이 끝납니다. 동료가 죽으면 소생 또는 대부분의 모험가가 지불하기 어려워하는 매우 비싼 서비스를 통해 부활시킬 수 "
+"있습니다.\n"
+"<b><color=#ae1600>\n"
+"이 난이도는 패스파인더 시스템과 패스파인더: 킹 메이커 전투 시스템에 대해 익숙하지 않은 플레이어 분들께는 추천드리지 "
+"않습니다.</color></b>"
 
 #. Type = Kingmaker.Achievements.Blueprints.AchievementData
 #. Path = 21_TestOfStarstone::MinDifficulty/LocalizedName
 #. 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::m_DifficultyList/m_Difficulties/7/LocalizedName
-#, fuzzy
 msgctxt "8467b793-fca6-4c48-bd72-6bed92075a97"
 msgid "Unfair"
 msgstr "불공평"
@@ -74,21 +81,6 @@ msgstr "불공평"
 #. 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::m_DifficultyList/m_Difficulties/7/LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Your character will suffer <b>double damage</b> from enemies and traps. "
-#| "Enemies will have <b>significantly increased power</b> and will enjoy the "
-#| "<b>usual chances of inflicting critical hits</b>.\n"
-#| "Your character <b>will die upon suffering a deadly injury</b>.\n"
-#| "If your main character dies, the game is over. If a companion dies, you can "
-#| "resurrect them with Raise Dead or a similar spell – an extremely expensive "
-#| "service unavailable to most adventurers.\n"
-#| "<b><color=#ae1600>\n"
-#| "Choosing this difficulty is NOT RECOMMENDED for the players not familiar "
-#| "with the Pathfinder system, as well as Pathfinder: Kingmaker battle system, "
-#| "and those who are not willing to suffer. The enemies will not forgive any "
-#| "mistakes made during combats, and your characters' builds must be no less "
-#| "than perfect.</color></b>"
 msgctxt "252da926-b86f-4ae2-81ec-f916c13aa9b6"
 msgid ""
 "Your character suffers <b>double damage</b> from enemies and traps. There "
@@ -106,9 +98,9 @@ msgid ""
 "mistakes made during combats, and your characters' builds must be no less "
 "than perfect.</color></b>"
 msgstr ""
-"당신의 캐릭터는 적과 함정으로부터 <b>2배의 피해</b>를 입습니다. 적들은 <b>크게 증가 된 힘을</b> 가지며 <b>치명타를 치는 "
-"보통의 기회를</b> 누릴 것입니다.\n"
-"당신의 캐릭터는 <b>치명적인 부상을 당하면 죽을 것</b> 입니다.\n"
+"당신의 캐릭터는 적과 함정으로부터 <b>2배의 피해</b>를 입습니다. 적들은 <b>더 많이 나타나고</b>, <b>극도로 강해지며</"
+"b>, <b>일반적인 치명타 피해</b>를 가합니다. 또한, 일부 적들은 <b>추가적인 주문과 전투 능력</b>을 사용합니다.\n"
+"당신의 캐릭터는 <b>치명적인 부상을 당하면 사망</b>합니다.\n"
 "주인공이 사망하면 게임이 끝납니다. 동료가 죽으면 소생 또는 대부분의 모험가가 지불하기 어려워하는 매우 비싼 서비스를 통해 부활시킬 수 "
 "있습니다.\n"
 "<b><color=#ae1600>\n"
@@ -120,14 +112,12 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
 #. Path = AlchemistBombs::m_DisplayName
-#, fuzzy
 msgctxt "8b480d1f-67db-420b-a475-3fad17522d4b"
 msgid "Bombs"
 msgstr "폭탄"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ArcaneBombsResource::LocalizedName
-#, fuzzy
 msgctxt "a4f4c6d4-de39-4cd0-aa97-d737b13423e2"
 msgid "Bombs"
 msgstr "폭탄"
@@ -216,10 +206,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ArmyEarPiercingScream::m_DisplayName
-#, fuzzy
 msgctxt "ed69ff1a-c5d7-4d59-9b1c-b1f0b185789f"
 msgid "Ear-Piercing Scream"
-msgstr "귀청을 찢는 비명"
+msgstr "귀를 찢는 비명"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ArmyEarPiercingScreamResource::LocalizedDescription
