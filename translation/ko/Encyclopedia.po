@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-17 12:23+0000\n"
+"PO-Revision-Date: 2021-09-18 13:23+0000\n"
 "Last-Translator: GoYangiCat <sanghyuk1126@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -142,7 +142,7 @@ msgstr ""
 #. Path = Abjuration::Title
 msgctxt "8396e0b1-fffa-4329-a730-9f133e6a13b1"
 msgid "Abjuration"
-msgstr "방호학파(Abjuration)"
+msgstr "방호학파 (Abjuration)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Adapted_rules::Blocks/0/Text
@@ -1627,19 +1627,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dexterity::Title
-#, fuzzy
 msgctxt "45b6dbb9-9c79-467d-8eea-32cf61270698"
 msgid "Dexterity (Dex)"
-msgstr "민첩(Dexterity (Dex))"
+msgstr "민첩 (Dexterity)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dialogue_Skill_Checks::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Sometimes skills are checked over the course of dialogue — for example, when "
-#| "trying to convince a character of something. The check result will determine "
-#| "the way the dialogue develops. The character in the party with the highest "
-#| "rank in the desired skill is usually used to determine such a check."
 msgctxt "502ddd35-f413-4aa7-96f6-a05cb8a2d2d4"
 msgid ""
 "Sometimes {g|Encyclopedia:Skills}skills{/g} are "
@@ -1648,15 +1641,15 @@ msgid ""
 "determine the way the dialogue develops. The character in the party with the "
 "highest rank in the desired skill is usually used to determine such a check."
 msgstr ""
-"대화를 진행하다가 기술을 판정하는 경우가 있습니다. 캐릭터를 설득시키는 것이 좋은 예입니다. 판정결과에 따라 대화전개가 달라집니다. "
-"보통은 그런 판정을 충족시키기 위해 원하는 기술에 특화시킨 캐릭터를 이용합니다."
+"대화를 진행하다가 {g|Encyclopedia:Skills}기술{/g}을 {g|Encyclopedia:Check}판정{/g}하는 경우가 "
+"있습니다. 캐릭터를 설득시키는 것이 좋은 예입니다. 판정결과에 따라 대화전개가 달라집니다. 보통은 그런 판정을 충족시키기 위해 원하는 "
+"기술에 특화시킨 캐릭터를 이용합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dialogue_Skill_Checks::Title
-#, fuzzy
 msgctxt "e26dd4aa-8e26-4d34-8801-d37ee845b557"
 msgid "Dialogue Skill Checks"
-msgstr "대화문 기술 판정"
+msgstr "대화중 기술 판정"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dice::Blocks/0/Text
@@ -1697,33 +1690,22 @@ msgstr "주사위 (Dice)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Divination::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Divination spells enable you to learn secrets long forgotten, predict the "
-#| "future, find hidden things, and foil deceptive spells."
 msgctxt "7167cf14-83a6-4d76-a720-40624d9ac4ed"
 msgid ""
 "Divination {g|Encyclopedia:Spell}spells{/g} enable you to learn secrets long "
 "forgotten, predict the future, find hidden things, and foil deceptive spells."
 msgstr ""
-"예지학파 주문들은 잊혀진 지식들을 습득하거나, 미래를 예견하거나, 숨겨진 물체를 찾고, 속임수를 만들어내는 주문들을 간파할 수 있게 "
-"만듭니다."
+"예지학파 {g|Encyclopedia:Spell}주문{/g}들은 잊혀진 비밀을 배우하거나, 미래를 예견하거나, 숨겨진 물체를 찾고, "
+"현혹하는 주문들을 간파할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Divination::Title
-#, fuzzy
 msgctxt "d256c516-f72d-4bd1-bd8d-4275f3fa2f4e"
 msgid "Divination"
-msgstr "예지학파(Divination)"
+msgstr "예지학파 (Divination)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Enchantment::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Enchantment spells affect the minds of others, influencing or controlling "
-#| "their behavior.\n"
-#| "All enchantments are mind-affecting spells. Two subschools of enchantment "
-#| "spells grant you influence over a subject creature."
 msgctxt "efc35282-9006-4895-ac9f-f96ecd7a53cd"
 msgid ""
 "Enchantment {g|Encyclopedia:Spell}spells{/g} affect the minds of others, "
@@ -1731,7 +1713,7 @@ msgid ""
 "All enchantments are mind-affecting spells. Two subschools of enchantment "
 "spells grant you influence over a subject creature."
 msgstr ""
-"부여학파 주문은 다른 대상의 정신에 영향을 끼쳐 그들의 행동을 향상시키거나 제약합니다.\n"
+"부여학파 {g|Encyclopedia:Spell}주문{/g}은 다른 대상의 정신에 영향을 끼쳐 그들의 행동을 향상시키거나 제약합니다.\n"
 "모든 부여학파 주문은 정신 영향 효과입니다. 부여학파의 두 하위학파는 당신에게 목표 생물에 영향을 끼칠 수 있는 능력을 줍니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
@@ -1776,10 +1758,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Enchantment::Title
-#, fuzzy
 msgctxt "6ded23ed-ce01-4487-95d4-6e97bc5477b3"
 msgid "Enchantment"
-msgstr "부여학파"
+msgstr "부여학파 (Enchantment)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Damage::Blocks/0/Text
@@ -1858,7 +1839,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Energy_Resistance::Title
-#, fuzzy
 msgctxt "487f3845-23af-4b6e-8fd3-2ffac8f0b68b"
 msgid "Energy Resistance"
 msgstr "에너지 저항"
@@ -1891,7 +1871,6 @@ msgstr "에너지 취약성 (Energy Vulnerability)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Equip::Blocks/0/Text
-#, fuzzy
 msgctxt "7743be1d-f3c7-4206-91bf-62db3e7844f6"
 msgid ""
 "To equip an item, open your Inventory by pressing <b>{bind|OpenInventory}</"
@@ -1904,10 +1883,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Equip::Title
-#, fuzzy
 msgctxt "351cf2bc-3616-42c3-9020-6ac5ad5ff415"
 msgid "Equipment"
-msgstr "장비"
+msgstr "장비(Equipment)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Evocation::Blocks/0/Text
@@ -1947,10 +1925,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Fast_Healing::Title
-#, fuzzy
 msgctxt "ccae5edb-c94b-4144-9397-1b1f762a0b19"
 msgid "Fast Healing"
-msgstr "빠른 치유"
+msgstr "빠른 치유 (Fast Healing)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Feat::Blocks/0/Text
@@ -2075,7 +2052,7 @@ msgstr ""
 #. Path = Formations::Title
 msgctxt "93156ccc-9835-4569-bf23-ea0a2c0faab4"
 msgid "Formations"
-msgstr "진형"
+msgstr "진형 (Formations)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Free_Action::Blocks/0/Text
@@ -2101,10 +2078,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Free_Action::Title
-#, fuzzy
 msgctxt "5f7cbc80-b927-4ef1-9bc4-892719c6e33d"
 msgid "Free Action"
-msgstr "자유 행동"
+msgstr "자유 행동 (Free Action)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Full_Round_Action::Blocks/0/Text
@@ -2859,10 +2835,9 @@ msgstr "사령학파 마법은 죽음과 비생명, 그리고 생명의 힘을 �
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Necromancy::Title
-#, fuzzy
 msgctxt "c84cf3eb-6085-418b-aa04-93607e0ea9d0"
 msgid "Necromancy"
-msgstr "사령학파"
+msgstr "사령학파 (Necromancy)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Penalty::Blocks/0/Text
@@ -2969,14 +2944,6 @@ msgstr "종족 (Race)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Range::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "A spell's range indicates how far from you it can reach, as defined in the "
-#| "range entry of the spell description. A spell's range is the maximum "
-#| "distance from you that the spell's effect can occur, as well as the maximum "
-#| "distance at which you can designate the spell's point of origin. If any "
-#| "portion of the spell's area would extend beyond this range, that area is "
-#| "wasted."
 msgctxt "54edf990-cd46-4ef7-9b3c-52221822cd30"
 msgid ""
 "A {g|Encyclopedia:Spell}spell{/g}'s range indicates how far from you it can "
@@ -2986,12 +2953,12 @@ msgid ""
 "designate the spell's point of origin. If any portion of the spell's area "
 "would extend beyond this range, that area is wasted."
 msgstr ""
-"주문의 사거리는 그 주문이 얼마나 닿는지 알려줍니다. 보통 주문 설명에 기술되어 있습니다. 주문의 사거리는 주문이 시행되는 중심부부터 그 "
-"주문이 영향을 끼치는 곳까지가 최대 사거리입니다. 만약 주문의 사거리가 대상자를 넘어간다면 그 넘어간 만큼 공간이 낭비된 겁니다."
+"{g|Encyclopedia:Spell}주문{/g}의 사거리는 그 주문의 {g|Encyclopedia:Reach}범위{/g}를 "
+"알려줍니다. 보통 주문 설명에 기술되어 있습니다. 주문의 사거리는 주문이 시행되는 중심부부터 그 주문이 영향을 끼치는 곳까지가 최대 "
+"사거리입니다. 만약 주문의 사거리가 대상자를 넘어간다면 그 넘어간 만큼 공간이 낭비된 겁니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Range::Title
-#, fuzzy
 msgctxt "fa5be50d-d7f0-4159-b7c2-ed2a85d41513"
 msgid "Range"
 msgstr "사거리"
@@ -3025,7 +2992,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = RangedAttack::Title
-#, fuzzy
 msgctxt "03a32773-3128-4dc3-bbb7-b2e8046c3140"
 msgid "Ranged Attacks"
 msgstr "원거리 공격"
@@ -3666,7 +3632,7 @@ msgstr ""
 "{g|Encyclopedia:Damage}피해{/g}를 가하기, 적에게 저주를 걸거나 부정적 효과 부여하기, 움직임을 제한하기, 당신과 "
 "동료를 강화하기, 부정적 효과를 없애고 {g|Encyclopedia:Healing}치유{/g}하기, 공간 이동하기 등 이밖에도 많습니다."
 "\n"
-"주문에는 비전 주문(바드, 소서러, 위자드 등이 시전)과 신성 주문(클레릭, 드루이드, 인퀴지터 등이 시전)이 있습니다.\n"
+"주문에는 비전 주문(바드, 소서러, 위저드 등이 시전)과 신성 주문(클레릭, 드루이드, 인퀴지터 등이 시전)이 있습니다.\n"
 "주문은 1(제일 약함)부터 9(제일 강함)까지 레벨이 있습니다. 일부 시전자는 1부터 9레벨 주문까지 모두 쓸 수 있지만 다른 시전자는 "
 "6 혹은 4레벨 주문이 최대치입니다. 주문에 대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g} "
 "{g|Encyclopedia:DC}난이도{/g}(높을 수록 시전자에겐 유리하고 주문 대상자에겐 불리합니다)와 "
@@ -4319,10 +4285,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Transmutation::Title
-#, fuzzy
 msgctxt "f7b70abd-8c0d-4d88-a35f-ea05011bd0ff"
 msgid "Transmutation"
-msgstr "변환학파"
+msgstr "변환학파 (Transmutation)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Traps::Blocks/0/Text

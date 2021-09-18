@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-17 12:24+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-09-18 13:23+0000\n"
+"Last-Translator: 김영복 <kyb0923d@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -926,6 +926,8 @@ msgid ""
 " 2/-. It increases by 1 for each enemy in {g|Encyclopedia:Threatened_Area}"
 "melee range{/g} of the wearer, but no higher than 5/-."
 msgstr ""
+"이 +4 판금 흉갑은 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 2/- 를 부여합니다. 이 수치는 "
+"{g|Encyclopedia:Threatened_Area}근접 거리{/g} 내의 적마다 1 증가하지만 5/- 를 넘을수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BlackDragonBreastplateItem::m_DisplayNameText
@@ -4697,7 +4699,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = SageArmorItem::m_DisplayNameText
-#, fuzzy
 msgctxt "b2e5c337-45c6-45d2-a93e-5e0fe0a830b0"
 msgid "Sage Armor"
 msgstr "현자의 갑옷"
@@ -44841,7 +44842,7 @@ msgctxt "d2f9779d-80a7-47be-b1fe-19b2fc01ec37"
 msgid ""
 "This +1 shock trident grants its wielder the ability to cast lightning bolt "
 "{g|Encyclopedia:Spell}spell{/g} once per day as a 10th level wizard."
-msgstr "이 +1 전격의 삼지창은 하루에 한 번 10 레벨 위자드처럼 번개 화살 주문을 쓸 수 있게 해줍니다."
+msgstr "이 +1 전격의 삼지창은 하루에 한 번 10 레벨 위저드처럼 번개 화살 주문을 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = BoundThunder::m_FlavorText
@@ -62451,226 +62452,192 @@ msgstr "중형 철퇴"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = HeavyPick::m_TypeNameText
-#, fuzzy
 msgctxt "6e33a430-1628-4fab-980f-7b73d23e205c"
 msgid "Heavy Pick"
 msgstr "중형 곡괭이"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = HeavyPick::m_DefaultNameText
-#, fuzzy
 msgctxt "4e6a531f-ec00-47b5-8dab-cad43fdb9539"
 msgid "Heavy Pick"
 msgstr "중형 곡괭이"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = HoofType::m_TypeNameText
-#, fuzzy
 msgctxt "c61538ff-b5bf-484f-8c0f-d3673ec8cfc5"
 msgid "Hoof"
 msgstr "발굽"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = HoofType::m_DefaultNameText
-#, fuzzy
 msgctxt "a20b3570-83f6-4bb3-842a-42c17fe66e69"
 msgid "Hoof"
 msgstr "발굽"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = IncoporealTouchType::m_TypeNameText
-#, fuzzy
 msgctxt "30d57606-a6be-4a72-8e98-867d43ab75e2"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = IncoporealTouchType::m_DefaultNameText
-#, fuzzy
 msgctxt "2fb181ee-b0c0-4778-964c-b10c637cc540"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = IronGolemSlam::m_TypeNameText
-#, fuzzy
 msgctxt "ab839246-36b0-4338-aa8e-a526ade879fb"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = IronGolemSlam::m_DefaultNameText
-#, fuzzy
 msgctxt "6303c365-def0-4ad5-a847-701c36128bf2"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Javelin::m_TypeNameText
-#, fuzzy
 msgctxt "c05d9a6f-255f-4f2e-9125-3880762df26f"
 msgid "Javelin"
 msgstr "투창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Javelin::m_DefaultNameText
-#, fuzzy
 msgctxt "911292ff-e720-4e89-9e07-cc958133393d"
 msgid "Javelin"
 msgstr "투창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Kama::m_TypeNameText
-#, fuzzy
 msgctxt "a4d7da59-160d-4cb0-88f0-fc17da705a34"
 msgid "Kama"
 msgstr "카마"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Kama::m_DefaultNameText
-#, fuzzy
 msgctxt "3248832f-dfa6-4e20-94c2-b4a1d47721aa"
 msgid "Kama"
 msgstr "카마"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Kukri::m_TypeNameText
-#, fuzzy
 msgctxt "06bea78b-e832-45fe-b528-05ab13473f21"
 msgid "Kukri"
 msgstr "쿠크리"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Kukri::m_DefaultNameText
-#, fuzzy
 msgctxt "162862af-6d63-4e79-84d6-cd1fcdb6c337"
 msgid "Kukri"
 msgstr "쿠크리"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightCrossbow::m_TypeNameText
-#, fuzzy
 msgctxt "d5bf72fa-2f45-487a-8cac-d40cd69b17f0"
 msgid "Light Crossbow"
 msgstr "소형 쇠뇌"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightCrossbow::m_DefaultNameText
-#, fuzzy
 msgctxt "0bddc2b1-c0e5-4412-9db2-b473ac1e24bd"
 msgid "Light Crossbow"
 msgstr "소형 쇠뇌"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightHammer::m_TypeNameText
-#, fuzzy
 msgctxt "0b8a23ba-c9f3-436f-af9f-6fe91364af17"
 msgid "Light Hammer"
 msgstr "소형 망치"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightHammer::m_DefaultNameText
-#, fuzzy
 msgctxt "d52d5069-878b-4a88-ad81-8524714f6b05"
 msgid "Light Hammer"
 msgstr "소형 망치"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightMace::m_TypeNameText
-#, fuzzy
-#| msgid "Light mace"
 msgctxt "f6936d35-9470-4521-a91d-9092c8694e17"
 msgid "Light Mace"
 msgstr "소형 철퇴"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightMace::m_DefaultNameText
-#, fuzzy
-#| msgid "Light mace"
 msgctxt "66a972cf-bd07-43e2-81d1-31a622a9fd56"
 msgid "Light Mace"
 msgstr "소형 철퇴"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightPick::m_TypeNameText
-#, fuzzy
 msgctxt "fd6b9f47-480b-48ab-aa10-cc5a4c923275"
 msgid "Light Pick"
 msgstr "소형 곡괭이"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = LightPick::m_DefaultNameText
-#, fuzzy
 msgctxt "e777545d-ba2d-4977-b08d-014954c58390"
 msgid "Light Pick"
 msgstr "소형 곡괭이"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Longbow::m_TypeNameText
-#, fuzzy
 msgctxt "415b6a85-12d9-4670-ac7b-340b6a4c4d74"
 msgid "Longbow"
 msgstr "장궁"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Longbow::m_DefaultNameText
-#, fuzzy
 msgctxt "d82bb902-bdf8-4070-aaae-008b93f1da11"
 msgid "Longbow"
 msgstr "장궁"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Longspear::m_TypeNameText
-#, fuzzy
 msgctxt "661f2b2e-bef5-42a2-95a6-c491605a1c10"
 msgid "Longspear"
 msgstr "장창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Longspear::m_DefaultNameText
-#, fuzzy
 msgctxt "74aee706-bebb-4711-b370-7c0fa131f7b9"
 msgid "Longspear"
 msgstr "장창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Longsword::m_TypeNameText
-#, fuzzy
 msgctxt "18eb3ec0-2b92-42d6-8b5b-65e1af3b9e53"
 msgid "Longsword"
 msgstr "장검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Longsword::m_DefaultNameText
-#, fuzzy
 msgctxt "46aeb1d1-c6a7-4296-9028-18d068ad9529"
 msgid "Longsword"
 msgstr "장검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = MeleeTouchType::m_TypeNameText
-#, fuzzy
 msgctxt "0122ac7f-4fa8-44b1-b489-5d28a921b61c"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = MeleeTouchType::m_DefaultNameText
-#, fuzzy
 msgctxt "9ad23664-f30c-4db8-9805-67aba5d7a281"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Nunchaku::m_TypeNameText
-#, fuzzy
 msgctxt "24e55d44-66a0-4a0f-974d-f39152415d23"
 msgid "Nunchaku"
 msgstr "쌍절곤"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Nunchaku::m_DefaultNameText
-#, fuzzy
 msgctxt "f5da8d0e-df25-4ee6-a2d1-126a9dea74c5"
 msgid "Nunchaku"
 msgstr "쌍절곤"
@@ -62679,102 +62646,88 @@ msgstr "쌍절곤"
 #. Path = OolioddrooTongue::m_TypeNameText
 msgctxt "89b4a40c-ad89-4808-bc61-9e80638902f9"
 msgid "Tongue"
-msgstr ""
+msgstr "혀"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = PincersType::m_TypeNameText
-#, fuzzy
 msgctxt "b2536651-b845-4012-90d8-08472b99b4a5"
 msgid "Pincers"
 msgstr "집게발"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = PincersType::m_DefaultNameText
-#, fuzzy
 msgctxt "c8131fe2-7473-4b0c-a23f-e477aef600c6"
 msgid "Pincers"
 msgstr "집게발"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = PunchingDagger::m_TypeNameText
-#, fuzzy
 msgctxt "1ebe1771-0f22-4855-9608-57c11f53c257"
 msgid "Punching Dagger"
 msgstr "주먹칼"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = PunchingDagger::m_DefaultNameText
-#, fuzzy
 msgctxt "db77c10d-7f79-4f8f-9827-1d0381679103"
 msgid "Punching Dagger"
 msgstr "주먹칼"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Quarterstaff::m_TypeNameText
-#, fuzzy
 msgctxt "021a0947-7ca7-4773-b79b-ca309f10f8c2"
 msgid "Quarterstaff"
 msgstr "육척봉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Quarterstaff::m_DefaultNameText
-#, fuzzy
 msgctxt "d6605517-9d28-4fd3-a048-52fcb30aa4b1"
 msgid "Quarterstaff"
 msgstr "육척봉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Rapier::m_TypeNameText
-#, fuzzy
 msgctxt "6595fba0-dc90-432b-9314-15b6ef71c6e9"
 msgid "Rapier"
 msgstr "레이피어"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Rapier::m_DefaultNameText
-#, fuzzy
 msgctxt "56f12c7b-9ccc-4283-9072-8b6d1ce18d25"
 msgid "Rapier"
 msgstr "레이피어"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = RayType::m_TypeNameText
-#, fuzzy
 msgctxt "7363de45-0df1-4a54-b6f8-a493ec1bbc8c"
 msgid "Ray"
 msgstr "광선"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = RayType::m_DefaultNameText
-#, fuzzy
 msgctxt "08a59278-aad8-48af-8dc9-a711d66ad465"
 msgid "Ray"
 msgstr "광선"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = RockThrow::m_TypeNameText
-#, fuzzy
 msgctxt "cd8f12e9-36db-498c-b3a3-f52a7f4b5f52"
 msgid "Rock"
 msgstr "바위"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = RockThrow::m_DefaultNameText
-#, fuzzy
 msgctxt "b685d2aa-a2b3-4ba1-81de-7867fa10434d"
 msgid "Rock"
 msgstr "바위"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Sai::m_TypeNameText
-#, fuzzy
 msgctxt "02499897-fa60-4a81-b6ca-ed43d60cdb8f"
 msgid "Sai"
 msgstr "필가차"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Sai::m_DefaultNameText
-#, fuzzy
 msgctxt "3512a477-93e3-4792-bd18-ae8f5d3db940"
 msgid "Sai"
 msgstr "필가차"
@@ -62784,7 +62737,6 @@ msgstr "필가차"
 #. 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WildHuntScout_Scimitar::m_TypeNameText
-#, fuzzy
 msgctxt "ee7c487b-9263-44b1-a027-15cf09da7474"
 msgid "Scimitar"
 msgstr "시미터"
@@ -62794,371 +62746,318 @@ msgstr "시미터"
 #. 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WildHuntScout_Scimitar::m_DefaultNameText
-#, fuzzy
 msgctxt "a62c11b3-49f9-422d-a138-361cba846b53"
 msgid "Scimitar"
 msgstr "시미터"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Scythe::m_TypeNameText
-#, fuzzy
 msgctxt "784a082b-1dc2-46f7-aae1-9950b3f8785b"
 msgid "Scythe"
 msgstr "대낫"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Scythe::m_DefaultNameText
-#, fuzzy
 msgctxt "ce5acbc8-666a-445b-b411-a4a003f0ca42"
 msgid "Scythe"
 msgstr "대낫"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Shortbow::m_TypeNameText
-#, fuzzy
 msgctxt "183a5c71-3398-41ce-bf0c-ca33ec931b8d"
 msgid "Shortbow"
 msgstr "단궁"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Shortbow::m_DefaultNameText
-#, fuzzy
 msgctxt "96df30d1-2783-4061-abf5-23a0a8d45cb5"
 msgid "Shortbow"
 msgstr "단궁"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Shortspear::m_TypeNameText
-#, fuzzy
 msgctxt "06323fda-b108-4e94-98ed-08d327d2093e"
 msgid "Shortspear"
 msgstr "단창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Shortspear::m_DefaultNameText
-#, fuzzy
 msgctxt "9fdeb4c6-f110-4bba-9c2a-1d795be7d379"
 msgid "Shortspear"
 msgstr "단창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Shortsword::m_TypeNameText
-#, fuzzy
 msgctxt "dfbdf052-7025-46e9-8e3e-f48a321a9f48"
 msgid "Shortsword"
 msgstr "소검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Shortsword::m_DefaultNameText
-#, fuzzy
 msgctxt "8c6ccbe5-6c8f-44ba-9e62-581385d81f1c"
 msgid "Shortsword"
 msgstr "소검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Sickle::m_TypeNameText
-#, fuzzy
 msgctxt "1c801a36-1fe2-4e7c-a49c-a24cad91fc3c"
 msgid "Sickle"
 msgstr "낫"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Sickle::m_DefaultNameText
-#, fuzzy
 msgctxt "3b4b455f-cf2b-4f90-98d9-62d569f5d75b"
 msgid "Sickle"
 msgstr "낫"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType::m_TypeNameText
-#, fuzzy
 msgctxt "3568a804-1a69-4863-8566-af4c05f2181a"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType::m_DefaultNameText
-#, fuzzy
 msgctxt "15f1496b-70e4-47c5-bcec-35b52490b852"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType2d10::m_TypeNameText
-#, fuzzy
 msgctxt "37e4bad4-1b57-463f-9910-eb6ef2e2be7e"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType2d10::m_DefaultNameText
-#, fuzzy
 msgctxt "bd16eb61-d7d2-4f83-b54f-0bdd180d1d06"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType2d4::m_TypeNameText
-#, fuzzy
 msgctxt "d449fb49-8040-4cbb-be3b-bed224ca1c6c"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType2d4::m_DefaultNameText
-#, fuzzy
 msgctxt "d9d01697-137d-4227-86e0-5eba22ca8a42"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType3d10::m_TypeNameText
-#, fuzzy
 msgctxt "7d362b5f-7ce2-4764-aaba-944f9d4245c7"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamType3d10::m_DefaultNameText
-#, fuzzy
 msgctxt "12613d69-6ec1-4cc9-b4a8-6991faf26e24"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamTypeTwoHanded::m_TypeNameText
-#, fuzzy
 msgctxt "628b9be1-a889-43ce-bb91-1b8fae89c2e4"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamTypeTwoHanded::m_DefaultNameText
-#, fuzzy
 msgctxt "9a63cdca-22c2-456c-9f72-a2befc39d111"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamTypeTwoHanded2d10::m_TypeNameText
-#, fuzzy
 msgctxt "19be8af9-eec9-48de-a10e-549dc3bca1fe"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlamTypeTwoHanded2d10::m_DefaultNameText
-#, fuzzy
 msgctxt "a740c661-96ea-47de-a7c6-c92ae6595d0e"
 msgid "Slam"
 msgstr "후려치기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlingStaff::m_TypeNameText
-#, fuzzy
 msgctxt "b055f9b0-c478-4d74-bbc9-1e5222968e86"
 msgid "Sling Staff"
 msgstr "슬링 스태프"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SlingStaff::m_DefaultNameText
-#, fuzzy
 msgctxt "91edf2a6-4a73-4b01-a2c1-048563d245a3"
 msgid "Sling Staff"
 msgstr "슬링 스태프"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Spear::m_TypeNameText
-#, fuzzy
 msgctxt "290ab65d-bfea-4737-bb19-0ba05d87e453"
 msgid "Spear"
 msgstr "창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Spear::m_DefaultNameText
-#, fuzzy
 msgctxt "807f6b6b-fccc-43ac-a009-9f25c1115cf1"
 msgid "Spear"
 msgstr "창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SpikedHeavyShield::m_TypeNameText
-#, fuzzy
 msgctxt "83178852-ab20-4a92-b6fe-27888676fb7d"
 msgid "Spiked Heavy Shield"
 msgstr "가시 중형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SpikedHeavyShield::m_DefaultNameText
-#, fuzzy
 msgctxt "3fa879e0-17e0-4d65-90b5-05c44e28a09c"
 msgid "Spiked Heavy Shield"
 msgstr "가시 중형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SpikedLightShield::m_TypeNameText
-#, fuzzy
 msgctxt "7aa87bff-84b7-4337-9ad2-c1f6268fae0e"
 msgid "Spiked Light Shield"
 msgstr "가시 소형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = SpikedLightShield::m_DefaultNameText
-#, fuzzy
 msgctxt "a9feecb1-9461-4141-921c-48134225085c"
 msgid "Spiked Light Shield"
 msgstr "가시 소형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Starknife::m_TypeNameText
-#, fuzzy
 msgctxt "e7bdba4e-b1e1-4be4-8c81-075dbc4d82ef"
 msgid "Starknife"
-msgstr "스타나이프"
+msgstr "표창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Starknife::m_DefaultNameText
-#, fuzzy
 msgctxt "a65a1c7f-661a-4027-9f06-05f340d0ef65"
 msgid "Starknife"
-msgstr "스타나이프"
+msgstr "표창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = StingType::m_TypeNameText
-#, fuzzy
 msgctxt "04ba1316-9697-4ae5-a333-326e7ac4dcc0"
 msgid "Sting"
-msgstr "후려치기"
+msgstr "침"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = StingType::m_DefaultNameText
-#, fuzzy
 msgctxt "69310aa5-90c9-400d-881f-cf736f659a91"
 msgid "Sting"
-msgstr "후려치기"
+msgstr "침"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TailType::m_TypeNameText
-#, fuzzy
 msgctxt "881d363e-e644-473d-82d4-cc4cbd0d590b"
 msgid "Tail"
 msgstr "꼬리"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TailType::m_DefaultNameText
-#, fuzzy
 msgctxt "7af41ab8-31af-4ca4-8c6f-f25e064e67e0"
 msgid "Tail"
 msgstr "꼬리"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TalonsType::m_TypeNameText
-#, fuzzy
 msgctxt "c6bf06f9-9802-4d2c-a392-35240f4f8e89"
 msgid "Talon"
 msgstr "맹금발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TalonsType::m_DefaultNameText
-#, fuzzy
 msgctxt "8c937d95-7ea9-4893-abd7-7d8b6dfe3426"
 msgid "Talon"
 msgstr "맹금발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TentacleType::m_TypeNameText
-#, fuzzy
 msgctxt "0ee2903f-22b3-4ef1-ac59-fc600e0a92cb"
 msgid "Tentacle"
 msgstr "촉수"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TentacleType::m_DefaultNameText
-#, fuzzy
 msgctxt "6a9277fd-38b9-4fbd-9f44-176c5badb3bf"
 msgid "Tentacle"
 msgstr "촉수"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ThrowingAxe::m_TypeNameText
-#, fuzzy
 msgctxt "fbe24c5a-9e39-4df2-99db-1fc78bab1362"
 msgid "Throwing Axe"
-msgstr "투척용 도끼"
+msgstr "투척 도끼"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ThrowingAxe::m_DefaultNameText
-#, fuzzy
 msgctxt "63729b38-5b3e-4598-a2ab-cda805e738c1"
 msgid "Throwing Axe"
-msgstr "투척용 도끼"
+msgstr "투척 도끼"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Tongi::m_TypeNameText
-#, fuzzy
 msgctxt "a31d4658-a331-473c-9945-75ae35468552"
 msgid "Tongi"
 msgstr "통기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Tongi::m_DefaultNameText
-#, fuzzy
 msgctxt "a1776485-7a47-462f-969c-9c4d47bcaab6"
 msgid "Tongi"
 msgstr "통기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TorchType::m_TypeNameText
-#, fuzzy
 msgctxt "c0c32baa-7140-4c07-9a11-76cc5b3d0b7e"
 msgid "Torch"
 msgstr "횃불"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TorchType::m_DefaultNameText
-#, fuzzy
 msgctxt "1b273eb5-a132-488b-ab9d-9bb98bc0d6b6"
 msgid "Torch"
 msgstr "횃불"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TouchType::m_TypeNameText
-#, fuzzy
 msgctxt "c58950db-269e-4aa9-b984-f05e1ef31302"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = TouchType::m_DefaultNameText
-#, fuzzy
 msgctxt "c7e2893d-dcb5-4c8c-8415-a908b048b329"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Trident::m_TypeNameText
-#, fuzzy
 msgctxt "b95e26fc-5834-475a-aa96-3e09ea6ef7cb"
 msgid "Trident"
 msgstr "삼지창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Trident::m_DefaultNameText
-#, fuzzy
 msgctxt "ee4be1ac-b3f8-46ea-8da6-9844d6293cde"
 msgid "Trident"
 msgstr "삼지창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Unarmed::m_TypeNameText
-#, fuzzy
 msgctxt "a0b12e2b-3afd-48e1-8672-9bd9e7611f24"
 msgid "Unarmed Strike"
 msgstr "비무장 타격"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Unarmed::m_DefaultNameText
-#, fuzzy
 msgctxt "632f82f6-1dfd-4d68-9988-d7978b77176f"
 msgid "Unarmed Strike"
 msgstr "비무장 타격"
@@ -63174,70 +63073,60 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Warhammer::m_TypeNameText
-#, fuzzy
 msgctxt "09c637a6-2d13-4c5d-bf7b-93cf9dcecb62"
 msgid "Warhammer"
 msgstr "전투망치"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Warhammer::m_DefaultNameText
-#, fuzzy
 msgctxt "8515b99a-d810-4b37-8bea-584b3e7b5371"
 msgid "Warhammer"
 msgstr "전투망치"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WeaponHeavyShield::m_TypeNameText
-#, fuzzy
 msgctxt "7d1f7bce-850c-45b0-8ce2-7d3c5352cfc7"
 msgid "Heavy Shield"
 msgstr "중형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WeaponHeavyShield::m_DefaultNameText
-#, fuzzy
 msgctxt "6e563071-c337-4a7c-83c7-9e9c154d91de"
 msgid "Heavy Shield"
 msgstr "중형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WeaponLightShield::m_TypeNameText
-#, fuzzy
 msgctxt "d50ff7f8-4197-4baf-b9b7-cf674a03ad2d"
 msgid "Light Shield"
 msgstr "소형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WeaponLightShield::m_DefaultNameText
-#, fuzzy
 msgctxt "58b7b906-8e5d-46f3-99fd-ca3ee66ec65b"
 msgid "Light Shield"
 msgstr "소형 방패"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WillOWispTouchType::m_TypeNameText
-#, fuzzy
 msgctxt "d6edf38b-96b7-4077-81f3-844714fa55e0"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WillOWispTouchType::m_DefaultNameText
-#, fuzzy
 msgctxt "c068a871-a482-4e87-8c22-f3406a9d4a84"
 msgid "Touch"
 msgstr "접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WingType::m_TypeNameText
-#, fuzzy
 msgctxt "8e213d34-3a0c-4931-9d31-0ab904ead639"
 msgid "Wing"
 msgstr "날개"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = WingType::m_DefaultNameText
-#, fuzzy
 msgctxt "69fef09e-8cde-404e-9898-c64a0db03d32"
 msgid "Wing"
 msgstr "날개"

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-17 12:24+0000\n"
-"Last-Translator: Bumsoo <jake0208@naver.com>\n"
+"PO-Revision-Date: 2021-09-18 13:23+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -16501,7 +16501,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Eyebite::m_DisplayName
-#, fuzzy
 msgctxt "8bada80a-ad10-4e9a-8c1b-f9b46b86d1f5"
 msgid "Eyebite"
 msgstr "사안"
@@ -16546,7 +16545,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EyebiteAbility::m_DisplayName
-#, fuzzy
 msgctxt "844a6288-134e-437b-b57f-2234ab00ed17"
 msgid "Eyebite"
 msgstr "사안"
@@ -22166,7 +22164,7 @@ msgstr ""
 #. Path = IceBodyBuff::m_DisplayName
 msgctxt "2cb7f57e-6093-482b-876d-ab7c5057506e"
 msgid "Ice Body"
-msgstr ""
+msgstr "얼음 신체"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IceBody::m_Description
@@ -22190,26 +22188,23 @@ msgid ""
 "1d6 for Medium characters) plus 1 point of {g|Encyclopedia:Energy_Damage}"
 "cold damage{/g}, and you are considered armed when making unarmed attacks."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 당신의 신체를 살아있는 얼음으로 변환시켜, 다양한 능력을 얻습니다. 냉기 면역, "
+"화염 취약, {g|Encyclopedia:Damage_Reduction}피해 감소{/g} 5/마법 을 얻습니다. "
+"{g|Encyclopedia:Ability_Scores}능력치{/g} 피해, 실명, "
+"{g|Encyclopedia:Critical}치명타{/g}, 질병, 익사, 전기, 독, 기절에 대한 면역을 얻으며, 생리작용과 호흡을 "
+"하지 않으므로 생리작용과 호흡기를 공격하는 모든 주문에 대한 면역을 얻습니다. 액체를 마실 수 없게 되므로, 물약도 사용할 수 없습니다."
+"\n"
+"{g|Encyclopedia:UnarmedAttack}비무장 공격{/g}이 당신의 크기에 맞는 몽둥이와 동일한 피해(소형일 경우 1d4, "
+"중형일 경우 1d6)에 추가로 1점의 냉기 피해를 입히며, 비무장 공격을 할 때에도 무기 공격으로 취급됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IceStorm::m_DisplayName
-#, fuzzy
 msgctxt "e0507325-e924-4c28-8e7b-197ded686aa5"
 msgid "Ice Storm"
 msgstr "얼음 폭풍"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IceStorm::m_Description
-#, fuzzy
-#| msgid ""
-#| "Great magical hailstones pound down upon casting this spell, dealing 3d6 "
-#| "points of bludgeoning damage and 2d6 points of cold damage to every creature "
-#| "in the area. This damage only occurs once, when the spell is cast. For the "
-#| "remaining duration of the spell, heavy snow and sleet rains down in the "
-#| "area. Creatures inside this area take a –4 penalty on Perception skill "
-#| "checks and the entire area is treated as difficult terrain. At the end of "
-#| "the duration, the snow and hail disappear, leaving no aftereffects (other "
-#| "than the damage dealt)."
 msgctxt "33a4f7ba-062e-4189-a41f-6b9604c74338"
 msgid ""
 "Great magical hailstones pound down upon casting this "
@@ -22225,13 +22220,15 @@ msgid ""
 "of the duration, the snow and hail disappear, leaving no aftereffects (other "
 "than the damage dealt)."
 msgstr ""
-"이 주문을 시전하면 마법의 우박이 엄청나게 쏟아집니다. 우박은 범위 내의 모든 크리처에게 3d6 점의 부수기 피해와 2d6 점의 냉기 "
-"피해를 입힙니다. 이 피해는 한 번만 발생합니다. 주문을 시전하면 남은 지속시간 동안, 폭설과 진눈깨비가 범위 안에 내려 험지로 만들고, "
-"그 안의 크리처는 지각 판정에 -4 페널티를 받습니다. 지속시간이 끝나면 눈과 우박은 사라져 아무 효과도 남기지 않습니다."
+"이 주문을 시전하면 거대한 마법의 우박이 쏟아져 내리며, 범위 내의 모든 크리처에게 {g|Encyclopedia:Dice}3d6{/g} "
+"점의 {g|Encyclopedia:Damage_Type}부수기 피해{/g}와 2d6 점의 "
+"{g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 입힙니다. 이 피해는 한 번만 발생합니다. 주문을 시전하면 남은 "
+"지속시간 동안, 폭설과 진눈깨비가 범위 안에 내려 험지로 만들고, 그 안의 크리처는 "
+"{g|Encyclopedia:Perception}지각{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 -4 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 지속시간이 끝나면 눈과 우박이 사라지고 아무 효과도 남기지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IcyPrison::m_DisplayName
-#, fuzzy
 msgctxt "5a977b1e-f639-43ac-aa8a-2bf7cf846779"
 msgid "Icy Prison"
 msgstr "얼음 감옥"
@@ -22241,15 +22238,6 @@ msgstr "얼음 감옥"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IcyPrisonMass::m_Description
-#, fuzzy
-#| msgid ""
-#| "You trap the target in solid ice. If the creature fails its save, it is "
-#| "paralyzed, if the target makes its save, it gains the entangled condition "
-#| "but can otherwise act normally. Whether or not the target saves, it takes 1 "
-#| "point of cold damage per caster level each round it is paralyzed or "
-#| "entangled in the ice. A creature can break the ice with a successful "
-#| "Strength check each round after receiving the effect (DC 15 + your caster "
-#| "level)."
 msgctxt "d108b0c4-9f69-4620-ac6f-c35c6e8d5ce6"
 msgid ""
 "You trap the target in solid ice. If the creature fails its "
@@ -22264,13 +22252,14 @@ msgid ""
 "round after receiving the effect ({g|Encyclopedia:DC}DC{/g} 15 + your caster "
 "level)."
 msgstr ""
-"목표물을 단단한 얼음으로 가둡니다. 내성 굴림에 실패하면 마비 상태가 됩니다. 내성에 성공하면 속박 상태가 되어 행동이 가능합니다. "
-"내성에 상관 없이 매 라운드 시전자 레벨 당 1점의 냉기 피해를 입습니다. 크리처는 효과를 받은 후 매 라운드마다 힘 판정에 성공하면 ("
-"DC 15 + 시전자 레벨) 얼음을 깰 수 있습니다."
+"대상을 단단한 얼음으로 가둡니다. {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 실패하면 마비 상태가 되며, "
+"성공하면 속박 상태가 되어 행동이 가능합니다. 내성 굴림에 상관 없이, 매 라운드마다 {g|Encyclopedia:Caster_Level}"
+"시전자 레벨{/g} 당 1점의 {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 입습니다. 갇힌 대상은 효과를 "
+"받은 후 매 라운드마다 {g|Encyclopedia:Strength}힘{/g} {g|Encyclopedia:Check}판정{/g}을 하며 "
+"({g|Encyclopedia:DC}DC{/g} 15 + 시전자 레벨), 성공하면 얼음을 깰 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IcyPrisonMass::m_DisplayName
-#, fuzzy
 msgctxt "e25135ed-d2d1-4c4c-9394-15428d637c54"
 msgid "Icy Prison, Mass"
 msgstr "집단 얼음 감옥"
@@ -22282,7 +22271,7 @@ msgstr "집단 얼음 감옥"
 #. Path = ImitationBarbarianBuff::m_DisplayName
 msgctxt "a93927b9-87e4-478e-ae9e-174ff0473cd7"
 msgid "Barbarian Stance"
-msgstr ""
+msgstr "바바리안 자세"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ImitationBarbarianAbility::m_Description
@@ -22704,20 +22693,6 @@ msgstr "광기"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = InsanityBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "The affected creature suffers from a continuous confusion effect, as the "
-#| "spell.\n"
-#| "Remove curse does not remove insanity. Greater restoration or heal can "
-#| "restore the creature.\n"
-#| "Confusion: This spell causes confusion in the targets, making them unable to "
-#| "determine their actions. Roll d100 and consult the following table at the "
-#| "start of each subject's turn each round to see what it does in that round.\n"
-#| "01–25: Acts normally\n"
-#| "26–50: Does nothing but babble incoherently\n"
-#| "51–75: Deals 1d8 points of damage + Str modifier to self with item in hand\n"
-#| "76–100: Attacks nearest creature (for this purpose, a familiar counts as "
-#| "part of the subject's self)"
 msgctxt "e32cb67e-c3c7-4aa9-92d5-122812831520"
 msgid ""
 "The affected creature suffers from a continuous confusion effect, as the "
@@ -22736,14 +22711,17 @@ msgid ""
 "76–100: {g|Encyclopedia:Attack}Attacks{/g} nearest creature (for this "
 "purpose, a familiar counts as part of the subject's self)"
 msgstr ""
-"영향 받은 크리처는 혼란에 빠집니다.\n"
-"저주 제거는 광기를 제거할 수 없습니다. 상급 상태회복이나 치유로 회복시켜야 합니다.\n"
-"혼란: 이 주문은 대상에 혼란을 야기하여 자신의 행동을 결정할 수 없게 만듭니다. 매 라운드를 시작할 때 d100을 굴리고, 다음 표에 "
-"따라 해당 라운드에 하게 될 행동이 결정됩니다. \n"
+"영향 받은 크리처는 지속적인 혼란 상태에 빠집니다.\n"
+"저주 제거는 광기를 제거할 수 없습니다. 상급 {g|Encyclopedia:Healing}상태회복{/g}이나 치유 "
+"{g|Encyclopedia:Spell}주문{/g}을 사용해야 합니다.\n"
+"혼란: 이 주문은 대상에 혼란을 야기하여 자신의 {g|Encyclopedia:CA_Types}행동{/g}을 결정할 수 없게 만듭니다. 매 "
+"라운드를 시작할 때 d100을 {g|Encyclopedia:Dice}굴리고{/g}, 다음 목록에 따라 해당 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}에 하게 될 행동이 결정됩니다. \n"
 "01-25: 정상적으로 행동합니다. \n"
 "26-50: 아무 행동도 하지 않고 두서없는 말을 내뱉습니다.\n"
-"51-75: 1d8 + 손에 든 물품의 힘 수정치 만큼 피해를 받습니다. \n"
-"76-100: (자기가 생각할 때) 가장 가까운 크리처를 공격합니다."
+"51-75: 1d8 + 손에 든 물품의 {g|Encyclopedia:Strength}힘{/g} 수정치 만큼 "
+"{g|Encyclopedia:Damage}피해{/g}를 받습니다. \n"
+"76-100: 패밀리어를 제외한 가장 가까운 크리처를 {g|Encyclopedia:Attack}공격{/g}합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InspiringRecovery::m_DisplayName
@@ -22806,38 +22784,30 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InstantEnemy::LocalizedDuration
-#, fuzzy
 msgctxt "187b5e2c-8ee5-40b5-b29d-a7a2891cc8b4"
 msgid "1 minute/level"
-msgstr "1분/레벨"
+msgstr "1 분 / 레벨"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InstantEnemy::m_DisplayName
-#, fuzzy
 msgctxt "02864d28-0f17-40bd-9c5b-ba1c2b1c24ad"
 msgid "Instant Enemy"
 msgstr "임시 주적"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InstantEnemy::m_Description
-#, fuzzy
-#| msgid ""
-#| "With this spell you designate the target as your favored enemy for the "
-#| "remainder of its duration. For the duration of the spell, you treat the "
-#| "target as if it were a favored enemy for all purposes."
 msgctxt "511453ae-5c18-42ee-85fa-abccd8db9aaa"
 msgid ""
 "With this {g|Encyclopedia:Spell}spell{/g} you designate the target as your "
 "favored enemy for the remainder of its duration. For the duration of the "
 "spell, you treat the target as if it were a favored enemy for all purposes."
-msgstr "이 주문은 지정한 대상을 주문의 지속시간 동안 당신의 주적으로 만듭니다."
+msgstr "이 {g|Encyclopedia:Spell}주문{/g}은 지목한 대상을 주문의 지속시간 동안 당신의 주적으로 지정합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InvisibilityGreater::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = YozzInvisibilityGreaterFact::m_DisplayName
-#, fuzzy
 msgctxt "227c85db-271a-4862-b62f-f9590ec69e73"
 msgid "Greater Invisibility"
 msgstr "상급 투명화"
@@ -22899,14 +22869,12 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MarilithBoss_Ability_InvisibilityMass::m_DisplayName
-#, fuzzy
 msgctxt "07551134-405f-4455-96ee-7b7599980d2b"
 msgid "Invisibility, Mass"
 msgstr "집단 투명화"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InvisibilityPotion_Cutscene::m_DisplayName
-#, fuzzy
 msgctxt "66a8f53a-3c21-4119-acfe-1c059f63f50f"
 msgid "Invisibility"
 msgstr "투명화"
@@ -22963,20 +22931,12 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Ironbeard::m_DisplayName
-#, fuzzy
 msgctxt "480672c9-a1d2-4444-9ad8-ac636fc29466"
 msgid "Ironbeard"
 msgstr "강철수염"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Ironbeard::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell causes a brushy beard of stiff iron to erupt from the face of a "
-#| "willing target. The ironbeard grants a +1 armor bonus to AC, and this bonus "
-#| "stacks with any armor worn by the creature. The ironbeard makes it difficult "
-#| "to speak, so any spellcasting with a verbal component has a 20% spell "
-#| "failure chance."
 msgctxt "efd558c1-529f-4e09-8ace-7ec6022dc4ae"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} causes a brushy beard of stiff iron to "
@@ -22986,15 +22946,16 @@ msgid ""
 "it difficult to speak, so any spellcasting with a verbal component has a 20% "
 "{g|Encyclopedia:Spell_Fail_Chance}spell failure chance{/g}."
 msgstr ""
-"이 주문은 얼굴에 뻣뻣한 강철수염이 빽빽하게 자라게하여 적을 향해 발사할 수 있게 합니다. 강철수염은 AC에 +1의 방어구 보너스를 "
-"부여하고, 이 보너스는 착용한 모든 방어구와 중첩됩니다. 강철수염은 말을 하기 어렵게 하기 때문에 음성 구성 요소를 사용하는 모든 주문을 "
-"시전할 때 20%의 주문 실패 확률을 갖습니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 얼굴에 뻣뻣한 강철수염이 빽빽하게 자라게 만듭니다. 강철수염은 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +1 의 방어구 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여하며, 이 보너스는 착용한 모든 방어구와 중첩됩니다. 강철수염은 말을 하기 어렵게 하기 때문에 음성 구성 요소를 사용하는 모든 주문을 "
+"시전할 때 20%의 {g|Encyclopedia:Spell_Fail_Chance}주문 실패 확률{/g}을 갖습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IronBody::m_DisplayName
 msgctxt "e51faa16-2565-488e-8e46-e7b4d596fa8b"
 msgid "Iron Body"
-msgstr ""
+msgstr "강철 신체"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IronBody::m_Description
@@ -23023,10 +22984,18 @@ msgid ""
 "1d6 for Medium characters), and you are considered armed when making unarmed "
 "attacks."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 당신의 신체를 살아있는 강철로 변환시켜, 강력한 저항력과 능력들을 얻습니다. "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g} 15/아다만틴 을 얻습니다. 실명, "
+"{g|Encyclopedia:Critical}치명타{/g}, {g|Encyclopedia:Ability_Scores}능력치{/g} 피해, "
+"질병, 익사, 전기, 독, 기절에 대한 면역을 얻으며, 생리작용과 호흡을 하지 않으므로 생리작용과 호흡기를 공격하는 모든 주문에 대한 "
+"면역을 얻습니다. 산성과 화염 저항 30을 얻습니다.\n"
+"힘 능력치에 +6 의 강화 보너스를 얻지만, 민첩 능력치에 -6 의 페널티를 받으며, 속도가 절반으로 감소합니다. 비전 주문 실패 확률이 "
+"35% 가 되며, 전신 판금 갑옷을 입은 것과 같이 -6 의 갑옷 판정 페널티를 받습니다.\n"
+"{g|Encyclopedia:UnarmedAttack}비무장 공격{/g}이 당신의 크기에 맞는 몽둥이와 동일한 피해(소형일 경우 1d4, "
+"중형일 경우 1d6)를 입히며, 비무장 공격을 할 때에도 무기 공격으로 취급됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IronGolemBreathWeapon::m_DisplayName
-#, fuzzy
 msgctxt "0298747c-ddaa-4856-a010-eb2045508d3b"
 msgid "Breath Weapon"
 msgstr "숨결 무기"
@@ -35004,7 +34973,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterII_Cutscene::m_DisplayName
-#, fuzzy
 msgctxt "36f90b17-a0ce-4a78-984f-5ef90a45495b"
 msgid "Summon Monster II"
 msgstr "괴물 소환 II"
@@ -35060,7 +35028,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMovanicDeva_Grimoire::m_DisplayName
-#, fuzzy
 msgctxt "a20459a3-667e-4b6b-850f-d4115a101051"
 msgid "Summon Movanic Deva"
 msgstr "모바닉 데바 소환"
@@ -35092,11 +35059,6 @@ msgstr "분노한 다람쥐떼 소환"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonRatSwarm_Grimoire::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons a Furious Squirrels swarm. It appears where you designate "
-#| "and acts according to its initiative check results. It attacks your "
-#| "opponents to the best of its ability."
 msgctxt "38be3c2e-25d7-405e-bb04-f990b5285429"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons a Furious Squirrels swarm. It "
@@ -35105,12 +35067,12 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 분노한 다람쥐떼를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. 소환물은 자기 "
-"능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 격분한 다람쥐떼를 소환합니다. 소환된 다람쥐떼는 시전자가 지정한 곳에 나타나고, "
+"{g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g} 의 결과에 따라 "
+"행동하며, 자기 능력을 최대한 활용해 적을 {g|Encyclopedia:Attack}공격{/g}합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonThanadaemons_Cutscene::m_DisplayName
-#, fuzzy
 msgctxt "b8385331-69f9-44a5-b99b-ee8c801e30d2"
 msgid "Summon Monster II"
 msgstr "괴물 소환 II"

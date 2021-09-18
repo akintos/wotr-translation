@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-17 12:24+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-09-18 13:23+0000\n"
+"Last-Translator: Bumsoo <jake0208@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1235,7 +1235,7 @@ msgctxt "1436dff1-01ea-430e-9547-4b390475eaf7"
 msgid ""
 "Most enemies try to {g|Encyclopedia:Attack}attack{/g} your most vulnerable "
 "party members."
-msgstr "대부분의 적들은 일행 중 가장 취약한 캐릭터를 공격하려 시도할 것입니다."
+msgstr "대부분의 적들은 일행 중 가장 취약한 캐릭터를 {g|Encyclopedia:Attack}공격{/g}하려 시도할 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Formation::m_DescriptionText
@@ -1400,13 +1400,13 @@ msgstr ""
 #. Path = ContextTutor_Insanity::m_TitleText
 msgctxt "3a666b86-e0fe-4376-bb5f-34f8972d145d"
 msgid "Insanity"
-msgstr "정신 이상"
+msgstr "광기"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Insanity::m_TriggerText
 msgctxt "3be84205-d058-4334-8fd5-dbce7075f6f0"
 msgid "Your character {t|TargetUnit} has gone insane."
-msgstr ""
+msgstr "{t|TargetUnit} 캐릭터가 광기에 빠졌습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Insanity::m_DescriptionText
@@ -1417,6 +1417,8 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} the last creature that attacked it, until "
 "it either dies, or disappears from sight."
 msgstr ""
+"광기는 부정적 상태로, 혼란과 비슷하지만, 지속 시간이 무한대입니다. 광기 상태의 크리처는 아군과 적을 구별할 수 없습니다. 자신을 "
+"마지막으로 공격한 적을 대상이 죽거나, 시야에서 사라질 때까지 공격할 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Insanity::m_SolutionFoundText
@@ -1426,6 +1428,8 @@ msgid ""
 "such as {g|Encyclopedia:Healing}heal{/g} and greater restoration. You can "
 "use:"
 msgstr ""
+"광기 상태는 오직 {g|Encyclopedia:Healing}치유{/g} 또는 상급 상태회복 등의 강력한 "
+"{g|Encyclopedia:Spell}주문{/g}으로만 제거할 수 있습니다. 현재 사용 가능:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Insanity::m_SolutionNotFoundText
@@ -1434,12 +1438,14 @@ msgid ""
 "Insanity can only be removed by powerful {g|Encyclopedia:Spell}spells{/g}, "
 "such as {g|Encyclopedia:Healing}heal{/g} and greater restoration."
 msgstr ""
+"광기 상태는 오직 {g|Encyclopedia:Healing}치유{/g} 또는 상급 상태회복 등의 강력한 "
+"{g|Encyclopedia:Spell}주문{/g}으로만 제거할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ItemUpgrade::m_TitleText
 msgctxt "b9e5af90-d082-43d2-b7e7-27d2eb86c2d9"
 msgid "Updating Equipment"
-msgstr ""
+msgstr "장비 교체"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ItemUpgrade::m_TriggerText
@@ -1449,6 +1455,8 @@ msgid ""
 "better than the {t|SourceItem} item your character {t|SourceUnit} has "
 "equipped."
 msgstr ""
+"현재 {t|SourceUnit} 캐릭터가 착용한 {t|SourceItem} 보다 나은 {t|SolutionItem} 장비를 가지고 "
+"있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ItemUpgrade::m_DescriptionText
@@ -1456,7 +1464,7 @@ msgctxt "7644e574-470b-481a-8a42-b8253ce38577"
 msgid ""
 "Don't forget to equip new, more powerful items that you find on your "
 "characters,"
-msgstr ""
+msgstr "새롭고 더 강력한 장비를 캐릭터에게 착용시켜 주는 것을 잊지 마십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_LowHPHeal::m_TitleText
@@ -1484,7 +1492,8 @@ msgid ""
 "trophies."
 msgstr ""
 "{g|Encyclopedia:Spell}주문{/g}이나 물약을 사용하거나 휴식을 해서 잃은 {g|Encyclopedia:HP}HP{/g}"
-"를 회복할 수 있습니다. 상처 치료 물약은 상점에서 구매하거나, 적들에게서 전리품으로 얻을 수 있습니다."
+"를 회복할 수 있습니다. 상처 {g|Encyclopedia:Healing}치료{/g} 물약은 상점에서 구매하거나, 적들에게서 전리품으로 "
+"얻을 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_LowHPHeal::m_SolutionFoundText
@@ -1684,7 +1693,7 @@ msgstr ""
 #. Path = ContextTutor_Metamagic::m_TitleText
 msgctxt "7e7ab9be-3835-41f0-931d-53dcb0c428f8"
 msgid "Metamagic"
-msgstr ""
+msgstr "메타매직"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Metamagic::m_TriggerText
@@ -1724,7 +1733,7 @@ msgstr ""
 #. Path = ContextTutor_MountCombat::m_TitleText
 msgctxt "f6846e27-9552-431b-90a0-b892f782320c"
 msgid "Mounted Combat"
-msgstr ""
+msgstr "기마 전투"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_MountCombat::m_TriggerText
@@ -1844,7 +1853,7 @@ msgstr ""
 #. Path = ContextTutor_Paralysis::m_TitleText
 msgctxt "83db2ae9-1cdb-4965-a03e-b74c7eeaa04d"
 msgid "Paralysis"
-msgstr ""
+msgstr "마비"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Paralysis::m_TriggerText
@@ -1956,7 +1965,7 @@ msgstr ""
 #. Path = NightcrawlerPoisonBuff::m_DisplayName
 msgctxt "b08e2ab0-f27d-453e-93df-64686ac35032"
 msgid "Poison"
-msgstr ""
+msgstr "독"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Poison::m_TriggerText
@@ -2059,7 +2068,7 @@ msgstr ""
 #. Path = ContextTutor_Regeneration::m_TitleText
 msgctxt "de28263a-4528-4b53-9a5d-cc49ec1ef044"
 msgid "Regeneration"
-msgstr ""
+msgstr "재생"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Regeneration::m_TriggerText
@@ -2366,7 +2375,7 @@ msgstr ""
 #. Path = ContextTutor_SpellResistanceBuff::m_TitleText
 msgctxt "976b6804-5360-44c8-a5f2-119308138a69"
 msgid "Allies' Spell Resistance"
-msgstr ""
+msgstr "아군의 주문 저항"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceBuff::m_TriggerText
@@ -3430,6 +3439,7 @@ msgid ""
 "You have encountered an enemy {t|TargetUnit}, who has "
 "{g|Encyclopedia:Damage_Reduction}damage reduction{/g}."
 msgstr ""
+"당신은 {g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 가진 적 {t|TargetUnit}과 마주쳤습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_24_DamageReduction::m_DescriptionText
@@ -3448,6 +3458,14 @@ msgid ""
 "{g|Encyclopedia:Physical_Damage}physical damage{/g} is reduced by 5, unless "
 "it's dealt by an adamantine weapon."
 msgstr ""
+"{g|Encyclopedia:Damage_Reduction}피해 감소(DR){/g}는 받은 모든 "
+"{g|Encyclopedia:Damage}피해{/g}를 일정량 감소시키는 능력입니다. "
+"{g|Encyclopedia:Energy_Damage}에너지 피해{/g}는 이 능력을 무시합니다.\n"
+"{br}이 능력의 설명에서 당신은 특정 크리처가 얼만큼의 피해를 무시하는지와 어떤 무기로 피해 감소를 상쇄시킬 수 있는지 알 수 "
+"있습니다. 피해 감소를 상쇄할 방법에는 한철 혹은 아다만틴 같은 특별한 재료나 "
+"{g|Encyclopedia:Damage_Type}베기{/g}, 찌르기, 부수기와 같은 무기 유형, 선과 악 같은 "
+"{g|Encyclopedia:Alignment}성향{/g}이 있을 수 있습니다. 예를 들어 \"DR 5/아다만틴\"은 아다만틴 무기로 "
+"공격하지 않는 이상 5만큼의 {g|Encyclopedia:Physical_Damage}물리 피해{/g}를 감소한다는 의미입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_24_DamageReduction::m_SolutionNotFoundText
@@ -3457,6 +3475,8 @@ msgid ""
 "{g|Encyclopedia:Damage_Reduction}damage reduction{/g} that can be overcome "
 "with a weapon made of cold iron. Camelia has just the right blade."
 msgstr ""
+"이번 전투에서 {t|TargetUnit} 적의 {g|Encyclopedia:Damage_Reduction}피해 감소{/g}는 한철로 "
+"만들어진 무기로 상쇄시킬 수 있습니다. 카멜리아에겐 딱 알맞은 검이 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_25_Camping_2::m_TitleText
@@ -3479,6 +3499,12 @@ msgid ""
 "and magic soups, and combating the effect of the Worldwound to lower the "
 "growth of the Abyssal corruption,"
 msgstr ""
+"여행 도중 캐릭터는 {g|Encyclopedia:Rest}휴식{/g}을 취해야 합니다. 휴식을 하면 캐릭터는 부족한 "
+"{g|Encyclopedia:HP}HP{/g}를 회복하고 {g|Encyclopedia:Spell}주문{/g}을 준비하며 피로와 탈진 같은 "
+"부정적인 효과를 없앱니다. 당신은 모든 야영지 임무에 두 명의 캐릭터를 배정할 수 있습니다. 하지만 한 명의 캐릭터가 하나 이상의 임무를 "
+"수행할 수는 없습니다.\n"
+"배정된 캐릭터는 {g|Encyclopedia:Skills}기술 판정{/g}을 하여 야영지의 보안과 위장을 제공하고 두루마리, 물약, 마법 "
+"수프를 만들며 커저가는 심연의 부패를 줄이기 위해 세계상처의 영향력과 맞서 싸웁니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_25_Camping_2::Components/1/m_TitleText
@@ -3506,6 +3532,14 @@ msgid ""
 "their Perception skill is higher than that of the other characters.\n"
 "{br}Roles in camp also influence outcomes on Global Map."
 msgstr ""
+"불침번은 일행이 야영 도중 받게 되는 {g|Encyclopedia:Surprise}기습{/g} "
+"{g|Encyclopedia:Attack}공격{/g} 상황에서 이점을 제공합니다. 야간 경계를 위해선 캐릭터는 "
+"{g|Encyclopedia:Perception}지각 기술 판정{/g}에 반드시 성공해야 합니다. 만약 "
+"{g|Encyclopedia:Skills}기술 판정{/g}이 큰 차이로 성공하면 일행이 모든 장비를 착용하고 깨어있는 상태로 전투에 "
+"돌입할 것입니다. 만약 기술 {g|Encyclopedia:Check}판정{/g}이 적은 차이로 성공했다면 일행이 단지 깨어있는 상태로 "
+"전투에 돌입할 것입니다. 만약 기술 판정이 실패하면 결과에 따라 전투 시작 시 잠에 빠진 캐릭터가 몇 명인지 결정될 것입니다. 웬두아그와 "
+"랜은 다른 캐릭터 보다 지각 기술이 높아 야간 경계 임무에 적합합니다.\n"
+"{br}야영지 역할은 전역 지도의 결과에도 영향을 줍니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_2_Camera_Reminder::m_TitleText
@@ -3535,9 +3569,10 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_5_DialogSkillcheck_F::m_TitleText
+#, fuzzy
 msgctxt "05b44e17-f4a2-4f1f-841f-7ac2de0e7fe4"
 msgid "Results of a Skill Check"
-msgstr ""
+msgstr "기술 판정 결과"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_5_DialogSkillcheck_F::m_DescriptionText
@@ -3550,6 +3585,9 @@ msgid ""
 "If your skill {g|Encyclopedia:Check}check{/g} has been successful, there "
 "would have been no negative consequences."
 msgstr ""
+"당신은 {g|Encyclopedia:Skills}기술 판정{/g}에 실패하여 실라가 혼자 아네비아를 돌무더기 밑에서 꺼냈습니다. 실라는 "
+"이로 인해 피로 상태가 되었고 일부 능력에 일시적인 {g|Encyclopedia:Penalty}패널티{/g}를 입었습니다.\n"
+"만약 기술 {g|Encyclopedia:Check}판정{/g}에 성공했다면 부정적인 결과는 따르지 않았을 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_5_DialogSkillcheck_S::m_TitleText
@@ -3567,6 +3605,10 @@ msgid ""
 "to act alone, so she would have become fatigued and incurred a temporary "
 "{g|Encyclopedia:Penalty}penalty{/g} to some of her abilities."
 msgstr ""
+"당신은 {g|Encyclopedia:Skills}기술 판정{/g}에 성공하여 실라가 아네비아를 돌무더기 밑에서 꺼낼 수 있게 "
+"도와주었습니다.\n"
+"만약 기술 {g|Encyclopedia:Check}판정{/g}에 실패했다면 실라 혼자 행동했을 것이고 그로 인해 실라는 피로 상태가 되고 "
+"일부 능력에 일시적인 {g|Encyclopedia:Penalty}패널티{/g}를 입었을 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_9_1_Light::m_DescriptionText
