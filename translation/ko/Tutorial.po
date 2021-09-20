@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-18 13:23+0000\n"
-"Last-Translator: Bumsoo <jake0208@naver.com>\n"
+"PO-Revision-Date: 2021-09-20 02:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -44,6 +44,12 @@ msgid ""
 "{g|Encyclopedia:Healing}heal{/g} this damage, get rid of its source: make "
 "sure that the disease or poison is no longer affecting the character."
 msgstr ""
+"일부 질병, 독, {g|Encyclopedia:Spell}주문{/g} 등의 효과는 캐릭터의 {g|Encyclopedia:HP}체력{/g} "
+"대신 {g|Encyclopedia:Ability_Scores}능력치{/g}에 {g|Encyclopedia:Damage}피해{/g}를 "
+"주고, 능력치로부터 받는 {g|Encyclopedia:Bonus}보너스{/g}를 감소시킵니다. 능력치에 2 점의 피해를 받을 때마다 해당 "
+"능력치로부터 받는 모든 {g|Encyclopedia:Skills}기술{/g}과 특성에 -1 의 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 피해를 받은 능력치를 회복하기 전에 먼저 피해의 원인을 "
+"제거하십시오. 질병이나 독을 먼저 {g|Encyclopedia:Healing}치료{/g}해야 합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDamage::m_SolutionFoundText
@@ -65,6 +71,9 @@ msgid ""
 "{g|Encyclopedia:Healing}healed{/g}, or use {g|Encyclopedia:Spell}spells{/g}, "
 "such as heal or lesser restoration."
 msgstr ""
+"이 {g|Encyclopedia:Damage}피해{/g}를 없애려면, 완전히 회복될 때까지 "
+"{g|Encyclopedia:Rest}휴식{/g}하거나, 치유나 하급 상태회복 등의 {g|Encyclopedia:Spell}주문{/g} "
+"또는 주문 두루마리를 활용하세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDrain::m_TitleText
@@ -91,6 +100,8 @@ msgid ""
 "ability {g|Encyclopedia:Damage}damage{/g}. While it is in effect, the "
 "ability modifiers are reduced."
 msgstr ""
+"{g|Encyclopedia:AbilityDamage}능력치 소진{/g}은 더 심각한 형태의 "
+"{g|Encyclopedia:AbilityDamage}능력치 피해{/g}입니다. 소진된 능력치로부터 받는 수정치가 감소합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDrain::m_SolutionFoundText
@@ -100,6 +111,8 @@ msgid ""
 "drain{/g}, use a {g|Encyclopedia:Spell}spell{/g} (or spell scroll), such as "
 "heal or restoration."
 msgstr ""
+"{g|Encyclopedia:AbilityDamage}능력치 소진{/g}을 {g|Encyclopedia:Healing}치료{/g}하려면 "
+"치유나 상태회복 등의 {g|Encyclopedia:Spell}주문{/g}(또는 두루마리)를 사용하십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AbilityDrain::m_SolutionNotFoundText
@@ -110,6 +123,9 @@ msgid ""
 "{g|Encyclopedia:Healing}healed{/g}, or use {g|Encyclopedia:Spell}spells{/g}, "
 "such as heal or lesser restoration."
 msgstr ""
+"이 {g|Encyclopedia:Damage}피해{/g}를 없애려면, 완전히 회복될 때까지 "
+"{g|Encyclopedia:Rest}휴식{/g}하거나, 치유나 하급 상태회복 등의 {g|Encyclopedia:Spell}주문{/g} "
+"또는 주문 두루마리를 활용하세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArcaneSpellFailure::m_TitleText
@@ -124,6 +140,8 @@ msgid ""
 "Character {t|SourceUnit} has failed to cast the arcane "
 "{g|Encyclopedia:Spell}spell{/g} {t|SourceAbility}."
 msgstr ""
+"{t|SourceUnit} 캐릭터가 비전 {g|Encyclopedia:Spell}주문{/g} {t|SourceAbility}의 시전에 "
+"실패했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArcaneSpellFailure::m_DescriptionText
@@ -137,6 +155,10 @@ msgid ""
 "Bards and maguses can wear light armor and use shields without a risk of "
 "arcane spell failure."
 msgstr ""
+"갑옷을 착용한 비전 {g|Encyclopedia:Spell}주문시전자{/g}는 주문 시전이 실패할 확률이 있습니다. 갑옷의 상세 설명에서 "
+"{g|Encyclopedia:Spell_Fail_Chance}주문 실패 확률{/g}을 확인할 수 있습니다.\n"
+"갑옷과 방패의 실패 확률은 합산됩니다.\n"
+"바드나 메이거스는 경장 갑옷과 방패를 착용해도 비전 주문 실패 확률이 상승하지 않습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArcaneSpellFailure::m_SolutionNotFoundText
@@ -148,12 +170,15 @@ msgid ""
 "Some {g|Encyclopedia:Feat}feats{/g} reduce this chance — such as Arcane "
 "Armor Training."
 msgstr ""
+"비전 주문 실패 확률을 낮추고 싶다면, {g|Encyclopedia:Armor_Class}방어도{/g}를 일부 포기해야 합니다. "
+"{t|SolutionItem} 방어구를 해제하거나, 더 가벼운 장비로 교체하십시오.\n"
+"비전 갑옷 훈련 등의 {g|Encyclopedia:Feat}특기{/g}는 실패 확률을 경감시켜 줍니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorCheckPenalty::m_TitleText
 msgctxt "cd82555b-2181-4682-b241-5cd02df78665"
 msgid "Armor Penalties"
-msgstr ""
+msgstr "갑옷 페널티"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorCheckPenalty::m_TriggerText
@@ -163,6 +188,8 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalty{/g} on their physical {g|Encyclopedia:Skills}"
 "skill checks{/g}."
 msgstr ""
+"{t|SourceUnit} 캐릭터가 육체적인 {g|Encyclopedia:Skills}기술 판정{/g}에 큰 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 주는 갑옷을 착용하고 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorCheckPenalty::m_DescriptionText
@@ -175,6 +202,10 @@ msgid ""
 "{g|Encyclopedia:Trickery}Trickery{/g}. The heavier the armor, the bigger the "
 "penalty."
 msgstr ""
+"갑옷을 착용하면 일부 육체적 {g|Encyclopedia:Skills}기술 판정{/g}에 페널티를 받을 수 있습니다. 페널티를 받는 "
+"기술에는 {g|Encyclopedia:Athletics}운동{/g}, {g|Encyclopedia:Mobility}기동성{/g}, "
+"{g|Encyclopedia:Stealth}은신{/g}, {g|Encyclopedia:Trickery}속임수{/g}가 있습니다. 무거운 "
+"갑옷일수록 페널티 또한 커집니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorCheckPenalty::m_SolutionNotFoundText
@@ -186,6 +217,8 @@ msgid ""
 "these skills to the characters whose classes don't depend on wearing armor ("
 "such as rangers or monks)."
 msgstr ""
+"육체적 {g|Encyclopedia:Skills}기술 판정{/g}을 시도하기 전에 갑옷을 착용 해제하고, 판정이 끝난 뒤에 다시 "
+"착용하십시오. 갑옷을 착용하지 않는 클래스(레인저나 몽크 등)를 가진 캐릭터에게 이런 기술을 주는 것도 좋은 방법입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorDexMax::m_TitleText
@@ -202,6 +235,10 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} to "
 "{t|Value1}. Without armor, this bonus would be ({t|Value2})."
 msgstr ""
+"{t|SourceUnit} 캐릭터가 {t|SourceItem} 갑옷을 착용해서 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 적용되는 {g|Encyclopedia:Dexterity}민첩{/g} "
+"{g|Encyclopedia:Bonus}보너스{/g}가 {t|Value1} 점으로 제한되었습니다. 갑옷을 해제한다면 {t|Value2} "
+"점의 보너스를 받을 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorDexMax::m_DescriptionText
@@ -222,12 +259,14 @@ msgid ""
 "This character should wear a lighter armor. {t|SourceItem} would better "
 "serve a character with a lower {g|Encyclopedia:Dexterity}Dexterity{/g} score."
 msgstr ""
+"이 캐릭터는 더 가벼운 갑옷을 착용해야 합니다. {t|SourceItem} 장비는 "
+"{g|Encyclopedia:Dexterity}민첩{/g} 능력치가 더 낮은 캐릭터에게 적합합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AttackOfOpportunity::m_TitleText
 msgctxt "5fd51408-4076-4f8c-bec4-dcb1b167f8e3"
 msgid "Attack of Opportunity"
-msgstr ""
+msgstr "기회 공격"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AttackOfOpportunity::m_TriggerText
@@ -237,6 +276,8 @@ msgid ""
 "{g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g} from the "
 "enemy {t|SourceUnit}."
 msgstr ""
+"{t|TargetUnit} 캐릭터가 {t|SourceUnit} 적으로부터 "
+"{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을 받았습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AttackOfOpportunity::m_DescriptionText
@@ -258,6 +299,16 @@ msgid ""
 "Some weapons, such as glaives, also increase the "
 "{g|Encyclopedia:Size}size{/g} of your threatened area."
 msgstr ""
+"{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}은 특별한 "
+"{g|Encyclopedia:MeleeAttack}근접 공격{/g}입니다. 위협 범위 내의 적이 특정한 행동을 하면 기회 공격이 "
+"발동됩니다. {g|Encyclopedia:Threatened_Area}위협 범위{/g} 내의 적들이 다음과 같은 "
+"{g|Encyclopedia:CA_Types}행동{/g}을 하면 기회 공격이 유발됩니다.\n"
+"* 근접 범위를 벗어나려 할 때\n"
+"* {g|Encyclopedia:RangedAttack}원거리 공격{/g}을 할 때\n"
+"* 쓰러진 상태에서 일어나려고 할 때\n"
+"* {g|Encyclopedia:Spell}주문{/g}을 시전하려고 할 때\n"
+"* 물약을 마실 때\n"
+"일반적으로 크리처의 크기가 클수록 위협 범위 또한 넓습니다. 글레이브 등의 장병기를 착용해도 위협 범위가 넓어집니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_AttackOfOpportunity::m_SolutionNotFoundText
@@ -274,6 +325,14 @@ msgid ""
 "Unless you want to enter melee with an enemy, try to not get too close to "
 "them."
 msgstr ""
+"대부분의 경우 {g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을 예방할 수 있습니다. 근접 범위를 "
+"벗어나려는 캐릭터의 경우 {g|Encyclopedia:Special_Abilities}특수 능력{/g}을 사용해 "
+"{g|Encyclopedia:Attack}공격{/g}을 유발하지 않고 "
+"{g|Encyclopedia:Mobility}이동{/g}{g|Encyclopedia:Skills}기술{/g} "
+"{g|Encyclopedia:Check}판정{/g}를 실시할 수 있습니다. 턴제 모드의 경우 캐릭터는 5피트 걸음으로 공격을 유발하지 "
+"않고 근접 범위를 벗어 날 수 있습니다. {g|Encyclopedia:Spell}주문시전자{/g}들은 근접 범위 안일 경우 자동으로 "
+"방어적 시전을 시도합니다.\n"
+"적과의 근접전을 원하는 것이 아니라면, 적이 접근하지 못하게 하십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Autocast::m_TitleText
@@ -288,6 +347,8 @@ msgid ""
 "{t|SourceUnit} has the {g|Encyclopedia:Cantrips_Orisons}cantrip{/g} "
 "{t|SourceAbility} that can be used indefinitely and for free."
 msgstr ""
+"{t|SourceUnit} 캐릭터는 {t|SourceAbility} "
+"{g|Encyclopedia:Cantrips_Orisons}캔트립{/g}을 제한 없이 시전할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Autocast::m_DescriptionText
@@ -300,6 +361,10 @@ msgid ""
 "character will automatically use it instead of their equipped weapon when "
 "{g|Encyclopedia:Attack}attacking{/g}."
 msgstr ""
+"{g|Encyclopedia:Cantrips_Orisons}캔트립{/g}과 오리즌은 횟수 제한 없이 시전할 수 있는 특별한 종류의 "
+"주문입니다. 산성 분사, 서리 광선 주문 캔트립에 해당됩니다.\n"
+"이런 주문에 마우스 오른쪽 버튼을 클릭하면 활성 슬롯으로 이동되며, 해당 캐릭터가 {g|Encyclopedia:Attack}공격{/g}할 "
+"때 착용한 무기 대신 해당 주문을 사용합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Autocast::m_SolutionNotFoundText
@@ -315,7 +380,7 @@ msgstr ""
 #. Path = ContextTutor_BardicPerformance::m_TitleText
 msgctxt "61f45227-7964-4ec3-9aaa-06b9311758c9"
 msgid "Bardic Performance"
-msgstr ""
+msgstr "바드 공연"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BardicPerformance::m_TriggerText
@@ -1096,12 +1161,15 @@ msgstr "에너지 저항"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EnergyResistance::m_TriggerText
+#, fuzzy
 msgctxt "5b3d695a-0ba1-4898-a44d-093f43903c26"
 msgid ""
 "Your enemy {t|TargetUnit} is highly resistant to "
 "{g|Encyclopedia:Energy_Damage}energy damage{/g} with the descriptor "
 "{t|Descriptor}."
 msgstr ""
+"{t|TargetUnit} 적은 {t|Descriptor} {g|Encyclopedia:Energy_Damage}에너지 피해{/g}에 "
+"매우 높은 저항력을 갖고 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EnergyResistance::m_DescriptionText
@@ -1117,6 +1185,12 @@ msgid ""
 "damage of this type they receive is reduced by a fixed number.\n"
 "You can learn this information by inspecting the creature."
 msgstr ""
+"{g|Encyclopedia:Damage}피해{/g}의 유형에는 물리 피해와 {g|Encyclopedia:Energy_Damage}에너지 "
+"피해{/g}가 있습니다. 에너지 피해를 주는 방법엔 여러 가지가 있지만 제일 일반적인 방법은 "
+"{g|Encyclopedia:Spell}주문{/g}을 쓰는 것입니다. 에너지 피해 유형에는 화염, 냉기, 산성, 전기, 역장, 음파, "
+"신격, 양에너지, 음에너지가 있습니다.\n"
+"몇몇 크리처는 하나 이상의 에너지 피해를 저항합니다. 이런 저항을 통해 에너지 피해는 일정 숫자만큼 감소합니다. \n"
+"크리처 조사를 통해 자세한 정보를 확인할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EnergyResistance::m_SolutionFoundText
@@ -1126,6 +1200,8 @@ msgid ""
 "{g|Encyclopedia:Attack}attacks{/g} or a {g|Encyclopedia:Spell}spell{/g} that "
 "deals {g|Encyclopedia:Damage}damage{/g} with a different type of energy:"
 msgstr ""
+"더 효과적으로 이 적을 상대하기 위해서 물리 {g|Encyclopedia:Attack}공격{/g}을 하거나 다른 유형의 에너지로 "
+"{g|Encyclopedia:Damage}피해{/g}를 가하는 {g|Encyclopedia:Spell}주문{/g}을 사용하십시오:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_EnergyResistance::m_SolutionNotFoundText
@@ -3513,7 +3589,7 @@ msgstr ""
 #. Path = NewTutorial_25_Camping_2::Components/2/m_TitleText
 msgctxt "928569a0-24c3-484a-9f07-32c9c23e4cc9"
 msgid "Positions"
-msgstr ""
+msgstr "역할"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_25_Camping_2::Components/2/m_DescriptionText
@@ -3555,6 +3631,9 @@ msgid ""
 "either the middle button, or <b>[Alt]</b>. You can also use the "
 "<b>[{bind|CameraRotateLeft}]</b> and <b>[{bind|CameraRotateRigt}]</b> keys."
 msgstr ""
+"알림: 마우스 가운데 버튼을 누르거나 <b>[Alt]</b> 키를 누른 채 마우스를 움직여 카메라를 전환할 수 있습니다. 또는 "
+"<b>[{bind|CameraRotateLeft}]</b> 키와 <b>[{bind|CameraRotateRigt}]</b> 키를 눌러 "
+"화면을 전환할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_4_Journal::m_DescriptionText
@@ -3566,10 +3645,13 @@ msgid ""
 "{br}To open the Journal, press <b>[{bind|OpenJournal}]</b> or click "
 "<b>[LMB]</b> on the message at the top of the screen."
 msgstr ""
+"임무가 갱신되면 게임의 주 화면 상단에 알림이 보일 것입니다.\n"
+"당신의 임무와 심부름에 대한 정보들은 일지에 기록됩니다.\n"
+"{br}일지를 살펴보려면 <b>[{bind|OpenJournal}]</b>을(를)누르거나 화면 상단에 표시된 메세지를 <b>[LMB]</"
+"b>로 클릭하십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_5_DialogSkillcheck_F::m_TitleText
-#, fuzzy
 msgctxt "05b44e17-f4a2-4f1f-841f-7ac2de0e7fe4"
 msgid "Results of a Skill Check"
 msgstr "기술 판정 결과"
@@ -3593,7 +3675,7 @@ msgstr ""
 #. Path = NewTutorial_5_DialogSkillcheck_S::m_TitleText
 msgctxt "12c243c9-cba0-441e-82c3-aa81cf682cb7"
 msgid "Results of a Skill Check"
-msgstr ""
+msgstr "기술 판정 결과"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_5_DialogSkillcheck_S::m_DescriptionText
@@ -3605,10 +3687,10 @@ msgid ""
 "to act alone, so she would have become fatigued and incurred a temporary "
 "{g|Encyclopedia:Penalty}penalty{/g} to some of her abilities."
 msgstr ""
-"당신은 {g|Encyclopedia:Skills}기술 판정{/g}에 성공하여 실라가 아네비아를 돌무더기 밑에서 꺼낼 수 있게 "
-"도와주었습니다.\n"
-"만약 기술 {g|Encyclopedia:Check}판정{/g}에 실패했다면 실라 혼자 행동했을 것이고 그로 인해 실라는 피로 상태가 되고 "
-"일부 능력에 일시적인 {g|Encyclopedia:Penalty}패널티{/g}를 입었을 것입니다."
+"당신은 {g|Encyclopedia:Skills}기술 판정{/g}에 성공하여 실라가 아네비아를 돌무더기 밑에서 꺼내는 것을 도와주었습니다."
+"\n"
+"만약 기술 {g|Encyclopedia:Check}판정{/g}에 실패했다면 실라 혼자 행동했을 것이고, 그로 인해 실라는 피로 상태가 "
+"되고 일부 능력에 일시적인 {g|Encyclopedia:Penalty}패널티{/g}를 입었을 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_9_1_Light::m_DescriptionText
@@ -3619,6 +3701,9 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g} on a character walking in front of the "
 "party. The second is to give one of the characters a {t|SourceItem} to carry."
 msgstr ""
+"동굴과 같은 어두운 장소에서는 아무것도 보기가 힘듭니다. 길을 밝히기 위한 두 가지 방법이 있습니다. 첫째는 일행 선두에 선 캐릭터에게 "
+"{t|SourceAbility} {g|Encyclopedia:Spell}주문{/g}을 시전하는 것입니다. 둘째는 캐릭터 중 한 명에게 "
+"{t|SourceItem} 아이템을 들게 하는 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_CampMove::m_TitleText
@@ -3727,6 +3812,9 @@ msgid ""
 "{br}To switch between turn-based and real-time modes, use "
 "<b>[{bind|SwitchTBM}]</b>."
 msgstr ""
+"턴 기반 모드에서 어떤 전투는 너무 길어질 수 있습니다. 당신은 항상 전투 중에도 일시 정지 기능이 있는 실시간 전투로 변경할 수 "
+"있습니다.\n"
+"{br}턴 기반 모드와 실시간 모드를 서로 변경하려면 <b>[{bind|SwitchTBM}]</b> 키를 누르십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_ReminderTBM_Gamepad::m_DescriptionText
@@ -3738,6 +3826,10 @@ msgid ""
 "{br}To switch between turn-based and real-time modes, use "
 "<b>{console_bind|RightStickButton}</b>."
 msgstr ""
+"턴 기반 모드에서 어떤 전투는 너무 길어질 수 있습니다. 당신은 항상 전투 중에도 일시 정지 기능이 있는 실시간 전투로 변경할 수 "
+"있습니다.\n"
+"{br}턴 기반 모드와 실시간 모드를 서로 변경하려면 <b>{console_bind|RightStickButton}</b> 키를 "
+"누르십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_TBM::m_DescriptionText
@@ -3759,6 +3851,15 @@ msgid ""
 "the character until the end of the combat (however, you can still delay the "
 "character's turn again)."
 msgstr ""
+"턴 기반 모드에선 캐릭터들은 차례대로 행동합니다. 차례 순서는 {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Check}판정{/g}과 캐릭터의 해당 {g|Encyclopedia:Ability_Scores}능력치 "
+"점수{/g}에 따라 결정됩니다. 자기 차례에 캐릭터는 몇 가지 {g|Encyclopedia:CA_Types}행동{/g}을 할 수 있으며 "
+"행동을 마치면 다음 우선권 대기열의 캐릭터 차례가 됩니다.\n"
+"{br}<b>우선권 대기열.</b>\n"
+"전투가 시작되면 우선권 판정을 통해 차례 순서를 정합니다. 캐릭터의 우선권이 높을수록 캐릭터는 더 먼저 행동하고 우선권 대기열 화면에 "
+"나오는 횟수는 줄어듭니다. 당신은 캐릭터의 차례를 더 편리한 시기로 미룰 수 있습니다. 이렇게 차례를 미루기 위해선 우선권 대기열에서 "
+"미루고자 하는 캐릭터를 선택하십시오. 우선권 대기열에서 이와 같은 행동은 되돌릴 수 없습니다. 그리고 전투가 끝날 때까지 캐릭터는 새로운 "
+"우선권 점수를 가집니다(하지만 캐릭터의 순서는 계속 미룰 수 있습니다)."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_TBM::Components/0/m_TitleText

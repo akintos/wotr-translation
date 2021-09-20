@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-18 13:23+0000\n"
+"PO-Revision-Date: 2021-09-20 02:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -7930,7 +7930,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningArcAasimar::m_DisplayName
-#, fuzzy
 msgctxt "8f702b2a-c6c7-44bc-8bdd-a75e864b101c"
 msgid "Burning Arc"
 msgstr "불줄기"
@@ -7940,15 +7939,6 @@ msgstr "불줄기"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningArcAasimar::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell causes an arc of flame to leap from your fingers, burning one "
-#| "enemy nearby plus one additional enemy per 3 caster levels, each of which "
-#| "must be within 15 feet of the primary target.\n"
-#| "It deals 1d6 points of fire damage per caster level (maximum 10d6) to the "
-#| "primary target. For every additional target, reduce the number of damage "
-#| "dice by half (rounded down).\n"
-#| "Each target can attempt a Reflex saving throw for half damage."
 msgctxt "f9114e33-b3e3-472e-8b86-b60b850cb8db"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} causes an arc of flame to leap from "
@@ -7962,31 +7952,20 @@ msgid ""
 "Each target can attempt a {g|Encyclopedia:Saving_Throw}Reflex saving "
 "throw{/g} for half damage."
 msgstr ""
-"한 줄기 화염을 손가락으로부터 방출해, 인근의 적 하나 + 시전자 레벨 3 당 추가로 하나의 적 (1차 대상으로부터 15ft 이내) 을 "
+"한 줄기 화염을 손가락으로부터 방출해, 근처의 적 하나 + 시전자 레벨 3 당 추가로 하나의 적 (1차 대상으로부터 15ft 이내) 을 "
 "태워버립니다.\n"
-"1차 대상은 시전자 레벨당 1d6 피해 (최대 10d6) 를 입으며, 추가적인 주문 대상들은 각각 기존 피해의 절반값 (소수점 버림) "
-"만큼의 피해를 받습니다.\n"
-"각각의 대상은 반사 내성을 통해 피해를 반으로 줄일 수 있습니다."
+"1차 대상은 시전자 레벨당 {g|Encyclopedia:Dice}1d6{/g} 점의 {g|Encyclopedia:Energy_Damage}"
+"화염 피해{/g} (최대 10d6) 를 입으며, 추가적인 주문 대상들은 각각 기존 피해의 절반(소수점 버림)의 피해를 받습니다.\n"
+"각각의 대상은 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 성공하면 절반의 피해를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningArc_Cutscene::m_DisplayName
-#, fuzzy
 msgctxt "d409323f-4569-4389-be1f-d27cf8b9a9b4"
 msgid "Burning Arc"
 msgstr "불줄기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningArc_Cutscene::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell causes an arc of flame to leap from your fingers, burning a "
-#| "number of enemies nearby. It deals 1d6 points of fire damage per caster "
-#| "level (maximum 10d6). For every additional target the discharge arcs to, "
-#| "reduce the number of damage dice by half (rounded down). Therefore, at 9th "
-#| "level, your burning arc deals 9d6 points of fire damage to the primary "
-#| "target, then 4d6 points of fire damage to a secondary target, then 2d6 "
-#| "points of fire damage to an additional target.\n"
-#| "Each target can attempt a Reflex saving throw for half damage."
 msgctxt "6e4470d8-3b5c-4134-9a4b-8ca1c1d04111"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} causes an arc of flame to leap from "
@@ -8001,47 +7980,38 @@ msgid ""
 "Each target can attempt a {g|Encyclopedia:Saving_Throw}Reflex saving "
 "throw{/g} for half damage."
 msgstr ""
-"이 주문을 사용하면 화염 한 줄기가 손가락에서 뛰쳐나가 인근의 적 여럿을 태웁니다. 시전자 레벨 당 1d6 점의 화염 피해를 입힙니다. ("
-"최대 10d6) 다른 대상에게 전이될 때 마다 피해 주사위 수를 반으로 줄입니다. (소수점 버림) 따라서 9 레벨에 불줄기는 1차 대상에 "
-"9d6 점의 화염 피해를 입히고 2차 대상에게 4d6 점의 화염 피해를 입히고 추가 대상에 2d6점의 화염 피해를 줍니다.\n"
-"각각의 대상은 반사 내성을 통해 피해를 반으로 줄일 수 있습니다."
+"손가락으로부터 한 줄기 화염을 방출해, 근처의 적들을 불태웁니다. 맞은 대상에게 {g|Encyclopedia:Caster_Level}"
+"시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d6{/g} 점의 {g|Encyclopedia:Energy_Damage}화염 "
+"피해{/g} (최대 10d6) 를 가합니다. 불줄기에 맞는 추가 대상들은 각각 기존 피해의 절반(소수점 버림)의 피해를 받습니다. "
+"따라서, 시전자 레벨 9일 경우 첫 대상에게 9d6 점, 두번째 대상에게 4d6 점, 세번째 대상에게 2d6 점의 화염피해를 가합니다.\n"
+"각각의 대상은 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 성공하면 절반의 피해를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHands::m_DisplayName
-#, fuzzy
 msgctxt "e4cad700-cda6-487a-9967-8c74552c9a88"
 msgid "Burning Hands"
 msgstr "불타는 손"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHands::m_Description
-#, fuzzy
-#| msgid ""
-#| "Any creature in the area of the flames takes 1d4 points of fire damage per "
-#| "caster level (maximum 5d4)."
 msgctxt "843c195d-ca95-4af9-9375-5c5f9a18f44f"
 msgid ""
 "Any creature in the area of the flames takes {g|Encyclopedia:Dice}1d4{/g} "
 "points of {g|Encyclopedia:Energy_Damage}fire damage{/g} per "
 "{g|Encyclopedia:Caster_Level}caster level{/g} (maximum 5d4)."
-msgstr "범위 내 모든 크리처는 시전자 레벨당 1d4점 (최대 5d4)의 화염 피해를 받습니다."
+msgstr ""
+"범위 내 모든 크리처는 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d4{/g} (최대 5d4) 점의 {g|Encyclopedia:Energy_Damage}화염 "
+"피해{/g}를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHandsAcid::m_DisplayName
-#, fuzzy
 msgctxt "29a1a347-8ac1-4716-80f2-6ea895cdea18"
 msgid "Burning Hands (Acid)"
 msgstr "불타는 손 (산성)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHandsAcid::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell always deals a type of damage determined by your element (earth). "
-#| "In addition, the subtype of this spell changes to match the energy type of "
-#| "your element.\n"
-#| "Any creature in the area takes 1d4 points of acid damage per caster level ("
-#| "maximum 5d4)."
 msgctxt "f1eaa61d-b303-4066-86b6-a6075006f02e"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} always deals a type of "
@@ -8052,26 +8022,20 @@ msgid ""
 "{g|Encyclopedia:Energy_Damage}acid damage{/g} per "
 "{g|Encyclopedia:Caster_Level}caster level{/g} (maximum 5d4)."
 msgstr ""
-"이 주문은 항상 원소 (대지)에 따른 종류의 피해를 입힙니다. 또한, 이 주문의 하위 유형은 자신의 원소의 에너지 유형과 일치하도록 "
-"변경됩니다. \n"
-"범위 안의 모든 크리처에게 시전자 당 최대 1d4점의 산성 피해가 발생합니다 (최대 5d4)."
+"이 주문은 항상 당신의 원소(대지)의해 결정되는 유형의 피해를 가합니다. 또한, 이 주문의 하위 유형은 자신의 원소의 에너지 유형과 "
+"일치하도록 변경됩니다. \n"
+"범위 안의 모든 크리처에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d4{/g} 점의 {g|Encyclopedia:Energy_Damage}산성 피해{/g}를 "
+"가합니다 (최대 5d4)."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHandsCold::m_DisplayName
-#, fuzzy
 msgctxt "f20e5a1a-b35e-423f-85af-fe891025b9af"
 msgid "Burning Hands (Cold)"
 msgstr "불타는 손 (냉기)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHandsCold::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell always deals a type of damage determined by your element (water). "
-#| "In addition, the subtype of this spell changes to match the energy type of "
-#| "your element.\n"
-#| "Any creature in the area takes 1d4 points of cold damage per caster level ("
-#| "maximum 5d4)."
 msgctxt "3c3e101e-0be8-4a1f-91d1-e70bd99317d2"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} always deals a type of "
@@ -8082,26 +8046,20 @@ msgid ""
 "{g|Encyclopedia:Energy_Damage}cold damage{/g} per "
 "{g|Encyclopedia:Caster_Level}caster level{/g} (maximum 5d4)."
 msgstr ""
-"이 주문은 항상 원소 (물)에 따른 종류의 피해를 입힙니다. 또한, 이 주문의 하위 유형은 자신의 원소의 에너지 유형과 일치하도록 "
-"변경됩니다. \n"
-"범위 안의 모든 크리처에게 시전자 당 최대 1d4점의 냉기 피해가 발생합니다 (최대 5d4)."
+"이 주문은 항상 당신의 원소(물)의해 결정되는 유형의 피해를 가합니다. 또한, 이 주문의 하위 유형은 자신의 원소의 에너지 유형과 "
+"일치하도록 변경됩니다. \n"
+"범위 안의 모든 크리처에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d4{/g} 점의 {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 "
+"가합니다 (최대 5d4)."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHandsElecricity::m_DisplayName
-#, fuzzy
 msgctxt "921fcf4b-d405-489e-bc67-3d70b3e40a16"
 msgid "Burning Hands (Electricity)"
 msgstr "불타는 손 (전기)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurningHandsElecricity::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell always deals a type of damage determined by your element (air). "
-#| "In addition, the subtype of this spell changes to match the energy type of "
-#| "your element.\n"
-#| "Any creature in the area takes 1d4 points of electricity damage per caster "
-#| "level (maximum 5d4)."
 msgctxt "5e08914b-dadb-480f-aeed-a36321e2d060"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} always deals a type of "
@@ -8112,27 +8070,23 @@ msgid ""
 "{g|Encyclopedia:Energy_Damage}electricity damage{/g} per "
 "{g|Encyclopedia:Caster_Level}caster level{/g} (maximum 5d4)."
 msgstr ""
-"이 주문은 항상 원소 (공기)에 따른 종류의 피해를 입힙니다. 또한, 이 주문의 하위 유형은 자신의 원소의 에너지 유형과 일치하도록 "
-"변경됩니다. \n"
-"범위 안의 모든 크리처에게 시전자 당 최대 1d4점의 전기 피해가 발생합니다 (최대 5d4)."
+"이 주문은 항상 당신의 원소(대기)의해 결정되는 유형의 피해를 가합니다. 또한, 이 주문의 하위 유형은 자신의 원소의 에너지 유형과 "
+"일치하도록 변경됩니다. \n"
+"범위 안의 모든 크리처에게 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d4{/g} 점의 {g|Encyclopedia:Energy_Damage}전기 피해{/g}를 "
+"가합니다 (최대 5d4)."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurstOfGlory::m_DisplayName
-#, fuzzy
 msgctxt "7da5f11b-2319-4958-94da-a95b641499ba"
 msgid "Burst of Glory"
-msgstr "영광의 파열"
+msgstr "피어나는 영광"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurstOfGlory::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BurstOfGloryBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "Allies in the area of this spell at the time of casting gain a +1 sacred "
-#| "bonus on attack rolls and saves against fear effects, plus 1 temporary hit "
-#| "point per caster level (maximum 20)."
 msgctxt "3679a54d-9da0-4fd8-a1d1-c885de182d36"
 msgid ""
 "Allies in the area of this {g|Encyclopedia:Spell}spell{/g} at the time of "
@@ -8142,8 +8096,10 @@ msgid ""
 "temporary hit point per {g|Encyclopedia:Caster_Level}caster level{/g} ("
 "maximum 20)."
 msgstr ""
-"범위 내 모든 아군에게 명중 굴림과 공포 효과에 대한 내성에 +1 신성 보너스를 주고, 시전자 레벨 당 1의 (최대 20) 임시 생명점을 "
-"더해줍니다."
+"이 {g|Encyclopedia:Spell}주문{/g}의 범위 내 모든 아군에게 {g|Encyclopedia:Attack}공격 굴림{/g}"
+"과 공포 효과에 대한 {g|Encyclopedia:Saving_Throw}내성{/g}에 +1 신성 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 주고, {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 "
+"1 점의 (최대 20) 임시 생명점을 부여합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BurstOfSonicEnergy::m_DisplayName
@@ -8193,7 +8149,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CacophonousCallTiefling::m_DisplayName
-#, fuzzy
 msgctxt "b1661285-327c-4baf-8c1a-8a73b22582d8"
 msgid "Cacophonous Call"
 msgstr "불협화음 연주"
@@ -8203,11 +8158,6 @@ msgstr "불협화음 연주"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CacophonousCallTiefling::m_Description
-#, fuzzy
-#| msgid ""
-#| "You fill your target's mind with a blaring cacophony of discordant sounds, "
-#| "making it hard for the target to act and concentrate. The creature gains the "
-#| "nauseated condition for the duration of the spell if it fails its Will save."
 msgctxt "c41bb561-bfad-406a-92b3-fb535403a368"
 msgid ""
 "You fill your target's mind with a blaring cacophony of discordant sounds, "
@@ -8216,26 +8166,18 @@ msgid ""
 "nauseated condition for the duration of the {g|Encyclopedia:Spell}spell{/g} "
 "if it fails its {g|Encyclopedia:Saving_Throw}Will save{/g}."
 msgstr ""
-"대상의 마음을 요란한 불협화음 및 거슬리는 소리들로 가득 채워, 제대로 집중하거나 행동하기 어렵게 합니다. 대상은 의지 내성에 실패 시 "
-"지속기간 동안 구토 상태가 됩니다."
+"대상의 마음을 요란한 불협화음 및 거슬리는 소리들로 가득 채워, 제대로 {g|Encyclopedia:Concentration}집중{/g}"
+"하거나 행동하기 어렵게 합니다. 대상은 {g|Encyclopedia:Saving_Throw}의지 내성{/g}에 실패 시 "
+"{g|Encyclopedia:Spell}주문{/g}의 지속시간 동안 구토 상태가 됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CacophonousCallMass::m_DisplayName
-#, fuzzy
 msgctxt "1decdcda-f754-4e6b-8287-0c5852e6529a"
 msgid "Cacophonous Call, Mass"
-msgstr "집단 불협화음"
+msgstr "불협화음, 집단"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CacophonousCallMass::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell functions as cacophonous call, except that is affects multiple "
-#| "creatures.\n"
-#| "Cacophonous Call: You fill your target's mind with a blaring cacophony of "
-#| "discordant sounds, making it hard for the target to act and concentrate. The "
-#| "creature gains the nauseated condition for the duration of the spell if it "
-#| "fails its Will save."
 msgctxt "b24c9baf-b0c5-4dae-89d8-6b087490f7a0"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} functions as cacophonous call, except "
@@ -8246,13 +8188,13 @@ msgid ""
 "nauseated condition for the duration of the spell if it fails its "
 "{g|Encyclopedia:Saving_Throw}Will save{/g}."
 msgstr ""
-"이 주문은 여러 대상에게 영향을 주는 불협화음입니다.\n"
-"불협화음: 대상의 마음을 요란한 불협화음 및 거슬리는 소리들로 가득 채워, 제대로 집중하거나 행동하기 어렵게 합니다. 대상은 의지 내성에 "
-"실패 시 지속기간 동안 구토 상태가 됩니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 여러 대상에게 영향을 주는 불협화음입니다.\n"
+"불협화음: 대상의 마음을 요란한 불협화음 및 거슬리는 소리들로 가득 채워, 제대로 "
+"{g|Encyclopedia:Concentration}집중{/g}하거나 행동하기 어렵게 합니다. 대상은 "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}에 실패 시 주문의 지속시간 동안 구토 상태가 됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CallLightning::m_DisplayName
-#, fuzzy
 msgctxt "549638ac-0898-4d45-8deb-9358eb105c0c"
 msgid "Call Lightning"
 msgstr "번개 소환"
@@ -13295,7 +13237,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DimensionDoor::m_DisplayName
-#, fuzzy
 msgctxt "7f973c2e-9e9c-4284-b671-ff4b3456a363"
 msgid "Dimension Door — Mass"
 msgstr "차원문 - 집단"
@@ -13305,21 +13246,18 @@ msgstr "차원문 - 집단"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = QuickenedDimensionDoor_Cutscene::m_DisplayName
-#, fuzzy
 msgctxt "de40cbf6-33ae-41e1-abd2-81e4ba556f05"
 msgid "Dimension Door"
 msgstr "차원문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DimensionDoorCasterOnly::m_DisplayName
-#, fuzzy
 msgctxt "684e7018-efe0-4256-bfbc-26ce12fd212d"
 msgid "Dimension Door — Single"
 msgstr "차원문 - 자신"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DimensionDoor_Cutscene::m_DisplayName
-#, fuzzy
 msgctxt "fb3be6de-be37-4175-bd50-4a2bef6e6539"
 msgid "Dimension Door"
 msgstr "차원문"
@@ -19157,7 +19095,6 @@ msgstr "얼어붙는 손길"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = FWDimensionDoor::m_DisplayName
-#, fuzzy
 msgctxt "89265a9d-2cc4-40af-8e12-54e56698afa0"
 msgid "Dimension Door"
 msgstr "차원문"
@@ -25188,24 +25125,16 @@ msgstr ""
 #. Path = ModifiedMandragoraSuicideAbility::m_DisplayName
 msgctxt "7865e5f9-b11d-413f-8bea-b4fb53b18eac"
 msgid "Explosion"
-msgstr ""
+msgstr "폭발"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MoltenOrb::m_DisplayName
-#, fuzzy
 msgctxt "bd20545b-6fe2-47c0-a893-b17ce3516a61"
 msgid "Molten Orb"
 msgstr "쇳물의 공"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MoltenOrb::m_Description
-#, fuzzy
-#| msgid ""
-#| "You create a fist-sized, red-hot ball of molten metal that you immediately "
-#| "hurl as a splash weapon. A direct hit deals 2d6 points of fire damage. Every "
-#| "creature within 5 feet of where the ball hits takes 1d6 points of fire "
-#| "damage from the splash (Reflex half). Each of these creatures takes an "
-#| "additional 1d6 points of fire damage each round for the next 1d3 rounds."
 msgctxt "f2eb74c1-e8a2-4daa-ad83-a8758c3a950e"
 msgid ""
 "You create a fist-sized, red-hot ball of molten metal that you immediately "
@@ -25216,30 +25145,25 @@ msgid ""
 "these creatures takes an additional 1d6 points of fire damage each "
 "{g|Encyclopedia:Combat_Round}round{/g} for the next 1d3 rounds."
 msgstr ""
-"주먹 크기의 시뻘겋게 달아오른 쇳물을 던져 확산 무기로 사용합니다. 직격시 2d6 점의 화염 피해를 주고, 5 피트 이내의 모든 크리처는 "
-"1d6 점의 화염 피해를 받습니다. 반사 내성으로 피해를 절반 줄일 수 있습니다. 피해를 받은 모든 크리처는 다음 1d3 라운드 동안 매 "
-"라운드 1d6 점의 화염 피해를 받습니다."
+"주먹 크기의 붉게 달아오른 쇳물의 구체를 던져 확산 무기로 사용합니다. 직격시 {g|Encyclopedia:Dice}2d6{/g} 점의 "
+"{g|Encyclopedia:Energy_Damage}화염 피해{/g}를 가하고, 5 피트 이내의 모든 크리처는 1d6 점의 화염 피해를 "
+"받습니다. 반사 내성으로 {g|Encyclopedia:Damage}피해{/g}를 절반으로 줄일 수 있습니다. 피해를 받은 모든 크리처는 "
+"다음 1d3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 매 라운드 1d6 점의 화염 피해를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIId3::m_DisplayName
-#, fuzzy
 msgctxt "6300221c-7eef-4098-a3ac-397f4e1ca545"
 msgid "Summon Monster II (1d3 Dogs)"
-msgstr "괴물 소환 II (개 1d3 마리)"
+msgstr "괴물 소환 II (1d3 개)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIId3::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar dogs. They appear where you designate and "
-#| "act according to their initiative check results. They attack your opponents "
-#| "to the best of their ability."
 msgctxt "dd36bd6c-23d5-4a95-924a-181321e06a08"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25248,29 +25172,24 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 개를 1d3 만큼 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. "
-"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 개를 {g|Encyclopedia:Dice}1d3{/g} 마리 "
+"소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 "
+"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIIId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIIId3::m_DisplayName
-#, fuzzy
 msgctxt "4d849ee7-05b7-453d-bfdb-b470fbe27cd9"
 msgid "Summon Monster III (1d3 Wolves)"
-msgstr "괴물 소환 III (늑대 1d3 마리)"
+msgstr "괴물 소환 III (1d3 늑대)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIIId3::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar wolves. They appear where you designate "
-#| "and act according to their initiative check results. They attack your "
-#| "opponents to the best of their ability."
 msgctxt "a3bd538f-abcb-4537-bdb6-12304334c6fd"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25280,29 +25199,24 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} your opponents to the best of their "
 "ability."
 msgstr ""
-"이 주문은 다른 차원에서 늑대 1d3 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. "
-"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 늑대를 {g|Encyclopedia:Dice}1d3{/g} 마리 "
+"소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 "
+"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIIId4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIIId4plus1::m_DisplayName
-#, fuzzy
 msgctxt "1429ea91-f38a-4827-bf79-81634c198ba1"
 msgid "Summon Monster III (1d4+1 Dogs)"
-msgstr "괴물 소환 III (개 1d4+1 마리)"
+msgstr "괴물 소환 III (1d4+1 개)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIIId4plus1::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIIId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d4+1 extraplanar dogs. They appear where you designate "
-#| "and act according to their initiative check results. They attack your "
-#| "opponents to the best of their ability."
 msgctxt "7578406e-e0d5-47fe-b738-9a4389ced1c8"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d4{/g}+1 "
@@ -25311,7 +25225,8 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 개 1d4+1 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 개를 {g|Encyclopedia:Dice}1d4+1{/g} 마리 "
+"소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 "
 "행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -25319,7 +25234,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIIISingle::m_DisplayName
-#, fuzzy
 msgctxt "5fc34348-642e-4252-8ec9-6d406ade77a3"
 msgid "Summon Monster III (Monitor Lizard)"
 msgstr "괴물 소환 III (왕도마뱀)"
@@ -25329,11 +25243,6 @@ msgstr "괴물 소환 III (왕도마뱀)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons an extraplanar monitor lizard. It appears where you "
-#| "designate and acts according to its initiative check results. It attacks "
-#| "your opponents to the best of its ability."
 msgctxt "d06fcbf5-7e58-4b88-81cb-b0671c68430c"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons an extraplanar monitor lizard. "
@@ -25342,15 +25251,15 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 다른 차원에서 왕 도마뱀 한 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 왕도마뱀을 한마리 소환합니다. 소환물은 시전자가 지정한 곳에 "
+"나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 "
+"활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIISingle::m_DisplayName
-#, fuzzy
 msgctxt "309fd807-b2ba-41f0-b7b4-23ad9aaf3f53"
 msgid "Summon Monster II (Wolf)"
 msgstr "괴물 소환 II (늑대)"
@@ -25360,11 +25269,6 @@ msgstr "괴물 소환 II (늑대)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons an extraplanar wolf. It appears where you designate and "
-#| "acts according to its initiative check results. It attacks your opponents to "
-#| "the best of its ability."
 msgctxt "10949c32-7549-4dc7-abf5-af8409195a03"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons an extraplanar wolf. It appears "
@@ -25373,29 +25277,24 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 다른 차원에서 늑대 한 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. "
-"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 늑대를 한마리 소환합니다. 소환물은 시전자가 지정한 곳에 "
+"나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 "
+"활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIVd3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIVd3::m_DisplayName
-#, fuzzy
 msgctxt "e95f3738-1765-4f4e-b780-43b2d712dd8d"
 msgid "Summon Monster IV (1d3 Monitor Lizards)"
-msgstr "괴물 소환 IV (왕도마뱀 1d3 마리)"
+msgstr "괴물 소환 IV (1d3 왕도마뱀)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIVd3::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIVd3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar monitor lizards. They appear where you "
-#| "designate and act according to their initiative check results. They attack "
-#| "your opponents to the best of their ability."
 msgctxt "96e9531d-e50e-460a-86ff-a667a035eabd"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25405,29 +25304,24 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} your opponents to the best of their "
 "ability."
 msgstr ""
-"이 주문은 다른 차원에서 왕도마뱀 1d3마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 왕도마뱀을 {g|Encyclopedia:Dice}1d3{/g} "
+"마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 "
+"따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIVd4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIVd4plus1::m_DisplayName
-#, fuzzy
 msgctxt "44851148-f596-472f-aefa-fdfa67b8ae32"
 msgid "Summon Monster IV (1d4+1 Wolves)"
-msgstr "괴물 소환 IV (늑대 1d4+1 마리)"
+msgstr "괴물 소환 IV (1d4+1 늑대)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIVd4plus1::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIVd4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d4+1 extraplanar wolves. They appear where you designate "
-#| "and act according to their initiative check results. They attack your "
-#| "opponents to the best of their ability."
 msgctxt "965d66a5-8f97-412b-8756-9893f420d0b4"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d4{/g}+1 "
@@ -25437,29 +25331,24 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} your opponents to the best of their "
 "ability."
 msgstr ""
-"이 주문은 다른 차원에서 늑대 1d4+1 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 늑대를 {g|Encyclopedia:Dice}1d4+1{/g} "
+"마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 "
+"따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIVSingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIVSingle::m_DisplayName
-#, fuzzy
 msgctxt "a6d3dec9-9d6d-4374-8c1e-7f6ad1ea5fe2"
 msgid "Summon Monster IV (Dire Wolf)"
-msgstr "괴물 소환 IV (커다란 늑대)"
+msgstr "괴물 소환 IV (흉포한 늑대)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIVSingle::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIVSingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons an extraplanar dire wolf. It appears where you designate "
-#| "and acts according to its initiative check results. It attacks your "
-#| "opponents to the best of its ability."
 msgctxt "50877350-1442-4b75-b839-3954ef58c359"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons an extraplanar dire wolf. It "
@@ -25468,16 +25357,15 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 다른 차원에서 커다란 늑대 한 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 흉포한 늑대를 한마리 소환합니다. 소환물은 시전자가 지정한 곳에 "
+"나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 "
+"활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIXd3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIXd3::m_DisplayName
-#, fuzzy
-#| msgid "Summon Monster IX (1d3 Movanic Devas or Frost Giants)"
 msgctxt "a431d19e-617c-4480-8361-f83b5838ae9f"
 msgid ""
 "Summon Monster IX ({g|Encyclopedia:Dice}1d3{/g} Monadic Devas or Frost "
@@ -25489,12 +25377,6 @@ msgstr "괴물 소환 IX (1d3 모바닉 데바 또는 서리 거인)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIXd3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar frost giants if you are evil or 1d3 "
-#| "extraplanar movanic devas if you are not. They appear where you designate "
-#| "and act according to their initiative check results. They attack your "
-#| "opponents to the best of their ability."
 msgctxt "d1e81a02-73a5-4e00-97f9-407e1a7e20c9"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25504,15 +25386,16 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 악 성향이면 1d3 서리 거인을, 아니라면 1d3 모바닉 데바를 소환합니다. 소환물은 시전자가 지정한 곳에 "
-"나타나며, 우선권 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 서리 거인을, 아니면 모바닉 데바를 "
+"{g|Encyclopedia:Dice}1d3{/g} 마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 "
+"공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIXd4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIXd4plus1::m_DisplayName
-#, fuzzy
 msgctxt "1d766b96-eb99-4464-babe-1cfd72525427"
 msgid "Summon Monster IX (1d4+1 Bogeymen)"
 msgstr "괴물 소환 IX (1d4+1 부기맨)"
@@ -25522,11 +25405,6 @@ msgstr "괴물 소환 IX (1d4+1 부기맨)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIXd4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d4+1 bogeymen. They appear where you designate and act "
-#| "according to their initiative check results. They attack your opponents to "
-#| "the best of their ability."
 msgctxt "84716fd6-9745-4b14-8198-b6b3b2e35910"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d4{/g}+1 "
@@ -25535,15 +25413,15 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 1d4+1 부기맨을 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. "
-"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 부기맨을 {g|Encyclopedia:Dice}1d4+1{/g} "
+"마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 "
+"따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonIXSingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIXSingle::m_DisplayName
-#, fuzzy
 msgctxt "3e1756b2-1acd-4eb0-9c53-8c3290cd7344"
 msgid "Summon Monster IX (Ghaele Azata or Thanadaemon)"
 msgstr "괴물 소환 IX (게일 아자타 또는 타나다이몬)"
@@ -25553,11 +25431,6 @@ msgstr "괴물 소환 IX (게일 아자타 또는 타나다이몬)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterIXSingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons a thanadaemon if you are evil or a ghaele azata if you "
-#| "are not. It appears where you designate and acts according to its initiative "
-#| "check results. It attacks your opponents to the best of its ability."
 msgctxt "0bce297a-c619-4081-a639-113ee2d0b942"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons a thanadaemon if you are evil "
@@ -25566,29 +25439,24 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} results. It "
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
-"이 주문은 외부차원에서 악 성향이면 타나다이몬, 아니라면 게일 아자타를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 "
-"판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 타나다이몬을, 아니면 게일 아자타를 소환합니다. "
+"소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. "
+"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVd3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVd3::m_DisplayName
-#, fuzzy
 msgctxt "8ed2f8fa-e0cf-4293-aa33-4d953d14f082"
 msgid "Summon Monster V (1d3 Dire Wolves)"
-msgstr "괴물 소환 III (커다란 늑대 1d3 마리)"
+msgstr "괴물 소환 III (1d3 흉포한 늑대)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVd3::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVd3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar dire wolves. They appear where you "
-#| "designate and act according to their initiative check results. They attack "
-#| "your opponents to the best of their ability."
 msgctxt "eba5727b-11b6-4809-b86a-17233f9dd8ad"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25598,29 +25466,24 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} your opponents to the best of their "
 "ability."
 msgstr ""
-"이 주문은 다른 차원에서 커다란 늑대 1d3 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 흉포한 늑대를 {g|Encyclopedia:Dice}1d3{/g} "
+"마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 "
+"따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVd4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVd4plus1::m_DisplayName
-#, fuzzy
 msgctxt "595e9532-7495-4801-834a-a04796e51d91"
 msgid "Summon Monster V (1d4+1 Monitor Lizards)"
-msgstr "괴물 소환 V (왕도마뱀 1d4+1 마리)"
+msgstr "괴물 소환 V (1d4+1 왕도마뱀)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVd4plus1::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVd4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d4+1 extraplanar monitor lizards. They appear where you "
-#| "designate and act according to their initiative check results. They attack "
-#| "your opponents to the best of their ability."
 msgctxt "eb14a018-43a4-44f2-b821-1e72813a0d46"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d4{/g}+1 "
@@ -25630,16 +25493,15 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} your opponents to the best of their "
 "ability."
 msgstr ""
-"이 주문은 다른 차원에서 왕도마뱀 1d4+1 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 왕도마뱀을 {g|Encyclopedia:Dice}1d4+1{/g} "
+"마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 "
+"따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVId3::m_DisplayName
-#, fuzzy
-#| msgid "Summon Monster VI (1d3 Bralani Azatas or Redcaps)"
 msgctxt "0ce0be30-c8c2-4f26-a1a1-f445517bdf0d"
 msgid ""
 "Summon Monster VI ({g|Encyclopedia:Dice}1d3{/g} Bralani Azatas or Redcaps)"
@@ -25650,12 +25512,6 @@ msgstr "괴물 소환 VI (1d3 브라러니 아자타 또는 레드캡)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar redcaps if you are evil or 1d3 "
-#| "extraplanar bralani azatas if you are not. They appear where you designate "
-#| "and act according to their initiative check results. They attack your "
-#| "opponents to the best of their ability."
 msgctxt "a10e02d3-4c44-4279-94bc-a51e17c27bd3"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25665,29 +25521,25 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 악 성향이면 1d3 레드캡을, 아니라면 1d3 브라러니 아자타를 소환합니다. 소환물은 시전자가 지정한 곳에 "
-"나타나며, 우선권 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 레드캡을, 아니면 브라러니 아자타를 "
+"{g|Encyclopedia:Dice}1d3{/g} 마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 "
+"공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVId4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVId4plus1::m_DisplayName
-#, fuzzy
 msgctxt "d001987e-c6e8-4e65-ba19-a4a07430ac97"
 msgid "Summon Monster VI (1d4+1 Dire Wolves)"
-msgstr "괴물 소환 VI (커다란 늑대 1d4+1 마리)"
+msgstr "괴물 소환 VI (1d4+1 흉포한 늑대)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVId4plus1::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d4+1 extraplanar dire wolves. They appear where you "
-#| "designate and act according to their initiative check results. They attack "
-#| "your opponents to the best of their ability."
 msgctxt "d9d2935b-a7f0-416c-91db-5ee8b299e65d"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d4{/g}+1 "
@@ -25697,16 +25549,16 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} your opponents to the best of their "
 "ability."
 msgstr ""
-"이 주문은 다른 차원에서 커다란 늑대 1d4+1 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 "
-"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 흉포한 늑대를 "
+"{g|Encyclopedia:Dice}1d4+1{/g} 마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 "
+"공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVIId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIId3::m_DisplayName
-#, fuzzy
-#| msgid "Summon Monster VII (1d3 Axiomites or Soul Eaters)"
 msgctxt "e5a3669e-2fbd-495d-87ba-f9490d342694"
 msgid ""
 "Summon Monster VII ({g|Encyclopedia:Dice}1d3{/g} Axiomites or Soul Eaters)"
@@ -25717,12 +25569,6 @@ msgstr "괴물 소환 VI (1d3 액시오마이트 또는 소울 이터)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar soul eaters if you are evil or 1d3 "
-#| "extraplanar axiomites if you are not. They appear where you designate and "
-#| "act according to their initiative check results. They attack your opponents "
-#| "to the best of their ability."
 msgctxt "c5b48cca-f0a7-47c6-a032-ad5e85e9c414"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25732,16 +25578,16 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 악 성향이면 1d3 소울 이터를, 아니라면 1d3 액시오 마이트를 소환합니다. 소환물은 시전자가 지정한 곳에 "
-"나타나며, 우선권 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 소울 이터를, 아니면 액시오마이트를 "
+"{g|Encyclopedia:Dice}1d3{/g} 마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 "
+"공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVIId4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIId4plus1::m_DisplayName
-#, fuzzy
-#| msgid "Summon Monster VII (1d4+1 Bralani Azatas or Redcaps)"
 msgctxt "84fb4828-3c02-407f-8a96-fbdd0a3b7b83"
 msgid ""
 "Summon Monster VII ({g|Encyclopedia:Dice}1d4{/g}+1 Bralani Azatas or Redcaps)"
@@ -25752,12 +25598,6 @@ msgstr "괴물 소환 VII (1d4+1 브라러니 아자타 또는 레드캡)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d4+1 extraplanar redcaps if you are evil or 1d4+1 "
-#| "extraplanar bralani azatas if you are not. They appear where you designate "
-#| "and act according to their initiative check results. They attack your "
-#| "opponents to the best of their ability."
 msgctxt "224e955d-d856-407e-9a3d-7ca441768408"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d4{/g}+1 "
@@ -25767,29 +25607,25 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 악 성향이면 1d4+1 레드캡을, 아니라면 1d4+1 브라러니 아자타를 소환합니다. 소환물은 시전자가 지정한 "
-"곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 레드캡을, 아니면 브라러니 아자타를 "
+"{g|Encyclopedia:Dice}1d4+1{/g} 마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 "
+"공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVIIId3::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIIId3::m_DisplayName
-#, fuzzy
 msgctxt "614fb732-713e-408e-877c-9a8c58f0b3fa"
 msgid "Summon Monster VIII (1d3 Bogeymen)"
-msgstr "괴물 소환 VIII (부기맨)"
+msgstr "괴물 소환 VIII (1d3 부기맨)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVIIId3::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIIId3::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d3 extraplanar bogeymen. They appear where you designate "
-#| "and act according to their initiative check results. They attack your "
-#| "opponents to the best of their ability."
 msgctxt "6f1a5954-710a-4698-8084-b8b751e49a60"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d3{/g} "
@@ -25799,16 +25635,15 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} your opponents to the best of their "
 "ability."
 msgstr ""
-"이 주문은 다른 차원에서 1d3 부기맨을 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. "
-"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 부기맨을 {g|Encyclopedia:Dice}1d3{/g} 마리 "
+"소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 "
+"행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVIIId4plus1::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIIId4plus1::m_DisplayName
-#, fuzzy
-#| msgid "Summon Monster VIII (1d4+1 Axiomites or Soul Eaters)"
 msgctxt "d9beedf8-fd54-448f-85ec-8762611b005e"
 msgid ""
 "Summon Monster VIII ({g|Encyclopedia:Dice}1d4{/g}+1 Axiomites or Soul Eaters)"
@@ -25819,12 +25654,6 @@ msgstr "괴물 소환 VI (1d4+1 액시오마이트 또는 소울 이터)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIIId4plus1::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons 1d4+1 extraplanar soul eaters if you are evil or 1d4+1 "
-#| "extraplanar axiomites if you are not. They appear where you designate and "
-#| "act according to their initiative check results. They attack your opponents "
-#| "to the best of their ability."
 msgctxt "76a04192-e2db-472b-bd1f-8bdd67b0361c"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons {g|Encyclopedia:Dice}1d4{/g}+1 "
@@ -25834,16 +25663,16 @@ msgid ""
 "results. They {g|Encyclopedia:Attack}attack{/g} your opponents to the best "
 "of their ability."
 msgstr ""
-"이 주문은 다른 차원에서 악 성향이면 1d4+1 소울 이터를, 아니라면 1d4+1 액시오 마이트를 소환합니다. 소환물은 시전자가 지정한 "
-"곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 소울 이터를, 아니면 액시오마이트를 "
+"{g|Encyclopedia:Dice}1d4+1{/g} 마리 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 "
+"공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVIIISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIIISingle::m_DisplayName
-#, fuzzy
-#| msgid "Summon Monster VIII (Movanic Deva or Frost Giant)"
 msgctxt "3cc6d850-d81e-46b1-89b3-854758257d60"
 msgid "Summon Monster VIII (Monadic Deva or Frost Giant)"
 msgstr "괴물 소환 VIII (모바닉 데바 또는 서리 거인)"
@@ -25853,11 +25682,6 @@ msgstr "괴물 소환 VIII (모바닉 데바 또는 서리 거인)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons a frost giant if you are evil or a movanic deva if you "
-#| "are not. It appears where you designate and acts according to its initiative "
-#| "check results. It attacks your opponents to the best of its ability."
 msgctxt "b4556a2e-23ef-46b4-b3e9-986372f0372c"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons a frost giant if you are evil "
@@ -25866,15 +25690,15 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} results. It "
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
-"이 주문은 외부차원에서 악 성향이면 서리 거인, 아니라면 모바닉 데바를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 "
-"판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 서리 거인을, 아니면 모바닉 데바를 소환합니다. "
+"소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. "
+"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVIISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIISingle::m_DisplayName
-#, fuzzy
 msgctxt "745a4a76-763c-48ca-937b-69344584e997"
 msgid "Summon Monster VII (Bogeyman)"
 msgstr "괴물 소환 VII (부기맨)"
@@ -25884,11 +25708,6 @@ msgstr "괴물 소환 VII (부기맨)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVIISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons a bogeyman. It appears where you designate and acts "
-#| "according to its initiative check results. It attacks your opponents to the "
-#| "best of its ability."
 msgctxt "61721970-5390-4ae1-8bab-cce8be7154c8"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons a bogeyman. It appears where "
@@ -25897,15 +25716,15 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 부기맨을 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 "
-"최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 부기맨을 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, "
+"{g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 "
+"공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVISingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVISingle::m_DisplayName
-#, fuzzy
 msgctxt "e383a1c6-6435-45da-b4a2-f5f0e8b23eed"
 msgid "Summon Monster VI (Axiomite or Soul Eater)"
 msgstr "괴물 소환 VI (액시오마이트 또는 소울 이터)"
@@ -25915,12 +25734,6 @@ msgstr "괴물 소환 VI (액시오마이트 또는 소울 이터)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVISingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons one extraplanar soul eater if you are evil or one "
-#| "extraplanar axiomite if you are not. It appears where you designate and acts "
-#| "according to its initiative check results. It attacks your opponents to the "
-#| "best of its ability."
 msgctxt "1e0df1e3-0b6b-4405-b2c9-a81bcf861c45"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons one extraplanar soul eater if "
@@ -25930,15 +25743,15 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 다른 차원에서 악 성향이면 소울 이터를, 아니라면 액시오마이트를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 "
-"판정의 결과에 따라 행동합니다. 소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 소울 이터를, 아니면 액시오마이트를 소환합니다. "
+"소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. "
+"소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MonsterTacticianSummonVSingle::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVSingle::m_DisplayName
-#, fuzzy
 msgctxt "32b6b3c9-4042-4f30-8417-706eb927d8d6"
 msgid "Summon Monster V (Bralani Azata or Redcap)"
 msgstr "괴물 소환 V (브라러니 아자타 또는 레드캡)"
@@ -25948,12 +25761,6 @@ msgstr "괴물 소환 V (브라러니 아자타 또는 레드캡)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SummonMonsterVSingle::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell summons one extraplanar redcap if you are evil or one extraplanar "
-#| "bralani azata if you are not. It appears where you designate and acts "
-#| "according to its initiative check results. It attacks your opponents to the "
-#| "best of its ability."
 msgctxt "46fa6300-6d9a-4157-97e3-21019c1dd375"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons one extraplanar redcap if you "
@@ -25963,7 +25770,8 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 주문은 다른 차원에서 늑대 한 마리를 소환합니다. 소환물은 시전자가 지정한 곳에 나타나며, 우선권 판정의 결과에 따라 행동합니다. "
+"이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원에서 악 성향이면 레드캡을, 아니면 브라러니 아자타를 소환합니다. "
+"소환물은 시전자가 지정한 곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} 판정의 결과에 따라 행동합니다. "
 "소환물은 자기 능력을 최대한 활용해 적을 공격합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -32700,7 +32508,7 @@ msgstr "1d4 라운드"
 #, fuzzy
 msgctxt "cf547a90-6f7e-41b0-a91a-9b093907ab88"
 msgid "Shocking Grasp"
-msgstr "전격의 움켜쥠"
+msgstr "전격의 손아귀"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShockingGraspCast::m_Description
@@ -32721,7 +32529,7 @@ msgstr "근접 접촉 공격에 성공하면 시전자 레벨 당 1d6점의 (최
 #, fuzzy
 msgctxt "9aca1e74-62f6-46fa-9206-4754ac8902fe"
 msgid "Shocking Grasp"
-msgstr "전격의 움켜쥠"
+msgstr "전격의 손아귀"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShockingGraspEffect::m_Description
@@ -39517,37 +39325,37 @@ msgstr ""
 #. Path = ArcaneArmorEnchantColdResist10Choice::m_DisplayName
 msgctxt "dd95e492-364d-46b2-ba4d-bca58f689b60"
 msgid "Arcane Armor — Cold Resistance 10"
-msgstr ""
+msgstr "비전 갑옷 - 냉기 저항 10"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ArcaneArmorEnchantColdResist20Choice::m_DisplayName
 msgctxt "6eaee0dc-0e5b-401c-bbab-9f9bcd85c190"
 msgid "Arcane Armor — Cold Resistance 20"
-msgstr ""
+msgstr "비전 갑옷 - 냉기 저항 20"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ArcaneArmorEnchantElectricityResist10Choice::m_DisplayName
 msgctxt "f5120cf3-179b-4138-8f8e-d7d8d9f01c4f"
 msgid "Arcane Armor — Electricity Resistance 10"
-msgstr ""
+msgstr "비전 갑옷 - 전기 저항 10"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ArcaneArmorEnchantElectricityResist20Choice::m_DisplayName
 msgctxt "1deeaf38-4b43-4483-bd82-5c672d9b310d"
 msgid "Arcane Armor — Electricity Resistance 20"
-msgstr ""
+msgstr "비전 갑옷 - 전기 저항 20"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ArcaneArmorEnchantFireResist10Choice::m_DisplayName
 msgctxt "8aa7f8a2-4084-4c4d-9dee-0c52d5e58cd4"
 msgid "Arcane Armor — Fire Resistance 10"
-msgstr ""
+msgstr "비전 갑옷 - 화염 저항 10"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ArcaneArmorEnchantFireResist20Choice::m_DisplayName
 msgctxt "c32e8619-75f5-4ea4-ba62-bdd4d73cd79d"
 msgid "Arcane Armor — Fire Resistance 20"
-msgstr ""
+msgstr "비전 갑옷 - 화염 저항 20"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ArcaneArmorEnchantFortification25Choice::m_DisplayName
@@ -45942,7 +45750,7 @@ msgstr "라운드당 2d6점의 화염 피해를 입힙니다."
 #, fuzzy
 msgctxt "553bb883-e69e-4b00-9d50-cb448930f1e9"
 msgid "Burst of Glory"
-msgstr "영광의 파열"
+msgstr "피어나는 영광"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BythosAgeBuff1::m_DisplayName

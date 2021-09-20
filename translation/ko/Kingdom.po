@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-18 13:23+0000\n"
+"PO-Revision-Date: 2021-09-20 02:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -73,7 +73,7 @@ msgstr "건물을 짓고 병기를 만드는 등 장인들에게 필요한 재�
 #. Path = KingdomUIRoot::Resources/2/Name
 msgctxt "f01a857a-e28c-4097-be04-6c5782408f76"
 msgid "Energy Points"
-msgstr ""
+msgstr "에너지 점수"
 
 #. Type = Kingmaker.Kingdom.Blueprints.ArmyRoot
 #. Path = ArmyRoot::FavorsResourceDescription
@@ -84,13 +84,13 @@ msgctxt "3ec71e44-e463-4069-9ff2-4376efd3f719"
 msgid ""
 "Magic ingredients, the favor of deities, and other magical resources at the "
 "crusade's disposal."
-msgstr ""
+msgstr "성전에 도움이 될 마법 재료, 신들의 은총, 또는 그 밖의 마법 자원들을 의미합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.ArmyRoot
 #. Path = ArmyRoot::MovementPointsName
 msgctxt "fbe318d3-3416-480f-93bd-1fa194484a88"
 msgid "Movement"
-msgstr ""
+msgstr "이동"
 
 #. Type = Kingmaker.Kingdom.Blueprints.ArmyRoot
 #. Path = ArmyRoot::ArmyExperienceName
@@ -177,6 +177,7 @@ msgid ""
 "{g|Event_AbductedSouls_1}[Choice effects]{/g} Involve experienced "
 "investigators from Ustalav's Lepidstadt university"
 msgstr ""
+"{g|Event_AbductedSouls_1}[선택 효과]{/g} 우스탈라브 레피드스타트 대학에 노련한 조사관의 도움을 요청합니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AbductedSouls_event::m_EventSolutions/0/m_UnavailingPlaceholder
@@ -184,7 +185,7 @@ msgctxt "0b9fad50-b768-435e-a436-702d4e1e5bf5"
 msgid ""
 "This option is unavailable because your Diplomatic Council has not yet begun "
 "operation."
-msgstr ""
+msgstr "당신의 외교 자문단이 활동을 시작하지 않았기 때문에 이 선택지를 선택할 수 없습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AbductedSouls_event::m_EventSolutions/0/m_ResultText
@@ -204,6 +205,12 @@ msgid ""
 "to come. His trace has, alas, been lost, but many abandoned pieces of "
 "jewelry remain in his shop."
 msgstr ""
+"우스탈라브의 조사관들은 모든 피해자들과 연관된 한 남자를 밝혀내며, 그들이 제공한 서비스의 비용이 타당함을 보여줬습니다. 다렉 솔마르텔, "
+"유명하고 명예로운 보석 세공 장인입니다. 하지만 심문은 비극적으로 끝났습니다. 보석 장인은 그를 체포하기 위해 파견된 요원을 기이한 "
+"힘으로 살해하고 사라졌습니다. 그의 가게를 샅샅히 수색해 그가 남긴 메시지를 발견했는데, 다렉 솔마르텔이 사실은 Ivory "
+"Labyrinth 기사단의 그랜드 마스터였음이 밝혀지게 되었습니다. 그는 평범한 장인으로 성전사들 가운데서 몇 년 동안을 살았습니다. "
+"그는 자신의 승리를 자축하며, 그의 작품이 이제 완성되었음을 선언하였고, 이후 몇 년 동안 성전사들은 독에 오염된 과실만을 수확할 "
+"것이라고 주장했습니다. 불행히도 우리는 그의 흔적을 더 이상 찾지 못하지만, 그가 도주할 때 많은 양의 보석들을 남기고 갔습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AbductedSouls_event::m_EventSolutions/1/m_SolutionText
@@ -211,7 +218,7 @@ msgctxt "39535685-c0db-48ad-8e03-a6dfecd4a4a2"
 msgid ""
 "{g|Event_AbductedSouls_2}[Choice effects]{/g} Investigate the incident on "
 "your own"
-msgstr ""
+msgstr "{g|Event_AbductedSouls_2}[선택 효과]{/g} 스스로 사건을 조사합니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AbductedSouls_event::m_EventSolutions/1/m_ResultText
@@ -222,6 +229,8 @@ msgid ""
 "neither belonged to any secret cults, nor had common enemies. Alas, this is "
 "not enough even to even begin to work out what has happened."
 msgstr ""
+"안타깝게도, 조사는 많은 것을 밝혀내지는 못했습니다. 감시병들은 그저 피해자들 간에 그 어떤 공통점도 찾아볼 수 없다고 말했습니다. "
+"그들은 사교에 가입하지도, 또 공통된 적을 갖고있지도 않았습니다. 아아, 이 정보만으로는 상황을 제대로 이해할 수 없습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AbductedSouls_event::m_EventSolutions/2/m_SolutionText
@@ -237,6 +246,8 @@ msgid ""
 "common occurrences in the Worldwound. The Commander cannot let "
 "{mf|himself|herself} be distracted by such trifling matters."
 msgstr ""
+"기이한 죽음과 영혼의 납치, 이 모든 비극들... 이 사건은 세계상처에서는 자주 일어나는 일입니다. 사령관은 이러한 하찮은 일에 신경 쓸 "
+"겨를이 없습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AbductedSouls_event::LocalizedName
@@ -368,6 +379,9 @@ msgid ""
 "and a frenzied worshiper of Lamashtu yearns to awaken the spirit of the long-"
 "dead monster. Who will be given the right to touch the relic?"
 msgstr ""
+"Altar of the First Retriever에서 탄생한 유물이 비의를 행하는 자들의 관심을 끌고 있는 것 같습니다. 한 드루이드가 "
+"드레젠에 막 도착해 이 신성한 물품을 정화의 허가를 요청합니다. 반대로, 나이달의 어두운 여사제는 그 물건을 자신의 보호자, 존-쿠쏜에게 "
+"바치고 싶어합니다. 마지막으로 라마슈투의 광신도는 괴물의 정신을 일깨우길 간절히 원합니다. 누구에게 이 유물을 맡겨야 할까요?"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AltarOfTheDarkHunter_Reforge_event::m_EventSolutions/0/m_SolutionText
@@ -1637,8 +1651,8 @@ msgid ""
 "daughter of the murdered aristocrat wants vengeance and requests that the "
 "criminal be arrested and tried."
 msgstr ""
-"도망친 범죄자가 성전군에 있다고 합니다. 1년 전 이 기사는 네로시아의 귀족을 살해하고, 처벌을 피하기 위해 도망쳤습니다. 회개한 "
-"살인범는 속죄를 위해 성전군에 동참했지만, 복수를 원하는 귀족의 딸은 그를 체포하고, 정의를 집행하기를 원합니다."
+"도망친 범죄자가 성전군에 있다고 합니다. 1년 전 이 기사는 네로시안의 귀족을 살해하고, 처벌을 피하기 위해 도망쳤습니다. 회개한 "
+"살인범은 속죄를 위해 성전군에 동참했지만, 복수를 원하는 귀족의 딸은 그를 체포하고, 정의를 집행하기를 원합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent05::m_EventSolutions/0/m_SolutionText
@@ -4139,7 +4153,7 @@ msgid ""
 "and obedience, the Commander's authority increased."
 msgstr ""
 "성전에 있어서, 모든 병사들은 과거의 충성 맹세를 잊고, 그들의 사령관에게만 복종해야 합니다. 서로 적대하는 두 야영지의 병사들 사령관에 "
-"대한 충성과 복종의 맹세를 했습니다.  따라서 사령관의 권위가 강화되었습니다."
+"대한 충성과 복종의 맹세를 했습니다. 따라서 사령관의 권위가 강화되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent29::m_EventSolutions/1/m_SolutionText
@@ -4157,7 +4171,7 @@ msgid ""
 "discord between them wisely, the Commander gained the favor of the nations "
 "whose support was important to the crusade."
 msgstr ""
-"외국에서 온 모든  성전사들은 그들이 태어난 땅의 대표나 다름없습니다. 사령관은 이러한 긴장 상태를 현명하게 활용하여 국가들의 호의를 "
+"외국에서 온 모든 성전사들은 그들이 태어난 땅의 대표나 다름없습니다. 사령관은 이러한 긴장 상태를 현명하게 활용하여 국가들의 호의를 "
 "샀습니다. 성전에 있어, 지원은 아주 중요한 것이니까요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -4236,7 +4250,7 @@ msgstr ""
 #. Path = CrusadeEvent30::m_EventSolutions/0/m_SolutionText
 msgctxt "642ce7d1-23a8-43de-ae73-8dd6b839a940"
 msgid "{g|Event_30_1}[Choice effects]{/g} Hang the slaver"
-msgstr ""
+msgstr "{g|Event_30_1}[선택 효과]{/g} 노예상을 메단다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/0/m_ResultText
@@ -4246,13 +4260,15 @@ msgid ""
 "uncompromising decision. As for the slaves, who were left in Numeria, their "
 "fate, most likely, was grim."
 msgstr ""
+"노예거래에 관용을 배풀지 않는 많은 국가들이 사령관의 이러한 결단을 지지합니다. 누메리아를 떠나지 못한 노예들에게는 아마 어두운 운명만이 "
+"기다릴 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/1/m_SolutionText
 msgctxt "9138f930-c4fc-49a3-b08e-37ecbe20b6c9"
 msgid ""
 "{g|Event_30_2}[Choice effects]{/g} Buy the poor people and set them free"
-msgstr ""
+msgstr "{g|Event_30_2}[선택 효과]{/g} 가엾은 사람들을 구입해, 해방한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/1/m_ResultText
@@ -4261,6 +4277,8 @@ msgid ""
 "The released slaves will journey to southern lands, far away from the war, "
 "praising the Commander and telling everyone they meet of {mf|his|her} mercy."
 msgstr ""
+"해방노예들은 전쟁에서 멀리 떨어진 곳, 남쪽을 향해 떠날 것 입니다. 그들은 사령관에 대한 찬가를 부르고, 또 그의 자비를 찬양하게 "
+"되겠지요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/2/m_SolutionText
@@ -4268,7 +4286,7 @@ msgctxt "4a3f0570-6c75-4af9-9d4e-7eca63ddc160"
 msgid ""
 "{g|Event_30_3}[Choice effects]{/g} Buy the slaves and make them serve in the "
 "army"
-msgstr ""
+msgstr "{g|Event_30_3}[선택 효과]{/g} 노예를 구입해 군으로 편입시킨다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/2/m_ResultText
@@ -4276,14 +4294,14 @@ msgctxt "19b1cb2c-8a62-400d-bff1-845ec7d0fd67"
 msgid ""
 "Slaves are not the most optimal soldiers, but for the front lines, even "
 "someone like them will do."
-msgstr ""
+msgstr "노예들은 완벽한 전사는 아니지만, 전장에서는 모든 사람들이 전사로써 거듭나는 법입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/3/m_SolutionText
 msgctxt "f2e7f7d5-4255-4282-87b8-9614010955c8"
 msgid ""
 "{g|Event_30_4}[Choice effects]{/g} Buy the poor saps and take care of them"
-msgstr ""
+msgstr "{g|Event_30_4}[선택 효과]{/g} 노예들을 구입해, 치료한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/3/m_ResultText
@@ -4293,13 +4311,15 @@ msgid ""
 "care, they will restore their strength. When they are feeling better, some "
 "of them may even thank the crusaders for looking after them."
 msgstr ""
+"많은 노예들이 질병과 기아상태에서 벗어나게 되었습니다. 사령관의 도움으로 노예들은 생기를 되찾게 되었고, 몇몇은 성전군이 자신들을 "
+"구원했음에 깊은 감사를 느끼게 될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/4/m_SolutionText
 msgctxt "c7196e94-8557-45a1-a58c-5a77c3365720"
 msgid ""
 "{g|Event_30_5}[Choice effects]{/g} Buy the slaves and resell them in secret"
-msgstr ""
+msgstr "{g|Event_30_5}[선택 효과]{/g} 노예들을 구입하고, 비밀리에 다시 판매한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::m_EventSolutions/4/m_ResultText
@@ -4309,12 +4329,14 @@ msgid ""
 "slaves in Mendev at a profit if he is allowed to borrow a couple of people "
 "to assist him."
 msgstr ""
+"불법 상품은 언제나 가격이 꽤 나가는 법입니다. 그리고 울지프는 자신이 노예들을 멘데브 각지에서 판매하고, 수익을 낼 수 있다고 "
+"말합니다. 울지프에게 필요한 것은 자신과 노예들을 호위할 약간의 병사들 뿐입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::LocalizedName
 msgctxt "ca7542ff-12ca-4b32-9c9b-7c4350427774"
 msgid "The Price of Mercy"
-msgstr ""
+msgstr "자비의 비용"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent30::LocalizedDescription
@@ -4327,12 +4349,15 @@ msgid ""
 "banned in Mendev, the shrewd technomancer decided to sell his living goods "
 "under a false pretext."
 msgstr ""
+"누메리아 {g|Technic League}[기술 연맹]{/g} 의 대표자가 드레젠에 도착했습니다. 그는 합리적인 가격으로 « 자원자들 » "
+"을 제공하겠다고 말합니다.하지만 그의 노예들이 사령관에게 자원자들은 사실은 노예들이라는 사실을 밝혔습니다. 이 교활한 상인은 그저 "
+"멘데브의 노예 금지법을 우회하고, 또 그의 « 상품들 » 을 유통시키기를 원합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/0/m_SolutionText
 msgctxt "7abfd458-0700-4e69-abe4-eff3504d2632"
 msgid "{g|Event_31_1}[Choice effects]{/g} Turn a blind eye"
-msgstr ""
+msgstr "{g|Event_31_1}[선택 효과]{/g} 눈감아준다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/0/m_ResultText
@@ -4342,12 +4367,14 @@ msgid ""
 "effectiveness grows, and capable soldiers do not die because of their "
 "comrades' sluggishness."
 msgstr ""
+"체벌관의 업무는 옳지는 않지만, 필요한 일입니다. 그들은 병사들의 효율을 높이고 또 능력있는 병사들이 무능력한 동료로 인해 전장에서 "
+"쓰러지는 일을 줄입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/1/m_SolutionText
 msgctxt "5e08026f-719d-47ab-bd10-da1fbea01a71"
 msgid "{g|Event_31_2}[Choice effects]{/g} Punish the cleaners"
-msgstr ""
+msgstr "{g|Event_31_2}[선택 효과]{/g} 체벌관들을 처벌한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/1/m_ResultText
@@ -4357,12 +4384,14 @@ msgid ""
 "not authorized. By subduing the veterans, the Commander has taught a lesson "
 "to all warriors who think too highly of themselves."
 msgstr ""
+"체벌관이라고 지칭하는 이들은 허가되지 않은 행위로 전우들과의 결속을 파괴합니다. 이들을 사령관의 권위로 처벌하는 것은, 자신이 다른 "
+"전우보다 낫다고 생각하는 모든 병사들에게 좋은 교훈이 될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/2/m_SolutionText
 msgctxt "b5ae7a37-af2f-46b8-9b88-e56a40bdd8ea"
 msgid "{g|Event_31_4}[Choice effects]{/g} Elevate the cleaners"
-msgstr ""
+msgstr "{g|Event_31_4}[선택 효과]{/g} 체벌관들을 진급시킨다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/2/m_ResultText
@@ -4372,6 +4401,8 @@ msgid ""
 "right thing, and thus they deserve a reward — an invitation to a special "
 "unit of the Commander's personal cutthroats."
 msgstr ""
+"부대는 마치 사냥개 무리와 같아 약한자들은 먹잇감이 됩니다. 이 « 체벌관 » 들은 필요불가결한 결정을 내렸습니다. 그렇기 때문에 이들은 "
+"보상을 받을 자격이 있습니다. 이들은 사령관의 개인 cutthroats 특수부대에 초대될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/3/m_SolutionText
@@ -4379,7 +4410,7 @@ msgctxt "dd48d6d1-891b-4244-b2fa-dd8968220a01"
 msgid ""
 "{g|Event_31_5}[Choice effects]{/g} Punish the cleaners and make Lann mentor "
 "the underachievers"
-msgstr ""
+msgstr "{g|Event_31_5}[선택 효과]{/g} 체벌관들을 처벌하고 랜이 부족한 병사들의 스승이 되게 한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::m_EventSolutions/3/m_ResultText
@@ -4389,12 +4420,14 @@ msgid ""
 "become a mentor to the underperforming soldiers, given that their previous "
 "instructors failed to find the right approach."
 msgstr ""
+"오만한 고참병들이 그들의 행동으로 인해 처벌을 받았습니다. 선임 교관들이 부족한 병사들을 제대로 지도하지 못했기 때문이지요. 랜은 이제 "
+"부족한 병사들의 새로운 스승이 되어 그들을 이끌 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::LocalizedName
 msgctxt "148b032f-9a34-4abb-ac41-4c21aa9c097c"
 msgid "Cleaners"
-msgstr ""
+msgstr "체벌관"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent31::LocalizedDescription
@@ -4408,12 +4441,16 @@ msgid ""
 "others deserted. Either way, the units who rid themselves of useless burdens "
 "performed their tasks better and suffered fewer losses."
 msgstr ""
+"모든 군대에는 경험이 부족하고, 능력이 부족하거나, 또는 완전히 무능한 병사들이 존재하고, 이 병사들은 동료들에게 부담이 됩니다. 많은 "
+"고참병들이 « 체벌관 » 으로써, 부족한 병사들을 찾아 폭행을 가해 의무대로 보내버렸습니다. 계속되는 이들의 폭력에 몇몇 병사는 정신을 "
+"차리거나, 정진에 힘쓰게 되었지만, 다른 병사들은 탈영을 하기 시작했습니다. 이 두 상황 모두 동료들의 짐을 덜어 주어 부대의 효율을 "
+"배로 늘리게 되었고, 또 전투 시에 대체적으로 사상자가 적게 나타나게 되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/0/m_SolutionText
 msgctxt "7c017c3a-e6ac-4ecd-a4c9-f79c36daa54b"
 msgid "{g|Event_32_1}[Choice effects]{/g} Ban this malpractice"
-msgstr ""
+msgstr "{g|Event_32_1}[선택 효과]{/g} 위법 행위를 금지시킨다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/0/m_ResultText
@@ -4422,12 +4459,14 @@ msgid ""
 "Valor and skill cannot be bought. Rank sale has been banned, and officer "
 "positions have become available for less wealthy candidates with talent."
 msgstr ""
+"용기와 재능은 돈으로 살 수 없는 법입니다. 이제부터 계급을 사고 파는 행위는 금지됩니다. 능력있지만 상대적으로 부유하지 않은 후보들이 "
+"성전의 명예에 지원하고, 또 장교가 될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/1/m_SolutionText
 msgctxt "e4d2f866-8d4d-4957-ba52-d07cd00afd78"
 msgid "{g|Event_32_2}[Choice effects]{/g} Do not obstruct the rank trade"
-msgstr ""
+msgstr "{g|Event_32_2}[선택 효과]{/g} 개입하지 않는다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/1/m_ResultText
@@ -4437,12 +4476,14 @@ msgid ""
 "are rich and highborn. By turning a blind eye to unfair promotions, the "
 "Commander has gained the support of powerful allies."
 msgstr ""
+"계급을 구입한 장교들은 성전에서 가장 훌륭한 사람들은 아닐지 모르지만, 그들은 부유하고, 또 많은 경우에 그들은 귀족 계급입니다. 이 "
+"불법적인 진급에 눈을 감아주면, 강력한 아군의 지원을 받을 수 있을 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/2/m_SolutionText
 msgctxt "f405e20c-9cf4-4555-b984-4e2c68138f6b"
 msgid "{g|Event_32_3}[Choice effects]{/g} Authorize this custom"
-msgstr ""
+msgstr "{g|Event_32_3}[선택 효과]{/g} 이 상업 활동을 허가한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/2/m_ResultText
@@ -4452,12 +4493,13 @@ msgid ""
 "receiving an officer patent, the Commander has secured another source of "
 "income for the crusade."
 msgstr ""
+"계급을 사고 파는 것은 통상적인 관행입니다. 이런 상업활동에 세금을 부과하는 방식으로 성전군은 새로운 수익 창출 수단을 갖게 될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/3/m_SolutionText
 msgctxt "8cab1fa4-0e8f-4b8d-97d1-ede503fd57ef"
 msgid "{g|Event_32_4}[Choice effects]{/g} Play cards for ranks"
-msgstr ""
+msgstr "{g|Event_32_4}[선택 효과]{/g} 계급은 카드 게임으로 정해진다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::m_EventSolutions/3/m_ResultText
@@ -4469,12 +4511,15 @@ msgid ""
 "{mf|himself|herself}! From now on, ranks will be going only to the luckiest "
 "would-be officers."
 msgstr ""
+"계급을 사고 파는 것은 매우 지루한 일입니다... 대신에 지원자들에게 자신들의 미래를 카드에 맡기라고 할 수 있을 겁니다 ! 테이블 "
+"위에서 지원자들은 그들의 과감함과 민첩함, 그리고 특히 행운을 딜러 - 이 경우에는 사령관에게 보여줄 수 있을 겁니다 ! 가장 운이 좋은 "
+"후보생들만이 승진에 성공할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::LocalizedName
 msgctxt "52e6384d-3c5f-43ec-97e9-6dd227e00677"
 msgid "Rank Trade"
-msgstr ""
+msgstr "계급 거래"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent32::LocalizedDescription
@@ -4486,12 +4531,14 @@ msgid ""
 "trained, but to whoever can afford to make a generous donation to the "
 "collective coffers."
 msgstr ""
+"사령관의 측근들이 장교들 사이에서 암묵적으로 계급을 사고 파는 전통이 퍼져나가고 있다고 보고했습니다. 또한 비어있는 통솔자 자리가 가장 "
+"능력있는 자들이 아닌 다른 이들- 성전에 재정적으로 기여할 수 있는 이들 에게 돌아간다고도 보고했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/0/m_SolutionText
 msgctxt "599eb245-afb9-4d13-afc7-099e8ed03bc1"
 msgid "{g|Event_33_1}[Choice effects]{/g} Cheap gear"
-msgstr ""
+msgstr "{g|Event_33_1}[선택 효과]{/g} 싸구려 장비"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/0/m_ResultText
@@ -4499,19 +4546,19 @@ msgctxt "6fff077a-1258-49ce-874a-4665b4bbe95a"
 msgid ""
 "By purchasing cheaper equipment, the crusade has saved enough funds to "
 "outfit more troops."
-msgstr ""
+msgstr "더 값싼 장비를 구입함으로써, 성전군은 더 많은 병사들을 무장시킬 수 있게 되었습니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/1/m_SolutionText
 msgctxt "dd0984d1-cf65-4539-8c94-2b243087cbd2"
 msgid "{g|Event_33_2}[Choice effects]{/g} High-quality gear"
-msgstr ""
+msgstr "{g|Event_33_2}[선택 효과]{/g} 양질의 장비"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/1/m_ResultText
 msgctxt "fe73ef8f-949f-4758-8bd8-eb649477c492"
 msgid "The crusaders deserve the best weapons, no matter how much they cost."
-msgstr ""
+msgstr "당연히 성전사들은 최고의 무기를 받아야 합니다. 그 비용이 아무리 크더라도 말이지요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/2/m_SolutionText
@@ -4519,7 +4566,7 @@ msgctxt "bdc4e083-d86b-4f96-8c85-3cfeb43a7c3e"
 msgid ""
 "{g|Event_33_4}[Choice effects]{/g} Send servants to \"influence\" the "
 "suppliers' decision"
-msgstr ""
+msgstr "{g|Event_33_4}[선택 효과]{/g} 하인들을 보내 공급자들에게 « 영향력 » 을 행사합니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/2/m_ResultText
@@ -4530,12 +4577,14 @@ msgid ""
 "they woke up feeling certain that the crusade should get the best gear at a "
 "considerable discount."
 msgstr ""
+"사령관을 따르는 Vampire들은 공급자들의 주택에 침입해, 그들의 정신을 조종했습니다. 이른 아침, 공급자들은 십자군들은 최고의 장비를 "
+"최저가로 공급해야 한다는 확신을 갖고 일어나게 되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/3/m_SolutionText
 msgctxt "c68c4d23-2e41-40eb-af70-0cb037b3d1f3"
 msgid "{g|Event_33_5}[Choice effects]{/g} Purchase gear through Greybor"
-msgstr ""
+msgstr "{g|Event_33_5}[선택 효과]{/g} 그레이보르를 통해 장비를 구입한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::m_EventSolutions/3/m_ResultText
@@ -4545,12 +4594,14 @@ msgid ""
 "channels. The guilds supplying the assassins of Daggermark were glad to find "
 "a new market and offered generous discounts."
 msgstr ""
+"그레이보르는 자신의 과거 관계를 이용해 질좋은 장비들을 들여오는데 성공했습니다. 암살자들에게 단검을 공급하던 길드들은 새로운 시장에 "
+"관심을 보였고, 관대한 가격으로 십자군에게 장비들을 공급합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::LocalizedName
 msgctxt "7546bc12-53e5-4e63-bb4b-cc12efc76179"
 msgid "Price or Quality"
-msgstr ""
+msgstr "질이냐 양이냐?"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent33::LocalizedDescription
@@ -4562,12 +4613,15 @@ msgid ""
 "high-quality, pricey gear or something more affordable that would make it "
 "possible to outfit everyone."
 msgstr ""
+"자주 있는 일은 아니지만, 네로시안의 군 장비 창고도 바닥을 드러낼 때가 있습니다. 장비 창고를 수리하라는 명령을 내리기 전에, 수도의 "
+"관리들은 사령관이 무엇을 중요하게 여기는 지 알고싶어합니다. 사령관은 비싸지만 질좋은 장비를 원하는지, 아니면 병사들 모두를 무장시킬 수 "
+"있을 싸구려 장비를 원하는지를요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::m_EventSolutions/0/m_SolutionText
 msgctxt "f435cf55-9c00-4c78-a71b-369af90bcdd4"
 msgid "{g|Event_34_1}[Choice effects]{/g} Capture them"
-msgstr ""
+msgstr "{g|Event_34_1}[선택 효과]{/g} 그들을 체포한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::m_EventSolutions/0/m_ResultText
@@ -4575,13 +4629,13 @@ msgctxt "17561485-83ad-4bef-b818-3718ffde062d"
 msgid ""
 "The scouts will find the fugitives, arrest them, and escort them to Drezen. "
 "They will not escape their fate."
-msgstr ""
+msgstr "정찰병들이 도망자들을 찾아내고, 체포하고, 또 드레젠까지 호위할 것입니다. 그들은 운명으로 부터 벗어날 수 없을 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::m_EventSolutions/1/m_SolutionText
 msgctxt "62437891-5b82-4a48-93c9-8a3f164c6453"
 msgid "{g|Event_34_2}[Choice effects]{/g} Leave them be"
-msgstr ""
+msgstr "{g|Event_34_2}[선택 효과]{/g} 그들을 내버려 둔다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::m_EventSolutions/1/m_ResultText
@@ -4591,12 +4645,14 @@ msgid ""
 "they will just run away or betray their comrades in the very first battle. "
 "It is better to fight without reinforcements than with \"allies\" like these."
 msgstr ""
+"그들을 찾아내고, 매질하고, 또 부대에 강제로 배속한다고 하더라도 이 범죄자들은 또다시 도망칠 것입니다. 더 나쁜 것은 전투각 벌어졌을 "
+"때, 가장 먼저 전우들을 배신할 수 있다는 점입니다. 이런 놈들을 군병으로 지원받느니, 없는 것만 못합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::m_EventSolutions/2/m_SolutionText
 msgctxt "a3e1bcf6-48c5-41dd-9994-1650b64edcc4"
 msgid "{g|Event_34_4}[Choice effects]{/g} Help the runaways"
-msgstr ""
+msgstr "{g|Event_34_4}[선택 효과]{/g} 도망자들을 돕습니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::m_EventSolutions/2/m_ResultText
@@ -4607,12 +4663,14 @@ msgid ""
 "prejudice and the mistreatment they received from others. Grateful for their "
 "rescue, the runaways promised to do honest work for the crusade."
 msgstr ""
+"사령관의 병사들이 도망자들을 발견하고, 그들을 자유 성전사들의 야영지로 호위했습니다. 사실, 이들은 다양한 편견과 나쁜 대우의 "
+"희생양이였으며, 그것들로 부터 도망쳤을 뿐이였습니다. 구조된 것에 감사하며, 그들은 이제부터 정직하게 성전에 봉사할 것임을 선서했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::LocalizedName
 msgctxt "fb118567-abe0-4535-b1ed-d10aa0dc7281"
 msgid "Fugitives"
-msgstr ""
+msgstr "도망자들"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent34::LocalizedDescription
@@ -4622,12 +4680,14 @@ msgid ""
 "service in the crusade, has escaped. They are now hiding in the mountains, "
 "but it seems unlikely that they will last long out there."
 msgstr ""
+"처벌로써 드레젠의 성전군에 합류해, 자신들의 범죄의 대가를 치뤄야 될 범죄자 집단이 탈출하여 산 속에 숨어지내고 있습니다. 하지만 이들이 "
+"오랫동안 생존할 수 있을 것 같지는 않군요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::m_EventSolutions/0/m_SolutionText
 msgctxt "cf48c1bf-662f-4d9a-a4c6-4b2c187561d3"
 msgid "{g|Event_35_1}[Choice effects]{/g} Keep the veterans"
-msgstr ""
+msgstr "{g|Event_35_1}[선택 효과]{/g} 고참병들을 보내지 않는다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::m_EventSolutions/0/m_ResultText
@@ -4637,12 +4697,14 @@ msgid ""
 "their service, but a rumor spread among the soldiers that the Commander did "
 "not act in good faith."
 msgstr ""
+"성전군은 최고의 군인을 떠나 보낼 수 없고, 베테랑들은 언제나 부대의 일원일 것입니다. 하지만 병사들 사이에서 사령관의 그러한 결정은 "
+"옳지 못하다는 소문이 돌고 있습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::m_EventSolutions/1/m_SolutionText
 msgctxt "91569a6f-e954-46f7-8a17-feb13bd9068f"
 msgid "{g|Event_35_2}[Choice effects]{/g} Let the veterans go"
-msgstr ""
+msgstr "{g|Event_35_2}[선택 효과]{/g} 고참병들을 떠나보낸다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::m_EventSolutions/1/m_ResultText
@@ -4654,6 +4716,8 @@ msgid ""
 "officers are now having to patch the newly appeared gaps in the ranks with "
 "fresh recruits."
 msgstr ""
+"고참병들의 귀가 요청을 허가하자, 사령관은 나머지 병사들의 사기를 드높였습니다. 이제부터, 모든 병사들이 언젠가 데몬과의 전투에서 벗어날 "
+"수 있는 그 날을 꿈꾸게 되었습니다. 하지만 장교들은 젊은 신병들을 불러모아 훌륭한 전사로 재편성 해야 할겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::m_EventSolutions/2/m_SolutionText
@@ -4661,7 +4725,7 @@ msgctxt "3d4b81c5-87b9-4abb-84bd-e72b28842541"
 msgid ""
 "{g|Event_35_5}[Choice effects]{/g} Establish a system of prolonging military "
 "duty based on minor infringements"
-msgstr ""
+msgstr "{g|Event_35_5}[선택 효과]{/g} 경범죄를 저질렀을 시, 복무 기간을 연장하는 제도를 설립한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::m_EventSolutions/2/m_ResultText
@@ -4673,12 +4737,15 @@ msgid ""
 "soldier on for a couple more months. And Woljif will make sure that these "
 "months turn into years."
 msgstr ""
+"모든 군인은 수없이 많은 잘못을 갖고 있고, 울지프는 고참병들이 저지른 모든 잘못을 파악했습니다. 고참병들은 즉각 제제되어, 몇 개월을 "
+"더 군대와 함께하게 되었습니다. 그들은 자유는 먼 곳에 있지 않았지만, 그들은 몇 달 정도의 복무 연장을 받아드렸습니다. 그리고 울지프는 "
+"이 몇 달을 몇 년으로 바꾸겠지요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::LocalizedName
 msgctxt "a73a41b4-cfea-482c-bfaa-558db86dc4b5"
 msgid "Veterans"
-msgstr ""
+msgstr "고참병"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent35::LocalizedDescription
@@ -4692,12 +4759,15 @@ msgid ""
 "are adamantly opposed to releasing the most experienced and skilled warriors "
 "from the army."
 msgstr ""
+"많은 수의 병사들이 이미 5차 대성전이 시작되기도 전부터 멘데브를 위해 싸우고 있었습니다. 한 유능한 고참병 집단이 과거의 상처에 "
+"고통받고, 세월의 무게에 고통받고 있습니다. 그들은 성전군을 떠나 자신들의 가정으로 돌아가고 싶다고 요청했습니다. 고참병들은 고향을 위해 "
+"자신들의 의무를 성실하게 수행했다고 주장합니다. 하지만 장교들은 가장 유능하고 가장 경험많은 전사들을 쉽게 떠나보내지 않을 생각입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::m_EventSolutions/0/m_SolutionText
 msgctxt "5caf5de4-35b3-4593-8289-fb3e9135b020"
 msgid "{g|Event_36_1}[Choice effects]{/g} Lay the fallen to rest"
-msgstr ""
+msgstr "{g|Event_36_1}[선택 효과]{/g} 사자들을 쉬게한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::m_EventSolutions/0/m_ResultText
@@ -4707,12 +4777,14 @@ msgid ""
 "their souls. The priests, upon performing the ritual of repose, said that "
 "the gods were pleased with this deed."
 msgstr ""
+"그들의 전투는 이미 끝났고, 사령관의 신성한 의무는 그들의 영혼을 풀어주는 것입니다. 그들에게 안식을 주는 의식이 끝나자, 성직자들은 "
+"신들이 이와 같은 결정에 기뻐하고 있다고 선언하였습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::m_EventSolutions/1/m_SolutionText
 msgctxt "92b13b6a-530b-49e6-a6da-b374cc8b4cb6"
 msgid "{g|Event_36_2}[Choice effects]{/g} Accept them into the army"
-msgstr ""
+msgstr "{g|Event_36_2}[선택 효과]{/g} 그들의 복무를 허가한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::m_EventSolutions/1/m_ResultText
@@ -4722,13 +4794,15 @@ msgid ""
 "Crusade and now fight evil side by side with their living, albeit slightly "
 "frightened comrades."
 msgstr ""
+"몇몇 가치들은 죽음보다 중요하고, 의무 역시 그것들 중 하나입니다. 이 언데드 성전사들은 5차 대성전의 성전군에 속하게 되었고, 살아있는 "
+"전우와 대열을 이뤄 악마놈들에게 맞서 싸울 것입니다. 물론, 전우들은 이따금 겁에 질리겠지만요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::m_EventSolutions/2/m_SolutionText
 msgctxt "cca2c068-8cc2-4778-b6f5-4042bf96f7e8"
 msgid ""
 "{g|Event_36_4}[Choice effects]{/g} Take the fallen for personal research"
-msgstr ""
+msgstr "{g|Event_36_4}[선택 효과]{/g} 사자들을 개인적인 연구를 위해 데려온다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::m_EventSolutions/2/m_ResultText
@@ -4739,12 +4813,14 @@ msgid ""
 "Commander will infuse these undead warriors with {mf|his|her} own power and "
 "turn them into an elite unit."
 msgstr ""
+"외부의 관여 없이 죽은 자 가운데서 돌아온, 이 2 차 대성전의 성전사들은 막대한 잠재력을 갖고있습니다. 이들을 복종시켜 연구에 "
+"이용한다면 사령관은 자신의 힘을 이들에게 주입하여, 정예부대로 거듭나게 할 수 있을 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::LocalizedName
 msgctxt "2e6dd559-2ca5-4f8d-b89c-9263d1f17673"
 msgid "Dead Heroes"
-msgstr ""
+msgstr "죽은 영웅들"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent36::LocalizedDescription
@@ -4756,12 +4832,15 @@ msgid ""
 "the Commander's soldiers, they greeted them with joy and offered to merge "
 "with the ranks of the crusade."
 msgstr ""
+"2차 대성전 시기에 쓰러진 성전군 무리가 죽은 자 가운데서 되살아났습니다. 그들의 영혼은 비록 어두운 마법에 의해 변질되었지만, 자신의 "
+"상태를 인식하지 못한 채 몇 십년간을 데몬들과 싸워왔습니다. 이 언데드 군대가 사령관의 부대와 처음 만났을 때, 그들은 기쁜 마음으로 "
+"경례하며 성전에 합류하기를 요청했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/0/m_SolutionText
 msgctxt "1627e405-4764-40c1-b21c-b4b439eeb57a"
 msgid "{g|Event_37_1}[Choice effects]{/g} Send the children into battle"
-msgstr ""
+msgstr "{g|Event_37_1}[선택 효과]{/g} 아이들을 전투에 내보낸다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/0/m_ResultText
@@ -4769,7 +4848,7 @@ msgctxt "06865718-c73a-40b5-a6c3-bc858ac5a0b4"
 msgid ""
 "The mages, albeit young, have demonstrated impressive talent and earned "
 "their place in the ranks of the crusaders."
-msgstr ""
+msgstr "이들이 비록 어릴지라도, 마법사들은 인상적인 기술을 보여주며 성전에 빠르게 적응했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/1/m_SolutionText
@@ -4777,7 +4856,7 @@ msgctxt "39ea2848-c5f0-44b9-b988-603cc6a8cbd9"
 msgid ""
 "{g|Event_37_2}[Choice effects]{/g} Assign the children to work on the home "
 "front"
-msgstr ""
+msgstr "{g|Event_37_2}[선택 효과]{/g}아이들에게 전시 노동을 부과한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/1/m_ResultText
@@ -4787,12 +4866,15 @@ msgid ""
 "sending them into battle. They were given work on the home front where they "
 "now create enchanted weapons and strengthen warriors with their magic."
 msgstr ""
+"그들이 아무리 강력하다고 하더라도, 이 마법사들은 어린이들일 뿐입니다. 사령관은 그들을 전선으로 보내는 것을 거절했습니다. 대신 그들에게 "
+"그들의 마법으로 전시 물자를 생산하는 일을 맡겼습니다. 마법이 깃든 무기를 만들거나, 마법으로 병사들에게 더 큰 힘을 주거나 하는 "
+"식으로요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/2/m_SolutionText
 msgctxt "d74c18aa-0e0f-4b11-af68-ef547133fd97"
 msgid "{g|Event_37_3}[Choice effects]{/g} Send the children away"
-msgstr ""
+msgstr "{g|Event_37_3}[선택 효과]{/g} 아이들을 그들의 집으로 돌려보낸다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/2/m_ResultText
@@ -4802,6 +4884,8 @@ msgid ""
 "decision — they could not imagine themselves ordering such young fighters "
 "around."
 msgstr ""
+"전장은 어린이들이 있을만한 곳이 아닙니다. 사령관의 이러한 결정에, 자신들이 어린 아이들에게 명령을 내리는 모습을 쉽사리 상상하지 못하는 "
+"많은 장교들이 경의를 표했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/3/m_SolutionText
@@ -4809,7 +4893,7 @@ msgctxt "b7cfd6ac-f15b-4280-80d1-e6a25d0ffd72"
 msgid ""
 "{g|Event_37_4}[Choice effects]{/g} Put the children into the care of the "
 "free crusaders"
-msgstr ""
+msgstr "{g|Event_37_4}[선택 효과]{/g} 자유 성전사들이 이 아이들을 돌보게 한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/3/m_ResultText
@@ -4819,6 +4903,8 @@ msgid ""
 "not belong in the ranks of soldiers, and the Commander sent them to the free "
 "crusaders where they were welcomed with open arms."
 msgstr ""
+"이 아이들이 악마들과 싸우길 원한다면, 그렇게 될것입니다. 하지만 이 마법사들은 군인들 사이에서 결코 제 자리를 찾을 수 없겠지요. "
+"반대로, 사령관의 자유 성전사들이라면 이들을 두 팔을 벌려 맞이할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/4/m_SolutionText
@@ -4826,7 +4912,7 @@ msgctxt "9a37d2a1-97a4-4003-9c86-af8b2049a9d0"
 msgid ""
 "{g|Event_37_5}[Choice effects]{/g} Recruit the children as squires for the "
 "worthy"
-msgstr ""
+msgstr "{g|Event_37_5}[선택 효과]{/g} 아이들을 귀족들의 종자가 되게 합니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::m_EventSolutions/4/m_ResultText
@@ -4837,12 +4923,14 @@ msgid ""
 "the most noble knights who would take these young volunteers as their "
 "squires."
 msgstr ""
+"마법을 제대로 활용하는 것만으로는 성전에 참여할 수 없습니다. 이 어린이들에게는 좋은 교육이 필요하지요. 실라가 선택한 귀족 기사들이 이 "
+"아이들을 종자로 받아들였습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::LocalizedName
 msgctxt "12067d91-8609-40b7-83b6-407301137d31"
 msgid "Pupils of Nethys"
-msgstr ""
+msgstr "네티스의 수련생"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent37::LocalizedDescription
@@ -4852,12 +4940,14 @@ msgid ""
 "the crusaders. All of them are powerful mages, but there is a catch — the "
 "eldest of them is only sixteen years old. Can children be sent to war?"
 msgstr ""
+"{g|Nethys}[네티스]{/g}의 신자들이 성전사들을 돕기위해 드레젠에 도착했습니다. 문제는, 이들은 모두 모두 강력한 마법사이지만, "
+"가장 나이 많은 사람이 16살 밖에 안된다는 사실입니다. 이 어린 아이들을 전장으로 보내야될까요?"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::m_EventSolutions/0/m_SolutionText
 msgctxt "2363f66b-ebaa-43ea-8d7f-69d4926a7f91"
 msgid "{g|Event_38_1}[Choice effects]{/g} Train and temper them"
-msgstr ""
+msgstr "{g|Event_38_1}[선택 효과]{/g} 신병들을 훈련시키고, 단련시킨다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::m_EventSolutions/0/m_ResultText
@@ -4867,12 +4957,14 @@ msgid ""
 "The officers put them through rigorous training and turned them into real "
 "soldiers."
 msgstr ""
+"이제 이 귀족들은 성전사로 거듭나게 되었고, 그들은 전투에서 다른 전우처럼 싸울 수 있게 되었습니다. 혹독한 훈련을 거쳐, 장교들은 "
+"그들을 그 이름에 걸맞은 성전사들로 변화시켰습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::m_EventSolutions/1/m_SolutionText
 msgctxt "a36edb01-6daf-418b-92a8-588361079bea"
 msgid "{g|Event_38_2}[Choice effects]{/g} Collect payment from the families"
-msgstr ""
+msgstr "{g|Event_38_2}[선택 효과]{/g} 그들의 가문에 보상을 요구한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::m_EventSolutions/1/m_ResultText
@@ -4883,12 +4975,15 @@ msgid ""
 "into a new \"regiment\" that never leaves Drezen and thus causes no issues "
 "on the front lines."
 msgstr ""
+"대부분의 귀족 가문에서 드레젠에서 온 편지에 즉각 답장했습니다. 사령관이 그들의 무능한 자손을 계속 붙잡아 둘 수 있도록 기꺼히 성전에 "
+"돈을 지불했습니다. 전열에서 싸우는 병사들에게 짐을 지지 않기 위해, 또 이들을 결코 드레젠 밖으로 빠저나가지 못하게 만들기 위해 새로운 "
+"« 연대 » 가 이들 « 지원자들 » 을 위해 창설되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::m_EventSolutions/2/m_SolutionText
 msgctxt "471515e4-5414-480d-82dc-2a1199d27faa"
 msgid "{g|Event_38_3}[Choice effects]{/g} Send them back home"
-msgstr ""
+msgstr "{g|Event_38_3}[선택 효과]{/g} 이들을 집으로 돌려보낸다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::m_EventSolutions/2/m_ResultText
@@ -4899,12 +4994,15 @@ msgid ""
 "not to return home and travel to other nations instead. There, at the courts "
 "of foreign leaders, they never stop praising the Commander's wisdom."
 msgstr ""
+"오직 범죄자들만이 그들의 의사와는 상관 없이 성전군에 복무합니다. 더군다나 이 징집병들은 잘못을 저지르지도 않았습니다. 이 젊은 귀족들이 "
+"드레젠을 안전하고 무탈하게 떠날 수 있게 되자, 자신들의 집으로 돌아가지 않기로 다짐했습니다. 대신 외국 땅을 돌아다니며 사령관의 지혜를 "
+"찬미했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::LocalizedName
 msgctxt "7ab789c3-09ab-4587-99c2-bb1249a22dc0"
 msgid "The Unwanted"
-msgstr ""
+msgstr "원치 않은 자들"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent38::LocalizedDescription
@@ -4918,12 +5016,15 @@ msgid ""
 "to either, plus they might fail their comrades in a battle. What should be "
 "done with them?"
 msgstr ""
+"또다른 신병들이 드레젠에 도착했지만, 그들의 능력은 썩 좋아보이지 않습니다. 이 신병들은 소귀족 가문의 막내 자식으로써, 그들의 가문에 "
+"명예, 또는 부를 가저오거나, 원치않는 상속자를 처리하고 싶은 부모들이 성전으로 그들을 보냈습니다. 이들은 싸우는 방법도 모르고, 그 "
+"어떤 대가를 치루더라도 위험에서 벗어나고 싶어합니다. 그리고 전투에서 전우들을 불편하게 할 위험도 있습니다. 사령관님, 어떻게 해야될까요?"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent39::m_EventSolutions/0/m_SolutionText
 msgctxt "fb45ab23-5460-4751-a977-7b72a88d555e"
 msgid "{g|Event_39_1}[Choice effects]{/g} Arrange the hunt"
-msgstr ""
+msgstr "{g|Event_39_1}[선택 효과]{/g} 사냥대를 조직한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent39::m_EventSolutions/0/m_ResultText
@@ -4996,6 +5097,8 @@ msgid ""
 "Worldwound to hunt demons. They are willing to pay a generous sum if the "
 "crusaders provide them with this \"entertainment.\""
 msgstr ""
+"젋은 {g|Cheliax}[첼리악스] 귀족들이 유희를 위해 데몬들을 사냥하러 세계 상처에 도착했습니다. 이 귀족들에게 작은 일탈을 "
+"제공한다면, 그들은 기꺼히 많은 돈을 지불할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent40::m_EventSolutions/0/m_SolutionText
@@ -16867,7 +16970,7 @@ msgstr ""
 #. Path = DiplomacyRankUp2Project::LocalizedName
 msgctxt "f3d4dc85-fdac-4c41-a1fa-d694885e71fb"
 msgid "Forming a Diplomatic Council"
-msgstr ""
+msgstr "외교 자문단 조직하기"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = DiplomacyRankUp2Project::LocalizedDescription
@@ -22721,10 +22824,9 @@ msgstr "지표 등급"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomTeleportationCircle
-#, fuzzy
 msgctxt "38b3c662-956c-4f79-a95e-2e5ccad51510"
 msgid "Teleportation Circle"
-msgstr "순간이동 마법진"
+msgstr "전이 마법진"
 
 #. Type = Kingmaker.Kingdom.KingdomUIRoot
 #. Path = KingdomUIRoot::Texts/KingdomEventWindowDropEventLabel
@@ -23279,7 +23381,7 @@ msgstr ""
 #. Path = Citadel::Name
 msgctxt "b64586fb-3fcc-4dd1-9f5e-1a4752ed0ae9"
 msgid "Citadel"
-msgstr ""
+msgstr "성채"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Citadel::Description
@@ -23287,7 +23389,7 @@ msgctxt "164b5039-d471-47af-9164-fa360e169094"
 msgid ""
 "When the enemy storms the outer walls of the fort, its defenders retreat to "
 "the citadel, where they can maintain the defense for many days more."
-msgstr ""
+msgstr "적들에게 요새의 외성벽이 함락되면 수비병들은 성채로 후퇴하여 농성을 함으로서 며칠을 더 버틸 수 있습니다."
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Citadel::MechanicalDescription
@@ -23295,7 +23397,7 @@ msgctxt "fd234a7c-35b0-401f-817f-3fc22cbed4b8"
 msgid ""
 "A Citadel increases the time of the siege of the fort by 3 days. Only one "
 "Citadel can be built in each fort."
-msgstr ""
+msgstr "성채는 요새가 공성을 버틸 수 있는 시간을 3일 증가시킵니다. 각 요새마다 하나의 성채만 건설할 수 있습니다."
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = EngineersWorkshop::Name
@@ -23355,7 +23457,7 @@ msgstr ""
 #. Path = Gallows::Name
 msgctxt "b1cf97e6-440c-4976-9095-204a159ad36e"
 msgid "Gallows"
-msgstr ""
+msgstr "교수대"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Gallows::Description
@@ -23363,7 +23465,7 @@ msgctxt "eea3e1c0-ab64-43f4-b8bd-0ea6b3a24d77"
 msgid ""
 "A place where traitors, deserters, and cowards are executed as a warning to "
 "recalcitrant soldiers who question their loyalty."
-msgstr ""
+msgstr "충성에 의문을 가지는 병사들에 대한 경고의 표시로 배신자, 탈영병, 겁쟁이들을 처형하는 장소입니다."
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Gallows::MechanicalDescription
@@ -23372,6 +23474,7 @@ msgid ""
 "Gallows decreases the chance to skip action due to negative combat morale by "
 "3% for all units. Only one Gallows can be built in each fort."
 msgstr ""
+"교수대는 모든 유닛이 부정적인 사기로 인해 행동할 기회를 넘길 확률을 3% 감소시킵니다. 각 요새마다 하나의 교수대만 건설할 수 있습니다."
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = HallOfChampionsGarrison::Name
@@ -23422,7 +23525,7 @@ msgstr ""
 #. Path = HallOfGlory::Name
 msgctxt "a138dbef-5978-4807-bead-2a24ed731b2a"
 msgid "Hall of Glory"
-msgstr ""
+msgstr "영광의 회랑"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = HallOfGlory::Description
@@ -23503,7 +23606,7 @@ msgstr ""
 #. Path = InnImproved::Name
 msgctxt "8c0f6ad7-5ea4-4e2c-b66b-f83238850672"
 msgid "Inn"
-msgstr ""
+msgstr "여관"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Inn::Description
@@ -23538,7 +23641,7 @@ msgstr ""
 #. Path = Market::Name
 msgctxt "3b2d65a2-e62d-4022-9a2f-27ac09fedb16"
 msgid "Market"
-msgstr ""
+msgstr "시장"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Market::Description
@@ -23560,7 +23663,7 @@ msgstr ""
 #. Path = MercenaryGuild::Name
 msgctxt "6f4a3bb1-ae0b-4d76-ace8-38632359e75d"
 msgid "Mercenary Guild"
-msgstr ""
+msgstr "용병 길드"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = MercenaryGuild::Description
@@ -23605,7 +23708,7 @@ msgstr ""
 #. Path = Monument::Name
 msgctxt "58d549b8-8ffa-4df1-93e4-11964ca7b8a9"
 msgid "Monument"
-msgstr ""
+msgstr "기념비"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Monument::Description
@@ -23696,7 +23799,7 @@ msgstr ""
 #. Path = SaboteursHeadquarters::Name
 msgctxt "6d33621e-ed99-4b2b-94ab-5e05fa210440"
 msgid "Saboteurs' Headquarters"
-msgstr ""
+msgstr "파괴공작 본부"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = SaboteursHeadquarters::Description
@@ -23825,7 +23928,7 @@ msgstr ""
 #. Path = SmithyCapital::Name
 msgctxt "3e34bf35-74bc-4227-af6a-0fc0f18e8164"
 msgid "Smithy"
-msgstr ""
+msgstr "대장간"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Smithy::Description
@@ -23989,7 +24092,7 @@ msgstr ""
 #. Path = Tavern::Name
 msgctxt "f63c6f8e-8243-4cdd-a4ef-e5d67a18da44"
 msgid "Tavern"
-msgstr ""
+msgstr "선술집"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Tavern::Description
@@ -24011,7 +24114,7 @@ msgstr ""
 #. Path = TeleportationCircle::Name
 msgctxt "d9dada8f-d9af-4cda-8c70-479bea1a38f6"
 msgid "Teleportation Circle"
-msgstr ""
+msgstr "전이 마법진"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = TeleportationCircle::Description
@@ -24019,7 +24122,7 @@ msgctxt "22f660e4-22a4-4fd3-8254-9d85d7794e10"
 msgid ""
 "A network of teleportation circles connects the crusade's forts, allowing "
 "forces to be transported quickly to different sections of the front."
-msgstr ""
+msgstr "전이 마법진의 연결망이 성전군의 요새들을 이어, 병력이 전선으로 빠르게 수송될 수 있도록 합니다."
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = TeleportationCircle::MechanicalDescription
@@ -24027,7 +24130,7 @@ msgctxt "3c22064a-2a63-48cc-881a-1c9d324cb99c"
 msgid ""
 "A Teleportation Circle allows the Commander's party to teleport to this fort "
 "from anywhere on the map."
-msgstr ""
+msgstr "사령관의 일행이 지도 어디에서든 전이 마법진이 설치된 곳으로 전이할 수 있습니다."
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = TrainingGrounds::Name
@@ -24036,7 +24139,7 @@ msgstr ""
 #. Path = TrainingGroundsCapital::Name
 msgctxt "e1cfac64-59d5-48af-b008-3305c3e7ccbd"
 msgid "Training Grounds"
-msgstr ""
+msgstr "훈련장"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = TrainingGrounds::Description
@@ -24047,7 +24150,7 @@ msgctxt "65577269-faca-46ce-af91-17b0b00e8416"
 msgid ""
 "Here fighters hone their combat skills, and recruits undergo rigorous trials "
 "set by experienced officers."
-msgstr ""
+msgstr "이곳에서 전사들이 전투 기술을 연마하고, 신병들이 숙련된 조교 아래에서 엄격한 훈련을 받습니다."
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = TrainingGrounds::MechanicalDescription
@@ -24065,7 +24168,7 @@ msgstr ""
 #. Path = Warehouse::Name
 msgctxt "be20e740-f35b-4c10-87b6-5bff481da101"
 msgid "Warehouse"
-msgstr ""
+msgstr "창고"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Warehouse::Description
@@ -24089,7 +24192,7 @@ msgstr ""
 #. Path = Watchtower::Name
 msgctxt "d16f0de9-3418-404e-8aab-bb1016b28633"
 msgid "Watchtower"
-msgstr ""
+msgstr "감시탑"
 
 #. Type = Kingmaker.Kingdom.Settlements.BlueprintSettlementBuilding
 #. Path = Watchtower::Description

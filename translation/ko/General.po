@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-18 13:23+0000\n"
+"PO-Revision-Date: 2021-09-20 02:23+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -2195,21 +2195,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/FlatFootedFakeFeature/m_DisplayName
-#, fuzzy
-#| msgid "Flat-footed"
 msgctxt "f2e72c85-2ae9-423d-bcba-acf4a65c7d22"
 msgid "Flat-Footed"
-msgstr "무방비함"
+msgstr "무방비"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/FlatFootedFakeFeature/m_Description
-#, fuzzy
-#| msgid ""
-#| "A character who has not yet acted during combat or a character that cannot "
-#| "properly see an opponent is flat-footed, unable to react normally to the "
-#| "situation. A flat-footed character loses his Dexterity bonus to AC and "
-#| "Combat Maneuver Defense (CMD) (if any) and does not make attacks of "
-#| "opportunity."
 msgctxt "bff82ed8-efbe-4cee-906c-a775f143b0c5"
 msgid ""
 "A character who has not yet acted during combat or a character that cannot "
@@ -2218,26 +2209,23 @@ msgid ""
 "Combat Maneuver Defense (CMD), if any, and does not make attacks of "
 "opportunity."
 msgstr ""
-"전투 중 아직 행동하지 않거나 적을 적절하게 볼 수 없는 캐릭터는 무방비 상태입니다. 이는 상황에 정상적으로 반응할 수 없음을 "
-"의미합니다. 무방비 상태의 캐릭터는 그의 AC와 전법 방어도(CMD)에 민첩 보너스를 잃고 기회 공격을 하지 못합니다."
+"전투 중 아직 행동하지 않거나 적을 정확하게 볼 수 없는 캐릭터는 무방비 상태로 취급되며, 상황에 정상적으로 반응할 수 없음을 "
+"의미합니다. 무방비 상태의 캐릭터는 AC 와 전법 방어도(CMD)에 민첩 보너스를 잃고 기회 공격을 할 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapLastVisitedNever
-#, fuzzy
 msgctxt "c2cdef51-3d62-43b5-aaa6-dfb054fb1f6d"
 msgid "You've never been in this location."
-msgstr "당신은 이 장소에 방문한 적이 없습니다."
+msgstr "이 장소에 방문한 적이 없습니다."
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapLastVisited
-#, fuzzy
 msgctxt "cd4ce53d-b719-4780-886b-9a7a941a0bd8"
 msgid "You have visited this location on {0}."
-msgstr "당신은 {0}에 이 장소를 방문하였습니다."
+msgstr "{0}에 이 장소를 방문했습니다."
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapJounayDialogAccept
-#, fuzzy
 msgctxt "f8379ab4-a39e-4693-8ea7-829d08e23d01"
 msgid "Travel"
 msgstr "여행"
@@ -2251,28 +2239,24 @@ msgstr "진입"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapRandomEncounterTitleDefault
-#, fuzzy
 msgctxt "7e0a1e9d-9c03-49b6-bc3c-1b2a287803d8"
 msgid "Random Encounter"
 msgstr "무작위 조우"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapRandomEncounterDescDefault
-#, fuzzy
 msgctxt "0029e1bf-7c15-4533-ac08-4455bd8db58b"
 msgid "There is someone on the road. Get ready!"
 msgstr "길에 누군가가 있습니다. 준비하십시오!"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapRandomEncounterDescAvoidable
-#, fuzzy
 msgctxt "53959b16-8671-48e8-9098-b0015963224d"
 msgid "You've spotted the enemies!"
-msgstr "당신은 적을 발견했습니다!"
+msgstr "적을 발견했습니다!"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapRandomEncounterPeacefulDescDefault
-#, fuzzy
 msgctxt "01b152c3-97f3-4581-b532-6e5515977350"
 msgid "There's someone on the road. Get ready!"
 msgstr "길에 누군가가 있습니다. 준비하십시오!"
@@ -2290,68 +2274,58 @@ msgstr "길에 누군가가 있습니다. 준비하십시오!"
 #. Path = BP_Trader_Winter::Description
 msgctxt "29b4f89f-e7e8-4331-b948-b62c6c4b0f7c"
 msgid "You've spotted a traveling merchant. Do you wish to meet with them?"
-msgstr ""
+msgstr "여행하는 상인을 발견했습니다. 만나러 가시겠습니까?"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/EnterButton
-#, fuzzy
 msgctxt "38e72e58-2db4-403a-8dd4-305eab311873"
 msgid "Fight!"
 msgstr "전투!"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/EnterPeacefulButton
-#, fuzzy
 msgctxt "5b920322-ae40-4f99-83df-f284fca59506"
 msgid "Approach"
 msgstr "접근"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/AvoidButton
-#, fuzzy
 msgctxt "0f0163ad-c158-43f6-8b8f-fe2fa8fff87c"
 msgid "Evade"
 msgstr "회피"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/TryAvoidButton
-#, fuzzy
 msgctxt "96060759-a010-4615-afbb-08855c654c55"
 msgid "Try to avoid"
 msgstr "회피 시도"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/AvoidSuccessDescription
-#, fuzzy
 msgctxt "ae5df996-5fc7-40ca-aaa6-7d6f971011cb"
 msgid "You have successfully evaded the enemies!"
-msgstr "당신은 성공적으로 적을 피했습니다!"
+msgstr "성공적으로 적을 회피했습니다!"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/AvoidFailedDescription
-#, fuzzy
-#| msgid "You failed to sneak past the enemies. Prepare for battle."
 msgctxt "7bc42e68-a10a-4d72-a9fb-c312f11b8c8f"
 msgid "You failed to sneak past the enemies. Prepare to fight."
-msgstr "당신은 적을 몰래 지나가지 못했습니다. 전투를 준비하십시오."
+msgstr "적을 몰래 지나가지 못했습니다. 전투를 준비하십시오."
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/HintFormat
-#, fuzzy
 msgctxt "12b129d2-f351-4777-b15e-ddd8f028293b"
 msgid "Hint: {0}"
 msgstr "힌트: {0}"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/ItemOriginOwnerDescription
-#, fuzzy
 msgctxt "7e40810a-4d40-4fd1-b4c8-fcb670a63ae2"
 msgid "You acquired this item while exploring {0}"
 msgstr "{0} 탐험중에 획득"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/ItemVendorDescription
-#, fuzzy
 msgctxt "3891362c-617e-4279-b95e-6a54cd948dcb"
 msgid "You received this item from merchant {0}"
 msgstr "상인 {0}에게 구입"
@@ -2360,7 +2334,7 @@ msgstr "상인 {0}에게 구입"
 #. Path = AlchemistsKit1Item::m_DisplayNameText
 msgctxt "25670bc3-3d5c-4911-93d3-b720927b8ed6"
 msgid "Alchemist's Kit — I"
-msgstr ""
+msgstr "연금술사의 도구 — I"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = AlchemistsKit1Item::m_DescriptionText
@@ -2374,7 +2348,7 @@ msgstr ""
 #. Path = AlchemistsKit2Item::m_DisplayNameText
 msgctxt "56c0c522-0239-4c7d-9b28-fee41bac5f6c"
 msgid "Alchemist's Kit — II"
-msgstr ""
+msgstr "연금술사의 도구 — II"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = AlchemistsKit2Item::m_DescriptionText
@@ -2388,7 +2362,7 @@ msgstr ""
 #. Path = AlchemistsKit3Item::m_DisplayNameText
 msgctxt "1fb53723-2601-4650-8d6b-650c094488e2"
 msgid "Alchemist's Kit — III"
-msgstr ""
+msgstr "연금술사의 도구 — III"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = AlchemistsKit3Item::m_DescriptionText
@@ -2402,7 +2376,7 @@ msgstr ""
 #. Path = AlchemistsKit4Item::m_DisplayNameText
 msgctxt "275bbaf3-5a15-43a0-a7ef-c193dbeb6301"
 msgid "Alchemist's Kit — IV"
-msgstr ""
+msgstr "연금술사의 도구 — IV"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = AlchemistsKit4Item::m_DescriptionText
@@ -2416,7 +2390,7 @@ msgstr ""
 #. Path = AlchemistsKit5Item::m_DisplayNameText
 msgctxt "9a779ae7-aa46-4b71-9f0f-7b8d63b20c6d"
 msgid "Alchemist's Kit — V"
-msgstr ""
+msgstr "연금술사의 도구 — V"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = AlchemistsKit5Item::m_DescriptionText
@@ -2430,7 +2404,7 @@ msgstr ""
 #. Path = AlchemistsKit6Item::m_DisplayNameText
 msgctxt "1cfbeac7-c3f2-4d4c-a736-06ac13b3d1db"
 msgid "Alchemist's Kit — VI"
-msgstr ""
+msgstr "연금술사의 도구 — VI"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = AlchemistsKit6Item::m_DescriptionText
@@ -2468,7 +2442,7 @@ msgstr ""
 #. Path = BloodshotEyeItem::m_DisplayNameText
 msgctxt "b42b4761-7e83-45fb-a469-80d577b2d119"
 msgid "Bloodshot Eye"
-msgstr ""
+msgstr "충혈된 눈"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = BloodVialItem::m_DisplayNameText
@@ -2480,13 +2454,13 @@ msgstr ""
 #. Path = BoneMealItem::m_DisplayNameText
 msgctxt "4d27ef02-52c2-4a2b-99fd-f8038e2ddab3"
 msgid "Bone Meal"
-msgstr ""
+msgstr "뼛가루"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ButterItem::m_DisplayNameText
 msgctxt "cb0acaea-d27f-4b91-8f57-3f63cea35a13"
 msgid "Butter"
-msgstr ""
+msgstr "버터"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ButterItem::m_DescriptionText
@@ -2506,19 +2480,19 @@ msgctxt "a069e9ec-8f4a-4ae4-b6f3-acfa9a99fe6b"
 msgid ""
 "This is a cooking ingredient. You can use it to cook something while "
 "{g|Encyclopedia:Rest}resting{/g}."
-msgstr ""
+msgstr "이것은 요리 재료입니다. {g|Encyclopedia:Rest}휴식{/g} 중에 요리를 할 때 사용할 수 있습니다."
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = CausticMoldItem::m_DisplayNameText
 msgctxt "03130e0e-6fda-4f90-ad90-f8810343a8b5"
 msgid "Caustic Mold"
-msgstr ""
+msgstr "부식성 곰팡이"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = CheeseItem::m_DisplayNameText
 msgctxt "edbb5a13-554d-4a61-a18c-11f93c53f4c5"
 msgid "Cheese"
-msgstr ""
+msgstr "치즈"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = CinderbloomItem::m_DisplayNameText
@@ -2530,13 +2504,13 @@ msgstr ""
 #. Path = ColorfulFeatherItem::m_DisplayNameText
 msgctxt "54277c42-bdde-4c70-af2b-69e4b7659c04"
 msgid "Colorful Feather"
-msgstr ""
+msgstr "오색 깃털"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = CorruptedAnimalMeatItem::m_DisplayNameText
 msgctxt "d7e80fc0-2c7b-4adb-a5e0-05bde0136031"
 msgid "Corrupted Animal Meat"
-msgstr ""
+msgstr "오염된 동물 고기"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = CrookedPawItem::m_DisplayNameText
@@ -2554,91 +2528,91 @@ msgstr ""
 #. Path = CursedPlantItem::m_DisplayNameText
 msgctxt "9bfd739e-e7ce-4cf9-9949-53bf9d470009"
 msgid "Cursed Plant"
-msgstr ""
+msgstr "저주받은 식물"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = DemonicHeartItem::m_DisplayNameText
 msgctxt "cf9ddde1-3b12-4e89-b686-1c625c49685a"
 msgid "Demonic Heart"
-msgstr ""
+msgstr "데몬 심장"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = EdibleMossItem::m_DisplayNameText
 msgctxt "a411bac8-3128-4150-827c-366c982d2c22"
 msgid "Edible Moss"
-msgstr ""
+msgstr "식용 이끼"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = EggsItem::m_DisplayNameText
 msgctxt "23ac822e-117d-43cb-8fe6-6641597e269d"
 msgid "Eggs"
-msgstr ""
+msgstr "계란"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ElementalEssenceItem::m_DisplayNameText
 msgctxt "7338c690-3e20-49fe-81e8-eec8bcc2a7b9"
 msgid "Elemental Essence"
-msgstr ""
+msgstr "원소 정수"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = FairyMushroomItem::m_DisplayNameText
 msgctxt "7709a84e-cb38-4085-b332-252c119be127"
 msgid "Fairy Mushroom"
-msgstr ""
+msgstr "요정 버섯"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = FlametongueItem::m_DisplayNameText
 msgctxt "82697fd2-1aea-445f-ad2a-0a2149537af0"
 msgid "Flametongue"
-msgstr ""
+msgstr "화염초"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = FlourItem::m_DisplayNameText
 msgctxt "ff7f1574-54e8-4bc7-9b9e-08922f324d4b"
 msgid "Flour"
-msgstr ""
+msgstr "밀가루"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ForkedTongueItem::m_DisplayNameText
 msgctxt "42b36f1a-acb1-4f10-b5b6-7350bdae2604"
 msgid "Forked Tongue"
-msgstr ""
+msgstr "갈라진 혀"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = GlassItem::m_DisplayNameText
 msgctxt "bb1e461c-1142-42c3-8399-63ec1e366520"
 msgid "Glass"
-msgstr ""
+msgstr "유리"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = LeechweedItem::m_DisplayNameText
 msgctxt "d39c0fdd-54db-48b8-b108-641ba241ea22"
 msgid "Leechweed"
-msgstr ""
+msgstr "거머리풀"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MagicalAcornItem::m_DisplayNameText
 msgctxt "afb4cfb5-31d3-47bb-b1af-692a17886cae"
 msgid "Magical Acorn"
-msgstr ""
+msgstr "마법 도토리"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MagicalDustItem::m_DisplayNameText
 msgctxt "d9a5ba22-29de-4edd-9538-e9aad933ed5c"
 msgid "Magical Dust"
-msgstr ""
+msgstr "마법의 가루"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MandrakeRootItem::m_DisplayNameText
 msgctxt "4d444a06-77ff-4744-bc1a-4b1ac3382b8a"
 msgid "Mandrake Root"
-msgstr ""
+msgstr "맨드레이크 뿌리"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MeteorDustItem::m_DisplayNameText
 msgctxt "0fc37575-b097-4795-a500-5bf1ebe51cd5"
 msgid "Meteor Dust"
-msgstr ""
+msgstr "운석 가루"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MidnightMorelItem::m_DisplayNameText
@@ -2650,43 +2624,43 @@ msgstr ""
 #. Path = MilkItem::m_DisplayNameText
 msgctxt "6e0d0a43-6cbc-40fb-ac66-08b533369bc8"
 msgid "Milk"
-msgstr ""
+msgstr "우유"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MixOfDemonicPoisonsItem::m_DisplayNameText
 msgctxt "eee178bd-ba72-4963-a969-1a19b5542f5b"
 msgid "Mix of Demonic Poisons"
-msgstr ""
+msgstr "데몬 독 혼합물"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MixOfSpicesItem::m_DisplayNameText
 msgctxt "c04b4c84-ab9f-4957-9d77-3722a14987e7"
 msgid "Mix of Spices"
-msgstr ""
+msgstr "향신료 묶음"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = MutatedFishItem::m_DisplayNameText
 msgctxt "296c8b85-0705-4861-b1bb-23cfa06d7e1d"
 msgid "Mutated Fish"
-msgstr ""
+msgstr "변이된 물고기"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = NutsItem::m_DisplayNameText
 msgctxt "804e3238-fc3e-4796-b756-2a72b27badf7"
 msgid "Nuts"
-msgstr ""
+msgstr "견과류"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = OnionsItem::m_DisplayNameText
 msgctxt "11f4b8b8-8d47-430b-a52e-60fd7a970404"
 msgid "Onions"
-msgstr ""
+msgstr "양파"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = PhoenixFeatherItem::m_DisplayNameText
 msgctxt "474a673c-ca17-472f-bbcd-cb3d9b799ad4"
 msgid "Phoenix Feather"
-msgstr ""
+msgstr "피닉스 깃털"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = PhosphorousMushroomItem::m_DisplayNameText
@@ -2698,13 +2672,13 @@ msgstr ""
 #. Path = PixieDustItem::m_DisplayNameText
 msgctxt "2a1e0918-21a5-42c5-9273-f30566426b28"
 msgid "Pixie Dust"
-msgstr ""
+msgstr "픽시 가루"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = PurifyingSolutionItem::m_DisplayNameText
 msgctxt "f18041fb-a47c-426d-accd-e65394baf774"
 msgid "Purifying Solution"
-msgstr ""
+msgstr "정화용 시약"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = PurifyingSolutionItem::m_DescriptionText
@@ -2712,31 +2686,31 @@ msgctxt "ac52d002-af16-4750-98f0-285cfa8d9d94"
 msgid ""
 "This magical substance is necessary to clean and safely consume any food in "
 "the corrupted wastelands of the Worldwound."
-msgstr ""
+msgstr "이 마법 물질은 세계상처의 오염된 황무지에서 음식을 깨끗하고 안전하게 먹고자 할 때 필수적입니다."
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = RainbowQuartzItem::m_DisplayNameText
 msgctxt "5ce16d3b-5c10-4887-84a0-eb356c3e3923"
 msgid "Rainbow Quartz"
-msgstr ""
+msgstr "무지개 석영"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = RazorSharpClawItem::m_DisplayNameText
 msgctxt "0851fc67-1da2-482f-94a7-0e383998cf47"
 msgid "Razor-Sharp Claw"
-msgstr ""
+msgstr "날카로운 발톱"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = RiceItem::m_DisplayNameText
 msgctxt "dcf7ab4f-b05e-4a77-b8d6-3234194174bb"
 msgid "Rice"
-msgstr ""
+msgstr "쌀"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit1Item::m_DisplayNameText
 msgctxt "5e8af3d9-617e-4060-bf12-87686d1423d4"
 msgid "Scroll Scriber's Kit — I"
-msgstr ""
+msgstr "두루마리 제작 도구 — I"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit1Item::m_DescriptionText
@@ -2750,7 +2724,7 @@ msgstr ""
 #. Path = ScrollScribersKit2Item::m_DisplayNameText
 msgctxt "852f650e-ae17-4824-9918-70b79c7311c8"
 msgid "Scroll Scriber's Kit — II"
-msgstr ""
+msgstr "두루마리 제작 도구 — II"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit2Item::m_DescriptionText
@@ -2764,7 +2738,7 @@ msgstr ""
 #. Path = ScrollScribersKit3Item::m_DisplayNameText
 msgctxt "bf418833-bd5f-43bd-b922-f50c5d757ca2"
 msgid "Scroll Scriber's Kit — III"
-msgstr ""
+msgstr "두루마리 제작 도구 — III"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit3Item::m_DescriptionText
@@ -2778,7 +2752,7 @@ msgstr ""
 #. Path = ScrollScribersKit4Item::m_DisplayNameText
 msgctxt "dcf67029-d4e0-4977-9f3f-6bd93e78bb3e"
 msgid "Scroll Scriber's Kit — IV"
-msgstr ""
+msgstr "두루마리 제작 도구 — IV"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit4Item::m_DescriptionText
@@ -2792,7 +2766,7 @@ msgstr ""
 #. Path = ScrollScribersKit5Item::m_DisplayNameText
 msgctxt "e41150a3-1f44-4a05-8343-c8172b3f045e"
 msgid "Scroll Scriber's Kit — V"
-msgstr ""
+msgstr "두루마리 제작 도구 — V"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit5Item::m_DescriptionText
@@ -2806,7 +2780,7 @@ msgstr ""
 #. Path = ScrollScribersKit6Item::m_DisplayNameText
 msgctxt "356ca19c-c220-4e6a-a21d-14b76f68c1c7"
 msgid "Scroll Scriber's Kit — VI"
-msgstr ""
+msgstr "두루마리 제작 도구 — VI"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit6Item::m_DescriptionText
@@ -2820,7 +2794,7 @@ msgstr ""
 #. Path = ScrollScribersKit7Item::m_DisplayNameText
 msgctxt "13af88f3-9382-4014-8ec4-d6132274b641"
 msgid "Scroll Scriber's Kit — VII"
-msgstr ""
+msgstr "두루마리 제작 도구 — VII"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit7Item::m_DescriptionText
@@ -2834,7 +2808,7 @@ msgstr ""
 #. Path = ScrollScribersKit8Item::m_DisplayNameText
 msgctxt "676cb4bd-d72f-473f-84eb-ddec9e5b68f2"
 msgid "Scroll Scriber's Kit — VIII"
-msgstr ""
+msgstr "두루마리 제작 도구 — VIII"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit8Item::m_DescriptionText
@@ -2848,7 +2822,7 @@ msgstr ""
 #. Path = ScrollScribersKit9Item::m_DisplayNameText
 msgctxt "0059c6ed-57d2-4eac-b13b-6be8fd1aa8c3"
 msgid "Scroll Scriber's Kit — IX"
-msgstr ""
+msgstr "두루마리 제작 도구 — IX"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ScrollScribersKit9Item::m_DescriptionText
@@ -2862,19 +2836,19 @@ msgstr ""
 #. Path = ShadowbloomItem::m_DisplayNameText
 msgctxt "60b5917f-0f78-49de-869a-4ba3484dec68"
 msgid "Shadowbloom"
-msgstr ""
+msgstr "그림자꽃"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ShadowCloverItem::m_DisplayNameText
 msgctxt "5a0da467-ee36-42e4-ac4a-a6612f254dc5"
 msgid "Shadow Clover"
-msgstr ""
+msgstr "그림자 클로버"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = ShinyChitinItem::m_DisplayNameText
 msgctxt "bc7fe5df-478a-4260-b837-e68bb592d1e7"
 msgid "Shiny Chitin"
-msgstr ""
+msgstr "빛나는 갑각"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = SkullberryItem::m_DisplayNameText
@@ -2886,7 +2860,7 @@ msgstr ""
 #. Path = SlimySkinItem::m_DisplayNameText
 msgctxt "83f58244-311f-4197-aca2-3e00dd667843"
 msgid "Slimy Skin"
-msgstr ""
+msgstr "점액성 가죽"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = SpellgorgingFlowerItem::m_DisplayNameText
@@ -2898,55 +2872,55 @@ msgstr ""
 #. Path = SpiralShelltem::m_DisplayNameText
 msgctxt "94832c10-6c81-462c-bbd9-2c52ecc9b4d6"
 msgid "Spiral Shell"
-msgstr ""
+msgstr "나선형 껍데기"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = SweetWineItem::m_DisplayNameText
 msgctxt "6a34f693-b279-413e-808f-8f7042f82560"
 msgid "Sweet Wine"
-msgstr ""
+msgstr "달콤한 와인"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = TailStingItem::m_DisplayNameText
 msgctxt "94f11b5a-7037-49df-8291-92a569c9c2bd"
 msgid "Tail Sting"
-msgstr ""
+msgstr "꼬리 독침"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = TaintedFowltem::m_DisplayNameText
 msgctxt "c7ac31fd-f1a2-4b7d-bc20-379a767f8849"
 msgid "Tainted Fowl"
-msgstr ""
+msgstr "감염된 새고기"
 
 #. Type = Kingmaker.Craft.CraftRoot
 #. Path = CraftRoot::m_CollectingRoot/PointResources
 msgctxt "29c3af35-a6f0-4423-8444-47276cda793c"
 msgid "Reagents in this location"
-msgstr ""
+msgstr "이 장소의 재료"
 
 #. Type = Kingmaker.Craft.CraftRoot
 #. Path = CraftRoot::m_CollectingRoot/SuccessCollect
 msgctxt "12badae3-9995-438f-9ee6-1cbca92ae80b"
 msgid "Reagents collected"
-msgstr ""
+msgstr "재료 수집됨"
 
 #. Type = Kingmaker.Craft.CraftRoot
 #. Path = CraftRoot::m_CollectingRoot/FailCollected
 msgctxt "4930e0d4-e85f-4ca1-82ee-f73b5d06a59f"
 msgid "Failed to collect the reagents"
-msgstr ""
+msgstr "재료 수집 실패"
 
 #. Type = Kingmaker.Craft.CraftRoot
 #. Path = CraftRoot::m_CollectingRoot/TryCollect
 msgctxt "9b9753ad-28c9-4dfc-b124-c239ab8a6d42"
 msgid "Try to collect the reagents"
-msgstr ""
+msgstr "재료 수집"
 
 #. Type = Kingmaker.Craft.CraftRoot
 #. Path = CraftRoot::m_CollectingRoot/AlreadyCollected
 msgctxt "797e2d82-db25-41f1-bbc3-b21ec7e2a0ee"
 msgid "There are no more reagents in this location"
-msgstr ""
+msgstr "이 장소에 남은 재료가 없습니다"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellActOfIntimidation::m_SpellName
@@ -2966,7 +2940,7 @@ msgstr ""
 #. Path = GlobalSpellAeonTimeManipulation::m_SpellName
 msgctxt "328fab75-371e-43ba-80d2-fcc3728596f2"
 msgid "Time Manipulation"
-msgstr ""
+msgstr "시간 조작"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellAeonTimeManipulation::m_Description
@@ -2980,13 +2954,13 @@ msgstr ""
 #. Path = GlobalSpellAmbush::m_SpellName
 msgctxt "c67a9655-6a28-4b50-9f75-ee9c43f327f6"
 msgid "Ambush"
-msgstr ""
+msgstr "매복"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellAmbush::m_Description
 msgctxt "1cf0b67a-350c-4588-ab18-11d5bc0dfe62"
 msgid "All units in the target army take (7×mythic rank) physical damage."
-msgstr ""
+msgstr "대상 부대의 모든 유닛이 (7×신화 레벨) 의 물리 피해를 받습니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellAmplifyResistance::m_SpellName
@@ -2995,7 +2969,7 @@ msgstr ""
 #. Path = GlobalSpellAmplifyResistanceBuff::m_DisplayName
 msgctxt "19260233-2a87-49ef-be63-b5d55c62da1f"
 msgid "Amplify Resistance"
-msgstr ""
+msgstr "저항력 증폭"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellAmplifyResistance::m_Description
@@ -3006,7 +2980,7 @@ msgctxt "6029c7f8-deae-49ba-9da0-96046650bcde"
 msgid ""
 "All units in the target army gain a +(5 + mythic rank/2) bonus on all saving "
 "throws. This effect lasts for 1 day."
-msgstr ""
+msgstr "대상 부대의 모든 유닛이 모든 내성 굴림에 +(5 + 신화 레벨/2) 의 보너스를 받습니다. 이 효과는 1일 동안 지속됩니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellAngelBestowProtection::m_SpellName
@@ -3050,7 +3024,7 @@ msgstr ""
 #. Path = GlobalSpellAngelStormOfJustice::m_SpellName
 msgctxt "1565c77e-89e1-476f-b391-f0ce7160e495"
 msgid "Storm of Justice"
-msgstr ""
+msgstr "정의의 폭풍"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellAngelStormOfJustice::m_Description
@@ -3060,12 +3034,14 @@ msgid ""
 "Additionally, evil creatures take +(d4×mythic rank), demons and undead take "
 "+(d4×mythic rank), grand tier units take +(d6×mythic rank)."
 msgstr ""
+"대상 부대의 모든 유닛이 (d4×신화 레벨) 의 마법 피해를 받습니다. 추가로, 악한 크리처는 +(d4×신화 레벨), 데몬과 언데드는 "
+"+(d4×신화 레벨), 거대 등급 유닛은 +(d6×신화 레벨)의 피해를 받습니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellCallToArms::m_SpellName
 msgctxt "4b354494-bf2d-4c4e-bdfd-f98055bed1e4"
 msgid "Call to Arms"
-msgstr ""
+msgstr "병력 소집"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellCallToArms::m_Description
@@ -3075,6 +3051,8 @@ msgid ""
 "unit type is chosen randomly from the units that are already present in the "
 "army."
 msgstr ""
+"대상 부대에 (750×신화 레벨) 가치의 유닛들을 추가합니다. 추가되는 유닛의 종류는 대상 부대에 이미 존재하는 유닛 중에서 무작위로 "
+"선택됩니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellDaringStrike::m_SpellName
@@ -3111,7 +3089,7 @@ msgstr ""
 #. Path = GlobalSpellDragonPowerOfGoldBuff::m_DisplayName
 msgctxt "3db8b612-c398-4052-97eb-9fabaef70e8d"
 msgid "Power of Gold"
-msgstr ""
+msgstr "황금의 힘"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellDragonPowerOfGold::m_Description
@@ -3124,12 +3102,14 @@ msgid ""
 "Finance Points in the crusade treasury (maximum +10). This effect lasts for "
 "3 days."
 msgstr ""
+"대상 부대의 모든 유닛이 공격에 성전군의 1,000 재정 점수 당 +1 의 보너스를 받습니다 (최대 +10). 이 효과는 3일 동안 "
+"지속됩니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellLegendBanish::m_SpellName
 msgctxt "934cae60-2b3d-401d-8368-ed394ee0f7d5"
 msgid "Banish"
-msgstr ""
+msgstr "추방"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellLegendBanish::m_Description
@@ -3139,12 +3119,14 @@ msgid ""
 "of (500×mythic rank). The resulting experience is gained by the general with "
 "the highest level that has not already reached level 20."
 msgstr ""
+"대상 부대에서 총 (500×신화 레벨) 가치의 데몬과 정령 유닛을 추방합니다. 승리 경험치는 레벨이 20 미만인 지휘관 중 레벨이 가장 "
+"높은 지휘관이 획득합니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellLichAnimateDead::m_SpellName
 msgctxt "8fc6eebc-1c06-4b1d-9a6b-4569c70a9bea"
 msgid "Animate Dead"
-msgstr ""
+msgstr "시체 일으키기"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellLichAnimateDead::m_Description
@@ -3152,7 +3134,7 @@ msgctxt "84486ef8-7c1b-4ac6-b762-2c2a99828b5c"
 msgid ""
 "Summons a random undead unit for (3×mythic rank) creatures to the target "
 "army."
-msgstr ""
+msgstr "대상 부대에 (3×신화 레벨) 의 무작위 언데드 유닛을 소환합니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellLichEnervation::m_SpellName
@@ -3161,7 +3143,7 @@ msgstr ""
 #. Path = GlobalSpellLichEnervationBuff::m_DisplayName
 msgctxt "25a23c8e-2b00-44ce-9b3c-6ab55569e92d"
 msgid "Enervation"
-msgstr ""
+msgstr "원기 소진"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellLichEnervation::m_Description
@@ -3195,7 +3177,7 @@ msgstr ""
 #. Path = GlobalSpellMarkOfTerror::m_SpellName
 msgctxt "29210c8c-8100-4a91-939e-8f829a287da3"
 msgid "Mark of Terror"
-msgstr ""
+msgstr "공포의 낙인"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellMarkOfTerror::m_Description
@@ -3203,13 +3185,13 @@ msgctxt "fe6cb449-c89e-4960-8456-b6399793c56f"
 msgid ""
 "All units in the target army receive a -(2×mythic rank) penalty to morale. "
 "This effect lasts for 1 day."
-msgstr ""
+msgstr "대상 부대의 모든 유닛이 사기에 -(2×신화 레벨) 의 페널티를 받습니다. 이 효과는 1일 동안 지속됩니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellMassTeleportation::m_SpellName
 msgctxt "060b7cb4-d612-4ed2-8746-5a6b1da600c2"
 msgid "Mass Teleportation"
-msgstr ""
+msgstr "집단 전이"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellMassTeleportation::m_Description
@@ -3217,7 +3199,7 @@ msgctxt "d33788aa-d90e-482a-aa70-636aecb6915e"
 msgid ""
 "Moves the target army to a point on the global map that is unoccupied by "
 "enemies."
-msgstr ""
+msgstr "대상 부대를 전역 지도에서 적에게 점령되지 않은 지점으로 이동합니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellMightyTempest::m_SpellName
@@ -3238,7 +3220,7 @@ msgstr ""
 #. Path = GlobalSpellNegativeEnergyBlastBuff::m_DisplayName
 msgctxt "3b03c853-4c52-40c4-bc4d-54aa815ffc83"
 msgid "Negative Energy Blast"
-msgstr ""
+msgstr "음에너지 폭발"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellNegativeEnergyBlast::m_Description
@@ -3270,13 +3252,13 @@ msgstr ""
 #. Path = GlobalSpellReplenish::m_SpellName
 msgctxt "1d7debb0-b8cb-46a0-b7ab-3f65e7643243"
 msgid "Replenish"
-msgstr ""
+msgstr "재충전"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellReplenish::m_Description
 msgctxt "0ec7d412-78c7-4d7b-8421-ee733a4ad7d3"
 msgid "Recover the target general's Energy for 10×mythic rank points."
-msgstr ""
+msgstr "대상 지휘관의 에너지를 10×신화 레벨 만큼 회복합니다."
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellTeleportParty::m_SpellName
