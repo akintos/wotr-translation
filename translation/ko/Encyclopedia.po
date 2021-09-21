@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-20 02:23+0000\n"
+"PO-Revision-Date: 2021-09-21 14:23+0000\n"
 "Last-Translator: 윤준혁 <nick0406@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -2028,14 +2028,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Flat_Footed_AC::Title
-#, fuzzy
 msgctxt "ca80fa63-461d-4d74-a333-08942271cdfa"
 msgid "Flat Footed AC"
 msgstr "무방비 AC"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Formations::Blocks/0/Text
-#, fuzzy
 msgctxt "f31f8103-dc6f-4931-874c-a8b41932c439"
 msgid ""
 "A good group formation is half of the victory. The formation system helps to "
@@ -2043,8 +2041,8 @@ msgid ""
 "standard formations, for example, triangle formation, or you can create your "
 "own."
 msgstr ""
-"좋은 진형은 승리의 절반을 차지합니다. 진형 시스템을 쓰면 전투에서 전열을 가다듬기 훨씬 수월해집니다. 진형 시스템 버튼을 클릭하면 "
-"표준적인 진형 중 하나를 선택할 수 있습니다. 예를들어 삼각진형이 있습니다. 아니면 당신이 자신만의 진형을 만들 수도 있습니다."
+"좋은 진형은 승리의 절반을 차지합니다. 진형 시스템을 쓰면 전투에서 전열을 유지하는데 도움이 됩니다. 진형 시스템 버튼을 클릭해, "
+"정형화된 진형 중 하나를 선택할 수 있습니다. 예를 들어 삼각 진형이 있이고, 또는 자신이 직접 만든 진형을 만들어 쓸 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Formations::Title
@@ -2138,7 +2136,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Healing::Title
-#, fuzzy
 msgctxt "22ec1ab1-01cd-458b-89d6-b1cde81496fe"
 msgid "Healing"
 msgstr "치유"
@@ -2349,18 +2346,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Initiative::Title
-#, fuzzy
 msgctxt "83a0df4d-65b8-418a-b398-32f36a93ff77"
 msgid "Initiative"
 msgstr "우선권"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Injury_Death::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Your hit points measure how hard you are to kill. No matter how many hit "
-#| "points you lose, your character isn't hindered in any way until your hit "
-#| "points drop to 0 or lower."
 msgctxt "b86daac1-47fe-4aa0-8a1b-95ef423c58fd"
 msgid ""
 "<b>Effects of Hit Point {g|Encyclopedia:Damage}Damage{/g}</b>\n"
@@ -2384,11 +2375,27 @@ msgid ""
 "scrolls like raise dead or resurrection. If you don't have a character who "
 "can cast the required spell, you can find an NPC in a safe place, i.e. "
 "{g|Encyclopedia:Rest}camp{/g} or city, who will cast it for you."
-msgstr "생명점이 높다면 죽이기 어려워집니다. 반면 생명점이 낮은 상태더라도 0이거나 음수가 아니라면 행동하는데엔 지장이 없습니다."
+msgstr ""
+"<b>생명점 {g|Encyclopedia:Damage}피해{/g}의 효과<b>\n"
+"만약 캐릭터의 현재 생명점 숫자가 0이거나 음수지만 그 절대값이 {g|Encyclopedia:Constitution}건강{/g} "
+"점수보다는 낮다면 그 캐릭터는 의식불명입니다.\n"
+"만약 그 절대값이 건강 점수와 같아진다면 죽습니다. 이야기 모드에서는 캐릭터가 절대 죽지 않습니다.\n"
+"<b>의식불명<b>\n"
+"의식불명이란 {g|Encyclopedia:Helpless}무력화{/g} 상태의 일종으로 당신은 어떠한 "
+"{g|Encyclopedia:CA_Types}행동{/g}도 취할 수 없습니다. 전투 이후에 의식불명에 빠졋던 캐릭터들은 "
+"{g|Encyclopedia:HP}생명점{/g}을 일부 {g|Encyclopedia:Healing}회복{/g}하고 일어나면서 의식을 "
+"되찾습니다.\n"
+"<b>죽음의 문턱<b>\n"
+"만약 캐릭터가 처음으로 죽으면 그는 전투 후에 부활하지만 \"죽음의 문턱에\"라는 효과를 얻습니다. 이러한 상태에 빠진 캐릭터는 다음에 "
+"죽을때 부활하지 않고 정말로 죽습니다. 이것은 대담함이나 그 이하의 {g|Encyclopedia:DC}난이도{/g}에서나 특별한 설정이 "
+"켜져있을 때만 발생합니다.\n"
+"<b>죽음<b>\n"
+"죽은 캐릭터는 소생이나 부활같은 {g|Encyclopedia:Spell}주문{/g}들로 되살아날 수 있습니다. 만약 당신이 필요한 주문을 "
+"시전할 수 있는 캐릭터가 없다면 {g|Encyclopedia:Rest}야영지{/g}나 도시같이 안전한 장소에서 당신을 위해 대신 시전해줄 "
+"NPC를 찾을 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Injury_Death::Title
-#, fuzzy
 msgctxt "9c520f78-5bb9-4ce6-a28c-9921d410ab65"
 msgid "Injury and Death"
 msgstr "부상과 죽음"
@@ -2430,10 +2437,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Inspect::Title
-#, fuzzy
 msgctxt "9a9cb8e8-3d65-407a-baa4-1996382f8b51"
 msgid "Inspecting a creature"
-msgstr "생명체 조사하기"
+msgstr "크리처 조사"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Intelligence::Blocks/0/Text
@@ -2465,10 +2471,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Intelligence::Title
-#, fuzzy
 msgctxt "790ad56e-693f-4fe7-b329-dbe45d04c08f"
 msgid "Intelligence (Int)"
-msgstr "지능"
+msgstr "지능 (Int)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Journal::Blocks/0/Text
@@ -2610,10 +2615,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Magic_School::Title
-#, fuzzy
 msgctxt "47dce4d2-cd80-453c-95bb-23a049da33c8"
 msgid "Schools of magic"
-msgstr "마법학파"
+msgstr "마법 학파"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Map_Movement::Blocks/0/Text
@@ -2771,7 +2775,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Move_Action::Title
-#, fuzzy
 msgctxt "95079738-a763-492a-8f68-2e8c27564fb6"
 msgid "Move Action"
 msgstr "이동 행동"
@@ -3215,7 +3218,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Saving_Throws_Results::Title
-#, fuzzy
 msgctxt "124d712a-0c33-4880-bbdc-1277ecd334d9"
 msgid "Saving Throws"
 msgstr "내성 굴림"
@@ -3286,14 +3288,6 @@ msgstr "근접상황으로 쏘거나 던지기 (Shooting or Throwing into a Mele
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Size::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "All characters and creatures, depending on how large they are, are separated "
-#| "into different <link=\"Encyclopedia:Size\"><b>size</b></link> categories — "
-#| "Fine, Diminutive, Tiny, Small, Medium, Large, Huge, Gargantuan and Colossal. "
-#| "For example, <link=\"Encyclopedia:Humans\"><b>humans</b></link> are of a "
-#| "Medium size, while <link=\"Encyclopedia:Halflings\"><b>halflings</b></link> "
-#| "and <link=\"Encyclopedia:Gnomes\"><b>gnomes</b></link> are Small."
 msgctxt "6c0ece83-02af-4477-8a5a-ffde16779345"
 msgid ""
 "All characters and creatures, depending on how large they are, are separated "
@@ -3316,11 +3310,19 @@ msgid ""
 "Character can only ride an animal companion that is bigger than the "
 "character himself."
 msgstr ""
-"모든 캐릭터와 크리처는 <link=\"Encyclopedia:Size\"><b>크기</b></link>에 따라 다양한 범주로 분류 될 수 "
-"있습니다. - 미세형, 극소형, 초소형, 소형, 중형, 대형, 거대형, 초대형 및 초거대형. 예를 들어, <link="
-"\"Encyclopedia:Humans\"><b>인간</b></link>은 중형이고 <link=\"Encyclopedia:"
-"Halflings\"><b>하플링</b></link>과 <link=\"Encyclopedia:Gnomes\"><b>노움</b></"
-"link>은 소형입니다."
+"모든 캐릭터와 크리처는 그들이 얼마나 크냐에 따라 다른 {g|Encyclopedia:Size}크기{/g} 분류로 나눠집니다 — 초소형, "
+"소형, 중형, 대형, 거대형 그리고 초대형. 예를 들어 인간은 중간 크기이며 하플링과 노움은 소형입니다.\n"
+"서로 다른 종류의 크기 수정치는 {g|Encyclopedia:Armor_Class}방어도{/g}, "
+"{g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Dice}굴림{/g}, "
+"{g|Encyclopedia:Stealth}은신{/g} {g|Encyclopedia:Check}판정{/g}, "
+"{g|Encyclopedia:Combat_Maneuvers}전법{/g} 판정 그리고 다른 다양한 판정들에 적용됩니다.\n"
+"크리처의 방어도와 공격 굴림에 적용되는 크기 수정치는 다음과 같습니다:\n"
+"초소형 +2, 소형 +1, 중형 +0, 대형 -1, 거대형 -2, 초대형 -4\n"
+"크리처의 {g|Encyclopedia:CMB}전법 보너스{/g}를 위한 특별한 크기 수정치는 다음과 같습니다:\n"
+"초소형 -2, 소형 -1, 중형 +0, 대형 +1, 거대형 +2, 초대형 +4\n"
+"크리처의 크기가 크면 클수록 그것의 {g|Encyclopedia:Threatened_Area}위협 범위{/g}가 큽니다. 중형과 소형 "
+"크리처들의 위협 범위는 그것들의 근접 {g|Encyclopedia:Weapon_Range}무기 사거리{/g}와 같습니다.\n"
+"캐릭터는 그보다 큰 동물 동료에만 탑승할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Size::Title
@@ -3439,12 +3441,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Special_Abilities::Blocks/2/Text
-#, fuzzy
-#| msgid ""
-#| "<b>Supernatural Abilities</b>\n"
-#| "These can't be disrupted in combat and generally don't provoke attacks of "
-#| "opportunity. They aren't subject to spell resistance, counterspells, or "
-#| "dispel magic, and don't function in antimagic areas."
 msgctxt "8cc8216e-e4c2-4ddc-b7a7-52adf7050af9"
 msgid ""
 "<b>Supernatural Abilities</b>\n"
@@ -3455,9 +3451,10 @@ msgid ""
 "combat and generally don't provoke {g|Encyclopedia:Attack_Of_Opportunity}"
 "attacks of opportunity{/g}."
 msgstr ""
-"<b>초자연적 능력</b> \n"
-"전투에 방해받지 않으며 일반적으로 기회 공격을 유발하지 않습니다. 주문 저항, 마법반사, 마법 해제에 영향받지 않고 반 마법장에서 "
-"작동하지 않습니다."
+"<b>초자연 능력</b>\n"
+"초자연 능력은 마법이지만 {g|Encyclopedia:Spell}주문{/g}은 아닙니다.\n"
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}과 마범 해제에 영향을 받는 대상이 아닙니다. 또한 전투에 "
+"방해 받지 않으며 일반적으로 {g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을 유발하지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Special_Abilities::Blocks/3/Text
@@ -3550,7 +3547,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Special_Movement::Title
-#, fuzzy
 msgctxt "c0d204fb-ae80-4d39-8d64-4a4b5aaec6bd"
 msgid "Special Movement Rules"
 msgstr "특별 이동 규칙"
@@ -3866,10 +3862,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Strength::Title
-#, fuzzy
 msgctxt "63f9b6bc-99ad-4975-b18a-38d680050db7"
 msgid "Strength (Str)"
-msgstr "힘"
+msgstr "힘 (Str)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Surprise::Blocks/0/Text
@@ -3944,7 +3939,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Tactical_Movement::Title
-#, fuzzy
 msgctxt "c788f4ab-200e-42cd-9444-586cc6142fa4"
 msgid "Tactical Movement"
 msgstr "전략적 이동"
@@ -5502,7 +5496,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Wisdom::Title
-#, fuzzy
 msgctxt "83cb2d5f-58a6-4eec-af7d-720def5cdb6c"
 msgid "Wisdom (Wis)"
 msgstr "지혜 (Wis)"

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-20 02:24+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-09-21 14:23+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1691,14 +1691,6 @@ msgstr "천사의 형상"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelicAspect::m_Description
-#, fuzzy
-#| msgid ""
-#| "You take on an aspect of an angelic being, including some of its physical "
-#| "characteristics. You gain resistance to acid and cold 10, and DR 5/evil. You "
-#| "also gain a +2 deflection bonus to AC and a +2 resistance bonus on saves "
-#| "against attacks made or effects created by evil creatures. In addition, your "
-#| "natural weapons and any weapons you wield are considered good-aligned for "
-#| "the purpose of overcoming damage reduction."
 msgctxt "7264687e-5999-455d-a44c-3b5786e7531a"
 msgid ""
 "You take on an aspect of an angelic being, including some of its physical "
@@ -1713,9 +1705,13 @@ msgid ""
 "{g|Encyclopedia:Alignment}good-aligned{/g} for the purpose of overcoming "
 "{g|Encyclopedia:Damage}damage{/g} reduction."
 msgstr ""
-"당신은 천사같은 존재의 형상 및 신체적 특징을 가지게 됩니다. 산성 및 냉기 저항 10 과 DR5 /악을 얻습니다. 또한 악 성향 "
-"생명체의 공격에 대한 AC에 +2의 굴절 보너스를 얻고 내성 굴림에 +2의 저항 보너스를 얻습니다. 또 자연 무기 및 착용한 모든 무기는 "
-"피해 감소를 관통할 때 선 선향 무기로 간주됩니다."
+"당신은 천사같은 존재의 외형 및 육체적 특징을 가지게 됩니다. 산성 및 냉기 저항 10 과 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 5/악 을 얻습니다. 또한 악 성향 생명체의 공격에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +2 의 굴절 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"얻고 {g|Encyclopedia:Saving_Throw}내성{/g}굴림에 +2 의 저항 보너스를 얻습니다. 또한 "
+"{g|Encyclopedia:NaturalAttack}자연 무기{/g} 및 착용한 모든 무기는 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 관통할 때 {g|Encyclopedia:Alignment}"
+"선 성향{/g} 무기로 간주됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelicAspectGreater::m_DisplayName
@@ -1764,13 +1760,20 @@ msgid ""
 "weapons you wield are considered {g|Encyclopedia:Alignment}good-aligned{/g} "
 "for the purpose of overcoming {g|Encyclopedia:Damage}damage{/g} reduction."
 msgstr ""
-"이 주문은 천사의 형상과 같지만, DR 10/악; 산성과 냉기에 면역; 화염과 전기 저항 10; 독 내성에 +4 종족 보너스; 주문 지속 "
-"중 초자연적 능력으로 보호의 오라 등을 제공합니다.\n"
-"보호의 오라는 20 피트 이내에 있는 누구든 악 성향 크리처의 공격과 효과에 대해 AC에 +4의 굴절 보너스를 주고, 내성 굴림에 +4의 "
-"저항 보너스를 줍니다. 그 밖에는 반경 20 피트의 악 대항 마법진, 하급 무적의 구체 주문처럼 기능합니다.\n"
-"천사의 형상: 당신은 천사같은 존재의 형상 및 신체적 특징을 가지게 됩니다. 산성 및 냉기 저항 10 과 DR5 /악을 얻습니다. 또한 "
-"악 성향 생명체의 공격에 대한 AC에 +2의 굴절 보너스를 얻고 내성 굴림에 +2의 저항 보너스를 얻습니다. 또 자연 무기 및 착용한 "
-"모든 무기는 피해 감소를 관통할 때 선 선향 무기로 간주됩니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 천사의 형상과 같지만, 주문의 지속 시간 동안 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 10/악; 산성과 냉기에 면역; 화염과 전기 저항 10; 독 "
+"{g|Encyclopedia:Saving_Throw}내성{/g}에 +4 종족 {g|Encyclopedia:Bonus}보너스{/g}; "
+"{g|Encyclopedia:Special_Abilities}초자연적 능력{/g}으로 보호의 오라 등을 제공합니다.\n"
+"보호의 오라는 20 피트 이내에 있는 모든 크리처에게 악 성향 크리처의 {g|Encyclopedia:Attack}공격{/g}또는 효과에 "
+"대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 의 굴절 보너스를 주고, 내성 굴림에 +4 의 저항 보너스를 "
+"줍니다. 그 밖에는 반경 20 피트의 악 대항 마법진, 하급 무적의 구체 주문처럼 기능합니다.\n"
+"천사의 형상: 당신은 천사같은 존재의 외형 및 육체적 특징을 가지게 됩니다. 산성 및 냉기 저항 10 과 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 5/악 을 얻습니다. 또한 악 성향 생명체의 공격에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +2 의 굴절 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"얻고 {g|Encyclopedia:Saving_Throw}내성{/g}굴림에 +2 의 저항 보너스를 얻습니다. 또한 "
+"{g|Encyclopedia:NaturalAttack}자연 무기{/g} 및 착용한 모든 무기는 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 관통할 때 {g|Encyclopedia:Alignment}"
+"선 성향{/g} 무기로 간주됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AngelPhoenixGift::m_DisplayName
@@ -2486,7 +2489,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AnimalGrowth::m_DisplayName
-#, fuzzy
 msgctxt "afcd0654-8b7c-4d3e-9b8f-234798513e8b"
 msgid "Animal Growth"
 msgstr "동물 성장"
@@ -5783,7 +5785,6 @@ msgstr "투사의 은총 부여"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BlackDragonAdultBreathWeapon::m_DisplayName
-#, fuzzy
 msgctxt "0ee77e63-5e70-43e0-90c6-43a16d032002"
 msgid "Breath Weapon"
 msgstr "숨결 무기"
@@ -6302,21 +6303,12 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineFeySoulOfTheFeyAbility::m_DisplayName
-#, fuzzy
 msgctxt "45921b63-e795-4b2e-b82d-602af80a1222"
 msgid "Cloak of Dreams"
 msgstr "꿈의 망토"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineFeySoulOfTheFeyAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "You are surrounded by a soporific aroma that causes living creatures that "
-#| "begin their turn or end their movement within 5 feet of you to fall asleep "
-#| "for 1 minute. Creatures must save each time they begin their turn or end "
-#| "their movement within the cloak of dreams, even if they have previously "
-#| "saved against the effect. Sleeping creatures are helpless but can be "
-#| "awakened with a standard action or after being wounded."
 msgctxt "0414fca4-b89f-4fd5-b1c8-48995705e965"
 msgid ""
 "You are surrounded by a soporific aroma that causes living creatures that "
@@ -6327,9 +6319,10 @@ msgid ""
 "{g|Encyclopedia:Helpless}helpless{/g} but can be awakened with a "
 "{g|Encyclopedia:Standard_Actions}standard action{/g} or after being wounded."
 msgstr ""
-"살아있는 크리처가 당신의 5 피트 이내에서 턴을 시작하거나 이동을 끝내면 1분 동안 잠들게 하는 최면의 향기를 두릅니다. 이전 턴에 "
-"내성에 성공했더라도, 꿈의 망토 안에서 턴을 시작하거나 이동을 끝낼 때마다 내성에 성공해야 합니다. 잠자는 크리처는 무력하지만 피해를 "
-"받으면 깨어나고, 일반 행동으로 깨울 수도 있습니다."
+"수면 향기를 둘러, 살아있는 크리처가 당신의 5 피트 이내에서 턴을 시작하거나 이동을 끝내면 1분 동안 잠들게 합니다. 이전 턴에 "
+"{g|Encyclopedia:Saving_Throw}내성{/g}에 성공했더라도, 꿈의 망토 안에서 턴을 시작하거나 이동을 끝낼 때마다 "
+"내성에 성공해야 합니다. 잠든 크리처는 {g|Encyclopedia:Helpless}무력화{/g}되지만 피해를 받으면 깨어나고, 일반 "
+"행동으로 깨울 수도 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineSerpentineDenOfSpidersAbility::LocalizedSavingThrow
@@ -6345,27 +6338,18 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BoneSpearConjure::LocalizedSavingThrow
-#, fuzzy
 msgctxt "af1a01bb-3924-4663-94e8-79e080287aaa"
 msgid "Fortitude partial"
 msgstr "인내로 일부"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineSerpentineScaledSoulCharmingGazeAbility::m_DisplayName
-#, fuzzy
 msgctxt "008e7f47-075c-4162-be81-e96606101b79"
 msgid "Charming Gaze"
 msgstr "매혹의 응시"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineSerpentineScaledSoulCharmingGazeAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "This charming gaze makes a humanoid creature regard you as its trusted "
-#| "friend and ally (treat the target's attitude as friendly). If the creature "
-#| "is currently being threatened or attacked by you or your allies, however, it "
-#| "receives a +5 bonus on its saving throw. Range 30 feet. Will DC 20 negates. "
-#| "The save DC is Charisma-based."
 msgctxt "c5fcd5c7-dbe0-4336-b467-8b61a71c98f1"
 msgid ""
 "This charming gaze makes a humanoid creature regard you as its trusted "
@@ -6377,15 +6361,17 @@ msgid ""
 "{g|Encyclopedia:DC}DC{/g} 20 negates. The save DC is "
 "{g|Encyclopedia:Charisma}Charisma{/g}-based."
 msgstr ""
-"매혹의 응시는 30 피트 내 인간형 크리처 하나를 매혹해 당신을 믿을 수 있는 친구이자 아군으로 생각하게 만듭니다(목표물의 태도를 "
-"친절하게 함). 아군이 대상을 위협하거나 공격하고 있다면, 내성 굴림에 +5의 보너스를 받습니다. 의지 내성으로 무시할 수 있고 DC는 "
-"20 입니다. DC는 매력 기반입니다."
+"매혹의 응시는 30 피트 내 인간형 크리처 하나를 매혹해 당신을 믿을 수 있는 친구이자 아군으로 생각하게 만듭니다 (대상이 아군처럼 행동)"
+". 아군이 대상을 g|Encyclopedia:Threatened_Area}위협{/g}하거나 "
+"{g|Encyclopedia:Attack}공격{/g}하고 있다면, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 "
+"+5 의 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다. {g|Encyclopedia:DC}DC{/g} 20 의지 "
+"내성으로 무시할 수 있습니다. DC는 {g|Encyclopedia:Charisma}매력{/g} 기반입니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineSerpentineScaledSoulTurnBackAbility::m_DisplayName
 msgctxt "32322b9f-cf0f-4b53-b604-4e77b6b3d6f6"
 msgid "Spirit Naga Shape (Return)"
-msgstr ""
+msgstr "영혼 나가 모습 (복귀)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineSerpentineScaledSoulTurnBackAbility::m_Description
@@ -6398,17 +6384,15 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WildShapeTurnBackAbility::m_Description
-#, fuzzy
 msgctxt "5a33965a-476a-4b7c-96ec-8fc8c49d6bd5"
 msgid "Return to your normal form."
 msgstr "평상시의 모습으로 돌아갑니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineUndeadGraveTouchAbility::LocalizedDuration
-#, fuzzy
 msgctxt "7a78ed9a-7a4c-4a41-85e7-a0ba62809493"
 msgid "1 round / 2 sorcerer levels"
-msgstr "1 라운드 / 소서러 레벨 2마다"
+msgstr "1 라운드 / 2 소서러 레벨"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerArcaneGreaterSpellDisplacement::m_DisplayName
@@ -6418,7 +6402,6 @@ msgstr "1 라운드 / 소서러 레벨 2마다"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DisplacementKitsune::m_DisplayName
-#, fuzzy
 msgctxt "90742439-d796-4817-94b7-d4867c56a6ac"
 msgid "Displacement"
 msgstr "환위"
@@ -6642,7 +6625,6 @@ msgstr "용족 변신 I (블랙 드래곤)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = FormOfTheDragonICopper::m_Description
-#, fuzzy
 msgctxt "28315f7b-039c-4417-8f04-6d6259924a30"
 msgid ""
 "Breath Weapon: 60-foot line of acid.\n"
@@ -6684,7 +6666,6 @@ msgstr "용족 변신 I (블루 드래곤)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = FormOfTheDragonIBronze::m_Description
-#, fuzzy
 msgctxt "88e6a082-23da-455d-9ee6-f1d47308efe4"
 msgid ""
 "Breath Weapon: 60-foot line of electricity.\n"
@@ -6774,7 +6755,6 @@ msgstr "용족 변신 I (골드 드래곤)"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = FormOfTheDragonIRedDragonDisciple::m_Description
-#, fuzzy
 msgctxt "1db62b76-0541-4fc5-956e-781689ea9051"
 msgid ""
 "Breath Weapon: 30-foot cone of fire.\n"
@@ -7281,6 +7261,8 @@ msgid ""
 "Breath Weapon: 80-foot line of acid.\n"
 "Resistance: acid 20."
 msgstr ""
+"숨결 무기: 80 피트 직선 산성.\n"
+"저항: 산성 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIIBlue::m_DisplayName
@@ -7295,6 +7277,8 @@ msgid ""
 "Breath Weapon: 80-foot line of electricity.\n"
 "Resistance: electricity 20."
 msgstr ""
+"숨결 무기: 80 피트 직선 전기.\n"
+"저항: 전기 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIIBrass::m_DisplayName
@@ -7309,6 +7293,8 @@ msgid ""
 "Breath Weapon: 80-foot line of fire.\n"
 "Resistance: fire 20."
 msgstr ""
+"숨결 무기: 80 피트 직선 화염.\n"
+"저항: 화염 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIIBronze::m_DisplayName
@@ -7324,6 +7310,8 @@ msgid ""
 "Breath Weapon: 80-foot line of electricity.\n"
 "Resistance: electricity 20."
 msgstr ""
+"숨결 무기: 80 피트 직선 전기.\n"
+"저항: 전기 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIICopper::m_DisplayName
@@ -7339,6 +7327,8 @@ msgid ""
 "Breath Weapon: 40-foot cone of fire.\n"
 "Resistance: fire 20."
 msgstr ""
+"숨결 무기: 40 피트 원뿔 화염.\n"
+"저항: 화염 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIIGold::m_DisplayName
@@ -7359,6 +7349,8 @@ msgid ""
 "Breath Weapon: 40-foot cone of acid.\n"
 "Resistance: acid 20."
 msgstr ""
+"숨결 무기: 40 피트 원뿔 산성.\n"
+"저항: 산성 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIIRed::m_DisplayName
@@ -7374,6 +7366,8 @@ msgid ""
 "Breath Weapon: 40-foot cone of fire.\n"
 "Resistance: fire 20."
 msgstr ""
+"숨결 무기: 40 피트 원뿔 화염.\n"
+"저항: 화염 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIISilverAbility::m_DisplayName
@@ -7389,6 +7383,8 @@ msgid ""
 "Breath Weapon: 40-foot cone of cold.\n"
 "Resistance: cold 20."
 msgstr ""
+"숨결 무기: 40 피트 원뿔 냉기.\n"
+"저항: 냉기 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodragerFormOfTheDragonIIWhite::m_DisplayName
@@ -7403,6 +7399,8 @@ msgid ""
 "Breath Weapon: 40-foot cone of cold.\n"
 "Resistance: cold 20."
 msgstr ""
+"숨결 무기: 40 피트 원뿔 냉기.\n"
+"저항: 냉기 20."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloomDimensionDoor_Cutscene::m_Description
@@ -7689,7 +7687,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BrassGolemBreathWeapon::m_DisplayName
-#, fuzzy
 msgctxt "05d001ff-6d5d-407f-8aa5-f4aec2ace723"
 msgid "Breath Weapon"
 msgstr "숨결 무기"
@@ -7801,7 +7798,6 @@ msgstr "반사로 절반"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BreathWeaponBomb::m_DisplayName
-#, fuzzy
 msgctxt "0588ef49-54ac-4c71-8598-c46c97b63516"
 msgid "Breath Weapon Bomb"
 msgstr "숨결 폭탄"
@@ -12524,7 +12520,7 @@ msgstr ""
 #. Path = DeathRealm::m_DisplayName
 msgctxt "0f4b9623-a1f8-4b6f-841a-ee91cda992f4"
 msgid "Death's Realm"
-msgstr ""
+msgstr "죽음의 영역"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DeathRealm::m_Description
@@ -12538,6 +12534,10 @@ msgid ""
 "{g|Encyclopedia:Dice}1d4{/g} negative levels. A successful "
 "{g|Encyclopedia:Saving_Throw}Fortitude save{/g} negates the damage."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}을 시전하면 주변의 모든 존재에게 필연적인 죽음의 편린을 개방합니다. 시전자 주변 "
+"80피트 범위 내의 모든 살아있는 크리처는 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10의 "
+"{g|Encyclopedia:Damage}피해{/g}를 받고 {g|Encyclopedia:Dice}1d4{/g} 음수 레벨을 받습니다. "
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 성공하면 피해를 무효화합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DeathWard::m_DisplayName
@@ -12547,7 +12547,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = DeathWardBuff_IsFromSpell::m_DisplayName
-#, fuzzy
 msgctxt "d2453bcc-64ee-4677-8d99-5993d88c4bb7"
 msgid "Death Ward"
 msgstr "죽음 방호"
@@ -12563,14 +12562,6 @@ msgstr "죽음 방호"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = DeathWardBuff_IsFromSpell::m_Description
-#, fuzzy
-#| msgid ""
-#| "The subject gains a +4 morale bonus on saves against all death spells and "
-#| "magical death effects. The subject is immune to energy drain and any "
-#| "negative energy effects, including channeled negative energy. This spell "
-#| "does not remove negative levels that the subject has already gained and does "
-#| "not protect against other sorts of attacks, even if those attacks might be "
-#| "lethal."
 msgctxt "952800ab-c09e-4969-9a51-d99b4d0f3f5a"
 msgid ""
 "The subject gains a +4 morale {g|Encyclopedia:Bonus}bonus{/g} on "
@@ -12582,12 +12573,14 @@ msgid ""
 "has already gained and does not protect against other sorts of "
 "{g|Encyclopedia:Attack}attacks{/g}, even if those attacks might be lethal."
 msgstr ""
-"대상은 모든 죽음 주문과 마법적 즉사 효과에 대한 +4의 사기 보너스를 얻습니다. 원래는 저 효과들에 대해 내성할 수 없더라도 내성을 "
-"시도할 수 있습니다. 또한 원기 소진 및 음에너지 전달 등 음에너지 효과에 영향 받지 않습니다."
+"대상은 모든 {g|Encyclopedia:Injury_Death}즉사{/g} {g|Encyclopedia:Spell}주문{/g}과 마법적 "
+"죽음 효과에 대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 의 사기 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다. 대상은 원기 소진과 음에너지 전달을 포함한 모든 음에너지 효과에 대한 "
+"{g|Encyclopedia:Energy_Immunity}면역{/g}을 얻습니다. 이 주문은 대상에게 이미 적용된 음수 레벨을 제거해 "
+"주지 않으며, 다른 종류의 공격에 대해서는 대상이 사망할 수 있더라도 보호해 주지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DeathWardCast::m_DisplayName
-#, fuzzy
 msgctxt "bdb00211-f1ec-4335-a6b6-f79c3babe17d"
 msgid "Death Ward"
 msgstr "죽음 방호"
@@ -12617,7 +12610,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DeepSlumberKitsune::m_DisplayName
-#, fuzzy
 msgctxt "d3367033-caff-4be8-93ed-45c231628724"
 msgid "Deep Slumber"
 msgstr "깊은 잠"
@@ -33321,7 +33313,6 @@ msgstr "인내 기절 무효"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SoundBurstTiefling::m_DisplayName
-#, fuzzy
 msgctxt "26cd073d-19a8-40b1-84c7-d844c7c10421"
 msgid "Sound Burst"
 msgstr "음파 폭발"
@@ -33331,11 +33322,6 @@ msgstr "음파 폭발"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SoundBurstTiefling::m_Description
-#, fuzzy
-#| msgid ""
-#| "You blast an area with a tremendous cacophony. Every creature in the area "
-#| "takes 1d8 points of sonic damage and must succeed at a Fortitude save to "
-#| "avoid being stunned for 1 round."
 msgctxt "208e7987-c5fb-40fe-bdb8-0fd4e458de61"
 msgid ""
 "You blast an area with a tremendous cacophony. Every creature in the area "
@@ -33344,25 +33330,25 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}Fortitude save{/g} to avoid being stunned for 1 "
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
-"엄청난 불협화음을 일정 범위에 폭발시킵니다. 범위 내의 모든 크리처는 1d8점의 음파 피해를 받고 인내 내성 굴림에 실패하면 1 라운드 "
-"동안 기절 상태가 됩니다."
+"엄청난 불협화음을 일정 범위에 폭발시킵니다. 범위 내의 모든 크리처는 {g|Encyclopedia:Dice}1d8{/g} 점의 음파 "
+"{g|Encyclopedia:Damage}피해{/g}를 받고 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 "
+"실패하면 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 기절 상태가 됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SpellResistance::m_DisplayName
-#, fuzzy
 msgctxt "d54bedbd-e175-4ebe-9bd6-d074d544da02"
 msgid "Spell Resistance"
 msgstr "주문 저항"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SpellResistance::m_Description
-#, fuzzy
-#| msgid "The target gains spell resistance equal to 12 + your caster level."
 msgctxt "c387b7ad-2792-4a34-bbbb-161522136f22"
 msgid ""
 "The target gains {g|Encyclopedia:Spell_Resistance}spell resistance{/g} equal "
 "to 12 + your {g|Encyclopedia:Caster_Level}caster level{/g}."
-msgstr "대상은 12 + 시전자 레벨 만큼 주문 저항을 얻습니다."
+msgstr ""
+"대상은 12 + {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 만큼 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SpikedPit::m_DisplayName
@@ -43095,7 +43081,6 @@ msgstr "대가의 환영"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = TristanRingActivatableAbility::m_DisplayName
-#, fuzzy
 msgctxt "14bb9884-60b0-45e3-a7ac-ec007813ce3b"
 msgid "Death Ward"
 msgstr "죽음 방호"
