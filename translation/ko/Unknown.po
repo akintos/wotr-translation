@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-21 14:23+0000\n"
-"Last-Translator: 윤준혁 <nick0406@naver.com>\n"
+"PO-Revision-Date: 2021-09-23 08:23+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -3327,7 +3327,7 @@ msgstr ""
 
 msgctxt "9b0448d6-abe8-4617-a4ab-cc5f737e8b0a"
 msgid "Storm of Justice"
-msgstr ""
+msgstr "정의의 폭풍"
 
 msgctxt "d3b336ce-bee3-470f-8134-2e5296f0478c"
 msgid "Bolt of Justice"
@@ -3357,6 +3357,18 @@ msgid ""
 "throws. It also needs to make a successful Reflex saving throw, or become "
 "prone."
 msgstr ""
+"강력한 에너지의 줄기를 내뿜어 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d6{/g} 점의 신성 {g|Encyclopedia:Damage}피해{/g}를 가합니다. 대상이 "
+"{g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 실패하면 쓰러집니다.\n"
+"만약 대상이 악 성향이면, 이 {g|Encyclopedia:Spell}주문{/g}은 대신 시전자 레벨당 1d8 점의 "
+"{g|Encyclopedia:Energy_Damage}신성 피해{/g}를 가합니다. 대상이 반사 내성 굴림에 실패하면 쓰러지며 "
+"{g|Encyclopedia:Armor_Class}AC{/g}, {g|Encyclopedia:Attack}공격 굴림{/g}, 내성 굴림에 "
+"-2 의 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다.\n"
+"만약 대상이 악 성향의 외차원체나 언데드라면, 이 주문은 대신 시전자 레벨 당 1d10 점의 신성 피해를 가합니다. 대상이 반사 내성 "
+"굴림에 실패하면 쓰러지며 AC, 공격 굴림, 내성 굴림에 -4 의 페널티를 받습니다.\n"
+"만약 대상이 악마 군주, 악 성향 드래곤이거나 언데드 군주(리치, 언데드 드래곤, 나이트셰이드와 같은 강력한 언데드)일 경우, 이 주문은 "
+"대신 시전자 레벨 당 1d12 점의 신성 피해를 가합니다. 대상은 AC, 공격 굴림, 내성 굴림에 -4 의 페널티를 받으며, 반사 내성 "
+"굴림에 실패하면 쓰러집니다."
 
 msgctxt "f85125f6-7ed6-41f4-95ce-8241d7c8b76d"
 msgid ""
@@ -9127,7 +9139,7 @@ msgstr ""
 
 msgctxt "e6cc1e45-924f-4ffa-a2dc-b75e02c37e9f"
 msgid "Succubi"
-msgstr ""
+msgstr "서큐버스"
 
 msgctxt "a4d40ee8-216e-40c2-b156-d9280cbfac08"
 msgid ""
@@ -24583,7 +24595,7 @@ msgstr ""
 
 msgctxt "676ca13b-fc0a-4544-9d66-3e2a2d9ec265"
 msgid "High morale enables <b>{target}</b> to attack again."
-msgstr ""
+msgstr "높은 사기로 인해 <b>{target}</b> 유닛이 다시 공격합니다."
 
 msgctxt "71bd4467-67b9-43f7-a55b-684c25555b86"
 msgid "<b>{target}</b> pause and wait for a better time to act."
@@ -24595,188 +24607,154 @@ msgstr ""
 
 msgctxt "39929bf8-5dc8-4911-b746-8591f3d068e8"
 msgid "Round {round} starts."
-msgstr ""
+msgstr "라운드 {round} 시작."
 
 msgctxt "edb935db-ba8a-4baf-844f-56dbbfb04b8a"
 msgid "<b>{target}</b> skip their turn."
-msgstr ""
+msgstr "<b>{target}</b> 유닛이 턴을 넘깁니다."
 
 msgctxt "483d6126-721e-49c8-8dfa-170fd8b665fe"
 msgid "<b>Turn {count}</b>: <b>{source}</b>"
-msgstr ""
+msgstr "<b>턴 {count}</b>: <b>{source}</b>"
 
 msgctxt "b88c355e-5d38-4a8d-be50-55a3ee0dfd71"
 msgid "<b>{count}</b> <b>{target}</b> die."
-msgstr ""
+msgstr "<b>{count}</b> <b>{target}</b> 사망."
 
-#, fuzzy
 msgctxt "51db536c-91f8-467b-bc49-ed99468d45ae"
 msgid "<b>{source}</b> can't pick locks."
 msgstr "<b>{source}</b>: 자물쇠를 딸 수 없음."
 
-#, fuzzy
 msgctxt "7ba1c190-781b-4191-bf57-5ec6f61f2ea6"
 msgid "Time passed"
 msgstr "시간 지남"
 
-#, fuzzy
 msgctxt "12f75e5f-fd39-4b15-acec-426835ef55cd"
 msgid "<b>{source}</b> spots a trap."
 msgstr "<b>{source}</b>: 함정 발견."
 
-#, fuzzy
 msgctxt "2ef2b59d-e390-45e3-9dba-030f7259271c"
 msgid "<b>{source}</b>: {text}"
 msgstr "<b>{source}</b>: {text}"
 
-#, fuzzy
 msgctxt "7d6592b4-53e0-4243-aed7-a35f856e1d2e"
 msgid "<b>{source}</b> dies!"
-msgstr "<b>{source}</b>: 죽음!"
+msgstr "<b>{source}</b> 사망!"
 
-#, fuzzy
 msgctxt "04594b6a-c605-4fd0-8b81-16d3117ca381"
 msgid "<b>{source}</b> is heavily encumbered."
 msgstr "<b>{source}</b>: 무거운 하중 상태."
 
-#, fuzzy
 msgctxt "a21acb88-f7fb-466c-980a-9f0d2a88a230"
 msgid "<b>{source}</b> is lightly encumbered."
 msgstr "<b>{source}</b>: 가벼운 하중 상태."
 
-#, fuzzy
 msgctxt "dd08fdd5-e37a-4c59-adf9-27cd6f56cef9"
 msgid "<b>{source}</b> is encumbered."
 msgstr "<b>{source}</b>: 보통 하중 상태."
 
-#, fuzzy
 msgctxt "575cb161-1a88-4ec5-9c37-0fe2ab2022e3"
 msgid "<b>{source}</b> is overloaded and cannot move."
 msgstr "<b>{source}</b>: 과적 상태여서 움직일 수 없음."
 
-#, fuzzy
 msgctxt "5257e2a6-d963-42b5-99b0-045bc86a4fb3"
 msgid "<b>{text}</b> information updated: {description}"
 msgstr "<b>{text}</b> 정보 갱신됨: {description}"
 
-#, fuzzy
 msgctxt "c9de0bcc-93a6-4489-ae75-686c7b25beda"
 msgid "<b>{text}</b> inspect failed"
 msgstr "<b>{text}</b> 조사 실패"
 
-#, fuzzy
 msgctxt "7d9e91d7-ba63-4ae3-b137-ecb98e9465ff"
 msgid "{source} spots {target}!"
 msgstr "<b>{source}</b>: <b>{target}</b> 발견!"
 
-#, fuzzy
 msgctxt "f5b7da82-ace7-467d-a473-acdfcd421256"
 msgid "{source} gains <b>{count}</b> experience."
-msgstr "<b>{source}</b>: <b>{count}</b>의 경험치 획득."
+msgstr "<b>{source}</b>: <b>{count}</b> 경험치 획득."
 
-#, fuzzy
 msgctxt "8adf2cb0-8541-4b98-bc1c-af1ee50f7e7f"
 msgid "<b>{source}</b> uses ability: <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 능력 사용."
 
-#, fuzzy
 msgctxt "be7942ed-3af1-4fc7-b20b-41966d2f80b7"
 msgid "<b>{source}</b> uses item: <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 사용."
 
-#, fuzzy
 msgctxt "0baca1d5-a855-4ae7-aa9f-14723f52f1f0"
 msgid "Gained experience: <b>{count}</b>."
 msgstr "경험치 획득: <b>{count}</b>."
 
-#, fuzzy
 msgctxt "92596372-5c48-48f9-b3bc-778b27f6e93b"
 msgid "Ability scores"
-msgstr "능력치 점수"
+msgstr "능력치"
 
-#, fuzzy
 msgctxt "bcc07d0d-5f20-4162-8a05-6e8064b7155e"
 msgid "Ability"
 msgstr "능력"
 
-#, fuzzy
 msgctxt "21b132a2-674a-4b7e-a03a-168316e5a374"
 msgid "Belt"
 msgstr "허리띠"
 
-#, fuzzy
 msgctxt "596236af-358e-4b90-a7bd-1e37f97ce1e0"
 msgid "Spellbook"
 msgstr "주문책"
 
-#, fuzzy
 msgctxt "773addfe-fff7-43b5-aa50-36f6280eae93"
 msgid "Select a Boon"
 msgstr "혜택 선택"
 
-#, fuzzy
 msgctxt "13793ab1-07c8-44ca-b4c3-fde56ec584db"
 msgid ""
 "Choose one boon for your next рlaythrough. The more dungeon floors you've "
 "conquered in your last playthrough, the better are the boons."
 msgstr "다음 플레이 때 받을 혜탁을 선택하십시오. 지난 플레이에서 내려간 층 수에 비례하여 더 좋은 혜택을 얻습니다."
 
-#, fuzzy
 msgctxt "3504dbfb-67e4-4597-a64a-c8faf3531855"
 msgid "Upgrade"
 msgstr "승급"
 
-#, fuzzy
 msgctxt "7e0d3299-f15c-4726-bc88-5a4d24702bea"
 msgid "Build"
 msgstr "건설"
 
-#, fuzzy
 msgctxt "bfd04e5a-bf06-4c16-9f16-8897abbf9fc6"
 msgid "Calendar"
 msgstr "달력"
 
-#, fuzzy
 msgctxt "19cb2668-2572-4e5d-b4c1-70692a8af4e1"
 msgid "Cancel"
 msgstr "취소"
 
-#, fuzzy
 msgctxt "69d2cdea-7508-489b-891b-ad798312186f"
 msgid "Attack"
 msgstr "공격"
 
-#, fuzzy
 msgctxt "bfbad722-719e-42b3-afac-3321429c10c7"
 msgid "Enter name..."
 msgstr "이름을 입력하십시오..."
 
-#, fuzzy
 msgctxt "f42e18da-716b-47de-82a2-a825f1febc63"
 msgid "Reset"
 msgstr "초기화"
 
-#, fuzzy
 msgctxt "6594e847-cf26-4ea8-a75e-ae0c30b86267"
 msgid "Delay turn"
 msgstr "턴 미루기"
 
-#, fuzzy
 msgctxt "36bb7e99-2913-485f-a826-d3193066a041"
 msgid "Delay turn"
 msgstr "턴 미루기"
 
-#, fuzzy
 msgctxt "f95d4e1b-11d5-4f2c-8400-a7f8880cabb7"
 msgid "Toggle Inspect"
 msgstr "조사 켜기/끄기"
 
-#, fuzzy
 msgctxt "db336ea3-8954-4e1e-a5a4-1740c4f0956f"
 msgid "Crisis Points"
 msgstr "위기 점수"
 
-#, fuzzy
 msgctxt "c17a4799-d340-44b1-9f0c-1f54d43272c1"
 msgid "Party Manager"
 msgstr "일행 관리"
@@ -24803,123 +24781,97 @@ msgctxt "9b8c9926-bcbd-427c-a71b-d48741acecf8"
 msgid "You did not use any boons during this playthrough."
 msgstr "이번 플레이에서 어떤 혜택도 사용하지 않습니다."
 
-#, fuzzy
 msgctxt "6152c11c-7bcf-40c0-8092-fb565efacf58"
 msgid ""
 "<font=\"Saber_Dist32\""
 "><size=140%><color=#983f1d>E</color></size></font>ncyclopedia"
 msgstr "<font=\"Saber_Dist32\"><size=140%><color=#983f1d>백</color></size>과사전"
 
-#, fuzzy
 msgctxt "23d0c432-2b7f-4bd0-9c9c-d7b7bab0d341"
 msgid "Start Again"
 msgstr "다시 시작"
 
-#, fuzzy
 msgctxt "d3fa6272-a6a7-4712-86a2-b79e7eed1095"
 msgid "Exit To Desktop"
 msgstr "바탕화면으로 나가기"
 
-#, fuzzy
 msgctxt "94659594-871f-4fd0-998e-612480d62a7e"
 msgid "Menu"
 msgstr "메뉴"
 
-#, fuzzy
 msgctxt "c580e408-d4c6-451b-9109-dbe9d311e9c5"
 msgid "Options"
 msgstr "설정"
 
-#, fuzzy
 msgctxt "01d15d43-6928-46e8-a31b-df49ddb5149d"
 msgid "View last report"
 msgstr "마지막 보고서 보기"
 
-#, fuzzy
 msgctxt "68ea8b77-5c9a-4d17-997a-3609073c4355"
 msgid "Show location names"
 msgstr "장소 이름 표시"
 
-#, fuzzy
 msgctxt "3326e8ba-400c-49ae-83d2-455bd10a87af"
 msgid "Teleport"
 msgstr "순간이동"
 
-#, fuzzy
 msgctxt "053ffc40-d3ec-4f25-88cb-da1bb9902102"
 msgid "Continue"
 msgstr "계속"
 
-#, fuzzy
 msgctxt "c03797e0-58cd-429f-991c-037b4c3edded"
 msgid "Continue"
 msgstr "계속"
 
-#, fuzzy
-#| msgid "Kingdom"
 msgctxt "2d1f147e-02d3-4444-ada6-c39151a32a30"
 msgid "Crusade"
-msgstr "왕국"
+msgstr "성전"
 
-#, fuzzy
 msgctxt "d65b4932-ff6b-464c-8280-db86b9c5da52"
 msgid "Required companions"
 msgstr "필요 동료"
 
-#, fuzzy
-#| msgid "{mf|Barony|Barony|Kingdom|Kingdom} Resources"
 msgctxt "db41beca-beba-4fc8-a1cc-7724b952ad5a"
 msgid "Crusade Resources"
-msgstr "{mf|남작령|남작령|왕국|왕국} 자원"
+msgstr "성전 자원"
 
-#, fuzzy
 msgctxt "1c719a25-6ea3-4589-bef7-a5eb8d24a955"
 msgid "Stop"
-msgstr "중지"
+msgstr "정지"
 
-#, fuzzy
-#| msgid "Companions"
 msgctxt "5c08ccd3-1fe1-4bd6-8927-6615e00e8612"
 msgid "companions"
 msgstr "동료"
 
-#, fuzzy
 msgctxt "d0eba513-dce5-4797-ab8a-65255cc29697"
 msgid ""
 "<font=\"Saber_Dist32\"><size=140%><color=#983f1d>Q</color></size></font>uests"
-msgstr "<font=\"Saber_Dist32\"><size=140%><color=#983f1d>퀘</color></size>스트"
+msgstr "<font=\"Saber_Dist32\"><size=140%><color=#983f1d>임</color></size>무"
 
-#, fuzzy
 msgctxt "c11b4c8b-34f8-4dc1-b32b-a66ac476d6d5"
 msgid "Cost"
 msgstr "비용"
 
-#, fuzzy
 msgctxt "794af96c-5027-4774-b2d7-8814f09c5e25"
 msgid "Set the amount of items to purchase"
 msgstr "구입할 물품 갯수 설정"
 
-#, fuzzy
 msgctxt "483293dd-6e77-4460-87d1-a8745e407793"
 msgid "Available"
-msgstr "가능함"
+msgstr "가능"
 
-#, fuzzy
 msgctxt "a89442b1-6052-40bc-8ae9-ab97fe187929"
 msgid "Completed"
-msgstr "완료됨"
+msgstr "완료"
 
-#, fuzzy
 msgctxt "46040d02-ada5-4a27-9916-49571523bc6a"
 msgid "In progress"
 msgstr "진행 중"
 
-#, fuzzy
 msgctxt "a69ad72d-704a-4b04-933d-f87de3bcf265"
 msgid "The event can be cancelled during the day it was begun."
 msgstr "사건은 시작된 날에 취소할 수 있습니다."
 
-#, fuzzy
 msgctxt "d15a23eb-6bb6-4d7e-b73c-2824eda48ef2"
 msgid "Ignore"
 msgstr "무시"
@@ -24928,19 +24880,16 @@ msgstr "무시"
 #| msgid "This event can only be resolved by visiting the throne room."
 msgctxt "29d76212-c460-48d3-a313-a5c19c91f3eb"
 msgid "This event can only be resolved by visiting Commander's headquarters."
-msgstr "이 사건은 알현실을 방문해야만 해결할 수 있습니다."
+msgstr "이 사건은 사령관의 지휘실을 방문해야만 해결할 수 있습니다."
 
-#, fuzzy
 msgctxt "ceda98df-029e-49a1-a1f2-2a2fe3b65dba"
 msgid "Start Event"
 msgstr "사건 시작"
 
-#, fuzzy
 msgctxt "c468e765-d433-4442-b728-0c34b4fcc690"
 msgid "Attend to matter"
 msgstr "문제에 참석"
 
-#, fuzzy
 msgctxt "f7d062ac-9cc1-4b31-af36-e255a4c9a78d"
 msgid "Advisors"
 msgstr "보좌관"

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-21 14:23+0000\n"
-"Last-Translator: 윤준혁 <nick0406@naver.com>\n"
+"PO-Revision-Date: 2021-09-23 08:23+0000\n"
+"Last-Translator: Bumsoo <jake0208@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1571,25 +1571,6 @@ msgstr "난이도 (Difficulty class)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dexterity::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Dexterity measures agility, reflexes, and balance. This ability is the most "
-#| "important one for rogues, but it's also useful for characters who wear light "
-#| "or medium armor or no armor at all. This ability is vital for characters "
-#| "seeking to excel with ranged weapons, such as the bow or sling.\n"
-#| "A character with a Dexterity score of 0 is incapable of moving and is "
-#| "effectively immobile (but not unconscious).\n"
-#| "You apply your character's Dexterity modifier to:\n"
-#| "• Ranged attack rolls, including those for attacks made with bows, "
-#| "crossbows, throwing axes, and many ranged spell attacks like scorching ray "
-#| "or searing light.\n"
-#| "• <link=\"Encyclopedia:Armor_Class\"><b>Armor Class (AC)</b></link>, "
-#| "provided that the character can react to the attack.\n"
-#| "• Reflex <link=\"Encyclopedia:Saving_Throw\"><b>saving throws</b></link>, "
-#| "for avoiding fireballs and other attacks that you can escape by moving "
-#| "quickly.\n"
-#| "• <link=\"Encyclopedia:Trickery\"><b>Trickery</b></link> and <link="
-#| "\"Encyclopedia:Stealth\"><b>Stealth</b></link> checks."
 msgctxt "09f77c73-c323-4f65-a128-43d705993537"
 msgid ""
 "Dexterity measures agility, reflexes, and balance.\n"
@@ -1611,17 +1592,19 @@ msgid ""
 "such as the bow. Most builds of rogues, slayers, hunters, monks and rangers "
 "require high Dexterity."
 msgstr ""
-"민첩은 날렵함, 반사 및 균형을 말합니다. 로그에게 가장 중요한 능력이며, 활이나 슬링과 같은 원거리 무기에 뛰어나고자 하는 캐릭터에게 "
-"중요합니다. 경장이나 평장 갑옷을 입은 캐릭터나 갑옷을 입지 않는 캐릭터에게도 유용합니다.\n"
-"캐릭터의 민첩성이 0으로 떨어지면 이동 불가 상태가 됩니다 (의식 불명 상태는 아닙니다).\n"
-"캐릭터의 민첩 수정치는 다음에 적용됩니다:\n"
-"• 활, 석궁, 투척 도끼, 이글거리는 광선이나 타오르는 빛 같은 주문 등의 원거리 공격.\n"
-"• 캐릭터가 공격에 반응 할 수 있는 경우 <link=\"Encyclopedia:Armor_Class\"><b>방어 등급 "
-"(AC)</b></link>.\n"
-"• 반사 <link=\"Encyclopedia:Saving_Throw\"><b>내성 굴림</b></link>으로 화염구 및 다른 공격을 "
-"재빠르게 피할 수 있습니다.\n"
-"• <link=\"Encyclopedia:Trickery\"><b>손재주</b></link> 및 <link=\"Encyclopedia:"
-"Stealth\"><b>은신</b></link> 판정."
+"민첩은 날렵함, 반사신경, 균형감각의 척도입니다.\n"
+"캐릭터의 민첩 수정치가 사용되는 상황은 다음과 같습니다:\n"
+"• 활, 석궁, 투척 도끼와 같은 무기를 사용한 {g|Encyclopedia:Attack}공격{/g}, 이글거리는 광선 "
+"{g|Encyclopedia:Spell}주문{/g} 등의 {g|Encyclopedia:RangedAttack}원거리 공격{/g} "
+"{g|Encyclopedia:Dice}굴림{/g}.\n"
+"• {g|Encyclopedia:Armor_Class}방어도{/g}(AC) {g|Encyclopedia:Bonus}보너스{/g} "
+"({g|Encyclopedia:Max_Dex_Bonus}최대 민첩 보너스{/g}에 제한됨).\n"
+"• 화염구 및 다른 공격을 재빠르게 피할 수 있는 반사 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}.\n"
+"• {g|Encyclopedia:Trickery}손재주{/g}, {g|Encyclopedia:Mobility}기동성{/g}, "
+"{g|Encyclopedia:Stealth}은신{/g} {g|Encyclopedia:Skills}기술{/g} "
+"{g|Encyclopedia:Check}판정{/g}.\n"
+"이 능력치는 활과 같은 원거리 무기를 능숙하게 사용하려는 캐릭터에게 필수적입니다. 로그, 슬레이어, 헌터, 몽크, 또는 레인저 클래스 "
+"빌드 대부분은 높은 민첩을 필요로 합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dexterity::Title
@@ -1716,19 +1699,15 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Enchantment::Blocks/1/Text
-#, fuzzy
-#| msgid ""
-#| "<b>Charm</b>\n"
-#| "A charm spell changes how the subject views you, typically making it see you "
-#| "as a good friend."
 msgctxt "1e713bba-15d5-4e26-b5b4-eaceac07d5da"
 msgid ""
 "<b>Charm</b>\n"
 "A charm {g|Encyclopedia:Spell}spell{/g} changes how the subject views you, "
 "typically making it see you as a good friend."
 msgstr ""
-"<b>매력</b>\n"
-"매력의 주문은 주체가 당신을 보는 시각을 바꾸고, 전형적으로 당신을 좋은 친구로 보게 만든다."
+"<b>매혹</b>\n"
+"매혹 {g|Encyclopedia:Spell}주문{/g}은 주체가 당신을 보는 시각을 바꾸고, 전형적으로 당신을 좋은 친구로 보이게 "
+"만듭니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Enchantment::Blocks/2/Text
@@ -2005,13 +1984,6 @@ msgstr "무방비 상태 (Flat-Footed condition)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Flat_Footed_AC::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Sometimes you can't use your <link=\"Encyclopedia:Dexterity\""
-#| "><b>Dexterity</b></link> bonus (if you have one). If you can't react to a "
-#| "blow, you can't use your Dexterity bonus to <link=\"Encyclopedia:"
-#| "Armor_Class\"><b>AC</b></link>. If you don't have a Dexterity bonus, your AC "
-#| "does not change."
 msgctxt "57b6e608-7828-4f63-81c3-ddf467790ea5"
 msgid ""
 "This is Armor Class for situations when you are under the "
@@ -2022,15 +1994,17 @@ msgid ""
 "{g|Encyclopedia:CMD}Combat Maneuver Defense{/g} (CMD) (if they have any). If "
 "a character doesn't have a Dexterity bonus, their AC does not change."
 msgstr ""
-"간혹 당신이 가진 <link=\"Encyclopedia:Dexterity\"><b>민첩</b></link> 보너스를 사용할 수 없는 "
-"경우가 있습니다 (보너스를 가지고 있는 경우). 공격에 반응하지 못하는 경우, 당신의 민첩 보너스를 link=\"Encyclopedia:"
-"Armor_Class\"><b>AC</b></link>에 더할 수 없습니다. 민첩 보너스가 없는 경우 AC는 변하지 않습니다."
+"이 방어도는 캐릭터가 {g|Encyclopedia:Flat_Footed}무방비{/g} 상태일때의 방어도를 나타냅니다. 무방비 상태의 "
+"캐릭터는 {g|Encyclopedia:Armor_Class}AC{/g}에 적용되고 있는 "
+"{g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Bonus}보너스{/g}(피하기와 같은 "
+"{g|Encyclopedia:Feat}특기{/g} 포함)와 {g|Encyclopedia:CMD}전법 방어{/g}(CMD)를 잃습니다("
+"가지고 있을 시). 캐릭터가 민첩 보너스를 가지고 있지 않으면 AC는 변화하지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Flat_Footed_AC::Title
 msgctxt "ca80fa63-461d-4d74-a333-08942271cdfa"
 msgid "Flat Footed AC"
-msgstr "무방비 AC"
+msgstr "무방비 AC (Flat Footed AC)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Formations::Blocks/0/Text
@@ -2910,17 +2884,6 @@ msgstr "물리 피해 (Physical Damage)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Race::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Race is an important part of what makes characters who they are. It both "
-#| "provides a starting point for character creation and sets the tone for a "
-#| "character as it progresses. Race mixes biology and culture, then translates "
-#| "those concepts into racial traits. Yet since both biology and culture are "
-#| "mutable — especially when one considers the powerful forces of magic — "
-#| "racial traits can be so diverse that two elves can be extremely different "
-#| "while still manifesting aspects of their shared heritage and culture. A "
-#| "race's traits, its history, its relations with other races, and the culture "
-#| "that all of these things imply — all of these frame your character."
 msgctxt "369afbbe-29be-4ad5-bd43-b941035b9d19"
 msgid ""
 "Race is an important part of what makes characters who they are. It both "
@@ -2934,7 +2897,7 @@ msgid ""
 "and the culture that all of these things imply — all of these frame your "
 "character."
 msgstr ""
-"종족은 캐릭터가 누구인지에 있어 중요한 부분을 차지합니다. 종족은 캐릭터 형성에 출발점을 제공하고 캐릭터 진행에 따른 억양을 설정합니다. "
+"종족은 캐릭터가 누구인지에 있어 중요한 부분을 차지합니다. 종족은 캐릭터 형성에 출발점을 제공하고 그들의 성장에 따른 경향을 설정합니다. "
 "종족은 문화와 일대기를 혼합하여 그 뒤 그것들에서 추출한 개념을 종족 {g|Encyclopedia:Trait}특성{/g}으로 이끌어 "
 "냅니다. 특히 누군가가 강력한 마법의 힘을 고려하는 경우라면 일대기와 문화는 변할수 있습니다만, 종족 특성은 매우 다양하기에 두 명의 "
 "엘프가 종족의 유산과 문화를 공유하더라도 극단적으로 다를 수 있습니다. 종족의 특성, 역사, 다른 종과의 관계, 그리고 그들이 살아온 "
@@ -3224,14 +3187,6 @@ msgstr "내성 굴림"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Scrolls::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Scrolls are expendable items that allow you to use the spell written on it "
-#| "once. To use it, the character must know how to cast the written spell, have "
-#| "the <link=\"Encyclopedia:Use_Magic_Device\"><b>Use Magic Device</b></link> "
-#| "skill, or it should be on one of the spell lists of one of the character's "
-#| "classes. For convenience, it is best to place things like scrolls into a "
-#| "character's quick slots."
 msgctxt "b781e920-bef6-4bf8-804a-7a399dc2509f"
 msgid ""
 "Scrolls are expendable items that allow you to use the "
@@ -3242,16 +3197,16 @@ msgid ""
 "of one of the character's classes. For convenience, it is best to place "
 "things like scrolls into a character's quick slots."
 msgstr ""
-"스크롤은 쓰여진 주문을 한 번 사용할 수 있게 하는 소모품입니다. 스크롤을 사용하기 위해서는, 그 캐릭터는 반드시 쓰여진 주문을 영창하는 "
-"법을 알고 있어야 합니다. <link=\"Encyclopedia:Use_Magic_Device\"><b>마법 장치 사용</b></"
-"link> 기술을 가지고 있거나 그 주문이 캐릭터의 클래스 중 하나의 주문 목록 중 하나에 있어야 합니다. 편의성을 위해서는, 캐릭터의 "
-"퀵슬롯에 스크롤을 두는 것이 가장 좋습니다."
+"두루마리는 쓰여진 {g|Encyclopedia:Spell}주문{/g}을 한 번 사용할 수 있게 하는 소모품입니다. 두루마리를 사용하기 "
+"위해서는, 캐릭터가 쓰여진 주문을 영창하는 법을 먼저 알고 있어야 하며, {g|Encyclopedia:Use_Magic_Device}마법 "
+"도구 사용{/g} {g|Encyclopedia:Skills}기술{/g}을 가지고 있거나 그 주문이 시전자의 클래스 주문 목록 중 하나에 "
+"있어야 합니다. 편리한 사용을 위해, 캐릭터의 퀵슬롯에 두루마리를 두는 것을 추천합니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Scrolls::Title
 msgctxt "d738eae7-4f13-43b8-b00a-3e60bd0e6388"
 msgid "Scrolls"
-msgstr "두루마리"
+msgstr "두루마리 (Scrolls)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Shooting_into_Melee::Blocks/0/Text
@@ -3458,15 +3413,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Special_Abilities::Blocks/3/Text
-#, fuzzy
-#| msgid ""
-#| "<b>Extraordinary Abilities</b>\n"
-#| "These abilities cannot be disrupted in combat, as spells can, and they "
-#| "generally do not provoke attacks of opportunity. Effects or areas that "
-#| "negate or disrupt magic have no effect on extraordinary abilities. They are "
-#| "not subject to dispelling, and they function normally in an antimagic field. "
-#| "Indeed, extraordinary abilities do not qualify as magical, though they may "
-#| "break the laws of physics."
 msgctxt "f1ab8d26-9f5d-4001-b520-a46ca328cc12"
 msgid ""
 "<b>Extraordinary Abilities</b>\n"
@@ -3478,9 +3424,10 @@ msgid ""
 "attacks of opportunity{/g}."
 msgstr ""
 "<b>초상 능력</b> \n"
-"전투에 방해받지 않으며, 일반적으로 주문과 같이 기회 공격을 유발하지 않습니다. 마법을 무효화하거나 방해해는 영역이나 효과는 초상 능력에 "
-"영향을 미치지 않습니다. 초상 능력은 해체의 대상이 되지 않고 반마법장에서도 정상적으로 작동합니다. 실제로, 초상 능력은 물리 법칙을 "
-"깨트릴 수 있지만 마법으로 취급되지 않습니다."
+"초상능력은 물리법칙에 간섭할 수 있지만, 마법은 아닙니다.\n"
+"초상능력은 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 무시하며 주문 해제 효과의 영향을 받지 "
+"않습니다. 또한 전투 중의 사용이 자유로우며 {g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을 "
+"유발하지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Special_Abilities::Title

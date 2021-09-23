@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-20 02:23+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-09-23 08:23+0000\n"
+"Last-Translator: Bumsoo <jake0208@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -318,7 +318,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BloodlineFeyLaughingTouchAbility::m_DisplayName
-#, fuzzy
 msgctxt "192f6cfc-fcaf-47a6-8c85-0f2dfa40d930"
 msgid "Laughing Touch"
 msgstr "웃음의 손길"
@@ -327,7 +326,7 @@ msgstr "웃음의 손길"
 #. Path = FaithHunterSwornEnemySmiteResource::LocalizedName
 msgctxt "61add36a-a8b5-4fc1-ad41-48e961b3aa1e"
 msgid "Sworn Enemy — Smite Extra Use"
-msgstr ""
+msgstr "숙적 — 처단 추가 사용"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = FaithHunterSwornEnemySmiteResource::LocalizedDescription
@@ -337,6 +336,8 @@ msgid ""
 "smite her enemies one additional time per day, to a maximum of four times "
 "per day at 18th level."
 msgstr ""
+"인퀴지터 10 레벨과 이후 4 레벨마다 페이스 헌터는 일일 처단 사용 횟수가 1회 늘어나며, 18 레벨에 하루 최대 4번까지 사용할 수 "
+"있습니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = FleshOfStoneResource::LocalizedName
@@ -368,17 +369,6 @@ msgstr "돌 같은 살갗"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = FleshOfStoneAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "Element: earth\n"
-#| "Type: defense\n"
-#| "Level: —\n"
-#| "Burn: 0\n"
-#| "Your skin hardens like stone, dampening the impact of most attacks. You gain "
-#| "DR 1/adamantine. This DR increases by 1 for every 2 kineticist levels you "
-#| "possess beyond 2nd. By accepting 1 point of burn, you can increase the DR by "
-#| "1 until the next time your burn is removed, to a maximum DR equal to your "
-#| "kineticist level."
 msgctxt "699401a2-677b-4115-b456-2220013c30c8"
 msgid ""
 "Element: earth\n"
@@ -396,13 +386,13 @@ msgstr ""
 "유형: 방어\n"
 "레벨: —\n"
 "과열: 0\n"
-"피부를 돌처럼 단단하게 하여, 대부분의 공격이 주는 피해를 감쇄합니다. DR 1/아다만틴을 얻습니다. DR은 키네티시스트 2레벨 이후로 "
-"매 2레벨마다 1씩 증가합니다. 과열 1 점을 받고 과열이 제거될 때까지 DR 1을 얻을 수 있습니다. DR의 최대치는 키네티시스트 "
-"레벨과 같습니다."
+"피부를 돌처럼 단단하게 하여, 대부분의 {g|Encyclopedia:Attack}공격{/g}이 주는 피해를 감쇄합니다. "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 1/아다만틴을 얻습니다. DR은 키네티시스트 2레벨 이후로 매 "
+"2레벨마다 1씩 증가합니다. 과열 1 점을 받고 과열이 제거될 때까지 DR 1을 얻을 수 있습니다. DR의 최대치는 키네티시스트 레벨과 "
+"같습니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = KiPowerResource::LocalizedName
-#, fuzzy
 msgctxt "b83c318e-2d72-46de-af09-5eb095513e49"
 msgid "Ki"
 msgstr "기"
@@ -411,18 +401,16 @@ msgstr "기"
 #. Path = LeaderManaResource::LocalizedName
 msgctxt "8404c66c-0852-4db5-b6ce-2a29cf17d0c8"
 msgid "Energy"
-msgstr ""
+msgstr "에너지"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = MutagenResource::LocalizedName
-#, fuzzy
 msgctxt "0af1d93a-cbbf-4496-a0d0-35f69c7ab491"
 msgid "Mutagen"
 msgstr "변이 물약"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ScaledFistPowerResource::LocalizedName
-#, fuzzy
 msgctxt "19f8a6ee-d0ae-4d34-ab7d-de8f9ae695d7"
 msgid "Ki"
 msgstr "기"
@@ -445,20 +433,6 @@ msgstr "타오르는 불꽃"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SearingFleshAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "Element: fire\n"
-#| "Type: defense\n"
-#| "Level: —\n"
-#| "Burn: 0\n"
-#| "Your body becomes painfully hot. Whenever a creature hits you with a natural "
-#| "attack or an unarmed strike, that creature takes 1 point of fire damage per "
-#| "4 kineticist levels you possess (minimum 1 point of fire damage). A creature "
-#| "in a grapple with you takes double this amount of damage at the end of each "
-#| "of its turns.\n"
-#| "By accepting 1 point of burn, you can increase this damage by 1 point per 4 "
-#| "kineticist levels you possess until the next time your burn is removed. You "
-#| "can increase the damage in this way up to seven times."
 msgctxt "f4079a9c-5eb1-4a84-b536-b98426bbedc1"
 msgid ""
 "Element: fire\n"
@@ -480,8 +454,10 @@ msgstr ""
 "유형: 방어\n"
 "레벨: —\n"
 "과열: 0\n"
-"몸을 고통스러울 정도로 뜨겁게 달궈서 크리처가 자연 공격이나 비무장 타격으로 공격 할 때마다 키네티시스트 레벨 당 1 점의 화염 피해를 "
-"입힙니다 (최소 1 점의 화염 피해). 당신을 붙잡은 크리처는 매 턴이 끝날 때마다 그 만큼의 피해를 입습니다.\n"
+"몸을 고통스러울 정도로 뜨겁게 달궈서 크리처가 {g|Encyclopedia:NaturalAttack}자연 공격{/g}이나 "
+"{g|Encyclopedia:UnarmedAttack}비무장 타격{/g}으로 공격 할 때마다 키네티시스트 레벨 4 당 1 점의 "
+"{g|Encyclopedia:Energy_Damage}화염 피해{/g}를 입힙니다 (최소 1 점의 화염 피해). 당신을 붙잡은 크리처는 "
+"매 턴이 끝날 때마다 두 배의 피해를 입습니다.\n"
 "과열 1 점을 받고 과열이 제거될 때까지 자신이 보유한 키네티시스트 4 레벨마다 1 점씩 피해를 증가시킬 수 있습니다. 이렇게 피해를 "
 "최대 7 번까지 늘릴 수 있습니다."
 
@@ -495,7 +471,7 @@ msgstr ""
 #. Path = ShamanItemBondAbility::m_DisplayName
 msgctxt "71b0ac79-2759-4b20-afa1-44767b5a27a3"
 msgid "Object Bond"
-msgstr ""
+msgstr "물체 결속"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ShamanItemBondResource::LocalizedDescription
@@ -510,6 +486,7 @@ msgid ""
 "A bonded object can be used once per day to restore any one "
 "{g|Encyclopedia:Spell}spell{/g} that the shaman had prepared for this day."
 msgstr ""
+"샤먼은 하루에 한 번 결속된 물체를 사용하여 준비한 {g|Encyclopedia:Spell}주문{/g} 하나를 회복할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ShroudOfWaterArmorResource::LocalizedName
@@ -525,7 +502,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
 #. Path = ShroudOfWaterArmorEffectFeature::m_DisplayName
-#, fuzzy
 msgctxt "c23b7d43-3993-4555-8fe5-15eb970c9767"
 msgid "Shroud of Water"
 msgstr "물의 장막"
@@ -544,24 +520,6 @@ msgstr "물의 장막"
 #. 
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
 #. Path = ShroudOfWaterArmorEffectFeature::m_Description
-#, fuzzy
-#| msgid ""
-#| "Element: water\n"
-#| "Type: defense\n"
-#| "Level: —\n"
-#| "Burn: 0\n"
-#| "You surround yourself with a shroud of water, ice, or both that protects you "
-#| "from harm. The shroud can either cover your body, functioning as armor, or "
-#| "float around you and block attacks, functioning as a shield. It grants "
-#| "either a +4 armor bonus to AC or a +2 shield bonus to AC, and you can change "
-#| "the type of bonus as a standard action. This bonus increases by 1 for every "
-#| "4 kineticist levels you possess beyond 2nd. By accepting 1 point of burn, "
-#| "You can increase the bonus by 1 until the next time your burn is removed. "
-#| "You can increase the bonus multiple times in this way, but it can't be "
-#| "increased by more than 50% of its starting value.\n"
-#| "When you change the shroud to grant a shield bonus, any bonus in excess of "
-#| "this limit doesn't apply, but it remains if you change the shroud's bonus "
-#| "type again."
 msgctxt "eef0d2e4-35d3-4823-bab5-a47028ad05fe"
 msgid ""
 "Element: water\n"
@@ -587,11 +545,12 @@ msgstr ""
 "유형: 방어\n"
 "레벨: —\n"
 "과열: 0\n"
-"물이나 얼음, 또는 둘 다로 이루어진 장막으로 당신을 위험으로부터 보호합니다. 장막은 몸을 가릴 수도 있고, 갑옷처럼 기능할 수도 있고, "
-"주위를 떠다니며 공격을 차단할 수도 있으며, 방패처럼 쓸 수도 있습니다. AC에 +4 갑옷 보너스를 부여하거나 AC에 +2 방패 보너스를 "
-"부여하며, 일반 동작으로 보너스의 종류를 변경할 수 있습니다. 이 보너스는 2레벨 이후로 키네티시스트 4 레벨마다 1 씩 증가합니다. "
-"과열 1 점을 받으면 과열이 제거될 때까지 보너스를 1 점 늘릴 수 있습니다. 이런 식으로 보너스를 여러 번 늘릴 수는 있지만 처음 "
-"주어진 보너스의 50% 까지만 늘릴 수 있습니다.\n"
+"물이나 얼음, 또는 둘 다로 이루어진 장막으로 당신을 위험으로부터 보호합니다. 장막은 몸에 둘러 갑옷처럼 활용할 수도 있고, 주위를 "
+"떠다니며 {g|Encyclopedia:Attack}공격{/g}을 차단할 수도 있으며, 방패처럼 쓸 수도 있습니다. "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +4 갑옷 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여하거나 AC에 +2 방패 보너스를 부여하며, 일반 동작으로 보너스의 종류를 변경할 수 있습니다. 이 보너스는 2레벨 이후로 "
+"키네티시스트 4 레벨마다 1 씩 증가합니다. 과열 1 점을 받으면 과열이 제거될 때까지 보너스를 1 점 늘릴 수 있습니다. 이런 식으로 "
+"보너스를 여러 번 늘릴 수는 있지만 처음 주어진 보너스의 50% 까지만 늘릴 수 있습니다.\n"
 "방패 보너스를 부여하기 위해 장막을 변경할 때는 이 한도를 초과하는 보너스는 적용되지 않지만, 장막의 보너스 유형을 다시 변경하면 그대로 "
 "남습니다.\n"
 "*역자 주: 장막을 갑옷으로 쓰고 과열 보너스를 최대한 적용한 뒤에 방패로 바꾸면, 방패의 과열 보너스 한도 만큼 보너스가 줄어들지만, "
@@ -637,7 +596,7 @@ msgstr "자가 치유"
 #. Path = Arueshalae_Evil::Title
 msgctxt "b734fae3-af07-480c-9d05-9bd47d1719a6"
 msgid "A Demon's Loyalty"
-msgstr ""
+msgstr "악마의 본성"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Evil::Description
@@ -650,12 +609,14 @@ msgid ""
 "care whether her nature is good or bad — she remains a powerful ally either "
 "way."
 msgstr ""
+"아루샬레의 오랜 반항은 예상대로 끝이 났습니다. 역시 데몬의 본성은 변할 수 없는 것이었고, 아루샬레는 가슴 속에 남아 있던 심연의 "
+"부름을 받아들였습니다. 그러나, 사령관은 그녀가 강력한 동료로 남아있는 한, 본성이 선하던 악하던 신경쓰지 않는 듯 합니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Q0::Title
 msgctxt "71024921-f243-4a77-964f-7d4bdbc0d892"
 msgid "A Demon's Heresy"
-msgstr ""
+msgstr "악마의 이단"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Q0::Description
@@ -732,7 +693,7 @@ msgstr ""
 #. Path = Camellia_Q0::Title
 msgctxt "d14d90cd-e757-42a6-a5bc-8f26aa0ed056"
 msgid "Blue Blood"
-msgstr ""
+msgstr "귀족 혈통"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Camellia_Q0::Description
@@ -755,7 +716,7 @@ msgstr ""
 #. Path = Q1_NobleIntent::Title
 msgctxt "b6d0a1ae-60f3-47fb-9e68-72a496df34a6"
 msgid "A Noble Intent"
-msgstr ""
+msgstr "고귀한 의도"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Camellia_Q1::Description
@@ -946,7 +907,7 @@ msgstr ""
 #. Path = Ember_Q0::Title
 msgctxt "68c7be42-7210-4a70-89d7-62e33d2dee22"
 msgid "A Child's Crusade"
-msgstr ""
+msgstr "소녀의 성전"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Ember_Q0::Description
@@ -1086,7 +1047,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = DragonHunt::Title
-#, fuzzy
 msgctxt "0cf5e0e3-2d9a-4fb2-8968-089fe8d3dbc1"
 msgid "The Dragon Hunt"
 msgstr "용 사냥"
@@ -1453,10 +1413,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = WeightOfMySword_SeelahQ3_quest::Title
-#, fuzzy
 msgctxt "01aff8c8-ec21-4685-b6a2-0371bdc4aefe"
 msgid "The Weight of My Sword"
-msgstr "내 검의 무게"
+msgstr "검의 무게"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Seelah_Q3::Description
@@ -1852,19 +1811,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Facts.BlueprintUnitFact
 #. Path = Ferocity::m_DisplayName
-#, fuzzy
 msgctxt "9d01b26c-00ce-403e-a8b8-9b675af90bfb"
 msgid "Ferocity"
 msgstr "흉포성"
 
 #. Type = Kingmaker.Blueprints.Facts.BlueprintUnitFact
 #. Path = Ferocity::m_Description
-#, fuzzy
-#| msgid ""
-#| "A creature with ferocity remains conscious and can continue fighting even if "
-#| "its hit point total is below 0. The creature is still staggered and loses 1 "
-#| "hit point each round. A creature with ferocity still dies when its hit point "
-#| "total reaches a negative amount equal to its Constitution score."
 msgctxt "ad5e639d-6731-47c7-8cd6-db98c22b568c"
 msgid ""
 "A creature with ferocity remains conscious and can continue fighting even if "
@@ -1873,15 +1825,15 @@ msgid ""
 "ferocity still dies when its hit point total reaches a negative amount equal "
 "to its {g|Encyclopedia:Constitution}Constitution{/g} score."
 msgstr ""
-"흉포성을 가진 생크리처는 체력이 0이 되더라도 의식을 잃지 않고 계속 싸울 수 있습니다. 크리처는 비틀거리면서 매 라운드마다 1 점의 "
-"생명점을 잃습니다. 흉포성을 가진 크리처는 음의 생명점이 건강 수치 만큼 도달하면 죽습니다."
+"흉포성을 가진 크리처는 체력이 0 이 되더라도 의식을 잃지 않고 계속 싸울 수 있습니다. 크리처는 비틀거리면서 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}마다 1 점의 생명점을 잃습니다. 흉포성을 가진 크리처는 생명점이 "
+"{g|Encyclopedia:Constitution}건강{/g} 수치의 음수만큼 떨어지면 죽습니다."
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::m_DifficultyList/m_Difficulties/0/LocalizedName
-#, fuzzy
 msgctxt "2c1ef854-1cab-4e9f-b415-d297ce97935a"
 msgid "Custom"
-msgstr "맞춤"
+msgstr "커스텀"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::m_DifficultyList/m_Difficulties/2/LocalizedName
@@ -1933,7 +1885,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::m_DifficultyList/m_Difficulties/6/LocalizedName
-#, fuzzy
 msgctxt "0b53ac8e-394f-4572-9a64-3af60c2d571b"
 msgid "Hard"
 msgstr "어려움"
@@ -1995,6 +1946,8 @@ msgid ""
 "Kurgekara/Durugith/Amaebella/Luzmaelin/Houggula/Hodolinda/Ragnoulyn/Thibreth/"
 "Thabelda/Vokkgrid"
 msgstr ""
+"아그나/보딜/인그라/코트리/루실리카/얀그리트/바르노나/크로드웨드/발린/돈드리거/쿠르게카라/두르기스/아마벨라/루즈마엘린/호굴라/호돌린다/라그"
+"놀린/티브레스/타벨다/보크그리드"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::CharGen/PregenCharacterNames/m_CharacterNames/2/NameList
@@ -2004,6 +1957,8 @@ msgid ""
 "Kvilessin/Arbellion/Erlandor/Erlathan/Aiduin/Erloshin/Lornholn/Ephelion/"
 "Aydunn/Filverel/Ruennar/Lysanthir"
 msgstr ""
+"칼라드렐/헬다렐/랜리스/메이르다렐/셀들론/탈라텔/바리엘/조르들론/빌레신/아르벨리온/엘란도르/엘라탄/아이두인/엘로신/로르홀린/에펠리온/아이두"
+"운/필베렐/루나르/리잔티르"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::CharGen/PregenCharacterNames/m_CharacterNames/3/NameList
@@ -2232,7 +2187,6 @@ msgstr "여행"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::UIRoot/GlobalMapEnterDialogAccept
-#, fuzzy
 msgctxt "ae138bea-7f8f-4ed5-9895-11c649e1aeef"
 msgid "Enter"
 msgstr "진입"
@@ -3447,63 +3401,54 @@ msgstr ""
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::StageNameParameterized
-#, fuzzy
 msgctxt "aa6e4926-3f7e-4806-b9f2-51730ba24227"
 msgid "Tenebrous Depths, {text}"
 msgstr "어둠의 심부, {text}"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/0/Title
-#, fuzzy
 msgctxt "09fad3ed-d825-4287-a586-bc8a95495015"
 msgid "Dungeon level reached"
 msgstr "도달한 던전 층수"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/1/Title
-#, fuzzy
 msgctxt "1b5c12bd-f50d-411e-b83e-9aac71e79a41"
 msgid "Party's final enemy"
 msgstr "일행의 마지막 적"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/2/Title
-#, fuzzy
 msgctxt "942beedd-e09f-4256-a084-83657de71079"
 msgid "Playthrough duration"
 msgstr "플레이 시간"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/3/Title
-#, fuzzy
 msgctxt "34f51404-5781-437e-9942-da690df0261e"
 msgid "Enemies defeated"
 msgstr "쓰러뜨린 적"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/4/Title
-#, fuzzy
 msgctxt "0936f527-4487-47c3-b696-8615b5b5b521"
 msgid "Top damage dealer"
-msgstr "최대 피해를 입힌 사람"
+msgstr "가장 많은 피해 입힘"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/5/Title
-#, fuzzy
 msgctxt "7abb236a-3cd5-4d5d-9c69-59512cf0156c"
 msgid "Chests discovered"
-msgstr "찾은 상자"
+msgstr "상자 발견"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/6/Title
-#, fuzzy
 msgctxt "4ede0bf7-1d0d-4029-8c74-c38176f9eaba"
 msgid "Total equipment cost"
 msgstr "전체 장비 가치"
 
 #. Type = Kingmaker.Dungeon.Blueprints.BlueprintDungeonLocalizedStrings
 #. Path = DungeonDLC3Localization::LeaderboardRecordValues/7/Title
-#, fuzzy
 msgctxt "af4bc794-3162-4d7a-b430-330d18236139"
 msgid "Total damage sustained"
 msgstr "받은 피해 합계"
@@ -3522,27 +3467,21 @@ msgstr ""
 
 #. Type = Kingmaker.Formations.BlueprintPartyFormation
 #. Path = Formation_Custom_02::Name
-#, fuzzy
-#| msgid "Custom Formation 2"
 msgctxt "56acfe2a-4535-4a48-8062-27cd01129b19"
 msgid "Star Formation"
-msgstr "맞춤 대형2"
+msgstr "별 대형"
 
 #. Type = Kingmaker.Formations.BlueprintPartyFormation
 #. Path = Formation_Custom_03::Name
-#, fuzzy
-#| msgid "Custom Formation 3"
 msgctxt "3af8b36c-8305-4c4b-aa5f-0b26cf756aee"
 msgid "Waves Formation"
-msgstr "맞춤 대형3"
+msgstr "파도 대형"
 
 #. Type = Kingmaker.Formations.BlueprintPartyFormation
 #. Path = Formation_Custom_04::Name
-#, fuzzy
-#| msgid "Default Formation"
 msgctxt "448f2f87-9c68-4561-b990-e4f14fdd1bbe"
 msgid "Circle Formation"
-msgstr "기본 대형"
+msgstr "원 대형"
 
 #. Type = Kingmaker.Formations.BlueprintPartyFormation
 #. Path = Formation_Custom_05::Name
@@ -5073,10 +5012,9 @@ msgstr ""
 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPoint
 #. Path = Location_BastionOfJustice::Name
-#, fuzzy
 msgctxt "2c058694-5f75-497b-9930-35c03767ebba"
 msgid "Bastion of Justice"
-msgstr "정의의 요새"
+msgstr "정의의 보루"
 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPoint
 #. Path = Location_BastionOfJustice::Description
@@ -6161,14 +6099,12 @@ msgstr ""
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Female_Aggressive_Barks::DisplayName
-#, fuzzy
 msgctxt "f3c677cd-ba5e-4a66-8a22-8881d7bf59da"
 msgid "Aggressive"
 msgstr "공격적"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Female_Brave_Barks::DisplayName
-#, fuzzy
 msgctxt "4302a893-227c-4926-8122-480da959857a"
 msgid "Brave"
 msgstr "용감함"
@@ -6177,11 +6113,10 @@ msgstr "용감함"
 #. Path = PC_Female_Carefree_Barks::DisplayName
 msgctxt "800c038d-0bd1-48fd-b5a5-8bb40bc0c957"
 msgid "Carefree"
-msgstr ""
+msgstr "태평함"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Female_Confident_Barks::DisplayName
-#, fuzzy
 msgctxt "e00a24f7-7668-45b7-9e9e-87ced822b5c2"
 msgid "Confident"
 msgstr "신중함"
@@ -6190,54 +6125,46 @@ msgstr "신중함"
 #. Path = PC_Female_Cunning_Barks::DisplayName
 msgctxt "6c2df2c3-dead-4edc-ac34-2acbd05df4b5"
 msgid "Cunning"
-msgstr ""
+msgstr "교활함"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Female_Madman_Barks::DisplayName
-#, fuzzy
-#| msgid "Madman"
 msgctxt "1697ab15-282f-478c-bd2e-350088701806"
 msgid "Madwoman"
 msgstr "광인"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Female_Pious_Barks::DisplayName
-#, fuzzy
 msgctxt "ba7d4f56-63cb-4d7a-a4ba-2aa68d550dc7"
 msgid "Pious"
 msgstr "경건함"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Female_Pragmatic_Barks::DisplayName
-#, fuzzy
 msgctxt "6b047e44-7dc5-4c43-a90c-4456b505a0e1"
 msgid "Pragmatic"
 msgstr "실용적"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Female_Reserved_Barks::DisplayName
-#, fuzzy
 msgctxt "639ade53-20cf-4b31-9650-c5b90a164846"
 msgid "Reserved"
 msgstr "과묵함"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Male_Aggressive_Barks::DisplayName
-#, fuzzy
 msgctxt "3eafa7f6-f9c8-4ddf-aad8-357434a919a9"
 msgid "Aggressive"
 msgstr "공격적"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Male_Brave_Barks::DisplayName
-#, fuzzy
 msgctxt "5bb7f569-8092-47b1-8a49-08d7abe16d53"
 msgid "Brave"
 msgstr "용감함"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Male_Confident_Barks::DisplayName
-#, fuzzy
 msgctxt "8238c58f-6397-472a-beab-fd0c99396e20"
 msgid "Confident"
 msgstr "신중함"
@@ -6250,7 +6177,6 @@ msgstr ""
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Male_Madman_Barks::DisplayName
-#, fuzzy
 msgctxt "adaef0b3-f7aa-425a-a6ba-a7485cc55241"
 msgid "Madman"
 msgstr "광인"
@@ -6259,25 +6185,22 @@ msgstr "광인"
 #. Path = PC_Male_Optimist_Barks::DisplayName
 msgctxt "2b285535-bf10-4684-8afb-52cebe64f0f9"
 msgid "Optimist"
-msgstr ""
+msgstr "낙천적"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Male_Pious_Barks::DisplayName
-#, fuzzy
 msgctxt "1c9b75eb-0876-4bee-ae80-2c3f911ff3e5"
 msgid "Pious"
 msgstr "경건함"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Male_Pragmatic_Barks::DisplayName
-#, fuzzy
 msgctxt "9bf8fdee-bb43-457d-a5d6-8d18c40615f0"
 msgid "Pragmatic"
 msgstr "실용적"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_Male_Reserved_Barks::DisplayName
-#, fuzzy
 msgctxt "6d68ef1d-751d-43f7-b54b-9c7c8e8d38d1"
 msgid "Reserved"
 msgstr "과묵함"
@@ -6286,11 +6209,10 @@ msgstr "과묵함"
 #. Path = PC_Male_Wise_Barks::DisplayName
 msgctxt "1d9f2e16-12c5-4059-b840-ab8241949733"
 msgid "Wise"
-msgstr ""
+msgstr "현명함"
 
 #. Type = Kingmaker.Visual.Sound.BlueprintUnitAsksList
 #. Path = PC_None_Barks::DisplayName
-#, fuzzy
 msgctxt "bc85f77c-195d-45ec-9667-bdbfa6d07061"
 msgid "None"
 msgstr "없음"
