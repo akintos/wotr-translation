@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-24 22:23+0000\n"
-"Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
+"PO-Revision-Date: 2021-09-25 23:23+0000\n"
+"Last-Translator: GoYangiCat <sanghyuk1126@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1711,14 +1711,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Enchantment::Blocks/2/Text
-#, fuzzy
-#| msgid ""
-#| "<b>Compulsion</b>\n"
-#| "A compulsion spell forces the subject to act in some manner or changes the "
-#| "way its mind works. Some compulsion spells determine the subject's actions "
-#| "or the effects on the subject, others allow you to determine the subject's "
-#| "actions when you cast the spell, and still, others give you ongoing control "
-#| "over the subject."
 msgctxt "191b20a7-7778-438d-b45b-82ca33fa0a38"
 msgid ""
 "<b>Compulsion</b>\n"
@@ -1729,9 +1721,9 @@ msgid ""
 "cast the spell, and still, others give you ongoing control over the subject."
 msgstr ""
 "<b>강박</b>\n"
-"강박 주문은 피험자가 어떤 식으로 행동하거나 마음이 작용하는 방식을 바꾸도록 강요합니다. 어떤 강박 주문은 피사체의 행동이나 피사체에 "
-"미치는 영향을 결정하고, 어떤 주문은 주문을 던질 때 피사체의 행동을 결정할 수 있게 하고, 여전히 다른 주문은 피사체에 대한 지속적인 "
-"통제권을 줍니다."
+"강박 {g|Encyclopedia:Spell}주문{/g}은 대상이 행동하거나 마음이 작용하는 방식을 바꾸도록 강요합니다. 어떠한 강박 "
+"주문은 대상의 {g|Encyclopedia:CA_Types}행동{/g}이나 대상에 미치는 영향을 주고, 어떠한 주문은 주문을 시전할 때 "
+"대상의 행동에 영향을 줄 수 있고, 어떠한 주문은 대상에 대한 지속적인 통제권을 줍니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Enchantment::Title
@@ -2026,12 +2018,6 @@ msgstr "진형 (Formations)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Free_Action::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Free actions consume a very small amount of time and effort. You can perform "
-#| "one or more free actions while taking another action normally.\n"
-#| "Some combat options are free actions meant to be combined with an attack. "
-#| "Often, these are feats with specific limitations defined within the feat."
 msgctxt "102eb124-5bbd-4e01-9db2-a3935a0b9fe6"
 msgid ""
 "Free actions consume a very small amount of time and effort. You can perform "
@@ -2042,9 +2028,11 @@ msgid ""
 "{g|Encyclopedia:Feat}feats{/g}, like Perfect Strike, with specific "
 "limitations defined within the feat. Free actions are relatively rare."
 msgstr ""
-"자유 행동은 아주 적은 양의 시간과 노력을 소비합니다. 당신은 다른 행동을 하는 동시에 하나 혹은 그 이상의 자유행동을 수행할 수 "
-"있습니다.\n"
-"몇몇 전투 선택지는 공격과 조합되도록 설계된 자유 행동입니다. 대부분, 이러한 특기들은 내부에서 정의된 특별한 제한을 가지고 있습니다."
+"자유 행동은 아주 적은 양의 시간과 노력을 소비합니다. 당신은 다른 일반적인 {g|Encyclopedia:CA_Types}행동{/g}을 "
+"하는 동시에 하나 이상의 자유행동을 수행할 수 있습니다.\n"
+"몇몇 전투 선택지는 {g|Encyclopedia:Attack}공격{/g}과 조합되도록 설계된 자유 행동입니다. 대부분의 경우, 이는 "
+"완벽한 일격과 같은 {g|Encyclopedia:Feat}특기{/g}이며 특기에서 정의된 특정한 제한을 가지고 있습니다. 자유 행동은 "
+"상대적으로 드물게 볼 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Free_Action::Title
@@ -2167,10 +2155,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Health_and_Death::Title
-#, fuzzy
 msgctxt "57887a75-b7a0-4dae-919b-59a8fae00ca3"
 msgid "Health and Death"
-msgstr "생명력과 죽음"
+msgstr "생명력과 죽음 (Health and Death)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Helpless::Blocks/0/Text
@@ -2376,18 +2363,6 @@ msgstr "부상과 죽음"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Inspect::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Your party members can use their Knowledge and Lore skills to inspect a "
-#| "hostile creature and try to determine its basic characteristics, defense, "
-#| "attacks and special abilities. During the first encounter with a creature, "
-#| "every party member makes a check of an appropriate Knowledge or Lore skill. "
-#| "The greatest check result determines how much information the party learns. "
-#| "If the checks were unsuccessful, you get another chance to inspect a "
-#| "creature after you kill it, or after you increase the skill rank after "
-#| "levelling up.\n"
-#| "To see what your party knows about a creature, press [{bind|Inspect}] or the "
-#| "\"Inspect\" button."
 msgctxt "65ddb29c-e463-4673-ab24-3c19f15cf40a"
 msgid ""
 "Your party members can use their Knowledge and Lore "
@@ -2403,11 +2378,12 @@ msgid ""
 "To see what your party knows about a creature, press [{bind|Inspect}] or the "
 "\"Inspect\" button."
 msgstr ""
-"당신의 파티원들은 지식과 전승기술을 이용하여 적대 생명체를 조사해서 기본 특성, 방어력, 공격력과 특별한 능력을 파악할 수 있습니다. "
-"생명체와 맨 처음 맞닥뜨리는 순간 모든 파티원들은 적절한 지식 또는 전승 기술 판정을 시도합니다. 가장 큰 판정 수치로 파티가 얼마나 "
-"많은 정보를 얻는지 결정합니다. 판정을 실패하더라도, 그 생명체를 죽이거나 레벨업을 해서 기술 등급을 올리는 방법으로 다시 조사가 "
-"가능합니다.\n"
-"생명체에 대해 알아보려면[{bind|조사하기}]를 누르거나 \"조사하기\" 버튼을 누르십시오."
+"당신의 파티원들은 지식과 전승{g|Encyclopedia:Skills}기술{/g}을 이용하여 적대 생명체를 조사해서 기본 특성, 방어력, "
+"{g|Encyclopedia:Attack}공격력{/g}과 {g|Encyclopedia:Special_Abilities}특별한 능력{/g}"
+"을 파악할 수 있습니다. 크리처와 처음 맞닥뜨리는 순간 모든 일행원들은 적절한 지식 또는 전승 기술 "
+"{g|Encyclopedia:Check}판정{/g}을 시도하며, 가장 높게 나온 판정 수치에 따라 일행이 얼마나 많은 정보를 얻는지가 "
+"결정됩니다. 판정에 실패하더라도, 그 생명체를 죽인 후 살펴보거나 레벨업을 통해 기술 등급을 상승시킨 후 재조사가 가능합니다.\n"
+"생명체에 대해 알아보려면[{bind|Inspect}]를 누르거나 \"조사하기\" 버튼을 누르십시오."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Inspect::Title
@@ -2567,14 +2543,6 @@ msgstr "전승: 종교 (Lore: Religion)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Magic_School::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "<b>School (Subschool)</b>\n"
-#| "Beneath the spell name is a line giving the school of magic (and the "
-#| "subschool, if any) to which the spell belongs.\n"
-#| "Almost every spell belongs to one of eight schools of magic. A school of "
-#| "magic is a group of related spells that work in similar ways. A small number "
-#| "of spells are universal, belonging to no school."
 msgctxt "2763d238-3616-4438-9943-b5771169ba2a"
 msgid ""
 "Every {g|Encyclopedia:Spell}spell{/g} belongs to one of eight schools of "
@@ -2583,9 +2551,9 @@ msgid ""
 "For example, some feats can increase effectiveness of spells from a certain "
 "school."
 msgstr ""
-"모든 {g|Encyclopedia:Spell}주문{/g}은 여덟 마법 학파 중 하나에 속합니다. 학파는 학파에 속한 주문의 특성을 가졌고 "
-"{g|Encyclopedia:Feat}특기{/g}나 마법 아이템과 같은 다른 게임 요소와 주문의 상호작용을 담당합니다. 예를 들어, 일부 "
-"특기는 특정 학파의 주문 효율을 높입니다."
+"모든 {g|Encyclopedia:Spell}주문{/g}은 여덟 가지의 마법 학파 중 하나에 속합니다. 학파는 주문의 속성에 의해 "
+"배정되며, {g|Encyclopedia:Feat}특기{/g}나 마법 아이템 등과 주문 간의 상호작용이 이루어지는 연결고리가 됩니다. 예를 "
+"들어, 일부 특기로 특정 학파의 주문 효율을 높일 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Magic_School::Title
@@ -2704,10 +2672,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Moral_Choices::Title
-#, fuzzy
 msgctxt "e2406116-210c-4d9e-9a81-245edc54024c"
 msgid "Moral Choices"
-msgstr "도덕적 선택"
+msgstr "도덕적 선택 (Moral Choices)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Movement::Blocks/0/Text
@@ -2729,12 +2696,6 @@ msgstr "이동 (Movement)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Move_Action::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "A move action allows you to move up to your speed or perform an action that "
-#| "takes a similar amount of time.\n"
-#| "You can take a move action in place of a <link=\"Encyclopedia:"
-#| "Standard_Actions\"><b>standard action</b></link>."
 msgctxt "1cf2a349-5642-493d-9e09-28b9a54b049e"
 msgid ""
 "A move action allows you to move up to your {g|Encyclopedia:Speed}speed{/g} "
@@ -2744,8 +2705,10 @@ msgid ""
 "{g|Encyclopedia:Standard_Actions}standard action{/g} and move double your "
 "speed."
 msgstr ""
-"이동 행동은 당신의 속도까지 당신의 이동을 허락하거나 비슷한 양의 시간을 사용하는 행동을 수행합니다.\n"
-"일반 행동 대신 이동 행동을 수행할 수 있습니다."
+"이동 행동을 통해 당신의 {g|Encyclopedia:Speed}속도{/g}만큼 이동하거나 그와 비슷한 양의 시간이 걸리는 "
+"{g|Encyclopedia:CA_Types}행동{/g}을 수행할 수 있습니다.\n"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g} 대신 추가 이동 행동을 수행하여 두배의 속도 이동할 수 도 "
+"있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Move_Action::Title
@@ -2800,16 +2763,14 @@ msgstr "자연 공격 (Natural Attacks)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Necromancy::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "Necromancy spells manipulate the power of death, unlife, and the life force. "
-#| "Spells involving undead creatures make up a large part of this school."
 msgctxt "77d80ba4-a21e-4991-b62d-26f68006eaf2"
 msgid ""
 "Necromancy {g|Encyclopedia:Spell}spells{/g} manipulate the power of "
 "{g|Encyclopedia:Injury_Death}death{/g}, unlife, and the life force. Spells "
 "involving undead creatures make up a large part of this school."
-msgstr "사령학파 마법은 죽음과 비생명, 그리고 생명의 힘을 다룹니다. 언데드 크리처와 관련된 주문은 사령학파의 많은 부분을 차지합니다."
+msgstr ""
+"사령학파 {g|Encyclopedia:Spell}주문{/g}은 {g|Encyclopedia:Injury_Death}죽음{/g}과 죽음에 "
+"속한 존재들, 그리고 생명력의 힘을 다룹니다. 언데드 크리처와 관련된 주문들은 사령학파의 주류를 이루고 있습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Necromancy::Title
@@ -3287,21 +3248,6 @@ msgstr "크기 (Size)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Skills::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "A skill represents a creature's ability to perform an ordinary task, such as "
-#| "climb a wall, sneak down a hallway, or spot an intruder. The number of ranks "
-#| "possessed by a creature in a given skill represents its proficiency in that "
-#| "skill.\n"
-#| "Determine the number of skill ranks your character gets based on their class "
-#| "and <link=\"Encyclopedia:Intelligence\"><b>Intelligence</b></link> modifier ("
-#| "and any other bonuses, such as the bonus received by <link=\"Encyclopedia:"
-#| "Humans\"><b>humans</b></link>). Then allocate these ranks to desired skills, "
-#| "but remember that you cannot have more ranks than your level in any one "
-#| "skill (for a starting character, this is usually one).\n"
-#| "Each level thereafter, your character gains a number of skill ranks "
-#| "dependent upon your class plus your Intelligence modifier. Investing a rank "
-#| "in a skill represents a measure of training in that skill."
 msgctxt "c886a834-26cc-44da-9aa2-14d64cd2c6f8"
 msgid ""
 "A skill represents a creature's ability to perform an specific task, such as "
@@ -3324,14 +3270,17 @@ msgid ""
 "Some skill checks cannot be performed if your character has not put at least "
 "one rank into it."
 msgstr ""
-"기술은 벽타기, 복도에 숨기, 또는 침입자 발견과 같은 일상적인 작업을 수행하는 크리처의 능력을 나타냅니다. 크리처가 가진 기술 등급은 "
-"기술의 숙련도를 나타냅니다.\n"
-"클래스와 <link=\"Encyclopedia:Intelligence\"><b>지능</b></link> 수정치 (그리고 <link="
-"\"Encyclopedia:Humans\"><b>인간</b></link> 종족에 의해서 받을 수 있는 보너스와 같은 다른 보너스들)에 "
-"기반하여 당신의 캐릭터가 얻을 수 있는 기술 포인트가 결정됩니다. 그 뒤 원하는 기술의 등급을 올릴 수 있지만, 어떤 기술도 당신의 "
-"레벨보다 더 높은 등급을 가질 수 없다는걸 기억하십시오 (시작 캐릭터의 경우 보통 최대 등급은 1입니다). \n"
-"각 레벨마다, 당신의 캐릭터는 클래스와 지능 수정치를 더해서 결정되는 기술 포인트를 받을 수 있습니다. 기술 등급을 올리는 것은 그 "
-"기술의 숙련도를 나타냅니다."
+"기술은 크리처가 벽타기, 잠긴 상자 열기, 또는 숨겨진 보물 찾기와 같은 특정한 일을 수행할 수 있는 능력을 나타냅니다. 크리처가 가진 "
+"기술 등급은 기술의 숙련도와 더 어려운 일을 수행할수 있음을 나타냅니다.\n"
+"캐릭터는 클래스와 {g|Encyclopedia:Intelligence}지능{/g} 보정치(또한 인간 종족일때 받는것과 같은 다른 "
+"{g|Encyclopedia:Bonus}보너스{/g}들)에 따라 기술 등급을 받습니다.\n"
+"각 클래스들은 습득했을 시에 {g|Encyclopedia:Check}판정{/g}에 +3의 보너스를 받는 정해진 클래스 기술들이 있습니다. "
+"습득한 기술은 최소 1등급을 가지고 있는 기술들을 말합니다.\n"
+"기술을 사용하려고 시도 할 때에는 성공 여부를 결정하기 위해 기술 판정을 해야 합니다. 만일 기술 판정 결과가 "
+"{g|Encyclopedia:DC}난이도{/g}(또는 DC) 이상의 결과를 냈다면 성공합니다.\n"
+"기술 판정은 다음 공식으로 계산됩니다:\n"
+"{g|Encyclopedia:Dice}1d20{/g} + 기술 등급 + 능력 보정치 + 종족 보정치 + 클래스 기술 보정치.\n"
+"어떠한 기술 판정은 습득한 기술이 아닐 경우에는 수행할 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Skills::Title
@@ -3349,24 +3298,6 @@ msgstr "많은 클래스와 크리처들이 특수 능력을 사용하며 이들
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Special_Abilities::Blocks/1/Text
-#, fuzzy
-#| msgid ""
-#| "<b>Spell-Like Abilities</b>\n"
-#| "Usually, a spell-like ability works just like the spell of that name. A "
-#| "spell-like ability has no verbal, somatic, or material component, nor does "
-#| "it require a focus. The user activates it mentally. Armor never affects a "
-#| "spell-like ability's use, even if the ability resembles an arcane spell with "
-#| "a somatic component.\n"
-#| "A spell-like ability has a casting time of 1 standard action unless noted "
-#| "otherwise in the ability or spell description. In all other ways, a spell-"
-#| "like ability functions just like a spell.\n"
-#| "Spell-like abilities are subject to spell resistance and dispel magic. They "
-#| "do not function in areas where magic is suppressed or negated. Spell-like "
-#| "abilities cannot be used to counterspell, nor can they be counterspelled.\n"
-#| "If a character class grants a spell-like ability that is not based on an "
-#| "actual spell, the ability's effective spell level is equal to the highest-"
-#| "level class spell the character can cast, and is cast at the class level the "
-#| "ability is gained."
 msgctxt "10c1c73e-23fe-48d6-a254-ce4323a7f9b8"
 msgid ""
 "<b>Spell-Like Abilities</b>\n"
@@ -3384,15 +3315,14 @@ msgid ""
 "the spell they were made from."
 msgstr ""
 "<b>주문 유사 능력</b>\n"
-"보통, 주문 유사 능력은 그 이름을 가진 주문처럼 작동합니다. 주문 유사 능력은 언어, 동작, 혹은 물질 요소와 같은 구성 요소가 "
-"없으며, 또한 집중을 요구하지도 않습니다. 사용자는 그것을 생각만으로 발동할 수 있습니다. 갑옷은 주문 유사 능력의 사용에 영향을 주지 "
-"않습니다. 심지어 이 능력은 동작 요소가 필요한 비전 주문과 함께 사용할 수도 있습니다.\n"
-"주문 유사 능력은 1 일반 행동의 시전 시간을 요구합니다. 그렇지 않다면, 능력 혹은 주문의 설명에 적혀진 대로 작동합니다. 다른 모든 "
-"면에서, 주문 유사 능력은 주문처럼 작동합니다.\n"
-"주문 유사 능력은 주문 저항과 마법 해제 주문의 대상이 됩니다. 주문 유사 능력은 마법이 억제되거나 제한되는 지역에서는 작동하지 "
-"않습니다. 주문 유사능력은 주문 무효화를 위해 사용될 수 없으며, 무효화될 수 없습니다.\n"
-"만약 캐릭터의 클래스가 실제 주문에 기반하지 않은 주문 유사 능력을 부여한다면, 주문의 효과 레벨은 캐릭터가 시전할 수 있는 가장 높은 "
-"레벨의 주문과 동등합니다. 또한 그 능력을 획득한 클래스 레벨부터 발동할 수 있습니다."
+"보통, 주문 유사 능력은 같은 이름을 가진 {g|Encyclopedia:Spell}주문{/g}처럼 작동합니다. 주문 유사 능력은 비전 "
+"주문과 같은 능력 일지라도 방어구의 {g|Encyclopedia:Spell_Fail_Chance}비전 주문 실패 확률{/g}로 실패하지 "
+"않습니다.\n"
+"주문 유사 능력은 1 {g|Encyclopedia:Standard_Actions}일반 행동{/g}의 "
+"{g|Encyclopedia:Casting_Time}시전 시간{/g}을 요구합니다. 그렇지 않다면, 능력 혹은 주문의 설명에 적혀진 대로 "
+"작동합니다. 또한, {g|Encyclopedia:Concentration}집중{/g}을 포함한 다른 모든 요소들은 주문처럼 작동합니다.\n"
+"주문 유사 능력과 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}이나 마법 해제와의 상호작용은 본래 주문과의 "
+"것과 같습니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Special_Abilities::Blocks/2/Text
@@ -3778,10 +3708,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Stories::Title
-#, fuzzy
 msgctxt "312c3ca5-a5a3-4a5c-b13a-3ddc679606fd"
 msgid "Illustrated Book Episodes"
-msgstr "삽화 책 에피소드"
+msgstr "삽화 책 에피소드 (Illustrated Book Episodes)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Strength::Blocks/0/Text
@@ -5160,7 +5089,7 @@ msgstr ""
 #. Path = NewTutorial_7_LootCrates::m_TitleText
 msgctxt "022b9881-12ec-482d-a05b-a61392f60afd"
 msgid "Containers"
-msgstr "용기류 (Containers)"
+msgstr "그릇과 용기들 (Containers)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Tutorial_8_Loot::Blocks/0/Text
@@ -5299,16 +5228,6 @@ msgstr "진형 (Formation)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = TwoWeapon_Fighting::Blocks/0/Text
-#, fuzzy
-#| msgid ""
-#| "If you wield a second weapon in your off hand, you can get one extra attack "
-#| "per round with that weapon. You suffer a –6 penalty with your regular attack "
-#| "or attacks with your primary hand and a –10 penalty to the attack with your "
-#| "off hand when you fight this way. You can reduce these penalties in two "
-#| "ways. First, if your off-hand weapon is light, the penalties are reduced by "
-#| "2 each. An unarmed strike is always considered light. Second, the Two-Weapon "
-#| "Fighting feat lessens the primary hand penalty by 2, and the off-hand "
-#| "penalty by 6."
 msgctxt "3dd5e607-d5a8-4bca-8c34-163d5b784e91"
 msgid ""
 "If you fight with two weapons in both hands, you normally have -6 "
@@ -5320,10 +5239,11 @@ msgid ""
 "{g|Encyclopedia:Feat}feat{/g}, which will decrease penalties to -2 and -2 if "
 "you have a light weapon in your off hand."
 msgstr ""
-"만약 당신이 두번째 무기를 반대 손에 착용한다면, 당신은 라운드 당 그 무기로 이뤄지는 한 번의 추가적인 공격을 얻습니다. 당신은 통상의 "
-"공격이나 주 무기 공격은 -6 페널티를 받고 반대 손의 무기 공격은 -10 페널티를 받습니다. 당신은 이 페널티를 두 가지 방법으로 줄일 "
-"수 있습니다. 첫번째, 반대 손의 무기가 가벼울 때, 페널티는 각각 -2씩 감소합니다. 비무장 공격은 가벼운 것으로 간주됩니다. 두번째, "
-"쌍검술 특성이 있다면 주 무기 공격은 -2, 반대 무기 공격은 -6씩 페널티가 감소합니다."
+"양손에 두 무기를 들고 싸운다면, 일반적으로 주손 {g|Encyclopedia:Attack}공격{/g}에는 -6의 "
+"{g|Encyclopedia:Penalty}페널티{/g}가 부여되고 반대손 공격에는 -10 페널티가 부여됩니가. 만일 반대손 무기가 "
+"{g|Encyclopedia:Light_Weapon}가벼운 무기{/g}라면, 페널티는 -4와 -8로 감소됩니다.\n"
+"페널티를 더욱 완화하기 위해 쌍검술 {g|Encyclopedia:Feat}특기{/g}를 활용하면 반대손 무기가 가벼운 무기일때 페널티가 -"
+"2와 -2로 완화됩니다."
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = TwoWeapon_Fighting::Title
