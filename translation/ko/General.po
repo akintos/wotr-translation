@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-25 23:23+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-09-28 02:23+0000\n"
+"Last-Translator: lich1114 <lich1114@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -196,7 +196,7 @@ msgctxt "495d20b4-0e36-45c0-8b09-e9a63d03d844"
 msgid ""
 "Target unit will try to move toward this unit and attack it for 3 rounds. "
 "This is a mind-affecting effect."
-msgstr ""
+msgstr "대상 유닛이 3 라운드 동안 이 유닛을 향해 이동하고 공격하도록 합니다. 이것은 정신 영향 효과입니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ArmyEarPiercingScreamResource::LocalizedName
@@ -230,6 +230,8 @@ msgid ""
 "saving throw. Failing at a saving throw applies "
 "{g|Confused_condition}[confusion]{/g} for 1 round."
 msgstr ""
+"대상 유닛은 (3d6×유닛 숫자)의 음파 피해를 입고 인내 내성 굴림을 합니다. 내성 굴림에 실패하면 1 라운드 동안 "
+"{g|Confused_condition}[혼란]{/g} 상태가 됩니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ArmyInfantryProvokeResource::LocalizedName
@@ -247,7 +249,7 @@ msgstr ""
 #. Path = ArmyInfantryProvokeBuffEnemy::m_DisplayName
 msgctxt "5a72c2be-b219-4311-bdea-5189eb07d240"
 msgid "Bait"
-msgstr ""
+msgstr "미끼"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ArmyInfantryProvokeResource::LocalizedDescription
@@ -267,7 +269,7 @@ msgctxt "33601096-fb19-4868-882f-794cc82c7000"
 msgid ""
 "All units in a 3×3 area will try to move towards this unit and attack it for "
 "1 round. This is a mind-affecting effect."
-msgstr ""
+msgstr "3×3 영역의 모든 유닛은 이 유닛을 향해 이동하여 1라운드 동안 공격합니다. 이것은 정신 영향 효과입니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ArmyJuicyTargetResource::LocalizedName
@@ -285,7 +287,7 @@ msgstr ""
 #. Path = ArmyJuicyTargetBuffEnemy::m_DisplayName
 msgctxt "4525b402-519c-44bc-8292-69a70ace39f2"
 msgid "Juicy Target"
-msgstr ""
+msgstr "탐스러운 목표"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = ArmyJuicyTargetResource::LocalizedDescription
@@ -305,7 +307,7 @@ msgctxt "52de218c-8e56-443d-8907-cafad7f64a24"
 msgid ""
 "All enemy ranged units will be able to attack only this unit in the next "
 "round. This is a mind-affecting effect."
-msgstr ""
+msgstr "모든 적 원거리 유닛은 다음 라운드 동안 이 유닛만 공격할 수 있습니다. 이것은 정신 영향 효과입니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = BloodlineFeyLaughingTouchResource::LocalizedDescription
@@ -417,10 +419,9 @@ msgstr "기"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = SearingFleshResource::LocalizedName
-#, fuzzy
 msgctxt "66ddedcc-d418-4bdf-a5a4-5539b866baf5"
 msgid "Searing Flame"
-msgstr "타오르는 불꽃"
+msgstr "그을리는 불꽃"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = SearingFleshResource::LocalizedDescription
@@ -587,7 +588,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = SpontaneousHealingResource::LocalizedName
-#, fuzzy
 msgctxt "93627872-d8f4-4aad-8067-c339125951cf"
 msgid "Spontaneous Healing"
 msgstr "자가 치유"
@@ -675,7 +675,7 @@ msgstr ""
 #. Path = ArueshalaeQ3_WhatYouDreamOf_Quest::Title
 msgctxt "341158a6-1529-46f9-a70b-af5e1471ecba"
 msgid "What Do You Dream Of?"
-msgstr ""
+msgstr "당신은 무엇을 꿈꾸나요?"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Q3::Description
@@ -1675,7 +1675,7 @@ msgstr ""
 #. Path = Q1Woljif_StolenMoon::Title
 msgctxt "6200fcde-7f3b-46d4-b8c8-5caa68736f4c"
 msgid "Stolen Moon"
-msgstr ""
+msgstr "도둑맞은 달"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Woljif_q1::Description
