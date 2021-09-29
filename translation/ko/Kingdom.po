@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-09-28 02:24+0000\n"
+"PO-Revision-Date: 2021-09-29 07:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -469,7 +469,7 @@ msgid ""
 "death of Sarkoris so that the souls of the fallen could find peace."
 msgstr ""
 "아이오메데의 성직자들이 마지막 물푸레 나무로 만든 무기에 성스러운 의식을 거행했습니다. 그들은 죽은 자들의 영혼이 안식에 들 수 있도록 "
-"계승자에게 사코리스의 몰락에 대한 복수를 요구했습니다."
+"계승자께 사코리스의 몰락에 대한 복수를 요청했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = AncientMap_Enchanting_event::m_EventSolutions/1/m_SolutionText
@@ -5150,7 +5150,7 @@ msgctxt "fa076e7f-0752-41b3-8b8c-9e0bbb92032a"
 msgid ""
 "{g|Event_40_1}[Choice effects]{/g} Send the treasure to Nerosyan to be "
 "destroyed"
-msgstr "{g|Event_40_1}[선택 효과]{/g} 이 보물들을 네로시안으로 보내 파괴시킨다"
+msgstr "{g|Event_40_1}[선택 효과]{/g} 이 보물들을 네로시안으로 보내 파괴한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent40::m_EventSolutions/0/m_ResultText
@@ -5217,7 +5217,7 @@ msgctxt "70d1df67-42b2-46c4-a438-9f85a04458db"
 msgid ""
 "{g|Event_40_5}[Choice effects]{/g} Gift the treasure to the enemies of the "
 "crusade"
-msgstr "{g|Event_40_5}[선택 효과]{/g} 성전군의 적들에게 저주받은 보물을 선물로 보냅니다"
+msgstr "{g|Event_40_5}[선택 효과]{/g} 성전군의 적들에게 저주받은 보물을 선물로 보낸다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent40::m_EventSolutions/4/m_ResultText
@@ -5255,7 +5255,7 @@ msgstr ""
 #. Path = CrusadeEvent41::m_EventSolutions/0/m_SolutionText
 msgctxt "622408b4-1d3e-4d42-a6e0-1aa169068b9c"
 msgid "{g|Event_41_1}[Choice effects]{/g} Take tamed monsters as payment"
-msgstr ""
+msgstr "{g|Event_41_1}[선택 효과]{/g} 데몬들과 길들여진 괴물들을 맞바꾼다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/0/m_ResultText
@@ -5265,12 +5265,14 @@ msgid ""
 "already grown bored with. They are well-trained and can prove useful in a "
 "fight."
 msgstr ""
+"수집가는 더 이상 자신의 흥미를 끌지 못하는 괴물들을 드레젠으로 보낼 것 입니다. 이 괴물들은 잘 훈련 되어있으며, 전투에서 쓸모가 있어 "
+"보입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/1/m_SolutionText
 msgctxt "290d2fde-25c0-459b-98ed-2874d5d18f01"
 msgid "{g|Event_41_2}[Choice effects]{/g} Take gold as payment"
-msgstr ""
+msgstr "{g|Event_41_2}[선택 효과]{/g} 데몬들과 금화를 맞바꾼다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/1/m_ResultText
@@ -5279,12 +5281,13 @@ msgid ""
 "This is a great opportunity to procure extra funds for the crusade. All that "
 "is left is to catch the right demons and deliver them to the collector."
 msgstr ""
+"성전의 추가 재정을 확보하기 위한 좋은 기회입니다 ! 우리에게 남은 것은, 수집가가 원하는 데몬들을 사로잡아 그에게로 보내는 것 뿐입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/2/m_SolutionText
 msgctxt "6ef90818-90b0-4768-8e32-a2bb3e0b4455"
 msgid "{g|Event_41_3}[Choice effects]{/g} Refuse the request"
-msgstr ""
+msgstr "{g|Event_41_3}[선택 효과]{/g} 의뢰를 거절한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/2/m_ResultText
@@ -5293,6 +5296,8 @@ msgid ""
 "The soldiers were not enthusiastic about the prospect of risking their lives "
 "trying to capture demons alive. They appreciated the Commander's refusal."
 msgstr ""
+"데몬을 포획하기 위해 자신의 목숨을 걸어야 한다는 사실은 병사들에게는 썩 즐거운 일은 아닐 겁니다. 병사들은 사령관의 거절에 깊은 감사를 "
+"표합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/3/m_SolutionText
@@ -5300,7 +5305,7 @@ msgctxt "7b165008-2a66-4543-b150-2ef76539b6e3"
 msgid ""
 "{g|Event_41_4}[Choice effects]{/g} Send one of the crusaders under the guise "
 "of a demon"
-msgstr ""
+msgstr "{g|Event_41_4}[선택 효과]{/g} 악마 분장을 한 성전사를 압살롬으로 보낸다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/3/m_ResultText
@@ -5313,6 +5318,10 @@ msgid ""
 "pleased with his new role — the crusaders had never appreciated his flair "
 "for the dramatic, and as an Abyssal spawn, he finally got some recognition."
 msgstr ""
+"수집가는 능숙하게 악마 흉내를 내는 병사를 보며 열광하고 있습니다 — 그는 분명 연기에 엄청난 재능이 있는 것 같습니다. 완전히 매료된 "
+"귀족은 이렇게 멋진 견본을 위해 엄청난 양의 금을 지불했고, 압살롬에 자신의 \"새 친구, 사령관\" 에 대한 이야기를 늘어놓았습니다. "
+"그리고 \"데몬\" 역시 자신의 새로운 역할에 만족스러워합니다 — 비록 성전사들은 심연의 하수인 꼴을 한 전우에게 그 어떤 감사도 전하지 "
+"않았지만요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/4/m_SolutionText
@@ -5320,7 +5329,7 @@ msgctxt "6a860021-04a4-4e65-90ea-8e64c4b4208c"
 msgid ""
 "{g|Event_41_5}[Choice effects]{/g} Form a special unit focused on capturing "
 "exotic demons"
-msgstr ""
+msgstr "{g|Event_41_5}[선택 효과]{/g} 특이 데몬들을 전문으로 포획하는 특수부대를 창설한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::m_EventSolutions/4/m_ResultText
@@ -5330,12 +5339,14 @@ msgid ""
 "rarest and deadliest demons and delivering them to the collector. The more "
 "exclusive the product, the higher the payment."
 msgstr ""
+"그레이보르는 아주 희귀하고, 아주 강력한 데몬들을 전문으로 추적하는 사냥꾼 부대를 꾸려, 수집가에게 보낼 것 입니다. 당연히 판매가는 "
+"상품의 희귀도에 비례할 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::LocalizedName
 msgctxt "ca9f025a-83d7-4f96-b829-fbd262fff002"
 msgid "Collector"
-msgstr ""
+msgstr "수집가"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent41::LocalizedDescription
@@ -5346,12 +5357,14 @@ msgid ""
 "wants to add a few demons to his collection. He is willing to pay handsomely "
 "for this service."
 msgstr ""
+"사령관은 최근에 압살롬의 괴짜 귀족으로부터 연락을 받았습니다. 그는 자신만의 동물원을 위해 여러가지 괴물들을 모으고있는데, 데몬들을 "
+"자신의 콜렉션에 몹시 추가하고 싶어합니다. 이 부탁을 수락한다면, 많은 돈을 받을 수 있을 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::m_EventSolutions/0/m_SolutionText
 msgctxt "cc00c3dc-1d67-439f-b2cd-567b23cd0ff3"
 msgid "{g|Event_42_1}[Choice effects]{/g} Let the druids do their work"
-msgstr ""
+msgstr "{g|Event_42_1}[선택 효과]{/g} 드루이드가 일을 시작하게 둡니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::m_EventSolutions/0/m_ResultText
@@ -5361,6 +5374,8 @@ msgid ""
 "emissaries. Together with the crusaders, they began purging the area of the "
 "demonic taint, making supply routes safer."
 msgstr ""
+"베르두란 숲의 드루이드 원탁이 부름에 응답해, 특사들을 보내왔습니다. 성전과 함께하며, 그들은 지역에 뿌리내린 악마 오염을 정화해, "
+"보급로를 안정시킬 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::m_EventSolutions/1/m_SolutionText
@@ -5368,7 +5383,7 @@ msgctxt "108824b4-9f46-4970-94df-1d6d8488a140"
 msgid ""
 "{g|Event_42_2}[Choice effects]{/g} Opt for the services of expensive but "
 "distinguished mages"
-msgstr ""
+msgstr "{g|Event_42_2}[선택 효과]{/g} 비용은 크지만, 능력있는 마법사들을 선택한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::m_EventSolutions/1/m_ResultText
@@ -5383,12 +5398,17 @@ msgid ""
 "the fortress. The crusaders are aware of their whereabouts, but the demons "
 "will be unpleasantly surprised."
 msgstr ""
+"사령관은 아무도 이름을 들어보지 못한 드루이드들에게 부탁하는 대신, 돈을 좀 쓰더라도 경험 많고, 능력있는 마법사들에게 이 일을 맡기기로 "
+"결정했습니다. 압살롬에서 온 명망있는 학자들이 드레젠 주변의 혼돈 에너지를 연구했고, 일련의 복잡한 의식을 통해 어떤 곳에서는 에너지를 "
+"증폭시킬 수 있었고, 다른 장소에서는 혼돈 에너지를 약화시킬 수 있었습니다. 결과적으로 드레젠 주변에 존재하던 수 많은 이상현상들은 훨씬 "
+"심각한 상태로 악화되어, 치명적인 마법 함정으로 변해버렸습니다. 불행히도 드레젠은 이 마법 함정에 둘러 쌓이게 되었습니다. 십자군들은 이 "
+"함정의 위치를 파악하고 있지만, 데몬들은 썩 즐겁지 않은 깜짝 선물을 받게될 지도 모르겠군요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::m_EventSolutions/2/m_SolutionText
 msgctxt "342395c2-bece-47eb-938f-44450f4dfae9"
 msgid "{g|Event_42_5}[Choice effects]{/g} Research the warped lands"
-msgstr ""
+msgstr "{g|Event_42_5}[선택 효과]{/g} 왜곡된 땅을 조사한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::m_EventSolutions/2/m_UnavailingPlaceholder
@@ -5408,7 +5428,7 @@ msgctxt "e8b7a6c6-07ee-42b0-ba2e-d868d7aaf371"
 msgid ""
 "This option is unavailable because you do not have Nenio among your "
 "companions."
-msgstr ""
+msgstr "동료 중에 네니오가 없기 때문에 이 선택지를 사용할 수 없습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::m_EventSolutions/2/m_ResultText
@@ -5423,12 +5443,17 @@ msgid ""
 "discovery regarding the distortion of the elements in this region. These "
 "findings have attracted many zealous researchers to Drezen."
 msgstr ""
+"네니오는 세계상처에서만 볼 수 있는 이런 멋진 마법 현상을 \"정화\" 하는 것을 반대했습니다. 사령관의 명령으로, 마법사들이 조직을 "
+"꾸려 이 이상현상을 연구하게 되었습니다. 그들은 호위 없이 드레젠을 떠날 수 없었기에, 병사들은 제비뽑기를 해, 진 사람에게 마법사를 "
+"호위하는 영광을 부여했습니다. 네니오가 \"살아 움직이는 호전적이고 살아 움직이는 나무에서 나는 과일들은 식용 가능한가 ?\" 같은 "
+"주제를 다루는 온갖 실험에 몰두해 있는 동안, 네니오의 조수들은 이 지역의 원소들이 왜곡되어 있다는, 그렇게 재미있지는 않은 사실을 "
+"발견했습니다. 이러한 발견은 많은 열성적인 연구자들을 드레젠으로 끌어모을 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::LocalizedName
 msgctxt "d87bbc79-f422-4b2e-b299-c9c09580b886"
 msgid "Poisoned Soil"
-msgstr ""
+msgstr "오염된 땅"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent42::LocalizedDescription
@@ -5440,12 +5465,15 @@ msgid ""
 "strong, but not unstoppable. He suggests calling powerful spellcasters who "
 "would curb the demonic plague that besets these lands."
 msgstr ""
+"성전에 참여한 드루이드가 사령관을 알현하길 요청했습니다. 그는 몇 주 동안 드레젠 외곽을 돌아다니며 세계상처의 토양에 대해 연구했습니다. "
+"그는 타락이 주변 환경에 아주 강력한 영향을 끼치지만, 그렇다고 막을 수 없는 것은 아니라고 말했습니다. 드루이드는 강력한 주문사용자들을 "
+"불러모아 대지를 좀먹는 악마적 질병을 억제해야 한다고 주장합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/0/m_SolutionText
 msgctxt "ef9a5e70-90ec-4cc7-8969-52e5b35ed9d3"
 msgid "{g|Event_43_1}[Choice effects]{/g} Give permission"
-msgstr ""
+msgstr "{g|Event_43_1}[선택 효과]{/g} 그들의 요청을 허가한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/0/m_ResultText
@@ -5456,12 +5484,14 @@ msgid ""
 "destruction, but they are willing to make up for these expenses with loyal "
 "service in the crusade."
 msgstr ""
+"오젬 기사단은 사령관의 도움에 감사를 표합니다. 기사들은 유물의 파괴로 일어날 충격을 최소화 시키기 위해 귀중한 마법 자원들을 요구할 "
+"것입니다만, 그 대신 성전군에 합류해 적과 맞서 싸울 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/1/m_SolutionText
 msgctxt "5ed6342d-c7d6-42aa-9188-c667a6fd1516"
 msgid "{g|Event_43_2}[Choice effects]{/g} Forbid the plan"
-msgstr ""
+msgstr "{g|Event_43_2}[선택 효과]{/g} 그들의 계획을 금지한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/1/m_ResultText
@@ -5472,12 +5502,14 @@ msgid ""
 "capital were grateful to the Commander who took it upon {mf|himself|herself} "
 "to deny the request of the Shining Crusade."
 msgstr ""
+"세계상처는 죽음의 군주가 만든 유물을 굳이 가저오지 않아도 죽음이 가득한 곳입니다. 수도 출신의 병사들과 장교들은 지휘관이 Shining "
+"Crusade의 요청을 거부한 것에 대해 감사를 표합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/2/m_SolutionText
 msgctxt "00142dcf-36d5-4b72-92a8-043cf3eb582c"
 msgid "{g|Event_43_4}[Choice effects]{/g} Take the artifact by force"
-msgstr ""
+msgstr "{g|Event_43_4}[선택 효과]{/g} 강제로 유물을 빼앗는다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/2/m_ResultText
@@ -5488,12 +5520,14 @@ msgid ""
 "brought to {mf|him|her}. {mf|He|She} broke the containment seal and bent the "
 "relic that inherited a part of Tar-Baphon's power to {mf|his|her} will."
 msgstr ""
+"오젬의 기사들을 교활한 함정으로 몰아넣은 사령관은 그들을 모두 죽이고, 그들이 가져온 강력한 유물을 가져오라고 명령했습니다. 사령관은 "
+"봉인을 부수고, 타르-바폰의 힘의 유산을 철혈의 의지로 굴복시켰습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/3/m_SolutionText
 msgctxt "b8de0aab-63bc-464f-a05f-6e0b2fc72b33"
 msgid "{g|Event_43_5}[Choice effects]{/g} Deliver the artifact to the demons"
-msgstr ""
+msgstr "{g|Event_43_5}[선택 효과]{/g} 데몬들에게 유물을 전해준다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::m_EventSolutions/3/m_ResultText
@@ -5504,12 +5538,14 @@ msgid ""
 "Nenio is willing to deliver the artifact to the demons herself and provide "
 "an eyewitness account of the effects of its destruction."
 msgstr ""
+"오젬의 기사들이 생각해 낸 계획은 과학적 배신이나 다름없다고 주장했습니다. 세계상처의 황무지는 \"아무 것도 없는 재미없는 실험 규역\" "
+"이라며, 유물을 데몬들에게 배달해 줌으로써 폭발의 여파를 관찰할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::LocalizedName
 msgctxt "0acb6883-a2de-4c48-9349-cf897d983cc7"
 msgid "Deadly Legacy"
-msgstr ""
+msgstr "죽음의 유산"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent43::LocalizedDescription
@@ -5525,12 +5561,16 @@ msgid ""
 "Knights of Ozem are asking for permission to take the dangerous artifact out "
 "into the lands of the Worldwound and destroy it there."
 msgstr ""
+"라스트 월의 오젬 기사단 소속의 특사단이 드레젠에 도착했습니다. 몇 세기동안 기사단은 {g|Tar-Baphon}[타르-바폰]{/g}이 "
+"만든 끔찍한 힘을 가진 사령 무기를 지키고 있었습니다. 하지만 이 저주받은 무기의 봉인은 매 년 약해지고 있고, 때문에 오젬의 기사들은 "
+"봉인이 풀릴 때 자신들을 덮칠 강력한 마법 폭발에 대해 걱정하고 있습니다. 폭발이 일어나게 되면 폭발에 휩쓸린 모든 생명체는 언데드가 될 "
+"것이고, 대지 역시 죽음의 에너지로 오염될 겁니다. 기사단은 이 위험한 유물을 그들의 땅에서 세계상처로 가저와 파괴하고 싶어합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::m_EventSolutions/0/m_SolutionText
 msgctxt "324f2c54-918d-404c-a095-116a9bf069a6"
 msgid "{g|Event_44_1}[Choice effects]{/g} Refuse their help"
-msgstr ""
+msgstr "{g|Event_44_1}[선택 효과]{/g} 그들의 도움을 거절한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::m_EventSolutions/0/m_ResultText
@@ -5539,13 +5579,13 @@ msgid ""
 "The Commander's fastidiousness in the choice of {mf|his|her} allies gave "
 "{mf|his|her} reputation a boost. Several churches worshiping gods of good "
 "made a large donation to the crusader cause."
-msgstr ""
+msgstr "사령관의 동맹을 고르는 까다로운 안목은 사령관의 평판을 드높혔고, 많은 선신 교단이 성전을 위해 많은 후원금을 보내왔습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::m_EventSolutions/1/m_SolutionText
 msgctxt "6ef3870e-8483-4697-ba1a-9f381fe443ce"
 msgid "{g|Event_45_2}[Choice effects]{/g} Let them stay and serve in the army"
-msgstr ""
+msgstr "{g|Event_45_2}[선택 효과]{/g} 그들을 드레젠에 머물게하고, 성전군에 복무하도록 내버려둔다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::m_EventSolutions/1/m_ResultText
@@ -5555,12 +5595,14 @@ msgid ""
 "arrived. He is diligent and polite, and all of his soldiers are veterans — "
 "every one of them has at least a hundred years of combat experience."
 msgstr ""
+"나이달 출신의 장교는 사령관에게 지원병이 도착했음을 알렸습니다. 그는 예의 바를 뿐더러 성실하고, 또 이 장교가 데려온 모든 병사들은 "
+"모두 숙련된 고참병들입니다 — 그들 모두가 적어도 100년 이상의 전투 경험을 갖고있으니까요."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::m_EventSolutions/2/m_SolutionText
 msgctxt "01f46aeb-e178-40b2-a645-d6bc39756e61"
 msgid "{g|Event_44_4}[Choice effects]{/g} Improve relations with Nidal"
-msgstr ""
+msgstr "{g|Event_44_4}[선택 효과]{/g} 나이달과의 관계를 개선한다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::m_EventSolutions/2/m_ResultText
@@ -5572,12 +5614,15 @@ msgid ""
 "expressed his gratitude to the Commander and promised to highlight it in a "
 "dispatch to his masters."
 msgstr ""
+"드레젠에 도착한 나이달 전사들은 성채 내에서 가장 편안하고 좋은 구역을 할당받게 되었습니다. 또한 신선한 피와 마법 재료들도 받을 수 "
+"있었습니다. 부대를 데려온 나이달인 장교는 사령관에게 감사를 표하며, 다음번 상관에게 보내는 전보에 사령관의 관대함에 대해 똑똑히 "
+"언급하겠다고 약속을 해 주었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::LocalizedName
 msgctxt "de7a75e1-95b2-455d-a5fc-a0668e9e9363"
 msgid "Dark Allies"
-msgstr ""
+msgstr "어둠의 동맹"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent44::LocalizedDescription
@@ -5588,12 +5633,14 @@ msgid ""
 "threat even to them. The news that a contingent of Nidalese forces is on its "
 "way to Drezen has caused a scandal in the capital."
 msgstr ""
+"사령술사들의 땅이자, {g|Zon-Kuthon}[존-쿠쏜]{/g}의 신도들의 국가인 나이달은 나쁜 평판을 갖고있으나, 데몬의 침략은 "
+"그들에게도 큰 위협입니다. 나이달 파견부대가 드레젠에 도착한다는 소식은 수도에서 큰 소란을 일으킬 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::m_EventSolutions/0/m_SolutionText
 msgctxt "46d76cf6-b866-4a73-a818-40177f2ceaa6"
 msgid "{g|Event_45_1}[Choice effects]{/g} Give them a chance at redemption"
-msgstr ""
+msgstr "{g|Event_45_1}[선택 효과]{/g} 그들에게 구원의 기회를 준다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::m_EventSolutions/0/m_ResultText
@@ -5603,12 +5650,14 @@ msgid ""
 "into the Worldwound. Those who are weak of spirit will fall, but the strong "
 "will earn Iomedae's forgiveness through their actions."
 msgstr ""
+"이 팔라딘들은 세계상처로의 위험하고 긴 여정을 떠나기 위해 맹세를 했습니다. 약한 영혼을 가진 전사들은 쓰러지겠지만, 강력한 의지를 가진 "
+"이들은 그들의 행동으로 아이오메데의 용서를 받게 될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::m_EventSolutions/1/m_SolutionText
 msgctxt "3afef9c2-e7fd-49ff-b908-7b190ef95fcf"
 msgid "{g|Event_45_2}[Choice effects]{/g} Make them stay and serve in the army"
-msgstr ""
+msgstr "{g|Event_45_2}[선택 효과]{/g} 드레젠에 머물게 하고, 성전군에 입대시킨다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::m_EventSolutions/1/m_ResultText
@@ -5619,12 +5668,15 @@ msgid ""
 "apostates yielded to the Commander, but swore an oath that they would only "
 "don their knightly armor when they had the Inheritor's blessing once more."
 msgstr ""
+"아무 것도 아닌 것에 목숨을 거는 것은 부질없는 짓입니다. 성전은 팔라딘들에게 위업을 세울 기회를 줄 것이고, 그들은 아이오메데의 은총을 "
+"되찾을 수 있을 겁니다. 배교자들은 사령관을 따르게 되었지만, 그에 앞서 계승자의 축복을 다시 받을 때에만 기사 갑옷을 입겠노라고 "
+"맹세하였습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::m_EventSolutions/2/m_SolutionText
 msgctxt "5817fa0d-fc4f-4d0b-bf5f-94643520550d"
 msgid "{g|Event_45_5}[Choice effects]{/g} Direct them to the Hellknights"
-msgstr ""
+msgstr "{g|Event_45_5}[선택 효과]{/g} 그들을 헬나이트에게 보냅니다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::m_EventSolutions/2/m_ResultText
@@ -5635,12 +5687,14 @@ msgid ""
 "methods are far more suitable for these formidable but excessively violent "
 "fighters."
 msgstr ""
+"레질은 전사들에게 아이오메데의 은총을 다시 받을 수 있는 또다른 길을 제안했습니다. 헬나이트들 역시 여신을 숭배하고 있다는 사실을 "
+"알려주며, 그들의 방법은 훌륭하지만 잔혹한 전사들에게 더 적합할 것이라고 말해주었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::LocalizedName
 msgctxt "dab5d4f9-7846-4cda-a43d-35f675251788"
 msgid "Broken Oaths"
-msgstr ""
+msgstr "부서진 맹세"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent45::LocalizedDescription
@@ -5651,6 +5705,9 @@ msgid ""
 "lost Iomedae's favor. Now these warriors seek redemption and intend to make "
 "a long and dangerous foray into the heart of the Wound."
 msgstr ""
+"믿음을 버린 팔라딘들이 드레젠에 도착했습니다. 이 배교자들은 수 없이 많은 악과의 전투로 인해 폭력과 학살, 그리고 잔인함에 너무 깊게 "
+"빠져버렸고, 따라서 아이오메데의 은총을 잃어버리고 말았습니다. 하지만 이 전사들 구원을 찾기 위해 세계상처의 심장부로의 길고 위험한 "
+"여정을 떠나고자 합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent46::m_EventSolutions/0/m_SolutionText
