@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-01 04:24+0000\n"
-"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
+"PO-Revision-Date: 2021-10-02 14:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -608,7 +608,7 @@ msgstr "궁정 장인 샤렐이 이 놀라운 아티팩트를 만들었습니다
 #. Path = ArdentGuardItem::m_DisplayNameText
 msgctxt "7a5db62d-fc2e-4670-a137-5234cf5450c7"
 msgid "Ardent Guard"
-msgstr ""
+msgstr "열렬한 보호자"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArdentGuardItem::m_DescriptionText
@@ -648,7 +648,7 @@ msgstr "이 +1 아다만틴 사슬조끼는 착용자에게 산성 저항 15 를
 #. Path = ArmorOfDispersionItem::m_DisplayNameText
 msgctxt "17925ad4-07ab-4248-9b20-e16c640f4b71"
 msgid "Armor of Dispersion"
-msgstr ""
+msgstr "흩어짐의 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfDispersionItem::m_DescriptionText
@@ -658,12 +658,14 @@ msgid ""
 "against the wearer of this +2 hide armor, that enemy is affected by the "
 "equivalent of the dispel magic {g|Encyclopedia:Spell}spell{/g}."
 msgstr ""
+"적이 이 +2 털가죽 갑옷의 착용자에게 {g|Encyclopedia:Critical}치명타{/g} 판정을 적중할 때 마다, 해당 적은 "
+"마법 해제 {g|Encyclopedia:Spell}주문{/g}의 영향을 받게 됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfVigilanceItem::m_DisplayNameText
 msgctxt "43cc4d0a-dec4-4d10-8a22-a4af091d8a09"
 msgid "Armor of Vigilance"
-msgstr ""
+msgstr "경계의 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfVigilanceItem::m_DescriptionText
@@ -673,12 +675,14 @@ msgid ""
 "to {g|Encyclopedia:Armor_Class}AC{/g} against sneak "
 "{g|Encyclopedia:Attack}attacks{/g}."
 msgstr ""
+"이 +1 가죽 갑옷은 착용자에게 은신 {g|Encyclopedia:Attack}공격{/g}에 대해 +4의 "
+"{g|Encyclopedia:Armor_Class}방어도{/g} {g|Encyclopedia:Bonus}보너스{/g} 를 부여합니다 ."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfVigilantSproutsItem::m_DisplayNameText
 msgctxt "7ae20a8e-170a-443e-8bac-459738e1e66b"
 msgid "Armor of Vigilant Sprouts"
-msgstr ""
+msgstr "경계하는 새싹의 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfVigilantSproutsItem::m_DescriptionText
@@ -691,6 +695,10 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} 28) or become entangled for 3 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +4 누비 갑옷의 착용자가 기습 {g|Encyclopedia:Attack}공격{/g} 이나 "
+"{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}에 명중할 때마다, 공격자는 "
+"{g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} 28)을 "
+"실패시 3 {g|Encyclopedia:Combat_Round}라운드{/g}간 속박됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmorOfWealthItem::m_DisplayNameText
@@ -725,6 +733,8 @@ msgid ""
 "This +5 haramaki grants its wearer {g|Encyclopedia:Damage_Reduction}DR{/g} 6/"
 "- against ranged weapon {g|Encyclopedia:Attack}attacks{/g}."
 msgstr ""
+"이 +5 하라마키는 착용자에게 원거리 무기 {g|Encyclopedia:Attack}공격{/g}에 대해 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 6/- 을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = Artifact_TigerArmorItem::m_DisplayNameText
@@ -843,7 +853,7 @@ msgstr "철판 사슬갑옷 +5"
 #. Path = BardingOfCeaselessServiceItem::m_DisplayNameText
 msgctxt "f7812579-9a45-494d-b7e6-cd177f110bfd"
 msgid "Barding of Ceaseless Service"
-msgstr ""
+msgstr "꾸준한 복무의 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BardingOfCeaselessServiceItem::m_DescriptionText
@@ -854,12 +864,15 @@ msgid ""
 "{g|Encyclopedia:Constitution}Constitution{/g} {g|Encyclopedia:Ability_Scores}"
 "ability score{/g} and immunity to fatigue and exhaustion."
 msgstr ""
+"이 +5 사슬 갑옷 마갑은 착용자에게 +2 {g|Encyclopedia:Constitution}건강{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} {g|Encyclopedia:Bonus}보너스{/g}와 피로와 "
+"탈진에 대한 면역을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BardingOfElderBeastsItem::m_DisplayNameText
 msgctxt "75549f6f-1308-4d81-88b5-1a39e99b191a"
 msgid "Barding of Elder Beasts"
-msgstr ""
+msgstr "장로 야수의 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BardingOfElderBeastsItem::m_DescriptionText
@@ -869,12 +882,15 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and a +"
 "3 bonus to {g|Encyclopedia:CMB}CMB{/g} against large and bigger enemies."
 msgstr ""
+"이 +3 풀 마갑은 착용자에게 +4 자연 갑옷 강화 {g|Encyclopedia:Armor_Class}AC{/g} "
+"{g|Encyclopedia:Bonus}보너스{/g}와 대형 크기 이상의 적에 대한 +3 {g|Encyclopedia:CMB}CMB(전법 "
+"보너스){/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BardingOfVengeanceItem::m_DisplayNameText
 msgctxt "30e10d6e-fcdc-4302-9f0d-359a7a93141e"
 msgid "Barding of Vengeance"
-msgstr ""
+msgstr "복수의 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BardingOfVengeanceItem::m_DescriptionText
@@ -884,6 +900,8 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} in a single hit, he gets the effect of "
 "winds of vengeance {g|Encyclopedia:Spell}spell{/g} for 1 minute."
 msgstr ""
+"이 +5 가죽 마갑의 착용자가 단일 타격으로 30 이상의 {g|Encyclopedia:Damage}피해{/g} 를 받을 경우, 1분간 "
+"복수의 돌풍 {g|Encyclopedia:Spell}주문{/g}의 효과를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BashingShieldArmor::m_DisplayNameText
@@ -919,7 +937,7 @@ msgstr "이 흠집 하나 없이 잘 닦인 판금 갑옷은 찌그러진 갑옷
 #. Path = BeaconOfCarnageItem::m_DisplayNameText
 msgctxt "837bfb85-7b45-4fa4-9242-5cec2bc08a18"
 msgid "Beacon of Carnage"
-msgstr ""
+msgstr "대학살의 상징"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BeaconOfCarnageItem::m_DescriptionText
@@ -1474,6 +1492,9 @@ msgid ""
 "{g|Encyclopedia:Dexterity}Dexterity{/g} and to {g|Encyclopedia:Attack}attack "
 "rolls{/g} against demons for 10 {g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +3 사슬갑옷은 하루에 한번 30 피트 반경의 모든 아군에게 10 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"동안 {g|Encyclopedia:Dexterity}민첩{/g}과 데몬에 대한 {g|Encyclopedia:Attack}공격 굴림{/g}"
+"에 +1 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainmailOfSpitefulBarbsItem::m_DisplayNameText
@@ -1485,7 +1506,7 @@ msgstr ""
 #. Path = ChainmailOfSpitefulBarbsMeleeBuff::m_DisplayName
 msgctxt "d4e73d5a-28ed-430b-a800-651ac57fd6f3"
 msgid "Chainmail of Spiteful Barbs"
-msgstr ""
+msgstr "앙심 미늘의 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainmailOfSpitefulBarbsItem::m_DescriptionText
@@ -1509,6 +1530,13 @@ msgid ""
 "{g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Damage_Type}piercing damage{/g} "
 "on a successful hit."
 msgstr ""
+"이 +5 사슬 갑옷은 착용자에게 협박에 대한 {g|Encyclopedia:Persuasion}설득{/g} "
+"{g|Encyclopedia:Skills}스킬 판정{/g}에 +5 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다. 착용자는 단일 {g|Encyclopedia:RangedAttack}원거리 공격{/g}에 10 이상의 "
+"{g|Encyclopedia:HP}HP{/g} {g|Encyclopedia:Damage}피해{/g}를 입을 때마다 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +1 사기 보너스 1 {g|Encyclopedia:Combat_Round}"
+"간 얻게되며, 다음 {g|Encyclopedia:MeleeAttack}근접 공격{/g}이 명중시 추가적인 "
+"{g|Encyclopedia:Dice}2d6{/g}의 {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainmailStandartPlus1::m_DisplayNameText
@@ -1563,49 +1591,49 @@ msgstr ""
 #. Path = ChainshirtAcidResistance30Plus5::m_DisplayNameText
 msgctxt "3311539f-28d3-4a5e-a233-6a7daa792af2"
 msgid "Chainshirt of Greater Acid Resistance"
-msgstr ""
+msgstr "향상된 독 저항의 사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtAcidResistance30Plus5::m_DescriptionText
 msgctxt "957e32a6-f450-4d7e-8394-12031b786903"
 msgid "This +5 chainshirt grants its wearer resistance to acid 30."
-msgstr ""
+msgstr "이 +5 사슬 조끼는 착용자에게 30의 산성 저항을 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtBardingStandartPlus1::m_DisplayNameText
 msgctxt "58a5f910-6b62-4e79-b34d-f1e3b04136ad"
 msgid "Chainshirt Barding +1"
-msgstr ""
+msgstr "사슬조끼 마갑 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtBardingStandartPlus2::m_DisplayNameText
 msgctxt "fa024f1c-9693-41ec-a52f-9fca2c3d03d6"
 msgid "Chainshirt Barding +2"
-msgstr ""
+msgstr "사슬조끼 마갑 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtBardingStandartPlus3::m_DisplayNameText
 msgctxt "2f863e84-e92f-4373-94a9-484072d07c0a"
 msgid "Chainshirt Barding +3"
-msgstr ""
+msgstr "사슬조끼 마갑 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtBardingStandartPlus4::m_DisplayNameText
 msgctxt "1721bac1-6905-48ab-910c-d11a15baedd0"
 msgid "Chainshirt Barding +4"
-msgstr ""
+msgstr "사슬조끼 마갑 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtBardingStandartPlus5::m_DisplayNameText
 msgctxt "c90bffd5-81d5-4bcf-b8cc-21c142d34171"
 msgid "Chainshirt Barding +5"
-msgstr ""
+msgstr "사슬조끼 마갑 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtOfBrightPerformanceItem::m_DisplayNameText
 msgctxt "edbab4e3-0bf7-4d80-9c6c-fc34e092bed3"
 msgid "Eternal Ballad"
-msgstr ""
+msgstr "영원한 발라드"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtOfBrightPerformanceItem::m_DescriptionText
@@ -1618,12 +1646,16 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage{/g} "
 "until the end of combat."
 msgstr ""
+"이 +4 미스랄 사슬 조끼는 바드의 공연과 스칼드의 분노의 노래 클래스 능력이 착용자의 기절이나 쓰러짐으로 인해 중단되지 않도록 "
+"막습니다. 또한, 스칼드의 Song of the Fallen 으로 인해 부활한 아군들에게 "
+"{g|Encyclopedia:Attack}공격{/g}과 {g|Encyclopedia:Damage}피해{/g}에 +2 사기 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 전투 종료시까지 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtOfLifeVimItem::m_DisplayNameText
 msgctxt "36162e82-ac87-4a3d-839d-0363dcf119e9"
 msgid "Chainshirt of Life Vim"
-msgstr ""
+msgstr "생기의 사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtOfLifeVimItem::m_DescriptionText
@@ -1633,6 +1665,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
 "against the {g|Encyclopedia:Attack}attacks{/g} of non-living creatures."
 msgstr ""
+"이 +3 사슬 조끼는 착용자에게 비-생물 크리처에 대해 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 불경 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtofResists::m_DisplayNameText
