@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-06 09:24+0000\n"
-"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
+"PO-Revision-Date: 2021-10-07 11:24+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -541,7 +541,7 @@ msgstr ""
 "관련 블래스트: 대지, 얼음, 금속\n"
 "{g|Encyclopedia:Saving_Throw}내성 굴림{/g}: 없음\n"
 "원소 물질을 길다랗고 뾰족한 가시의 형태로 늘여서 다수의 적을 꿰뚫습니다. 30 피트 직선에 놓인 크리처마다 가까운 순서대로 한 번 씩 "
-"{g|Encyclopedia:Attack}공격 굴림{/g}을 합니다. 굴림의 결과 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}을 합니다. 굴림의 결과 "
 "{g|Encyclopedia:Critical}치명타{/g}위협이 나오면, 확정 굴림은 명중한 첫번째 목표만 굴립니다. 명중시킨 목표의 "
 "피해는 가까운 순서대로 각각 계산합니다. 만일 명중시킨 목표에 {g|Encyclopedia:Physical_Damage}물리적 피해{/g}"
 "를 입히는데 실패했다면, 가시가 관통에 실패해 주입된 블래스트의 효과가 종료됩니다. 대지나 금속 블래스트는 "
@@ -907,7 +907,7 @@ msgstr ""
 
 msgctxt "81159be3-784d-41f4-bd4e-489639a60b4f"
 msgid "Rogue Stance"
-msgstr ""
+msgstr "로그 자세"
 
 msgctxt "a520ee43-6566-4940-9164-faee4ebe73f6"
 msgid ""
@@ -931,7 +931,7 @@ msgstr ""
 
 msgctxt "0d8be242-f1ac-467d-8d47-d4227a2014de"
 msgid "Invisibility"
-msgstr ""
+msgstr "투명화"
 
 msgctxt "ae1adcc3-5fb6-4383-a3af-475ea332ddb5"
 msgid ""
@@ -941,6 +941,9 @@ msgid ""
 "to his level. These minutes need not be consecutive, but must be used in 1-"
 "minute increments."
 msgstr ""
+"10 레벨에, 스티지언 슬레이어는 새까만 안개 형태로 변신할 수 있습니다. 이 능력은 안개 구름처럼 시야를 흐리는 것을 제외하면 기체 "
+"형상과 동일합니다. 슬레이어는 이 능력을 하루에 레벨당 1분 동안 사용할 수 있습니다. 이 시간을 한번에 모두 사용할 필요는 없지만, "
+"반드시 1분 단위로 사용해야만 합니다."
 
 msgctxt "47367085-0661-40ce-8746-36898dd788c2"
 msgid "Tactician — Allied Spellcaster"
@@ -954,14 +957,6 @@ msgctxt "b59aa561-7f72-45dd-81ea-2bd1ff8c3ce5"
 msgid "Class Skill — Persuasion"
 msgstr "클래스 기술 - 설득"
 
-#, fuzzy
-#| msgid ""
-#| "An Aldori swordlord can add his Dexterity bonus (if any) to damage rolls "
-#| "made with a dueling sword instead of his Strength bonus. This bonus on "
-#| "damage rolls applies whether the swordlord is wielding a dueling sword one-"
-#| "handed or two-handed. Aldori swordlord cannot use this ability if he is "
-#| "wielding a shield or using an off-hand weapon (including armor spikes, "
-#| "unarmed strikes, or natural weapons)."
 msgctxt "9d342bd9-9444-4aa3-8ce9-cdc47a3812dc"
 msgid ""
 "An Aldori swordlord can add his {g|Encyclopedia:Dexterity}Dexterity{/g} "
@@ -975,11 +970,13 @@ msgid ""
 "{g|Encyclopedia:UnarmedAttack}unarmed{/g} strikes, or "
 "{g|Encyclopedia:NaturalAttack}natural weapons{/g})."
 msgstr ""
-"알도리 소드로드는 결투용 검의 피해 굴림에 힘 보너스 대신 민첩 보너스를 더할 수 있습니다. 이 보너스는 결투용 검을 휘두르는게 한손이든 "
-"양손이든 모두 적용됩니다. 소드로드는 방패를 사용하거나 반대 손 무기(갑옷 가시, 비무장 타격 또는 자연 무기를 포함)를 사용하는 경우 "
-"이 능력을 사용할 수 없습니다."
+"알도리 소드로드는 결투용 검의 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"{g|Encyclopedia:Strength}힘{/g} {g|Encyclopedia:Bonus}보너스{/g} 대신 "
+"{g|Encyclopedia:Dexterity}민첩{/g} 보너스를 더할 수 있습니다. 이 보너스는 결투용 검을 휘두르는게 "
+"{g|Encyclopedia:Light_Weapon}한손{/g}이든 양손이든 모두 적용됩니다. 소드로드가 방패나 갑옷 가시, "
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 타격 또는 {g|Encyclopedia:NaturalAttack}자연 "
+"무기{/g}등 반대 손 무기를 사용하는 경우 이 능력을 사용할 수 없습니다."
 
-#, fuzzy
 msgctxt "b1751ca7-e3c5-492b-8c67-1d9930df61d1"
 msgid "Deft Strike"
 msgstr "재빠른 타격"
@@ -1002,6 +999,15 @@ msgid ""
 "also determines whether the warpriest channels positive or negative energy ("
 "see Channel Energy ability description)."
 msgstr ""
+"선 성향 또는 선 성향 신격을 섬기는 중립 성향 워프리스트는 저장된 {g|Encyclopedia:Spell}주문{/g} 에너지를 미리 "
+"준비하지 않은 {g|Encyclopedia:Healing}치료{/g} 주문으로 바꿀 수 있습니다. 워프리스트는 "
+"{g|Encyclopedia:Cantrips_Orisons}오리즌{/g}이 아닌 준비된 주문을 소비하여 그 주문과 같거나 낮은 레벨의 "
+"상처 치료 주문을 시전할 수 있습니다. 상처 치료 주문은 이름에 \"상처 치료\"가 들어가는 주문입니다.\n"
+"악 성향 또는 악 성향 신격을 섬기는 중립 성향 워프리스트는 이런 방식으로 상처 치유 주문 대신 상처 입히기 주문을 사용할 수 있습니다. "
+"상처 입히기 주문은 이름에 \"상처 입히기\"가 들어가는 주문입니다.\n"
+"선 성향도 악 성향도 아닌 워프리스트가 선 성향도 악 성향도 아닌 신격을 섬기는 경우, 주문을 상처 치료로 변환할지 상처 입히기로 "
+"변환할지 선택할 수 있습니다. 이 선택은 한번 선언하면 번복할 수 없습니다. 또한 이 선택은 워프리스트가 양에너지 전달을 얻을지 음에너지 "
+"전달을 얻을지 결정합니다. 자세한 사항은 에너지 전달 능력의 설명을 참고하십시오."
 
 msgctxt "0ffdb2bc-2cdd-4619-8747-140c19ac7437"
 msgid "Shield Armor"
@@ -1037,19 +1043,19 @@ msgstr ""
 
 msgctxt "47a1b344-327c-4839-9257-cc5590752743"
 msgid "Endurance"
-msgstr ""
+msgstr "지구력"
 
 msgctxt "5b9d7c46-7f9a-4691-bd6a-e0bd65f2d107"
 msgid "Endurance"
-msgstr ""
+msgstr "지구력"
 
 msgctxt "7e41295b-ccb2-4e40-8647-9350aa57bc89"
 msgid "Transformation"
-msgstr ""
+msgstr "변신"
 
 msgctxt "18a8a8f7-9cbc-4ae6-85e9-c8f7bdd04904"
 msgid "Transformation"
-msgstr ""
+msgstr "변신"
 
 msgctxt "58e5ffbe-8605-40d4-b0bc-20d118c9f553"
 msgid ""
@@ -1072,22 +1078,19 @@ msgctxt "1f7c100c-fef2-4adf-adba-adf44cea5826"
 msgid "Diamond Tier"
 msgstr "다이아몬드 등급"
 
-#, fuzzy
 msgctxt "790bf61d-99cf-4f75-a183-bc711a131fe0"
 msgid ""
 "Our heartfelt thanks goes to all our backers, who not only supported us with "
 "their pledges, but also helped us in adding more content and features to the "
 "game. We praise your creativity!"
 msgstr ""
-"후원으로 우리를 지지해 줄 뿐만 아니라 우리 게임에 더 많은 내용과 특징을 더할 수 있도록 도와주시는 분들께 진심으로 감사드린다. 당신의 "
-"창의성에 찬사를 보냅니다!"
+"후원으로 우리를 지지해 줄 뿐만 아니라 우리 게임에 더 많은 내용과 특징을 더할 수 있도록 도와주시는 분들께 진심으로 감사드립니다. "
+"당신의 창의성에 찬사를 보냅니다!"
 
-#, fuzzy
 msgctxt "0c411c13-90eb-4dd0-bac7-6d6f6baa51a5"
 msgid "Darven 'The Dashing' Fairwood (and NPC's quest: Deal with the Devil)"
 msgstr "다르벤 '질주' 페어우드 (그리고 NPC 퀘스트: 데블과의 거래)"
 
-#, fuzzy
 msgctxt "83264212-7da3-4f43-9a4c-76f868bf20db"
 msgid "Korgath's Shackled Fury"
 msgstr "코가쓰의 구속된 분노"
@@ -1096,300 +1099,238 @@ msgctxt "47005ed4-6e4c-49dc-b8a0-deaaf79bb7be"
 msgid "Ring of Circumstances"
 msgstr "상황의 반지"
 
-#, fuzzy
 msgctxt "f615ed41-1fdc-443d-8ddd-3e973d66ba5d"
 msgid "Gear's Rule"
 msgstr "기어스 지배"
 
-#, fuzzy
 msgctxt "73be1c8a-05a4-4b0b-8b0d-e79b95de8fe0"
 msgid "Professor's Hat"
 msgstr "교수의 모자"
 
-#, fuzzy
 msgctxt "26347ea7-d3f1-4806-ad6f-f3206aef0176"
 msgid "Warpainted Skull of Duthtica"
 msgstr "두시카의 전투 분장 해골"
 
-#, fuzzy
 msgctxt "1c35f026-8b41-473e-94b9-8c903d7d0778"
 msgid "Elven Protector Quiver"
 msgstr "엘프 수호자의 화살통"
 
-#, fuzzy
 msgctxt "5824e347-341d-48f8-a615-62204c1e4e9f"
 msgid "River Fox Memento Pendant"
 msgstr "강여우의 추억 펜던트"
 
-#, fuzzy
 msgctxt "7442418a-9a4b-4adf-a028-b22185ddf007"
 msgid "Hand of Magus Dan"
 msgstr "메이거스 댄의 손"
 
-#, fuzzy
 msgctxt "8d7c8e1a-32fa-46ca-ad69-e4369e598274"
 msgid "The Quest Electri"
 msgstr "일렉트리 모험전기"
 
-#, fuzzy
 msgctxt "3a38b348-083e-4b1d-bcf6-a4b919366297"
 msgid "Paragon of Defenders"
 msgstr "방어자의 귀감"
 
-#, fuzzy
-#| msgid "Quest name: The Secrets of Suramgamin"
 msgctxt "8f7ce3d9-b71d-463e-915e-acd4cae965b0"
 msgid "Quest: The Secrets of Suramgamin"
-msgstr "퀘스트 이름: 슈람가민의 비밀"
+msgstr "퀘스트: 슈람가민의 비밀"
 
-#, fuzzy
 msgctxt "f9ae6576-57a1-42f6-bef9-87bbf6800a3f"
 msgid "Bracers of Ruby Phoenix Champion"
 msgstr "홍옥 불사조 우승자의 팔찌"
 
-#, fuzzy
 msgctxt "740f0ea1-a75c-48a4-802b-966c8424166f"
 msgid "The Heart of Ira"
 msgstr "아이라의 심장"
 
-#, fuzzy
 msgctxt "70ced415-712f-48e1-9902-f1f6c0b9d628"
 msgid "The Bindings of the Prince"
 msgstr "대공의 사슬"
 
-#, fuzzy
-#| msgid "Peridot Wyvern, Charoite Wyvern, Lapis Lazuly Wyvern"
 msgctxt "4b2d3e23-8ed7-45dc-9572-3ccd15b4eaff"
 msgid "Peridot Wyvern, Charoite Wyvern, Lapis Lazuli Wyvern"
 msgstr "감람석 와이번, 차로아이트 와이번, 청금석 와이번"
 
-#, fuzzy
-#| msgid "Quest name: The Impatient Pirates of Pitax"
 msgctxt "fb8a4a37-6e72-4074-b80f-9ce430c1e80f"
 msgid "Quest: The Impatient Pirates of Pitax"
-msgstr "피탁스의 참을성없는 해적"
+msgstr "퀘스트: 피탁스의 참을성 없는 해적"
 
-#, fuzzy
 msgctxt "71728f0f-b86d-44ed-b92f-f224f97e9d80"
 msgid "Bartholomew Delgado appearance (including NPC's portrait)"
 msgstr "바솔로뮤 델가도 외형 (NPC 포트레이트 포함)"
 
-#, fuzzy
 msgctxt "403a1dde-b844-4a27-b62a-488b1c12d3c6"
 msgid "Spell name: Secret of Suramgamin"
-msgstr "주문 이름: 슈라가민의 비밀"
+msgstr "주문 이름: 슈람가민의 비밀"
 
-#, fuzzy
 msgctxt "e6189577-5188-4fdf-8e4c-866a4e905145"
 msgid "Bear Claw Sword"
 msgstr "곰 발톱 검"
 
-#, fuzzy
 msgctxt "592ee0aa-2a5e-48ab-a0d4-91d74944107d"
 msgid "Khanda Blade"
 msgstr "칸다 칼날"
 
-#, fuzzy
 msgctxt "07ffb46f-92a3-49ce-b6d0-8202f2151cc0"
 msgid "Black Leather Chestpiece"
 msgstr "검은 가죽 흉갑"
 
-#, fuzzy
 msgctxt "24aa9f0b-4a09-410d-9670-cab8b86eae05"
 msgid "\"Maya's Charm\" Necklace"
 msgstr "\"마야의 매력\" 목걸이"
 
-#, fuzzy
 msgctxt "906b4bc3-6838-446c-b120-6a03953de189"
 msgid "Xavorn's Cross"
 msgstr "자본의 십자가"
 
-#, fuzzy
 msgctxt "8f4f55c1-d7e6-45a2-8d63-d3bbae7ff222"
 msgid "Content Manager"
 msgstr "Content Manager"
 
-#, fuzzy
 msgctxt "4763d6a9-cdf2-42b0-9030-25b1cfd9e39a"
 msgid "Communications Manager"
 msgstr "Communications Manager"
 
-#, fuzzy
 msgctxt "d0a3c900-90e2-455a-866e-d3c1bf2798fd"
 msgid "Jr. International Marketing Manager"
 msgstr "Jr. International Marketing Manager"
 
-#, fuzzy
 msgctxt "7ec37fbb-7481-4008-b375-9d98569b0784"
 msgid "Head of Global Marketing"
 msgstr "Head of Global Marketing"
 
-#, fuzzy
 msgctxt "6481a24f-1f0c-43ec-929b-eb9a3a41fa63"
 msgid "UK Marketing Manager"
 msgstr "UK Marketing Manager"
 
-#, fuzzy
 msgctxt "ec88cb61-0326-4cc7-a090-16511f7d7b9b"
 msgid "UK Marketing Assistant"
 msgstr "UK Marketing Assistant"
 
-#, fuzzy
 msgctxt "98acac23-435b-4ac0-bbf2-c85eb681067f"
 msgid "UK Senior PR Manager"
 msgstr "UK Senior PR Manager"
 
-#, fuzzy
 msgctxt "34728ff5-fb97-476c-8d23-29787f7b8aa8"
 msgid "UK PR Assistant"
 msgstr "UK PR Assistant"
 
-#, fuzzy
 msgctxt "75051c46-a0cc-4e56-b729-4bb5a0484a5b"
 msgid "UK Product Manager"
 msgstr "UK Product Manager"
 
-#, fuzzy
 msgctxt "d230013d-e482-454b-91d7-425bacf6fba8"
 msgid "UK Community Manager"
 msgstr "UK Community Manager"
 
-#, fuzzy
 msgctxt "fb617fde-9fc0-4dda-b582-153f9ea857b8"
 msgid "UK Head of Sales and Trade Marketing UK & EIRE"
 msgstr "UK Head of Sales and Trade Marketing UK & EIRE"
 
-#, fuzzy
 msgctxt "15e7d210-0ff8-46bf-9805-9dd0bc7e8e90"
 msgid "UK Trade Marketing Manager"
 msgstr "UK Trade Marketing Manager"
 
-#, fuzzy
 msgctxt "59ab5c27-8c9b-410c-98fa-cc904326c75b"
 msgid "UK National Account Manager"
 msgstr "UK National Account Manager"
 
-#, fuzzy
 msgctxt "b01a4428-0e78-4887-a115-9700c43a0a22"
 msgid "International Sales & New Business Development"
 msgstr "International Sales & New Business Development"
 
-#, fuzzy
 msgctxt "93591599-4ad8-4a10-88dd-c3925c6638e7"
 msgid "Brand Marketing Manager"
 msgstr "Brand Marketing Manager"
 
-#, fuzzy
 msgctxt "e9282472-691a-4138-9711-15d7963f57ef"
 msgid "Chief Operating Officer"
 msgstr "Chief Operating Officer"
 
-#, fuzzy
 msgctxt "ca25ce5a-5ccc-4c3a-8958-545b1e8f9d7d"
 msgid "Publishing Compliance Manager"
 msgstr "Publishing Compliance Manager"
 
-#, fuzzy
 msgctxt "404209b5-3372-4ea7-93c1-30f0b7f99cb3"
 msgid "Director of Marketing and PR"
 msgstr "Director of Marketing and PR"
 
-#, fuzzy
 msgctxt "b2837631-af49-4199-a2eb-418cf9a67e51"
 msgid "Associate Marketing Manager"
 msgstr "Associate Marketing Manager"
 
-#, fuzzy
 msgctxt "bc54f994-af60-434f-b05c-dc491edd84b4"
 msgid "Managing Director"
 msgstr "Managing Director"
 
-#, fuzzy
 msgctxt "33964194-713a-4f9d-9aac-aca2137cbeaf"
 msgid "Marketing Director"
 msgstr "Marketing Director"
 
-#, fuzzy
 msgctxt "b27d0cd5-b329-45cc-b24b-5f6fd27bbbc6"
 msgid "General Manager"
 msgstr "General Manager"
 
-#, fuzzy
 msgctxt "07c1cdc2-006d-48fa-90a5-59b5de5bea30"
 msgid "Sales Manager Games"
 msgstr "Sales Manager Games"
 
-#, fuzzy
 msgctxt "7a9bf76e-fdc0-4922-97ed-c64dcabc4d5b"
 msgid "Key Account Manager Games"
 msgstr "Key Account Manager Games"
 
-#, fuzzy
 msgctxt "1536be52-a7cc-49e2-adc3-ba06ab2c7905"
 msgid "Benelux Marketing"
 msgstr "Benelux Marketing"
 
-#, fuzzy
 msgctxt "b09fdd79-79d8-449d-b3e9-7dca4b034cc7"
 msgid "Business Development"
 msgstr "Business Development"
 
-#, fuzzy
 msgctxt "c708a761-acb8-4c0b-9482-af74ff5f73ac"
 msgid "International Marketing"
 msgstr "International Marketing"
 
-#, fuzzy
 msgctxt "50bcf40c-ec1d-4a80-b69f-ff169a741541"
 msgid "GSA Marketing"
 msgstr "GSA Marketing"
 
-#, fuzzy
 msgctxt "0d467387-c478-457a-9b37-a34ebc05dd9d"
 msgid "Italy"
 msgstr "Italy"
 
-#, fuzzy
 msgctxt "61b85efe-f389-4771-aa64-190787830d0d"
 msgid "Italian Marketing"
 msgstr "Italian Marketing"
 
-#, fuzzy
 msgctxt "7d6e0e1e-ecba-4fd2-9f84-224652b2e0c1"
 msgid "UK Marketing"
 msgstr "UK Marketing"
 
-#, fuzzy
 msgctxt "b22842c7-76a1-4f0f-a6ad-6bf180a99744"
 msgid "UK Sales"
 msgstr "UK Sales"
 
-#, fuzzy
 msgctxt "b9bb3d7c-58c0-42dd-99d8-8d103c6def9d"
 msgid "International Export"
 msgstr "International Export"
 
-#, fuzzy
 msgctxt "e9fc23b5-5c1a-470a-96e4-95432d11337e"
 msgid "North America"
 msgstr "North America"
 
-#, fuzzy
 msgctxt "add17878-cb96-41c3-aaaa-5190519ca881"
 msgid "Nordic"
 msgstr "Nordic"
 
-#, fuzzy
 msgctxt "4db94481-d9f6-40be-84c4-f96cde8cce33"
 msgid "Nordic Marketing"
 msgstr "Nordic Marketing"
 
-#, fuzzy
 msgctxt "40a1bb60-2091-40df-b94d-e49c0dbb6481"
 msgid "Spain"
 msgstr "Spain"
 
-#, fuzzy
 msgctxt "7ab422fc-72d8-401d-a65e-68ff217f50b7"
 msgid "Spanish Marketing"
 msgstr "Spanish Marketing"
@@ -1406,72 +1347,58 @@ msgctxt "28118bfd-672d-448f-83e0-2c5583531ee6"
 msgid "Art Designer"
 msgstr ""
 
-#, fuzzy
 msgctxt "201626ee-a6d3-40d4-bf81-a35252f75f1b"
 msgid "Head of Innovation Division, Mail.Ru Group"
 msgstr "Head of Innovation Division, Mail.Ru Group"
 
-#, fuzzy
 msgctxt "b65eae54-8564-4028-bf3f-4973166bdaf7"
 msgid "Artist"
 msgstr "Artist"
 
-#, fuzzy
 msgctxt "0a866881-d519-4be9-a667-9d3f04a7b13d"
 msgid "Head of Media-buying Team"
 msgstr "Head of Media-buying Team"
 
-#, fuzzy
 msgctxt "0c00fa73-e17b-44f7-bf7b-772fec1f27b3"
 msgid "PR Manager"
 msgstr "PR Manager"
 
-#, fuzzy
 msgctxt "4ba69b4c-9f93-4cad-818f-ccf16dd5a07b"
 msgid "Head of My.com marketing"
 msgstr "Head of My.com marketing"
 
-#, fuzzy
 msgctxt "6f92e1cf-edf7-4913-af81-713a27bf0355"
 msgid "Video Producer"
 msgstr "Video Producer"
 
-#, fuzzy
 msgctxt "9a65379f-2026-4643-8940-57278c86c493"
 msgid "PR Manager"
 msgstr "PR Manager"
 
-#, fuzzy
 msgctxt "90952fad-4a3a-47a5-80ed-c59e27e6cff5"
 msgid "Sound Designer"
 msgstr "Sound Designer"
 
-#, fuzzy
 msgctxt "a4a73e8c-1024-4cda-abd6-9823e6bdb1c2"
 msgid "Web Designer"
 msgstr "Web Designer"
 
-#, fuzzy
 msgctxt "4c9f85fd-f616-4f00-b153-2aac715f4880"
 msgid "Web Developer"
 msgstr "Web Developer"
 
-#, fuzzy
 msgctxt "25ed6299-a528-4fe2-bd3f-78e76c35c9e1"
 msgid "Head of My.com Operation"
 msgstr "Head of My.com Operation"
 
-#, fuzzy
 msgctxt "c52bf41d-90b5-4ce6-a4d8-acb74971cf05"
 msgid "COO, Mail.Ru Group"
 msgstr "COO, Mail.Ru Group"
 
-#, fuzzy
 msgctxt "a3d8629d-5876-432f-9d06-1cc69e1e55d4"
 msgid "Head of My.com"
 msgstr "Head of My.com"
 
-#, fuzzy
 msgctxt "e613a5e0-420f-41e6-b45b-58736fce58f7"
 msgid "Marketing Director"
 msgstr "Marketing Director"
@@ -1480,7 +1407,6 @@ msgctxt "11d1fa23-496b-4657-a0a0-5db03f4e3f94"
 msgid "Chief Business Development Officer MY.GAMES"
 msgstr ""
 
-#, fuzzy
 msgctxt "afa5afdc-1670-4fe0-b369-47d588ddfeec"
 msgid "Head of Video Production Team"
 msgstr "Head of Video Production Team"
@@ -1489,7 +1415,6 @@ msgctxt "11d1fa23-496b-4657-a0a0-5db03f4e3f95"
 msgid "Head of Budgeting & Financial Analysis MY.GAMES"
 msgstr ""
 
-#, fuzzy
 msgctxt "19fe5ab0-61e3-40c8-aa4a-52851b72d3ef"
 msgid "Video Designer"
 msgstr "Video Designer"
@@ -1498,7 +1423,6 @@ msgctxt "11d1fa23-496b-4657-a0a0-5db03f4e3f96"
 msgid "Ad Monetization Director Mail.Ru Group"
 msgstr ""
 
-#, fuzzy
 msgctxt "a06292e6-b9f9-4522-b9e5-73cf1b4de178"
 msgid "Head of Moscow Marketing"
 msgstr "Head of Moscow Marketing"
@@ -1507,7 +1431,6 @@ msgctxt "11d1fa23-496b-4657-a0a0-5db03f4e3f97"
 msgid "Executive Director MGVC"
 msgstr ""
 
-#, fuzzy
 msgctxt "c9c8e9e3-1636-4893-8aa2-c7f3acf78c82"
 msgid "Head of Voronezh Video Production Team"
 msgstr "Head of Voronezh Video Production Team"
@@ -1516,12 +1439,10 @@ msgctxt "11d1fa23-496b-4657-a0a0-5db03f4e3f98"
 msgid "Investment Director MGVC"
 msgstr ""
 
-#, fuzzy
 msgctxt "fba30baf-c35c-4f8a-bc49-3b222b261b46"
 msgid "Head of My.com marketing"
 msgstr "Head of My.com marketing"
 
-#, fuzzy
 msgctxt "116de53e-5a7d-4b3c-a6b9-4ba9de1b433b"
 msgid ""
 "The setting glossary contains information compiled and summarized by the "
@@ -1531,13 +1452,11 @@ msgstr ""
 "설정 용어집에는 pathfinderwiki.com의 자원봉사 편집자들이 편집하고 요약한 정보가 포함되어 있습니다. 패스파인더 커뮤니티에 "
 "기여해주신 부분에 대해 감사드리고 싶습니다."
 
-#, fuzzy
 msgctxt "468f0f40-3f57-4375-8cae-456c9b708bda"
 msgid ""
 "Our heartfelt thanks to all the backers, who helped us with their feedback!"
 msgstr "피드백으로 우리를 도와주신 모든 분께 진심으로 감사를 전합니다!"
 
-#, fuzzy
 msgctxt "992ac29f-067f-4e51-b7a8-3067c44d815f"
 msgid ""
 "The setting glossary contains information compiled and summarized by the "
@@ -1547,188 +1466,153 @@ msgstr ""
 "설정 용어집에는 pathfinderwiki.com의 자원봉사 편집자들이 편집하고 요약한 정보가 포함되어 있습니다. 패스파인더 커뮤니티에 "
 "기여해주신 부분에 대해 감사드리고 싶습니다."
 
-#, fuzzy
 msgctxt "3c3085e7-4287-4129-ad6c-a83e6eca8e4e"
 msgid "Thank you for playing!"
 msgstr "플레이 해주셔서 감사합니다!"
 
-#, fuzzy
 msgctxt "cb0a6f1f-3ff4-4606-9d5e-36baead12dfd"
 msgid "Special thanks to our families and friends for their support!"
 msgstr "우리 가족과 친구들의 성원에 심심한 감사의 뜻을 전합니다!"
 
-#, fuzzy
 msgctxt "a27e9d25-0986-4388-b71a-5fb442045f60"
 msgid "Special Thanks to our families and friends for their support!"
 msgstr "우리 가족과 친구들의 도움에 특별히 감사드립니다!"
 
-#, fuzzy
 msgctxt "b600d297-0613-44ed-be3b-5de4b09eae4a"
 msgid "Marketing manager and social media guru"
 msgstr "Marketing manager and social media guru"
 
-#, fuzzy
-#| msgid "Chief Technical Officer"
 msgctxt "1f957427-b698-4816-9ce6-1f47d830cda8"
 msgid "CTO"
-msgstr "Chief Technical Officer"
+msgstr "CTO"
 
-#, fuzzy
 msgctxt "37afc829-3458-42e9-bbb9-8772f4024942"
 msgid "Editor in Chief"
 msgstr "Editor in Chief"
 
-#, fuzzy
 msgctxt "81ff9ead-f38c-42e7-8c34-d857a759c48e"
 msgid "2D artist and author of the key art"
 msgstr "2D artist and author of the key art"
 
-#, fuzzy
 msgctxt "96786d99-dd93-4975-af80-965c935d10a9"
 msgid "CEO of Paizo Publishing, and COO of Goblinworks"
 msgstr "CEO of Paizo Publishing, and COO of Goblinworks"
 
-#, fuzzy
 msgctxt "4a9de2be-28d9-400f-863f-bbe967304c03"
 msgid "CCO and Publisher"
 msgstr "CCO and Publisher"
 
-#, fuzzy
 msgctxt "b485ee8c-dcf4-489f-9eb1-c8c848ac3870"
 msgid "Licensing Manager"
 msgstr "Licensing Manager"
 
-#, fuzzy
 msgctxt "6edc2154-68b2-4d0f-b997-81f374a2ea1b"
 msgid "Design Director"
 msgstr "Design Director"
 
-#, fuzzy
-#| msgid "Art Director"
 msgctxt "ac6660c5-8e61-4081-b273-22c7834a912f"
 msgid "Director of Visual Design"
-msgstr "Art Director"
+msgstr "Director of Visual Design"
 
 msgctxt "bf29d188-3244-44d3-8ce8-3eeaac67f451"
 msgid "Warehouse Distribution Lead"
-msgstr ""
+msgstr "Warehouse Distribution Lead"
 
 msgctxt "bf29d188-3244-44d3-8ce8-3eeaac67f453"
 msgid "Starfinder Senior Developer"
-msgstr ""
+msgstr "Starfinder Senior Developer"
 
-#, fuzzy
-#| msgid "Chief Operations Officer"
 msgctxt "0d31dcbe-7c82-4753-a1aa-87cd06e7f3ce"
 msgid "COO"
-msgstr "Chief Operations Officer"
+msgstr "COO"
 
-#, fuzzy
-#| msgid "Vice President of Marketing & Licensing"
 msgctxt "7f2f020d-3f5f-4668-afff-18cfec5facc2"
 msgid "VP of Marketing and Licensing"
-msgstr "Vice President of Marketing & Licensing"
+msgstr "VP of Marketing and Licensing"
 
-#, fuzzy
 msgctxt "639d92f2-988b-43b2-b66c-8bab10bb3d94"
 msgid "Franchise Manager"
 msgstr "Franchise Manager"
 
-#, fuzzy
 msgctxt "1a31be40-6a54-49cd-8bd8-41961fc78518"
 msgid "Platinum"
 msgstr "Platinum"
 
-#, fuzzy
 msgctxt "5efb27be-ea2c-42bc-91e0-5c1696ad0b2f"
 msgid "Platinum"
 msgstr "Platinum"
 
-#, fuzzy
 msgctxt "80a6f840-fc82-4cd6-a042-49df74e62d19"
 msgid "CEO of Paizo Publishing, and COO of Goblinworks"
 msgstr "CEO of Paizo Publishing, and COO of Goblinworks"
 
-#, fuzzy
 msgctxt "0991138f-f1bd-440f-afd4-a0084ecc8697"
 msgid "Marketing manager and social media guru"
 msgstr "Marketing manager and social media guru"
 
-#, fuzzy
 msgctxt "0958be25-a25a-4241-8ffc-11e96090949b"
 msgid "CCO and Publisher"
 msgstr "CCO and Publisher"
 
-#, fuzzy
 msgctxt "467fd92e-d536-48a3-8fb3-7138cdfc254f"
 msgid "Licensing Manager"
 msgstr "Licensing Manager"
 
-#, fuzzy
 msgctxt "90ac3f1e-7b9f-445d-b889-f167f583cadc"
 msgid "Creative Director"
 msgstr "Creative Director"
 
-#, fuzzy
 msgctxt "9f4082da-16d4-4c53-96cf-bcfdadccd121"
 msgid "Design Director"
 msgstr "Design Director"
 
-#, fuzzy
 msgctxt "0d539634-8297-4be6-bb13-ac533daa523c"
 msgid "COO"
 msgstr "COO"
 
-#, fuzzy
 msgctxt "b51c8ca6-8eca-4579-915b-4768e82916d5"
 msgid "VP of Marketing and Licensing"
 msgstr "VP of Marketing and Licensing"
 
-#, fuzzy
 msgctxt "96378526-349d-41fc-aa10-9a7c8522fd29"
 msgid "Franchise Manager"
 msgstr "Franchise Manager"
 
-#, fuzzy
 msgctxt "e2099fd7-066c-4e99-a3eb-da17bdcedb60"
 msgid "Director of licensing"
 msgstr "Director of licensing"
 
-#, fuzzy
 msgctxt "465a7e2f-6a6c-4a64-bd14-545a84360236"
 msgid "Art Director"
 msgstr "Art Director"
 
-#, fuzzy
 msgctxt "1e884f5b-aa1d-451a-bd88-a920d5d25198"
 msgid "CTO"
 msgstr "CTO"
 
-#, fuzzy
 msgctxt "2b21b603-6b47-4225-832f-992459a47480"
 msgid "Editor in Chief"
 msgstr "Editor in Chief"
 
-#, fuzzy
 msgctxt "ee9de9e4-ef0b-49ae-b7f2-2bf4e4bbf251"
 msgid "2d Artist and author of the key art"
 msgstr "2d Artist and author of the Key art"
 
 msgctxt "8d106621-b6ef-4191-b1d6-bf234fcaf133"
 msgid "Editing Consultant"
-msgstr ""
+msgstr "Editing Consultant"
 
 msgctxt "17f214bc-bff5-4b15-869e-c0de2e7165d0"
 msgid "Account Manager"
-msgstr ""
+msgstr "Account Manager"
 
 msgctxt "e0c3eaf0-9212-4bc1-a9c6-5203a2aed638"
 msgid "Orchestra Supervisor"
-msgstr ""
+msgstr "Orchestra Supervisor"
 
 msgctxt "d4c881f9-ab99-4d66-856f-a2bffde47a69"
 msgid "Dubbing Studio"
-msgstr ""
+msgstr "Dubbing Studio"
 
 msgctxt "6ef1e017-13c6-41be-af6e-905eb01a6ba5"
 msgid ""
@@ -1736,50 +1620,52 @@ msgid ""
 "volunteer editors of pathfinderwiki.com. We would like to thank them for "
 "their contribution to the Pathfinder community."
 msgstr ""
+"설정 용어집에는 pathfinderwiki.com의 자원봉사 편집자들이 편집하고 요약한 정보가 포함되어 있습니다. 패스파인더 커뮤니티에 "
+"기여해주신 부분에 대해 감사드리고 싶습니다."
 
 msgctxt "ee36afc4-fe6e-4fa6-989b-c54c0a44910f"
 msgid "Social Media Marketing"
-msgstr ""
+msgstr "Social Media Marketing"
 
 msgctxt "22cf9648-0175-4176-b238-a714a920eb38"
 msgid "Recording Studio"
-msgstr ""
+msgstr "Recording Studio"
 
 msgctxt "9137831d-b639-4a3b-b492-4be0df9a543b"
 msgid "Sound Design and Music Production"
-msgstr ""
+msgstr "Sound Design and Music Production"
 
 msgctxt "7cc0a142-2d68-440f-8b13-7247d96ba933"
 msgid "Gaming Hardware"
-msgstr ""
+msgstr "Gaming Hardware"
 
 msgctxt "7a588078-1b5e-4611-83dd-1bd8c1bad83a"
 msgid "Dubbing Studio"
-msgstr ""
+msgstr "Dubbing Studio"
 
 msgctxt "2072c876-cd34-4788-9ff7-90f4484f8503"
 msgid "Creative Agency"
-msgstr ""
+msgstr "Creative Agency"
 
 msgctxt "6a66d28a-4347-4d69-8887-f1acfaabbccb"
 msgid "Type Design"
-msgstr ""
+msgstr "Type Design"
 
 msgctxt "7e1588ef-b74f-4dec-923a-04c164edcdd6"
 msgid "Official Game Wiki"
-msgstr ""
+msgstr "Official Game Wiki"
 
 msgctxt "7e52cc7f-81f3-4410-a9bb-3f1a4db6fa7a"
 msgid "Chief Conductor"
-msgstr ""
+msgstr "Chief Conductor"
 
 msgctxt "fe3c5e2c-7ed5-47a9-bb54-7e09a8a98e7a"
 msgid "Choirmaster"
-msgstr ""
+msgstr "Choirmaster"
 
 msgctxt "310c6250-d3e3-4fef-b134-64cd269f6d20"
 msgid "Sound Engineer"
-msgstr ""
+msgstr "Sound Engineer"
 
 msgctxt "a3c442e7-7390-46bc-98a3-fcfd446fe6ce"
 msgid "Violin"
@@ -1795,19 +1681,19 @@ msgstr "비올라"
 
 msgctxt "efb4162a-362e-4f4a-9919-0cfad01348ae"
 msgid "English Horn"
-msgstr ""
+msgstr "English Horn"
 
 msgctxt "9685520a-c97d-4763-ae61-5bfb444df216"
 msgid "Trumpet"
-msgstr ""
+msgstr "Trumpet"
 
 msgctxt "4cee8a9a-eef5-4b98-974a-742aa2dd54d3"
 msgid "French Horn"
-msgstr ""
+msgstr "French Horn"
 
 msgctxt "a4a73dfa-858d-4417-953f-5f3cd0048f34"
 msgid "Soprano"
-msgstr ""
+msgstr "Soprano"
 
 msgctxt "fc8a6b85-0b23-4be7-93b5-a4d550bdd110"
 msgid "Arueshalae"
@@ -1857,9 +1743,10 @@ msgctxt "0d6a457e-27bf-4b88-8ae4-301990f231f1"
 msgid "Nenio"
 msgstr "네니오"
 
+#, fuzzy
 msgctxt "a8ca7204-6435-4889-b5d0-b0d26d285f69"
 msgid "Hand of the Inheritor"
-msgstr ""
+msgstr "계승자의 손"
 
 #, fuzzy
 msgctxt "68e59a50-9859-4ace-9a9a-9c8c7c55adab"
@@ -1881,9 +1768,10 @@ msgctxt "a448d155-d5de-4b16-836b-daf52d1cb27e"
 msgid "Irabeth"
 msgstr "이라베스"
 
+#, fuzzy
 msgctxt "8c3a0d76-d395-4353-a656-cefef8836168"
 msgid "Suture, Minion of Darrazand"
-msgstr ""
+msgstr "Suture, Minion of Darrazand"
 
 #, fuzzy
 msgctxt "565261ca-2dca-47e2-a431-1d3628bcfb67"
@@ -1918,318 +1806,301 @@ msgctxt "8c491091-2ad3-436a-bd12-92b5e7c45fd2"
 msgid "Darrazand"
 msgstr "다라잔드"
 
+#, fuzzy
 msgctxt "ac4728f0-4bc6-46bd-8b1c-f9aecf25b1aa"
 msgid "Nulkineth"
-msgstr ""
+msgstr "Nulkineth"
 
+#, fuzzy
 msgctxt "84d27fe6-b9f5-433e-a356-875ad7a3e01a"
 msgid "Player Male (Aggressive)"
-msgstr ""
+msgstr "Player Male (Aggressive)"
 
+#, fuzzy
 msgctxt "11c99650-e256-43bb-acd2-6af6816ad261"
 msgid "Player Male (Brave)"
-msgstr ""
+msgstr "Player Male (Brave)"
 
 msgctxt "08c59629-0ff6-453d-afe5-c47c2b61af3b"
 msgid "Player Male (Confident)"
-msgstr ""
+msgstr "Player Male (Confident)"
 
 msgctxt "845d7ae6-86f7-453b-aa18-85ff37dc8696"
 msgid "Player Male (Madman)"
-msgstr ""
+msgstr "Player Male (Madman)"
 
 msgctxt "2c502336-2850-4035-93dc-1eacf15b0137"
 msgid "Player Male (Pious)"
-msgstr ""
+msgstr "Player Male (Pious)"
 
 msgctxt "8d5bc7ac-30cc-4755-bd25-6e43f5a1dd9b"
 msgid "Player Male (Pragmatic)"
-msgstr ""
+msgstr "Player Male (Pragmatic)"
 
 msgctxt "7c4154d5-9262-4724-b774-7ceb166d958b"
 msgid "Player Male (Reserved)"
-msgstr ""
+msgstr "Player Male (Reserved)"
 
 msgctxt "3d5bc9ce-6afe-4650-90cf-0b7f820d682c"
 msgid "Player Male (Grumpy)"
-msgstr ""
+msgstr "Player Male (Grumpy)"
 
 msgctxt "b6b9bd59-7692-4355-ac74-78d4a799ae2c"
 msgid "Player Male (Wise)"
-msgstr ""
+msgstr "Player Male (Wise)"
 
 msgctxt "db26dae6-ff4a-42f5-bebb-0e835cd870f7"
 msgid "Player Male (Optimist)"
-msgstr ""
+msgstr "Player Male (Optimist)"
 
 msgctxt "c95fe90b-2e2b-485a-ac3a-63f72fa72dba"
 msgid "Player Female (Reserved)"
-msgstr ""
+msgstr "Player Female (Reserved)"
 
 msgctxt "0e34cd57-1799-4148-b5a1-02281fb480f0"
 msgid "Player Female (Aggressive)"
-msgstr ""
+msgstr "Player Female (Aggressive)"
 
 msgctxt "73efd882-a062-4123-afe9-4a6b6f2ad2e9"
 msgid "Player Female (Brave)"
-msgstr ""
+msgstr "Player Female (Brave)"
 
 msgctxt "8b3e6f0f-ca33-48d0-afad-c119964ae0ed"
 msgid "Player Female (Confident)"
-msgstr ""
+msgstr "Player Female (Confident)"
 
 msgctxt "d6f1ac0b-ac2d-41df-87c0-87465e1a1234"
 msgid "Player Female (Madwoman)"
-msgstr ""
+msgstr "Player Female (Madwoman)"
 
 msgctxt "345a9eb7-c315-43a9-a28b-92b6f30e9e2b"
 msgid "Player Female (Pious)"
-msgstr ""
+msgstr "Player Female (Pious)"
 
 msgctxt "dd3f29e8-c1a5-407e-ad9e-3c245e7d37f4"
 msgid "Player Female (Pragmatic)"
-msgstr ""
+msgstr "Player Female (Pragmatic)"
 
 msgctxt "6cf50ddf-21b7-4e84-9a66-45490b3eff33"
 msgid "Player Female (Cunning)"
-msgstr ""
+msgstr "Player Female (Cunning)"
 
 msgctxt "93e4c858-b955-40f2-a300-aca4860f9465"
 msgid "Player Female (Carefree)"
-msgstr ""
+msgstr "Player Female (Carefree)"
 
 msgctxt "679274cf-e0e3-4fe0-bf47-7607bd74c142"
 msgid "Arcane Magic Chants (female version)"
-msgstr ""
+msgstr "Arcane Magic Chants (female version)"
 
 msgctxt "7520a53e-d1c4-41f5-bea9-dcde2d9bdb73"
 msgid "Arcane Magic Chants (male version)"
-msgstr ""
+msgstr "Arcane Magic Chants (male version)"
 
 msgctxt "b39ee8a2-8bf9-49e1-8d19-7bf6e5aaab3d"
 msgid "Divine Magic Chants (female version)"
-msgstr ""
+msgstr "Divine Magic Chants (female version)"
 
 msgctxt "9a5bfa44-12c0-4dc8-b180-82b1da4c0806"
 msgid "Divine Magic Chants (male version)"
-msgstr ""
+msgstr "Divine Magic Chants (male version)"
 
 msgctxt "f7e0e71e-87e8-46c2-806c-82ded349043c"
 msgid "Animator"
-msgstr ""
+msgstr "Animator"
 
 msgctxt "64223ab4-27b5-46d6-81eb-2d52c166b6b3"
 msgid "Software Engineer"
-msgstr ""
+msgstr "Software Engineer"
 
 msgctxt "293e678a-42c5-40c8-8fbc-0c11be497760"
 msgid "Voice Actor (Balor)"
-msgstr ""
+msgstr "Voice Actor (Balor)"
 
 msgctxt "b79eed6a-e2be-42d0-81e2-e92767ab092c"
 msgid "Financial Adviser"
-msgstr ""
+msgstr "Financial Adviser"
 
 msgctxt "538c0472-e49f-4502-9a42-04a6644a6f13"
 msgid "Business Development"
-msgstr ""
+msgstr "Business Development"
 
 msgctxt "a932fc8c-7738-444a-843f-e777584c13ae"
 msgid "PR Adviser"
-msgstr ""
+msgstr "PR Adviser"
 
 msgctxt "5d874bb4-1101-460d-8cb2-03f3d6618fdb"
 msgid "Business and Strategic Development Adviser"
-msgstr ""
+msgstr "Business and Strategic Development Adviser"
 
 msgctxt "fe33c561-da69-417f-8db4-5fa39d93be99"
 msgid "Accountant"
-msgstr ""
+msgstr "Accountant"
 
 msgctxt "6fe1d24d-2da6-40fc-880c-972b22da8ba2"
 msgid "Legal Adviser"
-msgstr ""
+msgstr "Legal Adviser"
 
 msgctxt "2e6cadfd-46f3-4f07-9972-7fc9d19b3e38"
 msgid "Chief Accountant"
-msgstr ""
+msgstr "Chief Accountant"
 
 msgctxt "e32b88d1-92fd-4549-a708-f7095d367148"
 msgid "Böck GmbH (German Localization)"
-msgstr ""
+msgstr "Böck GmbH (German Localization)"
 
 msgctxt "e32b88d1-92fd-4549-a708-f7095d367150"
 msgid "Synthesis Deutschland GmbH — a Keywords Studio (German Localization)"
-msgstr ""
+msgstr "Synthesis Deutschland GmbH — a Keywords Studio (German Localization)"
 
 msgctxt "e32b88d1-92fd-4549-a708-f7095d367151"
 msgid "GlobaLoc GmbH (German Localization)"
-msgstr ""
+msgstr "GlobaLoc GmbH (German Localization)"
 
 msgctxt "3226f420-27e4-42e3-8e81-5eaa4aa0a652"
 msgid "Levsha (Multilingual Localization)"
-msgstr ""
+msgstr "Levsha (Multilingual Localization)"
 
 msgctxt "ce541ad3-d3fb-4f5c-bc95-66f50074982a"
 msgid "Redmedved Motion Design Studio"
-msgstr ""
+msgstr "Redmedved Motion Design Studio"
 
 msgctxt "00c38fd5-f978-458d-9583-5e4009820262"
 msgid "Web Design"
-msgstr ""
+msgstr "Web Design"
 
 msgctxt "3226f420-27e4-42e3-8e81-5eaa4aa0a666"
 msgid "2nd Violins"
-msgstr ""
+msgstr "2nd Violins"
 
 msgctxt "3226f420-27e4-42e3-8e81-5eaa4aa0a667"
 msgid "Violas"
-msgstr ""
+msgstr "Violas"
 
 msgctxt "3226f420-27e4-42e3-8e81-5eaa4aa0a668"
 msgid "Cellos"
-msgstr ""
+msgstr "Cellos"
 
 msgctxt "3226f420-27e4-42e3-8e81-5eaa4aa0a669"
 msgid "Basses"
-msgstr ""
+msgstr "Basses"
 
 msgctxt "bc54cba5-2868-4df7-b91b-4f5b5457f570"
 msgid "Trumpets"
-msgstr ""
+msgstr "Trumpets"
 
 msgctxt "fa141c7e-d59c-493a-b871-3628303e9e12"
 msgid "Trombones"
-msgstr ""
+msgstr "Trombones"
 
 msgctxt "bc54cba5-2868-4df7-b91b-4f5b5457f571"
 msgid "French Horns"
-msgstr ""
+msgstr "French Horns"
 
 msgctxt "7edeffd7-44f3-4319-a33b-1ec1ba8a72e8"
 msgid "Bass Trombones"
-msgstr ""
+msgstr "Bass Trombones"
 
 msgctxt "1c6455c7-ae50-408b-8911-4015ac672072"
 msgid "Trombones"
-msgstr ""
+msgstr "Trombones"
 
 msgctxt "40aeca4b-be44-4436-8a35-6848674955ad"
 msgid "Tuba"
-msgstr ""
+msgstr "Tuba"
 
 msgctxt "bc54cba5-2868-4df7-b91b-4f5b5457f573"
 msgid "Bass Trombones"
-msgstr ""
+msgstr "Bass Trombones"
 
 msgctxt "92844410-1182-4971-b72e-a6d3a99857c3"
 msgid "Choir"
-msgstr ""
+msgstr "Choir"
 
 msgctxt "bc54cba5-2868-4df7-b91b-4f5b5457f574"
 msgid "Tuba"
-msgstr ""
+msgstr "Tuba"
 
 msgctxt "d4c09fb1-9ab8-422b-8741-15fc8fefac55"
 msgid "SMGO Records"
-msgstr ""
+msgstr "SMGO Records"
 
 msgctxt "9ba97de5-44d5-493b-9d3b-93130de89b42"
 msgid "Cast (English)"
-msgstr ""
+msgstr "Cast (English)"
 
 msgctxt "88c88d00-120b-4fa5-a882-39198b5880aa"
 msgid "People involved"
-msgstr ""
+msgstr "People involved"
 
 msgctxt "c61b472c-0f76-42e2-bac3-4f527c5ff2fa"
 msgid "Special Support"
-msgstr ""
+msgstr "Special Support"
 
 msgctxt "bc54cba5-2868-4df7-b91b-4f5b5457f584"
 msgid "Creative Services"
-msgstr ""
+msgstr "Creative Services"
 
 msgctxt "bc54cba5-2868-4df7-b91b-4f5b5457f585"
 msgid "Business Development"
-msgstr ""
+msgstr "Business Development"
 
 msgctxt "bc54cba5-2868-4df7-b91b-4f5b5457f586"
 msgid "Special Thanks"
-msgstr ""
+msgstr "Special Thanks"
 
-#, fuzzy
 msgctxt "09df479e-30d7-4fc8-a7ba-ce04f8677ff7"
 msgid "Alchemist"
 msgstr "알케미스트"
 
-#, fuzzy
 msgctxt "d11c06ad-c119-45a5-833e-ac54e6d87206"
 msgid "Ankou"
 msgstr "안쿠"
 
-#, fuzzy
 msgctxt "bea76062-e4ef-41c5-b23c-21c36581399e"
 msgid "Astradaemon"
 msgstr "아스트라다이몬"
 
-#, fuzzy
 msgctxt "9daada06-2d13-47bb-91e2-34df43ff1565"
 msgid "Athach"
 msgstr "아타치"
 
-#, fuzzy
 msgctxt "5a201f17-123c-4b8c-9707-ac15cc67a242"
 msgid "Axiomite"
 msgstr "액시오마이트"
 
-#, fuzzy
 msgctxt "25159589-fa46-45e7-b9f3-4284a1c35e83"
 msgid "Azata, Bralani"
 msgstr "아자타, 브라러니"
 
-#, fuzzy
 msgctxt "5efde047-9edd-42b0-8d4c-f8d12b624863"
 msgid "Azata, Ghaele"
-msgstr "아자타, 게일(Azata, Ghaele)"
+msgstr "아자타, 게일"
 
 msgctxt "a2b11b17-7078-4b4d-8a34-2788418418db"
 msgid "This section contains articles on some of the basics of gameplay."
 msgstr ""
 
-#, fuzzy
 msgctxt "2d344862-a3bf-4c40-b29b-8772809e6d1a"
 msgid "Bear"
-msgstr "곰(Bear)"
+msgstr "곰"
 
-#, fuzzy
 msgctxt "6c6b5ed4-6c70-440d-9293-5f7792432e20"
 msgid "Dragon, Black"
 msgstr "드래곤, 블랙"
 
-#, fuzzy
 msgctxt "9cd159f0-fab8-47ed-b8dd-7f12bc708212"
 msgid "Boar"
 msgstr "멧돼지"
 
-#, fuzzy
 msgctxt "6053e34d-f61c-4cea-9541-72cb3cc54eff"
 msgid "Bogeyman"
-msgstr "부기맨(Bogeyman)"
+msgstr "부기맨"
 
-#, fuzzy
 msgctxt "0e600437-21b9-49b4-8eb4-8e19dc338e46"
 msgid "Bulette"
 msgstr "뷸렛"
 
-#, fuzzy
-#| msgid ""
-#| "Giant centipedes attack nearly any living creatures with their poisonous "
-#| "jaws. These creatures adapt to many environments and feed voraciously on the "
-#| "local fauna, including humanoids. The coloration of giant centipedes mirrors "
-#| "that of normal centipedes and spans the spectrum, ranging from dull hues to "
-#| "bright reds and fiery oranges. Other species of giant centipedes exist as "
-#| "well, some smaller but most quite a bit larger."
 msgctxt "2494c9ff-3973-4ce1-b1b0-d04ad9c81aff"
 msgid ""
 "Giant centipedes {g|Encyclopedia:Attack}attack{/g} nearly any living "
@@ -2240,41 +2111,35 @@ msgid ""
 "Other species of giant centipedes exist as well, some smaller but most quite "
 "a bit larger."
 msgstr ""
-"거대 지네는 독성이 있는 턱뼈로 가까이 있는 어떤 살아있는 생명체라도 공격합니다. 이 생물은 많은 환경들에 적응하여 인간형 생물을 포함한 "
-"지역의 동물들을 게걸스럽게 먹어치웁니다. 거대 지네의 천연색은 평범한 지네의 천연색과 비슷하며, 그 스펙트럼은 평범한 빛깔에서부터 밝은 "
-"빨간색과 불타는 듯한 오랜지색까지 다양합니다. 거대 지네의 다른 종도 또한 존재하며, 몇몇은 더 작지만, 대다수는 약간 더 큽니다."
+"거대 지네는 독성이 있는 턱뼈로 가까이 있는 어떤 살아있는 생명체라도 {g|Encyclopedia:Attack}공격{/g}합니다. 이 "
+"생물은 많은 환경들에 적응하여 인간형 생물을 포함한 지역의 동물들을 게걸스럽게 먹어치웁니다. 거대 지네의 천연색은 평범한 지네의 천연색과 "
+"비슷하며, 그 스펙트럼은 평범한 빛깔에서부터 밝은 빨간색과 불타는 듯한 오랜지색까지 다양합니다. 거대 지네의 다른 종도 또한 존재하며, "
+"몇몇은 더 작지만, 대다수는 약간 더 큽니다."
 
-#, fuzzy
 msgctxt "cf20cb7c-eafc-4234-b645-22dc3f848a0a"
 msgid "Centipede, Giant"
-msgstr "지네, 거대(Centipede, Giant)"
+msgstr "지네, 거대"
 
-#, fuzzy
 msgctxt "1bb4ae1a-5c58-4d28-82d2-8c00b6101eb4"
 msgid "Choosing a Spell"
 msgstr "주문 선택(Choosing a Spell)"
 
-#, fuzzy
 msgctxt "8ca68544-44aa-4f12-ba0c-4f4a9c974271"
 msgid "Classes"
 msgstr "클래스(Classes)"
 
-#, fuzzy
 msgctxt "f3da2ec2-9660-4cc1-9cf9-2a753b3317a6"
 msgid "Cleric"
 msgstr "클레릭(Cleric)"
 
-#, fuzzy
 msgctxt "ee0396b5-cfb5-4312-b842-a6686763fb97"
 msgid "Combat"
 msgstr "전투(Combat)"
 
-#, fuzzy
 msgctxt "75c93fa4-fd9f-4335-9e87-eaa0074aff1d"
 msgid "Combat Actions"
 msgstr "전투 행동(Combat Actions)"
 
-#, fuzzy
 msgctxt "a3caa1e5-9f93-41f0-9a1d-9dc526d6bfbf"
 msgid "Initiative"
 msgstr "우선권(Initiative)"
@@ -2288,12 +2153,10 @@ msgctxt "51c5e790-5b58-4621-9d10-29536f81d74c"
 msgid "This section describes the game's basic combat rules."
 msgstr ""
 
-#, fuzzy
 msgctxt "e5ad3953-f3ea-435f-bd9b-da3b4af133e3"
 msgid "Combat"
 msgstr "전투(Combat)"
 
-#, fuzzy
 msgctxt "1fe440a0-a092-42ab-80e9-4841618aa05c"
 msgid "Combining Magic Effects"
 msgstr "마법 효과 조합(Combining Magic Effects)"
@@ -2304,22 +2167,18 @@ msgid ""
 "roleplaying system."
 msgstr ""
 
-#, fuzzy
 msgctxt "deba8ac3-385b-440c-8ffb-582e6f2b66ee"
 msgid "Components"
 msgstr "요소(Components)"
 
-#, fuzzy
 msgctxt "e2a540e6-5958-4090-b6db-7b67cff52b20"
 msgid "Cyclops, Dread Zombie"
-msgstr "사이클롭스, 드레드 좀비(Cyclops, Dread Zombie)"
+msgstr "사이클롭스, 드레드 좀비"
 
-#, fuzzy
 msgctxt "e024da72-91de-40fe-ac13-c0546c5edc3e"
 msgid "Cyclops"
-msgstr "사이클롭스(Cyclops)"
+msgstr "사이클롭스"
 
-#, fuzzy
 msgctxt "f193883e-c86b-4efb-91da-8cc66513f291"
 msgid ""
 "Shy and wary, deer range from the arctic to the tropics. They are very "
@@ -2331,44 +2190,38 @@ msgid ""
 " they can also be used to represent other deer-like animals such as caribou "
 "and antelope."
 msgstr ""
-"수줍고 조심스러운, 사슴은 북극부터 열대에 널리 퍼져있습니다. 그들은 매우 유연한 크리처로, 기후에 쉽게 적응하고 가장 가혹한 온도에서도 "
-"생존할 수 있습니다. 사슴의 식이는 매우 유연하며, 풀, 곤충, 어류, 심지어 죽은 조류까지도 먹을 수 있습니다. 사슴은 훌륭한 수영 "
-"선수이며, 물 속에서 다섯 마일을 헤엄치는 것으로 알려져 있습니다. 이 통계는 전형적인 흰-꼬리 사슴을 보여줍니다; 이 통계는 또한 "
+"수줍고 조심스러운 사슴은 북극부터 열대에 널리 퍼져있습니다. 그들은 매우 유연한 크리처로, 기후에 쉽게 적응하고 가장 가혹한 온도에서도 "
+"생존할 수 있습니다. 사슴의 식생은 매우 유연하며, 풀, 곤충, 어류, 심지어 죽은 조류까지도 먹을 수 있습니다. 사슴은 훌륭한 수영 "
+"선수이며, 물 속에서 다섯 마일을 헤엄치는 것으로 알려져 있습니다. 이 통계는 전형적인 흰 꼬리 사슴을 보여줍니다; 이 통계는 또한 "
 "순록과 영양과 같이 사슴을 닮은 크리처에서도 나타납니다."
 
-#, fuzzy
 msgctxt "086b8624-d712-49a4-bc7c-bd42762b2885"
 msgid "Deer"
-msgstr "사슴(Deer)"
+msgstr "사슴"
 
-#, fuzzy
 msgctxt "e5ca021d-1269-4039-920b-7f815ce083c5"
 msgid "Devourer"
-msgstr "포식자(Devourer)"
+msgstr "포식자"
 
 msgctxt "72c81026-5c26-4090-9f83-54cec4fd43a6"
 msgid "Dice"
-msgstr ""
+msgstr "주사위 (Dice)"
 
-#, fuzzy
 msgctxt "df2b900e-f5dc-4d21-b289-9f480601885a"
 msgid "Divine Spells"
 msgstr "신성 주문(Divine Spells)"
 
-#, fuzzy
 msgctxt "6bb3bfbc-1cc9-442e-adaa-36c36fe2525a"
 msgid "Dog"
-msgstr "개(Dog)"
+msgstr "개"
 
-#, fuzzy
 msgctxt "96da2bc9-e16b-4d7c-92fd-a26f858e30c0"
 msgid "Dragon, Faerie"
 msgstr "드래곤, 요정"
 
-#, fuzzy
 msgctxt "9da57fef-f638-46d3-a261-df3e83053b64"
 msgid "Dryad"
-msgstr "드라이어드(Dryad)"
+msgstr "드라이어드"
 
 msgctxt "92278696-e403-44b8-b227-19b00d9e2699"
 msgid ""
@@ -2381,33 +2234,32 @@ msgid ""
 "fighting and melee combat, and as such most dwarves tend toward classes such "
 "as fighters and barbarians."
 msgstr ""
+"<b>모험가:</b>\n"
+"드워프 모험가들이 인간들에 비해 드물긴 하지만, 그래도 세계 대부분의 지역에서 그들을 찾을 수 있습니다. 드워프들은 종종 그들 부족을 "
+"위한 영광을 찾거나, 고향의 부를 위해 보물을 찾거나, 종족의 숙적 손에 떨어진 드워프 성채를 수복하기 위해서 그들 마을의 경계를 "
+"떠납니다. 드워프들의 전쟁은 종종 땅굴 싸움과 근접 전투로 묘사되며, 또한 그러한 드워프들 대부분이 파이터나 바바리안같은 클래스를 "
+"선호합니다."
 
-#, fuzzy
 msgctxt "2f5546ac-f940-4e58-882e-19c4fbc0e48d"
 msgid "Dweomercat"
 msgstr "듀오머고양이"
 
-#, fuzzy
 msgctxt "09c6dc94-2504-4159-a50f-129a54ad3532"
 msgid "Eagle, Giant"
 msgstr "독수리, 거대"
 
-#, fuzzy
 msgctxt "824061f1-d257-42c6-bedc-71d0b07f0bb9"
 msgid "Elemental, Air"
 msgstr "정령, 공기"
 
-#, fuzzy
 msgctxt "b1943822-b6dc-4702-ac41-0ac58c81c2fc"
 msgid "Elemental, Earth"
 msgstr "정령, 대지"
 
-#, fuzzy
 msgctxt "7f0744a3-93b5-424f-936a-add17650cb1b"
 msgid "Elemental, Fire"
 msgstr "정령, 화염"
 
-#, fuzzy
 msgctxt "ece23243-5e7e-429e-8e39-723162a6492b"
 msgid ""
 "Water elementals are patient, relentless creatures made of living fresh or "
@@ -2423,12 +2275,10 @@ msgstr ""
 "얼굴과 양쪽에 물결같은 팔을 가진 파도처럼 생겼습니다. 또다른 평범한 형태는 상어, 문어와 같은 수생 생물들의 형상이지만, 이 역시 "
 "완전히 물로 이루어졌습니다."
 
-#, fuzzy
 msgctxt "21db350a-7f9b-4f58-a61f-abfd78bb895f"
 msgid "Elemental, Water"
 msgstr "정령, 물"
 
-#, fuzzy
 msgctxt "4cf48c7f-58a0-4fb2-9190-c8fd3fe40d8c"
 msgid "Elk"
 msgstr "엘크"
@@ -2439,93 +2289,74 @@ msgid ""
 "equipment — both weapons and armor."
 msgstr ""
 
-#, fuzzy
-#| msgid "Erinyes Devil"
 msgctxt "b304da29-747b-4e60-b7d9-60407c52cdfb"
 msgid "Erinyes"
-msgstr "에리니에스 데블"
+msgstr "에리니에스"
 
-#, fuzzy
 msgctxt "0e5c7cee-4f6d-4933-be3d-2c4b0de66f0b"
 msgid "Flytrap, Giant"
 msgstr "파리지옥, 거대"
 
-#, fuzzy
 msgctxt "9afee245-bb01-472a-91f0-a9dd61526477"
 msgid "Frog, Giant"
 msgstr "개구리, 거대"
 
-#, fuzzy
 msgctxt "4700e2ee-3606-45cf-ab9e-1dc5a6b79df7"
 msgid "Frost Giant"
 msgstr "서리 거인"
 
-#, fuzzy
 msgctxt "2ebcf659-dd49-4e05-b93f-4c2d0bb22f1c"
 msgid "Gargoyle"
 msgstr "가고일"
 
-#, fuzzy
 msgctxt "fafef5ca-29ed-42a8-b133-2c53152ac499"
 msgid "Ghost"
 msgstr "유령"
 
-#, fuzzy
 msgctxt "97d60242-1baf-48ee-9dd4-e41fd2617fab"
 msgid "Adventurers"
 msgstr "모험가"
 
-#, fuzzy
 msgctxt "9beb48b1-b5e4-4c54-90f6-cfd6889cbd2f"
 msgid "Adventurers"
 msgstr "모험가"
 
-#, fuzzy
 msgctxt "ee48f9cf-410f-4f95-8d0b-ff00e659bb6c"
 msgid "Relations"
 msgstr "관계"
 
-#, fuzzy
 msgctxt "ac0d0f0e-2a7d-4c05-addc-b654029c9c7b"
 msgid "Goblin"
 msgstr "고블린"
 
-#, fuzzy
 msgctxt "d50139bf-00a8-4c42-8966-b59194af8066"
 msgid "Golem, Adamantine"
 msgstr "아다만틴 골렘"
 
-#, fuzzy
 msgctxt "0c42ff0d-33a5-41b2-b0bc-4a2cd930eae1"
 msgid "Golem, Brass"
 msgstr "골렘, 황동"
 
-#, fuzzy
 msgctxt "3fd771f3-794f-4081-8fcf-85bf3921a323"
 msgid "Golem, Mud"
 msgstr "골렘, 진흙"
 
-#, fuzzy
 msgctxt "d6a8c0ed-9a66-4cf2-a18a-909b66099cc4"
 msgid "Golem, Gold"
 msgstr "골렘, 황금"
 
-#, fuzzy
 msgctxt "17c57056-c622-4219-9a6c-b738b2092f04"
 msgid "Golem, Iron"
 msgstr "골렘, 강철"
 
-#, fuzzy
 msgctxt "04917c1a-0010-4230-ab2e-fc074b4ce026"
 msgid "Golem, Stone"
 msgstr "골렘, 돌"
 
-#, fuzzy
 msgctxt "759da635-ed99-4590-96bc-69d6c574190f"
 msgid "Hag"
 msgstr "해그"
 
-#, fuzzy
 msgctxt "179e09e8-11a1-40e8-8fef-0a82c3cdc582"
 msgid "Hamadryad"
 msgstr "하마드라이어드"
@@ -2554,10 +2385,13 @@ msgid ""
 "Humans hail from myriad regions and backgrounds, and as such can fill any "
 "role within an adventuring party."
 msgstr ""
+"수많은 인간들이 야망을 쫒아 움직이며, 그들 대다수에게 모험은 부, 명예, 지위, 또는 마법적 지식과 같은 목적을 위한 수단 중 "
+"하나입니다. 반면 소수의 인간은 단지 위험으로 인한 전율만을 위해 모험을 떠납니다. 인간은 수많은 지역과 배경을 가지며, 그와 마찬가지로 "
+"모험 파티에서 다양한 역할을 맡을 수 있습니다."
 
 msgctxt "59129a0f-4d41-4bf7-a5b7-15f0e3c5d245"
 msgid "Adventurers"
-msgstr ""
+msgstr "모험가"
 
 msgctxt "5b3e4c81-6bd1-41d3-8425-ccd019beaa50"
 msgid ""
@@ -2583,7 +2417,7 @@ msgstr ""
 
 msgctxt "ce584983-3af0-470c-9747-7aae4720b56a"
 msgid "Relations"
-msgstr ""
+msgstr "관계"
 
 msgctxt "a24afe24-36d9-4124-b1c0-ddca7c645823"
 msgid ""
@@ -2603,39 +2437,32 @@ msgstr ""
 
 msgctxt "b3058284-2fb0-40c6-89f7-4eb827261f9e"
 msgid "Society"
-msgstr ""
+msgstr "사회"
 
-#, fuzzy
 msgctxt "ed2d7e37-6bf4-46d8-85b6-bd92d6ced126"
 msgid "Hydra"
 msgstr "히드라"
 
-#, fuzzy
 msgctxt "f10b2947-de3e-4032-81aa-dbb2aec2c940"
 msgid "Jabberwock"
 msgstr "재버워크"
 
-#, fuzzy
 msgctxt "9d9917e2-fddf-4a86-80a4-682fcf696d35"
 msgid "Kobold"
 msgstr "코볼트"
 
-#, fuzzy
 msgctxt "919c3a54-e712-468f-b956-dc12f8db2fe1"
 msgid "Leopard"
-msgstr "표범 (Leopard)"
+msgstr "표범"
 
-#, fuzzy
 msgctxt "21d5dc4c-bbe6-4e11-8c76-c7c6eefdc062"
 msgid "Level"
 msgstr "레벨"
 
-#, fuzzy
 msgctxt "9e851c12-d011-4b60-97f4-88db02de4523"
 msgid "Linnorm"
 msgstr "린놈"
 
-#, fuzzy
 msgctxt "45fd59d4-11dd-4d47-adad-6a2294edd9eb"
 msgid "Lizardfolk"
 msgstr "도마뱀인간"
@@ -2644,56 +2471,46 @@ msgctxt "b76908ca-eb89-43f9-a84a-95b087cf9850"
 msgid "Here you can find information on how magic works in the game."
 msgstr ""
 
-#, fuzzy
 msgctxt "b36e352d-ba58-4f2b-98bb-e1450ee6092d"
 msgid "Mastodon"
 msgstr "마스토돈"
 
-#, fuzzy
 msgctxt "a27a0390-e384-4bff-8457-1dcdf47ca3da"
 msgid "Medusa"
 msgstr "메두사"
 
-#, fuzzy
 msgctxt "dfe7250e-37f8-42d6-8994-5309e5106364"
 msgid "Mephit"
 msgstr "메피트"
 
-#, fuzzy
 msgctxt "f5cc11d8-afa1-4b10-b65c-6b86f5ba5aa2"
 msgid "Miscellaneous Actions"
 msgstr "기타 행동(Miscellaneous Actions)"
 
-#, fuzzy
 msgctxt "cfddda7e-db3a-40d5-bb98-bd81f6cd6feb"
 msgid "Mite"
 msgstr "마이트"
 
 msgctxt "5c5046a6-2718-46fc-bbce-be0562635120"
 msgid "Monadic Deva"
-msgstr ""
+msgstr "모나딕 데바"
 
-#, fuzzy
 msgctxt "ac3862a1-3d86-4882-b3cc-130d657331be"
 msgid "Monitor Lizard"
 msgstr "왕도마뱀"
 
-#, fuzzy
 msgctxt "4355ab7d-42de-495d-a99b-f8415bd85ca7"
 msgid "Movanic Deva"
 msgstr "모바닉 데바"
 
-#, fuzzy
 msgctxt "baf3b6c5-8eae-4c22-9bfc-682d1ce496fe"
 msgid "Nereid"
 msgstr "네레이드"
 
-#, fuzzy
 msgctxt "731737e0-3dca-4d56-a45f-9ae030001b77"
 msgid "Nightmare"
 msgstr "나이트메어"
 
-#, fuzzy
 msgctxt "cb8c351e-e587-4844-a7c8-a56508b22d3a"
 msgid "Nixie"
 msgstr "닉시"
@@ -2703,17 +2520,14 @@ msgctxt "bc3dddac-7325-496d-ab33-9471ec596738"
 msgid "Not an Action"
 msgstr "행동이라 할 수 없는 것"
 
-#, fuzzy
 msgctxt "d5b64eb2-274f-4c10-8f5c-8196bd15d433"
 msgid "Nymph"
 msgstr "님프"
 
-#, fuzzy
 msgctxt "4d839e1a-7c82-456c-aa2a-735752d44ea2"
 msgid "Owlbear"
 msgstr "아울베어"
 
-#, fuzzy
 msgctxt "a0e6385f-11c0-4ea4-bb4b-fa83128ee13b"
 msgid ""
 "Raised from the corpses of knights and soldiers slain by treachery rather "
@@ -2728,53 +2542,33 @@ msgid ""
 "Phantom armors come in many shapes and sizes; some appear to be nothing more "
 "than animate helms while others resemble armored giants."
 msgstr ""
-"전투가 아닌 배신이나 전쟁의 열기 속에서조차 범죄로 간주될 만한 대립구도로 인해 죽은 기사와 전사의 시체에서 생긴 유령 갑옷은 그들이 "
-"원하는대로 걸어다니거나 떠다니는, 살아 움직이는 갑옷의 형상입니다. 대부분의 유령 갑옷은 회랑과 그들이 살해당한 파괴된 전장에 출몰하며, "
-"자신을 살해한 자에게 복수하려하며, 불가능함이 증명된 경우 다시금 전투 할 기회를 줄 수 있는 모든 살아있는 생물들과 맞섭니다. 또한 "
-"악랄한 네크로맨서들은 폭력적인 영혼들을 갑옷에 정착시키는 방법을 발견했으며, 차가운 폭력과 끝없는 고통이 결합된 으스스한 하수인을 "
-"만들어냅니다. 유령 갑옷의 크기와 형태는 다양합니다; 어떤 것들은 살아 움직이는 투구일 뿐이지만, 다른것들은 완전 무장한 거인과 "
-"비슷합니다."
+"전투가 아닌, 배신이나 전쟁의 열기 속에서조차 범죄로 간주될 만한 대립으로 인해 죽은 기사와 전사의 시체에서 생긴 유령 갑옷은 그들이 "
+"원하는대로 걸어다니거나 떠다니는, 살아 움직이는 갑옷의 형상입니다. 대부분의 유령 갑옷은 회랑이나 그들이 살해당했던 파괴된 전장에 "
+"출몰하고, 자신을 살해한 자에게 복수하려하며, 불가능함이 증명된 경우 다시금 전투 할 기회를 줄 수 있는 모든 살아있는 생물들과 "
+"맞섭니다. 또한 악랄한 네크로맨서들은 폭력적인 영혼들을 갑옷에 정착시키는 방법을 발견했으며, 차가운 폭력과 끝없는 고통이 결합된 으스스한 "
+"하수인을 만들어냅니다. 유령 갑옷의 크기와 형태는 다양합니다. 어떤 것들은 살아 움직이는 투구일 뿐이지만, 다른 것들은 완전 무장한 "
+"거인과 비슷합니다."
 
-#, fuzzy
 msgctxt "e20867b1-1d4e-41b3-adcb-6c0304479754"
 msgid "Phantom Armor"
 msgstr "유령 갑옷"
 
-#, fuzzy
 msgctxt "5490b5c3-1f23-4805-8e2a-96d8402a462e"
 msgid "Pony"
 msgstr "조랑말"
 
-#, fuzzy
-#| msgid "Prestige classes"
 msgctxt "f1b44c7b-5331-4be4-a969-b5400fcc1785"
 msgid "Prestige Classes"
 msgstr "상위직"
 
-#, fuzzy
 msgctxt "6d79e280-eab1-4fb9-b761-259737832597"
 msgid "Purple Worm"
 msgstr "퍼플 웜"
 
-#, fuzzy
 msgctxt "6f2ff815-4662-4f5f-8c12-2c0f5d5d48ad"
 msgid "Quickwood"
 msgstr "퀵우드"
 
-#, fuzzy
-#| msgid ""
-#| "Race is an important part of what makes characters who they are. It both "
-#| "provides a starting point for character creation and sets the tone for a "
-#| "character as it progresses. Race mixes biology and culture, then translates "
-#| "those concepts into racial traits. Yet since both biology and culture are "
-#| "mutable—especially when one considers the powerful forces of magic—racial "
-#| "traits can be so diverse that two elves can be extremely different while "
-#| "still manifesting aspects of their shared heritage and culture. A race's "
-#| "traits, its history, its relations with other races, and the culture that "
-#| "all of these things imply—all of these frame your character. Each race lists "
-#| "the languages a character of that race automatically knows, as well as a "
-#| "number of bonus languages it may learn. A character knows a number of "
-#| "additional bonus languages equal to his or her Intelligence modifier."
 msgctxt "40762652-57ae-4a6e-83fa-bde83e63e357"
 msgid ""
 "{g|Encyclopedia:Race}Race{/g} is an important part of what makes characters "
@@ -2792,44 +2586,38 @@ msgid ""
 "character knows a number of additional bonus languages equal to his or her "
 "{g|Encyclopedia:Intelligence}Intelligence{/g} modifier."
 msgstr ""
-"종족은 캐릭터를 만드는데 있어 중요한 부분입니다. 캐릭터 생성 과정에서 그들의 기초 점수와 캐릭터의 목소리를 설정하는데 모두 중요한 "
-"정보를 제공합니다. 종족은 문화와 일대기를 혼합하며, 그 뒤 그것들에서 추출한 개념을 종족 특성으로 변환합니다. 특히 누군가가 강력한 "
-"마법의 힘을 고려하는 경우라면 일대기와 문화는 변할수 있습니다만, 종족 특성은 매우 다양하기에 두 명의 엘프가 유산과 문화를 공유하더라도 "
-"극단적으로 다르게 만들 수 있습니다. 종족의 특성, 역사, 다른 종과의 관계, 그리고 그들이 살아온 문화권 모두가 당신의 캐릭터를 "
-"정의합니다. 각 종족들은 해당 종족이 자연스럽게 획득하는 언어와 추가로 배울수 있는 언어들 목록이 있습니다. 캐릭터는 그들의 지능 "
-"수정치만큼 추가 언어를 습득할 수 있습니다."
+"{g|Encyclopedia:Race}종족{/g}은 캐릭터를 만드는데 있어 중요한 부분입니다. 캐릭터 생성 과정에서 그들의 기초 점수와 "
+"캐릭터의 목소리를 설정하는데 모두 중요한 정보를 제공합니다. 종족은 문화와 일대기를 혼합하며, 그 뒤 그것들에서 추출한 개념을 종족 "
+"{g|Encyclopedia:Trait}특성{/g}으로 변환합니다. 특히 누군가가 강력한 마법의 힘을 고려하는 경우라면 일대기와 문화는 "
+"변할수 있습니다만, 종족 특성은 매우 다양하기에 두 명의 엘프가 유산과 문화를 공유하더라도 극단적으로 다르게 만들 수 있습니다. 종족의 "
+"특성, 역사, 다른 종과의 관계, 그리고 그들이 살아온 문화권 모두가 당신의 캐릭터를 정의합니다. 각 종족들은 해당 종족이 자연스럽게 "
+"획득하는 언어와 추가로 배울수 있는 언어들 목록이 있습니다. 캐릭터는 그들의 "
+"{g|Encyclopedia:Intelligence}지능{/g} 수정치만큼 추가 언어를 습득할 수 있습니다."
 
-#, fuzzy
 msgctxt "8d311cf9-f8aa-4b99-acab-5271bc2c743c"
 msgid "Redcap"
 msgstr "레드캡"
 
-#, fuzzy
 msgctxt "19cd6aba-01d4-4024-9289-fecb708b2755"
 msgid "Restricted Activity"
 msgstr "제한된 행동"
 
-#, fuzzy
 msgctxt "aa4b9724-db3f-4c71-9157-0a1e049e042d"
 msgid "Roc"
 msgstr "로크"
 
-#, fuzzy
 msgctxt "d7666f54-2ebd-4275-b14b-fcce407138ba"
 msgid "Satyrs"
 msgstr "사티로스"
 
-#, fuzzy
 msgctxt "8a8b4f43-1e8a-4e86-a024-f7d3cef1c09b"
 msgid "Scythe Tree"
 msgstr "대낫 나무"
 
-#, fuzzy
 msgctxt "51ae8c0c-0ffc-4f49-929b-a32b702b7622"
 msgid "Shambling Mound"
-msgstr "샘블링 마운드"
+msgstr "섐블링 마운드"
 
-#, fuzzy
 msgctxt "03062e6b-40fc-4464-a5c2-faf2fb5da6c9"
 msgid "Shocker Lizard"
 msgstr "전기 도마뱀"
@@ -2839,21 +2627,6 @@ msgctxt "7b7f34d6-a52c-4c3a-b6d5-26d25e4692f1"
 msgid "Skeleton"
 msgstr "스켈레톤"
 
-#, fuzzy
-#| msgid ""
-#| "A skill represents a creature's ability to perform an ordinary task, such as "
-#| "climb a wall, sneak down a hallway, or spot an intruder. The number of ranks "
-#| "possessed by a creature in a given skill represents its proficiency in that "
-#| "skill.\n"
-#| "Determine the number of skill ranks your character gets based on his class "
-#| "and Intelligence modifier (and any other bonuses, such as the bonus received "
-#| "by <link=\"Encyclopedia:Humans\"><b>humans</b></link>). Then allocate these "
-#| "ranks to desired skills, but remember that you cannot have more ranks than "
-#| "your level in any one skill (for a starting character, this is usually one)."
-#| "\n"
-#| "Each level thereafter, your character gains a number of skill ranks "
-#| "dependent upon your class plus your Intelligence modifier. Investing a rank "
-#| "in a skill represents a measure of training in that skill."
 msgctxt "ff03bfa6-0137-4fe1-a3b4-e52c641aa035"
 msgid ""
 "A {g|Encyclopedia:Skills}skill{/g} represents a creature's ability to "
@@ -2870,31 +2643,27 @@ msgid ""
 "dependent upon your class plus your Intelligence modifier. Investing a rank "
 "in a skill represents a measure of training in that skill."
 msgstr ""
-"기술은 벽타기, 복도에 숨기, 또는 침입자 발견과 같은 일상적인 작업을 수행하는 크리처의 능력을 나타냅니다. 크리처가 가진 기술 등급은 "
-"기술의 숙련도를 나타냅니다.\n"
-"클래스와 지능 수정치 (그리고 <link=\"Encyclopedia:Humans\"><b>인간</b></link> 종족에 의해서 받을 수 "
-"있는 보너스와 같은 다른 보너스들)에 기반하여 당신의 캐릭터가 얻을 수 있는 기술 포인트가 결정됩니다. 그 뒤 원하는 기술의 등급을 올릴 "
-"수 있지만, 어떤 기술도 당신의 레벨보다 더 높은 등급을 가질 수 없다는걸 기억하십시오 (시작 캐릭터의 경우 보통 최대 등급은 1입니다)"
-". \n"
+"{g|Encyclopedia:Skills}기술{/g}이란 벽타기, 복도에 숨기, 또는 침입자 발견과 같은 일상적인 작업을 수행하는 "
+"크리처의 능력을 나타냅니다. 크리처가 가진 기술 등급은 기술의 숙련도를 나타냅니다.\n"
+"클래스와 {g|Encyclopedia:Intelligence}지능{/g} 수정치, 그리고 인간 종족이 받을 수 있는 "
+"{g|Encyclopedia:Bonus}보너스{/g}와 같은 다른 보너스들에 기반해 당신의 캐릭터가 얻을 수 있는 기술 포인트가 "
+"결정됩니다. 그 뒤 원하는 기술의 등급을 올릴 수 있지만, 어떤 기술도 당신의 레벨보다 더 높은 등급을 가질 수 없다는걸 기억하십시오. "
+"보통의 경우, 시작 캐릭터의 최대 기술 등급은 1입니다. \n"
 "각 레벨마다, 당신의 캐릭터는 클래스와 지능 수정치를 더해서 결정되는 기술 포인트를 받을 수 있습니다. 기술 등급을 올리는 것은 그 "
 "기술의 숙련도를 나타냅니다."
 
-#, fuzzy
 msgctxt "65a32c3a-bf74-4529-9a7e-ed35a2901c3a"
 msgid "Slug, Giant"
-msgstr "거대 달팽이"
+msgstr "달팽이, 거대"
 
-#, fuzzy
 msgctxt "60368d19-dc54-4e91-a051-d26dfb3b6c55"
 msgid "Slurk"
 msgstr "슬럭"
 
-#, fuzzy
 msgctxt "5242a631-a143-4c78-9316-d51ecde3fc42"
 msgid "Smilodon"
 msgstr "검치호"
 
-#, fuzzy
 msgctxt "b9519e71-a0d5-42a4-8fc5-2696c85744ef"
 msgid "Soul Eater"
 msgstr "소울 이터"
@@ -2902,10 +2671,8 @@ msgstr "소울 이터"
 #, fuzzy
 msgctxt "95941929-3055-435c-99ae-e028cf07ad02"
 msgid "Special Spell Effects"
-msgstr "특수 주문 효과"
+msgstr "특수 주문 효과 (Special Spell Effects)"
 
-#, fuzzy
-#| msgid "Spectre"
 msgctxt "4cc67d4a-3823-44eb-978d-09e6c1bd7194"
 msgid "Specter"
 msgstr "망령"
@@ -2913,49 +2680,47 @@ msgstr "망령"
 #, fuzzy
 msgctxt "79ec53a2-0e49-4397-9f07-537dc0c060a0"
 msgid "Spell"
-msgstr "주문"
+msgstr "주문 (Spell)"
 
 #, fuzzy
 msgctxt "3dc6d2e5-09a1-45ea-856e-6d3352fc5cb1"
 msgid "Spell Attacks"
-msgstr "특수 공격"
+msgstr "주문 공격 (Spell Attacks)"
 
 #, fuzzy
 msgctxt "394fef69-7d05-4b5c-80a9-c8fdea0e0942"
 msgid "Spell Conversion"
-msgstr "주문 변환"
+msgstr "주문 변환 (Spell Conversion)"
 
 #, fuzzy
 msgctxt "f88483a7-72dd-4b78-8e14-032c19232901"
 msgid "Duration"
-msgstr "지속"
+msgstr "지속 시간 (Duration)"
 
 #, fuzzy
 msgctxt "1f5ba86b-e8bf-4fd3-8b10-42474d804aab"
 msgid "Spell Failure"
-msgstr "주문 실패"
+msgstr "주문 실패 (Spell Failure)"
 
 #, fuzzy
 msgctxt "b37ae1aa-4402-4008-934c-358a4b9bdfa4"
 msgid "Injury"
-msgstr "부상"
+msgstr "부상 (Injury)"
 
 #, fuzzy
 msgctxt "58aa82d8-18dc-411f-a775-169c9e4a01ae"
 msgid "Spell Result"
-msgstr "주문 결과"
+msgstr "주문 결과 (Spell Result)"
 
 #, fuzzy
 msgctxt "529e1b82-89ec-4802-94b8-90d932abcc5d"
 msgid "Spider Swarm"
 msgstr "거미떼"
 
-#, fuzzy
 msgctxt "3bcdfbb7-8ea2-4350-8b05-8bc5f3d768a7"
 msgid "Spider"
 msgstr "거미"
 
-#, fuzzy
 msgctxt "15eee1ab-7e08-41de-b554-9d88acbd25e5"
 msgid "Spriggan"
 msgstr "스프리건"
@@ -2963,41 +2728,36 @@ msgstr "스프리건"
 #, fuzzy
 msgctxt "fcc6ab9c-62a5-4442-bb52-0ccade32d7f1"
 msgid "Stacking Effects"
-msgstr "적층 효과"
+msgstr "중첩 효과 (Stacking Effects)"
 
-#, fuzzy
 msgctxt "9599d561-4fdb-4d28-8447-2891def01783"
 msgid "Tatzlwyrm"
 msgstr "타츨웜"
 
-#, fuzzy
 msgctxt "46ed6a69-0c3c-405c-b85f-7a442a9f8120"
 msgid "Thanadaemon"
 msgstr "타나다이몬"
 
-#, fuzzy
 msgctxt "dc17458c-8b64-46b8-a8da-2d6251f080b6"
 msgid "Thylacine"
 msgstr "주머니늑대"
 
-#, fuzzy
 msgctxt "bbf8e4dd-0ac0-4caa-8437-3f241e22b598"
 msgid "Treant"
 msgstr "트리엔트"
 
-#, fuzzy
 msgctxt "da1e24e8-843f-408b-a750-0605b8c87084"
 msgid "Trollhound"
 msgstr "트롤 사냥개"
 
-#, fuzzy
 msgctxt "26eed2fb-2f30-4e07-9312-1645bb851da7"
 msgid "Trolls"
 msgstr "트롤"
 
+#, fuzzy
 msgctxt "97123535-7f3e-46a0-95db-71e706f860a3"
 msgid "[draft] Crusade Tutorial"
-msgstr ""
+msgstr "[draft] 성전 튜토리얼"
 
 msgctxt "16ca85b5-c9c5-4c75-bd14-8e6f7d6e1932"
 msgid ""
@@ -3006,57 +2766,46 @@ msgid ""
 "game Pathfinder: Wrath of the Righteous."
 msgstr ""
 
-#, fuzzy
 msgctxt "2b4c5cbf-d994-4b73-b378-9abdf145aa10"
 msgid "Unicorn"
 msgstr "유니콘"
 
-#, fuzzy
 msgctxt "48907212-319c-4dd7-b489-ba82797883c1"
 msgid "Vilderavn"
 msgstr "빌데라븐"
 
-#, fuzzy
 msgctxt "877f2aa5-596b-46a6-824d-174949210a68"
 msgid "Wererat"
 msgstr "쥐인간"
 
-#, fuzzy
 msgctxt "9bc3fa6c-d4ab-4189-95b2-15fb47e28554"
 msgid "Weretiger"
 msgstr "호랑이인간"
 
-#, fuzzy
 msgctxt "3cbd9185-dbb0-458e-b199-e4e3160854be"
 msgid "Werewolf"
 msgstr "늑대인간"
 
-#, fuzzy
 msgctxt "095f49a5-eda4-45ec-af24-0dac84da3cc2"
 msgid "Wild Hunt"
 msgstr "와일드 헌트"
 
-#, fuzzy
 msgctxt "9b6bb33e-3d37-42d3-847d-84f7093cb0b1"
 msgid "Will-o'-Wisp"
 msgstr "윌-오-위습"
 
-#, fuzzy
 msgctxt "ed652230-561a-4112-9c7c-8c22270c545d"
 msgid "Wolf"
 msgstr "늑대"
 
-#, fuzzy
 msgctxt "d30c6530-1ed2-447a-8380-a8bd200d2332"
 msgid "Worg"
 msgstr "워그"
 
-#, fuzzy
 msgctxt "14873288-d686-4267-9ccc-0013ee3fe42b"
 msgid "Wyvern"
 msgstr "와이번"
 
-#, fuzzy
 msgctxt "72c61098-deb9-43a3-971e-09b01d6188d5"
 msgid "Zombie"
 msgstr "좀비"
@@ -3064,12 +2813,12 @@ msgstr "좀비"
 #, fuzzy
 msgctxt "0152df1b-8595-4a5e-a303-7572d9f4b54c"
 msgid "Antimagic"
-msgstr "반마법"
+msgstr "반마법 (Antimagic)"
 
 #, fuzzy
 msgctxt "1f0571f0-749f-43cf-8ec2-52c92e17264f"
 msgid "Arcane Spells"
-msgstr "비전 주문"
+msgstr "비전 주문 (Arcane Spells)"
 
 #, fuzzy
 msgctxt "6640238b-7e89-4e8c-af5c-70e221e64e8c"
@@ -3085,6 +2834,8 @@ msgid ""
 "This is a +3 adamantine half-plate. As long as its wearer is mounted, it "
 "grants them additional {g|Encyclopedia:Damage_Reduction}DR{/g} 3/-."
 msgstr ""
+"이 +3 아다만틴 반신 판금갑옷은 착용자가 탑승 중인 경우 {g|Encyclopedia:Damage_Reduction}DR{/g} 3/-"
+"을 제공합니다."
 
 msgctxt "09ea8b26-ffac-4f2b-86cc-9e37847e4d15"
 msgid "Count"
@@ -3100,6 +2851,8 @@ msgid ""
 "they become immune to mind-affecting conditions for 3 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 저항의 망토 +2의 착용자가 적을 죽일 때마다, 3 {g|Encyclopedia:Combat_Round}라운드{/g}간 정신 영향 "
+"효과에 면역이 됩니다."
 
 msgctxt "15290f8c-372f-46f0-af9b-7f21bd947f09"
 msgid ""
@@ -3191,19 +2944,14 @@ msgctxt "8e6ec005-8b20-4f29-8188-d14253535a55"
 msgid "Rod of Corruption"
 msgstr ""
 
-#, fuzzy
-#| msgid ""
-#| "You are currently in a place where a friendly cleric can read this scroll "
-#| "for you. To cast this spell on a party member, just use the scroll in that "
-#| "character's inventory."
 msgctxt "dde7656b-7251-4aba-8a00-d2dd593c14a2"
 msgid ""
 "You are currently in a place where a friendly cleric can read this scroll "
 "for you. To cast this {g|Encyclopedia:Spell}spell{/g} on a party member, "
 "just use the scroll in that character's inventory."
 msgstr ""
-"현재 우호적인 성직자가 이 두루마리를 읽어줄 수 있는 장소에 있습니다. 일행에게 이 주문을 시전하려면 해당 캐릭터의 인벤토리에서 이 "
-"두루마리를 사용하십시오."
+"현재 우호적인 성직자가 이 두루마리를 읽어줄 수 있는 장소에 있습니다. 일행에게 이 {g|Encyclopedia:Spell}주문{/g}을 "
+"시전하려면 해당 캐릭터의 인벤토리에서 이 두루마리를 사용하십시오."
 
 msgctxt "9fca44cd-c7cf-432c-a4a8-8c796106b46b"
 msgid "Leadership"
@@ -3261,7 +3009,7 @@ msgctxt "ebf05335-868e-4799-b352-a6be8818ca05"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} functions like bolt of justice, except "
 "it affects multiple creatures."
-msgstr ""
+msgstr "이 {g|Encyclopedia:Spell}주문{/g}은 정의의 번개처럼 기능하지만, 여러 크리처에 영향을 미칩니다."
 
 msgctxt "9b0448d6-abe8-4617-a4ab-cc5f737e8b0a"
 msgid "Storm of Justice"
@@ -3269,7 +3017,7 @@ msgstr "정의의 폭풍"
 
 msgctxt "d3b336ce-bee3-470f-8134-2e5296f0478c"
 msgid "Bolt of Justice"
-msgstr ""
+msgstr "정의의 번개"
 
 msgctxt "580871fd-4600-4ac4-9007-1b086534f30a"
 msgid ""
@@ -3300,12 +3048,12 @@ msgstr ""
 "{g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 실패하면 쓰러집니다.\n"
 "만약 대상이 악 성향이면, 이 {g|Encyclopedia:Spell}주문{/g}은 대신 시전자 레벨당 1d8 점의 "
 "{g|Encyclopedia:Energy_Damage}신성 피해{/g}를 가합니다. 대상이 반사 내성 굴림에 실패하면 쓰러지며 "
-"{g|Encyclopedia:Armor_Class}AC{/g}, {g|Encyclopedia:Attack}공격 굴림{/g}, 내성 굴림에 "
+"{g|Encyclopedia:Armor_Class}AC{/g}, {g|Encyclopedia:Attack}명중 굴림{/g}, 내성 굴림에 "
 "-2 의 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다.\n"
 "만약 대상이 악 성향의 외차원체나 언데드라면, 이 주문은 대신 시전자 레벨 당 1d10 점의 신성 피해를 가합니다. 대상이 반사 내성 "
-"굴림에 실패하면 쓰러지며 AC, 공격 굴림, 내성 굴림에 -4 의 페널티를 받습니다.\n"
+"굴림에 실패하면 쓰러지며 AC, 명중 굴림, 내성 굴림에 -4 의 페널티를 받습니다.\n"
 "만약 대상이 악마 군주, 악 성향 드래곤이거나 언데드 군주(리치, 언데드 드래곤, 나이트셰이드와 같은 강력한 언데드)일 경우, 이 주문은 "
-"대신 시전자 레벨 당 1d12 점의 신성 피해를 가합니다. 대상은 AC, 공격 굴림, 내성 굴림에 -4 의 페널티를 받으며, 반사 내성 "
+"대신 시전자 레벨 당 1d12 점의 신성 피해를 가합니다. 대상은 AC, 명중 굴림, 내성 굴림에 -4 의 페널티를 받으며, 반사 내성 "
 "굴림에 실패하면 쓰러집니다."
 
 msgctxt "f85125f6-7ed6-41f4-95ce-8241d7c8b76d"
@@ -3316,6 +3064,9 @@ msgid ""
 "{g|Encyclopedia:Skills}skill checks{/g}, while each of your foes takes a -2 "
 "{g|Encyclopedia:Penalty}penalty{/g} on such {g|Encyclopedia:Dice}rolls{/g}."
 msgstr ""
+"당신과 다른 아군들이 {g|Encyclopedia:Attack}명중 굴림{/g}, 무기 {g|Encyclopedia:Damage}피해 "
+"굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}, {g|Encyclopedia:Skills}기술 "
+"판정{/g}에 +2 행운 {g|Encyclopedia:Bonus}보너스{/g}를 받으며, 적들은 이러한 굴림에 -2 페널티를 받습니다."
 
 msgctxt "c224b825-924c-45cf-9d49-8b0550e4508d"
 msgid ""
@@ -3325,6 +3076,9 @@ msgid ""
 "{g|Encyclopedia:Skills}skill checks{/g}, while each of your foes takes a -2 "
 "{g|Encyclopedia:Penalty}penalty{/g} on such {g|Encyclopedia:Dice}rolls{/g}."
 msgstr ""
+"당신과 다른 아군들이 {g|Encyclopedia:Attack}명중 굴림{/g}, 무기 {g|Encyclopedia:Damage}피해 "
+"굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}, {g|Encyclopedia:Skills}기술 "
+"판정{/g}에 +2 행운 {g|Encyclopedia:Bonus}보너스{/g}를 받으며, 적들은 이러한 굴림에 -2 페널티를 받습니다."
 
 msgctxt "038c85cf-dbc4-45fc-84dd-0bbeac6fdfca"
 msgid ""
@@ -3341,6 +3095,9 @@ msgid ""
 "twice, and chooses the best result. She is proficient with all types of "
 "weapons and armor, and can wear and wield any equipment she wants."
 msgstr ""
+"아자타는 모든 {g|Encyclopedia:Skills}기술 판정{/g}에 자신의 신화 레벨과 동일한 값의 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 또한 기술 판정을 할 때, 주사위를 두 번 굴려서 더 나은 결과를 "
+"취합니다. 아자타는 모든 종류의 무기와 갑옷에 숙련되며, 어떠한 장비라도 착용할 수 있습니다."
 
 msgctxt "7d29f671-ed39-45ae-a440-0b50e9495bb5"
 msgid "All-skilled"
@@ -13933,7 +13690,7 @@ msgstr ""
 "캐릭터의 힘이 0으로 떨어지면, 너무 약해져서 움직일 수 없고 무의식 중에 빠지게 됩니다. 어떤 크리처는 (비실체 유령 등) 힘을 가지고 "
 "있지 않으며 힘 기반 기술이나 판정에 수정치를 전혀 가지고 있지 않습니다.\n"
 "캐릭터의 힘 수정치는 다음에 적용됩니다: \n"
-"근접 공격 굴림.\n"
+"근접 명중 굴림.\n"
 "운동 및 힘 판정. (문을 부술 때 등등) \n"
 "근접 무기나 슬링을 포함한 투척 무기를 사용할 때 피해 굴림. 반대손 공격은 캐릭터의 힘 보너스의 절반만 받고, 양손 공격은 힘 보너스의 "
 "1.5 배를 받습니다. 합성궁이 아닌 활에는 힘 보너스가 적용되지 않지만, 힘 페널티는 모든 활에 적용됩니다."
@@ -15004,7 +14761,7 @@ msgid ""
 "to your Will saving throws."
 msgstr ""
 "의지는 마법적 효과 등이 정신에 끼치는 영향에 대한 저항력을 말합니다.\n"
-"대부분의 경우 마법적이거나 특이한 공격을 받으면 그 효과를 피하거나 줄이기 위해 내성을 굴립니다. 공격 굴림과 마찬가지로, 내성 굴림은 "
+"대부분의 경우 마법적이거나 특이한 공격을 받으면 그 효과를 피하거나 줄이기 위해 내성을 굴립니다. 명중 굴림과 마찬가지로, 내성 굴림은 "
 "d20 굴림에 클래스와 레벨 및 관련 능력에 따라 보너스가 더해집니다. 지혜 수정치는 당신의 의지 내성 굴림에 더해집니다."
 
 #, fuzzy
@@ -15034,7 +14791,7 @@ msgid ""
 "modifier is added to your Fortitude saving throws."
 msgstr ""
 "인내는 육체적으로 가혹한 상황이나 활력 및 건강에 대한 공격에 견딜 수 있는 능력을 말합니다.\n"
-"대부분의 경우 마법적이거나 특이한 공격을 받으면 그 효과를 피하거나 줄이기 위해 내성을 굴립니다. 공격 굴림과 마찬가지로, 내성 굴림은 "
+"대부분의 경우 마법적이거나 특이한 공격을 받으면 그 효과를 피하거나 줄이기 위해 내성을 굴립니다. 명중 굴림과 마찬가지로, 내성 굴림은 "
 "d20 굴림에 클래스와 레벨 및 관련 능력에 따라 보너스가 더해집니다. 건강 수정치는 당신의 인내 내성 굴림에 더해집니다."
 
 #, fuzzy
@@ -15064,7 +14821,7 @@ msgid ""
 "saving throws."
 msgstr ""
 "반사는 범위 공격이나 예기치 않은 상황을 피하는 능력을 말합니다.\n"
-"대부분의 경우 마법적이거나 특이한 공격을 받으면 그 효과를 피하거나 줄이기 위해 내성을 굴립니다. 공격 굴림과 마찬가지로, 내성 굴림은 "
+"대부분의 경우 마법적이거나 특이한 공격을 받으면 그 효과를 피하거나 줄이기 위해 내성을 굴립니다. 명중 굴림과 마찬가지로, 내성 굴림은 "
 "d20 굴림에 클래스와 레벨 및 관련 능력에 따라 보너스가 더해집니다. 민첩 수정치는 당신의 반사 내성 굴림에 더해집니다."
 
 #, fuzzy
@@ -15269,7 +15026,7 @@ msgid ""
 "result equals or exceeds your target's {g|Encyclopedia:Armor_Class}Armor "
 "Class{/g}, you hit them and inflict {g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
-"공격 굴림은 자신의 턴에 상대방을 공격하려는 시도를 나타냅니다. 공격 굴림을 할 때, d20을 굴리고 공격 보너스를 추가합니다. 다른 "
+"명중 굴림은 자신의 턴에 상대방을 공격하려는 시도를 나타냅니다. 명중 굴림을 할 때, d20을 굴리고 공격 보너스를 추가합니다. 다른 "
 "수정치도 적용될 수 있습니다. 결과가 목표의 방어도 이상일 경우, 명중하고 피해를 입힙니다."
 
 #, fuzzy
@@ -15327,9 +15084,9 @@ msgid ""
 "add the rolls together. Unless otherwise specified, you roll for damage "
 "twice."
 msgstr ""
-"공격 굴림에서 순수 20이 (d20에서 20이 나왔을 때) 나오면, 대상의 방어도와 상관없이 공격이 명중하고, \"위협\"에 성공한 "
+"명중 굴림에서 순수 20이 (d20에서 20이 나왔을 때) 나오면, 대상의 방어도와 상관없이 공격이 명중하고, \"위협\"에 성공한 "
 "것으로 간주합니다. 이는 공격이 치명타가 될 수 있음을 의미합니다. 치명타를 \"확정\"하기 위해서는 추가의 굴림이 필요하며, 이 굴림은 "
-"바로 전의 공격 굴림과 같은 수정치를 사용합니다. 이 확정 굴림이 대상의 AC를 난이도로 해서 다시 성공하면 이전에 굴렸었던 공격 굴림의 "
+"바로 전의 명중 굴림과 같은 수정치를 사용합니다. 이 확정 굴림이 대상의 AC를 난이도로 해서 다시 성공하면 이전에 굴렸었던 명중 굴림의 "
 "결과가 치명타가 됩니다. 확정 굴림이 빗나갔다면 이전의 결과는 보통의 명중이 됩니다.\n"
 "치명타인 경우 일반적인 모든 보너스를 더한 피해 굴림을 두 번 이상 굴리고, 그 값을 모두 더합니다. 특별한 언급이 없는 경우 피해 "
 "굴림은 두 번 합니다."
@@ -15799,7 +15556,7 @@ msgid ""
 "armor and bracers of armor."
 msgstr ""
 "어떤 공격은 방패와 자연 방어를 포함한 갑옷을 완전히 무시합니다. 이런 공격들은 단순히 대상과 접촉하기만 해도 효과가 발휘됩니다. 이 "
-"경우 공격자는 접촉 공격 굴림을 (원거리 또는 근접) 합니다. 접촉 공격의 대상이 될 때, 캐릭터의 AC에는 갑옷 보너스, 방패 보너스, "
+"경우 공격자는 접촉 명중 굴림을 (원거리 또는 근접) 합니다. 접촉 공격의 대상이 될 때, 캐릭터의 AC에는 갑옷 보너스, 방패 보너스, "
 "자연 방어 보너스가 적용되지 않습니다. 그러나 크기 수정치, 민첩 수정치, 굴절 보너스와 같은 다른 모든 수정치는 정상적으로 적용됩니다. "
 "일부 크리처는 비실체 접촉 공격을 할 수 있습니다. 이러한 공격은 갑옷과 방패처럼 단단한 물체를 통과하여 뚫습니다. 비실체 접촉 공격은 "
 "정상적인 접촉 공격과 비슷하지만 은폐로 인한 보너스들도 무시합니다. 무형의 접촉 공격은 마법사의 갑옷 주문이나 방어의 팔찌와 같이 역장 "
@@ -16875,7 +16632,7 @@ msgstr "소형 망치"
 
 msgctxt "d5b40349-ac66-43f5-aaef-27f4fc727b8d"
 msgid "Dagger"
-msgstr "대거"
+msgstr "단검"
 
 msgctxt "67d0d694-8505-4155-bdff-e22f8235ded2"
 msgid "Light Pick"
@@ -22748,10 +22505,9 @@ msgstr ""
 "<align=center>[H] 키를 눌러 선택한 유닛들을 위치고수 상태로 만듭니다. 캐릭터들은 장거리 무기나 주문으로 적들을 계속 "
 "공격할 것입니다.</align>"
 
-#, fuzzy
 msgctxt "b980184f-2078-49b9-a563-e39df6a01ec5"
 msgid "Hold"
-msgstr "대기"
+msgstr "위치 사수"
 
 #, fuzzy
 msgctxt "a444ce22-d307-422f-b36d-2d632f7e0a69"
@@ -23506,7 +23262,7 @@ msgid ""
 "Attack roll: {roll} (roll: {d20} + modifiers: {mod})"
 msgstr ""
 "{source}\n"
-"공격 굴림: {roll} (굴림 결과: {d20} + 수정치: {mod})"
+"명중 굴림: {roll} (굴림 결과: {d20} + 수정치: {mod})"
 
 msgctxt "fcf23ca5-b00b-47aa-9d71-50b5c77289c3"
 msgid ""
@@ -23514,7 +23270,7 @@ msgid ""
 "Attack roll: {roll} (roll: {d20} + modifiers: {mod})"
 msgstr ""
 "{target}\n"
-"공격 굴림: {roll} (굴림 결과: {d20} + 수정치: {mod})"
+"명중 굴림: {roll} (굴림 결과: {d20} + 수정치: {mod})"
 
 msgctxt "7c7a62db-6893-45ba-bb1a-d293e55b653e"
 msgid "Sneak attack!"
@@ -24979,7 +24735,7 @@ msgid ""
 "{g|Encyclopedia:Ability_Scores}ability checks{/g}. Shaken is a less severe "
 "state of fear than frightened or panicked."
 msgstr ""
-"동요 상태는 {g|Encyclopedia:Attack}공격 굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 "
+"동요 상태는 {g|Encyclopedia:Attack}명중 굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 "
 "굴림{/g}, {g|Encyclopedia:Skills}기술 판정{/g}, {g|Encyclopedia:Ability_Scores}능력치 "
 "판정{/g}에 -2 의 {g|Encyclopedia:Penalty}페널티{/g}를 줍니다. 동요는 겁먹음 상태나 공황 상태에 비해 조금 "
 "덜 심각한 공포 계열 상태에 해당합니다."
@@ -27312,7 +27068,7 @@ msgctxt "075308b6-8f64-40e4-9c5b-01972af68af2"
 msgid ""
 "The stone throne that the cultists erected for Woljif does not look very "
 "comfortable."
-msgstr ""
+msgstr "광신도들이 울지프를 위해 만든 돌로 된 왕좌입니다. 그다지 편해 보이지는 않습니다."
 
 msgctxt "d4644063-d515-4ba8-9c4a-c0e665c8898f"
 msgid "Burn down"
@@ -52972,7 +52728,7 @@ msgid ""
 "Whenever a fey successfully hits the wearer, that fey has to succeed at a "
 "Will saving throw or become frightened for 1d4 rounds."
 msgstr ""
-"이 손목보호구 착용자가 동요 상태가 되면, 해당 효과를 무효화하고, 착용자에게 같은 시간 동안 공격 굴림, 내성 굴림 및 스킬 체크에 +"
+"이 손목보호구 착용자가 동요 상태가 되면, 해당 효과를 무효화하고, 착용자에게 같은 시간 동안 명중 굴림, 내성 굴림 및 스킬 체크에 +"
 "2 사기 보너스를 부여합니다.\n"
 "착용자가 겁에 질림 상태나 혼란 상태가 되면, 마치 끔찍한 웃음 주문의 효과 아래 있는 것처럼 착용자는 상태이상 대신에 같은 시간동안 "
 "웃기 시작합니다.\n"
@@ -53099,7 +52855,7 @@ msgid ""
 "Whenever the wearer receives a critical hit, they become confused for 1d4 "
 "rounds."
 msgstr ""
-"이 반지는 착용자의 매력에 +4 강화 보너스, 은신과 손기술 스킬 굴림에 +4 능숙 보너스, 치명타 확정에 대한 공격 굴림에 +4 보너스 "
+"이 반지는 착용자의 매력에 +4 강화 보너스, 은신과 손기술 스킬 굴림에 +4 능숙 보너스, 치명타 확정에 대한 명중 굴림에 +4 보너스 "
 "및 착용자가 시전한 정신에 영향을 주는 주문의 DC에 +2 보너스를 줍니다. \n"
 "대신하여 이 반지는 착용자의 지혜에 -2 강화 페널티, 인지 스킬 굴림에 -4 능숙 페널티, 의지 내성 굴립에 -2 내성 페널티 및 "
 "함정에 대한 모든 내성 굴림에 -10 페널티를 줍니다. \n"
@@ -55440,7 +55196,7 @@ msgid ""
 "abilities like Power Attack or Defensive Fighting, or try using effects that "
 "grant a bonus on attack rolls."
 msgstr ""
-"캐릭터가 계속 적을 빚맞춘다면 파워 어택이나 방어적 전투와 같은 전투 능력을 해제하거나 공격 굴림에 보너스를 주는 효과들을 이용하십시오."
+"캐릭터가 계속 적을 빚맞춘다면 파워 어택이나 방어적 전투와 같은 전투 능력을 해제하거나 명중 굴림에 보너스를 주는 효과들을 이용하십시오."
 
 #, fuzzy
 msgctxt "78c69b66-ed8a-422f-81ab-e7249dcea9e0"
