@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-09 12:24+0000\n"
+"PO-Revision-Date: 2021-10-11 11:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1740,7 +1740,7 @@ msgstr "사슬조끼 +5"
 #. Path = ColorlessRemainsBreastplate_IntermediateItem::m_DisplayNameText
 msgctxt "46fa0886-8c53-418d-b434-e74ff91dbe4b"
 msgid "Colorless One's Breastplate"
-msgstr ""
+msgstr "무색의 판금 흉갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ColorlessRemainsBreastplate_IntermediateItem::m_DescriptionText
@@ -1758,7 +1758,7 @@ msgstr ""
 #. Path = SarenraeScalemail_IntermediateItem::m_DescriptionText
 msgctxt "75f37c59-a98d-4672-bea8-c1b4996d0efb"
 msgid "This is an intermediate step of relic creation."
-msgstr ""
+msgstr "유물 제작의 중간 단계입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ColorlessRemainsBreastplate_IntermediateItem::m_FlavorText
@@ -1830,7 +1830,7 @@ msgstr ""
 #. Path = ColorlessRemainsGoggles_MadnessAbility::m_DisplayName
 msgctxt "360eb2b9-531e-41ec-a2e1-0e608a71424b"
 msgid "Seal of Madness"
-msgstr ""
+msgstr "광기의 인장"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ColorlessRemainsBreastplate_MadnessItem::m_DescriptionText
@@ -1845,6 +1845,9 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} 32) or become confused for 2 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +5 판금 흉갑은 크리스탈로 만들어저 드루이드가 입을 수 있습니다. 매 전투 시작시 착용자로부터 50 피트 반경이내의 모든 적은 "
+"{g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} 32) 을 "
+"실시하여 실패시 2 {g|Encyclopedia:Combat_Round}라운드{/g}간 혼란에 빠집니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ColorlessRemainsBreastplate_SolidItem::m_DisplayNameText
@@ -1859,7 +1862,7 @@ msgstr ""
 #. Path = ColorlessRemainsQuiver_SolidAbility::m_DisplayName
 msgctxt "bfe0831b-c3f2-41ca-86d1-20bc8433a3cb"
 msgid "Seal of Jubilex"
-msgstr ""
+msgstr "쥬빌렉스의 인장"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ColorlessRemainsBreastplate_SolidItem::m_DescriptionText
@@ -1870,12 +1873,15 @@ msgid ""
 "fortification, but also makes the wearer vulnerable to "
 "{g|Encyclopedia:Energy_Damage}sonic damage{/g}."
 msgstr ""
+"이 +5 판금 흉갑은 크리스탈로 만들어저 드루이드가 입을 수 있습니다. 착용자에게 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 3/- 와 평범한 요새화를 부여하지만, 착용자는 "
+"{g|Encyclopedia:Energy_Damage}음파 피해{/g}에 대한 약점을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = CryptRaidersArmorItem::m_DisplayNameText
 msgctxt "46fd20e7-a7ce-47dd-a53e-379f6cd4fa31"
 msgid "Crypt Raider's Armor"
-msgstr ""
+msgstr "도굴꾼의 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = CryptRaidersArmorItem::m_DescriptionText
@@ -1885,18 +1891,20 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
 "against undead."
 msgstr ""
+"이 +1 미늘 갑옷은 착용자에게 언데드에 대해 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = CursedDelameresArmorItem::m_DisplayNameText
 msgctxt "fbd1d15a-7080-4581-8240-f87a9eaa714a"
 msgid "Delamere's Cursed Armor"
-msgstr ""
+msgstr "델라미어의 저주받은 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = CursedDelameresArmorItem::m_DescriptionText
 msgctxt "259133d1-2aed-4a18-a360-edb2a5a29e1c"
 msgid "This is a +3 leather armor."
-msgstr ""
+msgstr "이 갑옷은 +3 가죽 갑옷입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = CursedDelameresArmorItem::m_FlavorText
@@ -1905,6 +1913,8 @@ msgid ""
 "The once handsome breastplate has been ruined by centuries in a tomb. Grave "
 "beetles have infested the soft deer hide and it gives off an almighty stench."
 msgstr ""
+"한때 멋있었던 판금 흉갑은 무덤 속에서 수 세기 걸쳐 망가졌습니다. 무덤의 딱정벌레들이 부드러운 사슴 가죽을 감염시켰고 엄청난 악취가 "
+"납니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DarkAcolytesRobeItem::m_DisplayNameText
@@ -1954,7 +1964,7 @@ msgstr ""
 #. Path = DeadlyRaysItem::m_DisplayNameText
 msgctxt "f245e03b-59cb-4f41-87d5-b6c254b47bac"
 msgid "Deadly Rays"
-msgstr ""
+msgstr "치명적인 광선"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DeadlyRaysItem::m_DescriptionText
@@ -1964,6 +1974,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on ranged {g|Encyclopedia:TouchAttack}touch "
 "attack{/g} {g|Encyclopedia:Dice}rolls{/g}."
 msgstr ""
+"이 +5 하라마키는 착용자의 원거리 {g|Encyclopedia:TouchAttack}접촉{/g} 명중 "
+"{g|Encyclopedia:Dice}굴림{/g}에 +4 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DeathCrushersFullPlateItem::m_DisplayNameText
@@ -1996,7 +2008,7 @@ msgstr "이 튼튼한 갑옷은 밝은 금줄로 화려하게 장식되어 있�
 #. Path = DelameresArmorItem::m_DisplayNameText
 msgctxt "c78be21c-c771-4bda-8b43-4da155eca261"
 msgid "Delamere's Armor"
-msgstr ""
+msgstr "델라미어의 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DelameresArmorItem::m_DescriptionText
@@ -2006,6 +2018,8 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} from the Plants domain as if they were 2 "
 "{g|Encyclopedia:Caster_Level}caster levels{/g} higher."
 msgstr ""
+"이 +3 가죽 갑옷 착용자의 식물 도메인 {g|Encyclopedia:Spell}주문{/g}은 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}이 2단계 높아집니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DelameresArmorItem::m_FlavorText
@@ -2015,15 +2029,18 @@ msgid ""
 "touch, but it is as tough as iron. Despite its years spent in a sarcophagus, "
 "it smells as fresh as spring leaves."
 msgstr ""
+"멋진 판금 흉갑. 우아한 사슴 가죽은 부드럽고 촉감이 좋지만 철과 같이 튼튼합니다. 석관에 오랜 시간동안 묻혀 있었음에도 불구하고, "
+"싱그러운 봄 잎과 같은 향이 납니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarAgilityPaddedItem::m_DisplayNameText
 #. 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = DemonicAltarAgilityClothItem::m_DisplayNameText
+#, fuzzy
 msgctxt "31331694-cf34-4724-acae-88bdac5383c7"
 msgid "Web Strider"
-msgstr ""
+msgstr "거미줄 곡예사"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarAgilityPaddedItem::m_DescriptionText
@@ -2033,6 +2050,9 @@ msgid ""
 "teeth, it grants the wearer +2 morale {g|Encyclopedia:Bonus}bonus{/g} to "
 "{g|Encyclopedia:Dexterity}Dexterity{/g} score."
 msgstr ""
+"이 +3 누비 갑옷은 약간의 가죽, 거미줄 그리고 이빨을 사용하여 아름답게 만들어졌으며, 착용자의 "
+"{g|Encyclopedia:Dexterity}민첩{/g} 능력치에 +2 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarAgilityPaddedItem::m_FlavorText
@@ -2066,6 +2086,14 @@ msgid ""
 "took their sacrifices there — the ripped-out teeth of all who tried to flee "
 "demons' wrath but were caught and slain."
 msgstr ""
+"데몬의 복수를 피한 존재는 거의 없습니다. 그들은 적들, 달아난 노예들, 또는 변절자들을 조용히 사냥하기 위해 그들이 창조한 리트리버라고 "
+"불리는 소름끼치며 기계적인 거미들을 파견합니다. 전설에 의하면, 첫번째 리트리버는 변의의 데몬 군주 하잔티에 의해 만들어졌다고 합니다. "
+"여러 세대에 걸쳐, 첫번째 리트리버는 여러 데몬 주인들의 소유가 되었지만 모두에게 가장 흠잡을 데 없는 하인이었습니다. 첫번째 리트리버의 "
+"잔인한 노예 생활은 한 필멸자 이단자이자 두번 변절한 자의 손에 끝이 났습니다. 이름이 알려지지 않은 상아 미궁의 기사단원은 그의 행위를 "
+"뉘우치고 교단을 떠났습니다. 첫번째 리트리버는 그의 흔적을 추적하기 위해 보내졌지만 돌아오지 못했습니다 — 리트리버와 그의 희생자 모두 "
+"싸움에서 사망했습니다. 훗날, 데몬들이 리트리버의 잔해와 거미줄을 발견했고 제단으로 만들었습니다. 리트리버의 탐욕스러운 굶주림이 제단으로 "
+"스며들었습니다. 수십년 후, 숭배자들은 그들의 희생 제물을 가져갔습니다 — 데몬의 분노를 피해 도망치다 붙잡혀 살해당한 모든 이의 찢겨진 "
+"이빨 말입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarMasochisticPaddedItem::m_DisplayNameText
@@ -2074,7 +2102,7 @@ msgstr ""
 #. Path = DemonicAltarMasochisticClothItem::m_DisplayNameText
 msgctxt "5ee79a36-6866-451c-93b5-80f219f40c66"
 msgid "Zon-Kuthon's Suffocating Caress"
-msgstr ""
+msgstr "존-쿠쏜의 숨막히는 손길"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarMasochisticPaddedItem::m_DescriptionText
@@ -2102,7 +2130,7 @@ msgstr ""
 #. Path = DemonicAltarPadded_IntermediateItem::m_DisplayNameText
 msgctxt "b5ed46fe-19e2-4b9c-b478-86372d7c87b5"
 msgid "Dark Retriever's Padded Armor"
-msgstr ""
+msgstr "어둠의 리트리버의 누비 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarPadded_IntermediateItem::m_FlavorText
@@ -2111,7 +2139,7 @@ msgstr ""
 #. Path = DemonicAltarCloth_IntermediateItem::m_FlavorText
 msgctxt "7d3d2629-e9cb-4165-bf41-969ad0674c6f"
 msgid "This equipment was made from the Altar of the Dark Retrievers."
-msgstr ""
+msgstr "이 장비는 어둠의 리트리버의 제단에서 만들어졌습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarTrypophobiaPaddedItem::m_DisplayNameText
@@ -2120,7 +2148,7 @@ msgstr ""
 #. Path = DemonicAltarTrypophobiaClothItem::m_DisplayNameText
 msgctxt "088973b4-fea5-4775-812c-84eff6ee1434"
 msgid "Shroud of the Eternal Hunger"
-msgstr ""
+msgstr "영원한 굶주림의 수의"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DemonicAltarTrypophobiaPaddedItem::m_DescriptionText
@@ -2138,7 +2166,7 @@ msgstr ""
 #. Path = DesertMirageItem::m_DisplayNameText
 msgctxt "bfe49016-b882-48a6-9353-f774d2e6b5ec"
 msgid "Desert Mirage"
-msgstr ""
+msgstr "사막의 신기루"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DesertMirageItem::m_DescriptionText
@@ -2156,7 +2184,7 @@ msgstr ""
 #. Path = DragonfallItem::m_DisplayNameText
 msgctxt "ceb91f06-7bf1-4687-aefc-ff350a2ebe65"
 msgid "Dragonfall"
-msgstr ""
+msgstr "용의 몰락"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DragonfallItem::m_DescriptionText
@@ -8089,7 +8117,7 @@ msgstr ""
 #. Path = DemonSlayerSoupBuff::m_DisplayName
 msgctxt "ba777551-c81e-4718-a752-344e9772dcd4"
 msgid "Demon Slayer Soup"
-msgstr ""
+msgstr "데몬 슬레이어 수프"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DeskaryUnholyKey::m_DisplayNameText
