@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-11 11:24+0000\n"
-"Last-Translator: Bumsoo <jake0208@naver.com>\n"
+"PO-Revision-Date: 2021-10-12 15:24+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -22529,7 +22529,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MageLight_Cutscene::m_DisplayName
-#, fuzzy
 msgctxt "41f85670-3420-4c21-b940-17df63b64dde"
 msgid "Light"
 msgstr "빛"
@@ -23246,14 +23245,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = StinkingCloudBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "Stinking cloud creates a bank of fog like that created by fog cloud, except "
-#| "that the vapors are nauseating. Living creatures in the cloud become "
-#| "nauseated. This condition lasts as long as the creature is in the cloud and "
-#| "for 1d4+1 rounds after it leaves. (Roll separately for each nauseated "
-#| "character.) Any creature that succeeds on its save but remains in the cloud "
-#| "must continue to save each round. This is a poison effect."
 msgctxt "f458330b-91f7-4c2a-9afd-3d6c59a68844"
 msgid ""
 "Stinking cloud creates a bank of fog like that created by fog cloud, except "
@@ -23265,9 +23256,10 @@ msgid ""
 "remains in the cloud must continue to save each round. This is a poison "
 "effect."
 msgstr ""
-"악취나는 구름 주문은 구토나는 증기로 만든 안개의 구름을 만들어냅니다. 안개 안의 살아있는 크리처는 내성을 굴려 실패하면 구토 상태가 "
-"됩니다. 구토 상태는 범위에 남아있는 동안, 또는 범위를 벗어나고 1d4 라운드 동안 지속됩니다. 지속 라운드 굴림은 개체 별로 각각 "
-"굴립니다. 범위 안의 크리처는 매 라운드를 내성을 시도해야 합니다. 이것은 독 효과입니다."
+"악취 구름 주문은 구토나는 증기로 만든 안개의 구름을 만들어냅니다. 안개 안의 살아있는 크리처는 구토 상태가 됩니다. 구토 상태는 범위에 "
+"남아있는 동안, 그리고 범위를 벗어난 뒤 {g|Encyclopedia:Dice}1d4{/g} + 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다. 지속 라운드 굴림은 개체 별로 각각 굴립니다. 범위 "
+"안의 크리처는 매 라운드를 {g|Encyclopedia:Saving_Throw}내성{/g}을 시도해야 합니다. 이것은 독 효과입니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MindBlank::m_DisplayName
@@ -26618,21 +26610,6 @@ msgstr "원시 회귀"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PrimalRegression::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell sequesters the targets' ability for higher reasoning, allowing "
-#| "their darker impulses to come to the fore. An affected target becomes a "
-#| "ravening monster — savage, bloodthirsty, and brutish. Until the spell ends, "
-#| "the targets have all of the following benefits and drawbacks:\n"
-#| "The targets' Intelligence and Charisma scores drop to 1, and they are unable "
-#| "to cast spells.\n"
-#| "The targets take a –4 penalty on Will saves.\n"
-#| "The targets gain a +6 enhancement bonus to Strength, a +2 natural armor "
-#| "bonus to AC, and 2d8 temporary hit points. These temporary hit points "
-#| "disappear at the end of the spell's duration.\n"
-#| "When the spell ends, on the next round each affected creature must succeed "
-#| "at a Will saving throw or take 1d4 points of Intelligence drain and 1d4 "
-#| "points of Charisma damage."
 msgctxt "a44cf386-b729-4958-849e-2588de451d90"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} sequesters the targets' ability for "
@@ -26655,13 +26632,18 @@ msgid ""
 "Intelligence drain and 1d4 points of Charisma "
 "{g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
-"이 주문은 대상의 고등 사고력을 억류하여 어두운 충동이 전면에 나서도록 합니다. 대상은 먹이를 찾아 배회하는 잔인하고 피에 굶주린 야만적 "
-"괴물이 됩니다. 주문이 끝날 때까지 다음과 같은 이점과 단점이 있습니다.\n"
-"지능과 매력 능력치가 1로 떨어지며 주문을 쓸 수 없습니다. \n"
-"의지 내성에 -4 페널티를 받습니다.\n"
-"건강에 +6 보너스가 추가되고 AC에 +2의 자연 보너스가 추가로 주어지며 2d8의 임시 생명점이 추가됩니다. 이 임시 생명점은 주문이 "
-"끝날 때 사라집니다.\n"
-"주문이 끝나고 다음 라운드에 의지 내성에 실패하면 1d4 점의 지능 소진과 1d4 점의 매력 피해를 입어야합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 대상의 고등 사고력을 억류하여 어두운 충동이 전면에 나서도록 합니다. 대상은 "
+"먹이를 찾아 배회하는 잔인하고 피에 굶주린 야만적 괴물이 됩니다. 주문이 끝날 때까지 다음과 같은 이점과 단점이 있습니다.\n"
+"{g|Encyclopedia:Intelligence}지능{/g}과 {g|Encyclopedia:Charisma}매력{/g} 능력치가 1로 "
+"떨어지며 주문을 쓸 수 없습니다. \n"
+"의지 {g|Encyclopedia:Saving_Throw}내성{/g}에 -4 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받습니다.\n"
+"{g|Encyclopedia:Strength}힘{/g}에 +6 강화 {g|Encyclopedia:Bonus}보너스{/g}, "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +2 자연 방어 보너스, "
+"{g|Encyclopedia:Dice}2d8{/g}의 임시 {g|Encyclopedia:HP}생명점{/g}을 받습니다. 임시 생명점은 "
+"주문이 끝날 때 사라집니다.\n"
+"주문이 끝난 다음 {g|Encyclopedia:Combat_Round}라운드{/g}에 의지 내성에 실패하면 1d4 점의 지능 소진과 "
+"1d4 점의 매력 {g|Encyclopedia:Damage}피해{/g}를 입습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PrismaticRingAbility::m_DisplayName
@@ -26708,22 +26690,6 @@ msgstr "무지개빛 분사"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PrismaticSpray::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell causes seven shimmering, multicolored beams of light to spray "
-#| "from your hand. Each beam has a different power. Creatures in the area of "
-#| "the spell with 8 HD or less are automatically blinded for 2d4 rounds. Every "
-#| "creature in the area is randomly struck by one or more beams, which have "
-#| "additional effects:\n"
-#| "20 points fire damage (Reflex half)\n"
-#| "40 points acid damage (Reflex half)\n"
-#| "80 points electricity damage (Reflex half)\n"
-#| "Poison (Frequency 1/rd. for 6 rds.; Init. effect death; Sec. effect 1 Con/"
-#| "rd.; Cure 2 consecutive Fort saves)\n"
-#| "Baleful Polymorph (Fortitude negates)\n"
-#| "Insane, as insanity spell (Will negates)\n"
-#| "Sent to another plane forever (Will negates)\n"
-#| "Creature struck by two rays receives both rays' effects at once."
 msgctxt "f44c5d76-df53-4cc9-9cec-ccd3fdaf9c49"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} causes seven shimmering, multicolored "
@@ -26744,17 +26710,20 @@ msgid ""
 "Sent to another plane forever (Will negates)\n"
 "Creature struck by two rays receives both rays' effects at once."
 msgstr ""
-"이 주문은 일곱 빛깔로 반짝이는 광선의 빛을 손에서 뿌립니다. 각 광선은 서로 다른 힘을 가지고 있습니다. 범위 내 8 HD 이하의 "
-"크리처는 2d4 라운드 동안 무조건 실명합니다. 범위 내의 모든 크리처는 무작위로 하나 이상의 광선에 맞습니다. 광선의 효과는 다음과 "
-"같습니다.\n"
-"20 점의 화염 피해 (반사로 절반)\n"
-"40 점의 산성 피해 (반사로 절반)\n"
+"이 {g|Encyclopedia:Spell}주문{/g}은 일곱 빛깔로 반짝이는 광선의 빛을 손에서 뿌립니다. 각 광선은 서로 다른 힘을 "
+"가지고 있습니다. 범위 내 8 HD 이하의 크리처는 {g|Encyclopedia:Dice}2d4{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 실명합니다. 범위 내의 모든 크리처는 무작위로 하나 이상의 광선에 "
+"맞습니다. 광선의 효과는 다음과 같습니다.\n"
+"20 점의 {g|Encyclopedia:Energy_Damage}화염 피해{/g} (반사로 절반)\n"
+"40 점의 산성 {g|Encyclopedia:Damage}피해{/g} (반사로 절반)\n"
 "80 점의 전기 피해 (반사로 절반)\n"
-"독 (빈도 매 1라운드 / 6라운드 동안; 1차 효과 죽음; 2차 효과 매 라운드 1 건강 피해; 치료 인내 내성 2회 연속 성공) \n"
+"독 (빈도 6라운드 동안 라운드 당 1회; 1차 효과 {g|Encyclopedia:Injury_Death}죽음{/g}; 2차 효과 매 "
+"라운드 1 {g|Encyclopedia:Constitution}건강{/g} 피해; {g|Encyclopedia:Healing}치료{/g} "
+"인내 {g|Encyclopedia:Saving_Throw}내성{/g} 2회 연속 성공) \n"
 "유해한 변이 (인내로 무효)\n"
 "광기 주문의 광기(의지로 무효)\n"
 "영원히 다른 차원으로 보냄(의지로 무효)\n"
-"두 개의 광선에 맞은 생물은 한 번에 두 개의 광선 효과를 받습니다."
+"두 개의 광선에 맞은 생물은 한 번에 두 광선 효과 모두 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PrismaticSurgeMelee::m_DisplayName
@@ -27053,6 +27022,9 @@ msgid ""
 "electricity, fire, and sonic. At 15th level, the "
 "{g|Encyclopedia:Energy_Resistance}energy resistance{/g} increases to 20."
 msgstr ""
+"10 레벨에 1분 동안 30 피트 범위의 보호의 오라를 방출할 수 있습니다. 시전자와 이 오라 내의 아군은 산성, 냉기, 전기, 화염, "
+"음파 저항 10을 얻습니다. 15 레벨에 {g|Encyclopedia:Energy_Resistance}에너지 저항{/g}이 20으로 "
+"증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ProtectionBlessingMinorAbility::m_DisplayName
@@ -27069,6 +27041,9 @@ msgid ""
 "{g|Encyclopedia:Armor_Class}AC{/g} for 1 minute. The bonus increases to +2 "
 "at 10th level and +3 at 20th level."
 msgstr ""
+"1 레벨에 1분 동안 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}과 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +1 신성 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"받습니다. 이 보너스는 10 레벨에 +2, 20 레벨에 +3으로 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ProtectionDomainBaseAbility::m_DisplayName
@@ -27081,12 +27056,6 @@ msgstr "저항의 손길"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ProtectionDomainBaseAbilityCast::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can touch an ally to grant him your resistance "
-#| "bonus for 1 minute. When you use this ability, you lose your resistance "
-#| "bonus granted by the Protection domain for 1 minute. You can use this "
-#| "ability a number of times per day equal to 3 + your Wisdom modifier."
 msgctxt "8b08ed36-ae89-4c46-b617-e9e68a57449e"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can "
@@ -27096,12 +27065,13 @@ msgid ""
 "You can use this ability a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier."
 msgstr ""
-"일반 행동으로 아군 한 명과 접촉해 대상에게 자신이 지닌 내성 보너스를 1분 동안 줄 수 있습니다. 이 능력을 사용하면 1분 동안 보호 "
-"영역에서 부여한 내성 보너스를 잃게됩니다. 하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 있습니다."
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 아군 한 명과 "
+"{g|Encyclopedia:TouchAttack}접촉{/g}해 대상에게 자신이 지닌 내성 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 1분 동안 줄 수 있습니다. 이 능력을 사용하면 1분 동안 보호 영역에서 부여한 "
+"내성 보너스를 잃게됩니다. 하루에 3 + {g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ProtectionDomainBaseAbilityCast::m_DisplayName
-#, fuzzy
 msgctxt "539e9d53-10e9-4e8b-b062-4e497adfb61a"
 msgid "Resistant Touch"
 msgstr "저항의 손길"
@@ -27641,46 +27611,40 @@ msgstr "셸번의 이야기"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = QuestElectriFireballBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "The chapter about Shelburn grants an ability to use Fireball 3 times (caster "
-#| "level 10, DC 18) this day."
 msgctxt "d971f17a-4218-41b5-8147-c070d8f51959"
 msgid ""
 "The chapter about Shelburn grants an ability to use Fireball 3 times "
 "({g|Encyclopedia:Caster_Level}caster level{/g} 10, {g|Encyclopedia:DC}DC{/g} "
 "18) this day."
-msgstr "셸번의 장은 하루에 세 번 화염구를 (시전자 레벨 10, DC 18) 시전할 수 있게 해줍니다."
+msgstr ""
+"셸번의 이야기는 하루에 세 번 화염구를 ({g|Encyclopedia:Caster_Level}시전자 레벨{/g} 10, "
+"{g|Encyclopedia:DC}DC{/g} 18) 시전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = QuestElectriLightningBoltSpell::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = QuestElectriLightningBoltBuff::m_DisplayName
-#, fuzzy
 msgctxt "1948b6e6-8bee-4acd-9c8d-0e824aff53b1"
 msgid "Tale of Kenneth Cowannan"
-msgstr "케네스 카워넌의 의야기"
+msgstr "케네스 카워넌의 이야기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = QuestElectriLightningBoltSpell::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = QuestElectriLightningBoltBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "The chapter about Kenneth Cowannan grants an ability to use Lightning Bolt 3 "
-#| "times (caster level 10, DC 18) this day."
 msgctxt "613309d5-6d2a-46f2-8545-7f233c34ee43"
 msgid ""
 "The chapter about Kenneth Cowannan grants an ability to use Lightning Bolt 3 "
 "times ({g|Encyclopedia:Caster_Level}caster level{/g} 10, "
 "{g|Encyclopedia:DC}DC{/g} 18) this day."
-msgstr "케네스 카워넌의 장은 하루에 세 번 번개화살을 (시전자 레벨 10, DC 18) 쓸 수 있게 해줍니다."
+msgstr ""
+"케네스 카워넌의 이야기는 하루에 세 번 번개 화살을 ({g|Encyclopedia:Caster_Level}시전자 레벨{/g} 10, "
+"{g|Encyclopedia:DC}DC{/g} 18) 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = QuestElectriRageSpell::LocalizedDuration
-#, fuzzy
 msgctxt "84251788-5be8-49a7-8952-403b6f53bf29"
 msgid "6 rounds"
 msgstr "6 라운드"
@@ -27690,43 +27654,32 @@ msgstr "6 라운드"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = QuestElectriRageBuff::m_DisplayName
-#, fuzzy
 msgctxt "522121c1-fe7f-4ee7-b214-5d3d1068d926"
 msgid "Tale of Ristof Brulston"
-msgstr "리스토프 브럴스톤"
+msgstr "리스토프 브럴스톤의 이야기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = QuestElectriRageSpell::m_Description
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = QuestElectriRageBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "The chapter about Ristof Brulston grants an ability to make the target Rage, "
-#| "as a barbarian, for 6 rounds 3 times this day."
 msgctxt "175f7ec6-1f85-4305-ae09-59f82a2abbc3"
 msgid ""
 "The chapter about Ristof Brulston grants an ability to make the target Rage, "
 "as a barbarian, for 6 {g|Encyclopedia:Combat_Round}rounds{/g} 3 times this "
 "day."
-msgstr "리스토프 브럴스톤의 장은 하루에 세 번 6 라운드 동안 대상을 바바리안 처럼 격노시킵니다."
+msgstr ""
+"리스토프 브럴스톤의 이야기는 하루에 세 번 대상을 6 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 바바리안 "
+"처럼 격노시키는 능력을 줍니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Rage::m_DisplayName
-#, fuzzy
 msgctxt "db62a1a9-632b-46c1-8673-57b84b834ce3"
 msgid "Rage"
 msgstr "격노"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Rage::m_Description
-#, fuzzy
-#| msgid ""
-#| "Each affected creature gains a +2 morale bonus to Strength and Constitution, "
-#| "a +1 morale bonus on Will saves, and a –2 penalty to AC. The effect is "
-#| "otherwise identical with a barbarian's rage except that the subjects aren't "
-#| "fatigued at the end of the rage. While in rage, the subject cannot use "
-#| "spells."
 msgctxt "548e0213-974b-464f-b0f1-7aec1140089b"
 msgid ""
 "Each affected creature gains a +2 morale {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -27738,8 +27691,12 @@ msgid ""
 "subjects aren't fatigued at the end of the rage. While in rage, the subject "
 "cannot use {g|Encyclopedia:Spell}spells{/g}."
 msgstr ""
-"격노: 영향을 받는 모든 크리처는 힘과 건강에 +2의 사기 보너스를 얻고, 의지 내성에 +1의 사기 보너스를 얻습니다. 대신 방어도에 -"
-"2 페널티를 받습니다. 그 밖의 효과는 바바리안의 격노 능력과 같지만, 대상은 격노가 끝난 후에도 피로 상태가 되지 않습니다."
+"영향을 받는 모든 크리처는 {g|Encyclopedia:Strength}힘{/g}과 "
+"{g|Encyclopedia:Constitution}건강{/g}에 +2의 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"얻고, 의지 {g|Encyclopedia:Saving_Throw}내성{/g}에 +1의 사기 보너스를 얻습니다. 대신 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 -2 {g|Encyclopedia:Penalty}불이익{/g}을 "
+"받습니다. 이 효과는 바바리안의 격노와 동일하지만 대상이 격노 종료시 피로 상태가 되지 않습니다. 격노 상태일 때 대상은 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 없습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RainbowArrows::m_DisplayName
@@ -27809,19 +27766,12 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = RainbowPatternBuff::m_DisplayName
-#, fuzzy
 msgctxt "8c247587-e393-4112-8345-0f0f871ded21"
 msgid "Rainbow Pattern"
-msgstr "무지개빛 무늬"
+msgstr "무지개 무늬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RainbowPattern::m_Description
-#, fuzzy
-#| msgid ""
-#| "A glowing, rainbow-hued pattern of interweaving colors fascinates those "
-#| "within it. The rainbow pattern fascinates a maximum of 24 HD of creatures. "
-#| "An affected creature that fails its saves is fascinated by the pattern and "
-#| "becomes dazed."
 msgctxt "fd26f13b-5150-4132-bfd1-d9382562d131"
 msgid ""
 "A glowing, rainbow-hued pattern of interweaving colors fascinates those "
@@ -27829,8 +27779,8 @@ msgid ""
 "An affected creature that fails its {g|Encyclopedia:Saving_Throw}saves{/g} "
 "is fascinated by the pattern and becomes dazed."
 msgstr ""
-"여러 색깔이 얽혀 빛나는 무지개빛 무늬가 그 안에 있는 것들을 현혹시킵니다. 무지개빛 무늬는 도합 24 HD의 크리처를 현혹할 수 "
-"있습니다. 내성에 실패한 크리처는 무늬에 현혹되어 몽롱해집니다."
+"여러 색깔이 얽혀 빛나는 무지개 무늬가 그 안에 있는 것들을 현혹합니다. 무지개 무늬는 도합 24 HD의 크리처를 현혹할 수 있습니다. "
+"{g|Encyclopedia:Saving_Throw}내성{/g}에 실패한 크리처는 무늬에 현혹되어 몽롱해집니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RainbowStarfall::m_DisplayName
@@ -27854,26 +27804,20 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RaiseAnimalCompanion::m_DisplayName
-#, fuzzy
 msgctxt "f919ac22-62ab-4dba-9df8-66d534b18696"
 msgid "Raise Animal Companion"
 msgstr "동물 동료 소생"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RaiseAnimalCompanion::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell functions as raise dead, but it only affects an animal companion "
-#| "or a familiar."
 msgctxt "109a20d8-f8b2-41c0-8d41-94b6bb419553"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} functions as raise dead, but it only "
 "affects an animal companion or a familiar."
-msgstr "이 주문은 소생 주문과 기능은 같지만 오직 동물 동료나 패밀리어에게만 효과가 있습니다."
+msgstr "이 주문은 오직 동물 동료나 패밀리어에게만 사용할 수 있는 소생 {g|Encyclopedia:Spell}주문{/g}입니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RaiseDead::m_DisplayName
-#, fuzzy
 msgctxt "02f8ef50-83e2-4c00-a5da-ef575a3e45e0"
 msgid "Raise Dead"
 msgstr "소생"
@@ -27993,21 +27937,6 @@ msgstr "사람 축소"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ReducePerson::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell causes instant diminution of a humanoid creature, halving its "
-#| "height, length, and width and dividing its weight by 8. This decrease "
-#| "changes the creature's size category to the next smaller one. The target "
-#| "gains a +2 size bonus to Dexterity, a –2 size penalty to Strength (to a "
-#| "minimum of 1), and a +1 bonus on attack rolls and AC due to its reduced "
-#| "size. Melee and ranged weapons used by this creature deal less "
-#| "damage.[LONGSTART]\n"
-#| "A Small humanoid creature whose size decreases to Tiny has a space of 2-1/2 "
-#| "feet and a natural reach of 0 feet (meaning that it must enter an opponent's "
-#| "square to attack). A Large humanoid creature whose size decreases to Medium "
-#| "has a space of 5 feet and a natural reach of 5 feet. This spell doesn't "
-#| "change the target's speed.\n"
-#| "Reduce person dispels enlarge person.[LONGEND]"
 msgctxt "23f2921f-8b3f-40af-9cf0-2cf7d963c82f"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} causes instant diminution of a humanoid "
@@ -28029,38 +27958,27 @@ msgid ""
 "{g|Encyclopedia:Speed}speed{/g}.\n"
 "Reduce person dispels enlarge person.[LONGEND]"
 msgstr ""
-"인간형 크리처 하나의 크기를 즉시 줄여서, 키를 1/2로 하고 무게를 1/8로 줄입니다. 이러한 변화는 해당 크리처의 크기 범주를 이전 "
-"단계로 줄입니다. 대상은 민첩에 +2 크기 보너스를 받고, 힘에 -2 크기 페널티를 받으며 (최소 1), 작아진 크기로 인해 모든 "
-"명중굴림 및 AC에 +1 보너스를 받습니다. 또한 근접 및 원거리 공격이 더 적은 피해를 입힙니다.[LONGSTART]\n"
-"초소형 크기가 된 소형 인간형 크리처는 가로 1/2, 세로 2 피트 만큼의 공간을 차지하고 0 피트의 자연 사정거리를 지닙니다. 이는 "
-"공격하기 위해선 상대방의 충돌 크기 안으로 들어가야 한다는 의미입니다. 중형 크기가 된 대형 인간형 크리처는 5 피트의 공간을 차지하고, "
-"자연 사정거리는 5 피트입니다. 이 주문은 대상의 이동속도에는 영향을 주지 않습니다.\n"
+"이 {g|Encyclopedia:Spell}주문{/g}은 인간형 크리처 하나의 크기를 즉시 줄여서, 키를 1/2, 무게를 1/8로 "
+"줄입니다. 이러한 변화는 해당 크리처의 {g|Encyclopedia:Size}크기{/g} 범주를 이전 단계로 줄입니다. 대상은 "
+"{g|Encyclopedia:Dexterity}민첩{/g}에 +2 크기 {g|Encyclopedia:Bonus}보너스{/g}, "
+"{g|Encyclopedia:Strength}힘{/g}에 -2 크기 {g|Encyclopedia:Penalty}페널티{/g}를 받으며 ("
+"최소 1), 작아진 크기로 인해 모든 {g|Encyclopedia:Attack}명중 굴림{/g} 및 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +1 보너스를 받습니다. 또한 근접 및 원거리 공격이 더 적은 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다.[LONGSTART]\n"
+"초소형 크기가 된 소형 인간형 크리처는 가로 1/2, 세로 2 피트 만큼의 공간을 차지하고 0 피트의 자연 "
+"{g|Encyclopedia:Reach}사정거리{/g}를 지닙니다. 이는 공격하기 위해선 상대방의 충돌 크기 안으로 들어가야 한다는 "
+"의미입니다. 중형 크기가 된 대형 인간형 크리처는 5 피트의 공간을 차지하고, 자연 사정거리는 5 피트입니다. 이 주문은 대상의 "
+"{g|Encyclopedia:Speed}속도{/g}에는 영향을 주지 않습니다.\n"
 "사람 축소 주문은 사람 확대 주문을 무효화합니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ReducePersonMass::m_DisplayName
-#, fuzzy
 msgctxt "1c4400d3-91ff-4387-9419-ea1fea2ad64f"
 msgid "Reduce Person, Mass"
-msgstr "집단 사람 축소"
+msgstr "사람 축소, 집단"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ReducePersonMass::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell causes instant diminution of all allied humanoid creatures, "
-#| "halving their height, length, and width and dividing their weight by 8. This "
-#| "decrease changes the creatures' size category to the next smaller one. The "
-#| "targets gain a +2 size bonus to Dexterity, a –2 size penalty to Strength (to "
-#| "a minimum of 1), and a +1 bonus on attack rolls and AC due to their reduced "
-#| "size. Melee and ranged weapons used by this creature deal less "
-#| "damage.[LONGSTART]\n"
-#| "A Small humanoid creature whose size decreases to Tiny has a space of 2.5 "
-#| "feet and a natural reach of 0 feet (meaning that it must enter an opponent's "
-#| "square to attack). A Large humanoid creature whose size decreases to Medium "
-#| "has a space of 5 feet and a natural reach of 5 feet. This spell doesn't "
-#| "change the target's speed.\n"
-#| "Reduce person dispels enlarge person.[LONGEND]"
 msgctxt "6a45d7fa-fcbf-4127-bb5d-f296542a8ba0"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} causes instant diminution of all allied "
@@ -28082,12 +28000,17 @@ msgid ""
 "{g|Encyclopedia:Speed}speed{/g}.\n"
 "Reduce person dispels enlarge person.[LONGEND]"
 msgstr ""
-"모든 아군 인간형 크리처의 크기를 즉시 줄여서, 키를 1/2로 하고 무게를 1/8로 줄입니다. 이러한 변화는 해당 크리처의 크기 범주를 "
-"이전 단계로 줄입니다. 대상은 민첩에 +2 크기 보너스를 받고, 힘에 -2 크기 페널티를 받으며 (최소 1), 작아진 크기로 인해 모든 "
-"명중굴림 및 AC에 +1 보너스를 받습니다. 또한 근접 및 원거리 공격이 더 적은 피해를 입힙니다.[LONGSTART]\n"
-"초소형 크기가 된 소형 인간형 크리처는 가로 1/2, 세로 2 피트 만큼의 공간을 차지하고 0 피트의 자연 사정거리를 지닙니다. 이는 "
-"공격하기 위해선 상대방의 충돌 크기 안으로 들어가야 한다는 의미입니다. 중형 크기가 된 대형 인간형 크리처는 5 피트의 공간을 차지하고, "
-"자연 사정거리는 5 피트입니다. 이 주문은 대상의 이동속도에는 영향을 주지 않습니다.\n"
+"이 {g|Encyclopedia:Spell}주문{/g}은 모든 아군 인간형 크리처의 크기를 즉시 줄여서, 키를 1/2, 무게를 1/8로 "
+"줄입니다. 이러한 변화는 해당 크리처의 {g|Encyclopedia:Size}크기{/g} 범주를 이전 단계로 줄입니다. 대상은 "
+"{g|Encyclopedia:Dexterity}민첩{/g}에 +2 크기 {g|Encyclopedia:Bonus}보너스{/g}, "
+"{g|Encyclopedia:Strength}힘{/g}에 -2 크기 {g|Encyclopedia:Penalty}페널티{/g}를 받으며 ("
+"최소 1), 작아진 크기로 인해 모든 {g|Encyclopedia:Attack}명중 굴림{/g} 및 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +1 보너스를 받습니다. 또한 근접 및 원거리 공격이 더 적은 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다.[LONGSTART]\n"
+"초소형 크기가 된 소형 인간형 크리처는 가로 1/2, 세로 2 피트 만큼의 공간을 차지하고 0 피트의 자연 "
+"{g|Encyclopedia:Reach}사정거리{/g}를 지닙니다. 이는 공격하기 위해선 상대방의 충돌 크기 안으로 들어가야 한다는 "
+"의미입니다. 중형 크기가 된 대형 인간형 크리처는 5 피트의 공간을 차지하고, 자연 사정거리는 5 피트입니다. 이 주문은 대상의 "
+"{g|Encyclopedia:Speed}속도{/g}에는 영향을 주지 않습니다.\n"
 "사람 축소 주문은 사람 확대 주문을 무효화합니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -28134,26 +28057,18 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveCurse 7::m_DisplayName
-#, fuzzy
 msgctxt "05de2a58-efc4-42cd-b970-59de3a320a45"
 msgid "Remove Curse"
 msgstr "저주 제거"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveCurse::m_DisplayName
-#, fuzzy
 msgctxt "95ec67c2-7b41-497a-9b66-5d480ce62307"
 msgid "Remove Curse"
 msgstr "저주 제거"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveCurse::m_Description
-#, fuzzy
-#| msgid ""
-#| "Remove curse can remove all curses on an object or a creature. If the target "
-#| "is a creature, you must make a caster level check (1d20 + caster level) "
-#| "against the DC of each curse affecting the target. Success means that the "
-#| "curse is removed."
 msgctxt "5283784d-4b17-497e-8028-ed863cc83114"
 msgid ""
 "Remove curse can remove all curses on an object or a creature. If the target "
@@ -28162,12 +28077,13 @@ msgid ""
 "level) against the {g|Encyclopedia:DC}DC{/g} of each curse affecting the "
 "target. Success means that the curse is removed."
 msgstr ""
-"하나의 물체나 크리처에 걸린 모든 저주를 제거할 수 있습니다. 대상이 크리처라면, 대상에게 걸린 저주 각각의 DC로 시전자 레벨 판정("
-"1d20 + 시전자 레벨)을 합니다. 성공하면 그 저주는 제거됩니다."
+"하나의 물체나 크리처에 걸린 모든 저주를 제거할 수 있습니다. 대상이 크리처라면, 대상에게 걸린 저주 각각의 "
+"{g|Encyclopedia:DC}DC{/g}로 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} "
+"{g|Encyclopedia:Check}판정{/g} (({g|Encyclopedia:Dice}1d20{/g} + 시전자 레벨)을 합니다. "
+"성공하면 그 저주는 제거됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveFear::m_DisplayName
-#, fuzzy
 msgctxt "0a4d2b48-ccac-4a52-8e13-6755abbdf058"
 msgid "Remove Fear"
 msgstr "공포 제거"
@@ -28193,7 +28109,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RemoveSickness::m_DisplayName
-#, fuzzy
 msgctxt "6718ea7a-560d-4fb7-89b6-691975607267"
 msgid "Remove Sickness"
 msgstr "고통 제거"
@@ -28732,20 +28647,6 @@ msgstr "의로운 힘"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RighteousMight::m_Description
-#, fuzzy
-#| msgid ""
-#| "Your height immediately doubles, and your weight increases by a factor of "
-#| "eight. This increase changes your size category to the next larger one. You "
-#| "gain a +4 size bonus to Strength and Constitution and take a –2 penalty to "
-#| "your Dexterity. You gain a +2 enhancement bonus to your natural armor. You "
-#| "gain DR 5/evil (if you are good or neutral) or DR 5/good (if you are evil). "
-#| "At 15th level, this damage reduction becomes 10/evil or 10/good (the "
-#| "maximum).\n"
-#| "Your size modifier for AC and attacks changes as appropriate to your new "
-#| "size category. This spell doesn't change your speed. Determine space and "
-#| "reach as appropriate to your new size. All equipment you wear or carry is "
-#| "similarly enlarged by the spell. Weapons deal more damage.\n"
-#| "Magical effects that increase size do not stack."
 msgctxt "ac1a9f58-5edc-4bd9-8f29-51858d369387"
 msgid ""
 "Your height immediately doubles, and your weight increases by a factor of "
@@ -28768,11 +28669,16 @@ msgid ""
 "more damage.\n"
 "Magical effects that increase size do not stack."
 msgstr ""
-"신장이 즉시 두 배가 되고 체중이 8 배 증가합니다. 크기 범주가 한 단계 올라갑니다. 힘과 체력에 +4 크기의 보너스를 얻고 민첩에 -"
-"2의 페널티를 받습니다. 자연 방어에 +2의 보너스를 얻습니다. 성향이 선이 중립이면 DR 5 / 악, 성향이 악이면 DR 5 / 선을 "
-"얻습니다. 15 레벨에 이 피해 감소는 최대 10 / 악 또는 10 / 선 이 됩니다.\n"
-"크기 변경은 또한 AC, 명중 굴림 및 기본 피해의 수정치에 영향을 줍니다. 충돌 크기와 사정거리는 크기에 맞게 적절하게 변경되지만 "
-"속도는 변하지 않습니다.\n"
+"신장이 즉시 두 배가 되고 체중이 8 배 증가합니다. {g|Encyclopedia:Size}크기{/g} 범주가 한 단계 올라갑니다. "
+"{g|Encyclopedia:Strength}힘{/g}과 {g|Encyclopedia:Constitution}건강{/g}에 +4 크기의 "
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Dexterity}민첩{/g}에 -2 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 자연 방어에 +2 형태 보너스를 얻습니다. 성향이 선이나 중립이면 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 5/악, 성향이 악이면 DR 5 / 선을 얻습니다. 15 레벨에 "
+"이 {g|Encyclopedia:Damage}피해{/g} 감소는 최대 10 / 악 또는 10 / 선 이 됩니다.\n"
+"크기 변경은 또한 {g|Encyclopedia:Armor_Class}AC{/g}, {g|Encyclopedia:Attack}공격{/g}의 "
+"수정치에 영향을 줍니다. 이 {g|Encyclopedia:Spell}주문{/g}은 충돌 크기와 "
+"{g|Encyclopedia:Reach}사정거리{/g}는 크기에 맞게 적절하게 변경하지만 "
+"{g|Encyclopedia:Speed}속도{/g}는 변하지 않습니다.\n"
 "크기를 증가시키는 마법 효과는 중첩되지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -28802,6 +28708,12 @@ msgid ""
 "{g|Encyclopedia:Strength}Strength{/g}), as well as to exhaustion and fatigue "
 "effects. However, both positive and negative energy deal damage to it."
 msgstr ""
+"이 효과를 받는 중일 때 크리처는 모든 정신 영향 효과, {g|Encyclopedia:Injury_Death}즉사{/g} 효과, 질병, "
+"마비, 독, 수면 효과, 기절에 면역을 얻지만 사망에 이르지 않을 정도의 {g|Encyclopedia:Damage}피해{/g}, "
+"{g|Encyclopedia:AbilityDamage}능력치 소진{/g}, 에너지 소진에는 적용되지 않습니다. 육체 "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 대한 피해, 탈진, 피로에 면역을 "
+"얻습니다.({g|Encyclopedia:Constitution}건강{/g}, {g|Encyclopedia:Strength}힘{/g}, "
+"{g|Encyclopedia:Dexterity}민첩{/g}) 그러나 양에너지 전달과 음에너지 전달 모두에 피해 입습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RovagugSpawnCloakCorruptAbility::m_DisplayName
@@ -28832,23 +28744,12 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbility::m_DisplayName
-#, fuzzy
 msgctxt "adc7d7d9-ce6b-4517-a29e-c5b1cd507f15"
 msgid "Blast Rune"
 msgstr "폭발 룬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can create a blast rune in a desired location. Any "
-#| "creature entering a 5-foot area around the rune takes 1d6 points of damage + "
-#| "1 point for every two levels you possess in the class that gave you access "
-#| "to this domain. This rune deals either acid, cold, electricity, or fire "
-#| "damage, decided when you create the rune. The rune lasts a number of rounds "
-#| "equal to your level in the class that gave you access to this "
-#| "domain.[LONGSTART] You can use this ability a number of times per day equal "
-#| "to 3 + your Wisdom modifier.[LONGEND]"
 msgctxt "d0414365-27a9-4e34-9c59-fbb9581ee9dd"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can create a "
@@ -28863,29 +28764,22 @@ msgid ""
 "number of times per day equal to 3 + your {g|Encyclopedia:Wisdom}Wisdom{/g} "
 "modifier.[LONGEND]"
 msgstr ""
-"일반 행동으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 피트 지역에 들어가는 모든 크리처는 1d6 + 이 영역을 사용할 "
-"수 있게 하는 클래스 레벨 2 당 1 점의 피해를 받습니다. 이 룬은 산성, 냉기, 전기, 화염 피해를 입힐 수 있고, 룬을 만들 때 "
-"피해 에너지 유형을 결정합니다. 룬은 해당 클래스 레벨과 동일한 수의 라운드 동안 지속됩니다.[LONGSTART] 하루에 3 + 지혜 "
-"수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 "
+"피트 지역에 들어가는 모든 크리처는 {g|Encyclopedia:Dice}1d6{/g} + 이 영역을 사용할 수 있게 하는 클래스 레벨 "
+"2 당 1 점의 {g|Encyclopedia:Damage}피해{/g}를 받습니다. 이 룬은 산성, 냉기, 전기, "
+"{g|Encyclopedia:Energy_Damage}화염 피해{/g}를 입힐 수 있고, 룬을 만들 때 피해 에너지 유형을 결정합니다. "
+"룬은 해당 클래스 레벨과 동일한 수의 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"지속됩니다.[LONGSTART] 하루에 3 + {g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 "
+"있습니다. [LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityAcid::m_DisplayName
-#, fuzzy
 msgctxt "ce4bd95b-433c-4816-aba3-1e68cfea35a7"
 msgid "Acid Blast Rune"
 msgstr "산성 폭발 룬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityAcid::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can create a blast rune in a desired location. Any "
-#| "creature entering a 5-foot area around the rune takes 1d6 points of acid "
-#| "damage + 1 point for every two levels you possess in the class that gave you "
-#| "access to this domain. The rune lasts a number of rounds equal to your level "
-#| "in the class that gave you access to this domain.[LONGSTART] You can use "
-#| "this ability a number of times per day equal to 3 + your Wisdom "
-#| "modifier.[LONGEND]"
 msgctxt "c1e7d41f-dbfe-4e40-b969-238823691028"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can create a "
@@ -28898,28 +28792,20 @@ msgid ""
 "ability a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier.[LONGEND]"
 msgstr ""
-"일반 행동으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 피트 지역에 들어가는 모든 크리처는 1d6 + 이 영역을 사용할 "
-"수 있게 하는 클래스 레벨 2 당 1 점의 산성 피해를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 라운드 동안 "
-"지속됩니다.[LONGSTART] 하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 "
+"피트 지역에 들어가는 모든 크리처는 {g|Encyclopedia:Dice}1d6{/g} + 이 영역을 사용할 수 있게 하는 클래스 레벨 "
+"2 당 1 점의 {g|Encyclopedia:Energy_Damage}산성 피해{/g}를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다.[LONGSTART] 하루에 3 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityCold::m_DisplayName
-#, fuzzy
 msgctxt "1904eb72-be64-48c0-a85d-c9f2a331938b"
 msgid "Cold Blast Rune"
 msgstr "냉기 폭발 룬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityCold::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can create a blast rune in a desired location. Any "
-#| "creature entering a 5-foot area around the rune takes 1d6 points of cold "
-#| "damage + 1 point for every two levels you possess in the class that gave you "
-#| "access to this domain. The rune lasts a number of rounds equal to your level "
-#| "in the class that gave you access to this domain.[LONGSTART] You can use "
-#| "this ability a number of times per day equal to 3 + your Wisdom "
-#| "modifier.[LONGEND]"
 msgctxt "2ebc54f4-4d17-4a48-a0f4-ab42266db576"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can create a "
@@ -28932,28 +28818,20 @@ msgid ""
 "ability a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier.[LONGEND]"
 msgstr ""
-"일반 행동으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 피트 지역에 들어가는 모든 크리처는 1d6 + 이 영역을 사용할 "
-"수 있게 하는 클래스 레벨 2 당 1 점의 냉기 피해를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 라운드 동안 "
-"지속됩니다.[LONGSTART] 하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 "
+"피트 지역에 들어가는 모든 크리처는 {g|Encyclopedia:Dice}1d6{/g} + 이 영역을 사용할 수 있게 하는 클래스 레벨 "
+"2 당 1 점의 {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다.[LONGSTART] 하루에 3 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityElectricity::m_DisplayName
-#, fuzzy
 msgctxt "7b899070-32fb-464e-bc8b-980b2c9fdbd2"
 msgid "Electricity Blast Rune"
 msgstr "전기 폭발 룬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityElectricity::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can create a blast rune in a desired location. Any "
-#| "creature entering a 5-foot area around the rune takes 1d6 points of "
-#| "electricity damage + 1 point for every two levels you possess in the class "
-#| "that gave you access to this domain. The rune lasts a number of rounds equal "
-#| "to your level in the class that gave you access to this domain.[LONGSTART] "
-#| "You can use this ability a number of times per day equal to 3 + your Wisdom "
-#| "modifier.[LONGEND]"
 msgctxt "9ae70d37-96ea-4849-945d-c67b6b2694e2"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can create a "
@@ -28966,28 +28844,20 @@ msgid ""
 "use this ability a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier.[LONGEND]"
 msgstr ""
-"일반 행동으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 피트 지역에 들어가는 모든 크리처는 1d6 + 이 영역을 사용할 "
-"수 있게 하는 클래스 레벨 2 당 1 점의 전기 피해를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 라운드 동안 "
-"지속됩니다.[LONGSTART] 하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 "
+"피트 지역에 들어가는 모든 크리처는 {g|Encyclopedia:Dice}1d6{/g} + 이 영역을 사용할 수 있게 하는 클래스 레벨 "
+"2 당 1 점의 {g|Encyclopedia:Energy_Damage}전기 피해{/g}를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다.[LONGSTART] 하루에 3 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityFire::m_DisplayName
-#, fuzzy
 msgctxt "01fb5de3-02db-406e-ad0f-2d47b1d1fb84"
 msgid "Fire Blast Rune"
 msgstr "화염 폭발 룬"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainBaseAbilityFire::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can create a blast rune in a desired location. Any "
-#| "creature entering a 5-foot area around the rune takes 1d6 points of fire "
-#| "damage + 1 point for every two levels you possess in the class that gave you "
-#| "access to this domain. The rune lasts a number of rounds equal to your level "
-#| "in the class that gave you access to this domain.[LONGSTART] You can use "
-#| "this ability a number of times per day equal to 3 + your Wisdom "
-#| "modifier.[LONGEND]"
 msgctxt "fb2f793a-8ee7-4be9-9566-a9b4d1eb60ec"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can create a "
@@ -29000,13 +28870,14 @@ msgid ""
 "ability a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier.[LONGEND]"
 msgstr ""
-"일반 행동으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 피트 지역에 들어가는 모든 크리처는 1d6 + 이 영역을 사용할 "
-"수 있게 하는 클래스 레벨 2 당 1 점의 화염 피해를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 라운드 동안 "
-"지속됩니다.[LONGSTART] 하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 원하는 위치에 폭발 룬을 만들 수 있습니다. 룬 주변 5 "
+"피트 지역에 들어가는 모든 크리처는 {g|Encyclopedia:Dice}1d6{/g} + 이 영역을 사용할 수 있게 하는 클래스 레벨 "
+"2 당 1 점의 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 받습니다. 룬은 해당 클래스 레벨과 동일한 수의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다.[LONGSTART] 하루에 3 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 있습니다. [LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RuneDomainGreaterAbility::m_DisplayName
-#, fuzzy
 msgctxt "d1b1b3fb-653f-490a-a78e-4f504c54c7d0"
 msgid "Warding Rune"
 msgstr "수호의 룬"
@@ -29015,7 +28886,7 @@ msgstr "수호의 룬"
 #. Path = SacredArmorEnchantSwitchAbility::m_DisplayName
 msgctxt "fc6412de-8642-45e4-bf5e-415900f11fb7"
 msgid "Sacred Armor"
-msgstr ""
+msgstr "성스러운 갑옷"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SacredNimbus::m_DisplayName
@@ -29038,16 +28909,6 @@ msgstr "성스러운 후광"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = SacredNimbusBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "You are surrounded by a nimbus of golden light. Any evil creature striking "
-#| "you with unarmed strikes, natural weapons, or a handheld weapon deals normal "
-#| "damage, but at the same time, the attacker takes 1d6 points of damage + 1 "
-#| "point per caster level (maximum +15). Creatures wielding melee weapons with "
-#| "reach are not subject to this damage if they attack you. Spell resistance "
-#| "applies against this damage. You also take half damage from magical attacks "
-#| "with the evil descriptor. If such an attack allows a saving throw for half "
-#| "damage, you take no damage on a successful saving throw."
 msgctxt "a501ad63-71b3-4f54-8066-21989f9c51ad"
 msgid ""
 "You are surrounded by a nimbus of golden light. Any evil creature striking "
@@ -29064,10 +28925,14 @@ msgid ""
 "saving throw{/g} for half damage, you take no damage on a successful saving "
 "throw."
 msgstr ""
-"당신은 황금빛의 후광을 두릅니다. 악한 크리처가 당신을 비무장 타격, 자연 무기, 손에 쥔 무기로 피해를 입히면, 공격자는 1d6 + "
-"시전자 레벨 당 1 점의 (최대 +15) 피해를 입습니다. 장병기로 공격하면 피해를 받지 않습니다. 이 피해에 대해 주문 저항이 "
-"적용됩니다. 악 기술어를 포함한 마법 공격으로부터 절반의 데미지를 받습니다. 그런 공격이 내성 굴림으로 절반의 피해를 받을 수 있다면, "
-"내성 굴림에 성공하면 아무 피해도 받지 않습니다."
+"당신은 황금빛의 후광을 두릅니다. 악한 크리처가 당신을 {g|Encyclopedia:UnarmedAttack}비무장 타격{/g}, "
+"{g|Encyclopedia:NaturalAttack}자연 무기{/g}, 손에 쥔 무기로 "
+"{g|Encyclopedia:Damage}피해{/g}를 입히면, 공격자는 {g|Encyclopedia:Dice}1d6{/g} + "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 1 점의 (최대 +15) 피해를 입습니다. "
+"{g|Encyclopedia:Reach}장병기{/g}로 공격하면 피해를 받지 않습니다. 이 피해에 대해 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}이 적용됩니다. 악 기술어를 포함한 마법 공격으로부터 절반의 "
+"피해를 받습니다. 그러한 공격이 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}으로 피해를 반감할 수 있다면, 내성 "
+"굴림에 성공하면 피해를 입지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SarenraeLifeSourceScalemailAbility::m_DisplayName
@@ -34567,16 +34432,6 @@ msgstr "쓰나미"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Tsunami::m_Description
-#, fuzzy
-#| msgid ""
-#| "You create a massive wave of water that then moves in a straight line across "
-#| "land at a speed of 50 feet per round. Creatures struck by a tsunami take "
-#| "24d6 points of bludgeoning damage (a Fortitude save halves this damage).\n"
-#| "In addition, every creature must succeed on a combat maneuver check, "
-#| "Athletics check, or Mobility check against the DC of this spell or be "
-#| "knocked prone and carried along by the wave.\n"
-#| "Freedom of movement prevents a creature from being carried along by a "
-#| "tsunami but does not prevent damage caused by it hitting a creature."
 msgctxt "d39d785c-bca1-48d1-b71d-16ca7025b1cc"
 msgid ""
 "You create a massive wave of water that then moves in a straight line across "
@@ -34594,10 +34449,15 @@ msgid ""
 "Freedom of movement prevents a creature from being carried along by a "
 "tsunami but does not prevent damage caused by it hitting a creature."
 msgstr ""
-"한 라운드에 50 피트의 속도로 육지를 일직선으로 가로 지르는 거대한 파도를 만듭니다. 쓰나미에 의해 공격받은 크리처는 24d6 점의 "
-"부수기 피해를 받습니다. 인내 내성에 성공하면 이 피해를 반으로 줄입니다.\n"
-"또한, 모든 크리처는 이 주문의 DC에 대하여 전법 판정, 운동 판정, 기동성 판정 중 하나를 성공하지 못하면 쓰러져서 파도에 떠내려 "
-"갑니다..\n"
+"한 {g|Encyclopedia:Combat_Round}라운드{/g}에 50 피트의 {g|Encyclopedia:Speed}속도{/g}로 "
+"육지를 일직선으로 가로지르는 거대한 파도를 만듭니다. 쓰나미에 의해 공격받은 크리처는 {g|Encyclopedia:Dice}24d6{/g}"
+" 점의 {g|Encyclopedia:Damage_Type}부수기 피해{/g}를 받습니다. "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g}에 성공하면 {g|Encyclopedia:Damage}피해{/g}를 "
+"반감합니다.\n"
+"또한, 모든 크리처는 이 {g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:DC}DC{/g}에 대하여 "
+"{g|Encyclopedia:Combat_Maneuvers}전법{/g} {g|Encyclopedia:Check}판정{/g}, "
+"{g|Encyclopedia:Athletics}운동 판정{/g}, {g|Encyclopedia:Mobility}기동성 판정{/g} 중 "
+"하나를 성공하지 못하면 쓰러져서 파도에 떠내려 갑니다..\n"
 "이동의 자유는 크리처가 쓰나미에 의해 운반되는 것을 방지하지만 피해를 막지는 못합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -35299,24 +35159,12 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Vinetrap::m_DisplayName
-#, fuzzy
 msgctxt "b757c157-f0ec-4311-baad-e693566c3b40"
 msgid "Vinetrap"
 msgstr "넝쿨덫"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Vinetrap::m_Description
-#, fuzzy
-#| msgid ""
-#| "Vines choked with thorns, blossoms, leaflets, and other floral debris burst "
-#| "to life on and around the subject of this spell.\n"
-#| "When this spell is cast, the subject becomes paralyzed and entangled, though "
-#| "a successful Reflex save negates the paralysis. Each following round, the "
-#| "subject may attempt a new saving throw to end both the paralysis and the "
-#| "entangle effects.\n"
-#| "The subject takes 2d4 points of piercing damage each turn from the sharp "
-#| "thorns. This damage is considered to be cold iron for the purposes of "
-#| "overcoming damage reduction."
 msgctxt "3bc42192-c64a-463d-afd7-6e1496531049"
 msgid ""
 "Vines choked with thorns, blossoms, leaflets, and other floral debris burst "
@@ -35332,9 +35180,13 @@ msgid ""
 "for the purposes of overcoming {g|Encyclopedia:Damage_Reduction}damage "
 "reduction{/g}."
 msgstr ""
-"가시, 꽃, 나뭇잎 등 식물성 부스러기로 가득한 넝쿨이 대상 주변에 폭발적으로 성장합니다.\n"
-"대상은 마비 및 속박 상태가 되지만 반사 내성에 성공하면 걸리지 않습니다. 대상은 매 턴마다 마비와 속박에 대해 반사 내성을 굴립니다.\n"
-"대상은 뾰족한 가시에 찔려 2d4 점의 찌르기 피해를 받습니다. 이 피해는 피해 감소를 무시할 때 한철으로 간주됩니다."
+"가시, 꽃, 나뭇잎 등 식물성 부스러기로 가득한 넝쿨이 {g|Encyclopedia:Spell}주문{/g}의 대상 주변에 폭발적으로 "
+"성장합니다.\n"
+"대상은 마비 및 속박 상태가 되지만 {g|Encyclopedia:Saving_Throw}반사 내성{/g}에 성공하면 마비되지 않습니다. "
+"대상은 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 마비와 속박에 대해 반사 내성을 굴립니다.\n"
+"대상은 뾰족한 가시에 찔려 {g|Encyclopedia:Dice}2d4{/g} 점의 {g|Encyclopedia:Damage_Type}"
+"찌르기 피해{/g}를 받습니다. 이 {g|Encyclopedia:Damage}피해{/g}는 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 관통할 때 한철로 간주됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = VoiceOfRenewal::m_DisplayName
@@ -35362,16 +35214,6 @@ msgstr "화산 폭풍"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = VolcanicStorm::m_Description
-#, fuzzy
-#| msgid ""
-#| "Chunks of hot volcanic rock and clumps of ash pound down when this spell is "
-#| "cast, dealing 3d6 points of bludgeoning damage and 2d6 points of fire damage "
-#| "to every creature in the area. This damage only occurs once, when the spell "
-#| "is cast. For the remaining duration of the spell, heavy ash rains down in "
-#| "the area. Creatures inside this area take a –4 penalty on Perception skill "
-#| "checks and the entire area is treated as difficult terrain. At the end of "
-#| "the duration, the rock and ash disappear, leaving no aftereffects (other "
-#| "than the damage dealt)."
 msgctxt "24fa1354-55ec-4259-9d58-913209e0285c"
 msgid ""
 "Chunks of hot volcanic rock and clumps of ash pound down when this "
@@ -35387,9 +35229,13 @@ msgid ""
 "of the duration, the rock and ash disappear, leaving no aftereffects (other "
 "than the damage dealt)."
 msgstr ""
-"이 주문을 시전하면 뜨거운 화산암과 화산재 덩어리가 쏟아져내려 범위 내의 모든 크리처에게 3d6 점의 부수기 피해와 2d6 점의 화염 "
-"피해를 입힙니다. 이 피해는 한 번만 발생합니다. 주문을 시전하면 남은 지속시간 동안, 많은 화산재가 내려 범위 안에 내려 험지로 "
-"만들고, 그 안의 크리처는 지각 판정에 -4 페널티를 받습니다. 지속시간이 끝나면 화산암과 화산재는 사라져 아무 효과도 남기지 않습니다."
+"이 {g|Encyclopedia:Spell}주문{/g}을 시전하면 뜨거운 화산암과 화산재 덩어리가 쏟아져내려 범위 내의 모든 크리처에게 "
+"{g|Encyclopedia:Dice}3d6{/g} 점의 {g|Encyclopedia:Damage_Type}부수기 피해{/g}와 2d6 "
+"점의 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 입힙니다. 이 "
+"{g|Encyclopedia:Damage}피해{/g}는 한 번만 발생합니다. 주문을 시전하면 남은 지속시간 동안, 많은 화산재가 내려 "
+"범위 안에 내려 험지로 만들고, 그 안의 크리처는 {g|Encyclopedia:Perception}지각{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 -4 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. "
+"지속시간이 끝나면 화산암과 화산재는 사라져 아무런 효과도 남기지 않지만, 입힌 피해가 회복되지는 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = VrockSporesAbility::m_DisplayName
@@ -35416,6 +35262,12 @@ msgid ""
 "bless on the affected creatures. This {g|Encyclopedia:Attack}attack{/g} can "
 "also be halted by effects that remove or provide immunity to disease."
 msgstr ""
+"브록은 3 {g|Encyclopedia:Combat_Round}라운드{/g}에 한 번 {g|Encyclopedia:Swift_Action}"
+"신속 행동{/g}으로 몸에서 포자 구름을 방출할 수 있습니다. 브록으로부터 10 피트 내의 모든 크리처는 포자로 인해 "
+"{g|Encyclopedia:Dice}1d8{/g} 점의 {g|Encyclopedia:Damage}피해{/g}를 입고 포자가 두꺼운 "
+"넝쿨로 자라남에 따라 10 라운드 동안 라운드마다 1d4 점의 피해를 추가로 입습니다. 영향 받은 크리처들에게 축복을 시전하여 포자를 "
+"파괴할 수 있습니다. 이 {g|Encyclopedia:Attack}공격{/g}은 질병을 제거하거나 질병 면역을 부여하는 효과로 중단할 수 "
+"있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WailOfBanshee::m_DisplayName
@@ -35426,11 +35278,6 @@ msgstr "밴시의 통곡"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WailOfBanshee::m_Description
-#, fuzzy
-#| msgid ""
-#| "When you cast this spell, you emit a terrible, soul-chilling scream that "
-#| "possibly kills creatures that hear it (except for yourself), inflicting 10 "
-#| "points of damage per caster level."
 msgctxt "7fc4f587-c4ec-4d44-ad87-4eeb94878a71"
 msgid ""
 "When you cast this {g|Encyclopedia:Spell}spell{/g}, you emit a terrible, "
@@ -35438,8 +35285,9 @@ msgid ""
 "yourself), inflicting 10 points of {g|Encyclopedia:Damage}damage{/g} per "
 "{g|Encyclopedia:Caster_Level}caster level{/g}."
 msgstr ""
-"이 주문을 시전하면, 자신을 제외하고는 듣는 크리처를 죽일 수 있는 끔찍하고 오싹한 비명을 질러, 시전자 레벨 당 10 점의 피해를 "
-"입힙니다."
+"이 {g|Encyclopedia:Spell}주문{/g}을 시전하면, 자신을 제외하고 듣는 크리처를 죽일 수 있는 끔찍하고 오싹한 비명을 "
+"질러, {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 10 점의 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WalkThroughSpace::m_DisplayName
@@ -35471,6 +35319,10 @@ msgid ""
 "lying prone. Teleporting does not provoke "
 "{g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}의 효과를 받는 중일 때 {g|Encyclopedia:Move_Action}이동 "
+"행동{/g} 최대 30 피트 순간이동할 수 있습니다. 이 이동은 시전자의 시야 내 점유되지 않은 공간에서 종료되어야 합니다. 이 "
+"{g|Encyclopedia:CA_Types}행동{/g} 대신 이동 행동을 소모하여 쓰러짐 상태에서 서 있는 자세로 순간이동 할 수 "
+"있습니다. 순간이동은 {g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을 유발하지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WanderingMythicTrickAbility1::m_DisplayName
@@ -35495,12 +35347,6 @@ msgstr "전투 격노"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarDomainBaseAbilityCast::m_Description
-#, fuzzy
-#| msgid ""
-#| "You can touch a creature as a standard action to give it a bonus on melee "
-#| "damage rolls equal to 1/2 your level in the class that gave you access to "
-#| "this domain for 1 round (minimum +1).[LONGSTART] You can do so a number of "
-#| "times per day equal to 3 + your Wisdom modifier.[LONGEND]"
 msgctxt "b6c5a5f9-d5dc-477b-9321-69becc19cc46"
 msgid ""
 "You can {g|Encyclopedia:TouchAttack}touch{/g} a creature as a "
@@ -35511,9 +35357,11 @@ msgid ""
 "You can do so a number of times per day equal to 3 + your "
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier.[LONGEND]"
 msgstr ""
-"일반 행동을 사용해서 하나의 크리처와 접촉하고 1 라운드 동안 대상의 근접 피해 굴림에 이 영역을 사용하게 하는 클래스 레벨의 1/2("
-"최소 +1) 만큼의 보너스를 줄 수 있습니다. [LONGSTART]하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 "
-"있습니다.[LONGEND]"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 하나의 크리처와 "
+"{g|Encyclopedia:TouchAttack}접촉{/g}하여 1 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"동안 대상의 근접 {g|Encyclopedia:Damage}피해 굴림{/g}에 이 영역을 사용하게 하는 클래스 레벨의 1/2(최소 +1) "
+"만큼의 보너스를 줄 수 있습니다. [LONGSTART]하루에 3 + {g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 "
+"능력을 사용할 수 있습니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarDomainBaseAbilityCast::m_DisplayName
@@ -35872,24 +35720,6 @@ msgstr "신성 무기 결속"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = WeaponBondDurationBuff::m_Description
-#, fuzzy
-#| msgid ""
-#| "Upon reaching 5th level, a paladin forms a divine bond with her weapon. As a "
-#| "standard action, she can call upon the aid of a celestial spirit for 1 "
-#| "minute per paladin level.\n"
-#| "At 5th level, this spirit grants the weapon a +1 enhancement bonus. For "
-#| "every three levels beyond 5th, the weapon gains another +1 enhancement "
-#| "bonus, to a maximum of +6 at 20th level. These bonuses can be added to the "
-#| "weapon, stacking with existing weapon bonuses to a maximum of +5.\n"
-#| "Alternatively, they can be used to add any of the following weapon "
-#| "properties: axiomatic, brilliant energy, defending, disruption, flaming, "
-#| "flaming burst, holy, keen, merciful, and speed. Adding these properties "
-#| "consumes an amount of bonus equal to the property's cost. These bonuses are "
-#| "added to any properties the weapon already has, but duplicate abilities do "
-#| "not stack.\n"
-#| "A paladin can use this ability once per day at 5th level, and one additional "
-#| "time per day for every four levels beyond 5th, to a total of four times per "
-#| "day at 17th level."
 msgctxt "354ca0a9-a0e5-44bc-bba6-0be1992ca58e"
 msgid ""
 "Upon reaching 5th level, a paladin forms a divine bond with her weapon. As a "
@@ -35910,13 +35740,14 @@ msgid ""
 "time per day for every four levels beyond 5th, to a total of four times per "
 "day at 17th level."
 msgstr ""
-"5 레벨이 되면, 팔라딘은 자신의 무기와 신성한 결속을 맺게 됩니다. 일반 행동을 사용해서 팔라딘 레벨당 1분 동안 천상의 영혼의 조력을 "
-"받을 수 있습니다.\n"
-"5 레벨에 이 영혼은 무기에 +1의 강화 보너스를 줍니다. 5 레벨 이후 레벨이 3 오를 때마다 무기는 +1 강화 보너스를 추가로 얻고, "
-"20 레벨에 최대 +6이 됩니다. 이 보너스는 기존의 무기가 지니고 있는 강화 보너스와 중첩될 수 있으며 최대 +5가 될 수 있습니다.\n"
+"5 레벨에 팔라딘은 자신의 무기와 신성한 결속을 맺게 됩니다. {g|Encyclopedia:Standard_Actions}일반 행동{/g}"
+"으로 팔라딘 레벨당 1분 동안 천상의 영혼의 조력을 받을 수 있습니다.\n"
+"5 레벨에 이 영혼은 무기에 +1의 강화 {g|Encyclopedia:Bonus}보너스{/g}를 줍니다. 5 레벨 이후 레벨이 3 오를 "
+"때마다 무기는 +1 강화 보너스를 추가로 얻고, 20 레벨에 최대 +6이 됩니다. 이 보너스는 기존의 무기가 지니고 있는 강화 보너스와 "
+"중첩될 수 있습니다.(최대 +5 까지)\n"
 "이 보너스들은 다음 무기 성질들을 추가하는데 사용할 수 있습니다: 공리, 광명의 에너지, 방어, 붕괴, 불꽃, 불꽃 폭발, 신성, 예리, "
-"신속. 이런 무기 성질들을 추가할 경우 해당 무기 성질이 요구하는 만큼 보너스를 소모하게 됩니다. 이 성질들은 무기가 본래 지니고 있던 "
-"성질들에 추가로 더해지지만, 같은 무기 성질끼리는 효과가 중첩되지 않습니다.\n"
+"자비, {g|Encyclopedia:Speed}신속{/g}. 이런 무기 성질들을 추가할 경우 해당 무기 성질이 요구하는 만큼 보너스를 "
+"소모하게 됩니다. 이 성질들은 무기가 본래 지니고 있던 성질들에 추가로 더해지지만, 같은 무기 성질끼리는 효과가 중첩되지 않습니다.\n"
 "팔라딘은 이 능력을 5 레벨에 하루에 한 번 사용할 수 있고, 이후 레벨이 4 오를 때마다 한 번 더 사용할 수 있게 되어, 17 레벨에 "
 "최대 하루에 네 번 사용할 수 있습니다."
 
@@ -35959,15 +35790,6 @@ msgstr "폭풍 폭발"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WeatherDomainBaseAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "As a standard action, you can create a storm burst targeting any foe within "
-#| "30 feet as a ranged touch attack. The storm burst deals 1d6 points of damage "
-#| "+ 1 point for every two levels you possess in the class that gave you access "
-#| "to this domain. In addition, the target is buffeted by winds and rain, "
-#| "causing it to take a –2 penalty on attack rolls for 1 round.[LONGSTART] You "
-#| "can use this ability a number of times per day equal to 3 + your Wisdom "
-#| "modifier.[LONGEND]"
 msgctxt "7d956fd6-158f-4489-a0b3-ce87fb865fac"
 msgid ""
 "As a {g|Encyclopedia:Standard_Actions}standard action{/g}, you can create a "
@@ -35982,9 +35804,12 @@ msgid ""
 "a number of times per day equal to 3 + your {g|Encyclopedia:Wisdom}Wisdom{/g}"
 " modifier.[LONGEND]"
 msgstr ""
-"일반 행동을 사용해서 폭풍 폭발을 만들어내 30 피트 이내에 있는 하나의 대상에게 원거리 접촉 공격을 합니다. 명중하면 폭풍 파열은 "
-"1d6점의 피해 + 이 영역을 사용하게 하는 클래스 레벨 2마다 1 점의 추가 피해를 입힙니다. 또한, 대상은 바람과 비에 흔들려 1 "
-"라운드 동안 명중 굴림에 -2의 페널티를 받습니다.[LONGSTART] 하루에 3 + 지혜 수정치 만큼 이 능력을 사용할 수 "
+"일반 행동을 사용해서 폭풍 폭발을 만들어내 30 피트 이내에 있는 하나의 대상에게 원거리 "
+"{g|Encyclopedia:TouchAttack}접촉 공격{/g}을 합니다. 명중하면 폭풍 파열은 "
+"{g|Encyclopedia:Dice}1d6{/g} 점의 {g|Encyclopedia:Damage}피해{/g} + 이 영역을 사용하게 "
+"하는 클래스 레벨 2마다 1 점의 추가 피해를 입힙니다. 또한, 대상은 바람과 비에 흔들려 1 라운드 동안 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받습니다.[LONGSTART] 하루에 3 + {g|Encyclopedia:Wisdom}지혜{/g} 수정치 만큼 이 능력을 사용할 수 "
 "있습니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -36046,10 +35871,9 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Weird::LocalizedSavingThrow
-#, fuzzy
 msgctxt "8dfb9bc5-a882-4932-b7f7-be287bd93d34"
 msgid "Will disbelief, then Fortitude partial"
-msgstr "의지로 믿지 않음, 그 후 인내로 일부"
+msgstr "의지로 믿지 않음, 인내로 일부"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Weird::m_DisplayName
@@ -36060,23 +35884,6 @@ msgstr "섬뜩함"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Weird::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell functions like phantasmal killer, except it can affect more than "
-#| "one creature. Only the affected creatures see the phantasmal creatures "
-#| "attacking them, though you see the attackers as shadowy shapes.\n"
-#| "If a subject's Fortitude save succeeds, it still takes 3d6 points of damage "
-#| "and is stunned for 1 round. The subject also takes 1d4 points of Strength "
-#| "damage.\n"
-#| "Phantasmal Killer: You create a phantasmal image of the most fearsome "
-#| "creature imaginable to the subject simply by forming the fears of the "
-#| "subject's subconscious mind into something that its conscious mind can "
-#| "visualize: this most horrible beast. Only the spell's subject can see the "
-#| "phantasmal killer. You see only a vague shape. The target first gets a Will "
-#| "save to recognize the image as unreal. If that save fails, the phantasm "
-#| "touches the subject, and the subject must succeed on a Fortitude save or die "
-#| "from fear. Even if the Fortitude save is successful, the subject takes 3d6 "
-#| "points of damage."
 msgctxt "8201c42e-ffcf-4f44-b953-8a440330907d"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} functions like phantasmal killer, "
@@ -36098,9 +35905,12 @@ msgid ""
 "from fear. Even if the Fortitude save is successful, the subject takes 3d6 "
 "points of damage."
 msgstr ""
-"이 주문은 환영 살인자와 비슷하지만, 하나 이상의 크리처에게 영향을 줍니다. 영향 받은 크리처만 이 환영의 크리처를 볼 수 있고, "
-"당신에게는 그저 음영으로 보입니다.\n"
-"대상이 인내 내성에 성공해도 3d6 점의 피해를 받고 1 라운드 간 기절합니다. 또한 1d4 점의 힘 피해를 받습니다.\n"
+"이 {g|Encyclopedia:Spell}주문{/g}은 환영 살인자와 비슷하지만, 하나 이상의 크리처에게 영향을 줍니다. 영향 받은 "
+"크리처만 이 환영의 크리처가 그들을 {g|Encyclopedia:Attack}공격{/g}하는 것을 볼 수 있고, 당신에게는 그저 음영으로 "
+"보입니다.\n"
+"대상이 {g|Encyclopedia:Saving_Throw}인내 내성{/g}에 성공해도 {g|Encyclopedia:Dice}3d6{/g}"
+" 점의 피해를 받고 1 {g|Encyclopedia:Combat_Round}라운드{/g} 간 기절합니다. 또한 1d4 점의 "
+"{g|Encyclopedia:Strength}힘{/g} 피해를 받습니다.\n"
 "환영 살인자: 당신은 상상할 수 있는 가장 공포스러운 크리처의 환영을 만들어냅니다. 이는 당신이 대상의 잠재의식에 심은 공포가 대상의 "
 "의식에 의해 구체적인 모습을 갖춘 것입니다. 이 가장 끔찍한 야수는 환영 살인자 주문의 대상에게만 보이고, 당신에게는 막연한 모양만 "
 "보입니다. 대상은 의지 내성으로 환영이 가짜임을 알아차릴 수 있습니다. 내성에 실패하면 환영이 대상에게 접촉하고, 대상은 인내 내성에 "
@@ -36114,15 +35924,6 @@ msgstr "수정"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WildHunt_ScoutCrystalAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "A Wild Hunt scout can, as a swift action, manifest a green crystal in her "
-#| "free hand; this crystal vanishes as soon as it leaves her possession. As "
-#| "another swift action, a Wild Hunt scout can fire a beam of green energy from "
-#| "her crystal. This is a ranged touch attack with a range increment of 40 feet "
-#| "that deals 3d6 points of force damage on a successful hit. A creature struck "
-#| "by this beam must pass a DC 27 Fortitude save or be blinded until the end of "
-#| "combat. The save DC is Charisma-based."
 msgctxt "966b69ff-f307-4d70-aaf8-4b1a091636f2"
 msgid ""
 "A Wild Hunt scout can, as a {g|Encyclopedia:Swift_Action}swift action{/g}, "
@@ -36137,10 +35938,13 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}Fortitude save{/g} or be blinded until the end "
 "of combat. The save DC is {g|Encyclopedia:Charisma}Charisma{/g}-based."
 msgstr ""
-"와일드 헌트 정찰병은 신속 행동으로 자신의 빈 손에 녹색 수정을 나타나게 할 수 있습니다. 이 수정은 그녀가 소유하지 않으면 즉시 "
-"사라집니다. 신속 행동을 한번 더 사용하여 수정에서 녹색 에너지 광선을 발사할 수 있습니다. 이는 사거리 40 피트의 원거리 접촉 "
-"공격이며 명중시 3d6 역장 피해를 입힙니다. 이 광선에 맞은 크리처는 DC 27 인내 내성에 실패하면 전투가 끝날 때까지 실명 상태가 "
-"됩니다. 내성 DC는 매력 기반입니다."
+"와일드 헌트 정찰병은 {g|Encyclopedia:Swift_Action}신속 행동{/g}으로 자신의 빈 손에 녹색 수정을 나타나게 할 "
+"수 있습니다. 이 수정은 그녀가 소유하지 않으면 즉시 사라집니다. 신속 {g|Encyclopedia:CA_Types}행동{/g}을 한번 "
+"더 사용하여 수정에서 녹색 에너지 광선을 발사할 수 있습니다. 이는 사거리 40 피트의 원거리 "
+"{g|Encyclopedia:TouchAttack}접촉 공격{/g}이며 명중시 {g|Encyclopedia:Dice}3d6{/g} 점의 "
+"역장 {g|Encyclopedia:Damage}피해{/g}를 입힙니다. 이 광선에 맞은 크리처는 "
+"{g|Encyclopedia:DC}DC{/g} 27 {g|Encyclopedia:Saving_Throw}인내 내성{/g}에 실패하면 "
+"전투가 끝날 때까지 실명 상태가 됩니다. 내성 DC는 {g|Encyclopedia:Charisma}매력{/g}에 기반합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WildShapeElementalAirHugeAbillity::m_DisplayName
@@ -36383,13 +36187,13 @@ msgctxt "a8a231c6-b55b-4922-ae49-4ddb3fe10472"
 msgid ""
 "Witch Doctor Channel Positive Energy — {g|Encyclopedia:Healing}Heal{/g} "
 "Living"
-msgstr ""
+msgstr "위치 닥터 양에너지 전달 — 생명 {g|Encyclopedia:Healing}치유{/g}"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchDoctorChannelPositiveHarm::m_DisplayName
 msgctxt "6bd17183-fad7-43fd-9af7-a093162f6071"
 msgid "Witch Doctor Channel Positive Energy — Harm Undead"
-msgstr ""
+msgstr "위치 닥터 양에너지 전달 — 언데드 피해"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexBeastsGiftBiteAbility::m_DisplayName
@@ -36398,7 +36202,7 @@ msgstr ""
 #. Path = WitchHexBeastsGiftBiteBuff::m_DisplayName
 msgctxt "b2dd3a7e-5214-4d86-874d-9a412c692e5d"
 msgid "Beast's Gift — Bite"
-msgstr ""
+msgstr "야수의 선물 — 물기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexBeastsGiftBiteAbility::m_Description
@@ -36410,6 +36214,8 @@ msgid ""
 "The creature gains one bite {g|Encyclopedia:Attack}attack{/g} that deals "
 "{g|Encyclopedia:Dice}1d8{/g} points of {g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
+"크리처는 {g|Encyclopedia:Dice}1d8{/g} 점의 {g|Encyclopedia:Damage}피해{/g}를 입히는 한 번의 "
+"물기 {g|Encyclopedia:Attack}공격{/g}을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexBeastsGiftClawAbility::m_DisplayName
@@ -36418,7 +36224,7 @@ msgstr ""
 #. Path = WitchHexBeastsGiftClawBuff::m_DisplayName
 msgctxt "3eb6c052-babf-4406-9126-6495f6e088ca"
 msgid "Beast's Gift — Claws"
-msgstr ""
+msgstr "야수의 선물 — 발톱"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexBeastsGiftClawAbility::m_Description
@@ -36431,6 +36237,8 @@ msgid ""
 "{g|Encyclopedia:Dice}1d4{/g} points of {g|Encyclopedia:Damage}damage{/g} "
 "each."
 msgstr ""
+"크리처는 각각 {g|Encyclopedia:Dice}1d4{/g} 점의 {g|Encyclopedia:Damage}피해{/g}를 입히는 두 "
+"번의 발톱 {g|Encyclopedia:Attack}공격{/g}을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexEvilEyeACAbility::m_Description
@@ -36444,6 +36252,12 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}Will save{/g} reduces this to just 1 round.\n"
 "This is a mind-affecting effect. At 8th level the penalty increases to –4."
 msgstr ""
+"대상은 {g|Encyclopedia:Armor_Class}AC{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받습니다. 이 주술은 3 + 위치의 {g|Encyclopedia:Intelligence}지능{/g} 수정치 만큼의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다. 스티그마타이즈 위치의 경우 3 + "
+"{g|Encyclopedia:Charisma}매력{/g} 수정치 만큼의 라운드 동안 지속됩니다. "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}에 성공하면 1 라운드 동안만 지속됩니다.\n"
+"이는 정신 영향 효과 입니다. 8 레벨에 페널티는 -4로 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexEvilEyeAttackAbility::m_Description
@@ -36457,6 +36271,12 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}Will save{/g} reduces this to just 1 round.\n"
 "This is a mind-affecting effect. At 8th level the penalty increases to –4."
 msgstr ""
+"대상은 {g|Encyclopedia:Attack}명중 굴림{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받습니다. 이 주술은 3 + 위치의 {g|Encyclopedia:Intelligence}지능{/g} 수정치 만큼의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다. 스티그마타이즈 위치의 경우 3 + "
+"{g|Encyclopedia:Charisma}매력{/g} 수정치 만큼의 라운드 동안 지속됩니다. "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}에 성공하면 1 라운드 동안만 지속됩니다.\n"
+"이는 정신 영향 효과 입니다. 8 레벨에 페널티는 -4로 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexEvilEyeSavesAbility::m_Description
@@ -36470,6 +36290,13 @@ msgid ""
 "Will save reduces this to just 1 round.\n"
 "This is a mind-affecting effect. At 8th level the penalty increases to –4."
 msgstr ""
+"대상은 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 -2 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 이 주술은 3 + 위치의 "
+"{g|Encyclopedia:Intelligence}지능{/g} 수정치 만큼의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다. 스티그마타이즈 위치의 경우 3 + "
+"{g|Encyclopedia:Charisma}매력{/g} 수정치 만큼의 라운드 동안 지속됩니다. "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}에 성공하면 1 라운드 동안만 지속됩니다.\n"
+"이는 정신 영향 효과 입니다. 8 레벨에 페널티는 -4로 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WitchHexMajorAmelioratingBlindedAbility::m_DisplayName
