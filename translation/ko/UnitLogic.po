@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-20 14:24+0000\n"
+"PO-Revision-Date: 2021-10-21 17:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -8694,7 +8694,7 @@ msgid ""
 "results. It {g|Encyclopedia:Attack}attacks{/g} your opponents to the best of "
 "its ability."
 msgstr ""
-"이 {g|Encyclopedia:Spell}주문{/g}은 평범한 육척봉을 트리엔트로 변십시킵니다. 소환되는 트리엔트는 시전자가 지정한 "
+"이 {g|Encyclopedia:Spell}주문{/g}은 평범한 육척봉을 트리엔트로 변신시킵니다. 소환되는 트리엔트는 시전자가 지정한 "
 "곳에 나타나며, {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g} 의 "
 "결과에 따라 행동합니다. 트리엔트는 자기 능력을 최대한 활용해 적을 {g|Encyclopedia:Attack}공격{/g}합니다."
 
@@ -10823,7 +10823,8 @@ msgstr ""
 "산만: 이 능력을 가진 크리처는 피해를 입은 크리처를 구토 상태로 만듭니다. 산만 능력을 가진 크리처에게 피해를 받은 모든 크리처는 1 "
 "{g|Encyclopedia:Combat_Round}라운드{/g}동안 구토 상태가 됩니다. 인내 내성으로 효과를 무효화할 수 있습니다.\n"
 "독: 군체 - {g|Encyclopedia:Injury_Death}상처{/g}; 인내 내성; 빈도: 1 라운드 / 6 라운드; 효과: "
-"1d4 {g|Encyclopedia:Dexterity}민첩{/g}; {g|Encyclopedia:Healing}치료{/g}: 1 내성 성공"
+"1d4 {g|Encyclopedia:Dexterity}민첩{/g}; {g|Encyclopedia:Healing}치료{/g}: 1 내성 "
+"성공."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CrumblingBlastAbility::m_DisplayName
@@ -10841,6 +10842,9 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} to creatures within a 40-foot cone (a "
 "{g|Encyclopedia:Saving_Throw}Fortitude save{/g} reduces the damage by half)."
 msgstr ""
+"이 나선형 동물 뿔피리는 평범한 뿔피리와 비슷하지만, 시동어를 말한 뒤 악기를 연주하면 40 피트 원뿔 범위 내의 크리처에게 "
+"{g|Encyclopedia:Dice}5d6{/g} 점의 음파 {g|Encyclopedia:Damage}피해{/g}를 입힙니다. "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g}으로 피해를 반감할 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CrumblingBlastTier2Ability::m_Description
@@ -10852,6 +10856,9 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}round{/g} (a {g|Encyclopedia:Saving_Throw}"
 "Fortitude save{/g} reduces the damage by half)."
 msgstr ""
+"이 뿔피리는 폭발의 뿔피리와 유사하지만 {g|Encyclopedia:Dice}10d6{/g} 점의 음파 "
+"{g|Encyclopedia:Damage}피해{/g}를 입히고 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"크리처들을 기절시킵니다. {g|Encyclopedia:Saving_Throw}인내 내성{/g}으로 피해를 반감할 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CrusadersEdge::m_DisplayName
@@ -13744,12 +13751,15 @@ msgid ""
 "Perseverance abilities for 1 {g|Encyclopedia:Combat_Round}round{/g} per 5 "
 "{g|Encyclopedia:Caster_Level}caster level{/g}."
 msgstr ""
+"{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 30 피트 반경의 모든 동료에게 불가침의 요새의 칙령과 인내의 "
+"칙령 능력을 5 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 부여합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EdictOfNonresistance::m_DisplayName
 msgctxt "37ea3f2d-f3c2-4a04-aabc-e0afd098eae0"
 msgid "Edict of Nonresistance"
-msgstr ""
+msgstr "무저항의 칙령"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EdictOfNonresistance::m_Description
@@ -13789,7 +13799,7 @@ msgstr ""
 #. Path = EdictOfPredetermination::m_DisplayName
 msgctxt "6efbc8fb-c6e8-44fe-bdc7-a8d907318fc2"
 msgid "Edict of Predetermination"
-msgstr ""
+msgstr "숙명의 칙령"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EdictOfPredetermination::m_Description
@@ -13808,7 +13818,7 @@ msgstr ""
 #. Path = EdictOfRetaliation::m_DisplayName
 msgctxt "2585b197-27dd-4701-8692-905825870050"
 msgid "Edict of Retaliation"
-msgstr ""
+msgstr "복수의 칙령"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EdictOfRetaliation::m_Description
@@ -14631,7 +14641,7 @@ msgstr ""
 #. Path = ElementalFistAcidBuff::m_DisplayName
 msgctxt "8da06dc9-3c50-4faf-8fea-317c9726734f"
 msgid "Elemental Fist — Acid"
-msgstr ""
+msgstr "원소권 — 산성"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ElementalFistAblilityAcid::m_Description
@@ -14655,7 +14665,7 @@ msgstr ""
 #. Path = ElementalFistColdBuff::m_DisplayName
 msgctxt "abdc6c07-c10f-49a0-9360-a68555c5dac2"
 msgid "Elemental Fist — Cold"
-msgstr ""
+msgstr "원소권 — 냉기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ElementalFistAblilityCold::m_Description
@@ -14679,7 +14689,7 @@ msgstr ""
 #. Path = ElementalFistElectricityBuff::m_DisplayName
 msgctxt "0a2cac1a-ff4e-4e90-9c7c-7622aa70c367"
 msgid "Elemental Fist — Electricity"
-msgstr ""
+msgstr "원소권 — 전기"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ElementalFistAblilityElectricity::m_Description
@@ -14703,7 +14713,7 @@ msgstr ""
 #. Path = ElementalFistFireBuff::m_DisplayName
 msgctxt "f57d9e38-02c3-4bb5-a9cc-72dd654856e3"
 msgid "Elemental Fist — Fire"
-msgstr ""
+msgstr "원소권 — 화염"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ElementalFistAblilityFire::m_Description
@@ -14816,7 +14826,7 @@ msgstr "원소의 장벽 — 불"
 #. Path = ElusiveNature::m_DisplayName
 msgctxt "12fe7fff-1902-49d5-b238-8755d339eac6"
 msgid "Elusive Nature"
-msgstr ""
+msgstr "희미한 성질"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ElusiveNature::m_Description
@@ -14845,6 +14855,11 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}Will saving throw{/g} each round or will be "
 "unable to {g|Encyclopedia:Attack}attack{/g} for one round."
 msgstr ""
+"엠버는 {g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 이 능력을 사용하여 30 피트 지역의 모든 적에게 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}만큼의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 평온의 비밀 효과를 적용할 수 있습니다. 주문의 영향을 받는 "
+"크리처는 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}에 실패하면 1 라운드 동안 "
+"{g|Encyclopedia:Attack}공격{/g}할 수 없습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EmberStormOfBurningRighteousnessSpell::m_Description
@@ -14869,7 +14884,7 @@ msgstr ""
 #. Path = EmbodimentOfOrder::m_DisplayName
 msgctxt "610b2c90-a3b6-4e6f-a195-a514c7903fd1"
 msgid "Embodiment of Order"
-msgstr ""
+msgstr "질서의 구현체"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EmbodimentOfOrder::m_Description
@@ -15130,8 +15145,8 @@ msgid ""
 "{g|Encyclopedia:Caster_Level}caster level{/g}."
 msgstr ""
 "아군의 {g|Encyclopedia:Attack}공격{/g}을 균일하게 만듭니다. 대상의 전체 "
-"{g|Encyclopedia:BAB}BAB{/g} 공격은 -2 {g|Encyclopedia:Penalty}페널티{/g}를 얻는 대신 "
-"BAB-10 또는 그 이하의 모든 공격은 공격 {g|Encyclopedia:Dice}굴림{/g}에 + 5 "
+"{g|Encyclopedia:BAB}BAB{/g} 공격은 명중에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 얻는 "
+"대신 BAB-10 또는 그 이하의 모든 공격은 명중 {g|Encyclopedia:Dice}굴림{/g}에 +5 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다. 이 효과는 {g|Encyclopedia:Caster_Level}시전자 "
 "레벨{/g}당 10분 동안 지속됩니다."
 
@@ -15246,7 +15261,7 @@ msgstr "전투 동료"
 #. Path = EvilBlessingMinorAbility::m_DisplayName
 msgctxt "6cd274d4-374f-49e7-bb32-bdc6f34b4ab2"
 msgid "Unholy Strike"
-msgstr ""
+msgstr "부정한 타격"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EvilBlessingMinorAbility::m_Description
@@ -19457,7 +19472,7 @@ msgid ""
 msgstr ""
 "활활 타오르는 지옥불이 손에서 뿜어져 나갑니다. 당신은 11 레벨에 광선 하나를, 그 후로 매 4 레벨마다 광선을 하나 더 발사합니다 ("
 "19 레벨에 최대 3개). 광선마다 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 시도하며 명중 시 "
-"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 {g|Encyclopedia:Dice}1d6{/g}  (최대 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 {g|Encyclopedia:Dice}1d6{/g} (최대 "
 "15d6) 점의 {g|Encyclopedia:Damage}피해{/g}를 입힙니다. 피해의 절반은 "
 "{g|Encyclopedia:Energy_Damage}화염 피해{/g}지만, 나머지 절반은 부정한 힘으로 인한 것이기 때문에 화염 "
 "저항으로 감소시킬 수 없습니다."
@@ -25352,8 +25367,8 @@ msgstr ""
 "범위 내의 크리처는 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
 "{g|Encyclopedia:Dice}5d6{/g} 점의 {g|Encyclopedia:Energy_Damage}냉기 피해{/g}와 "
 "1d6점의 {g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Damage}피해{/g}를 받습니다. "
-"매 라운드마다 인내 내성에 성공하면 {g|Encyclopedia:AbilityDamage}민첩 피해{/g}는 무효화하지만 냉기 피해는 "
-"그대로 받습니다."
+"매 라운드마다 {g|Encyclopedia:Saving_Throw}인내 내성{/g}에 성공하면 "
+"{g|Encyclopedia:AbilityDamage}민첩 피해{/g}는 무효화하지만 냉기 피해는 그대로 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PolarRay::m_DisplayName

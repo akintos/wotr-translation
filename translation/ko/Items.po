@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-20 14:24+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-10-21 17:24+0000\n"
+"Last-Translator: darkgaia <darkgaia@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -608,7 +608,7 @@ msgstr "궁정 장인 샤렐이 이 놀라운 아티팩트를 만들었습니다
 #. Path = ArdentGuardItem::m_DisplayNameText
 msgctxt "7a5db62d-fc2e-4670-a137-5234cf5450c7"
 msgid "Ardent Guard"
-msgstr "열렬한 보호자"
+msgstr "열정적인 수호자"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArdentGuardItem::m_DescriptionText
@@ -620,6 +620,9 @@ msgid ""
 "Encouraging Spell: Any morale {g|Encyclopedia:Bonus}bonus{/g} granted by an "
 "encouraging spell is increased by 1."
 msgstr ""
+"이 +4 판금 흉갑은 착용자가 전투 중 처음 시전한 전투 격려 {g|Encyclopedia:Spell}주문{/g}에 대해, 메타매직(격려 "
+"주문) {g|Encyclopedia:Feat}피트{/g}가 적용된 것처럼 적용합니다.\n"
+"메타매직(격려 주문) : 격려 주문이 부여하는 모든 사기 {g|Encyclopedia:Bonus}보너스{/g}가 1 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ArmagsBreastplate::m_DisplayNameText
@@ -4153,6 +4156,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Persuasion}Persuasion{/g} "
 "{g|Encyclopedia:Skills}skill checks{/g} made to intimidate."
 msgstr ""
+"이 +5 미스랄 사슬갑옷은 착용자에게 협박에 쓰이는 {g|Encyclopedia:Persuasion}설득{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +7 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PaddedAcidSonicResist30Plus5::m_DisplayNameText
@@ -4277,7 +4282,7 @@ msgstr "이 +2 누비갑옷은 착용자에게 넘어뜨리기 면역을 제공�
 #. Path = PanthersGraceItem::m_DisplayNameText
 msgctxt "6033afbb-7373-4e06-a7b8-84c2abdf148d"
 msgid "Panther's Grace"
-msgstr ""
+msgstr "표범의 우아함"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PanthersGraceItem::m_DescriptionText
@@ -4288,12 +4293,15 @@ msgid ""
 "{g|Encyclopedia:Skills}skill checks{/g} as well as a +4 competence bonus on "
 "Reflex {g|Encyclopedia:Saving_Throw}saving throws{/g}."
 msgstr ""
+"이 +5 징 박힌 가죽갑옷은 착용자의 {g|Encyclopedia:Stealth}은신{/g} {g|Encyclopedia:Skills}"
+"기술 판정{/g}에 +15 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 제공하며, 또한 반사 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4의 능숙 보너스를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PerfectDefenseItem::m_DisplayNameText
 msgctxt "e91b06b7-3844-4356-83b2-37e468e73479"
 msgid "Archer's Archfoe"
-msgstr "궁수의 대적자"
+msgstr "궁수의 천적"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PerfectDefenseItem::m_DescriptionText
@@ -4310,7 +4318,7 @@ msgstr ""
 #. Path = PerfectStormItem::m_DisplayNameText
 msgctxt "869dc43e-e681-49e7-a994-cde0868dbb01"
 msgid "Perfect Storm"
-msgstr ""
+msgstr "완전한 폭풍"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PerfectStormItem::m_DescriptionText
@@ -4321,6 +4329,9 @@ msgid ""
 "the weapon's largest enhancement {g|Encyclopedia:Bonus}bonus{/g} is added to "
 "{g|Encyclopedia:Armor_Class}AC{/g} with shield descriptor."
 msgstr ""
+"이 +4 전신 판금 갑옷의 착용자가 쌍수 무기 또는 {g|Encyclopedia:Light_Weapon}양손{/g} 무기를 사용할 경우, "
+"무기의 가장 높은 강화 {g|Encyclopedia:Bonus}보너스{/g}가 그와 동일한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}의 방패를 착용한 것처럼 반영됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PlagueBanded_IntermediateItem::m_DisplayNameText
@@ -4393,7 +4404,7 @@ msgstr ""
 #. Path = PlaguePersistenceQuarterstaffItem::m_DisplayNameText
 msgctxt "25e5501d-a705-4fef-bd82-6e98c8adfee4"
 msgid "Plague of Madness"
-msgstr ""
+msgstr "광기의 역병"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PlaguePersistenceBandedItem::m_DescriptionText
@@ -4403,12 +4414,14 @@ msgid ""
 "{g|Encyclopedia:Healing}healing{/g} 1 (stacks up to 10) until the end of the "
 "combat."
 msgstr ""
+"이 +4 철판 사슬갑옷의 착용자가 피격당할 때마다, 착용자는 1점의 빠른 {g|Encyclopedia:Healing}치유{/g} ("
+"10점까지 누적)를 전투 종료시까지 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PromiseOfGreatnessItem::m_DisplayNameText
 msgctxt "3eb7b6d6-475d-407c-9509-c4c12d88f578"
 msgid "Promise of Greatness"
-msgstr ""
+msgstr "위대함의 조짐"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PromiseOfGreatnessItem::m_DescriptionText
@@ -4420,6 +4433,9 @@ msgid ""
 "Encouraging Spell: Any morale {g|Encyclopedia:Bonus}bonus{/g} granted by an "
 "encouraging spell is increased by 1."
 msgstr ""
+"이 +4 판금 흉갑은 착용자가 전투 중 처음 시전한 전투 격려 {g|Encyclopedia:Spell}주문{/g}에 대해, 메타매직(격려 "
+"주문) {g|Encyclopedia:Feat}피트{/g}가 적용된 것처럼 적용합니다.\n"
+"메타매직(격려 주문) : 격려 주문이 부여하는 모든 사기 {g|Encyclopedia:Bonus}보너스{/g}가 1 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ProtectorOfUnjustArmorItem::m_DisplayNameText
@@ -4458,7 +4474,7 @@ msgstr "이 헤진 로브는 두껍지만 부드러운 옷감으로 만들어 �
 #. Path = PurgingChainsItem::m_DisplayNameText
 msgctxt "a0d5d892-de61-406c-b761-3dc67bb170fb"
 msgid "Purging Chains"
-msgstr ""
+msgstr "해제의 사슬"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = PurgingChainsItem::m_DescriptionText
@@ -5415,11 +5431,6 @@ msgstr "부자연스러운 로브"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = UnnaturalRobeItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer a +2 resistance bonus on Will saving throws, "
-#| "negative energy resistance 10 and the ability to cast phantasmal killer "
-#| "spell once per day as a 8th level wizard."
 msgctxt "bd2a2134-18be-4e3b-ab52-7c601024ac8d"
 msgid ""
 "This robe grants its wearer a +2 resistance {g|Encyclopedia:Bonus}bonus{/g} "
@@ -5428,8 +5439,9 @@ msgid ""
 "to cast phantasmal killer {g|Encyclopedia:Spell}spell{/g} once per day as a "
 "8th level wizard."
 msgstr ""
-"이 로브는 착용자에게 의지 내성 굴림에 +2 저항 보너스, 음에너지 저항 10과 하루에 한 번 8 레벨 위저드의 환영 살인자 주문 시전 "
-"능력을 제공합니다."
+"이 로브는 착용자에게 의지 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Energy_Resistance}음에너지 저항{/g} "
+"10과 하루에 한 번 8레벨 위저드의 환영 살인자 {g|Encyclopedia:Spell}주문{/g} 시전 능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ValerieSilkShirt::m_DisplayNameText
@@ -5440,17 +5452,16 @@ msgstr "발레리가 자수한 셔츠"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ValerieSilkShirt::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This shirt grants its wearer a +5 bonus to Persuasion skill checks and a +6 "
-#| "enhancement bonus to Charisma."
 msgctxt "7fd73290-138f-4bf3-82aa-9e9a53433372"
 msgid ""
 "This shirt grants its wearer a +5 {g|Encyclopedia:Bonus}bonus{/g} to "
 "{g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g} and a +6 enhancement bonus to "
 "{g|Encyclopedia:Charisma}Charisma{/g}."
-msgstr "이 조끼의 착용자에게 설득 기술 판정에 +5 보너스와 매력에 +6 강화 보너스를 제공합니다."
+msgstr ""
+"이 조끼는 착용자에게 {g|Encyclopedia:Persuasion}설득{/g} {g|Encyclopedia:Skills}기술 "
+"판정{/g}에 +5 {g|Encyclopedia:Bonus}보너스{/g}와 {g|Encyclopedia:Charisma}매력{/g}에 +"
+"6 강화 보너스를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ValerieSilkShirt::m_FlavorText
@@ -5848,7 +5859,7 @@ msgstr "지역의 술."
 #. Path = Almanac_Estrod::m_DisplayNameText
 msgctxt "4abe9959-9009-4ed1-a743-37aa892c5583"
 msgid "Almanac of the Tower of Estrod Museum"
-msgstr ""
+msgstr "에스트로드의 탑 박물관의 도감"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Almanac_Estrod::m_DescriptionText
@@ -5935,6 +5946,47 @@ msgid ""
 "storeroom for restoration and cleaning. Please accept our sincere apologies."
 "\""
 msgstr ""
+"\"미술품 전시물:\n"
+"\"흐릿한 거인들 사이로.\" 이 그림 속에서는 두 천사, 타르고나와 라리엘이 세계상처의 몇 마일 위 상공에서 강력한 브롤리카이 데몬을 "
+"추격하고 있습니다. 이 전투 이후, 처단된 이 데몬의 두개골은 오랫동안 드레젠의 내부 탑에 유물로 전시되었습니다. 안타깝게도, 이 유물은 "
+"드레젠의 함락 이후 소실되었습니다.\n"
+"\"사코리스여 잘 있거라.\" 전설적인 펄루라의 사제, 엘리안드라가 세계상처가 열리면서 붕괴되는 아이즈의 도시를 바라보는 모습입니다. 그 "
+"뒤로 살 길을 찾아 멘데브로 향하는 피폐해진 피난민들의 모습이 묘사되어 있습니다.\n"
+"\"성전사 여왕.\" 명공 다렉 선해머가 만든 유명한 양각 부조물의 복제품입니다. 젊은 갈프리 여왕이 1차 성전 중, 4624년 "
+"아바디우스 1일에 스스로 성전사들을 지휘하는 모습이 묘사되어 있습니다.\n"
+"\"우리는 이곳에 서서 결코 물러나지 않으리.\" 아이오메데의 사자가 케나브레스의 요새 위로 첫번째 수호석을 내리는 모습입니다.\n"
+"\"그 무엇도 나의 감시의 눈을 벗어나지 못한다.\" 인퀴지터 헐룬이 그가 병사의 몸에서 쫓아낸 그림자 데몬에 맞서는 모습입니다.\n"
+"\"비탄의 좌석.\" 악명높은 천상의 끝자락 저택의 전경입니다. 한때 이곳에서 멘데브의 귀족들 상당수가 데몬이 풀어놓은 초자연적 역병에 "
+"의해 몰살당한 일이 있었습니다.\n"
+"\"잃어버린 세상.\" 세계상처가 열리기 전 사코리스의 일상 생활을 주제로 한 여러 예술가들의 작품 모음집입니다. 첫번째 삼면화는 죽은 "
+"족장들을 위해 펄루라의 폭포 사원에서 열린 장례 의식을 그리고 있습니다. 두번째 축소 모형 연작들은 목공의 작업장의 다양한 모습들을 "
+"묘사하고 있습니다 — 이와 같은 장인정신은 사코리스에서 거의 신성함에 가까운 존중을 받았습니다. 이후의 여러 음각 부조가 사코리스의 "
+"자랑, 아이즈의 도시의 모습을 표현하고 있습니다. 그리고 마지막 작품인 \"스레시홀드의 죄수들.\"은 저 악명높은 감옥탑에 가둬진 "
+"마법사들을 그리고 있습니다. 이 그림의 기원은 불분명하나, 대부분의 사람들에게 배경에 그려진 족쇄를 찬 여인은 인류의 배반자 아릴루 "
+"볼레쉬를 그린 것으로 여겨지고 있습니다.\n"
+"\"샘 곁의 야니엘.\" 이 그림은 케나브레스 병영의 병사, 데니자 로셰의 작품입니다. 데니자는 전문적인 예술인은 아니었으나, 후세에 "
+"야니엘의 모습을 그린 전문가들에 대해 한 가지 우위를 가질 수 있었습니다. 1차 성전의 영웅 야니엘을 직접 보고 그렸다는 사실은 이 "
+"그림에 대단한 역사적 가치를 부여하고 있습니다. 이 그림은 야니엘이 도시의 샘에서 잠시 휴식을 취하는 모습을 묘사하고 있습니다. 이 "
+"작품은 4637년 여름, 야니엘이 드레젠의 전투에서 영웅적인 죽음을 맞이하기 1년 전에 그려진 것으로 여겨집니다.\n"
+"유물 전시물:\n"
+"자카리우스의 마법봉. 영웅적이며 비극적인 잃어버린 예배당 공성전에서 그 이름을 드높인 저명한 마법사 자카리우스의 마법봉입니다. 요새의 "
+"지휘관으로써, 그는 예배당의 여러 신들을 섬기는 사제들을 구하기 위해 제자들에게 포위망을 뚫고 빠져나갈 것을 지시했습니다. 자카리우스 "
+"본인은 요새를 탈출하지 않았으나, 마지막 공세에 의해 사망했을 것으로 여겨집니다. 전설에 의하면 이 영웅의 영혼은 여전히 잃어버린 "
+"예배당을 떠돌며, 자신의 마법봉을 돌려주러 올 자격있는 성전사에게 가장 힘든 고난에 맞설 힘을 빌려주기 위해 기다리고 있다고 합니다. 이 "
+"물품은 자카리우스의 제자, 마법사 텔돈에 의해 박물관에 기증되었습니다.\n"
+"라엘라스의 병. 이 구리병과 안에 담긴 기름은 신실한 성전사이자 아이오메데의 사제인 라엘라스에 의해 축성되었습니다. 성전군 야영지로 "
+"보내진 등불용 기름이 도착하자, 라엘라스는 병을 들어 창고로 옮기려 했습니다. 라엘라스의 깊은 신심은 병 안에 든 기름이 스스로 빛나도록 "
+"하고, 병의 표면에 아이오메데를 찬양하는 부조를 그려냈다고 합니다. 이 물품은 라엘라스의 전우들에 의해 박물관에 기증되었습니다.\n"
+"스크로치아의 투구. 이 투구는 관문 기사단의 파랄릭터이자 성전사로 복무한 첫 헬나이트들 중 하나인 바티스타스 스크로치아의 "
+"소유물이었습니다. 가장 불안정하고 위험했던 전쟁의 초기에, 스크로치아는 서로 다른 신을 섬기는 성전군의 내부 분쟁을 중재하여 성전군을 "
+"구했습니다. 한 헬나이트가 결투 끝에 아이오메데의 팔라딘을 살해하자, 스크로치아는 유혈사태가 발전하는 것을 막기 위해 그의 부하 대신 "
+"나서 책임을 지겠다고 했습니다. 스스로의 책임영역을 넘은 일임에도, 스크로치아는 스스로의 피로 기사단의 명예를 지키고자 한 것입니다. "
+"스크로치아는 두 기사단의 평화 협정을 위해 스스로의 목을 내놓는 것에 동의했습니다. 죽음으로 성전군 내부의 갈등을 종식시킨 그의 희생은 "
+"모든 성전사들에게 영원히 기억될 것입니다. 이 물품은 아이오메데의 검, 갈프리 여왕에 의해 박물관에 기증되었습니다.\n"
+"테렌델레브의 발톱. 이것은 케나브레스의 수호자인 실버 드래곤 테렌델레브의 발톱입니다. 테렌델레브가 포위당한 성전사들을 죽음의 위기에서 "
+"영웅적으로 구해냈을 때 데몬들에 의해 잘린 것입니다. 이 물품은 케나브레스 마을 회관에 의해 박물관에 기증되었습니다.\n"
+"3차 성전의 많은 전시물들이 복원과 세정 작업을 위해 박물관 보관고에 옮겨져 있어, 현재 공개될 수 없는 상태임을 알립니다. 여러분의 "
+"깊은 양해를 부탁드립니다.\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = AlmestrDiary::m_DisplayNameText
@@ -5968,7 +6020,7 @@ msgstr ""
 #. Path = AreeSecretProject::LocalizedName
 msgctxt "c6d80e91-7387-43c3-b882-701df70fd2a9"
 msgid "Areelu Vorlesh's Drafts"
-msgstr ""
+msgstr "아릴루 볼레쉬의 초고"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = ALR_AreeluSecretProject::m_DescriptionText
@@ -5981,6 +6033,8 @@ msgid ""
 "rituals. Magic researchers could potentially glean something useful from "
 "this material."
 msgstr ""
+"정리되지 않은 쪽지, 초안, 그리고 다양한 비전 의식의 스케치들입니다. 마법 연구자라면 이 문서로부터 유용한 성과를 얻을 수 있을지도 "
+"모릅니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = ALR_CasketNote::m_DisplayNameText
@@ -10355,7 +10409,7 @@ msgstr ""
 #. Path = MiellasVessel::m_DisplayNameText
 msgctxt "16f57880-a70f-45ef-8a89-1f6e8cd16397"
 msgid "Vessel of Raellas"
-msgstr ""
+msgstr "라엘라스의 병"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = MiellasVessel::m_DescriptionText
@@ -10364,6 +10418,7 @@ msgid ""
 "The copper vessel is empty, but there's a film of scented oil along the "
 "sides. The outside of the vessel is covered with engravings praising Iomedae."
 msgstr ""
+"이 구리 병은 비어 있지만, 향유가 담겨 있었던 흔적이 남아 있습니다. 병의 표면에는 아이오메데를 찬양하는 부조가 새겨져 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = MithralIngot::m_DisplayNameText
@@ -20929,13 +20984,13 @@ msgstr "내관통성"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = JagannathKhandaDamageReductionEnchant::m_Description
-#, fuzzy
-#| msgid "The wielder of this weapon gets DR 5/piercing."
 msgctxt "89b58604-c54f-44b8-838d-0a9a96677bb4"
 msgid ""
 "The wielder of this weapon gets {g|Encyclopedia:Damage_Reduction}DR{/g} 5/"
 "{g|Encyclopedia:Damage_Type}piercing{/g}."
-msgstr "착용자에게 DR 5/찌르기를 줍니다."
+msgstr ""
+"이 무기의 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 5/"
+"{g|Encyclopedia:Damage_Type}찌르기{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = JagannathKhandaMindAffectingEnchant::m_EnchantName
@@ -61450,10 +61505,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = WoundingBattleaxe_tolater::m_DisplayNameText
-#, fuzzy
 msgctxt "b348d4e2-464a-4f89-8ab9-c21f426aa32c"
 msgid "Serrator"
-msgstr "세라토르"
+msgstr "톱니날"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = WoundingBattleaxe_tolater::m_DescriptionText
