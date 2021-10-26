@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-24 16:24+0000\n"
-"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
+"PO-Revision-Date: 2021-10-26 01:24+0000\n"
+"Last-Translator: darkgaia <darkgaia@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -2322,7 +2322,7 @@ msgstr "이 +5 사슬조끼는 착용자에게 출혈 효과에 대한 면역과
 #. Path = ExquisiteChainBardingItem::m_DisplayNameText
 msgctxt "6dbbf1bb-37a4-437f-8248-52f3e6d86f43"
 msgid "Exquisite Chain Barding"
-msgstr ""
+msgstr "정교한 사슬 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ExquisiteChainBardingItem::m_DescriptionText
@@ -2334,6 +2334,10 @@ msgid ""
 "score {g|Encyclopedia:Damage}damage{/g} for the first 3 "
 "{g|Encyclopedia:Combat_Round}rounds{/g} of combat."
 msgstr ""
+"이 +3 사슬조끼 마갑은 착용자에게 +2 {g|Encyclopedia:Dexterity}민첩{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} {g|Encyclopedia:Bonus}보너스{/g}와, 전투 "
+"시작 후 3 {g|Encyclopedia:Combat_Round}라운드{/g}동안 능력치 점수 "
+"{g|Encyclopedia:Damage}피해{/g}에 대한 면역을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FlameguardArmorItem::m_DisplayNameText
@@ -2355,7 +2359,7 @@ msgstr ""
 #. Path = FlowingHalfplateItem::m_DisplayNameText
 msgctxt "ae4c7d64-5a48-4480-b2d4-832cc3ccc5dc"
 msgid "Flowing Half-Plate"
-msgstr ""
+msgstr "흐르는 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FlowingHalfplateItem::m_DescriptionText
@@ -2368,12 +2372,16 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} on a successful save, they instead take no "
 "damage as if they had the Evasion {g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
+"이 +4 반신 판금갑옷은 착용자에게 +5 반사 {g|Encyclopedia:Saving_Throw}내성 굴림{/g} "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 또한, 착용자가 반사 내성 굴림에 성공한 경우 착용자는 절반의 "
+"{g|Encyclopedia:Damage}피해{/g}를 입지 않고, 회피 {g|Encyclopedia:Feat}특기{/g}를 가진 것처럼 "
+"피해를 입지 않게 됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FlowingScalesItem::m_DisplayNameText
 msgctxt "e1a4a7a6-3de1-4bd1-b8e8-79079d998c75"
 msgid "Flowing Scales"
-msgstr ""
+msgstr "흐르는 미늘"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FlowingScalesItem::m_DescriptionText
@@ -2390,7 +2398,7 @@ msgstr ""
 #. Path = ForMounted_HalfplateOfSynergyItem::m_DisplayNameText
 msgctxt "7b746c8d-4c99-4c0e-8194-ce50c9c48f58"
 msgid "Half-Plate of Synergy"
-msgstr ""
+msgstr "상승작용의 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ForMounted_HalfplateOfSynergyItem::m_DescriptionText
@@ -2406,7 +2414,7 @@ msgstr ""
 #. Path = FrozenScalesItem::m_DisplayNameText
 msgctxt "41a8e450-ce33-4ecb-890b-9971decc8fab"
 msgid "Frozen Scales"
-msgstr ""
+msgstr "얼어붙은 미늘"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FrozenScalesItem::m_DescriptionText
@@ -2465,7 +2473,7 @@ msgstr "이 +1 전신 판금갑옷은 착용자에게 산성 저항 10을 제공
 #. Path = FullplateOfMindFocusItem::m_DisplayNameText
 msgctxt "09fb8332-974e-4976-99ee-419e8f1782e9"
 msgid "Full Plate Mail of Mind Focus"
-msgstr ""
+msgstr "정신 집중의 전신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FullplateOfMindFocusItem::m_DescriptionText
@@ -2474,12 +2482,14 @@ msgid ""
 "The wearer of this +5 mithral fullplate is immune to mind affecting "
 "conditions and \"can not {g|Encyclopedia:Attack}attack{/g}\" condition."
 msgstr ""
+"이 +5 미스랄 전신 판금갑옷의 착용자는 정신 영향 효과와 \"{g|Encyclopedia:Attack}공격{/g}할 수 없는\" 상태에 "
+"면역입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FullplateOfRetributionItem::m_DisplayNameText
 msgctxt "15cf840c-90f7-4f79-9fbe-faa7d3d58bda"
 msgid "Carapace"
-msgstr ""
+msgstr "갑각"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FullplateOfRetributionItem::m_DescriptionText
@@ -2493,6 +2503,11 @@ msgid ""
 "If the attacker passes the saving throw, they suffer 1d3 "
 "{g|Encyclopedia:Damage_Type}piercing damage{/g} instead."
 msgstr ""
+"이 +2 미스랄 전신 판금갑옷 착용자에게 공격을 적중시킬 때마다, {g|Encyclopedia:Attack}공격{/g}자는 "
+"회피{g|Encyclopedia:Saving_Throw}내성 굴림{/g}({g|Encyclopedia:DC}DC{/g} 18)에 성공하지 "
+"못할 경우 {g|Encyclopedia:Dice}1d3{/g}의 {g|Encyclopedia:Strength}힘{/g} "
+"{g|Encyclopedia:Damage}피해{/g}를 입습니다. 내성 굴림에 성공한 경우, 대신 1d3의 "
+"{g|Encyclopedia:Damage_Type}관통 피해{/g}를 입습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FullplateOfRetributionItem::m_FlavorText
@@ -2508,12 +2523,17 @@ msgid ""
 "the armor was displayed in Drezen's citadel as a warning to Deskari's "
 "worshipers — until Minagho finally found a knight worthy of wearing it."
 msgstr ""
+"표면이 데스카리의 인장으로 장식된 이 육중한 갑옷은 탐식자 군주의 고위 사제들 중 한 명을 위해 만들어졌습니다. 이 갑옷을 보는 것만으로 "
+"그의 적들은 공포에 빠졌습니다. 바포메트의 추종자들이 드레젠을 점거하고 얼마 되지 않아, 데스카리의 사교도들이 나타나 도시를 자신들에게 "
+"넘길 것을 요구했습니다. 바포메트의 추종자들은 요구에 기쁘게 응하며, 도시의 전권을 공식적으로 그들에게 넘기면서 열린 만찬에서 모든 "
+"데스카리 추종자들을 독살했습니다. 이후, 갑옷은 드레젠의 성채에서 데스카리 추종자들에게 보이는 경고로 전시되어 있었습니다. 미나고가 그 "
+"갑옷을 입기에 합당한 기사를 찾아내기 전까지는."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FullplateOfSpellNullifyItem::m_DisplayNameText
 msgctxt "07515afa-1e0f-450d-8079-cba0964b01eb"
 msgid "Fullplate of Spell Nullify"
-msgstr ""
+msgstr "주문 무효화의 전신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FullplateOfSpellNullifyItem::m_DescriptionText
@@ -2522,6 +2542,8 @@ msgid ""
 "This +3 mithral full plate grants the wearer additional "
 "{g|Encyclopedia:Spell_Resistance}Spell Resistance{/g} 23."
 msgstr ""
+"이 +3 미스랄 전신 판금갑옷은 착용자에게 추가적인 {g|Encyclopedia:Spell_Resistance}주문 저항{/g} 23을 "
+"부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = FullplateSonic30Plus2::m_DisplayNameText
@@ -5994,7 +6016,7 @@ msgstr ""
 "\"흐릿한 거인들 사이로.\" 이 그림 속에서는 두 천사, 타르고나와 라리엘이 세계상처의 몇 마일 위 상공에서 강력한 브롤리카이 데몬을 "
 "추격하고 있습니다. 이 전투 이후, 처단된 이 데몬의 두개골은 오랫동안 드레젠의 내부 탑에 유물로 전시되었습니다. 안타깝게도, 이 유물은 "
 "드레젠의 함락 이후 소실되었습니다.\n"
-"\"사코리스여 잘 있거라.\" 전설적인 펄루라의 사제, 엘리안드라가 세계상처가 열리면서 붕괴되는 아이즈의 도시를 바라보는 모습입니다. 그 "
+"\"사코리스여 잘 있거라.\" 전설적인 펄루라의 사제, 엘리안드라가 세계상처가 열리면서 붕괴되는 도시 이즈를 바라보는 모습입니다. 그 "
 "뒤로 살 길을 찾아 멘데브로 향하는 피폐해진 피난민들의 모습이 묘사되어 있습니다.\n"
 "\"성전사 여왕.\" 명공 다렉 선해머가 만든 유명한 양각 부조물의 복제품입니다. 젊은 갈프리 여왕이 1차 성전 중, 4624년 "
 "아바디우스 1일에 스스로 성전사들을 지휘하는 모습이 묘사되어 있습니다.\n"
@@ -6005,9 +6027,9 @@ msgstr ""
 "\"잃어버린 세상.\" 세계상처가 열리기 전 사코리스의 일상 생활을 주제로 한 여러 예술가들의 작품 모음집입니다. 첫번째 삼면화는 죽은 "
 "족장들을 위해 펄루라의 폭포 사원에서 열린 장례 의식을 그리고 있습니다. 두번째 축소 모형 연작들은 목공의 작업장의 다양한 모습들을 "
 "묘사하고 있습니다 — 이와 같은 장인정신은 사코리스에서 거의 신성함에 가까운 존중을 받았습니다. 이후의 여러 음각 부조가 사코리스의 "
-"자랑, 아이즈의 도시의 모습을 표현하고 있습니다. 그리고 마지막 작품인 \"스레시홀드의 죄수들.\"은 저 악명높은 감옥탑에 가둬진 "
-"마법사들을 그리고 있습니다. 이 그림의 기원은 불분명하나, 대부분의 사람들에게 배경에 그려진 족쇄를 찬 여인은 인류의 배반자 아릴루 "
-"볼레쉬를 그린 것으로 여겨지고 있습니다.\n"
+"자랑, 도시 이즈의 모습을 표현하고 있습니다. 그리고 마지막 작품인 \"스레시홀드의 죄수들.\"은 저 악명높은 감옥탑에 가둬진 마법사들을 "
+"그리고 있습니다. 이 그림의 기원은 불분명하나, 대부분의 사람들에게 배경에 그려진 족쇄를 찬 여인은 인류의 배반자 아릴루 볼레쉬를 그린 "
+"것으로 여겨지고 있습니다.\n"
 "\"샘 곁의 야니엘.\" 이 그림은 케나브레스 병영의 병사, 데니자 로셰의 작품입니다. 데니자는 전문적인 예술인은 아니었으나, 후세에 "
 "야니엘의 모습을 그린 전문가들에 대해 한 가지 우위를 가질 수 있었습니다. 1차 성전의 영웅 야니엘을 직접 보고 그렸다는 사실은 이 "
 "그림에 대단한 역사적 가치를 부여하고 있습니다. 이 그림은 야니엘이 도시의 샘에서 잠시 휴식을 취하는 모습을 묘사하고 있습니다. 이 "
@@ -34058,7 +34080,7 @@ msgstr "반지의 착용자가 비무장 타격이나 자연 무기로 행하는
 #. Path = WeddingRingItemSecond::m_DisplayNameText
 msgctxt "58521b8c-de88-421c-8d21-c00fc7a2b87a"
 msgid "Wedding Ring"
-msgstr ""
+msgstr "결혼 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = WeddingRingItemFirst::m_DescriptionText
@@ -34070,6 +34092,7 @@ msgid ""
 "Whenever the wearer of this ring is hit by an enemy, the wearer of the "
 "second ring gains bane against this enemy for 1 round."
 msgstr ""
+"이 반지의 착용자가 적의 공격에 적중할 경우, 같은 반지를 착용한 다른 사람은 이 적에 대해 1라운드 동안 파멸 효과를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = WeddingRingItemFirst::m_FlavorText
@@ -34080,7 +34103,7 @@ msgctxt "31fbdf6c-bc7d-46b1-81e3-bb346468b5eb"
 msgid ""
 "A humble but exquisite gold ring — a symbol of the eternal union of two "
 "hearts."
-msgstr ""
+msgstr "두 마음의 영원한 결합의 상징인 — 소박하지만 정교한 금 반지입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = ZeorisDaggerRing_Betrayal::m_DescriptionText
