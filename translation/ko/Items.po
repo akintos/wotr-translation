@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-26 01:24+0000\n"
+"PO-Revision-Date: 2021-10-28 02:24+0000\n"
 "Last-Translator: darkgaia <darkgaia@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -925,8 +925,8 @@ msgid ""
 "This a +4 mithral full plate grants its wearer ability to cast greater "
 "heroism {g|Encyclopedia:Spell}spell{/g} once per day as a 11th level wizard."
 msgstr ""
-"이 +4 미스랄 전신 판금갑옷은 착용자가 하루에 한 번 11 레벨 위저드의 영웅심 {g|Encyclopedia:Spell}주문{/g}을 "
-"시전할 수 있게 해줍니다."
+"이 +4 미스랄 전신 판금갑옷은 착용자가 하루에 한 번 11레벨 위저드의 상급 영웅심 {g|Encyclopedia:Spell}주문{/g}"
+"을 시전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = BattlemastersPlate::m_FlavorText
@@ -1675,7 +1675,7 @@ msgstr ""
 #. Path = ChainshirtofResists::m_DisplayNameText
 msgctxt "496c0dce-474f-44c7-bc49-f414d6512b9f"
 msgid "Gleaming Chainshirt"
-msgstr "미광의 사슬조끼"
+msgstr "번뜩이는 사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtofResists::m_DescriptionText
@@ -2237,6 +2237,10 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g}, {g|Encyclopedia:Damage}damage rolls{/g}, "
 "and {g|Encyclopedia:Saving_Throw}saving throws{/g} against dragons."
 msgstr ""
+"이 +4 미늘갑옷은 착용자에게 용에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여하며, 용에 대한 {g|Encyclopedia:Attack}공격{/g}, "
+"{g|Encyclopedia:Damage}피해{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 통찰 "
+"보너스를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = DragonscalePlate::m_DisplayNameText
@@ -2745,7 +2749,7 @@ msgstr ""
 #. Path = GleamingBandedArmorItem::m_DisplayNameText
 msgctxt "8d711d7b-cc20-464a-b00e-827de293d30a"
 msgid "Gleaming Banded Armor"
-msgstr ""
+msgstr "번뜩이는 철판 사슬갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = GleamingBandedArmorItem::m_DescriptionText
@@ -2753,19 +2757,19 @@ msgctxt "06ad7f42-8d17-4746-9dc3-0bbe2880adf5"
 msgid ""
 "This +3 banded armor grants the wearer fire resistance 30, immunity to "
 "sleep, electricity, and paralysis."
-msgstr ""
+msgstr "이 +3 철판 사슬갑옷은 착용자에게 화염 저항 30과 전기, 마비, 수면에 대한 면역을 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = GrenadiersHalfPlateItem::m_DisplayNameText
 msgctxt "91bf5afc-311f-40f0-b02b-1b74a2c7060c"
 msgid "Grenadier's Half-Plate"
-msgstr ""
+msgstr "척탄병의 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = GrenadiersHalfPlateItem::m_DescriptionText
 msgctxt "6c264868-a6e1-45a6-af76-03fd8c6ad71c"
 msgid "This +5 halfplate grants its wearer immunity against bombs."
-msgstr ""
+msgstr "이 +5 반신 판금갑옷은 착용자에게 폭탄에 대한 면역을 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = GrenadiersVest::m_DisplayNameText
@@ -2789,7 +2793,7 @@ msgstr ""
 msgctxt "d4568f64-88f7-4656-bce0-11b7daae9ce7"
 msgid ""
 "The leather is covered in dark scorch marks. This armor has seen some action!"
-msgstr "이 가죽갑옷은 검게 그을린 자국으로 덮여 있습니다. 이 갑옷으로 무슨 짓을 벌였나 봅니다!"
+msgstr "이 가죽갑옷은 검게 그을린 자국으로 덮여 있습니다. 이 갑옷은 상당한 역경을 겪었나 봅니다!"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = GrimArmorItem::m_DisplayNameText
@@ -2881,7 +2885,7 @@ msgstr "가슴에는 산으로 그슬려 세긴 다이몬의 추악한 얼굴이
 #. Path = HalfplateOfVigorItem::m_DisplayNameText
 msgctxt "d711d756-3590-4c62-9246-f233462f0663"
 msgid "Half-Plate of Vigor"
-msgstr ""
+msgstr "생기의 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HalfplateOfVigorItem::m_DescriptionText
@@ -2891,12 +2895,14 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to "
 "{g|Encyclopedia:Constitution}Constitution{/g}."
 msgstr ""
+"이 +2 반신 판금갑옷은 착용자의 {g|Encyclopedia:Constitution}건강{/g}에 +2의 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HalfplateSpellResistance19Plus5::m_DisplayNameText
 msgctxt "5ca9c71f-5251-4c50-8fd7-c5502f6a37da"
 msgid "Half-Plate of Greater Spell Resistance"
-msgstr ""
+msgstr "상급 주문 저항의 반신 판금갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HalfplateSpellResistance19Plus5::m_DescriptionText
@@ -5872,12 +5878,11 @@ msgstr "아다만틴 괴"
 #. 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = AreshkaTrash_Bandage_item::m_FlavorText
-#, fuzzy
 msgctxt "e166f383-099d-4335-b07f-859fcc909d2a"
 msgid ""
 "An item of interest to a craftsman or a collector. A merchant would pay well "
 "for it."
-msgstr "공예가나 수집가의 흥미를 끄는 물품입니다. 상인이 값을 좋게 쳐줄 겁니다."
+msgstr "공예가나 수집가의 흥미를 끄는 물품입니다. 상인이 후한 값을 쳐 줄 것입니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Agate::m_DisplayNameText
@@ -8357,12 +8362,11 @@ msgstr "다이아몬드"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Diamond::m_FlavorText
-#, fuzzy
 msgctxt "0d509d1b-155d-475b-9968-08dc5847bfc1"
 msgid ""
 "A gleaming gem. A merchant would pay well for it. Can also be used to cast "
 "certain spells."
-msgstr "빛나는 보석. 상인이 후한 값을 쳐줄 것입니다. 몇몇 주문을 시전할때도 사용됩니다."
+msgstr "빛나는 보석입니다. 상인이 후한 값을 쳐 줄 것입니다. 특정한 주문을 시전하는 데에도 사용됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DiamondDust::m_DisplayNameText
@@ -8373,28 +8377,25 @@ msgstr "다이아몬드 가루"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DiamondDust::m_FlavorText
-#, fuzzy
 msgctxt "ba6aadd0-92b5-4b3c-9991-01f8d0f1ef14"
 msgid ""
 "Dust left cutting a diamond. A merchant would pay well for it. Can also be "
 "used to cast certain spells."
-msgstr "다이아몬드를 세공하고 남은 가루. 상인이 후한 값을 쳐줄 것입니다. 몇몇 주문을 시전할때도 사용됩니다."
+msgstr "다이아몬드를 세공하고 남은 가루입니다. 상인이 후한 값을 쳐 줄 것입니다. 특정한 주문을 시전하는 데에도 사용됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DinosaurBone::m_DisplayNameText
-#, fuzzy
 msgctxt "964a1592-48cc-4a26-863f-2ac72662ef3c"
 msgid "Dinosaur Bone"
-msgstr "공룡뼈"
+msgstr "공룡 뼈"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DinosaurBone::m_FlavorText
-#, fuzzy
 msgctxt "1705ac2f-9c0d-4e29-9e23-37b4ff0ec90e"
 msgid ""
 "A bone of an ancient giant reptile. A merchant would pay well for it. Also "
 "used to cast certain spells."
-msgstr "고대 거대 파충류의 뼈, 상인이 값을 좋게 쳐줄 겁니다. 특정 주문을 시전하는 데에도 사용됩니다."
+msgstr "고대의 거대 파충류 뼈입니다. 상인이 후한 값을 쳐 줄 것입니다. 특정한 주문을 시전하는 데에도 사용됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DogPelt::m_DisplayNameText
@@ -9673,7 +9674,7 @@ msgctxt "83a8f1ba-e7bc-4c5c-9f98-1e666be33ba7"
 msgid ""
 "A glistening piece of jade. A merchant would pay well for it. Can also be "
 "used to cast certain spells."
-msgstr ""
+msgstr "반짝이는 옥 덩어리입니다. 상인이 후한 값을 쳐 줄 것입니다. 특정한 주문을 시전하는 데에도 사용됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = JadeClasp::m_DisplayNameText
