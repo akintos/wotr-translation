@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-28 02:24+0000\n"
-"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
+"PO-Revision-Date: 2021-10-30 04:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgstr ""
 
 msgctxt "7c50b18b-5190-45a1-bca1-c8d86a2b2d6c"
 msgid "Desna's Energy Harp"
-msgstr ""
+msgstr "데즈나의 에너지 하프"
 
 msgctxt "ba771723-04f8-4170-8bb7-d2d0e340f165"
 msgid ""
@@ -14344,12 +14344,10 @@ msgctxt "8432bcdd-739e-4ca6-acd7-9e8c2c39b3d2"
 msgid "Target is not recently dead"
 msgstr "대상이 죽은지 오래됨"
 
-#, fuzzy
 msgctxt "f4435508-f870-487e-9e22-89fb610eaec8"
 msgid "Target can not see caster"
-msgstr "대상이 시전자를 보지 않아도 됨"
+msgstr "대상이 시전자를 볼 수 없음"
 
-#, fuzzy
 msgctxt "69bdddc2-e806-4abf-8f72-6ba556a7cb4c"
 msgid "Target cannot see caster"
 msgstr "대상이 시전자를 볼 수 없음"
@@ -14402,10 +14400,9 @@ msgctxt "f973af27-75aa-4cd7-aaae-4c19742dcc06"
 msgid "Target has no"
 msgstr "대상에 없음"
 
-#, fuzzy
 msgctxt "4c2227f1-eec4-4a51-a00f-e652bb04676c"
 msgid "Target must not be {text} unless it has {description}"
-msgstr "대상에 {description} 없는 한 {text}될 수 없음"
+msgstr "대상이 {text}(이)가 아니거나, {description}(을)를 보유해야 함"
 
 #, fuzzy
 msgctxt "b8ca2d4b-76e4-4499-a3ee-a23e565c5e40"
@@ -18359,107 +18356,90 @@ msgctxt "e2b9e25e-f605-46e2-be6b-ff079e0e1fe7"
 msgid "Memorized spells"
 msgstr "암기한 주문"
 
-#, fuzzy
 msgctxt "c7e05da0-f09a-45f2-9258-80713f2ba65e"
 msgid ""
 "Each day, wizards can prepare a number of cantrips, or level-0 spells. These "
 "spells are cast like any other spell, but they are not expended when cast "
 "and may be used again."
 msgstr ""
-"위저드는 매일 캔트립이라고도 하는 몇 가지 0 레벨 주문을 준비할 수 있습니다. 이 주문은 다른 주문들과 똑같은 방식으로 시전할 수 "
-"있지만, 소모되지 않고 다시 사용할 수 있습니다."
+"위저드는 매일 캔트립이라 불리는 0레벨 주문 몇 개를 준비할 수 있습니다. 이 주문은 다른 주문들과 똑같은 방식으로 시전할 수 있지만, "
+"소모되지 않고 다시 사용할 수 있습니다."
 
-#, fuzzy
 msgctxt "aa39dbed-19b8-4b0b-a327-0a78ece6eaca"
 msgid ""
 "Each day, clerics can prepare a number of orisons, or level-0 spells. These "
 "spells are cast like any other spell, but they are not expended when cast "
 "and may be used again."
 msgstr ""
-"클레릭은 매일 오리즌이라고도 하는 몇 가지 0 레벨 주문을 준비할 수 있습니다. 이 주문은 다른 주문들과 똑같은 방식으로 시전할 수 "
-"있지만, 소모되지 않고 다시 사용할 수 있습니다."
+"클레릭은 매일 오리즌이라고 불리는 0레벨 주문 몇 개를 준비할 수 있습니다. 이 주문은 다른 주문들과 똑같은 방식으로 시전할 수 있지만, "
+"소모되지 않고 다시 사용할 수 있습니다."
 
-#, fuzzy
 msgctxt "053be193-ef70-471e-9f5b-feef8f2cd6d5"
 msgid "<sprite name=\"star\" color=#ffe9deFF>"
 msgstr "<sprite name=\"star\" color=#ffe9deFF>"
 
-#, fuzzy
 msgctxt "8bbeea44-4adc-4694-8b18-bb9cb34f1ac5"
 msgid "Metamagic"
 msgstr "메타매직"
 
-#, fuzzy
 msgctxt "1c44ce34-62da-4932-a328-ea97bc34755f"
 msgid "Rest to restore spells"
 msgstr "휴식으로 주문 회복"
 
-#, fuzzy
 msgctxt "0a3f559b-6be4-46ac-840f-67739a213481"
 msgid "You have no metamagic feats"
 msgstr "메타매직 특기 없음"
 
-#, fuzzy
 msgctxt "44d18fb9-4d16-4553-99fb-a82ed4f00321"
 msgid ""
 "Your <b>{0}</b> score is less than <b>{1}</b>, so you cannot cast spells of "
 "this level."
-msgstr "캐릭터의 <b>{0}</b> 수치가 <b>{1}</b>보다 낮아서 이 레벨의 주문을 시전할 수 없습니다."
+msgstr "캐릭터의 <b>{0}</b> 수치가 <b>{1}</b>보다 낮기 때문에 이 레벨의 주문을 시전할 수 없습니다."
 
-#, fuzzy
 msgctxt "9ac6ecf8-837c-4248-b646-1c160c7d5a5e"
 msgid ""
 "<color=#FF0000><b>Opposition school</b> (Requires 2 spell slots to "
 "memorize)</color>"
-msgstr "<color=#FF0000> <b>반대 학파</b> (암기 할 수있는 주문 슬롯 2 개 필요)</color>"
+msgstr "<color=#FF0000> <b>반대 학파</b> (암기하기 위해 주문 슬롯 2개 필요)</color>"
 
-#, fuzzy
 msgctxt "5a5eff37-0da7-4dbe-a467-193e29af4273"
 msgid "Result spell level"
 msgstr "최종 주문 레벨"
 
 msgctxt "4077855a-7002-45ff-b891-d3420e342f6b"
 msgid "Show all spells"
-msgstr ""
+msgstr "모든 주문 보기"
 
-#, fuzzy
 msgctxt "79486d32-79ee-4bd3-b01e-5c559c35cf0f"
 msgid ""
 "<color=#008000><b>Specialization school</b> (Uses special slots first, when "
 "memorized.)</color>"
-msgstr "<color=#008000><b전문 학파</b> (암기시 전용 칸을 먼저 사용합니다)</color>"
+msgstr "<color=#008000><b>전문 학파</b> (암기 시 전용 칸을 먼저 사용합니다)</color>"
 
-#, fuzzy
 msgctxt "9f3832fa-028f-4d55-aac9-368782481983"
 msgid "Spellbook"
 msgstr "주문책"
 
-#, fuzzy
 msgctxt "797e6b3e-4f42-4b12-95c5-bdace70be47b"
 msgid "Spell failure chance"
 msgstr "주문 실패 확률"
 
-#, fuzzy
 msgctxt "7562a2ee-3a73-45ee-a174-f98bf201e9a5"
 msgid "Spell penetration"
 msgstr "주문 관통"
 
-#, fuzzy
 msgctxt "9a56d386-894f-42d9-b351-0af89fd999c5"
 msgid "Potion preparing"
 msgstr "준비된 물약"
 
-#, fuzzy
 msgctxt "a4484bf0-60fa-41d4-bed3-80956ab445e9"
 msgid "Spells prepared"
 msgstr "준비된 주문"
 
-#, fuzzy
 msgctxt "e1a10df0-871b-4774-9299-8336184d2e06"
 msgid "Spells memorized"
 msgstr "암기한 주문"
 
-#, fuzzy
 msgctxt "8c13d09c-075f-4d98-9f2d-ec8b72296456"
 msgid "Spontaneous casting"
 msgstr "즉흥 시전"
@@ -18473,34 +18453,31 @@ msgstr ""
 "하루에 사용할 수 있는 주문 횟수:\n"
 "<size=120%><b>{0}</b></size>/{1}"
 
-#, fuzzy
 msgctxt "b4d5cb68-6aa5-4b70-8f20-5c216b10bee8"
 msgid "There are no limits on this spell's daily use."
-msgstr "이 주문은 하루 당 사용 횟수에 제한이 없습니다."
+msgstr "이 주문의 하루 당 사용 횟수는 제한이 없습니다."
 
-#, fuzzy
 msgctxt "5af94d53-c85c-43af-bb51-75346ff54a60"
 msgid "Write spell"
 msgstr "주문 기록"
 
 msgctxt "1333d44c-a7b3-4bb6-8516-cac052da933b"
 msgid "Attack Damage: {0}"
-msgstr ""
+msgstr "공격 피해: {0}"
 
+#, fuzzy
 msgctxt "3bab9d5f-155b-42b5-9cda-746f25f7fdc0"
 msgid "Attack enemy: {0}"
-msgstr ""
+msgstr "공격 적: {0}"
 
 msgctxt "111a922e-6881-4503-ab1f-7f117bfb3fd0"
 msgid "Number of kills after an attack: {0}"
-msgstr ""
+msgstr "이 공격으로 기록한 처치 수: {0}"
 
-#, fuzzy
 msgctxt "af5fa82d-25ea-49ac-b50f-52966dd5af63"
 msgid "I Accept"
 msgstr "동의"
 
-#, fuzzy
 msgctxt "22e04236-a470-4318-b5b2-8b15581a78d9"
 msgid "I Decline"
 msgstr "거절"
@@ -18945,7 +18922,6 @@ msgctxt "2c746799-4e82-4e0e-a351-43f8dd7063a7"
 msgid "{0}min"
 msgstr "{0}분"
 
-#, fuzzy
 msgctxt "50be8c23-06aa-4d0f-8df0-14e3894274b5"
 msgid "Modifier"
 msgstr "수정치"
@@ -18954,12 +18930,10 @@ msgctxt "56409174-baa2-4e33-ae1f-0cc843b3f6ba"
 msgid "ability score damage"
 msgstr "능력치 피해"
 
-#, fuzzy
 msgctxt "a9467e84-1b40-4a71-ba54-b89464100362"
 msgid "Not affected by target's spell resistance"
 msgstr "주문 저항의 영향을 받지 않음"
 
-#, fuzzy
 msgctxt "b0553dcf-17f5-4a30-b282-a168e9f6caf4"
 msgid "Affected by target's spell resistance"
 msgstr "주문 저항의 영향을 받음"
@@ -18972,7 +18946,6 @@ msgctxt "6b874d53-a490-49ca-a4ab-de56499288bb"
 msgid "Acquired ability"
 msgstr "획득한 능력"
 
-#, fuzzy
 msgctxt "81e5e328-9f7d-409e-9964-2f10022ac035"
 msgid "Appropriate Weapon"
 msgstr "적절한 무기"
@@ -18985,92 +18958,74 @@ msgctxt "d71d4fda-d6bc-4683-ad0a-d16bc3735860"
 msgid "Back"
 msgstr "뒤로"
 
-#, fuzzy
 msgctxt "e40f6e0b-7df1-44e2-85e3-2e6cb3013828"
 msgid "Base value"
 msgstr "기본값"
 
-#, fuzzy
 msgctxt "f34983fe-6cc9-474e-8c1e-0b3a72081922"
 msgid "Can be equipped"
 msgstr "장비 가능"
 
-#, fuzzy
 msgctxt "a9d997f1-14f6-4ebe-ae04-03f30685e4fd"
 msgid "Can be used by this character."
-msgstr "사용 가능."
+msgstr "이 캐릭터가 사용 가능."
 
-#, fuzzy
 msgctxt "311512ab-8286-479e-8711-df3d42f6ad96"
 msgid "Can be used with skill check."
-msgstr "기술 판정 필요."
+msgstr "기술 판정으로 사용할 수 있음."
 
-#, fuzzy
 msgctxt "440bb758-c15b-4f64-9954-7dcb2a9276dc"
 msgid "Ability to cast arcane spells"
 msgstr "비전 주문 시전 능력"
 
-#, fuzzy
 msgctxt "ea2f673c-85c9-4f70-8c7a-e3f29483dd6a"
 msgid "Ability to spontaneously cast arcane spells"
 msgstr "비전 주문 즉흥 시전 능력"
 
-#, fuzzy
 msgctxt "f1a682d7-b623-4d25-82f6-a0a2ba135bcb"
 msgid "Ability to cast"
 msgstr "시전 능력"
 
-#, fuzzy
 msgctxt "04a044e3-cbb3-426d-805f-6441f09e6eb8"
 msgid "Ability to cast divine spells"
 msgstr "신성 주문 시전 능력"
 
-#, fuzzy
 msgctxt "f60b88f3-7a74-48e1-a887-3e3e94c65250"
 msgid "Ability to spontaneously cast divine spells"
 msgstr "신성 주문 즉흥 시전 능력"
 
-#, fuzzy
 msgctxt "cc988b09-36dc-4f01-84b2-3a3f79335d46"
 msgid "Available for cooking"
 msgstr "요리 가능"
 
-#, fuzzy
 msgctxt "05149060-2347-4eb9-8018-89f45b2d8b12"
 msgid "Can't be equipped by this character"
 msgstr "장비 불가"
 
-#, fuzzy
 msgctxt "ae8c4269-8a46-4769-9ec8-b62690f51e16"
 msgid "Can't be unequipped"
-msgstr "착용 불가"
+msgstr "장비 해제 불가"
 
-#, fuzzy
 msgctxt "f4f9f4b1-6e26-43cc-a5c0-2fce6a5ae5fe"
 msgid "Can't be used by this character"
-msgstr "사용 불가"
+msgstr "이 캐릭터가 사용 불가"
 
-#, fuzzy
 msgctxt "45a9b0a1-eee8-4662-ad9f-f72846b6c99d"
 msgid "Not enough ingredients"
-msgstr "재료가 충분하지 않음"
+msgstr "재료 부족"
 
-#, fuzzy
 msgctxt "af967631-2a3c-4458-bc9b-7df4246700c5"
 msgid "Character level"
 msgstr "캐릭터 레벨"
 
-#, fuzzy
 msgctxt "303328c4-0d1e-4c85-9403-4d91b1162b12"
 msgid "Class bonus"
 msgstr "클래스 보너스"
 
-#, fuzzy
 msgctxt "c1657275-1563-4112-af58-096a05b6002d"
 msgid "Collect"
 msgstr "수집"
 
-#, fuzzy
 msgctxt "50e313c9-1cac-4fb6-a661-bc9f795021a2"
 msgid "Critical hits"
 msgstr "치명타"
@@ -19085,11 +19040,11 @@ msgstr "식사 보너스"
 
 msgctxt "39e8e45a-56a5-44d2-b3af-4124deeebe4d"
 msgid "Divine and arcane caster"
-msgstr "비전과 신성 시전자"
+msgstr "비전 및 신성 시전자"
 
 msgctxt "02e731f9-83fa-434c-b98c-f8ae2b457aab"
 msgid "Divine and arcane caster"
-msgstr "비전과 신성 시전자"
+msgstr "비전 및 신성 시전자"
 
 msgctxt "808ae324-4336-47e9-a205-25d6850cbb51"
 msgid "Divine caster"
@@ -19129,7 +19084,7 @@ msgstr "무거움"
 
 msgctxt "cd202dfc-7ad8-49bc-9062-e531a5e52a80"
 msgid "Overloaded"
-msgstr "과적 상태"
+msgstr "과적"
 
 msgctxt "8755bae3-f765-46a1-b483-ad1a864354f5"
 msgid "Energy"
@@ -19181,9 +19136,8 @@ msgstr "비전 주문 시전 능력"
 
 msgctxt "31af5e17-a435-486c-80ab-5b8f8a484b22"
 msgid "Prerequisite for:"
-msgstr ""
+msgstr "다음 특기의 선결 조건임:"
 
-#, fuzzy
 msgctxt "3d47508e-46b2-4145-898f-d7a91f9b7ae4"
 msgid "You already know this recipe"
 msgstr "이미 알고있는 조리법"
@@ -19286,7 +19240,7 @@ msgstr "다음 특성 중 하나 보유:"
 
 msgctxt "43063986-d9b0-445e-b0eb-95d1a98efb57"
 msgid "halves physical damage from slashing and piercing weapon"
-msgstr "베기 무기와 찌르기 무기의 물리 피해 반감"
+msgstr "베기 및 찌르기 무기의 물리 피해 반감"
 
 msgctxt "b206ea1c-d430-43a2-affd-12038ffb3115"
 msgid "Party Encumbrance"
@@ -19302,12 +19256,10 @@ msgctxt "dc3fe10d-af88-4765-b6c6-985d171a4c8b"
 msgid "You are in safe zone. Penalties are temporarily lifted."
 msgstr "안전 지대에 있습니다. 페널티가 일시적으로 해제됩니다."
 
-#, fuzzy
 msgctxt "d96e7c97-7575-4d80-aefd-775aaebdb69f"
 msgid "Try getting rid of some items."
 msgstr "물품을 어느 정도 버려야 합니다."
 
-#, fuzzy
 msgctxt "06f85e64-236c-43d4-b798-14dfcd71839e"
 msgid ""
 "A medium load will reduce the party's movement speed across the global map "
@@ -19318,21 +19270,19 @@ msgid ""
 "Exceeding the maximum weight load will slow down the party out of combat "
 "even further."
 msgstr ""
-"보통의 무게는 일행의 이동 속도를 세계지도에서 20% 감소시킵니다. 일행이 20% 더 빨리 지칩니다.\n"
-"일행이 무거운 짐을 지고 있으면 비전투시 이동속도가 20 피트가 됩니다. 세계지도에서 일행의 이동속도가 66% 감소하고 50% 빨리 "
-"지칩니다.\n"
+"보통 하중은 세계지도에서 움직이는 일행의 이동 속도를 20% 감소시킵니다. 일행이 20% 더 빨리 탈진합니다.\n"
+"일행이 무거운 하중을 받으면 비전투시 이동속도가 20피트가 됩니다. 세계지도에서 일행의 이동속도가 66% 감소하고 50% 빨리 탈진합니다."
+"\n"
 "무게가 최대 하중을 넘어서면 비전투시 이동속도가 더 느려집니다."
 
 msgctxt "ffff3e7d-fe22-4b81-9255-46a5cd6279d1"
 msgid "Encumbrance: {0}"
 msgstr "하중 : {0}"
 
-#, fuzzy
 msgctxt "325c1b7a-e6b2-47bd-bcfa-a763c539fa07"
 msgid "Try getting rid of some items."
 msgstr "물품을 어느 정도 버려야 합니다."
 
-#, fuzzy
 msgctxt "23d7f313-2aad-4882-b87b-dd2a366f1fbb"
 msgid ""
 "If a character's encumbrance is Medium or Heavy, the character's movement "
@@ -19346,25 +19296,23 @@ msgid ""
 "encumbrance is greater than their maximum carrying capacity, then the "
 "character will be unable to move."
 msgstr ""
-"캐릭터의 하중이 보통 또는 무거움이면 전투시 캐릭터의 이동 속도가 감소합니다. 또한 최대 AC 보너스에 제한을 받으며, 운동, 기동성 및 "
-"손재주 판정에 페널티가 부가됩니다. 속도는 20 피트(작은 캐릭터는 15)로 줄어 듭니다. AC에 더하는 최대 민첩 보너스는 보통 무게는 "
-"+3으로, 무거움이면 +1로 제한됩니다. 운동, 기동성 및 손재주 판정의 페널티는 보통에서는 -3이고 무거움에서는 -6입니다. 이 "
-"페널티는 갑옷의 페널티와 중복되지 않습니다. 캐릭터의 무게가 최대 하중보다 크면 캐릭터는 움직일 수 없습니다."
+"캐릭터의 하중이 보통 또는 무거움이면 전투중 캐릭터의 이동속도가 감소합니다. 또한 최대 AC 보너스에 제한을 받으며, 운동, 기동성 및 "
+"손재주 판정에 페널티가 부과됩니다. 속도 또한 20으로 줄어들며, 소형 캐릭터는 15가 됩니다. AC에 더하는 최대 민첩 보너스는 보통 "
+"하중인 경우 +3으로, 무거움이면 +1로 제한됩니다. 운동, 기동성 및 손재주 판정의 페널티는 보통에서 -3이고 무거움에서는 -6입니다. "
+"이 페널티는 갑옷 페널티와 중복되지 않습니다. 캐릭터의 하중이 최대 부하보다 크다면 캐릭터는 움직일 수 없습니다."
 
 msgctxt "4b4b160b-10e1-47ac-8de1-80cca5f78f36"
 msgid "Penalty"
 msgstr "페널티"
 
-#, fuzzy
 msgctxt "0ebaa30d-ff96-4d0d-8287-26525e8d26d4"
 msgid "Result"
 msgstr "결과"
 
 msgctxt "60d11acf-aef4-43c6-a078-62ebaeaa0034"
 msgid "Possible selections"
-msgstr ""
+msgstr "가능한 선택"
 
-#, fuzzy
 msgctxt "09d0a31a-dec1-4f80-879f-5a5564e660c5"
 msgid "precision damage"
 msgstr "정밀 피해"
@@ -19373,7 +19321,6 @@ msgctxt "086d2f8d-4e94-49ec-afb5-40cf038d0fc3"
 msgid "Prerequisites"
 msgstr "선결 조건"
 
-#, fuzzy
 msgctxt "dd37432c-c253-43bb-aa25-a2ffd6f20a61"
 msgid "Ranks"
 msgstr "등급"
@@ -19385,34 +19332,28 @@ msgstr "사거리"
 
 msgctxt "74992e87-e0fb-48d4-b7c4-d1b1f8f263a0"
 msgid "Reach weapon"
-msgstr ""
+msgstr "장병기"
 
-#, fuzzy
 msgctxt "b2977945-407e-4ea3-8c82-a842b4f28d8c"
 msgid "Recipe"
 msgstr "조리법"
 
-#, fuzzy
 msgctxt "7c4b2eac-1fa8-4d2e-9e5a-c8d23a00cc82"
 msgid "Cooking DC: {0}"
 msgstr "요리 DC: {0}"
 
-#, fuzzy
 msgctxt "26c436dd-7013-403b-8a40-652a3815b532"
 msgid "Regeneration"
 msgstr "재생"
 
-#, fuzzy
 msgctxt "5a01623f-7ffd-4f09-91d4-69d247e598e6"
 msgid "Remove regeneration"
 msgstr "재생 제거"
 
-#, fuzzy
 msgctxt "7bf421a6-392b-4758-8a91-2a9e35966c48"
 msgid "Remove regeneration"
 msgstr "재생 제거"
 
-#, fuzzy
 msgctxt "5c11d5d8-32dd-4310-87b0-ddc97a8b48d1"
 msgid "Regeneration"
 msgstr "재생"
@@ -19423,9 +19364,8 @@ msgstr "전형에 의해 제거됨"
 
 msgctxt "82f36240-475b-4f50-9c31-5c580846c82c"
 msgid "Selected"
-msgstr ""
+msgstr "선택됨"
 
-#, fuzzy
 msgctxt "6b298b59-6ad0-49c5-8015-c47b95a5af0c"
 msgid ""
 "Right-click this spell in Spellbook window and select \"Info\" for more "
@@ -19434,172 +19374,144 @@ msgstr "자세한 정보를 보려면 주문책 창에서 이 주문을 오른�
 
 msgctxt "9afc6b1b-9f0f-47f5-b587-00b0893d41fd"
 msgid "<size=150%><sprite name=RightMouseBTN></size> expand"
-msgstr ""
+msgstr "<size=150%><sprite name=RightMouseBTN></size> 확장"
 
 msgctxt "5c0b203d-2b78-4478-9f75-4bbfd38eb438"
 msgid "<size=150%><sprite name=LeftMouseBTN></size> expand"
-msgstr ""
+msgstr "<size=150%><sprite name=LeftMouseBTN></size> 확장"
 
 msgctxt "bae5d8dd-6961-457a-9b8a-6d04c5adb297"
 msgid "<size=150%><sprite name=RightMouseBTN></size> expand"
-msgstr ""
+msgstr "<size=150%><sprite name=RightMouseBTN></size> 확장"
 
 msgctxt "fa88e31b-b71c-4f1e-873e-82c699048668"
 msgid "Shift+<size=150%><sprite name=RightMouseBTN></size> expand"
-msgstr ""
+msgstr "Shift+<size=150%><sprite name=RightMouseBTN></size> 확장"
 
 msgctxt "a6ad451d-a08b-48e8-89c0-627e9ae3f879"
 msgid "Source"
-msgstr ""
+msgstr "원천"
 
-#, fuzzy
 msgctxt "3591d841-146e-41d0-91f9-ad21d07b8880"
 msgid "spell immunity"
 msgstr "주문 면역"
 
-#, fuzzy
 msgctxt "15253469-2f50-4afc-8e6a-be3d37e14b22"
 msgid "spells with a target"
 msgstr "대상이 있는 주문"
 
-#, fuzzy
 msgctxt "c874ab09-5829-4f35-aa9e-39ff30d00ea8"
 msgid "cantrips"
 msgstr "캔트립"
 
-#, fuzzy
 msgctxt "cd082202-5d6e-4f5f-a5fc-417a145deb16"
 msgid "1st level spells"
-msgstr "1 레벨 주문"
+msgstr "1레벨 주문"
 
-#, fuzzy
 msgctxt "ca2bbf16-426f-4500-9d69-7c65b7d36538"
 msgid "2nd level spells"
-msgstr "2 레벨 주문"
+msgstr "2레벨 주문"
 
-#, fuzzy
 msgctxt "04f9669a-f79c-4d74-8afb-dcd6507f3401"
 msgid "3rd level spells"
-msgstr "3 레벨 주문"
+msgstr "3레벨 주문"
 
-#, fuzzy
 msgctxt "8c6a98d4-529b-4d3b-8e65-463a8221ddfb"
 msgid "4th level spells"
-msgstr "4 레벨 주문"
+msgstr "4레벨 주문"
 
-#, fuzzy
 msgctxt "303fad04-48b4-41c9-b477-4767568bccea"
 msgid "5th level spells"
-msgstr "5 레벨 주문"
+msgstr "5레벨 주문"
 
-#, fuzzy
 msgctxt "78e729d2-6629-49f1-b651-c97e3d9ffeba"
 msgid "6th level spells"
-msgstr "6 레벨 주문"
+msgstr "6레벨 주문"
 
-#, fuzzy
 msgctxt "137b3e55-40b6-4abc-ada6-62a3c7a6c6cf"
 msgid "7th level spells"
-msgstr "7 레벨 주문"
+msgstr "7레벨 주문"
 
-#, fuzzy
 msgctxt "87623520-879c-49a9-9f8a-1cbf590a7eea"
 msgid "8th level spells"
-msgstr "8 레벨 주문"
+msgstr "8레벨 주문"
 
-#, fuzzy
 msgctxt "e96aa4a2-427c-4af8-90dd-0338c2066f31"
 msgid "9th level spells"
-msgstr "9 레벨 주문"
+msgstr "9레벨 주문"
 
 msgctxt "aaf7710f-94bf-4c2e-a251-ff7555faa476"
 msgid "Search tags"
-msgstr ""
+msgstr "검색 태그"
 
-#, fuzzy
 msgctxt "4ad4c066-7504-4595-9d52-76801369b315"
 msgid "(Shows the best character for this action)"
 msgstr "(이 행동에 가장 적합한 캐릭터 표시)"
 
-#, fuzzy
 msgctxt "d68e182d-e64c-4b75-87da-293197e7fb6b"
 msgid "{0}, DC: {1}"
 msgstr "{0}, DC: {1}"
 
-#, fuzzy
 msgctxt "dfe1c2dc-6a19-4bc5-a1a8-df01cc674540"
 msgid "physical damage from weapon"
 msgstr "무기로부터의 물리 피해"
 
-#, fuzzy
 msgctxt "f1b41bfe-a3c6-4b20-8a5e-bdb05212c8a8"
 msgid "Total value"
 msgstr "합계"
 
-#, fuzzy
 msgctxt "a516b766-da65-4ae5-84d9-b8905cc61732"
 msgid "Disarm"
 msgstr "함정 해제"
 
-#, fuzzy
 msgctxt "1644911d-cab3-4d33-8e9f-94626a00fe69"
 msgid "Trap"
 msgstr "함정"
 
 msgctxt "d7a1c7d6-f005-45d0-93de-8369d6f57d75"
 msgid "Two-Weapon Fighting"
-msgstr ""
+msgstr "쌍검술"
 
-#, fuzzy
 msgctxt "bf7f89d2-5d60-475e-abb8-963628e58ea6"
 msgid "Unidentified"
-msgstr "미확인"
+msgstr "미식별"
 
-#, fuzzy
 msgctxt "ee6d8ada-9f82-4821-8cbb-b9adfdab167f"
 msgid "Not inspected"
 msgstr "확인되지 않음"
 
-#, fuzzy
 msgctxt "356a97dc-7714-4a5f-8566-df955a778fea"
 msgid "You don't know this recipe."
 msgstr "이 조리법을 알지 못합니다."
 
-#, fuzzy
 msgctxt "ddd7228a-6e8a-4cce-b290-6c7f9e5168e7"
 msgid "Irremovable"
 msgstr "장비 해제 불가"
 
-#, fuzzy
 msgctxt "24788a19-f2cf-46cd-91d4-9d7cb66640db"
 msgid "Irremovable"
 msgstr "장비 해제 불가"
 
-#, fuzzy
 msgctxt "ed5021f0-c4ae-4fb3-91f7-ff51718e5c1c"
 msgid "VS"
 msgstr "VS"
 
-#, fuzzy
 msgctxt "9e50822c-2d25-4813-b2c6-8d729bcbbfe0"
 msgid "Vulnerabilities"
 msgstr "취약"
 
 msgctxt "51b665ae-049b-4651-a7a9-52d938160496"
 msgid "Available quests:"
-msgstr ""
+msgstr "가능한 임무:"
 
-#, fuzzy
 msgctxt "0f9056e9-384e-4e32-a2af-26a65e621ee4"
 msgid "There are no quests available in this location."
-msgstr "현재 장소에 남은 퀘스트가 없습니다."
+msgstr "현재 장소에 남은 임무가 없습니다."
 
-#, fuzzy
 msgctxt "0e35cc26-01b0-483d-b26a-02cf4ce8a338"
 msgid "Attack"
 msgstr "공격"
 
-#, fuzzy
 msgctxt "fa8e9e4c-4916-4b73-9b56-6eed12580572"
 msgid ""
 "You are playing with the Auto End Turn option enabled. This option allows "
@@ -19608,12 +19520,10 @@ msgid ""
 msgstr ""
 "자동 턴 종료 옵션이 활성화되었습니다. 캐릭터가 일반 행동과 이동 행동을 마치면 자동으로 턴을 종료합니다. 이 옵션을 유지하시겠습니까?"
 
-#, fuzzy
 msgctxt "e2ceaa7b-28ad-4caf-8919-91b32362e086"
 msgid "Change weapon"
 msgstr "무기 변경"
 
-#, fuzzy
 msgctxt "d6458577-aad1-4b3d-825d-4721233e796a"
 msgid ""
 "Choose a position in the initiative queue to delay the character's turn."
@@ -19624,161 +19534,131 @@ msgctxt "e6c37e4c-54e3-4572-8b09-3a9e78b1762f"
 msgid ""
 "Delaying your turn will rearrange the turn order for the rest of the combat. "
 "Continue?"
-msgstr "전투가 끝날 때까지 이 순서로 전투하게 됩니다. 계속하시겠습니까?"
+msgstr "턴을 미루면 이번 전투 끝까지 턴 순서가 바뀝니다. 계속하시겠습니까?"
 
-#, fuzzy
 msgctxt "5000c2a7-86bd-485b-8897-db731c03cb25"
 msgid ""
 "By delaying a character's turn, you voluntarily reduce their Initiative "
 "score for the rest of the combat. Continue?"
-msgstr "캐릭터의 턴을 미뤄서 우선권 점수를 일부러 줄입니다. 계속하시겠습니까?"
+msgstr "캐릭터의 턴을 미루면, 당신은 우선권 점수를 일부러 줄인 채로 남은 전투를 진행합니다. 계속하시겠습니까?"
 
-#, fuzzy
 msgctxt "6c86cde9-6d6e-4a8c-9d16-d074d572e3fe"
 msgid ""
 "You are delaying a character's turn until the next round. They won't act "
 "this round, but from the next round and for the rest of the combat their "
 "Initiative score will be increased. Continue?"
 msgstr ""
-"캐릭터의 턴을 다음 라운드까지 미뤘습니다. 이 라운드에는 행동할 수 없습니다. 그러나 그 다음 라운드부터는 우선권 점수가 회복됩니다. "
+"캐릭터의 턴을 다음 라운드까지 미뤘습니다. 이 라운드에는 행동할 수 없지만, 그 다음 라운드부터 전투 끝까지 우선권 점수가 늘어납니다. "
 "계속하시겠습니까?"
 
-#, fuzzy
 msgctxt "fc0aa974-00f0-4b91-aaff-56c69ebb496b"
 msgid "Delay"
 msgstr "미루기"
 
-#, fuzzy
 msgctxt "a313cb3b-54af-4418-b868-1fa69977d0d0"
 msgid "5 ft."
 msgstr "5 ft."
 
-#, fuzzy
 msgctxt "3083461d-a66f-4018-8c4b-d4e93c839194"
 msgid "Free"
 msgstr "자유"
 
-#, fuzzy
 msgctxt "642d7157-694f-4320-8fe1-7be9c4365449"
 msgid "Full attack"
 msgstr "전력 공격"
 
-#, fuzzy
 msgctxt "1d2342a1-e2bc-4922-8a58-42bd0c5ce8f2"
 msgid "Full round"
 msgstr "라운드 전체"
 
-#, fuzzy
 msgctxt "823c022f-5fd9-4bfd-b0aa-568d809ae53c"
 msgid "Interact"
 msgstr "상호작용"
 
-#, fuzzy
 msgctxt "d5b6377f-4737-46d5-85bd-67062dd9e2a4"
 msgid "Move"
 msgstr "이동"
 
-#, fuzzy
 msgctxt "c02bb4cd-9ea1-45d3-87e8-a10535159e17"
 msgid "No actions left this turn to use this ability"
-msgstr "남아있는 행동이 없어 이 능력을 사용할 수 없음"
+msgstr "이 능력을 사용하기 위해 남은 행동력 없음"
 
-#, fuzzy
 msgctxt "59175432-daf3-42a6-a800-8461f3ae17c0"
 msgid "Rounds"
 msgstr "라운드"
 
-#, fuzzy
 msgctxt "4ddc6b7c-31bb-44eb-b490-25c507750b5f"
 msgid "Spell combat attack"
 msgstr "주문 전투 공격"
 
-#, fuzzy
 msgctxt "fe965430-b4de-46b2-bcd0-7af2a0fc7b86"
 msgid "Standard action"
 msgstr "일반 행동"
 
-#, fuzzy
 msgctxt "c609f212-0468-4e43-8442-47dec2738af3"
 msgid "Stand up"
 msgstr "일어서기"
 
-#, fuzzy
 msgctxt "a5ce3891-db51-4a1c-bd2b-4c159da26d6f"
 msgid "Surprise round"
 msgstr "기습 라운드"
 
-#, fuzzy
 msgctxt "ba15ca2a-10bc-4424-9978-bf0dc82d3181"
 msgid "Swift"
 msgstr "신속"
 
-#, fuzzy
 msgctxt "318e29c6-dec5-40d5-8103-11564abeb524"
 msgid "Deliver touch"
 msgstr "접촉 전달"
 
-#, fuzzy
 msgctxt "fdcfb560-9971-4e4e-88f7-a80e963206ee"
 msgid "Use ability"
 msgstr "능력 사용"
 
-#, fuzzy
 msgctxt "7e9bc640-7675-4081-8321-d63852c50e83"
 msgid "Use item"
 msgstr "물품 사용"
 
 msgctxt "d59a175b-f291-4a58-8421-ad1468f8ffae"
 msgid "Don't show this tutorial"
-msgstr ""
+msgstr "튜토리얼 숨기기"
 
-#, fuzzy
 msgctxt "4b576345-70d3-4427-b229-f686a6b811d7"
 msgid "The deal is not complete. Are you sure you want to leave?"
 msgstr "거래가 끝나지 않았습니다. 그래도 떠나시겠습니까?"
 
 msgctxt "c7ee468e-8267-4a72-af9c-2e906e6cc5b7"
 msgid "Compare"
-msgstr ""
+msgstr "비교"
 
-#, fuzzy
 msgctxt "67e72d69-dd73-4fdf-b705-cb7d52395a24"
 msgid "Deal!"
 msgstr "거래!"
 
-#, fuzzy
-#| msgid "Offer"
 msgctxt "1f46058b-7e4e-4e8d-8a05-e464cf17e434"
 msgid "Bulk Selling"
-msgstr "제안"
+msgstr "잡화 판매"
 
-#, fuzzy
 msgctxt "cd16383c-038f-4c1f-b6b8-00dad8d6739a"
 msgid "Return"
 msgstr "대가"
 
-#, fuzzy
-#| msgid "<align=center>Press [J] to open</align>"
 msgctxt "f03f4c4d-a968-47b6-bc43-50553d8dc673"
 msgid "<align=center>Press [{bind|OpenJournal}] to open</align>"
-msgstr "<align=center>[J] 키를 눌러 열 수 있습니다</align>"
+msgstr "<align=center>[{bind|OpenJournal}] 키를 눌러 열 수 있습니다</align>"
 
-#, fuzzy
 msgctxt "69c74d8c-b230-46fd-a08e-deea1cb48b3e"
 msgid "The party gets tired faster by {0}."
 msgstr "일행이 {0}만큼 더 빨리 지칩니다."
 
-#, fuzzy
 msgctxt "957eebb4-0aad-449d-81b9-474447b48409"
 msgid "Encumbrance slows down the character and increases fatigue."
-msgstr "하중이 무거워지면 캐릭터의 속도가 느려지고 쉽게 피로해집니다."
+msgstr "하중은 캐릭터의 속도를 감소시키고 피로도를 늘립니다."
 
-#, fuzzy
 msgctxt "ac7f0b3e-36ba-489f-b2ac-ce14666b25a6"
 msgid "The party gets tired faster by {0}."
 msgstr "일행이 {0}만큼 더 빨리 지칩니다."
 
-#, fuzzy
 msgctxt "18d76261-bd5e-4298-a807-881680e8f2f0"
 msgid ""
 "The party's common inventory burdens all the members of the group. If you "
@@ -19787,40 +19667,34 @@ msgid ""
 msgstr ""
 "일행의 소지품 무게는 모두에게 부담이 됩니다. 이동속도 및 피로도 페널티 없이 세계를 돌아다니고 싶다면 무게를 초과하지 마십시오!"
 
-#, fuzzy
 msgctxt "551e33ac-22c5-45ad-8881-04518e9cff72"
 msgid "The party gets tired faster by {0}."
 msgstr "일행이 {0}만큼 더 빨리 지칩니다."
 
-#, fuzzy
 msgctxt "5ea13a4e-6d84-4f3c-b16b-566cf8f2f0f9"
 msgid "Penalty"
 msgstr "페널티"
 
-#, fuzzy
 msgctxt "6b86f02e-3aec-46fe-8a65-d9ce9eb9cddc"
 msgid "Group speed (outside of combat)"
 msgstr "일행 속도 (비전투)"
 
-#, fuzzy
-#| msgid "You are in {0}. Encumbrance has no effect on your movement speed."
 msgctxt "d20fdf68-61a0-48c1-889e-feef1a993b58"
 msgid ""
 "You are in {0}.\n"
 "<b>Encumbrance has no effect on your movement speed.</b>"
-msgstr "당신의 하중은 {0} 상태입니다. 짐의 무게가 이동 속도에 영향을 미치지 않습니다."
+msgstr ""
+"당신은 {0} 상태입니다. \n"
+"<b>하중이 이동속도에 영향을 미치지 않습니다.</b>"
 
-#, fuzzy
 msgctxt "530574cf-d0a6-4dae-8749-28fe03773276"
 msgid "Party penalty"
 msgstr "일행 패널티"
 
-#, fuzzy
 msgctxt "8b99401b-f7be-49ff-86be-1728b723165d"
 msgid "Fatigue period"
 msgstr "피로 기간"
 
-#, fuzzy
 msgctxt "75949097-59da-4c5e-b8f7-96f10e401144"
 msgid ""
 "This is one of the option sets. The options are inter-related, so changing "
@@ -19828,17 +19702,14 @@ msgid ""
 msgstr ""
 "이것은 옵션 세트 중 하나입니다. 옵션이 서로 연결되어 있어 옵션 세트 또는 개별 옵션을 변경하면 다른 옵션도 변경될 수 있습니다."
 
-#, fuzzy
 msgctxt "3b7f88e8-4f1b-44ad-8293-08949a8f6c4a"
 msgid "Party speed is limited"
-msgstr "일행 속도 제한중"
+msgstr "일행 속도 제한됨"
 
-#, fuzzy
 msgctxt "c1327ad3-7185-4489-9f5e-0dee5873e81f"
 msgid "Options set"
-msgstr "옵션 설정"
+msgstr "옵션 세트"
 
-#, fuzzy
 msgctxt "8096edf2-ac84-4c69-8adc-53cdb7199289"
 msgid ""
 "A class ability is the most useful ability for a character of that class. It "
@@ -19849,22 +19720,18 @@ msgstr ""
 "클래스 능력은 해당 클래스의 캐릭터에게 가장 유용한 능력입니다. 캐릭터의 기술 판정 및 수정치에 영향을 줍니다. 한 클래스는 여러 클래스 "
 "능력을 가질 수 있습니다. 이것들을 주로 개발하는 것에 집중하는 것이 좋습니다."
 
-#, fuzzy
 msgctxt "9b5a8e8f-e4c8-4fc6-b9dd-3bfda4f51dfe"
 msgid "Personal penalty"
 msgstr "개인 페널티"
 
-#, fuzzy
 msgctxt "a9e39c2e-73f8-40d0-85fe-52923c911542"
 msgid "Recommended ability"
 msgstr "추천 능력"
 
-#, fuzzy
 msgctxt "284a7bdb-aaf2-4c0b-acd0-d133c0d91f9b"
 msgid "Class Ability Score"
 msgstr "클래스 능력치"
 
-#, fuzzy
 msgctxt "d1adbce9-a10a-4d1b-ba5c-b0c57d0f8a77"
 msgid ""
 "A non-recommended feature is any feature which has little or no impact on "
@@ -19873,12 +19740,10 @@ msgid ""
 msgstr ""
 "비추천 능력은 캐릭터에 거의 영향을 주지 않는 능력입니다. 효율적인 캐릭터를 만드려면 이러한 능력에 투자하지 않는 것을 추천합니다."
 
-#, fuzzy
 msgctxt "b3ae52bb-ddf3-49f7-ae99-43ffb32b8560"
 msgid "Non-recommended Feature"
 msgstr "비추천 능력"
 
-#, fuzzy
 msgctxt "061c76d2-b23d-4d57-a1ed-a79038f9c2e7"
 msgid ""
 "A recommended feature is any of the character's important features, which "
@@ -19888,12 +19753,10 @@ msgstr ""
 "추천 능력은 현재 상황에서 캐릭터에게 가장 좋은 영향을 주는 능력입니다. 특성, 주문 또는 그 외 개발할 가치가 있는 캐릭터의 능력이나 "
 "측면을 말합니다."
 
-#, fuzzy
 msgctxt "f10554f3-f5ca-4253-9a6d-b9a9ca244b25"
 msgid "Recommended feature"
 msgstr "추천 능력"
 
-#, fuzzy
 msgctxt "ed21b651-4a48-459b-956e-8866ac2d23d2"
 msgid ""
 "If you wish to skip complex character creation, you may instead select a "
@@ -19903,124 +19766,99 @@ msgid ""
 "allow you to automatically level-up the character throughout the whole game, "
 "if Auto Level-Up in Difficulty Options is set on \"All Possible.\""
 msgstr ""
-"캐릭터 만들기가 복잡해서 건너 뛰고 싶으면 원하는 클래스의 사전 생성 빌드를 선택하십시오. 사전 생성 빌드는 이미 능력치와 기술을 "
-"분배해놨고, 특성, 특기 및 주문도 이미 모두 선택해놨습니다. 사전 생성 빌드를 사용하고 난이도 옵션의 자동 레벨 업 항목을 \"전체\"로"
-" 설정하면 게임 내내 캐릭터가 자동으로 레벨 업합니다."
+"캐릭터 생성이 복잡해서 건너 뛰고 싶으시다면, 원하는 클래스의 사전 생성 빌드를 선택하십시오. 사전 생성 빌드는 이미 능력치와 기술을 "
+"모두 분배해놨고, 특성, 특기 및 주문 또한 이미 선택해놨습니다. 또한, 난이도 옵션의 자동 레벨 업 항목을 \"전체\"로 설정하면 게임 "
+"내내 캐릭터가 사전 생성 빌드를 따라 자동으로 레벨 업합니다."
 
-#, fuzzy
 msgctxt "4ae39bd9-34a4-4b97-a426-ca44a4a3e14f"
 msgid "<align=center>Click to expand weapon sets</align>."
 msgstr "<align=center>무기 세트를 펼치려면 클릭하십시오</align>."
 
-#, fuzzy
 msgctxt "c840383e-e460-432e-868d-7bcb4f0358bc"
 msgid "Weapon sets"
 msgstr "무기 세트"
 
-#, fuzzy
 msgctxt "bd069b63-27cf-478b-8316-9c309ef79e85"
 msgid "Continue traveling"
 msgstr "여행 계속"
 
-#, fuzzy
 msgctxt "313d7dbc-dd08-4178-a3d8-7ff44b9b9791"
 msgid "Stop traveling"
 msgstr "여행 중지"
 
-#, fuzzy
 msgctxt "ca870614-ea19-4cff-a70a-9d34c94407fb"
 msgid ""
 "<align=center>Changing the group while traveling may require extra "
 "time.</align>"
 msgstr "<align=center>여행 중에 일행을 변경하려면 추가 시간이 필요할 수 있습니다.</align>"
 
-#, fuzzy
 msgctxt "5d91e72e-5597-446d-9301-42ea0ba656dc"
 msgid "Group Manager"
 msgstr "일행 관리"
 
-#, fuzzy
 msgctxt "1ab9d976-ade4-4077-ab11-b1104ec101b8"
 msgid ""
 "The chance to lose a spell while casting it. Greatly affected by equipped "
 "items."
-msgstr "시전할 때 주문을 실패할 확률입니다. 장비의 영향을 크게 받습니다."
+msgstr "시전 중 주문을 실패할 확률입니다. 장비의 영향을 크게 받습니다."
 
-#, fuzzy
 msgctxt "48a83c2c-8852-4e84-b97b-679230070719"
 msgid "Spell Failure Chance"
 msgstr "주문 실패 확률"
 
-#, fuzzy
 msgctxt "275075dd-df22-40be-97e1-39f8bc9840ec"
 msgid "No penalty"
 msgstr "페널티 없음"
 
-#, fuzzy
 msgctxt "8fffa24e-834f-4a81-9542-8f1eaf261434"
 msgid "Material Component"
 msgstr "물질 요소"
 
-#, fuzzy
 msgctxt "acf0865e-fa7e-4dad-ae5f-b9a32e86f44e"
 msgid "Recommended feature"
 msgstr "추천 능력"
 
-#, fuzzy
 msgctxt "3b40c21b-4143-4217-a640-bb6e916507c5"
 msgid "Non-recommended feature"
 msgstr "비추천 능력"
 
-#, fuzzy
 msgctxt "845bfaf2-5988-4c7c-990d-378be47e0664"
 msgid ""
 "A useful feature is any of the character's features, which have a mediocre "
 "positive impact on the character. These could include spells, abilities, or "
 "any other features."
-msgstr "유용한 능력은 캐릭터에 그럭저럭 좋은 영향을 주는 능력입니다. 능력, 주문, 그밖에 다른 특성 등이 이에 속합니다."
+msgstr "유용한 특성이란 캐릭터에 그럭저럭 좋은 영향을 주는 특성들입니다. 주문, 능력, 그밖에 다른 특성들이 이에 속합니다."
 
-#, fuzzy
 msgctxt "0900dc35-3b43-4bed-ab92-f1e6cde35ad1"
 msgid "Useful feature"
-msgstr "유용한 능력"
+msgstr "유용한 특성"
 
-#, fuzzy
 msgctxt "030c7c7b-991e-46c4-9834-118e7f75e0f8"
 msgid "Turn off all filters"
 msgstr "모든 필터 끄기"
 
-#, fuzzy
 msgctxt "c7c7b22e-fe76-4316-808c-83db227de0d4"
 msgid "All"
 msgstr "모두"
 
-#, fuzzy
-#| msgid "<align=center>Click to try hide in shadows</align>."
 msgctxt "c373d77c-fdd9-4dd8-848e-bd5c7208fabc"
 msgid "<align=center>Click to try hide in shadows</align>"
-msgstr "<align=center>은신을 하려면 클릭하십시오</align>."
+msgstr "<align=center>은신을 하려면 클릭하십시오</align>"
 
-#, fuzzy
 msgctxt "5b32f52d-e087-4fa0-b770-28d4a5d83611"
 msgid "Stealth"
 msgstr "은신"
 
-#, fuzzy
 msgctxt "43045bf4-329b-4d73-b34b-386ad73f3b3e"
 msgid "<align=center>Press [{bind|Inspect}] to enable inspecting.</align>"
 msgstr "<align=center>[{bind|Inspect}] 키를 눌러 조사를 활성화합니다.</align>"
 
-#, fuzzy
-#| msgid ""
-#| "\"Ctrl + Shift + Alt + B\" to open Bug Report Window. Move the mouse over "
-#| "the objects for context."
 msgctxt "2e7811b7-4953-4208-80af-4c495d82334c"
 msgid ""
 "\"Alt + B\" to open Bug Report Window. Move the mouse over the objects for "
 "context."
-msgstr "\"Ctrl + Shift + Alt + B\"을 누르면 버그 리포트 창이 열립니다. 참조해야할 오브젝트에 마우스를 대세요."
+msgstr "\"Alt + B\"을 누르면 버그 리포트 창이 열립니다. 참조해야할 오브젝트에 마우스를 대세요."
 
-#, fuzzy
 msgctxt "f1de6378-b9f2-4a4c-ab70-69859f0b6f43"
 msgid "Scenario"
 msgstr "시나리오"
@@ -20030,139 +19868,130 @@ msgid ""
 "Your soul got stronger, making your whole existence a miracle. You get new "
 "powers that can ascend you beyond the limits of mortals."
 msgstr ""
+"당신의 영혼이 더 강해졌으며, 당신의 존재 자체를 기적으로 만듭니다. 당신은 필멸자의 한계를 초월할 수 있을 정도로 새로운 힘을 "
+"얻었습니다."
 
 msgctxt "56d04930-2024-4179-82a1-bb55e8271490"
 msgid "Mythic"
-msgstr ""
+msgstr "신화"
 
 msgctxt "2d731423-2a7b-43d1-9246-dd5687b67f51"
 msgid ""
 "Relative effectiveness of a class in melee combat while using the premade "
 "build."
-msgstr ""
+msgstr "사전 생성 빌드를 사용할 때 클래스의 근접 전투 능력 척도입니다."
 
 msgctxt "78fa1ba2-7fe1-4935-b33f-e477dedce504"
 msgid ""
 "Relative effectiveness of a class in ranged combat while using the premade "
 "build."
-msgstr ""
+msgstr "사전 생성 빌드를 사용할 때 클래스의 원거리 전투 능력 척도입니다."
 
 msgctxt "13e59e50-b4d2-41fe-a1c6-227f26a67fba"
 msgid ""
 "Relative effectiveness of a class in defense, dodging and saving throws "
 "while using the premade build."
-msgstr ""
+msgstr "사전 생성 빌드를 사용할 때 클래스의 방어, 회피 및 내성 굴림 능력 척도입니다."
 
 msgctxt "fd7253f2-3e9c-45d5-8f2c-dac323977d4e"
 msgid ""
 "Relative effectiveness of a class in supporting and improving battle "
 "capabilities of the party while using the premade build."
-msgstr ""
+msgstr "사전 생성 빌드를 사용할 때 클래스의 일행 보조 및 전투 능력 향상 능력 척도입니다."
 
 msgctxt "076d54ad-fb8c-4eae-ba73-9b4105bed802"
 msgid ""
 "Relative effectiveness of a class in summoning creatures and controlling "
 "enemies while using the premade build."
-msgstr ""
+msgstr "사전 생성 빌드를 사용할 때 클래스의 크리처 소환 및 적 제어 능력 척도입니다."
 
 msgctxt "925e69fe-af84-4773-936d-56a41fcbe5a9"
 msgid ""
 "Relative effectiveness of a class in casting offensive magic while using the "
 "premade build."
-msgstr ""
+msgstr "사전 생성 빌드를 사용할 때 클래스의 공격 마법 시전 능력 척도입니다."
 
-#, fuzzy
-#| msgid "<align=center>Click to activate AI</align>."
 msgctxt "9cd3331f-3b5a-4ae7-8159-3317f07e43c6"
 msgid "<align=center>Click to activate AI</align>"
-msgstr "<align=center>AI를 활성화하려면 클릭하십시오</align>."
+msgstr "<align=center>AI를 활성화하려면 클릭하십시오</align>"
 
-#, fuzzy
 msgctxt "61d1749f-bfd1-497d-8720-664d4f52eb86"
 msgid "Artificial Intelligence"
 msgstr "인공 지능"
 
-#, fuzzy
 msgctxt "5195f3cc-58f2-4b5d-b1ff-f91ed37d6fb3"
 msgid ""
 "<align=center>Press [{bind|Pause}] to end current charater's turn, or "
 "increase animation speed for the current character if the character is "
 "moving.</align>"
 msgstr ""
-"<align=center>[{bind|Pause}] 를 눌러 현재 캐릭터 턴을 종료 하거나, 캐릭터가 움직일 때 애니메이션 속도를 "
+"<align=center>[{bind|Pause}]를 눌러 현재 캐릭터 턴을 종료 하거나, 현재 캐릭터가 움직일 때 애니메이션 속도를 "
 "높입니다.</align>"
 
-#, fuzzy
 msgctxt "f2f8d277-f387-44ac-90fa-80e6ad7001e9"
 msgid "End turn / speed-up animation"
-msgstr "턴 종료 / 애니메이션 속도-증가"
+msgstr "턴 종료 / 애니메이션 속도 증가"
 
 msgctxt "68df71b7-b179-40db-a3ec-45443b751bde"
 msgid ""
 "<align=center>Press [{bind|SwitchTBM}] to enable or disable the turn-based "
 "mode.</align>"
-msgstr ""
+msgstr "<align=center>[{bind|SwitchTBM}]를 눌러 턴 기반 모드를 활성화 또는 비활성화 하십시오.</align>"
 
-#, fuzzy
 msgctxt "59accf67-dcb8-4e6c-86fc-ed73db87c1c5"
 msgid "Turn-based mode"
 msgstr "턴 기반 모드"
 
-#, fuzzy
 msgctxt "fa50d48d-3a16-4e17-8b67-9e92abf409c8"
 msgid "Settings"
 msgstr "설정"
 
 msgctxt "67442500-d9ff-44c6-a3df-01be1158bb37"
 msgid "Round"
-msgstr ""
+msgstr "라운드"
 
 msgctxt "1d99af47-7858-4a59-81f1-2bad186fa7f5"
 msgid "Compass"
-msgstr ""
+msgstr "나침반"
 
-#, fuzzy
 msgctxt "62903278-bbd7-4a88-9f06-c30dce0ee45f"
 msgid ""
 "This character's alignment cannot be determined for unknown reasons. "
 "Usually, this indicates that the character is enchanted or possesses an "
 "enchanted item that interferes with the determination of the alignment."
 msgstr ""
-"이 캐릭터의 성향은 알 수 없는 이유로 숨겨져 있습니다. 보통은 캐릭터가 성향에 영향을 미치는 마법에 걸렸거나 아이템을 지니고 있을 시 "
-"숨겨져 있습니다."
+"알 수 없는 이유로 인해 이 캐릭터의 성향이 숨겨져 있습니다. 보통의 경우,이는 캐릭터가 성향 특정을 방해하는 마법에 걸렸거나 그런 "
+"아이템을 지니고 있음을 의미합니다."
 
 msgctxt "bff73fff-8369-4ea7-b32f-7291294f1c9d"
 msgid "Undetectable Alignment"
-msgstr ""
+msgstr "성향 숨겨짐"
 
 msgctxt "b8ec5617-ae01-454c-acb9-f55da99a4035"
 msgid "<align=center>Create a new army or replenish an existing one</align>"
-msgstr ""
+msgstr "<align=center>새 부대를 만들거나 기존의 부대를 보충합니다</align>"
 
 msgctxt "a13d841c-e8eb-401d-b156-6f481b0da3cd"
 msgid "<align=center>Manage crusade forts, events and decrees</align>"
-msgstr ""
+msgstr "<align=center>성전군의 요새, 사건 및 칙령을 관리합니다</align>"
 
 msgctxt "74377e44-97d6-4517-9835-a8a425bdefd1"
 msgid "Crusade"
-msgstr ""
+msgstr "성전"
 
-#, fuzzy
 msgctxt "642f6fe4-e22e-4243-8701-baa1cfdc892c"
 msgid "Skip Time"
 msgstr "시간 보내기"
 
-#, fuzzy
-#| msgid "<align=center>Click to deactivate AI</align>."
 msgctxt "85bf9e3d-76aa-4012-a101-c110b063265b"
 msgid "<align=center>Click to deactivate AI</align>"
-msgstr "<align=center>AI를 비활성화하려면 클릭하십시오</align>."
+msgstr "<align=center>AI를 비활성화하려면 클릭하십시오</align>"
 
-#, fuzzy
 msgctxt "468540e2-52b9-4a2b-a8a5-07781d452f14"
 msgid "Artificial Intelligence"
 msgstr "인공 지능"
 
+#, fuzzy
 msgctxt "5a3e46f0-bf4c-46fb-9673-8bd53aea3788"
 msgid ""
 "By devouring the victims the Swarm increases the power of all their "
@@ -20170,221 +19999,180 @@ msgid ""
 "The first number indicates the sum of CRs of all eaten creatures, the second "
 "— current size of the swarm."
 msgstr ""
+"희생자를 집어삼킴으로써, 벌레떼는 포식한 크리처의 CR에 기반해 모든 능력의 힘을 증가시킵니다.\n"
+"앞쪽의 숫자는 섭취한 크리처들의 총 CR 합계를 의미하며, 뒤쪽의 숫자는 벌레떼의 현재 크기를 나타냅니다."
 
+#, fuzzy
 msgctxt "e98c254d-8140-4712-9397-9c4f2df9e38b"
 msgid "Size of the Swarm"
-msgstr ""
+msgstr "벌레떼 규모"
 
 msgctxt "eb9fe1c4-0134-45e5-a3d0-8c80756d55a8"
 msgid ""
 "The first number indicates the current amount of burn, the second — maximal "
 "amount of burn."
-msgstr ""
+msgstr "앞쪽 숫자는 현재 과열 수치이며, 뒤쪽 숫자는 최대 과열 수치입니다."
 
 msgctxt "27ff3198-6b55-4f10-9ed1-a30071ff5e37"
 msgid "Burn"
-msgstr ""
+msgstr "과열"
 
-#, fuzzy
-#| msgid "<align=center>Click to cancel stealth</align>."
 msgctxt "ff2f8a3e-937f-418d-8a80-5b0ce4f66685"
 msgid "<align=center>Click to cancel stealth</align>"
-msgstr "<align=center>은신을 취소하려면 클릭하십시오</align>."
+msgstr "<align=center>은신을 해제하려면 클릭하십시오</align>"
 
-#, fuzzy
 msgctxt "145c13b8-ade5-409e-8346-17decead9c81"
 msgid "Stealth"
 msgstr "은신"
 
-#, fuzzy
 msgctxt "fcfbda1e-aade-44d6-b930-982e0c9f0442"
 msgid "<align=center>Click to expand spells bar</align>."
-msgstr "<align=center>주문 막대를 펼치려면 클릭하세요</align>."
+msgstr "<align=center>주문 막대를 펼치려면 클릭하십시오</align>."
 
-#, fuzzy
 msgctxt "0ebd60a5-6c57-4d97-b915-d98ab1714fb4"
 msgid "Spellbook"
 msgstr "주문책"
 
-#, fuzzy
 msgctxt "c6dd000b-5970-4629-a0b7-abc133e2ea04"
 msgid "<align=center>Character doesn't have spells</align>."
 msgstr "<align=center>캐릭터가 가진 주문이 없습니다.</align>."
 
-#, fuzzy
 msgctxt "d7cba7c6-faa1-4596-b8f1-540309dceb9e"
 msgid "Spellbook"
 msgstr "주문책"
 
-#, fuzzy
-#| msgid "<align=center>Click to expand abilities bar</align>."
 msgctxt "4f7c86a0-2355-45bc-aa41-83d694fcd980"
 msgid "<align=center>Click to expand action bar</align>."
-msgstr "<align=center>능력 막대를 펼치려면 클릭하십시오</align>."
+msgstr "<align=center>활동 바를 펼치려면 클릭하십시오</align>."
 
-#, fuzzy
 msgctxt "9c708112-56fa-4728-83ad-d674deb3dfb5"
 msgid "Abilities"
 msgstr "능력"
 
-#, fuzzy
 msgctxt "2b9a9ec9-86f4-4ebf-889a-d161fd114a8b"
 msgid "<align=center>Character doesn't have abilities</align>."
-msgstr "<align=center>캐릭터가 가진 능력이 없습니다.</align>."
+msgstr "<align=center>캐릭터가 가진 능력이 없습니다</align>."
 
-#, fuzzy
 msgctxt "3665c14f-0875-41d4-81b8-8afda41c8ab4"
 msgid "Abilities"
 msgstr "능력"
 
-#, fuzzy
 msgctxt "8d0caf4d-237a-423b-adb6-547a22931deb"
 msgid "<align=center>Click to expand usable items bar</align>."
-msgstr "<align=center>사용 가능한 항목 막대를 클릭하여 확장하십시오.</align>."
+msgstr "<align=center>사용 가능한 물품 바를 확장하려면 클릭하십시오</align>."
 
-#, fuzzy
 msgctxt "ff37b1b6-9eb6-4cdc-a654-2462bb1dfe49"
 msgid "Belt"
 msgstr "허리띠"
 
-#, fuzzy
-#| msgid "<align=center>Press [I] to open</align>."
 msgctxt "e49fdd16-2f50-4962-b012-8aa80f0e8e2d"
 msgid "<align=center>Press [{bind|OpenInventory}] to open.</align>"
-msgstr "<align=center>[I] 키를 눌러 열 수 있습니다</align>."
+msgstr "<align=center>[{bind|OpenInventory}] 키를 눌러 엽니다.</align>"
 
-#, fuzzy
 msgctxt "3be62b95-1298-442c-800b-20bd55647978"
 msgid "<align=center>Character doesn't have usable items</align>."
 msgstr "<align=center>캐릭터가 사용 가능한 물품이 없습니다</align>."
 
-#, fuzzy
 msgctxt "c715651a-2924-42ca-ab3f-d02bee769f45"
 msgid "Belt"
 msgstr "허리띠"
 
-#, fuzzy
 msgctxt "0e6f2519-2ede-4e43-b254-e413d029b47f"
 msgid "<align=center>Click to minimize weapon sets</align>."
 msgstr "<align=center>무기 세트를 최소화하려면 클릭하십시오</align>."
 
-#, fuzzy
 msgctxt "a3b9055d-e412-4a08-9d4f-56fcfc09a4dc"
 msgid "Weapon sets"
 msgstr "무기 세트"
 
-#, fuzzy
 msgctxt "755e394a-a001-4cbc-bee3-b818184b8d5f"
 msgid "<align=center>Click to open</align>."
 msgstr "<align=center>클릭해서 엽니다</align>."
 
-#, fuzzy
 msgctxt "4aaee33b-e3aa-4730-88d8-6ff6ea4af25f"
 msgid "Summary"
 msgstr "개요"
 
-#, fuzzy
 msgctxt "d845ab9f-f3d6-4416-9eb2-4c76d1a57729"
 msgid "<align=center>Click to open</align>."
 msgstr "<align=center>클릭해서 엽니다</align>."
 
-#, fuzzy
 msgctxt "1f1d0ae3-93b2-4b48-9553-c420af91387b"
 msgid "Abilities"
 msgstr "능력"
 
-#, fuzzy
 msgctxt "2d6efe33-88ad-4316-9d6d-fb487530514d"
 msgid "<align=center>Click to open</align>."
 msgstr "<align=center>클릭해서 엽니다</align>."
 
-#, fuzzy
 msgctxt "5cf70093-ca47-4243-9f57-353cf4cd2b3f"
 msgid "Martial"
 msgstr "전투"
 
-#, fuzzy
 msgctxt "c861ce9a-1af2-4703-82f8-ba6f511d01bf"
 msgid "<align=center>Click to open</align>."
 msgstr "<align=center>클릭해서 엽니다</align>."
 
-#, fuzzy
 msgctxt "4bff770d-fa5e-4866-888b-4054b2e58ef5"
 msgid "Class"
 msgstr "클래스"
 
-#, fuzzy
 msgctxt "8beaa3b7-727c-4770-95dc-afd925ba7458"
 msgid "In the main hand of"
 msgstr "주 손"
 
-#, fuzzy
 msgctxt "e69c9307-96dc-4006-9490-195bbd3b2656"
 msgid "In the off-hand of"
-msgstr "반대손"
+msgstr "반대 손"
 
-#, fuzzy
-#| msgid "<align=center>Press [M] to open</align>."
 msgctxt "b8edb3df-890d-48a1-a3eb-674f74610f79"
 msgid "<align=center>Press [{bind|OpenMap}] to open.</align>"
-msgstr "<align=center>[M] 키를 눌러 열 수 있습니다</align>."
+msgstr "<align=center>[{bind|OpenMap}] 키를 눌러 엽니다.</align>"
 
-#, fuzzy
 msgctxt "441e01da-efc3-4ee3-bd21-13785211eb98"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "62290a14-c731-4930-b1d5-a610d5700ae9"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "5abc35b8-a9ce-4928-8606-8c71ddffb215"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "3b80ecbd-cac4-46a5-a1df-70f88e6f5ecc"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "65a65df5-122e-472b-88d3-1985c3a2e268"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "257f736d-ef96-41a3-a918-e08bce5859b1"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "71d55d09-d0ea-47b8-bc76-562b97de0985"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "a58e9529-1149-4f0f-8b54-e33fe6f4b2db"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "6a040821-166e-4e9f-af1b-74d45c3ebcd9"
 msgid "Character"
 msgstr "캐릭터"
 
-#, fuzzy
 msgctxt "d1f0623d-1b36-42c9-b66f-ead44424d2b4"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "a4c16fdc-aadd-432c-a089-0c12dbf70d5a"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "b213bd36-3242-4b1b-8d81-9bd89de71d9b"
 msgid "Equipped by"
 msgstr "착용 중"
@@ -20398,21 +20186,18 @@ msgstr ""
 "<align=center>대형을 선택하려면 클릭하십시오.</align>\n"
 "<align=center>마우스 오른쪽 버튼을 클릭하여 대형 창을 열 수 있습니다.</align>"
 
-#, fuzzy
 msgctxt "b230c41d-9dc9-4b2f-9f66-32ae73b0eb7f"
 msgid "Equipped by"
 msgstr "착용 중"
 
-#, fuzzy
 msgctxt "becb5c43-32f9-42ae-9370-9f3102ac88d8"
 msgid "Charges"
 msgstr "충전량"
 
 msgctxt "2c1a788c-f587-44e1-a318-c9d7920aa49d"
 msgid "Difficulty Class"
-msgstr "DC"
+msgstr "난이도"
 
-#, fuzzy
 msgctxt "5b5282e0-0c2e-430f-8f5d-785502d929a2"
 msgid ""
 "A spell's effects (such as range, duration, and damage dealt) typically "
@@ -20424,10 +20209,10 @@ msgid ""
 "spell resistance, and the level used in dispel checks (and the DC of the "
 "check)."
 msgstr ""
-"주문의 효과 (범위, 지속 시간, 피해 등)는 일반적으로 시전자의 레벨에 달려 있으며 대부분의 경우 주문 시전 캐릭터의 클래스 레벨과 "
-"같습니다. \n"
-"때로는 클래스 특성이나 기타 특수 기능으로 인해 시전자 레벨을 조정할 수 있습니다. 이 경우 조정은 주문의 효과뿐만 아니라 대상의 주문 "
-"저항을 극복 할 수있는 가능성과 마법 해제 판정에 (그리고 판정의 DC에) 사용되는 레벨에도 적용됩니다."
+"주문이 가진 범위, 지속 시간, 피해 등의 효과들은 일반적으로 시전자의 레벨에 기반하며, 이는 대부분의 주문 시전 캐릭터에게 해당 "
+"클래스의 레벨과 동일합니다.\n"
+"때로는 클래스 특성이나 기타 특수 기능으로 인해 시전자 레벨이 보정될 수 있습니다. 이 경우, 보정은 주문의 효과뿐만 아니라 대상의 주문 "
+"저항을 극복할 수 있는 가능성과 마법 해제 판정에 사용되는 레벨, 그리고 그 판정의 DC에도 적용됩니다."
 
 msgctxt "c14ecd00-0d78-4451-997d-8a0620465273"
 msgid "Caster level"
@@ -54078,7 +53863,6 @@ msgid ""
 msgstr ""
 "버그를 발견하셨다면 커서를 고장 난 캐릭터, 크리쳐, 아이템, 주문 혹은 인터페이스에 올려놓고 ALT+B 키를 눌러서 신고해 주세요."
 
-#, fuzzy
 msgctxt "54007774-0ba7-4bf5-89a7-7edd63264d15"
 msgid "Take"
 msgstr "획득"

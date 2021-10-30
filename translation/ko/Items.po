@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-28 02:24+0000\n"
-"Last-Translator: darkgaia <darkgaia@naver.com>\n"
+"PO-Revision-Date: 2021-10-30 04:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -2238,7 +2238,7 @@ msgid ""
 "and {g|Encyclopedia:Saving_Throw}saving throws{/g} against dragons."
 msgstr ""
 "이 +4 미늘갑옷은 착용자에게 용에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 통찰 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 부여하며, 용에 대한 {g|Encyclopedia:Attack}공격{/g}, "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여하며, 용에 대한 {g|Encyclopedia:Attack}명중{/g}, "
 "{g|Encyclopedia:Damage}피해{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 통찰 "
 "보너스를 부여합니다."
 
@@ -2911,6 +2911,7 @@ msgid ""
 "This +5 half-plate grants its wearer {g|Encyclopedia:Spell_Resistance}spell "
 "resistance{/g} 19."
 msgstr ""
+"이 +5 반신 판금갑옷은 착용자에게 {g|Encyclopedia:Spell_Resistance}주문 저항{/g} 19를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HalfplateStandartPlus1::m_DisplayNameText
@@ -2963,7 +2964,7 @@ msgstr ""
 #. Path = HaramakiOfDivineGuidanceItem::m_DisplayNameText
 msgctxt "244e2b82-3e38-4352-8152-726b93d9118a"
 msgid "Haramaki of Divine Guidance"
-msgstr ""
+msgstr "신성한 인도의 하라마키"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiOfDivineGuidanceItem::m_DescriptionText
@@ -2973,12 +2974,14 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g}."
 msgstr ""
+"이 +4 하라마키는 착용자의 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 신성 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiOfScholarshipItem::m_DisplayNameText
 msgctxt "591c6996-9603-4a2b-8044-d1bdbbf319d6"
 msgid "Haramaki of Scholarship"
-msgstr ""
+msgstr "학술의 하라마키"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiOfScholarshipItem::m_DescriptionText
@@ -2989,36 +2992,39 @@ msgid ""
 "Knowledge (Arcana){/g} {g|Encyclopedia:Skills}skill checks{/g} and a +4 "
 "bonus on {g|Encyclopedia:Concentration}Concentration checks{/g}."
 msgstr ""
+"이 +3 하라마키는 착용자의 {g|Encyclopedia:Knowledge_Arcana}지식(비전){/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 {g|Encyclopedia:Bonus}보너스{/g}를, "
+"{g|Encyclopedia:Concentration}집중 판정{/g}에는 +4 보너스를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiStandartPlus1::m_DisplayNameText
 msgctxt "771c90a1-9cdc-431a-b7fd-834e9be001f1"
 msgid "Haramaki +1"
-msgstr ""
+msgstr "하라마키 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiStandartPlus2::m_DisplayNameText
 msgctxt "484f90ac-1221-4ec2-960f-87b6b069e841"
 msgid "Haramaki +2"
-msgstr ""
+msgstr "하라마키 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiStandartPlus3::m_DisplayNameText
 msgctxt "b08ee24a-91cb-4735-8a23-67dd1cccc99f"
 msgid "Haramaki +3"
-msgstr ""
+msgstr "하라마키 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiStandartPlus4::m_DisplayNameText
 msgctxt "7b8d69e7-a481-4e46-a053-8f50f5c0e606"
 msgid "Haramaki +4"
-msgstr ""
+msgstr "하라마키 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HaramakiStandartPlus5::m_DisplayNameText
 msgctxt "914811df-7e73-4735-8970-3aa8d4711d14"
 msgid "Haramaki +5"
-msgstr ""
+msgstr "하라마키 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = HeavenlyVestItem::m_DisplayNameText
@@ -5517,10 +5523,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ValerieSilkShirt::m_DisplayNameText
-#, fuzzy
 msgctxt "2fdef53e-3edc-4893-a2b7-22cc98769088"
 msgid "Valerie's Embroidered Shirt"
-msgstr "발레리가 자수한 셔츠"
+msgstr "발레리가 수놓은 셔츠"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ValerieSilkShirt::m_DescriptionText
@@ -5537,18 +5542,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ValerieSilkShirt::m_FlavorText
-#, fuzzy
 msgctxt "9196ffe5-acb9-4e22-84a4-920105f43894"
 msgid "An elegant embroidered shirt made of finest silk."
 msgstr "최고급 비단 소재로 만든 우아한 자수 셔츠입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = VestShirtBogeymanItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer a +2 bonus on all concentration checks, a +5 "
-#| "competence bonus to Knowledge: arcana skill checks, and a chance to frighten "
-#| "enemy on a hit (Will save DC 13)."
 msgctxt "0ca297d0-a291-4592-a3f5-eaa26e402dfe"
 msgid ""
 "This robe grants its wearer a +2 {g|Encyclopedia:Bonus}bonus{/g} on all "
@@ -5558,8 +5557,10 @@ msgid ""
 "hit ({g|Encyclopedia:Saving_Throw}Will save{/g} {g|Encyclopedia:DC}DC{/g} "
 "13)."
 msgstr ""
-"이 로브는 착용자의 모든 집중 판정에 +2 보너스, 지식: 비전 기술 판정에 +5 능숙 보너스, 명중시 적을 겁에 질리게 할 (의지 내성 "
-"DC 13) 확률을 줍니다."
+"이 로브는 착용자의 모든 {g|Encyclopedia:Concentration}집중 판정{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Knowledge_Arcana}지식: 비전{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 보너스, 명중시 적을 겁먹음 상태로 만들 확률을 부여합니다 "
+"({g|Encyclopedia:Saving_Throw}의지 내성{/g} {g|Encyclopedia:DC}DC{/g} 13)."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = VeteransArmorItem::m_DisplayNameText
@@ -5577,47 +5578,41 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = VoidMirrorItem::m_DisplayNameText
-#, fuzzy
 msgctxt "52fb51cb-8283-4a0f-ae9e-9594486605c4"
 msgid "Void Mirror"
 msgstr "공허 거울"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = VoidMirrorItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 adamantine breastplate grants its wearer a +4 dodge bonus to AC "
-#| "against ray attacks."
 msgctxt "4c9a032c-b835-4701-a489-4e0bae6dee03"
 msgid ""
 "This +3 adamantine breastplate grants its wearer a +4 dodge "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
 "against ray {g|Encyclopedia:Attack}attacks{/g}."
-msgstr "이 +3 아다만틴 판금 흉갑은 착용자에게 광선 공격에 대한 AC에 +4 피하기 보너스를 제공합니다."
+msgstr ""
+"이 +3 아다만틴 판금 흉갑은 착용자에게 광선 {g|Encyclopedia:Attack}공격{/g}에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +4 피하기 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = WarpathItem::m_DisplayNameText
-#, fuzzy
 msgctxt "2b0bb0ec-d5b0-4f99-8174-5c59e36a2eb8"
 msgid "Warpath"
 msgstr "전쟁의 길"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = WarpathItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 banded mail grants its wearer a +3 bonus to AC against the attacks "
-#| "by humans and elves."
 msgctxt "ff4835a1-deae-4eca-ac74-35a49b38be1b"
 msgid ""
 "This +3 banded mail grants its wearer a +3 {g|Encyclopedia:Bonus}bonus{/g} "
 "to {g|Encyclopedia:Armor_Class}AC{/g} against the "
 "{g|Encyclopedia:Attack}attacks{/g} by humans and elves."
-msgstr "이 +3 철판 사슬갑옷의 착용자는 인간 및 엘프의 공격에 대한 AC에 +3 보너스를 제공합니다."
+msgstr ""
+"이 +3 철판 사슬갑옷의 착용자는 인간 및 엘프의 {g|Encyclopedia:Attack}공격{/g}에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +3 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = WeaversChainmailItem::m_DisplayNameText
-#, fuzzy
 msgctxt "000e891b-4e53-4532-90e5-4fdf9a867988"
 msgid "Weaver's Chainmail"
 msgstr "방직꾼의 사슬갑옷"
@@ -7970,7 +7965,7 @@ msgstr "푸짐한 식사"
 #. Path = ConflagrantTacoBuff::m_DisplayName
 msgctxt "4e23277e-af99-426a-8895-6920f0128897"
 msgid "Conflagrant Taco"
-msgstr ""
+msgstr "타오르는 타코"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = ConsumableEventBonusItem::m_DisplayNameText
@@ -44341,45 +44336,39 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = BetrayalFirstItem::m_DisplayNameText
-#, fuzzy
 msgctxt "06fff3bf-e92c-40e3-99ae-d2c6182636f4"
 msgid "Weasel's Bite"
-msgstr "족제비의 깨묾"
+msgstr "족제비의 이빨"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = BetrayalFirstItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 kukri has a ×3 critical multiplier. Whenever a creature is hit by it "
-#| "for the first time during a combat, it deals an additional 6d6 damage."
 msgctxt "d6f27084-088b-4ffa-9edd-c6a79371b1bb"
 msgid ""
 "This +5 kukri has a ×3 {g|Encyclopedia:Critical}critical{/g} multiplier. "
 "Whenever a creature is hit by it for the first time during a combat, it "
 "deals an additional {g|Encyclopedia:Dice}6d6{/g} "
 "{g|Encyclopedia:Damage}damage{/g}."
-msgstr "이 +5 쿠크리는 치명타 배수가 ×3 입니다. 전투 중 이 쿠크리에 처음 맞은 크리처에게 6d6 추가 피해를 입힙니다."
+msgstr ""
+"이 +5 쿠크리는 {g|Encyclopedia:Critical}치명타{/g} 배수가 ×3 입니다. 전투 중 이 쿠크리에 처음 맞은 "
+"크리처에게 {g|Encyclopedia:Dice}6d6{/g} 추가 {g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = BetrayalSecondItem::m_DisplayNameText
-#, fuzzy
 msgctxt "751320db-ca11-4899-9fbf-aac77f4a618b"
 msgid "Weasel's Claw"
 msgstr "족제비의 발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = BetrayalSecondItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 kukri has a ×3 critical multiplier. Whenever a creature is hit by it "
-#| "for the first time during a combat, it deals an additional 6d6 damage."
 msgctxt "6d675f21-a43f-458a-941a-0e14ab19babc"
 msgid ""
 "This +5 kukri has a ×3 {g|Encyclopedia:Critical}critical{/g} multiplier. "
 "Whenever a creature is hit by it for the first time during a combat, it "
 "deals an additional {g|Encyclopedia:Dice}6d6{/g} "
 "{g|Encyclopedia:Damage}damage{/g}."
-msgstr "이 +5 쿠크리는 치명타 배수가 ×3 입니다. 전투 중 이 쿠크리에 처음 맞은 크리처에게 6d6 추가 피해를 입힙니다."
+msgstr ""
+"이 +5 쿠크리는 {g|Encyclopedia:Critical}치명타{/g} 배수가 ×3 입니다. 전투 중 이 쿠크리에 처음 맞은 "
+"크리처에게 {g|Encyclopedia:Dice}6d6{/g} 추가 {g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = BlackDragonsFangItem::m_DisplayNameText
