@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-31 15:24+0000\n"
-"Last-Translator: darkgaia <darkgaia@naver.com>\n"
+"PO-Revision-Date: 2021-11-02 02:24+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -21055,7 +21055,7 @@ msgstr "<b>{source}</b>: 이미 이 자물쇠를 따는데 실패함."
 
 msgctxt "4c460a53-443c-421a-88b7-5ca610466f8f"
 msgid "<b>{source}</b> spell was lost due to Arcane Spell Failure."
-msgstr "<b>{source}</b>: 비전 주문 실패율로 인해 주문 손실됨."
+msgstr "<b>{source}</b>: 비전 주문 실패율로 인해 주문 손실."
 
 msgctxt "c4efa677-2c9b-480e-a096-3d5751280f1d"
 msgid ""
@@ -21275,7 +21275,6 @@ msgctxt "456e1aad-060c-4abb-94de-0259c1a7c929"
 msgid "<b>{source}</b> made concentration check."
 msgstr "<b>{source}</b>: 집중 판정 성공."
 
-#, fuzzy
 msgctxt "4d1cfe1f-52af-4dff-bec4-284900605c29"
 msgid "Direct"
 msgstr "직격"
@@ -21285,12 +21284,10 @@ msgctxt "fbf56f1d-0881-456c-82f0-80613b9ec195"
 msgid "(Durability)"
 msgstr "(내구성)"
 
-#, fuzzy
 msgctxt "548f93fb-4e91-4e6e-9840-7c9055c23482"
 msgid "(Empowered)"
 msgstr "(강화됨)"
 
-#, fuzzy
 msgctxt "1d3fa05f-61f0-4271-98ca-a364a98a1a8b"
 msgid "Force"
 msgstr "역장"
@@ -21358,7 +21355,7 @@ msgstr "내성 굴림 성공으로 인해 피해가 절반으로 줄어듦."
 
 msgctxt "70a1bead-70c0-473c-9c0d-7cf0a938a860"
 msgid "Successful saving throw reduced damage by {count}%"
-msgstr "내성 굴림 성공으로 인해 피해가 {count}%로 줄어듦"
+msgstr "내성 굴림 성공으로 인해 피해가 {count}% 줄어듦"
 
 msgctxt "36986f5d-fec9-4ff7-baea-52b5dddbcfb2"
 msgid "Damage to <b>{target}</b> was reduced to <b>{count}</b>."
@@ -21374,7 +21371,7 @@ msgstr "피해 원인: <b>{text}</b>."
 
 msgctxt "3544c89c-03e3-4adc-809a-559e5bf36361"
 msgid "{target} deflects projectile!"
-msgstr "{target}이/가 발사체를 쳐냄!"
+msgstr "{target}: 발사체 쳐냄!"
 
 msgctxt "422ca7b0-a7bb-4136-826f-c778233f6ad8"
 msgid "Dialogue finished."
@@ -21567,11 +21564,11 @@ msgstr "아이템 손실: <b>{text}</b>."
 
 msgctxt "a029839b-d627-4a36-8240-ce5daf88b737"
 msgid "Received items: <b>{text} x{count}</b>."
-msgstr "아이템 획득: <b>{text} {count}개</b>."
+msgstr "아이템 획득: <b>{text} x{count}</b>."
 
 msgctxt "95c42752-0e46-4aa0-b68c-59e1c3e587e1"
 msgid "Lost items: <b>{text} x{count}</b>."
-msgstr "아이템 손실: <b>{text} {count}개</b>."
+msgstr "아이템 손실: <b>{text} x{count}</b>."
 
 msgctxt "92f92f19-7e26-48b1-a198-ef1479edd090"
 msgid "<b>{source}</b> removes <b>{text}</b>."
@@ -21599,11 +21596,11 @@ msgstr "새로운 장소 발견: <b>{text}</b>."
 
 msgctxt "86f9e496-a40b-4746-9276-09fb90d3f9c3"
 msgid "The lock is jammed"
-msgstr "자물쇠 고장"
+msgstr "자물쇠 고장남"
 
 msgctxt "3a42d43d-e87f-421b-a6ac-339e177871c0"
 msgid "The lock is jammed"
-msgstr "자물쇠 고장"
+msgstr "자물쇠 고장남"
 
 msgctxt "d480ae6c-e448-43e9-aa9f-68d1ba2626d9"
 msgid "Gained <b>{count} GP</b>."
@@ -21695,7 +21692,7 @@ msgstr "<b>{source}</b>: {target} 가죽 벗기기 시도."
 
 msgctxt "59cf93e2-a431-4cec-8aeb-e4bb15d83a06"
 msgid "<b>{source}</b> spell was lost."
-msgstr "<b>{source}</b> 주문 손실됨."
+msgstr "<b>{source}</b>: 주문 손실."
 
 msgctxt "99bee009-b9e0-4f5b-b6f8-e57e5020e04f"
 msgid ""
@@ -21774,7 +21771,7 @@ msgctxt "c2666bd4-18c4-4b6b-8a99-f07c98c6fedb"
 msgid ""
 "<b>{target}</b> received <b>{count} {description}</b> damage from unknown "
 "source."
-msgstr "<b>{target}</b>(이)가 미확인 상대로부터 <b>{count} {description}</b> 피해를 입음."
+msgstr "<b>{target}</b>: 미확인 출처로부터 <b>{count} {description}</b> 피해를 입음."
 
 msgctxt "1f417804-21cc-40f0-a2b6-0f0600f9c80d"
 msgid ""
@@ -21792,28 +21789,25 @@ msgctxt "a7d4cad8-2e7e-4067-9962-9db451bd5cdf"
 msgid "Damage source: <b>{source}</b>."
 msgstr "피해 출처: <b>{source}</b>."
 
-#, fuzzy
 msgctxt "a0e64f5f-9790-4cf7-90d7-ad6e8020bc1e"
 msgid ""
 "<b>{target}</b> suffered <b>{count} {description}</b> drain from "
 "<b>{source}</b>."
-msgstr ""
-"<b>{target}</b>(이)가 <b>{source}</b>(으)로부터 <b>{count} {description}</b> 소진 당함."
+msgstr "<b>{target}</b>: <b>{source}</b>에게 <b>{count} {description}</b> 소진 당함."
 
-#, fuzzy
 msgctxt "5a58f84c-4d0a-4ff7-bb03-6d28a527b31f"
 msgid ""
 "<b>{target}</b> suffered <b>{count} {description}</b> drain from unknown "
 "source."
-msgstr "<b>{target}</b>(이)가 알 수 없는 대상에게 <b>{count} {description}</b> 소진 당함."
+msgstr "<b>{target}</b>: 미확인 출처에게 <b>{count} {description}</b> 소진 당함."
 
 msgctxt "e13f20d2-9391-4c61-b00d-8992e49e7f2f"
 msgid "Drain result: <b>{count} {description}</b>."
-msgstr ""
+msgstr "소진 결과: <b>{count} {description}</b>."
 
 msgctxt "44d99318-aaed-4bec-9138-2eecee96aab7"
 msgid "Source: <b>{source}</b>."
-msgstr ""
+msgstr "출처: <b>{source}</b>."
 
 #, fuzzy
 #| msgid "{target} is immune to energy drain due to difficulty settings."
@@ -21823,58 +21817,59 @@ msgid ""
 "settings."
 msgstr "{target}은 난이도 설정 상 원기 소진에 면역입니다."
 
+#, fuzzy
 msgctxt "7af4169c-6c89-4c68-8c81-ea51c37527fb"
 msgid "Attackers Unit Number"
-msgstr ""
+msgstr "공격자의 유닛 숫자"
 
 msgctxt "24556e96-1e79-44e3-88ce-6d4714158a42"
 msgid "Damage Modifier"
-msgstr ""
+msgstr "피해 수정치"
 
 msgctxt "3f218af4-403f-4b59-b7e9-91d66d9c42dc"
 msgid "Damage Formula"
-msgstr ""
+msgstr "피해 공식"
 
-#, fuzzy
 msgctxt "abfd1e8f-c910-465e-a98e-428ffe8efbb3"
 msgid "Damage"
 msgstr "피해"
 
 msgctxt "bea1766d-e382-4dcc-9aa8-a5bfac216f1e"
 msgid "<b>{count}</b> die."
-msgstr ""
+msgstr "<b>{count}</b> 사망."
 
 msgctxt "6bf2e702-4c8a-43f4-952c-21e37bf008b3"
 msgid "<b>{count}</b> die."
-msgstr ""
+msgstr "<b>{count}</b> 사망."
 
 msgctxt "c3825d75-0a30-4480-bb10-15659c954c21"
 msgid "<b>{source}</b> deal <b>{count}</b> damage to <b>{target}</b>."
-msgstr ""
+msgstr "<b>{source}</b>: <b>{target}</b>에게 <b>{count}</b> 피해를 가함."
 
 msgctxt "2b9403b0-9f7c-4583-8de9-b3d6577100f7"
 msgid "Power"
-msgstr ""
+msgstr "마력"
 
+#, fuzzy
 msgctxt "46e9cda1-c698-400f-bbd3-d5dcd365b5de"
 msgid "Total Unit Damage"
-msgstr ""
+msgstr "총 유닛 피해"
 
 msgctxt "7fe5fee6-5c81-456e-8720-ecb8ef337093"
 msgid "Low morale causes <b>{target}</b> to panic."
-msgstr ""
+msgstr "<b>{target}</b>: 낮은 사기로 인해 공황 상태에 빠짐."
 
 msgctxt "676ca13b-fc0a-4544-9d66-3e2a2d9ec265"
 msgid "High morale enables <b>{target}</b> to attack again."
-msgstr "높은 사기로 인해 <b>{target}</b> 유닛이 다시 공격합니다."
+msgstr "<b>{target}</b>: 높은 사기로 인해 다시 공격함."
 
 msgctxt "71bd4467-67b9-43f7-a55b-684c25555b86"
 msgid "<b>{target}</b> pause and wait for a better time to act."
-msgstr ""
+msgstr "<b>{target}</b>: 더 나은 기회를 위해 대기함."
 
 msgctxt "bfcb3822-0ab4-4c1f-b0b0-a0919a72d0fd"
 msgid "<b>{count}</b> <b>{target}</b> were resurrected."
-msgstr ""
+msgstr "<b>{count}</b> <b>{target}</b> 부활함."
 
 msgctxt "39929bf8-5dc8-4911-b746-8591f3d068e8"
 msgid "Round {round} starts."
@@ -21882,7 +21877,7 @@ msgstr "라운드 {round} 시작."
 
 msgctxt "edb935db-ba8a-4baf-844f-56dbbfb04b8a"
 msgid "<b>{target}</b> skip their turn."
-msgstr "<b>{target}</b> 유닛이 턴을 넘깁니다."
+msgstr "<b>{target}</b>: 턴을 넘김."
 
 msgctxt "483d6126-721e-49c8-8dfa-170fd8b665fe"
 msgid "<b>Turn {count}</b>: <b>{source}</b>"
@@ -22030,24 +22025,20 @@ msgctxt "c17a4799-d340-44b1-9f0c-1f54d43272c1"
 msgid "Party Manager"
 msgstr "일행 관리"
 
-#, fuzzy
 msgctxt "9a7f9702-282d-4991-8eaa-d9c24343b01f"
 msgid "Strike Team"
 msgstr "공격대"
 
-#, fuzzy
 msgctxt "57a78473-a755-4582-b2df-db8b271a84c3"
 msgid "You don't own this scenario yet"
 msgstr "이 시나리오를 갖고 있지 않음"
 
-#, fuzzy
 msgctxt "57b64298-f66a-425a-abb7-978fb9614760"
 msgid ""
 "<font=\"Saber_Dist32\""
 "><size=140%><color=#983f1d>E</color></size></font>quipment"
 msgstr "<font=\"Saber_Dist32\"><size=140%><color=#983f1d>장</color></size>비"
 
-#, fuzzy
 msgctxt "9b8c9926-bcbd-427c-a71b-d48741acecf8"
 msgid "You did not use any boons during this playthrough."
 msgstr "이번 플레이에서 어떤 혜택도 사용하지 않습니다."
@@ -22147,8 +22138,6 @@ msgctxt "d15a23eb-6bb6-4d7e-b73c-2824eda48ef2"
 msgid "Ignore"
 msgstr "무시"
 
-#, fuzzy
-#| msgid "This event can only be resolved by visiting the throne room."
 msgctxt "29d76212-c460-48d3-a313-a5c19c91f3eb"
 msgid "This event can only be resolved by visiting Commander's headquarters."
 msgstr "이 사건은 사령관의 지휘실을 방문해야만 해결할 수 있습니다."
@@ -22165,40 +22154,30 @@ msgctxt "f7d062ac-9cc1-4b31-af36-e255a4c9a78d"
 msgid "Advisors"
 msgstr "보좌관"
 
-#, fuzzy
-#| msgid "To the Throne Room"
 msgctxt "d6b32889-1b03-4d1f-8ad1-d12747e46e22"
 msgid "To Commander's Headquarters"
-msgstr "알현실 가기"
+msgstr "사령관의 지휘실 가기"
 
-#, fuzzy
 msgctxt "56d5386c-fe60-4a69-ac09-6ab2fce54284"
 msgid "Events"
 msgstr "사건"
 
-#, fuzzy
-#| msgid "Need to visit the throne room"
 msgctxt "d07263bd-fc58-4efb-a900-4be05bc360b1"
 msgid "Need to visit Commander's headquarters"
-msgstr "알현실 방문 필요"
+msgstr "사령관의 지휘실 방문 필요"
 
-#, fuzzy
 msgctxt "e8fc3451-35e1-4682-926e-9906cb7945fb"
 msgid "Build Points"
 msgstr "건설 점수"
 
-#, fuzzy
 msgctxt "84d198d3-7a2c-4d29-b9b8-75f70732d260"
 msgid "Stats"
 msgstr "지표"
 
-#, fuzzy
-#| msgid "Projects and Events"
 msgctxt "8808e181-0101-42b8-ba4d-a3225f330450"
 msgid "Decrees and Events"
-msgstr "계획과 사건"
+msgstr "칙령과 사건"
 
-#, fuzzy
 msgctxt "c337705e-6853-4d54-bbe1-47381d212689"
 msgid "Build Points Per Week"
 msgstr "주 당 건설 점수"
@@ -22208,78 +22187,61 @@ msgctxt "2a891a4a-0a52-4949-85c0-2f0dd4c3e030"
 msgid "Total changed"
 msgstr "총 변동"
 
-#, fuzzy
 msgctxt "9c6c3a1f-f2ef-4d4a-9571-0827b2dcb281"
 msgid "You can claim this region."
-msgstr "이 지역에 권리를 주장할 수 있습니다."
+msgstr "이 지역을 점령할 수 있습니다."
 
-#, fuzzy
-#| msgid "Claim Region Project"
 msgctxt "29273537-eaf5-4b1b-a99c-6b5caae57e04"
 msgid "Claim Region Decree"
-msgstr "지역 점령 계획"
+msgstr "지역 점령 칙령"
 
-#, fuzzy
 msgctxt "42cb50ea-20b3-406e-b133-9bcf6d6c1d1f"
 msgid "This region will be available to claim in the future."
 msgstr "이 지역은 나중에 점령이 가능합니다."
 
-#, fuzzy
 msgctxt "5dffbc12-d44d-459b-a5be-8c6dc7cf964e"
 msgid "Resources"
 msgstr "자원"
 
-#, fuzzy
 msgctxt "c87b5eb9-db72-4041-a0fb-f3fb1d3f5b4e"
 msgid "You have not claimed any resources in this region yet."
 msgstr "이 지역의 어느 자원도 점령하지 않았습니다."
 
-#, fuzzy
-#| msgid "Settlement Stats"
 msgctxt "3d5d318a-bf87-477a-8445-181995a35c70"
 msgid "Fortress Stats"
-msgstr "정착지 지표"
+msgstr "요새 지표"
 
-#, fuzzy
 msgctxt "9ac6d91e-d866-4696-93d7-3de8f80a3bfd"
 msgid "Buildings"
 msgstr "건물"
 
-#, fuzzy
 msgctxt "729b3854-7601-4711-855b-bcab1dccf1f7"
 msgid "Build"
 msgstr "건설"
 
-#, fuzzy
 msgctxt "2c060b6a-91ca-4bb4-8f2d-51c4f643c8f0"
 msgid "Nothing is built yet."
-msgstr "아직 아무 것도 지어지지 않았습니다."
+msgstr "아무것도 지어지지 않았음."
 
-#, fuzzy
 msgctxt "a52628cd-fc6c-455f-bce4-f3648263f7f6"
 msgid "Enter"
 msgstr "진입"
 
-#, fuzzy
 msgctxt "71211746-ddbd-4952-85fe-30dd38eaf610"
 msgid "Only one settlement can be established in the region."
 msgstr "이 지역에는 오직 하나의 정착지만 건설할 수 있습니다."
 
-#, fuzzy
 msgctxt "86264696-2182-4010-a601-e0bdb378e226"
 msgid "Name the settlement"
 msgstr "정착지 이름 정하기"
 
-#, fuzzy
 msgctxt "9f01c2dd-055c-4d27-9fc7-73c1f7751641"
 msgid "Stats"
 msgstr "지표"
 
-#, fuzzy
-#| msgid "{mf|Barony|Barony|Kingdom|Kingdom} Stats"
 msgctxt "6a1825cb-d595-4fd7-9dab-ef6990d62f9c"
 msgid "Crusade Stats"
-msgstr "{mf|남작령|여남작령|왕국|왕국} 지표"
+msgstr "성전 지표"
 
 msgctxt "de6a6c97-9cc1-4a4c-80a6-52eee586709c"
 msgid "Experience"
@@ -22293,180 +22255,146 @@ msgctxt "29facf60-0138-4f6a-bda1-086483d45aff"
 msgid "Progress"
 msgstr "진행도"
 
-#, fuzzy
 msgctxt "7426f9d7-5ff7-4dc2-bdd2-ffda587f747e"
 msgid "Rank"
 msgstr "등급"
 
 msgctxt "e01f32eb-6b7a-4994-8736-ce921d3fd4a5"
 msgid "Next Rank"
-msgstr ""
+msgstr "다음 등급"
 
-#, fuzzy
-#| msgid "Constructed"
 msgctxt "901bef8d-6e04-4d69-8049-34007de1eabf"
 msgid "Built"
 msgstr "건설됨"
 
-#, fuzzy
 msgctxt "a6301910-aa8d-47a9-835a-9c4879b0ec48"
 msgid "Stats"
 msgstr "지표"
 
-#, fuzzy
-#| msgid "Purchase BP"
 msgctxt "d8eb7277-7edb-4d1e-b0e3-7ee9349598c6"
 msgid "Purchase resources"
-msgstr "BP 구매"
+msgstr "자원 구매"
 
-#, fuzzy
 msgctxt "1aad8b26-a243-4a52-9b97-203b7070632d"
 msgid "Back"
 msgstr "뒤로"
 
-#, fuzzy
 msgctxt "dba33fc0-ba18-42d4-affb-be209978e1a8"
 msgid "Build"
 msgstr "건설"
 
-#, fuzzy
-#| msgid "Constructed"
 msgctxt "d77c595b-2ea6-4292-9ecf-ecb58025e13e"
 msgid "Built"
 msgstr "건설됨"
 
-#, fuzzy
 msgctxt "a2fe9093-933e-49b8-88d2-5879ede0de1a"
 msgid "Build List"
 msgstr "건물 목록"
 
-#, fuzzy
 msgctxt "d63937da-6fd2-486a-91d5-975b8dd4eefa"
 msgid "Level"
 msgstr "레벨"
 
-#, fuzzy
 msgctxt "365f6ce0-d505-4b20-a39d-682af793ffbe"
 msgid "Advisors"
 msgstr "보좌관"
 
-#, fuzzy
 msgctxt "8dac7618-5292-4c2a-80be-e64c71bf75b9"
 msgid "Loading"
 msgstr "로딩 중"
 
-#, fuzzy
 msgctxt "360da728-853e-4bbf-9705-e1927f0b5501"
 msgid "Load"
 msgstr "불러오기"
 
-#, fuzzy
 msgctxt "da2e89da-06d2-492f-af37-f7553d228dca"
 msgid "Map"
 msgstr "지도"
 
-#, fuzzy
 msgctxt "915445cd-2c94-49db-9ffe-65045ef3615d"
 msgid "New events!"
 msgstr "새로운 사건!"
 
-#, fuzzy
 msgctxt "aad24e23-dc52-42ec-9709-b4e234b76996"
 msgid "Select scenario"
 msgstr "시나리오 선택"
 
-#, fuzzy
 msgctxt "b50de6a1-7ef0-4bb1-bf7d-24949be7c0c9"
 msgid "Possible Outcome"
 msgstr "예상 결과"
 
-#, fuzzy
-#| msgid "Projects"
 msgctxt "13759681-c756-47f6-8229-831df38dad67"
 msgid "Decrees"
-msgstr "계획"
+msgstr "칙령"
 
-#, fuzzy
 msgctxt "9ab7e9cd-89cb-4a05-929f-d27ca0bb0814"
 msgid "View"
 msgstr "전망"
 
 msgctxt "9e61ef2d-3a79-438c-b02b-7761eae831d9"
 msgid "Army"
-msgstr ""
-
-msgctxt "4a888253-b482-405d-9f80-d8f63300c520"
-msgid "Development"
-msgstr ""
+msgstr "군대"
 
 #, fuzzy
+msgctxt "4a888253-b482-405d-9f80-d8f63300c520"
+msgid "Development"
+msgstr "개발"
+
 msgctxt "3bdb4d17-6c6f-437a-9d54-7197e655fd5a"
 msgid "Economy"
 msgstr "경제"
 
+#, fuzzy
 msgctxt "e3abbf54-ea9f-47ca-a781-ee192bf345a0"
 msgid "Command"
-msgstr ""
+msgstr "명령"
 
-#, fuzzy
 msgctxt "e242240f-87cf-4817-aabe-cc43d7571608"
 msgid "Other"
 msgstr "기타"
 
-#, fuzzy
-#| msgid "Rank Up"
 msgctxt "538f8c30-6789-49f0-a8b5-427c6eec7d5e"
 msgid "Rank-Up"
 msgstr "등급 상승"
 
-#, fuzzy
-#| msgid "Curses"
 msgctxt "c05ab58d-27c0-41d0-8453-860a5d904190"
 msgid "Relics"
-msgstr "저주"
+msgstr "유물"
 
 #, fuzzy
 #| msgid "Training"
 msgctxt "87fd7722-2b5b-4a6b-8282-f0fad9bdbf5e"
 msgid "Army"
-msgstr "훈련"
+msgstr "군대"
 
-#, fuzzy
 msgctxt "3ada847f-4d27-4114-9f5c-584237384ebb"
 msgid "Regions"
 msgstr "지역"
 
-#, fuzzy
 msgctxt "007d162e-dd2e-4643-8ede-29e5a180bd73"
 msgid "II"
 msgstr "II"
 
-#, fuzzy
 msgctxt "48769d1f-fd85-42f7-94cd-590a968be717"
 msgid "II"
 msgstr "II"
 
-#, fuzzy
 msgctxt "3184a09f-29d1-446d-b235-2c53e1d6c1d5"
 msgid "Delete"
 msgstr "삭제"
 
-#, fuzzy
 msgctxt "22a83601-3ad6-4605-b8dd-b79a6a1f097d"
 msgid "Save"
 msgstr "저장"
 
-#, fuzzy
 msgctxt "3e0a1038-e3f1-4d2c-a15b-a5a6ec2ccda8"
 msgid "Selling..."
 msgstr "판매중..."
 
-#, fuzzy
 msgctxt "e958849a-de4a-4024-af5e-14a7c63c3c57"
 msgid "Sell"
 msgstr "판매"
 
-#, fuzzy
 msgctxt "149a39ae-9a40-415b-9221-0e9642b7a627"
 msgid "Armor Class & Saving Throws"
 msgstr "방어도 & 내성 굴림"
@@ -22475,64 +22403,50 @@ msgctxt "76c62c13-0a95-41ca-8d88-40ac6a9d7675"
 msgid "Encyclopedia"
 msgstr "백과사전"
 
-#, fuzzy
-#| msgid "Willas' Journal"
 msgctxt "cfaedb23-5b27-47e9-b0ea-39957cc62c28"
 msgid "Willas's Journal"
 msgstr "윌라스의 저널"
 
-#, fuzzy
 msgctxt "cb2085c5-a1fc-486f-8f9f-7b1ad2876b0a"
 msgid "Reset"
 msgstr "초기화"
 
-#, fuzzy
 msgctxt "8a5bc909-ee95-435e-8ad7-6393a0d3a457"
 msgid "Controls"
 msgstr "조작"
 
-#, fuzzy
 msgctxt "63faf974-833e-43c3-bd83-114eb76bc7de"
 msgid "Difficulty"
 msgstr "난이도"
 
-#, fuzzy
 msgctxt "475a1e28-003a-4c32-accd-2e09ee5e201c"
 msgid "Game"
 msgstr "게임"
 
-#, fuzzy
 msgctxt "88d837d5-e540-488c-a0c4-522c01f28cef"
 msgid "Graphics"
 msgstr "그래픽"
 
-#, fuzzy
 msgctxt "9050cf8b-db62-4a65-b502-1d8d7967e453"
 msgid "Sound"
 msgstr "소리"
 
-#, fuzzy
 msgctxt "5da70ebe-2214-4913-90d7-548cbea3b4ba"
 msgid "This settlement can be upgraded to the next level."
 msgstr "이 정착지는 다음 단계로 승급될 수 있습니다."
 
-#, fuzzy
 msgctxt "0f712459-3947-4315-97be-95085cfcf4ad"
 msgid "Upgrade"
 msgstr "승급"
 
-#, fuzzy
-#| msgid "Constructed"
 msgctxt "548dafc6-061d-4680-bf8e-446de404c25a"
 msgid "Built"
 msgstr "건설됨"
 
-#, fuzzy
 msgctxt "c1e057b8-b001-47d0-a628-6874e36e55e9"
 msgid "<sprite name=RightMouseBTN>"
 msgstr "<sprite name=RightMouseBTN>"
 
-#, fuzzy
 msgctxt "4cbeb3ff-e1cb-4856-a303-1acb25190228"
 msgid "The upgrade provides additional stats:"
 msgstr "이 승급은 다음 수치를 제공합니다:"
@@ -22610,12 +22524,6 @@ msgctxt "ef59883b-3715-4207-a6ae-ab6198fff7b9"
 msgid "Reserved"
 msgstr "과묵함"
 
-#, fuzzy
-#| msgid ""
-#| "You can sense your foes' weak points, granting you greater damage with "
-#| "critical hits. Whenever you score a critical hit, roll the attack's damage "
-#| "dice (but not extra or precision damage dice) twice and take the highest "
-#| "result."
 msgctxt "feb41853-b29a-4ff6-b3ad-807af4694492"
 msgid ""
 "You can sense your foes' weak points, granting you greater "
@@ -22624,19 +22532,15 @@ msgid ""
 "the {g|Encyclopedia:Attack}attack{/g}'s damage dice (but not extra or "
 "precision damage dice) twice and take the highest result."
 msgstr ""
-"적의 약점을 감지해 치명타 공격시 더 큰 피해를 입힙니다. 치명타에 성공할 때마다 공격의 피해 주사위를 두 번 굴려 더 높은 값을 "
-"취합니다(추가, 정밀 피해는 제외)."
+"적의 약점을 감지해 {g|Encyclopedia:Critical}치명타{/g} 공격시 더 큰 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다. 치명타에 성공할 때마다 "
+"{g|Encyclopedia:Attack}공격{/g}의 피해 주사위를 두 번 {g|Encyclopedia:Dice}굴려{/g} 더 높은 "
+"값을 취합니다. 단, 추가 피해 및 정밀 피해에는 적용되지 않습니다."
 
-#, fuzzy
 msgctxt "e2f68472-5824-46d9-af90-354fa81f44a7"
 msgid "Locate Weakness"
-msgstr "약점 찾기"
+msgstr "약점 특정"
 
-#, fuzzy
-#| msgid ""
-#| "Affected creatures gain tactical knowledge and maximize their efficiency on "
-#| "the field of battle. Each gains a +1 insight bonus to AC and Reflex saves. "
-#| "Against attacks of opportunity, the insight bonus to AC increases to +3."
 msgctxt "3258c60b-5fcf-41aa-b958-b2f7c50365d4"
 msgid ""
 "Affected creatures gain tactical knowledge and maximize their efficiency on "
@@ -22646,10 +22550,11 @@ msgid ""
 "{g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}, the "
 "insight bonus to AC increases to +3."
 msgstr ""
-"영향을 받는 크리처는 전술 지식을 얻고 전투 분야에서 효율성을 극대화합니다. 각각 AC와 반사 내성 굴림에 +1 통찰 보너스를 얻습니다. "
-"기회 공격에 대비하여 AC에 대한 통찰 보너스는 +3으로 증가합니다."
+"영향을 받는 크리처는 전술 지식을 얻고 전투 분야에서 효율성을 극대화합니다. 각각 "
+"{g|Encyclopedia:Armor_Class}AC{/g}와 반사 내성 굴림에 +1 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다. {g|Encyclopedia:Attack_Of_Opportunity}"
+"기회 공격{/g}에 대한 AC의 통찰 보너스는 +3으로 증가합니다."
 
-#, fuzzy
 msgctxt "cd694a79-758b-4bd1-9fbe-995a21948b95"
 msgid "Perfect Placement"
 msgstr "완벽한 배치"
@@ -22660,50 +22565,49 @@ msgid ""
 "only does it weaken its bearer, it allows the caster to sense the cursed "
 "victim from any distance."
 msgstr ""
+"상아 미궁의 배은망덕한 죄수가 내린 저주입니다. 피해자를 약화시킬 뿐 아니라, 시전자가 저주의 희생자를 얼마나 떨어져 있던 감지하게 "
+"해줍니다."
 
 msgctxt "baa8cb8f-580b-42f5-9b16-40e07599e868"
 msgid "Ashen Curse"
-msgstr ""
+msgstr "잿빛 저주"
 
-#, fuzzy
 msgctxt "e5aed15a-060e-4a0f-ab21-b12e20d34d31"
 msgid "Obscuring Mist"
 msgstr "은폐의 안개"
 
+#, fuzzy
 msgctxt "16dbb8bc-bba0-4473-9d28-d1a3eddfbb89"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} summons an extraplanar murder pony to "
 "your side for one minute."
-msgstr ""
-
-msgctxt "2bf9b6d2-c58c-4dd3-bb67-6d6c7c9e9f6b"
-msgid "Summon Monster Zero"
-msgstr ""
+msgstr "이 {g|Encyclopedia:Spell}주문{/g}은 다른 차원의 살인 조랑말 한마리를 1분 동안 아군으로 소환합니다."
 
 #, fuzzy
+msgctxt "2bf9b6d2-c58c-4dd3-bb67-6d6c7c9e9f6b"
+msgid "Summon Monster Zero"
+msgstr "몬스터 제로 소환"
+
 msgctxt "43b45969-6823-47f8-bb59-54feceb1517b"
 msgid "Will negates (harmless)"
 msgstr "의지로 무효"
 
-#, fuzzy
 msgctxt "0c0bcffb-35ff-48e0-bc03-87a375c2aac8"
 msgid "Barkskin"
 msgstr "나무껍질"
 
-#, fuzzy
 msgctxt "143b13cb-8e09-41a3-b2fd-b1c01aa07a09"
 msgid "Bestow Grace"
 msgstr "은총 부여"
 
-#, fuzzy
-#| msgid "The subject suffers a –2 penalty to Constitution score."
 msgctxt "035a9bad-a7d6-47f9-899d-577eb07ffe6f"
 msgid ""
 "The subject suffers a –2 {g|Encyclopedia:Penalty}penalty{/g} to "
 "{g|Encyclopedia:Constitution}Constitution{/g} score."
-msgstr "대상은 건강 능력치에 -2의 페널티를 받습니다."
+msgstr ""
+"대상은 {g|Encyclopedia:Constitution}건강{/g} 능력치에 -2의 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
 
-#, fuzzy
 msgctxt "c3c0733e-cbcf-4b41-8355-44e6488fcafa"
 msgid "Curse of Feeble Body"
 msgstr "허약한 육체의 저주"
@@ -22722,18 +22626,21 @@ msgid ""
 "simulated allows, but the save {g|Encyclopedia:DC}DC{/g} is set according to "
 "shadow evocation's level (5th) rather than the spell's normal level."
 msgstr ""
+"그림자계의 에너지를 이용해 진짜처럼 보이는 화염구, 번개 화살, 포효, 화산 폭풍 또는 얼음 폭풍 "
+"{g|Encyclopedia:Spell}주문{/g}의 환상을 시전합니다. {g|Encyclopedia:Damage}피해{/g}를 입히는 "
+"주문은 효과 대상이 {g|Encyclopedia:Saving_Throw}의지 내성{/g}에 실패하면 정상적으로 작동합니다. 환상을 간파한 "
+"크리처는 피해의 1/5만 받습니다. 간파를 위한 내성 굴림 결과에 관계없이 내성이나 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}은 원본 주문과 똑같이 굴려야 하지만, 내성 "
+"{g|Encyclopedia:DC}DC{/g}는 원본 주문의 레벨이 아니라 그림자 방출의 주문 레벨인 5로 계산합니다."
 
-#, fuzzy
 msgctxt "af895982-3abe-4d5e-bfb0-d9ac41cd2987"
 msgid "Stoneskin"
 msgstr "돌가죽"
 
-#, fuzzy
 msgctxt "6c706160-6517-436c-9cca-22412519fadf"
 msgid "5 rounds"
 msgstr "5 라운드"
 
-#, fuzzy
 msgctxt "a154f1d5-a10d-4a9e-a3ad-4bd0b44c86dd"
 msgid "Reflex negates (save each round)"
 msgstr "반사로 무효 (매 라운드 내성)"
@@ -22788,7 +22695,7 @@ msgstr "함정 발동!"
 
 msgctxt "abc1bc03-801c-4f8e-ab2d-99c8db1a323d"
 msgid "This trap can be disarmed elsewhere"
-msgstr ""
+msgstr "이 함정은 다른 곳에서 해제할 수 있습니다"
 
 msgctxt "52c80c54-ff4f-49ff-80be-7d35df0a816c"
 msgid "Bear Trap"
@@ -22802,9 +22709,10 @@ msgctxt "fa671571-84e4-4c9d-8914-e8ac7b19c27d"
 msgid "Poison Dart"
 msgstr "독 다트"
 
+#, fuzzy
 msgctxt "cbc816fd-a7f0-4f2d-9999-6529ebe70753"
 msgid "Summoned FX"
-msgstr ""
+msgstr "소환됨 FX"
 
 msgctxt "0390dbeb-182f-4b07-914a-ddf54f0bcacd"
 msgid "Slow"
@@ -22920,8 +22828,8 @@ msgid ""
 "silver dragon expands his inventory of goods. The number of items the silver "
 "dragon sells persists across your playthroughs."
 msgstr ""
-"방금처럼 잃어버린 영웅을 물리칠 때마다 실버 드래곤의 상품 재고가 늘어납니다. 실버드래곤이 판매하는 물품의 수는 모든 게임 플레이에 걸쳐 "
-"유지됩니다."
+"방금처럼 잃어버린 영웅을 물리칠 때마다 실버 드래곤의 상품 재고가 늘어납니다. 실버 드래곤이 판매하는 물품의 수는 모든 게임 플레이에 "
+"걸쳐 유지됩니다."
 
 msgctxt "6c82c908-f78c-4b52-9012-e5b1a4595a3e"
 msgid "Lost Hero Vanquished!"
@@ -23006,13 +22914,6 @@ msgctxt "d5c54cfb-15d3-43dd-bb28-102f57d0e2e4"
 msgid "Stat Development: Rank Increase"
 msgstr "지표 개발: 등급 상승"
 
-#, fuzzy
-#| msgid ""
-#| "After you talk to an advisor and make a decision, a new kingdom project will "
-#| "become available that will increase a stat rank. You can find it at the "
-#| "bottom-center of the screen on the Projects tab.\n"
-#| "It will take you and your advisor 14 days to complete the project. Time will "
-#| "be automatically sped up until the project is completed."
 msgctxt "a24955b0-bc0f-43b4-9ee3-5e0bb24cb583"
 msgid ""
 "After you talk to an advisor and make a decision, a new decree will become "
@@ -23021,14 +22922,12 @@ msgid ""
 "It will take you and your advisor 14 days to execute the decree. Time will "
 "be automatically sped up until the decree is completed."
 msgstr ""
-"보좌관과 이야기하고 결정을 내린 후 계획 탭의 화면 하단 중앙에 나타나는 왕국 계획을 통해 지표 등급을 높일 수 있습니다.\n"
-"계획에는 당신과 보좌관이 참여하며, 계획이 완료되기 까지 14일의 시간을 건너뛰게 됩니다."
+"보좌관과 이야기하고 결정을 내린 후 칙령 탭의 화면 하단 중앙에 나타나는 칙령을 통해 지표 등급을 높일 수 있습니다.\n"
+"이 칙령을 처리하려면 당신과 당신의 보좌관에게 14일이 필요합니다. 칙령이 완료될 때까지 시간을 자동으로 건너뛰게 됩니다."
 
-#, fuzzy
-#| msgid "Start the Rank-Up Project"
 msgctxt "d8788d66-2d60-4c30-9dd0-fed9f7ed18de"
 msgid "Pass the Rank-Up Decree"
-msgstr "등급 상승 계획 시작"
+msgstr "등급 상승 칙령 승인"
 
 #, fuzzy
 #| msgid ""

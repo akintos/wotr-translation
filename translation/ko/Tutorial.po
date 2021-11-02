@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-10-31 15:24+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-11-02 02:24+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -607,6 +607,9 @@ msgid ""
 "positive energy, which is very effective against the undead if you use it to "
 "{g|Encyclopedia:Damage}damage{/g} them."
 msgstr ""
+"{t|TargetUnit} 적은 언데드입니다.\n"
+"일행의 {t|SourceUnit} 캐릭터는 언데드에게 {g|Encyclopedia:Damage}피해{/g}를 주는 용도로 사용할 때 매우 "
+"효과적인 양에너지 전달 능력을 가지고 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ChannelUndead::m_DescriptionText
@@ -618,6 +621,9 @@ msgid ""
 "effects (healing and damaging) at once — when you use the Channel energy "
 "ability, you need to specify which effect you want to use."
 msgstr ""
+"음에너지는 언데드를 {g|Encyclopedia:Healing}치유{/g}하고 살아있는 이들에게 "
+"{g|Encyclopedia:Damage}피해{/g}를 줍니다. 양에너지는 반대로 살아있는 이들을 치유하고 언데드에게 피해를 줍니다. "
+"치유와 피해 두 효과를 동시에 사용할 수는 없습니다. 에너지 전달 능력을 사용할 때, 어떤 능력을 사용할 것인지 선택해야 합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ChannelUndead::m_SolutionNotFoundText
@@ -627,12 +633,14 @@ msgid ""
 "ability Channel energy — damage undead, possessed by your character "
 "{t|SourceUnit}."
 msgstr ""
+"당신의 캐릭터 {t|SourceUnit}가 지닌 에너지 전달 — 언데드 피해를 사용해 적 {t|TargetUnit}에게 "
+"{g|Encyclopedia:Damage}피해{/g}를 줄 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ClassAlignment::m_TitleText
 msgctxt "511d0921-d127-4d6d-a8be-8db2404c553e"
 msgid "Alignment Changes"
-msgstr ""
+msgstr "성향 변화"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ClassAlignment::m_TriggerText
@@ -641,6 +649,8 @@ msgid ""
 "{t|SourceUnit} has changed {g|Encyclopedia:Alignment}alignment{/g} and no "
 "longer meets the class requirements."
 msgstr ""
+"{t|SourceUnit}의 {g|Encyclopedia:Alignment}성향{/g}이 변화해 더 이상 클래스 요구 조건을 만족시키지 "
+"않습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ClassAlignment::m_DescriptionText
@@ -652,12 +662,15 @@ msgid ""
 "alignment, they lose many of their capabilities. However, if they find a "
 "Scroll of Atonement and read it, they will get these capabilities back."
 msgstr ""
+"몇몇 클래스는 그 능력과 {g|Encyclopedia:Spell}주문{/g}을 사용하기 위해 특정 "
+"{g|Encyclopedia:Alignment}성향{/g}을 필요로 합니다. 캐릭터의 성향이 변화하면, 그들의 능력 중 많은 부분을 "
+"잃습니다. 다행히도 속죄의 두루마리를 읽어 능력을 되찾을 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ClassAlignment::m_SolutionNotFoundText
 msgctxt "44192c31-c1dd-4229-80a8-65f5ecdfdc06"
 msgid "Find and read a Scroll of Atonement to get your powers back!"
-msgstr ""
+msgstr "속죄의 두루마리를 사용해 힘을 되찾으세요!"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CompanionDeath::m_TitleText
@@ -669,7 +682,7 @@ msgstr "죽음과 부활"
 #. Path = ContextTutor_CompanionDeath::m_TriggerText
 msgctxt "57a0b6d8-a98f-4291-a9e0-a181934787f7"
 msgid "Your character {t|SourceUnit} has died."
-msgstr ""
+msgstr "당신의 {t|SourceUnit} 캐릭터가 사망했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CompanionDeath::m_DescriptionText
@@ -679,6 +692,8 @@ msgid ""
 "zero. If the number of negatives hit points becomes equal to their "
 "{g|Encyclopedia:Constitution}Constitution{/g} score, they die."
 msgstr ""
+"캐릭터의 {g|Encyclopedia:HP}생명점{/g}은 0 아래로 떨어질 수 있습니다. 만약 음수 생명점이 "
+"{g|Encyclopedia:Constitution}건강{/g} 점수와 동일해지면 사망합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CompanionDeath::m_SolutionNotFoundText
@@ -695,13 +710,13 @@ msgstr ""
 #. Path = ContextTutor_ConditionImmunity::m_TitleText
 msgctxt "74dd6e28-76b0-4ace-8aff-7f11dae66d75"
 msgid "Immunity to Conditions"
-msgstr ""
+msgstr "상태 면역"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ConditionImmunity::m_TriggerText
 msgctxt "49e470bf-8d63-4da1-bfa5-8c5c42398bb9"
 msgid "Your enemy {t|TargetUnit} is immune to the condition {t|Descriptor}."
-msgstr ""
+msgstr "{t|TargetUnit}(은)는 {t|Descriptor} 상태에 면역입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ConditionImmunity::m_DescriptionText
@@ -712,6 +727,9 @@ msgid ""
 "against them.\n"
 "You can learn this information by inspecting the enemy."
 msgstr ""
+"몇 크리처들은 특정 상태에 면역입니다.\n"
+"이러한 상태를 부여하는 {g|Encyclopedia:Spell}주문{/g}들은 이들에게 쓸모가 없습니다.\n"
+"적을 조사하여 이 정보를 확인할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ConditionImmunity::m_SolutionNotFoundText
@@ -720,6 +738,8 @@ msgid ""
 "Don't use {g|Encyclopedia:Spell}spells{/g} and abilities that inflict this "
 "condition on this enemy — it would be a waste of resources."
 msgstr ""
+"이 적에게 이 상태를 부여하는 {g|Encyclopedia:Spell}주문{/g}과 능력들을 사용하지 마십시오. 자원의 낭비가 될 "
+"것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Confusion::m_TitleText
@@ -731,7 +751,7 @@ msgstr "혼란"
 #. Path = ContextTutor_Confusion::m_TriggerText
 msgctxt "2f3634da-ac29-4018-81af-2d10356eb7cb"
 msgid "Your character {t|SourceUnit} has become confused."
-msgstr ""
+msgstr "당신의 {t|SourceUnit} 캐릭터가 혼란 상태에 빠졌습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Confusion::m_DescriptionText
@@ -742,6 +762,9 @@ msgid ""
 "last creature that attacked it until it dies or moves out of sight. This "
 "condition rarely lasts long, and usually you can just wait until it's over."
 msgstr ""
+"혼란 상태의 캐릭터는 똑바로 사고하거나 정상적으로 행동할 수 없습니다. 친구와 적을 구분하지 못하고 자신을 공격한 마지막 크리처가 죽거나 "
+"시야 밖으로 사라질 때까지 계속 {g|Encyclopedia:Attack}공격{/g}할 것입니다. 이러한 상태는 대부분 지속시간이 "
+"짧으므로, 끝날 때까지 기다리기만 해도 됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Confusion::m_SolutionFoundText
@@ -758,6 +781,8 @@ msgid ""
 "{g|Encyclopedia:Healing}restoration{/g} spells. The dispel magic spell could "
 "also come handy."
 msgstr ""
+"부여 파해 {g|Encyclopedia:Spell}주문{/g}이나 보다 강력한 {g|Encyclopedia:Healing}상태회복{/g} "
+"주문들을 통해 혼란 상태를 제거할 수 있습니다. 마법 해제 주문 또한 유용할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CriticalIncoming::m_TitleText
