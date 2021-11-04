@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-03 03:24+0000\n"
+"PO-Revision-Date: 2021-11-04 04:24+0000\n"
 "Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -19257,24 +19257,23 @@ msgstr "최고 품질의 무기들은 비싸지만, 이것들을 구입한 사�
 #. Path = PurchasingQualityEquipment::DefaultResolutionDescription
 msgctxt "27f3b02c-357f-499e-ab58-0ae8fb3ce5a0"
 msgid "Highest-quality gear has been purchased."
-msgstr ""
+msgstr "최고 등급의 장비들을 구입했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event33WeaponsFromDaggermark::LocalizedDescription
-#, fuzzy
 msgctxt "259611ce-49dd-488f-8f4b-866725a4771a"
 msgid ""
 "Weaponsmiths from Daggermark that forge weapons for local assassins would be "
 "glad to find a new market and are thus offering a good discount."
 msgstr ""
-"지역 암살자들을 위해 무기를 빚는 대거마크의 무기장인들은 새 시장을 찾는데 적극적이고, 그를 위해 괜찮은 할인을 제공할 의사가 있습니다."
+"대거마크의 암살자들을 위해 무기를 만들어내는 그 지역의 무기장인들은 새 시장을 찾고 싶어 합니다. 그들이라면 괜찮은 가격으로 무기를 "
+"구입할 수 있을 것입니다.."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event33WeaponsFromDaggermark::DefaultResolutionDescription
-#, fuzzy
 msgctxt "dd082ed2-fe0f-4051-89b9-1de08d55c288"
 msgid "The weapons from Daggermark have been delivered to Drezen."
-msgstr "대거마크의 무기들이 드레젠으로 배달되었다."
+msgstr "대거마크의 무기들이 드레젠으로 배달되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event34FugitiveHunt::m_MechanicalDescription
@@ -19282,13 +19281,13 @@ msgctxt "7bd3f0f1-d448-4a3e-af6c-701d190f3e35"
 msgid ""
 "140 {g|Convicts}[Convicts]{/g} are recruited at the Commander's "
 "headquarters, crusade morale reduces by 10."
-msgstr ""
+msgstr "사령관의 지휘부에서 140 {g|Convicts}[죄수]{/g} 가 모집되었습니다. 성전 사기가 10 감소합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event34FugitiveHunt::LocalizedName
 msgctxt "e8de92da-c03c-404c-b604-322d6cb2220c"
 msgid "Fugitive Hunt"
-msgstr ""
+msgstr "도망자 사냥"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event34FugitiveHunt::LocalizedDescription
@@ -19299,12 +19298,14 @@ msgid ""
 "although few soldiers will be eager to fight in the same unit as former "
 "deserters."
 msgstr ""
+"복무를 위해 드레젠으로 향하던 범죄자 무리가 도중에 탈출했습니다. 반드시 이 범죄자들을 찾아내야하며, 반드시 복종시켜야합니다. 탈영 "
+"전과가 있는 자들과는 그 누구도 같이 복무하고 싶어하지 않을 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event34FugitiveHunt::DefaultResolutionDescription
 msgctxt "d8453ec9-cd81-4a8f-89bb-50809be753b8"
 msgid "The fugitives have been caught and forced to join the ranks."
-msgstr ""
+msgstr "도망자들은 붙잡혔고, 강제로 입대하게 되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event36EnchantingTheDead::m_MechanicalDescription
@@ -19312,13 +19313,13 @@ msgctxt "8a8cfca4-dca1-4430-8ca4-696408426942"
 msgid ""
 "4 {g|MummyClerics}[Mummy Clerics]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 4 {g|MummyClerics}[미라 클레릭]{/g} 이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event36EnchantingTheDead::LocalizedName
 msgctxt "4074342b-1d6f-45fa-ae27-8c71a0c0a49c"
 msgid "Enchanting the Dead"
-msgstr ""
+msgstr "죽음 부여"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event36EnchantingTheDead::LocalizedDescription
@@ -19326,7 +19327,7 @@ msgctxt "3ee49624-0d13-4073-93d7-bbf2b588896e"
 msgid ""
 "The risen crusaders could become useful servants if the Commander infuses "
 "them with {mf|his|her} power."
-msgstr ""
+msgstr "사령관이 그의 힘을 불어넣는다면, 되살아난 성전사들은 더 쓸모있는 하수인이 될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event36EnchantingTheDead::DefaultResolutionDescription
@@ -19334,7 +19335,7 @@ msgctxt "8ce5e56a-cfe3-4cd6-a9ad-b25231a92445"
 msgid ""
 "The risen crusaders have been infused with the Commander's power and have "
 "sworn their allegiance to {mf|him|her}."
-msgstr ""
+msgstr "되살아난 성전사들에게 사령관의 힘이 주입되었고, 사령관에게 충성을 맹세했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event38FutureHeroes::LocalizedDescription
@@ -19344,6 +19345,8 @@ msgid ""
 "unwanted heirs. They neither want, nor know how, to serve, and someone needs "
 "to raise them to be true warriors."
 msgstr ""
+"많은 가문들이 상속인을 하나라도 더 제거하기 위해 그들의 자식들을 성전에 보내고 있습니다. 이들은 어떻게 복무해야하는지 알지도, 복무하고 "
+"싶어하지도 않습니다. 누군가가 이들은 진정한 전사로 다시 태어나게 해야할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event38FutureHeroes::DefaultResolutionDescription
@@ -19351,32 +19354,32 @@ msgctxt "72dc94c3-6be7-4b9a-88a3-cfc8ee44ab29"
 msgid ""
 "The young pampered nobles sent by their families to the crusade have become "
 "skilled fighters."
-msgstr ""
+msgstr "가족들에게서 성전으로 내쫓겨난, 제멋대로인 젊은 귀족들이 노련한 전사가 되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event39DangerousHunt::m_MechanicalDescription
 msgctxt "31569b46-58b3-488e-a550-6ceea9eff6ef"
 msgid "Adds 3,000 Diplomacy experience points."
-msgstr ""
+msgstr "외교 경험치가 3,000 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event39DangerousHunt::LocalizedName
 msgctxt "4b1ff8db-d73a-46ba-b23d-918482c83b5f"
 msgid "Dangerous Hunt"
-msgstr ""
+msgstr "위험한 사냥"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event39DangerousHunt::LocalizedDescription
 msgctxt "4b66fd19-9937-4299-9f18-45672445c2a3"
 msgid ""
 "A group of Chelaxian nobles would like to hunt monsters in the Worldwound."
-msgstr ""
+msgstr "첼리악스 귀족들이 세계상처의 괴물들을 사냥하고 싶어합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event39DangerousHunt::DefaultResolutionDescription
 msgctxt "c00af999-78ba-4202-8cc6-ba03532d7e34"
 msgid "The Chelaxians have thoroughly enjoyed the thrill of the hunt."
-msgstr ""
+msgstr "첼리악스인들은 사냥의 스릴을 즐겼습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41BattleMonsters::m_MechanicalDescription
@@ -19385,12 +19388,14 @@ msgid ""
 "4 {g|MinotaurVanguard}[Minotaur Vanguard]{/g} and 4 {g|MinotaurAxeThrowers}["
 "Minotaur Axe Throwers]{/g} are recruited at the Commander's headquarters."
 msgstr ""
+"사령관의 지휘부에서 4 {g|MinotaurVanguard}[미노타우르스 선봉대]{/g} 와 4 "
+"{g|MinotaurAxeThrowers}[미노타우르스 도끼투척자]{/g} 가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41BattleMonsters::LocalizedName
 msgctxt "1f4d1988-fb13-4fda-b719-31da9cd319fb"
 msgid "Battle Monsters"
-msgstr ""
+msgstr "전투 괴물"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41BattleMonsters::LocalizedDescription
@@ -19400,24 +19405,26 @@ msgid ""
 "\"menagerie\" that he has grown bored of in exchange for some exotic "
 "trophies."
 msgstr ""
+"압살롬의 수집가가 그의 \"동물원\" 에서 몇가지 괴물들을 제공하고자 합니다. 그는 이미 질려버린 자신의 수집품과 특별한 전리품을 "
+"교환하고 싶어합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41BattleMonsters::DefaultResolutionDescription
 msgctxt "4c07e9b9-54fc-40fc-bf7c-634e9575e037"
 msgid "A delivery of battle monsters has arrived in Drezen."
-msgstr ""
+msgstr "전투 괴물이 드레젠에 도착했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41DangerousGoods::m_MechanicalDescription
 msgctxt "69a89a5d-4e39-4fe9-bf86-6e917e2f3c98"
 msgid "Adds 1,000 Finance Points."
-msgstr ""
+msgstr "재정 점수가 1,000 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41DangerousGoods::LocalizedName
 msgctxt "db0e2fd0-36a7-477e-b9a6-ef3b54218a01"
 msgid "Dangerous Goods"
-msgstr ""
+msgstr "위험한 물건"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41DangerousGoods::LocalizedDescription
@@ -19425,13 +19432,13 @@ msgctxt "0a0faf35-7ab3-4aed-925a-4c77ec308322"
 msgid ""
 "A collector from Absalom is offering generous payment for any captive demons "
 "delivered to his \"menagerie.\""
-msgstr ""
+msgstr "압살롬의 수집가는 자신의 \"수집품\" 목록에 데몬들을 추가하는 것을 대가로, 막대한 양의 재화를 제공합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41DangerousGoods::DefaultResolutionDescription
 msgctxt "8933c508-e8be-488b-946c-a3038ad21d2c"
 msgid "A shipment of demons has been delivered to the collector in Absalom."
-msgstr ""
+msgstr "압살롬의 수집가는 데몬을 받았습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41ExoticPrey::LocalizedDescription
@@ -19441,12 +19448,14 @@ msgid ""
 "demons, and Greybor can put together a group of hunters to capture such "
 "dangerous prey."
 msgstr ""
+"압살롬의 수집가는 특별한 데몬들을 위해서라면, 막대한 비용을 감수할 것입니다. 그레이보르는 그런 위험한 사냥감을 포획하기 위해 사냥단을 "
+"조직할 수 있습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event41ExoticPrey::DefaultResolutionDescription
 msgctxt "cb9db438-46a2-432a-aee9-dea39ed32d79"
 msgid "The group of hunters of exotic demons has been formed."
-msgstr ""
+msgstr "특별한 데몬들을 쫓는 사냥단이 조직되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event42WorldwoundResearch::m_MechanicalDescription
@@ -19460,7 +19469,7 @@ msgstr "사령관의 지휘부에서 12{g|Kineticists}[키네시스트]{/g}가 �
 #. Path = Event42WorldwoundResearch::LocalizedName
 msgctxt "3e5659ec-4d6e-4ef5-be6f-ef5e86660398"
 msgid "Worldwound Research"
-msgstr ""
+msgstr "세계 상처 연구"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event42WorldwoundResearch::LocalizedDescription
@@ -19470,24 +19479,26 @@ msgid ""
 "Wound area. The Commander could lure some of them to Drezen with promises of "
 "exciting discoveries."
 msgstr ""
+"마법사들과 과학자들은 세계상처 지역의 뒤틀린 정령들에게 관심을 갖고있습니다. 사령관이 이 정령들을 드레젠으로 꾀어낸다면, 연구원들에게 "
+"흥미로운 발견을 약속할 수 있을 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event42WorldwoundResearch::DefaultResolutionDescription
 msgctxt "47990a27-fba2-49ac-a076-93e5ef00bf7e"
 msgid "A group of mages has arrived to study the Wound."
-msgstr ""
+msgstr "마법사들이 세계상처를 연구하기 위해 도착했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionExperiment::m_MechanicalDescription
 msgctxt "1fc8c2f2-5a5e-4d73-b10d-92c0beeeddc3"
 msgid "Unlocks {g|NegativeEnergyBlast}[Negative Energy Blast]{/g} ritual."
-msgstr ""
+msgstr "{g|NegativeEnergyBlast}[Negative Energy Blast]{/g} 의식을 해금합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionExperiment::LocalizedName
 msgctxt "ce5c99f4-0ab1-4fc5-b5a0-d735c8d76d02"
 msgid "Experiment in Destruction"
-msgstr ""
+msgstr "파괴 속의 실험"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionExperiment::LocalizedDescription
@@ -19498,6 +19509,8 @@ msgid ""
 "weakened, and the artifact will soon explode, sending out a wave of negative "
 "energy."
 msgstr ""
+"데몬들에게 대적할 강력한 무기가 될 수 있는, 타르-바폰의 위험한 유물은 오젬 기사단이 보관하고 있었습니다. 하지만 마법 봉인은 "
+"약해져버렸고, 유물은 곧 폭발해 엄청난 음 에너지 파동을 방출할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionExperiment::DefaultResolutionDescription
@@ -19505,7 +19518,7 @@ msgctxt "e0db059c-e469-4026-975e-0e519a073bb5"
 msgid ""
 "The relic of Tar-Baphon has arrived in Drezen and is ready to be destroyed. "
 "All that is left is to deliver it to the demons."
-msgstr ""
+msgstr "타르-바폰의 유물이 드레젠에 도착했고, 이를 파괴할 준비가 모두 끝났습니다. 데몬에게 전달하는 일만 남았습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionOfTheDangerousRelic::m_MechanicalDescription
@@ -19513,13 +19526,13 @@ msgctxt "7cdf2ccf-6b5b-4e56-a313-da290e0df6c3"
 msgid ""
 "3 {g|KnightsOfOzem}[Knights of Ozem]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 3 {g|KnightsOfOzem}[오젬 기사단]{/g}이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionOfTheDangerousRelic::LocalizedName
 msgctxt "3b0d3da2-cd28-4c7b-88d8-60cf97598a4e"
 msgid "Destruction of the Dangerous Relic"
-msgstr ""
+msgstr "위험한 유물 파괴"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionOfTheDangerousRelic::LocalizedDescription
@@ -19529,6 +19542,8 @@ msgid ""
 "of a dangerous relic of Tar-Baphon. They are offering their services as "
 "payment."
 msgstr ""
+"오젬 기사단은 사령관에게 타르-바폰의 위험한 유물을 파괴할 수 있도록 도와달라고 요청했습니다. 이에 대한 대가로 그들은 성전에 참전할 "
+"것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event43DestructionOfTheDangerousRelic::DefaultResolutionDescription
@@ -19536,7 +19551,7 @@ msgctxt "ac820f8f-5622-4136-8eb0-bcdc2d810001"
 msgid ""
 "The relic of Tar-Baphon has been carried out into the wasteland and "
 "destroyed."
-msgstr ""
+msgstr "타르-바폰의 유물은 황무지로 이송되었고, 그곳에서 파괴되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45FateOfTheFallenPaladins::m_MechanicalDescription
@@ -19544,13 +19559,13 @@ msgctxt "5083f60a-c3a9-4a8b-8d60-2de3bdc582ac"
 msgid ""
 "20 {g|Hellknightscrusade}[Hellknights]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 20 {g|Hellknightscrusade}[헬나이트]{/g} 가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45FateOfTheFallenPaladins::LocalizedName
 msgctxt "83ec0cb1-2137-4b32-b710-d845b4f42597"
 msgid "Fate of the Fallen Paladins"
-msgstr ""
+msgstr "타락한 팔라딘의 운명"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45FateOfTheFallenPaladins::LocalizedDescription

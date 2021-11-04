@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-03 03:24+0000\n"
+"PO-Revision-Date: 2021-11-04 04:24+0000\n"
 "Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -14823,7 +14823,7 @@ msgstr "방어구 숙련 (평장 갑옷)"
 
 msgctxt "ca0ae1c5-ba1f-44fa-80a8-d0f2d878a5bc"
 msgid "Armor Proficiency (Heavy Armor)"
-msgstr "방어구 숙련 (중장 갑옷)"
+msgstr "갑옷 숙련 (중장 갑옷)"
 
 msgctxt "43a0614d-4646-47d6-8b5b-a8b607905c3c"
 msgid "Buckler Proficiency"
@@ -23019,18 +23019,6 @@ msgctxt "2a1f53b9-9791-41cd-b2bd-2edefcdfea13"
 msgid "Settlement Upgrade"
 msgstr "정착지 승급"
 
-#, fuzzy
-#| msgid ""
-#| "You can now upgrade settlements in your {mf|barony|barony|kingdom|kingdom}. "
-#| "Every three villages acquired in your domain will enable you to upgrade one "
-#| "of them to the town level, provided that 6 or more slots are occupied in "
-#| "that village. The first upgrade must take place in the capital.\n"
-#| "Complete the relevant project on the Projects tab to start an upgrade. Once "
-#| "the upgrade is complete, the number of slots in the settlement will increase "
-#| "to 20, and the list of buildings will expand.\n"
-#| "Three or more towns in your {mf|barony|barony|kingdom|kingdom} and at least "
-#| "16 occupied building slots in the capital will enable you to upgrade the "
-#| "capital to city."
 msgctxt "d829c221-ed4b-478a-ad47-c09648d2e8b6"
 msgid ""
 "You can now upgrade settlements in your {mf|barony|barony|kingdom|kingdom}. "
@@ -23046,16 +23034,14 @@ msgid ""
 msgstr ""
 "이제 {mf|남작령|여남작령|왕국|왕국}의 정착지를 승급할 수 있습니다. 영지가 보유한 3개의 정착지 마다, 6칸 이상의 건물이 지어진 "
 "마을 하나를 소도시로 승급시킬 수 있습니다. 수도를 첫 번째로 승급해야 합니다.\n"
-"승급을 시작하려면 계획 탭에서 관련 계획을 실행해야 합니다. 승급이 완료되면 정착지의 건물 칸이 20개로 늘어나고 건설 가능한 건물의 "
+"칙령을 승인하려면 칙령 탭에서 관련 계획을 실행해야 합니다. 칙령이 완료되면 정착지의 건물 칸이 20개로 늘어나고 건설 가능한 건물의 "
 "종류가 늘어납니다.\n"
 "{mf|남작령|여남작령|왕국|왕국}에 소도시가 3개 이상이고, 수도에 지어진 건물이 16칸 이상이면 도시로 승급시킬 수 있습니다."
 
-#, fuzzy
 msgctxt "6503e7b3-fb30-4fc4-888b-e6cf7071eb94"
 msgid "{mf|Barony|Barony|Kingdom|Kingdom} Alignment"
 msgstr "{mf|남작령|여남작령|왕국|왕국} 성향"
 
-#, fuzzy
 msgctxt "fb28c248-dc88-4640-bb9e-6ef238cfa2ad"
 msgid ""
 "Your subjects look up to you in all areas of life, including your alignment. "
@@ -23077,33 +23063,25 @@ msgid ""
 "state, and most of kingdom decisions (like constructing buildings or solving "
 "events) are done for you automatically."
 msgstr ""
+"[UNUSED] 당신은 설정에서 왕국 난이도를 변경하거나, 난이도가 쉬움인 경우엔 자동 모드를 사용할 수도 있습니다. 이는 도전 과제 "
+"달성에 영향을 끼칩니다.\n"
+"자동 난이도에선 왕국이 붕괴 상태가 되더라도 절대 망하지 않으며, 건물 건설이나 사건 해결과 같은 대부분의 왕국 결정이 자동으로 "
+"진행됩니다."
 
-#, fuzzy
 msgctxt "aee50caa-292b-46ed-bc9a-4276444b2e28"
 msgid "Advisor Upgrade"
 msgstr "보좌관 승급"
 
-#, fuzzy
-#| msgid ""
-#| "You may now upgrade your advisors' abilities! Complete the available kingdom "
-#| "project from the Projects tab to unlock this feature."
 msgctxt "6a126fd6-d605-4050-8965-781b504e9c63"
 msgid ""
 "You may now upgrade your advisors' abilities! Pass the available decree from "
 "the Decrees tab to unlock this feature."
-msgstr "이제 보좌관의 능력을 승급시킬 수 있습니다! 계획 탭에서 왕국 계획을 완료하면 이 기능을 사용할 수 있습니다."
+msgstr "이제 보좌관의 능력을 승급시킬 수 있습니다! 이 기능을 사용하려면 칙령 탭에서 가능한 칙령을 승인하십시오."
 
-#, fuzzy
 msgctxt "41a6f4bb-92d4-44e3-a6ea-4d2b40ee0ed5"
 msgid "Region Upgrade"
 msgstr "지역 승급"
 
-#, fuzzy
-#| msgid ""
-#| "You may now upgrade regions within your {mf|barony|barony|kingdom|kingdom}. "
-#| "Every region has 2 or 3 available upgrades, with unique bonuses and "
-#| "conditions for each. All of them are listed on the region cards.\n"
-#| "You will find the region upgrade projects on the Projects tab."
 msgctxt "963c4d56-1e25-40dd-b214-c9ea423937f7"
 msgid ""
 "You may now upgrade regions within your {mf|barony|barony|kingdom|kingdom}. "
@@ -23113,14 +23091,12 @@ msgid ""
 msgstr ""
 "이제 {mf|남작령|여남작령|왕국|왕국}의 지역을 승급시킬 수 있습니다. 모든 지역은 2 ~ 3 가지의 승급이 가능하며 각각 고유한 "
 "보너스와 조건이 있습니다. 지역 카드에 조건과 보너스가 적혀있습니다.\n"
-"계획 탭에서 지역 승급 계획을 찾을 수 있습니다."
+"칙령 탭에서 지역 승급 칙령을 찾을 수 있습니다."
 
-#, fuzzy
 msgctxt "bd6c5938-4f24-4bdd-abb5-0898e780378f"
 msgid "Welcome to Your Barony!"
 msgstr "남작령에 오신 것을 환영합니다!"
 
-#, fuzzy
 msgctxt "ac52779a-a5b1-42c4-a940-cc368699a3be"
 msgid ""
 "You are about to make the unyielding Stolen Lands a prosperous kingdom. "
@@ -23139,12 +23115,10 @@ msgstr ""
 "그것이 바로 성공적인 지도자들이 하는 일입니다.\n"
 "당신의 통치에 행운을 빕니다. {mf|남작님|여남작님}!"
 
-#, fuzzy
 msgctxt "58edef67-77d3-407c-8b4b-35f317a3f574"
 msgid "Difficulty Level of Your {mf|Barony|Barony|Kingdom|Kingdom}"
 msgstr "{mf|남작령|남작령|왕국|왕국} 관리 난이도"
 
-#, fuzzy
 msgctxt "e6065c76-a50c-409b-b91b-b02affc42455"
 msgid ""
 "You may change the difficulty level of your "
@@ -23157,12 +23131,10 @@ msgstr ""
 "당신은 {mf|남작령|여남작령|왕국|왕국} 관리 난이도를 언제든지 변경하거나 자동으로 설정할 수 있습니다. 자동으로 설정하면 대부분의 "
 "정책 결정이 자동으로 처리되며 남작령은 절대 망하지 않습니다. 하지만 통치 관련 업적을 달성 할 수 없게됩니다."
 
-#, fuzzy
 msgctxt "a58f6bad-00c2-48f0-97a7-5f85e9eb4560"
 msgid "Long Live the {mf|King|Queen}!"
 msgstr "{mf|왕|여왕}이시여, 영원하소서!"
 
-#, fuzzy
 msgctxt "762eb438-9624-40b8-96de-9c85fcf92623"
 msgid ""
 "Congratulations! Your barony has advanced to become an independent kingdom!\n"
@@ -23173,19 +23145,10 @@ msgstr ""
 "축하합니다! 남작령이 독립 왕국으로 발전했습니다!\n"
 "이제 지표를 6등급 이상으로 올릴 수 있습니다. 또, 더 이상 브레보이에 세금을 바치지 않는 대신 재정 지원도 받지 않습니다."
 
-#, fuzzy
-#| msgid "Scouting Projects"
 msgctxt "ed1fba98-f645-4ec1-bf87-63d0ecc0e537"
 msgid "Scouting Decrees"
-msgstr "정찰 계획"
+msgstr "정찰 칙령"
 
-#, fuzzy
-#| msgid ""
-#| "With special projects, you can find locations you missed within "
-#| "{mf|barony|barony|kingdom|kingdom} regions while exploring the territory. "
-#| "Use projects to send scouts, and after a while they will return with "
-#| "information about a new location. After some time to rest, scouts will be "
-#| "able to continue exploring regions for more locations."
 msgctxt "20e88c5e-e123-4155-bdc3-3b278bb5c28d"
 msgid ""
 "With special decrees, you can find locations you missed within "
@@ -23194,16 +23157,14 @@ msgid ""
 "information about a new location. After some time to rest, scouts will be "
 "able to continue exploring regions for more locations."
 msgstr ""
-"{mf|남작령|여남작령|왕국|왕국}를 탐험하는 동안 놓친 장소들을 특별 계획을 통해 찾을 수 있습니다. 이 계획을 실행하면 정찰병을 "
-"파견해 새로운 장소에 대한 정보를 갖고 돌아오도록 합니다. 계획을 완료하면 잠시간의 휴식 후에 다시 정찰대를 파견해 다른 장소를 조사할 "
+"{mf|남작령|여남작령|왕국|왕국}를 탐험하는 동안 놓친 장소들을 특별 칙령을 통해 찾을 수 있습니다. 이 칙령을 실행하면 정찰병을 "
+"파견해 새로운 장소에 대한 정보를 갖고 돌아오도록 합니다. 칙령을 완료하면 잠시간의 휴식 후에 다시 정찰대를 파견해 다른 장소를 조사할 "
 "수 있습니다."
 
-#, fuzzy
 msgctxt "0a294621-faf3-4a3c-8099-755cccb47ea6"
 msgid "{mf|Barony|Barony|Kingdom|Kingdom} Stats"
 msgstr "{mf|남작령|여남작령|왕국|왕국} 지표"
 
-#, fuzzy
 msgctxt "fc37cc4c-0c5f-483f-b73c-86c668de65b1"
 msgid ""
 "The {mf|barony|barony|kingdom|kingdom} has ten basic stats, each supervised "
@@ -23216,12 +23177,10 @@ msgstr ""
 "같습니다. 주민-섭정, 민심-평의원, 군사-장군, 경제-재무관, 신성-대사제, 외교-수석 외교관, 치안-감시관, 마법-마법대신, 문화-"
 "학예사, 첩보-장관."
 
-#, fuzzy
 msgctxt "3729b746-46d7-4d82-be58-4536df1a177e"
 msgid "Stat Development"
 msgstr "지표 개발"
 
-#, fuzzy
 msgctxt "5731b7b9-2e24-4c61-b61b-019f42d250cc"
 msgid ""
 "Stats increase if your governance is successful and decrease if events don't "
@@ -23238,12 +23197,10 @@ msgstr ""
 "각 지표에는 특정 이정표 또는 등급이 있습니다. 지표 20 점마다 등급이 올라갑니다. 1 등급을 달성하면 해당 지표를 담당하는 보좌관을 "
 "임명할 수 있게 됩니다. 보좌관이 있어야만 지표를 더 개발하고 등급을 올릴 수 있습니다."
 
-#, fuzzy
 msgctxt "62aefe12-838c-4928-bc2c-c150cf0e6ba0"
 msgid "Advisors"
 msgstr "보좌관"
 
-#, fuzzy
 msgctxt "d4701e44-b646-4ce8-8aeb-598f2b3ced94"
 msgid ""
 "Governing your {mf|barony|barony|kingdom|kingdom} will require one advisor "
@@ -23266,12 +23223,10 @@ msgstr ""
 "통치철학이 비슷한 인물을 선택하는 것이 좋습니다.\n"
 "화면 오른쪽에 있는 보좌관 탭을 열고 빈 칸을 클릭 한 후 인물을 선택하여 보좌관으로 임명하십시오."
 
-#, fuzzy
 msgctxt "94cb5e5d-6bfa-41cd-a433-434fb870ab4b"
 msgid "More about Advisors"
 msgstr "보좌관에 대한 더 많은 사항"
 
-#, fuzzy
 msgctxt "1e54d0bb-5045-4a0e-9109-a2c7943fee37"
 msgid ""
 "Every {mf|barony|barony|kingdom|kingdom} stat gains a bonus from a specific "
@@ -23285,34 +23240,28 @@ msgstr ""
 "오른쪽 상단 모서리에 표시됩니다.\n"
 "영지에서 발생하는 문제, 기회 및 갑작스런 사건은 보좌관이 있어야만 해결할 수 있습니다. 보좌관 자리를 비워두지 마십시오!"
 
-#, fuzzy
 msgctxt "1ce70cce-cd86-403a-9bb1-63272cfc3bba"
 msgid "Settlement Map"
 msgstr "정착지 지도"
 
-#, fuzzy
 msgctxt "30e70621-322d-4669-88e7-879f078882fa"
 msgid "Click your capital icon to open the settlement map."
 msgstr "정착지 지도를 열려면 수도 아이콘을 클릭하십시오."
 
-#, fuzzy
 msgctxt "d029ad6a-5067-41b4-bb74-fbfa9be24eb1"
 msgid "Assigning Advisors"
 msgstr "보좌관 임명"
 
-#, fuzzy
 msgctxt "69f03edd-aa74-401a-b7b8-75af8e6e6a20"
 msgid ""
 "Your barony requires filled advisor positions to function. Use the Advisors "
 "tab to assign advisors to their positions."
 msgstr "남작령의 직무를 수행할 보좌관 자리가 다 채워지지 않았습니다. 보좌관 탭을 누르고 보좌관을 임명하십시오."
 
-#, fuzzy
 msgctxt "3fd583b2-079d-4edd-9989-1e24d1fc8c5c"
 msgid "Constructing Buildings"
 msgstr "건물 건설"
 
-#, fuzzy
 msgctxt "9d22d6d6-9bd1-455a-94dd-2ccd0d7512c3"
 msgid ""
 "You may construct buildings to increase your "
@@ -23325,12 +23274,10 @@ msgstr ""
 "여러 건물을 동시에 지을 수 있습니다.\n"
 "화면 오른쪽에 있는 목록에서 필요한 건물을 선택해서 정착지의 빈 칸에 클릭하면 건설이 시작됩니다."
 
-#, fuzzy
 msgctxt "bc47c9bf-b206-4921-8aaa-b091dea4b3c0"
 msgid "Buildings: Special Bonuses"
 msgstr "건물: 특별 보너스"
 
-#, fuzzy
 msgctxt "2c43aff9-35a2-48ea-81c6-43ac5a4f5622"
 msgid ""
 "Buildings may provide special bonuses if you meet certain conditions (most "
@@ -23345,12 +23292,10 @@ msgstr ""
 "일부 건물은 지정된 장소 또는 지역에만 배치 할 수 있습니다. 예를 들어, 잔교는 물 위에 지어야하며, 풍차는 주변에 다른 건물이 "
 "없어야합니다."
 
-#, fuzzy
 msgctxt "2cb4f69f-3599-4b25-9108-13038e2ceadc"
 msgid "Buildings: Moving and Demolition"
 msgstr "건물: 이동 및 철거"
 
-#, fuzzy
 msgctxt "86942259-6d84-418a-9a84-ab56b804b966"
 msgid ""
 "Demolish a building to get rid of it and recover half of the resources you "
@@ -23364,19 +23309,10 @@ msgstr ""
 "건물을 옮기고 싶다면 건물을 철거하고 다시 지어야 합니다. 이러면 건설비가 절반이 되기 때문에 BP를 더 쓰지는 않지만, 새 위치에 "
 "건물이 지어질 때까지 기다려야 합니다."
 
-#, fuzzy
 msgctxt "b57de353-13f8-451c-bd86-98b37eb1e771"
 msgid "Claiming New Regions"
-msgstr "새 지역에 대한 점령"
+msgstr "새 지역 점령"
 
-#, fuzzy
-#| msgid ""
-#| "You may claim new regions to expand your territory. Open the Regions tab on "
-#| "the right side of the screen and select the relevant project at the bottom "
-#| "of the screen.\n"
-#| "Claiming a region will allow you to significantly increase your "
-#| "{mf|barony|barony|kingdom|kingdom}'s stats and found settlements in the new "
-#| "lands."
 msgctxt "3bfc2a14-7a4e-4284-afc0-c713fc713654"
 msgid ""
 "You may claim new regions to expand your territory. Open the Regions tab on "
@@ -23386,27 +23322,13 @@ msgid ""
 "{mf|barony|barony|kingdom|kingdom}'s stats and found settlements in the new "
 "lands."
 msgstr ""
-"새로운 지역에 권리를 주장하여 영토를 확장할 수 있습니다. 화면 오른쪽의 지역 탭을 열고 화면 하단의 관련 계획을 선택하십시오.\n"
+"새로운 지역에 권리를 주장하여 영토를 확장할 수 있습니다. 화면 오른쪽의 지역 탭을 열고 화면 하단의 관련 칙령을 선택하십시오.\n"
 "새로운 지역을 손에 넣으면 {mf|남작령|여남작령|왕국|왕국}의 지표가 눈에 띄게 증가하고, 이 지역에 새 정착지를 지을 수 있습니다."
 
-#, fuzzy
 msgctxt "63b2c598-4883-432b-8709-9337a2d974f8"
 msgid "How to Claim a Region"
-msgstr "지역에 대한 권리를 주장하는 법"
+msgstr "지역을 점령하는 방법"
 
-#, fuzzy
-#| msgid ""
-#| "Here is what you must do to claim a new region:\n"
-#| "-Meet special regional conditions. That is, complete a quest or reach a "
-#| "certain rank in one of the stats.\n"
-#| "-Collect sufficient BP for the claim.\n"
-#| "-Find an unoccupied advisor who can take charge of the claim.\n"
-#| "As soon as you start the kingdom project to claim a region, time will "
-#| "automatically speed up for the next 14 days, the time it takes for you and "
-#| "your advisor to claim the region.\n"
-#| "After the new territory is claimed and annexed into your domain, the "
-#| "boundaries of the state will change, and you will receive all the bonuses "
-#| "granted by the claimed region."
 msgctxt "733c4aa6-da42-4b81-a426-105ac1651dd1"
 msgid ""
 "Here is what you must do to claim a new region:\n"
@@ -23425,15 +23347,13 @@ msgstr ""
 "-특별한 지역 조건을 충족해야 합니다. 즉, 퀘스트를 완료하거나 지표가 일정한 등급에 도달해야합니다.\n"
 "-점령에 충분한 BP가 있어야 합니다.\n"
 "-점령을 담당할 보좌관 자리가 비어있으면 안됩니다.\n"
-"점령은 왕국 계획이며, 계획을 실행하면 당신과 보좌관은 계획에 소요되는 14일의 시간을 건너뛰게 됩니다.\n"
+"칙령을 승인하는 즉시, 당신과 보좌관은 계획에 소요되는 14일의 시간을 건너뛰게 됩니다.\n"
 "새 영토에 대한 권리를 얻어 영토에 병합시키면, 국경이 변하고 새로 얻은 지역이 지닌 모든 보너스를 받게됩니다."
 
-#, fuzzy
 msgctxt "4b5750ad-ade8-4c96-803d-a4f00ebf8262"
 msgid "Founding New Settlements"
 msgstr "새 정착지 건설"
 
-#, fuzzy
 msgctxt "2602f335-cdd5-4cf4-938b-fbeda89705d0"
 msgid ""
 "You may base new settlements in your regions on discovered crossroads. Find "
@@ -23444,12 +23364,10 @@ msgstr ""
 "지역을 탐험할 때 들렀던 교차로에 새로운 정착지를 세울 수 있습니다. 정착지를 세울 위치를 클릭하십시오.\n"
 "50 BP를 지불하면 새 정착지가 지어지고, 정착지의 이름을 지을 수 있습니다. 기본 이름을 사용하거나 원하는 대로 이름을 붙이십시오."
 
-#, fuzzy
 msgctxt "01af6cf6-4612-414f-b306-4ab3db0d8df7"
 msgid "Events"
 msgstr "사건"
 
-#, fuzzy
 msgctxt "c7159a0a-315c-4c4a-9211-a47721e91119"
 msgid ""
 "Problems to solve and opportunities to seize occur from time to time in your "
@@ -23467,12 +23385,10 @@ msgstr ""
 "있는 틀을 누르십시오. 보좌관은 자신의 이념과 성격에 따라 행동 할 것입니다. 사건을 처리하는 데는 시간이 걸리므로 다른 임무를 맡고있는 "
 "보좌관은 배정할 수 없습니다."
 
-#, fuzzy
 msgctxt "77635681-83f2-4969-94fa-4c0231230194"
 msgid "Events: Difficulty and Rolls"
 msgstr "사건: 난이도와 굴림"
 
-#, fuzzy
 msgctxt "e5596d67-6361-468c-ad79-2f61aa891439"
 msgid ""
 "Every event has a difficulty level. To resolve the event successfully, the "
@@ -23491,12 +23407,10 @@ msgstr ""
 "예: 주민을 담당하는 섭정 발레리는 매력이 높아 +2의 보너스를 받습니다. 주민 지표 등급이 1이므로 추가 +2의 보너스를 받습니다. "
 "따라서 발레리가 사건을 담당하면 주사위 굴림에 +4 점의 보너스가 추가됩니다."
 
-#, fuzzy
 msgctxt "e0b7bdd4-bfd8-4462-84ef-33eddb70220c"
 msgid "Event Outcomes and Consequences"
 msgstr "사건 결과 및 결과"
 
-#, fuzzy
 msgctxt "ad1f189a-4234-42aa-9bfb-40e6909b8680"
 msgid ""
 "Every event can resolve in one of the four ways: Disaster (the dice roll is "
@@ -23511,12 +23425,10 @@ msgstr ""
 "만큼 낮으면 실패, 주사위 굴림이 사건 난이도 보다 6 이하로 높으면 성공, 주사위 굴림이 난이도보다 7 상 높으면 대성공. 결과에 따라 "
 "{mf|남작령|여남작령|왕국|왕국} 지표에 미치는 영향이 달라집니다."
 
-#, fuzzy
 msgctxt "20fdff3c-35f5-4091-8de2-830ee372a8d0"
 msgid "Problems and Opportunities"
 msgstr "문제와 기회"
 
-#, fuzzy
 msgctxt "953fe9c7-e9b4-4467-8edd-6e8c68355ca2"
 msgid ""
 "There are two types of events: problems and opportunities. If a problem "
@@ -23531,33 +23443,10 @@ msgstr ""
 "사건이 성공하면 지표가 증가하며, 실패하면 보통 영향을 미치지 않습니다. \n"
 "각 성공 또는 승리는 배정된 보좌관이 담당하는 지표를 3만큼 증가시킵니다."
 
-#, fuzzy
 msgctxt "7bdd8624-4d6a-4434-ba85-ca3f097a1e2d"
 msgid "Build Points and Income"
 msgstr "건설 점수와 수입"
 
-#, fuzzy
-#| msgid ""
-#| "Build Points (BP) are the {mf|barony|barony|kingdom|kingdom}'s main "
-#| "resource. They are required for settlement upgrades, construction, project "
-#| "management, and so on.\n"
-#| "The {mf|barony|barony|kingdom|kingdom} treasury's weekly income is 30 BP, "
-#| "sent by Jamandi Aldori from Brevoy. Apart from that, your territories have "
-#| "their own individual income, which consists of their basic income plus other "
-#| "BP sources.\n"
-#| "Basic income depends on your {mf|barony|barony|kingdom|kingdom}'s stats. "
-#| "Each rank adds 1 BP per point to the weekly income, but the total a rank "
-#| "contributes to basic income cannot exceed the profitability of your Economy."
-#| "\n"
-#| "Example: The barony's Economy rank equals 3, and it adds 3 BP to the weekly "
-#| "income. The Population rank equals 5, but it cannot add more than 3 BP to "
-#| "the weekly income due to the {mf|barony|barony|kingdom|kingdom}'s Economy.\n"
-#| "All other BP sources, such as trade agreements, are added to the basic "
-#| "income as is.\n"
-#| "Half of the {mf|barony|barony|kingdom|kingdom}'s income, except the initial "
-#| "30 BP, is sent to Brevoy. You will be able to claim independence from Brevoy "
-#| "to retain the full BP income but loose the initial 30 BP income later during "
-#| "the game."
 msgctxt "e75c253e-7d45-4e2a-a263-b8721209e3ab"
 msgid ""
 "Build Points (BP) are the {mf|barony|barony|kingdom|kingdom}'s main "
@@ -23581,7 +23470,7 @@ msgid ""
 "to retain the full BP income but loose the initial 30 BP income later during "
 "the game."
 msgstr ""
-"건설 점수(BP)는 {mf|남작령|여남작령|왕국|왕국}의 주요 자원입니다. 정착지 승급, 건설, 계획 관리 등에 필요합니다.\n"
+"건설 점수(BP)는 {mf|남작령|여남작령|왕국|왕국}의 주요 자원입니다. 정착지 승급, 건설, 칙령 관리 등에 필요합니다.\n"
 "자만디 알도리가 브레보이에서 {mf|남작령|여남작령|왕국|왕국}으로 매 주 30 BP를 지원합니다. 그 외에도, 왕국에는 기본 세입과 "
 "기타 다른 BP 소득원 등의 독립 재정이 있습니다.\n"
 "기본 세입은 {mf|남작령|여남작령|왕국|왕국} 지표를 따릅니다. 지표의 매 등급 마다 매주 수1 BP를 더해주지만, 등급이 기본 수입에 "
@@ -23592,12 +23481,10 @@ msgstr ""
 "{mf|남작령|여남작령|왕국|왕국} 브레보이 지원금 30 BP를 제외한 모든 수입의 절반은 브레보이로 보내야 합니다. 이후 게임을 "
 "진행하다가 브레보이로부터 독립을 선언하면 모든 수입을 챙길 수 있지만, 30 BP 지원금은 받지 못하게 됩니다."
 
-#, fuzzy
 msgctxt "865942bf-5d15-4cbd-a60b-cce178f9d0be"
 msgid "\"An Ancient Curse\" Quest"
 msgstr "\"고대의 저주\" 퀘스트"
 
-#, fuzzy
 msgctxt "20b34933-2cfa-444d-9a25-6d41331129e5"
 msgid ""
 "The \"ancient curse\" you were warned about now plagues your lands! It will "
@@ -23618,6 +23505,9 @@ msgid ""
 "{g|Encyclopedia:Attack}attackers{/g}' blows. You can manage your party "
 "members' positions with the Formation feature."
 msgstr ""
+"높은 {g|Encyclopedia:Armor_Class}AC{/g}를 가진 캐릭터를 앞으로 보내 적들의 "
+"{g|Encyclopedia:Attack}공격{/g}을 받아내는 것이 좋습니다. 당신은 진형 기능을 사용해 일행의 배치를 변경할 수 "
+"있습니다."
 
 msgctxt "6bee1dd1-0a76-41a1-b45d-37b44d3a98b2"
 msgid ""
@@ -23625,6 +23515,8 @@ msgid ""
 "party's formation manually. This feature will provide you with a solid "
 "formation and put your tanks in the front."
 msgstr ""
+"당신은 일행의 진형을 조정하는 대신, 자동 진형 설정 기능을 항상 이용할 수 있습니다. 이 기능은 방어도가 높은 캐릭터를 전열에 배치하는 "
+"견고한 진형을 제공할 것입니다."
 
 msgctxt "15d7e2d5-7c29-4677-b7b0-dcc1c4747001"
 msgid "Formation"
@@ -23634,39 +23526,44 @@ msgctxt "5456843b-f507-4b55-86e3-a103513d6a58"
 msgid ""
 "In your current formation, the front row is not made up of your most "
 "protected characters."
-msgstr ""
+msgstr "가장 단단한 캐릭터가 현재 진형의 전열에 위치하지 않았습니다."
 
 msgctxt "e0d6c87b-8ee0-46d1-9065-3dfd7e9e26ca"
 msgid "Identifying Items"
 msgstr "물품 감정"
 
+#, fuzzy
 msgctxt "0bca5feb-ffeb-482c-8ac0-1ec0d4debeaa"
 msgid "\"Attention!\""
-msgstr ""
+msgstr "\"주목!\""
 
+#, fuzzy
 msgctxt "a47afd55-1b41-40ae-9aee-8d1608395b67"
 msgid ""
 "\"The forge has been destroyed by fire. Protect the remaining buildings from "
 "the same fate!\""
-msgstr ""
+msgstr "\"불길로 인해 주조소가 파괴되었다. 살아남은 건물들이 똑같은 잿더미가 되지 않도록 보호하라!\""
 
+#, fuzzy
 msgctxt "f53d7d02-c767-4a80-be54-c9aac7f47d88"
 msgid ""
 "\"The stable has been destroyed by fire. Protect the remaining buildings "
 "from the same fate!\""
-msgstr ""
+msgstr "\"불길로 인해 마굿간이 파괴되었다. 살아남은 건물들이 똑같은 잿더미가 되지 않도록 보호하라!\""
 
+#, fuzzy
 msgctxt "1788192a-b357-4428-9ce2-13466967934c"
 msgid ""
 "\"The storehouse has been destroyed by fire. Protect the remaining buildings "
 "from the same fate!\""
-msgstr ""
+msgstr "\"불길로 인해 창고가 파괴되었다. 살아남은 건물들이 똑같은 잿더미가 되지 않도록 보호하라!\""
 
+#, fuzzy
 msgctxt "6bf1c84d-4855-4b65-9c6b-2bd241e27f88"
 msgid ""
 "\"The tavern is on fire. Protect the remaining buildings from the same fate!"
 "\""
-msgstr ""
+msgstr "\"선술집에 불이 붙었다. 살아남은 건물들이 똑같은 잿더미가 되지 않도록 보호하라!\""
 
 msgctxt "3866fc2f-3673-43ff-9350-0fff5904726d"
 msgid "Scroll Creation"
@@ -23686,23 +23583,15 @@ msgstr ""
 "나이에 따라 다음과 같은 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 중년: -1, 장년: -3, 노년: -6. "
 "이 이상 나이가 들면 사망합니다."
 
-#, fuzzy
 msgctxt "4937d5a1-4c36-4335-9344-8a05976fcb6f"
 msgid "Vampiric Touch"
 msgstr "흡혈의 손길"
 
+#, fuzzy
 msgctxt "e49a5e7f-85b5-4b4d-9be6-6783efab1f1e"
 msgid "Mother's Rage"
-msgstr ""
+msgstr "어머니의 분노"
 
-#, fuzzy
-#| msgid ""
-#| "Once per hour, a boggard can, as a standard action, emit a loud and "
-#| "horrifying croak. Any nonboggard creature within 30 feet of the boggard must "
-#| "make a DC 13 Will save or become shaken for 1d4 rounds. Creatures that "
-#| "succeed at this save cannot be affected again by the same boggard's croak "
-#| "for 24 hours. Creatures that are already shaken become frightened for 1d4 "
-#| "rounds instead. The save DC is Charisma-based and includes a +2 racial bonus."
 msgctxt "f10cddac-169c-4e2f-a090-cba4f57e9ea4"
 msgid ""
 "Once per hour, a boggard can, as a {g|Encyclopedia:Standard_Actions}standard "
@@ -23716,12 +23605,14 @@ msgid ""
 "{g|Encyclopedia:Charisma}Charisma{/g}-based and includes a +2 racial "
 "{g|Encyclopedia:Bonus}bonus{/g}."
 msgstr ""
-"보가드는 한 시간에 한 번 일반 행동으로 시끄럽고 소름끼치는 울음소리를 내지를 수 있습니다. 보가드로부터 30 피트 이내에 있는 모든 "
-"보가드가 아닌 크리처는 DC 13 의지 내성에 실패하면 1d4 라운드 동안 동요합니다. 내성에 성공한 크리처는 24시간 동안 같은 "
-"보가드의 울음소리에 영향 받지 않습니다. 이미 동요 상태인 크리처는 1d4 라운드를 겁에 질리게 됩니다. 내성 DC는 매력 기반이며 +2 "
-"종족 보너스가 더해집니다."
+"보가드는 한 시간에 한 번 {g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 시끄럽고 소름끼치는 울음소리를 "
+"내지를 수 있습니다. 보가드로부터 30 피트 이내에 있는 모든 보가드가 아닌 크리처는 {g|Encyclopedia:DC}DC{/g} 13 "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}에 실패하면 {g|Encyclopedia:Dice}1d4{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 동요합니다. 내성에 성공한 크리처는 24시간 동안 같은 보가드의 "
+"울음소리에 영향 받지 않습니다. 이미 동요 상태인 크리처는 1d4 라운드를 겁에 질리게 됩니다. 내성 DC는 "
+"{g|Encyclopedia:Charisma}매력{/g} 기반이며 +2 종족{g|Encyclopedia:Bonus}보너스{/g}가 "
+"더해집니다."
 
-#, fuzzy
 msgctxt "27d1600c-9ccd-4d2e-b68e-8f4044d04f2e"
 msgid "Terrifying Croak"
 msgstr "끔찍한 울음소리"
@@ -23736,10 +23627,15 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} take 2d6 points of acid "
 "{g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
+"점액 데모단드는 끊임없이 떨어지는 산성 외피로 둘러싸여, {g|Encyclopedia:NaturalAttack}자연 공격{/g} 성공시 "
+"{g|Encyclopedia:Dice}2d6{/g}점의 {g|Encyclopedia:Energy_Damage}산성 피해{/g}를 "
+"입힙니다. 추가로, 적이{g|Encyclopedia:UnarmedAttack}비무장{/g} 타격이나 자연 "
+"{g|Encyclopedia:Attack}공격{/g}으로 점액 데모단드를 타격하면 2d6점의 "
+"산성{g|Encyclopedia:Damage}피해{/g}를 받습니다."
 
 msgctxt "e8a4e396-80db-4742-ae13-d730dcb2f5d8"
 msgid "Acid"
-msgstr ""
+msgstr "산성"
 
 msgctxt "674ea219-a9f4-43a8-a712-4e188e5ddc1d"
 msgid ""
@@ -23754,6 +23650,12 @@ msgid ""
 "unaffected, and creatures resistant to poison receive their normal "
 "{g|Encyclopedia:Bonus}bonus{/g} on their saving throws."
 msgstr ""
+"점액 데모단드는 거의 모든 크리처들에게 해로운 유성 화학 물질을 분비합니다. 30피트 내 악취 "
+"{g|Encyclopedia:Special_Abilities}특수 능력{/g}이 없으며 살아있는 모든 크리처들은 "
+"{g|Encyclopedia:DC}DC{/g} 26의 {g|Encyclopedia:Saving_Throw}인내 내성{/g}을 시도하며, "
+"실패시 {g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Combat_Round}라운드{/g} 동안고통 "
+"상태가 됩니다. 내성을 성공한 크리처는 동일한 점액 데모단드의 악취 능력에 24시간 동안 영향을 받지 않습니다. 독에 면역인 크리처는 "
+"영향받지.않으며, 독 저항이 있는 크리처는 내성 굴림에 자신의 보통 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 msgctxt "46b05339-731e-47ac-9a5b-726d580382cb"
 msgid ""
@@ -23763,6 +23665,10 @@ msgid ""
 "The {g|Encyclopedia:Saving_Throw}save{/g} DC is "
 "{g|Encyclopedia:Constitution}Constitution{/g}-based."
 msgstr ""
+"발러는 사망시 100피트 내 모든 것에게 100점의 피해(절반은 화염, 절반은 부정)를 입히는 눈부신 화염 섬광과 함께 폭발합니다. 이 "
+"피해는 {g|Encyclopedia:DC}DC{/g} 33의 반사 내성 성공 시 절반으로 줄어듭니다. 이 "
+"{g|Encyclopedia:Saving_Throw}내성{/g} DC는 {g|Encyclopedia:Constitution}건강{/g} "
+"기반입니다."
 
 msgctxt "bbbd49ff-49fe-4436-914c-a7af0f4be565"
 msgid ""
@@ -23774,10 +23680,17 @@ msgid ""
 "points of fire {g|Encyclopedia:Damage}damage{/g} each "
 "{g|Encyclopedia:Combat_Round}round{/g} the grapple persists."
 msgstr ""
+"발러의 육체는 춤추는 불길로 뒤덮여있습니다. {g|Encyclopedia:NaturalAttack}자연 무기{/g}나 "
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 타격으로 발러를 공격하는 모든 크리처는 "
+"{g|Encyclopedia:Dice}1d6{/g}점의 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 "
+"받습니다. 발러를 붙잡거나 발러에게 붙들린 크리처는 붙들림이 유지되는 동안 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}마다 6d6점의 화염 {g|Encyclopedia:Damage}피해{/g}"
+"를 받습니다."
 
+#, fuzzy
 msgctxt "d6cf7e37-856c-4f5f-97df-15aa2b155d41"
 msgid "Flaming Body"
-msgstr ""
+msgstr "화염 육체"
 
 msgctxt "0a577263-95d4-472a-95fe-66dd670e5abf"
 msgid ""
@@ -23787,8 +23700,8 @@ msgid ""
 "weapon, but after this the weapon reverts to its standard magical qualities, "
 "if any."
 msgstr ""
-"발러가 사용하는 모든 베기 무기 (일반적인 장검과 채찍 포함) 는 보팔 무기 성질을 얻습니다. 무기는 발러가 놓은 뒤에도 한 시간 동안 "
-"이 성질을 유지하지만, 그 뒤에는 원래 상태로 돌아갑니다."
+"발러가 사용하는 표준 무장인 장검과 채찍을 포함해, 모든 베기 무기는 보팔 무기 성질을 얻습니다. 무기는 발러가 손에서 놓친 뒤에도 한 "
+"시간 동안 이 성질을 유지하지만, 그 뒤에는 원래 상태로 돌아갑니다."
 
 msgctxt "2135ca80-9618-461f-b2f4-3238129102a8"
 msgid "Vorpal Strike"
@@ -23811,6 +23724,12 @@ msgid ""
 "creature's {g|Encyclopedia:Strength}Strength{/g} "
 "{g|Encyclopedia:Bonus}bonus{/g}."
 msgstr ""
+"찢어발기기 특수 {g|Encyclopedia:Attack}공격{/g}을 지닌 크리처가 한 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}에 두 번 이상 {g|Encyclopedia:NaturalAttack}"
+"자연 공격{/g}을 명중시키면, 적의 몸을 붙들고 살을 찢어 심대한 {g|Encyclopedia:Damage}피해{/g}를 가할 수 "
+"있습니다. 이 공격은 추가 피해를 입히지만, 한 라운드에 한 번만 발동합니다. 이 공격은 반드시 명중하며, 추가 피해는 크리처의 설명란에 "
+"표시됩니다. 추가 피해는 대개 크리처의 공격 1회가 가하는 피해에 {g|Encyclopedia:Strength}힘{/g} "
+"{g|Encyclopedia:Bonus}보너스{/g}의 1.5배를 더한 값과 동일합니다."
 
 msgctxt "e674a42b-8fc4-4919-a31a-40c830b5e792"
 msgid ""
