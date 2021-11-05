@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-02 02:24+0000\n"
-"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
+"PO-Revision-Date: 2021-11-05 04:37+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1413,7 +1413,7 @@ msgid ""
 "available to rare creatures. A creature that possesses such an attack "
 "attempts to use it against all its enemies in a 30 feet radius."
 msgstr ""
-"응시 {g|Encyclopedia:Attack}공격{/g}은 특별한 유형의 공격으로, 소수의 크리쳐들만이 사용 가능합니다. 이러한 능력을 "
+"응시 {g|Encyclopedia:Attack}공격{/g}은 특별한 유형의 공격으로, 소수의 크리처들만이 사용 가능합니다. 이러한 능력을 "
 "가진 크리처는 반경 30 피트 내의 모든 적에게 능력을 사용하려 시도합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3279,7 +3279,7 @@ msgstr ""
 #. Path = CrusadeTutorial_13_Regions::m_TitleText
 msgctxt "b2d8a946-59b0-4411-a85e-bac01843d086"
 msgid "Regions"
-msgstr ""
+msgstr "지역"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = CrusadeTutorial_13_Regions::m_DescriptionText
@@ -3353,7 +3353,7 @@ msgstr ""
 #. Path = NewTutorial_0_DangerousMonster::m_TitleText
 msgctxt "7b2c0e87-b9b0-4525-9646-07f084c6b146"
 msgid "Dangerous Enemies"
-msgstr ""
+msgstr "위험한 적"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_0_DangerousMonster::m_DescriptionText
@@ -3364,12 +3364,14 @@ msgid ""
 "opponent awaits you on the other side of this door. Carefully weigh all the "
 "risks involved before entering!"
 msgstr ""
+"이 게임에는 반드시 처치할 필요는 없는, 가장 경험 많은 모험자들만이 다룰 수 있는 특히 위험한 적수와 적 무리들이 있습니다. 그러한 적 "
+"중 하나가 이 문의 반대편에서 당신을 기다리고 있습니다. 들어가기 전에 신중하게 위험을 따져보세요!"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_0_LostInLabyrinth::m_TitleText
 msgctxt "f3050d25-c407-4704-8959-985ecf94b647"
 msgid "Hint"
-msgstr ""
+msgstr "단서"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_0_LostInLabyrinth::m_DescriptionText
@@ -3379,6 +3381,7 @@ msgid ""
 "searching the pockets of the cultists called the Hand of Hosilla. There is a "
 "chance you might find hints there."
 msgstr ""
+"방패 미로를 빠져나갈 길을 찾지 못하고 막히셨다면, 호실라의 손이라 불리는 광신도의 주머니를 뒤져보세요. 단서를 찾을 기회가 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_10_AbilityUse::m_DescriptionText
@@ -3392,6 +3395,13 @@ msgid ""
 "{g|Encyclopedia:Healing}heal{/g} her.\n"
 "Healing restores lost {g|Encyclopedia:HP}hit points{/g}."
 msgstr ""
+"{t|SourceUnit} 동료는 {t|SolutionAbility} 능력을 지니고 있습니다. 이 능력을 사용하려면\n"
+"1. {t|SourceUnit} 동료의 초상화를 누릅니다.\n"
+"2. {g|Encyclopedia:CA_Types}행동{/g} 단축바의 {t|SolutionAbility} "
+"{g|Encyclopedia:Spell}주문{/g} 아이콘을 누릅니다.\n"
+"3. {t|SourceUnit} 동료를 {g|Encyclopedia:Healing}치유{/g}하기 위해 동료의 초상화를 <b>[LMB]</"
+"b> 클릭합니다.\n"
+"치유는 잃어버린 {g|Encyclopedia:HP}생명점{/g}을 회복합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_11_Battle_Gamepad::m_DescriptionText

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-04 04:24+0000\n"
+"PO-Revision-Date: 2021-11-05 04:37+0000\n"
 "Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -14055,9 +14055,9 @@ msgid ""
 "victory. The cost of recruiting mercenary units increases by 100%, "
 "recruitment growth for trainable units reduces by 50%."
 msgstr ""
-"부대는 승리 시, 살해당한 적/275 에 해당하는 유닛 가치의 {g|Skeletons}[Skeletons]{/g} and "
-"{g|Zombies}[Zombies]{/g} 보충을 받습니다. 용병 유닛의 모집 비용이 100% 증가하고, 훈련 유닛의 모집 성장이 "
-"50% 감소합니다."
+"부대는 승리 시, 살해당한 적/275 에 해당하는 유닛 가치의 {g|Skeletons}[스켈레톤]{/g} "
+"과{g|Zombies}[좀비]{/g} 보충을 받습니다. 용병 유닛의 모집 비용이 100% 증가하고, 훈련 유닛의 모집 성장이 50% "
+"감소합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = FlagLocust::OnApply/Actions/1/Text
@@ -18261,8 +18261,8 @@ msgid ""
 "{g|Skeletons}[Skeletons]{/g} and {g|Zombies}[Zombies]{/g} gain the "
 "{g|ElyankasRites}[Elyanka's Rites]{/g} feat."
 msgstr ""
-"{g|Skeletons}[Skeletons]{/g} 과 {g|Zombies}[Zombies]{/g} 가 {g|ElyankasRites}["
-"Elyanka's Rites]{/g} 특기를 얻습니다."
+"{g|Skeletons}[스켈레톤]{/g} 과 {g|Zombies}[좀비]{/g} 가 {g|ElyankasRites}[Elyanka's "
+"Rites]{/g} 특기를 얻습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = ElyankaUndeadUpgrade_level2::LocalizedName
@@ -18401,8 +18401,8 @@ msgid ""
 "{g|SkeletonSharpshooters}[Skeleton Sharpshooters]{/g} are recruited at the "
 "Commander's headquarters."
 msgstr ""
-"사령관의 지휘부에서 6 {g|SkeletonChampions}[Skeleton Champions]{/g} 과 "
-"{g|SkeletonSharpshooters}[Skeleton Sharpshooters]{/g} 가 모집되었습니다."
+"사령관의 지휘부에서 6 {g|SkeletonChampions}[스켈레톤 챔피언]{/g} 과 {g|SkeletonSharpshooters}["
+"스켈레톤 명사수]{/g} 가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event07DeathRedeemsAll::LocalizedName
@@ -19575,25 +19575,27 @@ msgid ""
 "to return to their former lives. They now see their future in the ranks of "
 "the Hellknights."
 msgstr ""
+"그들의 잔혹함으로 인해, 아이오메데의 은총을 잃어버린 팔라딘들은 과거의 삶으로 돌아가고싶어하지 않습니다. 그들은 헬나이트들의 전열에서 "
+"자신들의 미래를 보고있습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45FateOfTheFallenPaladins::DefaultResolutionDescription
 msgctxt "9dd74db1-9612-420c-b87a-7f3c26c85caa"
 msgid "The former paladins have joined the Hellknights."
-msgstr ""
+msgstr "과거의 팔라딘들이 헬나이트 기사단에 입대했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45PaladinsRedemption::m_MechanicalDescription
 msgctxt "62e68e43-a8a1-4794-bc4f-239793b7b063"
 msgid ""
 "15 {g|Paladins}[Paladins]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 15 {g|Paladins}[팔라딘]{/g} 이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45PaladinsRedemption::LocalizedName
 msgctxt "68085e8d-aeac-4be1-8619-abf00ec29d8e"
 msgid "Paladins' Redemption"
-msgstr ""
+msgstr "팔라딘들의 구원"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45PaladinsRedemption::LocalizedDescription
@@ -19601,7 +19603,7 @@ msgctxt "f8801f08-971d-4075-8828-5934459e9c0b"
 msgid ""
 "A group of paladins that lost Iomedae's favor is going out on a penitential "
 "march. They require supplies and equipment."
-msgstr ""
+msgstr "아이오메데의 은총을 잃어버린 팔라딘 한 무리가 참회의 행진을 나가고 있습니다. 그들은 장비와 보급품을 필요로 합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event45PaladinsRedemption::DefaultResolutionDescription
@@ -19609,7 +19611,7 @@ msgctxt "7dd42d20-7c27-4707-b5a2-7a72b31e6566"
 msgid ""
 "The former paladins have atoned for their sins and regained Iomedae's "
 "blessing."
-msgstr ""
+msgstr "과거의 팔라딘들이 자신들의 죄에 대한 속죄를 끝맞쳤고, 아이오메데의 다시 축복을 받았습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event46RetrieverRepair::m_MechanicalDescription
@@ -19617,13 +19619,13 @@ msgctxt "4e1257f9-cee8-4204-86ad-11b6011e3a0d"
 msgid ""
 "9 {g|Retrievers}[Retrievers]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 9 {g|Retrievers}[Retrievers]{/g}가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event46RetrieverRepair::LocalizedName
 msgctxt "0040cb2a-6be7-45d2-8b9f-06a5d9b2abfa"
 msgid "Retriever Repair"
-msgstr ""
+msgstr "Retriever 수리"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event46RetrieverRepair::LocalizedDescription
@@ -19631,25 +19633,24 @@ msgctxt "16a0f810-866e-4811-a344-b729af174908"
 msgid ""
 "The talented clockmaker could reconstruct retrievers, wicked mechanical "
 "spiders of demonic making, out of scrap."
-msgstr ""
+msgstr "재능있는 시계장이는 데몬들이 만든 기괴한 기계 거미인 retrievers 를 고철더미에서 재구성 할 수 있었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event46RetrieverRepair::DefaultResolutionDescription
 msgctxt "3ebf28f6-821a-48ef-8c71-f2d071821fba"
 msgid "The broken retrievers have been reconstructed."
-msgstr ""
+msgstr "파괴된 retrievers 가 수리되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47CampaignAgainstTheDragon::m_MechanicalDescription
-#, fuzzy
 msgctxt "6fee1118-fa49-409e-ad98-be2407de33b3"
 msgid ""
 "Recruitment growth for trainable cavalry units reduces by 50% for 15 days, 1 "
 "{g|SilverDragons}[Silver Dragon]{/g} is recruited at the Commander's "
 "headquarters."
 msgstr ""
-"훈련 기병 유닛의 모집 성장이 15 일 동안 50% 감소합니다. {g|SilverDragons}[Silver Dragon]{/g} 한 "
-"마리가 사령관의 지휘부에서 모집됩니다."
+"훈련 기병 유닛의 모집 성장이 15 일 동안 50% 감소합니다. 1 {g|SilverDragons}[실버 드래곤]{/g} 이 사령관의 "
+"지휘부에서 모집됩니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47CampaignAgainstTheDragon::LocalizedDescription
@@ -19659,6 +19660,8 @@ msgid ""
 "alone, things will get ugly for her. If the Commander gives her an escort of "
 "experienced riders, she will stand a better chance."
 msgstr ""
+"젊은 방랑자가 위험한 드래곤을 쫓고있습니다. 하지만 그녀가 혼자 출발한다면, 상황이 굉장히 나쁘게 돌아갈 것입니다. 만약 사령관이 "
+"그녀에게 숙련된 기수들을 호위로 붙인다면, 그녀가 성공할 지도 모릅니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47CampaignAgainstTheDragon::DefaultResolutionDescription
@@ -19670,18 +19673,21 @@ msgid ""
 "dragon and offered to serve the Commander to make up for the lives of the "
 "brave fighters who perished."
 msgstr ""
+"사령관이 젊은 방랑자에게 보낸 병사들은 모두 드래곤과의 전투에서 쓰러졌습니다. 하지만 방랑자는 승리를 거뒀고, 그 짐승의 피로 목욕을 "
+"했습니다. 그녀는 웅장한 드래곤의 형상으로 드레젠에 도착했고, 쓰러진 용감한 병사들의 희생을 만회하기 위해 사령관을 따르고 싶다고 "
+"전해왔습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47DragonslayersAdventure::m_MechanicalDescription
 msgctxt "ef4a6737-4c6f-4ff9-a027-354c1f0f25d1"
 msgid "Adds 12,500 Finance Points."
-msgstr ""
+msgstr "재정 점수가 12,500 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47DragonslayersAdventure::LocalizedName
 msgctxt "562a632f-1074-486a-b949-09952a192b9f"
 msgid "Dragonslayer's Adventure"
-msgstr ""
+msgstr "드래곤 슬레이어의 모험"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47DragonslayersAdventure::LocalizedDescription
@@ -19689,7 +19695,7 @@ msgctxt "b1ae3dac-77b8-4776-a8c9-93b173db692a"
 msgid ""
 "The young wanderer is preparing to hunt after a dangerous dragon, but she "
 "needs supplies and gear."
-msgstr ""
+msgstr "젊은 방랑자는 위험한 드래곤을 사냥할 준비를 하고 있습니다만, 그녀는 장비와 보급품이 필요합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47DragonslayersAdventure::DefaultResolutionDescription
@@ -19699,6 +19705,8 @@ msgid ""
 "whether or not she acquired the power of a dragon afterward, but she did "
 "give the creature's hoard to the crusaders as promised."
 msgstr ""
+"젊은 방랑자는 드래곤을 살해하고, 그 피로 목욕을 했습니다. 이후에 드래곤의 힘을 얻었는지, 못 얻었는지는 알 수 없지만, 그녀는 약속한 "
+"대로 짐승의 보물들을 성전사들에게 내어주었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47RaisingADragonslayer::m_MechanicalDescription
@@ -19706,13 +19714,13 @@ msgctxt "535210cc-7473-42c9-a980-9c3864833621"
 msgid ""
 "Adds 7500 Finance Points and provides a {g|Artefact_Event_47}[gift for "
 "Greybor]{/g}."
-msgstr ""
+msgstr "재정 점수가 7,500 증가합니다. 또한 {g|Artefact_Event_47}[그레이보르를 위한 선물]{/g} 이 제공됩니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47RaisingADragonslayer::LocalizedName
 msgctxt "0c155bb5-9fc4-4759-ad27-0985c218e998"
 msgid "Raising a Dragonslayer"
-msgstr ""
+msgstr "드래곤 슬레이어 키우기"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47RaisingADragonslayer::LocalizedDescription
@@ -19720,7 +19728,7 @@ msgctxt "871e8a6c-fc87-4453-a261-a3305c40e3f6"
 msgid ""
 "Greybor's advice will prove helpful to the young wanderer who intends to go "
 "up against a terrifying dragon."
-msgstr ""
+msgstr "그레이보르의 조언은 무시무시한 드래곤과 맞서려는 젊은 방랑자에게 큰 도움이 되어줄 것 입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event47RaisingADragonslayer::DefaultResolutionDescription
@@ -19730,18 +19738,20 @@ msgid ""
 "token of her gratitude, she has given all of the dragon's treasure to the "
 "crusade and presented a personal gift to her mentor, Greybor."
 msgstr ""
+"드래곤의 피로 덮힌 검과 함께 젊은 방랑자가 돌아왔습니다. 감사의 표시로, 그녀는 드래곤이 모은 모든 보물들을 성전에 기부했고, 그녀의 "
+"멘토인 그레이보어에게 선물을 주었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event52SpiritHunt::m_MechanicalDescription
 msgctxt "4a93cc2b-3f4a-4045-a8ab-e71ce59ed2ec"
 msgid "Provides a {g|Artefact_Event_52}[trophy from the evil spirit]{/g}."
-msgstr ""
+msgstr "{g|Artefact_Event_52}[불길한 영혼으로부터의 전리품]{/g} 이 제공됩니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event52SpiritHunt::LocalizedName
 msgctxt "791bde5f-03c7-403e-9273-4d16a2d0eb21"
 msgid "Spirit Hunt"
-msgstr ""
+msgstr "영혼 사냥"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event52SpiritHunt::LocalizedDescription
@@ -19749,7 +19759,7 @@ msgctxt "514bc8b8-de01-48b5-b896-58a574f2a6e1"
 msgid ""
 "The suspicious spirit who calls himself the Helper could pose a threat to "
 "the crusaders. He needs to be tracked down and destroyed."
-msgstr ""
+msgstr "자신을 도우미라고 부르는 수상한 영혼은 성전사들에게 위협이 될 수 있습니다. 반드시 그를 쫓아, 파괴해야 합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event52SpiritHunt::DefaultResolutionDescription
@@ -19759,6 +19769,8 @@ msgid ""
 "servants searched his hideout and discovered an enchanted item that seemed "
 "to have belonged to some dark mage of the past."
 msgstr ""
+"수상한 영혼을 포획하고 파괴하고 나서, 사령관의 부하들은 그의 은신처를 수색했고, 한 때, 어둠의 마법사가 지녔던 것으로 보이는, 마법이 "
+"부여된 물품을 발견했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53DealWithTheThieflings::LocalizedDescription
@@ -19770,25 +19782,28 @@ msgid ""
 "benefit from having such a powerful ally. They will remember to thank the "
 "Commander for it."
 msgstr ""
+"사령관은 영향력있는 서큐버스를 아비스탄의 씨플링 비밀 은신처로 보냄으로써 호의를 쌓을 수 있습니다. 씨플링들은 그녀가 안전하고, 편안하게 "
+"지낼 수 있도록 편의를 보장할 것입니다. 그리고 씨플링들은 그녀처럼 강력한 아군에게서 이득을 볼 수 있는 방법을 찾을 수 있겠지요. "
+"그들은 사령관에게 감사를 표하는 걸 잊지 않을 겁니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53DealWithTheThieflings::DefaultResolutionDescription
 msgctxt "9f3fd37f-6355-4432-9658-ff90c7b4e60a"
 msgid "The powerful succubus was transported to the thieflings' hideout."
-msgstr ""
+msgstr "강력한 서큐버스가 씨플링 비밀 은신처로 이송되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53EnchantedDemons::m_MechanicalDescription
 msgctxt "26a41f68-03e4-45a3-9636-5bf95fc11a88"
 msgid ""
 "12 {g|Vrocks}[Vrocks]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 12 {g|Vrocks}[브록]{/g} 이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53EnchantedDemons::LocalizedName
 msgctxt "b2ad5a63-daba-448a-8dba-0d0573f53330"
 msgid "Enchanted Demons"
-msgstr ""
+msgstr "마법이 깃든 데몬들"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53EnchantedDemons::LocalizedDescription
@@ -19796,27 +19811,26 @@ msgctxt "4dafcd01-aad5-484d-bbe5-25a4c4c069c2"
 msgid ""
 "An influential succubus who has acknowledged the Commander's supremacy is "
 "willing to deliver a group of demonic minions she charmed to Drezen."
-msgstr ""
+msgstr "사령관의 패권을 인정한 영향력 있는 서큐버스가 자신이 매혹시킨 데몬 졸개들을 기꺼히 드레젠으로 보내고자 합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53EnchantedDemons::DefaultResolutionDescription
 msgctxt "54105a2f-5282-4152-9d8c-d052806daeee"
 msgid ""
 "The crusade's succubus ally has sent a group of demons she charmed to Drezen."
-msgstr ""
+msgstr "성전의 아군 서큐버스가 매혹시킨 데몬들을 드레젠으로 보내왔습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53RaidOnTheSuccubus::m_MechanicalDescription
 msgctxt "dfa322ab-4b1c-4c4a-a063-f0bc913c0903"
 msgid "Adds 100 Energy Points."
-msgstr ""
+msgstr "에너지 점수가 100 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53RaidOnTheSuccubus::LocalizedName
-#, fuzzy
 msgctxt "a9c93302-1c11-4560-ab4f-90f5c3d61976"
 msgid "Raid on the Succubus"
-msgstr "서큐버스를 습격하라"
+msgstr "서큐버스 습격"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53RaidOnTheSuccubus::LocalizedDescription
@@ -19824,7 +19838,7 @@ msgctxt "2425e306-29b4-4f78-b85d-4fbb9301e5ba"
 msgid ""
 "The crusaders have discovered the lair of a mighty succubus. It has to be "
 "destroyed."
-msgstr ""
+msgstr "성전사들은 강력한 서큐버스의 소굴을 발견했습니다. 이 장소는 파괴되어야 합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53RaidOnTheSuccubus::DefaultResolutionDescription
@@ -19832,20 +19846,19 @@ msgctxt "f5d4ce08-5105-4258-a42b-de5b6e53e4e3"
 msgid ""
 "The succubus's lair has been cleared out, and the crusaders have brought "
 "back plenty of magical trophies."
-msgstr ""
+msgstr "서큐버스의 소굴이 청소되었고, 성전사들은 많은 양의 마법 전리품을 들고 돌아왔습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53TradingTheCultistCaptives::m_MechanicalDescription
-#, fuzzy
 msgctxt "6a8de5f2-fba4-4116-9b34-b6fa9f51cc8a"
 msgid "Adds 5,000 Finance Points."
-msgstr "5,000 재정 점수를 추가한다."
+msgstr "재정 점수가 5,000 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53TradingTheCultistCaptives::LocalizedName
 msgctxt "a835ba3b-36c3-4277-91ec-a5d29ef1942a"
 msgid "Trading the Cultist Captives"
-msgstr ""
+msgstr "광신도 포로 교환"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53TradingTheCultistCaptives::LocalizedDescription
@@ -19853,13 +19866,13 @@ msgctxt "8dab6cfe-3386-40ae-b7d1-737b4dca511e"
 msgid ""
 "An influential succubus is offering a generous price for any prisoners taken "
 "by the crusaders."
-msgstr ""
+msgstr "강력한 서큐버스는 성전사들이 붙잡은 모든 죄수들을 후한 가격으로 구입하고자 합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event53TradingTheCultistCaptives::DefaultResolutionDescription
 msgctxt "f76acb90-5a8a-4136-9c22-56fbdf85e432"
 msgid "A delivery of captive cultists has been sold to the succubus."
-msgstr ""
+msgstr "광신도 포로들이 서큐버스에게 팔렸습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54MonsterSlayers::LocalizedDescription
@@ -19867,19 +19880,19 @@ msgctxt "335c9390-ed74-42b1-9d66-4effff95d6a8"
 msgid ""
 "By clashing with captured monsters, crusaders will learn how to oppose them "
 "and avoid their deadly attacks."
-msgstr ""
+msgstr "포획한 괴물들과 맞서 싸우며, 성전사들은 어떻게 괴물들과 대적할 지, 어떻게 그들의 치명타를 회피할 지에 대해 배울 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54MonsterSlayers::DefaultResolutionDescription
 msgctxt "9cdd1fbd-8772-42df-838a-50fd1ff68fb3"
 msgid "The crusaders have honed their skills by fighting captured monsters."
-msgstr ""
+msgstr "성전사들은 포획한 괴물들과 싸우며 그들의 기술을 갈고 닦았습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54NestCleanup::m_MechanicalDescription
 msgctxt "df1281a2-d5ae-498e-b0b4-381e790c3e4b"
 msgid "Adds 6,000 Logistics experience points."
-msgstr ""
+msgstr "보급 경험치가 6,000 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54NestCleanup::LocalizedName
@@ -19890,12 +19903,11 @@ msgstr "둥지 청소"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54NestCleanup::LocalizedDescription
-#, fuzzy
 msgctxt "881cde63-ca08-4c7a-9bf0-7260b4c7402f"
 msgid ""
 "Monster nests that need to be cleared out by fire and steel have appeared on "
 "the crusaders' territory."
-msgstr "성전군의 영역에 철과 화염으로 청소 되어야 하는 괴물 둥지가 나타났다."
+msgstr "성전사들의 영토에 화염과 강철로써 청소되어야 할 괴물들의 둥지가 나타났습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54NestCleanup::DefaultResolutionDescription
@@ -19903,7 +19915,7 @@ msgctxt "81dd68b9-f711-4c08-bdae-a89286620fa6"
 msgid ""
 "The monster nests have been exterminated and no longer present a threat to "
 "the supply lines."
-msgstr ""
+msgstr "괴물 둥지는 제거되었고, 더 이상 보급선에 위협을 가하지 못합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54TamingMonsters::LocalizedDescription
@@ -19913,18 +19925,20 @@ msgid ""
 "be captured and tamed. Some will be used for heavy labor, while others will "
 "be bred to harvest valuable magical ingredients."
 msgstr ""
+"성전사들은 자신들의 영토에 둥지를 튼 야생 괴물들을 포획하고, 길들일 것입니다. 몇몇 괴물들은 중노동에 사용되고, 다른 괴물들은 가치있는 "
+"마법 재료의 수확을 위해 사육될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event54TamingMonsters::DefaultResolutionDescription
 msgctxt "bea75b39-512d-4dde-a46b-bcbce4b91405"
 msgid "The savage creatures have been caught and tamed."
-msgstr ""
+msgstr "야생의 괴물들이 포획되고, 길들여졌습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event55GrievanceAgainstGalt::m_MechanicalDescription
 msgctxt "0745b1d5-9811-4ce7-a67f-7bd2f3050e49"
 msgid "Adds 7,500 Diplomacy experience points and 300 Materials Points."
-msgstr ""
+msgstr "외교 경험치가 7,500 증가하고, 물자 점수가 300 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Event55GrievanceAgainstGalt::LocalizedName
