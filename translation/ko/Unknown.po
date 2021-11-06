@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-05 04:37+0000\n"
-"Last-Translator: BaMoT <tree0074@naver.com>\n"
+"PO-Revision-Date: 2021-11-06 17:24+0000\n"
+"Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -2907,9 +2907,10 @@ msgctxt "7a3abb0e-2afe-4027-b45c-e3b703b535a6"
 msgid "Black Ring"
 msgstr ""
 
+#, fuzzy
 msgctxt "578717c2-c440-4ec5-88c5-97109dfa829f"
 msgid "Ring with the Phylactery of Stevanius the Rotten"
-msgstr ""
+msgstr "부패한 자 스테바니우스의 성물함을 담은 반지"
 
 msgctxt "74d07d4b-0190-4ba6-b722-852b01efdcd0"
 msgid ""
@@ -23700,8 +23701,8 @@ msgid ""
 "weapon, but after this the weapon reverts to its standard magical qualities, "
 "if any."
 msgstr ""
-"발러가 사용하는 표준 무장인 장검과 채찍을 포함해, 모든 베기 무기는 보팔 무기 성질을 얻습니다. 무기는 발러가 손에서 놓친 뒤에도 한 "
-"시간 동안 이 성질을 유지하지만, 그 뒤에는 원래 상태로 돌아갑니다."
+"발러가 사용하는 표준 무장인 장검과 채찍을 포함해, 모든 {g|Encyclopedia:Damage_Type}베기{/g} 무기는 보팔 무기 "
+"성질을 얻습니다. 무기는 발러가 손에서 놓친 뒤에도 한 시간 동안 이 성질을 유지하지만, 그 뒤에는 원래 상태로 돌아갑니다."
 
 msgctxt "2135ca80-9618-461f-b2f4-3238129102a8"
 msgid "Vorpal Strike"
@@ -23741,6 +23742,10 @@ msgid ""
 "negates the staggered condition. The save DC is "
 "{g|Encyclopedia:Charisma}Charisma{/g}-based."
 msgstr ""
+"릴리투가 꼬리 치기로 살아있는 크리처에게 {g|Encyclopedia:Damage}피해{/g}를 입힐 때마다, 상처 부위가 부어올라 붉은 "
+"흉터를 영구적으로 남깁니다. 타격당한 크리처는 고통으로 인해 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"비틀거림 상태가 됩니다.  {g|Encyclopedia:DC}DC{/g} 26의 {g|Encyclopedia:Saving_Throw}의지 "
+"내성{/g}에 성공하면 비틀거림을 무효화합니다. 내성 DC는 {g|Encyclopedia:Charisma}매력{/g} 기반입니다."
 
 msgctxt "3ae3f60e-744b-4a8e-8175-52503eddd311"
 msgid ""
@@ -23753,10 +23758,16 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} can also be halted by effects that remove "
 "or provide immunity to disease."
 msgstr ""
+"브록은 매 3 {g|Encyclopedia:Combat_Round}라운드{/g}마다 {g|Encyclopedia:Swift_Action}"
+"신속 행동{/g}으로 몸에서 포자 구름을 방출할 수 있습니다. 주변의 크리처들은 포자에 의해 "
+"{g|Encyclopedia:Dice}1d8{/g}점의 {g|Encyclopedia:Damage}피해{/g}를 입고, 추가로 포자가 "
+"두꺼운 녹색 덩굴처럼 자라는 10 라운드 동안 매 라운드 1d4점의 피해를 받습니다. 포자는 영향을 받는 크리처에게 축복 주문을 시전하여 "
+"제거할 수 있습니다. 이 {g|Encyclopedia:Attack}공격{/g}은 질병 제거나 질병에 면역을 주는 효과로도 멈출 수 "
+"있습니다."
 
 msgctxt "c8686388-4d19-463c-8879-9cbcb7a0e209"
 msgid "Spores"
-msgstr ""
+msgstr "포자"
 
 msgctxt "e2af92a4-cb5f-4863-9496-90ecc29f7d79"
 msgid ""
@@ -23766,10 +23777,14 @@ msgid ""
 "or be stunned for 1 {g|Encyclopedia:Combat_Round}round{/g}. The save DC is "
 "{g|Encyclopedia:Constitution}Constitution{/g}-based."
 msgstr ""
+"한 시간에 한 번, 브록은 날카로운 쇳소리를 낼 수 있습니다. 반경 30 피트 범위 내의 데몬을 제외한 모든 크리처는 "
+"{g|Encyclopedia:DC}DC{/g} 21 {g|Encyclopedia:Saving_Throw}인내 내성{/g}에 실패하면 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 기절합니다. 내성 DC는 "
+"{g|Encyclopedia:Constitution}건강{/g}에 기반합니다."
 
 msgctxt "32b8cb91-35c4-4594-978e-c644ff3afdbd"
 msgid "Stunning Screech"
-msgstr ""
+msgstr "충격적인 비명"
 
 msgctxt "17c304c0-34c6-4cd6-acae-028f3c81f46d"
 msgid ""
@@ -23781,265 +23796,274 @@ msgid ""
 "drain{/g} per the dragon's age category. A successful save negates the "
 "blindness and reduces the ability drain to 1d4 points"
 msgstr ""
+"하루에 세 번, 성년 또는 노년의 그림자 드래곤은 원뿔형의 그림자 브레스를 뱉을 수 있습니다. "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g}에 실패하면, 영향을 받은 크리처는 "
+"{g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}라운드{/g} 동안 실명 상태가 "
+"되며 드래곤의 나이 유형마다 1점의 {g|Encyclopedia:Strength}힘{/g} "
+"{g|Encyclopedia:AbilityDamage}능력치 소진{/g}을 받습니다. 내성에 성공하면 실명을 무효화하고 능력치 소진 "
+"효과를 1d4점만으로 줄입니다"
 
 msgctxt "8f35875c-86f8-4133-a59b-a3647fccbceb"
 msgid "Player Character"
 msgstr "플레이어 캐릭터"
 
+#, fuzzy
 msgctxt "b5ad3346-24aa-4182-9bf8-db128773eca2"
 msgid "Balor Overseer"
-msgstr ""
+msgstr "발러 감독관"
 
 msgctxt "9ff9dd1a-3caf-47e1-8775-833f46ddd8f4"
 msgid "Distorted Mythic Glabrezu"
-msgstr ""
+msgstr "뒤틀린 신화적 글라브레주"
 
 msgctxt "51b3780b-fda4-4830-a749-32e0042d1db9"
 msgid "Distorted Mythic Incubus"
-msgstr ""
+msgstr "뒤틀린 신화적 인큐버스"
 
 msgctxt "9ee9dda1-19e7-4742-8baa-aa92d6ce47fb"
 msgid "Distorted Mythic Incubus"
-msgstr ""
+msgstr "뒤틀린 신화적 인큐버스"
 
 msgctxt "e02037d1-c837-4bb6-ad78-46d58c313e41"
 msgid "Upgraded Incubus"
-msgstr ""
+msgstr "강화된 인큐버스"
 
 msgctxt "9e5a5a15-5cb8-4ad9-bd01-3666a92df383"
 msgid "Mythic Nabasu"
-msgstr ""
+msgstr "신화적 나바수"
 
 msgctxt "444c517b-fbe2-4f8f-90dc-25d0213e3495"
 msgid "Mythic Schir"
-msgstr ""
+msgstr "신화적 쉬르"
 
+#, fuzzy
 msgctxt "d6770030-fc52-4710-89d2-f93beab1e2f4"
 msgid "Greater Shadow Demon"
-msgstr ""
+msgstr "고위 그림자 데몬"
 
+#, fuzzy
 msgctxt "f8245b8c-d62a-40a1-85d6-4e0522e11317"
 msgid "Deep Shadow Demon Brute"
-msgstr ""
+msgstr "깊은 그림자 데몬 투사"
 
+#, fuzzy
 msgctxt "ff548608-9ff0-414d-b54c-ed2c7c139d57"
 msgid "Augmented Succubus"
-msgstr ""
+msgstr "증강된 서큐버스"
 
 msgctxt "887999f8-833c-4e12-8f55-a6a624dd83ff"
 msgid "Vrock"
-msgstr ""
+msgstr "브록"
 
 msgctxt "ae291119-662e-48ff-ac29-421e7763216b"
 msgid "Mythic Vrock"
-msgstr ""
+msgstr "신화적 브록"
 
 msgctxt "d914bdb0-dd7d-44e2-89b5-f949f91039d5"
 msgid "Vrolikai Death Stealer"
-msgstr ""
+msgstr "브롤리카이 죽음 강탈자"
 
 msgctxt "d82e3931-d244-486c-b02d-375ba0328adb"
 msgid "Ghostly Barbarian"
-msgstr ""
+msgstr "유령 바바리안"
 
 msgctxt "5b49a3ee-d4f0-4774-a8e7-b5de31039d82"
 msgid "Ghostly Fighter"
-msgstr ""
+msgstr "유령 파이터"
 
 msgctxt "47567b9e-4129-4ee0-aafa-84f6c7fdd5a6"
 msgid "Ghostly Oracle"
-msgstr ""
+msgstr "유령 오라클"
 
 msgctxt "4356d3fc-e33c-4f37-bf43-cc1223fc9fae"
 msgid "Ghostly Ranger"
-msgstr ""
+msgstr "유령 레인저"
 
 msgctxt "e251bd35-10b9-499b-89a3-826dd8f42e40"
 msgid "Fiendish Minotaur"
-msgstr ""
+msgstr "사악한 미노타우르스"
 
 msgctxt "a0b57808-bf0d-4939-8a1a-eb8a2ec9a517"
 msgid "[Draft] Labyrinth Minotaur Priest"
-msgstr ""
+msgstr "[Draft] 미궁 미노타우르스 사제"
 
 msgctxt "edcdeb9d-84d4-4574-b4c9-058061fff62b"
 msgid "Mongrel Ranger"
-msgstr ""
+msgstr "잡종 레인저"
 
-#, fuzzy
 msgctxt "243d1ed8-8d6b-4348-a6b2-88f96d5983fb"
 msgid "Crusader"
 msgstr "성전사"
 
-#, fuzzy
 msgctxt "4045d364-809f-401e-8b98-364ceefcbaee"
 msgid "Cursed Crusader"
 msgstr "저주받은 성전사"
 
+#, fuzzy
 msgctxt "9ea50e0b-f087-4c28-b26a-a378c7231785"
 msgid "Everbright Crusader"
-msgstr ""
+msgstr "영원한 광채 성전사"
 
+#, fuzzy
 msgctxt "abc3835b-d646-4ff1-96f5-58029f3470f4"
 msgid "Gredve the Mustard"
-msgstr ""
+msgstr "활기찬 그레베"
 
 msgctxt "6a14360b-68ce-4335-b52d-be21a4803a24"
 msgid "Yumal Mono"
-msgstr ""
+msgstr "유말 모노"
 
 msgctxt "b35494f7-8300-4072-a6d1-18b92a3aad0f"
 msgid "Scout"
-msgstr ""
+msgstr "정찰병"
 
-#, fuzzy
 msgctxt "d31b2a97-89d8-42e0-ac5f-3d8d57ea0d1d"
 msgid "Crusader"
 msgstr "성전사"
 
 msgctxt "90e4a79e-6623-4ab4-8125-1b0fa6699e5b"
 msgid "Nystra"
-msgstr ""
+msgstr "나이스트라"
 
 msgctxt "d5074939-577b-42e7-8762-b2e6863728f5"
 msgid "Blind Sarkorian"
-msgstr ""
+msgstr "눈 먼 사코리아인"
 
+#, fuzzy
 msgctxt "cdd11d2c-000a-452b-902a-9ac2a6bb1245"
 msgid "Miammir"
-msgstr ""
+msgstr "미아미르"
 
 msgctxt "aa55b1a1-c297-4b55-ad8b-21bfec9d2d23"
 msgid "Mercenary"
-msgstr ""
+msgstr "용병"
 
+#, fuzzy
 msgctxt "2ad4d6a2-bb8d-4daa-af3a-784cf5cf554b"
 msgid "Virlong the Battle Slaver"
-msgstr ""
+msgstr "전투 노예상 벌롱"
 
 msgctxt "616b474c-df4a-4c92-8b4d-45df03f0f2c8"
 msgid "Aasimar"
-msgstr ""
+msgstr "아시마르"
 
 msgctxt "83c1bb2e-4500-4313-819b-6f1482272830"
 msgid "Azata Slave"
-msgstr ""
+msgstr "아자타 노예"
 
 msgctxt "fdb225e8-bdfb-4b57-ac45-0dc9feaa7493"
 msgid "Prototype Gold Golem of Slaughter"
-msgstr ""
+msgstr "시제품 살육의 황금 골렘"
 
-#, fuzzy
 msgctxt "77ea0806-0306-476e-bb2f-c7ab105441f1"
 msgid "Bandit Enchanter"
-msgstr "도적 인챈터"
+msgstr "도적 마술사"
 
-#, fuzzy
 msgctxt "7e190a59-ca59-4cf8-834f-0c6fc00116a3"
 msgid "Bandit Leader"
 msgstr "도적 두목"
 
-#, fuzzy
 msgctxt "d122a65f-1064-4160-aadb-e0a877c43f07"
 msgid "Bandit Bowman"
 msgstr "도적 궁수"
 
-#, fuzzy
 msgctxt "4bf90daa-922e-4f82-9682-0d1ea8f27184"
 msgid "Bandit Dodger"
-msgstr "도적 닷져"
+msgstr "도적 회피자"
 
-#, fuzzy
 msgctxt "bda9d757-89e4-4328-ad1f-2871bf99877d"
 msgid "Bandit Raider"
 msgstr "도적 약탈자"
 
-#, fuzzy
 msgctxt "bc3e33dd-7a7e-45c5-90f1-29c7a97b3294"
 msgid "Bandit Marksman"
 msgstr "도적 명사수"
 
 msgctxt "0e21526b-271d-4f41-abdd-7798d176ecd1"
 msgid "Child"
-msgstr ""
+msgstr "어린이"
 
-#, fuzzy
 msgctxt "e919b251-084b-49c3-9e6f-bb7ab6e2102d"
 msgid "Noble"
 msgstr "귀족"
 
-#, fuzzy
 msgctxt "caa41366-2fa5-4468-b8c0-55c30e600641"
 msgid "Noble"
 msgstr "귀족"
 
 msgctxt "4abcfc80-1d25-4f6b-934b-6a28aa57d79b"
 msgid "[Draft] Corruptor"
-msgstr ""
+msgstr "[Draft] 타락자"
 
 msgctxt "c3859f43-be1b-498f-9157-9e647a6d64e6"
 msgid "Zombie Fighter"
-msgstr ""
+msgstr "좀비 파이터"
 
 msgctxt "c21623de-23f1-450b-8fa1-2fbf65e6da6d"
 msgid "Zombie Bandit"
-msgstr ""
+msgstr "좀비 도적"
 
 msgctxt "ef0eda35-42b2-44dd-960a-0383c0271898"
 msgid "Zombie Fighter"
-msgstr ""
+msgstr "좀비 파이터"
 
 msgctxt "a69b75a1-9928-48b9-b937-1a7f23cf0556"
 msgid "Zombie Ranger"
-msgstr ""
+msgstr "좀비 레인저"
 
 msgctxt "604fba35-7ab6-4ca1-ac11-fb316918823d"
 msgid "Hellknight"
-msgstr ""
+msgstr "헬나이트"
 
+#, fuzzy
 msgctxt "5c4c2f15-5f88-426c-a7b8-cf362f7aa627"
 msgid "Sunrise Sword Crusader"
-msgstr ""
+msgstr "새벽 칼날 성전사"
 
 msgctxt "e6285959-3ffb-4c6d-9bf7-4160eb36c5bf"
 msgid "Soldier"
-msgstr ""
+msgstr "병사"
 
 msgctxt "0d8ab962-b04e-407e-82b1-050261b6fc5e"
 msgid "Hellknight"
-msgstr ""
+msgstr "헬나이트"
 
 msgctxt "a74fe168-61c6-4760-ab85-9121540a8fa9"
 msgid "Guest"
-msgstr ""
+msgstr "손님"
 
+#, fuzzy
 msgctxt "bf5fcaed-231f-4707-85c0-7cc3bfa387c4"
 msgid "Cyborg-Crusader Blast Shooter"
-msgstr ""
+msgstr "사이보그 성전사 블래스트 사격수"
 
+#, fuzzy
 msgctxt "fa7daef9-ec94-4cc9-b28f-1b6c8301ecd5"
 msgid "Cyborg-Crusader Evocator"
-msgstr ""
+msgstr "사이보그 성전사 방출가"
 
+#, fuzzy
 msgctxt "28be31bc-c601-40fc-9401-370a7b7ea5b0"
 msgid "Cyborg-Crusader Lead Blade"
-msgstr ""
+msgstr "사이보그 성전사 납 칼날 검사"
 
+#, fuzzy
 msgctxt "63fc4780-8b65-481c-93d3-474610621763"
 msgid "Cyborg-Crusader Shadow"
-msgstr ""
+msgstr "사이보그 성전사 그림자"
 
+#, fuzzy
 msgctxt "d42fad0d-29ec-4e5c-8dab-f3dc344f18f9"
 msgid "Cyborg-Crusader Vanguard"
-msgstr ""
+msgstr "사이보그 성전사 전위"
 
 msgctxt "cad1492c-698d-4dfb-a60a-3c770272de74"
 msgid "Cultist Arsonist"
-msgstr ""
+msgstr "사교도 방화범"
 
 msgctxt "1470141e-d704-4082-8940-bbdd81f32b24"
 msgid "Abrikandilu Sunderer"
-msgstr ""
+msgstr "아브리칸딜루 절단자"
 
 msgctxt "2f118015-d47c-4e9b-9f25-ef849de589ee"
 msgid "Citizen"
@@ -24057,21 +24081,28 @@ msgid ""
 "Combat Expertise feat. You can't make attacks of opportunity while using "
 "total defense."
 msgstr ""
+"당신은 일반 행동으로 스스로를 지킬 수 있습니다. 사용시 1 라운드 동안 AC에 +4 피하기 보너스를 받습니다. AC는 이 행동을 "
+"시작하자마자 상승합니다. 당신은 방어적 전투나 전투 전문화 특기의 효과와 전력 방어를 함께 적용할 수 없습니다. 전력 방어 상태에서는 "
+"기회 공격을 시도할 수 없습니다."
 
+#, fuzzy
 msgctxt "761dad62-ba5e-4cf6-a850-763fb45a8422"
 msgid ""
 "Whenever Cobblehoof bites an enemy, the enemy must pass a "
 "{g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} "
 "({g|Encyclopedia:DC}DC{/g} 30) or start bleeding."
 msgstr ""
+"자갈발굽이 적에게 물기 공격을 명중할 때마다, 그 적은 {g|Encyclopedia:DC}DC{/g} 30의 "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g}에 실패하면 출혈 상태가 됩니다."
 
+#, fuzzy
 msgctxt "230ffa16-1f50-41fd-b225-9b27c9169f43"
 msgid "Ripping Bite"
-msgstr ""
+msgstr "살을 찢는 이빨"
 
 msgctxt "f85fe044-7a87-4d60-8b7d-5560a7458977"
 msgid "Tasty Aroma"
-msgstr ""
+msgstr "맛있는 향기"
 
 msgctxt "dbb1eee9-4db5-4135-899d-52489b3aac4b"
 msgid ""
@@ -24082,7 +24113,12 @@ msgid ""
 "feel safe behind his broad back as he swings his weapon, mowing down enemies "
 "and keeping them away from more fragile party members."
 msgstr ""
+"냉정한 유넬라드는 따분하고 양심없는 용병이 아닙니다. 그는 명예를 아는 남자고, 괴물에게서 사람들을 지킨다거나 도적 무리를 제거하는 것 "
+"같이 유익한 임무만을 받아들이죠. 그렇지만 절대로 공짜로는 일하지 않습니다. 확실히 마무리된 일에 대해선 반드시 보수를 받아야 하고, "
+"그는 자기 일에 매우 뛰어나니까요. 그가 무기를 휘둘러 적들을 베어넘기고 연약한 일행에게서 떼어놓는 동안, 같은 편은.그의 넓은 등 "
+"뒤에서 안전함을 느낍니다."
 
+#, fuzzy
 msgctxt "7c18cd28-cb1a-4ce4-99d2-ce9d77ee43bd"
 msgid ""
 "Marnun the Night Bolt is a killer for hire, plain and simple. He doesn't "
@@ -24092,6 +24128,9 @@ msgid ""
 "Instead, with his deadly crossbow in hand, he hopes to gain power and wealth "
 "in this dangerous region."
 msgstr ""
+"한밤의 볼트 마르넌은 고용주를 찾는 중인 솔직하고 단순한 살인자입니다. 그는 대상이 누구더라도 신경쓰지 않습니다. 그러니, 값만 제대로 "
+"쳐준다면 성자의 머리에나 악마의 심장에나 똑같이 볼트 구멍을 내줄겁니다. 세계상처는 그에게 있어 커다란 기회의 땅입니다. 그는 데몬의 "
+"침공에 대해 신경쓰지 않죠. 그 대신, 자신의 치명적인 쇠뇌를 들고, 이 위험 지역에서 힘과 재산을 얻기를 원합니다."
 
 msgctxt "6a431567-a760-4f1d-9323-56fe9b270f0b"
 msgid ""
@@ -24104,22 +24143,24 @@ msgid ""
 "behind them, but also be wary of being trampled under the feet of this "
 "massive beast."
 msgstr ""
+"이 거대하고 느릿느릿한 크리처는 공룡이라 불리는 고대의 파충류 동물인 트리케라톱스입니다. 이는 동물의 모든 "
+"{g|Encyclopedia:Trait}특성{/g}을 보여줍니다. 트리케라톱스는 두꺼운 가죽 덕분에 튼튼하고, 세 개의 뿔로 강력한 "
+"꿰뚫기 공격을 할 수 있습니다. 그보다도 더 강력한 것은 돌진하는 트리케라톱스로, 적들은 9톤짜리 괴물이 치명적인 뿔과 함께 전력으로 "
+"들이박는걸 피해야할 뿐만 아니라, 육중한 야수에게 뭉개지지 않는 것에도 신경써야합니다."
 
 msgctxt "3ce56009-ad2b-4aca-8c93-27620e30417b"
 msgid "Triceratops"
 msgstr "트리케라톱스"
 
-#, fuzzy
-#| msgid ""
-#| "This +3 magical beast bane corrosive light mace grants the wielder a +5 "
-#| "competence bonus on all Lore (Nature) skill checks."
 msgctxt "34063d08-26b1-4a5b-b1e2-72c3e7377f4e"
 msgid ""
 "This +3 magical beast bane corrosive light mace grants the wielder a +5 "
 "competence {g|Encyclopedia:Bonus}bonus{/g} on all "
 "{g|Encyclopedia:Lore_Nature}Lore (Nature){/g} {g|Encyclopedia:Skills}skill "
 "checks{/g}."
-msgstr "이 +3 환수 파멸의 부식성 소형 철퇴는 착용자에게 +5 전승(자연) 능숙 보너스를 제공합니다."
+msgstr ""
+"이 +3 환수 파멸의 부식성 소형 철퇴는 착용자의 {g|Encyclopedia:Lore_Nature}전승 (자연){/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 msgctxt "2cf09450-3386-4e8c-8b40-03e4532cb5ce"
 msgid "Radiance"
@@ -24131,11 +24172,12 @@ msgstr "수정 단검"
 
 msgctxt "5a54bbf7-437c-4989-80ff-a5d29db40912"
 msgid "Н"
-msgstr ""
+msgstr "Н"
 
+#, fuzzy
 msgctxt "e9178bb8-2627-4708-bcf5-38cb811f0177"
 msgid "Merry-Go-Round"
-msgstr ""
+msgstr "회전 회오리"
 
 msgctxt "1e3a3b37-c7db-4c1a-906c-73c715bf63c0"
 msgid ""
@@ -24144,6 +24186,8 @@ msgid ""
 "list of {g|Encyclopedia:Spell}spells{/g} known. This effect is removed on "
 "rest."
 msgstr ""
+"당신은 무기 {g|Encyclopedia:Attack}명중 굴림{/g}에 –4 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받지만, 당신이 습득한 {g|Encyclopedia:Spell}주문{/g} 목록에 불타는 손을 추가합니다. 이 효과는 휴식시 사라집니다."
 
 msgctxt "d9a86440-a230-44f0-bc15-0e9febc2d580"
 msgid ""
@@ -24152,6 +24196,9 @@ msgid ""
 "{g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g} when used for diplomacy. This effect is removed on rest."
 msgstr ""
+"크리처들은 본능적으로 당신을 믿지 않으며, 따라서 교섭시 {g|Encyclopedia:Persuasion}설득{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 –3 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. "
+"이 효과는 휴식시 사라집니다."
 
 msgctxt "76b1467f-b2ca-4c6c-8d37-8fc489c5f4c0"
 msgid ""
@@ -24160,6 +24207,9 @@ msgid ""
 "{g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g} when used for diplomacy. This effect is removed on rest."
 msgstr ""
+"크리처들은 본능적으로 당신을 믿지 않으며, 따라서 교섭시 {g|Encyclopedia:Persuasion}설득{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 –3 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. "
+"이 효과는 휴식시 사라집니다."
 
 msgctxt "aa597e3e-d12b-43ea-b71c-5422a2ccebcc"
 msgid ""
@@ -24167,6 +24217,8 @@ msgid ""
 "{g|Encyclopedia:Speed}speed{/g} by 10 feet. Your speed is never reduced due "
 "to encumbrance. This effect is removed on rest."
 msgstr ""
+"당신의 다리 중 하나가 영구적인 부상을 입어, 당신의 기본 육상 {g|Encyclopedia:Speed}속도{/g}가 10피트로 "
+"줄어듭니다. 당신의 속도는 무게로 인해 줄어들지 않습니다. 이 효과는 휴식시 사라집니다."
 
 msgctxt "e8d96780-5103-4134-bafd-9f9822f147de"
 msgid ""
@@ -24174,12 +24226,16 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} against disease effects, but "
 "you are immune to the sickened condition. This effect is removed on rest."
 msgstr ""
+"당신은 질병 효과에 대한 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 –1 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받지만, 고통 상태에 면역됩니다. 이 효과는 휴식시 사라집니다."
 
 msgctxt "a673dca7-4575-480f-be9b-6d7b73b8a373"
 msgid ""
 "You are staggered for one {g|Encyclopedia:Combat_Round}round{/g} of combat. "
 "This effect is removed on rest."
 msgstr ""
+"당신은 전투의 첫 {g|Encyclopedia:Combat_Round}라운드{/g}에 비틀거림 상태가 됩니다. 이 효과는 휴식시 "
+"사라집니다."
 
 msgctxt "e4b16dd3-7747-4c2c-bddb-40c806dedba3"
 msgid ""
@@ -24187,6 +24243,8 @@ msgid ""
 "{g|Encyclopedia:Initiative}initiative{/g} {g|Encyclopedia:Check}checks{/g}. "
 "This effect is removed on rest."
 msgstr ""
+"당신은 {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g}에 –4 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 이 효과는 휴식시 사라집니다."
 
 msgctxt "f6601e44-bca8-4657-aad0-e0ac89137286"
 msgid ""
@@ -24196,10 +24254,15 @@ msgid ""
 "{g|Encyclopedia:Check}checks{/g} when used to intimidate. This effect is "
 "removed on rest."
 msgstr ""
+"당신은 위협에 사용하는 {g|Encyclopedia:Persuasion}설득{/g} {g|Encyclopedia:Skills}기술 "
+"판정{/g}을 제외한 모든 {g|Encyclopedia:Charisma}매력{/g} 기반 기술 "
+"{g|Encyclopedia:Check}판정{/g}에 –4 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 이 "
+"효과는 휴식시 사라집니다."
 
+#, fuzzy
 msgctxt "635a8440-b36f-4fbe-accb-75ad91a3eb8c"
 msgid "Bad Temper"
-msgstr ""
+msgstr "심술"
 
 msgctxt "7b429e71-8021-42c4-b1bb-a39ea42f8dd0"
 msgid ""
@@ -24207,6 +24270,8 @@ msgid ""
 "summons a huge Earth Elemental for {g|Encyclopedia:Dice}2d3{/g} "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +3 상급 부식성 몽둥이의 착용자가 적을 죽일 때마다, {g|Encyclopedia:Dice}2d3{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 대형 대지 정령을 소환합니다."
 
 msgctxt "c0a4e177-eb87-4d6e-8ea0-cb00efcb8dcc"
 msgid ""
@@ -24214,14 +24279,19 @@ msgid ""
 "{g|Encyclopedia:Attack}attack rolls{/g}, {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g} and {g|Encyclopedia:Skills}skill checks{/g}."
 msgstr ""
+"이 크리처는 모든 {g|Encyclopedia:Attack}명중 굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 "
+"굴림{/g} 및 {g|Encyclopedia:Skills}기술 판정{/g}에 –3 {g|Encyclopedia:Penalty}페널티{/g}"
+"를 받습니다."
 
+#, fuzzy
 msgctxt "089d22bd-f2d2-48d6-9cf1-3d01bb078417"
 msgid "Scythe with the Phylactery of Stevanius the Rotten"
-msgstr ""
+msgstr "부패한 자 스테바니우스의 성물함을 담은 대낫"
 
+#, fuzzy
 msgctxt "68a91804-a9c2-4d7a-abf8-b3f2235ff19c"
 msgid "Shortspear Made of Chillroar's Tusk"
-msgstr ""
+msgstr "서리울음의 엄니로 만든 단창"
 
 msgctxt "6689fb9a-c19e-481f-a4dc-faf8677d9113"
 msgid "Arcane Charger"
@@ -27122,7 +27192,7 @@ msgstr ""
 
 msgctxt "9aa3749d-1e88-4eb4-85f8-c71925b202e8"
 msgid "Demonic Knights"
-msgstr ""
+msgstr "데모닉 나이트"
 
 msgctxt "cebea3be-9723-4c85-8e94-0419a1584e08"
 msgid "Dretches"

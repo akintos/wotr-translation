@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-05 04:37+0000\n"
+"PO-Revision-Date: 2021-11-06 17:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -2928,7 +2928,7 @@ msgstr ""
 #. Path = CrusadeTutorial_02_Battle::Components/2/m_TitleText
 msgctxt "63e69ab6-00bd-41b6-a39a-5adae0e35aaa"
 msgid "Attack Damage"
-msgstr ""
+msgstr "공격 피해"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = CrusadeTutorial_02_Battle::Components/2/m_DescriptionText
@@ -2944,6 +2944,11 @@ msgid ""
 "{br}- the base damage is multiplied by the damage multiplier, resulting in "
 "the total damage dealt."
 msgstr ""
+"공격을 수행할 때, 피해량은 아래와 같이 계산됩니다.\n"
+"{br}- 공격 유닛의 모든 병사가 피해 굴림을 해 기본 피해를 결정합니다;\n"
+"{br}- 피해 수정치는 다음과 같은 공식을 따릅니다. [(공격 유닛의 공격 + 21 — 대상의 AC)×0.05]. 피해 수정치는 "
+"0.05 미만으로 내려가지 않습니다.\n"
+"{br}- 기본 피해에 피해 수정치를 곱해 총 피해량을 결정합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = CrusadeTutorial_03_General::m_TitleText
