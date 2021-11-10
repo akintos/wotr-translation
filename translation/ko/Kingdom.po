@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-08 03:24+0000\n"
-"Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
+"PO-Revision-Date: 2021-11-10 03:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -7717,7 +7717,7 @@ msgctxt "4a10366c-470a-4ba0-a2b0-78e08a2fe061"
 msgid ""
 "{g|Event_66_2}[Choice effects]{/g} Pronounce the officer a chosen one of "
 "higher powers, then promote him"
-msgstr "{g|Event_66_2}[선택 효과]{/g} 장교가 보다 높은 존재에게 선택받았음을 선언하며, 그를 진급시킨다"
+msgstr "{g|Event_66_2}[선택 효과]{/g} 장교가 보다 신들께 선택받았음을 선언하며, 그를 진급시킨다"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = CrusadeEvent66::m_EventSolutions/1/m_ResultText
@@ -11360,7 +11360,7 @@ msgid ""
 "Daeran's plan worked: the leaders of the Wary fell at the hands of their own "
 "deputies, who then quickly brought the soldiers to heel."
 msgstr ""
-"대런의 계획이 성공했습니다. 신중한 자의 지도자는 단체 내의 2인자들의 손에 제거되었고, 이들은 빠르게 병사들의 복종을 이끌어냈습니다."
+"대런의 계획이 성공했습니다. 신중한 자들의 지도자는 단체 내의 2인자들의 손에 제거되었고, 이들은 빠르게 병사들의 복종을 이끌어냈습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = Leadership_6_4_notif::LocalizedDescription
@@ -17948,8 +17948,8 @@ msgid ""
 "faithful flock to the temples, the higher powers will grant their might to "
 "the crusaders."
 msgstr ""
-"신들께서는 세계상처와 맞서 전쟁을 치루고 있는 멘데브를 결코 버리지 않을 것입니다. 경건한 신도들이 신전에 모인다면, 보다 높은 곳의 "
-"존재들께서 성전사들에게 힘을 내려줄 것입니다."
+"신들께서는 세계상처와 맞서 전쟁을 치루고 있는 멘데브를 결코 버리지 않을 것입니다. 경건한 신도들이 신전에 모인다면, 신들께서 "
+"성전사들에게 힘을 내려줄 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Diplomacy8Ritual::DefaultResolutionDescription
@@ -21504,24 +21504,27 @@ msgid ""
 "join the crusade but there's no place for the weak-willed in the crusade to "
 "begin with."
 msgstr ""
+"비겁함과 나약함은 욕망과 같습니다. 처음에는 아주 작지만, 칼날 전체를 황폐화 시킵니다. 공황에 빠져있거나, 불충하거나, 또는 반란을 "
+"주모하는 전사들은 반드시 뿌리뽑혀야하며, 이들을 본보기로 처벌해야 합니다. 폭동은 반드시 조기에 진압해야합니다. 이런 과감한 조치는 분명 "
+"성전에 참여하고자 하는 열의에 찬물을 끼얹을 것입니다. 하지만, 애시당초 성전에는 의지가 약한 이들이 설 장소는 존재하지 않았습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership2MoraleForRecruits::DefaultResolutionDescription
 msgctxt "4d100b20-87d3-4b30-98c2-41fa8a0dec27"
 msgid "The troublemakers undermining the troops' morale have been punished."
-msgstr ""
+msgstr "병사들의 사기를 어지럽히는 말썽꾼들이 처벌되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership2MoraleForResources::m_MechanicalDescription
 msgctxt "0c669fcd-7c11-47f9-8e58-7d5958775a6a"
 msgid "Crusade morale increases by 10-15."
-msgstr ""
+msgstr "성전 사기가 10-15 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership2MoraleForResources::LocalizedName
 msgctxt "fefeb9fc-ee5c-443c-9fb7-251b98b64c65"
 msgid "Distributing Provisions"
-msgstr ""
+msgstr "식량 분배"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership2MoraleForResources::LocalizedDescription
@@ -21529,13 +21532,13 @@ msgctxt "a5f6c145-cede-4038-bd0a-e61fba85c150"
 msgid ""
 "Distributing provisions among the crusaders will boost their morale and show "
 "that the Commander cares about {mf|his|her} soldiers."
-msgstr ""
+msgstr "성전사들에게 식량을 분배하는 것은 그들의 사기를 올리고, 사령관이 얼마나 병사들에게 관심을 가지는 지 보여줄 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership2MoraleForResources::DefaultResolutionDescription
 msgctxt "a9979338-98c3-4b54-941e-d3163cadf9a6"
 msgid "The distribution of provisions has inspired the troops."
-msgstr ""
+msgstr "식량 분배는 병사들을 고양시켰습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4FreeRecruits::LocalizedDescription
@@ -21545,12 +21548,14 @@ msgid ""
 "regular conscription. This event is long and tedious, but effective. "
 "Mendevian army has never knew a shortage of reinforcements."
 msgstr ""
+"한 세기 동안 데몬들과 전쟁을 치뤄온 탓에, 멘데브는 정기적인 징집에 익숙해졌습니다. 이는 길고 지루하지만, 효과적입니다. 멘데브 군대는 "
+"결코 증원 부족에 시달린 적이 없었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4FreeRecruits::DefaultResolutionDescription
 msgctxt "ee423d55-b86f-49ec-a3fa-966ee365de37"
 msgid "The crown has conducted another military draft."
-msgstr ""
+msgstr "폐하께서 군사 징집을 실시하셨습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4MercsForFinances::LocalizedDescription
@@ -21563,6 +21568,8 @@ msgid ""
 "of Avistan. There are enough greedy people who are willing to enlist in the "
 "crusaders ranks in exchange for a solid reward."
 msgstr ""
+"관대한 모병관이 금화가 잔뜩 든 지갑을 들고 온 아비스탄을 여행합니다. 세상에는 확실한 보상을 위해 성전에 입대하고자 하는 탐욕스러운 "
+"사람들이 충분히 많습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4RecruitsForFreeSmall::LocalizedDescription
@@ -21572,12 +21579,14 @@ msgid ""
 "the Commander's word. They will remind people of how great the danger of the "
 "Worldwound is, and will encourage them to take up arms."
 msgstr ""
+"영감을 받은 사제들은 의무에서 벗어나, 사령관의 말씀을 전도하기 위해 온 아비스탄을 여행할 것입니다. 사제들은 사람들에게 세계상처가 "
+"얼마나 위험한지 알리고, 그들이 무기를 쥐도록 독려할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4RecruitsForFreeSmall::DefaultResolutionDescription
 msgctxt "814c373c-c13d-42f7-a7fc-328927c1678c"
 msgid "The preachers have spurred many to join the crusade."
-msgstr ""
+msgstr "설교자들은 많은 사람들이 성전에 참여하도록 독려했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4RecruitsForMorale::m_MechanicalDescription
@@ -21589,6 +21598,7 @@ msgstr "훈련 유닛의 모집 성장이 14 일 동안 20% 증가합니다. 성
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4RecruitsForMorale::LocalizedDescription
+#, fuzzy
 msgctxt "db6efcf2-fe22-439b-9ab3-7335928e3278"
 msgid ""
 "Mendevians who lost everything in the attacks of demons on Kenabres and "
@@ -21597,6 +21607,9 @@ msgid ""
 "soldiers will fit in the crusade, it is unlikely that they would demonstrate "
 "high morale."
 msgstr ""
+"케나브레스와 기타 다른 도시들에서 행해진 데몬들의 공격으로 인해, 모든 것을 잃어버린 멘데브 사람들은 도움이 필요합니다. 성전의 자금은 "
+"모든 이들에게 병사들의 급료와 전투 식량, 그리고 제복을 제공하는데 쓰여야 합니다. 강제로 종군하게 된 병사들은 성전에 어울릴지는 "
+"몰라도, 높은 사기를 보여줄 것 같진 않습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership4RecruitsForMorale::DefaultResolutionDescription
@@ -21604,20 +21617,20 @@ msgctxt "44470590-d96d-469c-88f8-c19b5612aed9"
 msgid ""
 "The refugees and the homeless were directed to the crusaders' recruitment "
 "offices."
-msgstr ""
+msgstr "피난민과 노숙자들이 성전사 모병소로 향했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8BigArmyDecreaseMorale::m_MechanicalDescription
 msgctxt "b4b6bd05-461c-470e-8577-554ff5f68ef5"
 msgid ""
 "A random allied Crusader army is recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 무작위한 아군 성전 부대가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8BigArmyDecreaseMorale::LocalizedName
 msgctxt "25a1e5ce-504b-479b-bd26-8ace05eca5f8"
 msgid "Great Commemoration"
-msgstr ""
+msgstr "위대한 기념제"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8BigArmyDecreaseMorale::LocalizedDescription
@@ -21628,6 +21641,8 @@ msgid ""
 "Mendev. Bards will walk the streets singing praises to the fallen and "
 "inspiring people to take up arms and join the great war."
 msgstr ""
+"많은 전사들이 데몬과 싸우다 영웅적인 죽음을 맞았습니다. 사령관의 부하들은 멘데브에서 영웅들을 기리는 웅장한 기념제를 기획할 것입니다. "
+"음유시인들은 길거리를 걸으며 쓰러진 전사들을 찬미하고, 사람들이 무기를 쥐고 위대한 전쟁에 참여하도록 고무시킬 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8BigArmyDecreaseMorale::DefaultResolutionDescription
@@ -21637,6 +21652,8 @@ msgid ""
 "vain. Their exploits inspired new warriors to become crusaders and join the "
 "war."
 msgstr ""
+"온 멘데브가 영웅들의 죽음에 애도를 표했습니다. 하지만 그들의 죽음은 헛된 것이 아니였습니다. 쓰러진 전사들의 위업은 새로운 전사들이 "
+"성전사가 되고, 전쟁에 뛰어들도록 영감을 불어넣어 주었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Infirmary::m_MechanicalDescription
@@ -21644,13 +21661,13 @@ msgctxt "e3a4fdca-9202-4ecd-bb4c-b78bfd5b163d"
 msgid ""
 "All generals gain a +1 level to the {g|HeavenlyWard}[Heavenly Ward]{/g} feat "
 "for 30 days."
-msgstr ""
+msgstr "모든 지휘관들의 {g|HeavenlyWard}[Heavenly Ward]{/g} 특기가 30 일 동안 +1 레벨 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Infirmary::LocalizedName
 msgctxt "c1a07c31-42f3-4890-8e01-dbbb66f5d126"
 msgid "Feast of The Sacred Host"
-msgstr ""
+msgstr "성스러운 군세의 축연"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Infirmary::LocalizedDescription
@@ -21660,6 +21677,8 @@ msgid ""
 "powers who patronize the crusade. The prayers of the priests will attract "
 "the favor of the gods and enhance the magic of the crusaders."
 msgstr ""
+"사령관의 부하들이 성전을 후원하는 신들을 기리기 위한 축연을 계획합니다. 사제들의 기도는 신들의 은총을 끌어 모을 것이고, 성전사들의 "
+"마법을 강화할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Infirmary::DefaultResolutionDescription
@@ -21667,19 +21686,19 @@ msgctxt "38770a3c-6638-4cac-b2e0-af81962665c5"
 msgid ""
 "The celebration was successful, and the higher powers sent the strength to "
 "their priests and the soldiers who glorified them."
-msgstr ""
+msgstr "축연은 성공적이였습니다. 신들께서 사제들과 신들을 찬미한 병사들에게 힘을 주었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8LeaderEXP::m_MechanicalDescription
 msgctxt "aa8b8a18-946a-4451-869b-19ab664347a1"
 msgid "All generals gains 50000 experience points."
-msgstr ""
+msgstr "모든 지휘관이 50,000 경험치를 얻습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8LeaderEXP::LocalizedName
 msgctxt "cec216ce-e85e-44d2-9fea-333e20db6d4f"
 msgid "Military Exercise"
-msgstr ""
+msgstr "군사 훈련"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8LeaderEXP::LocalizedDescription
@@ -21691,6 +21710,9 @@ msgid ""
 "useful experience and, most importantly, prevent them from thinking too much "
 "about harmful ideas."
 msgstr ""
+"신중한 자들의 반란은 아무리 확고하고 충성스러워 보이는 군대라도 도덕적 부패가 내면을 좀먹고 있을 수도 있으며, 또한 감독이 필요하다는 "
+"사실을 보여주었습니다. 정기적인 군사훈련은 병사들과 장교들이 건장한 육체를 갖도록 하고, 유용한 경험을 쌓게합니다. 또한 가장 중요한 "
+"것은, 그들이 해로운 생각에 너무 몰두하지 않도록 막아준다는 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8LeaderEXP::DefaultResolutionDescription
@@ -21700,6 +21722,7 @@ msgid ""
 "in it showed exemplary skill, and the officers and commanders gained "
 "valuable experience."
 msgstr ""
+"군사 훈련을 성공적으로 마쳤습니다. 참가한 병사들은 모범적인 역량을 보여주었고, 장교들과 지휘관들은 귀중한 경험을 쌓게 되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Power::m_MechanicalDescription
@@ -21707,13 +21730,13 @@ msgctxt "2c63c7b8-dfe6-43ae-9822-5020565b175f"
 msgid ""
 "All generals gain a +1 level to the {g|MightyMinion}[Mighty Servant]{/g} "
 "feat."
-msgstr ""
+msgstr "모든 지휘관들의 {g|MightyMinion}[Mighty Servant]{/g} 특기가 +1 레벨 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Power::LocalizedName
 msgctxt "9d8e6040-02b5-4c27-832b-4f3494dbd3ea"
 msgid "Dark Bonds"
-msgstr ""
+msgstr "어둠의 굴레"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Power::LocalizedDescription
@@ -21723,6 +21746,8 @@ msgid ""
 "who have already killed Captain Harmattan on {mf|his|her} orders. They will "
 "willingly provide the Commander with their skillful servants once again."
 msgstr ""
+"사령관은 네로시안에 영향력 있는 사람들을 잘 알고 있습니다 — 사령관의 명으로 하르마탄 대장을 살해한 귀족 파벌이 바로 그들입니다. "
+"이들은 다시 한번 사령관에게 그들의 숙련된 시종들을 제공하길 원할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Leadership8Power::DefaultResolutionDescription
@@ -21730,13 +21755,13 @@ msgctxt "a3c6b8c6-5741-407f-a0cd-2a4223078092"
 msgid ""
 "The servants of the aristocratic clique from Nerosyan have arrived and are "
 "now at the Commander's disposal."
-msgstr ""
+msgstr "네로시안의 귀족 파벌의 시종들이 도착했습니다. 이제 이들을 임명할 수 있습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LeadershipRankUp2Project::LocalizedName
 msgctxt "6cae2b83-42d5-4c2f-ae7a-665353953368"
 msgid "Forming a Staff Council"
-msgstr ""
+msgstr "참모 자문단 조직하기"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LeadershipRankUp2Project::LocalizedDescription
@@ -21746,6 +21771,8 @@ msgid ""
 "Council. Surrounded by experienced advisors, the Commander will be able to "
 "make decisions affecting the life and morale of the entire army."
 msgstr ""
+"작은 분대는 혼자서도 지휘할 수 있지만, 부대를 관리하기 위해서는 참모 자문단이 필요합니다. 경험많은 조언가들과 함께, 사령관은 부대 "
+"전체의 생명과 사기에 영향을 미치는 결정을 내릴 수 있을 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LeadershipRankUp2Project::DefaultResolutionDescription
@@ -21753,7 +21780,7 @@ msgctxt "3d2518d0-8dd1-4ac4-9161-069c89bddbc8"
 msgid ""
 "The Staff Council is assembled and awaits the Commander at the headquarters "
 "for the first meeting."
-msgstr ""
+msgstr "참모 자문단이 조직되었고, 그들은 첫 회의를 시작하기 위해 지휘부에서 사령관을 기다리고 있습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LeadershipRankUp3Project::LocalizedName
@@ -21771,7 +21798,7 @@ msgstr ""
 #. Path = LeadershipRankUp7Project::LocalizedName
 msgctxt "6e8abddd-0de3-47d1-bc4b-f26440ee4b6d"
 msgid "Strengthening the Chain of Command"
-msgstr ""
+msgstr "지휘 체계 강화"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LeadershipRankUp3Project::LocalizedDescription
@@ -21793,6 +21820,8 @@ msgid ""
 "reinforce the discipline, the Commander's Staff Council must look for new "
 "solutions."
 msgstr ""
+"전쟁은 병사들을 지치게하고, 패배주의적인 태도에 물들어가게 합니다. 규율을 강화하기 위해 참모 자문단은 반드시 새로운 해결책을 찾아야 "
+"합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LeadershipRankUp3Project::DefaultResolutionDescription
@@ -21814,6 +21843,7 @@ msgid ""
 "requests the crusade leader to attend their meeting and receive the update "
 "report."
 msgstr ""
+"성전의 지휘 체계가 강화되었습니다. 참모 자문회는 성전 지도자가 회의에 참여하고, 이와 관련된 새 보고서를 받길 원하고 있습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3SkeletonArchers::m_MechanicalDescription
@@ -21821,7 +21851,7 @@ msgctxt "55e1ae9b-80d0-411b-9e83-9efe59d6d2c8"
 msgid ""
 "9 {g|SkeletonSharpshooters}[SkeletonSharpshooters]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 9 {g|SkeletonSharpshooters}[스켈레톤 명사수]{/g} 가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3SkeletonArchers::LocalizedName
@@ -21836,7 +21866,7 @@ msgstr ""
 #. Path = Lich3Vampires::LocalizedName
 msgctxt "7ef5d26c-6f53-4110-88a8-117b7e72b91a"
 msgid "Undead Aristocracy"
-msgstr ""
+msgstr "언데드 귀족"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3SkeletonArchers::LocalizedDescription
@@ -21857,6 +21887,9 @@ msgid ""
 "Dead Laws in the lands under {mf|his|her} control will attract such undead "
 "to the crusader cause."
 msgstr ""
+"모든 언데드가 피에 목마른 괴물은 아닙니다. 이들 중에는 지능적이고, 때로는 그들 나름대로 고귀함을 뽐내며, 문명화된 사회에서 살고 "
+"싶어하는 이들이 많습니다. 사령관이 자신의 통제 아래있는 땅에 죽은 자들의 법을 확립했다는 소식은 언데드들을 성전의 대의에 합류하도록 "
+"불러모을 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3SkeletonArchers::DefaultResolutionDescription
@@ -21874,7 +21907,7 @@ msgid ""
 "A group of intelligent undead has arrived in Drezen to swear an oath to the "
 "Commander and become the protectors of the union between the living and the "
 "dead that {mf|he|she} has proclaimed."
-msgstr ""
+msgstr "지각있는 언데드들이 사령관에게 충성을 맹세하고, 사령관이 선언한 산 자와 죽은 자 간의 연합을 수호하고자 드레젠에 도착했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3SkeletonChampions::m_MechanicalDescription
@@ -21882,7 +21915,7 @@ msgctxt "01b2caa5-8ee5-4a5b-a008-b59bb7cbfb23"
 msgid ""
 "9 {g|SkeletonChampions}[Skeleton Champions]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 9 {g|SkeletonSharpshooters}[스켈레톤 챔피언]{/g} 이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Skeletons::m_MechanicalDescription
@@ -21890,13 +21923,13 @@ msgctxt "61a45c21-2495-400c-a5ac-f19a04672d95"
 msgid ""
 "45 {g|Skeletons}[Skeletons]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 45 {g|Skeletons}[스켈레톤]{/g} 이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Skeletons::LocalizedName
 msgctxt "26948d5a-8b2a-4d30-a369-cc9deeb5bb15"
 msgid "Skeletons Creation"
-msgstr ""
+msgstr "스켈레톤 생성"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Skeletons::LocalizedDescription
@@ -21906,6 +21939,8 @@ msgid ""
 "they will set out across the Worldwound wastes, slaughtering everyone in "
 "their path."
 msgstr ""
+"죽음의 마법은 오랫동안 죽어있던 전사의 뼈를 되살릴 것입니다. 죽음의 무도 속에서, 이 해골 병사들은 세계상처의 황무지를 가로지르고, "
+"그들의 앞 길을 막는 모든 것을 도륙할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Skeletons::DefaultResolutionDescription
@@ -21913,7 +21948,7 @@ msgctxt "e57d4f01-450d-4935-8f56-120304835e2c"
 msgid ""
 "The withered bones of the dead have risen from their graves to spill the "
 "blood of enemies."
-msgstr ""
+msgstr "죽은 자들의 메마른 뼈가 적들의 피를 흩뿌리기 위해 무덤에서 일어났습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3UndeadAristocracyForGlossary::m_MechanicalDescription
@@ -21924,26 +21959,29 @@ msgid ""
 "{g|Vampires}[Vampires]{/g} are recruited at the Commander's headquarters — "
 "depending on the previous choice."
 msgstr ""
+"사령관의 지휘부에서 9 {g|SkeletonSharpshooters}[스켈레톤 명사수]{/g}, 9 "
+"{g|SkeletonChampions}[스켈레톤 챔피언]{/g} 또는 10 {g|Vampires}[뱀파이어]{/g} 이 모집되었습니다. —"
+" 모집되는 부대는 이전의 선택에 달려있습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Vampires::m_MechanicalDescription
 msgctxt "8eed1efa-2633-4723-8af0-72a94d39400a"
 msgid ""
 "10 {g|Vampires}[Vampires]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 10 {g|Vampires}[뱀파이어]{/g} 가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Zombies::m_MechanicalDescription
 msgctxt "5d4f1e48-24b1-49ab-ba50-47693f29c11e"
 msgid ""
 "30 {g|Zombies}[Zombies]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 30 {g|Zombies}[좀비]{/g} 가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Zombies::LocalizedName
 msgctxt "b57982f7-9b37-40c6-9364-74f7d8c02d6f"
 msgid "Zombie Creation"
-msgstr ""
+msgstr "좀비 생성"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Zombies::LocalizedDescription
@@ -21953,6 +21991,8 @@ msgid ""
 "service. The bodies, infused with death magic, will arise, and undead "
 "legions will rush toward the heart of the Worldwound."
 msgstr ""
+"이 전쟁에서 많은 이들이 목숨을 잃었습니다. 하지만 죽음은 복무의 끝을 의미하지 않습니다. 죽음의 마법이 스며든 육신은 다시 일어날 "
+"것이고, 언데드 군단은 세계 상처의 심장부를 향해 진군할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich3Zombies::DefaultResolutionDescription
@@ -21960,7 +22000,7 @@ msgctxt "189ff16d-eb6c-44e2-bbd0-80d728761852"
 msgid ""
 "Rotting bodies have risen from their graves to perform their duty to the "
 "Commander."
-msgstr ""
+msgstr "사령관에 대한 그들의 의무를 다하기 위해 썩은 육신들은 그들의 무덤에서 일어났습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Nightshade::m_MechanicalDescription
@@ -21968,13 +22008,13 @@ msgctxt "95cc9e9b-3f72-47e5-9812-851f3a140330"
 msgid ""
 "1 {g|Nightcrawlers}[Nightcrawler]{/g} is recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 1 {g|Nightcrawlers}[Nightcrawler]{/g}가 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Nightshade::LocalizedName
 msgctxt "79f4eeb0-d350-47f1-8391-0465660fd454"
 msgid "Nightshades Creation"
-msgstr ""
+msgstr "나이트셰이드 생성"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Nightshade::LocalizedDescription
@@ -21983,6 +22023,8 @@ msgid ""
 "A common belief is that demons can't be turned undead, but there's nothing "
 "impossible for the Commander. Yesterday's foes will become new servants."
 msgstr ""
+"일반적인 사람들은 데몬은 언데드로 변할 수 없다고 믿습니다. 하지만 사령관에게 불가능이란 존재하지 않습니다. 어제의 적이, 새로운 "
+"하수인이 될 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Nightshade::DefaultResolutionDescription
@@ -21990,7 +22032,7 @@ msgctxt "c6ad9ed0-c20f-4add-883c-f84485e4d895"
 msgid ""
 "Death has entered the corpses of slain demons and turned them into horrible "
 "and unnatural nightshades."
-msgstr ""
+msgstr "죽음이 쓰러진 데몬들에게로 들어갔고, 이들을 공포스럽고 비자연적인 나이트셰이드로 변화시켰습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6PlagueDragon::m_MechanicalDescription
@@ -21998,13 +22040,13 @@ msgctxt "6a669708-816a-4238-bde5-854c30e5292f"
 msgid ""
 "1 {g|PlaguedDragons}[Plagued Dragon]{/g} is recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 1 {g|FallenDragons}[역병 드래곤]{/g} 이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6PlagueDragon::LocalizedName
 msgctxt "8e1ac933-0f54-4bef-9a39-5a7b699cafac"
 msgid "Plagued Dragons Creation"
-msgstr ""
+msgstr "역병 드래곤 생성"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6PlagueDragon::LocalizedDescription
@@ -22014,6 +22056,7 @@ msgid ""
 "life and bear a horrible plague that is deadly even for the spawn of the "
 "Abyss."
 msgstr ""
+"오랫동안 죽어있던 드래곤의 시체가 가짜 생명을 받고 살아 움직일 것입니다. 이들이 가진 끔찍한 역병은 심연의 존재들에게도 치명적입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6PlagueDragon::DefaultResolutionDescription
@@ -22021,7 +22064,7 @@ msgctxt "f8eb9d07-acac-47e3-9de9-a0859a58691b"
 msgid ""
 "The bodies of dead dragons are turned into incubators for a terrible plague "
 "that even demons can't resist."
-msgstr ""
+msgstr "죽은 드래곤의 육체가 데몬들도 저항하지 못하는 끔찍한 역병의 배양기로 변했습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Ravener::m_MechanicalDescription
@@ -22029,13 +22072,13 @@ msgctxt "19b6b1b2-dc59-4738-83ae-3b4b24488aed"
 msgid ""
 "1 {g|RavenerDragons}[Ravener Dragon]{/g} is recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 1 {g|RavenerDragons}[포식자 드래곤]{/g} 이 모집되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Ravener::LocalizedName
 msgctxt "8c8e7428-1be2-4b4f-9c2f-dee5e9e3d0e6"
 msgid "Ravener Dragons Creation"
-msgstr ""
+msgstr "포식자 드래곤 생성"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Ravener::LocalizedDescription
@@ -22043,7 +22086,7 @@ msgctxt "a6872a1e-9b69-4a78-aa38-554f173f13fe"
 msgid ""
 "The Commander's servants will ravage ancient dragon graves to assemble their "
 "bones and resurrect them as fearsome monsters."
-msgstr ""
+msgstr "사령관의 하수인들은 드래곤의 뼈를 모아 공포스러운 괴물로 되살리기 위해. 고대 드래곤의 무덤을 파괴할 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Lich6Ravener::DefaultResolutionDescription
@@ -22051,7 +22094,7 @@ msgctxt "ef61e5d0-f1e7-49fb-b913-9a6f611f548e"
 msgid ""
 "Predatory ravener dragons have risen from the dead. Their souls, once noble, "
 "were deformed and reborn into monsters."
-msgstr ""
+msgstr "포식자 드래곤은 죽음에서 다시 일어났습니다. 이들의 한 때 고귀했던 이들의 영혼은 뒤틀렸고, 괴물로 다시 태어나게 되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LiLura_TacticAdvance::m_MechanicalDescription
@@ -22059,13 +22102,13 @@ msgctxt "3fb046e0-6802-487f-ba8f-8d928fafbf69"
 msgid ""
 "All generals gain +1 level to the {g|MasterOfManeuver}[Master of "
 "Maneuver]{/g} feat."
-msgstr ""
+msgstr "모든 지휘관들의 {g|MasterOfManeuver}[Master of Maneuver]{/g} 특기가 +1 레벨 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LiLura_TacticAdvance::LocalizedName
 msgctxt "eed22df0-6f97-4b84-9ed2-35e0a9831e1f"
 msgid "Introducing the Officers to Indarah's Treatise"
-msgstr ""
+msgstr "인다라의 논문을 장교들에게 소개하기"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LiLura_TacticAdvance::LocalizedDescription
@@ -22075,24 +22118,26 @@ msgid ""
 "based on her observations on the crusaders in action. Introducing the "
 "officers to this work would improve their performance."
 msgstr ""
+"군사 전략 분야의 전문가인 인다라는 자신의 성전 관찰 기록을 토대로 전술적 조언을 준비했습니다. 장교들에게 이 문서를 소개함으로써 "
+"장교들의 능률을 향상 시킬 수 있을 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LiLura_TacticAdvance::DefaultResolutionDescription
 msgctxt "71943371-1030-4870-bb25-d7c2110ec581"
 msgid "The officers have been introduced to Indarah's treatise."
-msgstr ""
+msgstr "인다라의 논문이 장교들에게 소개되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Accumulation::m_MechanicalDescription
 msgctxt "f3a95cf1-8f9a-472f-904b-b9ccb525f650"
 msgid "Adds 10% of Finance Points available in the treasury (maximum 10,000)."
-msgstr ""
+msgstr "현재 보유 중인 재정 점수가 10 % 증가합니다 (최대 10,000)."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Accumulation::LocalizedName
 msgctxt "d617207d-3100-4513-9ea0-37298ebaf2ec"
 msgid "Tricky Steal"
-msgstr ""
+msgstr "교활한 도둑질"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Accumulation::LocalizedDescription
@@ -22104,6 +22149,9 @@ msgid ""
 "be used. This shield made of papers and deceit will protect thieves from the "
 "most attentive treasurer's gaze."
 msgstr ""
+"사령관의 부하들은 멘데브의 국고에서 빈틈없고, 발각되지 않을 절도행위를 하게 될 것입니다. 이를 위해, 부하들은 부패한 재판관, 가상의 "
+"인물의 이름을 사용한 증권, 날조된 채권과 가짜 어음 등의 수단을 사용할 것입니다. 종이와 기만으로 만들어진 이 방패는 아주 세심한 "
+"재무관의 시선에서 도둑들을 보호해 줄 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Accumulation::DefaultResolutionDescription
@@ -22112,18 +22160,20 @@ msgid ""
 "The tricky scheme with fake documents has paid off. Having deceived the "
 "treasurers, the Commander's servants gained access to the state resources."
 msgstr ""
+"위조 문서를 사용한 교활한 계획이 결실을 맺었습니다. 재무관들을 기만함으로써, 사령관의 부하들은 멘데브의 국가 자원에 접근할 수 있게 "
+"되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeBuying::m_MechanicalDescription
 msgctxt "628312a7-faa8-4379-9479-0c268f72dedc"
 msgid "Adds 220 Materials Points."
-msgstr ""
+msgstr "물자 점수가 220 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeBuying::LocalizedName
 msgctxt "e6f56743-5293-4608-8378-d2a257d9db52"
 msgid "Distribution of Trophies"
-msgstr ""
+msgstr "전리품 분배"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeBuying::LocalizedDescription
@@ -22134,6 +22184,8 @@ msgid ""
 "black market for resources to the army, which are always in short supply. "
 "Breaking the law is a small price to pay for the lives saved."
 msgstr ""
+"전투에서 취득한 전리품들은 성전의 자금으로 귀속되어야 하지만, 사령관의 부하들은 언제나 보급 부족에 시달리는 군대에 자원을 공급하기 "
+"위해, 암시장에서 꽤 괜찮은 거래를 할 수 있습니다. 더 많은 목숨을 구하기 위해 법을 어기는 것은 작은 대가에 불과합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeBuying::DefaultResolutionDescription
@@ -22141,19 +22193,19 @@ msgctxt "4b579e55-081e-4586-aef7-dc789970897d"
 msgid ""
 "The Commander's servants organized few secret deals and profitably exchange "
 "battle trophies for resources for the crusade."
-msgstr ""
+msgstr "사령관의 부하들은 성전의 자원을 위한 비밀스러운 거래와 유리한 전리품 교환을 이루어 냈습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeSelling::m_MechanicalDescription
 msgctxt "97e07c1a-fc93-4d96-ae7b-fb468a99dafe"
 msgid "Adds 2250 Finance Points."
-msgstr ""
+msgstr "재정 점수가 2,250 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeSelling::LocalizedName
 msgctxt "f8928011-7a17-489f-9b7d-1380e275b19c"
 msgid "Selling Excesses"
-msgstr ""
+msgstr "과잉 판매"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeSelling::LocalizedDescription
@@ -22164,6 +22216,8 @@ msgid ""
 "will prevent the Commander's servants from selling it on the black market, "
 "raising funds for the soldiers' salary."
 msgstr ""
+"성전은 금화가 필요합니다. 그리고 창고에는 상당한 양의 정부 물자가 보관되어 있습니다. 이것들은 멘데브 소유지만.... 그 누구도 "
+"사령관의 부하들이 이 물자들을 암시장에 팔아넘겨, 병사들의 봉급을 위한 기금을 만드는 것을 막을 수 없을 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6FairTradeSelling::DefaultResolutionDescription
@@ -22173,6 +22227,8 @@ msgid ""
 "sold the surplus state resources. The gold received from these criminals "
 "will serve a just cause."
 msgstr ""
+"사령관의 부하들이 암시장의 구매자들과 접촉했고, 잉여 국가 자원들을 성공적으로 판매했습니다. 이 범죄행위로 벌어들인 금화는 대의를 위해 "
+"쓰일 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Knowledge::LocalizedDescription
@@ -22182,6 +22238,8 @@ msgid ""
 "warehouse. For a small amount, they are ready to assist the servants of the "
 "Commander in such a delicate matter as the plundering of state property."
 msgstr ""
+"모든 재무부에는 탐욕스러운 서기관이 있습니다. 모든 창고에는 불성실한 경비원이 있습니다. 돈을 조금 쓴다면, 비밀리에 왕실 금고를 털 수 "
+"있도록 사령관의 부하들을 도와줄 것입니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Knowledge::DefaultResolutionDescription
@@ -22189,19 +22247,19 @@ msgctxt "92e69790-96e1-4045-b772-f64031a34b64"
 msgid ""
 "The Commander's servants bribed the right people in Nerosyan and provided an "
 "additional flow of resources."
-msgstr ""
+msgstr "사령관의 부하들은 네로시안의 적절한 사람들에게 뇌물을 뿌렸고, 추가적인 수입 수단을 사용할 수 있게 되었습니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Salvaging::m_MechanicalDescription
 msgctxt "54c872c2-52e3-4aaa-b2e7-3a3e44ce3d92"
 msgid "Adds 750 Materials Points."
-msgstr ""
+msgstr "물자 점수가 750 증가합니다."
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Salvaging::LocalizedName
 msgctxt "9a5e02ef-b500-45c6-983e-140ced5c23fa"
 msgid "Acquiring Unclaimed Property"
-msgstr ""
+msgstr "미소유 재산 취득"
 
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = Logistics6Salvaging::LocalizedDescription
