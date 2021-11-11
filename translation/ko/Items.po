@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-05 04:37+0000\n"
-"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
+"PO-Revision-Date: 2021-11-11 12:24+0000\n"
+"Last-Translator: darkgaia <darkgaia@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -3818,7 +3818,7 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} 17) or become prone."
 msgstr ""
 "이 +1 판금 흉갑의 착용자가 돌격 {g|Encyclopedia:Combat_Maneuvers}전법{/g}을 적중시킨 경우, 상대는 "
-"추가로 {g|Encyclopedia:Dice}1d6{/g}의 {g|Encyclopedia:Damage_Type}부수기 피해{/g}를 "
+"{g|Encyclopedia:Dice}1d6{/g}의 {g|Encyclopedia:Damage_Type}부수기 피해{/g}를 추가로 "
 "입으며, {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} 17)"
 "에 실패할 경우 쓰러집니다."
 
@@ -3826,7 +3826,7 @@ msgstr ""
 #. Path = LoneWolfsScalemailItem::m_DisplayNameText
 msgctxt "fab10ab1-2d4f-4551-bf18-7f88dcc376d1"
 msgid "Lone Wolf's Scale Mail"
-msgstr ""
+msgstr "고독한 늑대의 미늘갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = LoneWolfsScalemailItem::m_DescriptionText
@@ -3838,6 +3838,10 @@ msgid ""
 "against flying and {g|Encyclopedia:Incorporeal_Touch_Attack}incorporeal{/g} "
 "creatures."
 msgstr ""
+"이 +3 미늘갑옷은 착용자를 {g|Encyclopedia:Flanking}협공{/g} 상태에 면역되도록 하며, 비행하거나 "
+"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g}인 크리처의 공격에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +3 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MarkOfTheGuardianArmorItem::m_DisplayNameText
@@ -3856,8 +3860,8 @@ msgid ""
 "a 5th level cleric."
 msgstr ""
 "이 +5 전신 판금갑옷은 착용자에게 {g|Encyclopedia:Energy_Resistance}음에너지 저항{/g} 30, 화염 저항 "
-"10, 산성 저항 10, 냉기 저항 10 및 전기 저항 10을 제공합니다. 또한 착용자에게 하루에 한번 5레벨 성직자의 타오르는 빛 시전 "
-"능력을 제공합니다."
+"10, 산성 저항 10, 냉기 저항 10 및 전기 저항 10을 제공합니다. 또한 착용자에게 하루에 한번 5레벨 성직자의 타오르는 빛 주문 "
+"시전 능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MarkOfTheGuardianArmorItem::m_FlavorText
@@ -4212,12 +4216,14 @@ msgid ""
 "competence {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}"
 "saving throws{/g} against movement-impairing effects."
 msgstr ""
+"이 +2 털가죽 마갑은 착용자에게 냉기 저항 10과 이동 방해 효과에 대한 {g|Encyclopedia:Saving_Throw}저항 "
+"굴림{/g}에 +2 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MysticGraceItem::m_DisplayNameText
 msgctxt "b6bb466c-6f30-42dd-b7a8-00a2e5896b29"
 msgid "Mystic Grace"
-msgstr ""
+msgstr "현묘한 품격"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = MysticGraceItem::m_DescriptionText
@@ -4874,7 +4880,7 @@ msgstr ""
 #. Path = RoyalGuardsBardingItem::m_DisplayNameText
 msgctxt "a1a522c1-249b-449e-a48e-4e72bbf7aef9"
 msgid "Royal Guard's Barding"
-msgstr "충성스러운 수호자의 마갑"
+msgstr "근위대의 마갑"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = RoyalGuardsBardingItem::m_DescriptionText
@@ -4893,7 +4899,7 @@ msgstr ""
 #. Path = RoyalMessengersChainshirtItem::m_DisplayNameText
 msgctxt "df3606f2-d416-4109-9541-2c266a860602"
 msgid "Royal Messenger's Chainshirt"
-msgstr ""
+msgstr "왕실 전령의 사슬조끼"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = RoyalMessengersChainshirtItem::m_DescriptionText
@@ -4904,6 +4910,9 @@ msgid ""
 "saving throws{/g} and a +10 competence bonus on {g|Encyclopedia:Mobility}"
 "Mobility checks{/g}."
 msgstr ""
+"이 +4 미스랄 사슬조끼는 착용자의 반사 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4의 "
+"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:Mobility}기동성{/g} 판정에 +10 능숙 "
+"보너스를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = SageArmorItem::m_DisplayNameText
@@ -55723,7 +55732,7 @@ msgstr "광휘"
 #. Path = RadianceMasterwork::m_DescriptionText
 msgctxt "d350d785-b8e4-4c57-b110-c2c8f296908b"
 msgid "This is cold iron masterwork longsword."
-msgstr ""
+msgstr "이 무기는 명품 한철 장검입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = RadianceMasterwork::m_FlavorText
@@ -55744,18 +55753,19 @@ msgid ""
 "The brave paladin Yaniel performed many spectacular feats with this sword, "
 "Radiance, back in the day. The people of Mendev still worship it as a relic."
 msgstr ""
+"용맹한 팔라딘 야니엘은 과거에 이 검, 광휘와 함께 수많은 업적을 남겼습니다. 멘데브 사람들은 지금도 이 검을 성물처럼 여깁니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = RadiancePlus1ITem::m_DescriptionText
 msgctxt "652a828e-8ca0-4aa9-9d25-434bcae498ce"
 msgid "This weapon is a +1 cold iron longsword."
-msgstr ""
+msgstr "이 무기는 +1 한철 장검입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = RadiancePlus2::m_DescriptionText
 msgctxt "84026c14-d8a9-423d-8987-cbcc2d6b3994"
 msgid "This weapon is a +2 cold iron longsword."
-msgstr ""
+msgstr "이 무기는 +2 한철 장검입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = RadiantAdamantineSaiPlus3Item::m_DisplayNameText
@@ -61701,6 +61711,16 @@ msgid ""
 "than its actual bonus. It also deals an extra {g|Encyclopedia:Dice}2d6{/g} "
 "points of {g|Encyclopedia:Damage}damage{/g} against such foes."
 msgstr ""
+"이 무기는 +4 한철 장검입니다. {g|Encyclopedia:Alignment}악 성향{/g} 신화적 크리처의 손에서 이 검은 생명체 "
+"파멸 복수자가 됩니다. 이 신성한 무기는 착용자와 그 근처에 있는 모든 대상에게 5+착용자의 "
+"{g|Encyclopedia:Class_Level}클래스 레벨{/g}만큼의 {g|Encyclopedia:Spell_Resistance}"
+"주문 저항{/g}을 제공합니다. 또한 이 무기는 착용자가 착용자의 클래스 레벨에 따른 상급 "
+"마법해제({g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}당 1회)를 사용할 수 있게 합니다. 마법 해제(지역) 형식으로만 사용할 "
+"수 있으며, 마법 해제(대상)이나 주문 받아치기로는 사용할 수 없습니다.\n"
+"생명체 파멸 : 파멸 무기는 특정 적들에게 특히 유효합니다. 대상이 되는 적에게, 이 무기의 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}는 원래 보너스에 +2를 더한 값이 됩니다. 또한 해당 적들에게 "
+"{g|Encyclopedia:Dice}2d6{/g}점의 추가 {g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = Yaniel_Longsword4HolyAvenger::m_DescriptionText
@@ -61721,6 +61741,17 @@ msgid ""
 "{g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Damage}damage{/g} "
 "against all creatures of evil {g|Encyclopedia:Alignment}alignment{/g}."
 msgstr ""
+"이 무기는 +4 한철 장검입니다. 팔라딘 또는 {g|Encyclopedia:Alignment}선 성향{/g} 신화적 크리처의 손에서 이 "
+"검은 성스러운 복수자가 됩니다. 이 신성한 무기는 착용자와 그 근처에 있는 모든 대상에게 5+착용자의 "
+"{g|Encyclopedia:Class_Level}클래스 레벨{/g}만큼의 {g|Encyclopedia:Spell_Resistance}"
+"주문 저항{/g}을 제공합니다. 또한 이 무기는 착용자가 착용자의 클래스 레벨에 따른 상급 "
+"마법해제({g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}당 1회)를 사용할 수 있게 합니다. 마법 해제(지역) 형식으로만 사용할 "
+"수 있으며, 마법 해제(대상)이나 주문 받아치기로는 사용할 수 없습니다.\n"
+"신성 : 신성 무기에는 성스러운 힘이 부여되어 있습니다. 이 힘은 무기를 선 성향으로 만들어 관련 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 무시하도록 합니다. 또한 모든 악 "
+"{g|Encyclopedia:Alignment}성향{/g} 크리처에게 {g|Encyclopedia:Dice}2d6{/g} 점의 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = Yaniel_Longsword6BaneLiving::m_DescriptionText
@@ -61741,6 +61772,16 @@ msgid ""
 "than its actual bonus. It also deals an extra {g|Encyclopedia:Dice}2d6{/g} "
 "points of {g|Encyclopedia:Damage}damage{/g} against such foes."
 msgstr ""
+"이 무기는 +6 한철 장검입니다. {g|Encyclopedia:Alignment}악 성향{/g} 신화적 크리처의 손에서 이 검은 생명체 "
+"파멸 복수자가 됩니다. 이 신성한 무기는 착용자와 그 근처에 있는 모든 대상에게 5+착용자의 "
+"{g|Encyclopedia:Class_Level}클래스 레벨{/g}만큼의 {g|Encyclopedia:Spell_Resistance}"
+"주문 저항{/g}을 제공합니다. 또한 이 무기는 착용자가 착용자의 클래스 레벨에 따른 상급 "
+"마법해제({g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}당 1회)를 사용할 수 있게 합니다. 마법 해제(지역) 형식으로만 사용할 "
+"수 있으며, 마법 해제(대상)이나 주문 받아치기로는 사용할 수 없습니다.\n"
+"생명체 파멸 : 파멸 무기는 특정 적들에게 특히 유효합니다. 대상이 되는 적에게, 이 무기의 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}는 원래 보너스에 +2를 더한 값이 됩니다. 또한 해당 적들에게 "
+"{g|Encyclopedia:Dice}2d6{/g}점의 추가 {g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = Yaniel_Longsword6HolyAvenger::m_DescriptionText
@@ -61761,6 +61802,17 @@ msgid ""
 "{g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Damage}damage{/g} "
 "against all creatures of evil {g|Encyclopedia:Alignment}alignment{/g}."
 msgstr ""
+"이 무기는 +6 한철 장검입니다. 팔라딘 또는 {g|Encyclopedia:Alignment}선 성향{/g} 신화적 크리처의 손에서 이 "
+"검은 성스러운 복수자가 됩니다. 이 신성한 무기는 착용자와 그 근처에 있는 모든 대상에게 5+착용자의 "
+"{g|Encyclopedia:Class_Level}클래스 레벨{/g}만큼의 {g|Encyclopedia:Spell_Resistance}"
+"주문 저항{/g}을 제공합니다. 또한 이 무기는 착용자가 착용자의 클래스 레벨에 따른 상급 "
+"마법해제({g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}당 1회)를 사용할 수 있게 합니다. 마법 해제(지역) 형식으로만 사용할 "
+"수 있으며, 마법 해제(대상)이나 주문 받아치기로는 사용할 수 없습니다.\n"
+"신성 : 신성 무기에는 성스러운 힘이 부여되어 있습니다. 이 힘은 무기를 선 성향으로 만들어 관련 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 무시하도록 합니다. 또한 모든 악 "
+"{g|Encyclopedia:Alignment}성향{/g} 크리처에게 {g|Encyclopedia:Dice}2d6{/g} 점의 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ZealousMightItem::m_DisplayNameText
@@ -61769,7 +61821,7 @@ msgstr ""
 #. Path = ZealousMightItemAbility::m_DisplayName
 msgctxt "4d42bb9c-6f8f-44d8-9760-b14c6d198687"
 msgid "Zealous Might"
-msgstr ""
+msgstr "광신적인 힘"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ZealousMightItem::m_DescriptionText
@@ -61785,6 +61837,10 @@ msgid ""
 "{g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Damage}damage{/g} to all "
 "enemies adjacent to the target."
 msgstr ""
+"이 +4 신성 글레이브의 착용자의 {g|Encyclopedia:HP}생명점{/g}이 최대치일 때, 착용자가 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 중 첫 번째로 적중시킨 "
+"{g|Encyclopedia:Attack}공격{/g}은 대상 주변에 있는 모든 적들에게 {g|Encyclopedia:Dice}2d6{/g}"
+"점의 추가 {g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = BalorWhipType::m_TypeNameText
