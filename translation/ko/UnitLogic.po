@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-11 12:24+0000\n"
+"PO-Revision-Date: 2021-11-14 17:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -8497,17 +8497,15 @@ msgstr "석순 함정 생성"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Celerity::m_DisplayName
-#, fuzzy
 msgctxt "61f21504-89d6-4daf-95dc-0ac43561b1d4"
 msgid "Celerity — Long"
-msgstr "기민 - 길게"
+msgstr "기민 — 지속"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CelerityShort::m_DisplayName
-#, fuzzy
 msgctxt "ee1a346d-321f-44c1-8658-7bf258378100"
 msgid "Celerity — Short"
-msgstr "기민 - 짧게"
+msgstr "기민 — 순간"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CelestialSmiteEvilAbility::m_DisplayName
@@ -41023,10 +41021,9 @@ msgstr "악으로부터 보호 오라"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AzataRestBaseBuff::m_DisplayName
-#, fuzzy
 msgctxt "6d7abd3c-79f2-4c82-86ff-c9282a1db9ab"
 msgid "Sweet Sleep"
-msgstr "단 잠"
+msgstr "달콤한 잠"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AzataRestBaseBuff::m_Description
@@ -41041,7 +41038,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AzataTreeStrongBuff::m_DisplayName
-#, fuzzy
 msgctxt "264dd37a-8c02-4afc-bb8c-96e0297f618d"
 msgid "Nature's Power"
 msgstr "자연의 힘"
@@ -41057,6 +41053,11 @@ msgid ""
 "{g|Encyclopedia:Damage_Reduction}DR{/g} 10/-, and the effect of freedom of "
 "movement and haste {g|Encyclopedia:Spell}spells{/g}."
 msgstr ""
+"자연의 강력한 힘이 몸을 가득 채웁니다. 당신과 동료들은 {g|Encyclopedia:Attack}명중{/g}, "
+"{g|Encyclopedia:Damage}피해{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 "
+"{g|Encyclopedia:Bonus}보너스{/g}, 30 임시 {g|Encyclopedia:HP}HP{/g}, "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 10/-, 이동의 자유와 가속 "
+"{g|Encyclopedia:Spell}주문{/g}의 효과를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BakedSpiderLegsBuff::m_DisplayName
@@ -41144,12 +41145,18 @@ msgid ""
 "deal {g|Encyclopedia:Dice}3d6{/g} unholy {g|Encyclopedia:Damage}damage{/g} "
 "to all your allies each round."
 msgstr ""
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 없고, {g|Encyclopedia:Wisdom}지혜{/g}에 -6 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 매 {g|Encyclopedia:Combat_Round}라운드{/g}"
+"마다 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 실패하면 "
+"{g|Encyclopedia:Speed}속도{/g}에 -5 페널티를 받습니다. 속도가 0이 되면 석화되고 바포메트의 석상이 됩니다. 이 "
+"상태에서 매 라운드마다 모든 아군에게 {g|Encyclopedia:Dice}3d6{/g} 부정 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = Baphomet_AngelicDebuff::m_DisplayName
 msgctxt "acc7e09a-29de-4a10-a3ec-b77d0e509c92"
 msgid "Angelic Wrath"
-msgstr ""
+msgstr "천사의 분노"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = Baphomet_AngelicDebuff::m_Description
@@ -41294,6 +41301,8 @@ msgid ""
 "{g|Encyclopedia:NaturalAttack}natural attacks{/g} count as if they were "
 "silver and cold iron."
 msgstr ""
+"10 레벨에 흉포성 고무는 영향받은 모든 아군에게 마법의 송곳니 {g|Encyclopedia:Spell}주문{/g}의 효과를 부여합니다. "
+"이에 더해 모든 {g|Encyclopedia:NaturalAttack}자연 공격{/g}은 은 또는 한철로 취급됩니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BeastTamerInspireFerocity14EffectBuff::m_Description
@@ -42057,11 +42066,10 @@ msgstr "건강 판정에 -2 페널티를 받습니다."
 #. Path = BloodragerSerpentineFangPoisonEffectBuff8::m_DisplayName
 msgctxt "890453ef-55cc-406e-9c09-5591cb131476"
 msgid "Serpentine Poison"
-msgstr ""
+msgstr "독사 독"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BloodragerSerpentineFangPoisonEffectBuff::m_Description
-#, fuzzy
 msgctxt "6a47b27c-cf57-4799-8fa4-25e01d782e87"
 msgid ""
 "Bite; {g|Encyclopedia:Saving_Throw}Save{/g}: Fortitude\n"
@@ -42074,7 +42082,7 @@ msgstr ""
 "물기; {g|Encyclopedia:Saving_Throw}내성{/g}: 인내\n"
 "빈도: 4 라운드 동안 {g|Encyclopedia:Combat_Round}라운드{/g}당 1회\n"
 "효과: 1 {g|Encyclopedia:Constitution}건강{/g} {g|Encyclopedia:Damage}피해{/g}\n"
-"{g|Encyclopedia:Healing}치료{/g}: 내성 1회 성공\n"
+"{g|Encyclopedia:Healing}치료{/g}: 내성 1회 연속 성공\n"
 "내성 {g|Encyclopedia:DC}DC{/g}는 건강에 기반합니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -42098,7 +42106,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BloodragerSerpentineFangPoisonEffectBuff8::m_Description
-#, fuzzy
 msgctxt "3b77a674-fc35-41f7-b2c5-6781b4bb7434"
 msgid ""
 "Bite; {g|Encyclopedia:Saving_Throw}Save{/g}: Fortitude\n"
@@ -42111,7 +42118,7 @@ msgstr ""
 "물기; {g|Encyclopedia:Saving_Throw}내성{/g}: 인내\n"
 "빈도: 5 라운드 동안 {g|Encyclopedia:Combat_Round}라운드{/g}당 1회\n"
 "효과: 1d2 {g|Encyclopedia:Constitution}건강{/g} {g|Encyclopedia:Damage}피해{/g}\n"
-"{g|Encyclopedia:Healing}치료{/g}: 내성 1회 성공\n"
+"{g|Encyclopedia:Healing}치료{/g}: 내성 1회 연속 성공\n"
 "내성 {g|Encyclopedia:DC}DC{/g}는 건강에 기반합니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -42130,7 +42137,7 @@ msgstr "개화가 주입된 거미의 독"
 #. Path = BodakDeathGazeBuff::m_DisplayName
 msgctxt "9280bab4-5540-453f-9b23-1a41ab26fcf8"
 msgid "Death Gaze"
-msgstr ""
+msgstr "죽음의 응시"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = BodakDeathGazeBuff::m_Description
@@ -42480,7 +42487,7 @@ msgstr ""
 #. Path = CarnivorousCrystal_Buff_EntrapCristallized::m_DisplayName
 msgctxt "b7e463ad-6954-4fa9-ad30-d2c5f6279a9f"
 msgid "Crystallized"
-msgstr ""
+msgstr "결정화"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = CarnivorousCrystal_Buff_EntrapCristallized::m_Description
@@ -42490,6 +42497,8 @@ msgid ""
 "{g|Encyclopedia:Injury_Death}unconscious{/g}. Stone to flesh "
 "{g|Encyclopedia:Spell}spell{/g} removes this condition."
 msgstr ""
+"결정화된 캐릭터는 수정으로 변해 {g|Encyclopedia:Injury_Death}의식불명{/g}상태로 취급됩니다. 석화 해제 "
+"{g|Encyclopedia:Spell}주문{/g}으로 이 상태를 제거할 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = CarnivorousCrystal_Buff_EntrapEntangled::m_DisplayName
@@ -43175,7 +43184,7 @@ msgstr ""
 #. Path = CookieDemonSculptureBuff::m_DisplayName
 msgctxt "b62e0fed-1b00-4bde-bed3-61c5b816bd09"
 msgid "Cookie For a Song"
-msgstr ""
+msgstr "노래를 위한 쿠키"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = CookieDemonSculptureBuff::m_Description
@@ -43396,6 +43405,8 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} against all "
 "{g|Encyclopedia:Spell}spells{/g} you cast by 1 for a day."
 msgstr ""
+"콧물 빠진 크림 수프를 먹으면 당신이 시전하는 모든 {g|Encyclopedia:Spell}주문{/g}에 대한 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}의 {g|Encyclopedia:DC}DC{/g}가 1 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = CrippledIndicatorBuff::m_DisplayName
@@ -46928,7 +46939,7 @@ msgstr ""
 #. Path = HermitRevelationReclusesStride5Buff::m_DisplayName
 msgctxt "f94214f4-f12e-4c8c-9160-4cdd4603423f"
 msgid "Recluse's Stride"
-msgstr ""
+msgstr "은둔자의 걸음"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = HermitRevelationReclusesStride5Buff::m_Description
@@ -47347,6 +47358,8 @@ msgid ""
 "This sign will make the servants of the demon Jerribeth acknowledge you. If "
 "you defeat Xanthir Vang, it will help Jerribeth capture his locust swarm."
 msgstr ""
+"이 표식은 데몬 제리베스의 하수인들이 당신을 알아볼 수 있도록 합니다. 만일 당신이 잔티르 뱅을 쓰러뜨린다면, 이는 제리베스가 그의 "
+"메뚜기 떼를 포획하는 것을 도울 것입니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = JeweledRiceBuff::m_DisplayName
@@ -47700,13 +47713,13 @@ msgstr "만티코어 독"
 #. Path = MarvelousEndurance10DRBuff::m_DisplayName
 msgctxt "94455dfc-85f4-468c-a123-2445f6050a8f"
 msgid "Marvelous Endurance — DR 10/-"
-msgstr ""
+msgstr "경이로운 인내심 — DR 10/-"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MarvelousEnduranceTempHPBuff::m_DisplayName
 msgctxt "fbf25c75-cefd-4688-b9a4-7871b595a35c"
 msgid "Marvelous Endurance — Temporary HP"
-msgstr ""
+msgstr "경이로운 인내심 — 임시 HP"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MasterHealingTechniqueDireConditionsBuff::m_Description
@@ -47714,13 +47727,13 @@ msgctxt "7037c983-088d-4857-b6f0-2b76361d9919"
 msgid ""
 "Dire Conditions ({g|Encyclopedia:DC}DC{/g} 35): Blinded, paralyzed, and "
 "stunned."
-msgstr ""
+msgstr "극심한 상태 ({g|Encyclopedia:DC}DC{/g} 35): 실명, 마비, 기절."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MasterHealingTechniqueMajorConditionsBuff::m_Description
 msgctxt "00db70a7-57ff-45a9-a67b-2f054757578a"
 msgid "Major Conditions (DC 25): Dazed and staggered."
-msgstr ""
+msgstr "중대한 상태 (DC 25): 몽롱, 비틀거림."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MasterHealingTechniqueMinorConditionsBuff::m_Description
@@ -47728,7 +47741,7 @@ msgctxt "5710c28c-d696-4e7f-b116-1f36dd5890bb"
 msgid ""
 "Minor Conditions ({g|Encyclopedia:DC}DC{/g} 20): Fatigued, shaken, and "
 "sickened."
-msgstr ""
+msgstr "경미한 상태 ({g|Encyclopedia:DC}DC{/g} 20): 피로, 동요, 고통."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MasterHealingTechniqueSevereConditionsBuff::m_Description
@@ -47736,7 +47749,7 @@ msgctxt "05bbe2ee-f506-44e1-8afc-4c8dad8e889e"
 msgid ""
 "Severe Conditions ({g|Encyclopedia:DC}DC{/g} 30): Confused, exhausted, "
 "frightened, and nauseated."
-msgstr ""
+msgstr "심각한 상태 ({g|Encyclopedia:DC}DC{/g} 30): 혼란, 탈진, 피로, 구토."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MastodonSteakBuff::m_DisplayName
@@ -47790,7 +47803,7 @@ msgctxt "05477c99-2049-4902-884a-f2771a6f9bf2"
 msgid ""
 "Eating a midnight soup provides you with 1.5 temporary hit point per level "
 "for a day."
-msgstr ""
+msgstr "자정 수프를 먹으면 하루 동안 1.5 임시 생명점을 받습니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MindBlankBuff::m_Description
@@ -47808,7 +47821,7 @@ msgstr ""
 #. Path = ModifiedMandragoraSuicideBuff::m_DisplayName
 msgctxt "625b2e4f-d383-415f-b0b8-b348ea7c1a68"
 msgid "Suicide"
-msgstr ""
+msgstr "자살"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MonitorLizardPoisonBuff::m_DisplayName
@@ -47865,7 +47878,7 @@ msgstr ""
 #. Path = MosaicShinyStuffBuff::m_DisplayName
 msgctxt "8072451e-087b-4ba6-9c65-5d10cd4b4a23"
 msgid "Shiny Dreams"
-msgstr ""
+msgstr "빛나는 꿈"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MosaicShinyStuffBuff::m_Description
@@ -47890,7 +47903,7 @@ msgstr ""
 #. Path = MountedBuff::m_DisplayName
 msgctxt "875198fc-796b-412f-b06e-b8e1abcd8927"
 msgid "Mounted"
-msgstr ""
+msgstr "탑승"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MulledWineBuff::m_Description
@@ -47988,7 +48001,7 @@ msgstr ""
 #. Path = NegativeEnergyEquilibriumBuff::m_DisplayName
 msgctxt "47da76d2-26b2-44a6-b5eb-9b5ec0908a16"
 msgid "Energy Equilibrium — Negative"
-msgstr ""
+msgstr "에너지 균형 — 음"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = NegativeEnergyEquilibriumBuff::m_Description
@@ -48158,7 +48171,7 @@ msgstr ""
 #. Path = OldEarthShriekBeltBuff::m_DisplayName
 msgctxt "dfd33f58-c960-4355-8b9d-2db4d07e461a"
 msgid "Exploding Head"
-msgstr ""
+msgstr "폭발하는 머리"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = OnionSoupBuff::m_Description
@@ -48208,7 +48221,7 @@ msgstr ""
 #. Path = OptimisticSmileBuff::m_DisplayName
 msgctxt "dddefcfe-0792-44b7-9743-de88c65c3ee1"
 msgid "Optimistic Smile"
-msgstr ""
+msgstr "낙관적인 웃음"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = OracleRevelationHeatAuraBuff::m_Description
@@ -49245,7 +49258,7 @@ msgstr ""
 #. Path = PositiveEnergyEquilibriumBuff::m_DisplayName
 msgctxt "4b866c32-6f99-4ced-bac0-e30bfc90f0e7"
 msgid "Energy Equilibrium — Positive"
-msgstr ""
+msgstr "에너지 균형 — 양"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = PositiveEnergyEquilibriumBuff::m_Description
@@ -49399,7 +49412,7 @@ msgstr ""
 #. Path = ProfaneVigorBuff::m_DisplayName
 msgctxt "def9ae94-ffc8-436f-a2ef-c8290a202035"
 msgid "Profane Vigor"
-msgstr ""
+msgstr "불경한 활력"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ProfaneVigorBuff::m_Description
@@ -49557,7 +49570,7 @@ msgstr ""
 #. Path = RadianceEffectBuff::m_DisplayName
 msgctxt "d71b1c7a-3771-4c18-9841-b377982fdfd9"
 msgid "Radiant Protection"
-msgstr ""
+msgstr "광휘의 보호"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = RadianceEffectBuff::m_Description
@@ -49567,6 +49580,8 @@ msgid ""
 "resistance{/g} equal to 5 + the wielders's {g|Encyclopedia:Class_Level}class "
 "level{/g}."
 msgstr ""
+"광휘는 착용자에게 5+착용자의 {g|Encyclopedia:Class_Level}클래스 레벨{/g}만큼의 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 부여합니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = RageBuff::m_DisplayName
@@ -49700,7 +49715,7 @@ msgstr "원격 손재주"
 #. Path = RealmProtectorAreaBuff::m_DisplayName
 msgctxt "20a48c31-878e-4045-a525-c316189b942c"
 msgid "Area"
-msgstr ""
+msgstr "지역"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = RealmProtectorCountBuff::m_DisplayName
@@ -51207,10 +51222,9 @@ msgstr "메타매직 숙달 - 연장"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = Unlootable::m_DisplayName
-#, fuzzy
 msgctxt "c05a4186-3481-4d8e-93a6-4f6118c1e203"
 msgid "Unlootable"
-msgstr "묶이지 않음"
+msgstr "주울수 없음"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = VampiricInfusionEffectBuff::m_DisplayName

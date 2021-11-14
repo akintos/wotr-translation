@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-11 12:24+0000\n"
-"Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
+"PO-Revision-Date: 2021-11-14 17:24+0000\n"
+"Last-Translator: PonderousBus901 <lwsj9412@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "복수자 시올라"
 #. Path = Warlord_event_66_2_Fighter::LocalizedName/String
 msgctxt "45d1fdfb-322e-4b32-ad14-05389429999b"
 msgid "Pete the Magical Sword"
-msgstr "마법 검의 피트"
+msgstr "마법검의 피트"
 
 #. Type = Kingmaker.Armies.BlueprintArmyLeader
 #. Path = WarlordLeaderEvent81::m_LeaderName
@@ -104,7 +104,7 @@ msgstr "늙은 바룻"
 #. Path = Warlord_7_Wizard::LocalizedName/String
 msgctxt "c63a146b-7d3f-4ecd-a87e-5a8c59638ac2"
 msgid "Magister Pilkwell"
-msgstr ""
+msgstr "마지스터 필크웰"
 
 #. Type = Kingmaker.Armies.BlueprintArmyLeader
 #. Path = WarlordLeaderMage2::m_LeaderName
@@ -113,7 +113,7 @@ msgstr ""
 #. Path = Warlord_10_Wizard::LocalizedName/String
 msgctxt "fc8db276-b3d9-4f8b-b6c2-694aadee5014"
 msgid "Baroness Gaunther"
-msgstr "군터 남작 부인"
+msgstr "군터 남작부인"
 
 #. Type = Kingmaker.Armies.BlueprintArmyLeader
 #. Path = WarlordLeaderMage3::m_LeaderName
@@ -129,10 +129,9 @@ msgstr "세츠나 샤이"
 #. 
 #. Type = Kingmaker.Blueprints.BlueprintUnit
 #. Path = Warlord_12_Wizard::LocalizedName/String
-#, fuzzy
 msgctxt "af111e87-3293-4022-8bad-35e883aa0af5"
 msgid "Chief Ageboya"
-msgstr "우두머리 아게보야"
+msgstr "족장 아게보야"
 
 #. Type = Kingmaker.Armies.BlueprintArmyLeader
 #. Path = WarlordLeaderRanger1::m_LeaderName
@@ -222,13 +221,14 @@ msgstr "오단"
 #. Path = LocustSwarm::Name
 msgctxt "23645efa-2ab9-4da6-af37-e3242c441b0b"
 msgid "Locust Swarm"
-msgstr "탐식의 무리"
+msgstr "메뚜기 무리"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Aeon1SpeedStats::LocalizedName
+#, fuzzy
 msgctxt "0648034c-ecad-4d74-af4f-2aa84e53415a"
 msgid "Reliable"
-msgstr ""
+msgstr "믿을 수 있는"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Aeon1SpeedStats::LocalizedDescription
@@ -236,7 +236,7 @@ msgctxt "75cd8f38-e658-4d6f-9641-dd60dc7baa87"
 msgid ""
 "Army has +10 additional movement points. The general has a +1 bonus to "
 "Attack and Defense, and a +3 bonus to Power."
-msgstr "부대는 +10 의 추가 이동점수를 가집니다. 장군은 공격과 방어에 +1 의 보너스를 받고, 파워에 +3 의 보너스를 받습니다."
+msgstr "부대가 추가 이동 점수 +10 을 얻습니다. 장군은 공격과 방어에 +1 의 보너스를 받고, 마력에 +3 의 보너스를 받습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Aeon3Spikes::LocalizedName
@@ -245,7 +245,7 @@ msgstr "부대는 +10 의 추가 이동점수를 가집니다. 장군은 공격�
 #. Path = ArmyAeon3Spikes::m_DisplayName
 msgctxt "023b137a-658d-4286-bd26-ec682e7af2a8"
 msgid "Retaliation of the Chain"
-msgstr "사슬의 보복"
+msgstr "사슬의 앙갚음"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Aeon3Spikes::LocalizedDescription
@@ -255,7 +255,7 @@ msgstr "사슬의 보복"
 msgctxt "733d6d67-0566-484a-940b-99f25d9c4b83"
 msgid ""
 "All units deal (1d6 + 3) physical damage to the enemy when damaged in melee."
-msgstr "모든 유닛은 근접 공격으로 피해를 입을 시, 적에게 (1d6 + 3)의 물리 피해를 입히며 보복합니다."
+msgstr "모든 유닛은 근접 공격으로 피해를 입을 시, 적에게 (1d6 + 3) 물리 피해를 입힙니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Aeon5BaneOfDemons::LocalizedName
@@ -286,7 +286,7 @@ msgstr "데몬의 파멸"
 msgctxt "d6a1fc6a-058a-453c-85db-fd91160d2362"
 msgid ""
 "All enemy demon units take ((Power×Power + 5)d6) magic damage every round."
-msgstr "모든 데몬 유닛은 매 라운드마다 ((Power×Power + 5)d6)의 마법 피해를 입습니다."
+msgstr "모든 데몬 유닛은 매 라운드마다 ((마력×마력 + 5)d6)의 마법 피해를 입습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Angel3BoltOfJustice::LocalizedName
@@ -308,8 +308,8 @@ msgid ""
 "((Power×Power + 5)×2d6) damage, other units — ((Power×Power + 5)d6) damage. "
 "This is a Divine spell."
 msgstr ""
-"대상 유닛에게 마법 피해를 입힙니다. 데몬과 언데드 유닛은 ((Power×Power + 5)×2d6)의 피해를 받고, 다른 유닛은 — "
-"((Power×Power + 5)d6)의 피해를 받습니다. 이 주문은 신성 마법입니다."
+"대상 유닛에게 마법 피해를 입힙니다. 데몬과 언데드 유닛은 ((마력×마력+ 5)×2d6) 피해를 받고, 다른 유닛은 ((마력×마력 + "
+"5)d6) 피해를 받습니다. 이것은 신성 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Angel3SummonHeavenlyHost::LocalizedName
@@ -341,7 +341,7 @@ msgctxt "5008d015-8d3d-4de9-a593-175c5de3f8cc"
 msgid ""
 "Summons (2 + mythic rank) {g|MovanicDevas}[Movanic Devas]{/g} to the target "
 "army."
-msgstr "{g|MovanicDevas}[모바닉 데바]{/g} (2 + mythic rank) 를 목표 군대에 소환합니다."
+msgstr "(2 + 신화 레벨) {g|MovanicDevas}[모바닉 데바]{/g}를 대상 부대에 소환합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Angel4BladeOfTheSun::LocalizedName
@@ -361,7 +361,7 @@ msgctxt "f66d184a-7be1-4346-b13e-e6edc4e6c4f7"
 msgid ""
 "Deals ((Power×Power+ 5)d8) magic damage to every enemy unit on the vertical "
 "line. This is a Divine spell."
-msgstr "직선상의 모든 적 유닛에게 ((Power×Power+ 5)d8)의 마법 피해를 입힙니다. 이 주문은 신성 마법 입니다."
+msgstr "직선상의 모든 적 유닛에게 ((마력×마력 + 5)d8)의 마법 피해를 입힙니다. 이것은 신성 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Angel4Infirmary::LocalizedName
@@ -419,7 +419,7 @@ msgctxt "e2a51c49-a6b5-465a-b9c1-6829f7867ba0"
 msgid ""
 "The general cast spells with the Arcane descriptor as if he has a +5 bonus "
 "to Power per level of this feat."
-msgstr "지휘관이 비전 기술어가 붙은 주문을 시전할 때, 이 특기의 레벨 × 5 의 power 보너스를 받은 것 처럼 계산됩니다."
+msgstr "지휘관이 비전 기술어를 가진 주문을 시전할 때, 마력에 (이 특기의 레벨 × 5) 보너스를 받습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ArmySupervisionRank1::LocalizedName
@@ -441,7 +441,7 @@ msgstr "전술가 I"
 msgctxt "d0a82c1e-b3cd-4826-901e-b5ec9ec1d2cd"
 msgid ""
 "Increases the maximum size of the army by 1 unit per level of this feat."
-msgstr "이 특기의 레벨 당, 지휘관이 이끄는 부대의 최대 규모가 1 증가합니다."
+msgstr "이 특기의 레벨 당 지휘관이 이끄는 부대의 최대 규모가 1 증가합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ArmySupervisionRank2::LocalizedName
@@ -483,7 +483,7 @@ msgstr "선택받은 자의 지식"
 #. Path = Event52FlagArueshalaeKnowledgeForTheChosenOnes::Description
 msgctxt "542a0510-b126-46d4-8f0d-5eea578e8a13"
 msgid "The general has a +3 bonus to Power and a +10 bonus to Energy."
-msgstr "장군은 Power에 +3 의 보너스를 받고, 에너지에 +10 의 보너스를 받습니다."
+msgstr "지휘관이 마력에 +3 보너스, 에너지에 +10 보너스를 받습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata1InspiredAdvance::LocalizedName
@@ -501,7 +501,7 @@ msgstr "장군은 Power에 +3 의 보너스를 받고, 에너지에 +10 의 보�
 #. Path = Azata1InspiredAdvanceLeaderBuff::m_DisplayName
 msgctxt "b311e769-dbda-4394-9a1e-b5b0d7a5abdb"
 msgid "Inspired Advance"
-msgstr "탁월한 진격"
+msgstr ""
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata1InspiredAdvance::LocalizedDescription
@@ -522,8 +522,7 @@ msgid ""
 "All units gain a +2 bonus to speed and a +1 bonus to damage for each square "
 "they moved until the end of round. This is a mind-affecting effect."
 msgstr ""
-"모든 유닛은 지나간 사각형 1 칸 마다 속도에 +2 보너스와 피해에 +1 의 보너스를 받습니다. 이것은 정신 영향 효과이며, 라운드가 "
-"끝나기 전까지만 지속됩니다."
+"한 라운드 동안, 모든 유닛이 지나간 타일 1 칸 마다 속도에 +2 보너스와 피해에 +1 보너스를 받습니다. 이것은 정신 영향 효과입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata1SongOfSeasons::LocalizedName
@@ -541,7 +540,7 @@ msgstr ""
 #. Path = Azata1SongOfSeasonsLeaderBuff::m_DisplayName
 msgctxt "42fe16d7-667b-45c8-89a0-79455122b4a3"
 msgid "Song of Seasons"
-msgstr "계절의 노래"
+msgstr "사계절의 노래"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata1SongOfSeasons::LocalizedDescription
@@ -563,8 +562,8 @@ msgid ""
 "units and deals ((Power×Power + 5)d6) magic damage to adjacent enemy units "
 "at the end of the round. This is a Arcane spell with a heal effect."
 msgstr ""
-"부대의 모든 유닛은 라운드가 종료될 때, 인접한 아군 유닛의 HP를 ((Power×Power + 5)d6) 회복하고, 인접한 적 유닛의 "
-"HP에 ((Power×Power + 5)d6) 의 마법 피해를 입힙니다. 이 주문은 치유 효과가 있는 비전 마법입니다."
+"라운드가 종료될 때 부대의 모든 유닛이 인접한 아군 유닛의 HP를 ((마력×마력 + 5)d6) 회복하고, 인접한 적 유닛의 HP에 "
+"((마력×마력 + 5)d6) 마법 피해를 입힙니다. 이것은 치유 효과를 가진 비전 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata1SongOfThePeople::LocalizedName
@@ -582,7 +581,7 @@ msgstr ""
 #. Path = Azata1SongOfThePeopleLeaderBuff::m_DisplayName
 msgctxt "31bf945f-d671-40c0-9da1-ae2d11daba83"
 msgid "Heroic Ballad"
-msgstr "영웅들의 발라드"
+msgstr "영웅적인 발라드"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata1SongOfThePeople::LocalizedDescription
@@ -604,8 +603,8 @@ msgid ""
 "+4 bonus to damage for 1 round. This is a Arcane spell with is a mind-"
 "affecting effect."
 msgstr ""
-"측면 공격 시, 공격에 +4 보너스를 적용하고 (+2 대신), 피해에 +4 보너스를 부여합니다. 이것은 정신 영향 효과이며, 라운드가 "
-"끝나기 전까지만 지속됩니다. 이 주문은 비전 마법 입니다."
+"1 라운드 동안 포위 공격시 명중에 +2 대신 +4 보너스를 받으며, 피해에 +4 보너스를 받습니다. 이것은 비전 주문이며 정신 영향 "
+"효과입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata2SpeedArmy::LocalizedName
@@ -620,7 +619,7 @@ msgstr "케이든 케일리언의 척후병"
 #. Path = Azata2SpeedArmy::LocalizedDescription
 msgctxt "267356a2-fbb3-496e-a95b-4bc5b458b7ac"
 msgid "Army has +10 additional movement points."
-msgstr "부대의 이동력 포인트가 +10 증가합니다."
+msgstr "부대가 추가 이동 점수 +10 을 얻습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata5SongOfTheLastPush::LocalizedName
@@ -651,7 +650,7 @@ msgstr "마지막 공세의 노래"
 msgctxt "611355f3-e992-4d3b-9f9d-8b5ce1445e23"
 msgid ""
 "Target unit gains an additional action for 2 rounds. This is an Arcane spell."
-msgstr "대상 유닛은 2 턴 동안 추가 행동을 얻습니다. 이것은 비전 마법입니다."
+msgstr "대상 유닛은 2 라운드 동안 추가 행동을 얻습니다. 이것은 비전 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata5SongOfTheLastStep::LocalizedName
@@ -669,7 +668,7 @@ msgstr "대상 유닛은 2 턴 동안 추가 행동을 얻습니다. 이것은 �
 #. Path = Azata5SongOfTheLastStepTeleportBuff::m_DisplayName
 msgctxt "ea55fb79-023c-4888-af84-ec727dde95af"
 msgid "Song of the Last Step"
-msgstr ""
+msgstr "마지막 발걸음의 노래"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata5SongOfTheLastStep::LocalizedDescription
@@ -689,7 +688,7 @@ msgctxt "fc08fce1-4a22-4e94-b91d-cfe4eb76bf7b"
 msgid ""
 "All units in the army gain teleport for 1 round and a -5 penalty to "
 "initiative for 3 rounds. This is a Arcane spell."
-msgstr ""
+msgstr "부대의 모든 유닛이 1 라운드 동안 순간이동을 얻고, 3 라운드 동안 우선권에 -5 패널티를 받습니다. 이것은 비전 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata5SongOfTheSecondBreath::LocalizedName
@@ -704,7 +703,7 @@ msgstr ""
 #. Path = Azata5SongOfTheSecondBreathLeaderBuff::m_DisplayName
 msgctxt "1593620e-c1f8-4c0b-8feb-aeb65e94a3b8"
 msgid "Song of the Second Breath"
-msgstr ""
+msgstr "재기의 숨결의 노래"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata5SongOfTheSecondBreath::LocalizedDescription
@@ -1214,7 +1213,7 @@ msgstr ""
 #. Path = Event72ArmyLeaderDestructiveSpells::DisplayName
 msgctxt "c096281c-7739-498d-bd52-bae56fe5ecdb"
 msgid "Destructive Spells"
-msgstr ""
+msgstr "파괴적인 주문"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = DestructiveSpellsLeaderSkill::LocalizedDescription
@@ -1229,7 +1228,7 @@ msgstr ""
 #. Path = Diplomacy7Power::LocalizedName
 msgctxt "157f9a7c-2cfe-4d6c-b5f1-fa527512e661"
 msgid "Excellent Advisors"
-msgstr ""
+msgstr "탁월한 조언자"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Diplomacy7Power::LocalizedDescription
@@ -1306,7 +1305,7 @@ msgstr ""
 #. Path = DivineMagicFact::m_DisplayName
 msgctxt "bde9c56d-84ee-43a0-bdff-722d22cb8df3"
 msgid "Divine Magic"
-msgstr ""
+msgstr "신성 마법"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = DivineMagic::LocalizedDescription
@@ -1317,7 +1316,7 @@ msgctxt "553cc025-e627-428f-8947-561e8746ada8"
 msgid ""
 "The general cast spells with the Divine descriptor as if he has a +5 bonus "
 "to Power per level of this feat."
-msgstr ""
+msgstr "지휘관이 신성 기술어를 가진 주문을 시전할 때, 마력에 (이 특기의 레벨 × 5) 보너스를 받습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Dragon5ManaConsumption::LocalizedName
@@ -1329,7 +1328,7 @@ msgstr ""
 #. Path = Dragon5ManaConsumptionFact::m_DisplayName
 msgctxt "5dbaa26b-6edd-45e0-afdf-48c1c45df607"
 msgid "Dragons' Knowledge"
-msgstr "드래곤의 지식"
+msgstr "드래곤들의 지식"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Dragon5ManaConsumption::LocalizedDescription
@@ -1341,7 +1340,7 @@ msgstr "드래곤의 지식"
 #. Path = Dragon5ManaConsumptionFact::m_Description
 msgctxt "4be9288e-5cb9-45d6-a889-780dd0f919c4"
 msgid "The general has a +8 bonus to Power."
-msgstr ""
+msgstr "지휘관이 마력에 +8 보너스를 받습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = EmergencyOrder::LocalizedName
@@ -1376,7 +1375,7 @@ msgstr ""
 #. Path = Event89FlagTerribleAllergy::DisplayName
 msgctxt "c79cfde0-3545-4b10-92ca-a71465970c08"
 msgid "Terrible Allergy"
-msgstr ""
+msgstr "끔찍한 과민증"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Event89TerribleAllergyLeaderSkill::LocalizedDescription
@@ -1385,7 +1384,7 @@ msgstr ""
 #. Path = Event89FlagTerribleAllergy::Description
 msgctxt "baef3d8f-fcec-4a5c-bf90-87f68ac9070e"
 msgid "Army has -50% movement points."
-msgstr ""
+msgstr "부대의 이동 점수가 50% 감소합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ExampleForSoldiersLeaderSkill::LocalizedName
@@ -1394,7 +1393,7 @@ msgstr ""
 #. Path = FlagExampleForSoldiers::DisplayName
 msgctxt "6e9f344b-1052-4c31-8946-62d000587fa9"
 msgid "Example for the Soldiers"
-msgstr ""
+msgstr "병사들의 귀감"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ExampleForSoldiersLeaderSkill::LocalizedDescription
