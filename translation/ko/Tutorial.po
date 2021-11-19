@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-06 17:24+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2021-11-19 11:24+0000\n"
+"Last-Translator: GoYangiCat <sanghyuk1126@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -242,6 +242,7 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorDexMax::m_DescriptionText
+#, fuzzy
 msgctxt "62824e3c-2ad5-48af-bd1c-69940d03234e"
 msgid ""
 "Maximum {g|Encyclopedia:Dexterity}Dexterity{/g} "
@@ -251,6 +252,10 @@ msgid ""
 "also incur this bonus limitation.\n"
 "This limitation does not affect other abilities that depend on Dexterity."
 msgstr ""
+"최대 {g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Bonus}보너스{/g}는 캐릭터가 그들의 "
+"민첩 능력치로 부터 받을 수 있는 {g|Encyclopedia:Armor_Class}AC{/g} 보너스의 최대치입니다. 이는 갑옷의 "
+"종류에 따라 달라집니다. 타워 실드들 또한 최대 민첩 보너스를 제한합니다.\n"
+"민첩과 관련있는 다른 능력들에는 영향을 미치지 않습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ArmorDexMax::m_SolutionNotFoundText
@@ -387,14 +392,17 @@ msgstr "바드 공연"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BardicPerformance::m_TriggerText
+#, fuzzy
 msgctxt "17f7143c-ffa0-43b3-952c-45c273e647be"
 msgid ""
 "{t|SolutionUnit} in your party can use the bardic performance "
 "{t|SolutionFact} to empower the entire party."
 msgstr ""
+"파티 내 {t|SolutionUnit}는 전체 파티를 강화하기 위해 바드 공연 {t|SolutionFact}을 사용할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BardicPerformance::m_DescriptionText
+#, fuzzy
 msgctxt "e1ea949e-910e-464e-8743-8c985cb05151"
 msgid ""
 "Bardic performance is one of the most effective ways of empowering your "
@@ -406,12 +414,18 @@ msgid ""
 "increases along with the character's progression. Bardic performance can be "
 "enhanced through various {g|Encyclopedia:Feat}feats{/g}."
 msgstr ""
+"바드 공연은 전투 중 당신의 파티를 강화하는 가장 효과적인 방법 중 하나입니다. 1 레벨에는 파티 전체가 "
+"{g|Encyclopedia:Attack}명중{/g}과 {g|Encyclopedia:Damage}피해 굴림{/g}에 +1 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 매 {g|Encyclopedia:Combat_Round}라운드{/g}"
+"마다 공연은 특정한 자원을 요구합니다. 하루에 정해진 횟수 만큼의 라운드 동안 공연을 유지할 수 있으며, 이 제한은 캐릭터가 성장함에 "
+"따라 증가합니다. 바드 공연은 다양한 {g|Encyclopedia:Feat}특기{/g}를 통해 강화될 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BardicPerformance::m_SolutionNotFoundText
+#, fuzzy
 msgctxt "714fe225-51e9-4f0e-bbea-3ff21f48fd5e"
 msgid "Use bardic performance in battle to improve your chances."
-msgstr ""
+msgstr "전투에서 향상된 가능성을 위해 바드 공연을 사용하세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BaseAttackBonus::m_TitleText
@@ -421,12 +435,15 @@ msgstr "기본 공격 보너스"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BaseAttackBonus::m_TriggerText
+#, fuzzy
 msgctxt "fea8840c-5cb0-420c-b0ab-181ae94a9661"
 msgid ""
 "{t|SourceUnit} has leveled up in a class, and as a result, this character's "
 "number of {g|Encyclopedia:Attack}attacks{/g} per "
 "{g|Encyclopedia:Combat_Round}round{/g} has increased."
 msgstr ""
+"{t|SourceUnit}의 클래스 레벨이 상승해 이 캐릭터의 {g|Encyclopedia:Combat_Round}라운드{/g}당 "
+"{g|Encyclopedia:Attack}공격{/g} 횟수가 증가했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_BaseAttackBonus::m_DescriptionText
