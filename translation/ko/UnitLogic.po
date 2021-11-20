@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-14 17:24+0000\n"
+"PO-Revision-Date: 2021-11-20 15:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -12481,7 +12481,7 @@ msgid ""
 msgstr ""
 "1 레벨에 동료 하나와 {g|Encyclopedia:TouchAttack}접촉{/g}하여 파괴적인 힘으로 축복합니다. 1분 동안 해당 "
 "동료는 무기 {g|Encyclopedia:Damage}피해 굴림{/g}에 당신의 레벨의 절반에 해당하는 사기 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다.(최소1)"
+"{g|Encyclopedia:Bonus}보너스{/g}를 (최소1) 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DestructionDomainGreaterAbility::m_DisplayName
@@ -13086,7 +13086,7 @@ msgstr ""
 #. Path = DivineZap::m_DisplayName
 msgctxt "20e0159c-bbfc-4b27-b8c1-73bee2f4cb01"
 msgid "Divine Zap"
-msgstr ""
+msgstr "신성한 충격"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DivineZap::m_Description
@@ -13198,7 +13198,7 @@ msgstr "이 {g|Encyclopedia:Spell}주문{/g}은 한 대상에게 끔찍한 두�
 #. Path = DoomOfServitude::m_DisplayName
 msgctxt "e6d8e6ae-1239-4afe-aa4e-7d658085efb2"
 msgid "Doom to Servitude"
-msgstr ""
+msgstr "노예의 운명"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DragonEssenceFormOfTheDragonIIIGreen::m_DisplayName
@@ -15129,7 +15129,7 @@ msgstr ""
 #. Path = EqualForce::m_DisplayName
 msgctxt "11b79f00-2528-4b79-ade0-6b597e40aaf2"
 msgid "Equal Force"
-msgstr ""
+msgstr "동일한 힘"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EqualForce::m_Description
@@ -16279,6 +16279,13 @@ msgid ""
 "during the effect, it is revived after {g|Encyclopedia:Injury_Death}death{/g}"
 " as an undead creature under your command."
 msgstr ""
+"모든 크리처가 존재하는 목적은 단 하나, 바로 당신에게 복종하는 것입니다. 대상은 용도변경 주문의 효과를 받으나 "
+"{g|Encyclopedia:Damage}피해{/g}는 {g|Encyclopedia:Combat_Round}라운드{/g}당 "
+"{g|Encyclopedia:Dice}2d6{/g}이 됩니다. 그 후 대상은 {g|Encyclopedia:Saving_Throw}인내 "
+"내성{/g}을 시도하여 실패 시 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 10 피해를 입습니다.\n"
+"용도변경: 당신은 대상에 복종의 저주를 내립니다. 2 시전자 레벨당 1 라운드 동안, 대상은 매 라운드 마다 1d6 피해를 입습니다. 이 "
+"효과가 적용되는 중에 대상이 사망하면 {g|Encyclopedia:Injury_Death}사망{/g}이후 시전자에게 지배되는 언데드 "
+"크리처로 되살아납니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = FleshOfStoneAbility::m_DisplayName
@@ -19121,7 +19128,7 @@ msgstr ""
 #. Path = HammerOfMasterpiece3Buff::m_DisplayName
 msgctxt "1fe1aabd-5c7e-44c5-90ae-c0410448f717"
 msgid "Hammer of Masterpiece"
-msgstr ""
+msgstr "걸작의 망치"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HammerOfMasterpieceAbility::m_Description
@@ -19811,7 +19818,7 @@ msgstr ""
 #. Path = HermitRevelationReclusesStride10Ability::m_DisplayName
 msgctxt "8bafdc51-3f6f-4fc5-9197-58af2ff29a48"
 msgid "Recluse's Stride"
-msgstr ""
+msgstr "은둔자의 걸음"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HermitRevelationReclusesStride10Ability::m_Description
@@ -19822,6 +19829,8 @@ msgid ""
 "times per day equal to 3 + your {g|Encyclopedia:Charisma}Charisma{/g} "
 "modifier."
 msgstr ""
+"10 레벨에, {g|Encyclopedia:Move_Action}이동 행동{/g}으로 중거리를 순간이동할 수 있습니다. 하루에 3 + "
+"{g|Encyclopedia:Charisma}매력{/g} 수정치 만큼 순간이동할 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HeroicInvocation::m_DisplayName
@@ -20706,7 +20715,7 @@ msgstr ""
 #. Path = InfectiousRage::m_DisplayName
 msgctxt "b33564f0-a0a6-44fe-9c01-43e01385e5ef"
 msgid "Infectious Rage"
-msgstr ""
+msgstr "전염되는 격노"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InfectiousRage::m_Description
@@ -21299,7 +21308,7 @@ msgstr ""
 #. Path = Jeslyn_InsectPlagueAbility::m_DisplayName
 msgctxt "4d87c6a8-a9f4-4785-bdf5-153ecb228b1d"
 msgid "Insect Plague"
-msgstr ""
+msgstr "해충 역병"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Jeslyn_InsectPlagueAbility::m_Description
@@ -24184,7 +24193,7 @@ msgstr ""
 #. Path = NegativeEruption::m_DisplayName
 msgctxt "b214b035-6722-4da5-9a5a-471cef92c034"
 msgid "Negative Eruption"
-msgstr ""
+msgstr "부정한 분출"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = NegativeEruption::m_Description
@@ -25119,6 +25128,10 @@ msgid ""
 "Nightcrawler in the middle for 1 {g|Encyclopedia:Combat_Round}round{/g} per "
 "caster level."
 msgstr ""
+"나이트셰이드 나이트크롤러 주위에 구덩이를 만듭니다. 이는 구덩이 생성 {g|Encyclopedia:Spell}주문{/g}과 유사하지만 "
+"추가로 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d6{/g} "
+"{g|Encyclopedia:Damage}피해{/g}를 입히는 음에너지 전달을 시전하고 중앙에 시전자 레벨 만큼의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}동안 나이트셰이드 나이트크롤러를 생성합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PlagueStorm::m_DisplayName
@@ -28068,7 +28081,7 @@ msgstr "조용한 휴식"
 #. Path = RepulsiveNature::m_DisplayName
 msgctxt "94548ec4-04a8-40cf-83a4-19fa5159cc24"
 msgid "Repulsive Nature"
-msgstr ""
+msgstr "혐오스러운 자연"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RepulsiveNature::m_Description
@@ -31182,11 +31195,11 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
 "1 레벨에 {g|Encyclopedia:Swift_Action}신속 행동{/g}으로 자신의 "
-"{g|Encyclopedia:Strength}힘{/g}에 집중할 수 있습니다. {g|Encyclopedia:MeleeAttack}근접 "
-"명중{/g} {g|Encyclopedia:Dice}굴림{/g}, 힘 기반 "
-"{g|Encyclopedia:Combat_Maneuvers}전법{/g} {g|Encyclopedia:Check}판정{/g}, 힘 기반 "
-"{g|Encyclopedia:Skills}기술{/g}과 힘 판정에 워프리스트 레벨의 절반 (최소 +1) 만큼의 강화 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
+"{g|Encyclopedia:Strength}힘{/g}에 집중할 수 있습니다. 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|Encyclopedia:MeleeAttack}근접 명중{/g}"
+" {g|Encyclopedia:Dice}굴림{/g}, 힘 기반 {g|Encyclopedia:Combat_Maneuvers}전법{/g} "
+"{g|Encyclopedia:Check}판정{/g}, 힘 기반 {g|Encyclopedia:Skills}기술{/g}과 힘 판정에 "
+"워프리스트 레벨의 절반 (최소 +1) 만큼의 강화 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = StrengthDomainBaseAbility::m_DisplayName
