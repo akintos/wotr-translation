@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-22 02:24+0000\n"
-"Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
+"PO-Revision-Date: 2021-11-26 02:24+0000\n"
+"Last-Translator: BaMoT <tree0074@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -565,9 +565,10 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SpellMasterFocusedSpellsAbility::m_DisplayName
+#, fuzzy
 msgctxt "ab1c96e8-d1a9-43eb-ac56-e00536bc7115"
 msgid "Focused Spells"
-msgstr ""
+msgstr "중점화된 주문"
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = SpellMasterFocusedSpellsResource::LocalizedDescription
@@ -577,6 +578,7 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SpellMasterFocusedSpellsAbility::m_Description
+#, fuzzy
 msgctxt "498d55c4-bec0-4889-a98d-175380948f80"
 msgid ""
 "At 1st level, once per day the {g|Encyclopedia:Spell}spell{/g} master's "
@@ -585,6 +587,9 @@ msgid ""
 "He can do this twice per day at 8th level, and three times per day at 16th "
 "level."
 msgstr ""
+"1 레벨에, 하루에 한 번 주문에 대한 {g|Encyclopedia:Spell}주문{/g} 숙련자의 이해가 단일 주문 시전에 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} 4를 추가해 줍니다. 8 레벨이 되면 하루에 두 번, 16 레벨이 "
+"되면 하루에 세 번 사용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = SpontaneousHealingResource::LocalizedName
@@ -610,7 +615,7 @@ msgid ""
 "way."
 msgstr ""
 "아루샬레의 오랜 반항은 예상대로 끝났다. 역시 데몬의 본성은 변할 수 없는 것이었고, 아루샬레는 가슴 속에 남아 있던 심연의 부름을 "
-"받아들였다. 그러나, 사령관은 그녀가 강력한 동료로 남아있는 한, 본성이 선하던 악하던 신경쓰지 않는 듯 하다."
+"받아들였다. 그러나, 사령관은 그녀가 강력한 동료로 남아있는 한, 본성이 선하던 악하던 신경 쓰지 않는 듯 하다."
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Q0::Title
@@ -649,6 +654,8 @@ msgid ""
 "to reach it. She has succeeded in changing her nature in some small way, but "
 "the long road to true transformation still lies ahead."
 msgstr ""
+"데몬은 꿈을 꾸지 않는다. 하지만 착한 여신이 아루샬레가 꿈속 세계에서 구원을 찾도록 격려했고, 아루샬레는 그 방법을 필멸자들에게 "
+"배웠다. 그녀는 스스로의 본성을 조금 바꾸는 데 성공했지만, 진정한 변화를 위해선 아직 가야 할 길이 멀다."
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Q2::Title
@@ -669,9 +676,9 @@ msgid ""
 "unwaking thoughts there were things that withstood the all-consuming flames. "
 "Has the succubus at last come across the key to changing her nature?"
 msgstr ""
-"심연으로 복귀는 과거와 단절하기 위해 온 힘을 다해 노력하는 악마에게 큰 유혹입니다. 오랜 지인과의 만남으로 아루샬레는 꿈을 불태우고 "
-"다시 시작해야 했습니다. 그러나 깨어나지 않는 생각 속에는 모든 것을 집어삼키는 불길을 견디는 것들이 있었다. 서큐버스는 마침내 그녀의 "
-"본성을 바꾸는 열쇠를 발견한 걸까요?"
+"심연으로 돌아가는 것은 자신의 과거와 단절하기 위해 온 힘을 다하는 악마에게 커다란 유혹이다. 오랜 지인과의 만남으로 아루샬레는 꿈을 "
+"불태우고 다시 시작해야 했다. 그러나 깨어나지 않은 생각 속에는 모든 것을 집어삼키는 불꽃을 견디는 것들이 있었다. 이 서큐버스가 마침내 "
+"그녀의 본성을 바꾸는 열쇠를 발견한 걸까?"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Q3::Title
@@ -680,7 +687,7 @@ msgstr ""
 #. Path = ArueshalaeQ3_WhatYouDreamOf_Quest::Title
 msgctxt "341158a6-1529-46f9-a70b-af5e1471ecba"
 msgid "What Do You Dream Of?"
-msgstr "당신은 무엇을 꿈꾸나요?"
+msgstr "당신은 무엇을 꿈꾸는가?"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Arueshalae_Q3::Description
@@ -693,9 +700,9 @@ msgid ""
 "could her side lose a battle with the Abyss now, when she has already "
 "defeated it in her own heart?"
 msgstr ""
-"불가능한 일이 일어났다. 아루샬래는 자신의 악한 본성을 바꾸는 데 성공했고, 더이상 악마가 아니게 되었다. 그리고 여신이 예언한 대로, "
-"아루샬레는 꿈의 세계에서 구원을 찾았다. 수 세기 동안 강압받았던 악으로부터 해방된 그녀는 십자군의 승리를 의심하지 않는다. 그녀가 이미 "
-"내면의 심연을 이겼는데, 어떻게 그녀의 편이 패배할 수 있겠는가?"
+"불가능한 일이 일어났다. 아루샬래는 자신의 악한 본성을 바꾸는 데 성공했고, 더 이상 악마가 아니게 되었다. 그리고 여신이 예언한 대로, "
+"아루샬레는 꿈의 세계에서 구원을 찾았다. 수 세기 동안 강압 받았던 악으로부터 해방된 그녀는 십자군의 승리를 의심하지 않는다. 그녀가 "
+"이미 내면의 심연을 이겼는데, 어떻게 그녀의 편이 패배할 수 있겠는가?"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Camellia_Q0::Title
@@ -713,9 +720,9 @@ msgid ""
 "of noble birth, or if she has another reason for keeping her companions at "
 "arm's length."
 msgstr ""
-"카멜리아는 젊고 촉망받는 재능을 가진 아가씨입니다. 그녀는 데몬과 사교도들, 둘 모두에 대해 지칠 줄 모르고 싸우지만, 그녀와 함께하는 "
-"동료들에게는 거리를 두는 경향이 있습니다. 이것이 그녀의 고귀한 태생으로부터 나오는 도도한 모습인 것인지, 아니면 거리를 둘만 한 이유가 "
-"있는지는 그녀만이 알 것입니다."
+"카멜리아는 젊고 촉망 받는 재능을 가진 아가씨이다. 그녀는 데몬과 사교도들, 둘 모두와 지칠 줄 모르고 싸우지만, 그녀와 함께하는 "
+"동료들에게는 거리를 두는 경향이 있다. 이것이 그녀의 고귀한 태생으로부터 나오는 도도한 모습인 것인지, 아니면 거리를 둘만 한 이유가 "
+"있는지는 그녀만이 알 것이다."
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Camellia_Q1::Title
@@ -6045,7 +6052,7 @@ msgstr ""
 #. Path = Location_Kenabres_CompanionQuests::Name
 msgctxt "55a3f520-d804-4a4d-9100-679e563850ce"
 msgid "Kenabres"
-msgstr ""
+msgstr "케나브레스"
 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPointVariation
 #. Path = Location_Kenabres_5thChapter::Description
@@ -6066,19 +6073,19 @@ msgstr "불운의 선술집"
 #. Path = AlushinyrraBattleblissMultiEntranceEntry::Name
 msgctxt "c37a9921-7230-4f26-b456-b3349083d135"
 msgid "Battlebliss"
-msgstr ""
+msgstr "전투의 환희"
 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintMultiEntranceEntry
 #. Path = AlushinyrraFleshmarketMultiEntranceEntry::Name
 msgctxt "a733106e-2595-4d41-804b-5012047b184d"
 msgid "Fleshmarkets"
-msgstr ""
+msgstr "살덩이 시장"
 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintMultiEntranceEntry
 #. Path = AlushinyrraHaremMultiEntranceEntry::Name
 msgctxt "702ac3d0-b8e4-45a9-80f4-8a8ae143af8c"
 msgid "Harem of Ardent Dreams"
-msgstr ""
+msgstr "열렬한 꿈의 하렘"
 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintMultiEntranceEntry
 #. Path = AlushinyrraNexusMultiEntranceEntry::Name
