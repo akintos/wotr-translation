@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-26 02:24+0000\n"
+"PO-Revision-Date: 2021-11-30 05:24+0000\n"
 "Last-Translator: BaMoT <tree0074@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -844,10 +844,9 @@ msgstr "사코리스 결혼식"
 #. 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPoint
 #. Path = Point_SeelahCamp::Name
-#, fuzzy
 msgctxt "f6a48234-c726-4485-ab91-9c9d20d6a815"
 msgid "Houndheart Campsite"
-msgstr "심장사냥 야영지"
+msgstr "사냥개심장 야영지"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = Seelah_Q2_Wedding::AreaName
@@ -991,10 +990,9 @@ msgstr "춤추는달 초원"
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = VaultOfGraves_Enter::m_Tooltip
-#, fuzzy
 msgctxt "55554c63-866c-4098-a4f6-e2071fdb757d"
 msgid "House of Silken Shadows"
-msgstr "비단결 그림자의 집"
+msgstr "비단 그림자의 집"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = WarCamp::AreaName
@@ -1043,7 +1041,6 @@ msgstr "고대의 경이로움 상점"
 #. 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPoint
 #. Path = Location_WoljifQ1_ThieflingsHideout::Name
-#, fuzzy
 msgctxt "c076195d-eea0-422e-8bd5-fb0c4be0e8ef"
 msgid "Thieflings Hideout"
 msgstr "씨플링 은신처"
@@ -1056,10 +1053,9 @@ msgstr "씨플링 은신처"
 #. 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPoint
 #. Path = Location_Woljif_Q2_VoetielMeeting::Name
-#, fuzzy
 msgctxt "1964cf94-ad05-4d56-88d8-614f64a529d1"
 msgid "Scrubland by a Bend in the River"
-msgstr "굽이진 강 옆 관목지"
+msgstr "강 굽이 옆 관목지"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = Woljif_Q3_AbandonedMansion::AreaName
@@ -1499,7 +1495,6 @@ msgstr "아래층으로"
 #. 
 #. Type = Kingmaker.DialogSystem.Blueprints.BlueprintCue
 #. Path = Cue_0045::OnStop/Actions/0/Default
-#, fuzzy
 msgctxt "0ccadbd8-1f47-47b2-b29c-28e9b6d0f728"
 msgid "Commander's Court"
 msgstr "사령관의 안뜰"
@@ -1890,7 +1885,6 @@ msgstr "성채 사령부"
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = DrezenCitadel_Level2_EnterPoint_ReturnFromTowerMiddleFloor::m_Tooltip
-#, fuzzy
 msgctxt "28162cad-247f-4e56-8ba0-3f546dba7bf7"
 msgid "Citadel's Main Floor"
 msgstr "성채 1층"
@@ -2209,10 +2203,9 @@ msgstr "연구소로"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = Iz_TempleOfManuscriptsArchives_Enter::m_Tooltip
-#, fuzzy
 msgctxt "9563edcf-7657-4f09-b7e4-c8298fd6b2be"
 msgid "To the Temple of Stone Manuscripts"
-msgstr "석재 고본의 사원으로"
+msgstr "석재 고본 사원으로"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = KenabresBurning_DesnaTemple::m_Tooltip
@@ -2336,7 +2329,7 @@ msgstr "펄루라의 신전"
 #, fuzzy
 msgctxt "7c6aa86b-75b7-4d13-beca-035359240333"
 msgid "SarkorianWedding_EnterArea"
-msgstr "사르코리안웨딩_입장구역"
+msgstr "사코리스 결혼식_입장지역"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = SarkorianWedding_EnterRuin::m_Tooltip
@@ -2364,7 +2357,6 @@ msgstr "마법사의 탑으로"
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = TenThousandDelights_MiddlePoint_Enter::m_Tooltip
-#, fuzzy
 msgctxt "6ebf284a-daba-4f8d-a5bd-8a1a16cb1cdf"
 msgid "Into the Ten Thousand Delights"
 msgstr "만 가지 쾌락으로"
@@ -2506,10 +2498,10 @@ msgid ""
 "resurrect them with Raise Dead or a similar spell — an extremely expensive "
 "service unavailable to most adventurers."
 msgstr ""
-"적과 함정으로부터 받게 되는 피해량이 <b>20 % 만큼 감소합니다</b>. 적들은 <b>약화</b>되고 <b>치명타 공격은 감소된 "
-"피해</b>를 입힙니다.\n"
-"당신의 캐릭터가 처음으로 <b>치명적인 피해를 받는다 해도 죽지는 않을 것</b> 입니다. 대신, 그들은 <b>죽음의 문턱</b> 상태에 "
-"시달릴 것입니다. 이 상태의 캐릭터가 치명적인 피해를 입으면, 그제서야 죽을 것입니다. 편안하고 안전한 장소에서 쉬면 죽음의 문턱 상태는 "
+"적과 함정으로부터 받게 되는 피해가 <b>20 % 만큼 감소합니다</b>. 적들은 <b>약화</b>되고 <b>치명타 공격은 감소된 피해</"
+"b>를 입힙니다.\n"
+"당신의 캐릭터가 처음으로 <b>치명적인 피해를 받아도 죽지 않을 것</b> 입니다. 대신, 그들은 <b>죽음의 문턱</b> 상태에 시달릴 "
+"것입니다. 이 상태의 캐릭터가 치명적인 피해를 입으면, 그제서야 죽을 것입니다. 편안하고 안전한 장소에서 쉬면 죽음의 문턱 상태는 "
 "제거됩니다. 당신의 캐릭터는 즉각적인 죽음 효과, 에너지 드레인, 독 또는 다른 유사한 상태로 인하여 여전히 죽을 수 있습니다.\n"
 "주인공이 사망하면 게임이 끝납니다. 동료가 죽으면 소생 또는 대부분의 모험가가 지불하기 어려워하는 매우 비싼 서비스를 통해 부활시킬 수 "
 "있습니다."
@@ -2522,7 +2514,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.QA.Clockwork.BlueprintClockworkScenario
 #. Path = test::OverridePresetDifficulty/LocalizedName
-#, fuzzy
 msgctxt "3f56276e-8f98-4ed5-84ee-b7e89a900cb1"
 msgid "Story"
 msgstr "이야기"
@@ -2535,14 +2526,6 @@ msgstr "이야기"
 #. 
 #. Type = Kingmaker.QA.Clockwork.BlueprintClockworkScenario
 #. Path = test::OverridePresetDifficulty/LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The damage you suffer from enemies and traps is <b>reduced by 80%</b>. "
-#| "Enemies have <b>significantly decreased power and cannot critically hit "
-#| "you.</b>\n"
-#| "Your character <b>will not die after suffering a deadly injury</b>. Instead, "
-#| "they'll fall <b>unconscious</b> until the end of the battle.\n"
-#| "If all your characters fall unconscious, the game is over."
 msgctxt "e6bd12d5-6573-44f6-bad7-20c1db31618e"
 msgid ""
 "The damage your character suffers from enemies and traps is <b>reduced by "
@@ -2552,10 +2535,11 @@ msgid ""
 "they'll fall <b>unconscious</b> until the end of the battle.\n"
 "If all your characters fall unconscious, the game is over."
 msgstr ""
-"적과 함정으로부터 받는 피해는 <b>80% 만큼 감소합니다</b>. 적들은 <b>힘이 상당히 낮아지며 치명타를 낼 수 없습니다.</b>\n"
-"당신의 캐릭터는 <b>치명적인 부상을 당한 후에도 죽지 않을 것</b> 입니다. 대신, 그들은 전투가 끝날 때까지 <b>의식을 잃을</"
-"b> 것입니다.\n"
-"lf 모든 캐릭터가 의식을 잃으면 게임이 끝납니다."
+"적과 함정으로부터 받는 피해가 <b>80% 만큼 감소합니다</b>. 적들은 <b>극도로 약화</b>되고 <b>치명타</b>를 쓸 수 "
+"없습니다.\n"
+"당신의 캐릭터는 <b>치명적인 피해를 받아도 죽지 않을 것</b> 입니다. 대신, 그들은 전투가 끝날 때까지 <b>의식을 잃을</b> "
+"것입니다.\n"
+"모든 캐릭터가 의식을 잃으면 게임이 끝납니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = Alushinyrra_HigherCity_VellodusMansion::m_Actions/0/Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -2566,35 +2550,38 @@ msgctxt "6905edad-5588-476f-b507-974256068f30"
 msgid ""
 "There is a strange magical lock on the door, unlike anything you have ever "
 "seen before. How to open it is unclear."
-msgstr ""
+msgstr "당신이 한 번도 본 적 없는 신비한 마법 자물쇠가 있습니다. 여는 방법을 알지 못합니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = Drezen_ExitToGlobalMap::m_Actions/0/Actions/Actions/0/IfFalse/Actions/0/WhatToBark
 msgctxt "ac4bc1b8-2b42-4a8a-b877-e0ea68499bd4"
 msgid "You should visit the citadel before leaving Drezen."
-msgstr ""
+msgstr "드레젠을 떠나기 전에 성채를 방문해야 합니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = ExitFromCrypt::m_Actions/0/Actions/Actions/0/AfterTeleport/Actions/0/IfTrue/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "3ab38578-fec3-4911-aab9-3d95313e31c8"
 msgid "\"Yes! I'm alive! You were right! You tricked the curse!\""
-msgstr ""
+msgstr "\"그래! 살았다! 네가 맞았어! 저주를 속였구나!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = ExitFromCrypt::m_Actions/0/Actions/Actions/0/AfterTeleport/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/IfTrue/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "2d155aa3-5980-46c1-b529-e77edb89a912"
 msgid ""
 "\"Praise Erastil! Delamere's relics have returned to the world once more! "
 "May the demons fear your arrows!\""
-msgstr ""
+msgstr "\"에라스틸을 찬양하라! 델라메어의 유물이 다시 한 번 세상에 돌아왔도다! 데몬들이 당신의 화살을 두려워 할지니!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = ExitFromCrypt::m_Actions/0/Actions/Actions/0/AfterTeleport/Actions/0/IfFalse/Actions/0/IfTrue/Actions/1/IfTrue/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "ffb87a3a-3b09-4aff-93c5-49906697b16d"
 msgid ""
 "\"What have you done? You plundered the tomb of Delamere the Blessed! It is "
 "an outrage!\""
-msgstr ""
+msgstr "\"무슨 짓을 한 거요? 축복 받은 델라메어의 무덤을 약탈하다니! 모욕이로다!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = MutasafenLabTransition_Actions::m_Actions/0/Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -2608,13 +2595,13 @@ msgctxt "44b9374c-5323-41ff-bf5b-25388405283e"
 msgid ""
 "A specific tool will be needed to dispel the barrier of seething Abyssal "
 "energy that blocks this path."
-msgstr ""
+msgstr "이 길을 막고 있는 소용돌이 치는 심연 에너지 장막을 해제하기 위해서는 특정한 장비가 필요합니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = OnlyMythicsAllowed::m_Actions/1/Actions/Actions/0/WhatToBark
 msgctxt "1d748449-4ba3-4d9b-aac8-2e6c0a87fb95"
 msgid "You must increase your Mythic rank before venturing forth."
-msgstr ""
+msgstr "앞으로 나아가기 위해선 신화 레벨을 올려야 합니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Arusha_Event_2_Party::EnterActions/Actions/2/WhatToBark
@@ -2631,7 +2618,7 @@ msgctxt "02fd0b0b-1472-46e2-a4c3-d0fbc1038913"
 msgid ""
 "\"Demons are so silly. They always break their toys when they're done "
 "playing with them.\""
-msgstr ""
+msgstr "\"데몬들은 정말 멍청해요. 가지고 노는 게 끝난 장난감은 항상 부숴버린 다니까요.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = BasinBark::EnterActions/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -2642,18 +2629,19 @@ msgctxt "9643c182-f1a1-4924-b8a5-32d8e71891c3"
 msgid ""
 "\"What if some of these relics belonged to my ancestors back in the day? I "
 "guess we'll never know.\""
-msgstr ""
+msgstr "\"여기 유물들 중에 내 옛 조상 것들이 있다면? 우리가 알 도리야 없지만.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = BasinBark::EnterActions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = DestroyedMuseumBark::EnterActions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "1cf20c55-ed4f-4d1d-a923-121e86c02c30"
 msgid ""
 "\"So many valuable items damaged and broken... All the things those demons "
 "destroyed might easily have been worth a fortune.\""
-msgstr ""
+msgstr "\"비싼 물건들이 너무 많이 깨지고 부러졌어요... 저 데몬들이 부순 거 전부 돈 깨나 벌 수 있는 것들이었는데.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = BefouledShrineBark::EnterActions/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -2662,6 +2650,7 @@ msgid ""
 "\"What's the point in defacing the altars? I can understand plundering them, "
 "but getting your hands dirty just for that, really?\""
 msgstr ""
+"\"이 제단을 훼손하는 거에 무슨 의미가 있는 겁니까? 약탈하는 건 이해하겠는데, 그냥 그것 때문에 손을 더럽히는 거예요? 진짜?\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = BefouledShrineBark::EnterActions/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -2670,13 +2659,14 @@ msgid ""
 "\"They must be scared to death of this goddess. That's why they paint over "
 "her images. They don't want to see her anymore.\""
 msgstr ""
+"\"이 여신의 죽음에 겁 먹은 게 분명해요. 그래서 여신의 그림 위에 덧칠을 한 거죠. 여신을 더 이상 보고 싶지 않은 거예요.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = BefouledShrineBark::EnterActions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
 msgctxt "f3bda687-909b-49a9-b450-98cfaedc28c9"
 msgid ""
 "\"We will punish those who did this to you, my goddess. I promise we will!\""
-msgstr ""
+msgstr "\"당신께 이런 짓거리를 한 자들을 처벌할 것입니다, 여신이시여. 맹세코 그리할 것입니다!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = BlindCarverArushBarkZone::EnterActions/Actions/0/WhatToBark
@@ -2684,7 +2674,7 @@ msgctxt "fedc1609-0f21-4e75-b254-cc0121efddeb"
 msgid ""
 "\"How strange... This stone is supposed to detect demons nearby, but I'm "
 "right here and it's silent.\""
-msgstr ""
+msgstr "\"이상하네요... 이 돌은 가까이 있는 데몬을 감지해야 해요. 제가 바로 여기 있는데, 돌이 조용하네요.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Colyphyr_DimensionDoorScriptZone::EnterActions/Actions/0/WhatToBark
