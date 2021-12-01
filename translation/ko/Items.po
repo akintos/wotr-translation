@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-30 05:24+0000\n"
+"PO-Revision-Date: 2021-12-01 10:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -5573,7 +5573,7 @@ msgstr ""
 #. Path = UnbendingArmorItem::m_DisplayNameText
 msgctxt "52607872-031c-4c21-a1f0-2321aee5cca5"
 msgid "Unbending Armor"
-msgstr ""
+msgstr "굽힘없는 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = UnbendingArmorItem::m_DescriptionText
@@ -5583,12 +5583,14 @@ msgid ""
 "{g|Encyclopedia:Damage_Reduction}DR{/g} 3/"
 "{g|Encyclopedia:Damage_Type}piercing{/g}."
 msgstr ""
+"이 +1 징 박힌 가죽 갑옷은 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 3/"
+"{g|Encyclopedia:Damage_Type}찌르기{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = UndyingDevotionItem::m_DisplayNameText
 msgctxt "fb451dab-b38e-4b5e-9f26-5bdfbdfaf540"
 msgid "Undying Devotion"
-msgstr ""
+msgstr "불사의 헌신"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = UndyingDevotionItem::m_DescriptionText
@@ -5600,6 +5602,9 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} from the necromancy school the wielder "
 "casts."
 msgstr ""
+"이 +5 전신 판금 갑옷은 착용자에게 마비에 대한 면역을 제공합니다. 또한 착용자가 시전하는 모든 사령학파 "
+"{g|Encyclopedia:Spell}주문{/g}에 대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}의 "
+"{g|Encyclopedia:DC}DC{/g}를 1 높입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = UnnaturalRobeItem::m_DisplayNameText
@@ -5666,7 +5671,7 @@ msgstr ""
 #. Path = VeteransArmorItem::m_DisplayNameText
 msgctxt "5bff1cb0-92a9-4003-8efd-38d707cd1b66"
 msgid "Veteran's Armor"
-msgstr ""
+msgstr "숙련자의 갑옷"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = VeteransArmorItem::m_DescriptionText
@@ -5674,7 +5679,7 @@ msgctxt "cb60962a-1c7c-4f26-b581-b1cdbd8d803b"
 msgid ""
 "This +2 padded armor grants the wielder 10 resistance against fire and "
 "electricity."
-msgstr ""
+msgstr "이 +2 누비 갑옷은 착용자에게 화염 저항과 전기 저항 10을 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = VoidMirrorItem::m_DisplayNameText
@@ -5738,7 +5743,7 @@ msgstr ""
 #. Path = WelcomeRespiteItem::m_DisplayNameText
 msgctxt "2174e4bd-8b8b-4347-90fd-a2c4bc07a19b"
 msgid "Welcome Respite"
-msgstr ""
+msgstr "반가운 휴식 시간"
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = WelcomeRespiteItem::m_DescriptionText
@@ -5751,6 +5756,11 @@ msgid ""
 "same condition for 2 {g|Encyclopedia:Combat_Round}rounds{/g}. In addition, "
 "this armor grants its wearer immunity to fire and acid."
 msgstr ""
+"이 +5 철판 사슬갑옷의 착용자가 기절, 쓰러짐, 또는 비틀거림 상태에서 {g|Encyclopedia:MeleeAttack}근접 "
+"공격{/g}을 당할 경우, {g|Encyclopedia:Attack}공격자{/g}는 {g|Encyclopedia:Saving_Throw}"
+"반사 내성 굴림{/g}({g|Encyclopedia:DC}DC{/g} 30)을 시행하여 실패할 경우 2 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자와 동일한 상태에 빠집니다. 또한, 이 갑옷은 착용자에게 "
+"화염과 산성에 대한 면역을 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintShieldType
 #. Path = BucklerType::m_TypeNameText
@@ -6290,7 +6300,7 @@ msgctxt "9d6cbb16-cb3c-4fb2-83fc-627f1675c8d6"
 msgid ""
 "These bracers grant the wearer a +3 luck bonus to AC and a +3 luck bonus on "
 "Reflex, Will, and Fortitude saving throws."
-msgstr ""
+msgstr "이 팔찌는 착용자의 AC와 반사, 의지, 인내 내성 굴림에 +3 행운 보너스를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = ALR_Gloves::m_FlavorText
@@ -6381,7 +6391,7 @@ msgstr "약병에 붙은 꼬리표에는 \"소환용\" 이라고 쓰여있습니
 #. Path = ALR_WitchunterCodex::m_DisplayNameText
 msgctxt "3e01a718-f865-4b7d-8b02-77c75c5f45c6"
 msgid "The Code of the Hunters of Threshold"
-msgstr "극점의 사냥꾼 규칙"
+msgstr "극점의 사냥꾼들의 서약"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = ALR_WitchunterCodex::m_DescriptionText
@@ -6423,7 +6433,7 @@ msgstr "반들반들한 작은 열쇠는 거의 새 것처럼 보입니다. 많�
 #. Path = AlushinyrraToken0::m_DisplayNameText
 msgctxt "a7838db9-ba80-4ca6-a4e9-561bd4256b00"
 msgid "Thanatotic Titans' Minor Rune"
-msgstr ""
+msgstr "타나토틱 타이탄의 미약한 룬"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = AlushinyrraToken0::m_DescriptionText
@@ -6435,7 +6445,7 @@ msgstr "타나토틱 타이탄들의 언어가 새겨진 신비로운 룬입니�
 #. Path = AlushinyrraToken1::m_DisplayNameText
 msgctxt "545ea158-6222-49ca-81de-f5fdea92b799"
 msgid "Thanatotic Titans' Enchanted Rune"
-msgstr ""
+msgstr "타나토틱 타이탄의 강화된 룬"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = AlushinyrraToken1::m_DescriptionText
@@ -6450,7 +6460,7 @@ msgstr "타나토틱 타이탄들의 언어가 새겨진 신비로운 룬입니�
 #. Path = AlushinyrraToken2::m_DisplayNameText
 msgctxt "4154ba08-daa3-4371-97e5-216c249c2e74"
 msgid "Thanatotic Titans' Great Rune"
-msgstr ""
+msgstr "타나토틱 타이탄의 강력한 룬"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = AlushinyrraToken2::m_DescriptionText
@@ -6464,7 +6474,7 @@ msgstr "타나토틱 타이탄들의 언어가 새겨진 신비로운 룬입니�
 #. Path = AlushinyrraToken3::m_DisplayNameText
 msgctxt "55d12cff-4139-49df-ac5d-fbf1d464c13e"
 msgid "Thanatotic Titans' True Rune"
-msgstr ""
+msgstr "타나토틱 타이탄의 완전한 룬"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = AlushinyrraToken3::m_DescriptionText
@@ -7654,8 +7664,8 @@ msgid ""
 "The text below is covered by the vrock's blood."
 msgstr ""
 "낡은 종이에 검은 핏자국이 묻어있습니다. 누군가가 피로 고대 엘프 룬을 그렸습니다. 종이의 한 쪽 귀퉁이만 읽을 수 있습니다.\n"
-"\"...은 차원문이 아니며, 세계 공간의 취약점이다. 많은 신들과 데몬들은 이러한 균열을 열 정도로 강력한 힘을 갖고있다. 하지만 "
-"그들은 이러한 행위를 꺼릴 것이며, 그러한 요구에 응답하지 않을 것이다. 따라서 누군가...\"\n"
+"\"...은 차원문이 아니며, 시공간의 구조 상의 가장 얇은 부분이다. 많은 신들과 데몬들은 이러한 균열을 열 정도로 강력한 힘을 "
+"갖고있다. 하지만 그들은 이것을 사용하는 것을 꺼릴 것이며, 그러한 요구에 응답하지 않을 것이다. 그렇기 때문에...\"\n"
 "나머지 문장들은 브록의 피로 덮혀있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
@@ -8465,7 +8475,7 @@ msgid ""
 "former companion, Daeran Arendae. You have no idea how these horrible "
 "remains wound up among your belongings."
 msgstr ""
-"이 잘려진 머리의 특징으로, 당신의 옛 동료, 대런 아렌데의 것이였음을 쉽게 알아볼 수 있습니다. 이 끔찍한 유해가 어떻게 당신의 소지품 "
+"이 잘려진 머리의 특징은 당신의 옛 동료, 대런 아렌데의 것이였음을 쉽게 알아보게 합니다. 이 끔찍한 유해가 어떻게 당신의 소지품 "
 "사이에서 나타나게 되었는지 알 수가 없습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
@@ -8584,13 +8594,13 @@ msgstr "데몬 슬레이어 수프"
 #. Path = DeskaryUnholyKey::m_DisplayNameText
 msgctxt "3d452d33-d007-48f2-bbf2-010e6b981132"
 msgid "Deskari Servants' Key"
-msgstr "데스카리 하수인의 열쇠"
+msgstr "데스카리 신도들의 열쇠"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DeskaryUnholyKey::m_DescriptionText
 msgctxt "79ed9e02-77b9-43ff-afa6-4bd5c137a71b"
 msgid "The key from the Midnight Fane with Deskari symbol on it."
-msgstr "칠흑의 사원에서 획득한 열쇠로, 데스카리의 문양이 위에 그려져 있습니다."
+msgstr "칠흑의 사원에서 획득한 데스카리의 문양이 그려진 열쇠입니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = DesnaAstrolabe::m_DisplayNameText
@@ -9238,7 +9248,7 @@ msgstr "생선 꼬치"
 #. Path = FleshmarketArk_Mark::m_DisplayNameText
 msgctxt "5b99d932-7a63-400a-8df6-d05fbb9fe590"
 msgid "Gold Coin from the Fleshmarkets"
-msgstr "Fleshmarkets에서 획득한 금화"
+msgstr "살덩이 시장에서 획득한 금화"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = FleshmarketArk_Mark::m_FlavorText
@@ -9246,7 +9256,7 @@ msgctxt "5e24d508-764c-4510-8209-0d9970467829"
 msgid ""
 "A gold coin from Alushinyrra's Fleshmarkets. The marks engraved on the coin "
 "depict... another coin."
-msgstr "알루시니라의 Fleshmarkets에서 얻은 금화입니다. 금화에는... 또 다른 금화가 새겨져 있습니다."
+msgstr "알루시니라의 살덩이 시장에서 얻은 금화입니다. 금화에는... 또 다른 금화가 새겨져 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Flour::m_DisplayNameText
@@ -11081,6 +11091,8 @@ msgid ""
 "A primitive barbarian figure of a wolf. The body is a large wolf's fang, "
 "while the paws and head are made of straw."
 msgstr ""
+"부적은 원초적이고, 야만적인 늑대의 형상을 하고 있습니다. 몸은 거대한 늑대의 송곳니로 이루어져 있고, 발바닥과 머리는 밀짚으로 만들어져 "
+"있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = MossPottage_item::m_DisplayNameText
@@ -11110,7 +11122,7 @@ msgstr "멀드 와인"
 #. Path = MuseumBasementKey::m_DisplayNameText
 msgctxt "9fc8c4e7-a8ff-4fae-b5ef-30097b529665"
 msgid "Custodian Teldon's Keys"
-msgstr ""
+msgstr "박물관 관리인 텔돈의 열쇠 꾸러미"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = MuseumBasementKey::m_DescriptionText
@@ -11118,11 +11130,10 @@ msgctxt "b2a175e5-4cc4-499f-906d-2441abf3812e"
 msgid ""
 "A massive set of keys. These keys open the doors to the museum in the Tower "
 "of Estrod."
-msgstr ""
+msgstr "엄청난 수의 열쇠 꾸러미. 에스트로드의 탑 박물관에 있는 문을 여는 열쇠들이다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Mushrooms::m_DisplayNameText
-#, fuzzy
 msgctxt "71c3b416-280c-43a7-a02a-48229dd4e2bf"
 msgid "Mushrooms"
 msgstr "버섯"
@@ -11131,13 +11142,13 @@ msgstr "버섯"
 #. Path = NahCrystall::m_DisplayNameText
 msgctxt "ddf67ced-407a-497e-a0a4-dd60a66ba1ad"
 msgid "Nahyndrian Crystal"
-msgstr ""
+msgstr "나힌드리 수정"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NahCrystall::m_FlavorText
 msgctxt "74e2dfd7-6425-4a6e-bf39-a64e8153d1a4"
 msgid "A purple crystal, unprocessed and unusually durable."
-msgstr ""
+msgstr "보라색 수정. 가공되지 않았으며, 매우 튼튼합니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Narlbarb::m_DisplayNameText
@@ -11153,7 +11164,7 @@ msgstr "날바브"
 #. Path = CrystalDaggerItem::m_DisplayNameText
 msgctxt "402eae08-2f58-4ee4-ada2-aa5b58e99231"
 msgid "Purple Stone Knife"
-msgstr ""
+msgstr "보라색 돌칼"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NDagger::m_DescriptionText
@@ -11164,13 +11175,13 @@ msgctxt "9e6afed2-596c-4d58-8ee4-34623f889d80"
 msgid ""
 "A primitive stone knife. Someone or something crudely hacked and sharpened "
 "this piece of purple rock to use it as a weapon."
-msgstr ""
+msgstr "원시적인 돌 칼. 누군가가 이 보라색 돌 조각을 무기로 쓰기 위해 투박하게 갈아냈습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NeutralText_Coven::m_DisplayNameText
 msgctxt "4e0a85b5-07c0-4803-a6d4-90a686e658f7"
 msgid "\"The Notes of a Traveling Priest: Against the Coven\", by Tyrin Dean"
-msgstr ""
+msgstr "\"방랑 사제의 일지: 집회와 맞서다\", 티린 딘 지음"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NeutralText_Coven::m_DescriptionText
@@ -11243,12 +11254,55 @@ msgid ""
 "but this was worth it. The child of a monster had stepped onto the path of "
 "redemption, and spared the world from the very evil that had spawned her.\""
 msgstr ""
+"\"방랑 치유사는 가끔 휴식과 함께 약간의 긴장을 풀 줄 알아야 한다, 이것이 멘데브의 에스트로비안 숲 근처의 작은 마을에서 열린 "
+"결혼식에 초대받았을 때, 내가 했던 생각이다,\n"
+"\n"
+"무더운 여름 날, 사과 농장 한 가운데에 놓여져 있었다. 나는 15 살 쯤 되어 보이는 음침한 소녀와 흉터 몇 개가 눈에 띄는 쾌활한 "
+"노부인 사이에 앉아 있었다. 하늘 아래에서 악사들은 악기를 연주하며 서서히 취해갔고, 단순하지만 시골의 정취를 느낄 수 있는 요리은 "
+"식욕을 끄는 냄새를 냈다. 기쁜 얼굴의 젊은 신랑 옆에서 신부의 시선은 탁자 위에 고정되어 있었다. 두 개의 푸른색 눈은 가끔씩 머리 "
+"위의 화관으로 향했다.\n"
+"하지만 이러한 평화는 과수원에서 멀리 떨어지지 않은 곳에서 울린, 끔찍한 울음소리에 깨져버렸다. 나는 얼굴에 의문을 띄우며 노부인에게 "
+"몸을 틀었다.\n"
+"\"젊은 신부, 넬리카의 개입니다. 개는 미쳐버렸어요. 어제 밤부터 울음을 멈추지 않아서, 지금은 곳간에 갇혀있답니다. 분명 신부가 "
+"부러워서 저러는 걸 겁니다!\"\n"
+"기다리지 않고 나는 자리를 떴고, 내 옆에 앉아 있었던 소녀는 곧장 나를 쫓아왔다.\n"
+"개를 찾아 풀어주는 것은 전혀 어려운 일이 아니였다. 꽤 큰 양치기 개가 펄쩍 펄쩍 뛰어오르며 나를 맞았다. 마치 내 믿음의 힘과 "
+"친절함을 느끼기라도 하듯이. 개는 우는 듯한 신음소리를 내더니, 훌쩍 어디론가 떠나버렸다.\n"
+"개는 우리를 어떤 협곡으로 데려갔다. 협곡은 수양나무의 그림자에 가려져 있었다. 그곳에서 우리는 불길할 정도로 창백한 얼굴을 보았다. "
+"푸른색 눈에는 슬픔이 가득 차 있었다. 얼마 전까지만 해도 탁자에서 보았던 신부, 넬리카의 몸이 어떤 끔찍한 힘에 의해 죽은 나무에 "
+"박혀있었다. 개는 그녀의 발치에 앉아, 다시 울기 시작했다.\n"
+"나는 여신님께 기도를 드리며, 내 다리가 낼 수 있는 최대한의 속도로 마을로 도망갔다. 젊은 여성의 모습을 취하고, 또 희생자의 가족들을 "
+"죽이기 위해 아가씨들을 죽이는 괴물이 존재한다. 이 괴물은 혼돈과 불경함, 그리고 악의 화신들인 데몬 군주들을 섬긴다. 보잘 것 없는 "
+"치유사의 힘은 그런 위험한 적과 대적하는 것과는 거리가 멀다. 하지만 어떻게 내가 그런 위기에 빠진 사람들을 포기할 수 있을까?\n"
+"나는 방문에 다가서며 나의 모든 용기를 끌어모았다. 손님들은 이미 젊은 연인을 그곳으로 데려갔었다. 나는 문을 크게 열며 기도문을 "
+"내뱉었다.\n"
+"비 인간적인 크기의 생명체가 젊은 남자 위에 서 있었다. 내 기도를 듣자, 괴물은 소리를 내뱉으며 거친 몸사위로 내게 몸을 돌렸다. "
+"금속의 회색을 연상시키는 피부, 흉악한 발톱을, 그리고 흉측한 외모 : 모든 해그들 중에서 가장 혐오스러운 족속, 아니스였다. 그 때 "
+"당시, 환영 마법은 사라져서 괴물은 자신의 본래 모습을 숨기지 않았었다. 넬리카의 화관은 커다란 머리와 더러운 머리털 위에 모든 것을 "
+"비웃는 듯 쓰여져 있었다. 해그는 주문을 시전하기 위해 손을 들었지만, 덥수룩한 그림자가 내 뒤에서 뛰쳐나와, 괴물의 뒷덜미를 송곳니로 "
+"붙잡은 채, 바닥에 내리 꽂았다. 주인의 복수를 위해 개가 찾아왔다.\n"
+"\n"
+"불행히도, 해그들은 절대 혼자서 사냥에 나서지 않는다. 내 등 뒤에서 같은 집회의 다른 아니스가 나타났다. 같은 탁자에 앉은 "
+"노부인이였다. 끔찍한 발톱을 세우고 있었지만, 결코 나에게 닿지 못하였다. '너 !' 괴물이 말했지만 괴물은 목덜미에 공격을 받고 "
+"쓰러졌다.\n"
+"소녀는 손에 묻은 끈적이는 피를 닦아내며 내게 윙크를 했다. 그녀는 특별한 눈을 갖고 있었다 : 한 쪽은 파란색, 한 쪽은 초록색 눈.\n"
+"\"가족 문제예요 걱정하지 마세요. 여사제 님, 가엾은 신랑이 살아있는지 보러갈까요?\"\n"
+"아아, 즐거웠던 시골의 결혼식이 장례식으로 끝나게 되었다 : 넬리카의 장례식과 이 늙은 친척의 장례식. 해그들은 축연에 숨어들어가기 위해 "
+"이 늙은 여자를 죽였다. 적어도 우리는 신랑을 구할 수 있었지만. 그의 차가운 눈과 그의 발치에 앉아있는 개를 보며, 나는 이 젊은 "
+"남자가 곧 마을을 떠날 것이라는 것을 느꼈다. 머지않아, 멘데브의 성전사들은 신병 하나와 그의 충직한 동료를 그들의 대열에 받아드릴 "
+"것이다. 그 누구보다 데몬들과 그들의 광신도들에 대한 증오로 가득한 두 영혼을.\n"
+"마을을 떠나기 전, 나는 소녀를 보러갔다. 소녀는 버려졌었지만 마을 약초상이 키웠다고 말했다. \"너는 왜 집회를 배신하기로 마음먹은거야 "
+"?\" 부드러운 목소리로 나는 물었다.\n"
+"\"저는 15 년 전, 이런 끔찍한 결혼식이 열린 직후에 태어났습니다. 해그들은 신부를 죽이고, 신부 대신 하룻밤을 보내고 임신하는 "
+"경우가 종종 있어요. 그렇게 태어난 아이들 대부분은 자기 어머니의 발자취를 따라가죠. 하지만 저는 인간으로 남아있길 선택했어요.\" \n"
+"나는 고개를 끄덕였다. 나는 결혼식 동안 휴식을 취하지는 못했지만, 후회할 건 없다. 괴물의 아이는 구원의 길을 선택했고, 그녀를 낳은 "
+"악에게서 세상을 구했으니까.\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NexusArk_Mark::m_DisplayNameText
 msgctxt "22f15efd-b755-4dee-9edd-4122bb6871c7"
 msgid "Gold Coin with Baphomet's Mark"
-msgstr ""
+msgstr "바포메트의 표식이 그려진 금화"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NexusArk_Mark::m_FlavorText
@@ -11256,7 +11310,7 @@ msgctxt "c6fd7163-2146-4e9a-bef9-5522f6fc9f3c"
 msgid ""
 "A gold coin that used to belong to the balor Darrazand. The mark of the "
 "demon lord Baphomet is etched onto the coin's face."
-msgstr ""
+msgstr "발러 다라잔드가 소유했던 금화입니다. 데몬 군주 바포메트의 문양이 금화의 한 면에 새겨져 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NobleHops::m_DisplayNameText
@@ -11278,13 +11332,13 @@ msgstr "고급 홉"
 #. Path = NocticulaUnholyKey::m_DisplayNameText
 msgctxt "23ae89d1-48ba-44f5-b967-65179fbf8932"
 msgid "Nocticula Servants' Key"
-msgstr ""
+msgstr "녹티큘라 신도들의 열쇠"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NocticulaUnholyKey::m_DescriptionText
 msgctxt "b57dfb6f-8091-4f50-b4b8-b45e93b2aa4e"
 msgid "The key from the Midnight Fane with Nocticula symbol on it."
-msgstr ""
+msgstr "칠흑의 사원에서 획득한 녹티큘라의 문양이 그려진 열쇠입니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NotBurnedPage::m_DescriptionText
@@ -11305,6 +11359,12 @@ msgid ""
 "their incantations to shelter themselves from the anger of those forces "
 "disturbed by rites against nature.\""
 msgstr ""
+"먼지 투성이 종이에 여기저기 핏자국이 남겨져 있습니다. 누군가가 피로 고대 엘프 룬 문자로 글을 적었습니다. 문서의 한 쪽 귀퉁이만 겨우 "
+"읽을 수 있습니다.\n"
+"\"...은 차원문이 아니며, 시공간의 구조 상의 가장 얇은 부분이다. 많은 신들과 데몬들은 이러한 균열을 열 정도로 강력한 힘을 "
+"갖고있다. 하지만 그들은 이것을 사용하는 것을 꺼릴 것이며, 그러한 요구에 응답하지 않을 것이다. 그렇기 때문에, 이러한 균열을 열 때, "
+"\"라버크\" 를 발음해야할 필요가 있다. 이는 이제는 잊혀진, 고대의 힘의 언어로, \"이름 없음\"을 뜻한다. 과거의 마법사들은 "
+"자연에 반하는 의식을 할 때, 위와 같은 존재들의 분노를 피하기 위해 그들의 마법에 이 단어를 끼워놓았다.\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NoteFromAreelu1::m_DisplayNameText
@@ -11313,7 +11373,7 @@ msgstr ""
 #. Path = NoteFromAreelu2::m_DisplayNameText
 msgctxt "8c52d90e-74ff-4e2a-9fa4-cd535547a28c"
 msgid "Old Note"
-msgstr ""
+msgstr "오래된 쪽지"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NoteFromAreelu1::m_DescriptionText
@@ -11328,6 +11388,11 @@ msgid ""
 "that will make you die an excruciating death.\n"
 "Areelu Vorlesh\""
 msgstr ""
+"\"누더기, 만약 네가 기적적으로 이 숨겨진 곳을 찾아서 열었다면, 지금이 모든걸 되돌리고 내 화를 피할 마지막 기회라는 것을 명심해라. "
+"이 물약들은 실험을 위한 것이지, 드레치가 가지고 놀라고 있는 것이 아니다. 만약 네가 이것들을 만진다면, 너를 다시 조각내서 반대로 "
+"꿰매 주마.\n"
+"그리고, 이 병들 중 하나에는 극도로 고통스러운 죽음을 선사하는 죽효성 독이 들어있다.\n"
+"아릴루 볼레쉬\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = NoteFromAreelu2::m_DescriptionText
@@ -11345,14 +11410,18 @@ msgid ""
 "hide.\n"
 "Areelu Vorlesh\""
 msgstr ""
+"\"나는 내일 실험을 위해 이 부적들과 마법 물품들이 필요하다. 내가 강력하게 말하건데, 누더기, 절대로 이것들을 만지지 말고, 입지도 "
+"말고, 이것들이 보관된 실험실에서 돌아다니지도 말고, 또 네가 잊을 수 있는 곳에 놓지도 마라. 나는 내일 실험에서 필요한 모든 것들을 "
+"이곳에 모으기 위해 꽤 많은 주의를 기울였다. 만약, 내 모든 주의에도 불구하고, 이 구획을 열고 보석들을 착용하려 한다면, 그런 이상한 "
+"생각을 잊어버리기를 간곡히 부탁한다,  네 목숨을 걸지 마라. 모든 것을 이 상자 안에 넣고, 닫아버려라. 아무 것도 발견하지 못한 것 "
+"처럼. 그렇게 하면, 너는 내 걱정을 덜어줄 것이고, 그 보답으로, 나는 네 목숨의 위협을 덜어줄 것이다.\n"
+"아릴루 볼레쉬\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Nuts::m_DisplayNameText
-#, fuzzy
-#| msgid "Nuts"
 msgctxt "bfc5285d-ce6c-45a3-83e6-ad8fcbbee74e"
 msgid "Butter knife"
-msgstr "견과류"
+msgstr "버터칼"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = OldDiary::m_DisplayNameText
@@ -11381,7 +11450,7 @@ msgstr ""
 #. Path = Onion::m_DisplayNameText
 msgctxt "3c66f3e9-67ca-499c-8514-4a988bd021f7"
 msgid "Radish"
-msgstr ""
+msgstr "무"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = OnionSoup_item::m_DisplayNameText
@@ -11393,13 +11462,13 @@ msgstr ""
 #. Path = OnionSoupBuff::m_DisplayName
 msgctxt "9b98b0de-a417-4dff-97dc-501fd1df21bc"
 msgid "Onion Soup"
-msgstr ""
+msgstr "양파 수프"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = OponsLetter::m_DisplayNameText
 msgctxt "b443b39f-e7a0-403e-9532-6a46e179f9c5"
 msgid "Old Letter"
-msgstr ""
+msgstr "오래된 편지"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = OponsLetter::m_DescriptionText
@@ -11433,14 +11502,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = OwlbearEgg::m_DisplayNameText
-#, fuzzy
 msgctxt "6bd1aec5-497b-412f-aaf8-01d9a5a2312f"
 msgid "Owlbear Egg"
 msgstr "아울베어 알"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = OwlbearPelt::m_DisplayNameText
-#, fuzzy
 msgctxt "4a739841-fb95-48c8-b5f0-70b7a3c42190"
 msgid "Owlbear Pelt"
 msgstr "아울베어 가죽"
@@ -11453,7 +11520,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Pearl::m_DisplayNameText
-#, fuzzy
 msgctxt "7752df7f-37c2-4f4a-83e5-70d544ff91d3"
 msgid "Pearl"
 msgstr "진주"
@@ -11462,7 +11528,7 @@ msgstr "진주"
 #. Path = PeasantHead::m_DisplayNameText
 msgctxt "b0dc59c4-f56a-417a-8f73-cd57ebd58324"
 msgid "Severed Head"
-msgstr ""
+msgstr "잘린 머리"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = PeasantHead::m_DescriptionText
@@ -11472,10 +11538,11 @@ msgid ""
 "was performed using magic. You have no idea how these terrifying remains "
 "ended up among your belongings."
 msgstr ""
+"잘려진 머리입니다. 목 쪽의 절단면이 비정상적으로 깔끔한 것으로 보아, 아마도 마법을 사용한 것으로 보입니다. 이 끔찍한 유해가 어떻게 "
+"당신의 소지품 사이에서 나타나게 되었는지 알 수가 없습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Peridot::m_DisplayNameText
-#, fuzzy
 msgctxt "fcfa345c-d7af-4b94-b10b-2c0c98625bd9"
 msgid "Peridot"
 msgstr "페리도트"
@@ -11491,26 +11558,24 @@ msgstr "페리도트"
 #. 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = FieldOfWondersLoot3_CloseAction::Actions/Actions/0/IfTrue/Actions/0/Loot/17/Item/m_DisplayNameText
-#, fuzzy
 msgctxt "319317b1-9997-4905-8c9e-92d525b46748"
 msgid "Petrified Egg"
-msgstr "화석화된 알"
+msgstr "석화된 알"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = PileOfDust_item::m_DisplayNameText
 msgctxt "7e5869cf-2d23-4192-92a2-0aeeac75c32e"
 msgid "Handful of Sand"
-msgstr ""
+msgstr "모래 한 줌"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = PileOfDust_item::m_DescriptionText
 msgctxt "968374bc-bb21-40c1-b55f-3c6d2309fd01"
 msgid "Ordinary sand, nothing special about it."
-msgstr ""
+msgstr "특별한게 없는 일반적인 모래입니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = PlatinumPen::m_DisplayNameText
-#, fuzzy
 msgctxt "bd41da13-d7eb-46ad-89ee-ae2e8242c0e1"
 msgid "Platinum Pen"
 msgstr "백금 펜"
@@ -11531,7 +11596,7 @@ msgstr "백금 펜"
 #. Path = PlayersPhylacteryLongswordItem::m_DisplayNameText
 msgctxt "d1c22d13-5b9b-4950-b793-2c666afcb863"
 msgid "Your Phylactery"
-msgstr ""
+msgstr "당신의 성물함"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = PlayersPhylactery_temp::m_DescriptionText
@@ -11551,25 +11616,22 @@ msgctxt "b2b32159-a1e9-452b-b218-c6db74a2f04f"
 msgid ""
 "This vessel contains your soul. Anyone who touches the vessel will sense the "
 "dark, dangerous essence that lurks inside."
-msgstr ""
+msgstr "이 그릇은 당신의 영혼을 담고 있습니다. 이것을 만지는 사람은 그릇 안에 도사리는 어둡고, 위험한 정수를 느끼게 될 겁니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = PocketMirror::m_DisplayNameText
-#, fuzzy
 msgctxt "443d2745-55fb-4652-881b-d58cf3bea7ca"
 msgid "Pocket Mirror"
 msgstr "손거울"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Port::m_DisplayNameText
-#, fuzzy
 msgctxt "09af8144-3cbb-4cbf-be70-6691c0e4e146"
 msgid "Port"
-msgstr "포트"
+msgstr "포트 와인"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Port::m_FlavorText
-#, fuzzy
 msgctxt "b2f31fa9-2d9f-4c42-88d3-e5171b1c7d2c"
 msgid "A dark-colored fortified wine."
 msgstr "어두운 색의 와인입니다."
