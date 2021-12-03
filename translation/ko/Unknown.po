@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-12-01 10:24+0000\n"
-"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
+"PO-Revision-Date: 2021-12-03 11:24+0000\n"
+"Last-Translator: 김옥현 <dhrgusdlrns@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -4336,13 +4336,13 @@ msgstr "커서가 게임 창의 가장자리에 접근 할 때 카메라를 스�
 
 msgctxt "bd14c1df-a350-489b-8deb-4dafe0a7e2da"
 msgid "Additional Enemy Behaviors"
-msgstr ""
+msgstr "적의 행동 추가"
 
 msgctxt "52e7f9a0-b606-4ba6-a6f8-8bed09bf0a11"
 msgid ""
 "Enable this option to allow some enemies to use additional abilities and "
 "spells."
-msgstr ""
+msgstr "이 옵션을 켜면 일부 적들이 추가적인 능력과 주문을 사용합니다."
 
 msgctxt "b4470c4e-a785-4849-bee6-f7f78c1e37e9"
 msgid "Auto Level Up"
@@ -4563,13 +4563,13 @@ msgstr ""
 
 msgctxt "b3c08281-7cab-454e-bab8-2b482d2019d1"
 msgid "Remove controlling effects after combat"
-msgstr ""
+msgstr "전투 후 제어 효과 제거"
 
 msgctxt "731b5cb7-cf8c-4227-bf86-e2b9eb7de436"
 msgid ""
 "With this option switched on, frightened, paralyzed, and numerous other "
 "negative controlling effects will be removed soon after combat."
-msgstr ""
+msgstr "이 옵션을 켜면 전투가 끝났을 때 겁먹음, 마비와 같은 다양한 부정적 제어 효과가 제거됩니다."
 
 msgctxt "90e31f10-d58c-4da3-9ddb-9a642ceb8179"
 msgid "Remove negative effects on rest"
@@ -28860,37 +28860,47 @@ msgid ""
 "Kenabres, Ember? You are an amusing little thing!\""
 msgstr ""
 
+#, fuzzy
 msgctxt "f13b681d-6484-441b-a723-e7e71e423249"
 msgid ""
 "\"I like seeing you as you are now — mask torn away, no longer pretending. "
 "Of course, 'like' is not quite the term I should use when describing my "
 "feelings toward a demon.\""
 msgstr ""
+"\"나는 가면이 찢기고 더 이상 연기하지 않는 지금의 너를 보는게 좋아. 물론, 데몬에 대한 내 느낌을 '좋다'라고 표현하는건 적절하지 "
+"않겠지만.\""
 
+#, fuzzy
 msgctxt "4a5c9f4d-1784-4cba-abaf-888e1a9c29f2"
 msgid ""
 "\"Tell me something, Arueshalae — were you pretending to repent, were you "
 "sincere, or was it all just Desna getting inside your head and seizing the "
 "reins?\""
 msgstr ""
+"\"한 가지만 말해줘, 아루샬레. 회개하는 척 했던 때, 네 진심이었던 거야 아니면 데즈나가 머릿속에 들어와서 네게 고삐를 걸었던 거야?"
+"\""
 
+#, fuzzy
 msgctxt "0ba8aca9-665b-4344-80c5-1c1af96b6562"
 msgid ""
 "\"Out of curiosity, Greybor… how much do you charge for your services?\""
-msgstr ""
+msgstr "\"그레이보르, 그냥 궁금해서 그런데… 너를 고용하려면 얼마를 줘야하지?\""
 
+#, fuzzy
 msgctxt "7bd63012-3b65-4b81-b735-7438aefb129d"
 msgid ""
 "\"You know, Greybor, you fuss over your name and reputation so much, you "
 "could give some of my fellow nobles a run for their money.\""
-msgstr ""
+msgstr "\"그레이보르, 알다시피, 너는 네 이름과 명성에 지나치게 신경써. 내 귀족 친구들 몇 명과 호각을 다툴 정도야.\""
 
+#, fuzzy
 msgctxt "74457fe3-bc9d-4f0d-94b6-292837a7270f"
 msgid ""
 "\"Greybor, name your price: I want you to take my place on sentry duty today."
 "\""
-msgstr ""
+msgstr "\"그레이보르, 오늘 하루 너를 경비병으로 고용하고 싶은데, 가격을 불러줘.\""
 
+#, fuzzy
 msgctxt "09b16213-3215-4fda-8b50-2bafd3cf36b7"
 msgid ""
 "\"Hired assassins go out of their way to please their clients. They are "
@@ -28898,6 +28908,8 @@ msgid ""
 "services, paying incredible sums for the privilege. Your kind are rather "
 "like courtesans, are they not?\""
 msgstr ""
+"\"고용된 암살자는 고용주를 기쁘게 하기 위해 움직여. 상류층에서는 기피당하지만, 내 친구들은 때때로 특혜를 위해 엄청난 돈을 쏟아 "
+"그들을 고용하지. 너희들은 창녀나 다름없는 것 같아, 안그래?\""
 
 msgctxt "a5a048db-90b9-44b9-b894-4026b23a556d"
 msgid ""
@@ -28905,87 +28917,118 @@ msgid ""
 "Hardly tobacco.\""
 msgstr ""
 
+#, fuzzy
 msgctxt "8011cd08-0aa6-4663-bb55-2bed667d8a9d"
 msgid ""
 "\"But really, what's it like? Like an ordinary human organ? Or is it like a "
 "lizard's? Is it forked? By my reckoning, it should at the very least be "
 "longer than a normal human's.\""
 msgstr ""
+"\"하지만, 정말로 뭐랑 비슷해? 평범한 인간의 장기? 아니면 도마뱀의 것? 반반인가? 내 추측으로는, 최소한 인간의 내장보다는 길거야."
+"\""
 
+#, fuzzy
 msgctxt "82401842-e4d5-4607-bfe3-1c77b4568cf8"
 msgid ""
 "\"What a revolting sight. Lann, what is this slimy thing swimming about in "
 "my bowl? Are we having some prized mongrel dish today?\""
 msgstr ""
+"\"아주 혁명적인 광경이야, 란. 내 접시 위를 둥둥 떠다니는 이 끈적이는 것은 대체 뭐야? 우리가 오늘 비장의 잡종 특식을 대접받기로 "
+"했던가?\""
 
+#, fuzzy
 msgctxt "dbe3ca88-c5f1-458c-9c2b-d2a54517286b"
 msgid ""
 "\"Lann, satisfy my curiosity — has anyone ever mistaken you for an animal?\""
-msgstr ""
+msgstr "\"란, 내 궁금증을 좀 해소해줘. 누가 너를 동물로 오해했던 적이 한 번도 없어?\""
 
+#, fuzzy
 msgctxt "04f1bed4-a8bf-40ea-85b5-a140f1cc9515"
 msgid ""
 "\"I am not surprised you do not know how to enjoy yourself, but how you have "
 "never played a ball game before is beyond my comprehension. Shall I give you "
 "a lesson?\""
 msgstr ""
+"\"스스로 놀 줄을 모른다는 사실이 놀랍지는 않지만, 어떻게 한 번도 공놀이를 해본 적 없는지는 내 이해 범주를 넘어 섰어. 내가 좀 "
+"가르쳐줄까?\""
 
+#, fuzzy
 msgctxt "7c076f24-0d39-4867-8b77-df263703fd0d"
 msgid ""
 "\"I once ordered three wheels of a most excellent blue cheese, but they "
 "delivered three hundred by mistake. I lived off the stuff for two weeks, but "
 "a man can only take so much mold...\""
 msgstr ""
+"\"한 번은 최상급 블루 치즈 세 수레를 주문했었는데, 거래처에서는 실수로 삼백 수레를 배달해왔었지. 나는 2주 동안이나 그것들만 먹고 "
+"살았는데, 남자 한 명은 그 이상의 곰팡이를 버틸 수가 없더라고...\""
 
+#, fuzzy
 msgctxt "e7c0c560-2df8-4c54-a509-454bf7aab396"
 msgid ""
 "\"I say, Nenio, have you heard that there is a dinosaur living in the sewers "
 "beneath Drezen?\""
-msgstr ""
+msgstr "\"그런데 네니오, 드레젠 지하 수로에 공룡이 산다는 말 들어본 적 있어?\""
 
+#, fuzzy
 msgctxt "a252dc79-e462-40f9-bf63-b3fd74eb9641"
 msgid ""
 "\"My dear Nenio, did you know that the best folk remedy for snoring is a "
 "pillow pressed to the face of the snorer? Give it a try tonight if you hear "
 "anyone start to snore.\""
 msgstr ""
+"\"네니오 아가씨, 가장 선량한 사람들의 코골이 처방이 코고는 사람의 얼굴에 베게를 덮는거라는 사실을 알고 있었나요? 오늘 밤에 누가 "
+"코를 골면 한 번 시도해봐.\""
 
+#, fuzzy
 msgctxt "8bfafb4b-247e-484b-825e-f99d294b15c9"
 msgid ""
 "\"Nenio, tell me, do you truly not understand that I am... well, mocking you "
 "when I suggest all these madcap experiments?\""
 msgstr ""
+"\"네니오, 하나 물어볼게. 내가 이 무모한 실험들을 제안하는게 전부... 좋아, 널 놀리고 있는거란 사실을 정말로 이해하지 못한거야?\""
 
+#, fuzzy
 msgctxt "e4082e1a-ad37-4651-a784-3c2d97c091d9"
 msgid "\"The mystery woman without a past... It is rather tantalizing.\""
-msgstr ""
+msgstr "\"과거가 없는 신비의 여인이라... 꽤나 애태우는군.\""
 
+#, fuzzy
 msgctxt "e0fb5e50-1a38-4f22-b53b-3a8000462421"
 msgid ""
 "\"What do you think would happen, Nenio, if you tied two babaus together by "
 "the tail and suspended them above a hole filled with acid?\""
 msgstr ""
+"\"네니오, 만약 네가 바바우 둘의 꼬리를 서로 엮어서 산으로 가득 찬 웅덩이 위에 매달아 뒀다면 어떤 일이 일어날 것 같아?\""
 
+#, fuzzy
 msgctxt "ecb3cdf5-776a-4c24-ae4e-55a84b29cefa"
 msgid ""
 "\"I say, I do believe your Bleaching has progressed since yesterday. As your "
 "healer, I'm prescribing a trip to the nearest brothel. The experience will "
 "add at least ten years to your life.\""
 msgstr ""
+"\"그, 나는 네 백화가 어제보다 더 진행되었다고 생각해. 네 치유사로서, 나는 가장 가까운 사창가로 향하는 처방을 내리고 있지. 이번 "
+"경험으로 네 삶이 최소한 10년은 길어질 거야.\""
 
+#, fuzzy
 msgctxt "4b021b17-83b7-4a62-9b1c-91696c6c036e"
 msgid ""
 "\"Regill, if your commander ordered you to, say, get drunk on wine and "
 "proposition a pretty squire... would you, as a loyal soldier, be duty-bound "
 "to carry out the order? Without a second thought?\""
 msgstr ""
+"\"레질, 만약, 만약에 말야, 네 사령관이 와인에 취한 뒤 어여쁜 종자와 하룻밤 지내라고 명령한다면... 충직한 전사인 너는 그 명령을 "
+"곧장 수행할거야? 재고할 필요도 없이?\""
 
+#, fuzzy
 msgctxt "252ef100-42a0-4b08-a738-7ab5e2df6352"
 msgid ""
 "\"I do not understand you Hellknights. Your life is nothing but "
 "restrictions, prohibitions, regulations... I see sticks a plenty, but where, "
 "pray tell, are the carrots? What are you doing all this for?\""
 msgstr ""
+"\"난 너희 헬나이트를 이해할 수가 없어. 너의 삶은 규제, 제약, 단속밖엔 없으니... 나는 수많은 채찍만 보이는데, 당근은 어딨는지 "
+"말해줄 수 있어? 대체 무슨 목적을 가지고 그 모든 일들을 수행하는거야?\""
 
 msgctxt "8407e73e-17a4-4fdf-aae4-a9bb88848047"
 msgid ""
