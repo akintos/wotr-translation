@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-16 15:24+0000\n"
+"PO-Revision-Date: 2021-12-06 04:24+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1730,7 +1730,7 @@ msgstr ""
 #. Path = FighterPoisonousStrike1Ability::m_DisplayName
 msgctxt "91a85e62-7ed0-4c55-b975-be6465da99ac"
 msgid "Poison I"
-msgstr ""
+msgstr "독 I"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterPoisonousStrike1::LocalizedDescription
@@ -1745,6 +1745,8 @@ msgid ""
 "{g|Poison_condition}[Poisons]{/g} the target unit, deals ((Power×Power+ 5)d6)"
 " physical damage and applies a -1 penalty to Constitution."
 msgstr ""
+"대상 유닛을 {g|Poison_condition}[중독]{/g}시켜, ((마력×마력 + 5)d6) 물리 피해를 입히고 건강에 -1 "
+"페널티를 가합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterPoisonousStrike2::LocalizedName
@@ -1756,7 +1758,7 @@ msgstr ""
 #. Path = FighterPoisonousStrike2Ability::m_DisplayName
 msgctxt "8118780c-2e25-41f9-9d13-4cf3bfc499b9"
 msgid "Poison II"
-msgstr ""
+msgstr "독 II"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterPoisonousStrike2::LocalizedDescription
@@ -1771,6 +1773,8 @@ msgid ""
 "{g|Poison_condition}[Poisons]{/g} the target unit, deals ((Power×Power+ 5)d8)"
 " physical damage and applies a -2 penalty to Constitution."
 msgstr ""
+"대상 유닛을 {g|Poison_condition}[중독]{/g}시켜, ((마력×마력 + 5)d8) 물리 피해를 입히고 건강에 -2 "
+"페널티를 가합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterPoisonousStrike3::LocalizedName
@@ -1782,7 +1786,7 @@ msgstr ""
 #. Path = FighterPoisonousStrike3Ability::m_DisplayName
 msgctxt "b4afc764-0acd-4c09-a524-a8763de6849c"
 msgid "Poison III"
-msgstr ""
+msgstr "독 III"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterPoisonousStrike3::LocalizedDescription
@@ -1797,6 +1801,8 @@ msgid ""
 "{g|Poison_condition}[Poisons]{/g} the target unit, deals ((Power×Power+ "
 "5)d10) physical damage and applies a -3 penalty to Constitution."
 msgstr ""
+"대상 유닛을 {g|Poison_condition}[중독]{/g}시켜, ((마력×마력 + 5)d10) 물리 피해를 입히고 건강에 -3 "
+"페널티를 가합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterPrecisePrediction::LocalizedName
@@ -1808,7 +1814,7 @@ msgstr ""
 #. Path = FighterPrecisePredictionBuff::m_DisplayName
 msgctxt "687fb63b-ba02-45db-8a92-1cdb9e87098e"
 msgid "Precise Prediction"
-msgstr ""
+msgstr "정확한 예측"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterPrecisePrediction::LocalizedDescription
@@ -1834,7 +1840,7 @@ msgstr ""
 #. Path = FighterRetaliationBuff::m_DisplayName
 msgctxt "bd99b479-f35d-437b-984b-6dbb243ba805"
 msgid "Retaliation"
-msgstr ""
+msgstr "앙갚음"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = FighterRetaliation::LocalizedDescription
@@ -1844,11 +1850,14 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = FighterRetaliationBuff::m_Description
+#, fuzzy
 msgctxt "f4b9cf9a-d742-4f68-82bf-561243bbb897"
 msgid ""
 "All units in a 3×3 area deal ((Power×Power + 5)×d6) physical damage to the "
 "enemy when damaged in melee. This ability is a Stratagem."
 msgstr ""
+"3×3 범위 내의 모든 유닛이 적에게 근접 공격을 받으면 ((마력×마력 + 5)×d6) 물리 피해를 반사합니다. 이 능력은 "
+"Stratagem입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = GlobalSpellDevilInfernalMightLeaderBuff::LocalizedName
@@ -1860,7 +1869,7 @@ msgstr ""
 #. Path = GlobalSpellDevilInfernalMightKingdomBuff::DisplayName
 msgctxt "ee804fe9-a9e4-4518-a4b9-211ad8c06ba9"
 msgid "Infernal Might"
-msgstr ""
+msgstr "지옥의 힘"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = GlobalSpellDevilInfernalMightLeaderBuff::LocalizedDescription
@@ -1872,13 +1881,13 @@ msgstr ""
 #. Path = GlobalSpellDevilInfernalMightKingdomBuff::Description
 msgctxt "3f69a9c8-ccea-428c-9432-8ad323113988"
 msgid "All generals gain a +5 bonus to Power. This effect lasts for 2 days."
-msgstr ""
+msgstr "모든 지휘관들이 마력에 +5 보너스를 받습니다. 이 효과는 2일 동안 지속됩니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ImprovedInfirmaryRank1::LocalizedName
 msgctxt "e9a3e8d5-d460-4921-9840-956bf889358d"
 msgid "Extensive Infirmary I"
-msgstr ""
+msgstr "대규모 의무대 I"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ImprovedInfirmaryRank1::LocalizedDescription
@@ -1887,19 +1896,19 @@ msgstr ""
 #. Path = ImprovedInfirmaryRank2::LocalizedDescription
 msgctxt "d18a0e5b-e828-45af-9bdb-b77a394994d3"
 msgid "Infirmary size increases by 5% per level of this feat."
-msgstr ""
+msgstr "이 특기의 레벨당 의무대의 규모가 5% 증가합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ImprovedInfirmaryRank2::LocalizedName
 msgctxt "ae89423d-3a6e-4b3b-94b3-39a539a60141"
 msgid "Extensive Infirmary II"
-msgstr ""
+msgstr "대규모 의무대 II"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = InspirationRank1::LocalizedName
 msgctxt "eb325d02-1ae3-489a-a340-f7a8dba957d7"
 msgid "Inspiration I"
-msgstr ""
+msgstr "고무 I"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = InspirationRank1::LocalizedDescription
@@ -1910,19 +1919,19 @@ msgctxt "512c09c6-7756-4f64-a069-77190a818a29"
 msgid ""
 "All units in the army have a +15 bonus to combat morale per level of this "
 "feat."
-msgstr ""
+msgstr "이 특기의 레벨당 부대의 모든 유닛이 전투 사기에 +15 보너스를 받습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = InspirationRank2::LocalizedName
 msgctxt "99d178dc-9fb3-4e34-8c2a-426dbdc196ce"
 msgid "Inspiration II"
-msgstr ""
+msgstr "고무 II"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = IntimidationRank1::LocalizedName
 msgctxt "4277991b-a37b-4db7-b63f-49d02687db52"
 msgid "Intimidation I"
-msgstr ""
+msgstr "위협 I"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = IntimidationRank1::LocalizedDescription
@@ -1932,13 +1941,13 @@ msgstr ""
 msgctxt "569849b7-05dd-49e4-835e-b9fc29cb9094"
 msgid ""
 "All enemy units have a -15 penalty to combat morale per level of this feat."
-msgstr ""
+msgstr "이 특기의 레벨당 모든 적 유닛들이 전투 사기에 -15 페널티를 받습니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = IntimidationRank2::LocalizedName
 msgctxt "04e6c5da-5c06-4f77-8b00-ffd4c8f4cff2"
 msgid "Intimidation II"
-msgstr ""
+msgstr "위협 II"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership3Infirmary::LocalizedName
@@ -3104,7 +3113,7 @@ msgstr ""
 #. Path = FlagReductionOfLosses3::DisplayName
 msgctxt "998e1b7c-48c6-432e-9ae5-c9b3ff6d3473"
 msgid "Reduction of Losses"
-msgstr ""
+msgstr "병력 손실 감소"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses1::LocalizedDescription
@@ -3122,55 +3131,55 @@ msgstr ""
 #. Path = ReductionOfLosses5::LocalizedDescription
 msgctxt "b91e3297-5dbe-4038-85ff-e583b8351b61"
 msgid "Infirmary size increases by 5% per level of this feat."
-msgstr ""
+msgstr "이 특기의 레벨당 의무대의 규모가 5% 증가합니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses2::LocalizedName
 msgctxt "117793e9-9721-4805-a331-d5aa697b26c5"
 msgid "Reduction of Losses II"
-msgstr ""
+msgstr "병력 손실 감소 II"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses3::LocalizedName
 msgctxt "d82eda21-b7e7-474e-9960-66d73121244b"
 msgid "Reduction of Losses III"
-msgstr ""
+msgstr "병력 손실 감소 III"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses4::LocalizedName
 msgctxt "a9777644-0d32-4871-a2e7-2a6c2ce7daeb"
 msgid "Reduction of Losses IV"
-msgstr ""
+msgstr "병력 손실 감소 IV"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses5::LocalizedName
 msgctxt "0740a870-f935-45cc-90fd-014b033500dd"
 msgid "Reduction of Losses V"
-msgstr ""
+msgstr "병력 손실 감소 V"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses6::LocalizedName
 msgctxt "991e56d7-f2a6-4a68-86fa-ef197d56dc7d"
 msgid "Reduction of Losses VI"
-msgstr ""
+msgstr "병력 손실 감소 VI"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses7::LocalizedName
 msgctxt "1627cd68-12f9-4d37-a1fa-c442300e225d"
 msgid "Reduction of Losses VII"
-msgstr ""
+msgstr "병력 손실 감소 VII"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses8::LocalizedName
 msgctxt "6321df50-0e0b-4010-813d-5c98614125d7"
 msgid "Reduction of Losses VIII"
-msgstr ""
+msgstr "병력 손실 감소 VIII"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ReductionOfLosses9::LocalizedName
 msgctxt "29bbe6c4-149a-4d5b-8154-82440b87f9f2"
 msgid "Reduction of Losses IX"
-msgstr ""
+msgstr "병력 손실 감소 IX"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBane::LocalizedName
@@ -3182,7 +3191,7 @@ msgstr ""
 #. Path = RitualBaneBuff::m_DisplayName
 msgctxt "096431bf-71ab-44ef-babe-970075473c9b"
 msgid "Bane"
-msgstr ""
+msgstr "파멸"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBane::LocalizedDescription
@@ -3196,7 +3205,7 @@ msgctxt "f83638a3-22a7-454f-b522-f230e1635ad6"
 msgid ""
 "Target unit receives a -1 penalty to attack for 3 rounds. Bane dispels "
 "Bless. This is a Divine spell."
-msgstr ""
+msgstr "대상 유닛이 3 라운드 동안 명중에 -1 페널티를 받습니다. 파멸은 축복을 해제합니다. 이것은 신성 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBearsEndurance::LocalizedName
@@ -3208,7 +3217,7 @@ msgstr ""
 #. Path = RitualBearsEnduranceBuff::m_DisplayName
 msgctxt "2b111bf9-c74c-4e20-b784-fc15f2d3db18"
 msgid "Bear's Endurance"
-msgstr ""
+msgstr "곰의 지구력"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBearsEndurance::LocalizedDescription
@@ -3222,7 +3231,7 @@ msgctxt "f9f3374e-b9ee-45c6-a40d-33626a5530c4"
 msgid ""
 "Target unit gains a +(3 + Power/8) bonus to maximum HP for 3 rounds. This is "
 "an Arcane spell."
-msgstr ""
+msgstr "대상 유닛이 3 라운드 동안 최대 HP에 +(3 + 마력/8) 보너스를 받습니다. 이것은 비전 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBless::LocalizedName
@@ -3232,7 +3241,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = RitualBlessBuff::m_DisplayName
-#, fuzzy
 msgctxt "222f6329-dfad-4854-8229-16ec3f382601"
 msgid "Bless"
 msgstr "축복"
@@ -3249,7 +3257,7 @@ msgctxt "2d56a7de-57c3-409c-9126-2f77daa5a693"
 msgid ""
 "Target unit gains a +1 bonus to attack for 3 rounds. Bless dispels Bane. "
 "This is a Divine spell."
-msgstr ""
+msgstr "대상 유닛이 3 라운드 동안 명중에 +1 보너스를 받습니다. 축복은 파멸을 해제합니다. 이것은 신성 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBoneArrow::LocalizedName
@@ -3284,7 +3292,7 @@ msgstr ""
 #. Path = RitualBoneShieldBuff::m_DisplayName
 msgctxt "375aef54-9902-4d4e-9434-cb3c3f0e7b26"
 msgid "Bone Shield"
-msgstr ""
+msgstr "뼈 방패"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBoneShield::LocalizedDescription
@@ -3294,7 +3302,7 @@ msgstr ""
 msgctxt "09950cba-23b7-4102-9fe9-f198189ecf31"
 msgid ""
 "Target unit gains a +3 bonus to AC for 3 rounds. This is an Arcane spell."
-msgstr ""
+msgstr "대상 유닛이 3 라운드 동안 AC에 +3 보너스를 받습니다. 이것은 비전 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBreathOfLife::LocalizedName
@@ -3303,7 +3311,7 @@ msgstr ""
 #. Path = RitualBreathOfLifeAbility::m_DisplayName
 msgctxt "f0fb0ca7-8370-4f15-a278-8afbd8f59eff"
 msgid "Breath of Life"
-msgstr ""
+msgstr "생명의 숨결"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBreathOfLife::LocalizedDescription
@@ -3314,7 +3322,7 @@ msgctxt "47855402-bcbc-4ce0-9dbf-e0c0aae4bd8c"
 msgid ""
 "Restores ((Power×Power+ 5)×2d8) HP to the target unit. This is a Divine "
 "spell with a heal effect."
-msgstr ""
+msgstr "대상 유닛의 HP를 ((마력×마력 + 5)×2d8) 회복합니다. 이것은 신성 주문이며 치유 효과입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBullsStrength::LocalizedName
@@ -3326,7 +3334,7 @@ msgstr ""
 #. Path = RitualBullsStrengthBuff::m_DisplayName
 msgctxt "63deb4df-d4b8-4ff3-8d45-e650e2047b4c"
 msgid "Bull's Strength"
-msgstr ""
+msgstr "황소의 힘"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualBullsStrength::LocalizedDescription
@@ -3340,7 +3348,7 @@ msgctxt "11f1cc5d-4763-482a-97db-815dc603c405"
 msgid ""
 "Target unit gains a +(1 + Power/20) bonus to attack and damage for 3 rounds. "
 "This is an Arcane spell."
-msgstr ""
+msgstr "대상 유닛이 3 라운드 동안 공격과 피해에 +(1 + 마력/20) 보너스를 받습니다. 이것은 비전 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualCallLightning::LocalizedName
@@ -3349,7 +3357,7 @@ msgstr ""
 #. Path = RitualCallLightningAbility::m_DisplayName
 msgctxt "b69d467b-b377-47b4-a965-c7e3c7312948"
 msgid "Call Lightning"
-msgstr ""
+msgstr "번개 소환"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualCallLightning::LocalizedDescription
@@ -3360,17 +3368,16 @@ msgctxt "7e21c5de-f68f-41ba-a900-43d5514b5703"
 msgid ""
 "Deals ((Power×Power+ 5)d10) electricity damage to the target unit. This is a "
 "Divine spell."
-msgstr ""
+msgstr "대상 유닛에게 ((마력×마력 + 5)d10) 전기 피해를 가합니다. 이것은 신성 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualCauseFear::LocalizedName
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RitualCauseFearAbility::m_DisplayName
-#, fuzzy
 msgctxt "1cf73e1d-e631-4a1b-9304-6f39cbcda4e3"
 msgid "Cause Fear"
-msgstr "공포유발"
+msgstr "공포 유발"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualCauseFear::LocalizedDescription
@@ -3381,7 +3388,7 @@ msgctxt "85f10b74-0370-409c-af14-0ad0424c5a7e"
 msgid ""
 "Target unit receives a -(20 + Power/5) penalty to combat morale. This is a "
 "Divine spell."
-msgstr ""
+msgstr "대상 유닛이 전투 사기에 -(20 + 마력/5) 페널티를 받습니다. 이것은 신성 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualChannelNegativeEnergy::LocalizedName
@@ -3394,7 +3401,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = RitualChannelNegativeEnergyAbility::m_DisplayName
-#, fuzzy
 msgctxt "c973b678-5751-4ccf-8842-5ba525ce0eaf"
 msgid "Channel Negative Energy"
 msgstr "음에너지 전달"
@@ -3416,6 +3422,8 @@ msgid ""
 "units. Restores ((Power×Power + 5)d6) HP to all undead units. This is a "
 "Divine spell with a death effect."
 msgstr ""
+"모든 적 생체 유닛에게 ((마력×마력 + 5)d6) 음에너지 피해를 가합니다. 모든 언데드 유닛의 HP를 ((마력×마력 + 5)d6) "
+"회복합니다. 이것은 신성 주문이며 즉사 효과입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualCrushingDespair::LocalizedName
@@ -3424,7 +3432,7 @@ msgstr ""
 #. Path = RitualCrushingDespairAbility::m_DisplayName
 msgctxt "bd3e1d05-ee69-4010-bf4d-5c1be046f4d0"
 msgid "Crushing Despair"
-msgstr ""
+msgstr "처참한 절망"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualCrushingDespair::LocalizedDescription
@@ -3437,6 +3445,8 @@ msgid ""
 "and a -(10 + Power/5) penalty to combat morale. This is a Arcane spell with "
 "a mind-affecting effect."
 msgstr ""
+"모든 적 유닛들이 3 라운드 동안 공격과 우선권에 -2 페널티를 받고, 전투 사기에 -(10 + 마력/5) 페널티를 받습니다. 이것은 "
+"비전 주문이며 정신 영향 효과입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = RitualCureWounds::LocalizedName

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-11-19 11:24+0000\n"
-"Last-Translator: GoYangiCat <sanghyuk1126@gmail.com>\n"
+"PO-Revision-Date: 2021-12-06 04:24+0000\n"
+"Last-Translator: 김옥현 <dhrgusdlrns@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -787,7 +787,7 @@ msgstr ""
 #. Path = ContextTutor_Confusion::m_SolutionFoundText
 msgctxt "21c10438-8f6d-416e-9528-44d7695f3558"
 msgid "You can remove the confusion state with:"
-msgstr ""
+msgstr "혼란 상태는 다음과 같은 것들로 제거할 수 있습니다:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Confusion::m_SolutionNotFoundText
@@ -859,13 +859,13 @@ msgstr ""
 #. Path = ContextTutor_DeathDoor::m_TitleText
 msgctxt "9c8e4d05-daf9-4cf9-8467-fb9e44a8b167"
 msgid "Crippled Condition"
-msgstr ""
+msgstr "불구 상태"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DeathDoor::m_TriggerText
 msgctxt "5d7c7492-b04b-4b84-89c8-42de8ea6efb5"
 msgid "Your character {t|SourceUnit} was nearly killed, and became crippled."
-msgstr ""
+msgstr "당신의 {t|SourceUnit} 캐릭터가 거의 죽을 뻔 했으며, 빈사 상태가 되었습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DeathDoor::m_DescriptionText
@@ -875,6 +875,8 @@ msgid ""
 "character is crippled instead. Unless you {g|Encyclopedia:Healing}cure{/g} "
 "the condition, the next time that character would actually die."
 msgstr ""
+"낮은 {g|Encyclopedia:DC}난이도{/g}에서는, 죽는 대신 캐릭터가 빈사 상태에 빠지게 됩니다. 해당 캐릭터를 "
+"{g|Encyclopedia:Healing}치료{/g}해주지 않으면, 빈사 상태에 빠진 캐릭터는 진짜로 죽게 됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DeathDoor::m_SolutionNotFoundText
@@ -885,6 +887,8 @@ msgid ""
 "greater {g|Encyclopedia:Healing}restoration{/g} "
 "{g|Encyclopedia:Spell}spell{/g}."
 msgstr ""
+"빈사 상태에서 벗어나려면, 수호자의 심장이나 야영지와 같은 안전한 장소 {g|Encyclopedia:Rest}휴식{/g}을 취하거나 상급 "
+"{g|Encyclopedia:Healing}상태 회복{/g} {g|Encyclopedia:Spell}주문{/g}을 사용해야 합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Desease::m_TitleText
@@ -898,7 +902,7 @@ msgctxt "fc917026-3462-47d2-9cde-188a02b45d92"
 msgid ""
 "Your character {t|TargetUnit} became diseased, afflicted with the condition "
 "{t|SourceFact}."
-msgstr ""
+msgstr "당신의 {t|TargetUnit} 캐릭터가 질병에 걸렸으며, {t|SourceFact}로 고통받고 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Desease::m_DescriptionText
@@ -912,6 +916,10 @@ msgid ""
 "{g|Encyclopedia:Healing}curing{/g} the damage, make sure to get rid of the "
 "disease."
 msgstr ""
+"질병은 흔히 겪게 될 상태 이상입니다. 대부분의 질병은 하루에 한 번만 당신에게 피해를 주지만, 질병이 치료하기 전까지 계속 반복될 수 "
+"있습니다. 질병은 적들의 능력이나 {g|Encyclopedia:Spell}주문{/g} 혹은 함정에 의해서 걸리게 됩니다. 대부분의 질병은 "
+"당신 캐릭터의 {g|Encyclopedia:Ability_Scores}능력치에{/g} {g|Encyclopedia:Damage}피해{/g}"
+"를 주기에, 피해를 {g|Encyclopedia:Healing}치료{/g}하기 전에, 질병을 없애는 걸 꼭 고려하십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Desease::m_SolutionFoundText
@@ -921,6 +929,8 @@ msgid ""
 "against infectious enemies, and fear nothing!\n"
 "You can {g|Encyclopedia:Healing}cure{/g} a disease with:"
 msgstr ""
+"3레벨부터 팔라딘은 질병에 면역이 됩니다. 질병 공격을 하는 적들을 팔라딘에게 맞서게 하면, 걱정할 일이 없을 겁니다!\n"
+"질병은 다음과 같은 것들로 {g|Encyclopedia:Healing}치료{/g}할 수 있습니다:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Desease::m_SolutionNotFoundText
@@ -2141,6 +2151,9 @@ msgid ""
 "You can remove poison either by waiting until its effect ends, or with a "
 "spell:"
 msgstr ""
+"독 공격을 하는 적과 싸우기 전에, 독 지연 {g|Encyclopedia:Spell}주문{/g}을 먼저 시전하고 싸우는 것을 추천합니다."
+"\n"
+"중독된 경우에는 효과가 끝날 때까지 기다리거나, 주문을 통해서 해독할 수 있습니다:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Poison::m_SolutionNotFoundText
