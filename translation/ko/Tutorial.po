@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-12-06 04:24+0000\n"
+"PO-Revision-Date: 2021-12-11 07:24+0000\n"
 "Last-Translator: 김옥현 <dhrgusdlrns@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -722,6 +722,10 @@ msgid ""
 "{g|Encyclopedia:Injury_Death}death{/g}), raise dead or resurrection, and use "
 "it — or go to a safe zone and find someone who can read it for you."
 msgstr ""
+"사망한 캐릭터를 되살리려면, 생명의 숨결 ({g|Encyclopedia:Injury_Death}사망{/g} 이후 2 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 이내에만 사용 가능), 소생, 부활 "
+"{g|Encyclopedia:Spell}주문{/g}(또는 두루마리)을 찾아 사용하거나, 안전한 곳으로 가서 두루마리를 대신 사용해 줄 "
+"사람을 찾으십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ConditionImmunity::m_TitleText
@@ -817,6 +821,8 @@ msgid ""
 "Your enemy {t|SourceUnit} has landed a {g|Encyclopedia:Critical}critical "
 "hit{/g} on the character {t|TargetUnit}, having successfully confirmed it."
 msgstr ""
+"{t|SourceUnit} 적이 캐릭터 {t|TargetUnit}에게 {g|Encyclopedia:Critical}치명타{/g}를 시도해 "
+"성공적으로 확정했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CriticalIncoming::m_DescriptionText
@@ -833,6 +839,11 @@ msgid ""
 "result is equal or higher than the target's AC, the character successfully "
 "lands a critical hit. If not, the attack remains normal (but still hits)."
 msgstr ""
+"캐릭터가 {g|Encyclopedia:Attack}명중 굴림{/g}을 시도하여 {g|Encyclopedia:Dice}d20{/g}에서 "
+"20을 얻을 때마다, 그 공격은 목표의 {g|Encyclopedia:Armor_Class}AC{/g}에 상관없이 명중합니다. 추가적으로, "
+"이런 공격은 {g|Encyclopedia:Critical}치명타{/g}위협을 만들고 다시 한 번 명중 굴림 판정을 확인합니다. 만일 명중 "
+"굴림으로 나온 숫자가 목표의 AC 이상이라면, 캐릭터의 공격은 치명타가 됩니다. 만일 목표의 AC 미만이라면, 치명타가 되지는 않지만 "
+"일반 공격으로 적중합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CriticalIncoming::m_SolutionNotFoundText
@@ -846,6 +857,9 @@ msgid ""
 "{g|Encyclopedia:Dice}d20{/g} roll result less than 20. Such "
 "{g|Encyclopedia:Attack}attacks{/g} do not hit automatically."
 msgstr ""
+"어떤 무기나 효과들은 캐릭터가 {g|Encyclopedia:Dice}d20{/g}에서 20 미만의 결과를 받았을 때에도, "
+"{g|Encyclopedia:Critical}치명타{/g} 판정을 얻을 수 있게 해줍니다. 그러나 이런 "
+"{g|Encyclopedia:Attack}공격{/g}들은 무조건 명중되는 공격은 아닙니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_CriticalOutgoing::m_TriggerText
@@ -854,6 +868,8 @@ msgid ""
 "Your character {t|SourceUnit} has landed a {g|Encyclopedia:Critical}critical "
 "hit{/g}, having successfully confirmed it."
 msgstr ""
+"{t|SourceUnit} 캐릭터가 {g|Encyclopedia:Critical}치명타{/g}기회를 만들었으며, 그 기회 판정에 "
+"성공했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DeathDoor::m_TitleText
@@ -942,6 +958,9 @@ msgid ""
 "From the 3rd level on, paladins become immune to diseases. Throw them "
 "against infectious enemies, and fear nothing!"
 msgstr ""
+"질병은 질병을 치료하거나 치유하는 종류의 {g|Encyclopedia:Spell}주문{/g}이나 주문 두루마리로 "
+"{g|Encyclopedia:Healing}치료{/g}할 수 있습니다.\n"
+"3레벨이 넘는 팔라딘은 질병에 면역이 됩니다. 팔라딘을 질병 공격을 하는 적들과 맞서게 하여, 질병 걱정에서 벗어나십시오!"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRNormal::m_TitleText
@@ -956,6 +975,8 @@ msgid ""
 "You have met the enemy {t|TargetUnit} who possesses the "
 "{g|Encyclopedia:Damage_Reduction}damage reduction{/g} ability."
 msgstr ""
+"방금 {g|Encyclopedia:Damage_Reduction}피해 감소{/g} 능력을 보유한 {t|TargetUnit} 적군과 "
+"조우했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRNormal::m_DescriptionText
@@ -976,12 +997,23 @@ msgid ""
 "dealt by an adamantine weapon.\n"
 "You can learn this information by inspecting the creature."
 msgstr ""
+"{g|Encyclopedia:Damage}피해{/g}의 유형에는 물리 피해와 {g|Encyclopedia:Energy_Damage}에너지 "
+"피해{/g}가 있습니다. 무기 {g|Encyclopedia:Attack}공격{/g}은 대부분 "
+"{g|Encyclopedia:Physical_Damage}물리 피해{/g}를 입힙니다.\n"
+"어떤 크리쳐들은 자신이 받는 모든 종류의 물리 피해를 일정 수치 감소해서 받는 {g|Encyclopedia:Damage_Reduction}"
+"피해 감소{/g}라는 능력을 보유하기도 합니다.\n"
+"그 능력의 설명에는, 항상 그런 종류의 능력을 공략할 방법을 가르쳐줍니다. 피해 감소를 상쇄할 방법에는 한철 혹은 아다만틴 같은 특별한 "
+"재료나 {g|Encyclopedia:Damage_Type}베기{/g}, 찌르기, 부수기와 같은 무기 유형, 선과 악 같은 "
+"{g|Encyclopedia:Alignment}성향{/g}이 있을 수 있습니다. 예를 들어 \"DR 5/아다만틴\"은 그 대상을 아다만틴 "
+"무기로 공격하지 않는 이상 그 대상이 5만큼의 {g|Encyclopedia:Physical_Damage}물리 피해{/g}를 감소한 수치로 "
+"받는다는 이야기입니다.\n"
+"자세한 내용은 해당 크리쳐들을 조사하면 확인할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRNormal::m_SolutionFoundText
 msgctxt "7ef85060-d38d-4556-883b-d094a9175571"
 msgid "To increase your efficiency in combat, try using this:"
-msgstr ""
+msgstr "효율적으로 전투를 하고싶다면, 다음과 같은 방법을 시도해보세요:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRNormal::m_SolutionNotFoundText
@@ -993,6 +1025,10 @@ msgid ""
 "If you don't have the appropriate kind of weapon, try attacking it with "
 "abilities that deal {g|Encyclopedia:Energy_Damage}energy damage{/g}."
 msgstr ""
+"크리처의 {g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 극복하기 위해서는 특정한 종류의 무기를 사용해서 "
+"{g|Encyclopedia:Attack}공격{/g}해야 합니다. 크리처를 조사하여 어떤 종류의 무기가 필요한지 알 수 있습니다. 만약 "
+"적절한 종류의 무기가 없다면 {g|Encyclopedia:Energy_Damage}에너지 피해{/g}를 입히는 능력으로 공격을 시도해 "
+"보십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRUltimate::m_TitleText
@@ -1008,6 +1044,8 @@ msgid ""
 "{g|Encyclopedia:AbilityDamage}ability damage{/g} reduction of the N/- type. "
 "It cannot be overcome."
 msgstr ""
+"방금 피해량 / 타입의 {g|Encyclopedia:Damage_Reduction}피해 감소{/g} 능력을 보유한 "
+"{t|TargetUnit} 적군과 조우했습니다. 이 피해 감소 능력은 상쇄할 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRUltimate::m_DescriptionText
@@ -1017,6 +1055,8 @@ msgid ""
 "damage reduction{/g} cannot be overcome. All {g|Encyclopedia:Physical_Damage}"
 "physical damage{/g} they receive will be reduced."
 msgstr ""
+"가끔 어떤 적들의 {g|Encyclopedia:Damage_Reduction}피해 감소{/g}효과는 상쇄시킬 수 없습니다. 이 적이 받는 "
+"모든 {g|Encyclopedia:Physical_Damage}물리 피해{/g}는 감소될 것입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRUltimate::m_SolutionFoundText
@@ -1026,6 +1066,8 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g}, such as {g|Encyclopedia:Spell}spells{/g}. "
 "For example:"
 msgstr ""
+"이러한 적들과 싸울 때, {g|Encyclopedia:Spell}주문{/g}과 같이 다른 방식으로 "
+"{g|Encyclopedia:Damage}피해{/g}를 주는 것을 고려해보십시오. 예를 들어:"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DRUltimate::m_SolutionNotFoundText
@@ -1035,6 +1077,9 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g}, such as {g|Encyclopedia:Spell}spells{/g}, "
 "or just accept the fact that your weapon will deal less damage."
 msgstr ""
+"이러한 적들과 싸울 때, {g|Encyclopedia:Spell}주문{/g}과 같이 다른 방식으로 "
+"{g|Encyclopedia:Damage}피해{/g}를 주는 것을 고려하십시오, 그렇지 않으면 이런 적에게 당신의 무기 공격은 감소된 "
+"물리 피해를 줄 수 밖에 없습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DualWielding::m_TitleText
@@ -1052,6 +1097,10 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalties{/g} to {g|Encyclopedia:Attack}attack "
 "rolls{/g}."
 msgstr ""
+"{t|SourceUnit} 캐릭터가 쌍수 무기 전투 {g|Encyclopedia:Feat}특기{/g}가 없음에도 "
+"{g|Encyclopedia:Light_Weapon}한손 무기{/g}를 양손에 들고 있습니다. 쌍수 무기 전투 특기가 없는 캐릭터들은, "
+"{g|Encyclopedia:Attack}명중 굴림{/g} 판정에 상당한 {g|Encyclopedia:Penalty}페널티{/g}를 받게 "
+"됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_DualWielding::m_DescriptionText
