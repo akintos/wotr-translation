@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-12-11 07:24+0000\n"
-"Last-Translator: 도시 드워프 <balduran999@gmail.com>\n"
+"PO-Revision-Date: 2021-12-12 12:24+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -12525,7 +12525,7 @@ msgstr ""
 "\"이것을 쓰라. 이 안에는 지혜로운 자의 진정한 얼굴에 대한 수수께끼가 들어 있다. 풀어라. 무한한 지식이 너의 것이 되리라. 그러나 "
 "만약 틀린다면, 가면은 너의 얼굴 일부를 가져가리라.\"\n"
 "여인이 사라진 뒤, 리르크 하'안은 가면을 쓰고 그 한없이 복잡한 수수께끼와 마주하게 되었습니다. 잘못된 답을 낼 때마다, 가면은 마치 "
-"상처에서 피가 나오듯 얼굴을 가져갔고, 마침내 영혼까지 서서히 빼앗기게 되었습니다. 자신의 최후가 가까움을 직감했지만 패배를 인정할 수 "
+"상처에서 피를 뽑듯 얼굴을 빼앗아갔고, 마침내 영혼까지 서서히 빼앗게 되었습니다. 자신의 최후가 가까움을 직감했지만 패배를 인정할 수 "
 "없었던 리르크 하'안은 여행을 떠났습니다. 그는 자신이 만나는 여행자들 모두에게 \"지혜로운 자의 진정한 얼굴이란 무엇인가?\" 라는 단 "
 "한 가지 질문을 하여, 그들의 답을 따라 말한 뒤, 고통에 울부짖으며 그들을 살해하고, 그들의 얼굴을 뜯어냈습니다. 이 세상을 떠나지 "
 "못하게 된 그의 희생자들은 그의 어깨를 마치 유령 망토처럼 둘러싸고, 무수한 속삭임으로 그를 광기로 몰아넣었습니다. 사코리스의 현자가 "
@@ -12538,8 +12538,8 @@ msgstr ""
 "자리아는 이로부터 경이롭도록 아름다운 칼 한 자루를 만들어냈습니다.\n"
 "그녀는 \"이 칼을 쥐면, 칼날이 당신이 원하는 것 - 지혜로운 자의 진정한 얼굴을 찾는 길로 인도할 것입니다.\" 라고 말했습니다. "
 "그러나 얼굴 도둑이 칼을 쥔 순간, 칼날은 그의 거울같은 가면의 표면을 부수고 안으로 파고들어 그의 희생자들의 영혼을 해방시켰습니다. "
-"리르크 하'안이 훔쳐왔던 얼굴들은 살덩어리가 되어 땅에 떨어졌고, 남은 것은 피투성이 해골 뿐이었습니다. 그렇게 얼굴 도둑은 죽었으며, "
-"지혜로운 자리아는 또 다른 사람이 아레시카갈의 잔혹한 수수께끼에 희생되지 않도록 하기 위해 깨진 가면을 감추었습니다."
+"리르크 하'안이 훔쳐왔던 얼굴들은 살덩어리가 되어 땅에 떨어졌고, 남은 것은 피투성이 해골 뿐이었습니다. 그리하여 얼굴 도둑은 사라졌고, "
+"지혜로운 자리아는 또 다른 사람이 아레시카갈의 잔혹한 수수께끼에 희생되지 않도록 이 깨진 가면을 감추었습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = Relic_OldEarth::m_DisplayNameText
@@ -38403,7 +38403,7 @@ msgstr ""
 #. Path = DualityOfConjurationAndSummoningAbility::m_DisplayName
 msgctxt "3f360e2d-e306-4f55-97cc-7fd01e30b6e1"
 msgid "Duality of Conjuration and Summoning"
-msgstr ""
+msgstr "소환학과 소환의 이중성"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = DualityOfConjurationAndSummoningItem::m_DescriptionText
@@ -38442,6 +38442,29 @@ msgid ""
 "Scroll of Resourceful Rage — You gain an additional Rage per day "
 "permanently. Effect can be applied once per creature."
 msgstr ""
+"이 책은 소유자가 하루에 1회 데몬 또는 엔젤을 소환할 수 있게 합니다. 소유자가 악 "
+"{g|Encyclopedia:Alignment}성향{/g}인 경우 1d2+1체의 모나딕 데바를 소환합니다. 소유자가 선 성향인 경우, "
+"1d2+1체의 나바수 데몬을 소환할 것입니다. 소유자가 중립 성향인 경우, 데몬 또는 엔젤 중 한 쪽이 동일한 확률로 소환됩니다. 소환 "
+"지속 시간은 소유자의 레벨과 같습니다. 소환되는 크리처는 소환될 시 10%의 확률로 지배를 벗어나 소환자를 "
+"{g|Encyclopedia:Attack}공격{/g}할 수 있습니다. 이 책은 10쪽으로 되어 있으며, 소유자는 크리처를 소환할 때마다 "
+"다음의 두루마리 중 하나를 무작위로 획득합니다:\n"
+"천사의 저항력 두루마리 — 사용자는 1시간 동안 독에 대한 {g|Encyclopedia:Saving_Throw}저항 굴림{/g}에 +2 "
+"종족 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다.\n"
+"데몬의 저항력 두루마리 — 사용자는 1시간 동안 전기 저항 5를 얻습니다.\n"
+"심연의 {g|Encyclopedia:Regeneration}재생력{/g} 두루마리 — 사용자는 1시간 동안 +5 빠른 "
+"{g|Encyclopedia:Healing}치유{/g}를 얻습니다.\n"
+"천사의 지식 두루마리 — 사용자는 1시간 동안 모든 지식과 전승 {g|Encyclopedia:Skills}기술 판정{/g}에 +2 "
+"보너스를 얻습니다.\n"
+"데몬의 위협 두루마리 — 사용자는 1시간 동안 협박을 위한 {g|Encyclopedia:Persuasion}설득{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +2 보너스를 얻습니다.\n"
+"자유의 날개의 두루마리 — 사용자는 1시간 동안 지면 효과에 대한 저항 굴림{/g}에 +2 보너스를 얻습니다.\n"
+"예지학의 두루마리 — 사용자는 1시간 동안 시전하는 예지학파 {g|Encyclopedia:Spell}주문{/g}의 시전자 레벨에 1을 "
+"더하는 효과를 얻습니다.\n"
+"유린의 두루마리 — 사용자는 1시간 동안 {g|Encyclopedia:CMB}CMB{/g} 판정에 +2 보너스를 얻습니다.\n"
+"효과적인 처단의 두루마리 — 사용자가 하루에 사용할 수 있는 악 처단 능력의 횟수가 영구적으로 1회 증가합니다. 이 효과는 한 크리처당 "
+"1회만 얻을 수 있습니다.\n"
+"효과적인 분노의 두루마리 — 사용자가 하루에 사용할 수 있는 격노가 영구적으로 1라운드 증가합니다. 이 효과는 한 크리처당 1회만 얻을 "
+"수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = DualityOfConjurationAndSummoningItem::m_FlavorText
@@ -38454,6 +38477,10 @@ msgid ""
 "and less legible. By the end, you are not sure what do you see, but you can "
 "say for certain this research drove the conjurer to madness."
 msgstr ""
+"이 책의 표지와 안의 모든 쪽들이 각각 검은색과 흰색으로 반씩 나뉘어 있습니다. 검은색은 데몬에 대한 것으로, 그들의 힘과 파괴적인 "
+"천성에 대해 서술하고 있으며, 흰색은 엔젤에 대한 것이며 그들의 지식과 보호적인 측면에 대해 서술하고 있습니다. 당신은 문득 이 책을 "
+"읽어나가면 읽어나갈수록 적혀 있는 내용이 점차 이해할 수 없어지는 것을 느낍니다. 결국, 당신은 지금 자신이 무엇을 읽고 있는지 전혀 "
+"모르겠지만, 이 연구서가 소환사를 광기로 이끌어간다는 결론을 내렸습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ElixirMasterpiece::m_DisplayNameText
@@ -38643,7 +38670,7 @@ msgstr ""
 #. Path = GrandOwlOfWisdomBuff::m_DisplayName
 msgctxt "903e3e1b-efa4-4902-a219-3868cac7f331"
 msgid "Grand Owl of Wisdom"
-msgstr ""
+msgstr "위대한 지혜의 올빼미"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = GrandOwlOfWisdomItem::m_DescriptionText
@@ -38660,6 +38687,9 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Skills}skill "
 "checks{/g}, and then vanishes."
 msgstr ""
+"이 고양이 조각상에는 그 모습에 들어맞지 않는 이름이 붙어 있습니다. 사용할 경우, 이 조각상은 사용자에게 영구적으로 모든 "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +1 {g|Encyclopedia:Bonus}보너스{/g}를 주는 효과를 "
+"부여하고 사라집니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = HandOfMagusDanItem::m_DisplayNameText
@@ -40908,7 +40938,7 @@ msgstr ""
 #. Path = SacredStatuetteAbiility::m_DisplayName
 msgctxt "a4011dff-e3ce-4485-90bf-53fa44b1412c"
 msgid "Commander Figurine"
-msgstr ""
+msgstr "사령관의 조각상"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = SacredStatuetteItem::m_DescriptionText
@@ -40922,12 +40952,14 @@ msgid ""
 "of whom prayed over the figure, hoping for your success. Slightly reduces "
 "Abyssal corruption."
 msgstr ""
+"당신을 묘사한 작은 목제 조각상입니다. 드레젠의 병사들이 이 조각상에 당신의 성공을 기도하면서 만들었으며, 이들을 대표하여 병참장교 윌서 "
+"감즈가 선물했습니다. 심연 오염을 약간 감소시킵니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = Scabbard_ArodensWrathItem::m_DisplayNameText
 msgctxt "1e996f77-cb66-4a5c-8ecf-b37d1df2743d"
 msgid "Aroden's Wrath"
-msgstr ""
+msgstr "아로덴의 분노"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = Scabbard_ArodensWrathItem::m_DescriptionText
@@ -40941,6 +40973,11 @@ msgid ""
 "{g|Encyclopedia:Dice}1d4{/g} divine {g|Encyclopedia:Damage}damage{/g}. Evil "
 "characters can't equip it."
 msgstr ""
+"이 신성한 칼집은 팔라딘의 악 처단 클래스 능력 중, 악 처단 능력으로부터 획득하게 되는 "
+"{g|Encyclopedia:Armor_Class}AC{/g} {g|Encyclopedia:Bonus}보너스{/g}를 굴절 보너스에서 "
+"신성 보너스로 변경합니다. 또한, 착용자가 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 하는 첫 "
+"{g|Encyclopedia:Attack}공격{/g}에 {g|Encyclopedia:Dice}1d4{/g} "
+"신성{g|Encyclopedia:Damage}피해{/g}를 더합니다. 악 성향은 이것을 착용할 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = Scabbard_ArodensWrathItem::m_FlavorText
@@ -40953,6 +40990,9 @@ msgid ""
 "the death of their deity. However, even now you can wield the powers once "
 "bond to this item."
 msgstr ""
+"한때 이 칼집에 보관되어 있었을 검은 여기에 없습니다. 이것의 디자인은 아로덴이 살아 있던 시절, 그의 사제들이 소유했던 물건을 "
+"연상시킵니다. 칼집에 남아 있는 흔적들로 보아, 이것을 소유했던 사제는 신의 죽음으로 힘을 잃었음에도 막 열린 세계상처에서 나온 "
+"데몬들로부터 사람들을 구하다 죽은 듯합니다. 하지만, 이 칼집에 담겨 있었던 힘은 지금도 사용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAbyssalRegenerationItem::m_DisplayNameText
@@ -40964,7 +41004,7 @@ msgstr ""
 #. Path = ScrollOfAbyssalRegenerationBuff::m_DisplayName
 msgctxt "d31138db-a6c1-477b-8030-68563917953a"
 msgid "Scroll of Abyssal Regeneration"
-msgstr ""
+msgstr "심연의 재생력 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAbyssalRegenerationItem::m_DescriptionText
@@ -40976,7 +41016,7 @@ msgstr ""
 #. Path = ScrollOfAbyssalRegenerationBuff::m_Description
 msgctxt "345c9907-8ff8-4c37-b81e-0e33fcd15307"
 msgid "You gain a +5 fast {g|Encyclopedia:Healing}healing{/g} for 1 hour"
-msgstr ""
+msgstr "사용자는 1시간 동안 +5 빠른 {g|Encyclopedia:Healing}치유{/g}를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAngelicAspect::m_FlavorText
@@ -41007,7 +41047,7 @@ msgstr "진정한 거장이 정교하게 써낸 비범한 권능의 두루마리
 #. Path = ScrollOfAngelicKnowledgeBuff::m_DisplayName
 msgctxt "4ebb3651-d4fe-48c2-9ce5-5dae80b095e7"
 msgid "Scroll of Angelic Knowledge"
-msgstr ""
+msgstr "천사의 지식 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAngelicKnowledgeItem::m_DescriptionText
@@ -41022,6 +41062,8 @@ msgid ""
 "You gain a +2 {g|Encyclopedia:Bonus}bonus{/g} to all Knowledge and Lore "
 "{g|Encyclopedia:Skills}skill checks{/g} for 1 hour."
 msgstr ""
+"사용자는 1시간 동안 모든 지식과 전승 {g|Encyclopedia:Skills}기술 판정{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAngelicResistanceItem::m_DisplayNameText
@@ -41033,7 +41075,7 @@ msgstr ""
 #. Path = ScrollOfAngelicResistanceBuff::m_DisplayName
 msgctxt "e7576484-069a-41cd-91e1-58f542335850"
 msgid "Scroll of Angelic Resistance"
-msgstr ""
+msgstr "천사의 저항력 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAngelicResistanceItem::m_DescriptionText
@@ -41048,6 +41090,8 @@ msgid ""
 "You gain a +2 racial {g|Encyclopedia:Bonus}bonus{/g} on "
 "{g|Encyclopedia:Saving_Throw}saves{/g} against poison for 1 hour."
 msgstr ""
+"사용자는 1시간 동안 독에 대한 {g|Encyclopedia:Saving_Throw}저항 굴림{/g}에 +2 종족 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAtonement::m_DisplayNameText
@@ -41066,7 +41110,7 @@ msgstr "속죄의 두루마리"
 #. Path = ScrollOfDemonicIntimidationBuff::m_DisplayName
 msgctxt "416691a4-0b11-4d12-ae17-60826ba72c13"
 msgid "Scroll of Demonic Intimidation"
-msgstr ""
+msgstr "데몬의 위협 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfDemonicIntimidationItem::m_DescriptionText
@@ -41082,6 +41126,8 @@ msgid ""
 "{g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g} made to intimidate for 1 hour."
 msgstr ""
+"사용자는 1시간 동안 협박을 위한 {g|Encyclopedia:Persuasion}설득{/g} {g|Encyclopedia:Skills}"
+"기술 판정{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfDemonicResistanceItem::m_DisplayNameText
@@ -41093,7 +41139,7 @@ msgstr ""
 #. Path = ScrollOfDemonicResistanceBuff::m_DisplayName
 msgctxt "bfa852eb-3ad5-4d5f-883a-8f521f4ac9ff"
 msgid "Scroll of Demonic Resistance"
-msgstr ""
+msgstr "데몬의 저항력 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfDemonicResistanceItem::m_DescriptionText
@@ -41105,7 +41151,7 @@ msgstr ""
 #. Path = ScrollOfDemonicResistanceBuff::m_Description
 msgctxt "e7a9f23f-7dc1-4f17-a40f-2a1b0ccf0832"
 msgid "You gain electricity resistance 5 for 1 hour."
-msgstr ""
+msgstr "사용자는 1시간 동안 전기 저항 5를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfDivinationItem::m_DisplayNameText
@@ -41115,10 +41161,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ScrollOfDivinationBuff::m_DisplayName
-#, fuzzy
 msgctxt "ffdcd372-53d9-4e42-b182-affc794ca4c0"
 msgid "Scroll of Divination"
-msgstr "예지학파 스크롤"
+msgstr "예지학의 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfDivinationItem::m_DescriptionText
@@ -41133,6 +41178,7 @@ msgid ""
 "All your {g|Encyclopedia:Spell}spells{/g} from the Divination school are "
 "cast as if you were 1 level higher for 1 hour."
 msgstr ""
+"사용자는 1시간 동안 시전하는 예지학파 {g|Encyclopedia:Spell}주문{/g}의 시전자 레벨에 1을 더하는 효과를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfResourcefulRageItem::m_DisplayNameText
@@ -41141,7 +41187,7 @@ msgstr ""
 #. Path = ScrollOfResourcefulRageAbility::m_DisplayName
 msgctxt "94ead210-4988-410e-b992-6ff8638d48bc"
 msgid "Scroll of Resourceful Rage"
-msgstr ""
+msgstr "효과적인 분노의 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfResourcefulRageItem::m_DescriptionText
@@ -41153,6 +41199,8 @@ msgid ""
 "You gain an additional {g|Encyclopedia:Combat_Round}round{/g} of Rage per "
 "day permanently. This effect can be applied once per creature."
 msgstr ""
+"사용자가 하루에 사용할 수 있는 격노가 영구적으로 1 {g|Encyclopedia:Combat_Round}라운드{/g}만큼 증가합니다. "
+"이 효과는 한 크리처당 1회만 얻을 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfResourcefulSmiteItem::m_DisplayNameText
@@ -41167,7 +41215,7 @@ msgstr ""
 #. Path = ScrollOfResourcefulSmiteBuff::m_DisplayName
 msgctxt "53ddd6e4-adee-4322-bc83-60bf9277bf77"
 msgid "Scroll of Resourceful Smite"
-msgstr ""
+msgstr "효과적인 처단의 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfResourcefulSmiteItem::m_DescriptionText
@@ -41185,6 +41233,7 @@ msgid ""
 "You gain an additional use of the Smite Evil ability per day permanently. "
 "This effect can be applied once per creature."
 msgstr ""
+"사용자가 하루에 사용할 수 있는 악 처단 능력의 횟수가 영구적으로 1회 증가합니다. 이 효과는 한 크리처당 1회만 얻을 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfStompItem::m_DisplayNameText
@@ -41196,7 +41245,7 @@ msgstr ""
 #. Path = ScrollOfStompBuff::m_DisplayName
 msgctxt "b0ab4218-0f64-41e5-b266-f0055ddac778"
 msgid "Scroll of Stomping"
-msgstr ""
+msgstr "유린의 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfStompItem::m_DescriptionText
@@ -41211,6 +41260,8 @@ msgid ""
 "You gain a +2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:CMB}CMB{/g} "
 "{g|Encyclopedia:Check}checks{/g} for 1 hour."
 msgstr ""
+"사용자는 1시간 동안 {g|Encyclopedia:CMB}CMB{/g} {g|Encyclopedia:Check}판정{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfWingsOfFreedomItem::m_DisplayNameText
@@ -41222,7 +41273,7 @@ msgstr ""
 #. Path = ScrollOfWingsOfFreedomBuff::m_DisplayName
 msgctxt "804f4d8a-0212-4458-9e8d-6ef759ebc7d8"
 msgid "Scroll of Wings of Freedom"
-msgstr ""
+msgstr "자유의 날개의 두루마리"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfWingsOfFreedomItem::m_DescriptionText
@@ -41238,6 +41289,8 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} against ground-based effects "
 "for 1 hour."
 msgstr ""
+"사용자는 1시간 동안 지면 효과에 대한 {g|Encyclopedia:Saving_Throw}저항 굴림{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = SecretIngredientItem::m_DisplayNameText
