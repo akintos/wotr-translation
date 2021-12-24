@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-12-22 13:24+0000\n"
+"PO-Revision-Date: 2021-12-24 04:24+0000\n"
 "Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -12695,10 +12695,6 @@ msgctxt "b16fb4ba-1de2-44ea-ac9b-6fac14a8439e"
 msgid "Melee Attack Bonus"
 msgstr "근접 공격 보너스"
 
-#, fuzzy
-#| msgid ""
-#| "Your attack bonus with ranged weapon is the following:\n"
-#| "Base attack bonus + Dexterity modifier + size modifier + range penalty"
 msgctxt "cf4dd20b-54ad-4296-ba9c-373b150c81b4"
 msgid ""
 "Your {g|Encyclopedia:Attack}attack{/g} {g|Encyclopedia:Bonus}bonus{/g} with "
@@ -12707,8 +12703,9 @@ msgid ""
 "{g|Encyclopedia:Dexterity}Dexterity{/g} modifier + {g|Encyclopedia:Size}size "
 "modifier{/g} + range {g|Encyclopedia:Penalty}penalty{/g}"
 msgstr ""
-"캐릭터의 원거리 무기 공격 보너스:\n"
-"기본 공격 보너스 + 민첩 수정치 + 크기 수정치 + 사정거리 페널티"
+"캐릭터의 원거리 무기 {g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Bonus}보너스{/g}:\n"
+"{g|Encyclopedia:BAB}기본 공격 보너스{/g} + {g|Encyclopedia:Dexterity}민첩{/g} 수정치 + "
+"{g|Encyclopedia:Size}크기 수정치{/g} + 사정 거리 {g|Encyclopedia:Penalty}페널티{/g}"
 
 msgctxt "c4d94652-97ca-4328-acab-941dca4bb3a2"
 msgid "Ranged Attack Bonus"
@@ -31924,6 +31921,7 @@ msgstr ""
 "\"이 문제에 대해 고민해보고, 자네가 겪은 일에 기사단의 책임이 일부 있다고 판단했네. 자네는 기사단에 받아들여졌으면 안됐어. "
 "그랬더라면 많은 문제들이 일어나기 전에 해결되었을 테지.\""
 
+#, fuzzy
 msgctxt "619a61b1-f316-47a9-becf-21eb002f7a54"
 msgid ""
 "\"Constantly shifting allegiance, latching onto whoever seems likely to be "
@@ -31931,116 +31929,151 @@ msgid ""
 "battles where either side can win. You are not so good a strategist as to be "
 "able to predict the outcome of the war.\""
 msgstr ""
+"\"이길 것 같은 쪽으로 옮겨다니며 충성하는 대상을 바꾼다라… 옳은 전략같아 보일테지만, 전쟁이란 양측 모두가 이길 수 있는 수많은 "
+"전투들로 이루어져 있다네. 자네는 전쟁의 결과를 예측하는데 뛰어난 전술가가 아니라는 뜻이지.\""
 
+#, fuzzy
 msgctxt "c1955e06-4888-4359-b1f9-17a272e20435"
 msgid ""
 "\"You are relatively effective in combat, but you lack a true soldier's "
 "understanding of service. You only follow rules and commands when you are "
 "being watched.\""
 msgstr ""
+"\"자네는 전투에 꽤나 숙련되었지만, 진정한 전사들이 가져야 할 충성심은 부족하군. 누군가 감시할 때만 규율과 명령을 따르지 않는가.\""
 
+#, fuzzy
 msgctxt "ad415ee7-ec53-42e3-9fac-6061baa5c935"
 msgid ""
 "\"Your skills are impressive, but effectiveness in battle is but the "
 "smallest part of what being a Hellknight requires.\""
-msgstr ""
+msgstr "\"자네의 기술은 놀랍네만, 전투 수행 능력은 헬나이트의 요구 사항중 아주 작은 부분일 뿐이라네.\""
 
+#, fuzzy
 msgctxt "cc590b9a-8580-464b-89d3-51f6ae7a2f1d"
 msgid "\"This 'power' you so desperately seek, do you even know what it is?\""
-msgstr ""
+msgstr "\"자네가 필사적으로 찾는 그 '힘'이라는 것 말인데, 그게 무엇인지 알기는 하는가?\""
 
+#, fuzzy
 msgctxt "e3e14b39-49d9-4692-aab1-d93b50e7a57a"
 msgid ""
 "\"Once a traitor, always a traitor. Treachery is feebleness of purpose. It "
 "is in the blood.\""
-msgstr ""
+msgstr "\"한 번 배신자는 영원한 배신자라네. 배반이란 목적 의식의 결여이고. 그것은 피에 각인되어있지.\""
 
+#, fuzzy
 msgctxt "0e243067-64dc-4072-883e-77e5f61f79ec"
 msgid ""
 "\"Your place is on a gallows, thief, and not in a company of crusaders.\""
-msgstr ""
+msgstr "\"자네 자리는 성전사 일행이 아니라 도둑들 사이, 아니면 교수대가 적절하겠어\""
 
+#, fuzzy
 msgctxt "c668e519-8ef4-460c-ae87-529df6eab3eb"
 msgid "\"No.\""
-msgstr ""
+msgstr "\"아니.\""
 
+#, fuzzy
 msgctxt "60d80431-b20f-426e-bb37-8ce584a58018"
 msgid ""
 "\"Your shadow. Why did the inquisitors of Kenabres not investigate you?\""
-msgstr ""
+msgstr "\"자네의 그림자 말이야. 케나브레스의 인퀴지터들이 왜 자네를 조사하지 않는거지?\""
 
+#, fuzzy
 msgctxt "01d28102-f225-40b6-853c-362d466c81ae"
 msgid ""
 "\"How is it the Kenabres inquisition never punished your family for its "
 "demonic links? Such a crime carries a death sentence in wartime.\""
 msgstr ""
+"\"어째서 케나브레스의 심문이 데몬과의 연결점이 있는 자네 가문을 피해간거지? 전쟁 시기에 그런 범죄는 사형 선고를 받을텐데.\""
 
+#, fuzzy
 msgctxt "d0932ee0-a5b7-4397-b3c7-263be68905c8"
 msgid ""
 "\"You should face a tribunal for your desertion during the gargoyle attack.\""
-msgstr ""
+msgstr "\"자네는 가고일 습격 때의 탈영에 대한 재판을 받아야만 해.\""
 
+#, fuzzy
 msgctxt "6204233f-191e-4e2b-bcd7-7bc5da92d168"
 msgid ""
 "\"Hey, sister! Are you moping again? Snap out of it, come over here and have "
 "a drink with me!\""
-msgstr ""
+msgstr "\"자매님! 또 혼자 울적해진거야? 빨리 털어내고, 이쪽에 앉아서 한 잔 하자고!\""
 
+#, fuzzy
 msgctxt "a32cedf9-5cfb-44bc-b65f-553fb3510250"
 msgid ""
 "\"What's with the gloomy face? Did somebody say something to you? If "
 "somebody's been bothering you, you just point him out to me and I'll smash "
 "his face in...\""
 msgstr ""
+"\"왜 또 우울한 표정이야? 누가 뭐하고 했어? 아무나 짜증나는 사람이 있으면 가르키기만 해봐. 내가 그 녀석 얼굴을 그냥...\""
 
+#, fuzzy
 msgctxt "ce25529d-217e-4e58-9356-334ea4ff5f70"
 msgid ""
 "\"Let me teach you a good Golarion song. You know, where I come from there's "
 "a saying: if you want to understand a foreign people, learn their songs.\""
 msgstr ""
+"\"좋은 골라리온 노래를 알려주고 싶어. 있잖아, 재가 살았던 지역에는 '타향 사람을 이해하고 싶다면, 그들의 노래를 배워라' 라는 말이 "
+"있거든.\""
 
+#, fuzzy
 msgctxt "315e6876-06d7-4e77-b22e-75f397b7286c"
 msgid ""
 "\"Don't listen to people who say you can't atone for past wrongs. If people "
 "can fall, they can also rise. If they can't, that means evil is stronger.\""
 msgstr ""
+"\"네가 과거의 잘못을 속죄할 수 없다고 말하는 녀석들에게 귀기울이지 마. 누가 타락할 수 있다면, 동시에 승천할 수도 있어. 그럴 수 "
+"없다면, 악이 더 강하다는 뜻이겠지.\""
 
+#, fuzzy
 msgctxt "ccbef730-6dd0-4efa-8994-218804903eb5"
 msgid ""
 "\"Maybe you don't believe it yourself sometimes, but take it from someone "
 "who knows: you are good. And you are doing the right thing.\""
 msgstr ""
+"\"아마도 가끔씩은 스스로조차 믿을 수 없겠지, 그러니까 잘 아는 사람이 전해주는거야. 너는 착한 녀석이야. 그리고 너는 옳은 일을 하고 "
+"있어.\""
 
+#, fuzzy
 msgctxt "b4e33639-20f8-40b2-a5ae-127c31a11669"
 msgid ""
 "\"You shamans are strange. It's like you wield magic like clerics, but with "
 "strange spirits instead of gods... It makes me uneasy.\""
 msgstr ""
+"\"너희 샤먼들은 이상해. 클레릭처럼 마법을 사용할 수 있는 것 같은데, 신이 아니라 의문의 심령이 힘을 준다니... 이해가 잘 안돼.\""
 
+#, fuzzy
 msgctxt "8fa664fb-ca93-4bf0-9c83-4df660b6d691"
 msgid ""
 "\"I can feel evil lurking in you. But you act like a normal person and a "
 "good comrade...\""
-msgstr ""
+msgstr "\"나는 네 안에 숨어있는 악을 느낄 수 있어. 하지만 넌 평범한 사람이자 좋은 동료인 것처럼 행동하고...\""
 
+#, fuzzy
 msgctxt "8a49685a-ae85-40b7-ad2c-f338bb9a03df"
 msgid ""
 "\"You know, I hope this war at least teaches you how to talk to get along "
 "with your comrades-in-arms. I think we've got a decent party here — you "
 "could find yourself some friends.\""
 msgstr ""
+"\"있잖아, 이 전쟁이 최소한 너에게 전우와 이야기하는 방법이라도 알려주길 바라. 우리가 썩 괜찮은 일행이라고 생각하거든. 너도 여기서 "
+"친구를 만들 수 있을거야.\""
 
+#, fuzzy
 msgctxt "813f2e57-2367-4355-8081-7f125f016614"
 msgid ""
 "\"Maybe you can start pitching in a little at the camp? Getting your hands "
 "dirty isn't as terrifying as you think.\""
-msgstr ""
+msgstr "\"아마 야영지에서라도 돌던지기를 할 수 있지 않을까? 손이 더러워지는건 네 생각만큼 나쁘지 않아.\""
 
+#, fuzzy
 msgctxt "04388600-fe05-4cdd-a4a3-99e311f75a03"
 msgid ""
 "\"I have no idea why you're even with us on the crusade. No offense, but you "
 "could be swanning around a ballroom somewhere, not dodging demon traps.\""
 msgstr ""
+"\"네가 왜 우리와 함께 성전에 참여하는지 이해할 수가 없어. 비난은 아니지만, 너는 데몬의 함정을 피해다니는게 아니라 무도회장으로 "
+"놀러다닐 수도 있었잖아.\""
 
 msgctxt "b8ed4010-0819-40be-aa2e-c149fc13ef42"
 msgid ""
