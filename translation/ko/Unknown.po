@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2021-12-30 11:57+0000\n"
-"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
+"PO-Revision-Date: 2022-01-03 12:57+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -12884,10 +12884,10 @@ msgid ""
 "spells in advance — they are able to use all their known spells a certain "
 "number of times, but have a limited amount of spells in their spellbook."
 msgstr ""
-"{g|Encyclopedia:Spell}주문 시전자{/g}에는 두가지 유형이 있습니다. 하나는 주문을 준비하는 유형이며, 다른 하나는 "
-"즉흥적으로 시전합니다. 전자의 경우 미리 주문책의 칸에 주문을 채워넣어 준비해야만 하지만, 접근할 수 있는 주문의 숫자에 제한이 "
-"없습니다. 후자의 경우는 주문을 미리 준비해 둘 필요가 없습니다. 이들은 자신이 알고 있는 모든 주문을 통틀어 일정 횟수 시전할 수 "
-"있지만, 주문책에 등록할 수 있는 주문의 개수가 제한되어 있습니다."
+"{g|Encyclopedia:Spell}주문 시전자{/g}에는 두가지 유형이 있습니다. 하나는 주문을 준비해서 시전하며, 다른 하나는 "
+"임의로 시전합니다. 전자의 경우 미리 주문책의 칸에 주문을 채워넣어 준비해야만 하지만, 접근할 수 있는 주문의 숫자에 제한이 없습니다. "
+"후자의 경우는 주문을 미리 준비해 둘 필요가 없습니다. 이들은 자신이 알고 있는 모든 주문을 통틀어 일정 횟수 시전할 수 있지만, "
+"주문책에 등록할 수 있는 주문의 개수가 제한되어 있습니다."
 
 msgctxt "55d911c0-c5c3-4485-a284-6b83fdc84c5c"
 msgid ""
@@ -18528,7 +18528,7 @@ msgstr "암기한 주문"
 
 msgctxt "8c13d09c-075f-4d98-9f2d-ec8b72296456"
 msgid "Spontaneous casting"
-msgstr "즉흥 시전"
+msgstr "임의 시전"
 
 #, fuzzy
 msgctxt "c4cf5460-4ee2-4a12-8561-80c1256df4d9"
@@ -19066,7 +19066,7 @@ msgstr "비전 주문 시전 능력"
 
 msgctxt "ea2f673c-85c9-4f70-8c7a-e3f29483dd6a"
 msgid "Ability to spontaneously cast arcane spells"
-msgstr "비전 주문 즉흥 시전 능력"
+msgstr "비전 주문 임의 시전 능력"
 
 msgctxt "f1a682d7-b623-4d25-82f6-a0a2ba135bcb"
 msgid "Ability to cast"
@@ -19078,7 +19078,7 @@ msgstr "신성 주문 시전 능력"
 
 msgctxt "f60b88f3-7a74-48e1-a887-3e3e94c65250"
 msgid "Ability to spontaneously cast divine spells"
-msgstr "신성 주문 즉흥 시전 능력"
+msgstr "신성 주문 임의 시전 능력"
 
 msgctxt "cc988b09-36dc-4f01-84b2-3a3f79335d46"
 msgid "Available for cooking"
@@ -32543,340 +32543,439 @@ msgid ""
 "would treat you differently too.\""
 msgstr "\"만약 당신이... 사람들에게 조금만 더 친절을 베푸신다면, 그분들 또한 당신을 다르게 대할겁니다.\""
 
+#, fuzzy
 msgctxt "511953a6-0ca0-46cb-9676-b58cc942637b"
 msgid ""
 "\"I can only hope the spirits' voices do not drown out the voice of faith "
 "within you.\""
-msgstr ""
+msgstr "\"당신의 내면에서 신앙의 목소리가 심령의 목소리에 묻히지 않길 바랄 뿐입니다.\""
 
+#, fuzzy
 msgctxt "6cc6712c-e844-43f9-8fd1-5e9cea111897"
 msgid ""
 "\"I'm glad you are with us, Daeran. Not because you are a good person, but "
 "because these events might prompt you to consider things.\""
 msgstr ""
+"\"대런, 당신이 우리와 함께라는게 기쁩니다. 당신이 선한 사람이기 때문이 아니라, 이 사건들 덕분에 당신이 주위 상황을 고려하도록 만들 "
+"것이기 때문이죠.\""
 
+#, fuzzy
 msgctxt "4d753678-716c-4636-8436-45c87ab35652"
 msgid ""
 "\"It brings me much sorrow to see such a gifted and, I suppose, worthy "
 "person as yourself give so little thought to his deeds and life, Daeran. It "
 "is such... a waste.\""
 msgstr ""
+"\"대런, 당신처럼 재능있고, 추측컨데, 지위도 가진 사람이 자기 행동과 삶에 거의 신경쓰지 않는다는 사실이 슬픕니다. 그것은 "
+"상당한... 낭비니까요.\""
 
+#, fuzzy
 msgctxt "ceb21d49-8412-4bb8-b453-656a8a8fa7db"
 msgid ""
 "\"Though you are a... complicated person, Daeran, I do respect you for your "
 "healing talent. Anyone who eases another's suffering cannot be entirely "
 "hopeless.\""
 msgstr ""
+"\"대런, 당신이... 복잡한 사정을 가진 사람이더라도, 저는 당신의 치유 능력을 존중합니다. 다른 이들의 고통을 덜어주는 사람이 "
+"구제불능일 수는 없으니까요.\""
 
+#, fuzzy
 msgctxt "2742d62e-1e22-4f09-8e2e-54ff4ebfebb5"
 msgid ""
 "\"I am almost inured to your blasphemous jokes by now. I understand you are "
 "just teasing me.\""
-msgstr ""
+msgstr "\"방금 당신이 던진 신성모독적인 농담에 상처받을 뻔했어요. 당신이 그냥 절 괴롭히는걸로 이해하겠습니다.\""
 
+#, fuzzy
 msgctxt "1efdc983-0a1f-4481-8878-f88794cff0fc"
 msgid "\"What did that look mean, Daeran?\""
-msgstr ""
+msgstr "\"그 광경은 뭡니까, 대런?\""
 
+#, fuzzy
 msgctxt "ff3c51f8-dc75-4cef-b226-9c4e2c7504dc"
 msgid "\"You are a child. You don't belong in this war.\""
-msgstr ""
+msgstr "\"당신은 아이입니다. 그리고 당신은 이 전쟁과 엮이지 않았습니다.\""
 
+#, fuzzy
 msgctxt "0b0c5cc3-77dd-497c-bf39-958e437a8853"
 msgid ""
 "\"Do your scars hurt? Maybe I can help with a spell or some medicine...\""
-msgstr ""
+msgstr "\"당신의 흉터가 쓰린가요? 아마도 제가 주문이나 약으로 도와드릴 수 있을 겁니다...\""
 
+#, fuzzy
 msgctxt "da7a255d-3793-48ea-9d6d-1c182a604b97"
 msgid ""
 "\"You've carried such suffering around your whole life. I think if you "
 "opened your heart to a kind deity, you would feel better.\""
-msgstr ""
+msgstr "\"당신은 이제껏 그런 고통을 담아두고 계셨습니다. 저는 당신이 친절한 신께 마음을 연다면 더 편해지실 거라고 생각합니다.\""
 
+#, fuzzy
 msgctxt "1aba031f-c069-49e8-a8f8-b76e6a1de0d1"
 msgid "\"You need to take better care of yourself, Ember.\""
-msgstr ""
+msgstr "\"엠버, 당신은 자기 자신을 더 돌보셔야 합니다.\""
 
+#, fuzzy
 msgctxt "513999aa-df50-4fd7-bf7b-98749b23e621"
 msgid ""
 "\"Ember, I noticed your hair keeps getting in your eyes... This is just a "
 "little thing, something I whittled when we stopped on the journey... I hope "
 "they will help you.\""
 msgstr ""
+"\"엠버, 당신의 머리카락이 당신의 눈을 자꾸 찌르는걸 봤습니다... 이 작은건 그냥 여행 중에 멈췄을 때 깎아 만든 물건입니다... "
+"이것들이 도움이 되었으면 좋겠군요.\""
 
+#, fuzzy
 msgctxt "89672802-1a67-4d59-ac98-5817eafebf45"
 msgid ""
 "\"Listen, Ember... I respect your passion for making the world a better "
 "place, but some of your ideas are... too radical. Particularly the way you "
 "try to turn people away from worshiping the good deities.\""
 msgstr ""
+"\"들어보세요, 엠버... 저는 더 나은 세상을 만드려는 당신의 열정을 존중합니다만, 당신의 사상은... 너무 과격합니다. 특히나 선한 "
+"신들에 대한 신앙을 사람들에게서 떼어놓으려는 당신의 방식 말이죠.\""
 
+#, fuzzy
 msgctxt "3c5b312d-a194-4449-addc-b046eac2c60d"
 msgid ""
 "\"It's difficult for me to believe that you are the same Arueshalae I knew "
 "before...\""
-msgstr ""
+msgstr "\"제가 전에 알았던 아루샬레와 당신이 동일 인물이라는 사실이 믿기 힘듭니다...\""
 
+#, fuzzy
 msgctxt "c05a0591-c5ed-4124-a0bc-1b5f506e600f"
 msgid "\"You have gone astray, Arueshalae. But I will pray for your soul.\""
-msgstr ""
+msgstr "\"아루샬레, 당신은 잘못된 길을 택하셨군요.하지만 저는 당신의 영혼을 위해 기도하겠습니다.\""
 
+#, fuzzy
 msgctxt "add58ce9-b030-40cd-b5a4-823afa0c9c2c"
 msgid ""
 "\"Have you ever considered confessing your sins to someone? It may ease your "
 "burden.\""
-msgstr ""
+msgstr "\"당신이 지은 죄를 누군가에게 털어놓을 생각을 한 적 있으십니까? 아마 당신의 짐을 덜 수 있을 겁니다.\""
 
+#, fuzzy
 msgctxt "95e07a29-33f8-4c21-9bd7-35473d0ec553"
 msgid ""
 "\"You must have seen and done many horrific things in your line of work. You "
 "have my sympathy. I'm sure your dreams are haunted by the dead.\""
 msgstr ""
+"\"당신은 임무를 수행해오면서 끔찍한 일들을 많이 보거나 행하셨겠군요. 당신을 동정합니다. 저는 당신의 꿈이 망자들에게 점거당했을거라 "
+"확신합니다.\""
 
+#, fuzzy
 msgctxt "66ce5bcb-b9d2-4260-8bea-b3624b8d72a7"
 msgid "\"How about some tea, Greybor?\""
-msgstr ""
+msgstr "\"그레이보르, 차 한 잔 하시겠습니까?\""
 
+#, fuzzy
 msgctxt "f8ad4db7-de62-46bd-adaa-984ef0e9986c"
 msgid ""
 "\"In your place, I would pray more fervently than anyone, for how else could "
 "you atone for your crimes?\""
-msgstr ""
+msgstr "\"제가 당신이었다면, 다른 누구보다도 더 열심하 기도했을 겁니다. 달리 어떻게 당신의 죄를 속죄할 수 있겠습니까?\""
 
+#, fuzzy
 msgctxt "b0d8d02b-69ce-45fb-a600-11809779c0e6"
 msgid ""
 "\"If you ever need to talk to someone, just know that I am always here.\""
-msgstr ""
+msgstr "\"누군가와 이야기할 필요가 생긴다면, 언제나 제가 있다는 것을 기억해주십시오.\""
 
+#, fuzzy
 msgctxt "d03579e4-f5fc-47eb-9aa9-b414fa60a406"
 msgid ""
 "\"I know you've been through a lot. If you ever need to talk, to relieve "
 "your soul...\""
-msgstr ""
+msgstr "\"당신이 많은 역경을 헤쳐왔다는 것을 압니다. 당신의 영혼을 안심시키기 위해서 뭔가 얘기하고 싶으시다면...\""
 
+#, fuzzy
 msgctxt "e1566acd-b713-481d-8647-b894ae9a9c18"
 msgid "\"I'm sorry about what happened to you...\""
-msgstr ""
+msgstr "\"당신께 일어난 일에 유감을 표합니다...\""
 
+#, fuzzy
 msgctxt "2f17da03-1713-4772-a0c4-7670865b6896"
 msgid "\"I'd like to show you a sketch. Tell me what you think.\""
-msgstr ""
+msgstr "\"밑그림 하나를 봐주셨으면 합니다. 어떻게 생각하시는지 말해주세요.\""
 
+#, fuzzy
 msgctxt "dd316394-e108-42fd-aac4-7fa2f779362a"
 msgid ""
 "\"Talking to you confuses me sometimes. It seems like every word out of my "
 "mouth offends you.\""
-msgstr ""
+msgstr "\"당신과 대화하는건 때때로 저를 혼란시킵니다. 제 입에서 나오는 모든 단어들이 당신을 공격하는 것처럼 느껴지거든요.\""
 
+#, fuzzy
 msgctxt "5030688c-8e76-4b67-a41e-6cca1191c18e"
 msgid ""
 "\"I would like to bring you to a temple of Shelyn one day, to make you "
 "understand that we accept everyone.\""
-msgstr ""
+msgstr "\"언젠가는 당신을 셸린의 사원에 데려가서 저희가 누구라도 받아들인다는 것을 이해시키고 싶습니다.\""
 
+#, fuzzy
 msgctxt "03ba9823-fcd9-419d-af8f-8a8dbc88bbea"
 msgid ""
 "\"Family is sacred. Your family are the people who are closest to you. Life "
 "has its ups and downs, loved ones argue and part ways, but they never forget "
 "one another. I'll never understand how could you forget your family, Nenio!\""
 msgstr ""
+"\"가족이란 성스러운 것입니다. 당신의 가족은 당신과 가장 밀접한 사람들이죠. 삶에는 상승과 하락이 있고, 사랑하던 이들이 다투고 "
+"헤어지기도 하지만, 그들은 결코 그 상대를 잊어버리진 못합니다. 네니오, 저는 어떻게 당신이 가족을 잊어버렸는지 절대 이해할 수 없습니다!"
+"\""
 
+#, fuzzy
 msgctxt "431b2a3d-d8b7-4c5e-a39e-236019cb9cea"
 msgid ""
 "\"Nenio, your experiments are dangerous — for you most of all. You need to "
 "be more careful. I won't always be at hand to help.\""
 msgstr ""
+"\"네니오, 당신의 실험들은 위험합니다. 거의 전부가 당신을 해칠 수 있죠. 당신은 더 조심할 필요가 있습니다. 제가 언제까지고 당신만 "
+"도울 수는 없으니까요.\""
 
+#, fuzzy
 msgctxt "4b097841-2787-4c42-b12d-8808db1aa22a"
 msgid ""
 "\"Don't you realize how dangerous it was to jump off that cliff? You could "
 "have been killed!\""
-msgstr ""
+msgstr "\"저 절벽에서 뛰었던게 얼마나 위험했는지 자각하지 못하십니까? 당신은 죽을 수도 있었습니다!\""
 
+#, fuzzy
 msgctxt "5f1dfc63-69b8-4374-a0b0-9d886271c0a4"
 msgid ""
 "\"Have you considered that some of your experiments could have hurt other "
 "people? Not everyone is willing to sacrifice themselves for science.\""
 msgstr ""
+"\"당신의 실험 중 일부가 다른 사람들을 다치게 할 수 있는 점을 기억하십니까? 모든 사람들이 과학을 위해 스스로를 희생하려 들지는 "
+"않습니다.\""
 
+#, fuzzy
 msgctxt "e6e12bf5-6451-41c6-b141-47861b96bee5"
 msgid ""
 "\"You remember nothing... but what if you have a family waiting for you "
 "somewhere, or someone you need to take care of?\""
 msgstr ""
+"\"당신은 아무것도 기억하지 못합니다... 하지만 어딘가에서 당신을 기다리는 가족이나, 당신이 보살펴야 할 누군가가 있다면 어떻겠습니까?"
+"\""
 
+#, fuzzy
 msgctxt "9b958c1d-5be6-40c9-9f06-6a9668a57415"
 msgid ""
 "\"Hellknights have no dignity. You're just slaves, happy to serve your "
 "masters.\""
-msgstr ""
+msgstr "\"헬나이트에겐 위엄이 없습니다. 당신은 기꺼이 주인을 섬기는 노예일 뿐이죠.\""
 
+#, fuzzy
 msgctxt "a43ddb3a-edab-4efa-9ff8-760cc09abdfe"
 msgid ""
 "\"You don't value the lives of your soldiers at all. You'd send a fighter to "
 "certain death without a second thought!\""
-msgstr ""
+msgstr "\"당신은 휘하 병사들의 목숨을 소중히 여기지 않는군요. 당신은 숙고하지도 않은채 전사들을 죽음의 구렁텅이로 내몰았습니다!\""
 
+#, fuzzy
 msgctxt "140c705c-6ae3-4062-8e80-bbc0f7018be0"
 msgid ""
 "\"I never thought I'd find myself fighting shoulder to shoulder with a "
 "Hellknight. To be honest, I'd avoid it if I could.\""
-msgstr ""
+msgstr "\"제가 헬나이트와 어깨를 맞대고 전투하리라고는 상상도 못했습니다. 솔직히, 할 수만 있었다면 피했을겁니다.\""
 
+#, fuzzy
 msgctxt "3a4f838d-ef4d-4c74-a464-9c4c36d2d3e7"
 msgid ""
 "\"Some people use times of war as an excuse for cruelty. But you Hellknights "
 "are just as cruel in peacetime. It is horrifying.\""
 msgstr ""
+"\"어떤 사람들은 전쟁 시기를 잔혹함에 대한 변명으로 사용하기도 합니다. 하지만 당신의 헬나이트들은 평화로운 시기에도 똑같이 잔인하죠. "
+"끔찍한 일입니다.\""
 
+#, fuzzy
 msgctxt "70c9dba2-9c0a-4451-a00f-ff38c527e345"
 msgid ""
 "\"I am certain Cheliax is not a lost cause. Despite everything, some people "
 "there pray to the good deities. That means that one day light will dispel "
 "the darkness.\""
 msgstr ""
+"\"저는 첼리악스가 대의를 잊지 않았다고 확신합니다. 그 모든 상황에도 불구하고, 몇몇 사람들은 선한 신들에게 기도하죠. 이는 언젠가 "
+"빛이 암흑을 걷어내리라는 것을 의미합니다.\""
 
+#, fuzzy
 msgctxt "311b069d-5fb5-461c-8d6f-85b344b963bc"
 msgid ""
 "\"Those who perished in Kenabres... I still dream about them. Sometimes I "
 "see their faces in a crowd. Tell me... This will never be over, will it?\""
 msgstr ""
+"\"케나브레스에서 죽어버린 이들... 아직도 저는 그들에 대한 꿈을 꿉니다. 때로는 그들이 모여있는 모습을 보죠. 대답해주세요... 이 "
+"전쟁이 영원히 계속될까요?\""
 
+#, fuzzy
 msgctxt "e4156084-e48a-4008-8069-c92f5026acf2"
 msgid ""
 "\"I saw a knight... A young woman, younger than me. But gray-haired, and "
 "with a fixed gaze... And I realized: she's not going to return from this "
 "war. Even if she survives.\""
 msgstr ""
+"\"저는 기사를 보았어요... 저보다도 더 젊은 여성이었습니다. 하지만 머리가 하얗게 세었고, 굳은 눈동자를 가졌었죠. 그리고 저는, "
+"그녀가 이 전쟁에서 살아남더라도 돌아오지 않으리라는 것을 깨달았습니다.\""
 
+#, fuzzy
 msgctxt "020471d7-dec2-4901-9fd3-0e2a2c281e29"
 msgid "\"I'm sure Acemi would have been proud of you.\""
-msgstr ""
+msgstr "\"저는 아세미가 당신을 자랑스러워 했으리라 확신합니다.\""
 
+#, fuzzy
 msgctxt "42c6b6a8-7735-4f2f-9760-b47546c96a53"
 msgid ""
 "\"To be honest, I never thought I could have fun and feel so at ease with a "
 "paladin of Iomedae. The ones I've met before were very severe...\""
 msgstr ""
+"\"솔직히 말씀드리자면, 저는 아이오메데의 팔라딘과 놀거나 편하게 대할 수 있으리라고는 상상도 못했습니다. 이전까지 제가 봐왔던 사람들은 "
+"전부 엄격했었거든요...\""
 
+#, fuzzy
 msgctxt "f213a296-f91b-40af-be58-c3ae92d58b5c"
 msgid ""
 "\"It makes my heart sing to see that ordinary life goes on even on the "
 "crusade: people are enjoying themselves, making friends, falling in love, "
 "getting married...\""
 msgstr ""
+"\"성전의 와중에도 평범한 삶이 계속되는 것을 보자면 제 심장이 흥얼거리게 됩니다. 사람들이 어울리고, 친구를 만들고, 사랑에 빠지고, "
+"결혼하고...\""
 
+#, fuzzy
 msgctxt "fa4aeed4-0c97-49f3-a5cb-0a7e9a54b3dd"
 msgid "\"Must be nice back home now. I bet my niece is growing so big...\""
-msgstr ""
+msgstr "\"당장 집으로 돌아가면 좋겠다. 조카딸이 엄청 자랐을텐데...\""
 
+#, fuzzy
 msgctxt "10a4d68d-89c4-4e7f-898a-72c8cc525b76"
 msgid ""
 "\"Brother, where are you? What if you bravely fought here, right where I'm "
 "walking?\""
-msgstr ""
+msgstr "\"형, 대체 어디있는거야? 내가 걷는 이 자리에서 용감하게 싸웠던거야?\""
 
+#, fuzzy
 msgctxt "c6ba38a0-610c-4703-8bc2-e5f097bf55e9"
 msgid ""
 "\"Sometimes I'm afraid that Trever's face is slipping away in my memories.\""
-msgstr ""
+msgstr "\"가끔은 트레버의 얼굴이 내 기억에서 사라질까봐 두려워.\""
 
+#, fuzzy
 msgctxt "4655d6d8-39cd-456a-88c5-fddf5cb3b9d5"
 msgid "\"This land has suffered so terribly under the demons...\""
-msgstr ""
+msgstr "\"이 땅은 데몬들에게 너무 끔찍히 유린당했어...\""
 
+#, fuzzy
 msgctxt "0257da90-fac2-4ca3-8fc3-c091b3b08b3b"
 msgid ""
 "\"I can't help asking myself if I am in the right place in this war? Perhaps "
 "I should have just stayed among those peaceful vineyards and smiling "
 "peasants?\""
 msgstr ""
+"\"스스로에게 계속 물어봅니다. 내가 이 전쟁에서 옳은 자리에 있는건가? 그냥 평화로운 농장과 즐거워하는 주민들과 함께 있어야 했던게 "
+"아닐까?\""
 
+#, fuzzy
 msgctxt "51904640-a281-49f7-885f-c7a8c3830f77"
 msgid ""
 "\"I can't believe it... We're sitting around a campfire together again like "
 "we used to. At long last.\""
-msgstr ""
+msgstr "\"믿을 수가 없어... 마침내 우리가, 옛날처럼 모닥불에 함께 앉아있다니.\""
 
+#, fuzzy
 msgctxt "92268f7f-cf2d-4fd4-894d-b60f7862181a"
 msgid "\"I'll never leave you again. I'll stay with you no matter what.\""
-msgstr ""
+msgstr "\"다시는 형을 버리지 않을게. 무슨 일이 있어도 함께야.\""
 
+#, fuzzy
 msgctxt "0c98c04c-bc6d-45e8-a33f-5867cc946a03"
 msgid ""
 "\"What are you going to do when the crusade is over? Have you thought about "
 "living a peaceful life?\""
-msgstr ""
+msgstr "\"이 성전이 끝나면 뭘 할거야? 평화로운 삶을 살 생각이야?\""
 
+#, fuzzy
 msgctxt "0e2dec58-c9e7-4a3c-a8e6-caf09479539b"
 msgid ""
 "\"There is unique beauty in you. If only your features weren't eternally set "
 "in that harsh expression…\""
-msgstr ""
+msgstr "\"당신께는 독특한 아름다움이 있습니다. 당신의 아름다움이 영원토록 가혹한 표현에 묻히지 않길…\""
 
+#, fuzzy
 msgctxt "7541cac2-3ce1-4f25-933c-4902bda4d141"
 msgid ""
 "\"Could you please keep your distance when I am hearing confessions? "
 "Confession is a private sacrament.\""
-msgstr ""
+msgstr "\"제가 고해를 듣는 동안엔 다가오지 말아주시겠습니까? 고해성사는 개인적인 성례입니다.\""
 
+#, fuzzy
 msgctxt "56d649f3-62aa-4200-beae-5967d06cdc17"
 msgid ""
 "\"Forgive me, but we have nothing to talk about. I cannot see how I could be "
 "of any help to you.\""
-msgstr ""
+msgstr "\"용서하십시오, 하지만 우리는 아무것도 얘기할 것이 없습니다. 어떻게 당신을 도와야 할지도 모르겠고요.\""
 
+#, fuzzy
 msgctxt "1b59a57f-5165-4864-83df-a9fb8c37c8cf"
 msgid ""
 "\"You have joined a group of people who are on a righteous mission, Wenduag. "
 "But are you capable of committing to this path? I would like to think so.\""
 msgstr ""
+"\"당신은 정의로운 임무를 수행중인 사람들과 함께입니다, 웬두아그. 하지만 당신은 이 길을 따를 수 있다고 생각하시나요? 저는 그렇다고 "
+"생각합니다.\""
 
+#, fuzzy
 msgctxt "6a6d8f8e-91f7-4c16-b004-17187102621a"
 msgid ""
 "\"You don't have to talk constantly to please people. When you are silent "
 "and lost in thought, your face sometimes takes on a most intriguing and "
 "appealing expression.\""
 msgstr ""
+"\"사람들을 기쁘게 해주려 끊임없이 말하시지 않아도 됩니다. 당신이 조용히 사색애 잠겨있을 때, 당신의 얼굴은 가장 흥미롭고 매혹적인 "
+"형상을 취하곤 하니까요.\""
 
+#, fuzzy
 msgctxt "423ff6a2-a258-452b-92e8-d92a4846e3f3"
 msgid ""
 "\"Shelyn teaches us to only draw our weapons against those who will never "
 "choose to surrender.\""
-msgstr ""
+msgstr "\"셸린께서는 결코 항복하지 않을 이들을 향해서만 무기를 들라 가르치십니다.\""
 
+#, fuzzy
 msgctxt "a9bd29af-85c8-4603-99f1-585ff21e0db3"
 msgid ""
 "\"How beautiful is the unspoiled countryside that has escaped the taint of "
 "the Worldwound! It is only in these places that you start to appreciate the "
 "beauty of nature.\""
 msgstr ""
+"\"세계상처의 오염이 닿지 않은 깨끗한 자연이 얼마나 아름답습니까! 당신이라도 자연의 아름다움에 취할 수밖에 없는 장소로군요.\""
 
+#, fuzzy
 msgctxt "f57a7e23-e9ac-4eea-a2bb-cf5a040e5060"
 msgid "\"You've moved again. Please, just sit still for just one minute!\""
-msgstr ""
+msgstr "\"또 움직이셨군요. 제발, 일분만이라도 가만히 앉아있어 주십시오!\""
 
+#, fuzzy
 msgctxt "c937fbff-6d9e-42a6-b454-8fa44a1e74c0"
 msgid ""
 "\"The crusade is harsh, but for those cast aside by fate, it is a chance for "
 "a new life.\""
-msgstr ""
+msgstr "\"성전은 가혹하지만, 운명이 버린 이들에게는 새로운 삶을 위한 기회이기도 하지.\""
 
+#, fuzzy
 msgctxt "b70867c3-4fcb-4753-8886-7a14b4129239"
 msgid "\"Don't come any closer, demon. Any talk between us won't last long.\""
-msgstr ""
+msgstr "\"가까이 다가오지 마라, 데몬. 너와 나눌 이야기는 없다.\""
 
+#, fuzzy
 msgctxt "1e65d347-ec4a-4042-a0fd-91372bcf42c9"
 msgid ""
 "\"You want to change, is that it? It won't work! The burden of your sins "
 "will always weigh on you. Only death will wash them away.\""
-msgstr ""
+msgstr "\"네가 변하길 원한다고? 불가능하다! 네 죄의 무게가 항상 너룰 괴롭힐거다. 오직 죽음만이 그 죄를 씻어낼 수 있지.\""
 
+#, fuzzy
 msgctxt "f6aa26f5-dcdb-4684-a2a4-4005239c6c22"
 msgid ""
 "\"Sosiel doesn't like being on his own. I'm glad he has a friend here.\""
-msgstr ""
+msgstr "\"소시엘은 혼자 있는걸 좋아하지 않아. 여기서 친구를 사귀었다니 기쁘군.\""
 
 msgctxt "d4130c79-e2a7-48a4-a5c9-5a86637277fb"
 msgid ""
