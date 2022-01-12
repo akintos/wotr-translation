@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-01-10 11:57+0000\n"
+"PO-Revision-Date: 2022-01-12 23:57+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -6568,12 +6568,12 @@ msgctxt "46ae1c5a-0794-4d46-9fc5-87495e12a5b0"
 msgid ""
 "60 {g|ShieldBearers}[Shield Bearers]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 60 {g|ShieldBearers}[방패병]{/g}을 고용했습니다."
 
 #. Name = RaceReactReinf_Elf_desc
 msgctxt "6bf6946c-beb5-4861-bc73-a9181432197d"
 msgid "2 {g|Bards}[Bards]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 2 {g|Bards}[바드]{/g}를 고용했습니다."
 
 #. Name = RaceReactReinf_Gnome_desc
 msgctxt "9b604a16-b127-4963-9a09-ddb756753f27"
@@ -6709,7 +6709,7 @@ msgstr ""
 #. Name = Frightened_condition_name
 msgctxt "df113545-589a-434a-934c-a5e4acceb3e4"
 msgid "Frightened"
-msgstr ""
+msgstr "겁먹음"
 
 #. Name = Nauseated_condition_desc
 msgctxt "018c9aa3-99b7-4ec2-8916-6d3043065062"
@@ -6719,17 +6719,17 @@ msgstr ""
 #. Name = Nauseated_condition_name
 msgctxt "c4052885-1a0d-47d3-8322-ba10984de271"
 msgid "Nauseated"
-msgstr ""
+msgstr "구토"
 
 #. Name = Paralyzed_condition_desc
 msgctxt "ab69de2d-54b5-41e8-ba81-907213336029"
 msgid "Unit cannot act or move; its Strength and Dexterity reduce to 0."
-msgstr ""
+msgstr "유닛은 행동하거나 이동할 수 없습니다. 유닛의 힘과 민첩이 0 으로 감소합니다."
 
 #. Name = Paralyzed_condition_name
 msgctxt "86f6fd1e-1bf6-491d-af03-ccc09ffc74ef"
 msgid "Paralyzed"
-msgstr ""
+msgstr "마비"
 
 #. Name = Posion_condition_desc
 msgctxt "4963879c-d1ee-47d0-ae77-c2c701cc90da"
@@ -6741,17 +6741,17 @@ msgstr ""
 #. Name = Posion_condition_name
 msgctxt "10266b08-7b97-45b3-b3ee-9f727f69739f"
 msgid "Poison"
-msgstr ""
+msgstr "독"
 
 #. Name = Sickened_condition_desc
 msgctxt "b3437349-5bda-4fb5-96c2-f3f9a9535aa1"
 msgid "Unit has a -2 penalty to attack, damage, and saving throws."
-msgstr ""
+msgstr "유닛은 명중, 피해, 내성 굴림에 -2 페널티를 가집니다."
 
 #. Name = Sickened_condition_name
 msgctxt "0a61efa0-5239-4038-95d4-ebac800f70d1"
 msgid "Sickened"
-msgstr ""
+msgstr "고통"
 
 #. Name = Sleeping_condition_desc
 msgctxt "521ed933-b956-4653-90c2-6c5fba8003c1"
@@ -6759,9 +6759,10 @@ msgid ""
 "Unit cannot act or move; its Strength and Dexterity reduce to 0. Melee "
 "attacks against this unit have a +4 bonus. Taking damage wakes up the unit."
 msgstr ""
+"유닛은 행동하거나 이동할 수 없고, 힘과 민첩이 0 으로 감소합니다. 이 유닛에 대한 근접 공격은 +4 보너스를 가집니다. 피해를 입으면 "
+"유닛이 깨어납니다."
 
 #. Name = Sleeping_condition_name
-#, fuzzy
 msgctxt "6d89cd4b-0071-434a-a70e-5aa9df042260"
 msgid "Sleep"
 msgstr "수면"
@@ -6774,19 +6775,19 @@ msgstr ""
 #. Name = Staggered_condition_name
 msgctxt "b34e6997-ae14-4b97-976f-6169da3c80cc"
 msgid "Staggered"
-msgstr ""
+msgstr "비틀거림"
 
 #. Name = Stunned_condition_desc
 msgctxt "2c56c936-746b-4cdc-b9ef-b2cc94177120"
 msgid ""
 "Unit cannot act or move and receives a -2 penalty to AC, plus it also loses "
 "the Dexterity bonus to AC."
-msgstr ""
+msgstr "유닛은 행동하거나 이동할 수 없고, AC에 -2 페널티를 받으며, AC에 대한 민첩 보너스를 잃습니다."
 
 #. Name = Stunned_condition_name
 msgctxt "28ef0c81-e502-421d-9afe-79a377775df4"
 msgid "Stunned"
-msgstr ""
+msgstr "기절"
 
 #. Name = BaneOfMagic_description
 msgctxt "f2d25f12-a63e-4e33-b7fc-48cc99c071bd"
@@ -6816,17 +6817,17 @@ msgctxt "63a1b334-7a6d-4fdf-b7ea-657544506e89"
 msgid ""
 "All enemy units receive a -10 penalty to combat morale and a -2 penalty to "
 "attack, AC, and saving throws."
-msgstr ""
+msgstr "모든 유닛은 전투 사기에 -10 페널티, 명중, AC, 내성 굴림에 -2 페널티를 받습니다."
 
 #. Name = DryadsFury_name
 msgctxt "81702030-e480-4e44-b720-4897a8062e2c"
 msgid "Dryads' Fury"
-msgstr ""
+msgstr "드라이어드의 분노"
 
 #. Name = GiftFromTheDruids_description
 msgctxt "bd35afc8-9e84-4eff-b1ec-15fcdaa91f6b"
 msgid "The general has a +3 bonus to Power."
-msgstr ""
+msgstr "지휘관은 마력에 +3 보너스를 가집니다."
 
 #. Name = GiftFromTheDruids_name
 msgctxt "7ad12072-d6f2-4170-845c-7281c87699ab"
@@ -6843,7 +6844,7 @@ msgstr ""
 #. Name = KellidTraditions_Assault_name
 msgctxt "42299742-e6d5-4f65-962c-469b81cce9d0"
 msgid "Kellid Traditions — Assault"
-msgstr ""
+msgstr "켈리드 전통 — 공격"
 
 #. Name = KellidTraditions_Carnage_description
 msgctxt "e27ae719-51ec-402d-9412-340802ad65b1"
@@ -6855,27 +6856,26 @@ msgstr ""
 #. Name = KellidTraditions_Carnage_name
 msgctxt "cc1c40e2-4bf0-45af-9381-0fece5eec022"
 msgid "Kellid Traditions — Carnage"
-msgstr ""
+msgstr "켈리드 전통 — 학살"
 
 #. Name = KellidTraditions_Defense_name
 msgctxt "76211548-f255-4a2f-9f18-4840526abc8d"
 msgid "Kellid Traditions — Defense"
-msgstr ""
+msgstr "켈리드 전통 — 방어"
 
 #. Name = ArmyMisfortune_desc
 msgctxt "211ca6b6-d62a-43b9-9a2a-aad356f1f555"
 msgid ""
 "Target unit receives a -3 penalty to attack. Anytime the unit makes a roll, "
 "it must roll twice and take the worse result."
-msgstr ""
+msgstr "대상 유닛은 명중에 -3 페널티를 받습니다. 대상이 굴림을 할 때 마다 두 번 굴려 나쁜 결과를 취합니다."
 
 #. Name = ArmyMisfortune_name
 msgctxt "d1af5790-c5c2-4283-848f-35d0797166d0"
 msgid "Misfortune"
-msgstr ""
+msgstr "불운"
 
 #. Name = ArmySleep_name
-#, fuzzy
 msgctxt "e82a7892-4b94-4dce-93a7-6a67154e60e3"
 msgid "Sleep"
 msgstr "수면"
@@ -6883,12 +6883,12 @@ msgstr "수면"
 #. Name = ChainSpear_desc
 msgctxt "7e514511-a0ab-4678-97ec-6ae5647e5127"
 msgid "Deals ((2d6+9)×unit number) physical damage to the target unit."
-msgstr ""
+msgstr "대상 유닛에게 ((2d6+9)×유닛수) 물리 피해를 입힙니다."
 
 #. Name = ChainSpear_name
 msgctxt "f7725e52-b64c-41be-93f0-682e60d135b2"
 msgid "Chain Spear"
-msgstr ""
+msgstr "사슬창"
 
 #. Name = TacticalCombatWait_desc
 msgctxt "c279dd67-c48a-4152-9819-cc39ccd3c403"
@@ -6900,7 +6900,7 @@ msgstr ""
 #. Name = TacticalCombatWait_name
 msgctxt "acbabbd8-ae99-4943-9db9-5ff9e05b14e6"
 msgid "Wait"
-msgstr ""
+msgstr "대기"
 
 #. Name = ArmoredFeature_name_description
 msgctxt "50b2def0-0438-483c-bd22-60b006d85d26"
@@ -6914,11 +6914,13 @@ msgid ""
 "{g|Disease_condition}[disease]{/g} that applies a -2 penalty to Constitution "
 "each round."
 msgstr ""
+"유닛의 공격이 대상을 {g|Poison_condition}[중독]{/g}시키고 매 라운드마다 건강에 -2 페널티를 부여하는 "
+"{g|Disease_condition}[질병]{/g} 상태에 빠뜨립니다."
 
 #. Name = ArmyDerakniPoison_name
 msgctxt "95170e75-2c8f-4e87-aee6-c3eb6f2e9479"
 msgid "Derakni Poison"
-msgstr ""
+msgstr "데라크니 독"
 
 #. Name = CasterFeature_name_description
 msgctxt "78229f02-561c-4b74-a777-44e8e71766a7"
@@ -6943,7 +6945,7 @@ msgstr "대형 유닛"
 #. Name = GrandTierFeature_name_description
 msgctxt "3c4b86eb-177d-4675-9e3b-462604589cc8"
 msgid "Grand Tier Unit"
-msgstr "거대 유닛"
+msgstr "고급 유닛"
 
 #. Name = InfantryFeature_name_description
 msgctxt "9fed2301-7f1c-4dd4-8e00-0e21111c1649"
@@ -7012,7 +7014,7 @@ msgstr ""
 #. Name = FleshMarketTable
 msgctxt "d1e5c1b2-f860-429d-ae0b-609d5df0b8bf"
 msgid "\"Fleshmarkets\""
-msgstr ""
+msgstr "\"살덩이 시장\""
 
 #. Name = WelcomeToFleshMarket
 msgctxt "e3c9e6b1-ffa9-423e-a669-7125c0851f46"
