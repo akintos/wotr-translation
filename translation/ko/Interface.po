@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-01-15 13:57+0000\n"
+"PO-Revision-Date: 2022-01-18 08:57+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -4938,17 +4938,17 @@ msgstr ""
 #. Name = Gloss_RankUp_Dip_2_3
 msgctxt "9e318c90-984d-4f68-bae6-08d4d9700903"
 msgid "Unlocks the {g|HelpingThoseInNeed}[Helping Those in Need]{/g} decree."
-msgstr ""
+msgstr "{g|HelpingThoseInNeed}[도움이 필요한 사람들을 돕기]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_2_4
 msgctxt "568ca549-2a33-4e24-b873-0ae6c45cf204"
 msgid "Unlocks the {g|Bribery}[Bribery]{/g} decree."
-msgstr ""
+msgstr "{g|Bribery}[뇌물]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_2_5
 msgctxt "e6af1f21-33a3-44cc-b80b-22dec51d16a3"
 msgid "Unlocks the {g|RoyalParade}[Royal Parade]{/g} decree."
-msgstr ""
+msgstr "{g|RoyalParade}[왕실 근위병의 행진]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_3_1
 msgctxt "f1d909a1-5668-4800-af57-a6ff1907a0a4"
@@ -4994,23 +4994,23 @@ msgstr ""
 msgctxt "51dfe9c4-63f4-4747-9968-f87e1c33e8bc"
 msgid ""
 "Unlocks the {g|HelpFromQueenGalfrey}[Help From Queen Galfrey]{/g} decree."
-msgstr ""
+msgstr "{g|HelpFromQueenGalfrey}[갈프리 여왕의 지원]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_4_2
 msgctxt "a2df3fbd-349e-46e1-9ff8-86727d27d54a"
 msgid ""
 "Unlocks the {g|TheHelpOfNobleHouses}[The Help of Noble Houses]{/g} decree."
-msgstr ""
+msgstr "{g|TheHelpOfNobleHouses}[귀족 가문의 도움]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_4_3
 msgctxt "8939eb92-4103-4217-8025-d56d949c44a3"
 msgid "Unlocks the {g|PeoplesHelp}[People's Help]{/g} decree."
-msgstr ""
+msgstr "{g|PeoplesHelp}[민중의 도움]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_4_4
 msgctxt "96711af9-123b-410c-a534-cba789479b5a"
 msgid "Unlocks the {g|RoyalCourtsHelp}[Royal Court's Help]{/g} decree."
-msgstr ""
+msgstr "{g|RoyalCourtsHelp}[왕실의 도움]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_4_5
 msgctxt "11f32a7d-5834-40c0-9833-2e43c1ec20ff"
@@ -5026,6 +5026,9 @@ msgid ""
 "{g|Conscripts}[Conscripts]{/g} gain the {g|AndoranEquipment}[Andoran "
 "Equipment]{/g} feat."
 msgstr ""
+"6,000 재정 점수를 추가합니다. {g|Footmen}[보병]{/g}, {g|Champions}[챔피언]{/g}, "
+"{g|ShieldBearers}[방패병]{/g}, {g|Spearmen}[창병]{/g}, {g|Convicts}[죄수]{/g}, "
+"{g|Conscripts}[징집병]{/g}은 {g|AndoranEquipment}[안도란 장비]{/g} 특기를 얻습니다."
 
 #. Name = Gloss_RankUp_Dip_5_2d
 msgctxt "628f5454-1e0b-4f45-8222-359de54cbc0b"
@@ -5188,6 +5191,8 @@ msgid ""
 "{g|MendevianCavaliers}[Mendevian Cavaliers]{/g} are recruited at the "
 "Commander's headquarters."
 msgstr ""
+"용병 유닛 {g|MendevianCavaliers}[멘데브 기사]{/g} —적 전열의 일점에 공격을 집중할 수 있는 탁월한 기병대를 "
+"해금합니다. 사령관의 지휘부에서 6 {g|MendevianCavaliers}[멘데브 기사]{/g}를 모집합니다."
 
 #. Name = Gloss_RankUp_Dip_8_1_d
 msgctxt "61d749c0-97f6-410f-b16e-d586e345fb47"
@@ -5198,7 +5203,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Dip_8_2
 msgctxt "b19dd782-7626-4ede-96fb-9091fec9f708"
 msgid "Unlocks the {g|TaxOfTheRighteous}[Tax of the Righteous]{/g} decree."
-msgstr ""
+msgstr "{g|TaxOfTheRighteous}[의인의 세금]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Dip_8_3_d
 msgctxt "c0f56b99-7cd6-4417-8873-920331d39f8b"
@@ -5292,20 +5297,22 @@ msgid ""
 "4 {g|Dragonslayers}[Dragonslayers]{/g} are recruited at the Commander's "
 "headquarters — ranged units effective against the most dangerous opponents."
 msgstr ""
+"사령관의 지휘부에서 4 {g|Dragonslayers}[드래곤 슬레이어]{/g} — 가장 위험한 적에 대항할 때 효과적인 원거리 유닛을 "
+"모집합니다."
 
 #. Name = Gloss_RankUp_Dragon_2_3_d
 msgctxt "70ee83df-6291-4288-ace1-ff95b4d68fe8"
 msgid ""
 "All dragon units gain the {g|DefendersOfMortals}[Defenders of Mortals]{/g} "
 "feat."
-msgstr ""
+msgstr "모든 드래곤 유닛이 {g|DefendersOfMortals}[필멸자들의 수호자]{/g} 특기를 얻습니다."
 
 #. Name = Gloss_RankUp_Dragon_2_4
 msgctxt "8a798388-f629-499e-a344-2a1a19b4c910"
 msgid ""
 "7 {g|FallenDragons}[Fallen Dragons]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 7 {g|FallenDragons}[타락한 드래곤]{/g}을 모집합니다."
 
 #. Name = Gloss_RankUp_Dragon_3_1
 msgctxt "9c2644f8-683f-46a6-a763-73ccb5787892"
@@ -5322,7 +5329,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Dragon_3_2
 msgctxt "fc7da3ad-e5ce-4a88-95b7-460dcb790a06"
 msgid "All units gain the {g|Terrifying}[Terrifying]{/g} feat."
-msgstr ""
+msgstr "모든 유닛이 {g|Terrifying}[공포스러움]{/g} 특기를 얻습니다."
 
 #. Name = Gloss_RankUp_Dragon_3_3_n
 msgctxt "e862698e-799a-4b03-b361-eab43ccd9bb7"
@@ -5343,7 +5350,7 @@ msgctxt "ce872cbc-ae11-4ee4-b729-ff1fa8ce2b22"
 msgid ""
 "7 {g|GoldDragons}[Gold Dragons]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 7 {g|GoldDragons}[골드 드래곤]{/g}을 모집했습니다."
 
 #. Name = Gloss_RankUp_Dragon_4_2
 msgctxt "de30e591-a86b-4727-a04e-f867d85f31f2"
@@ -5352,6 +5359,8 @@ msgid ""
 "efficient utility spellcasters. 6 {g|DragonDisciples}[Dragon Disciples]{/g} "
 "are recruited at the Commander's headquarters."
 msgstr ""
+"용병 유닛 {g|DragonDisciples}[드래곤 디사이플]{/g} — 효율적인 보조 주문시전자를 해금합니다. 사령관의 지휘부에서 6 "
+"{g|DragonDisciples}[드래곤 디사이플]{/g}을 모집했습니다."
 
 #. Name = Gloss_RankUp_Dragon_4_3_n
 msgctxt "95e82ed6-1d54-4ec8-8d17-f1da083fb115"
@@ -5362,7 +5371,7 @@ msgstr ""
 msgctxt "051b7f09-6a7a-4a3a-b4c7-fc707964b8f0"
 msgid ""
 "All dragon units gain the {g|CorruptedDragons}[Corrupted Dragons]{/g} feat."
-msgstr ""
+msgstr "모든 드래곤 유닛이 {g|CorruptedDragons}[타락한 드래곤]{/g} 특기를 얻습니다."
 
 #. Name = Gloss_RankUp_Dragon_4_4_n
 msgctxt "04c7e406-4b36-4fd8-9782-b5ffe1516bf1"
@@ -5389,19 +5398,19 @@ msgstr ""
 msgctxt "e755c6e7-6a64-41a7-afd9-6924466721c3"
 msgid ""
 "All generals gain the {g|DragonsKnowledge}[Dragons' Knowledge]{/g} feat."
-msgstr ""
+msgstr "모든 지휘관이 {g|DragonsKnowledge}[드래곤들의 지식]{/g} 특기를 얻습니다."
 
 #. Name = Gloss_RankUp_Dragon_5_3
 msgctxt "492c6d6a-6f4b-4ff6-bca0-9bb3441d45da"
 msgid ""
 "7 {g|SilverDragons}[Silver Dragons]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 7 {g|SilverDragons}[실버 드래곤]{/g}을 모집했습니다."
 
 #. Name = Gloss_RankUp_Dragon_5_4_n
 msgctxt "d89d9ca5-3e0a-469c-b480-328410b7d5e3"
 msgid "Dragon Reign"
-msgstr ""
+msgstr "드래곤 군림"
 
 #. Name = Gloss_RankUp_Dragon_5_4
 msgctxt "77168c06-5d77-478a-b057-e2efbc7204f1"
@@ -5410,11 +5419,13 @@ msgid ""
 "recruiting mercenary units increases by 100%. Unlocks the {g|DragonReign}["
 "Dragon Reign]{/g} decree."
 msgstr ""
+"훈련 가능한 유닛의 모집 성장이 50% 감소합니다. 용병 유닛의 고용 비용이 100% 증가합니다. {g|DragonReign}[드래곤 "
+"군림]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_FreedomOfBelief_name
 msgctxt "9bb87670-f434-4174-bebf-a2575deb43a6"
 msgid "Freedom of Belief"
-msgstr ""
+msgstr "신앙의 자유"
 
 #. Name = Gloss_RankUp_HarshDiscipline_name
 msgctxt "c8932074-87d5-406a-b2ad-98d8857a76c0"
@@ -5586,7 +5597,7 @@ msgstr ""
 msgctxt "4358d204-5585-4c6e-aa9f-661b562b2694"
 msgid ""
 "Unlocks the {g|FeastOfTheSacredHost}[Feast of The Sacred Host]{/g} decree."
-msgstr ""
+msgstr "{g|FeastOfTheSacredHost}[성스러운 군세의 축연]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Lead_8_2_d
 msgctxt "6b53b810-dffd-4346-a21c-5128c9b00c28"
@@ -5599,17 +5610,17 @@ msgstr ""
 #. Name = Gloss_RankUp_Lead_8_3
 msgctxt "a14798d4-d38e-4c8c-87dd-8612793f5618"
 msgid "Unlocks the {g|DarkBonds}[Dark Bonds]{/g} decree."
-msgstr ""
+msgstr "{g|DarkBonds}[어둠의 굴레]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Lead_8_4
 msgctxt "a59ba8c5-7ea2-4b20-a6a4-bf9956234a07"
 msgid "Unlocks the {g|GreatCommemoration}[Great Commemoration]{/g} decree."
-msgstr ""
+msgstr "{g|GreatCommemoration}[위대한 기념제]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Legend_1_2
 msgctxt "2bf015dd-90c1-4951-a5f1-f321d245eb49"
 msgid "Crusade morale and maximum crusade morale increase by 15."
-msgstr ""
+msgstr "성전 사기와 최대 성전 사기가 15 증가합니다."
 
 #. Name = Gloss_RankUp_Legend_2_1
 msgctxt "eea9802d-1ae3-44dd-a607-0591ed86c550"
@@ -5624,7 +5635,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Legend_3_3
 msgctxt "a34c4d18-1816-4e8c-a6fe-0dd321d8987a"
 msgid "All units gain the {g|CombatEducation}[Combat Education]{/g} feat."
-msgstr ""
+msgstr "모든 유닛이 {g|CombatEducation}[전투 교육]{/g} 특기를 얻습니다."
 
 #. Name = Gloss_RankUp_Legend_4_1_n
 msgctxt "63cdd623-a8dd-45d6-beb8-5c7a94616931"
@@ -5634,7 +5645,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Legend_4_1
 msgctxt "8f055477-7bd2-4109-861c-b52a1b51ef4e"
 msgid "Provides {g|Legend4_1Artefact}[legendary ring]{/g}."
-msgstr ""
+msgstr "{g|Legend4_1Artefact}[전설적인 반지]{/g}를 제공합니다."
 
 #. Name = Gloss_RankUp_Legend_4_2_n
 msgctxt "c998f2ec-cd04-4cc0-a5f9-58db633410d8"
@@ -5653,6 +5664,8 @@ msgid ""
 "Ones]{/g} feat and learn the {g|SiphonTime}[Siphon Time]{/g} and "
 "{g|BoneArrow}[Bone Arrow]{/g} spells."
 msgstr ""
+"모든 지휘관이 {g|KnowledgeForTheChosenOnes}[선택받은 자의 지식]{/g} 특기를 얻고 {g|SiphonTime}["
+"시간 흡수]{/g}와 {g|BoneArrow}[뼈 화살]{/g} 주문을 배웁니다."
 
 #. Name = Gloss_RankUp_Lich_1_2
 msgctxt "51304866-82d7-4d4d-bad3-d7e5851ee92b"
@@ -5691,17 +5704,17 @@ msgstr ""
 #. Name = Gloss_RankUp_Lich_2_4
 msgctxt "b9fda811-c877-4b7a-b715-bece03974af7"
 msgid "Crusade morale increases by 20."
-msgstr ""
+msgstr "성전 사기가 20 증가합니다."
 
 #. Name = Gloss_RankUp_Lich_3_1_name
 msgctxt "08ab4ce2-83ef-4cad-82e6-9c62ff95ffaf"
 msgid "Graves of Sarkoris"
-msgstr ""
+msgstr "사코리스의 무덤"
 
 #. Name = Gloss_RankUp_Lich_3_1
 msgctxt "9c4581c5-51c3-4499-a358-acefe79077b8"
 msgid "Unlocks the {g|SkeletonsCreation}[Skeletons Creation]{/g} decree."
-msgstr ""
+msgstr "{g|SkeletonsCreation}[스켈레톤 생성]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Lich_3_2_name
 msgctxt "a0efe618-f925-4879-91f8-f46949da8a8c"
@@ -5711,7 +5724,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Lich_3_2
 msgctxt "5f260918-3d4e-42ac-87a9-2c7474ecfb2a"
 msgid "Unlocks the {g|ZombiesCreation}[Zombies Creation]{/g} decree."
-msgstr ""
+msgstr "{g|ZombiesCreation}[좀비 생성]{/g} 칙령을 해금합니다."
 
 #. Name = Gloss_RankUp_Lich_3_3_name
 msgctxt "898330ef-a4fa-4834-b2d6-150889144f90"
@@ -5741,7 +5754,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Lich_4_2
 msgctxt "d461b35b-8f52-4e92-ae4f-b1efd0b8ee03"
 msgid "Unlocks the {g|AnimateDead}[Animate Dead]{/g} ritual."
-msgstr ""
+msgstr "{g|AnimateDead}[시체 일으키기]{/g} 의식을 해금합니다."
 
 #. Name = Gloss_RankUp_Lich_4_3_n
 msgctxt "9daab07f-615a-4ae5-86b0-ac4a91c9fdd3"
@@ -6599,34 +6612,34 @@ msgctxt "9b604a16-b127-4963-9a09-ddb756753f27"
 msgid ""
 "17 {g|Alchemists}[Alchemists]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 17 {g|Alchemists}[알케미스트]{/g}를 모집했습니다."
 
 #. Name = RaceReactReinf_HalfElf_desc
 msgctxt "253598d7-4ab3-4f44-9358-7db69d1b26cf"
 msgid ""
 "30 {g|Rangers}[Rangers]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 30 {g|Rangers}[레인저]{/g}를 모집했습니다."
 
 #. Name = RaceReactReinf_Halfling_desc
 msgctxt "ccc36d12-d124-4cf1-bbe7-25dd5de3d6d1"
 msgid ""
 "27 {g|BellflowerFighters}[Bellflower Fighters]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 27 {g|BellflowerFighters}[벨플라워 전사]{/g}를 모집했습니다."
 
 #. Name = RaceReactReinf_HalfOrc_desc
 msgctxt "eba65c44-21da-4f90-8098-e87b5136b44d"
 msgid ""
 "22 {g|Headhunters}[Headhunters]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 22 {g|Headhunters}[헤드헌터]{/g}를 모집했습니다."
 
 #. Name = RaceReactReinf_Human_desc
 msgctxt "5ad3c5bb-056b-41e5-aae0-f06140be36f7"
 msgid ""
 "18 {g|Barbarians}[Barbarians]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 18 {g|Barbarians}[바바리안]{/g}을 모집했습니다."
 
 #. Name = RaceReactReinf_Kitsune_name
 msgctxt "2c8810ac-4041-46d1-9f11-f20ffa8b9812"
@@ -6638,12 +6651,12 @@ msgctxt "6198bbf1-a5f9-44f9-adf9-b4c6300e56cc"
 msgid ""
 "7 {g|StoneInfantry}[Stone Infantry]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 7 {g|StoneInfantry}[바위 보병]{/g}을 모집했습니다."
 
 #. Name = RaceReactReinf_Resource_desc
 msgctxt "aed725be-2868-4fe9-a151-364cb7f97fed"
 msgid "Adds 2,500 Finance Points."
-msgstr ""
+msgstr "2,500 재정 점수를 추가합니다."
 
 #. Name = RaceReactReinf_Resource_name
 msgctxt "f919652f-6a54-4a94-84f0-5ef4b1e46be1"
@@ -6654,12 +6667,12 @@ msgstr ""
 msgctxt "3358f5c1-6b73-4362-a509-c769826c377b"
 msgid ""
 "18 {g|Bandits}[Bandits]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 18 {g|Bandits}[도적]{/g}을 고용했습니다."
 
 #. Name = Region1_KenabresReinforcements_Volunteers_mech
 msgctxt "6f2c23ef-2628-4125-a797-727f20dd3ae8"
 msgid "The Main Barracks provide 50% more recruitment growth."
-msgstr ""
+msgstr "중앙 병영이 50% 더 많은 모집 성장을 제공합니다."
 
 #. Name = Region1_KenabresReinforcements_Volunteers_name
 msgctxt "5cfd6475-a53b-42db-abf9-6496d1841629"
@@ -6669,7 +6682,7 @@ msgstr ""
 #. Name = Region2_ReliableSupply_Gold_mech
 msgctxt "fc201f61-71f2-44b0-9fd7-dbdaec2d6a13"
 msgid "Finance Points income increases by 250."
-msgstr ""
+msgstr "재정 점수 수입이 250 증가합니다."
 
 #. Name = Region2_ReliableSupply_Gold_name
 msgctxt "bdcb2e4e-42a3-4949-a1e0-14ce6b19519a"
@@ -6679,7 +6692,7 @@ msgstr ""
 #. Name = Region2_ReliableSupply_MagicalIngredients_mech
 msgctxt "0b34433c-f5b0-48ac-bf2c-0b3dcb8e1b20"
 msgid "Energy Points income increases by 2.5."
-msgstr ""
+msgstr "에너지 점수 수입이 2.5 증가합니다."
 
 #. Name = Region2_ReliableSupply_MagicalIngredients_name
 msgctxt "3a54670a-0b5d-4be1-a084-aec0f170602b"
@@ -6689,7 +6702,7 @@ msgstr ""
 #. Name = Region2_ReliableSupply_Materials_mech
 msgctxt "e92fead3-5324-4025-bea2-cfa3fbedd3f2"
 msgid "Materials Points income increases by 25."
-msgstr ""
+msgstr "물자 점수 수입이 25 증가합니다."
 
 #. Name = Region2_ReliableSupply_Materials_name
 msgctxt "3fc59613-467d-4746-9d1e-ab21a901d0dd"
@@ -6699,12 +6712,12 @@ msgstr ""
 #. Name = Region5_LakeLostToTheSun_Recruits_mech
 msgctxt "741a513a-e56d-44bf-ab57-e33bdd107ce3"
 msgid "The Main Archery Range provides 50% more recruitment growth."
-msgstr ""
+msgstr "중앙 궁술 훈련장이 50% 더 많은 모집 성장을 제공합니다."
 
 #. Name = Region7_Wastes_Cavalry_mech
 msgctxt "e42dec86-42ab-4cc5-8108-2a078d343eeb"
 msgid "The Main Stables provide 50% more recruitment growth."
-msgstr ""
+msgstr "중앙 마굿간이 50% 더 많은 모집 성장을 제공합니다."
 
 #. Name = Disease_condition_desc
 msgctxt "76357ce0-e57b-4bb7-9aa1-85c8cab23d64"
@@ -6712,18 +6725,20 @@ msgid ""
 "Disease can affect only a living unit. Each round the unit makes a Fortitude "
 "saving throw, two successful saves negate the effect."
 msgstr ""
+"질병은 오직 살아있는 유닛에만 영향을 미칩니다. 매 라운드 유닛은 인내 내성 굴림을 시도해 두 번 연속 내성에 성공하면 효과를 "
+"무효화합니다."
 
 #. Name = Disease_condition_name
 msgctxt "904b13ec-1f22-4ca3-ac5b-4afecf70e381"
 msgid "Disease"
-msgstr ""
+msgstr "질병"
 
 #. Name = Frightened_condition_desc
 msgctxt "fae09dc8-91c1-409b-8b48-c86cedfe6262"
 msgid ""
 "On its turn, the unit will attempt to flee from enemy units, and receives a -"
 "2 penalty to attack and saving throws."
-msgstr ""
+msgstr "유닛의 턴에 유닛은 적 유닛에게 도망치려 시도하며, 명중과 내성 굴림에 -2 페널티를 받습니다."
 
 #. Name = Frightened_condition_name
 msgctxt "df113545-589a-434a-934c-a5e4acceb3e4"
