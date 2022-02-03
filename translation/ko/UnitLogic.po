@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-01-03 12:57+0000\n"
+"PO-Revision-Date: 2022-02-03 16:57+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -13709,7 +13709,7 @@ msgstr "고주파 소음을 내고 그 메아리를 들어 주변을 인식할 �
 #. Path = EdictOfImpenetrableFortress::m_DisplayName
 msgctxt "dcdf37fa-860f-42a8-ac53-4dcc82e21d0e"
 msgid "Edict of Impenetrable Fortress"
-msgstr ""
+msgstr "불가침의 요새의 칙령"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EdictOfImpenetrableFortress::m_Description
@@ -16287,7 +16287,7 @@ msgstr "돌 같은 살갗 — DR 증가"
 #. Path = FocusedInfusionAbility::m_DisplayName
 msgctxt "190db546-c5df-47ca-8a9e-f9c9db4a6a02"
 msgid "Focused Infusion"
-msgstr ""
+msgstr "집중된 주입"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = FocusedInfusionAbility::m_Description
@@ -16297,6 +16297,8 @@ msgid ""
 "{g|Encyclopedia:DC}DC{/g} of the infused necromancy "
 "{g|Encyclopedia:Spell}spell{/g}."
 msgstr ""
+"크루오맨서가 이 주입을 사용하면 주입된 사령학파 {g|Encyclopedia:Spell}주문{/g}의 "
+"{g|Encyclopedia:DC}DC{/g}가 +1 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ForceBomb::m_DisplayName
@@ -19432,13 +19434,13 @@ msgstr ""
 #. Path = HellAngelSwordBase::m_DisplayName
 msgctxt "4da0e0ea-d67f-4159-9732-ed17308a43dd"
 msgid "Sword of Heaven — Authorize Use"
-msgstr ""
+msgstr "천상의 검 — 사용 허가"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HellDemonicRageBase::m_DisplayName
 msgctxt "6fced58f-cf11-428b-bf28-936d197455a1"
 msgid "Demonic Rage — Authorize Use"
-msgstr ""
+msgstr "악마의 격노 — 사용 허가"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HellfireRay::m_DisplayName
@@ -19628,7 +19630,7 @@ msgstr ""
 #. Path = HellsDecreeAbilityTargetedRageAlly::m_DisplayName
 msgctxt "478f9f2b-b4a8-4ede-b783-8558a3978907"
 msgid "Decree of Hunt — Choose Prey"
-msgstr ""
+msgstr "사냥의 칙령 — 사냥감 선택"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HellsDecreeAbilityTargetedRageAlly::m_Description
@@ -19791,7 +19793,7 @@ msgstr ""
 #. Path = Hepzamirah_ShatteringAbility::m_DisplayName
 msgctxt "ee7b8c48-c691-48c4-a32b-432dbb720550"
 msgid "Pushing Roar"
-msgstr ""
+msgstr "밀쳐내는 포효"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Hepzamirah_ShatteringAbility::m_Description
@@ -19901,7 +19903,7 @@ msgstr ""
 #. Path = HeroNeverSurrender::m_DisplayName
 msgctxt "df087672-fed8-44eb-9e8e-8e400cdc8f38"
 msgid "Heroes Never Surrender"
-msgstr ""
+msgstr "영웅은 항복하지 않는다"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HeroNeverSurrender::m_Description
@@ -21022,22 +21024,6 @@ msgstr "감동적인 회복"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InspiringRecovery::m_Description
-#, fuzzy
-#| msgid ""
-#| "You can heal a creature, harm an undead creature, or call upon a very "
-#| "recently dead creature to fight beyond death's reach. The target creature "
-#| "regains 1d8 hit points per 2 caster levels (maximum 10d8).\n"
-#| "This healing can even bring back to life party members that have died within "
-#| "2 rounds. If you cast this spell at a creature whose hit point total is at a "
-#| "negative amount less than its Constitution score, it comes back to life and "
-#| "stabilizes at its new hit point total. If you awaken a dead creature in this "
-#| "way, all allies within 60 feet who can see it regain consciousness gain a +2 "
-#| "morale bonus on attack rolls, damage rolls, and saving throws for 1 minute "
-#| "thereafter, as the healing powers of your deity have imbued them with "
-#| "renewed vigor.\n"
-#| "Creatures killed by death effects cannot be revived this way. This spell "
-#| "deals damage to undead creatures rather than curing them, and it cannot "
-#| "bring them back to life."
 msgctxt "0616a16b-32bd-49a6-856c-ded2eeb60658"
 msgid ""
 "You can {g|Encyclopedia:Healing}heal{/g} a creature, harm an undead "
@@ -21061,13 +21047,18 @@ msgid ""
 "deals damage to undead creatures rather than curing them, and it cannot "
 "bring them back to life."
 msgstr ""
-"크리처를 치유하거나, 언데드 크리처에게 피해를 줄 수 있으며, 또는 방금 죽은 크리처에게 죽음의 손아귀에서 벗어나 싸우게 할 수 "
-"있습니다. 대상 크리처는 시전자 레벨 2 당 1d8 (최대 10d8) 점의 생명점을 회복합니다.\n"
-"이 치유는 심지어 2 라운드 이내에 사망한 일행을 다시 불러올 수 있습니다. 생명점이 건강 수치의 음수보다 적은 크리처에 이 주문을 "
-"시전하면 생명점이 회복되고, 생명점의 양에 따라 안정을 찾습니다. 이 방법으로 죽은 크리처를 일으킨 경우, 그 장면을 목격한 60 피트 "
-"내의 모든 아군은 신의 치유력으로 인해 새로운 활기를 얻어 1 분 동안 명중 굴림, 피해 굴림 및 내성 굴림에 +2 사기의 보너스를 "
+"크리처를 {g|Encyclopedia:Healing}치유{/g}하거나, 언데드 크리처에게 피해를 줄 수 있으며, 또는 방금 죽은 "
+"크리처에게 {g|Encyclopedia:Injury_Death}죽음{/g}의 손아귀에서 벗어나 싸우게 할 수 있습니다. 대상 크리처는 2 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d8{/g} (최대 "
+"10d8) 점의 {g|Encyclopedia:HP}생명점{/g}을 회복합니다.\n"
+"이 치유는 심지어 2 라운드 이내에 사망한 동료을 다시 불러올 수 있습니다. 생명점이 "
+"{g|Encyclopedia:Constitution}건강{/g} 수치의 음수보다 적은 크리처에 이 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전하면 생명점이 회복되고, 생명점의 양에 따라 안정을 찾습니다. 이 방법으로 죽은 "
+"크리처를 일으킨 경우, 그 장면을 목격한 60 피트 내의 모든 아군은 신의 치유력으로 인해 새로운 활기를 얻어 1 분 동안 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}, {g|Encyclopedia:Damage}피해 굴림{/g} 및 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
 "얻습니다.\n"
-"즉사 효과로 죽은 크리처는 이런 식으로 부활 할 수 없습니다. 이 주문은 언데드 크리처에게는 피해를 입히며, 부활시킬 수 없습니다."
+"즉사 효과로 죽은 크리처는 이 효과로 부활 할 수 없습니다. 이 주문은 언데드 크리처에게는 피해를 입히며, 부활시킬 수 없습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = InstantEnemy::LocalizedDuration
@@ -21263,7 +21254,7 @@ msgstr "숨결 무기"
 #. Path = IvoryLabyrinthGatesAbility::m_DisplayName
 msgctxt "3c436912-c1c5-4f2f-94b1-c3d657806594"
 msgid "Groaning Gate Scream"
-msgstr ""
+msgstr "신음하는 대문의 비명"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = IvoryLabyrinthGatesAbility::m_Description
@@ -21370,7 +21361,7 @@ msgstr ""
 #. Path = JoyOfLifeBuff::m_DisplayName
 msgctxt "25d3ea73-fecf-40c0-83f9-a1f45cdff0b6"
 msgid "Joy of Life"
-msgstr ""
+msgstr "삶의 기쁨"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = JoyOfLife::m_Description
@@ -21789,7 +21780,7 @@ msgstr ""
 #. Path = LiberationBlessingMajorAbility::m_DisplayName
 msgctxt "b05c8a39-b804-4cef-b05e-154c94a5cbe5"
 msgid "Freedom's Shout"
-msgstr ""
+msgstr "자유의 외침"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LiberationBlessingMajorAbility::m_Description
