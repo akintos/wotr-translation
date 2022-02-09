@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-02-06 04:57+0000\n"
+"PO-Revision-Date: 2022-02-09 12:57+0000\n"
 "Last-Translator: Rvrc <kyks1680@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1613,6 +1613,10 @@ msgid ""
 "determine whether the soldiers trust {mf|his|her} leadership or lose faith "
 "in {mf|him|her}."
 msgstr ""
+"일반인들은 군사 사령관의 성공의 열쇠는 지식, 통찰력, 그리고 용기에 달려 있다고 생각하지만, 그 모든 것들은 지도자의 가장 중요한 "
+"요소  —  바로 부대 내에서의 흔들리지 않는 권위와 병사들의 무조건적인 충성을 이끌어내는 카리스마가 없으면 전부 무용지물이 된다.\n"
+"사령관이 성전군의 지휘권을 손에 넣은지는 얼마 되지 않았으나, 그는 신속히 군 부대를 관리하는 법을 통달할 필요가 있다. 사령관의 첫번째 "
+"성공, 혹은 실패를 통해 병사들은 그의 지도력을 신뢰할지, 아니면 불신할지 결정할 수 있으리라."
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = CrusadeMain_Ch2_quest::Title
@@ -1626,7 +1630,7 @@ msgctxt "70d4ab55-5953-4a04-8b5e-76f3bd71b7a7"
 msgid ""
 "The Commander has grasped the art of strategy and the soldiers under "
 "{mf|his|her} command have secured their first strategic gains."
-msgstr ""
+msgstr "사령관의 전략을 통해 사령관 휘하의 병사들은 최초로 전략적 이점을가저갔다."
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = CrusadeMain_Ch3_quest::Description
@@ -1638,6 +1642,9 @@ msgid ""
 "Mendevian army itself. Will the Commander's talents be up to the task of "
 "transforming a squad into a full-fledged warrior host?"
 msgstr ""
+"모든 군사 지도자에게 있어, 갑작스러운 진급은 곧 위험한 순간이다. 어제까지만 하더라도 사령관은 멘데브 군대의 선봉대같은 소규모 부대를 "
+"지휘하며 위험한 임무를 완수했지만, 오늘 멘데브 부대 전체가 곧 사령관을 따르게 되었다. 사령관은 과연 이 볼 폼 없는 병사들을 위대한 "
+"군세로 변화시킬 수 있을까?"
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = CrusadeMain_Ch3_quest::Title
@@ -1652,7 +1659,7 @@ msgid ""
 "The Commander has succeeded in turning a small expeditionary squad into a "
 "true army, one capable of waging war against a superior opponent while "
 "providing for its own needs."
-msgstr ""
+msgstr "사령관은 조그마한 원정대를 자신보다 우월한 적을 대적하며 자급자족할 수 있는 진정한 군대로 탈바꿈 시키는데 성공했다."
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = CrusadeMain_Ch5_quest::Description
@@ -1666,6 +1673,10 @@ msgid ""
 "The endgame is approaching. One player will secure victory, and the other "
 "will experience total, crushing defeat."
 msgstr ""
+"모든 군사 작전은 체스 경기와 흡사하다. 어떤 때는 적의 심장부에 강력하고, 급작스러운 타격을 입혀 단숨에 끝나지만, 어떨 때는 상대방을 "
+"유리한 위치에서 밀어내고, 전선을 확대하며, 다음 공격 지점에 힘을 집중하는 등, 마치 서로 춤을 추는 것만 같은 전술적 결정들 끝에 "
+"이뤄지기도 한다. \n"
+"종막이 다가오고 있으니, 곧 하나는 승리하고, 다른 이는 완전한 패배를 경험하리라."
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = CrusadeMain_Ch5_quest::Title
@@ -1679,7 +1690,7 @@ msgctxt "174e7e1e-c54d-45ee-9f74-d006e70819eb"
 msgid ""
 "The Worldwound's forces have been destroyed. The hour has come for the "
 "Commander to deal the final blow and end this war."
-msgstr ""
+msgstr "세계상처의 병력들은 붕괴되었다. 사령관이 마지막 공세를 펼쳐 마침내 이 전쟁을 끝낼 순간이 다가왔다."
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = DaeranRomance_c4_errand::Description
@@ -1689,12 +1700,14 @@ msgid ""
 "feet in the Abyss. The Commander should visit the Count in the Nexus when "
 "the time is right."
 msgstr ""
+"대런은 사령관이 심연에서 제대로 된 위치를 잡게되면, 사령관에게 유흥을 즐길 수 있을 것이라고 약속했다. 사령관은 때가 되면 백작을 "
+"찾아야 할 것이다."
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = DaeranRomance_c4_errand::Title
 msgctxt "7a0e4950-9d0e-49ff-993a-badb7f82ec72"
 msgid "Meeting with Daeran"
-msgstr ""
+msgstr "대런과의 만남"
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = DangerousKnowledge::Description
@@ -1708,6 +1721,10 @@ msgid ""
 "will, but... the Commander already knows that Nocticula has specific plans "
 "for it, and this offers a chance to defy her will."
 msgstr ""
+"지식은 위험한 양날의 검으로, 그것을 쥐고있는 자와 그에게 대적하려는 자 모두에게 위험하다. 역설의 총론은 그 소유자에게 비전 마법에 "
+"대한 막대한 지식을 제공하지만, 동시에 소유자를 수많은 경쟁자들의 목표로 만들수도 있다. 그림자의 여주인은 총론을 손에 넣고자 하고, "
+"그녀의 뜻에 거스르는 것은 굉장히 위험한 행위이나... 사령관은 이미 녹티큘라에게 어떠한 계획이 있음을 간파했고, 이 기회를 통해 그녀의 "
+"뜻에 도전할 수도 있을 것이다."
 
 #. Type = Kingmaker.Blueprints.Quests.BlueprintQuest
 #. Path = DangerousKnowledge::Title
