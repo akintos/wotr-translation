@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-02-03 16:57+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-02-26 14:57+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -29581,7 +29581,7 @@ msgstr "마비 숨결"
 #. Path = Shades::m_DisplayName
 msgctxt "e2cc63b8-2f78-4fee-a90f-162e6a75b0be"
 msgid "Shades"
-msgstr ""
+msgstr "응달"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Shades::m_Description
@@ -29643,12 +29643,31 @@ msgid ""
 "superimposed on vague, shadowy forms. Objects automatically succeed on their "
 "Will saves against this spell."
 msgstr ""
+"그림자 차원의 물질을 사용하여 하나 이상의 크리처, 물체, 혹은 군대의 부분적으로 실체화된 환상을 빚어냅니다. 그림자 소환은 3 레벨 "
+"이하의 위저드 또는 소서러의 소환 {g|Encyclopedia:Spell}주문{/g}을 흉내낼 수 있습니다. 그림자 소환은 실체에 비해 "
+"오직 1/5 (20%) 의 위력을 가지지만, 소환된 그림자가 실체라 믿는 자들에게는 실체와 같은 능력을 발휘합니다. 그림자 소환물과 상호 "
+"작용하는 모든 크리처는 {g|Encyclopedia:Saving_Throw}의지 내성{/g}을 통해 본질을 간파할 수 있습니다.\n"
+"{g|Encyclopedia:Damage}피해{/g}를 입히는 주문들은 대상 크리처가 의지 내성에 실패할 경우 일반적인 피해를 가합니다. "
+"실체를 꿰뚫어 본 크리처들은 {g|Encyclopedia:Attack}공격{/g}에서 오직 1/5 (20%) 만의 피해를 입습니다. 만일 "
+"환영에 속지 않은 크리처들에 가해진 공격이 특별한 효과를 지닌다면, 그 효과들은 20% 확률로 발동됩니다. 간파 내성굴림 결과와 관계 "
+"없이 영향 받는 크리처는 원본 주문이 발생시키는 모든 효과에 대해 내성을 시도할 수 있으나 내성 "
+"{g|Encyclopedia:DC}DC{/g}는 원본 주문의 레벨이 아닌 그림자 소환의 레벨 (4레벨)을 따릅니다. 이에 더해 그림자 "
+"소환이 발생 시킨 모든 효과에는 원본 주문과 관계 없이 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}이 "
+"적용될 수 있습니다. 그림자 물체와 물질들은 대개 정상적인 영향력을 행사하지만, 실체를 간파한 이들에게는 20% 확률로 영향을 미칠 수 "
+"있습니다.\n"
+"그림자 크리처는 간파 여부와 상관없이 원본 크리처의 1/5 의 {g|Encyclopedia:HP}생명점{/g}만을 지닙니다. 또한 원본과 "
+"같은 피해를 가하고 원본의 모든 능력과 약점을 지니나 실체를 꿰뚫어 본 이들에게는 그림차 크리처는 정상 피해의 1/5 (20%) 만을 "
+"입히고 피해를 입히는 {g|Encyclopedia:Special_Abilities}특수 능력{/g}은 죽음에 이를 정도의 피해를 가하는 "
+"것이 아닌 한 20% 의 발생 확률을 지닙니다. (사용과 캐릭터에 적용을 분리하여 계산합니다.) 더 나아가 그림자 크리처의 "
+"{g|Encyclopedia:Armor_Class}AC{/g} {g|Encyclopedia:Bonus}보너스{/g}는 1/5 만큼 "
+"적용됩니다. 내성에 성공한 크리처들에게 그림자 소환은 희미하고 그늘진 형상에 겹쳐진 투명한 영상처럼 보입니다. 물체들은 이 주문에 대항한 "
+"내성에 자동적으로 성공합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShadowConjurationGreater::m_DisplayName
 msgctxt "a94f3f7f-8696-4e9e-8561-b9646e6ea910"
 msgid "Shadow Conjuration, Greater"
-msgstr ""
+msgstr "그림자 소환, 상급"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShadowConjurationGreater::m_Description
@@ -29661,6 +29680,9 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} to nonbelievers, and non-damaging effects "
 "are 60% likely to work against nonbelievers."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 6 레벨 이하의 소서러 또는 위저드 소환 주문을 흉내내는 그림자 소환입니다. "
+"환영 소환물들은 실체를 꿰뚫어 본 이들에게 3/5 (60%) 의 피해를 입히고, 피해를 입히지 않는 효과들은 60% 의 성공 확률을 "
+"가집니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShadowEvocation::m_DisplayName
@@ -29670,17 +29692,6 @@ msgstr "그림자 방출"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShadowEvocation::m_Description
-#, fuzzy
-#| msgid ""
-#| "You tap energy from the Plane of Shadow to cast a quasi-real, illusory "
-#| "version of a fireball, lightning bolt, shout, volcanic storm, or ice storm "
-#| "spell. Spells that deal damage have normal effects unless an affected "
-#| "creature succeeds at a Will save. Each disbelieving creature takes only one-"
-#| "fifth damage from the attack. Regardless of the result of the save to "
-#| "disbelieve, an affected creature is also allowed any save (or spell "
-#| "resistance) that the spell being simulated allows, but the save DC is set "
-#| "according to shadow evocation's level (5th) rather than the spell's normal "
-#| "level."
 msgctxt "db1ff7dd-5fbc-4068-b40d-55027d0448cd"
 msgid ""
 "You tap energy from the Plane of Shadow to cast a quasi-real, illusory "
@@ -29695,35 +29706,21 @@ msgid ""
 "simulated allows, but the save {g|Encyclopedia:DC}DC{/g} is set according to "
 "shadow evocation's level (5th) rather than the spell's normal level."
 msgstr ""
-"그림자 차원의 에너지를 이용하여 근실제, 환상의 화염구, 번개 화살, 포효, 화산 폭풍, 얼음 폭풍 주문 중 하나를 시전합니다. 대상이 "
-"의지 내성에 실패하면 정상적으로 피해를 입힙니다. 의지 내성으로 환상을 간파한 크리처는 1/5 피해만 받습니다. 환상을 간파했는지와 상관 "
-"없이, 내성이나 주문 저항은 원본 주문과 똑같이 굴려야 합니다. 다만 DC는 원본 주문이 아니라 그림자 방출의 주문 레벨인 5에 따라 "
-"계산합니다."
+"그림자계의 에너지를 이용해 화염구, 번개 화살, 포효, 화산 폭풍 또는 얼음 폭풍 {g|Encyclopedia:Spell}주문{/g}의 "
+"부분적으로 실체화된 환상을 시전합니다. {g|Encyclopedia:Damage}피해{/g}를 입히는 주문은 효과 대상이 "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}에 실패하면 정상적으로 작동합니다. 환상을 간파한 크리처는 피해의 1/"
+"5 만 받습니다. 간파를 위한 내성 굴림 결과에 관계없이 내성이나 {g|Encyclopedia:Spell_Resistance}주문 "
+"저항{/g}은 원본 주문과 똑같이 굴려야 하지만, 내성 {g|Encyclopedia:DC}DC{/g}는 원본 주문의 레벨이 아니라 그림자 "
+"방출의 주문 레벨인 5 로 계산합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShadowEvocationGreater::m_DisplayName
 msgctxt "e90d0836-9ca1-4218-bb06-3108c7f23fe1"
 msgid "Shadow Evocation, Greater"
-msgstr "상급 그림자 방출"
+msgstr "그림자 방출, 상급"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShadowEvocationGreater::m_Description
-#, fuzzy
-#| msgid ""
-#| "This spell functions like shadow evocation, except that it enables you to "
-#| "create a partially real, illusory version of a chain lightning, cold ice "
-#| "strike, ki shout, sirocco, caustic eruption, or elemental assessor spell. If "
-#| "recognized as a greater shadow evocation, a damaging spell deals only three-"
-#| "fifths (60%) damage.\n"
-#| "Shadow Evocation: You tap energy from the Plane of Shadow to cast a quasi-"
-#| "real, illusory version of a fireball, lightning bolt, shout, volcanic storm, "
-#| "or ice storm spell. Spells that deal damage have normal effects unless an "
-#| "affected creature succeeds at a Will save. Each disbelieving creature takes "
-#| "only one-fifth damage from the attack. Regardless of the result of the save "
-#| "to disbelieve, an affected creature is also allowed any save (or spell "
-#| "resistance) that the spell being simulated allows, but the save DC is set "
-#| "according to shadow evocation's level (5th) rather than the spell's normal "
-#| "level."
 msgctxt "b962baf9-88c5-4a4f-8f3c-482d8c181dd4"
 msgid ""
 "This {g|Encyclopedia:Spell}spell{/g} functions like shadow evocation, except "
@@ -29743,12 +29740,15 @@ msgid ""
 "simulated allows, but the save {g|Encyclopedia:DC}DC{/g} is set according to "
 "shadow evocation's level (5th) rather than the spell's normal level."
 msgstr ""
-"이 주문은 그림자 방출과 비슷하지만, 부분적으로 실체화 된 환상의 연쇄 번개, 한빙 강타, 사자후 열풍, 부식성 분출, 원소의 심판 중 "
-"하나를 쓸 수 있게 해줍니다. 상급 그림자 방출으로 인식되면, 피해를 가하는 주문은 3/5(60%)의 피해만 입히게 됩니다.\n"
-"그림자 방출: 그림자 차원의 에너지를 이용하여 근실제, 환상의 화염구, 번개 화살, 포효, 화산 폭풍, 얼음 폭풍 주문 중 하나를 "
-"시전합니다. 대상이 의지 내성에 실패하면 정상적으로 피해를 입힙니다. 의지 내성으로 환상을 간파한 크리처는 1/5 피해만 받습니다. "
-"환상을 간파했는지와 상관 없이, 내성이나 주문 저항은 원본 주문과 똑같이 굴려야 합니다. 다만 DC는 원본 주문이 아니라 그림자 방출의 "
-"주문 레벨인 5에 따라 계산합니다."
+"이 {g|Encyclopedia:Spell}주문{/g}은 그림자 방출과 비슷하지만, 연쇄 번개, 한빙 강타, 사자후 열풍, 부식성 분출, "
+"원소의 심판 중 하나의 부분적으로 실체화된 환상을 시전할 수 있습니다. 상급 그림자 방출으로 인식되면, "
+"{g|Encyclopedia:Damage}피해{/g}를 가하는 주문은 3/5(60%) 의 피해만 입히게 됩니다.\n"
+"그림자 방출: 그림자계의 에너지를 이용해 화염구, 번개 화살, 포효, 화산 폭풍 또는 얼음 폭풍 "
+"{g|Encyclopedia:Spell}주문{/g}의 부분적으로 실체화된 환상을 시전합니다. "
+"{g|Encyclopedia:Damage}피해{/g}를 입히는 주문은 효과 대상이 {g|Encyclopedia:Saving_Throw}"
+"의지 내성{/g}에 실패하면 정상적으로 작동합니다. 환상을 간파한 크리처는 피해의 1/5 만 받습니다. 간파를 위한 내성 굴림 결과에 "
+"관계없이 내성이나 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}은 원본 주문과 똑같이 굴려야 하지만, 내성 "
+"{g|Encyclopedia:DC}DC{/g}는 원본 주문의 레벨이 아니라 그림자 방출의 주문 레벨인 5 로 계산합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ShamanHexAmelioratingDazzleAbility::m_DisplayName
@@ -36059,7 +36059,7 @@ msgstr ""
 #. Path = WrackBloodBlastAbility::m_DisplayName
 msgctxt "cb1a2620-8fe9-4281-b470-fc22e4c7d64b"
 msgid "Wrack"
-msgstr ""
+msgstr "고문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WrackBloodBlastAbility::m_Description
@@ -36078,6 +36078,10 @@ msgid ""
 "form infusion that costs 0 points of burn and can be used with water and "
 "blood blasts."
 msgstr ""
+"1 레벨에 블러드 키네티시스트는 30 피트 내의 대상의 피를 조작해 대상을 고문할 수 있습니다. 대상은 블러드 키네티시스트의 블래스트의 "
+"정상 {g|Encyclopedia:Damage}피해{/g}의 절반의 피해를 입고 {g|Encyclopedia:Saving_Throw}인내 "
+"내성{/g}으로 정상 피해의 1/4로 줄일 수 있으나 해당 피해는 유형이 없어 {g|Encyclopedia:Damage_Reduction}"
+"피해 감소{/g}를 무시합니다. 이는 과열 0을 소모하는 1 레벨 형태 주입이며 물 블래스트와 혈액 블래스트와 함께 사용될 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WrackingRay::m_DisplayName
@@ -36138,7 +36142,7 @@ msgstr ""
 #. Path = ZoneOfPredetermination::m_DisplayName
 msgctxt "9eca4941-77e7-4f88-adb3-a18c3cddc56b"
 msgid "Zone of Predetermination"
-msgstr ""
+msgstr "숙명의 영역"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ZoneOfPredetermination::m_Description
