@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-02-26 14:57+0000\n"
+"PO-Revision-Date: 2022-02-27 15:57+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -15186,7 +15186,7 @@ msgstr ""
 #. Path = EritriceInspiringSongEffectBuff::m_DisplayName
 msgctxt "d9e71409-b5a7-4b54-914c-457ac56596ba"
 msgid "Eritrice's Inspiring Noise"
-msgstr ""
+msgstr "에리트리스의 고무적인 소음"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = EritriceInspireSongAbility::m_Description
@@ -19662,11 +19662,10 @@ msgstr "사냥의 칙령"
 #. Path = HellsSealVariantDevouringFlames::m_DisplayName
 msgctxt "f514185f-8f81-4ef4-b8cd-16d11e517a20"
 msgid "Seal of Devouring Flames"
-msgstr "포식하는 불꽃의 인장"
+msgstr "포식하는 불길의 인장"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = HellsSealVariantDevouringFlames::m_Description
-#, fuzzy
 msgctxt "408d30f1-21e7-46a1-b686-a29bab3df69a"
 msgid ""
 "When the {g|Encyclopedia:HP}HP{/g} of the ally drops below 5×mythic rank, "
@@ -19674,8 +19673,8 @@ msgid ""
 "{g|Encyclopedia:Dice}2d10{/g}×mythic rank {g|Encyclopedia:Damage}damage{/g} ("
 "half fire, half unholy) in the process."
 msgstr ""
-"아군의 {g|Encyclopedia:HP}HP{/g}가 5×신화 레벨 이하로 떨어지면 즉시 사망하고 30 피트 반경의 모든 적에게 "
-"{g|Encyclopedia:Dice}2d10{/g}×신화 레벨 만큼의 {g|Encyclopedia:Damage}피해{/g}를 (절반 "
+"아군의 {g|Encyclopedia:HP}HP{/g}가 5×신화 레벨 미만으로 떨어지면 즉시 사망하고 30 피트 반경의 모든 적에게 "
+"({g|Encyclopedia:Dice}2d10{/g}×신화 레벨) 만큼의 {g|Encyclopedia:Damage}피해{/g}를 (절반 "
 "화염 피해, 절반 부정 피해)입힙니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -21793,6 +21792,10 @@ msgid ""
 "freedom of movement). This effect lasts for 1 "
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
+"10 레벨에 {g|Encyclopedia:Swift_Action}신속 행동{/g}으로 30 피트 범위의 오라를 방출하여 모든 아군에게 "
+"해방의 축복을 내릴 수 있습니다. 영향받은 아군은 이동의 자유 효과를 적용받은 것처럼 "
+"{g|Encyclopedia:Mobility}이동{/g} 방해 및 마비를 유발하는 효과를 무시합니다. 이 효과는 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LiberationBlessingMinorAbility::m_DisplayName
@@ -22114,7 +22117,7 @@ msgstr ""
 #. Path = LuckBlessingMinorAbility::m_DisplayName
 msgctxt "027cbcb3-6402-4311-a8b4-d2c2a8a07cb0"
 msgid "Lucky Presence"
-msgstr ""
+msgstr "행운의 존재감"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LuckBlessingMinorAbility::m_Description
@@ -22128,6 +22131,11 @@ msgid ""
 "skill check{/g} twice and take the better result. The effect lasts for 1 "
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
+"1 레벨에 아군 하나와 {g|Encyclopedia:TouchAttack}접촉{/g}하여 행운의 존재감을 부여합니다. 이 행운의 대상은 "
+"모든 {g|Encyclopedia:Ability_Scores}능력치 판정{/g}, {g|Encyclopedia:Attack}공격 "
+"굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}, {g|Encyclopedia:Skills}기술 "
+"판정{/g}시에 두 번 {g|Encyclopedia:Dice}굴려{/g} 더 나은 결과를 취할 수 있습니다. 이 효과는 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}간 지속됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LuckDomainBaseAbility::m_DisplayName
@@ -22202,7 +22210,7 @@ msgstr "광기 제어 — 정상으로 행동"
 #. Path = MadnessBlessingMajorAbilityAttackNearestCreatureBuff::m_DisplayName
 msgctxt "c1989cc4-27bc-41cf-a3be-56ef9d4dbbf2"
 msgid "Control Madness — Attack nearest creature"
-msgstr ""
+msgstr "광기 제어 — 가장 가까운 크리처 공격"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MadnessBlessingMajorAbilityDealDamageToSelf::m_DisplayName
@@ -22908,7 +22916,7 @@ msgstr "주문 회수"
 #. Path = MasteryOfFlesh::m_DisplayName
 msgctxt "3c05e1d4-4b67-4775-8c68-8d4394f59cf5"
 msgid "Mastery of Flesh"
-msgstr ""
+msgstr "육신 지배"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = MasteryOfFlesh::m_Description
@@ -24441,7 +24449,7 @@ msgstr "나락의 눈"
 #. Path = OdeToMiraculousMagic::m_DisplayName
 msgctxt "fac7fbbb-bc06-4252-b9ca-3cab63d5f401"
 msgid "Ode to Miraculous Magic"
-msgstr ""
+msgstr "기적적인 마법의 송가"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = OdeToMiraculousMagic::m_Description
@@ -24926,7 +24934,7 @@ msgstr ""
 #. Path = PhantasmalMageEmpoweredBuff::m_DisplayName
 msgctxt "476e2853-b6d3-4129-bf4b-615e58ef9573"
 msgid "Arcane Reservoir — Empowered Spell"
-msgstr "비전 에너지 저장소 — 주문 강화"
+msgstr "비전 에너지 저장소 — 강화 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PhantasmalMageExtendedAbility::m_DisplayName
@@ -24935,7 +24943,7 @@ msgstr "비전 에너지 저장소 — 주문 강화"
 #. Path = PhantasmalMageExtendedBuff::m_DisplayName
 msgctxt "dd83a01e-dfc6-4ba3-b8cb-5d4ca2a96fe4"
 msgid "Arcane Reservoir — Extended Spell"
-msgstr "비전 에너지 저장소 — 시간 연장"
+msgstr "비전 에너지 저장소 — 시간 연장 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PhantasmalMageMaximizedAbility::m_DisplayName
@@ -24944,7 +24952,7 @@ msgstr "비전 에너지 저장소 — 시간 연장"
 #. Path = PhantasmalMageMaximizedBuff::m_DisplayName
 msgctxt "cd478df3-2c79-40c4-9fdc-39958cc19a87"
 msgid "Arcane Reservoir — Maximized Spell"
-msgstr "비전 에너지 저장소 — 주문 극대화"
+msgstr "비전 에너지 저장소 — 극대화 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PhantasmalMagePersistentAbility::m_DisplayName
@@ -24971,7 +24979,7 @@ msgstr "비전 에너지 저장소 — 신속 주문"
 #. Path = PhantasmalMageReachBuff::m_DisplayName
 msgctxt "f508ee09-ab9b-460f-9b1c-159fba4b96dd"
 msgid "Arcane Reservoir — Reach Spell"
-msgstr "비전 에너지 저장소 — 사거리 연장"
+msgstr "비전 에너지 저장소 — 사거리 연장 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PhantasmalMageSelectiveAbility::m_DisplayName
@@ -24980,13 +24988,13 @@ msgstr "비전 에너지 저장소 — 사거리 연장"
 #. Path = PhantasmalMageSelectiveBuff::m_DisplayName
 msgctxt "a2a7f425-ddc7-473b-9c0e-a84071f3a0f9"
 msgid "Arcane Reservoir — Selective Spell"
-msgstr "비전 에너지 저장소 — 피아식별"
+msgstr "비전 에너지 저장소 — 선택적 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PhantasmalPutrefaction::LocalizedSavingThrow
 msgctxt "3de03580-51c8-4d46-9970-3fd348c89093"
 msgid "Will, then Fortitude partial (see text)"
-msgstr "의지, 이후 인내로 일부 무효 (설명 참조)"
+msgstr "의지, 실패시 인내로 일부 무효 (설명 참조)"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PhantasmalPutrefaction::m_DisplayName
@@ -36003,7 +36011,7 @@ msgstr ""
 #. Path = WoodGolemSplintering::m_DisplayName
 msgctxt "ed935392-fff2-4276-bdfc-b653d8db67ba"
 msgid "Splintering"
-msgstr ""
+msgstr "가시 발사"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WoodGolemSplintering::m_Description
@@ -36018,6 +36026,11 @@ msgid ""
 "{g|Encyclopedia:DC}DC{/g} is "
 "{g|Encyclopedia:Constitution}Constitution{/g}-based."
 msgstr ""
+"나무 골렘은 {g|Encyclopedia:Dice}1d4+1{/g} {g|Encyclopedia:Combat_Round}라운드{/g}에 "
+"한 번, {g|Encyclopedia:Free_Action}자유 행동{/g}으로 주변 20 피트 범위에 면도날처럼 날카로운 나무 가시 의 "
+"포화를 쏘아낼 수 있습니다. 범위 내의 모든 크리처는 6d6 {g|Encyclopedia:Damage_Type}베기 피해{/g}를 "
+"입습니다 ({g|Encyclopedia:Saving_Throw}반사 내성{/g}으로 반감). 내성 "
+"{g|Encyclopedia:DC}DC{/g}는 {g|Encyclopedia:Constitution}건강{/g}에 기반합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WordOfChaos::m_DisplayName
@@ -36087,7 +36100,7 @@ msgstr ""
 #. Path = WrackingRay::m_DisplayName
 msgctxt "4ca2eaec-f307-44a2-b882-2fa035cd1424"
 msgid "Wracking Ray"
-msgstr ""
+msgstr "고문 광선"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WrackingRay::m_Description

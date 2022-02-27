@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-01-14 11:57+0000\n"
+"PO-Revision-Date: 2022-02-27 15:57+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -23,19 +23,19 @@ msgstr "\"빌어먹을 괴물들... 냄새나고, 더럽고, 끔찍한 놈들...
 #. Path = AasimarSlaveGirlBarks::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "9ac19471-5ebd-49f1-a7df-8fd1db426f1f"
 msgid "\"{mf|Sir|My lady}, how may we serve you?\""
-msgstr ""
+msgstr "\"무엇을 원하시나요?\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AasimarSlaveGirlBarks::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "53cedcca-b325-4311-88d3-1a4889f7aba3"
 msgid "\"We stand ready to fulfill your every wish, {mf|sir|my lady}.\""
-msgstr ""
+msgstr "\"원하시는 게 무엇이든 말씀만 하세요.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AasimarSlaveGirlBarks::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "650de048-4d47-4a16-ab16-f5beb2f6b3ca"
 msgid "\"Will you teach us something new, {mf|sir|my lady}?\""
-msgstr ""
+msgstr "\"저희에게 새로운 것을 가르쳐 주시겠어요?\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AdditionalProject_Actions::Actions/Actions/0/WhatToBark
@@ -43,7 +43,7 @@ msgctxt "c4a07db0-3b92-460a-8107-3f9135099a0e"
 msgid ""
 "The books and scrolls on these shelves contain information about a research "
 "project known as \"The Northern Lights.\""
-msgstr ""
+msgstr "이 선반에 있는 책과 두루마리에는 \"북극광\"으로 알려진 연구 프로젝트에 대한 정보가 들어있다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AfterBBDSolderBarks::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -51,7 +51,7 @@ msgctxt "fba0d0f5-cb58-45a2-8081-ae155b193394"
 msgid ""
 "\"This entrance is blocked! Look around, maybe there's another one — on the "
 "wall or somewhere else?\""
-msgstr ""
+msgstr "\"입구가 막혔어! 주위를 둘러봐, 벽이든 어디든 다른 입구가 있을 거야.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AfterBBDSolderBarks::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -260,7 +260,7 @@ msgctxt "064170d0-0573-47e2-a050-9153578a5345"
 msgid ""
 "\"That's it, you've done it now! Rip the outsider a new one, Nocticula will "
 "never know!\""
-msgstr ""
+msgstr "\"더는 못 참아! 어차피 네놈을 죽여도 녹티큘라는 전혀 모를거다!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Anevia_Actions::Actions/Actions/0/WhatToBark
@@ -283,7 +283,7 @@ msgctxt "ad1e1624-f41a-4101-b566-d6c7d43e5168"
 msgid ""
 "\"Now I understand why Iomedae the Lightbringer welcomed you into our ranks!"
 "\""
-msgstr ""
+msgstr "\"빛의 인도자 아이오메데께서 당신을 합류시킨 이유를 알겠군요!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AngelBark_Actions::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -301,13 +301,13 @@ msgstr "고문당한 천사"
 #. Path = Angel_Barks_idle::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "d34cd8bc-b952-42e1-9f0c-7f67122911ef"
 msgid "\"A lull is not the end of the fight.\""
-msgstr ""
+msgstr "\"잠깐의 고요일 뿐, 싸움이 끝난 것은 아닙니다.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Angel_Barks_idle::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "a1fc4da0-a88a-44e9-8ff0-b2c4ac9b219d"
 msgid "\"Every slain demon is a step toward victory.\""
-msgstr "\"데몬 하나를 물리칠수록 승리에 한 발짝 가까워 지는 겁니다.\""
+msgstr "\"데몬 하나를 더 물리칠수록, 승리에 한 발짝 더 가까워지는 겁니다.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AngryDemodandsCombatStart_Actions::Actions/Actions/0/WhatToBark
@@ -315,7 +315,8 @@ msgctxt "a51e88f6-d8b0-4e0d-8baa-6fe409c54051"
 msgid ""
 "\"What, we're getting hassled by mortals now? This place has gone to the "
 "gods! Slit {mf|his|her} throat, we don't need a witness!\""
-msgstr "\"뭐야, 이젠 필멸자 놈들도 시비를 거는 건가? 아주 천국 다 됐군! 저 {mf|놈|년} 목 따 버려! 목격자 남기지 마!\""
+msgstr ""
+"\"뭐야, 이젠 필멸자 놈들도 시비를 거는 건가? 아주 천국 다 됐군! 저 {mf|놈|년} 목 따 버려! 목격자를 남겨서는 안돼!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AponDummy1Bark_Actions::Actions/Actions/0/WhatToBark
@@ -323,7 +324,7 @@ msgctxt "f5c87ce6-c747-40ab-bab8-6a1174e0efbf"
 msgid ""
 "The mortal before you, who has been turned into a doll, is looking at you in "
 "desperation, and there is but one plea in her gaze — to be granted peace."
-msgstr "당신 앞의 필멸자는 이미 인형으로 변형되어, 절박한 눈에 안식을 내려달라는 단 하나의 간청을 담아 당신을 바라봅니다."
+msgstr "당신 앞의 필멸자는 이미 인형으로 변해, 안식을 내려달라는 단 하나의 간청을 절박한 눈에 담아 당신을 바라본다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AponDummy2Bark_Actions::Actions/Actions/0/WhatToBark
@@ -337,14 +338,14 @@ msgctxt "5e547027-7e52-4bb3-8c6a-215ea19c88c9"
 msgid ""
 "One could have mistaken this wretched mortal for a stuffed effigy if not for "
 "the eyes, alive and full of pain."
-msgstr "살아 있고 고통으로 가득 찬 눈이 아니라면 이 불행한 필멸자를 인형으로 착각했을 것입니다."
+msgstr "살아 있고 고통으로 가득 찬 눈이 아니라면 이 불행한 필멸자를 인형으로 착각했을 것이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Aravashnial_Actions::Actions/Actions/0/WhatToBark
 msgctxt "b4b2eb26-e9d4-43bc-a029-86d9b39ca5d4"
 msgid ""
 "\"I have a feeling something terrible is going to happen... As usual...\""
-msgstr ""
+msgstr "\"뭔가 끔찍한 일이 벌어질 것 같은 예감이 들어... 항상 그렇지...\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AreeluLab_CorruptionReducer_Bark8_CheckPassedActions::Actions/Actions/0/WhatToBark
@@ -357,8 +358,8 @@ msgid ""
 "decayed, the text now unreadable. It is unknown how this holy book ended up "
 "in a place like this."
 msgstr ""
-"아이오메데의 인간 시절의 일생과 행적에 관한 성스러운 글. 낮장이 썩어 이제 읽을 수 없게 되었습니다. 이 성스러운 책이 어떻게 이런 "
-"곳이 되었는지는 알 수 없습니다."
+"아이오메데의 인간 시절의 일생과 행적에 관한 성스러운 글. 낱장이 썩어 이제 읽을 수 없게 되었다. 이 성스러운 책이 어떻게 이런 곳이 "
+"되었는지는 알 수 없다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = AreeluLab_CorruptionReducer_Cleanse8_CheckPassedActions::Actions/Actions/0/WhatToBark
@@ -378,7 +379,7 @@ msgctxt "dbe5b276-3dec-4702-b8be-c1366260748d"
 msgid ""
 "The corruption of the Abyss retreats in the face of the cleansed relic's "
 "sanctified power."
-msgstr "정화된 유물의 신성한 힘 앞에서 심연의 오염이 사라집니다."
+msgstr "정화된 유물의 신성한 힘 앞에서 심연의 오염이 사라진다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Areshkagal_CorruptionReducer_Bark (1)_CheckPassedActions::Actions/Actions/0/WhatToBark
@@ -386,13 +387,13 @@ msgctxt "d9d36ef8-37e5-46dc-bf72-b9e9be3c0e65"
 msgid ""
 "The calming aura around these bones makes it clear that a servant of the "
 "gods has fallen here."
-msgstr ""
+msgstr "이 뼈들 주위의 고요한 기운은 신들의 종이 여기에 떨어졌음을 확실히 나타낸다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Areshkagal_CorruptionReducer_Bark_CheckPassedActions::Actions/Actions/0/WhatToBark
 msgctxt "364fc385-8cef-48fe-81bf-bb3eedcd678c"
 msgid "Iomedae's holy writings, brought here by an unknown paladin."
-msgstr "무명의 성기사가 가져온 아이오메데의 성스러운 글입니다."
+msgstr "무명의 성기사가 가져온 아이오메데의 성스러운 글이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BaphometSmallCircle_LesserButtonActions::Actions/Actions/10/Actions/1/Action/Actions/0/WhatToBark
@@ -437,7 +438,7 @@ msgstr "\"아니, 잠깐! 그게 아니야!\""
 #. Path = NocticulaBigCircle_ButtonActions_7::Actions/Actions/11/Actions/3/Action/Actions/0/WhatToBark
 msgctxt "aa701979-366e-4558-bc20-acfa6f163122"
 msgid "\"Do you realize what you are doing?\""
-msgstr "\"지금 뭘 하고 있는건지 알긴 하는건가?\""
+msgstr "\"지금 뭘 하고 있는건지 알긴 하는거냐?\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BaphometSmallCircle_LesserButtonActions::Actions/Actions/10/Actions/4/Action/Actions/0/WhatToBark
@@ -480,8 +481,8 @@ msgid ""
 "sacrifice this person to Baphomet — they tore them to shreds. All that is "
 "left of the body is a few scattered bones."
 msgstr ""
-"이 유해에는 신성한 힘의 흔적이 남아 있습니다. 데몬들은 이 사람을 바포메트에게 제물로 바쳤을 뿐만 아니라, 완전히 찢어서 조각내 "
-"버렸습니다. 남은 것은 부서진 뼈 몇 조각 뿐입니다."
+"이 유해에는 신성한 힘의 흔적이 남아 있다. 데몬들은 이 사람을 바포메트에게 제물로 바쳤을 뿐만 아니라, 완전히 찢어서 조각내 버렸다. "
+"남은 것은 부서진 뼈 몇 조각 뿐이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BarkNoctaMaster_Actions::Actions/Actions/0/WhatToBark
@@ -489,7 +490,7 @@ msgctxt "7cfc8f88-6ac6-4d63-a51c-25b53219b06b"
 msgid ""
 "The Lady-in-Shadow does not hesitate to remind her subjects who truly reigns "
 "over the Midnight Isles."
-msgstr ""
+msgstr "그림자의 여주인은 시민들에게 칠흑의 군도의 진정한 지배자가 누구인지 똑똑히 보여주고 있다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BarkObject01_Actions::Actions/Actions/0/WhatToBark
@@ -497,13 +498,13 @@ msgctxt "765332b0-ffa2-454b-a476-536b1d67df67"
 msgid ""
 "Shards of several dozen large diamonds. They appear to have been used in an "
 "unsuccessful attempt to cast spells."
-msgstr "수십 개의 큰 다이아몬드가 조각나 있습니다. 주문 시전 실패의 흔적으로 보입니다."
+msgstr "수십 개의 큰 다이아몬드가 조각나 있다. 주문 시전 실패의 흔적으로 보인다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BarkObject02_Actions::Actions/Actions/0/WhatToBark
 msgctxt "a80a96ea-a9a2-478f-80a1-c1b897b0c786"
 msgid "An empty stand that may have once held a large crystal."
-msgstr "한때 큰 수정이 있었던 것으로 보이는 거치대입니다."
+msgstr "한때 큰 수정이 있었던 것으로 보이는 거치대이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BarkObject03_Actions::Actions/Actions/0/WhatToBark
@@ -511,7 +512,7 @@ msgctxt "7943e12a-7127-46ab-89c4-3cea3cb59333"
 msgid ""
 "Papers with erratically scribbled calculations and formulas. The words \"I "
 "promise\" are written repeatedly in the margins."
-msgstr ""
+msgstr "수식들이 기괴하게 날려 쓰여진 종이들이다. 여백에 \"약속할게\" 라는 말이 빼곡하게 적혀 있다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BarkObject04_Actions::Actions/Actions/0/WhatToBark
@@ -519,13 +520,13 @@ msgctxt "e320dbc8-9bb0-486f-bc27-8731901808ca"
 msgid ""
 "A simple diagram of a tower next to a quick sketch of a room with a large "
 "crystal in the center."
-msgstr ""
+msgstr "중앙에 커다란 수정이 있는 방과 그 옆의 탑이 간단하게 그려진 그림이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BarkObject05_Actions::Actions/Actions/0/WhatToBark
 msgctxt "11233473-74be-4399-b706-89cdf4983500"
 msgid "A resurrection scroll that has been ripped to pieces."
-msgstr "조각조각 찢겨진 부활 두루마리입니다."
+msgstr "조각조각 찢겨진 부활 두루마리다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BattleBlissCommoner_Barks::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -533,7 +534,7 @@ msgctxt "c897e01c-c2d4-4910-9d4c-c1606e590b9d"
 msgid ""
 "\"Wouldn't it be amazing if the champion of the arena finally faced a worthy "
 "opponent!\""
-msgstr ""
+msgstr "\"투기장의 챔피언이 마침내 호적수를 만나서 싸운다면 정말 대단하지 않겠어?\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BattleBlissCommoner_Barks::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -543,6 +544,8 @@ msgid ""
 "the next match! Who could have guessed such a hulking brute would be so "
 "pathetic!\""
 msgstr ""
+"\"뭐 괜찮아, 이번 경기에서는 돈을 좀 잃었어도, 다음에 다시 따서 메꿀 테니까! 저 돼지 놈이 그렇게 쉽게 당할 줄 누가 알았겠냐고!"
+"\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BattleBlissCommoner_Barks::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -590,7 +593,7 @@ msgctxt "adba76ff-188c-45a3-8e04-27802b452f5c"
 msgid ""
 "The bell, now reunited with its clapper, produces a gentle, melodious "
 "ringing."
-msgstr ""
+msgstr "종이 다시 추와 결합되어 부드럽고 아름다운 소리를 낸다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Bell_Ring::Actions/Actions/0/IfTrue/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -598,7 +601,7 @@ msgctxt "fab6d245-5179-4621-86fd-87712ee108d7"
 msgid ""
 "Demons ripped out the Bell of Mercy's clapper. It should be around here "
 "somewhere."
-msgstr ""
+msgstr "데몬들이 자비의 종의 추를 뜯어냈다. 분명 이곳 근처에 있을 것이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Bell_Ring::Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -606,7 +609,7 @@ msgctxt "036a85c8-1c96-4320-a403-040f021a1e2e"
 msgid ""
 "A beautiful bell decorated with an intricate butterfly design. It is missing "
 "its clapper."
-msgstr ""
+msgstr "복잡한 나비 문양으로 장식된 아름다운 종이다. 추가 존재하지 않는다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BloodyWaterfall_FailedActions::Actions/Actions/0/WhatToBark
@@ -614,7 +617,7 @@ msgctxt "c4e99cbd-2320-4505-9be0-ae4bba80dcce"
 msgid ""
 "Blood gushes down in a never-ending stream. To create a 'decoration' like "
 "this, the jailers must have slain thousands upon thousands of prisoners."
-msgstr ""
+msgstr "피가 개울을 이루어 끝없이 흘러내린다. 이와 같은 '장식'을 만들기 위해서 간수들이 수많은 죄수들을 죽였을 것이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BloodyWaterfall_PassedActions::Actions/Actions/0/WhatToBark
@@ -624,6 +627,8 @@ msgid ""
 "the prisoners themselves. Most probably, this blood was created by the "
 "nightmarish reality of this Abyssal realm."
 msgstr ""
+"피가 개울을 이루어 끝없이 흘러내린다. 이 피가 모두 죄수가 흘린 피 같지는 않다. 아마도 이 심연 속 영역의 악몽같은 실체에 의해 "
+"만들어졌을 것이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Bookcase_CheckFailedActions::Actions/Actions/0/WhatToBark
@@ -631,7 +636,7 @@ msgctxt "be883266-e51b-4f03-9285-a8ee50452216"
 msgid ""
 "A bookshelf filled with forbidden and dangerous works that shouldn't be "
 "touched needlessly."
-msgstr ""
+msgstr "함부로 만져서는 안되는 금지되고 위험한 문서들로 가득 찬 책장이다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Bookcase_CheckPassedActions::Actions/Actions/0/WhatToBark
@@ -639,7 +644,7 @@ msgctxt "f9d656c7-281b-40e2-af13-8f55130fef10"
 msgid ""
 "A bookshelf is a popular choice for a stash. The pages of several books are "
 "in fact cut out neatly, but the caches are empty."
-msgstr ""
+msgstr "책장은 물건을 숨기기에 좋은 장소다. 여러 책들의 책장이 깔끔하게 잘려 있지만, 그 속은 비어 있다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BrokenLock_RestrictedActions::Actions/Actions/0/WhatToBark
@@ -647,13 +652,13 @@ msgctxt "2ef2fcf5-ad4e-46fe-98b2-e08ace4becdb"
 msgid ""
 "A heavy blunt object was clearly used to try to break down the door. The "
 "lock is broken, and the door cannot be opened."
-msgstr ""
+msgstr "이 문을 부수기 위해 무겁고 뭉툭한 물건이 사용된 것이 분명하다. 자물쇠가 부서져 문을 열 수 없게 되었다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BrothelPatronBarks::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "a083cd0e-805d-4010-b5ca-12a6771d7295"
 msgid "\"I crave pleasure! Give it to me!\""
-msgstr ""
+msgstr "\"난 쾌락을 원해! 지금 당장!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BrothelPatronBarks::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -661,20 +666,20 @@ msgctxt "8e624dcd-6bc8-490f-bd0c-615248d8c527"
 msgid ""
 "\"If I stay here for even one more hour, I'll die from sensory overload. And "
 "it would be the best death ever.\""
-msgstr ""
+msgstr "\"여기에 한 시간만 더 있다가는 감각 과부하로 죽고 말거야. 정말 최고의 죽음이겠지.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BrothelPatronBarks::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "37269ca4-78e8-4faf-9832-3174c2bc4094"
 msgid "\"That crazy fey... She's outstanding!\""
-msgstr ""
+msgstr "\"저 미친 페이는... 정말 훌륭하군!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = BrothelPatronBarks::Actions/Actions/0/Actions/3/Action/Actions/0/WhatToBark
 msgctxt "6edd1886-d60b-4de7-b6a2-c5b81c4d3138"
 msgid ""
 "\"After a roll with the succubi, my entire body aches... But it's worth it!\""
-msgstr ""
+msgstr "\"서큐버스랑 자고 나면 온 몸이 쑤셔... 하지만 그럴만한 가치가 있지!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Burn_PlayerDream_Actions::Actions/Actions/12/WhatToBark
@@ -682,7 +687,7 @@ msgctxt "0c04b95b-4151-4e00-94ba-24e9afc9bf0c"
 msgid ""
 "\"Thank you for giving me this dream, {name}. It's a beautiful dream... But "
 "it isn't mine.\""
-msgstr ""
+msgstr "\"저한테 이 꿈을 주셔서 정말 고마워요, {name}. 너무 아름다운 꿈이지만... 제 꿈은 아니네요.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Button_Empty::Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -690,7 +695,7 @@ msgctxt "3aa6b8bf-526d-411a-8658-edebe953e5e6"
 msgid ""
 "Judging by the empty gem-shaped slot, this mechanism is currently missing a "
 "piece."
-msgstr ""
+msgstr "비어있는 보석 모양의 홈으로 미루어 보아, 이 기계에는 빠진 부분이 있는 듯 하다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = CageDoor1_Lever_OpenActions::Actions/Actions/1/IfTrue/Actions/2/WhatToBark
@@ -699,13 +704,13 @@ msgstr ""
 #. Path = CageDoor3_Lever_OpenActions::Actions/Actions/1/IfTrue/Actions/2/WhatToBark
 msgctxt "1894ed42-c54a-47c1-ac2b-514022ba60e9"
 msgid "\"Thank you! Thank you for saving me!\""
-msgstr ""
+msgstr "\"감사합니다! 구해주셔서 감사합니다!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = CageDoor2_Lever_OpenActions::Actions/Actions/1/IfTrue/Actions/2/WhatToBark
 msgctxt "ebafa79f-785c-4495-b460-9c73d0916345"
 msgid "\"We're saved! Incredible!\""
-msgstr ""
+msgstr "\"우린 살았어! 말도 안돼!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Camelia_Actions::Actions/Actions/0/WhatToBark
