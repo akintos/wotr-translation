@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-01-26 12:57+0000\n"
+"PO-Revision-Date: 2022-02-28 16:57+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -34715,7 +34715,7 @@ msgstr ""
 #. Path = RingOfTheDeadItem::m_DisplayNameText
 msgctxt "adb566a0-fce8-4493-8e9f-9537cd20985f"
 msgid "Ring of the Dead"
-msgstr ""
+msgstr "죽은 자의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTheDeadItem::m_DescriptionText
@@ -34737,30 +34737,33 @@ msgid ""
 "on {g|Encyclopedia:Saving_Throw}saving throws{/g} against all effects that "
 "are mentioned in Dead Inside ability."
 msgstr ""
+"이 반지는 착용자가 하루에 3 회, 1 분 동안 살아있는 크리처에게 '내면의 죽음' 능력을 사용할 수 있게 해줍니다.\n"
+"내면의 죽음: 이 효과를 받는 크리처는 모든 정신 영향 효과, {g|Encyclopedia:Injury_Death}즉사{/g} 효과, "
+"질병, 마비, 독, 수면 효과, 기절에 면역을 얻습니다. 비치명 {g|Encyclopedia:Damage}피해{/g}, "
+"{g|Encyclopedia:AbilityDamage}능력치 소진{/g}, 에너지 소진에는 적용되지 않습니다. 육체 "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 대한 피해, 탈진, 피로에 면역을 "
+"얻습니다.({g|Encyclopedia:Constitution}건강{/g}, {g|Encyclopedia:Strength}힘{/g}, "
+"{g|Encyclopedia:Dexterity}민첩{/g}) 그 대신, 양에너지 전달과 음에너지 전달 모두에 피해 입습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTheNaturalBornCommander::m_DisplayNameText
-#, fuzzy
 msgctxt "49b10900-a3d0-452a-b52c-6895ccba14fc"
 msgid "Ring of the Natural Born Commander"
-msgstr "타고난 지도자의 반지"
+msgstr "타고난 지휘관의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTheNaturalBornCommander::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +3 insight bonus on all Persuasion skill "
-#| "checks."
 msgctxt "34e6bafc-99a3-4615-9621-4b505791e8eb"
 msgid ""
 "This ring grants its wearer a +3 insight {g|Encyclopedia:Bonus}bonus{/g} on "
 "all {g|Encyclopedia:Persuasion}Persuasion{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g}."
-msgstr "이 반지는 착용자의 모든 설득 기술 판정에 +3 통찰 보너스를 줍니다."
+msgstr ""
+"이 반지는 착용자의 모든 {g|Encyclopedia:Persuasion}설득{/g} {g|Encyclopedia:Skills}기술 "
+"판정{/g}에 +3 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTheNaturalBornCommander::m_FlavorText
-#, fuzzy
 msgctxt "cc6c5ef8-6d96-4da2-b3c8-0e87bf080e80"
 msgid ""
 "The authority's voice doesn't always sound like a command. Some prefer to "
@@ -34772,7 +34775,7 @@ msgstr ""
 #. Path = RingOfTheSneakyWizard::m_DisplayNameText
 msgctxt "ca2ebc52-d405-4598-b768-d7b1a5f7dfb2"
 msgid "Magician's Ring"
-msgstr ""
+msgstr "마법사의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTheSneakyWizard::m_DescriptionText
@@ -34785,10 +34788,13 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} of the Illusion school the wearer casts by "
 "2."
 msgstr ""
+"이 반지는 착용자에게 모든 {g|Encyclopedia:Use_Magic_Device}마법 도구 사용{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 보너스를 부여하고, 착용자가 시전하는 모든 환영학파 "
+"{g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:Saving_Throw}내성{/g} "
+"{g|Encyclopedia:DC}DC{/g}를 2 증가시킵니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTwinArrows::m_DisplayNameText
-#, fuzzy
 msgctxt "d502b2b8-2574-4afb-b0fa-a14461544b29"
 msgid "Ring of Radiant Arrows"
 msgstr "광휘의 화살 반지"
@@ -34814,7 +34820,6 @@ msgstr "밝은 카넬리안 위에 엇갈린 화살 두 개가 새겨져 있습�
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfUltimateProtectionGreaterItem::m_DisplayNameText
-#, fuzzy
 msgctxt "74d5fa31-bdae-4ad1-9d07-852ec004eecf"
 msgid "Greater Ring of Ultimate Protection"
 msgstr "상급 궁극의 보호 반지"
