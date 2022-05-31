@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-05-30 14:42+0000\n"
+"PO-Revision-Date: 2022-05-31 14:58+0000\n"
 "Last-Translator: Rvrc <kyks1680@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -812,7 +812,7 @@ msgstr "\"밖에서 행운을 빕니다. 우리를 위해 악마놈들을 혼쭐
 #. Path = Citizen_Barks_Actions::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "cc888c07-d3d2-4d7d-b77c-19c9f2c54f8e"
 msgid "\"Happy city day!\""
-msgstr "\"도시 기념일이다!\""
+msgstr "\"축제 만세!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Citizen_Barks_Actions::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -1223,7 +1223,7 @@ msgctxt "5550a002-ceb3-4767-a9fa-b6b8315bedca"
 msgid ""
 "\"Such a young dragon reigns over this place, yet {mf|he|she} already "
 "possesses such wisdom... Someday, {mf|he|she} will lead all of our kind.\""
-msgstr "저렇게 젊고 지혜로운 드래곤이 이 장소를 다스린다니... 언젠가 저 자가 우리 동족들을 이끌게 되겠군."
+msgstr "\"저렇게 젊고 지혜로운 드래곤이 이 장소를 다스린다니... 언젠가 저 자가 우리 동족들을 이끌게 되겠군.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Dragon_Drezen_Barks_Actions::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -1680,7 +1680,7 @@ msgstr "\"아까 그건 녹티큘라잖아... 정말로 그녀가 회개한건�
 #, fuzzy
 msgctxt "df47b2d7-a40d-47f3-af62-4220ffc41eab"
 msgid "\"So, Nocticula is now the Redeemer Queen... I'll pray to her.\""
-msgstr "\"그러니까, 녹티큘라가 구원받은 자의 여왕이 된건가... 그녀에게 기도를 해야겠어.\""
+msgstr "\"그러니까, 녹티큘라가 Redeemer Queen이 된건가... 그녀에게 기도를 해야겠어.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = EmberQ3_TampliersBarks_Actions::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -5330,6 +5330,8 @@ msgid ""
 "about the movements of the celestial bodies. The copies of stargazers' "
 "findings have already been sent to Drezen."
 msgstr ""
+"천체의 움직임에 대해 면밀하고 세심하게 관찰한 기록을 담고있는 책과 두루마리들. 펄루라의 점성술사들의 과학작 연구의 성과들은 이곳의 "
+"책장에서 찾을 수 있다. 점성술사들의 연구물의 복사본은 이미 드레젠으로 보내졌다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = TrueProject_Actions::Actions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -5339,18 +5341,20 @@ msgid ""
 "shelves. The books and scrolls contain meticulously detailed observations "
 "about the movements of the celestial bodies."
 msgstr ""
+"천체의 움직임에 대해 면밀하고 세심하게 관찰한 기록을 담고있는 책과 두루마리들. 펄루라의 점성술사들의 과학작 연구의 성과들은 이곳의 "
+"책장에서 찾을 수 있다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = UnfinishedSummoningCircle_Actions::Actions/Actions/0/WhatToBark
 msgctxt "8b36c5e6-52b5-4420-96b3-af88c0e4b43f"
 msgid "An incomplete magic circle for a summoning ritual."
-msgstr ""
+msgstr "소환 의식용 미완성 마법진."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = VellexiaGuestsBarks_Actions::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "cf674532-c948-4f32-9e56-23b426a75541"
 msgid "\"Lady Vellexia is the true leader of Alushinyrra's aristocracy!\""
-msgstr "\"벨렉시아 님이야 말로 알루니시아의 진정한 지도자시지!\""
+msgstr "\"벨렉시아 님이야 말로 알루니시라의 진정한 지도자시지!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = VellexiaGuestsBarks_Actions::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -5358,32 +5362,33 @@ msgctxt "5f766b3b-187c-47aa-9e3a-cf15a777a994"
 msgid ""
 "\"The fact that you are here means that you have been accepted into "
 "Alushinyrra's high society.\""
-msgstr ""
+msgstr "\"여기 있다는건 네가 알루시니라의 상류층 사회에 받아들여졌다는 의미지.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = VellexiaGuestsBarks_Actions::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "627109f8-d0b2-40b7-8282-f5467e889eec"
 msgid ""
 "\"It's so wonderful to be invited to a reception at the Rapture of Rupture!\""
-msgstr ""
+msgstr "\"Rapture of Rupture의 연회에 초대받아서 정말 기뻐!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = VellexiaSecondDateBarks_Actions::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "b2cb2683-ff76-489e-b457-438a27e10389"
 msgid "\"That was just amazing! False justice is so much fun!\""
-msgstr ""
+msgstr "\"끝내주는데! 거짓 정의는 너무 재밌어!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = VellexiaSecondDateBarks_Actions::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "e93899b9-1b44-42bf-9ba1-1d2836fc6104"
 msgid "\"That tiefling was so pathetic! How charming!\""
-msgstr ""
+msgstr "\"저 티플링 진짜 한심한데! 정말 매력적이야!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = VirlongBlackMaskDeadActions::Actions/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
 msgctxt "0cb59e45-f2be-41bd-9c50-2bbb0a9a0adf"
 msgid "\"Hey, someone, put me on! I need legs, I want to dance! Ha ha!\""
-msgstr ""
+msgstr "\"어이, 거기 누구, 나 좀 태워줘! 다리가 필요해, 춤추고 싶단 말야! 하하!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = VirlongBlackMaskDeadActions::Actions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -5392,42 +5397,43 @@ msgid ""
 "\"Soon, a new fool will put on the black mask. For a while, they will wear "
 "me... But, before long, it will be I who is wearing their body.\""
 msgstr ""
+"\"곧, 새로운 바보가 검은 가면을 쓰게 되겠지. 한동안은, 그들이 나를 쓰겠지만... 결국, 내가 그들의 몸을 쓰게 될 것이다.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfTrue/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "b9d69542-5d89-40c8-82bb-6fa9ec1e5f28"
 msgid "\"These aren't crusaders. Just snacks for demons!\""
-msgstr ""
+msgstr "\"이건 성전군이 아니라, 그냥 데몬 간식거리로군!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfTrue/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "e0ab1a76-9519-4c13-bf63-5847f37868a6"
 msgid "\"No order, no training. Without us, this crusade is doomed!\""
-msgstr ""
+msgstr "\"질서도, 훈련도 없군. 우리가 아니라면, 이 성전은 망하게 생겼어!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfTrue/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "21c645f4-e51d-4cf5-8eb2-c7d752f9aba4"
 msgid "\"We have to teach these snotnoses from Mendev everything!\""
-msgstr ""
+msgstr "\"우리가 이 멘데브의 코흘리개들에게 모든걸 가르쳐줘야 된다니!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfTrue/Actions/0/Actions/3/Action/Actions/0/WhatToBark
 msgctxt "69f9b436-1653-438c-813d-5059b48ae15e"
 msgid "\"One order for all — people, angels, and demons!\""
-msgstr ""
+msgstr "\"인간, 엔젤, 그리고 데몬 — 모두를 위한 단 하나의 질서!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfTrue/Actions/0/Actions/4/Action/Actions/0/WhatToBark
 msgctxt "7a0c75a4-068e-4286-9007-60472c6f08f8"
 msgid "\"It's good to be in the army. You don't need to think. Just fight!\""
-msgstr ""
+msgstr "군대에 있을때 장점은, 생각할 필요가 없다는거지. 그냥 싸우면 돼!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfFalse/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "5c5a628f-75d2-4519-adf6-063f6c2911a9"
 msgid "\"We let our guard down, and we paid for it.\""
-msgstr ""
+msgstr "\"우린 방심했고, 그 댓가를 치른거지.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfFalse/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -5435,13 +5441,13 @@ msgctxt "ac192bf1-ce02-4e51-8010-633453874e77"
 msgid ""
 "\"We should watch the sky more closely. And the ground beneath our feet. "
 "Even our own shadows!\""
-msgstr ""
+msgstr "\"하늘을 더 잘 살펴야 한다. 그리고 우리의 발밑, 그리고 그림자까지도 말이야!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfFalse/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "02434a57-1596-44db-afbe-85bf3b667ed0"
 msgid "\"The chapel is just the beginning. Things will be harder in Drezen.\""
-msgstr ""
+msgstr "\"그 예배당은 그저 시작일 뿐이야. 드레젠에선 더 힘들어질거다.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_HellknightsBarks::Actions/Actions/0/IfFalse/Actions/0/Actions/3/Action/Actions/0/WhatToBark
@@ -5449,20 +5455,20 @@ msgctxt "fe1eae69-2170-435b-8d67-fbad5f5070d3"
 msgid ""
 "\"The Order should have stepped in before the Mendevians let the problem get "
 "out of hand!\""
-msgstr ""
+msgstr "\"멘데브 인들이 상황을 더 악화시키기 전에 기사단이 개입해야만 했어!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_QueenGuardBarks::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "ee440ee4-72b4-4498-8b37-18013dd04247"
 msgid ""
 "\"It feels good to be on a crusade again! I'm sick of the dusty old palace.\""
-msgstr ""
+msgstr "\"다시 성전에 나서서 참 기쁘군! 그 낡은 궁전에 머무르는데 질려가던 참이었거든.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WarCamp_QueenGuardBarks::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "d81f315b-610e-4329-9a67-a7bf893816d2"
 msgid "\"Something doesn't feel right. I need to stay alert.\""
-msgstr ""
+msgstr "\"뭔가 이상하군. 조심해야겠어.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunOutdoor_CorruptionReducer_Bark12_CheckPassedActions::Actions/Actions/0/WhatToBark
@@ -5470,23 +5476,27 @@ msgctxt "b13c5d34-5f12-479a-b0a7-9b602061476b"
 msgid ""
 "The altar of Gorum, the god of battle, radiates an aura of unrelenting fury, "
 "which even the Worldwound has failed to dampen after all these years."
-msgstr ""
+msgstr "전쟁의 신, 고럼의 제단은 그 오랜 세월 동안 세계상처조차 억누르지 못 한, 주체 할 수 없는 분노의 오라로 빛나고 있다."
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantCommonBark_Actions::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "16278716-80cd-48b3-a061-33fcbfb13e3d"
 msgid ""
 "\"It's too bad the Lady of the Sun only gave us one dragon. I'd love to have "
 "a whole herd of them!\""
-msgstr ""
+msgstr "Lady of the Sun께서 드래곤을 한 마리만 주셔서 참 아쉬워. 난 한 무리가 더 좋은데 말이야!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantCommonBark_Actions::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "4e0aa334-10ed-489a-b1d9-4cd1f23d1c72"
 msgid ""
 "\"Have you heard the new ballad about the Lady of the Sun and Marhevok? So "
 "beautiful, makes me want to weep. The song, and the lady!\""
 msgstr ""
+"\"Lady of the Sun과 Marhevok 두 사람의 새 발라드 들어봤어? 노래도, Lady도, 너무 아름다워서 울고싶어 "
+"지더라니까!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantCommonBark_Actions::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -5494,23 +5504,28 @@ msgctxt "d2f123ae-70d3-4a1f-b04f-a9096d78c190"
 msgid ""
 "\"I heard a whole army of demons appeared at Drezen and it was led by the "
 "most terrifying monsters.\""
-msgstr ""
+msgstr "\"끔찍한 괴물이 이끄는 데몬의 군대가 드레젠에 나타났다던데.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantCommonBark_Actions::Actions/Actions/0/Actions/3/Action/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "cbc9528a-649f-40c8-8b91-8ebd28dabf50"
 msgid ""
 "\"It's good that we are visited by merchants from Mendev and visitors from "
 "the castle in the clouds. Things would be dull around here without them!\""
 msgstr ""
+"멘데브의의 상인들과 castle in the clouds의 방문자들이 찾아와줘서 참 다행이야. 그들이 없으면 얼마나 지루했을지!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantCommonBark_Actions::Actions/Actions/0/Actions/4/Action/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "1abc1c28-f2db-465a-9df0-e6f96e3d526a"
 msgid ""
 "\"It's a shame Marhevok is the only one who's seen the castle in the clouds. "
 "I wish I could catch a glimpse of the Lady's palace...\""
 msgstr ""
+"castle in the clouds를 직접 본 사람이 marhevok 한 명 뿐이라 참 아쉬워. 나도 lady의 궁전을 조금이라도 보고 "
+"싶은데...\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantEnding2Bark_Actions::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -5518,7 +5533,7 @@ msgctxt "3583cb6d-8afe-4765-b12d-f422b27c45fd"
 msgid ""
 "\"I heard that the demons are gone from Drezen, that they're gone from the "
 "Worldwound altogether! Could it be peace at last, after all these years?\""
-msgstr ""
+msgstr "\"드레젠에서 데몬들이 사라졌다던데. 아예 세계상처에서 전부 사라져버렸다더군! 마침내, 평화가 찾아오는걸까?\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantEnding2Bark_Actions::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -5526,7 +5541,7 @@ msgctxt "b89b69a7-1e29-4d92-ba1c-c760bde235f6"
 msgid ""
 "\"Rejoice! Rejoice! The crusade has ended, the demons are defeated and are "
 "fleeing back to the Abyss!\""
-msgstr ""
+msgstr "\"기뻐하라! 기뻐하라! 성전이 끝났고, 데몬들은 패배하여 심연으로 도망치고 있다!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantEnding2Bark_Actions::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -5534,61 +5549,65 @@ msgctxt "a39b8ff6-cc8a-428d-b1ba-9da03e7d66fb"
 msgid ""
 "\"I'm going to go traveling. I'll visit all the old cities of Sarkoris. "
 "There's nothing to fear anymore!\""
-msgstr ""
+msgstr "\"여행을 떠날거야, 사코리스의 옛 도시들을 찾아가봐얒. 이젠 더 이상 무서울 것도 없으니까!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantEnding2Bark_Actions::Actions/Actions/0/Actions/3/Action/Actions/0/WhatToBark
 msgctxt "7c3a1dd5-7206-4ea9-83fb-60d6da98e66d"
 msgid "\"Peace! After all these years, there is peace in Sarkoris!\""
-msgstr ""
+msgstr "\"평화! 마침내, 사코리스에 평화가 찾아왔다!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantEnding2Bark_Actions::Actions/Actions/0/Actions/4/Action/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "cdc8ff45-03fb-4211-b022-455c43b678c6"
 msgid ""
 "\"The Lady of the Sun hasn't appeared in our lands for some time. Marhevok "
 "is pining.\""
-msgstr ""
+msgstr "\"The Lady of the Sun께서 우리 땅을 방문하시지 않은지도 꽤 됐는걸. Marhevok이 참 슬퍼하겠어.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WintersunPeasantEnding2Bark_Actions::Actions/Actions/0/Actions/5/Action/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "cbde9a2e-e165-48a0-a851-f87f56a284d9"
 msgid ""
 "\"The demons are gone now, sure, but how are we supposed to live without "
 "Marhevok? He was the best chief and the strongest fighter in the clan!\""
-msgstr ""
+msgstr "\"확실히 데몬들은 사라졌지만, Marhevok 없이 어떻게 살아가야 하지? 그는 최고의 족장이자 씨족 최강의 전사였는데!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Woman [Nidalynn]_Actions::Actions/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "31aea8f8-9876-42a0-aa96-bb578c399226"
 msgid ""
 "\"Who would have thought that a {race} could become a dragon... this story "
 "will live on in legends!\""
-msgstr ""
+msgstr "\"누군들 {race} 가 드래곤이 되리라고 생각이나 했을까... 이 이야기는 전설이 되겠군!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Woman [Nidalynn]_Actions::Actions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "ea207641-138f-41f0-abb0-21bbbe3ad7b9"
 msgid "\"Ugh, this pregnancy... you never know what you'll want to eat next!\""
-msgstr ""
+msgstr "\"으, 이 입덧은 참... 다음엔 뭘 먹고 싶어질지 도무지 모르겠다니까!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Woman [Nidalynn]_Actions::Actions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/WhatToBark
 msgctxt "dc698429-f738-4055-981c-e56a1004f80d"
 msgid "\"Is no one going to help me? You're all so selfish!\""
-msgstr ""
+msgstr "\"날 도와주려는 사람은 아무도 없는거야? 다들 너무 이기적이야!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WorkshopComp_CheckPassedActions::Actions/Actions/0/WhatToBark
 msgctxt "3f621370-ce2f-4beb-a086-b495c061dfaa"
 msgid "\"Access to maintenance cells granted.\""
-msgstr ""
+msgstr "\"관리실 입장이 승인되었습니다.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WorthyOpponentCombatStart_Actions::Actions/Actions/0/WhatToBark
 msgctxt "c7f8a694-266b-4644-94fd-1796b413793b"
 msgid "\"Beautiful! I am always glad to gut a worthy opponent!\""
-msgstr ""
+msgstr "\"훌륭해! 가치있는 적을 도륙하는건 언제나 즐겁지!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WoundedCitizens_Actions::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -5598,6 +5617,8 @@ msgid ""
 "out soldiers to help the people of the city. If they hadn't, I wouldn't be "
 "alive right now...\""
 msgstr ""
+"\"아이오메데를 찬양하라. 성전의 지휘자들은 이 혼란에도 굳건히 버티며 병사들을 보내 도시의 사람들을 돕는구나. 만일 그들이 아니었다면, "
+"난 지금 살아있지 못 했겠지...\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WoundedCitizens_Actions::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -5605,7 +5626,7 @@ msgctxt "d189e192-56ad-4723-9d06-d6b63a7897ce"
 msgid ""
 "\"My sister's house stood there, where that pile of rubble is now. Good "
 "gods, there's no way she made it out, is there?\""
-msgstr ""
+msgstr "\"저 돌더미가 내려앉은 곳, 저기가 내 여동생의 집이 있던 곳이야. 그녀가 살았을리가 없겠지, 안 그래?\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WoundedCitizens_Actions::Actions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -5613,7 +5634,7 @@ msgctxt "ad4d6aa1-684b-40c3-ad36-047ab32f339f"
 msgid ""
 "\"Terendelev dead, how is that even possible? I can't imagine Kenabres "
 "without her protection...\""
-msgstr ""
+msgstr "\"테렌델레브다 죽다니, 도대체 어떻게? 그녀의 보호가 없는 케나브레스는 상상도 안 되는데...\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WoundWormsLair_Spawner [Storyteller]_Actions::Actions/Actions/0/IfTrue/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -5623,6 +5644,8 @@ msgid ""
 "as soon as possible. All this smoke makes it difficult to breathe. We'll "
 "meet in Drezen.\""
 msgstr ""
+"\"내가 부탁했던건 찾아왔나? 훌륭해! 가능한 빨리 여기서 벗어나지, 이 연기들 때문에 갈수록 숨 쉬기가 힘들단 말일세. 드레젠에서 "
+"만나도록 하지.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WoundWormsLair_Spawner [Storyteller]_Actions::Actions/Actions/0/IfTrue/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -5630,7 +5653,7 @@ msgctxt "27376f9f-30de-45ed-be5c-7bb36accbf7e"
 msgid ""
 "\"Please, search the bookshelves. Bring me anything written in ancient Elven "
 "runes. I need them!\""
-msgstr ""
+msgstr "\"부디, 책장들을 뒤져서, 고대 엘프 룬어로 적힌 것들은 전부 가져다주게. 필요한걸세!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WoundWormsLair_Spawner [Storyteller]_Actions::Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -5638,7 +5661,7 @@ msgctxt "d459867d-8e41-4e97-8af6-1383ccd2ea20"
 msgid ""
 "\"Such a tragedy... Everything is gone. There could have been information in "
 "those books about my past... But the fire destroyed them all.\""
-msgstr ""
+msgstr "\"비극이로군... 전부 사라지더니. 그 책들에 내 과거에 대한 정보가 남아있을지도 몰랐는데... 불이 모두 파괴해버렸군.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WrongPlaceCombatStart_Actions::Actions/Actions/0/WhatToBark
@@ -5646,13 +5669,13 @@ msgctxt "e4cc77c7-013f-4db3-95d1-7cb7871d7712"
 msgid ""
 "\"I bet {mf|he|she}'s not just some random gawker. Must be a spy. Let's "
 "finish {mf|him|her} off!\""
-msgstr ""
+msgstr "\"저놈 ,그냥 얼간이가 아니라 첩자가 분명해! 끝장을 내버리자!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = WrongPlaceCombatStart_Actions::Actions/Actions/0/WhatToBark
 msgctxt "4f48f422-2d85-4c15-aab2-21ed201cbf11"
 msgid "\"You're such a pain! Let's take {mf|his|her} skin!\""
-msgstr ""
+msgstr "\"골치아픈 놈! 가죽을 벗겨내주마!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Yaker_Actions::Actions/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -5660,7 +5683,7 @@ msgctxt "2c13ce3e-f59b-4cfc-bcbf-6594650d0543"
 msgid ""
 "\"What an unexpected way to receive a promotion... but I am confident I "
 "acted justly!\""
-msgstr ""
+msgstr "\"이런 식으로 승진을 하게 될 줄은 몰랐는데... 그래도 제 행동은 적절했다고 생각합니다!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Yaker_Actions::Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -5668,7 +5691,7 @@ msgctxt "c6d77329-2491-4d91-80ed-18ef04d87ed8"
 msgid ""
 "\"What an unpleasant turn of events. Still, it could have ended so much "
 "worse.\""
-msgstr ""
+msgstr "\"아주 맘에 안 드는 결말이지만. 그래도, 더 악화되는건 피했군요.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = YouOnlyMortalsCombatStart_Actions::Actions/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -5676,7 +5699,7 @@ msgctxt "25c4de0c-5437-4ecf-81b9-3bb5a9088b94"
 msgid ""
 "\"But then again, I feel you are ripe with death essence. Glorious! I'll "
 "make a powerful undead servant out of you.\""
-msgstr ""
+msgstr "\"그런데 다시보니, 넌 죽음의 정수로 아주 충만하구나. 훌륭해! 너라면 강력한 언데드 하인을 만들 수 있겠어.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = YouOnlyMortalsCombatStart_Actions::Actions/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -5684,7 +5707,7 @@ msgctxt "827efd63-62a4-475d-b702-7423a566433c"
 msgid ""
 "\"But what if you make good prey? I think you might. Yes, you really "
 "shouldn't have come here.\""
-msgstr ""
+msgstr "\"네가 훌륭한 사냥감이 된다면 어쩌지? 아무래도 그렇게 될 것 같은데. 그래, 넌 애초에 여기 와선 안 됐어.\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Yozz_Actions::Actions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -5694,6 +5717,8 @@ msgid ""
 "who's holed himself up in his flying palace. I've been promised a pile of "
 "treasure for his death!\""
 msgstr ""
+"\"잡담 할 시간 없어. 날라다니는 궁전에 처박힌 지니 녀석을 죽일 방법을 생각해내야 하거든. 놈을 죽이는 댓가로 보물 한무더기를 받기로 "
+"약속했지!\""
 
 #. Type = Kingmaker.ElementsSystem.ActionsHolder
 #. Path = Yozz_Actions::Actions/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/WhatToBark
@@ -5702,3 +5727,4 @@ msgid ""
 "\"So we don't waste time, I'd rather have a conversation with both of you "
 "together. Bring your dwarf, Greybor, and I will answer your questions.\""
 msgstr ""
+"\"그러니 시간 낭비하지 말자고. 너희 둘이랑 한 번에 대화하는게 빠르니까. 드워프, 그레이보르를 데려와. 그럼 네 질문에 대답해주지.\""
