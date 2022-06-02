@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-04-06 01:58+0000\n"
-"Last-Translator: darkgaia <darkgaia@naver.com>\n"
+"PO-Revision-Date: 2022-06-02 07:30+0000\n"
+"Last-Translator: Rvrc <kyks1680@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -180,10 +180,9 @@ msgstr "비단실 공방"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = Daeran_AlienBossfight::AreaName
-#, fuzzy
 msgctxt "c5b9a34a-4286-489a-9c4b-1d2f384d50ef"
 msgid "The Other's Sanctuary"
-msgstr "너머의 존재의 피난처"
+msgstr "너머의 존재의 성소"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = Daeran_Q1_KenabresMansion::AreaName
@@ -208,7 +207,6 @@ msgstr "천상의 끝자락"
 #. 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPoint
 #. Path = Location_Daeran_Q3_Autodafe::Name
-#, fuzzy
 msgctxt "f8c58c94-3191-4043-9ab7-92b732d5ea77"
 msgid "Trap for the Other"
 msgstr "너머의 존재를 위한 함정"
@@ -744,10 +742,9 @@ msgstr "이름없는 유적"
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = PortalFromFane_Enter::m_Tooltip
-#, fuzzy
 msgctxt "c40dd023-e57c-43c6-a9ce-5f09f5714c13"
 msgid "Nexus"
-msgstr "넥서스"
+msgstr "교차점"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = NocticulasBoudoir::AreaName
@@ -904,7 +901,7 @@ msgstr "냉랭한 개울"
 #, fuzzy
 msgctxt "d6c41369-2e9f-47ce-b02c-f3e0507514af"
 msgid "Extirpators' Camp"
-msgstr "근절자의 야영지"
+msgstr "Extirpator의 야영지"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = StorytellerTower::AreaName
@@ -947,10 +944,9 @@ msgstr "테렌델레브 둥지"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = TheIvoryLabyrinth::AreaName
-#, fuzzy
 msgctxt "e9b8cc09-55df-4a5b-9c3f-f81fdc1441b1"
 msgid "Ineluctable Prison"
-msgstr "탈출할 수 없는 감옥"
+msgstr "불가피한 감옥"
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintArea
 #. Path = ThresholdIndoor::AreaName
@@ -1428,7 +1424,6 @@ msgstr "금지된 방으로"
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaEnterPoint
 #. Path = EnterPointEnterDungeon_AfterArena::m_Tooltip
-#, fuzzy
 msgctxt "47426068-fa40-4c0f-b8cc-1662e23ba141"
 msgid "To the main halls"
 msgstr "중앙 홀로"
@@ -2559,19 +2554,17 @@ msgstr "드레젠을 떠나기 전에 성채를 방문해야 합니다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = ExitFromCrypt::m_Actions/0/Actions/Actions/0/AfterTeleport/Actions/0/IfTrue/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
-#, fuzzy
 msgctxt "3ab38578-fec3-4911-aab9-3d95313e31c8"
 msgid "\"Yes! I'm alive! You were right! You tricked the curse!\""
-msgstr "\"그래! 살았다! 네가 맞았어! 저주를 속였구나!\""
+msgstr "\"그래! 살았다! 네가 옳았어! 저주를 속였구나!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = ExitFromCrypt::m_Actions/0/Actions/Actions/0/AfterTeleport/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/IfTrue/Actions/0/WhatToBark
-#, fuzzy
 msgctxt "2d155aa3-5980-46c1-b529-e77edb89a912"
 msgid ""
 "\"Praise Erastil! Delamere's relics have returned to the world once more! "
 "May the demons fear your arrows!\""
-msgstr "\"에라스틸을 찬양하라! 델라메어의 유물이 다시 한 번 세상에 돌아왔도다! 데몬들이 당신의 화살을 두려워 할지니!\""
+msgstr "\"에라스틸을 찬양하라! 델라메어의 유물이 다시 한 번 세상에 돌아왔도다! 데몬들이 당신의 화살을 두려워 하기를!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintAreaTransition
 #. Path = ExitFromCrypt::m_Actions/0/Actions/Actions/0/AfterTeleport/Actions/0/IfFalse/Actions/0/IfTrue/Actions/1/IfTrue/Actions/0/WhatToBark
@@ -2605,7 +2598,7 @@ msgstr "앞으로 나아가기 위해선 신화 레벨을 올려야 합니다."
 #. Path = Arusha_Event_2_Party::EnterActions/Actions/2/WhatToBark
 msgctxt "26b5d3b6-876b-4b35-8733-592be1ed6cba"
 msgid "\"You should flee with your lives!\""
-msgstr ""
+msgstr "\"살고 싶으면 같이 도망쳐야해요!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = BasinBark::EnterActions/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -2687,19 +2680,19 @@ msgstr "크리누크가 보여줬던 것과 같은 문양이 돌에 새겨져 �
 #. Path = GreyborEnterZone::EnterActions/Actions/0/WhatToBark
 msgctxt "a3c0ee22-1332-49d8-991b-66e39ed43aa7"
 msgid "\"Let's take a look around, and find a suitable place for an ambush.\""
-msgstr ""
+msgstr "\"주변을 둘러보고, 매복할 적당한 장소를 찾지.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = GreyborNearCliff::EnterActions/Actions/0/WhatToBark
 msgctxt "8af56095-03d5-473a-9699-a539d115b39c"
 msgid "\"I think I've found a good place to set up our camp.\""
-msgstr ""
+msgstr "\"야영지를 꾸리기에 적당한 장소를 찾은 것 같군.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = GreyborOnTheCliff::EnterActions/Actions/0/WhatToBark
 msgctxt "455b93e6-e907-4aeb-99c9-0795b5db8c48"
 msgid "\"This is the place. Let's set up an ambush here.\""
-msgstr ""
+msgstr "\"여기가 좋겠어. 여기서 매복을 준비하지.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = KyadoBark::EnterActions/Actions/0/WhatToBark
@@ -2733,6 +2726,8 @@ msgid ""
 "The Storyteller's compass buzzes, periodically emitting a grinding screech "
 "and shaking so hard you can barely hold it. The crystals are very near."
 msgstr ""
+"\"이야기꾼의 나침반이 울리며, 주기적으로 톱니가 돌아가는 소리를 비명처럼 내지른다. 흔들림이 너무 심해 쥐기도 힘들 정도이다. 수정은 "
+"몹시 가까이에 있다."
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = MidnightFane_PrisonersBark_1::ExitActions/Actions/0/Actions/1/Action/Actions/0/Actions/0/Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -2750,7 +2745,7 @@ msgstr ""
 #. Path = MidnightFane_PrisonersBark_2::EnterActions/Actions/0/Actions/1/Action/Actions/0/Actions/0/Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "337d76b7-a613-46df-820f-5aa0cc66ce54"
 msgid "\"Help! I'm begging you, help!\""
-msgstr ""
+msgstr "\"도와줘! 이렇게 빌게, 제발!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = MidnightFane_PrisonersBark_1::ExitActions/Actions/0/Actions/1/Action/Actions/0/Actions/1/Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -2768,38 +2763,38 @@ msgstr ""
 #. Path = MidnightFane_PrisonersBark_2::EnterActions/Actions/0/Actions/1/Action/Actions/0/Actions/1/Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "20cd0028-03d5-418c-928e-47e8807c9f9d"
 msgid "\"The crusaders are on the attack! Finally!\""
-msgstr ""
+msgstr "\"마침내 성전군이 공격에 나섰다!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Nexus_TieflingBoy::EnterActions/Actions/0/WhatToBark
 msgctxt "6d2ad799-6e8d-4eb1-82a9-3071d7f14750"
 msgid ""
 "\"Everyone is so strange here... No one wants anything from me. It's great!\""
-msgstr ""
+msgstr "\"여기 사람들은 너무 이상해... 나한테 원하는게 아무것도 없다니. 굉장해!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = PrisonDemonFight::EnterActions/Actions/1/WhatToBark
 msgctxt "db279426-c5cf-44d6-8490-f7f87380b088"
 msgid "\"How did those ones get out?\""
-msgstr ""
+msgstr "\"이 놈이 어떻게 빠져나온거지?\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Q1WoljifShopMoon_bark::EnterActions/Actions/0/IfTrue/Actions/0/WhatToBark
 msgctxt "63fdf115-e29b-4c7a-acc4-f2d58d980287"
 msgid "\"This is where it lay. The Moon of the Abyss...\""
-msgstr ""
+msgstr "\"여기가 바로 The Moon of the Abyss가 있던 장소야...\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Q3_NearDogGraveBark_ScriptZone::EnterActions/Actions/0/WhatToBark
 msgctxt "a899162c-2324-4281-91c2-f772fafb6d27"
 msgid "\"My pup's grave. I dug it myself...\""
-msgstr ""
+msgstr "\"내 강아지의 무덤이에요. 제가 직접 팠죠...\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Q3_NearFlowerBedBark_ScriptZone::EnterActions/Actions/0/WhatToBark
 msgctxt "f89df9d6-6cfc-4a74-a2ba-7196ed63b9e7"
 msgid "\"Ah... Camellias. They're still blooming, I see.\""
-msgstr ""
+msgstr "\"아... 동백꽃이군요. 아직도 피어있나보네요.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Q3_NearTortureCellarBark_ScriptZone::EnterActions/Actions/0/WhatToBark
@@ -2807,37 +2802,37 @@ msgctxt "38d8d952-ff31-4ca3-8feb-bf096ce03fa1"
 msgid ""
 "\"As the saying goes, every family has a skeleton in its closet. In my case, "
 "all the skeletons are hidden in the cellar.\""
-msgstr ""
+msgstr "\"사람들이 하는 말이, 어느 집에나 비밀은 있다는데. 제 경우에는, 비밀들은 전부 지하실에 숨겨져있어요.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Q3_NearVarisianTeacherBark_ScriptZone::EnterActions/Actions/0/WhatToBark
 msgctxt "1617885b-765c-402c-95f2-803dff685aef"
 msgid "\"Ah, this is the room of my first mentor.\""
-msgstr ""
+msgstr "\"아, 여긴 제 첫 번째 스승님의 방이에요.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = RunAwayZone::EnterActions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "d2bcf0a2-7870-4cb0-8057-e063d2332959"
 msgid "\"You are on the right path. Hurry.\""
-msgstr ""
+msgstr "\"맞는 길로 가고 있어, 서둘러.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = RunAwayZone::EnterActions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "f7cdc9ad-c909-4255-a1d7-6664e82e926a"
 msgid "\"This way. This path leads to your freedom.\""
-msgstr ""
+msgstr "\"이쪽이야, 이 길로 도망칠 수 있어.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = RunAwayZone::EnterActions/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "ca10ba8d-e84b-4802-98e0-225893473c0e"
 msgid "\"You are getting closer and closer to freedom. Be strong.\""
-msgstr ""
+msgstr "\"네 자유에 점점 더 가까워지고 있어. 견뎌내.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = RunAwayZone::EnterActions/Actions/0/Actions/3/Action/Actions/0/WhatToBark
 msgctxt "1780dbc4-5684-4d21-bfba-ea5bae08da4c"
 msgid "\"We are very close. Go faster, the enemy is near.\""
-msgstr ""
+msgstr "\"거의 도착했어. 서둘러, 적이 가까이에 있으니.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = RunAwayZone::EnterActions/Actions/0/Actions/4/Action/Actions/0/WhatToBark
@@ -2845,7 +2840,7 @@ msgctxt "7d9287ec-7e89-4637-bd11-7d98ad0b106a"
 msgid ""
 "\"The entrance to a secret tunnel is hidden behind one of these stones. Push "
 "the stone aside.\""
-msgstr ""
+msgstr "\"비밀 통로로 통하는 입구는 이 돌들에 숨겨져 있어. 돌을 밀어봐.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = SeelahBark_FirstVisit::EnterActions/Actions/0/WhatToBark
@@ -2853,22 +2848,23 @@ msgctxt "8bb51f50-65f4-4813-b7fc-9bf8f101d228"
 msgid ""
 "\"I can hear the sounds of battle from above... Out of the pan and into the "
 "fire!\""
-msgstr ""
+msgstr "\"위에서 싸움 소리가 들리는군... 나오자마자 또 싸움터 한복판이라니!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = Seelah_PreQ1_Zone::EnterActions/Actions/1/WhatToBark
+#, fuzzy
 msgctxt "2fe936ee-8845-46a4-9c1d-7afdac7d539b"
 msgid ""
 "\"You do remember that we promised to help Elan search for the ring at the "
 "abandoned camp? It's on the way to Drezen. We should have time to drop by!\""
 msgstr ""
+"\"Elan에게 버려진 야영지에서 반지 찾는거 도와주겠다고 약속했던거 기억나? 드레젠에 가는 길에 있으니, 들를 시간 정도는 있을거야!\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = SuperTrapTriggerScriptZone::EnterActions/Actions/0/IfTrue/Actions/3/IfTrue/Actions/0/WhatToBark
 #. 
 #. Type = Kingmaker.Blueprints.Area.BlueprintTrap
 #. Path = Lvl7_DraftFireballTrap::TrapActions/Actions/2/WhatToBark
-#, fuzzy
 msgctxt "ac9fe248-4e53-4d57-b525-0bf029a293ee"
 msgid "Trap triggered!"
 msgstr "함정 발동!"
@@ -2889,6 +2885,8 @@ msgid ""
 "crusaders will come here to say their prayers when the final battle is upon "
 "us. I've seen it happen in my previous campaigns.\""
 msgstr ""
+"\"이 천막은 예배당으로 쓰려고 준비했죠. 신앙심이 약한 성전사들도 마지막 전투가 벌어지기 전에는 이곳에 와서 기도를 하곤 합니다. 제 "
+"이전 작전에서 직접 봤죠.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = WarCamp_EarlyBeginning_Tent1_Bark::EnterActions/Actions/0/WhatToBark
@@ -2896,7 +2894,7 @@ msgctxt "2de1219c-946f-46af-9978-d84285568d25"
 msgid ""
 "\"This is Nurah Dendiwhar's tent. It seems she brought a lot of unnecessary "
 "items along with her.\""
-msgstr ""
+msgstr "\"여긴 누라 덴디와르의 천막입니다. 아무래도 온갖 잡동사니들을 끌고 온 모양이군요.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = WarCamp_EarlyBeginning_Tent2_Bark::EnterActions/Actions/0/WhatToBark
@@ -2905,6 +2903,8 @@ msgid ""
 "\"This is mine and Anevia's tent. We're both used to traveling, but the "
 "Queen insisted our tent to be furnished like a commanding officer's.\""
 msgstr ""
+"\"여긴 저와 아네비아의 천막입니다. 우리 둘 다 여행에 익숙하지만, 여왕 폐하께서 제대로 된 지휘 장교의 천막으로써 준비되어야 한다고 "
+"고집하셨죠.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = WardstoneReactDaeran::EnterActions/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -2912,7 +2912,7 @@ msgctxt "b17365da-d71b-4323-ac8f-a798c2f8596f"
 msgid ""
 "\"This Wardstone is a huge one for sure! Good thing it landed here and not "
 "on my mansion.\""
-msgstr ""
+msgstr "\"이 수호석은 정말 거대한걸! 내 저택이 아니라 여기 떨어져서 천만 다행이야.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = WardstoneReactLann::EnterActions/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -2920,7 +2920,7 @@ msgctxt "43056eac-7dd8-45ea-b41e-29931cc79750"
 msgid ""
 "\"That's one big stone, no doubt about it. The city's greatest sight... "
 "before it was tossed here upside down, that is.\""
-msgstr ""
+msgstr "\"정말 더럽게 큰 돌인걸. 도시 제일의 장관이라더니... 뭐, 위아래가 바껴서 여기로 던져지기 전 얘기지만 말이야.\""
 
 #. Type = Kingmaker.Blueprints.Area.BlueprintScriptZone
 #. Path = WardstoneReactSeelah::EnterActions/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -2929,3 +2929,4 @@ msgid ""
 "\"How could a demon destroy the gift of our goddess so easily? Are we not "
 "worthy of her blessing anymore?\""
 msgstr ""
+"\"어떻게 데몬들이 우리 여신의 선물을 이렇게 손쉽게 파괴할 수 있었지? 우리가 더 이상 그녀의 축복을 받을 자격이 없는건가?\""
