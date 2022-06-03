@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-05-30 14:42+0000\n"
+"PO-Revision-Date: 2022-06-03 10:33+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -26582,14 +26582,13 @@ msgstr "불경한 강신 — 첫 번째 능력치"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ProfaneAscensionConstitutionBuff1::m_Description
-#, fuzzy
 msgctxt "033030ae-cb14-471c-9144-0090d34cba38"
 msgid ""
 "Demonic Overlord can grant himself a +2 profane "
 "{g|Encyclopedia:Bonus}bonus{/g} to two {g|Encyclopedia:Ability_Scores}"
 "ability scores{/g}. Simultaneously only one such effect can be in place."
 msgstr ""
-"Demonic Overlord는 자신의 두 {g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 +2 불경 "
+"데몬 지배자는 자신의 두 {g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 +2 불경 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 부여할 수 있습니다. 이러한 효과는 오직 하나만 활성화될 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -31089,10 +31088,9 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = StormwalkerWeaponAbility::m_DisplayName
-#, fuzzy
 msgctxt "9f4315ed-299e-445f-8306-55e18c9a5a32"
 msgid "Thundershot"
-msgstr "바람걸음"
+msgstr "천둥걸음"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = StrengthBlessingMajorAbility::m_DisplayName
@@ -32071,7 +32069,7 @@ msgstr ""
 #. Path = SunBlessingMajorAbilityBoth::m_DisplayName
 msgctxt "60031286-1885-48af-8a25-d04acacd589f"
 msgid "Cleansing Fire — Flaming and Undead Bane"
-msgstr ""
+msgstr "정화의 화염 — 불꽃과 언데드 파멸"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SunBlessingMajorAbilityBoth::m_Description
@@ -32097,13 +32095,13 @@ msgstr ""
 #. Path = SunBlessingMajorAbilityFlaming::m_DisplayName
 msgctxt "d51c2cc5-ddca-4bb3-b04a-87ec94cdaf9a"
 msgid "Cleansing Fire — Flaming"
-msgstr ""
+msgstr "정화의 화염 — 불꽃"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SunBlessingMajorAbilityUndeadBane::m_DisplayName
 msgctxt "63c06c01-d879-4c76-b7fa-026a9700fd7e"
 msgid "Cleansing Fire — Undead Bane"
-msgstr ""
+msgstr "정화의 화염 — 언데드 파멸"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SunBlessingMinorAbility::m_DisplayName
@@ -32120,6 +32118,9 @@ msgid ""
 ". If it succeeds at a {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g}, "
 "it's instead dazzled for 1 round."
 msgstr ""
+"1 레벨에 적의 눈앞에 햇빛의 섬광을 일으킬 수 있습니다. 대상은 1 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"동안 실명합니다. 만일 대상이 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 성공하면 대신 1 라운드 동안 "
+"눈부심 상태가 됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Sunburst::m_DisplayName
@@ -32183,6 +32184,8 @@ msgid ""
 "Swarmform creature deals {g|Encyclopedia:Physical_Damage}Physical damage{/g} "
 "plus 1.5×{g|Encyclopedia:Strength}Strength{/g} modifier to target creature."
 msgstr ""
+"군체 크리처는 대상 크리처에게 입히는 {g|Encyclopedia:Physical_Damage}물리 피해{/g}에 1."
+"5×{g|Encyclopedia:Strength}힘{/g} 수정치를 더합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = SymbolOfRevelation::m_DisplayName
