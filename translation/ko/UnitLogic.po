@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-06-06 18:58+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-06-08 05:58+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -33746,7 +33746,7 @@ msgstr ""
 #. Path = TricksterSummonBeerElementalLarge::m_DisplayName
 msgctxt "9f91f67b-630b-4a69-858b-2518b6712c02"
 msgid "Summon Lager Beer Elemental"
-msgstr ""
+msgstr "대형 맥주 정령 소환"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TricksterSummonBeerElementalLarge::m_Description
@@ -33759,6 +33759,10 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} results. It "
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}만큼의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 대형 맥주 정령을 소환합니다. 크리처는 당신이 원하는 위치에 "
+"나타나며 {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g} 결과에 따라 "
+"행동합니다. 정령은 최고의 능력을 활용해 당신의 적을 {g|Encyclopedia:Attack}공격{/g}합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TricksterSummonBeerElementalMedium::m_DisplayName
@@ -33786,7 +33790,7 @@ msgstr ""
 #. Path = TricksterSummonBeerElementalSmall::m_DisplayName
 msgctxt "2bb1ce97-8da4-4ee3-9e08-37cb7f43fac2"
 msgid "Summon Small Beer Elemental"
-msgstr "소형 맥주 정령 소환"
+msgstr "소맥주 정령 소환"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TricksterSummonBeerElementalSmall::m_Description
@@ -33800,8 +33804,8 @@ msgid ""
 "{g|Encyclopedia:Attack}attacks{/g} your opponents to the best of its ability."
 msgstr ""
 "이 {g|Encyclopedia:Spell}주문{/g}은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}만큼의 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 소형 맥주 정령을 소환합니다. 크리처는 당신이 원하는 위치에 "
-"나타나며 {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g} 결과에 따라 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 소맥주 정령을 소환합니다. 크리처는 당신이 원하는 위치에 나타나며 "
+"{g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Check}판정{/g} 결과에 따라 "
 "행동합니다. 정령은 최고의 능력을 활용해 당신의 적을 {g|Encyclopedia:Attack}공격{/g}합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -34998,13 +35002,13 @@ msgstr ""
 #. Path = WarpriestFervorNegativeAbilitySelf::m_DisplayName
 msgctxt "86b51465-e4a1-47a0-9adb-2357cb1b16e1"
 msgid "Negative Energy Fervor — Self"
-msgstr ""
+msgstr "음에너지 백열 — 자신"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarpriestFervorPositiveAbilitySelf::m_DisplayName
 msgctxt "e5275bca-b287-4808-a1f1-baf21bb6be6a"
 msgid "Positive Energy Fervor — Self"
-msgstr ""
+msgstr "양에너지 백열 — 자신"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarpriestShieldbearerChannelEnergy::m_Description
@@ -35173,7 +35177,7 @@ msgstr ""
 #. Path = WaterPush::m_DisplayName
 msgctxt "d30f4168-1a40-4d63-ac4e-832695ab805b"
 msgid "Water Push"
-msgstr ""
+msgstr "수압"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WaterPush::m_Description
@@ -35187,8 +35191,8 @@ msgid ""
 "away for 5 feet and becomes slowed down for 1 "
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
-"아자타는 4{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d6{/g} "
-"{g|Encyclopedia:Damage}피해{/g}를 입히는 30 피트 원뿔의 물을 창조합니다. 영향 받는 적은 "
+"아자타는 4 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d6{/g} "
+"{g|Encyclopedia:Damage}피해{/g}를 입히는 30 피트 원뿔의 물을 만듭니다. 영향 받은 적은 "
 "{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 실패하면 10 피트 만큼 밀려난 뒤 넘어집니다. 크리처가 "
 "내성 굴림에 성공하면 5 피트만 밀려난 뒤 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 감속됩니다."
 
@@ -35196,7 +35200,7 @@ msgstr ""
 #. Path = WaterTorrent::m_DisplayName
 msgctxt "a01ad399-d25a-4ddd-b26d-20d7a25c7156"
 msgid "Water Torrent"
-msgstr ""
+msgstr "수류"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WaterTorrent::m_Description
@@ -35212,7 +35216,7 @@ msgid ""
 "{g|Encyclopedia:AbilityDamage}ability damage{/g}, blinded, confused, "
 "dazzled, diseased, exhausted, fatigued, nauseated, poisoned, and sickened."
 msgstr ""
-"아자타는 한 줄기의 물을 불러냅니다. 물줄기는 지역 안의 모든 적들에게 {g|Encyclopedia:Dice}6d6{/g} "
+"아자타가 한 줄기의 물을 불러냅니다. 물줄기는 지역 안의 모든 적들에게 {g|Encyclopedia:Dice}6d6{/g} "
 "{g|Encyclopedia:Damage_Type}부수기 피해{/g}를 가합니다. 영향 받는 모든 크리처는 "
 "{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 실패하면 1d6 "
 "{g|Encyclopedia:Combat_Round}라운드{/g} 동안 넘어진 뒤 감속 및 부수기 "
@@ -36124,7 +36128,7 @@ msgstr ""
 #. Path = AnimalFocusBearAnimalBuff::m_DisplayName
 msgctxt "ce185542-8d6c-4686-b333-4e42224255b8"
 msgid "Animal Focus — Bear"
-msgstr ""
+msgstr "동물 집중 — 곰"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusBear::m_Description
@@ -36147,7 +36151,7 @@ msgstr ""
 #. Path = AnimalFocusBullAnimalBuff::m_DisplayName
 msgctxt "d659a061-7fd1-49d7-8633-9c6c9b804ee9"
 msgid "Animal Focus — Bull"
-msgstr ""
+msgstr "동물 초점 — 황소"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusBull::m_Description
@@ -36170,7 +36174,7 @@ msgstr ""
 #. Path = AnimalFocusFalconAnimalBuff::m_DisplayName
 msgctxt "6966ba7d-0f67-44b9-8fa2-806fcdf29047"
 msgid "Animal Focus — Falcon"
-msgstr ""
+msgstr "동물 초점 — 매"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusFalcon::m_Description
@@ -36193,7 +36197,7 @@ msgstr ""
 #. Path = AnimalFocusMonkeyAnimalBuff::m_DisplayName
 msgctxt "75816ba5-1135-46e6-82e5-d30161c2a55c"
 msgid "Animal Focus — Monkey"
-msgstr ""
+msgstr "동물 초점 — 원숭이"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusMonkey::m_Description
@@ -36216,7 +36220,7 @@ msgstr ""
 #. Path = AnimalFocusMouseAnimalBuff::m_DisplayName
 msgctxt "f68d0e53-a28b-465e-9c34-a93dc3dd7a78"
 msgid "Animal Focus — Mouse"
-msgstr ""
+msgstr "동물 초점 — 쥐"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusMouse::m_Description
@@ -36236,7 +36240,7 @@ msgstr "크리처는 로그 클래스 특기의 회피를 얻습니다. 12 레�
 #. Path = AnimalFocusOwlAnimalBuff::m_DisplayName
 msgctxt "450d82f0-ff55-48dc-bf38-190f90afa371"
 msgid "Animal Focus — Owl"
-msgstr ""
+msgstr "동물 초점 — 올빼미"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusOwl::m_Description
@@ -36259,7 +36263,7 @@ msgstr ""
 #. Path = AnimalFocusStagAnimalBuff::m_DisplayName
 msgctxt "4dc5e679-6630-4d54-b71d-874da1f8daaf"
 msgid "Animal Focus — Stag"
-msgstr ""
+msgstr "동물 초점 — 수사슴"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusStag::m_Description
@@ -36282,7 +36286,7 @@ msgstr ""
 #. Path = AnimalFocusTigerAnimalBuff::m_DisplayName
 msgctxt "5d5d1f47-97d4-428b-bd9c-683b6201749f"
 msgid "Animal Focus — Tiger"
-msgstr ""
+msgstr "동물 초점 — 호랑이"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusTiger::m_Description
@@ -38041,7 +38045,6 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = GuardedStanceToggleAbility::m_DisplayName
-#, fuzzy
 msgctxt "00b8516a-bb88-418b-8446-e597976f8f22"
 msgid "Guarded Stance"
 msgstr "수비 태세"
@@ -38056,7 +38059,7 @@ msgstr "주먹망치"
 #. Path = HandlingTheCrowdAbility::m_DisplayName
 msgctxt "b693df86-a701-4f14-bc24-6a16040862a1"
 msgid "Handling the Crowd"
-msgstr ""
+msgstr "군중 다루기"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = HealingJudgmentAbility::m_DisplayName
@@ -38071,25 +38074,25 @@ msgstr "심판 — 치유"
 #. Path = HellknightAxiomaticAbility::m_DisplayName
 msgctxt "c1912649-3c8f-4894-90ec-5594e90d8102"
 msgid "Hell's Knight — Axiomatic"
-msgstr ""
+msgstr "지옥의 기사 — 공리"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = HellknightFlamingBurstAbility::m_DisplayName
 msgctxt "6185e535-ff12-43db-9805-e5af592b1792"
 msgid "Hell's Knight — Flaming Burst"
-msgstr ""
+msgstr "헬 나이트 — 불꽃 폭발"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = HellknightUnholyAbility::m_DisplayName
 msgctxt "4c2ad38b-1b57-4a3d-985d-803d70c01108"
 msgid "Hell's Knight — Unholy"
-msgstr ""
+msgstr "헬 나이트 — 부정"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = HunterAnimalFocusForHimself::m_DisplayName
 msgctxt "f2c86bea-409e-443c-b354-8b465af5424a"
 msgid "Animal Focus — Hunter"
-msgstr ""
+msgstr "동물 중점 — 사냥꾼"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ImpromptuSneakAttackToggleAbility::m_DisplayName
@@ -38185,7 +38188,7 @@ msgstr ""
 #. Path = IncredibleMightAbility::m_DisplayName
 msgctxt "6353f8a5-f9a3-423b-9439-928e0c9fa37c"
 msgid "Incredible Might — Share"
-msgstr ""
+msgstr "믿을 수 없는 힘 — 공유"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = IncredibleMightAbility::m_Description
@@ -38197,6 +38200,9 @@ msgid ""
 "{g|Encyclopedia:Damage}damage rolls{/g} equal to +1 per 2 Azata's mythic "
 "ranks."
 msgstr ""
+"아자타는 믿을 수 없는 힘의 보너스를 포기하는 대신 동료들의 육체 능력을 강화할 수 있습니다. 동료들은 모든 "
+"{g|Encyclopedia:Attack}공격{/g}과 {g|Encyclopedia:Damage}피해 굴림{/g}에 아자타의 신화 레벨 "
+"2 당 +1 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = InquisitorGreaterBaneAbility::m_Description
@@ -38287,7 +38293,7 @@ msgstr "심판 — 정의"
 #. Path = KnightsEmblemSunsetChainmailPenaltyBuff::m_DisplayName
 msgctxt "0665a2d0-cb8a-4d79-97fb-9e41c3e0bac7"
 msgid "Chainmail of Zeal"
-msgstr ""
+msgstr "열정의 사슬갑옷"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = LegSweepToggleAbility::m_DisplayName
@@ -38368,13 +38374,13 @@ msgctxt "67f5a910-46cb-49af-b378-6cd515789177"
 msgid ""
 "Dire Conditions ({g|Encyclopedia:DC}DC{/g} 35): Blinded, paralyzed, and "
 "stunned."
-msgstr ""
+msgstr "극심한 상태 ({g|Encyclopedia:DC}DC{/g} 35): 실명, 마비, 기절."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = MasterHealingTechniqueMajorConditionsToggleAbility::m_Description
 msgctxt "3e796167-fda1-4504-8453-f0da0498ac66"
 msgid "Major Conditions (DC 25): Dazed and staggered."
-msgstr ""
+msgstr "중대한 상태 (DC 25): 몽롱, 비틀거림."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = MasterHealingTechniqueMinorConditionsToggleAbility::m_Description
@@ -38382,7 +38388,7 @@ msgctxt "9e916c06-668c-4a81-aa39-b89ef27f616a"
 msgid ""
 "Minor Conditions ({g|Encyclopedia:DC}DC{/g} 20): Fatigued, shaken, and "
 "sickened."
-msgstr ""
+msgstr "경미한 상태 ({g|Encyclopedia:DC}DC{/g} 20): 피로, 동요, 고통."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = MasterHealingTechniqueSevereConditionsToggleAbility::m_Description
@@ -38390,7 +38396,7 @@ msgctxt "d950b62a-565c-4b57-b542-d1926235e126"
 msgid ""
 "Severe Conditions ({g|Encyclopedia:DC}DC{/g} 30): Confused, exhausted, "
 "frightened, and nauseated."
-msgstr ""
+msgstr "심각한 상태 ({g|Encyclopedia:DC}DC{/g} 30): 혼란, 탈진, 겁먹음, 구토."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = MentalOverflowLevel11Cha::m_Description
@@ -38552,10 +38558,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ProtectiveAuraEffectBuff::m_DisplayName
-#, fuzzy
 msgctxt "0b0a9a3f-0374-43cd-aabf-ec64c71e6dad"
 msgid "Protective Aura"
-msgstr "보호의 오라"
+msgstr "수호의 오라"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = MidnightFane_ProtectiveToggleAbility::m_Description
@@ -38649,17 +38654,23 @@ msgid ""
 "succeed at this saving throw are immune to this ability for 24 hours. The "
 "save DC is {g|Encyclopedia:Charisma}Charisma{/g}-based."
 msgstr ""
+"대부분의 데몬 군주들과는 달리, 녹티큘라는 무시무시한 존재감 능력을 가지고 있지 않습니다. 대신 그녀는 "
+"{g|Encyclopedia:Free_Action}자유 행동{/g}으로 활성화할 수 있는 유혹적인 존재감 능력을 가지고 있습니다. "
+"{g|Encyclopedia:DC}DC{/g} 43 {g|Encyclopedia:Saving_Throw}인내 내성{/g}에 실패한 60 "
+"피트 내의 모두는 정신 영향 효과, 매혹 효과, 강박 효과에 대한 모든 면역을 잃고 녹티큘라에게 "
+"{g|Encyclopedia:Dice}5d4{/g} {g|Encyclopedia:Combat_Round}라운드{/g} 동안 현혹됩니다. "
+"이 오라 내에서 정신 영향 효과에 영향받은 크리처는 녹티큘라의 유혹적인 존재감을 벗어난 이후에도 영향받은 채로 남아 있습니다. 내성 "
+"굴림에 성공한 크리처는 24 시간 동안 이 능력에 면역됩니다. 내성 DC는 {g|Encyclopedia:Charisma}매력{/g}에 "
+"기반합니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = NymphBlindingBeautyToggleAbility::m_DisplayName
-#, fuzzy
 msgctxt "b2e9da8e-e391-4de9-9aeb-2cea1d3e46ef"
 msgid "Blinding Beauty"
 msgstr "눈 멀게하는 아름다움"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = OpportunistsBootsAbility::m_DisplayName
-#, fuzzy
 msgctxt "8c4a0152-74b0-49c6-bc29-3a7707deb438"
 msgid "Raging Opportunity Taker"
 msgstr "맹렬한 기회 포착자"
@@ -38668,17 +38679,16 @@ msgstr "맹렬한 기회 포착자"
 #. Path = OracleRevelationInvisibilityAbilityGreater::m_DisplayName
 msgctxt "dfd46127-e65d-4a38-b978-0380306b4c33"
 msgid "Invisibility — Greater"
-msgstr ""
+msgstr "투명화 — 상급"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = PiercingJudgmentAbility::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = PiercingJudgmentBuff::m_DisplayName
-#, fuzzy
 msgctxt "b19fee77-6715-49a5-aca5-f447d105855a"
 msgid "Judgment — Piercing"
-msgstr "심판 - 관통"
+msgstr "심판 — 관통"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = PointBlankShotAbility::m_Description
@@ -38689,6 +38699,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonuses{/g} from Point-Blank Shot "
 "{g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
+"이 능력은 당신이 직사 {g|Encyclopedia:Feat}특기{/g}의 {g|Encyclopedia:Bonus}보너스{/g}를 받도록 "
+"{g|Encyclopedia:Attack}공격{/g}중인 적의 30 피트 범위 안으로 이동케 합니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ProtectionDomainGreaterToggleAbility::m_DisplayName
@@ -38701,10 +38713,9 @@ msgstr "보호의 오라"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = PurityJudgmentBuff::m_DisplayName
-#, fuzzy
 msgctxt "ed4eba94-6fc9-47f1-b95d-fa0cc10d064b"
 msgid "Judgment — Purity"
-msgstr "심판 - 순수"
+msgstr "심판 — 순수"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = RangedLegerdemainToggleAbility::m_DisplayName
@@ -38714,14 +38725,12 @@ msgstr "원격 손재주"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = RecklessStanceToggleAbility::m_DisplayName
-#, fuzzy
 msgctxt "81726826-8427-4001-aea6-5d0eb8c8b07d"
 msgid "Reckless Stance"
 msgstr "광폭 태세"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ReposeDomainGreaterToggleAbility::m_DisplayName
-#, fuzzy
 msgctxt "faa2967b-f6ad-4994-8e55-4a8da99eefa3"
 msgid "Ward Against Death"
 msgstr "죽음 대항 수호물"
@@ -38731,60 +38740,54 @@ msgstr "죽음 대항 수호물"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ResiliencyJudgmentBuffChaos::m_DisplayName
-#, fuzzy
 msgctxt "f3c8065e-ab1d-402c-bc48-0a9d6dadd67c"
 msgid "Judgment — Resiliency (Chaotic)"
-msgstr "심판 - 탄성 (혼돈)"
+msgstr "심판 — 탄성 (혼돈)"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ResiliencyJudgmentAbilityEvil::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ResiliencyJudgmentBuffEvil::m_DisplayName
-#, fuzzy
 msgctxt "4c56cbf9-faee-4e39-9b06-cc507e613170"
 msgid "Judgment — Resiliency (Evil)"
-msgstr "심판-탄성(악)"
+msgstr "심판 — 탄성 (악)"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ResiliencyJudgmentAbilityGood::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ResiliencyJudgmentBuffGood::m_DisplayName
-#, fuzzy
 msgctxt "a9c68e74-419f-4ae2-94ac-8baf7c9a3e19"
 msgid "Judgment — Resiliency (Good)"
-msgstr "심판-탄성(선)"
+msgstr "심판 — 탄성 (선)"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ResiliencyJudgmentAbilityLaw::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ResiliencyJudgmentBuffLaw::m_DisplayName
-#, fuzzy
 msgctxt "11c9c977-a49a-42e0-80e4-8ce45f6ac736"
 msgid "Judgment — Resiliency (Lawful)"
-msgstr "피해감소-탄성(질서)"
+msgstr "심판 — 탄성 (질서)"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ResiliencyJudgmentAbilityMagic::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ResiliencyJudgmentBuffMagic::m_DisplayName
-#, fuzzy
 msgctxt "5eedc535-a408-472b-8712-b16d09227793"
 msgid "Judgment — Resiliency (Magic)"
-msgstr "심판-탄성(마법적)"
+msgstr "심판 — 탄성 (마법)"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ResistanceJudgmentAbility::m_DisplayName
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ResistanceJudgmentBuff::m_DisplayName
-#, fuzzy
 msgctxt "75629e1b-b1d8-45d0-936f-d8fd4a7cb6af"
 msgid "Judgment — Resistance"
-msgstr "심판-저항"
+msgstr "심판 — 저항"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = ResourcelessFocusedRageActivateableAbility::m_Description
@@ -39549,12 +39552,14 @@ msgid ""
 "The wearer can fully embrace the powers of these bracers, allowing them to "
 "turn all their energy {g|Encyclopedia:Attack}attacks{/g} into electrical."
 msgstr ""
+"착용자는 이 팔찌들의 힘을 완전히 받아들여, 사용하는 모든 에너지 {g|Encyclopedia:Attack}공격{/g} 유형을 전기로 "
+"바꿀 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StudentOfWarKnowYourEnemyDefensiveStance::m_DisplayName
 msgctxt "36cd91fa-a9a5-4b19-a429-5262573dcb66"
 msgid "Know Your Enemy — Defensive Stance"
-msgstr ""
+msgstr "네 적을 알라 — 방어 태세"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StudentOfWarKnowYourEnemyDefensiveStance::m_Description
@@ -39565,12 +39570,15 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} against the target's "
 "{g|Encyclopedia:Attack}attacks{/g}."
 msgstr ""
+"방어 태세: '네 적을 알라' 능력으로부터 얻는 {g|Encyclopedia:Bonus}보너스{/g}가 적의 "
+"{g|Encyclopedia:Attack}공격{/g}에 대한 {g|Encyclopedia:Armor_Class}방어도{/g}와 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에도 적용됩니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StudentOfWarKnowYourEnemyMartialStance::m_DisplayName
 msgctxt "de10881d-57a4-422f-87cc-67325fbbb44a"
 msgid "Know Your Enemy — Martial Stance"
-msgstr ""
+msgstr "네 적을 알라 — 전투 태세"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StudentOfWarKnowYourEnemyMartialStance::m_Description
@@ -39580,12 +39588,14 @@ msgid ""
 "ability applies on {g|Encyclopedia:Attack}attack{/g} and "
 "{g|Encyclopedia:Damage}damage rolls{/g} against the target."
 msgstr ""
+"전투 태세: '네 적을 알라' 능력으로부터 얻는 {g|Encyclopedia:Bonus}보너스{/g}가 "
+"{g|Encyclopedia:Attack}명중{/g}과 {g|Encyclopedia:Damage}피해 굴림{/g}에도 적용됩니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StudentOfWarKnowYourEnemyTacticalStance::m_DisplayName
 msgctxt "d11a86d6-d249-4c1b-9c17-4fd7fe7f4bf4"
 msgid "Know Your Enemy — Tactical Stance"
-msgstr ""
+msgstr "네 적을 알라 — 전술 태세"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StudentOfWarKnowYourEnemyTacticalStance::m_Description
@@ -39596,12 +39606,15 @@ msgid ""
 "{g|Encyclopedia:Check}checks{/g} and to {g|Encyclopedia:CMD}CMD{/g} when "
 "initiating or defending against combat maneuvers."
 msgstr ""
+"전술 태세: '네 적을 알라' 능력으로부터 얻는 {g|Encyclopedia:Bonus}보너스{/g}가 전법을 시행하거나 방어할 때 "
+"{g|Encyclopedia:Combat_Maneuvers}전법{/g} {g|Encyclopedia:Check}판정{/g}과 "
+"{g|Encyclopedia:CMD}CMD{/g}에도 적용됩니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StygianSlayerShadowyMistFormToggleAbility::m_DisplayName
 msgctxt "32d57af3-7696-4888-a32f-4cfa62e3786c"
 msgid "Shadowy Mist Form"
-msgstr ""
+msgstr "그림자 안개 형태"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = StygianSlayerShadowyMistFormToggleAbility::m_Description
@@ -39614,6 +39627,10 @@ msgid ""
 "ability for a number of minutes per day equal to his level. These minutes "
 "need not be consecutive, but must be used in 1-minute increments."
 msgstr ""
+"10 레벨에 스티지언 슬레이어는 칠흑같은 안개 구름으로 변신할 수 있습니다. 안개 상태일 때는 비 마법 무기로 "
+"{g|Encyclopedia:Damage}피해{/g}를 입지 않으며, 유령 접촉, 신성, 신격, 역장이 아닌 다른 피해 원천으로부터는 "
+"절반의 피해만을 입습니다. 슬레이어는 하루에 레벨 당 1분 동안 이 능력을 사용할 수 있습니다. 이 능력을 연속해서 사용할 필요는 없지만 "
+"1분 단위로 사용해야 합니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = SunDomainGreaterToggleAbility::m_DisplayName
@@ -40159,13 +40176,13 @@ msgstr ""
 #. Path = WitheringLifeMentalToggleAbility::m_DisplayName
 msgctxt "d1f0f179-c535-4d5f-a7b1-977e84ea698d"
 msgid "Withering Life — Mental"
-msgstr ""
+msgstr "시드는 생명 — 정신"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = WitheringLifePhysicalToggleAbility::m_DisplayName
 msgctxt "9c5b2168-d340-4de0-a8db-c6922a44257b"
 msgid "Withering Life — Physical"
-msgstr ""
+msgstr "시드는 생명 — 육체"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = 1_FirstStage_AcidBuff::m_DisplayName
@@ -40183,7 +40200,7 @@ msgstr ""
 #. Path = 2_SecondStage_AcidBuff::m_DisplayName
 msgctxt "589ab19e-e1eb-4639-91d2-de1b05f2ce4a"
 msgid "Areshkagal's Projections"
-msgstr ""
+msgstr "아레시카갈의 투영"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = 1_FirstStage_AcidBuff::m_Description
@@ -40204,6 +40221,8 @@ msgid ""
 "Areshkagal's projection gain unique abilities each on her bite "
 "{g|Encyclopedia:Attack}attacks{/g}. Their powers depend on their number."
 msgstr ""
+"아레시카갈의 투영은 매 물기 {g|Encyclopedia:Attack}공격{/g}마다 특별한 능력을 얻습니다. 얻은 힘은 그 숫자에 따라 "
+"달라집니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = Abadar_Buff::m_DisplayName
@@ -40249,6 +40268,10 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} against all "
 "{g|Encyclopedia:Spell}spells{/g} you cast by 2 for a day."
 msgstr ""
+"도토리 파이를 먹으면 하루 동안 {g|Encyclopedia:Concentration}집중 판정{/g}에 +4 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 추가적으로 하루 동안 당신이 시전한 모든 "
+"{g|Encyclopedia:Spell}주문{/g}에 대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}의 "
+"{g|Encyclopedia:DC}DC{/g}가 2 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AidBuff::m_DisplayName
@@ -40374,7 +40397,7 @@ msgstr "다리 골절"
 #. Path = AngelBoltOfJusticeStrongerBuff::m_DisplayName
 msgctxt "50ee9f59-fca6-41c7-a04d-42cb3f45d252"
 msgid "Justice Wrath"
-msgstr ""
+msgstr "정의의 분노"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AngelBoltOfJusticeStrongerBuff::m_Description
@@ -40392,7 +40415,7 @@ msgstr ""
 #. Path = AngelBoltOfJusticeWeakerBuff::m_DisplayName
 msgctxt "3e97249b-8817-4e7e-bf72-ae62a9ce828f"
 msgid "Justice Sanction"
-msgstr ""
+msgstr "정의의 제재"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AngelBoltOfJusticeWeakerBuff::m_Description
@@ -40548,21 +40571,18 @@ msgstr "파멸"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = SacredWeaponEnchantBrilliantEnergyBuff::m_DisplayName
-#, fuzzy
 msgctxt "fb192bfc-eaba-4a2b-944a-f7d24e440e12"
 msgid "Brilliant Energy"
 msgstr "광명의 에너지"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ArcaneWeaponFrostBuff::m_DisplayName
-#, fuzzy
 msgctxt "f04d2b09-5d70-46b7-bfc5-e4612af731c4"
 msgid "Frost"
 msgstr "서리"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ArcaneWeaponGhostTouchBuff::m_DisplayName
-#, fuzzy
 msgctxt "37801d29-5f95-4002-bd7f-4b5591bad00e"
 msgid "Ghost Touch"
 msgstr "유령접촉"
@@ -40679,12 +40699,16 @@ msgid ""
 "plant creature for the purpose of abilities and "
 "{g|Encyclopedia:Spell}spells{/g}."
 msgstr ""
+"아르카니스트는 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 자연 방어 보너스와 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} N/{g|Encyclopedia:Damage_Type}베기{/g}"
+"를 얻습니다. N은 {g|Encyclopedia:Charisma}매력{/g} 수정치와 같습니다 (최소 1). 이 능력의 효과를 받는 중일 "
+"때, 아르카니스트는 능력과 {g|Encyclopedia:Spell}주문{/g}에 대해 본래 크리처 타입과 동시에 식물로 판정됩니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = Areelu_UnbreakableDefenseBuff::m_DisplayName
 msgctxt "25828d85-8670-47ac-a5bf-6e2a1af17feb"
 msgid "Unbreakable Defense"
-msgstr ""
+msgstr "꺾이지 않는 방어"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = Areelu_UnbreakableDefenseBuff::m_Description
@@ -40695,6 +40719,9 @@ msgid ""
 "{g|Encyclopedia:HP}hit points{/g} fall below 50% she restores full HP. This "
 "effect is activated up to three times per day."
 msgstr ""
+"아릴루는 재생 능력을 강화하기 위해 많은 시간을 보냈습니다. 그녀는 빠른 {g|Encyclopedia:Healing}치유{/g} 20을 "
+"얻습니다. 그녀의 {g|Encyclopedia:HP}생명점{/g}이 50% 아래로 떨어질 때 모든 체력을 회복합니다. 이 효과는 하루에 "
+"세 번까지 발동될 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AreshkagalDialogFx::m_DisplayName
@@ -40703,7 +40730,7 @@ msgstr ""
 #. Path = EnygmaDebuff::m_DisplayName
 msgctxt "13db495f-13b8-4fed-8657-296a50bfa48c"
 msgid "Enigma Rejection"
-msgstr ""
+msgstr "불가사의 거부"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AreshkagalDialogFx::m_Description
@@ -40712,7 +40739,7 @@ msgstr ""
 #. Path = EnygmaDebuff::m_Description
 msgctxt "563728d2-baa8-4dec-bb1a-88d66d98cdfe"
 msgid "You are nothing. Accept it."
-msgstr ""
+msgstr "너는 아무 것도 아니다. 받아들여라."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ArmyBuildingBreweryClericBuff::m_Description
@@ -40853,9 +40880,10 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ArueshalaeImmortalityBuff::Components/0/Actions/Actions/0/WhatToBark
+#, fuzzy
 msgctxt "dbd5697f-a2ca-4df9-a4f4-1016cca3bb2c"
 msgid "\"Desna preserve me!\""
-msgstr ""
+msgstr "\"데즈나님 저를 지켜주소서!\""
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AshLeprosyBuff::m_Description
@@ -40954,7 +40982,6 @@ msgstr "천사의 형상 오라, 상급"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AuraOfAngelicAspectGreaterEffectBuff::m_DisplayName
-#, fuzzy
 msgctxt "463486c5-4634-4994-ab42-8fdfbb5b8c7b"
 msgid "Angelic Aura"
 msgstr "천사의 오라"
@@ -40967,10 +40994,9 @@ msgstr "신앙의 오라"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AuraOfJusticeSmiteEvilBuff::m_DisplayName
-#, fuzzy
 msgctxt "b5a764bb-4f3d-48c8-8642-bd7642266144"
 msgid "Mark of Justice — Smite Evil"
-msgstr "정의의 표식 - 악 처단"
+msgstr "정의의 표식 — 악 처단"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AuraOfProtectionFromEvilEffectBuff::m_DisplayName
@@ -47708,7 +47734,7 @@ msgctxt "05bbe2ee-f506-44e1-8afc-4c8dad8e889e"
 msgid ""
 "Severe Conditions ({g|Encyclopedia:DC}DC{/g} 30): Confused, exhausted, "
 "frightened, and nauseated."
-msgstr "심각한 상태 ({g|Encyclopedia:DC}DC{/g} 30): 혼란, 탈진, 피로, 구토."
+msgstr "심각한 상태 ({g|Encyclopedia:DC}DC{/g} 30): 혼란, 탈진, 겁먹음, 구토."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MastodonSteakBuff::m_DisplayName

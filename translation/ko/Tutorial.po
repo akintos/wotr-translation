@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-06-05 17:58+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-06-08 05:58+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1887,6 +1887,8 @@ msgid ""
 "{t|SourceAbility}. It requires the material component {t|Descriptor}, which "
 "you don't possess."
 msgstr ""
+"{t|SourceUnit} 캐릭터는 {t|SourceAbility} {g|Encyclopedia:Spell}주문{/g}을 준비했습니다. "
+"해당 주문은 당신이 지니고 있지 않은 {t|Descriptor} 물질 구성 요소를 필요로 합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_MaterialComponent::m_DescriptionText
@@ -2660,12 +2662,14 @@ msgid ""
 "bar, open the belt bar and use the scroll from it. When you use a scroll, it "
 "disappears."
 msgstr ""
+"두루마리를 사용하려면 소지품에서 {t|SolutionUnit} 캐릭터의 허리띠 칸에 끌어넣으세요. 이후 "
+"{g|Encyclopedia:Spell}주문{/g} 창에서 허리띠 창을 열어 두루마리를 사용하세요. 두루마리는 사용시 사라집니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ScrollsMemorizing::m_TitleText
 msgctxt "5edadfe3-f493-4ac3-9105-40864a717429"
 msgid "Learning Spells From Scrolls"
-msgstr ""
+msgstr "두루마리에서 주문 익히기"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ScrollsMemorizing::m_TriggerText
@@ -2675,6 +2679,8 @@ msgid ""
 "can learn the {g|Encyclopedia:Spell}spell{/g} from it to add it to their "
 "spellbook. It will destroy the scroll."
 msgstr ""
+"{t|SourceItem} 두루마리를 얻었습니다. {t|SolutionUnit} 당신의 캐릭터는 두루마리에서 "
+"{g|Encyclopedia:Spell}주문{/g}을 을 익혀 주문책에 추가할 수 있습니다. 이는 두루마리를 파괴합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ScrollsMemorizing::m_DescriptionText
@@ -2685,6 +2691,8 @@ msgid ""
 "them to their spellbook. It's an effective way to enrich your spell list. "
 "The scroll is then expended."
 msgstr ""
+"위저드처럼 주문을 준비하는 비전 {g|Encyclopedia:Spell}주문 시전자{/g} 클래스는 두루마리에서 주문을 배워 주문책에 "
+"추가할 수 있습니다. 이는 주문 목록을 풍부하게 만드는 효과적인 방법입니다. 두루마리는 이 때 소모됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_ScrollsMemorizing::m_SolutionNotFoundText
@@ -2694,6 +2702,8 @@ msgid ""
 "screen of the character that will learn it, click RMB on the scroll, and "
 "choose \"Memorize\" from the menu."
 msgstr ""
+"두루마리에서 {g|Encyclopedia:Spell}주문{/g}을 배우려면 주문을 배울 캐릭터의 장비 창을 열어 두루마리를 우클릭한 뒤 "
+"메뉴에서 \"기억하기\"를 선택하세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SneakAttack::m_TitleText
@@ -2712,6 +2722,8 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} to your character {t|TargetUnit} with a "
 "sneak {g|Encyclopedia:Attack}attack{/g}."
 msgstr ""
+"{t|SourceUnit} 적은 당신의 캐릭터 {t|TargetUnit}에게 {g|Encyclopedia:Attack}암습{/g}으로 "
+"증가한 {g|Encyclopedia:Damage}피해{/g}를 입혔습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SneakAttack::m_DescriptionText
@@ -2731,13 +2743,20 @@ msgid ""
 "target. A spell can't deal sneak attack damage unless it requires a ranged "
 "{g|Encyclopedia:TouchAttack}touch attack{/g} to hit."
 msgstr ""
+"{g|Encyclopedia:Attack}암습{/g}은 일부 클래스에게 (아케인 트릭스터, 어새신, 로그, 슬레이어, 비비섹셔니스트) "
+"허용된 특별한 힘입니다. 암습은 적이 {g|Encyclopedia:Flat_Footed}무방비{/g} 또는 협공 상태일 때 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 입히게 해줍니다. 당신은 암습 피해를 무기와 "
+"{g|Encyclopedia:Spell}주문{/g} 모두로 입힐 수 있습니다.\n"
+"암습 피해를 {g|Encyclopedia:RangedAttack}원거리 공격{/g}이나 주문으로 입히기 위해서는 대상으로부터 30 피트 "
+"이내에 위치해야 합니다. 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 요구하지 않는 주문은 암습 피해를 "
+"가할 수 없습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SneakAttack::m_SolutionNotFoundText
 msgctxt "1ef4fa61-21b2-40db-918e-6389544bf676"
 msgid ""
 "Try your best not to get caught {g|Encyclopedia:Flat_Footed}flat-footed{/g}."
-msgstr ""
+msgstr "{g|Encyclopedia:Flat_Footed}무방비{/g} 상태가 되지 않도록 최선을 다하십시오."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SneakAttackRecruit::m_TriggerText
@@ -2747,6 +2766,8 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} to your enemies with a sneak "
 "{g|Encyclopedia:Attack}attack{/g}."
 msgstr ""
+"일행에 {t|SourceUnit} 캐릭터가 추가되었습니다. 이 캐릭터는 {g|Encyclopedia:Attack}암습{/g}으로 적에게 "
+"증가한 {g|Encyclopedia:Damage}피해{/g}를 입힐 수 있습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SneakAttackRecruit::m_SolutionNotFoundText
@@ -2754,7 +2775,7 @@ msgctxt "f7ba70e5-92ac-4f0b-ac09-5509f4e57eff"
 msgid ""
 "To deal additional {g|Encyclopedia:Damage}damage{/g} to your enemies, try to "
 "outflank them in melee."
-msgstr ""
+msgstr "적에게 추가 {g|Encyclopedia:Damage}피해{/g}를 입히기 위해 근접에서 협공을 시도해보세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistance::m_TitleText
@@ -2770,6 +2791,8 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} because of their "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgstr ""
+"{t|TargetUnit} 당신의 적이 당신이 시전한 {g|Encyclopedia:Spell}주문{/g}의 부정적 효과를 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g} 덕택에 회피했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistance::m_DescriptionText
@@ -2785,6 +2808,12 @@ msgid ""
 "creature's spell resistance value. Spell resistance works even against the "
 "beneficial spells cast by the allies."
 msgstr ""
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}은 일부 {g|Encyclopedia:Spell}주문{/g} "
+"또는 장비를 통해 획득할 수 있는 드문 능력입니다. 대부분의 데몬들은 주문 저항력을 지니고 있습니다. 만일 주문 시전의 대상으로 삼은 "
+"크리처가 주문 저항력을 지니고 있다면 성공적인 주문 시전을 위해 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} "
+"{g|Encyclopedia:Check}판정{/g}에 ({g|Encyclopedia:Dice}1d20{/g} + 시전자 레벨) 성공해야만 "
+"합니다. 주문이 제대로 작용하려면, 당신의 결과값이 크리처의 주문 저항력 값 이상이어야 합니다. 주문 저항력은 아군이 시전한 이로운 "
+"주문에도 적용됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistance::m_SolutionNotFoundText
@@ -2797,6 +2826,10 @@ msgid ""
 "If an enemy's spell resistance is too high, don't waste spells on them, and "
 "{g|Encyclopedia:Attack}attack{/g} by other means."
 msgstr ""
+"적의 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 극복하려면 당신의 "
+"{g|Encyclopedia:Spell}주문 시전자{/g}에게 주문 관통 특기를 주거나, 주문을 메타매직으로 강화해야 합니다.\n"
+"만일 적의 주문 저항이 지나치게 높다면 그들에게 주문을 낭비하는 대신 다른 {g|Encyclopedia:Attack}공격{/g} 수단을 "
+"찾아보세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceBuff::m_TitleText
@@ -2812,6 +2845,8 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} because of their "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgstr ""
+"{t|TargetUnit} 캐릭터는 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}으로 인해 당신 "
+"{g|Encyclopedia:Spell}주문{/g}의 이로운 효과를 받지 못했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceBuff::m_DescriptionText
