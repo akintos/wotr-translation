@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-06-28 07:18+0000\n"
+"PO-Revision-Date: 2022-07-01 08:58+0000\n"
 "Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -35860,7 +35860,7 @@ msgstr ""
 #. Path = WanderingConmanItem::m_DisplayNameText
 msgctxt "1934d08c-ea85-41be-98d0-1c0735614510"
 msgid "Wandering Conman"
-msgstr ""
+msgstr "떠돌이 사기꾼"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = WanderingConmanItem::m_DescriptionText
@@ -35872,6 +35872,11 @@ msgid ""
 "checks{/g}, as well as +2 bonus to {g|Encyclopedia:Attack}attack rolls{/g} "
 "for {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}."
 msgstr ""
+"이 천옷은 착용자에게 {g|Encyclopedia:Trickery}속임수{/g}에 +10 능숙 "
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Athletics}운동{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +10 능숙 보너스, "
+"{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g} {g|Encyclopedia:Attack}명중 "
+"굴림{/g}에 +2 보너스를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_AeonCloakItem::m_DisplayNameText
@@ -35905,6 +35910,13 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g}, "
 "saving throws, and {g|Encyclopedia:Skills}skill checks{/g}."
 msgstr ""
+"에온이 이 망토를 착용하면 전투 중일때 30 피트 범위 내의 시공간을 왜곡합니다. 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}마다 적들은 {g|Encyclopedia:Saving_Throw}의지 "
+"내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} = 10 + 신화 레벨 + "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치) 을 시행해 실패할 경우 1 라운드 동안 '감속' "
+"{g|Encyclopedia:Spell}주문{/g}에 걸린 것처럼 느려집니다. 범위 내의 아군은 상시 '가속' 주문의 효과를 받습니다. "
+"또한 범위 내의 아군들은 {g|Encyclopedia:Attack}명중 굴림{/g}, 내성 굴림, "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +4 통찰 보너스를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_AeonCloakItem::m_FlavorText
@@ -36010,6 +36022,8 @@ msgid ""
 "additional 4 dice of {g|Encyclopedia:Damage}damage{/g} or "
 "{g|Encyclopedia:Healing}heal{/g} an additional 4 dice of damage instead of 2."
 msgstr ""
+"엔젤이 이 망토를 착용하면 천상의 검 능력의 {g|Encyclopedia:Damage}피해{/g} 굴림 주사위가 4 개 증가하고, 천상의 "
+"검으로 피해를 {g|Encyclopedia:Healing}치유{/g}할 때 주사위 2 개 대신 4 개를 굴립니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_AzataCloakItem::m_DescriptionText
@@ -36020,6 +36034,9 @@ msgid ""
 "{g|Encyclopedia:Damage_Reduction}DR{/g} N/- where N is equal to Azata's "
 "mythic rank."
 msgstr ""
+"아자타가 자신의 드래곤과 연결됩니다. 아자타가 받는 {g|Encyclopedia:Damage}피해{/g}의 50% 를 아이부가 대신 "
+"받습니다. 또한, 아이부는 {g|Encyclopedia:Damage_Reduction}DR{/g} N/- 을 받습니다. N 은 아자타의 "
+"신화 레벨과 동일합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_DemonCloakItem::m_DescriptionText
@@ -36027,13 +36044,13 @@ msgctxt "9d3f45ed-fd22-4099-bd9e-b20f4d22cc8a"
 msgid ""
 "Demon Rage and Demon Aspects now grant bonuses as if you were 3 mythic ranks "
 "higher."
-msgstr ""
+msgstr "악마의 격노와 악마의 형상이 당신의 신화 레벨이 3 만큼 더 높은 것처럼 보너스를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_DevilCloakItem::m_DescriptionText
 msgctxt "a3571aef-7c6d-49ba-b291-e014c31faa7d"
 msgid "This cloak grants Devil 3 additional uses of Hell's Seal per day."
-msgstr ""
+msgstr "데빌이 이 망토를 착용하면 하루에 지옥의 인장 능력을 3 회 더 사용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_DragonCloakItem::m_DescriptionText
@@ -36044,6 +36061,9 @@ msgid ""
 "Divine {g|Encyclopedia:Damage}damage{/g} and its {g|Encyclopedia:DC}DC{/g} "
 "is increased by 2."
 msgstr ""
+"드래곤이 이 망토를 착용하면 9 레벨 {g|Encyclopedia:Spell}주문{/g} 슬롯이 2 개 더 늘어납니다. 또한, 드래곤의 "
+"숨결이 20 신격 {g|Encyclopedia:Damage}피해{/g}를 추가로 가하며 {g|Encyclopedia:DC}DC{/g}가 "
+"2 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_LegendCloakItem::m_DescriptionText
@@ -36053,6 +36073,8 @@ msgid ""
 "{g|Encyclopedia:Skills}skill check{/g} and take the best result from both "
 "throws."
 msgstr ""
+"레전드가 이 망토를 착용하면 {g|Encyclopedia:Skills}기술 판정{/g} 시 주사위를 두 번 "
+"{g|Encyclopedia:Dice}굴려{/g} 둘 중 더 나은 결과를 택할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = Artifact_LichCloakItem::m_DescriptionText
@@ -36089,26 +36111,22 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = BlackFurCloakItem::m_DisplayNameText
-#, fuzzy
 msgctxt "b5f1fd7e-7d08-43d0-86d4-e7a0a3d50655"
 msgid "Black Fur Cloak"
 msgstr "검은 모피 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = BlackFurCloakItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +10 competence bonus to all Stealth checks "
-#| "and cold resistance 30."
 msgctxt "8e1d0cb3-7014-4536-b8f6-d3b5d4d5a139"
 msgid ""
 "This cloak grants its wearer a +10 competence {g|Encyclopedia:Bonus}bonus{/g}"
 " to all {g|Encyclopedia:Stealth}Stealth checks{/g} and cold resistance 30."
-msgstr "이 망토는 착용자에게 모든 은신 판정에 +10 능숙 보너스와 냉기 저항 30을 제공합니다."
+msgstr ""
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Stealth}은신 판정{/g}에 +10 능숙 "
+"{g|Encyclopedia:Bonus}보너스{/g}와 냉기 저항 30을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = BlackFurCloakItem::m_FlavorText
-#, fuzzy
 msgctxt "abb44b69-39a7-457b-88ab-9266b9394e3e"
 msgid ""
 "The unknown creature's fur on this cloak is warm, and dark like a starless "
@@ -36117,19 +36135,12 @@ msgstr "알 수 없는 크리처의 모피로 만든 이 망토는 따뜻하고,
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = BlackKnightCloakItem::m_DisplayNameText
-#, fuzzy
 msgctxt "dd412839-d044-4e94-af51-3e0085046595"
 msgid "Castigator's Cloak"
 msgstr "징벌자의 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = BlackKnightCloakItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +4 deflection bonus to AC, a +4 resistance "
-#| "bonus to all saves, a +4 enhancement bonus to Persuasion skill checks when "
-#| "used to intimidate, and a +2 bonus on attack and damage rolls against shaken "
-#| "targets. Can be used only by characters of evil alignment."
 msgctxt "dacd8679-c595-40b9-a043-ac16d9fecd08"
 msgid ""
 "This cloak grants its wearer a +4 deflection {g|Encyclopedia:Bonus}bonus{/g} "
@@ -36141,12 +36152,14 @@ msgid ""
 " against shaken targets. Can be used only by characters of evil "
 "{g|Encyclopedia:Alignment}alignment{/g}."
 msgstr ""
-"이 망토는 착용자에게 AC +4 굴절 보너스, 모든 내성 +4 저항 보너스, 위협시 설득 기술 판정에 +4 강화 보너스와 동요된 표적에 "
-"대한 명중 및 피해 굴림에 +2 보너스를 제공합니다. 악 성향의 캐릭터만이 사용 할 수 있습니다."
+"이 망토는 착용자에게 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 굴절 보너스, 모든 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 저항 보너스, 위협시 "
+"{g|Encyclopedia:Persuasion}설득{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 +4 강화 "
+"보너스와 동요된 표적에 대한 {g|Encyclopedia:Attack}명중{/g} 및 {g|Encyclopedia:Damage}피해{/g}"
+" 굴림에 +2 보너스를 제공합니다. 악 {g|Encyclopedia:Alignment}성향{/g}의 캐릭터만이 사용 할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = BlackKnightCloakItem::m_FlavorText
-#, fuzzy
 msgctxt "685fefb6-64d3-4a96-87dd-edd9a8350d6d"
 msgid ""
 "On the underlay, a motto is embroidered: \"Anguish Sows Fear, Fear Sprouts "
@@ -36167,6 +36180,8 @@ msgid ""
 "they gain immunity to mind-affecting conditions for 3 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 저항의 망토 +2 의 착용자가 적을 처치하면 3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 정신 영향 "
+"효과에 면역을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CallToViolenceItem::m_DisplayNameText
@@ -36183,6 +36198,9 @@ msgid ""
 "on {g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage "
 "rolls{/g}."
 msgstr ""
+"이 저항의 망토 +4 는 착용자에게 30 피트 범위의 오러를 부여해, 범위 내의 격노중인 모든 아군에게 "
+"{g|Encyclopedia:Attack}명중{/g} 및 {g|Encyclopedia:Damage}피해{/g} 굴림에 +2 보너스를 "
+"부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CapeOfDesinsectorItem::m_DisplayNameText
@@ -36448,129 +36466,111 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance1::m_DisplayNameText
-#, fuzzy
 msgctxt "70fa08b1-ce1d-45b3-9f7c-72b639d9143a"
 msgid "Cloak of Resistance +1"
 msgstr "저항의 망토 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance1::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +1 resistance bonus on all saving throws. "
-#| "Bonuses of the same type usually don't stack."
 msgctxt "296065ec-6c2d-447d-a9c4-f76e14bc57a7"
 msgid ""
 "This cloak grants its wearer a +1 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Saving_Throw}saving throws{/g}. Bonuses of the same "
 "type usually don't stack."
-msgstr "이 망토는 착용자에게 모든 내성 굴림 +1의 저항 보너스를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +1 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance2::m_DisplayNameText
-#, fuzzy
 msgctxt "f33c9414-2d05-4076-8928-bbc9b35783a2"
 msgid "Cloak of Resistance +2"
 msgstr "저항의 망토 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance2::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +2 resistance bonus on all saving throws. "
-#| "Bonuses of the same type usually don't stack."
 msgctxt "7ceefaf6-91f5-41ed-b01b-a239e15e50d5"
 msgid ""
 "This cloak grants its wearer a +2 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Saving_Throw}saving throws{/g}. Bonuses of the same "
 "type usually don't stack."
-msgstr "이 망토는 착용자에게 모든 내성 굴림 +2의 저항 보너스를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance3::m_DisplayNameText
-#, fuzzy
 msgctxt "b8d4ab36-dded-4746-bdb6-11bf2f628ff1"
 msgid "Cloak of Resistance +3"
 msgstr "저항의 망토 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance3::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +3 resistance bonus on all saving throws. "
-#| "Bonuses of the same type usually don't stack."
 msgctxt "79b1fca1-6524-4c73-9573-47a0f61fc882"
 msgid ""
 "This cloak grants its wearer a +3 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Saving_Throw}saving throws{/g}. Bonuses of the same "
 "type usually don't stack."
-msgstr "이 망토는 착용자에게 모든 내성 굴림 +3의 저항 보너스를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +3 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance4::m_DisplayNameText
-#, fuzzy
 msgctxt "0e91ffed-0ea8-4488-b17a-a9165c57af3d"
 msgid "Cloak of Resistance +4"
 msgstr "저항의 망토 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance4::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +4 resistance bonus on all saving throws. "
-#| "Bonuses of the same type usually don't stack."
 msgctxt "371c0752-e636-47ee-926a-7403ff99e680"
 msgid ""
 "This cloak grants its wearer a +4 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Saving_Throw}saving throws{/g}. Bonuses of the same "
 "type usually don't stack."
-msgstr "이 망토는 착용자에게 모든 내성 굴림 +4의 저항 보너스를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance5::m_DisplayNameText
-#, fuzzy
 msgctxt "7a44d42c-c9ac-483a-a940-0282a2526e73"
 msgid "Cloak of Resistance +5"
 msgstr "저항의 망토 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance5::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +5 resistance bonus on all saving throws. "
-#| "Bonuses of the same type usually don't stack."
 msgctxt "28849f5c-488a-42cd-a072-0043df469382"
 msgid ""
 "This cloak grants its wearer a +5 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Saving_Throw}saving throws{/g}. Bonuses of the same "
 "type usually don't stack."
-msgstr "이 망토는 착용자에게 모든 내성 굴림 +5의 저항 보너스를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +5 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance6::m_DisplayNameText
-#, fuzzy
 msgctxt "6726d1d6-31aa-4556-bf75-114adc75156f"
 msgid "Cloak of Resistance +6"
 msgstr "저항의 망토 +6"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfResistance6::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +6 resistance bonus on all saving throws. "
-#| "Bonuses of the same type usually don't stack."
 msgctxt "53723774-46c5-4d00-b732-9d49a3d17f99"
 msgid ""
 "This cloak grants its wearer a +6 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Saving_Throw}saving throws{/g}. Bonuses of the same "
 "type usually don't stack."
-msgstr "이 망토는 착용자에게 모든 내성 굴림 +6의 저항 보너스를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +6 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfSacredStudiesItem::m_DisplayNameText
 msgctxt "665a01bc-f41d-4799-95cb-73dea66ca498"
 msgid "Cloak of Sacred Studies"
-msgstr ""
+msgstr "신학자의 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfSacredStudiesItem::m_DescriptionText
@@ -36581,21 +36581,18 @@ msgid ""
 "(Religion){/g} and {g|Encyclopedia:Knowledge_Arcana}Knowledge (Arcane){/g} "
 "{g|Encyclopedia:Skills}skill checks{/g}."
 msgstr ""
+"이 저항의 망토 +5 는 착용자에게 {g|Encyclopedia:Lore_Religion}전승 (종교){/g}와 "
+"{g|Encyclopedia:Knowledge_Arcana}지식 (비전){/g} {g|Encyclopedia:Skills}기술 판정{/g}"
+"에 +12 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfSeerItem::m_DisplayNameText
-#, fuzzy
 msgctxt "3e028829-97ea-484b-ab69-cbba1b2e392b"
 msgid "Cloak of the Seer"
 msgstr "선견자의 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfSeerItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +3 deflection bonus to AC, a +3 bonus to "
-#| "Fortitude and Will saving throws, and an ability to cast see invisibility "
-#| "spell once per day as a 3rd level wizard."
 msgctxt "16635e94-f220-4110-b91c-a01f1c87bad8"
 msgid ""
 "This cloak grants its wearer a +3 deflection {g|Encyclopedia:Bonus}bonus{/g} "
@@ -36604,40 +36601,37 @@ msgid ""
 "invisibility {g|Encyclopedia:Spell}spell{/g} once per day as a 3rd level "
 "wizard."
 msgstr ""
-"이 망토는 착용자에게 AC에 +4의 굴절 보너스, 인내 및 의지 내성 굴림 +3 보너스와 하루에 한 번 3 레벨 위저드의 투명체 탐지 "
-"주문 시전 능력을 제공합니다."
+"이 망토는 착용자에게 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}, 인내 및 의지 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}"
+"에 +3 보너스와 하루에 한 번 3 레벨 위저드의 '투명화 탐지' {g|Encyclopedia:Spell}주문{/g} 시전 능력을 "
+"제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfShadows::m_DisplayNameText
-#, fuzzy
 msgctxt "d1940bf9-1d40-47c7-aa78-d6e38fb7afc7"
 msgid "Cloak of Shadows"
 msgstr "그림자의 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfShadows::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +10 enhancement bonus to all Stealth skill "
-#| "checks, and immunity to blindness and dazzling."
 msgctxt "5378f498-46dc-4825-8991-bbc2b57d6407"
 msgid ""
 "This cloak grants its wearer a +10 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} to all {g|Encyclopedia:Stealth}Stealth{/g} "
 "{g|Encyclopedia:Skills}skill checks{/g}, and immunity to blindness and "
 "dazzling."
-msgstr "이 망토는 착용자에게 은신 기술 판정에 +10 강화 보너스 및 몽롱과 실명에 면역을 제공합니다."
+msgstr ""
+"이 망토는 착용자에게 {g|Encyclopedia:Stealth}은신{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 "
+"+10 강화 {g|Encyclopedia:Bonus}보너스{/g} 및 몽롱과 실명에 면역을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfShadows::m_FlavorText
-#, fuzzy
 msgctxt "0b579864-d911-40eb-a79e-085aaecf79d5"
 msgid "Shadows are running along the fabric of the cape."
-msgstr "망토 어깨의 천을 따라 그림자가 움직이고 있습니다."
+msgstr "망토 어깨의 천을 따라 그림자가 일렁입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfSharpFangs::m_FlavorText
-#, fuzzy
 msgctxt "a49397ed-b0f1-4019-a36f-703a1f267e9d"
 msgid ""
 "For generations, this leather cloak served as the symbol of power held by "
@@ -36646,18 +36640,16 @@ msgid ""
 "symbol of power Regongar holds over his own destiny."
 msgstr ""
 "이 가죽 망토는 여러 세대에 걸쳐 날카로운 송곳니 부족의 족장이 쥐고 있는 권력의 상징 역할을 했습니다. 그 부족은 이미 오래 전에 "
-"망했고, 망토는 그슬린 자국과 말라붙은 피로 얼룩져 있습니다. 이제는 레곤가르가 자신의 운명을 쥐고 있는 힘의 상징 역할을 합니다."
+"멸망했고, 망토는 그슬린 자국과 말라붙은 피로 얼룩져 있습니다. 이제는 레곤가르가 자신의 운명을 쥐고 있는 힘의 상징 역할을 합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfSparklesItem::m_DisplayNameText
-#, fuzzy
 msgctxt "166c7ebb-0523-448f-b3b3-0049245381e1"
 msgid "Cloak Of Sparkles"
 msgstr "광채의 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfSparklesItem::m_DescriptionText
-#, fuzzy
 msgctxt "4bd17ce2-fbad-4492-bc36-8fb8f7893987"
 msgid ""
 "This cloak grants its wearer fire resistance 30 and electricity resistance "
@@ -36666,24 +36658,20 @@ msgstr "이 망토는 착용자에게 화염 저항 30과 전기 저항 30을 �
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfStagLord::m_DisplayNameText
-#, fuzzy
 msgctxt "a97f3ddd-67d6-4656-af4f-3d23905881e7"
 msgid "Cloak of Winter Veil"
 msgstr "겨울 장막의 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfStagLord::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This cloak grants its wearer a +1 resistance bonus on all saving throws and "
-#| "cold resistance 10. Bonuses of the same type usually don't stack."
 msgctxt "4c5baeb2-4656-4e43-9d0d-b319ade11a59"
 msgid ""
 "This cloak grants its wearer a +1 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Saving_Throw}saving throws{/g} and cold resistance "
 "10. Bonuses of the same type usually don't stack."
 msgstr ""
-"이 망토는 착용자에게 모든 내성 굴림 +1의 저항 보너스와 냉기 저항 10을 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+"이 망토는 착용자에게 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +1 저항 보너스와 냉기 저항 10을 "
+"제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfStagLord::m_FlavorText
@@ -36696,7 +36684,7 @@ msgstr "원단이 차게 느껴집니다."
 #. Path = CloakOfStrongWilledItem::m_DisplayNameText
 msgctxt "0c53c943-fd5f-414d-835a-99399a134390"
 msgid "Cloak of Unbending Will"
-msgstr ""
+msgstr "굴하지 않는 의지의 망토"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfStrongWilledItem::m_DescriptionText
@@ -36705,6 +36693,8 @@ msgid ""
 "This cloak grants the wearer a +3 resistance {g|Encyclopedia:Bonus}bonus{/g} "
 "on Will {g|Encyclopedia:Saving_Throw}saving throws{/g}."
 msgstr ""
+"이 망토는 착용자에게 의지 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +3 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = CloakOfTheAncientHeraldItem::m_DisplayNameText
