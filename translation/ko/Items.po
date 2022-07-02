@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-07-01 08:58+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-07-02 16:58+0000\n"
+"Last-Translator: darkgaia <darkgaia@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -15546,7 +15546,7 @@ msgstr ""
 #. Path = ChiefKey::m_DisplayNameText
 msgctxt "d5a04021-fee3-4075-b7c3-d4ee6943e339"
 msgid "Numerian Key"
-msgstr ""
+msgstr "누메리아식 열쇠"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = ChiefKey::m_DescriptionText
@@ -15554,7 +15554,7 @@ msgctxt "3866103f-023d-4a21-be64-67683dcb00c3"
 msgid ""
 "A carved key inlaid with glimmering crystals. Judging by its unusual design, "
 "it pairs with some sort of Numerian mechanism."
-msgstr ""
+msgstr "반짝이는 수정을 새겨 만든 열쇠입니다. 그 독특한 생김새로 보아, 이것의 짝이 되는 누메리아식 잠금장치가 있을 것입니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = CrusadeChronicles::m_DescriptionText
@@ -15721,7 +15721,7 @@ msgstr ""
 #. Path = Cutter::m_DisplayNameText
 msgctxt "fc78667d-46c2-4745-b38e-0dffde677914"
 msgid "Flaming Lockpick"
-msgstr ""
+msgstr "발화식 락픽"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = Cutter::m_FlavorText
@@ -15732,19 +15732,21 @@ msgid ""
 "flask with a low whine, the flaming lockpick releases a stream of white-hot "
 "flame, heating and quickly vaporizing the metal lock."
 msgstr ""
+"이 장치의 생김새는 도무지 잠긴 문을 여는 물품 같지 않지만, 그 용도에 완벽히 들어맞습니다. 금속 관을 연결하여 가스를 주입하면, 이 "
+"장치는 낮은 웅웅거림과 함께 백열하는 불꽃을 내뿜어서 금속 자물쇠를 가열하고, 증발시켜 버립니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = CutterAmmo::m_DisplayNameText
 msgctxt "9424594f-7988-47bd-ab2d-e5efd5309d58"
 msgid "Flaming Lockpick Fuel"
-msgstr ""
+msgstr "발화식 락픽 연료"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = CutterAmmo::m_FlavorText
 msgctxt "ebab6330-0fbc-4fa5-9548-f13001928c64"
 msgid ""
 "The metal flask is full of foul-smelling gas — fuel for a flaming lockpick."
-msgstr ""
+msgstr "이 금속 관에는 악취가 나는 가스 — 발화식 락픽의 연료가 가득 채워져 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = DaeranNote::m_DisplayNameText
@@ -62407,7 +62409,7 @@ msgstr ""
 #. Path = WrathOfAncestorItem::m_DisplayNameText
 msgctxt "c64449cb-adbf-4116-aced-1b10d4eade59"
 msgid "Wrath of Ancestor"
-msgstr ""
+msgstr "선조의 격노"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = WrathOfAncestorItem::m_DescriptionText
@@ -62426,7 +62428,7 @@ msgstr ""
 #. Path = WrathOfTheCreatorItem::m_DisplayNameText
 msgctxt "2834917b-879d-4166-a163-f0236a340566"
 msgid "Wrath of the Creator"
-msgstr ""
+msgstr "창조자의 격노"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = WrathOfTheCreatorItem::m_DescriptionText
@@ -62438,6 +62440,10 @@ msgid ""
 "{g|Encyclopedia:Speed}speed{/g} by 10 feet and grants a +2 dodge bonus to "
 "{g|Encyclopedia:Armor_Class}AC{/g} against Huge and bigger enemies."
 msgstr ""
+"이 +5 예리한 구조물 파멸의 드워프 우르그로쉬는 착용자의 {g|Encyclopedia:Initiative}우선권{/g} "
+"{g|Encyclopedia:Dice}굴림{/g}에 +6 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 제공하고, 기본 "
+"{g|Encyclopedia:Speed}속도{/g}를 10피트 증가시키며 거대형 이상의 적에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +2 피하기 보너스를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = WreckingDevilItem::m_DisplayNameText
