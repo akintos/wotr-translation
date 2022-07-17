@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-07-16 04:43+0000\n"
+"PO-Revision-Date: 2022-07-17 08:34+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -60159,6 +60159,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on all {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g} and a +3 bonus to {g|Encyclopedia:CMD}CMD{/g}."
 msgstr ""
+"이 +3 아다만틴 글레이브를 장착한 동안, 탑승물이 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}과 "
+"{g|Encyclopedia:CMD}CMD{/g}에 +3 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = StauntonGlaiveMountItem::m_FlavorText
@@ -60290,15 +60292,13 @@ msgstr "신속한 일격"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SwiftBlowItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 shock greatsword grants its wielder the ability to cast umbral "
-#| "strike spell once per day as a 13th level wizard."
 msgctxt "252468f7-39b5-46d2-976c-4eb9502d6dbf"
 msgid ""
 "This +4 shock greatsword grants its wielder the ability to cast umbral "
 "strike {g|Encyclopedia:Spell}spell{/g} once per day as a 13th level wizard."
-msgstr "이 +4 전격의 대검은 하루에 한 번 13 레벨 위저드의 암영 일격 주문을 쓸 수 있게 해줍니다."
+msgstr ""
+"이 +4 전격의 대검은 하루에 한 번 13 레벨 위저드의 암영 일격 {g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 "
+"해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SwordOfEternalSquire::m_DisplayNameText
@@ -60309,14 +60309,12 @@ msgstr "영원한 예속의 검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SwordOfEternalSquire::m_DescriptionText
-#, fuzzy
 msgctxt "5997ba0b-14e4-45d8-9298-a996031efded"
 msgid "This weapon is a +1 holy longsword."
 msgstr "이 무기는 +1 성스러운 장검입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SwordOfEternalSquire::m_FlavorText
-#, fuzzy
 msgctxt "c265657d-9482-41ce-aafc-429146deb07e"
 msgid "The sword seems to be brimming with holy power."
 msgstr "이 검은 신성한 힘으로 가득해 보입니다."
@@ -60330,14 +60328,12 @@ msgstr "검객의 열정"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SwordsmansPassion::m_DescriptionText
-#, fuzzy
 msgctxt "3a9dd3c0-9eb5-4a06-8720-59793269fa76"
 msgid "This weapon is a +2 agile dueling sword."
 msgstr "이 무기는 +2 날렵한 결투용 검입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SwordsmansPassion::m_FlavorText
-#, fuzzy
 msgctxt "f03f147d-dfa8-4b11-887b-c3ee28ac2e2f"
 msgid ""
 "Any swordlord would be proud to own this weapon as both a great weapon and a "
@@ -60346,24 +60342,18 @@ msgstr "어떤 소드로드라도 이 훌륭한 무기이자 예술품을 갖는
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TalonOfTheWise::m_DisplayNameText
-#, fuzzy
 msgctxt "9c8f7741-ef61-4681-b330-d0553d316290"
 msgid "Talon of the Wise"
 msgstr "현자의 발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TalonOfTheWise::m_DescriptionText
-#, fuzzy
 msgctxt "7eb29107-9922-43c3-9584-0ee8c50ddb18"
 msgid "This weapon is a +2 agile kama."
 msgstr "이 무기는 +2 날렵한 카마입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TalonOfTheWise::m_FlavorText
-#, fuzzy
-#| msgid ""
-#| "The kama utters a high-pitched scream when swung. It is as sharp as the "
-#| "weapon's edge."
 msgctxt "7d88d145-f342-4411-8eef-0d1054a5d3d9"
 msgid ""
 "This kama utters a high-pitched scream when swung. It is as sharp as the "
@@ -60397,27 +60387,23 @@ msgstr "이 무기의 목재 손잡이는 살아있으며, 끊임없이 작은 �
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TeamworkItem::m_DisplayNameText
-#, fuzzy
 msgctxt "29f4bc64-b469-4668-aa1b-98fa78b099be"
 msgid "Faithful Companion"
 msgstr "믿음직한 동료"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TeamworkItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 cutlass grants its wielder a +2 insight bonus to attack rolls "
-#| "against flat footed and flanked targets."
 msgctxt "fe2b6e5d-64dc-4374-9836-30d6a692f732"
 msgid ""
 "This +4 cutlass grants its wielder a +2 insight "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Attack}attack rolls{/g} "
 "against flat footed and {g|Encyclopedia:Flanking}flanked{/g} targets."
-msgstr "이 +4 커틀러스는 무방비 및 협공 상태의 대상에 대한 명중 굴림에 +2 통찰 보너스를 더해줍니다."
+msgstr ""
+"이 +4 커틀러스는 무방비 및 {g|Encyclopedia:Flanking}협공{/g} 상태의 대상에 대한 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}에 +2 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TeamworkItem::m_FlavorText
-#, fuzzy
 msgctxt "51dfda38-f03d-49fd-8a40-4f4e4bf1d550"
 msgid ""
 "An utterance is engraved on the hilt: \"When you die, your treasures won't "
@@ -60426,26 +60412,20 @@ msgstr "자루에 다음과 같은 말이 새겨져 있습니다. \"죽으면 �
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TearsOfBloodShurikenItem::m_DisplayNameText
-#, fuzzy
 msgctxt "865a61ad-2e94-46c7-a1f5-10e6074022cd"
 msgid "Tears of Blood"
 msgstr "피눈물"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TearsOfBloodShurikenItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 keen agile sai has a chance to stun the opponent on a successful hit "
-#| "and grants its wielder the ability to cast sirocco spell once per day as a "
-#| "13th level wizard."
 msgctxt "3268c099-49c7-46b0-8d36-cbf5baa75a5b"
 msgid ""
 "This +5 keen agile sai has a chance to stun the opponent on a successful hit "
 "and grants its wielder the ability to cast sirocco "
 "{g|Encyclopedia:Spell}spell{/g} once per day as a 13th level wizard."
 msgstr ""
-"이 +5 예리한 날렵한 필가차는 명중 시 적을 기절시킬 수 있으며, 착용자에게 하루에 한 번 13 레벨 위저드의 열풍 주문을 쓸 수 있게 "
-"해줍니다."
+"이 +5 예리한 날렵한 필가차는 명중 시 적을 기절시킬 수 있으며, 착용자에게 하루에 한 번 13 레벨 위저드의 열풍 "
+"{g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TempestAxeFirstItem::m_DisplayNameText
@@ -60503,10 +60483,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = Test_TrollhoundBite_Large::m_DisplayNameText
-#, fuzzy
 msgctxt "7c23a876-1907-490c-8fda-169aca2bb2ce"
 msgid "Bite"
-msgstr "깨물기"
+msgstr "물기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TheAncientRootItem::m_DisplayNameText
@@ -60522,6 +60501,8 @@ msgid ""
 "summons a huge Earth Elemental for {g|Encyclopedia:Dice}2d3{/g} "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +3 상급 부식성 몽둥이의 착용자가 적을 죽일 때마다, {g|Encyclopedia:Dice}2d3{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 대형 대지 정령을 소환합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TheBlitzCutItem::m_DisplayNameText
