@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-07-17 08:34+0000\n"
+"PO-Revision-Date: 2022-07-18 12:43+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -31654,25 +31654,22 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = BeholderOfWindAmuletItem::m_DisplayNameText
-#, fuzzy
 msgctxt "4af70d5e-d576-40fc-b540-8427f9cfa8a9"
 msgid "Beholder of Wind"
 msgstr "바람의 주시자"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = BeholderOfWindAmuletItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This locket grants its wearer a +4 enhancement bonus to Dexterity and allows "
-#| "to cast blessings of luck and resolve spell twice per day as a 3rd level "
-#| "cleric."
 msgctxt "04faa022-75dd-4eef-91d6-69ed4b2057b9"
 msgid ""
 "This locket grants its wearer a +4 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Dexterity}Dexterity{/g} "
 "and allows to cast blessings of luck and resolve "
 "{g|Encyclopedia:Spell}spell{/g} twice per day as a 3rd level cleric."
-msgstr "이 로켓은 착용자에게 민첩에 +4 강화 보너스를 주고, 하루에 두 번 행운과 결의의 축복 주문을 시전할 수 있게 해줍니다."
+msgstr ""
+"이 로켓은 착용자의 {g|Encyclopedia:Dexterity}민첩{/g}에 +4 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 주고, 하루에 두 번 3레벨 클레릭처럼 '행운과 결의의 축복' "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = BindingsOfThePrinceItem::m_DisplayNameText
@@ -31728,7 +31725,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = BindingsOfThePrinceItem::m_FlavorText
-#, fuzzy
 msgctxt "85cfcdbd-138b-47ab-89f0-9dfcfe7f022a"
 msgid ""
 "This chain is modelled after one of those that bound the Zon-Kuthon herald, "
@@ -31737,14 +31733,12 @@ msgstr "이 사슬은 존 쿠쏜의 사자, 사슬 대공을 묶은 사슬을 �
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = BindingsOfThePrinceItem::m_NonIdentifiedNameText
-#, fuzzy
 msgctxt "1d91df29-3034-4ec5-bcf3-cb876a439b46"
 msgid "Rusty Chain"
 msgstr "녹슨 사슬"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = BlackPearlPendant::m_DisplayNameText
-#, fuzzy
 msgctxt "469ffa8a-f9ad-42c3-9b62-365d2d9fb1a8"
 msgid "Black Pearl Pendant"
 msgstr "흑진주 펜던트"
@@ -31760,10 +31754,14 @@ msgid ""
 "wearer a +4 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}"
 "saving throws{/g} against Illusion school {g|Encyclopedia:Spell}spells{/g}."
 msgstr ""
+"이 목걸이의 착용자가 적을 처치하면, 3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 10/"
+"{g|Encyclopedia:Damage_Type}부수기{/g}를 얻습니다. 이에 더해 이 목걸이는 착용자에게 환영학파 "
+"{g|Encyclopedia:Spell}주문{/g}에 대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = BoneNecklace::m_DisplayNameText
-#, fuzzy
 msgctxt "370b3f39-a2cc-4d03-b47a-4690fb695a3c"
 msgid "Bone Necklace"
 msgstr "뼈 목걸이"
@@ -31787,25 +31785,18 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = CitrineNecklace::m_DisplayNameText
-#, fuzzy
 msgctxt "c918b4c1-cc0f-4d57-9f8c-1a3ae0cae5ee"
 msgid "Citrine Necklace"
 msgstr "황수정 목걸이"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = ClockworkPendant::m_DisplayNameText
-#, fuzzy
 msgctxt "ce906c5a-1814-4ff1-a3ac-5b8e8669890f"
 msgid "Clockwork Pendant"
 msgstr "시계태엽 펜던트"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = ClockworkPendant::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This pendant grants its wearer a +10 bonus to movement speed. Slow and haste "
-#| "spells cast by the wearer have their duration increased by a half as if "
-#| "affected by an Extend Spell feat."
 msgctxt "606cb7a0-7f3b-45f0-9cf8-a93ad1262eaf"
 msgid ""
 "This pendant grants its wearer a +10 {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -31814,12 +31805,12 @@ msgid ""
 "increased by a half as if affected by an Extend Spell "
 "{g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
-"이 펜던트는 착용자에게 이동속도에 +10 보너스를 제공합니다. 착용자가 가속이나 감속 주문을 시전하면 마치 메타매직(시간 연장) 특기를 "
-"사용한 것과 같이 지속시간이 1.5배로 증가합니다."
+"이 펜던트는 착용자에게 {g|Encyclopedia:Speed}속도{/g}에 +10 {g|Encyclopedia:Bonus}보너스{/g}"
+"를 제공합니다. 착용자가 가속이나 감속 {g|Encyclopedia:Spell}주문{/g}을 시전하면 마치 메타매직(시간 연장) "
+"{g|Encyclopedia:Feat}특기{/g}를 사용한 것과 같이 지속시간이 1.5배로 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = ClockworkPendant::m_FlavorText
-#, fuzzy
 msgctxt "7c03fbb5-f11a-4781-8033-1e9d680b4f4e"
 msgid "If you hold up this amulet to your ear, you can hear it ticking."
 msgstr "이 부적에 귀를 대면 똑딱 거리는 소리를 들을 수 있습니다."
@@ -31881,10 +31872,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = DaeranGift::m_DisplayNameText
-#, fuzzy
 msgctxt "0c258cec-4b56-423d-8a75-cfff6b9ea9ae"
 msgid "Daeran's Gift"
-msgstr "대란의 선물"
+msgstr "대런의 선물"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = DaeranGift::m_DescriptionText
