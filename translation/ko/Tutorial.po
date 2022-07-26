@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-07-19 16:35+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-07-26 14:11+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -2862,6 +2862,11 @@ msgid ""
 "value. Spell resistance works even against the beneficial spells cast by the "
 "allies."
 msgstr ""
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}은 일부 {g|Encyclopedia:Spell}주문{/g} "
+"또는 장비를 통해 획득할 수 있는 드문 능력입니다. 만일 주문 시전의 대상으로 삼은 크리처가 주문 저항력을 지니고 있다면 성공적인 주문 "
+"시전을 위해 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} {g|Encyclopedia:Check}판정{/g}에 "
+"({g|Encyclopedia:Dice}1d20{/g} + 시전자 레벨) 성공해야만 합니다. 주문이 제대로 작용하려면, 당신의 결과값이 "
+"크리처의 주문 저항력 값 이상이어야 합니다. 주문 저항력은 아군이 시전한 이로운 주문에도 적용됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceBuff::m_SolutionFoundText
@@ -2881,12 +2886,14 @@ msgid ""
 "more frequently, you should remove the effect that gives them "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgstr ""
+"아군의 {g|Encyclopedia:Spell}주문{/g}이 이 캐릭터에게 보다 자주 작용하게 하려면 그들에게 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 주는 효과를 제거해야 합니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceItem::m_TitleText
 msgctxt "b146e41e-9956-464d-a5b1-b37483cb0338"
 msgid "Allies' Spell Resistance"
-msgstr ""
+msgstr "아군의 주문 저항"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceItem::m_TriggerText
@@ -2896,6 +2903,8 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} because of their "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgstr ""
+"{t|TargetUnit} 캐릭터는 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}으로 인해 "
+"{g|Encyclopedia:Spell}주문{/g}의 이로운 효과를 받지 못했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceItem::m_DescriptionText
@@ -2911,6 +2920,11 @@ msgid ""
 "value. Spell resistance works even against the beneficial spells cast by the "
 "allies."
 msgstr ""
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}은 일부 {g|Encyclopedia:Spell}주문{/g} "
+"또는 장비를 통해 획득할 수 있는 드문 능력입니다. 만일 주문 시전의 대상으로 삼은 크리처가 주문 저항력을 지니고 있다면 성공적인 주문 "
+"시전을 위해 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} {g|Encyclopedia:Check}판정{/g}에 "
+"({g|Encyclopedia:Dice}1d20{/g} + 시전자 레벨) 성공해야만 합니다. 주문이 제대로 작용하려면, 당신의 결과값이 "
+"크리처의 주문 저항력 값 이상이어야 합니다. 주문 저항력은 아군이 시전한 이로운 주문에도 적용됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_SpellResistanceItem::m_SolutionFoundText

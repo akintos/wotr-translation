@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-07-25 19:43+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-07-26 14:11+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -21994,35 +21994,28 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GoodAligned::m_EnchantName
-#, fuzzy
 msgctxt "4feee078-3b79-466d-a272-89cd00b5fba7"
 msgid "Good-aligned"
 msgstr "선 성향"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GoodAligned::m_Description
-#, fuzzy
-#| msgid "A good-aligned weapon can bypass the DR of certain creatures."
 msgctxt "a4a7b56e-e6b9-4452-8789-c83833a0374c"
 msgid ""
 "A {g|Encyclopedia:Alignment}good-aligned{/g} weapon can bypass the "
 "{g|Encyclopedia:Damage_Reduction}DR{/g} of certain creatures."
-msgstr "선 선향 무기는 특정 크리처의 DR을 무시할 수 있습니다."
+msgstr ""
+"{g|Encyclopedia:Alignment}선 성향{/g}의 무기는 특정한 크리처의 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g}을 무시할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GreaterBaneEverything::m_EnchantName
-#, fuzzy
 msgctxt "ded9a57e-30b1-43fb-944f-6253d0ba5d38"
 msgid "Bane (Temporary)"
 msgstr "파멸 (임시)"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GreaterBaneEverything::m_Description
-#, fuzzy
-#| msgid ""
-#| "A bane weapon excels against certain foes. Against a designated foe, the "
-#| "weapon's enhancement bonus is +2 better than its actual bonus. It also deals "
-#| "an extra 2d6 points of damage against such foes."
 msgctxt "41ca89f5-da2e-48d2-a582-588627e1fd8d"
 msgid ""
 "A bane weapon excels against certain foes. Against a designated foe, the "
@@ -22030,8 +22023,9 @@ msgid ""
 "actual bonus. It also deals an extra {g|Encyclopedia:Dice}2d6{/g} points of "
 "{g|Encyclopedia:Damage}damage{/g} against such foes."
 msgstr ""
-"파멸의 무기는 특정 적들에게 특히 유효한 무기입니다. 해당 적들에 대해 무기의 강화 보너스가 실제 보너스보다 +2 높아집니다. 또한 해당 "
-"적들에게 2d6점의 추가 피해를 입힙니다."
+"파멸의 무기는 특정 적들에게 특히 유효한 무기입니다. 해당 적들에 대해 무기의 강화 {g|Encyclopedia:Bonus}보너스{/g}"
+"가 실제 보너스보다 +2 높아집니다. 또한 해당 적들에게 {g|Encyclopedia:Dice}2d6{/g} 점의 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = HarbingerEnchantment::m_EnchantName
@@ -24280,7 +24274,7 @@ msgstr ""
 #. Path = BeltOfThunderousChargingBuff::m_DisplayName
 msgctxt "e5a98c71-fe2b-49b0-952a-e1da4c47b59b"
 msgid "Belt of Thunderous Charging"
-msgstr ""
+msgstr "천둥같은 돌진의 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = BeltOfThunderousChargingItem::m_DescriptionText
@@ -24298,12 +24292,18 @@ msgid ""
 "against {g|Encyclopedia:RangedAttack}ranged attacks{/g} for 4 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 허리띠는 착용자의 {g|Encyclopedia:Strength}힘{/g}에 +6 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자의 가속력을 강화해, 황소 돌진과 짓밟기 "
+"{g|Encyclopedia:Combat_Maneuvers}전법{/g}에 +2 보너스를 부여합니다. 추가로 이 허리띠의 착용자가 적에게 "
+"돌진하면 해당 적은 4 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"{g|Encyclopedia:RangedAttack}원거리 공격{/g}에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = BeltOfVeneratedChampionItem::m_DisplayNameText
 msgctxt "7ff9e19b-c90b-47fa-97ef-0d8e52fe13d6"
 msgid "Belt of the Venerated Champion"
-msgstr ""
+msgstr "위대한 대전사의 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = BeltOfVeneratedChampionItem::m_DescriptionText
@@ -24314,12 +24314,15 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} and a +1 insight bonus to "
 "{g|Encyclopedia:Armor_Class}AC{/g} against Evil creatures and effects."
 msgstr ""
+"이 +6 {g|Encyclopedia:Constitution}건강{/g}의 허리띠는 착용자의 인내 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}를, "
+"사악한 크리처와 효과에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +1 통찰 보너스를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = ClaspOfDeathItem::m_DisplayNameText
 msgctxt "f808b3c6-2f48-493f-9703-c489c8e25231"
 msgid "Clasp of Death"
-msgstr ""
+msgstr "죽음의 손아귀"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = ClaspOfDeathItem::m_DescriptionText
@@ -24331,12 +24334,14 @@ msgid ""
 "of damage this ability does to living creatures or heals to undead creatures "
 "by +2d6."
 msgstr ""
+"이 허리띠는 착용자의 모든 정신 능력치에 (지능, 지혜, 매력) +6 강화 보너스를 부여합니다. 또한 이 허리띠의 착용자가 음에너지 전달 "
+"능력을 보유하고 있다면, 해당 능력이 살아있는 크리처에게 가하는 피해량과 언데드 크리처에 대한 치유량을 +2d6 증가시킵니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = ClutchOfCorruptionItem::m_DisplayNameText
 msgctxt "3f7f4516-74a9-47d4-9109-533abf7299db"
 msgid "Clutch of Corruption"
-msgstr ""
+msgstr "부패의 손아귀"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = ClutchOfCorruptionItem::m_DescriptionText
@@ -24353,6 +24358,13 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} for 2 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 허리띠는 착용자의 {g|Encyclopedia:Strength}힘{/g}에 +4 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:Constitution}건강{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +8 강화 보너스를 부여합니다. 또한 이 허리띠의 착용자가 "
+"{g|Encyclopedia:NaturalAttack}자연 무기{/g}로 {g|Encyclopedia:Critical}치명타{/g}를 "
+"확정하면, 해당 적은 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}을 "
+"({g|Encyclopedia:DC}DC{/g} 28) 시도해 실패시 음에너지와 부정 {g|Encyclopedia:Damage}피해{/g}"
+" 취약을 2 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = CordOfStubbornFuryItem::m_DisplayNameText
@@ -24409,20 +24421,18 @@ msgid ""
 "lands a killing blow, they gain a +5 morale bonus on their next "
 "{g|Encyclopedia:Attack}attack roll{/g}."
 msgstr ""
+"이 허리띠는 착용자의 {g|Encyclopedia:Dexterity}민첩{/g}과 {g|Encyclopedia:Strength}힘{/g}"
+"에 +4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 이 허리띠의 착용자가 적을 처치하면 다음 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}에 +5 사기 보너스를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = DevilsSashItem::m_DisplayNameText
-#, fuzzy
 msgctxt "e3152c8e-436a-41ce-b74a-2a7ed1dcfd2b"
 msgid "Devil's Sash"
 msgstr "데블의 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = DevilsSashItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +8 enhancement bonuses to Dexterity and "
-#| "Constitution ability scores. It also grants immunity to poison."
 msgctxt "c7aad414-2ec2-46ec-abcc-37730852725f"
 msgid ""
 "This belt grants its wearer a +8 enhancement "
@@ -24430,7 +24440,10 @@ msgid ""
 "and {g|Encyclopedia:Constitution}Constitution{/g} "
 "{g|Encyclopedia:Ability_Scores}ability scores{/g}. It also grants immunity "
 "to poison."
-msgstr "이 허리띠는 착용자에게 민첩과 건강 능력치에 +8 강화 보너스를 제공합니다. 또한 독 면역을 제공합니다."
+msgstr ""
+"이 허리띠는 착용자에게 {g|Encyclopedia:Dexterity}민첩{/g}과 "
+"{g|Encyclopedia:Constitution}건강{/g} {g|Encyclopedia:Ability_Scores}능력치 점수{/g}"
+"에 +8 강화 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 또한 독 면역을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = DisplayOfPowerItem::m_DisplayNameText
@@ -24439,7 +24452,7 @@ msgstr "이 허리띠는 착용자에게 민첩과 건강 능력치에 +8 강화
 #. Path = DisplayOfPowerBuff::m_DisplayName
 msgctxt "4d74b2c1-a86a-456f-9353-8ec8fb9fcc72"
 msgid "Display of Power"
-msgstr ""
+msgstr "힘의 과시"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = DisplayOfPowerItem::m_DescriptionText
@@ -24453,21 +24466,18 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalty{/g} on Will {g|Encyclopedia:Saving_Throw}"
 "saving throws{/g}."
 msgstr ""
+"이 +6 {g|Encyclopedia:Strength}힘{/g}의 허리띠는 착용자에게 15 피트 반경의 모든 적의 의지 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"오라를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = DivineSupportBeltItem::m_DisplayNameText
-#, fuzzy
 msgctxt "210758ad-7997-485a-b24a-2a15411c8c35"
 msgid "Divine Support"
-msgstr "신성한 도움"
+msgstr "신성한 지원"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = DivineSupportBeltItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +3 deflection bonus to AC, Negative Energy "
-#| "Resistance 10, and the ability to cast banishment spell once per day as a "
-#| "13th level wizard."
 msgctxt "924ed44e-38e0-4ff9-87c7-9b067d4532b6"
 msgid ""
 "This belt grants its wearer a +3 deflection {g|Encyclopedia:Bonus}bonus{/g} "
@@ -24475,13 +24485,16 @@ msgid ""
 "{g|Encyclopedia:Energy_Resistance}Energy Resistance{/g} 10, and the ability "
 "to cast banishment {g|Encyclopedia:Spell}spell{/g} once per day as a 13th "
 "level wizard."
-msgstr "이 허리띠는 착용자에게 AC에 +3 굴절 보너스, 음에너지 저항 10을 주고, 하루에 한 번 추방 주문 시전 능력을 제공합니다."
+msgstr ""
+"이 허리띠는 착용자에게 {g|Encyclopedia:Armor_Class}AC{/g}에 +3 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Energy_Resistance}음에너지 저항{/g} "
+"10을 주고, 하루에 한 번 13 레벨 위저드의 추방 {g|Encyclopedia:Spell}주문{/g} 시전 능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = EnergizingBeltItem::m_DisplayNameText
 msgctxt "a75174c5-73a7-4ce4-acaf-d9453097bb88"
 msgid "Energizing Belt"
-msgstr ""
+msgstr "재충전의 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = EnergizingBeltItem::m_DescriptionText
@@ -24490,51 +24503,47 @@ msgid ""
 "This belt of {g|Encyclopedia:Constitution}Constitution{/g} +4 also allows "
 "its wearer to regain one used {g|Encyclopedia:Spell}spell{/g} per day."
 msgstr ""
+"이 +4 {g|Encyclopedia:Constitution}건강{/g}의 허리띠는 착용자에게 하루에 한 번 사용한 "
+"{g|Encyclopedia:Spell}주문{/g} 하나를 재충전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = EqualityBeltItem::m_DisplayNameText
-#, fuzzy
 msgctxt "e2e98b9f-97df-4b78-9ecb-e8212a02fd5d"
 msgid "Windfall"
 msgstr "횡재"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = EqualityBeltItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +1 luck bonus on attack rolls and all saving "
-#| "throws."
 msgctxt "912d075f-3b88-4ef5-b056-c0fecb7c3289"
 msgid ""
 "This belt grants its wearer a +1 luck {g|Encyclopedia:Bonus}bonus{/g} on "
 "{g|Encyclopedia:Attack}attack rolls{/g} and all {g|Encyclopedia:Saving_Throw}"
 "saving throws{/g}."
-msgstr "이 허리띠는 착용자의 명중 굴림과 모든 내성 굴림에 +1 행운 보너스를 제공합니다."
+msgstr ""
+"이 허리띠는 착용자의 {g|Encyclopedia:Attack}명중 굴림{/g}과 모든 굴림에 +1 행운 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = ExplorersBeltItem::m_DisplayNameText
-#, fuzzy
 msgctxt "77e8e28d-1863-434d-b3a9-5d0edeb6d4fb"
 msgid "Explorer's Belt"
 msgstr "탐험가의 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = ExplorersBeltItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +2 enhancement bonus to Constitution and a +2 "
-#| "resistance bonus on saving throws against diseases, fatigue and exhaustion."
 msgctxt "1c59c9ca-9bce-481a-80b6-bf37d500f0d2"
 msgid ""
 "This belt grants its wearer a +2 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
 "to {g|Encyclopedia:Constitution}Constitution{/g} and a +2 resistance bonus "
 "on {g|Encyclopedia:Saving_Throw}saving throws{/g} against diseases, fatigue "
 "and exhaustion."
-msgstr "이 허러띠는 착용자에게 건강에 +2 강화 보너스 및 질병, 피로, 탈진에 대한 내성 굴림에 +2 저항 보너스를 줍니다."
+msgstr ""
+"이 허러띠는 착용자에게 {g|Encyclopedia:Constitution}건강{/g}에 +2 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g} 및 질병, 피로, 탈진에 대한 {g|Encyclopedia:Saving_Throw}"
+"내성 굴림{/g}에 +2 저항 보너스를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = ExplorersBeltItem::m_FlavorText
-#, fuzzy
 msgctxt "53ac11d5-3cde-4278-bea1-a1d3f02e7e03"
 msgid ""
 "This belt can give you the endurance to brave all the hardships awaiting on "
@@ -24546,18 +24555,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = GozrehsEmbracementBeltItem::m_DisplayNameText
-#, fuzzy
 msgctxt "27969784-a2c9-4121-8093-eb6c52dd1e02"
 msgid "Lightning Belt"
 msgstr "번개 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = GozrehsEmbracementBeltItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +4 enhancement bonus to Dexterity and "
-#| "Charisma, and the ability to cast lightning bolt spell twice per day as a "
-#| "7th level wizard."
 msgctxt "5828006b-c2d0-468d-9994-ad636f34241b"
 msgid ""
 "This belt grants its wearer a +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
@@ -24565,22 +24568,18 @@ msgid ""
 "{g|Encyclopedia:Charisma}Charisma{/g}, and the ability to cast lightning "
 "bolt {g|Encyclopedia:Spell}spell{/g} twice per day as a 7th level wizard."
 msgstr ""
-"이 허리띠는 착용자에게 민첩과 매력에 +4 강화 보너스와 하루에 두 번 7 레벨 위저드의 번개 화살 주문 시전 능력을 제공합니다."
+"이 허리띠는 착용자에게 {g|Encyclopedia:Dexterity}민첩{/g}과 "
+"{g|Encyclopedia:Charisma}매력{/g}에 +4 강화 {g|Encyclopedia:Bonus}보너스{/g} 및 하루에 두 "
+"번 7 레벨 위저드의 번개 화살 {g|Encyclopedia:Spell}주문{/g} 시전 능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = HermitRopeBeltItem::m_DisplayNameText
-#, fuzzy
 msgctxt "de86a609-8c38-4943-bc35-728296cde9f4"
 msgid "Hermit's Rope"
 msgstr "은자의 밧줄"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = HermitRopeBeltItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants a +4 enhancement bonus to Wisdom and Constitution, and the "
-#| "ability to cast mass bear's endurance spell once per day as a 3rd level "
-#| "wizard."
 msgctxt "9c194674-477f-46c9-a2d3-016aaa6a079c"
 msgid ""
 "This belt grants a +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -24589,11 +24588,12 @@ msgid ""
 "bear's endurance {g|Encyclopedia:Spell}spell{/g} once per day as a 3rd level "
 "wizard."
 msgstr ""
-"이 허리띠는 착용자에게 지혜와 건강에 +4 강화 보너스와 하루에 한 번 3 레벨 위저드의 집단 곰의 지구력 주문 시전 능력을 제공합니다."
+"이 허리띠는 착용자에게 {g|Encyclopedia:Wisdom}지혜{/g}와 "
+"{g|Encyclopedia:Constitution}건강{/g}에 +4 강화 {g|Encyclopedia:Bonus}보너스{/g} 및 "
+"하루에 한 번 3 레벨 위저드의 집단 곰의 지구력 {g|Encyclopedia:Spell}주문{/g} 시전 능력을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = InfernalCordGreaterItem::m_DisplayNameText
-#, fuzzy
 msgctxt "8f02efb9-4a15-4117-93a4-41769f3d5436"
 msgid "Greater Infernal Cord"
 msgstr "상급 지옥의 끈"
@@ -33951,37 +33951,30 @@ msgstr "소환수 강화의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfEnhancedSummonsItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants the monsters summoned by its wearer a +2 enhancement bonus "
-#| "for their weapons."
 msgctxt "4b00b831-28fe-4a2a-b56a-030b8787e649"
 msgid ""
 "This ring grants the monsters summoned by its wearer a +2 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} for their weapons."
-msgstr "이 반지는 착용자가 소환한 괴물의 무기에 +2 강화 보너스를 줍니다."
+msgstr "이 반지는 착용자가 소환한 괴물의 무기에 +2 강화 {g|Encyclopedia:Bonus}보너스{/g}를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfEternalSkyItem::m_DisplayNameText
-#, fuzzy
 msgctxt "4d26846a-4481-4272-955b-87d651fb6bda"
 msgid "Fortunate Fencer"
 msgstr "행운의 검사"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfEternalSkyItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +2 bonus to attack rolls with melee weapons."
 msgctxt "a0bc29d4-7912-4490-96ce-42f3868dc314"
 msgid ""
 "This ring grants its wearer a +2 {g|Encyclopedia:Bonus}bonus{/g} to "
 "{g|Encyclopedia:Attack}attack rolls{/g} with melee weapons."
-msgstr "이 반지는 착용자가 근접 무기로 가하는 공격의 명중 굴림에 +2 보너스를 줍니다."
+msgstr ""
+"이 반지는 착용자가 근접 무기로 가하는 공격의 {g|Encyclopedia:Attack}명중 굴림{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfEternalSkyItem::m_FlavorText
-#, fuzzy
 msgctxt "8c7c8623-108d-450b-849e-c299b468faf2"
 msgid ""
 "The ring is covered in thin bluish enamel that almost blends in with the "
@@ -33990,7 +33983,6 @@ msgstr "이 반지는 푸른빛 도료를 거의 금속과 구분되지 않을 �
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfEvasionItem::m_DisplayNameText
-#, fuzzy
 msgctxt "29c1b7db-a5ff-4d7a-9be8-7fae9f445b20"
 msgid "Ring of Evasion"
 msgstr "회피의 반지"
@@ -34053,27 +34045,24 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingofForceShield::m_DisplayNameText
-#, fuzzy
 msgctxt "e109f20a-d1ea-4980-97fd-a4109a33b6d2"
 msgid "Sentinel"
 msgstr "파수꾼"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingofForceShield::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring generates a shield-sized wall of force that can be wielded by the "
-#| "wearer as if it were a heavy shield (+2 AC) and grants additional DR2/-."
 msgctxt "9d288fcd-a77a-4a3b-b33a-f6d10eb8cef6"
 msgid ""
 "This ring generates a shield-sized wall of force that can be wielded by the "
 "wearer as if it were a heavy shield (+2 {g|Encyclopedia:Armor_Class}AC{/g}) "
 "and grants additional {g|Encyclopedia:Damage_Reduction}DR{/g} 2/-."
-msgstr "이 반지는 방패 크기의 역장을 생성하여 착용자가 중형 방패처럼 쓸 수 있게 하고 (+2 AC), DR2/- 를 제공합니다."
+msgstr ""
+"이 반지는 방패 크기의 역장을 생성하여 착용자가 중형 방패처럼 쓸 수 있게 하고 (+2 "
+"{g|Encyclopedia:Armor_Class}AC{/g}), {g|Encyclopedia:Damage_Reduction}DR{/g} "
+"2/- 를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingofForceShield::m_FlavorText
-#, fuzzy
 msgctxt "101dd68f-1c1a-4b87-be6a-41ba457e72e4"
 msgid "Metal and stone are melted together in this ring."
 msgstr "이 반지는 쇠와 돌을 녹여서 만들었습니다."
@@ -34097,7 +34086,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHonorOfDeathItem::m_DisplayNameText
-#, fuzzy
 msgctxt "16f91967-2d3e-4679-acb1-33000f657999"
 msgid "Honor of Death"
 msgstr "죽음의 영예"
@@ -34117,62 +34105,55 @@ msgstr "이 반지는 착용자에게 음에너지 저항 20을 주고, 하루�
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHonorOfDeathItem::m_FlavorText
-#, fuzzy
 msgctxt "43e9154b-c983-4bec-8942-8b9c365bcc99"
 msgid "The obsidian on this ring absorbs sunlight."
 msgstr "이 반지에 박힌 흑요석은 햇살을 빨아들입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHumbleMasterItem::m_DisplayNameText
-#, fuzzy
 msgctxt "56089a8a-bea9-4f77-8b51-fe07bad25b84"
 msgid "Daring Duelist"
 msgstr "대담한 결투가"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHumbleMasterItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +2 bonus to attack rolls with melee weapons, "
-#| "and a +1 dodge bonus to AC."
 msgctxt "19116e2a-2273-47a5-930d-d11511cf00d1"
 msgid ""
 "This ring grants its wearer a +2 {g|Encyclopedia:Bonus}bonus{/g} to "
 "{g|Encyclopedia:Attack}attack rolls{/g} with melee weapons, and a +1 dodge "
 "bonus to {g|Encyclopedia:Armor_Class}AC{/g}."
-msgstr "이 반지는 착용자의 근접 무기 명중 굴림에 +2 보너스를 주고, AC에 +1 피하기 보너스를 줍니다."
+msgstr ""
+"이 반지는 착용자의 근접 무기 {g|Encyclopedia:Attack}명중 굴림{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 주고, {g|Encyclopedia:Armor_Class}AC{/g}에 +1 "
+"피하기 보너스를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHumbleMasterItem::m_FlavorText
-#, fuzzy
 msgctxt "9ebdbf31-fa46-4065-92a9-d4b1e8161f29"
 msgid "The ring is decorated with a bright jasper."
 msgstr "이 반지는 밝은 벽옥으로 장식되어 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHuntersLuckItem::m_DisplayNameText
-#, fuzzy
 msgctxt "e9ffc305-bf18-44f5-8e15-a955b1af9d62"
 msgid "Ring of Plentiful Hunts"
 msgstr "수많은 사냥의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHuntersLuckItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +1 bonus on damage rolls with bows and a +2 "
-#| "luck bonus on Lore (Nature) checks."
 msgctxt "8cd05248-3a0d-40aa-b249-2e9c3d2f8d04"
 msgid ""
 "This ring grants its wearer a +1 {g|Encyclopedia:Bonus}bonus{/g} on "
 "{g|Encyclopedia:Damage}damage rolls{/g} with bows and a +2 luck bonus on "
 "{g|Encyclopedia:Lore_Nature}Lore (Nature){/g} "
 "{g|Encyclopedia:Check}checks{/g}."
-msgstr "이 반지는 착용자의 활 피해에 +1 보너스를 주고, 전승 (자연) 판정에 +2 행운 보너스를 줍니다."
+msgstr ""
+"이 반지는 착용자의 활 {g|Encyclopedia:Damage}피해 굴림{/g}에 +1 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 주고, {g|Encyclopedia:Lore_Nature}전승 (자연){/g} "
+"{g|Encyclopedia:Check}판정{/g}에 +2 행운 보너스를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfHuntersLuckItem::m_FlavorText
-#, fuzzy
 msgctxt "54b1e46c-9cfa-4247-b6a1-9de6bf455e89"
 msgid "The ring is decorated with garnets, as dark as thick blood."
 msgstr "이 반지는 피처럼 어둡고 탁한 가넷으로 장식되어 있습니다."
@@ -34198,63 +34179,55 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfImprovedProfeciencyItem::m_DisplayNameText
-#, fuzzy
 msgctxt "18156f9e-63d1-4733-bcef-4dca6073faf8"
 msgid "Ring of Improved Proficiency"
 msgstr "숙련 향상의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfImprovedProfeciencyItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +2 deflection bonus to AC and +1 competence "
-#| "bonus on attack rolls with melee weapons."
 msgctxt "d2f69140-e808-4e9a-9c2e-9499c6c55ae5"
 msgid ""
 "This ring grants its wearer a +2 deflection {g|Encyclopedia:Bonus}bonus{/g} "
 "to {g|Encyclopedia:Armor_Class}AC{/g} and +1 competence bonus on "
 "{g|Encyclopedia:Attack}attack rolls{/g} with melee weapons."
-msgstr "이 반지는 착용자의 AC에 +2 굴절 보너스를 주고, 근접 무기로 가하는 공격의 명중 굴림에 +1 능숙 보너스를 줍니다."
+msgstr ""
+"이 반지는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 주고, 근접 무기로 가하는 공격의 {g|Encyclopedia:Attack}명중 "
+"굴림{/g}에 +1 능숙 보너스를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfLawItem::m_DisplayNameText
-#, fuzzy
 msgctxt "5f442782-f9a3-4741-b7a1-5383f3defbf1"
 msgid "Ring of Law"
 msgstr "질서의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfLawItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +4 deflection bonus to AC, and immunity to "
-#| "confusion and fear. Only lawful characters can equip it."
 msgctxt "6916247d-2d8e-44fb-bf8f-dda5b89454fc"
 msgid ""
 "This ring grants its wearer a +4 deflection {g|Encyclopedia:Bonus}bonus{/g} "
 "to {g|Encyclopedia:Armor_Class}AC{/g}, and immunity to confusion and fear. "
 "Only lawful characters can equip it."
-msgstr "이 반지는 착용자의 AC에 +4 굴절 보너스, 혼란과 공포에 면역을 줍니다. 질서 성향의 캐릭터만 착용할 수 있습니다."
+msgstr ""
+"이 반지는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}와 혼란과 공포 면역을 줍니다. 질서 성향의 캐릭터만 착용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfLuck1::m_DisplayNameText
-#, fuzzy
 msgctxt "7fd7d25f-f5b9-4c48-9051-4320b15169af"
 msgid "Ring of Luck"
 msgstr "행운의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfLuck1::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +1 luck bonus on all saving throws. Bonuses of "
-#| "the same type usually don't stack."
 msgctxt "bc1e5ecf-9d3d-44ad-83ad-1035e9c86f4b"
 msgid ""
 "This ring grants its wearer a +1 luck {g|Encyclopedia:Bonus}bonus{/g} on all "
 "{g|Encyclopedia:Saving_Throw}saving throws{/g}. Bonuses of the same type "
 "usually don't stack."
-msgstr "이 반지는 착용자의 모든 내성 굴림에 +1 행운 보너스를 줍니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 반지는 착용자의 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +1 행운 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 줍니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfLuck1::m_FlavorText
@@ -34266,7 +34239,6 @@ msgstr "룬 문자 같은 것으로 신비하게 장식된 금반지."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingofMagicDevices::m_DisplayNameText
-#, fuzzy
 msgctxt "d2c8a5c8-6b5d-4480-b731-e55e7b3ea4f4"
 msgid "Ring of Magic Devices"
 msgstr "마법 도구의 반지"
@@ -34290,42 +34262,36 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingofMagicDevices::m_FlavorText
-#, fuzzy
 msgctxt "a744e057-2ed1-4e3e-9768-991949a26014"
 msgid "This ring's sparkling gem and the bezel are shining incredibly bright."
 msgstr "이 반지의 반짝이는 보석과 베젤은 엄청나게 밝게 빛납니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfPlanarProtectionItem::m_DisplayNameText
-#, fuzzy
 msgctxt "7286f152-9ef6-47d2-a3c6-586d1756ffb3"
 msgid "Ring of Planar Protection"
 msgstr "차원 보호의 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfPowerStoneItem::m_DisplayNameText
-#, fuzzy
 msgctxt "843654df-99f3-4ccd-ba58-fee8b3d8011e"
 msgid "Power Stone"
 msgstr "힘의 돌"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfPowerStoneItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +4 enhancement bonus to Strength and the "
-#| "ability to cast bull strength spell 3 times per day as a 3rd level wizard."
 msgctxt "96b5edf4-cf33-403c-89d8-02fe17c3d584"
 msgid ""
 "This ring grants its wearer a +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
 "to {g|Encyclopedia:Strength}Strength{/g} and the ability to cast bull "
 "strength {g|Encyclopedia:Spell}spell{/g} 3 times per day as a 3rd level "
 "wizard."
-msgstr "이 반지는 착용자에게 힘에 +4 강화 보너스를 주고, 하루에 세 번 3 레벨 위저드의 황소의 힘 주문을 쓸 수 있게 해줍니다."
+msgstr ""
+"이 반지는 착용자에게 힘에 +4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 주고, 하루에 세 번 3 레벨 위저드의 "
+"황소의 {g|Encyclopedia:Strength}힘{/g} {g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfPowerStoneItem::m_FlavorText
-#, fuzzy
 msgctxt "a9f90c66-c0b4-4e61-a4a2-82d17eb33736"
 msgid "The nephrite ring is very warm to the touch."
 msgstr "이 네프라이트 반지는 만지면 아주 따뜻합니다."
@@ -34579,38 +34545,28 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingofSickeningEntanglement::m_DisplayNameText
-#, fuzzy
 msgctxt "33e34e05-2b3b-4fa4-a246-35336a34c509"
 msgid "Thorny Ring"
 msgstr "가시 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingofSickeningEntanglement::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer the ability to cast sickening entanglement spell "
-#| "three times per day as a 3rd level druid."
 msgctxt "f0e8a77b-e28b-45f8-bd09-aa1583ce6461"
 msgid ""
 "This ring grants its wearer the ability to cast sickening entanglement "
 "{g|Encyclopedia:Spell}spell{/g} three times per day as a 3rd level druid."
-msgstr "이 반지는 착용자에게 하루에 세 번 3 레벨 드루이드의 고통스러운 휘감기 주문을 시전할 수 있게 해줍니다."
+msgstr ""
+"이 반지는 착용자에게 하루에 세 번 3 레벨 드루이드의 고통스러운 휘감기 {g|Encyclopedia:Spell}주문{/g}을 시전할 수 "
+"있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfSourceOfInvisibilityItem::m_DisplayNameText
-#, fuzzy
 msgctxt "3cc8f4f6-43f5-467e-afc1-5056d90a99db"
 msgid "Source of Invisibility"
 msgstr "투명화의 근원"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfSourceOfInvisibilityItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer the ability to cast poison spell three times per "
-#| "day as a 7th level cleric.\n"
-#| "If the wearer has the Invisible Thief ability, the ring allows them to use "
-#| "it for 5 additional rounds per day."
 msgctxt "f521e4e7-bd3a-474e-8697-10fd4ac7d69a"
 msgid ""
 "This ring grants its wearer the ability to cast poison "
@@ -34618,8 +34574,9 @@ msgid ""
 "If the wearer has the Invisible Thief ability, the ring allows them to use "
 "it for 5 additional {g|Encyclopedia:Combat_Round}rounds{/g} per day."
 msgstr ""
-"이 반지는 착용자에게 하루에 세 번 7 레벨 클레릭의 독 주문을 쓸 수 있게 해줍니다.\n"
-"착용자가 투명 도둑 능력을 지니고 있다면, 하루에 5 라운드 더 쓸 수 있게 해줍니다."
+"이 반지는 착용자에게 하루에 세 번 7 레벨 클레릭의 독 {g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 해줍니다.\n"
+"착용자가 투명 도둑 능력을 지니고 있다면, 하루에 5 {g|Encyclopedia:Combat_Round}라운드{/g} 더 쓸 수 있게 "
+"해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfStichesItem::m_DisplayNameText
@@ -34631,7 +34588,7 @@ msgstr ""
 #. Path = RingOfStichesItem::m_DescriptionText
 msgctxt "06d81bb3-16f5-49b6-a21a-4726f7e5ddb6"
 msgid "This ring grants its wearer immunity to bleed."
-msgstr ""
+msgstr "이 반지는 착용자에게 출혈 면역을 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTheDeadItem::m_DisplayNameText
@@ -34723,19 +34680,15 @@ msgstr "광휘의 화살 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTwinArrows::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer the ability to cast magic missile spell three "
-#| "times per day as a 3rd level wizard."
 msgctxt "fc400dbd-5a20-4fbd-b2de-829651b84851"
 msgid ""
 "This ring grants its wearer the ability to cast magic missile "
 "{g|Encyclopedia:Spell}spell{/g} three times per day as a 3rd level wizard."
-msgstr "이 반지는 착용자가 하루에 세 번 3 레벨 위저드의 마력유도탄 주문을 쓸 수 있게 해줍니다."
+msgstr ""
+"이 반지는 착용자가 하루에 세 번 3 레벨 위저드의 마력유도탄 {g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfTwinArrows::m_FlavorText
-#, fuzzy
 msgctxt "1f001d5b-b0de-40fe-82e9-747c2faaf0eb"
 msgid "Two crossed arrows are carved on the bright carnelian."
 msgstr "밝은 카넬리안 위에 엇갈린 화살 두 개가 새겨져 있습니다."
@@ -34748,10 +34701,6 @@ msgstr "상급 궁극의 보호 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfUltimateProtectionGreaterItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +5 resistance bonus to all saving throws, a +5 "
-#| "deflection bonus to AC, spell resistance 24, and DR 2/-."
 msgctxt "de6c3c71-6f9b-4426-9666-2ee06c520eef"
 msgid ""
 "This ring grants its wearer a +5 resistance {g|Encyclopedia:Bonus}bonus{/g} "
@@ -34759,22 +34708,19 @@ msgid ""
 "to {g|Encyclopedia:Armor_Class}AC{/g}, {g|Encyclopedia:Spell_Resistance}"
 "spell resistance{/g} 24, and {g|Encyclopedia:Damage_Reduction}DR{/g} 2/-."
 msgstr ""
-"이 반지는 착용자의 모든 내성 굴림에 +5 저항 보너스, AC에 +5 굴절 보너스를 주고, 착용자에게 주문 저항 24, DR 2/-를 "
-"줍니다."
+"이 반지는 착용자의 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +5 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Armor_Class}AC{/g}에 +5 굴절 "
+"보너스를 주고, 착용자에게 {g|Encyclopedia:Spell_Resistance}주문 저항{/g} 24, "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 2/-를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfUltimateProtectionLesserItem::m_DisplayNameText
-#, fuzzy
 msgctxt "3387d926-3c27-4eef-a195-aa32a165064f"
 msgid "Lesser Ring of Ultimate Protection"
 msgstr "하급 궁극의 보호 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfUltimateProtectionLesserItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer a +4 resistance bonus to all saving throws, a +4 "
-#| "deflection bonus to AC, spell resistance 19, and DR 1/-."
 msgctxt "73123396-f9a2-4947-b13d-7d3c0961c227"
 msgid ""
 "This ring grants its wearer a +4 resistance {g|Encyclopedia:Bonus}bonus{/g} "
@@ -34782,8 +34728,10 @@ msgid ""
 "to {g|Encyclopedia:Armor_Class}AC{/g}, {g|Encyclopedia:Spell_Resistance}"
 "spell resistance{/g} 19, and {g|Encyclopedia:Damage_Reduction}DR{/g} 1/-."
 msgstr ""
-"이 반지는 착용자의 모든 내성 굴림에 +4 저항 보너스, AC에 +4 굴절 보너스를 주고, 착용자에게 주문 저항 19, DR 1/-를 "
-"줍니다."
+"이 반지는 착용자의 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 저항 "
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Armor_Class}AC{/g}에 +4 굴절 "
+"보너스를 주고, 착용자에게 {g|Encyclopedia:Spell_Resistance}주문 저항{/g} 19, "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 1/-를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RingOfUndercoverWizardItem::m_DisplayNameText
@@ -34807,7 +34755,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = RubyEncrustedRing::m_DisplayNameText
-#, fuzzy
 msgctxt "41217e74-219e-46af-9afb-93f4e7a9cc00"
 msgid "Ruby Ring"
 msgstr "루비 반지"
@@ -34833,7 +34780,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = SapphireRing::m_DisplayNameText
-#, fuzzy
 msgctxt "c95181bf-cbe8-4fe7-a941-f3d9dbcebb9b"
 msgid "Sapphire Ring"
 msgstr "사파이어 반지"
@@ -34854,23 +34800,20 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = SealedRingItem::m_DisplayNameText
-#, fuzzy
 msgctxt "82848c10-4559-4bad-8c7a-59c4a57e0047"
 msgid "Sealed Ring"
 msgstr "봉인된 반지"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = SealedRingItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ring grants its wearer Cold Resistance 30 and the ability to cast "
-#| "horrid wilting spell once per day as a 17th level wizard."
 msgctxt "b0d95d1e-b161-44a4-9d7b-c002b44eed2c"
 msgid ""
 "This ring grants its wearer Cold Resistance 30 and the ability to cast "
 "horrid wilting {g|Encyclopedia:Spell}spell{/g} once per day as a 17th level "
 "wizard."
-msgstr "이 반지는 착용자에게 냉기 저항 30을 주고, 하루에 한 번 17 레벨 위저드의 끔찍한 고사 주문을 쓸 수 있게 해줍니다."
+msgstr ""
+"이 반지는 착용자에게 냉기 저항 30을 주고, 하루에 한 번 17 레벨 위저드의 끔찍한 고사 "
+"{g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = SeelahWeddingShinyRingItem::m_DisplayNameText
