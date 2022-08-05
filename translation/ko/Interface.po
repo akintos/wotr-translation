@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-08-04 00:43+0000\n"
+"PO-Revision-Date: 2022-08-05 23:43+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1837,11 +1837,12 @@ msgid "General:"
 msgstr "지휘관:"
 
 #. Name = UIStrings_CrusadeTexts.InfirmaryTooltipDescription
+#, fuzzy
 msgctxt "6c17fee5-ddba-4765-9767-7f80f18e4e9a"
 msgid ""
 "The infirmary replenishes army's losses after a battle by the number of "
 "Value points equal to its size."
-msgstr ""
+msgstr "의무대는 전투 후 부대 손실을 부대 규모와 동일한 가치 점수만큼 복구합니다."
 
 #. Name = UIStrings_CrusadeTexts.InfirmaryTooltipHeader
 msgctxt "b869ddd6-0ca1-4b6f-a222-f262d6cd644a"
@@ -2090,6 +2091,8 @@ msgid ""
 "{g|SpiderSwarm}[Spider Swarm]{/g}, and {g|LocustSwarm}[Locust Swarm]{/g} "
 "equal to (Value of killed enemies/Х) after a victory."
 msgstr ""
+"{g|VescavorSwarm}[베스카버 무리]{/g}, {g|SpiderSwarm}[거미떼]{/g}, {g|LocustSwarm}["
+"메뚜기 무리]{/g}가 승리 이후 살해한 적의 가치/X 만큼 회복합니다."
 
 #. Name = VoraciousSwarm_name
 msgctxt "cba8f580-1765-48ad-8242-1ca3d01230a9"
@@ -2111,7 +2114,7 @@ msgstr ""
 #. Name = Event10_1
 msgctxt "533ff297-37a8-4d64-a727-e79d70fb6343"
 msgid "Adds 4,500 Logistics experience points, crusade morale reduces by 20."
-msgstr "4,500 병참 경험치 점수를 추가하고, 성전 사기가 20 감소합니다."
+msgstr "4,500 병참 경험치 점수를 더하고, 성전 사기가 20 감소합니다."
 
 #. Name = Event10_2
 msgctxt "34ad4f40-b2bd-4da6-bb07-224a814dadf9"
@@ -2122,27 +2125,27 @@ msgstr "성전 사기가 30 증가하고, 병참 경험지 점수를 1,500 차�
 #. Name = Event10_4
 msgctxt "d50a8f34-95a8-41d2-a09d-42b735b89bce"
 msgid "(Lawful) Adds 2,500 Military experience points."
-msgstr "(질서) 2,500 군사 경험치 점수를 추가합니다."
+msgstr "(질서) 2,500 군사 경험치 점수를 더합니다."
 
 #. Name = Event10_5
 msgctxt "762aaee5-83a2-4554-b824-8028ac93af86"
 msgid ""
 "(Good) Adds 2,000 Leadership experience points, crusade morale increases by "
 "30. Deducts 1,500 Logistics experience points."
-msgstr "(선) 2,000 통솔 경험치 점수를 추가하고, 성전 사기가 30 증가합니다. 1,500 병참 경험치 점수를 차감합니다."
+msgstr "(선) 2,000 통솔 경험치 점수를 더하고, 성전 사기가 30 증가합니다. 1,500 병참 경험치 점수를 차감합니다."
 
 #. Name = Event11_1
 msgctxt "6a0a45b4-6829-4a20-b527-5b8239f8407a"
 msgid ""
 "12 {g|Barbarians}[Barbarians]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "12 {g|Barbarians}[바바리안]{/g}이 사령관의 지휘부에서 고용되었습니다."
 
 #. Name = Event11_2_d
 msgctxt "500441bf-78f6-4b13-b7a3-62617ec67117"
 msgid ""
 "9 {g|Wizards}[Wizards]{/g} are recruited at the Commander's headquarters."
-msgstr ""
+msgstr "9 {g|Wizards}[위저드]{/g}가 사령관의 지휘부에서 고용되었습니다."
 
 #. Name = Event11_3
 msgctxt "6b7b0bc0-79f6-4b2a-9180-7d2dbb960091"
@@ -2154,19 +2157,19 @@ msgctxt "7821b087-9e22-482e-af66-3418b187db5f"
 msgid ""
 "(Chaotic) Adds 2,000 Leadership experience points, crusade morale increases "
 "by 20."
-msgstr "(혼돈) 2,000의 통솔 경험치를 추가하고, 성전 사기가 20 증가합니다."
+msgstr "(혼돈) 2,000의 통솔 경험치를 더하고, 성전 사기가 20 증가합니다."
 
 #. Name = Event11_5
 msgctxt "b91b95ab-3cea-4cf6-bfeb-cf36b6690043"
 msgid ""
 "12 {g|Barbarians}[Barbarians]{/g} are recruited at the Commander's "
 "headquarters, adds 5,000 gold."
-msgstr ""
+msgstr "사령관의 지휘부에서 12 {g|Barbarians}[바바리안]{/g}을 고용하고, 5,000 금화를 더합니다."
 
 #. Name = Event12_1
 msgctxt "03143e81-1cd0-4049-9392-7ee47f32c796"
 msgid "Adds 3,500 Leadership experience points."
-msgstr "3,500 통솔 경험치를 추가합니다."
+msgstr "3,500 통솔 경험치를 더합니다."
 
 #. Name = Event12_2
 msgctxt "4af4bd9d-8159-4a29-b611-a6398b7ab022"
@@ -2176,7 +2179,7 @@ msgstr "성전 사기가 20만큼 증가합니다."
 #. Name = Event12_3
 msgctxt "78a78c68-4771-435a-b8b0-9a8cc916af18"
 msgid "Adds 3,500 Finance Points."
-msgstr "3,500 재정 점수를 추가합니다."
+msgstr "3,500 재정 점수를 더합니다."
 
 #. Name = Event12_4
 msgctxt "a04ec6db-7ed5-4b0c-ab55-dc46953d5259"
@@ -2188,7 +2191,7 @@ msgctxt "7ecab958-d0dd-4b0a-9824-47794df386fb"
 msgid ""
 "Recruitment growth for all trainable units from the Main Barracks and the "
 "Main Archery Range increases by 15% for 30 days."
-msgstr ""
+msgstr "30 일 동안 중앙 병영과 중앙 궁술 훈련장이 제공하는 모든 훈련 가능한 유닛의 모집 성장이 15% 증가합니다."
 
 #. Name = Event13_1
 msgctxt "903a1a83-6104-45ea-9f37-b171b376c3f3"
@@ -2200,12 +2203,12 @@ msgstr "(선) 성전 사기가 30 증가합니다. 모든 유닛이 30 일 동�
 #. Name = Event13_2
 msgctxt "11d3d9aa-0389-499c-b5a4-a005c62bd21e"
 msgid "Adds 550 Military experience points."
-msgstr "550 군사 경험치를 추가합니다."
+msgstr "550 군사 경험치를 더합니다."
 
 #. Name = Event13_4
 msgctxt "cbc016ec-d9e2-4375-b1b7-c8beb1982b57"
 msgid "(Good) Unlocks the {g|DangerousKids}[Dangerous Kids]{/g} decree."
-msgstr ""
+msgstr "(선) {g|DangerousKids}[위험한 아이들]{/g} 칙령을 해금합니다."
 
 #. Name = Event13_5
 msgctxt "8b9851e0-488b-4777-8b11-599b89923628"
@@ -2217,7 +2220,7 @@ msgstr "(선) {g|HuntForTheKidnappers}[유괴범 사냥]{/g} 칙령을 해금합
 #. Name = Event14_1
 msgctxt "7bcdcdd0-5dd2-4cb2-be11-74f51a8f565b"
 msgid "(Lawful) Adds 40 Materials Points."
-msgstr "(질서) 40 물자 점수를 추가합니다."
+msgstr "(질서) 40 물자 점수를 더합니다."
 
 #. Name = Event14_2
 msgctxt "e524759a-14e2-4e69-b72a-8a47eca99e15"
@@ -2241,19 +2244,19 @@ msgctxt "88c5ea26-b9f2-408e-abc5-6bda9046eeb6"
 msgid ""
 "10 {g|Inquisitors}[Inquisitors]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "10 {g|Inquisitors}[인퀴지터]{/g}가 사령관의 지휘부에서 고용되었습니다."
 
 #. Name = Event15_2
 msgctxt "708a615c-d743-4d39-8815-d73609b29550"
 msgid ""
 "Adds 1,500 Leadership experience points, deducts 200 Military experience "
 "points."
-msgstr "1500 통솔 경험치를 추가하고, 200 군사 경험치를 차감합니다."
+msgstr "1500 통솔 경험치를 더하고, 200 군사 경험치를 차감합니다."
 
 #. Name = Event15_4
 msgctxt "9a44e4ec-5150-478c-b008-d26c0dc873a4"
 msgid "Adds 3,000 Leadership experience points."
-msgstr "3000 통솔 경험치를 추가합니다."
+msgstr "3000 통솔 경험치를 더합니다."
 
 #. Name = Event15_5
 msgctxt "23135ef0-f4a5-462d-888a-3ff29a257e0e"
@@ -2263,7 +2266,7 @@ msgstr "{g|SeniorComrades}[선배 전우들]{/g} 칙령을 해금합니다."
 #. Name = Event16_1
 msgctxt "f030bc78-e269-41ac-8156-93cd72b54264"
 msgid "Adds 3,500 Leadership experience points."
-msgstr "3,500 통솔 경험치를 추가합니다."
+msgstr "3,500 통솔 경험치를 더합니다."
 
 #. Name = Event16_2
 msgctxt "7450f6c2-0587-4d7a-b8e9-c557bcbf7317"
@@ -2275,30 +2278,30 @@ msgctxt "a4a07dbb-760a-40e9-9737-ee65d8643834"
 msgid ""
 "Adds 2,000 Leadership experience points, Finance Points income increases by "
 "10."
-msgstr "2,000 통솔 경험치를 추가하고, 재정 점수 수입이 10 증가합니다."
+msgstr "2,000 통솔 경험치를 더하고, 재정 점수 수입이 10 증가합니다."
 
 #. Name = Event16_5
 msgctxt "510411bf-75e8-4af0-9c3f-f5670a88b236"
 msgid ""
 "Adds 1,750 Leadership experience points, crusade morale increases by 20."
-msgstr "1,750 통솔 경험치를 추가하고, 성전 사기가 20 증가합니다."
+msgstr "1,750 통솔 경험치를 더하고, 성전 사기가 20 증가합니다."
 
 #. Name = Event17_1
 msgctxt "e0c66c7c-306c-4bd8-892d-cfdb37131cab"
 msgid "Adds 600 Military experience points."
-msgstr "600 군사 경험치를 추가합니다."
+msgstr "600 군사 경험치를 더합니다."
 
 #. Name = Event17_2
 msgctxt "a2907ee7-dd8c-4bcf-a46c-6de5433da7d9"
 msgid "Adds 4,000 Leadership experience points."
-msgstr "4,000 통솔 경험치를 추가합니다."
+msgstr "4,000 통솔 경험치를 더합니다."
 
 #. Name = Event17_3
 msgctxt "52e58ee9-e474-48c6-835b-573abcb1bdf7"
 msgid ""
 "Crusade morale reduces by 30, recruitment growth for trainable units "
 "increases by 15% for 30 days."
-msgstr ""
+msgstr "성전 사기가 30 감소하고, 훈련 가능 유닛의 모집 성장이 30일 동안 15% 증가합니다."
 
 #. Name = Event17_5
 msgctxt "03ff5860-3750-46a4-8792-b7c592d1fa80"
@@ -2337,7 +2340,7 @@ msgctxt "b7502d49-42a0-43b9-88b0-e8508a44cb97"
 msgid ""
 "(Lawful) 4 {g|BattleSlaves}[Battle Slaves]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr ""
+msgstr "(질서) 사령관의 지휘부에서 4 {g|BattleSlaves}[전투 노예]{/g}가 고용되었습니다."
 
 #. Name = Event19_3
 msgctxt "89e48a36-dcad-4430-b4ee-265847fec432"
@@ -2354,12 +2357,12 @@ msgstr "(혼돈) 성전 사기가 40 증가합니다."
 #. Name = Event1_1
 msgctxt "2c423153-4f24-46de-af06-eeb4e06a2727"
 msgid "(Evil) Adds 300 Military experience points."
-msgstr "(악) 300 군사 경험치 점수를 추가합니다."
+msgstr "(악) 300 군사 경험치 점수를 더합니다."
 
 #. Name = Event1_2
 msgctxt "a0dbc457-90ef-4b31-ace0-c9d2e64e01a0"
 msgid "(Good) Adds 750 Leadership experience points."
-msgstr "(선) 750 통솔 경험치를 추가합니다."
+msgstr "(선) 750 통솔 경험치를 더합니다."
 
 #. Name = Event1_5
 msgctxt "6846eb16-a480-4d1c-b9cf-5451c8872174"
@@ -2371,7 +2374,7 @@ msgctxt "5cbf76e7-e692-4a13-901a-8bb9fcacde8e"
 msgid ""
 "100 {g|Conscripts}[Conscripts]{/g} are recruited at the Commander's "
 "headquarters, crusade morale reduces by 10."
-msgstr ""
+msgstr "사령관의 지휘부에서 100 {g|Conscripts}[징집병]{/g}이 고용되고, 성전 사기가 10 감소합니다."
 
 #. Name = Event20_2
 msgctxt "7d9e5447-cef2-4fbf-962b-64ef2eec92db"
@@ -2383,7 +2386,7 @@ msgctxt "b57b382a-57bf-49c9-8e90-cde7bbf7be93"
 msgid ""
 "(Good) 40 {g|Champions}[Champions]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "(선) 사령관의 지휘부에서 40 {g|Champions}[챔피언]{/g}이 고용되었습니다."
 
 #. Name = Event20_5
 msgctxt "3685bb47-1da2-41ef-90ae-6ed0e6579a34"
@@ -2394,77 +2397,77 @@ msgstr "(선) 성전 사기가 1, 물자 점수 수입이 5 증가합니다."
 #. Name = Event21_1
 msgctxt "c32c669c-8428-483c-8979-b46034c1ca1b"
 msgid "Adds 4,000 Leadership experience points."
-msgstr "4,000 통솔 경험치를 추가합니다."
+msgstr "4,000 통솔 경험치를 더합니다."
 
 #. Name = Event21_3
 msgctxt "b80e6881-6a82-4836-bdaf-30144dca943a"
 msgid ""
 "Finance Points income increases by 30, adds 3,000 Diplomacy experience "
 "points."
-msgstr ""
+msgstr "재정 점수 수입이 30 증가하고, 3,000 교섭 경험치 점수를 더합니다."
 
 #. Name = Event21_5
 msgctxt "0d2dbc25-c710-4101-9285-53e42dfd64b5"
 msgid ""
 "Finance Points income increases by 30, adds 600 Military experience points."
-msgstr ""
+msgstr "재정 점수 수입이 30 증가하고, 600 군사 경험지 점수를 더합니다."
 
 #. Name = Event22_1
 msgctxt "b896bf57-44da-4252-bb0b-86ecd1953047"
 msgid "Unlocks the {g|SwordsOfSet_Morale}[Swords of Set]{/g} decree."
-msgstr ""
+msgstr "{g|SwordsOfSet_Morale}[세트의 검]{/g} 칙령을 해금합니다."
 
 #. Name = Event22_2
 msgctxt "6e819a8d-5446-413b-ad7d-a61c35b304ac"
 msgid "(Evil) Unlocks the {g|SwordsOfSet_Finance}[Swords of Set]{/g} decree."
-msgstr ""
+msgstr "(악) {g|SwordsOfSet_Morale}[세트의 검]{/g} 칙령을 해금합니다."
 
 #. Name = Event22_3
 msgctxt "35c99e90-8545-4d9c-94ba-41261c0e6d71"
 msgid "(Good) Crusade morale increases by 20."
-msgstr ""
+msgstr "(선) 성전 사기가 20 증가합니다."
 
 #. Name = Event22_4
 msgctxt "2eb42320-f72e-4001-a7a1-54768bc4850e"
 msgid ""
 "(Lawful) Adds 2,000 Leadership experience points and 400 Military experience "
 "points."
-msgstr ""
+msgstr "(질서) 2,000의 통솔 경험치와 400 군사 경험치를 더합니다."
 
 #. Name = Event23_1
 msgctxt "ded33924-ee64-4b17-aeaa-33d7113b8f36"
 msgid "Adds 4,500 Leadership experience points."
-msgstr ""
+msgstr "4,500 통솔 경험치를 더합니다."
 
 #. Name = Event23_2
 msgctxt "df7112d3-bf26-4676-b7a1-9bc04b4f4f8b"
 msgid ""
 "Crusade morale increases by 30, deducts 2,000 Leadership experience points."
-msgstr ""
+msgstr "성전 사기가 30 증가하고, 2000 통솔 경험치를 차감합니다."
 
 #. Name = Event23_3
 msgctxt "3ed2a078-c927-4e32-8962-34acbd64a9a0"
 msgid "Adds 4,500 Diplomacy experience points."
-msgstr ""
+msgstr "4,500 교섭 경험치 점수를 더합니다."
 
 #. Name = Event24_1
 msgctxt "5e6d8326-db6d-4300-add9-0a7584ed95cf"
 msgid ""
 "Crusade morale increases by 30, recruitment growth for trainable units "
 "reduces by 15% for 20 days."
-msgstr ""
+msgstr "성전 사기가 30 증가하고, 훈련 가능 유닛의 모집 성장이 20일 동안 15% 감소합니다."
 
 #. Name = Event24_2
 msgctxt "787082c3-6474-4336-8451-8fc72ac983f1"
 msgid "Adds 4,500 Leadership experience points."
-msgstr ""
+msgstr "4,500 통솔 경험치를 더합니다."
 
 #. Name = Event24_4
 msgctxt "5f0f48c6-8183-47fb-aa3f-9d83c6789d62"
 msgid ""
 "(Good) Summons an enemy army. Defeating it adds 2,500 Leadership experience "
 "points and increases crusade morale by 30."
-msgstr ""
+msgstr "(선) 적 부대를 소환합니다. 적을 쓰러뜨리면 2,500 통솔 경험치 점수를 더하고 성전 사기가 30 증가합니다."
 
 #. Name = Event24_5
 msgctxt "6492149d-8bd5-44bd-b739-03e4989efd88"
@@ -2472,6 +2475,7 @@ msgid ""
 "Adds 2,500 Leadership experience points, crusade morale increases by 30, "
 "recruitment growth for trainable units reduces by 15% for 20 days."
 msgstr ""
+"2,500 통솔 경험치 점수를 더하고, 성전 사기가 30 증가하지만 훈련 가능 유닛의 모집 성장이 20일 동안 15% 감소합니다."
 
 #. Name = Event25_1
 msgctxt "f12b52ac-edc2-4360-b603-9f5f6126bad8"
@@ -2481,20 +2485,23 @@ msgstr "성전 사기가 20 증가합니다."
 #. Name = Event25_2
 msgctxt "f5fc6321-dfdb-4c43-a023-9757ff93f13f"
 msgid "Unlocks the {g|PreparingTheBards}[Preparing the Bards]{/g} decree."
-msgstr ""
+msgstr "{g|PreparingTheBards}[바드들을 준비시킨다]{/g} 칙령을 해금합니다."
 
 #. Name = Event25_4
+#, fuzzy
 msgctxt "5a5d5bee-98f4-4e19-9aae-23c70fd910a7"
 msgid ""
 "All generals learn the {g|SongOfSeasons}[Song of Seasons]{/g} spell. If it "
 "was already known, all generals gain the {g|InspiredAdvance}[Inspired "
 "Advance]{/g} ability."
 msgstr ""
+"모든 장군은 {g|SongOfSeasons}[사계절의 노래]{/g} 주문을 배웁니다. 이 주문이 이미 알려진 경우 모든 장군은 "
+"{g|InspiredAdvance}[inspired advance]{/g} 능력을 얻습니다."
 
 #. Name = Event25_5
 msgctxt "fb371bda-5780-49bb-8dfb-32a3635a3b2c"
 msgid "Adds 1,500 Diplomacy experience points, crusade morale increases by 20."
-msgstr ""
+msgstr "1,500 교섭 경험치 점수를 더하고 성전 사기가 20 증가합니다."
 
 #. Name = Event26_1
 msgctxt "a7a800d3-860f-4316-9c29-3e0d552881a8"
@@ -2506,7 +2513,7 @@ msgctxt "04314ed9-410f-41d5-a0c6-8ea7d0616418"
 msgid ""
 "7 {g|InfernalCavalry}[Infernal Cavalry]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 7 {g|InfernalCavalry}[지옥 기병]{/g}이 고용되었습니다."
 
 #. Name = Event26_4
 msgctxt "cfa34748-829d-4673-af9e-852be5c17e99"
@@ -2515,204 +2522,206 @@ msgid ""
 "{g|AmbitiousDebutant}[Ambitious Debutant]{/g} and {g|TheHeroHasMatured}[The "
 "Hero Has Matured]{/g} decrees."
 msgstr ""
+"(선) {g|YoungChallenger}[젊은 도전자]{/g}, {g|AmbitiousDebutant}[야심찬 초심자]{/g}, "
+"{g|TheHeroHasMatured}[성숙한 영웅]{/g} 칙령을 해금합니다."
 
 #. Name = Event27_1
 msgctxt "bb62d7b0-0042-4e49-9b64-8ea5c4685d69"
 msgid "Unlocks the {g|HelpOfTheMwangi}[Help of the Mwangi]{/g} decree."
-msgstr ""
+msgstr "{g|HelpOfTheMwangi}[므왕기의 도움]{/g} 칙령을 해금합니다."
 
 #. Name = Event27_2
 msgctxt "6da900e7-52e5-4080-b277-c9cc5bc943aa"
 msgid "Unlocks the {g|HelpOfOsirion}[Help of Osirion]{/g} decree."
-msgstr ""
+msgstr "{g|HelpOfOsirion}[오시리온의 도움]{/g} 칙령을 해금합니다."
 
 #. Name = Event27_3
 msgctxt "8913dfba-1dd8-40ab-ab27-23ebce6a3434"
 msgid "Adds 40 Energy Points."
-msgstr ""
+msgstr "40 에너지 점수를 더합니다."
 
 #. Name = Event27_4
 msgctxt "a1ec8c1f-60ff-49b1-a206-11427ceecaa8"
 msgid ""
 "All undead units gain the {g|OccultEnchantment}[Occult Enchantment]{/g} feat."
-msgstr ""
+msgstr "모든 언데드 유닛은 {g|OccultEnchantment}[강화 비술]{/g} 특기를 얻습니다."
 
 #. Name = Event28_1
 msgctxt "20ad11ac-67ed-44c2-9267-697a6fbb7110"
 msgid ""
 "Adds 1,000 Leadership experience points and 1,000 Diplomacy experience "
 "points, crusade morale reduces by 20."
-msgstr ""
+msgstr "1,000 통솔 및 교섭 경험치를 더하지만 성전 사기가 20 감소합니다."
 
 #. Name = Event28_2
 msgctxt "e04bfc60-fcd4-4627-b86c-b261590909f5"
 msgid ""
 "Crusade morale increases by 20, deducts 1,000 Diplomacy experience points."
-msgstr ""
+msgstr "성전 사기가 20 증가하지만 1,000 교섭 경험치 점수를 차감합니다."
 
 #. Name = Event28_3
 msgctxt "87331b01-8a81-49c4-8911-09c5037467b9"
 msgid "Adds 350 Military experience points."
-msgstr ""
+msgstr "350 군사 경험치 점수를 더합니다."
 
 #. Name = Event28_4
 msgctxt "4184b91c-5f62-4cda-84c5-bb034df0ee26"
 msgid ""
 "(Chaotic) Unlocks the {g|HostOfDrunkards}[Host of Drunkards]{/g} decree."
-msgstr ""
+msgstr "(혼돈) {g|HostOfDrunkards}[술주정뱅이의 초대]{/g} 칙령을 해금합니다."
 
 #. Name = Event28_5
 msgctxt "5cf061b9-3c69-49ad-a0b7-df89247a9a1b"
 msgid ""
 "(Chaotic) Provides {g|Artefact_Event_28}[gift from the church of Cayden "
 "Cailean]{/g}."
-msgstr ""
+msgstr "(혼돈) {g|Artefact_Event_28}[케이든 케일리언 교회의 선물]{/g}을 제공합니다."
 
 #. Name = Event29_1
 msgctxt "5204bb7e-005b-4df0-ac8a-753844c36f8f"
 msgid "Adds 4,500 Leadership experience points."
-msgstr ""
+msgstr "4,500 통솔 경험치를 더합니다."
 
 #. Name = Event29_2
 msgctxt "b6ee8b6b-88ec-45cc-810e-f8edb168c4cb"
 msgid "Adds 5,000 Diplomacy experience points."
-msgstr ""
+msgstr "5,000 교섭 경험치 점수를 더합니다."
 
 #. Name = Event29_3
 msgctxt "fc7ecd80-55ef-46ed-89b1-05b9abd1dbcf"
 msgid "All units gain the {g|United}[United]{/g} feat."
-msgstr ""
+msgstr "모든 유닛은 {g|United}[단결]{/g} 특기를 얻습니다."
 
 #. Name = Event29_5
 msgctxt "149879c9-b854-435e-962c-eed571a46dd1"
 msgid "Adds 1,000 Military experience points, crusade morale reduces by 20."
-msgstr ""
+msgstr "1,000 군사 경험치 점수를 더하고, 성전 사기가 20 감소합니다."
 
 #. Name = Event2_1
 msgctxt "07021868-e391-49bf-bd7d-8732c225f1b8"
 msgid "(Chaotic) Provides {g|Artefact_Event_2}[relics of the blessed one]{/g}."
-msgstr ""
+msgstr "(혼돈) {g|Artefact_Event_2}[축복받은 자의 유물]{/g}을 제공합니다."
 
 #. Name = Event2_2
 msgctxt "c4ccf89a-fce3-44f3-90d7-b1445aedd04b"
 msgid "(Good) Finance Points income increases by 20."
-msgstr ""
+msgstr "(선) 재정 점수 수입이 20 증가합니다."
 
 #. Name = Event2_5
 msgctxt "a6c40b77-e019-4e59-8cac-d49b5e694edc"
 msgid ""
 "(Good) All generals gain a +1 level to the {g|ReductionOfLosses}[Reduction "
 "of Losses]{/g} feat."
-msgstr ""
+msgstr "모든 장군의 {g|ReductionOfLosses}[병력 손실 감소]{/g} 특기 레벨에 +1 을 부여합니다."
 
 #. Name = Event30_1
 msgctxt "5a0c55ba-aed0-44e1-859f-5f530eb3c400"
 msgid "Adds 1.500 Diplomacy experience points."
-msgstr ""
+msgstr "1,500 교섭 경험치 점수를 더합니다."
 
 #. Name = Event30_2
 msgctxt "53285689-e6e6-431c-a816-da162088fb12"
 msgid "(Good) Unlocks the {g|FreeingTheSlaves}[Freeing the Slaves]{/g} decree."
-msgstr ""
+msgstr "{g|FreeingTheSlaves}[노예 해방]{/g} 칙령을 해금합니다."
 
 #. Name = Event30_3
 msgctxt "3b3b0f34-c047-4eef-b754-a3b5167ce2d5"
 msgid "Unlocks the {g|ReluctantSoldiers}[Reluctant Soldiers]{/g} decree."
-msgstr ""
+msgstr "{g|ReluctantSoldiers}[주저하는 병사들]{/g} 칙령을 해금합니다."
 
 #. Name = Event30_4
 msgctxt "8a3f8bc4-961c-4b56-b662-f6a45e07800f"
 msgid "(Good) Unlocks the {g|TheUnchained}[The Unchained]{/g} decree."
-msgstr ""
+msgstr "(선) {g|TheUnchained}[풀려난 자들]{/g} 칙령을 해금합니다."
 
 #. Name = Event30_5
 msgctxt "0c5b9a84-72f0-4f4b-a67a-ca714219de28"
 msgid "(Evil) Unlocks the {g|SlaveTrade}[Slave Trade]{/g} decree."
-msgstr ""
+msgstr "(악) {g|SlaveTrade}[노예 교역]{/g} 칙령을 해금합니다."
 
 #. Name = Event31_1
 msgctxt "fd238f50-af5d-408a-a6a9-ea44d4baacb8"
 msgid "(Evil) Adds 400 Military experience points."
-msgstr ""
+msgstr "(악) 400 군사 경험치 점수를 더합니다."
 
 #. Name = Event31_2
 msgctxt "f833ca83-c15e-4e76-aa5d-4406f80c49a5"
 msgid "(Good) Adds 2.500 Leadership experience points."
-msgstr ""
+msgstr "(선) 2,500 통솔 경험치를 더합니다."
 
 #. Name = Event31_4
 msgctxt "7c0001a7-ec3e-4bb8-8c49-de0795d76f51"
 msgid ""
 "(Evil) Adds 500 Military experience points. Unlocks the {g|PersonalGuard}["
 "Personal Guard]{/g} decree."
-msgstr ""
+msgstr "(악) 500 군사 경험치 점수를 더합니다. {g|PersonalGuard}[개인 경호원]{/g} 칙령을 해금합니다."
 
 #. Name = Event31_5
 msgctxt "985ad4c8-29d2-45cb-a56f-9a04286e5241"
 msgid ""
 "(Good) Unlocks the {g|IndividualApproachToTraining}[Individual Approach to "
 "training]{/g} decree."
-msgstr ""
+msgstr "(선) {g|IndividualApproachToTraining}[맞춤 훈련]{/g} 칙령을 해금합니다."
 
 #. Name = Event32_1
 msgctxt "a0a821fb-6940-4576-b815-792aeabd6e9d"
 msgid "Adds 650 Military experience points."
-msgstr ""
+msgstr "650 군사 경험치 점수를 더합니다."
 
 #. Name = Event32_2
 msgctxt "3a6c6348-298a-4d83-8552-225365d52571"
 msgid "Adds 5,000 Diplomacy experience points."
-msgstr ""
+msgstr "5,000 교섭 경험치 점수를 더합니다."
 
 #. Name = Event32_4
 msgctxt "2416cf68-a98e-41cc-b7b0-de965c46c659"
 msgid ""
 "(Chaotic) Finance Points income increases by 20, all generals gain the "
 "{g|Lucky}[Lucky]{/g} feat."
-msgstr ""
+msgstr "(혼돈) 재정 점수 수입이 20 증가하고, 모든 장군은 {g|Lucky}[행운]{/g} 특기를 얻습니다."
 
 #. Name = Event33_1
 msgctxt "35d8958f-6de4-4e56-b4b8-d65748a7882e"
 msgid ""
 "Unlocks the {g|PurchasingCheapEquipment}[Purchasing Cheap Equipment]{/g} "
 "decree."
-msgstr ""
+msgstr "{g|PurchasingCheapEquipment}[값싼 장비 구입]{/g} 칙령을 해금합니다."
 
 #. Name = Event33_2
 msgctxt "c5ea0c32-01cc-498e-a704-0f3ece4e7cb1"
 msgid ""
 "Unlocks the {g|PurchasingQualityEquipment}[Purchasing Quality Equipment]{/g} "
 "decree."
-msgstr ""
+msgstr "{g|PurchasingQualityEquipment}[양질의 장비 구입]{/g} 칙령을 해금합니다."
 
 #. Name = Event33_4
 msgctxt "bf98de78-f940-4bb2-bfd0-7b64bfb4dee3"
 msgid ""
 "(Evil) Unlocks the {g|ProfitablePurchase}[Profitable Purchase]{/g} decree."
-msgstr ""
+msgstr "{g|ProfitablePurchase}[유리한 구매]{/g} 칙령을 해금합니다."
 
 #. Name = Event33_5
 msgctxt "503fd503-5f9e-4dd8-898b-6f30fac6b357"
 msgid ""
 "Unlocks the {g|WeaponsFromDaggermark}[Weapons from Daggermark]{/g} decree."
-msgstr ""
+msgstr "{g|WeaponsFromDaggermark}[대거마크의 무기]{/g} 칙령을 해금합니다."
 
 #. Name = Event34_1
 msgctxt "879bd460-1208-430f-aa96-74e893a050ad"
 msgid "Unlocks the {g|FugitiveHunt}[Fugitive Hunt]{/g} decree."
-msgstr ""
+msgstr "{g|FugitiveHunt}[도망자 사냥]{/g} 칙령을 해금합니다."
 
 #. Name = Event34_4
 msgctxt "1bf5760b-f99c-4d5f-98ed-358c35851015"
 msgid ""
 "(Good) Materials Points income increases by 2 for 30 days, crusade morale "
 "increases by 10."
-msgstr ""
+msgstr "(선) 물자 점수 수입이 30 일 동안 2 증가하고, 성전 사기가 10 증가합니다."
 
 #. Name = Event35_1
 msgctxt "b6788854-cda6-4a64-84d8-eface1d85cd8"
 msgid "Crusade morale reduces by 50."
-msgstr ""
+msgstr "성전 사기가 50 감소합니다."
 
 #. Name = Event35_2
 msgctxt "f7bb3bdc-a44f-4121-b0f8-c026121a4667"
@@ -2720,16 +2729,18 @@ msgid ""
 "Crusade morale increases by 35, recruitment growth for trainable units from "
 "the Main Spellcasters' Lodge and the Main Stables reduces by 25% for 30 days."
 msgstr ""
+"성전 사기가 35 증가하고, 중앙 비전시전자의 집회소와 중앙 마굿간이 제공하는 훈련 가능 유닛의 모집 성장이 30 일 동안 25% "
+"증가합니다."
 
 #. Name = Event35_5
 msgctxt "4b0a032d-33bf-47eb-9408-56d0f45ac707"
 msgid "(Evil) This decision will not do any good or harm."
-msgstr ""
+msgstr "(악) 이 결정은 득도 실도 되지 않을 것이다."
 
 #. Name = Event36_1
 msgctxt "880d0f15-a9e1-41ba-8ed0-c9ec4ba6a71e"
 msgid "Adds 60 Energy Points."
-msgstr ""
+msgstr "60 에너지 점수를 더합니다."
 
 #. Name = Event36_2
 msgctxt "f5b48640-2e9f-44f8-91ce-7265136c228c"
@@ -2738,45 +2749,47 @@ msgid ""
 "{g|SkeletonChampions}[Skeleton Champions]{/g} are recruited at the "
 "Commander's headquarters. Crusade morale reduces by 15."
 msgstr ""
+"사령관의 지휘부에서 12 {g|SkeletonSharpshooters}[스켈레톤 명사수]{/g}와 8 "
+"{g|SkeletonChampions}[스켈레톤 챔피언]{/g}을 고용합니다. 성전 사기가 15 감소합니다."
 
 #. Name = Event36_4
 msgctxt "a3800e6d-8b57-407c-ba94-7ab9b0fbc76d"
 msgid "Unlocks the {g|EnchantingTheDead}[Enchanting the Dead]{/g} decree."
-msgstr ""
+msgstr "{g|EnchantingTheDead}[죽음 부여]{/g} 칙령을 해금합니다."
 
 #. Name = Event37_1
 msgctxt "2b6c1d3a-dff5-4435-b21b-9ac9456b60eb"
 msgid ""
 "15 {g|Sorcerers}[Sorcerers]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 15 {g|Sorcerers}[소서러]{/g}를 고용했습니다."
 
 #. Name = Event37_2
 msgctxt "1cad9205-2302-4dca-b219-9cc3235b64ef"
 msgid "Energy Points income increases by 1 for 90 days."
-msgstr ""
+msgstr "90 일 동안 에너지 점수 수입이 1 증가합니다."
 
 #. Name = Event37_3
 msgctxt "7f8030ac-8738-4e26-8644-40064c689eff"
 msgid "Adds 2,500 Leadership experience points."
-msgstr ""
+msgstr "2,500 통솔 경험치를 더합니다."
 
 #. Name = Event37_4
 msgctxt "753054c8-53fa-4a47-a3d2-64427f5972a3"
 msgid "Energy Points income increases by 1, crusade morale increases by 20."
-msgstr ""
+msgstr "에너지 점수 수입이 1, 성전 사기가 20 증가합니다."
 
 #. Name = Event37_5
 msgctxt "a974410d-baf7-4474-a5a9-feff7032286e"
 msgid ""
 "All generals gain the {g|SorcererSquire}[Sorcerer Squire]{/g} feat for 90 "
 "days."
-msgstr ""
+msgstr "모든 장군이 90일 동안 {g|SorcererSquire}[소서러 종자]{/g} 특기를 획득합니다."
 
 #. Name = Event38_1
 msgctxt "b8eb67cd-d412-4277-a296-4ced4ed31d81"
 msgid "Unlocks the {g|FutureHeroes}[Future Heroes]{/g} decree."
-msgstr ""
+msgstr "{g|FutureHeroes}[미래의 영웅들]{/g} 칙령을 해금합니다."
 
 #. Name = Event38_3
 msgctxt "df352907-f3e4-4566-8096-8f107d80f79d"
@@ -2786,77 +2799,77 @@ msgstr "외교 경험치가 3,000 증가합니다."
 #. Name = Event39_1
 msgctxt "48117302-f4db-48a1-b140-55e31b486a79"
 msgid "Unlocks the {g|DangerousHunt}[Dangerous Hunt]{/g} decree."
-msgstr ""
+msgstr "{g|DangerousHunt}[위험한 사냥]{/g} 칙령을 해금합니다."
 
 #. Name = Event39_2
 msgctxt "d8d020bd-b293-4c68-9d5d-e78dc082f387"
 msgid "(Evil) Adds 3,000 Finance Points."
-msgstr ""
+msgstr "(악) 3,000 재정 점수를 더합니다."
 
 #. Name = Event39_5
 msgctxt "ad04928d-169b-4fa8-a1f7-b367cb868bca"
 msgid ""
 "6 {g|InfernalCavalry}[Infernal Cavalry]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 6 {g|InfernalCavalry}[지옥 기병]{/g}을 고용했습니다."
 
 #. Name = Event3_1
 msgctxt "6a3570ee-87a7-4f73-b410-0a9854d9631a"
 msgid "Materials Points income increases by 5 for 30 days."
-msgstr ""
+msgstr "물자 점수 수입이 30일 동안 5 증가합니다."
 
 #. Name = Event3_2
 msgctxt "9516ce75-a93f-4500-bc99-e9700204f610"
 msgid "All units gain the {g|Robust}[Robust]{/g} feat."
-msgstr ""
+msgstr "모든 유닛이 {g|Robust}[튼튼함]{/g} 특기를 얻습니다."
 
 #. Name = Event3_3
 msgctxt "ce0e8612-9c1d-43ee-b255-ceabb0ed22c5"
 msgid ""
 "(Evil) Adds 100 Materials Points. All units gain the {g|Healthy}[Healthy]{/g}"
 " feat."
-msgstr ""
+msgstr "(악) 100 물자 점수를 더합니다. 모든 유닛은 {g|Healthy}[건강함]{/g} 특기를 얻습니다."
 
 #. Name = Event3_4
 msgctxt "b75b8d59-4f4d-4dbc-9e25-c24786c1020f"
 msgid ""
 "(Good) 3 {g|EarthElementals}[Earth Elementals]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr ""
+msgstr "(선) 사령관의 지휘부에서 3 {g|EarthElementals}[대지 정령]{/g}을 고용했습니다."
 
 #. Name = Event40_1
 msgctxt "dcfa1cff-88b0-4859-8af0-ea306e9a559f"
 msgid ""
 "4 {g|Warpriests}[Warpriests]{/g} are recruited at the Commander's "
 "headquarters, crusade morale reduces by 20."
-msgstr ""
+msgstr "사령관의 지휘부에서 4 {g|Warpriests}[워프리스트]{/g}가 고용되었고, 성전 사기가 20 감소합니다."
 
 #. Name = Event40_2
 msgctxt "b4cc7e2e-aa86-4b9b-bcc5-bbffc859f7b8"
 msgid ""
 "Adds 7,500 Finance Points and 100 Materials Points. Deducts 100 Energy "
 "Points."
-msgstr ""
+msgstr "7,500 재정 점수와 100 물자 점수를 더합니다. 100 에너지 점수를 차감합니다."
 
 #. Name = Event40_4
 msgctxt "dc29c937-5964-44dc-b4e2-e8063bf65d1b"
 msgid "Adds 7,500 Finance Points and 100 Materials Points."
-msgstr ""
+msgstr "7,500 재정 점수와 100 물자 점수를 더합니다."
 
 #. Name = Event40_5
 msgctxt "21eb4c64-3bfd-44e4-94d0-20051196886e"
 msgid "(Evil) Adds 4,000 Diplomacy experience points."
-msgstr ""
+msgstr "(악) 4,000 교섭 경험치 점수를 더합니다."
 
 #. Name = Event41_1
 msgctxt "ddb69478-f6cc-48ef-906f-db5aca0fef75"
 msgid "Unlocks the {g|BattleMonsters}[Battle Monsters]{/g} decree."
-msgstr ""
+msgstr "{g|BattleMonsters}[전투 괴물]{/g} 칙령을 해금합니다."
 
 #. Name = Event41_2
 msgctxt "c8bc5278-ad07-4ec5-880c-89f06e076049"
 msgid "Unlocks the {g|DangerousGoods}[Dangerous Goods]{/g} decree."
-msgstr ""
+msgstr "{g|DangerousGoods}[위험한 물건]{/g} 칙령을 해금합니다."
 
 #. Name = Event41_3
 msgctxt "1f9a79f7-130b-4d31-bd4d-646cc9884e57"
@@ -2867,24 +2880,25 @@ msgstr "성전 사기가 25 증가합니다."
 msgctxt "b5e362f9-981e-45aa-84d4-a06f8a96feb0"
 msgid ""
 "(Chaotic) Adds 4,000 Finance Points and 3,000 Diplomacy experience points."
-msgstr ""
+msgstr "(혼돈) 4,000 재정 점수와 3,000 교섭 경험치 점수를 더합니다."
 
 #. Name = Event41_5
 msgctxt "5f7e5bee-3ec0-443e-b8b2-e66a5ddf3a5f"
 msgid "Unlocks the {g|ExoticPrey}[Exotic Prey]{/g} decree."
-msgstr ""
+msgstr "{g|ExoticPrey}[특이한 먹잇감]{/g} 칙령을 해금합니다."
 
 #. Name = Event42_2
 msgctxt "ab9d99e4-b8d9-418a-b4d8-592cee9b0995"
 msgid "Adds 1,500 Military experience points and deducts 2,000 Finance Points."
-msgstr ""
+msgstr "1,5000 군사 경험 점수를 더하고 2,000 재정 점수를 차감합니다."
 
 #. Name = Event42_5
+#, fuzzy
 msgctxt "441b4ffe-9683-4702-b001-bea096a67d60"
 msgid ""
 "Unlocks the {g|WorldwoundResearch}[Worldwound Research of the Dead]{/g} "
 "decree."
-msgstr ""
+msgstr "{g|WorldwoundResearch}[Worldwound Research of the Dead]{/g} 칙령을 해금합니다."
 
 #. Name = Event43_1
 msgctxt "2eea3d09-ab49-48dd-8872-6a52318ace54"
@@ -2897,12 +2911,12 @@ msgstr "{g|DestructionOfTheDangerousRelic}[위험한 유물 파괴]{/g} 칙령�
 msgctxt "d5ed7fdf-819d-4e91-a6ac-672cf1b26d09"
 msgid ""
 "Adds 2,000 Diplomacy experience points and crusade morale increases by 10."
-msgstr "2,000 외교 경험치 점수를 추가하고 성전 사기가 10 증가합니다."
+msgstr "2,000 외교 경험치 점수를 더하고 성전 사기가 10 증가합니다."
 
 #. Name = Event43_4
 msgctxt "2cd12de0-9914-4618-837b-126ef42e7cd6"
 msgid "Provides {g|Artefact_Event_43}[relic of Tar-Baphon]{/g}."
-msgstr ""
+msgstr "{g|Artefact_Event_43}[타르-바폰의 유물]{/g}을 제공합니다."
 
 #. Name = Event43_5
 msgctxt "38f190d6-249e-4695-99f8-06b76b314105"
@@ -2914,7 +2928,7 @@ msgstr "{g|ExperimentInDestruction}[파괴 속의 실험]{/g} 칙령을 해금�
 #. Name = Event44_1
 msgctxt "dff58c19-9800-48d8-8f5a-6ab125265e11"
 msgid "Adds 100 Energy Points."
-msgstr ""
+msgstr "에너지 점수가 100 증가합니다."
 
 #. Name = Event44_2
 msgctxt "fbec956e-e2c3-4f29-84ba-7bb4b97988de"
@@ -2922,6 +2936,7 @@ msgid ""
 "8 {g|Vampires}[Vampires]{/g} and 2 {g|Shadowdancers}[Shadowdancers]{/g} are "
 "recruited at the Commander's headquarters."
 msgstr ""
+"사령관의 지휘부에서 8 {g|Vampires}[뱀파이어]{/g}와 2 {g|Shadowdancers}[그림자 춤꾼]{/g}을 고용했습니다."
 
 #. Name = Event44_4
 msgctxt "f842a873-4d82-48ee-85e4-c6483fe0d70f"
@@ -2930,6 +2945,8 @@ msgid ""
 "{g|Shadowdancers}[Shadowdancers]{/g} are recruited at the Commander's "
 "headquarters."
 msgstr ""
+"2,000 교섭 경험치 점수를 더합니다. 사령관의 지휘부에서 8 {g|Vampires}[뱀파이어]{/g}와 2 "
+"{g|Shadowdancers}[그림자 춤꾼]{/g}을 고용합니다."
 
 #. Name = Event45_1
 msgctxt "7e2d8724-53db-4e00-a166-b2f56423baf8"
@@ -2942,32 +2959,32 @@ msgctxt "fb6905c6-557d-42cc-b340-eeed5df54bf2"
 msgid ""
 "30 {g|LightCavalry}[Light Cavalry]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr ""
+msgstr "사령관의 지휘부에서 30 {g|LightCavalry}[경기병]{/g}을 고용했습니다."
 
 #. Name = Event45_5
 msgctxt "38c65482-f54b-4a96-95a9-bdea1c117f51"
 msgid ""
 "(Evil) Unlocks the {g|FateOfTheFallenPaladins}[Fate of the Fallen "
 "Paladins]{/g} decree."
-msgstr ""
+msgstr "(악) {g|FateOfTheFallenPaladins}[타락한 팔라딘의 운명]{/g} 칙령을 해금합니다."
 
 #. Name = Event46_1
 msgctxt "183525d0-5a0e-477a-b736-e1383ccee345"
 msgid "Adds 8,500 Finance Points and 350 Materials Points."
-msgstr ""
+msgstr "8,500 재정 점수와 350 물자 점수를 더합니다."
 
 #. Name = Event46_2
 msgctxt "5384a20c-aad6-4224-be13-0be962f1e0e3"
 msgid ""
 "All generals gain a +1 level to the {g|ReductionOfLosses}[Reduction of "
 "Losses]{/g} feat."
-msgstr ""
+msgstr "모든 장군은 {g|ReductionOfLosses}[병력 손실 감소]{/g} 특기에 +1 레벨을 얻습니다."
 
 #. Name = Event46_4
 msgctxt "7ed99944-908b-449e-94a6-936049f99455"
 msgid ""
 "(Evil) All units gain the {g|ReinforcedBodies}[Reinforced Bodies]{/g} feat."
-msgstr ""
+msgstr "(악) 모든 유닛은 {g|ReinforcedBodies}[강화된 신체]{/g} 특기를 얻습니다."
 
 #. Name = Event46_5
 msgctxt "14c468e9-ac3b-4f80-b2c9-686b19c3dde3"
@@ -2978,32 +2995,32 @@ msgstr ""
 msgctxt "ba0a7b87-ec6b-4cbc-a5bf-05466774cc1d"
 msgid ""
 "Unlocks the {g|DragonslayersAdventure}[Dragonslayer's Adventure]{/g} decree."
-msgstr ""
+msgstr "{g|DragonslayersAdventure}[드래곤 슬레이어의 모험]{/g} 칙령을 해금합니다."
 
 #. Name = Event47_2
 msgctxt "e99dcb03-c904-4ddb-b0ce-cbe071e49e5e"
 msgid "Young talented general is recruited."
-msgstr ""
+msgstr "젊고 재능있는 지휘관이 모집되었습니다."
 
 #. Name = Event47_3
 msgctxt "3172940f-07c3-4d81-8d1e-39c8ac12eba8"
 msgid ""
 "Unlocks the {g|CampaignAgainstTheDragon}[Campaign Against the Dragon]{/g} "
 "decree."
-msgstr ""
+msgstr "{g|CampaignAgainstTheDragon}[드래곤에 맞서다]{/g} 칙령을 해금합니다."
 
 #. Name = Event47_4
 msgctxt "c41f15e0-02c2-43a2-992d-ba27c942acdb"
 msgid ""
 "(Good) 4 {g|DragonheirScions}[Dragonheir Scions]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr ""
+msgstr "(선) 사령관의 지휘부에서 4 {g|DragonheirScions}[드래곤헤이어 사이언]{/g}을 고용했습니다."
 
 #. Name = Event47_5
 msgctxt "1c1ee5c8-cd0f-4abc-aa67-01d517caaa5b"
 msgid ""
 "Unlocks the {g|RaisingADragonslayer}[Raising a Dragonslayer]{/g} decree."
-msgstr ""
+msgstr "{g|RaisingADragonslayer}[드래곤 슬레이어 키우기]{/g} 칙령을 해금합니다."
 
 #. Name = Event48_1
 msgctxt "7c126171-6541-4a12-930e-0f81eedabea6"
@@ -3020,17 +3037,17 @@ msgctxt "27a5c1b8-ce8c-4aea-8cf6-472565e32548"
 msgid ""
 "All units gain the {g|EnchantedWeapons}[Enchanted Weapons]{/g} feat for 60 "
 "days."
-msgstr ""
+msgstr "모든 유닛은 60일 동안 {g|EnchantedWeapons}[마법 부여된 무기]{/g} 특기를 얻습니다."
 
 #. Name = Event48_4
 msgctxt "0a14a9f7-a837-44cd-88ee-65342472ade7"
 msgid "Provides holy sword."
-msgstr ""
+msgstr "성스러운 검을 제공합니다."
 
 #. Name = Event48_5
 msgctxt "6a9e0e8d-d903-4bae-9289-a80272957377"
 msgid "Provides sword made by Nenio."
-msgstr ""
+msgstr "네니오가 제련한 검을 제공합니다."
 
 #. Name = Event49_1
 msgctxt "edb6ce2d-a29f-495d-9fed-25d0e7a1b35e"
@@ -3040,24 +3057,24 @@ msgstr "(선) 성전 사기가 25 증가합니다."
 #. Name = Event49_2
 msgctxt "32cbe98a-9a2b-48e3-a2c4-d555d5fee281"
 msgid "(Evil) All units gain the {g|Terrifying}[Terrifying]{/g} feat."
-msgstr ""
+msgstr "(악) 모든 유닛은 {g|Terrifying}[공포스러움]{/g} 특기를 얻습니다."
 
 #. Name = Event49_4
 msgctxt "72dd2893-a76a-4d5c-95b5-a93126562153"
 msgid "(Evil) Energy Points income increases by 2."
-msgstr ""
+msgstr "(악) 에너지 점수 수입이 2 증가합니다."
 
 #. Name = Event49_5
 msgctxt "cc933e64-b6bb-46b0-a40c-9a602cd3bde5"
 msgid ""
 "Adds 2000 Military experience points. All units gain the "
 "{g|Fearless}[Fearless]{/g} feat."
-msgstr ""
+msgstr "2000 군사 경험 점수를 더합니다. 모든 유닛이 {g|Fearless}[용감함]{/g} 특기를 얻습니다."
 
 #. Name = Event4_1
 msgctxt "5a5f0414-5455-41c5-a0e3-801522f35ca9"
 msgid "(Lawful) Adds 3,000 Finance Points."
-msgstr ""
+msgstr "(질서) 3,000 재정 점수를 더합니다."
 
 #. Name = Event4_2
 msgctxt "247f72e9-f21e-4ad9-b1c0-6fe4291891c8"
@@ -3097,7 +3114,7 @@ msgstr ""
 #. Name = Event50_4
 msgctxt "7fb563a8-8855-4c96-848a-4a3e3221652b"
 msgid "(Chaotic) Adds 125 Energy Points."
-msgstr "(혼돈) 125 에너지 점수를 추가합니다."
+msgstr "(혼돈) 125 에너지 점수를 더합니다."
 
 #. Name = Event51_1
 msgctxt "238f3dc9-bc8e-420e-a0bc-3cac37a52b83"
@@ -3198,7 +3215,7 @@ msgstr "{g|TamingMonsters}[괴물 길들이기]{/g} 칙령을 해금합니다."
 #. Name = Event55_1
 msgctxt "e98d0462-1476-4cea-b70b-0c25e0caa74b"
 msgid "(Chaotic) Adds 6,500 Diplomacy experience points."
-msgstr "(혼돈) 6,500 교섭 경험치 점수를 추가합니다."
+msgstr "(혼돈) 6,500 교섭 경험치 점수를 더합니다."
 
 #. Name = Event55_2
 msgctxt "8a2677a0-294c-41e8-a1ff-e2209cefdf9a"
@@ -3240,7 +3257,7 @@ msgstr ""
 #. Name = Event57_1
 msgctxt "65e8999c-f73d-4584-8346-8a2ee5a673ee"
 msgid "Adds 8,000 Finance Points."
-msgstr "8,000 재정 점수를 추가합니다."
+msgstr "8,000 재정 점수를 더합니다."
 
 #. Name = Event57_2
 msgctxt "43e85690-81c1-4e86-95d2-72cdcf917d5f"
@@ -3422,7 +3439,7 @@ msgstr "에너지 점수가 100 증가합니다."
 #. Name = Event63_3
 msgctxt "3a43f8db-fd62-485e-b711-712bf3ecbef7"
 msgid "(Good) Adds 7,500 Finance Points."
-msgstr "(선) 7,500 재정 점수를 추가합니다."
+msgstr "(선) 7,500 재정 점수를 더합니다."
 
 #. Name = Event63_4
 msgctxt "e3d2ec0b-7e26-42a2-90c7-71cef01b9cc5"
@@ -3439,7 +3456,7 @@ msgstr "(악) {g|EnslavingTheDragon}[드래곤 노예화]{/g} 칙령을 해금�
 #. Name = Event64_1
 msgctxt "eabd6897-9ae6-4d7b-b674-1331b3b2d949"
 msgid "Adds 1,500 Military experience points."
-msgstr "1,500 군사 경험치 점수를 추가합니다."
+msgstr "1,500 군사 경험치 점수를 더합니다."
 
 #. Name = Event64_2
 msgctxt "f762fb8c-b2e7-4637-9571-3bcb998a336b"
@@ -3546,7 +3563,7 @@ msgstr ""
 #. Name = Event68_5
 msgctxt "5730dc51-4a7a-42a1-9b74-8de7252d1526"
 msgid "(Evil) Adds 4,000 Diplomacy experience points and 7,500 Finance Points."
-msgstr "(악) 4,000 교섭 경험치 점수와 7,500 재정 점수를 추가합니다."
+msgstr "(악) 4,000 교섭 경험치 점수와 7,500 재정 점수를 더합니다."
 
 #. Name = Event69_1
 msgctxt "ca5b039a-ab55-4359-b325-5682fa40a1b4"
@@ -3628,12 +3645,12 @@ msgstr ""
 #. Name = Event71_2
 msgctxt "b28c8b3a-cfe7-4ea8-911d-a943f64f469f"
 msgid "Adds 10,000 Finance Points and 500 Materials Points."
-msgstr "10,000 재정 점수와 500 물자 점수를 추가합니다."
+msgstr "10,000 재정 점수와 500 물자 점수를 더합니다."
 
 #. Name = Event71_3
 msgctxt "56595474-bb01-4096-8828-f2926823cedd"
 msgid "Adds 150 Energy Points."
-msgstr "150 에너지 점수를 추가합니다."
+msgstr "150 에너지 점수를 더합니다."
 
 #. Name = Event71_4
 msgctxt "51be9385-044d-4433-b4c5-f76261eba56e"
@@ -3645,7 +3662,7 @@ msgctxt "63869fa4-b215-43c2-8c1a-0a29388cf29d"
 msgid ""
 "Adds 3,000 Logistics experience points, 10,000 Finance Points and 25,000 "
 "gold."
-msgstr "3,000 병참 경험지 점수, 10,000 재정 점수, 25,000 금화를 추가합니다."
+msgstr "3,000 병참 경험지 점수, 10,000 재정 점수, 25,000 금화를 더합니다."
 
 #. Name = Event72_1
 msgctxt "e9e4152f-d6a9-48fd-8816-c724d9c5e63d"
@@ -3836,7 +3853,7 @@ msgstr "사령관의 지휘부에서 6 {g|Rogues}[로그]{/g}와 8 {g|Bandits}[�
 #. Name = Event7_2
 msgctxt "e628fb38-56ad-44fb-a409-3335d43f6549"
 msgid "Adds 750 Diplomacy experience points."
-msgstr "750 교섭 경험치 점수를 추가합니다."
+msgstr "750 교섭 경험치 점수를 더합니다."
 
 #. Name = Event7_3
 msgctxt "754d8ba5-7fab-4d28-911b-9a3efa723827"
@@ -3900,17 +3917,17 @@ msgstr "{g|RescuingTheArrogantGeneral}[오만한 지휘관 구출]{/g} 칙령을
 #. Name = Event82_1
 msgctxt "f1d05bac-8024-41c2-81de-95c2b4062292"
 msgid "Adds 200 Energy Points, deducts 3,500 Finance Points."
-msgstr "200 에너지 점수를 추가하고, 3,500 재정 점수를 차감합니다."
+msgstr "200 에너지 점수를 더하고, 3,500 재정 점수를 차감합니다."
 
 #. Name = Event82_2
 msgctxt "bd49a4df-0f4a-42f0-8be5-f4f4a78ae69e"
 msgid "Adds 5,000 Diplomacy experience points and 150 Energy Points."
-msgstr "5,000 교섭 경험치 점수와 150 에너지 점수를 추가합니다."
+msgstr "5,000 교섭 경험치 점수와 150 에너지 점수를 더합니다."
 
 #. Name = Event82_3
 msgctxt "fc1ca82e-8d5e-42ee-a942-95282b3ce3f3"
 msgid "Adds 150 Energy Points and 5,000 Logistics experience points."
-msgstr "150 에너지 점수와 5,000 병참 경험치 점수를 추가합니다."
+msgstr "150 에너지 점수와 5,000 병참 경험치 점수를 더합니다."
 
 #. Name = Event82_5
 msgctxt "816f3279-a20c-427e-bba1-d0b1019c835b"
@@ -3918,7 +3935,7 @@ msgid ""
 "Adds 200 Energy Points. All spellcasting units gain the {g|BestIngredients}["
 "Best Ingredients]{/g} feat."
 msgstr ""
-"200 에너지 점수를 추가합니다. 모든 주문 시전 유닛은 {g|BestIngredients}[최고의 재료]{/g} 특기를 얻습니다."
+"200 에너지 점수를 더합니다. 모든 주문 시전 유닛은 {g|BestIngredients}[최고의 재료]{/g} 특기를 얻습니다."
 
 #. Name = Event83_1
 msgctxt "ec127f66-8cfd-4093-88b5-db57a288cd37"
@@ -3950,14 +3967,14 @@ msgstr "(질서) 성전 사기가 35 증가합니다."
 #. Name = Event84_2
 msgctxt "f6987178-ecf8-4a72-8724-5189058fef82"
 msgid "(Chaotic) Adds 7,000 Diplomacy experience points."
-msgstr "(혼돈) 7,000 교섭 경험치 점수를 추가합니다."
+msgstr "(혼돈) 7,000 교섭 경험치 점수를 더합니다."
 
 #. Name = Event84_4
 msgctxt "bfdbee33-8071-4983-b2ea-21a84912e687"
 msgid ""
 "(Evil) Adds 5000 Diplomacy experience points. Recruitment growth for "
 "trainable units increases by 15% for 30 days."
-msgstr "(악) 5000 교섭 경험치 점수를 추가합니다. 훈련 가능한 유닛의 모집 성장이 30 일간 15% 증가합니다."
+msgstr "(악) 5000 교섭 경험치 점수를 더합니다. 훈련 가능한 유닛의 모집 성장이 30 일간 15% 증가합니다."
 
 #. Name = Event85_1
 msgctxt "3dae859a-0f48-45d8-9521-f3c54fbd068d"
@@ -3986,7 +4003,7 @@ msgstr ""
 #. Name = Event86_1
 msgctxt "a9d4a74c-e8ee-48ff-9ef0-4f98b9114728"
 msgid "Adds 9,000 Diplomacy experience points, deducts 4,000 Finance Points."
-msgstr "9,000 교섭 경험치 점수를 추가하고 4,000 재정 점수를 차감합니다."
+msgstr "9,000 교섭 경험치 점수를 더하고 4,000 재정 점수를 차감합니다."
 
 #. Name = Event86_3
 msgctxt "87cc6a61-c681-4787-9d44-804eae44106f"
@@ -3998,7 +4015,7 @@ msgctxt "49d61468-07eb-40b3-b9e2-8336e004cea2"
 msgid ""
 "Adds 5,000 Leadership, 1,000 Military, 3,000 Logistics and Diplomacy "
 "experience points."
-msgstr "5,000 통솔, 1,000 군사, 3,000 통솔 및 교섭 경험치 점수를 추가합니다."
+msgstr "5,000 통솔, 1,000 군사, 3,000 통솔 및 교섭 경험치 점수를 더합니다."
 
 #. Name = Event86_5
 msgctxt "f8ae3a11-9b35-4bf8-8909-78d68db9f4d4"
@@ -4011,13 +4028,13 @@ msgstr ""
 msgctxt "dfb2d453-7f1d-4079-bd43-91a2f95f50e9"
 msgid ""
 "(Evil) Adds 1,250 Military experience points, crusade morale reduces by 25."
-msgstr "(악) 1,250 군사 경험치 점수를 추가하지만, 성전 사기가 25 감소합니다."
+msgstr "(악) 1,250 군사 경험치 점수를 더하지만, 성전 사기가 25 감소합니다."
 
 #. Name = Event87_2
 msgctxt "f98373f3-b2a6-4deb-84e9-d4fc216c5e04"
 msgid ""
 "Adds 1,250 Military experience points, Finance Points income reduces by 20."
-msgstr "1,250 군사 경험치 점수를 추가하지만, 재정 점수 수입이 20 감소합니다."
+msgstr "1,250 군사 경험치 점수를 더하지만, 재정 점수 수입이 20 감소합니다."
 
 #. Name = Event87_3
 msgctxt "f36ff40a-68f9-42c7-9e9e-81d88015da5f"
@@ -4058,7 +4075,7 @@ msgctxt "30816c9f-e292-440b-9502-e1e3c63ed41b"
 msgid ""
 "Adds 2,500 Leadership, 500 Military, 1,500 Logistics and Diplomacy "
 "experience points. Crusade morale increases by 20."
-msgstr "2,500 통솔, 500 군사, 1,500 통솔 및 교섭 경험치 점수를 추가합니다. 성전 사기가 20 증가합니다."
+msgstr "2,500 통솔, 500 군사, 1,500 통솔 및 교섭 경험치 점수를 더합니다. 성전 사기가 20 증가합니다."
 
 #. Name = Event89_3
 msgctxt "4c1d106a-2afc-4ebe-a0ea-d8679cc0f74d"
@@ -4083,7 +4100,7 @@ msgctxt "2aa4bc62-02ea-4d7f-a0b7-945f7789efac"
 msgid ""
 "Adds 4,500 Logistics experience points and deducts 1,500 Leadership "
 "experience points."
-msgstr "4,500 병참 경험치 점수를 추가하고 1,500 통솔 경험치 점수를 차감합니다."
+msgstr "4,500 병참 경험치 점수를 더하고 1,500 통솔 경험치 점수를 차감합니다."
 
 #. Name = Event8_2
 msgctxt "39d907b7-91dd-43dc-9162-d57111a19af4"
@@ -4096,7 +4113,7 @@ msgstr ""
 msgctxt "44e3bfe1-c124-4c64-921e-ad0bc9b45690"
 msgid ""
 "Adds 1,500 Logistics experience points and 500 Military experience points."
-msgstr "1,500 병참 경험치 점수와 500 군사 경험치 점수를 추가합니다."
+msgstr "1,500 병참 경험치 점수와 500 군사 경험치 점수를 더합니다."
 
 #. Name = Event8_5
 msgctxt "daea1268-3aca-428d-b013-a170216379f0"
@@ -4119,7 +4136,7 @@ msgid ""
 "Adds 100 Military experience points and 250 Diplomacy experience points. "
 "Unlocks the {g|HelpOfTheNail}[Help of the Nail]{/g} decree."
 msgstr ""
-"100 군사 경험치 점수와 250 교섭 경험치 점수를 추가합니다. {g|HelpOfTheNail}[대못의 도움]{/g} 칙령을 해금합니다."
+"100 군사 경험치 점수와 250 교섭 경험치 점수를 더합니다. {g|HelpOfTheNail}[대못의 도움]{/g} 칙령을 해금합니다."
 
 #. Name = Event_AbductedSouls_1
 msgctxt "6d999085-c8f8-4d8b-b55a-f79497712a0b"
@@ -4158,12 +4175,12 @@ msgctxt "0571aa4d-6088-434b-8cc0-d829cab01b02"
 msgid ""
 "All units gain the {g|FireResistance}[Fire Resistance]{/g} feat. Adds X "
 "Leadership experience points."
-msgstr "모든 유닛은 {g|FireResistance}[화염 저항]{/g} 특기를 얻습니다. X 통솔 경험치 점수를 추가합니다."
+msgstr "모든 유닛은 {g|FireResistance}[화염 저항]{/g} 특기를 얻습니다. X 통솔 경험치 점수를 더합니다."
 
 #. Name = Event_ForbiddenPractices_3
 msgctxt "5100eadd-37d4-4b98-9a16-d9314424265a"
 msgid "Adds X Leadership experience points."
-msgstr "X 통솔 경험치 점수를 추가합니다."
+msgstr "X 통솔 경험치 점수를 더합니다."
 
 #. Name = Event_SomebodyIsKilled_1
 msgctxt "96a45af5-672a-4000-ab8a-2e95f2cca7fe"
@@ -4873,7 +4890,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Devil_1_2
 msgctxt "d6fa61a8-bfa2-4a88-bc27-157c5ce01ebf"
 msgid "Adds 50,000 gold."
-msgstr "50,000 금화를 추가합니다."
+msgstr "50,000 금화를 더합니다."
 
 #. Name = Gloss_RankUp_Devil_2_1
 msgctxt "b91da498-a5cb-4d73-82ef-cd4f38f4ac94"
@@ -4941,7 +4958,7 @@ msgstr ""
 #. Name = Gloss_RankUp_Devil_4_1
 msgctxt "5f20bd2c-cff2-457a-99ef-6f7ba62e23d1"
 msgid "Adds 200,000 gold."
-msgstr "200,000 금화를 추가합니다."
+msgstr "200,000 금화를 더합니다."
 
 #. Name = Gloss_RankUp_Devil_4_3_n
 msgctxt "517b058a-7aa5-4fbf-9c63-65561e1fa641"
@@ -5073,7 +5090,7 @@ msgid ""
 "{g|Conscripts}[Conscripts]{/g} gain the {g|AndoranEquipment}[Andoran "
 "Equipment]{/g} feat."
 msgstr ""
-"6,000 재정 점수를 추가합니다. {g|Footmen}[보병]{/g}, {g|Champions}[챔피언]{/g}, "
+"6,000 재정 점수를 더합니다. {g|Footmen}[보병]{/g}, {g|Champions}[챔피언]{/g}, "
 "{g|ShieldBearers}[방패병]{/g}, {g|Spearmen}[창병]{/g}, {g|Convicts}[죄수]{/g}, "
 "{g|Conscripts}[징집병]{/g}은 {g|AndoranEquipment}[안도란 장비]{/g} 특기를 얻습니다."
 
@@ -6738,7 +6755,7 @@ msgstr "사령관의 지휘부에서 7 {g|StoneInfantry}[바위 보병]{/g}을 �
 #. Name = RaceReactReinf_Resource_desc
 msgctxt "aed725be-2868-4fe9-a151-364cb7f97fed"
 msgid "Adds 2,500 Finance Points."
-msgstr "2,500 재정 점수를 추가합니다."
+msgstr "2,500 재정 점수를 더합니다."
 
 #. Name = RaceReactReinf_Resource_name
 msgctxt "f919652f-6a54-4a94-84f0-5ef4b1e46be1"
