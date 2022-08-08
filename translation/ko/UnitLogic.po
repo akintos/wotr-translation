@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-07-28 19:43+0000\n"
-"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
+"PO-Revision-Date: 2022-08-08 06:43+0000\n"
+"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -3744,7 +3744,7 @@ msgstr ""
 "[LONGSTART]매의 형상을 취합니다. 눈이 맹금류처럼 넓어지고 머리의 측면에는 깃털이 자라납니다. [LONGEND] "
 "{g|Encyclopedia:Perception}지각 판정{/g}에 +3 능숙 {g|Encyclopedia:Bonus}보너스{/g}, "
 "{g|Encyclopedia:RangedAttack}원거리 공격{/g}에 +1 능숙 보너스, 활과 쇠뇌의 "
-"{g|Encyclopedia:Critical}치명타{/g}배율이 19-20/×3이 됩니다. [LONGSTART]\n"
+"{g|Encyclopedia:Critical}치명타{/g}배수이 19-20/×3이 됩니다. [LONGSTART]\n"
 "이 효과는 향상된 치명타 {g|Encyclopedia:Feat}특기{/g}나 예리한 무기와 같이 무기의 치명타 범위를 확장시키는 다른 "
 "효과와 중복되지 않습니다. [LONGEND]"
 
@@ -3794,7 +3794,7 @@ msgstr ""
 "공격은 최대 {g|Encyclopedia:BAB}기본 공격 보너스{/g}에 {g|Encyclopedia:Strength}힘{/g} 또는 "
 "{g|Encyclopedia:Dexterity}민첩{/g} 보너스(선택 사항)를 더한 것을 사용하고, 명중 시 1d8 점 (소형일 경우 "
 "1d6 점의 {g|Encyclopedia:Damage}피해{/g}) + 힘 수정치만큼의 {g|Encyclopedia:Damage_Type}"
-"찌르기 피해{/g}를 입힙니다. 이 뿔의 {g|Encyclopedia:Critical}치명타{/g}배율은 19-20/×2입니다."
+"찌르기 피해{/g}를 입힙니다. 이 뿔의 {g|Encyclopedia:Critical}치명타{/g}배수은 19-20/×2입니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AspectOfTheWolf::m_DisplayName
@@ -39682,7 +39682,7 @@ msgid ""
 "weapon's critical multiplier by 1."
 msgstr ""
 "4 레벨에 소드 세인트의 {g|Encyclopedia:Critical}치명타{/g}가 확정되었을 때 비전력을 1 점 소모해서 무기의 "
-"치명타 배율을 1 높일 수 있습니다."
+"치명타 배수을 1 높일 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = TiringCriticalToggleAbility::m_DisplayName
@@ -40955,7 +40955,7 @@ msgstr ""
 "{g|Encyclopedia:Dexterity}민첩{/g} 보너스(선택 사항)를 더한 것을 사용하고, 명중 시 "
 "{g|Encyclopedia:Dice}1d8{/g} 점 (소형일 경우 1d6 점) + 힘 수정치만큼의 "
 "{g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 입힙니다. 이 뿔의 "
-"{g|Encyclopedia:Critical}치명타{/g} 배율은 19-20/×2입니다.[LONGEND]"
+"{g|Encyclopedia:Critical}치명타{/g} 배수은 19-20/×2입니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = AspectOfTheWolfBuff::m_DisplayName
