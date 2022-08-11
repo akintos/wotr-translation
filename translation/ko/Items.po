@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-08-09 22:43+0000\n"
+"PO-Revision-Date: 2022-08-11 08:43+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -7714,7 +7714,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = CamelliaQ2FarRoomKey::m_DisplayNameText
-#, fuzzy
 msgctxt "5a4e9828-7be6-43da-95cf-1104d01fdc26"
 msgid "Key to Farthest Room"
 msgstr "가장 먼 방의 열쇠"
@@ -8198,7 +8197,6 @@ msgstr "Warden's Chambers 에서 온 편지"
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = CommandantNotes::m_DescriptionText
-#, fuzzy
 msgctxt "93576132-99a4-455d-a597-779272b6f53d"
 msgid ""
 "A page covered in demonic symbols.\n"
@@ -8226,8 +8224,8 @@ msgstr ""
 "또한, 저는 알더페시의 감옥들에 대한 잠시를 포기하기를 요구합니다 — 그의 감방에 배치된 경비는, 그의 뇌물과 약속에 현혹되어 바로 그의 "
 "첩자가 되어버립니다. 따라서, 다른 이들에 대한 본보기로 그들은 처형되어야 합니다.\n"
 "그리고, 저는 여사제 스벤닥의 어처구니없는 행동에 대해 보고하고 싶습니다 — 스벤닥은 제 휘하의 전사들을 데려가 자신의 희생 의식을 "
-"수행케하고, 또 마법사들을 데려가 매 주기마다 비어있는 우리의 마법 장벽을 복구시키도록 시키고 있습니다. 누군가가 이 미친년을 원래 "
-"자기자리로 돌려보낼 때입니다!\n"
+"수행케하고, 또 마법사들을 데려가 매 주기마다 비어있는 우리의 마법 장벽을 보수하도록 시키고 있습니다. 누군가가 이 미친년을 원래의 자기 "
+"자리로 돌려보낼 때입니다!\n"
 "당신의 죽음의 영광 앞에 무릎 꿇습니다, 당신의 무가치한 노예,\n"
 "아포나비시우스"
 
@@ -21333,21 +21331,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ElderToothEnchantment::m_EnchantName
-#, fuzzy
 msgctxt "f3cf475b-77df-424a-83e5-17d1fb35cba4"
 msgid "Necrotic Burst"
 msgstr "괴저 폭발"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ElderToothEnchantment::m_Description
-#, fuzzy
-#| msgid ""
-#| "This weapon deals an additional 1d6 negative damage on hit. In addition to "
-#| "the extra damage, a necrotic burst weapon deals an extra 1d10 points of "
-#| "negative energy damage on a successful critical hit. If the weapon's "
-#| "critical multiplier is ×3, add an extra 2d10 points of negative energy "
-#| "damage instead, and if the multiplier is ×4, add an extra 3d10 points of "
-#| "negative energy damage."
 msgctxt "7e4d4535-8546-4d6d-b993-dbdcb9c0e845"
 msgid ""
 "This weapon deals an additional {g|Encyclopedia:Dice}1d6{/g} negative "
@@ -21359,27 +21348,25 @@ msgid ""
 "instead, and if the multiplier is ×4, add an extra 3d10 points of negative "
 "energy damage."
 msgstr ""
-"이 무기는 명중시 1d6 점의 음에너지 피해를 추가로 입힙니다. 뿐만 아니라 괴저 폭발 무기는 치명타 적중 시 1d10 점의 음에너지 "
-"피해를 추가합니다. 무기의 치명타 배수가 ×3 이면 2d10 점의 음에너지 피해를 추가하고 배수가 x4 인 경우 3d10 점의 음에너지 "
-"피해를 추가합니다."
+"이 무기는 명중시 {g|Encyclopedia:Dice}1d6{/g} 점의 {g|Encyclopedia:Damage}음에너지 피해{/g}"
+"를 추가로 입힙니다. 뿐만 아니라 괴저 폭발 무기는 치명타 적중 시 1d10 점의 {g|Encyclopedia:Energy_Damage}"
+"음에너지 피해{/g}를 추가합니다. 무기의 {g|Encyclopedia:Critical}치명타{/g} 배수가 ×3 이면 2d10 점의 "
+"음에너지 피해를 추가하고 배수가 x4 인 경우 3d10 점의 음에너지 피해를 추가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ElderToothEnchantment::m_Prefix
-#, fuzzy
 msgctxt "3763034c-2a57-4836-8190-413cab8143d3"
 msgid "Necrotic Burst"
 msgstr "괴저 폭발"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ElderToothEnchantmentLethal::m_EnchantName
-#, fuzzy
 msgctxt "7c4ba653-4aa8-4409-8363-8a31d86813f6"
 msgid "Lethal"
 msgstr "치명적"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ElderToothEnchantmentLethal::m_Description
-#, fuzzy
 msgctxt "0215fafc-c558-445e-a3d5-370eddaf0b0d"
 msgid ""
 "Ability doubles the threat range of a weapon. This benefit stacks with any "
@@ -21388,7 +21375,6 @@ msgstr "이 능력은 무기의 치명타 범위를 두 배로 만듭니다. 이
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ElderToothEnchantmentLethal::m_Prefix
-#, fuzzy
 msgctxt "bada58f6-0e59-4463-a486-e82287ce7aa9"
 msgid "Lethal"
 msgstr "치명적"
@@ -21398,147 +21384,130 @@ msgstr "치명적"
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = KineticBladeElectricBlastAbility::m_DisplayName
-#, fuzzy
 msgctxt "c5f6a68d-2ae0-452a-8333-42ec9b98e1fb"
 msgid "Electric Blast — Kinetic Blade"
-msgstr "전기 블래스트 - 초능력 칼날"
+msgstr "전기 블래스트 — 초능력 칼날"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement1::m_EnchantName
-#, fuzzy
 msgctxt "8408e85f-ff0b-495f-a9e8-7eadf077c801"
 msgid "Enhancement +1"
 msgstr "강화 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement1::m_Description
-#, fuzzy
-#| msgid ""
-#| "Attacks with this weapon get +1 enhancement bonus on both attack and damage "
-#| "rolls."
 msgctxt "d74b4bd4-d662-4a33-be83-ad5855a5608a"
 msgid ""
 "{g|Encyclopedia:Attack}Attacks{/g} with this weapon get +1 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} on both attack and {g|Encyclopedia:Damage}"
 "damage rolls{/g}."
-msgstr "이 무기로 공격하면 명중과 피해 굴림에 +1의 강화 보너스가 추가됩니다."
+msgstr ""
+"이 무기로 {g|Encyclopedia:Attack}공격{/g}하면 명중 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"+1 강화 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement1::m_Suffix
-#, fuzzy
 msgctxt "690c957d-73f6-45b9-bf5b-8b0fccac0f4d"
 msgid "+1"
 msgstr "+1"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement2::m_EnchantName
-#, fuzzy
 msgctxt "1e4eff7e-2e51-41df-8e2c-61b0a8116aee"
 msgid "Enhancement +2"
 msgstr "강화 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement2::m_Description
-#, fuzzy
-#| msgid ""
-#| "Attacks with this weapon get +2 enhancement bonus on both attack and damage "
-#| "rolls."
 msgctxt "cad65a18-39b2-4ad2-a4d2-a0378deec8a9"
 msgid ""
 "{g|Encyclopedia:Attack}Attacks{/g} with this weapon get +2 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} on both attack and {g|Encyclopedia:Damage}"
 "damage rolls{/g}."
-msgstr "이 무기로 공격하면 명중과 피해 굴림에 +2의 강화 보너스가 추가됩니다."
+msgstr ""
+"이 무기로 {g|Encyclopedia:Attack}공격{/g}하면 명중 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"+2 강화 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement2::m_Suffix
 msgctxt "9dc2afc9-04f8-40fb-9c83-0f1b72f79d78"
 msgid "+2"
-msgstr ""
+msgstr "+2"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement3::m_EnchantName
-#, fuzzy
 msgctxt "9c8f4400-ee18-4227-b396-fb1f18c503a6"
 msgid "Enhancement +3"
 msgstr "강화 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement3::m_Description
-#, fuzzy
-#| msgid ""
-#| "Attacks with this weapon get +3 enhancement bonus on both attack and damage "
-#| "rolls."
 msgctxt "ea06a72a-7924-4048-83d8-1c9914986db6"
 msgid ""
 "{g|Encyclopedia:Attack}Attacks{/g} with this weapon get +3 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} on both attack and {g|Encyclopedia:Damage}"
 "damage rolls{/g}."
-msgstr "이 무기로 공격하면 명중과 피해 굴림에 +3의 강화 보너스가 추가됩니다."
+msgstr ""
+"이 무기로 {g|Encyclopedia:Attack}공격{/g}하면 명중 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"+3 강화 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement3::m_Suffix
 msgctxt "83f05495-bae5-40ed-91d1-705f44f12d85"
 msgid "+3"
-msgstr ""
+msgstr "+3"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement4::m_EnchantName
-#, fuzzy
 msgctxt "191dbd9c-ade1-4f9c-a8f7-704ae3288010"
 msgid "Enhancement +4"
 msgstr "강화 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement4::m_Description
-#, fuzzy
-#| msgid ""
-#| "Attacks with this weapon get +4 enhancement bonus on both attack and damage "
-#| "rolls."
 msgctxt "ffc5f5d5-8823-4866-8a92-4191827c8130"
 msgid ""
 "{g|Encyclopedia:Attack}Attacks{/g} with this weapon get +4 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} on both attack and {g|Encyclopedia:Damage}"
 "damage rolls{/g}."
-msgstr "이 무기로 공격하면 명중과 피해 굴림에 +4의 강화 보너스가 추가됩니다."
+msgstr ""
+"이 무기로 {g|Encyclopedia:Attack}공격{/g}하면 명중 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"+4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement4::m_Suffix
 msgctxt "d3ebdb03-ec35-4861-99e9-47d2c42a5e10"
 msgid "+4"
-msgstr ""
+msgstr "+4"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement5::m_EnchantName
-#, fuzzy
 msgctxt "607e5b27-c95c-4cb0-94c1-d220b62b4ada"
 msgid "Enhancement +5"
 msgstr "강화 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement5::m_Description
-#, fuzzy
-#| msgid ""
-#| "Attacks with this weapon get +5 enhancement bonus on both attack and damage "
-#| "rolls."
 msgctxt "384f1861-7543-43ba-9ab9-9b801a6fe668"
 msgid ""
 "{g|Encyclopedia:Attack}Attacks{/g} with this weapon get +5 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} on both attack and {g|Encyclopedia:Damage}"
 "damage rolls{/g}."
-msgstr "이 무기로 공격하면 명중과 피해 굴림에 +5의 강화 보너스가 추가됩니다."
+msgstr ""
+"이 무기로 {g|Encyclopedia:Attack}공격{/g}하면 명중 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"+5 강화 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement5::m_Suffix
 msgctxt "1a6912a4-5edd-4fa7-83a1-00e193d6d338"
 msgid "+5"
-msgstr ""
+msgstr "+5"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement6::m_EnchantName
 msgctxt "bd3efdbd-fcc3-484a-8d2a-843e31dd5d72"
 msgid "Enhancement +6"
-msgstr ""
+msgstr "강화 +6"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement6::m_Description
@@ -21548,12 +21517,14 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on both attack and {g|Encyclopedia:Damage}"
 "damage rolls{/g}."
 msgstr ""
+"이 무기로 {g|Encyclopedia:Attack}공격{/g}하면 명중 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"+6 강화 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Enhancement6::m_Suffix
 msgctxt "cca17c61-b75a-4c0e-b3d8-3fc36988cff9"
 msgid "+6"
-msgstr ""
+msgstr "+6"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = EnhancementBonusWilloWisp::m_EnchantName
@@ -21564,21 +21535,17 @@ msgstr "소등"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = EnhancementBonusWilloWisp::m_Description
-#, fuzzy
-#| msgid ""
-#| "Against Will-o'-Wisps, the weapon's enhancement bonus is +4 better than its "
-#| "actual bonus."
 msgctxt "288b72cd-38cf-4803-9ff8-4acf5e0b828a"
 msgid ""
 "Against Will-o'-Wisps, the weapon's enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} is +4 better than its actual bonus."
-msgstr "윌 오 위습을 상대할 때 이 무기의 강화 보너스가 +4 만큼 증가합니다."
+msgstr "윌 오 위습을 상대할 때 이 무기의 강화 {g|Encyclopedia:Bonus}보너스{/g}가 +4 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = EvilAligned::m_EnchantName
 msgctxt "cea2f4e0-8683-49fb-a577-fde98221c041"
 msgid "Evil-aligned"
-msgstr ""
+msgstr "악 성향"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = EvilAligned::m_Description
@@ -21587,30 +21554,28 @@ msgid ""
 "An {g|Encyclopedia:Alignment}evil-aligned{/g} weapon can bypass the "
 "{g|Encyclopedia:Damage_Reduction}DR{/g} of certain creatures."
 msgstr ""
+"{g|Encyclopedia:Alignment}악 성향{/g}의 무기는 특정한 크리처의 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g}을 무시할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ExtremeFrost4d6::m_EnchantName
-#, fuzzy
 msgctxt "8b62a6b4-378e-4393-8710-87c6f3fce347"
 msgid "Epic Frost"
 msgstr "전설적 서리"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ExtremeFrost4d6::m_Description
-#, fuzzy
-#| msgid ""
-#| "Epic frost weapon is sheathed in a terrible, icy cold that deals an extra "
-#| "4d6 points of cold damage on a successful hit."
 msgctxt "a78e219e-19de-4ec4-82ae-18b6ccf78484"
 msgid ""
 "Epic frost weapon is sheathed in a terrible, icy cold that deals an extra "
 "{g|Encyclopedia:Dice}4d6{/g} points of {g|Encyclopedia:Energy_Damage}cold "
 "damage{/g} on a successful hit."
-msgstr "전설적 서리 무기는 극도로 차가운 냉기에 둘러싸여 있고, 적에게 명중하면 4d6점의 냉기 피해를 입힙니다."
+msgstr ""
+"전설적 서리 무기는 극도로 차가운 냉기에 둘러싸여 있고, 적에게 명중하면 {g|Encyclopedia:Dice}4d6{/g}점의 "
+"{g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = ExtremeFrost4d6::m_Prefix
-#, fuzzy
 msgctxt "7a32ec5f-f141-4cad-a5a7-367ed9d24b80"
 msgid "Epic Frost"
 msgstr "전설적 서리"
@@ -21692,14 +21657,12 @@ msgstr "불꽃"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = FireGemstone::m_EnchantName
-#, fuzzy
 msgctxt "46dd5950-c43e-4a25-bb63-8f9a46a98a50"
 msgid "Fire Gemstone"
 msgstr "불의 원석"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = FireGemstone::m_Description
-#, fuzzy
 msgctxt "136cfa4a-c2f5-4cb6-a968-76a219a48e90"
 msgid ""
 "This staff contains six charges that are replenished each day. By spending "
@@ -21714,10 +21677,9 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = KineticBladeFireBlastAbility::m_DisplayName
-#, fuzzy
 msgctxt "65913545-d7a0-411d-9baf-6d8df0625c65"
 msgid "Fire Blast — Kinetic Blade"
-msgstr "화염 블래스트 - 초능력 칼날"
+msgstr "화염 블래스트 — 초능력 칼날"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Flaming::m_EnchantName
@@ -21826,16 +21788,14 @@ msgstr "서리"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Frost::m_Description
-#, fuzzy
-#| msgid ""
-#| "Frost weapon is sheathed in a terrible, icy cold that deals an extra 1d6 "
-#| "points of cold damage on a successful hit."
 msgctxt "bfe05e7e-3175-4750-9d2d-6b0cd64a4d8f"
 msgid ""
 "Frost weapon is sheathed in a terrible, icy cold that deals an extra "
 "{g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Energy_Damage}cold "
 "damage{/g} on a successful hit."
-msgstr "서리의 무기는 끔찍하게 차가운 냉기로 덮여있어 명중시 1d6 점의 냉기 피해를 추가합니다."
+msgstr ""
+"서리의 무기는 끔찍하게 차가운 냉기로 덮여있어 명중시 {g|Encyclopedia:Dice}1d6{/g} 점의 "
+"{g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 추가로 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Frost::m_Prefix
@@ -21845,45 +21805,35 @@ msgstr "서리"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Frost2d8::m_EnchantName
-#, fuzzy
 msgctxt "a6ab18ea-9a44-4ed6-b1f4-48d66cfb7bef"
 msgid "Greater Frost"
 msgstr "상급 서리"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Frost2d8::m_Description
-#, fuzzy
-#| msgid ""
-#| "Greater frost weapon is sheathed in a terrible, icy cold that deals an extra "
-#| "2d8 points of cold damage on a successful hit."
 msgctxt "12027fb4-f772-4cfd-a142-60c77926ee73"
 msgid ""
 "Greater frost weapon is sheathed in a terrible, icy cold that deals an extra "
 "{g|Encyclopedia:Dice}2d8{/g} points of {g|Encyclopedia:Energy_Damage}cold "
 "damage{/g} on a successful hit."
-msgstr "상급 서리 무기는 끔찍하게 차가운 냉기로 덮여있어 명중시 2d8 점의 냉기 피해를 추가합니다."
+msgstr ""
+"상급 서리 무기는 끔찍하게 차가운 냉기로 덮여있어 명중시 {g|Encyclopedia:Dice}2d8{/g} 점의 "
+"{g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 추가로 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Frost2d8::m_Prefix
-#, fuzzy
 msgctxt "0f26018f-09d1-4ee1-8ea7-9316012e9fb3"
 msgid "Frost"
 msgstr "서리"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Furious::m_EnchantName
-#, fuzzy
 msgctxt "4b91231a-89a6-4ad1-88c9-5ea3567e2278"
 msgid "Furious"
 msgstr "격분"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Furious::m_Description
-#, fuzzy
-#| msgid ""
-#| "A furious weapon serves as a focus for its wielder's anger. When the wielder "
-#| "is raging or under the effect of a rage spell, the weapon's enhancement "
-#| "bonus is +2 better than normal."
 msgctxt "d97c7a8a-510f-464d-b2ba-9abd01f33af4"
 msgid ""
 "A furious weapon serves as a focus for its wielder's anger. When the wielder "
@@ -21891,12 +21841,11 @@ msgid ""
 "weapon's enhancement {g|Encyclopedia:Bonus}bonus{/g} is +2 better than "
 "normal."
 msgstr ""
-"격분의 무기는 착용자의 분노를 한 층 더 끌어 올립니다. 착용자가 격노 상태나 격노 주문의 효과를 받을 때 무기의 강화 보너스가 +2 "
-"증가 합니다."
+"격분의 무기는 착용자의 분노를 한 층 더 끌어 올립니다. 착용자가 격노 상태나 격노 {g|Encyclopedia:Spell}주문{/g}의 "
+"효과를 받을 때 무기의 강화 {g|Encyclopedia:Bonus}보너스{/g}가 +2 증가 합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = Furious::m_Prefix
-#, fuzzy
 msgctxt "d30e09d0-5c8a-472e-a265-79864a22a90a"
 msgid "Furious"
 msgstr "격분"
@@ -21924,19 +21873,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GhostTouch::m_EnchantName
-#, fuzzy
 msgctxt "82879a0d-c767-4c58-926f-70c0cc52efd7"
 msgid "Ghost Touch"
 msgstr "유령접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GhostTouch::m_Description
-#, fuzzy
-#| msgid ""
-#| "A ghost touch weapon deals damage normally against incorporeal creatures, "
-#| "regardless of its bonus. An incorporeal creature's 50% reduction in damage "
-#| "from corporeal sources does not apply to attacks made against it with ghost "
-#| "touch weapons."
 msgctxt "7d846487-9f47-4e4e-847e-3fbaffd6daed"
 msgid ""
 "A ghost touch weapon deals {g|Encyclopedia:Damage}damage{/g} normally "
@@ -21945,12 +21887,13 @@ msgid ""
 "50% reduction in damage from corporeal sources does not apply to "
 "{g|Encyclopedia:Attack}attacks{/g} made against it with ghost touch weapons."
 msgstr ""
-"유령접촉 무기는 강화 보너스와 상관없이 비실체 크리처에게 정상적인 피해를 입힙니다. 즉 비실체 크리처가 유형의 피해를 받을 때 적용되는 "
-"50% 피해 감소는 유령접촉 무기의 피해에는 적용되지 않습니다."
+"유령접촉 무기는 강화 {g|Encyclopedia:Bonus}보너스{/g}와 상관없이 비실체 크리처에게 정상적인 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다. 즉 "
+"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g} 크리처가 유형의 피해를 받을 때 적용되는 50% "
+"피해 감소는 유령접촉 무기로 가한 {g|Encyclopedia:Attack}공격{/g}에는 적용되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GhostTouch::m_Prefix
-#, fuzzy
 msgctxt "d40925ea-8940-46d3-9e7a-24265433a8c3"
 msgid "Ghost Touch"
 msgstr "유령접촉"
@@ -21959,7 +21902,7 @@ msgstr "유령접촉"
 #. Path = GhostTouch::m_Suffix
 msgctxt "39954415-77c6-45c4-b4dc-efd908f6b9fc"
 msgid "Ghost Touch"
-msgstr ""
+msgstr "유령접촉"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = GoodAligned::m_EnchantName
@@ -22190,7 +22133,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
 #. Path = JagannathKhandaDamageReductionEnchant::m_EnchantName
-#, fuzzy
 msgctxt "5e3bb91d-fb2e-4ba1-9e97-1ee5b11e1bf8"
 msgid "Impervious"
 msgstr "내관통성"
@@ -25078,6 +25020,12 @@ msgid ""
 "round or 1 {g|Encyclopedia:Full_Round_Action}full-round action{/g} cannot be "
 "quickened."
 msgstr ""
+"이 장화의 착용자가 하루에 동일한 {g|Encyclopedia:Spell}spell{/g}을 네 번 시전하면, 다음 주문이 신속 주문 "
+"{g|Encyclopedia:Feat}feat{/g}를 적용한 것 처럼 신속해집니다.\n"
+"신속 주문: 신속 주문은 시전시 {g|Encyclopedia:Swift_Action}신속 행동{/g}입니다. 즉 당신은 다른 "
+"{g|Encyclopedia:CA_Types}행동{/g}, 이를테면 신속 주문을 사용한 라운드에 다른 주문 시전 등. 해당 주문의 "
+"{g|Encyclopedia:Casting_Time}시전 시간{/g}이 1라운드 또는 1 "
+"{g|Encyclopedia:Full_Round_Action}라운드 전체 행동{/g}일 경우 신속해 질 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfCompleteEarthingItem::m_DisplayNameText
@@ -25095,27 +25043,28 @@ msgid ""
 "the {g|Encyclopedia:Spell}spells{/g} with the [acid] descriptor they cast by "
 "2."
 msgstr ""
+"이 장화는 착용자에게 전기, 기절, 비틀거림 면역을 제공합니다. 또한 착용자가 시전하는 산성 기술어를 포함한 "
+"{g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:Saving_Throw}내성 굴림{/g} "
+"{g|Encyclopedia:DC}DC{/g}를 2 증가시킵니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfElvenKind::m_DisplayNameText
-#, fuzzy
 msgctxt "dcffa0de-2270-4550-9044-b9ac465356e0"
 msgid "Boots of Elvenkind"
 msgstr "엘프족의 장화"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfElvenKind::m_DescriptionText
-#, fuzzy
-#| msgid "These boots grant its wearer a +5 competence bonus on Mobility checks."
 msgctxt "3e03a783-e2d0-45d7-9be3-775c58d9d399"
 msgid ""
 "These boots grant its wearer a +5 competence {g|Encyclopedia:Bonus}bonus{/g} "
 "on {g|Encyclopedia:Mobility}Mobility checks{/g}."
-msgstr "이 장화는 착용자의 기동성 판정에 +5 능숙 보너스를 제공합니다."
+msgstr ""
+"이 장화는 착용자의 {g|Encyclopedia:Mobility}기동성 판정{/g}에 +5 능숙 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfElvenKind::m_FlavorText
-#, fuzzy
 msgctxt "e37731d9-34b0-4cfe-ae61-977a7a4f8637"
 msgid ""
 "These boots are made from fine leather, but it doesn't make them any less "
@@ -25138,6 +25087,9 @@ msgid ""
 "wearer's animal companion gets a +20 bonus to maximum {g|Encyclopedia:HP}Hit "
 "Points{/g}."
 msgstr ""
+"이 장화는 착용자의 {g|Encyclopedia:Lore_Nature}전승 (자연){/g} {g|Encyclopedia:Skills}기술 "
+"판정{/g}에 +10 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자의 동물 동료는 최대 "
+"{g|Encyclopedia:HP}생명점{/g}에 +20 보너스를 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfFreereinItem::m_DisplayNameText
@@ -25151,7 +25103,7 @@ msgctxt "7c357d86-ca5b-4baa-a86c-bb0a875a13df"
 msgid ""
 "These boots grant the wearer a permanent effect of the freedom of movement "
 "{g|Encyclopedia:Spell}spell{/g}."
-msgstr ""
+msgstr "이 장화는 착용자에게 영구적인 이동의 자유 {g|Encyclopedia:Spell}주문{/g}의 효과를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfFreestReinItem::m_DisplayNameText
@@ -25167,6 +25119,8 @@ msgid ""
 "{g|Encyclopedia:Speed}speed{/g} and a constant freedom of movement "
 "{g|Encyclopedia:Spell}spell{/g} effect."
 msgstr ""
+"이 장화는 착용자의 기본 {g|Encyclopedia:Speed}속도{/g}에 +10 {g|Encyclopedia:Bonus}보너스{/g}"
+"를 부여하고 영구적인 이동의 자유 {g|Encyclopedia:Spell}주문{/g}의 효과를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfMagicalWhirlItem::m_DisplayNameText
@@ -25182,29 +25136,27 @@ msgid ""
 "battle, their next {g|Encyclopedia:Spell}spell{/g} becomes quickened, as "
 "though using the Quicken Spell {g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
+"이 장화의 착용자가 전투에서 처음으로 데몬을 살해하면, 착용자가 시전하는 다음 {g|Encyclopedia:Spell}주문{/g}이 신속 "
+"주문 {g|Encyclopedia:Feat}특기{/g}를 적용받은 것처럼 신속해집니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfManticoreItem::m_DisplayNameText
-#, fuzzy
 msgctxt "37af90d3-87ef-47c4-b588-321bb3bd6333"
 msgid "Manticore Skin Boots"
 msgstr "만티코어 가죽 장화"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfManticoreItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These boots grant its wearer a +10 bonus to speed and +4 enhancement bonus "
-#| "to natural armor."
 msgctxt "20cd8b9f-42cc-44be-a1b8-db7c08515e17"
 msgid ""
 "These boots grant its wearer a +10 {g|Encyclopedia:Bonus}bonus{/g} to "
 "{g|Encyclopedia:Speed}speed{/g} and +4 enhancement bonus to natural armor."
-msgstr "이 장화는 착용자에게 이동속도에 +10 보너스, +4 자연 방어 강화 보너스를 제공합니다."
+msgstr ""
+"이 장화는 착용자에게 {g|Encyclopedia:Speed}속도{/g}에 +10 {g|Encyclopedia:Bonus}보너스{/g}, "
+"+4 자연 방어 강화 보너스를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfManticoreItem::m_FlavorText
-#, fuzzy
 msgctxt "a5574d79-a81f-4252-a947-b7f59a72b67a"
 msgid ""
 "Made of a magical predator's hide, these boots tremble a bit even when "
@@ -25224,6 +25176,8 @@ msgid ""
 "These boots grant the wearer a +20 feet {g|Encyclopedia:Bonus}bonus{/g} to "
 "moving {g|Encyclopedia:Speed}speed{/g} and an immunity to prone condition."
 msgstr ""
+"이 장화는 착용자의 이동 {g|Encyclopedia:Speed}속도{/g}에 +20 피트 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여하고 쓰러짐 면역을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfStampedeItem::m_DisplayNameText
@@ -25240,37 +25194,35 @@ msgid ""
 "a {g|Encyclopedia:Bonus}bonus{/g} to the {g|Encyclopedia:Damage}damage "
 "roll{/g} on a successful charge {g|Encyclopedia:Attack}attack{/g}."
 msgstr ""
+"이 장화의 착용자는 성공적인 돌진 {g|Encyclopedia:Attack}공격{/g}시 {g|Encyclopedia:Damage}피해 "
+"굴림{/g}에 자신의 {g|Encyclopedia:Athletics}운동{/g} {g|Encyclopedia:Skills}기술{/g} "
+"등급만큼의 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfSwiftFoot::m_DisplayNameText
-#, fuzzy
 msgctxt "542d9c86-42dd-4778-911d-f984b8c05448"
 msgid "Swiftfoot Boots"
 msgstr "잰걸음 장화"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfSwiftFoot::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These boots increase the wearer's movement speed by 10. That's a enhancement "
-#| "bonus and it does not stack with other enhancement bonuses."
 msgctxt "f0b6c459-0d2a-4449-950f-5517b24ebf62"
 msgid ""
 "These boots increase the wearer's movement {g|Encyclopedia:Speed}speed{/g} "
 "by 10. That's a enhancement {g|Encyclopedia:Bonus}bonus{/g} and it does not "
 "stack with other enhancement bonuses."
-msgstr "이 장화는 착용자의 이동속도를 10 증가시킵니다. 이것은 강화 보너스이며 다른 강화 보너스와 중첩되지 않습니다."
+msgstr ""
+"이 장화는 착용자의 이동 {g|Encyclopedia:Speed}속도{/g}를 10 증가시킵니다. 이것은 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}이며 다른 강화 보너스와 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfSwiftFoot::m_FlavorText
-#, fuzzy
 msgctxt "25df23fc-8f54-4ead-8ee3-cd0b9410360c"
 msgid "Fancy embroidery covers the shafts of these boots."
 msgstr "이 장화의 다리 부분은 화려한 자수로 덮여 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = BootsOfTheCreepingDeath::m_DisplayNameText
-#, fuzzy
 msgctxt "68adc7b8-f16b-4c2e-bb2f-8493b5da5d48"
 msgid "Boots of the Creeping Death"
 msgstr "기어오는 죽음의 장화"
@@ -26502,65 +26454,52 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDeathDealer::m_DisplayNameText
-#, fuzzy
 msgctxt "0be073f6-adfd-4584-ae69-fd4fb28e6ba5"
 msgid "Gloves of Deathdealer"
 msgstr "살인청부업자의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDeathDealer::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "When the wearer of these gloves makes a sneak attack, it deals additional "
-#| "1d6 damage."
 msgctxt "ce7c0891-4388-45dc-b64a-67dc5201947c"
 msgid ""
 "When the wearer of these gloves makes a sneak "
 "{g|Encyclopedia:Attack}attack{/g}, it deals additional "
 "{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage}damage{/g}."
-msgstr "이 장갑의 착용자가 암습을 시도하면, 1d6 피해를 추가로 입힙니다."
+msgstr ""
+"이 장갑의 착용자가 암습 {g|Encyclopedia:Attack}공격{/g}을 시도하면, "
+"{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage}피해{/g}를 추가로 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDeathDealer::m_FlavorText
-#, fuzzy
 msgctxt "2902909e-c030-4c04-ae50-1913f6cb9ce5"
 msgid "Fingers of these gloves are covered in dark substance."
 msgstr "이 장갑의 손가락은 어두운 물질로 덮여 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDexterityItem::m_DisplayNameText
-#, fuzzy
 msgctxt "26a43df2-3591-469e-8a13-4a77a7d0fd2f"
 msgid "Gloves of Dexterity +2"
 msgstr "민첩의 장갑 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDexterityItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These gloves grant its wearer a +2 enhancement bonus to Dexterity. Bonuses "
-#| "of the same type usually don't stack."
 msgctxt "e9ca156b-aeac-4002-9fd9-7831ecd49de9"
 msgid ""
 "These gloves grant its wearer a +2 enhancement "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Dexterity}Dexterity{/g}. "
 "Bonuses of the same type usually don't stack."
-msgstr "이 장갑은 착용자의 민첩에 +2 강화 보너스를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
+msgstr ""
+"이 장갑은 착용자의 {g|Encyclopedia:Dexterity}민첩{/g}에 +2 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDuelingLesserItem::m_DisplayNameText
-#, fuzzy
 msgctxt "b1bcf442-8ce8-4f29-8f9f-c879e9879cd0"
 msgid "Lesser Gloves of Dueling"
 msgstr "하급 결투의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDuelingLesserItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These gloves grant their wearer a +1 bonus to CMD against disarm attempts. "
-#| "If the wearer has the Weapon Training ability and is wielding a weapon it "
-#| "gives a bonus to, that bonus increases by +1."
 msgctxt "cc7853dc-50d0-490c-a9b6-2a4581500952"
 msgid ""
 "These gloves grant their wearer a +1 {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -26568,23 +26507,18 @@ msgid ""
 "Weapon Training ability and is wielding a weapon it gives a bonus to, that "
 "bonus increases by +1."
 msgstr ""
-"이 장갑은 착용자가 무장 해제에 저항할 때 CMD에 +1 보너스를 제공합니다. 만약 착용자가 무기 훈련 능력을 가지고 있고, 그 효과가 "
-"적용되는 무기를 사용중이라면 해당 보너스가 +1 증가합니다."
+"이 장갑은 착용자가 무장 해제에 저항할 때 {g|Encyclopedia:CMD}CMD{/g}에 +1 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 만약 착용자가 무기 훈련 능력을 가지고 있고, 그 효과가 적용되는 "
+"무기를 사용중이라면 해당 보너스가 +1 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDuelingNormalItem::m_DisplayNameText
-#, fuzzy
 msgctxt "ad648d03-1250-40ad-b6d5-9aad5a932b7f"
 msgid "Gloves of Dueling"
 msgstr "결투의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfDuelingNormalItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These gloves grant their wearer a +4 bonus to CMD against disarm attempts. "
-#| "If the wearer has the Weapon Training ability and is wielding a weapon it "
-#| "gives a bonus to, that bonus increases by +2."
 msgctxt "9993b56b-7580-4546-aaf5-96e4e688989f"
 msgid ""
 "These gloves grant their wearer a +4 {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -26592,33 +26526,31 @@ msgid ""
 "Weapon Training ability and is wielding a weapon it gives a bonus to, that "
 "bonus increases by +2."
 msgstr ""
-"이 장갑은 착용자가 무장 해제에 저항할 때 CMD에 +4 보너스를 제공합니다. 만약 착용자가 무기 훈련 능력을 가지고 있고, 그 효과가 "
-"적용되는 무기를 사용중이라면 해당 보너스가 +2 증가합니다."
+"이 장갑은 착용자가 무장 해제에 저항할 때 {g|Encyclopedia:CMD}CMD{/g}에 +4 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 만약 착용자가 무기 훈련 능력을 가지고 있고, 그 효과가 적용되는 "
+"무기를 사용중이라면 해당 보너스가 +2 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfElvenkindItem::m_DisplayNameText
-#, fuzzy
 msgctxt "3ed0b4e0-5fe1-4760-a5fa-8678dc25283d"
 msgid "Gloves of Elvenkind"
 msgstr "엘프족의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfElvenkindItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These gloves grant their wearer a +5 competence bonus to Knowledge (Arcana) "
-#| "skill checks and a +5 bonus to Concentration checks."
 msgctxt "0c875034-97a1-4a2c-9356-948af2f5054e"
 msgid ""
 "These gloves grant their wearer a +5 competence "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Knowledge_Arcana}"
 "Knowledge (Arcana){/g} {g|Encyclopedia:Skills}skill checks{/g} and a +5 "
 "bonus to {g|Encyclopedia:Concentration}Concentration checks{/g}."
-msgstr "이 장갑은 착용자의 지식 (비전) 기술 판정에 +5 능숙 보너스를 주고, 집중 판정에 +5 보너스를 줍니다."
+msgstr ""
+"이 장갑은 착용자의 {g|Encyclopedia:Knowledge_Arcana}지식 (비전){/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 {g|Encyclopedia:Bonus}보너스{/g}를, "
+"{g|Encyclopedia:Concentration}집중 판정{/g}에 +5 보너스를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfElvenkindItem::m_FlavorText
-#, fuzzy
 msgctxt "4b6ed7cd-0c16-45f4-97e4-45d131d8aaae"
 msgid "There elegant gloves are welted with the finest purled silk."
 msgstr "이 우아한 장갑의 가장자리는 최고급 비단으로 수놓아 장식했습니다."
@@ -26637,27 +26569,27 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g} , they get 20 temporary {g|Encyclopedia:HP}"
 "Hit Points{/g} for 1 minute."
 msgstr ""
+"이 장갑의 착용자가 7 레벨 이상의 {g|Encyclopedia:Spell}주문{/g}을 시전하면 1분 동안 20 임시 "
+"{g|Encyclopedia:HP}생명점{/g}을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfFirmGripItem::m_DisplayNameText
-#, fuzzy
 msgctxt "d1a9f96d-95c1-4287-830c-748ec4a7697e"
 msgid "Athlete's Gloves"
 msgstr "운동선수의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfFirmGripItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These gloves grant the wearer +3 competence bonus on all Mobility and "
-#| "Athletics skill checks."
 msgctxt "b91ed13f-6678-4c97-b16e-381e9017be3c"
 msgid ""
 "These gloves grant the wearer +3 competence {g|Encyclopedia:Bonus}bonus{/g} "
 "on all {g|Encyclopedia:Mobility}Mobility{/g} and "
 "{g|Encyclopedia:Athletics}Athletics{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g}."
-msgstr "이 장갑은 착용자의 운동과 기동성 기술 판정에 +3 능숙 보너스를 제공합니다."
+msgstr ""
+"이 장갑은 착용자의 {g|Encyclopedia:Mobility}기동성{/g}과 {g|Encyclopedia:Athletics}운동{/g}"
+" {g|Encyclopedia:Skills}기술 판정{/g}에 +3 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfHeavyImpactItem::m_DisplayNameText
@@ -26674,21 +26606,18 @@ msgid ""
 "critical hits{/g} with ranged weapons. A single enemy can be a subject to "
 "this effect only once."
 msgstr ""
+"이 장갑은 착용자가 원거리 무기로 {g|Encyclopedia:Critical}치명타{/g}를 확정했을 때 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 적을 기절시키게 해줍니다. 동일한 적에 이 효과를 두 번 이상 "
+"적용할 수 없습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfLighterTouch::m_DisplayNameText
-#, fuzzy
 msgctxt "dd3a69d4-6ca5-4355-b7b6-eaefa2dd1d82"
 msgid "Lightest Touch"
 msgstr "가벼운 손속"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfLighterTouch::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These gloves grant their wearer a +6 enhancement bonus to Dexterity, a +3 "
-#| "resistance bonus to Reflex saving throws and the ability to cast reduce "
-#| "person spell at will as a 5th level wizard."
 msgctxt "2b4e4ccd-7c54-43db-948a-a6ed8b29bce9"
 msgid ""
 "These gloves grant their wearer a +6 enhancement "
@@ -26697,8 +26626,9 @@ msgid ""
 "throws{/g} and the ability to cast reduce person "
 "{g|Encyclopedia:Spell}spell{/g} at will as a 5th level wizard."
 msgstr ""
-"이 장갑은 착용자에게 민첩에 +6 강화 보너스, 반사 내성 굴림 +3 저항 보너스를 주고 마음대로 5 레벨 위저드의 사람 축소 주문을 "
-"시전할 수 있게 해줍니다."
+"이 장갑은 착용자의 {g|Encyclopedia:Dexterity}민첩{/g}에 +6 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}, 반사 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +3 "
+"저항 보너스를 주고 자유롭게 5 레벨 위저드의 사람 축소 {g|Encyclopedia:Spell}주문{/g}을 시전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfMartialExcellenceItem::m_DisplayNameText
@@ -26716,6 +26646,10 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Athletics}Athletics{/g} "
 "{g|Encyclopedia:Skills}skill checks{/g}."
 msgstr ""
+"이 장갑은 착용자가 {g|Encyclopedia:UnarmedAttack}비무장 공격{/g}을 적중시켰을 때 추가 "
+"{g|Encyclopedia:Dice}1d8{/g} {g|Encyclopedia:Damage_Type}부수기 피해{/g}를 입히게 "
+"해주며, 착용자의 {g|Encyclopedia:Athletics}운동{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 "
+"+10 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfMonstersProtectionItem::m_DisplayNameText
@@ -26736,12 +26670,13 @@ msgid ""
 "Whenever the wearer of these gloves summons a creature, that creature gets "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g} 21."
 msgstr ""
+"이 장갑의 착용자가 소환한 크리처는 {g|Encyclopedia:Spell_Resistance}주문 저항{/g} 21 을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfNeophyteItem::m_DisplayNameText
 msgctxt "da6a436d-7131-49fd-adc5-925a4d709e72"
 msgid "Gloves of the Neophyte"
-msgstr ""
+msgstr "수련사제의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfNeophyteItem::m_DescriptionText
@@ -40097,34 +40032,31 @@ msgstr "선택한 무기에 +2 임시 강화를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = OilOfExtremeForst::m_DisplayNameText
-#, fuzzy
 msgctxt "bf99aafc-c5bd-4ea4-be41-e8bb6d1c8cc2"
 msgid "Oil of Extreme Frost"
 msgstr "극한 서리의 기름"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = OilOfExtremeForst::m_DescriptionText
-#, fuzzy
 msgctxt "29884139-1c8c-450d-aa66-938cade803fb"
 msgid "Adds 4d6 frost damage to a weapon."
 msgstr "무기에 4d6 서리 피해를 추가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = OilofUnholiness::m_DisplayNameText
-#, fuzzy
 msgctxt "61c1c267-91db-4525-b450-1c7ca6c48f2c"
 msgid "Oil of Unholiness"
 msgstr "부정의 기름"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = OilofUnholiness::m_DescriptionText
-#, fuzzy
-#| msgid "Adds 2d6 damage against all creatures of good alignmet to a weapon."
 msgctxt "6e141d5b-f360-45a2-8d25-c08557c102dd"
 msgid ""
 "Adds {g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Damage}damage{/g} against "
 "all creatures of good alignmet to a weapon."
-msgstr "무기에 모든 선 성향 크리처에 대한 2d6 추가 피해를 부여합니다."
+msgstr ""
+"무기에 모든 선 성향 크리처에 대한 {g|Encyclopedia:Dice}2d6{/g}의 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = OldGrimoireItem::m_DisplayNameText
@@ -40136,7 +40068,7 @@ msgstr "무기에 모든 선 성향 크리처에 대한 2d6 추가 피해를 부
 #. Path = OldGrimoireBuff::m_DisplayName
 msgctxt "b8624c77-dc03-4f90-a357-dd3ebebb3f7b"
 msgid "Old Grimoire"
-msgstr ""
+msgstr "오래된 마도서"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = OldGrimoireItem::m_DescriptionText
@@ -40153,13 +40085,14 @@ msgid ""
 "for 3 level spells for the wearer's spellcasting class with the highest "
 "{g|Encyclopedia:Caster_Level}caster level{/g}."
 msgstr ""
+"이 오래된 마도서는 주인이 가장 높은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}을 지닌 주문 시전 클래스의 "
+"1 레벨 {g|Encyclopedia:Spell}주문{/g} 슬롯 3 칸, 2 레벨 주문 슬롯 2칸, 3레벨 주문 슬롯 2칸을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = Owlcat_Item::m_DisplayNameText
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = Owlcat_Ability::m_DisplayName
-#, fuzzy
 msgctxt "f18e26ec-395c-4209-91c5-da1c33bde33c"
 msgid "Headchomper"
 msgstr "먹깨비"
@@ -40169,11 +40102,6 @@ msgstr "먹깨비"
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = Owlcat_Ability::m_Description
-#, fuzzy
-#| msgid ""
-#| "Summons a pet owlcat.\n"
-#| "Owlcat's Feral Instincts provide +2 morale bonus on Perception and Lore "
-#| "(Nature) checks."
 msgctxt "d465b482-17cf-4e24-abae-c56c8c8eeb36"
 msgid ""
 "Summons a pet owlcat.\n"
@@ -40182,11 +40110,12 @@ msgid ""
 "Lore (Nature){/g} {g|Encyclopedia:Check}checks{/g}."
 msgstr ""
 "애완 아울캣을 소환합니다.\n"
-"아울캣의 야성적 직감이 지각과 전승 (자연) 판정에 +2 보너스를 줍니다."
+"아울캣의 야성적 직감이 {g|Encyclopedia:Perception}지각{/g}과 {g|Encyclopedia:Lore_Nature}"
+"전승 (자연){/g} {g|Encyclopedia:Check}판정{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = Owlcat_Item::m_FlavorText
-#, fuzzy
 msgctxt "2b67ba48-135a-474f-866b-29e3d4c7a9bc"
 msgid ""
 "Beware Headchomper, the all-mighty owlkitten! Owlkittens are rumored to "
@@ -40224,7 +40153,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PeridotWyvernSpell::m_DisplayName
-#, fuzzy
 msgctxt "3e66faee-c6ec-4f25-a3de-f2a793139c6a"
 msgid "Peridot Wyvern"
 msgstr "감람석 와이번"
@@ -40234,11 +40162,6 @@ msgstr "감람석 와이번"
 #. 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = PeridotWyvernSpell::m_Description
-#, fuzzy
-#| msgid ""
-#| "This figurine is capable of summoning a mighty wyvern once per day for 10 "
-#| "minutes. The wyvern draws power from the owner of the figurine, and its HD "
-#| "is equal to the summoner's character level, with a maximum of 12 HD."
 msgctxt "7e87ebbb-e915-4c0a-a3fe-42f8f0efef55"
 msgid ""
 "This figurine is capable of summoning a mighty wyvern once per day for 10 "
@@ -40246,8 +40169,8 @@ msgid ""
 "is equal to the summoner's {g|Encyclopedia:Character_Level}character "
 "level{/g}, with a maximum of 12 HD."
 msgstr ""
-"하루에 한 번 강력한 와이번을 10분 동안 소환할 수 있는 조각상. 와이번은 조각상의 소유자의 힘을 끌어 쓰기 때문에, 소환자의 캐릭터 "
-"레벨과 같은 HD를 가집니다. 최대 HD는 12입니다."
+"하루에 한 번 강력한 와이번을 10분 동안 소환할 수 있는 조각상. 와이번은 조각상의 소유자의 힘을 끌어 쓰기 때문에, 소환자의 "
+"{g|Encyclopedia:Character_Level}캐릭터 레벨{/g} 만큼의 HD를 가집니다. 최대 HD는 12입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = PipefoxItem::m_DisplayNameText
@@ -40290,35 +40213,29 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = PotionOfGreaterInvisibility::m_DisplayNameText
-#, fuzzy
 msgctxt "b28d6f0a-9cb4-419a-ab0b-63cfb7a67783"
 msgid "Potion of Greater Invisibility"
 msgstr "상급 투명화 물약"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = PotionOfProtectionFromArrows::m_DisplayNameText
-#, fuzzy
 msgctxt "6940246c-7a66-4e8e-839e-02d29e84b6af"
 msgid "Potion of Protection from Arrows"
 msgstr "화살로부터 보호 물약"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = PotionOfProtectionFromFire::m_DisplayNameText
-#, fuzzy
 msgctxt "174a74d7-366f-41db-a53f-731a794629ac"
 msgid "Protection from Fire"
 msgstr "화염으로부터 보호"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = PotionOfProtectionFromFire::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This potion can protect you from fire by absorbing first 36 fire damage."
 msgctxt "5a146efe-28b7-4efa-9a94-36c7c09b46e4"
 msgid ""
 "This potion can protect you from fire by absorbing first 36 "
 "{g|Encyclopedia:Energy_Damage}fire damage{/g}."
-msgstr "이 물약의 효과는 화염 피해를 36 만큼 막아주고 사라집니다."
+msgstr "이 물약의 효과는 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 36 만큼 막아주고 사라집니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = PreciousTreatItem::m_DisplayNameText
@@ -40354,10 +40271,13 @@ msgid ""
 ", as well as {g|Encyclopedia:Saving_Throw}saving throws{/g}. However the "
 "wielder suffers -3 {g|Encyclopedia:Penalty}penalty{/g} to attack."
 msgstr ""
+"이 물품이 활성화되면 사용자의 동물 동료는 {g|Encyclopedia:Attack}명중{/g} 및 "
+"{g|Encyclopedia:Damage}피해 굴림{/g}과 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 "
+"통찰 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 대신 착용자가 명중에 -3 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = QuestElectriItem::m_DisplayNameText
-#, fuzzy
 msgctxt "3c090136-6ff1-4a1c-a050-1cd8a1da12d9"
 msgid "The Quest Electri"
 msgstr "일렉트리 모험전기"
@@ -40407,7 +40327,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = QuestElectriItem::m_FlavorText
-#, fuzzy
 msgctxt "d6d1849f-735c-4b55-9940-ff86506576d7"
 msgid ""
 "This is a magic storybook chronicling an adventuring party led by the "
@@ -40427,7 +40346,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = QuestElectriItem::m_NonIdentifiedNameText
-#, fuzzy
 msgctxt "a19d875b-0d4a-4b3a-9aea-d317b9f99882"
 msgid "Book"
 msgstr "책"
@@ -40437,7 +40355,6 @@ msgstr "책"
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = RedPanda_Ability::m_DisplayName
-#, fuzzy
 msgctxt "82277503-5a36-4a9b-b8ef-0fb34886e756"
 msgid "Ember"
 msgstr "엠버"
@@ -40447,10 +40364,6 @@ msgstr "엠버"
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = RedPanda_Ability::m_Description
-#, fuzzy
-#| msgid ""
-#| "Summons a pet red panda.\n"
-#| "Red Panda's Emotional Support provides +1 morale bonus to saving throws."
 msgctxt "9f0fe773-35f9-42d7-ba39-2b68ac55b6a6"
 msgid ""
 "Summons a pet red panda.\n"
@@ -40459,11 +40372,11 @@ msgid ""
 "throws{/g}."
 msgstr ""
 "애완 붉은 판다를 소환합니다.\n"
-"붉은 판다의 감정적인 지지는 모든 내성 굴림에 +1 보너스를 줍니다."
+"붉은 판다의 감정적인 지지는 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +1 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = RedPanda_Item::m_FlavorText
-#, fuzzy
 msgctxt "09e32d18-8f77-4308-a75f-d73e1ccf60cc"
 msgid ""
 "Don't be fooled by this creature's appearance — Ember is a true monster, "
@@ -40500,13 +40413,17 @@ msgid ""
 "opposed {g|Encyclopedia:Dice}rolls{/g} are not affected, nor are spells "
 "without random variables."
 msgstr ""
+"이 로드는 착용자에게 하루에 세 개의 오라클/클레릭 {g|Encyclopedia:Spell}주문{/g}에 극대화 주문 "
+"{g|Encyclopedia:Feat}특기{/g}의 효과를 적용할 수 있게 해줍니다.\n"
+"이 로드는 6 레벨 이하의 주문에 사용할 수 있습니다. 오라클 또는 클레릭만이 장비할 수 있습니다.\n"
+"극대화 주문: 주문의 모든 가변수가 최대값이 됩니다. {g|Encyclopedia:Saving_Throw}내성 굴림{/g}이나 반대 "
+"{g|Encyclopedia:Dice}굴림{/g}에는 적용되지 않으며, 무작위 변수가 없는 주문도 극대화 효과를 받지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = RodOfUndeadItem::m_DisplayNameText
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = RodOfUndeadAbility::m_DisplayName
-#, fuzzy
 msgctxt "2a63d584-7092-4322-82ef-5ba85942c461"
 msgid "Rod of Undeath"
 msgstr "불사의 로드"
@@ -40516,15 +40433,6 @@ msgstr "불사의 로드"
 #. 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = RodOfUndeadAbility::m_Description
-#, fuzzy
-#| msgid ""
-#| "This rod grants its wielder a +2 bonus to Necromancy school spells' DC and "
-#| "grants the ability to make up to four spells they cast per day extended as "
-#| "though using the Extend Spell feat.\n"
-#| "Regular rods can be used with spells of 6th level or lower.\n"
-#| "Extend Spell: An extended spell lasts twice as long as normal. A spell with "
-#| "a duration of concentration, instantaneous, or permanent is not affected by "
-#| "this feat."
 msgctxt "89629b5f-3631-40f4-8256-5d369ff79985"
 msgid ""
 "This rod grants its wielder a +2 {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -40536,11 +40444,13 @@ msgid ""
 "a duration of {g|Encyclopedia:Concentration}concentration{/g}, "
 "instantaneous, or permanent is not affected by this feat."
 msgstr ""
-"이 로드는 착용자의 사령학파 주문 DC에 +2 보너스를 주고, 하루에 네 번 메타매직 (시간 연장) 특기를 적용한 것처럼 주문의 "
-"지속시간을 연장시킬 수 있습니다.\n"
+"이 로드는 착용자의 사령학파 {g|Encyclopedia:Spell}주문{/g} {g|Encyclopedia:DC}DC{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 주고, 하루에 네 번 메타매직 (시간 연장) "
+"{g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 주문의 지속시간을 연장시킬 수 있습니다.\n"
 "일반적인 로드는 6레벨 이하의 주문에 사용할 수 있습니다.\n"
-"시간 연장 주문: 시간 연장 주문은 지속시간이 보통 주문의 2 배입니다. 지속시간 동안 집중을 요하는 주문, 즉발 주문, 영구적인 주문은 "
-"이 특기의 영향을 받지 않습니다."
+"시간 연장 주문: 시간 연장 주문은 지속시간이 보통 주문의 2 배입니다. 지속시간 동안 "
+"{g|Encyclopedia:Concentration}집중{/g}을 요하는 주문, 즉발 주문, 영구적인 주문은 이 특기의 영향을 받지 "
+"않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = RuneOfJandelayItem::m_DescriptionText
@@ -40661,7 +40571,6 @@ msgstr "사용자는 1시간 동안 +5 빠른 {g|Encyclopedia:Healing}치유{/g}
 #. 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfStormbolts::m_FlavorText
-#, fuzzy
 msgctxt "7f7adcd6-515e-40ca-a21f-6f7715fa27cd"
 msgid "An exquisite scroll of unusual power, scribed by a true virtuoso."
 msgstr "진정한 거장이 정교하게 써낸 비범한 권능의 두루마리."
@@ -40724,7 +40633,6 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ScrollOfAtonement::m_DisplayNameText
-#, fuzzy
 msgctxt "19401c76-df54-4e5f-8842-e3788e74e180"
 msgid "Scroll of Atonement"
 msgstr "속죄의 두루마리"
@@ -40973,6 +40881,10 @@ msgid ""
 ", {g|Encyclopedia:Armor_Class}AC{/g}, all {g|Encyclopedia:Saving_Throw}"
 "saving throws{/g} and {g|Encyclopedia:Skills}skill checks{/g}."
 msgstr ""
+"이 카드들을 활성화 해 미래를 예측할 수 있습니다. 이 카드를 활성화하면 사용자는 {g|Encyclopedia:Attack}명중{/g} "
+"및 {g|Encyclopedia:Damage}피해 굴림{/g}, {g|Encyclopedia:Armor_Class}AC{/g}, 모든 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}과 {g|Encyclopedia:Skills}기술 판정{/g}에 +1 "
+"통찰 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ShadowBloodItem::m_DisplayNameText
@@ -48984,11 +48896,6 @@ msgstr "회오리바람의 눈"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = EyeOfTheTornadoLightRepShortbowItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 shock heavy crossbow grants its wielder a +2 luck bonus to "
-#| "Initiative, and the ability to cast summon medium air elemental spell once "
-#| "per day for 7 rounds."
 msgctxt "039a9f74-a3fa-4b49-99e4-5af3aea4e31a"
 msgid ""
 "This +3 shock heavy crossbow grants its wielder a +2 luck "
@@ -48997,8 +48904,10 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g} once per day for 7 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
-"이 +3 전격의 대형 쇠뇌는 우선권에 +2 행운 보너스를 주고, 하루에 한 번 7 라운드 동안 중형 공기 정령 소환 주문을 쓸 수 있게 "
-"해줍니다."
+"이 +3 전격의 대형 쇠뇌는 {g|Encyclopedia:Initiative}우선권{/g}에 +2 행운 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 주고, 하루에 한 번 7 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 중형 대기 정령 소환 "
+"{g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FabledHerosLanceItem::m_DisplayNameText
@@ -49016,6 +48925,10 @@ msgid ""
 "additional {g|Encyclopedia:Dice}8d6{/g} {g|Encyclopedia:Damage_Type}piercing "
 "damage{/g} on a successful charge."
 msgstr ""
+"이 +5 확대된 드래곤 파멸 장창은 착용자가 탑승 중일 때 {g|Encyclopedia:Attack}명중{/g} 및 "
+"{g|Encyclopedia:Damage}피해 굴림{/g}에 +2 상황 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다. 또한 성공적인 돌진시 추가 {g|Encyclopedia:Dice}8d6{/g} "
+"{g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FaithBearerItem::m_DisplayNameText
@@ -49035,52 +48948,49 @@ msgid ""
 "Hit Points{/g} equal to the number of ranks the wielder has in Lore "
 "(Religion)."
 msgstr ""
+"이 +4 신성한 시미터의 착용자가 {g|Encyclopedia:Critical}치명타{/g}를 확정하면 "
+"{g|Encyclopedia:DC}DC{/g} 40 {g|Encyclopedia:Lore_Religion}전승 (종교) 판정{/g}를 "
+"시도해 성공시 15 피트 반경의 모든 아군의 {g|Encyclopedia:HP}생명점{/g}을 착용자의 전승 (종교) 등급 만큼 "
+"{g|Encyclopedia:Healing}치유{/g}합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FalcataCorrosivePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "e55b99a1-8c75-4d1c-babd-81ecc0bf0ddd"
 msgid "Corrosive Falcata +1"
 msgstr "부식성 팔카타 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FalcataCorrosivePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "4d891dce-25d6-4ef0-aaff-3ebf1ad8ab06"
 msgid "Corrosive Falcata +2"
 msgstr "부식성 팔카타 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FalcataFlamingPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "88a02b14-e720-41a6-8205-6985dd49a7a1"
 msgid "Flaming Falcata +1"
 msgstr "불꽃의 팔카타 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FalcataFlamingPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "afe5182f-5377-47ed-9e83-137f5a0db987"
 msgid "Flaming Falcata +2"
 msgstr "불꽃의 팔카타 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FalcataFrostPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "64bd08e3-ebb2-4948-a96d-fcf397af4c5a"
 msgid "Frost Falcata +1"
 msgstr "서리의 팔카타 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FalcataFrostPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "75812448-d2cd-47f7-b1e1-b1b33c9a060f"
 msgid "Frost Falcata +2"
 msgstr "서리의 팔카타 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FalcataHolyPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "1f469ff8-c387-44f1-9c45-eedb0d892039"
 msgid "Holy Falcata +1"
 msgstr "성스러운 팔카타 +1"
@@ -49612,7 +49522,7 @@ msgstr ""
 #. Path = FinneanCompositeLongbowStage3Lich::m_DisplayNameText
 msgctxt "ccb5c705-7ac0-4b1c-ad69-7fcea827ebc9"
 msgid "Finnean"
-msgstr ""
+msgstr "피니언"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = FinneanBardicheStage3Lich::m_FlavorText
@@ -50267,6 +50177,11 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}rounds{/g}. On a successful saving throw the "
 "enemy becomes staggered for 1 round."
 msgstr ""
+"이 +4 전격 폭발의 소형 망치의 착용자가 {g|Encyclopedia:Critical}치명타{/g}를 확정하면, 대상 적은 "
+"{g|Encyclopedia:DC}DC{/g} 29 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 시도해 "
+"실패 시 2 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 보유한 모든 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g}을 상실합니다. 내성 굴림에 성공하면 대신 1 라운드 동안 비틀거림 "
+"상태가 됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GlowingScytheItem::m_DisplayNameText
@@ -50288,29 +50203,30 @@ msgid ""
 "negative energy {g|Encyclopedia:Damage}damage{/g} each "
 "{g|Encyclopedia:Combat_Round}round{/g} for 1d4 rounds."
 msgstr ""
+"이 +2 대낫이 적에게 적중하면 추가 {g|Encyclopedia:Dice}1d3{/g} "
+"{g|Encyclopedia:Energy_Damage}음에너지 피해{/g}를 입힙니다. 적중당한 대상은 "
+"{g|Encyclopedia:DC}DC{/g} 15 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}을 시도해 "
+"실패시 1d4 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 매 라운드 마다 추가 1 "
+"음에너지{g|Encyclopedia:Damage}피해{/g}를 입습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GluttonousBladeItem::m_DisplayNameText
-#, fuzzy
 msgctxt "3b4d9a35-56f6-4dfc-9626-1619c2a885ed"
 msgid "Gluttonous Scythe"
 msgstr "탐식의 대낫"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GluttonousBladeItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 scythe cures its wielder 1d4 HP each time it successfully hits a "
-#| "living creature."
 msgctxt "133efab6-16e9-44c4-9a34-5bf6bb915a32"
 msgid ""
 "This +5 scythe cures its wielder {g|Encyclopedia:Dice}1d4{/g} "
 "{g|Encyclopedia:HP}HP{/g} each time it successfully hits a living creature."
-msgstr "이 +5 대낫으로 생명체를 명중시킬 때마다 1d4 생명점을 회복합니다."
+msgstr ""
+"이 +5 대낫으로 생명체를 명중시킬 때마다 {g|Encyclopedia:Dice}1d4{/g} "
+"{g|Encyclopedia:HP}HP{/g}를 회복합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GluttonousBladeItem::m_FlavorText
-#, fuzzy
 msgctxt "dcf5e7c5-acd3-4019-8ff8-853b8c3aaf1d"
 msgid ""
 "The unholy weapon of Urgathoa — goddess of disease, gluttony, and undeath."
@@ -50318,38 +50234,32 @@ msgstr "질병, 탐식, 불사의 여신 우르가쏘아의 부정한 무기."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GoblinShortswordPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "1d4058b5-6d8f-4714-8908-6f40e08557df"
 msgid "Dogslicer +1"
 msgstr "개도살자 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GoblinShortswordPlus1::m_FlavorText
-#, fuzzy
 msgctxt "a588b09c-8763-455a-80c1-242c72b25b3c"
 msgid "Nais! Sharp! Edgee!"
 msgstr "조아! 날카로운! 카알!"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GoldenTideNunchItem::m_DisplayNameText
-#, fuzzy
 msgctxt "8f0f66ba-effc-4a93-a532-01d7916a1b8b"
 msgid "Monastic Kama"
 msgstr "수도승의 카마"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GoldenTideNunchItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 kama has a chance to blind the opponent on a successful hit and "
-#| "grants its wielder the ability to cast molten orb spell twice per day as a "
-#| "5th level wizard."
 msgctxt "22b0c4e1-5010-4adc-aca7-8860d591d5cf"
 msgid ""
 "This +3 kama has a chance to blind the opponent on a successful hit and "
 "grants its wielder the ability to cast molten orb "
 "{g|Encyclopedia:Spell}spell{/g} twice per day as a 5th level wizard."
-msgstr "이 +3 카마는 명중 시 적을 실명 시킬 수 있고, 하루에 두 번 5 레벨 위저드의 쇳물 공 주문을 쓸 수 있게 해줍니다."
+msgstr ""
+"이 +3 카마는 명중 시 적을 실명 시킬 수 있고, 하루에 두 번 5 레벨 위저드의 쇳물의 공 "
+"{g|Encyclopedia:Spell}주문{/g}을 쓸 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GoreFeasterItem::m_DisplayNameText
@@ -50365,6 +50275,8 @@ msgid ""
 "he gains fast {g|Encyclopedia:Healing}healing{/g} 10 for 3 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +5 격분과 출혈의 대형도끼의 착용자가 적을 살해하면, 3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"빠른 {g|Encyclopedia:Healing}치유{/g} 10을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GowrowAquaticShortspearItem::m_DescriptionText
@@ -50375,6 +50287,8 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g} in the direction of the enemy as a 12th "
 "level wizard."
 msgstr ""
+"이 +2 단창은 매 타격마다 대상의 수분을 흡수합니다. 매 다섯 번째 적중마다 자동적으로 적 방향으로 12 레벨 위저드의 한빙 강타 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GowrowShortspear_IntermediateItem::m_DisplayNameText
@@ -50392,24 +50306,25 @@ msgid ""
 "additional {g|Encyclopedia:Dice}3d6{/g} {g|Encyclopedia:Energy_Damage}sonic "
 "damage{/g}."
 msgstr ""
+"이 +2 {g|Encyclopedia:Speed}신속{/g}한 단창의 착용자가 베어가르기 또는 맹격 "
+"{g|Encyclopedia:Feat}특기{/g}를 사용하면, 영향 받은 크리처를 대상으로 한 다음 "
+"{g|Encyclopedia:Attack}공격{/g}은 추가 {g|Encyclopedia:Dice}3d6{/g} "
+"{g|Encyclopedia:Energy_Damage}음파 피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GracefulEnd::m_DisplayNameText
-#, fuzzy
 msgctxt "6042f2ff-2a4a-4216-ab30-cf60c64849e5"
 msgid "Hairsplitter"
 msgstr "쫌생이"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GracefulEnd::m_DescriptionText
-#, fuzzy
 msgctxt "bc3cb845-b682-4484-b307-de7be26a6f00"
 msgid "This weapon is a +1 agile estoc."
 msgstr "이 무기는 +1 날렵한 에스톡입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GracefulEnd::m_FlavorText
-#, fuzzy
 msgctxt "bb7b31a2-5c1e-4028-87c2-a60a7e3633ed"
 msgid "The result of intricate craftsmanship of unknown origins."
 msgstr "기원을 알 수 없는 복잡한 장인 정신의 결과."
@@ -50451,66 +50366,62 @@ msgid ""
 "a duration of {g|Encyclopedia:Concentration}concentration{/g}, "
 "instantaneous, or permanent is not affected by this feat."
 msgstr ""
+"이 +5 신성한 중형 철퇴의 착용자가 적을 살해하면, 다음 {g|Encyclopedia:Spell}주문{/g}이 시간 연장 주문 "
+"{g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 연장 됩니다.\n"
+"시간 연장 주문: 시간 연장 주문은 지속시간이 보통 주문의 2 배입니다. 지속시간 동안 "
+"{g|Encyclopedia:Concentration}집중{/g}을 요하는 주문, 즉발 주문, 영구적인 주문은 이 특기의 영향을 받지 "
+"않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeCorrosivePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "1b88483b-e35b-466d-bd13-44cef8ae97a9"
 msgid "Corrosive Greataxe +1"
 msgstr "부식성 대형 도끼 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeCorrosivePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "40fb7994-a8bc-4da6-ab0a-e0e9d0619e92"
 msgid "Corrosive Greataxe +2"
 msgstr "부식성 대형 도끼 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeFlamingPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "67249a36-ac1c-4d0a-b8be-40492d2f95a7"
 msgid "Flaming Greataxe +1"
 msgstr "불꽃의 대형 도끼 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeFlamingPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "437c5730-336f-4026-8252-ef28fa6744d8"
 msgid "Flaming Greataxe +2"
 msgstr "불꽃의 대형 도끼 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeFrostPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "e95c2c7a-460e-4a42-bee1-3dfba2754c83"
 msgid "Frost Greataxe +1"
 msgstr "서리의 대형 도끼 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeFrostPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "b1a520de-e8dd-4401-a75e-eac1d22ea839"
 msgid "Frost Greataxe +2"
 msgstr "서리의 대형 도끼 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeImprShockPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "8373411c-b3ff-4370-8961-10efcac9a153"
 msgid "Greater Shock Greataxe +2"
 msgstr "상급 전격의 대형 도끼 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeKeenPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "a5ed5e69-ba8e-4392-8d7f-e05b3afe5b08"
 msgid "Keen Greataxe +1"
 msgstr "예리한 대형 도끼 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = GreataxeKeenPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "1260c3f3-6301-4349-a331-2ee8d72a54bd"
 msgid "Keen Greataxe +2"
 msgstr "예리한 대형 도끼 +2"
@@ -52842,74 +52753,64 @@ msgstr "부식성 장궁 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowFlamingPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "1fb774fa-5a47-4d41-9b22-4a738362447d"
 msgid "Flaming Longbow +1"
 msgstr "불꽃의 장궁 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowFlamingPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "7e56f719-d34f-4065-ad9a-d2d5c304ba67"
 msgid "Flaming Longbow +2"
 msgstr "불꽃의 장궁 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowFrostPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "f782e92b-5b97-44eb-ba74-b0e29bccf4f5"
 msgid "Frost Longbow +1"
 msgstr "서리의 장궁 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowFrostPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "970704db-70ea-4571-a6fb-be4fbc2a1d55"
 msgid "Frost Longbow +2"
 msgstr "서리의 장궁 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowKeenPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "09bc6db7-3986-44b3-aabd-942e215ef5eb"
 msgid "Keen Longbow +1"
 msgstr "예리한 장궁 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowKeenShockPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "16744cfa-fec9-44b3-94a6-e9b9638bbaae"
 msgid "Shock Keen Longbow +1"
 msgstr "전격의 예리한 장궁 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowMedium::m_DisplayNameText
-#, fuzzy
 msgctxt "0da8bbf8-227c-4400-aca6-d43d520f6ca5"
 msgid "Longbow"
 msgstr "장궁"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowOfErastilItem::m_DisplayNameText
-#, fuzzy
 msgctxt "6c0d98a9-f628-4581-9b1e-f7b99a5f40b0"
 msgid "Longbow of Erastil"
 msgstr "에라스틸의 장궁"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowOfErastilItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This longbow deals additional 1d4 damage to animals and undead creatures."
 msgctxt "e2132777-b366-4c3b-b50f-dc1a08d4e4e0"
 msgid ""
 "This longbow deals additional {g|Encyclopedia:Dice}1d4{/g} "
 "{g|Encyclopedia:Damage}damage{/g} to animals and undead creatures."
-msgstr "이 장궁은 동물과 언데드 크리처에게 1d4점의 추가 피해를 입힙니다."
+msgstr ""
+"이 장궁은 동물과 언데드 크리처에게 {g|Encyclopedia:Dice}1d4{/g} 점의 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = LongbowOfErastilItem::m_FlavorText
-#, fuzzy
 msgctxt "c2e560a7-eb93-4fb5-a782-9028035cbdd5"
 msgid ""
 "It is said that this longbow had been created by stag archon and brings good "
@@ -54046,14 +53947,12 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MithralFlailPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "c757978f-7007-4ded-b868-4fb5010014be"
 msgid "Mithral Flail +2"
 msgstr "미스랄 도리깨 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MithralFlailPlus2::m_DescriptionText
-#, fuzzy
 msgctxt "84aef1d5-ca5f-4a71-8a1e-0ada82b36d4c"
 msgid "This +2 flail deals silver damage."
 msgstr "이 +2 도리깨는 은 피해를 입힙니다."
@@ -54062,25 +53961,22 @@ msgstr "이 +2 도리깨는 은 피해를 입힙니다."
 #. Path = MithralFlailPlus3::m_DisplayNameText
 msgctxt "1d9730e3-bf53-4218-ad05-9ba5c80e6a2e"
 msgid "Mithral Flail +3"
-msgstr ""
+msgstr "미스랄 도리깨 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MithralShortspearPlus3LycanthropeBaneItem::m_DisplayNameText
-#, fuzzy
 msgctxt "60452ba6-6606-4213-bcf9-35c98e71a792"
 msgid "Lycanthrope Bane Mithral Shortspear +3"
 msgstr "야수인간 파멸의 미스랄 단창 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MonksWifeQuaterstaffItem::m_DisplayNameText
-#, fuzzy
 msgctxt "aff3a302-7358-4886-a3db-d7a583cbb3d2"
 msgid "Will of the Disciple"
 msgstr "제자의 의지"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MonksWifeQuaterstaffItem::m_DescriptionText
-#, fuzzy
 msgctxt "f35842b4-17a8-495a-8cf0-6422fcdbca8f"
 msgid ""
 "This +1 axiomatic quarterstaff is capable of delivering heavy stunning "
@@ -54091,7 +53987,7 @@ msgstr "이 +1 공리 육척봉은 강타로 적을 기절시킬 수 있습니�
 #. Path = MonsterHunterFirstItem::m_DisplayNameText
 msgctxt "f8138731-36e0-4fc4-9be5-4a0022189668"
 msgid "Monster Hunter"
-msgstr ""
+msgstr "괴물 사냥꾼"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MonsterHunterFirstItem::m_DescriptionText
@@ -54101,12 +53997,14 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} "
 "against magical beasts."
 msgstr ""
+"이 드워프 우르그로쉬는 착용자의 환수에 대한 {g|Encyclopedia:Attack}명중 굴림{/g}에 +1 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MonsterHunterSecondItem::m_DisplayNameText
 msgctxt "f9263fbf-ed36-4c50-9f70-d2572e5848e8"
 msgid "Monster Hunter"
-msgstr ""
+msgstr "괴물 사냥꾼"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MordantWaraxeItem::m_DisplayNameText
@@ -54121,12 +54019,14 @@ msgid ""
 "This +1 dwarven waraxe deals additional {g|Encyclopedia:Dice}1d3{/g} "
 "{g|Encyclopedia:Energy_Damage}acid damage{/g} on a hit."
 msgstr ""
+"이 +1 드워프 전쟁도끼는 적중시 추가 {g|Encyclopedia:Dice}1d3{/g} "
+"{g|Encyclopedia:Energy_Damage}산성 피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersCallItem::m_DisplayNameText
 msgctxt "29c90900-33ce-4287-ad3a-60002e64bbc0"
 msgid "Mother's Call"
-msgstr ""
+msgstr "어머니의 부름"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersCallItem::m_DescriptionText
@@ -54138,63 +54038,55 @@ msgid ""
 "dominate {g|Encyclopedia:Spell}spell{/g} effect for "
 "{g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +3 부정의 대낫이 언데드 크리처에게 {g|Encyclopedia:Damage}피해{/g}를 주면, 대상은 "
+"{g|Encyclopedia:DC}DC{/g} 23 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}을 시도해 "
+"실패시 {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}라운드{/g} 동안 지배 "
+"{g|Encyclopedia:Spell}주문{/g}의 효과를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersCare::m_DisplayNameText
-#, fuzzy
 msgctxt "cc93bdfb-6914-48ca-89f4-a8bfddf6cc8c"
 msgid "Mother's Care"
 msgstr "어머니의 배려"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersCare::m_DescriptionText
-#, fuzzy
 msgctxt "91249e83-6534-4860-8743-6e30211194e4"
 msgid "This weapon is a +2 frost keen kukri."
 msgstr "이 무기는 +2 예리한 서리의 쿠크리입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersCare::m_FlavorText
-#, fuzzy
 msgctxt "260e01a3-02f6-4895-9fb5-dd998eea04f6"
 msgid "This chilly kukri is dedicated to Lamashtu, the Mother of Monsters."
 msgstr "이 싸늘한 쿠크리는 괴물의 어머니, 라마슈투에게 봉헌되었습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersWarmth::m_DisplayNameText
-#, fuzzy
 msgctxt "9baebf12-dc42-4a6c-810a-d8b9f5dc9ff4"
 msgid "Mother's Warmth"
 msgstr "어머니의 온기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersWarmth::m_DescriptionText
-#, fuzzy
 msgctxt "307dba7f-e22a-4620-94bb-988233dbd0a3"
 msgid "This weapon is a +2 flaming keen kukri."
 msgstr "이 무기는 +2 예리한 불꽃의 쿠크리 입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MothersWarmth::m_FlavorText
-#, fuzzy
 msgctxt "731c7301-0b30-4a57-ba8a-080bec900f01"
 msgid "This fiery kukri is dedicated to Lamashtu, the Mother of Monsters."
 msgstr "이 불타는 쿠크리는 괴물의 여왕, 라마슈투에게 봉헌되었습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MourningItem::m_DisplayNameText
-#, fuzzy
 msgctxt "8b415b5d-09e9-4285-8d30-4a74235346e2"
 msgid "Mourning"
 msgstr "비탄"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MourningItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever this +4 keen shortspear lands a hit, it has a chance to cast "
-#| "crushing despair spell (DC 21) on the target. Whenever it lands a critical "
-#| "hit, it has a chance to cast finger of death spell (DC 21) on the target."
 msgctxt "4d392d9b-717a-4715-8c5b-0d4e60b0e9bf"
 msgid ""
 "Whenever this +4 keen shortspear confirms a hit, it has a chance to cast "
@@ -54202,21 +54094,21 @@ msgid ""
 "21) on the target. Whenever it confirms a {g|Encyclopedia:Critical}critical "
 "hit{/g}, it has a chance to cast finger of death spell (DC 21) on the target."
 msgstr ""
-"이 +4 예리한 단창을 적중시킬 때마다, 대상에게 처참한 절망 (DC 21) 주문이 시전될 수 있습니다. 치명타를 적중시키면, 대상에게 "
-"죽음의 손가락 (DC 21) 주문이 시전될 수 있습니다."
+"이 +4 예리한 단창을 적중시킬 때마다, 대상에게 처참한 절망 ({g|Encyclopedia:DC}DC{/g} 21) "
+"{g|Encyclopedia:Spell}spell{/g}이 시전될 수 있습니다. {g|Encyclopedia:Critical}"
+"critical hit{/g}를 적중시키면, 대상에게 죽음의 손가락 (DC 21) 주문이 시전될 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MourningItem::m_FlavorText
-#, fuzzy
 msgctxt "5e332067-32a8-4609-8e44-386dd19b8119"
 msgid "As you touch this spear, you hear a single soft whimper."
-msgstr "이 창을 만지면 한 번의 부드러운 훌쩍거리는 소리가 들립니다."
+msgstr "이 창을 만지면 한 번의 부드러운 훌쩍거림이 들립니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MusicOfDeathItem::m_DisplayNameText
 msgctxt "58268aa3-8cc3-4d99-923e-de7f16b4867f"
 msgid "Music of Death"
-msgstr ""
+msgstr "죽음의 음악"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MusicOfDeathItem::m_DescriptionText
@@ -54227,10 +54119,12 @@ msgid ""
 "{g|Encyclopedia:Helpless}helpless{/g} target, the target suffers additional "
 "{g|Encyclopedia:Dice}2d6{/g} sonic {g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
+"이 +4 초음파 주먹칼이 {g|Encyclopedia:Flat_Footed}무방비 상태{/g} 또는 "
+"{g|Encyclopedia:Helpless}무력화{/g}된 대상에게 적중하면, 대상은 추가 "
+"{g|Encyclopedia:Dice}2d6{/g} 음파 {g|Encyclopedia:Damage}피해{/g}를 입습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MythslayerItem::m_DisplayNameText
-#, fuzzy
 msgctxt "7aaf12a4-313a-4947-ac7d-1c5ecaf47175"
 msgid "Mythslayer"
 msgstr "신화살해자"
@@ -54258,12 +54152,11 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = MythslayerItem::m_FlavorText
-#, fuzzy
 msgctxt "d3540410-c2c9-463f-acdd-bc0e98a08c61"
 msgid ""
 "Every legend has an end. More than one have ended with a bolt shot from this "
 "crossbow."
-msgstr "모든 전설에는 끝이 있습니다. 그 중 하나 이상이 이 쇠뇌의 쇠뇌살 한 방으로 끝이 났습니다."
+msgstr "모든 전설에는 끝이 있습니다. 둘 이상의 전설이 이 쇠뇌의 쇠뇌살 한 방으로 끝났습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NaturesAgonyItem::m_DisplayNameText
@@ -54305,38 +54198,29 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NaturesWillShortSwordItem::m_DisplayNameText
-#, fuzzy
 msgctxt "df9a9e4b-ce51-4a6b-9fad-c35ee7806c6f"
 msgid "Nature's Will"
 msgstr "자연의 의지"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NaturesWillShortSwordItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +2 vermin bane shortsword grants its wielder the ability to cast summon "
-#| "nature's ally II spell once per day as a 5th level druid."
 msgctxt "d049d2fa-19c2-4d34-9182-101f620626cd"
 msgid ""
 "This +2 vermin bane shortsword grants its wielder the ability to cast summon "
 "nature's ally II {g|Encyclopedia:Spell}spell{/g} once per day as a 5th level "
 "druid."
-msgstr "이 +2 해충 파멸의 소검은 착용자가 하루에 한 번 5 레벨 드루이드의 자연의 동맹 II 주문을 시전할 수 있게 해줍니다."
+msgstr ""
+"이 +2 해충 파멸의 소검은 착용자가 하루에 한 번 5 레벨 드루이드의 자연의 동맹 II "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 있게 해줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NaturesWrathItem::m_DisplayNameText
-#, fuzzy
 msgctxt "949a6e51-385f-4015-9d08-2d39350e3389"
 msgid "Nature's Wrath"
 msgstr "자연의 분노"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NaturesWrathItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 trident does additional 1d12 damage against aberrations, constructs, "
-#| "humanoids, outsiders and undead. On a successful hit, it makes the target "
-#| "vulnerable to electricity for 1 minute."
 msgctxt "6a94b9ca-c757-4a45-9203-adb1947f5f1b"
 msgid ""
 "This +5 trident does additional {g|Encyclopedia:Dice}1d12{/g} "
@@ -54344,45 +54228,40 @@ msgid ""
 "humanoids, outsiders and undead. On a successful hit, it makes the target "
 "vulnerable to electricity for 1 minute."
 msgstr ""
-"이 +5 삼지창은 변이체, 인간형, 외차원체, 언데드에게 1d12 추가 피해를 입힙니다. 명중 시 대상은 1분 간 전기에 취약해집니다."
+"이 +5 삼지창은 변이체, 인간형, 외차원체, 언데드에게 {g|Encyclopedia:Dice}1d12{/g} 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다. 명중 시 대상은 1분 간 전기에 취약해집니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NaturesWrathItem::m_FlavorText
-#, fuzzy
 msgctxt "6a25c203-cafa-42a6-91d2-348320f772aa"
 msgid "The holy weapon of Gozreh — deity of nature, storms, and waves."
 msgstr "자연, 폭풍, 파도의 신 고즈레이의 성스러운 무기."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NecromancersStaffItem::m_DisplayNameText
-#, fuzzy
 msgctxt "c9ca0d96-c6f1-41d0-81df-16b34bb01548"
 msgid "Necromancer's Staff"
 msgstr "네크로맨서의 지팡이"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NecromancersStaffItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +1 quarterstaff grants a +3 enhancement bonus to the weapons of the "
-#| "monsters summoned by the wielder using animate dead and create undead spells."
 msgctxt "a6aaac3d-4945-4e01-bc25-a50cf5d25696"
 msgid ""
 "This +1 quarterstaff grants a +3 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
 "to the weapons of the monsters summoned by the wielder using animate dead "
 "and create undead {g|Encyclopedia:Spell}spells{/g}."
-msgstr "이 +1 육척봉은 착용자가 시체 일으키기나 언데드 창조 주문으로 소환한 괴물들의 무기에 +3 강화 보너스를 부여합니다."
+msgstr ""
+"이 +1 육척봉은 착용자가 시체 일으키기나 언데드 창조 {g|Encyclopedia:Spell}주문{/g}으로 소환한 괴물들의 무기에 +"
+"3 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NecroticHeavyMacePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "e23a8f68-a873-4b15-835b-8985f555edb4"
 msgid "Necrotic Heavy Mace +2"
 msgstr "괴저성 중형 철퇴 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NecroticHeavyMacePlus2::m_FlavorText
-#, fuzzy
 msgctxt "9bbcbca5-06d3-489f-aec2-2f9e12e869a7"
 msgid "This weapon has a nasty smell."
 msgstr "이 무기는 악취가 납니다."
@@ -54419,7 +54298,7 @@ msgstr ""
 #. Path = NemaryStigmaBardiche_IntermediateItem::m_DisplayNameText
 msgctxt "e1f7a648-0a03-4f56-8a76-c93d3ddffd6b"
 msgid "Nemarius's Bardiche"
-msgstr ""
+msgstr "네마리우스의 바디시"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NemaryStigmaBardiche_MagicSealingItem::m_DisplayNameText
@@ -54481,6 +54360,12 @@ msgid ""
 "and a -8 penalty on {g|Encyclopedia:Damage}damage rolls{/g} for 2 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +5 공리의 무기가 새로운 적에 처음으로 적중하면, \"복종\"의 낙인을 찍습니다. 낙인은 동시에 둘 이상의 대상에게 찍혀있을 수 "
+"없습니다. 만일 이 낙인이 찍힌 자가 이 무기의 주인을 {g|Encyclopedia:Attack}공격{/g}하면, "
+"{g|Encyclopedia:DC}DC{/g} 29 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}을 시도해 "
+"실패시 2 {g|Encyclopedia:Combat_Round}라운드{/g}동안 명중 {g|Encyclopedia:Dice}굴림{/g}에 "
+"-3 {g|Encyclopedia:Penalty}페널티{/g}, {g|Encyclopedia:Damage}피해 굴림{/g}에 -8 "
+"페널티를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NemaryStigmaSlingStaff_IntermediateItem::m_DisplayNameText
@@ -54492,7 +54377,7 @@ msgstr ""
 #. Path = NemaryStigmaTrident_IntermediateItem::m_DisplayNameText
 msgctxt "de174452-957c-442e-8448-762d54cdbc8c"
 msgid "Nemarius's Trident"
-msgstr ""
+msgstr "네마리우스의 삼지창"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NightFlashItem::m_DisplayNameText
@@ -54508,12 +54393,15 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Initiative}Initiative{/g} "
 "{g|Encyclopedia:Dice}rolls{/g}."
 msgstr ""
+"이 +5 {g|Encyclopedia:Speed}신속{/g}한 전격의 에스톡은 착용자의 "
+"{g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Dice}굴림{/g}에 +5 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NightmareItem::m_DisplayNameText
 msgctxt "bd819b05-faa5-43f9-8ac2-57d054de4061"
 msgid "Nightmare"
-msgstr ""
+msgstr "악몽"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NightmareItem::m_DescriptionText
@@ -54527,20 +54415,24 @@ msgid ""
 "{g|Encyclopedia:Dice}1d12{/g} negative {g|Encyclopedia:Energy_Damage}energy "
 "damage{/g}."
 msgstr ""
+"이 +3 부정한 팔카타는 데몬에 의해 오염되었습니다. 이 무기는 공포를 먹고 삽니다. 이 무기가 동요 또는 겁먹음 상태의 적에 적중하면 "
+"대상은 {g|Encyclopedia:DC}DC{/g} 22 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 "
+"시도해 실패시 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 쓰러짐 상태가 되고 "
+"{g|Encyclopedia:Dice}1d12{/g} {g|Encyclopedia:Energy_Damage}음에너지 피해{/g}를 "
+"입습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NightmareItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Each time this +4 trident lands a hit, the enemy has to pass a Will saving "
-#| "throw (DC 16) or be frightened for 1d3 rounds."
 msgctxt "c17c6bbe-5b69-490c-901b-614ce35e84e5"
 msgid ""
 "Each time this +4 trident lands a hit, the enemy has to pass a "
 "{g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g}"
 " 16) or become frightened for {g|Encyclopedia:Dice}1d3{/g} "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
-msgstr "이 +4 삼지창이 명중할 때마다 적은 의지 내성 굴림(DC 16)에 실패하면 1d3 라운드 동안 공포상태에 빠집니다."
+msgstr ""
+"이 +4 삼지창이 명중할 때마다 적은 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}에 "
+"({g|Encyclopedia:DC}DC{/g} 16) 실패하면 {g|Encyclopedia:Dice}1d3{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 공포 상태에 빠집니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NimbleEdgeItem::m_DisplayNameText
@@ -54563,50 +54455,46 @@ msgid ""
 "{g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Damage_Type}piercing damage{/g}"
 ", for 2d3 {g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +1 {g|Encyclopedia:Speed}신속{/g}한 에스톡이 적에게 {g|Encyclopedia:Critical}치명타{/g}"
+"를 확정하면 착용자는 {g|Encyclopedia:Dexterity}민첩{/g}에 +2 사기 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받고 2d3 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"동안 착용자가 가하는 모든 {g|Encyclopedia:Attack}공격{/g}이 추가 {g|Encyclopedia:Dice}1d4{/g}"
+" {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 입힙니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NobleHammer::m_DisplayNameText
-#, fuzzy
 msgctxt "2113b744-2f66-4bf8-bc7c-2339035c5db6"
 msgid "Noble Warhammer"
 msgstr "고귀한 전투망치"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NobleHammer::m_DescriptionText
-#, fuzzy
 msgctxt "a90e1482-713b-44af-a0e6-8b782c228d21"
 msgid "This weapon is a +3 warhammer."
 msgstr "이 무기는 +3 전투망치입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NobleHammer::m_FlavorText
-#, fuzzy
 msgctxt "1c69e68a-82ca-422e-8387-5705b4f98d14"
 msgid "The hammer's head is covered in illegible runes."
 msgstr "이 망치의 머리는 알 수 없는 룬으로 덮여있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NobleHunterEliteExpertLongbow::m_DisplayNameText
-#, fuzzy
 msgctxt "c789223c-7bd5-49ce-8778-9618ebb86a79"
 msgid "Nobleman's Amusement"
 msgstr "귀족의 여흥"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NobleHunterEliteExpertLongbow::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +1 longbow grants its wielder the effect of Point-Blank Shot and "
-#| "Precise Shot feats."
 msgctxt "b77a64f2-3de5-463b-baa6-a2cf17c745ea"
 msgid ""
 "This +1 longbow grants its wielder the effect of Point-Blank Shot and "
 "Precise Shot {g|Encyclopedia:Feat}feats{/g}."
-msgstr "이 +1 장궁은 착용자에게 직사와 정밀 사격 특기를 제공합니다."
+msgstr "이 +1 장궁은 착용자에게 직사와 정밀 사격 {g|Encyclopedia:Feat}특기{/g}를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NobleHunterEliteExpertLongbow::m_FlavorText
-#, fuzzy
 msgctxt "54021f86-242f-4279-93d1-306e67d41bcd"
 msgid ""
 "This bow was created by a royal gamekeeper to help the hunting nobles feel "
@@ -54636,6 +54524,10 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Damage}damage "
 "rolls{/g} and become slowed for 1 round."
 msgstr ""
+"이 +4 서리 폭발의 투척 도끼의 착용자가 매 {g|Encyclopedia:Combat_Round}라운드{/g} 처음으로 적에게 공격을 "
+"적중시키면, 해당 적은 {g|Encyclopedia:DC}DC{/g} 27 {g|Encyclopedia:Saving_Throw}인내 내성 "
+"굴림{/g}을 시도해 실패시 {g|Encyclopedia:Damage}피해 굴림{/g}에 -3 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받고 1 라운드 동안 감속됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NoxiousStalkerItem::m_DisplayNameText
@@ -54659,12 +54551,16 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} 22). On a successful saving throw, the enemy "
 "becomes immune to this poison."
 msgstr ""
+"이 +3 부식성 다트는 적중시 적을 중독시켜 적이 {g|Encyclopedia:DC}DC{/g} 22 "
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 실패시 3 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 감속 및 고통 상태로 만듭니다. 내성 굴림에 성공시 이 독에 "
+"면역을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NumerianGreatswordItem::m_DisplayNameText
 msgctxt "0f890c0c-9588-435e-beb7-2e8cb6d84b95"
 msgid "Numerian Greatsword"
-msgstr ""
+msgstr "누메리아 대검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NumerianGreatswordItem::m_DescriptionText
@@ -54696,77 +54592,66 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuAgilePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "eb3f4b63-0845-4d1f-82cb-1a4b4d5aa722"
 msgid "Agile Nunchaku +1"
 msgstr "날렵한 쌍절곤 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuBaneUndeadShockPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "920a9d59-0e6e-403b-8db6-2fcea14c84f7"
 msgid "Undead Bane Shock Nunchaku +2"
 msgstr "언데드 파멸과 전격의 쌍절곤 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuCorrosivePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "b5d1bf0a-8c18-456e-858d-0d4cc7da63ac"
 msgid "Corrosive Nunchaku +1"
 msgstr "부식성 쌍절곤 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuCorrosivePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "de637d94-2c91-4641-9d9b-cca1e487497a"
 msgid "Corrosive Nunchaku +2"
 msgstr "부식성 쌍절곤 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuFlamingPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "745df4d0-abba-4457-a1c7-c4be4ced2ac8"
 msgid "Flaming Nunchaku +1"
 msgstr "불꽃의 쌍절곤 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuFlamingPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "0dd44655-8431-4907-8447-ec859ec7865c"
 msgid "Flaming Nunchaku +2"
 msgstr "불꽃의 쌍절곤 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuFrostPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "fb557f75-0155-43d0-8ec9-04131f47a6d7"
 msgid "Frost Nunchaku +1"
 msgstr "서리의 쌍절곤 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuFrostPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "dbd4f735-bac4-4820-86af-68f87a686796"
 msgid "Frost Nunchaku +2"
 msgstr "서리의 쌍절곤 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuPlus5::m_DescriptionText
-#, fuzzy
 msgctxt "2df1299b-0348-430b-865f-d994e9557b24"
 msgid "+5 Nunchaku"
 msgstr "쌍절곤 +5"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuShockPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "cbc6cfe8-5a88-43cd-8135-ab3286865a0d"
 msgid "Shock Nunchaku +1"
 msgstr "전격의 쌍절곤 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = NunchakuShockPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "7eec388e-1aea-403a-9644-a5ea2c1f37f4"
 msgid "Shock Nunchaku +2"
 msgstr "전격의 쌍절곤 +2"
@@ -54775,7 +54660,7 @@ msgstr "전격의 쌍절곤 +2"
 #. Path = OakOfThunderItem::m_DisplayNameText
 msgctxt "a4c34208-742a-4baa-b4f8-d01f1ca5e196"
 msgid "Oak of Thunder"
-msgstr ""
+msgstr "천둥의 참나무"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = OakOfThunderItem::m_DescriptionText
@@ -54806,10 +54691,9 @@ msgstr "이 +5 낫은 착용자에게 섐블링 마운드가 가진 붙잡기 �
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = OathOfTheSkyItem::m_DisplayNameText
-#, fuzzy
 msgctxt "6ce19783-704e-48e4-a6f0-70c33beca045"
 msgid "Oath of the Sky"
-msgstr "대지의 맹세"
+msgstr "하늘의 맹세"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = OathOfTheSkyItem::m_DescriptionText
@@ -56819,52 +56703,49 @@ msgid ""
 "rolls{/g} for 5 minutes. Multiple applications of this effect do not stack, "
 "but extend the effect's duration."
 msgstr ""
+"이 +4 부식성 주먹칼은 착용자의 {g|Encyclopedia:Trickery}손재주{/g} {g|Encyclopedia:Skills}"
+"기술 판정{/g}에 +10 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자가 성공적으로 함정을 해제하면 "
+"5분 동안 {g|Encyclopedia:Damage}피해 굴림{/g}에 +4 보너스를 얻습니다. 이 효과를 중첩시키면 보너스는 늘어나지 "
+"않지만 지속시간은 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaiAgilePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "98feac92-d0d1-44d8-bc34-d3829e1b5fe3"
 msgid "Agile Sai +1"
 msgstr "날렵한 필가차 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaiCorrosivePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "9f3ad884-f0f4-4d45-8882-084b01c38477"
 msgid "Corrosive Sai +1"
 msgstr "부식성 필가차 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaiCorrosivePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "29554b82-e013-487e-8ffe-8237d1d4a79a"
 msgid "Corrosive Sai +2"
 msgstr "부식성 필가차 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaiFlamingPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "51e61f7e-a1f0-4d27-b984-d883dcf9b3d3"
 msgid "Flaming Sai +1"
 msgstr "불꽃의 필가차 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaiFlamingPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "944e298a-83ac-4fc1-bd26-495b5b677632"
 msgid "Flaming Sai +2"
 msgstr "불꽃의 필가차 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaiFrostPlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "f4f05e4a-70e4-4e9b-a0b2-de8adbf17e1c"
 msgid "Frost Sai +1"
 msgstr "서리의 필가차 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaiFrostPlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "07bd6188-5379-46e8-ab2c-54e0d23d8940"
 msgid "Frost Sai +2"
 msgstr "서리의 필가차 +2"
@@ -56954,53 +56835,45 @@ msgid ""
 "Its wielder can cast the horrid wilting spell 3 times per day as a 15 level "
 "wizard."
 msgstr ""
+"이 +5 언데드 파멸 지진 망치의 치명타 배수는 x3 이 아닌 x4 입니다. 착용자는 하루에 3번 15 레벨 위저드의 끔찍한 고사 주문을 "
+"시전할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaviourItem::m_DisplayNameText
-#, fuzzy
 msgctxt "c320a502-2b16-4eb6-82b3-0ff1b2a93eb1"
 msgid "Saviour"
 msgstr "구원자"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = SaviourItem::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Each time this +5 mithral elven curve blade land a hit, it heals the wielder "
-#| "for 1 HP."
 msgctxt "6ee74284-f87e-47e8-a44c-e054339d669b"
 msgid ""
 "Each time this +5 mithral elven curve blade land a hit, it "
 "{g|Encyclopedia:Healing}heals{/g} the wielder for 1 "
 "{g|Encyclopedia:HP}HP{/g}."
-msgstr "이 +5 미스랄 엘프 곡도로 공격을 명중시킬 때마다 착용자의 HP를 1 회복합니다."
+msgstr ""
+"이 +5 미스랄 엘프 곡도로 공격을 명중시킬 때마다 착용자의 {g|Encyclopedia:HP}HP{/g}를 1 "
+"{g|Encyclopedia:Healing}치유{/g}합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ScepterOfWoe::m_DisplayNameText
-#, fuzzy
 msgctxt "4e8f2fe3-c026-4789-8994-7eb2f0a7dcdf"
 msgid "Mallet of Woe"
 msgstr "비애의 망각"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ScepterOfWoe::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 heavy mace deals 2d6 damage and grants its wielder the continuous "
-#| "effect of freedom of movement spell."
 msgctxt "14d2ae85-29f8-4e07-8a61-571e384c0a06"
 msgid ""
 "This +3 heavy mace deals {g|Encyclopedia:Dice}2d6{/g} "
 "{g|Encyclopedia:Damage}damage{/g} and grants its wielder the continuous "
 "effect of freedom of movement {g|Encyclopedia:Spell}spell{/g}."
-msgstr "이 +3 중형 철퇴는 2d6의 피해를 입히며, 착용자에게 지속적으로 자유 이동의 주문 효과를 부여합니다."
+msgstr ""
+"이 +3 중형 철퇴는 {g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Damage}피해{/g}를 입히며, "
+"착용자에게 지속적으로 이동의 자유 {g|Encyclopedia:Spell}주문{/g}의 효과를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ScepterOfWoe::m_FlavorText
-#, fuzzy
-#| msgid ""
-#| "The dark mace is incredibly heavy. In fills its wielder's body with a "
-#| "supernatural power, sufficient for handling it."
 msgctxt "62c3d30f-25ce-43a5-a492-0ce9d2b3cf81"
 msgid ""
 "This dark mace is incredibly heavy. In fills its wielder's body with a "
@@ -57009,14 +56882,12 @@ msgstr "이 어두운 철퇴는 믿을 수 없을 정도로 무겁습니다. 하
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ScimitarCorrosivePlus1::m_DisplayNameText
-#, fuzzy
 msgctxt "bb1b314b-0332-4824-9866-9c41c2c4db8c"
 msgid "Corrosive Scimitar +1"
 msgstr "부식성 시미터 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ScimitarCorrosivePlus2::m_DisplayNameText
-#, fuzzy
 msgctxt "3ad65a99-7831-45fc-93d7-88105fd116b2"
 msgid "Corrosive Scimitar +2"
 msgstr "부식성 시미터 +2"

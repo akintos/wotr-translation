@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-08-08 06:43+0000\n"
+"PO-Revision-Date: 2022-08-11 08:43+0000\n"
 "Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -32218,10 +32218,9 @@ msgstr ""
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TacticalLeaderBattleAcumenDesctruction::m_DisplayName
-#, fuzzy
 msgctxt "7b1f9cd0-17af-473b-850a-20350d51676b"
 msgid "Tactical Acumen — Destruction"
-msgstr "전술 감각 - 파괴"
+msgstr "전술 감각 — 파괴"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TacticalLeaderBattleAcumenDesctruction::m_Description
@@ -32234,11 +32233,6 @@ msgstr "전술 감각 - 파괴"
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = MendevianInquisitor_Buff_JudgmentDestruction::m_Description
-#, fuzzy
-#| msgid ""
-#| "The inquisitor is filled with divine wrath, gaining a +1 sacred bonus on all "
-#| "weapon damage rolls. This bonus increases by +1 for every three inquisitor "
-#| "levels she possesses."
 msgctxt "6a737485-02d0-4374-916b-73797e9172b7"
 msgid ""
 "The inquisitor is filled with divine wrath, gaining a +1 sacred "
@@ -32246,8 +32240,8 @@ msgid ""
 "rolls{/g}. This bonus increases by +1 for every three inquisitor levels she "
 "possesses."
 msgstr ""
-"인퀴지터는 신성한 분노에 휩싸여, 모든 무기 피해 굴림에 +1 신성 보너스를 더합니다. 이 보너스는 인퀴지터가 획득한 3레벨마다 +1씩 "
-"증가합니다."
+"인퀴지터는 신성한 분노에 휩싸여, 모든 무기 {g|Encyclopedia:Damage}피해 굴림{/g}에 +1 신성 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 더합니다. 이 보너스는 인퀴지터가 획득한 3 레벨마다 1씩 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TacticalLeaderBattleAcumenHealing::m_DisplayName
@@ -33524,7 +33518,6 @@ msgstr "환각성 구름"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TricksterHallucinogenicCloud::m_Description
-#, fuzzy
 msgctxt "9c14de5c-db1b-455a-841e-7c2b9013efef"
 msgid ""
 "Hallucinogenic Cloud creates a bank of fog like that created by fog cloud, "
@@ -43944,7 +43937,6 @@ msgstr "데즈나의 자장가 하프"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = DesnaHarpBuff::m_Description
-#, fuzzy
 msgctxt "00e7fa9b-ac07-47b8-9558-7b98d8e74dda"
 msgid ""
 "For 7 days, whenever a companion enters the area of Azata's performance, "
@@ -43970,7 +43962,6 @@ msgstr "데즈나의 활기찬 하프"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = DesnaHarpBuffEnergized::m_Description
-#, fuzzy
 msgctxt "ac2a3ac3-2202-406e-b3bf-78b094512ca1"
 msgid ""
 "For 7 days, whenever a companion enters the area of Azata's performance, "
@@ -45362,6 +45353,9 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage "
 "rolls{/g}."
 msgstr ""
+"도검장인은 수십자루의 무기를 제련했고, 숙달했고, 완벽하게 휘두르는 법을 이해했습니다. 도검장인은 "
+"{g|Encyclopedia:Attack}명중{/g} 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"{g|Encyclopedia:Intelligence}지능{/g} 수정치를 더합니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = FinneanPechkaUniqueBuff::m_DisplayName
@@ -47321,7 +47315,7 @@ msgstr ""
 #. Path = IvoryLabyrinth_DimensionLock_Buff::m_DisplayName
 msgctxt "486df8fd-eb14-4311-8b12-db5fa8e34e79"
 msgid "Ineluctable Prison"
-msgstr ""
+msgstr "불가피한 감옥"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = IvoryLabyrinth_DimensionLock_Buff::m_Description
@@ -49845,7 +49839,7 @@ msgstr "면역"
 #. Path = RepulsiveNatureNauseatedBuff::m_DisplayName
 msgctxt "a7bec0a9-2da4-4bbd-853c-e5d06ecf3d67"
 msgid "Repulsive Nature — Nauseated"
-msgstr ""
+msgstr "혐오스러운 자연 — 구토"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = RiceAndNutPuddingBuff::m_DisplayName
@@ -50928,7 +50922,7 @@ msgstr ""
 #. Path = TheUndyingLoveOfTheHopebringer_ChosenOfTheDarkNovaBuff::m_DisplayName
 msgctxt "0f0687b3-383d-46cf-8a2d-65ce55073b2f"
 msgid "Chosen of Dark Nova"
-msgstr ""
+msgstr "어둠 회오리에 선택 받은 자"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = ThirstAndHungerDebuff::m_DisplayName
