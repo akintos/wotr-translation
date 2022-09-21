@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-08-19 13:55+0000\n"
-"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
+"PO-Revision-Date: 2022-09-21 14:37+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -1093,7 +1093,7 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} for one minute per "
 "{g|Encyclopedia:Caster_Level}caster level{/g}."
 msgstr ""
-"이 축복은 가까운 거리에 있는 아군 한 명을 대상으로 합니다. 대상 아군은 방패, 신념의 방패, 화살로부터 보호, 변위, 저항 - 화염, "
+"이 축복은 가까운 거리에 있는 아군 한 명을 대상으로 합니다. 대상 아군은 방패, 신념의 방패, 화살로부터 보호, 환위, 저항 - 화염, "
 "냉기, 전기, 산성, 음파 {g|Encyclopedia:Spell}주문{/g}의 결합된 효과를 "
 "{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 1분동안 받습니다."
 
@@ -2504,9 +2504,9 @@ msgid ""
 "10th, the level of the summon nature's ally {g|Encyclopedia:Spell}spell{/g} "
 "increases by 1 (to a maximum of summon nature's ally IX at 18th level)."
 msgstr ""
-"10 레벨에, 전투 동료를 소환할 수 있습니다. 이 능력은 1분 동안 지속되는 자연의 동료 소환 V 와 같습니다. 사용 목록과 상관 "
-"없이, 오직 한 마리의 동물만 소환 할 수 있습니다. 10 레벨 이후 2레벨마다 자연의 동료 소환 "
-"{g|Encyclopedia:Spell}주문{/g}의 레벨이 1 씩 증가합니다. (18 레벨의 자연의 동료 소환 IX 가 최대)"
+"10 레벨에, 전투 동료를 소환할 수 있습니다. 이 능력은 지속 시간이 1분인 자연의 동맹 소환 V 처럼 동작하며, 사용 목록에 상관 "
+"없이 한 마리의 동물만 소환합니다. 10 레벨 이후 2레벨마다 자연의 동맹 소환 {g|Encyclopedia:Spell}주문{/g}의 "
+"등급이 상승하여, 18레벨에 자연의 동맹 소환 IX까지 사용할 수 있습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AnimalBlessingMinorAbility::m_DisplayName
@@ -36122,7 +36122,7 @@ msgstr ""
 #. Path = AnimalFocusBearAnimalBuff::m_DisplayName
 msgctxt "ce185542-8d6c-4686-b333-4e42224255b8"
 msgid "Animal Focus — Bear"
-msgstr "동물 집중 — 곰"
+msgstr "동물 중점 — 곰"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusBear::m_Description
@@ -36145,7 +36145,7 @@ msgstr ""
 #. Path = AnimalFocusBullAnimalBuff::m_DisplayName
 msgctxt "d659a061-7fd1-49d7-8633-9c6c9b804ee9"
 msgid "Animal Focus — Bull"
-msgstr "동물 초점 — 황소"
+msgstr "동물 중점 — 황소"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusBull::m_Description
@@ -36168,7 +36168,7 @@ msgstr ""
 #. Path = AnimalFocusFalconAnimalBuff::m_DisplayName
 msgctxt "6966ba7d-0f67-44b9-8fa2-806fcdf29047"
 msgid "Animal Focus — Falcon"
-msgstr "동물 초점 — 매"
+msgstr "동물 중점 — 매"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusFalcon::m_Description
@@ -36191,7 +36191,7 @@ msgstr ""
 #. Path = AnimalFocusMonkeyAnimalBuff::m_DisplayName
 msgctxt "75816ba5-1135-46e6-82e5-d30161c2a55c"
 msgid "Animal Focus — Monkey"
-msgstr "동물 초점 — 원숭이"
+msgstr "동물 중점 — 원숭이"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusMonkey::m_Description
@@ -36214,7 +36214,7 @@ msgstr ""
 #. Path = AnimalFocusMouseAnimalBuff::m_DisplayName
 msgctxt "f68d0e53-a28b-465e-9c34-a93dc3dd7a78"
 msgid "Animal Focus — Mouse"
-msgstr "동물 초점 — 쥐"
+msgstr "동물 중점 — 쥐"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusMouse::m_Description
@@ -36234,7 +36234,7 @@ msgstr "크리처는 로그 클래스 특기의 회피를 얻습니다. 12 레�
 #. Path = AnimalFocusOwlAnimalBuff::m_DisplayName
 msgctxt "450d82f0-ff55-48dc-bf38-190f90afa371"
 msgid "Animal Focus — Owl"
-msgstr "동물 초점 — 올빼미"
+msgstr "동물 중점 — 올빼미"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusOwl::m_Description
@@ -36257,7 +36257,7 @@ msgstr ""
 #. Path = AnimalFocusStagAnimalBuff::m_DisplayName
 msgctxt "4dc5e679-6630-4d54-b71d-874da1f8daaf"
 msgid "Animal Focus — Stag"
-msgstr "동물 초점 — 수사슴"
+msgstr "동물 중점 — 수사슴"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusStag::m_Description
@@ -36280,7 +36280,7 @@ msgstr ""
 #. Path = AnimalFocusTigerAnimalBuff::m_DisplayName
 msgctxt "5d5d1f47-97d4-428b-bd9c-683b6201749f"
 msgid "Animal Focus — Tiger"
-msgstr "동물 초점 — 호랑이"
+msgstr "동물 중점 — 호랑이"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusTiger::m_Description
@@ -38321,8 +38321,7 @@ msgid ""
 "random variables."
 msgstr ""
 "이 로브는 착용자에게 하루에 최대 6개 {g|Encyclopedia:Spell}주문{/g}에 극대화 시전 능력을 제공합니다. 이것은 "
-"메타매직(극대화) {g|Encyclopedia:Feat}특기{/g}를 사용한 것과 동일합니다. 6 레벨 이하의 주문에만 효과가 있습니다."
-"\n"
+"극대화 주문 {g|Encyclopedia:Feat}특기{/g}를 사용한 것과 동일합니다. 6 레벨 이하의 주문에만 효과가 있습니다.\n"
 "이 특기로 수정된 주문의 모든 가변수가 최대값이 됩니다. {g|Encyclopedia:Saving_Throw}내성 굴림{/g}과 반대 "
 "{g|Encyclopedia:Dice}굴림{/g}, 무작위 변수가 없는 주문은 영향을 받지 않습니다."
 

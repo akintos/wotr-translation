@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-06-02 07:30+0000\n"
-"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
+"PO-Revision-Date: 2022-09-21 14:39+0000\n"
+"Last-Translator: 윤준혁 <nick0406@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -225,10 +225,9 @@ msgstr "메뚜기 무리"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Aeon1SpeedStats::LocalizedName
-#, fuzzy
 msgctxt "0648034c-ecad-4d74-af4f-2aa84e53415a"
 msgid "Reliable"
-msgstr "믿을 수 있는"
+msgstr "믿음직함"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Aeon1SpeedStats::LocalizedDescription
@@ -425,7 +424,7 @@ msgstr "지휘관이 비전 기술어를 가진 주문을 시전할 때, 마력�
 #. Path = ArmySupervisionRank1::LocalizedName
 msgctxt "5b896ec5-22a5-484c-900c-67f9abf0d4d5"
 msgid "Master of Maneuver I"
-msgstr "전술가 I"
+msgstr "전술의 대가 I"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ArmySupervisionRank1::LocalizedDescription
@@ -447,19 +446,19 @@ msgstr "이 특기의 레벨 당 지휘관이 이끄는 부대의 최대 규모�
 #. Path = ArmySupervisionRank2::LocalizedName
 msgctxt "b481d6c9-8180-4754-ab5c-aef28fa436f7"
 msgid "Master of Maneuver II"
-msgstr "전술가 II"
+msgstr "전술의 대가 II"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ArmySupervisionRank3::LocalizedName
 msgctxt "28bbabaa-dcc6-4be8-b186-7dd616f69b86"
 msgid "Master of Maneuver III"
-msgstr "전술가 III"
+msgstr "전술의 대가 III"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ArmySupervisionRank4::LocalizedName
 msgctxt "3c0af00d-64cb-4d65-966e-1d5bf2b07691"
 msgid "Master of Maneuver IV"
-msgstr "전술가 IV"
+msgstr "전술의 대가 IV"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = ArueshalaeKnowledgeForTheChosenOnes::LocalizedName
@@ -501,7 +500,7 @@ msgstr "지휘관이 마력에 +3 보너스, 에너지에 +10 보너스를 받�
 #. Path = Azata1InspiredAdvanceLeaderBuff::m_DisplayName
 msgctxt "b311e769-dbda-4394-9a1e-b5b0d7a5abdb"
 msgid "Inspired Advance"
-msgstr ""
+msgstr "고양된 전진"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Azata1InspiredAdvance::LocalizedDescription
@@ -753,7 +752,7 @@ msgstr "부대가 추가 이동 점수 +10 을 얻습니다."
 #. Path = LineOfSteelFeature::m_DisplayName
 msgctxt "3a6b90a8-828a-44e3-8dca-83ff678a57f9"
 msgid "Bet on the Best"
-msgstr ""
+msgstr "최고에 걸기"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = BetOnTheBest::LocalizedDescription
@@ -953,7 +952,7 @@ msgstr "병원은 모든 장군의 의무대 규모에 +5% 보너스를 제공�
 #. Path = SpiritualGarden::Name
 msgctxt "e28f7cbf-cd06-4b40-9cce-05f6ba1e8778"
 msgid "Spiritual Garden"
-msgstr ""
+msgstr "영적 정원"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = BuildingSpiritualGardenSkill::LocalizedDescription
@@ -961,7 +960,7 @@ msgctxt "d8370403-501c-46d0-b50a-e035707e3c75"
 msgid ""
 "A Spiritual Garden provides a +25 bonus to combat morale of all units and "
 "increases generals' Energy recovery by 50%."
-msgstr ""
+msgstr "영적 정원은 모든 유닛의 전투 사기에 +25 보너스를 제공하고 장군의 에너지 회복을 50% 증가시킵니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = CloseCombatTraining::LocalizedName
@@ -1106,7 +1105,7 @@ msgstr "부대의 모든 유닛은 원거리 공격에 대해 +3 AC 보너스를
 #. Path = Demon2ConsumingFlameAbility::m_DisplayName
 msgctxt "c4cac0f1-681a-4d41-95d8-70d86f63d1d5"
 msgid "Flaming Rain"
-msgstr ""
+msgstr "타오르는 비"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Demon2ConsumingFlame::LocalizedDescription
@@ -1181,7 +1180,7 @@ msgstr "하급 심연 소환"
 #. Path = Demon2LesserSummonDemonsAbility::m_Description
 msgctxt "9f9b513d-e0ca-4136-8722-25c0bb4836af"
 msgid "Summons (Power×2) {g|Dretches}[Dretches]{/g}. This is a Arcane spell."
-msgstr "(마력x2) {g|Dretches}[드렛치]{/g}를 소환합니다. 이는 비전 주문입니다."
+msgstr "(마력x2) {g|Dretches}[드레치]{/g}를 소환합니다. 이는 비전 주문입니다."
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Demon2SummonDemons::LocalizedName
@@ -1205,7 +1204,7 @@ msgstr "(마력x2) {g|Schirs}[쉬르]{/g}를 소환합니다. 이는 비전 주�
 #. Path = DemonicLullabyLeaderSkill::LocalizedName
 msgctxt "bebb9526-6b93-476d-a7cd-561700d234c7"
 msgid "Demonic Lullaby"
-msgstr ""
+msgstr "데몬의 자장가"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = DemonicLullabyLeaderSkill::LocalizedDescription
@@ -1253,7 +1252,7 @@ msgstr "지휘관은 마력에 +10 보너스를 갖습니다."
 #. Path = FlagDisoriented::DisplayName
 msgctxt "b5607e6f-2330-495f-8792-78770d0012ee"
 msgid "Disoriented"
-msgstr ""
+msgstr "방향 감각 상실"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = DisorientedLeaderSkill::LocalizedDescription
@@ -1283,7 +1282,7 @@ msgstr "유닛은 우선권에 -3 페널티를 가집니다. 정신 영향 효�
 #. Path = ArmyUnitsDissociatedBuff::m_DisplayName
 msgctxt "06b1a7ed-1dd4-4e05-bf8f-71eb7510e421"
 msgid "Dissociated"
-msgstr ""
+msgstr "분열"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = DissociatedLeaderSkill::LocalizedDescription
@@ -1963,7 +1962,7 @@ msgstr "위협 II"
 #. Path = Leadership3Infirmary::LocalizedName
 msgctxt "a2a63dce-0d30-404a-b55f-77af7c89b91c"
 msgid "Pious Officers"
-msgstr ""
+msgstr "경견한 사관"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership3Infirmary::LocalizedDescription
@@ -1975,7 +1974,7 @@ msgstr "의무대 규모가 10% 증가합니다."
 #. Path = Leadership3Morale::LocalizedName
 msgctxt "7f9b07fa-ced6-4649-83f0-e3b408f626ca"
 msgid "Heroic Officers"
-msgstr ""
+msgstr "영웅적인 사관"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership3Morale::LocalizedDescription
@@ -1987,7 +1986,7 @@ msgstr "모든 유닛은 전투 사기에 +5 보너스를 가집니다."
 #. Path = Leadership6DecreaseEnemyMorale::LocalizedName
 msgctxt "a6555ae7-75f3-489b-9a65-1a6bfcbe65b8"
 msgid "Bloodthirsty Officers"
-msgstr ""
+msgstr "피에 굶주린 사관"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership6DecreaseEnemyMorale::LocalizedDescription
@@ -2001,7 +2000,7 @@ msgstr "전투의 시작시 모든 유닛은 전투 사기에 -15 페널티를 �
 #. Path = Leadership6IncreaseMorale::LocalizedName
 msgctxt "5c4137e7-25a8-4783-8eba-7259a522d0cc"
 msgid "Charismatic"
-msgstr ""
+msgstr "매력적"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership6IncreaseMorale::LocalizedDescription
@@ -2025,7 +2024,7 @@ msgstr "모든 기병 및 고급 유닛이 피해에 +20% 보너스를 받습니
 #. Path = Leadership7LowTierDamageIncrease::LocalizedName
 msgctxt "b03a73c6-f988-426e-a467-318bf41dc78a"
 msgid "Brilliant Strategist"
-msgstr ""
+msgstr "훌륭한 전략가"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership7LowTierDamageIncrease::LocalizedDescription
@@ -2043,7 +2042,7 @@ msgstr "모든 원거리 및 보병 유닛은 피해에 +15% 보너스를 가집
 #. Path = GlobalSpellRelicKeeperGain::m_SpellName
 msgctxt "c203a825-78cc-4fc1-8a00-5507b4654976"
 msgid "Relic Keeper"
-msgstr ""
+msgstr "유물 수호자"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership7Power::LocalizedDescription
@@ -2064,7 +2063,7 @@ msgstr "지휘관은 마력에 +15 보너스를 가집니다."
 #. Path = FlagLeadership8Infirmary::DisplayName
 msgctxt "0cfc3f0f-6321-4583-b133-03848fc2ac9b"
 msgid "Heavenly Ward"
-msgstr ""
+msgstr "천상의 수호"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership8Infirmary::LocalizedDescription
@@ -2163,7 +2162,7 @@ msgstr ""
 #. Path = ArmyLeadership8DamageToInfantry::m_DisplayName
 msgctxt "8882163f-ff53-4d89-bf52-7d2798e448ca"
 msgid "Tactical Superiority"
-msgstr ""
+msgstr "전술적 우월함"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Leadership8TriangleDamage::LocalizedDescription
@@ -2248,7 +2247,7 @@ msgstr ""
 #. Path = Logistics4EXP::LocalizedName
 msgctxt "77678c03-ef25-409c-8253-5cacf05fec4c"
 msgid "Favoritism"
-msgstr ""
+msgstr "편애"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Logistics4EXP::LocalizedDescription
@@ -2260,7 +2259,7 @@ msgstr "지휘관이 얻는 경험치가 33% 증가합니다."
 #. Path = Logistics4MovementPoints::LocalizedName
 msgctxt "f557504d-9f4c-4e97-bccc-33c0b7993b32"
 msgid "Caravan Masters"
-msgstr ""
+msgstr "상단의 주인"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Logistics4MovementPoints::LocalizedDescription
@@ -2272,7 +2271,7 @@ msgstr "부대는 +15 추가 이동 점수를 가집니다."
 #. Path = Logistics6MoraleEachTurn::LocalizedName
 msgctxt "b59253cc-aa2b-4c61-9dac-83efa94cdc95"
 msgid "Test of Strength"
-msgstr ""
+msgstr "힘의 시험"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Logistics6MoraleEachTurn::LocalizedDescription
@@ -2284,7 +2283,7 @@ msgstr "모든 유닛은 매 턴마다 전투 사기에 +1 보너스를 얻습�
 #. Path = Logistics6MoraleForHit::LocalizedName
 msgctxt "e478f906-c4dd-4c1b-abc4-176854786d63"
 msgid "Decimation"
-msgstr ""
+msgstr "대학살"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Logistics6MoraleForHit::LocalizedDescription
@@ -2410,7 +2409,7 @@ msgstr ""
 #. Path = FlagMerciless::DisplayName
 msgctxt "0fb06af3-651d-4fbe-a971-e8dc153bd9e3"
 msgid "Merciless"
-msgstr ""
+msgstr "무자비함"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = MercilessLeaderSkill::LocalizedDescription
@@ -2425,7 +2424,7 @@ msgstr "의무대 규모가 20% 감소합니다."
 #. Path = MidnightFaneDocuments::LocalizedName
 msgctxt "133769f8-0461-4d9a-8e6a-44b2147aa96a"
 msgid "Secret Routes"
-msgstr ""
+msgstr "비밀 통로"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = MidnightFaneDocuments::LocalizedDescription
@@ -2530,7 +2529,7 @@ msgstr "(1 + 마력/2) {g|RiftDrakes}[균열 드레이크{/g}를 소환합니다
 #. Path = Pillage::LocalizedName
 msgctxt "ab604843-d846-421f-b4b7-6166a836cdc6"
 msgid "Salvage"
-msgstr ""
+msgstr "인양"
 
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = Pillage::LocalizedDescription
