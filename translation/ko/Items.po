@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-09-21 14:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-10-07 14:55+0000\n"
+"Last-Translator: Akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -5947,15 +5947,15 @@ msgstr ""
 "울지프 : 마법 두루마리, 420닢\n"
 "타비 : 광장에서 일함, 15 닢. 중요사항: 이 사기꾼놈은 5 배는 되는 돈을 벌고, 차액을 챙겼을 거다 ! 다음에는 이 도둑놈을 "
 "혼쭐내야겠어!\n"
-"케리스메이 : 80 닢 꺼내감 (정보원, 연락책, 기타 비용).\n"
+"커리스메이 : 80 닢 꺼내감 (정보원, 연락책, 기타 비용).\n"
 "도피 : 시장에서 일함, 25 닢.\n"
 "멜룬 : 70 닢 꺼내감, 도구 교체 비용.\n"
 "타비 : 향신료, 370 닢.\n"
 "크레마 : 마법 반지들, 250 닢.\n"
 "고르트 : 손으로 엮은 책, 180 닢.\n"
 "감정사 : 바이올린이 5 닢 밖에 안된다고 함. 중요사항: 달나를 혼자 일하게 하지 말 것!\n"
-"케리스메이 : 400 닢 꺼내감 (정보원, 연락책, 기타 비용).\n"
-"케리스메이 : 1,000 닢 꺼내감 (정보원, 연락책, 기타 비용).\n"
+"커리스메이 : 400 닢 꺼내감 (정보원, 연락책, 기타 비용).\n"
+"커리스메이 : 1,000 닢 꺼내감 (정보원, 연락책, 기타 비용).\n"
 "잔금 : 2,390 닢.\"\n"
 "여기부터, 손글씨는 극적으로 변합니다. 글씨는 작아지고, 날림으로 썼으며, 부산스러워 보입니다.\n"
 "\"잔금 : 2,390 닢? 근데 상자에는 1,500 밖에 없잖아 ! 어떤 똥대가리가 내 금고에 손을 댔다 ! 그게 울지프, 그 망할 "
@@ -16278,6 +16278,12 @@ msgid ""
 "Forgive me.\n"
 "{br}Galfrey\""
 msgstr ""
+"\"{name},\n"
+"{br}난 그대가 어디에 있는지 모른다. 살아있기는 한 것인가?\n"
+"무엇을 해야 할지 모르겠다. 하지만 짐은 여왕이니, 그에 맞는 행동을 해야만 한다.\n"
+"그대에게 전해지지도 못할 이 편지를 어찌하여 쓰고 있는지 스스로도 알 수가 없구나.\n"
+"부디 나를 용서하거라.\n"
+"{br}갈프리\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = GearsRuleNote::m_DisplayNameText
@@ -20863,7 +20869,7 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}Fortitude save{/g} {g|Encyclopedia:DC}DC{/g} 15 "
 "reduces the duration for 1 {g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
-"이 무기로 {g|Encyclopedia:Critical}치명타/g}를 적중시키면 상대방은 영구적으로 눈이 멀게 됩니다. "
+"이 무기로 {g|Encyclopedia:Critical}치명타{/g}를 적중시키면 상대방은 영구적으로 눈이 멀게 됩니다. "
 "{g|Encyclopedia:DC}DC{/g} 15 {g|Encyclopedia:Saving_Throw}인내 내성{/g}에 성공하면 1 "
 "{g|Encyclopedia:Combat_Round}라운드{/g} 동안 실명합니다."
 
@@ -27747,7 +27753,7 @@ msgstr ""
 #. Path = UltimatePredatorsGauntletsItem::m_DisplayNameText
 msgctxt "40c750bd-e637-42fe-adcd-e6b9cf3319c3"
 msgid "Ultimate Predator"
-msgstr ""
+msgstr "궁극의 포식자"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = UltimatePredatorsGauntletsItem::m_DescriptionText
@@ -29657,7 +29663,7 @@ msgid ""
 "a {g|Encyclopedia:NaturalAttack}natural weapon{/g}, takes "
 "{g|Encyclopedia:Dice}1d6{/g} electric {g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
-"이 투구의 착용자를 근접 무기, {g|Encyclopedia:UnarmedAttack}비무장/g} 타격, "
+"이 투구의 착용자를 근접 무기, {g|Encyclopedia:UnarmedAttack}비무장{/g} 타격, "
 "{g|Encyclopedia:NaturalAttack}자연 무기{/g}로 {g|Encyclopedia:Attack}공격{/g}하면 g|En"
 "cyclopedia:Dice}1d6{/g}g|Encyclopedia:Dice}1d6{/g}{g|Encyclopedia:Dice}1d6{/g"
 "}의 전기 {g|Encyclopedia:Damage}피해{/g}를 받습니다."
@@ -30135,6 +30141,13 @@ msgid ""
 "amount of damage this ability does to living creatures or heals to undead "
 "creatures by +2d6."
 msgstr ""
+"이 티아라는 착용자의 모든 정신 {g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 "
+"({g|Encyclopedia:Intelligence}지능{/g}, {g|Encyclopedia:Wisdom}지혜{/g}, "
+"{g|Encyclopedia:Charisma}매력{/g}) +8 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. "
+"또한 이 머리띠의 착용자가 양에너지 전달 능력을 가지고 있다면, 언데드 크리처에게 가하는 "
+"{g|Encyclopedia:Damage}피해{/g}량과 살아있는 크리처에 대한 {g|Encyclopedia:Healing}치유{/g}"
+"량을 {g|Encyclopedia:Dice}+2d6{/g} 증가시킵니다. 만일 이 머리띠의 착용자가 음에너지 전달 능력을 가지고 있다면, "
+"살아있는 크리처에 대한 피해량과 언데드 크리처에 대한 치유량이 +2d6 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = PhylachetryOfNegativeChanneling::m_DisplayNameText
@@ -30244,7 +30257,7 @@ msgstr "이 머리띠는 성스러운 온기를 발산합니다."
 #. Path = PortalStoneHeadband_IntermediateItem::m_DisplayNameText
 msgctxt "8d049d60-aa25-428e-bea1-543522f4d5f2"
 msgid "Circlet of Ghostly Pathways"
-msgstr ""
+msgstr "유령 통로의 서클릿"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = PortalStonePlanarHeadbandItem::m_DisplayNameText
@@ -30256,7 +30269,7 @@ msgstr ""
 #. Path = PortalStonePlanarSaiItem::m_DisplayNameText
 msgctxt "61c3c37b-7788-48f2-9a7d-6d5d8c4e3fd6"
 msgid "Planar Navigator"
-msgstr ""
+msgstr "차원 항해사"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = PortalStonePlanarHeadbandItem::m_DescriptionText
@@ -30274,6 +30287,11 @@ msgid ""
 "get a +1 insight bonus to {g|Encyclopedia:Armor_Class}AC{/g} against "
 "outsider creatures."
 msgstr ""
+"이 허리띠는 착용자의 {g|Encyclopedia:Charisma}매력{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +2 강화 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다. 하루에 3번 착용자는 외차원체 지배를 시도할 수 있습니다. 해당 크리처는 {g|Encyclopedia:Saving_Throw}"
+"의지 내성 굴림{/g}을 ({g|Encyclopedia:DC}DC{/g} 22) 시도해 실패시 전투 종료시까지 지배 효과를 받습니다. "
+"또한 외차원체 크리처에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +1 통찰 보너스를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = PortalStoneSpiderHeadbandItem::m_DisplayNameText
@@ -30285,7 +30303,7 @@ msgstr ""
 #. Path = PortalStoneSpiderSaiItem::m_DisplayNameText
 msgctxt "a8127e7b-3632-4976-8f01-bf26e982ccb7"
 msgid "Clemency of Shadows"
-msgstr ""
+msgstr "그림자의 관용"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = PortalStoneSpiderHeadbandItem::m_DescriptionText
@@ -30302,6 +30320,13 @@ msgid ""
 "{g|Encyclopedia:Damage_Type}bludgeoning damage{/g} each round. Effects don't "
 "stack."
 msgstr ""
+"이 머리띠는 착용자의 {g|Encyclopedia:Intelligence}지능{/g}에 +2 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자가 적에게 {g|Encyclopedia:Spell}주문{/g}을 "
+"시전할 때 마다, 해당 적은 {g|Encyclopedia:DC}DC{/g} 20 {g|Encyclopedia:Saving_Throw}반사 "
+"내성 굴림{/g}을 시도해 실패시 거미줄에 {g|Encyclopedia:Dice}1d4{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 속박됩니다. 속박된 크리처는 매 라운드 속박을 벗어나려 "
+"시도합니다. 이 거미줄은 매 라운드 1d6 +3 {g|Encyclopedia:Damage_Type}부수기 피해{/g}를 입힙니다. 이 "
+"효과는 중첩되지 않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = PortalStoneStanceHeadbandItem::m_DisplayNameText
@@ -30313,7 +30338,7 @@ msgstr ""
 #. Path = PortalStoneStanceSaiItem::m_DisplayNameText
 msgctxt "c8b674cb-ad57-4de4-aad8-8e97ee736171"
 msgid "Ancestral Retribution"
-msgstr ""
+msgstr "선조의 복수"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = PortalStoneStanceHeadbandItem::m_DescriptionText
@@ -30324,6 +30349,9 @@ msgid ""
 "Whenever you summon any Elemental, it gains 50 additional {g|Encyclopedia:HP}"
 "Hit Points{/g}."
 msgstr ""
+"이 머리띠는 착용자의 {g|Encyclopedia:Wisdom}지혜{/g}에 +2 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자가 정령을 소환하면, 해당 정령은 추가 50 "
+"{g|Encyclopedia:HP}생명점{/g}을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = ProfessorHatItem::m_DescriptionText
@@ -30380,7 +30408,7 @@ msgstr ""
 #. Path = RedDragonHelmetItem::m_DisplayNameText
 msgctxt "18411d1f-6d77-4608-b5f3-526b09b7da53"
 msgid "Red Dragon Helmet"
-msgstr ""
+msgstr "레드 드래곤 투구"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = RedDragonHelmetItem::m_DescriptionText
@@ -30393,6 +30421,10 @@ msgid ""
 "throw{/g} ({g|Encyclopedia:DC}DC{/g} 15) halves the "
 "{g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
+"이 투구는 착용자에게 화염 저항 10을 부여합니다. 또한 착용자는 하루에 3번 화염 폭발을 뿜어내 15 피트 원뿔 범위에 "
+"{g|Encyclopedia:Dice}3d4{/g} {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 입힐 수 "
+"있습니다. {g|Encyclopedia:DC}DC{/g} 15 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}"
+"에 성공하면 {g|Encyclopedia:Damage}피해{/g}를 반감합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = RedHatOfHandsomenessItem::m_DisplayNameText
@@ -30401,7 +30433,7 @@ msgstr ""
 #. Path = FieldOfWondersLoot3_CloseAction::Actions/Actions/0/IfTrue/Actions/1/Actions/2/Action/Actions/0/Actions/1/Action/Actions/0/Actions/0/Action/Actions/0/Loot/0/Item/m_DisplayNameText
 msgctxt "8c8d7df1-f880-4069-9265-6b32df9e2674"
 msgid "Red Hat of Handsomeness"
-msgstr ""
+msgstr "잘생김의 빨간 모자"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = RogueCapItem::m_DisplayNameText
@@ -30424,7 +30456,7 @@ msgstr ""
 #. Path = RuggedHelmetItem::m_DisplayNameText
 msgctxt "18f80062-02fa-4b17-a99b-eccd226f294c"
 msgid "Rugged Helmet"
-msgstr ""
+msgstr "단호한 투구"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = RuggedHelmetItem::m_DescriptionText
@@ -30435,12 +30467,15 @@ msgid ""
 "{g|Encyclopedia:Perception}Perception{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g}."
 msgstr ""
+"이 투구는 {g|Encyclopedia:Damage_Reduction}DR{/g} 3/근접을 부여하지만, 착용자는 "
+"{g|Encyclopedia:Perception}지각{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 -3 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = ShapeshiftersHelmItem::m_DisplayNameText
 msgctxt "c83e5ed2-dfb1-4232-8953-924f8057f52f"
 msgid "Shapeshifter's Helm"
-msgstr ""
+msgstr "형상변환자의 투구"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = ShapeshiftersHelmItem::m_DescriptionText
@@ -30450,6 +30485,9 @@ msgid ""
 "{g|Encyclopedia:Armor_Class}AC{/g} while in Wild Shape. It also grants 1 "
 "additional use of Wild Shape per day, if the wearer has this class ability."
 msgstr ""
+"이 투구는 착용자가 야생의 모습 상태일 때 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자는 해당 클래스 능력을 보유하고 있다면 하루에 한 번 "
+"야생의 모습을 사용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = StagHelmetItem::m_DisplayNameText
@@ -30498,12 +30536,15 @@ msgid ""
 "{g|Encyclopedia:Damage}damage rolls{/g} (to a maximum of 6) for every corpse "
 "and undead in a 30 feet radius around the wearer."
 msgstr ""
+"이 머리띠는 착용자의 {g|Encyclopedia:Attack}명중{/g} 및 {g|Encyclopedia:Damage}피해 굴림{/g}"
+"에 착용자로부터 30 피트 반경 내의 시체와 언데드 크리처 당 +1 상황 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = StorytellerAreshkaMaskItem::m_DisplayNameText
 msgctxt "f3a03982-51b4-40bf-bb7b-e306b26fcdbb"
 msgid "Mask of the Most Worthy"
-msgstr ""
+msgstr "가장 가치있는 자의 가면"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = StorytellerAreshkaMaskItem::m_DescriptionText
@@ -30529,7 +30570,7 @@ msgstr ""
 #. Path = StorytellerAreshkaMaskItem::m_FlavorText
 msgctxt "9d92257f-f9d2-4f7d-990b-bd7e4a0b38d5"
 msgid "A white mask with a circle drawn on the inside."
-msgstr ""
+msgstr "안 쪽에 원이 그려진 하얀 가면입니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = StubbornHeadItem::m_DisplayNameText
@@ -30564,7 +30605,7 @@ msgstr "어떤 일이 있어도 살아남아서 적들을 괴롭히고자 하는
 #. Path = SturdySnootItem::m_DisplayNameText
 msgctxt "e91b2f3f-e84e-47e4-b2c8-d329acb9ac80"
 msgid "Sturdy Snoot"
-msgstr ""
+msgstr "튼튼한 코"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = SturdySnootItem::m_DescriptionText
@@ -30613,10 +30654,9 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = TripleFinHelmetItem::m_DisplayNameText
-#, fuzzy
 msgctxt "a248f00d-4832-4779-a2d9-764d4eb3290c"
 msgid "Triple Fin Helmet"
-msgstr "뿔 투구"
+msgstr "세 지느러미 투구"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = TripleFinHelmetItem::m_DescriptionText
@@ -30711,7 +30751,7 @@ msgstr "두개골"
 #. Path = WindMasterHelmetItem::m_DisplayNameText
 msgctxt "e911d709-2873-4125-8484-112cdcaa8c0d"
 msgid "Wind Master Helmet"
-msgstr ""
+msgstr "바람의 주인 투구"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = WindMasterHelmetItem::m_DescriptionText
@@ -30757,7 +30797,7 @@ msgstr ""
 #. Path = ZeorisDaggerRing_Governing::m_DisplayNameText
 msgctxt "a108cdf6-2336-4caf-acdf-66bb5c42980a"
 msgid "Zaoris's Beauty"
-msgstr ""
+msgstr "자오리스의 아름다움"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = ZeorisDaggerHeadband_GoverningItem::m_DescriptionText
@@ -30771,12 +30811,16 @@ msgid ""
 "{g|Encyclopedia:Spell}Spellcaster{/g} and Shield Wall "
 "{g|Encyclopedia:Feat}feats{/g}."
 msgstr ""
+"이 머리띠는 착용자의 {g|Encyclopedia:Charisma}매력{/g}과 {g|Encyclopedia:Wisdom}지혜{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +6 강화 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"줍니다. 또한 착용자와 착용자로부터 10 피트 반경 내의 모든 아군은 방패뒤의 시전자, 방패벽, 연합시전 "
+"{g|Encyclopedia:Feat}특기{/g}의 효과를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = ZeorisDaggerHeadband_IntermediateItem::m_DisplayNameText
 msgctxt "471d7796-bdb0-4b04-81b3-0965bfea826b"
 msgid "Zaoris's Tiara"
-msgstr ""
+msgstr "자오리스의 티아라"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFists::m_DisplayNameText
@@ -30786,11 +30830,6 @@ msgstr "날렵한 주먹의 부적"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFists::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If the wearer has the Weapon Finesse feat, this amulet allows her to apply "
-#| "her Dexterity modifier (in place of her Strength modifier) to damage rolls "
-#| "with all unarmed and natural weapon attacks."
 msgctxt "f0ca02ec-6be4-4ada-b141-2103c661bfdc"
 msgid ""
 "If the wearer has the Weapon Finesse {g|Encyclopedia:Feat}feat{/g}, this "
@@ -30800,8 +30839,11 @@ msgid ""
 "{g|Encyclopedia:UnarmedAttack}unarmed{/g} and {g|Encyclopedia:NaturalAttack}"
 "natural weapon{/g} {g|Encyclopedia:Attack}attacks{/g}."
 msgstr ""
-"착용자가 무기 기교 특기를 가지고 있는 경우, 이 부적은 모든 비무장 및 자연 무기 공격으로 인한 피해 굴림에 그녀의 민첩 수정치 (힘 "
-"수정치를 대체 가능시) 를 적용합니다."
+"착용자가 무기 기교 {g|Encyclopedia:Feat}특기{/g}를 가지고 있는 경우, 이 부적은 모든 "
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 및 {g|Encyclopedia:NaturalAttack}자연 "
+"무기{/g} {g|Encyclopedia:Attack}attacks{/g}으로 인한 {g|Encyclopedia:Damage}피해 "
+"굴림{/g}에 착용자의 {g|Encyclopedia:Strength}힘{/g} 수정치 대신 "
+"{g|Encyclopedia:Dexterity}민첩{/g}수정치를 적용합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus1::m_DisplayNameText
@@ -30811,12 +30853,6 @@ msgstr "날렵한 주먹의 부적 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus1::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If the wearer has the Weapon Finesse feat, this amulet allows her to apply "
-#| "her Dexterity modifier (in place of her Strength modifier) to damage rolls "
-#| "with all unarmed and natural weapon attacks. It also grants a +1 enhancement "
-#| "bonus on attack and damage rolls with unarmed attacks and natural weapons."
 msgctxt "ec030c57-2d86-42ac-941d-e1dc15525e9b"
 msgid ""
 "If the wearer has the Weapon Finesse {g|Encyclopedia:Feat}feat{/g}, this "
@@ -30828,8 +30864,12 @@ msgid ""
 "enhancement {g|Encyclopedia:Bonus}bonus{/g} on attack and damage "
 "{g|Encyclopedia:Dice}rolls{/g} with unarmed attacks and natural weapons."
 msgstr ""
-"착용자가 무기 기교 특기를 가지고 있는 경우, 이 부적은 모든 비무장 및 자연 무기 공격으로 인한 피해 굴림에 그녀의 민첩 수정치 (힘 "
-"수정치를 대체 가능시) 를 적용합니다. 또한 비무장 공격 및 자연 무기 공격의 명중과 피해 굴림에 +1 강화 보너스를 제공합니다."
+"착용자가 무기 기교 {g|Encyclopedia:Feat}특기{/g}를 가지고 있는 경우, 이 부적은 모든 "
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 및 {g|Encyclopedia:NaturalAttack}자연 "
+"무기{/g} {g|Encyclopedia:Attack}공격{/g}으로 인한 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"착용자의 {g|Encyclopedia:Strength}힘{/g} 수정치 대신  {g|Encyclopedia:Dexterity}민첩{/g}"
+"수정치를 적용합니다. 또한 착용자의 비무장 타격 및 자연 무기를 활용한 명중 및 피해 {g|Encyclopedia:Dice}굴림{/g}에 "
+"+1 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus2::m_DisplayNameText
@@ -30839,12 +30879,6 @@ msgstr "날렵한 주먹의 부적 +2"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus2::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If the wearer has the Weapon Finesse feat, this amulet allows her to apply "
-#| "her Dexterity modifier (in place of her Strength modifier) to damage rolls "
-#| "with all unarmed and natural weapon attacks. It also grants a +2 enhancement "
-#| "bonus on attack and damage rolls with unarmed attacks and natural weapons."
 msgctxt "4a201594-ad7d-460a-8d3c-79fdac372fd3"
 msgid ""
 "If the wearer has the Weapon Finesse {g|Encyclopedia:Feat}feat{/g}, this "
@@ -30856,8 +30890,12 @@ msgid ""
 "enhancement {g|Encyclopedia:Bonus}bonus{/g} on attack and damage "
 "{g|Encyclopedia:Dice}rolls{/g} with unarmed attacks and natural weapons."
 msgstr ""
-"착용자가 무기 기교 특기를 가지고 있는 경우, 이 부적은 모든 비무장 및 자연 무기 공격으로 인한 피해 굴림에 그녀의 민첩 수정치 (힘 "
-"수정치를 대체 가능시) 를 적용합니다. 또한 비무장 공격 및 자연 무기 공격의 명중과 피해 굴림에 +2 강화 보너스를 제공합니다."
+"착용자가 무기 기교 {g|Encyclopedia:Feat}특기{/g}를 가지고 있는 경우, 이 부적은 모든 "
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 및 {g|Encyclopedia:NaturalAttack}자연 "
+"무기{/g} {g|Encyclopedia:Attack}공격{/g}으로 인한 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"착용자의 {g|Encyclopedia:Strength}힘{/g} 수정치 대신 {g|Encyclopedia:Dexterity}민첩{/g}"
+"수정치를 적용합니다. 또한 착용자의 비무장 타격 및 자연 무기를 활용한 명중 및 피해 {g|Encyclopedia:Dice}굴림{/g}에 "
+"+2 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus3::m_DisplayNameText
@@ -30867,12 +30905,6 @@ msgstr "날렵한 주먹의 부적 +3"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus3::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If the wearer has the Weapon Finesse feat, this amulet allows her to apply "
-#| "her Dexterity modifier (in place of her Strength modifier) to damage rolls "
-#| "with all unarmed and natural weapon attacks. It also grants a +3 enhancement "
-#| "bonus on attack and damage rolls with unarmed attacks and natural weapons."
 msgctxt "cf38e57b-bbcf-44fb-9e17-d730f1e86410"
 msgid ""
 "If the wearer has the Weapon Finesse {g|Encyclopedia:Feat}feat{/g}, this "
@@ -30884,8 +30916,12 @@ msgid ""
 "enhancement {g|Encyclopedia:Bonus}bonus{/g} on attack and damage "
 "{g|Encyclopedia:Dice}rolls{/g} with unarmed attacks and natural weapons."
 msgstr ""
-"착용자가 무기 기교 특기를 가지고 있는 경우, 이 부적은 모든 비무장 및 자연 무기 공격으로 인한 피해 굴림에 그녀의 민첩 수정치 (힘 "
-"수정치를 대체 가능시) 를 적용합니다. 또한 비무장 공격 및 자연 무기 공격의 명중과 피해 굴림에 +3 강화 보너스를 제공합니다."
+"착용자가 무기 기교 {g|Encyclopedia:Feat}특기{/g}를 가지고 있는 경우, 이 부적은 모든 "
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 및 {g|Encyclopedia:NaturalAttack}자연 "
+"무기{/g} {g|Encyclopedia:Attack}공격{/g}으로 인한 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"착용자의 {g|Encyclopedia:Strength}힘{/g} 수정치 대신 {g|Encyclopedia:Dexterity}민첩{/g}"
+"수정치를 적용합니다. 또한 착용자의 비무장 타격 및 자연 무기를 활용한 명중 및 피해 {g|Encyclopedia:Dice}굴림{/g}에 "
+"+3 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus4::m_DisplayNameText
@@ -30895,12 +30931,6 @@ msgstr "날렵한 주먹의 부적 +4"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfAgileFistsPlus4::m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If the wearer has the Weapon Finesse feat, this amulet allows her to apply "
-#| "her Dexterity modifier (in place of her Strength modifier) to damage rolls "
-#| "with all unarmed and natural weapon attacks. It also grants a +4 enhancement "
-#| "bonus on attack and damage rolls with unarmed attacks and natural weapons."
 msgctxt "0f321b30-3e8f-428e-8e57-a4039d8634ac"
 msgid ""
 "If the wearer has the Weapon Finesse {g|Encyclopedia:Feat}feat{/g}, this "
@@ -30912,14 +30942,18 @@ msgid ""
 "enhancement {g|Encyclopedia:Bonus}bonus{/g} on attack and damage "
 "{g|Encyclopedia:Dice}rolls{/g} with unarmed attacks and natural weapons."
 msgstr ""
-"착용자가 무기 기교 특기를 가지고 있는 경우, 이 부적은 모든 비무장 및 자연 무기 공격으로 인한 피해 굴림에 그녀의 민첩 수정치 (힘 "
-"수정치를 대체 가능시) 를 적용합니다. 또한 비무장 공격 및 자연 무기 공격의 명중과 피해 굴림에 +4 강화 보너스를 제공합니다."
+"착용자가 무기 기교 {g|Encyclopedia:Feat}특기{/g}를 가지고 있는 경우, 이 부적은 모든 "
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 및 {g|Encyclopedia:NaturalAttack}자연 "
+"무기{/g} {g|Encyclopedia:Attack}공격{/g}으로 인한 {g|Encyclopedia:Damage}피해 굴림{/g}에 "
+"착용자의 {g|Encyclopedia:Strength}힘{/g} 수정치 대신 {g|Encyclopedia:Dexterity}민첩{/g}"
+"수정치를 적용합니다. 또한 착용자의 비무장 타격 및 자연 무기를 활용한 명중 및 피해 {g|Encyclopedia:Dice}굴림{/g}에 "
+"+4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfApothecaryItem::m_DisplayNameText
 msgctxt "d0881429-3eac-4297-bbed-b6d7eab1ccdb"
 msgid "Amulet of Apothecary"
-msgstr ""
+msgstr "약재상의 부적"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfApothecaryItem::m_DescriptionText
@@ -30929,12 +30963,14 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g} against poison."
 msgstr ""
+"이 +1 자연 방어의 부적은 착용자의 독에 대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 사기 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfBlackenedMirrorItem::m_DisplayNameText
 msgctxt "10a62dbb-4241-4788-b437-207c20d8dcc4"
 msgid "Amulet of Blackened Mirror"
-msgstr ""
+msgstr "탄화된 거울의 부적"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfBlackenedMirrorItem::m_DescriptionText
@@ -30944,12 +30980,14 @@ msgid ""
 "of the {g|Encyclopedia:Saving_Throw}saving throw{/g} against it is increased "
 "by 1."
 msgstr ""
+"이 부적의 착용자가 주술을 시전하면, 주술에 대항하는 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}의 "
+"{g|Encyclopedia:DC}DC{/g}가 1 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfCirculatingBloodItem::m_DisplayNameText
 msgctxt "750afda9-384b-4e5c-a9b0-c675f12961db"
 msgid "Amulet of Circulating Blood"
-msgstr ""
+msgstr "혈액 순환의 부적"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfCirculatingBloodItem::m_DescriptionText
@@ -30959,12 +30997,14 @@ msgid ""
 "fast {g|Encyclopedia:Healing}healing{/g} 5 for the duration of the effect. "
 "This amulet can only be worn by a Bloodrager."
 msgstr ""
+"이 부적의 착용자가 피의 격노 효과를 받으면 해당 효과의 지속시간 동안 빠른 {g|Encyclopedia:Healing}치유{/g} 5를 "
+"얻습니다. 오직 블러드레이저만이 이 부적을 착용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfDeepRootsItem::m_DisplayNameText
 msgctxt "ddacf318-07eb-4d47-9bc8-135e0875c52e"
 msgid "Amulet of Deep Roots"
-msgstr ""
+msgstr "깊은 뿌리의 부적"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfDeepRootsItem::m_DescriptionText
@@ -30976,6 +31016,10 @@ msgid ""
 "{g|Encyclopedia:Combat_Maneuvers}combat maneuvers{/g} as well as a +3 "
 "competence bonus to AC against Huge and bigger enemies."
 msgstr ""
+"이 부적은 착용자의 {g|Encyclopedia:Armor_Class}방어도{/g}에 +5 자연 방어 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자에게 황소 돌진과 짓밟기 "
+"{g|Encyclopedia:Combat_Maneuvers}전법{/g}에 대한 면역과 거대 이상의 적에 대한 AC에 +3 능숙 보너스를 "
+"부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfDeepWaterItem::m_DisplayNameText
@@ -30999,7 +31043,7 @@ msgstr ""
 #. Path = AmuletOfDevourItem::m_DisplayNameText
 msgctxt "b93606f1-53e6-4c58-b7e5-a1c22086e0e8"
 msgid "Amulet of Devouring"
-msgstr ""
+msgstr "포식의 부적"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfDevourItem::m_DescriptionText
@@ -31010,12 +31054,15 @@ msgid ""
 "{g|Encyclopedia:HP}hit points{/g} equal to his "
 "{g|Encyclopedia:Character_Level}character level{/g} for 1 minute."
 msgstr ""
+"이 부적의 착용자가 {g|Encyclopedia:NaturalAttack}자연 공격{/g}으로 적을 처치하면 1분 동안 자신의 "
+"{g|Encyclopedia:Character_Level}캐릭터 레벨{/g} 만큼의 임시 {g|Encyclopedia:HP}생명점{/g}"
+"을 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfEpicSongsItem::m_DisplayNameText
 msgctxt "4764c231-047d-48be-9a9a-77acefd1670f"
 msgid "Amulet of Epic Songs"
-msgstr ""
+msgstr "서사시의 부적"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfEpicSongsItem::m_DescriptionText
@@ -31025,6 +31072,8 @@ msgid ""
 "the Bardic Performance class ability, the amulet grants them 6 additional "
 "{g|Encyclopedia:Combat_Round}rounds{/g} of Bardic Performance per day."
 msgstr ""
+"이것은 자연 방어 +2 부적입니다. 또한 착용자가 바드 공연 클래스 능력을 보유하고 있다면 하루에 6 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}의 추가 바드 공연 사용 횟수를 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfEternalHunter::m_DisplayNameText
@@ -31343,7 +31392,7 @@ msgstr ""
 #. Path = AmuletOfNaturalArmor1::m_DisplayNameText
 msgctxt "e98bb210-78c3-4d58-a719-9d24f940c262"
 msgid "Amulet of Natural Armor +1"
-msgstr "자연 방어의 부적+1"
+msgstr "자연 방어의 부적 +1"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentNeck
 #. Path = AmuletOfNaturalArmor1::m_DescriptionText
@@ -37862,6 +37911,64 @@ msgid ""
 "strength to fight. I, Galfrey, Queen of Mendev, swear this to you. This is "
 "my vow.'\""
 msgstr ""
+"당신이 유물을 건드리자, 환영을 경험하기 시작합니다. 사건들이 당신이 직접 살며 겪은 것처럼 느껴집니다:\n"
+"{br}\"나는 그 분의 제단 앞에 무릎 꿇고 수 천번 청한다. '당신은 어디에 계시나이까? 어떤 거악이 당신을 쳤기에 당신이 침묵하며 "
+"당신께 맹세한 우리들에 등을 돌리시나이까? 여전히 살아계시나이까? 답해주소서, 최후의 아즐란티여, 간청합니다. 답해주소서, 아로덴이시여! "
+"저는 그 어느 때보다 당신이 필요합니다!'\n"
+"내 뺨이 원망으로 물든다. 그는 우리 기도자들에게 답해주지 않는다. 그에게 서원한 우리 팔라딘 모두가 후원자의 부재로 인한 거대한 "
+"상실감을 느낀다. 우리를 감싸던 그의 은총이 희미해지고, 우리는 부모 잃은 아이가 되었다. 그렇다면, 어찌하여 나는 그의 죽음을 비통해 "
+"하지 않으며 다만 거부당한 딸처럼 느끼고 있는가?\n"
+"나는 작은 집의 예배당에 놓인 제단 앞에 무릎 꿇고 기도한다. 누구도 감히 나를 방해하지 않으나, 그들은 내가 깊은 신앙이 아니라 공포로 "
+"기도한다는 것을 모른다. 나는 밖으로 나가는 것이 두렵다. 내가 대면할 준비가 되지 않은 의무가 나를 기다린다. 전쟁이 기다린다.\n"
+"나는 아버지와 달리 실제 전쟁을 경험해보지 않았다. 수십의 전투에서 함께한 그의 갑옷은 그의 이름이 새겨진 석판과 함께 제단 근처에 놓여 "
+"있다. 그의 허리띠에 걸린 황금 버클은 아로덴의 상징이 빛나고 있다. 우리의 잃어버린 신의 유물이 훨씬 더 환하게 빛나던 시절을 "
+"기억한다...\n"
+"모두가 내가 아버지의 갑옷을 입고 내 가문의 진정한 딸로서 전투에 뛰어들기를 기대하고 있다. 나는 내 가족의 명예를 실추시켜서는 안된다. "
+"나는 내 가문의 가훈을 전투 함성 삼아 적들을 쳐야만 하지만... 나는 두렵다. 내가 실패한다면 어쩌지? 내가 머뭇거리거나 공포를 "
+"보인다면? 내가 모두를 실망시키면? 나는 모든 것을 무너뜨린 부끄러운 멍청이가 될 것이다! 아로덴, 당신의 은총이 어찌나 그리운지...\n"
+"내 뒤에서 발걸음이 울린다. 누가 감히 내 사적인 시간을 방해하는가? 어째서 지금, 내 비참하고 위태로운 심장이 금방이라도 무너질 수 "
+"있는 순간에 말인가? 전사 하나가 내 뒤에 선다. 나이들지도, 어리지도 않고 단순한 흉갑을 입은 평범한 기사. 그녀는 내 눈을 불경함도 "
+"아첨의 기색도 없이 그저 올곧게 바라본다.\n"
+"'너는 네 아버지의 자랑이 되리라.'\n"
+"처음에 나는 내가 잘못 들었다고 생각한다. 전사의 말은 내가 입 밖으로 내지 않은 내 생각들의 답변으로 들린다. 어찌나 이상한 일인지! "
+"어쩌면...\n"
+"'너는 흔들리지 않으리라. 나는 네가 굳건히 서 있는 것을 보았다. 그러니 두려움을 내려놓거라.'\n"
+"대체 그녀는 누구지? 어떻게 내 가슴 속 걱정들을 읽어낸 걸까? 무엄하게도 내 허락도 받지 않고! 나는 분노로 질책하리라 준비했으나, "
+"단어는 말이 되지 못한다. 오직 안타까운 불평만이 간신히 입술 밖으로 빠져나온다. '아로덴께서 우리를 떠났거늘...'\n"
+"멍청한 것! 겁먹은 쥐처럼 웅얼대다니! 너는 참으로 부끄럽구나! 넌 필히... 전사가 내 앞에서 한 쪽 무릎을 꿇어 눈 높이를 맞춘다.\n"
+"'그래, 그는 우리를 떠났지. 그렇다고 하여 우리가 혼자 된 것은 아니니. 내가 이 전투에서 너를 도울 것이다. 어떤 고난이 닥치더라도, "
+"하늘에 짙은 어둠이 드리우더라도, 내 상처에서 하염없이 피가 흐른다 해도, 내가 너와 함께 하리라. 우리는 우리가 사랑하는 이들을 위해, "
+"우리의 친구들을 위해, 자유로이 살고 자유로이 죽을 권리를 위해 싸우리라. 우리는 우리가 할 수 있는 모든 것을 할 것이며, 그 때에 "
+"우리는 불가능을 이룰 것이다. 그리고 우리의 팔이 더 이상 칼을 들지 못할 때, 우리의 몸이 아직 싸우는 이들을 위한 방패가 되리니. "
+"나, 아이오메데, 아로덴의 계승자가 너에게 맹세하였으니, 이것이 내 언약이 되리라.'\n"
+"그녀의 손이 내 아버지의 갑옷에 얹히고, 빛을 뿜어낸다. 빛이 갑옷을 감싸더니 흡수되어 나를 감싼다. 내 눈에 눈물이 차오른다. 나는 "
+"내가 다시금 행복감으로 울 수 있을 것이라 생각하지 못했다. 내 눈을 닦아 내었을 때, 나는 다시 혼자가 되었음을 알아차린다. 내 "
+"아버지의 군용 허리띠에 걸린 황금 버클은 다시금 태양처럼 빛난다. 그에 새겨진 장식이 달라졌다. 이제 상징은 빛을 발하는 기사의 검이 "
+"되었다.\n"
+"저 문장은 지금 이 순간부터 영원히 내 상징이 될 것이다.\n"
+"{br}우리가 정녕 승리할 것인가? 물론이다! 우리, 멘데브의 기사들은 장엄하고 눈부시게 빛나는 대형을 짜 저주받은 적의 요새로 행군할 "
+"것이다. 이즈의 도시여, 너는 오늘 쓰러지리라! 데몬 무리와 그들의 하수인들은 우리에게서 두려움에 달아나고, 나는 한 때 내 아버지가 "
+"착용했던 투구의 가리개를 내려 쓴 뒤 미소짓는다. 나는 당신을 실망시키지 않았습니다! 우리 중 누구도 그러지 않았지요.\n"
+"그늘진 여성의 형상이 우리에게 다가온다. 그녀의 망토가 얼굴을 가리고 있지만, 우리 모두는 그녀가 누구인지 안다. 인류의 배신자! 그녀의 "
+"손이 춤추며 주문을 짜내고 우리는 방패를 들어 치명적인 일격에 대비한다. 하지만 우린 아직 준비되지 않았다.\n"
+"거대한 투명 대낫이 우리의 전열을 휩쓸기 시작한다. 낫들은 먼지를 일으키며 살갗과 강철을 쉽게 갈라내어, 더 이상 존재하지 않는 우리의 "
+"공세를 중지시킨다. 단 한 순간만에, 배신자는 우리의 부대를 파괴했고, 그리고 나는 ... 내 앞에서 먼지가 소용돌이 치는 것을 보았고, "
+"그 순간 엄청난 힘이 나를 낙마시킨다.\n"
+"어둠이 나를 감싼다. 이게 죽음인가? 아니다, 나는 누군가의 손길을 느낀다. 누군가 나를 도와 일으키며 내 찌그러진 투구를 벗긴다. 내가 "
+"어떻게 살아있는 거지? 나는 눈을 내려 내 흉갑에 난 끔찍한 흠집을 살핀다. 아이오메데의 상징이 새겨진 황금 버클은 부서졌지만, 그 "
+"대가로 저주받을 마녀의 치명적인 공격을 막아냈다.\n"
+"나는 공포로 주위를 둘러본다 — 더 이상 군대가 남아있지 않다. 우리의 전열은 무너졌고, 우리의 병사들은 모든 용기를 잃어버렸다. "
+"어디에서나 비명이 울려 퍼지고 있지만, 더 많은 입술들이 다물린 채 침묵한다. 배신자는 우리를 끝장내려 하지 않고 다만 지켜만 본다. "
+"나는 그녀의 얼굴을 볼 수 없었으나, 지루함과 무관심 외에 무엇도 남아있지 않았다고 확신한다.\n"
+"도주하는 부사관의 어깨를 붙잡고, 그의 얼굴에 소리친다. '군대를 규합하라! 아직 싸울 수 있는 자들을 전방에 세워 다른 이들을 "
+"엄호하라! 우리는 부상자들을 이송할 때 까지 후퇴하지 않는다!'\n"
+"그의 눈이 광기와 날 것의 공포로 얼룩져 있다. 그는 거부의 말을 간신히 내뱉는다. '전쟁에 졌습니다... 우리는... 망했습니다... "
+"도망쳐야...' 나는 그를 굳세게 붙잡은 채 그의 눈을 바라본다. 그는 겁에 질렸다... 나는 그를 이해한다.\n"
+"'굳건히 버티게, 전사여. 전투에는 졌으나, 우리의 전쟁은 이제 시작되었으니. 어떤 고난이 닥치더라도, 하늘에 짙은 어둠이 드리우더라도, "
+"내 상처에서 하염없이 피가 흐른다 해도, 내가 너와 함께 하겠다. 우리는 우리가 사랑하는 이들을 위해, 우리의 친구들을 위해, 자유로이 "
+"살고 자유로이 죽을 권리를 위해 싸울 것이다. 우리는 우리가 할 수 있는 모든 것을 할 것이며, 그 때에 우리는 불가능을 이루리니. "
+"그리고 우리의 팔이 더 이상 칼을 들지 못할 때, 우리의 몸이 아직 싸우는 이들을 위한 방패가 되리니. 나, 갈프리, 멘데브의 여왕이 "
+"네게 맹세하였으니, 이것이 내 언약이 되리라.'"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = BaneAnimalQuiverItem::m_DisplayNameText
@@ -42469,9 +42576,9 @@ msgid ""
 "Prone"
 msgstr ""
 "이 팔찌의 착용자가 {g|Encyclopedia:Critical}치명타{/g}를 확정하면, 적은 "
-"{g|Encyclopedia:Saving_Throw}인내 내성 굴림/g}을 ({g|Encyclopedia:DC}DC{/g} 29) 시도해 "
-"실패하면 다음 목록에서 무작위 상태 이상을 얻고 목록 내 다른 상태에 2 {g|Encyclopedia:Combat_Round}라운드{/g}"
-" 동안 면역됩니다.\n"
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 ({g|Encyclopedia:DC}DC{/g} 29) "
+"시도해 실패하면 다음 목록에서 무작위 상태 이상을 얻고 목록 내 다른 상태에 2 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 면역됩니다.\n"
 "상태 목록:\n"
 "실명\n"
 "탈진\n"
@@ -44045,7 +44152,7 @@ msgstr ""
 #. Path = SpellbreakerShieldItem::m_DisplayNameText
 msgctxt "bf78fc97-ff5b-42fe-8bd8-f9cec4bee772"
 msgid "Spellbreaker"
-msgstr ""
+msgstr "주문파괴자"
 
 #. Type = Kingmaker.Blueprints.Items.Shields.BlueprintItemShield
 #. Path = SpellbreakerShieldItem::m_DescriptionText
