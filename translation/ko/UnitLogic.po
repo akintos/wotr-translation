@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-10-09 14:10+0000\n"
-"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
+"PO-Revision-Date: 2022-10-10 15:11+0000\n"
+"Last-Translator: Bumsoo <jake0208@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -2561,7 +2561,7 @@ msgstr ""
 "한 단계 크게 변경해서 {g|Encyclopedia:Strength}힘{/g}에 +8 크기 "
 "{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Constitution}건강{/g}에 +4 크기 "
 "보너스를 부여합니다.(결론적으로 HD 당 2 추가 {g|Encyclopedia:HP}생명점{/g}을 부여합니다.) "
-"{g|Encyclopedia:Dexterity}민첩{/g에 -2 크기 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"{g|Encyclopedia:Dexterity}민첩{/g}에 -2 크기 {g|Encyclopedia:Penalty}페널티{/g}를 "
 "받습니다. 대상 크리처의 기존 자연 방어 보너스가 2 증가합니다.\n"
 "크기 변경은 또한 AC, 명중 굴림 및 기본 피해의 수정치에 영향을 줍니다. 충돌 크기와 "
 "{g|Encyclopedia:Reach}사거리{/g}는 크기에 맞게 적절하게 변경되지만 {g|Encyclopedia:Speed}속도{/g}"
@@ -3828,7 +3828,7 @@ msgid ""
 msgstr ""
 "이 {g|Encyclopedia:Spell}주문{/g}을 시전하면 늑대의 형상 및 신체적 특징을 취합니다. 더 강인해지고, 귀거 "
 "길어지며, 털과 송곳니가 자랍니다.\n"
-"{g|Encyclopedia:Strength}힘{/g과 {g|Encyclopedia:Dexterity}민첩{/g}에 +4 의 "
+"{g|Encyclopedia:Strength}힘{/g}과 {g|Encyclopedia:Dexterity}민첩{/g}에 +4 의 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 받으며, 넘어뜨리기 {g|Encyclopedia:Attack}공격{/g}에 "
 "보너스가 +2 증가하고 {g|Encyclopedia:Swift_Action}신속 행동{/g}으로 넘어뜨리기 "
 "{g|Encyclopedia:Combat_Maneuvers}전법{/g}을 수행할 수 있습니다. 이 넘어뜨리기 공격은 "
@@ -7968,8 +7968,8 @@ msgstr ""
 "번개는 주문 사거리 내의 지점에 수직으로 떨어집니다. 사거리는 번개를 떨어뜨릴 때 시전자의 위치를 기준으로 계산합니다. 낙뢰의 경로나 "
 "지정 범위 내의 모든 크리처에 영향을 미칩니다. 번개를 즉시 내려칠 필요는 없습니다. 주문 시전을 포함한 다른 "
 "{g|Encyclopedia:CA_Types}행동{/g}을 먼저 할 수도 있습니다. 첫 라운드 이후 매 라운드 마다 주문에 "
-"{g|Encyclopedia:Concentration}집중{/g}하여 일반 {g|Encyclopedia:Standard_Actions}"
-"일반 행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때 마다, 주문의 지속시간이 1 분 씩 줄어듭니다."
+"{g|Encyclopedia:Concentration}집중{/g}하여 {g|Encyclopedia:Standard_Actions}일반 "
+"행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때 마다, 주문의 지속시간이 1 분 씩 줄어듭니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CallLightningAbility::m_DisplayName
@@ -8027,8 +8027,8 @@ msgstr ""
 "번개는 주문 사거리 내의 지점에 수직으로 떨어집니다. 사거리는 번개를 떨어뜨릴 때 시전자의 위치를 기준으로 계산합니다. 낙뢰의 경로나 "
 "지정 범위 내의 모든 크리처에 영향을 미칩니다. 번개를 즉시 내려칠 필요는 없습니다. 주문 시전을 포함한 다른 "
 "{g|Encyclopedia:CA_Types}행동{/g}을 먼저 할 수도 있습니다. 첫 라운드 이후 매 라운드 마다 주문에 "
-"{g|Encyclopedia:Concentration}집중{/g}하여 일반 {g|Encyclopedia:Standard_Actions}"
-"일반 행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때 마다, 주문의 지속 시간이 1 분씩 줄어듭니다."
+"{g|Encyclopedia:Concentration}집중{/g}하여 {g|Encyclopedia:Standard_Actions}일반 "
+"행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때 마다, 주문의 지속 시간이 1 분씩 줄어듭니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CallLightningStormAbility::m_DisplayName
@@ -28880,7 +28880,7 @@ msgstr ""
 #. Path = ScintillatingPattern::m_DisplayName
 msgctxt "a87fca85-ab76-40b0-a06f-ec8daee21943"
 msgid "Scintillating Pattern"
-msgstr ""
+msgstr "폭발적인 색채"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ScintillatingPattern::m_Description
@@ -28903,6 +28903,17 @@ msgid ""
 "13 or more: Confused for 1d4 rounds.\n"
 "Sightless creatures are not affected by scintillating pattern."
 msgstr ""
+"반짝이는 색조의 변화무쌍한 무늬가 대기 중에서 너울거리며 내부의 크리처에게 영향을 줍니다. 이 "
+"{g|Encyclopedia:Spell}주문{/g}에 영향 받는 크리처들의 HD 총합은 시전자의 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}과 (최대 20) 같습니다. HD가 더 적은 경우, 동일한 HD를 "
+"지닌 크리처들은 주문의 시작점에 가까운 경우 먼저 영향을 받습니다. 크리처에게 영향을 주기에 불충분한 HD는 버려집니다. 이 주문은 개별 "
+"크리처의 HD에 따라 다른 효과를 부여합니다.\n"
+"6 이하: {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"{g|Encyclopedia:Injury_Death}의식불명{/g}, 이후 동일한 라운드 만큼 기절, 이후 동일한 라운드 만큼 혼란. ("
+"살아있지 않은 크리처의 경우 의식불명 대신 기절합니다.)\n"
+"7 ~ 12: 1d4 라운드 동안 기절, 이후 동일한 라운드 만큼 혼란.\n"
+"13 이상: 1d4 라운드 동안 혼란.\n"
+"시각이 없는 크리처는 폭발적인 색채의 영향을 받지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = ScorchingRay::m_DisplayName
@@ -34880,13 +34891,13 @@ msgstr ""
 #. Path = WanderingMythicTrickAbility1::m_DisplayName
 msgctxt "a5aa3197-1c65-40e5-aa10-aa74ebb94a4f"
 msgid "First Wandering Mythic Trick"
-msgstr ""
+msgstr "첫 번째 떠돌이 신화적 수법"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WanderingMythicTrickAbility2::m_DisplayName
 msgctxt "c6b62a00-f6ea-4e15-a11f-76833112565d"
 msgid "Second Wandering Mythic Trick"
-msgstr ""
+msgstr "두 번째 떠돌이 신화적 수법"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarDomainBaseAbility::m_DisplayName
@@ -35354,7 +35365,7 @@ msgstr ""
 #. Path = WeatherBlessingMinorAbility::m_DisplayName
 msgctxt "0fb75294-e51f-4d52-8f4e-c40f0018515f"
 msgid "Storm Strike"
-msgstr ""
+msgstr "폭풍 타격"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WeatherBlessingMinorAbility::m_Description
@@ -39224,19 +39235,19 @@ msgstr "성스러운 갑옷 — 화염 저항 30"
 #. Path = SacredArmorEnchantFortification25Choice::m_DisplayName
 msgctxt "8602eeec-e3e1-439d-bef5-1d827cea0ed0"
 msgid "Sacred Armor — Fortification 25"
-msgstr "성스러운 갑옷 — 인내 25"
+msgstr "성스러운 갑옷 — 요새화 25"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = SacredArmorEnchantFortification50Choice::m_DisplayName
 msgctxt "56d97fa8-b816-4bb6-803c-615daaf4f8f7"
 msgid "Sacred Armor — Fortification 50"
-msgstr "성스러운 갑옷 — 인내 50"
+msgstr "성스러운 갑옷 — 요새화 50"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = SacredArmorEnchantFortification75Choice::m_DisplayName
 msgctxt "a1958e8a-8cb8-4932-9d8c-611187345066"
 msgid "Sacred Armor — Fortification 75"
-msgstr "성스러운 갑옷 — 인내 75"
+msgstr "성스러운 갑옷 — 요새화 75"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = SacredArmorEnchantSpellResistance13Choice::m_DisplayName
@@ -39272,7 +39283,7 @@ msgstr "성스러운 갑옷 — 주문 저항 19"
 #. Path = SacredArmorShieldEnchantArrowDeflectionBuff::m_DisplayName
 msgctxt "6aec8374-5e3c-42a8-a80b-3ca89e78668c"
 msgid "Arrow Deflection"
-msgstr ""
+msgstr "화살 굴절"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = SacredWeaponEnchantAnarchicChoice::m_DisplayName

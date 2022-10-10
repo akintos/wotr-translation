@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-10-09 14:10+0000\n"
+"PO-Revision-Date: 2022-10-10 15:12+0000\n"
 "Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -5506,7 +5506,7 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
 "이 +1 누비갑옷의 착용자가 적의 {g|Encyclopedia:Critical}치명타{/g}에 적중당할 경우, 해당 적은 "
-"g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} 16)을 "
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} 16)을 "
 "시행하여 실패할 경우 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 무기를 사용하는 "
 "{g|Encyclopedia:Attack}공격{/g}을 할 수 없게 됩니다."
 
@@ -19309,7 +19309,7 @@ msgstr ""
 #. Path = ArrowDeflectionEnchantment::m_EnchantName
 msgctxt "3e2c44e2-d4bd-4d95-810b-3defa0c8010a"
 msgid "Arrow Deflection"
-msgstr ""
+msgstr "화살 굴절"
 
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintArmorEnchantment
 #. Path = ArrowDeflectionEnchantment::m_Description
@@ -29675,7 +29675,7 @@ msgstr ""
 #. Path = HelmOfDevotionItem::m_DisplayNameText
 msgctxt "ebf1b68e-bfae-47e7-adb0-1fcf8cf59250"
 msgid "Helm of Devotion"
-msgstr ""
+msgstr "헌신의 투구"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = HelmOfDevotionItem::m_DescriptionText
@@ -29689,6 +29689,11 @@ msgid ""
 "{g|Encyclopedia:Alignment}good-aligned{/g} for the purpose of overcoming "
 "{g|Encyclopedia:Damage_Reduction}DR{/g}."
 msgstr ""
+"이 투구의 착용자가 음에너지나 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 입으면 다음 3 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자는 {g|Encyclopedia:Attack}명중{/g} 및 "
+"{g|Encyclopedia:Damage}피해 굴림{/g}에 +2 사기 {g|Encyclopedia:Bonus}보너스{/g}를 받고, "
+"공격이 {g|Encyclopedia:Damage_Reduction}DR{/g}을 관통할 때 {g|Encyclopedia:Alignment}"
+"선 성향{/g}으로 취급됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = HelmOfFearlessVanguardItem::m_DisplayNameText
@@ -36406,7 +36411,7 @@ msgid ""
 "throws{/g} against it are increased by 2."
 msgstr ""
 "이 망토의 착용자가 {g|Encyclopedia:AbilityDamage}능력치 피해{/g}를 입으면, 착용자가 시전하는 다음 "
-"{g|Encyclopedia:Spell}spell{/g}의 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}과 "
+"{g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}과 "
 "{g|Encyclopedia:Saving_Throw}내성 굴림{/g} {g|Encyclopedia:DC}난이도{/g}가 2 증가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
@@ -45021,7 +45026,7 @@ msgstr ""
 #. Path = AttritionDaggerItem::m_DisplayNameText
 msgctxt "bd22d8c0-8452-47c0-8e78-339f0d0d2134"
 msgid "Attrition Dagger"
-msgstr ""
+msgstr "소모전의 단검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = AttritionDaggerItem::m_DescriptionText
@@ -48428,8 +48433,8 @@ msgid ""
 msgstr ""
 "이 +5 단검의 착용자가 얕은 베기 단검이 명중한 대상을 뒤따라 명중시킬 때마다, 그 적은 추가로 "
 "{g|Encyclopedia:Dice}2d6{/g} + 힘 수정치 만큼의{g|Encyclopedia:Damage_Type}베기 피해{/g}"
-"를 받습니다. 각 라운드마다 이 무기로 넘어지거나 마비된 크리처에게 처음으로 {g|Encyclopedia:Damage}피해{/g}를 입힐 "
-"때마다, 무기 피해를 두 배로 가합니다."
+"를 받습니다. 각 라운드마다, 이 무기로 넘어지거나 마비된 크리처에게 처음으로 {g|Encyclopedia:Damage}피해{/g}를 "
+"입힐 때 무기 피해를 두 배로 가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DeepShadowDemonBite::m_DisplayNameText
@@ -48447,7 +48452,7 @@ msgstr ""
 #. Path = ClawDevilType::m_TypeNameText
 msgctxt "f13318d2-f726-4c6a-89cc-68befbbce12e"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DefendersNemesisItem::m_DisplayNameText
@@ -62713,43 +62718,43 @@ msgstr "펄션"
 #. Path = ClawTypeTwoHanded::m_DefaultNameText
 msgctxt "5bad1cca-f814-4c62-85be-5ce7ec5d17d0"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ClawType1d8::m_TypeNameText
 msgctxt "8bb4e76d-389b-417b-8aba-591e3c810a7a"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ClawType1d8::m_DefaultNameText
 msgctxt "297ba45a-2e80-4015-b49a-ac4d26cd6a09"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ClawType2d4::m_TypeNameText
 msgctxt "261a54f0-7012-456c-a20d-a8838ab5f392"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ClawType2d4::m_DefaultNameText
 msgctxt "5f1e67d9-4b49-4e06-9aaf-714cf7540760"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ClawTypeCritX3::m_TypeNameText
 msgctxt "98699224-2e06-492a-b28f-b5526c8f57bd"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = ClawTypeCritX3::m_DefaultNameText
 msgctxt "35956234-0966-4c21-89b0-4b6d37eaae48"
 msgid "Claw"
-msgstr "할퀴기"
+msgstr "발톱"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintWeaponType
 #. Path = Club::m_TypeNameText
