@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-10-13 14:29+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-10-30 17:44+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -2135,7 +2135,7 @@ msgstr "새로운 요리법"
 #. Path = ContextTutor_NewRecipe::m_TriggerText
 msgctxt "6132a6e4-820b-4cfc-91bd-097559b5d2ad"
 msgid "You have found a new recipe — {t|SourceItem}."
-msgstr "새로운 요리법을 발견했습니다 : {t|SourceItem}"
+msgstr "새로운 요리법을 발견했습니다 : {t|SourceItem}."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_NewRecipe::m_DescriptionText
@@ -2181,8 +2181,8 @@ msgid ""
 "different spellcasters."
 msgstr ""
 "다른 원천에서 얻은 {g|Encyclopedia:Bonus}보너스{/g}들은 주사위 {g|Encyclopedia:Dice}굴림{/g} "
-"결과에 더해집니다. 거의 모든 보너스는 하나의 유형만을 가집니다.\n"
-"대부분의 경우, 동일한 유형의 두 개 이상의 보너스는 합산되지 않으며, 가장 큰 보너스만이 적용됩니다.\n"
+"결과에 더해집니다. 거의 모든 보너스는 하나의 유형만을 가집니다. 대부분의 경우, 동일한 유형의 두 개 이상의 보너스는 합산되지 않으며, "
+"가장 큰 보너스만이 적용됩니다.\n"
 "이 규칙의 예외로는 피하기 보너스, 종족 보너스, 상황 보너스, 유형이 없는 보너스가 있습니다.\n"
 "보너스는 또한 동일한 원천에서 비롯된 경우 합산되지 않습니다. 예를 들어 두 명 이상의 주문시전자에게서 동일한 "
 "{g|Encyclopedia:Spell}주문{/g}을 시전 받은 경우가 있습니다."
@@ -2650,8 +2650,8 @@ msgstr ""
 "두루마리는 {g|Encyclopedia:Spell}주문{/g}을 지닌 소모성 물품입니다. 두루마리를 읽기 위해 캐릭터는 두루마리에 적힌 "
 "주문을 시전할 수 있는 클래스와 충분히 높은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}을 지녀야 합니다. "
 "적절한 클래스 레벨 없이 {g|Encyclopedia:Use_Magic_Device}마법 도구 사용{/g} "
-"{g|Encyclopedia:Skills}기술 판정{/g}을 통해 두루마리 해석을 시도할 수 있습니다. 두루마리는 캐릭터의 주문 슬롯을 "
-"낭비하지 않고 상황에 맞는 주문을 시전하는 좋은 방법입니다."
+"{g|Encyclopedia:Skills}기술 판정{/g}을 통해 두루마리 해석을 시도할 수 있습니다. \n"
+"두루마리는 캐릭터의 주문 슬롯을 낭비하지 않고 상황에 맞는 주문을 시전하는 좋은 방법입니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = ContextTutor_Scrolls::m_SolutionNotFoundText
@@ -3530,6 +3530,16 @@ msgid ""
 "Drezen adds 10 days to the time the Banner of the March on Drezen stays "
 "green."
 msgstr ""
+"사기 수치는 성전군의 일반적인 분위기를 나타냅니다. 긍정적인 사기는 자원 수입과 고용가능한 병사의 수를 늘리지만, 부정적인 사기는 이들을 "
+"감소시킵니다.\n"
+"{br}사기는 사기 깃발에 따라 변화합니다. 특정 조건이 만족되면, 깃발은 초록색으로 유지되고 사기는 매일 1씩 증가합니다. 만일 특정 "
+"조건이 충족되지 않으면, 깃발은 3일 동안 노란색으로 변하지만, 여전히 사기가 매일 1씩 증가합니다. 이후 깃발은 붉은 색으로 변하며 "
+"사기가 하루에 3씩 감소합니다.\n"
+"{br}당신의 부대는 현재 깃발 두 개를 지고 있습니다:\n"
+"{br}- 승리의 깃발은 데몬 군대를 쓰러뜨리는 동안 초록색으로 유지됩니다. 각각의 승리는 승리의 깃발을 4일 더 초록색으로 유지시킵니다."
+"\n"
+"{br}- 드레젠 진군의 깃발은 드레젠으로 향한 길 위에서 데몬 군대를 쓰러뜨리는 동안 초록색으로 유지됩니다. 드레젠으로 향한 길 위에서 "
+"데몬 군대를 쓰러뜨릴 때마다 드레젠 진군의 깃발이 10일 더 초록색으로 유지됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = CrusadeTutorial_07_Morale::Components/1/m_TitleText
@@ -3743,7 +3753,7 @@ msgstr ""
 #. Path = CrusadeTutorial_12_Chapter3Morale::m_TitleText
 msgctxt "04f5d049-f827-4dfb-88d9-3af4e9d94932"
 msgid "New Morale Banners"
-msgstr ""
+msgstr "새 사기 깃발"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = CrusadeTutorial_12_Chapter3Morale::m_DescriptionText
@@ -3768,6 +3778,17 @@ msgid ""
 "decreases morale by 3 per day, a yellow or green Banner increases it by 1 "
 "per day."
 msgstr ""
+"드레젠을 탈환한 뒤 성전군은 도시 장벽에 세 종류의 사기 깃발을 꽂았습니다.\n"
+"{br}- 승리의 깃발은 당신이 데몬 부대를 쓰러뜨리는 동안 녹색으로 유지됩니다. 야스의 대지, 회색 길, 태양을 잃은 호수 및 윈터선 "
+"대지 지역에 위치한 데몬 부대에 대한 승리는 각각 승리의 깃발을 6일 더 녹색으로 유지합니다.\n"
+"{br}- 정복의 깃발은 당신이 데몬 요새를 함락하는 동안 녹색으로 유지됩니다. 야스의 대지, 회색 길, 태양을 잃은 호수 및 윈터선 "
+"대지 지역에 위치한 데몬 요새를 함락할 때마다 정복의 깃발은 30일 더 녹색으로 유지됩니다. 상실한 요새를 탈환하는 것은 정복의 깃발에 "
+"영향을 주지 않습니다.\n"
+"{br}- 방어의 깃발은 당신의 요새들 중 공성당하고 있는 요새가 없는 한 녹색으로 유지됩니다. 만일 요새 중 하나라도 공성당하고 있다면 "
+"방어의 깃발은 3일 간 황색으로 변한 뒤 적색으로 바뀝니다. 만일 아무 요새라도 데몬에게 함락된 상태라면 이 깃발은 붉은 색으로 "
+"유지됩니다.\n"
+"{br}깃발들은 여전히 성전 사기의 일일 변화에 영향을 줍니다. 적색 깃발은 사기를 매일 3 감소시키지만, 녹색과 황색 깃발은 매일 "
+"사기를 1 증가시킵니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = CrusadeTutorial_13_Regions::m_TitleText
@@ -3837,15 +3858,14 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_0_BugReport::Components/0/m_DescriptionText
-#, fuzzy
 msgctxt "fc25a783-9df1-4c21-8c53-fe8ee17acf51"
 msgid ""
 "Please, assign an \"aspect\" to the bug you'd like to report. For example, "
 "if a creature has an issue with its visuals, hover the cursor over it, press "
 "Alt + b and select the Visual aspect from the menu."
 msgstr ""
-"부디 보고하려는 버그의 \"aspect\"를 남겨주세요. 예를 들어 특정 크리처가 visual에 문제가 있다면 커서를 올리고 Alt + "
-"b 를 누른 뒤 메뉴에서 Visual  aspect를 고르세요."
+"부디 보고하려는 버그의 \"aspect\"를 남겨주세요. 예를 들어 특정 크리처의 외견(Visual)에 문제가 있다면 커서를 올리고 "
+"Alt + b 를 누른 뒤 메뉴에서 Visual aspect를 고르세요."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_0_BugReport::Components/1/m_DescriptionText
@@ -3973,7 +3993,7 @@ msgstr ""
 "{g|Encyclopedia:Mobility}기동성{/g} 기술 {g|Encyclopedia:Bonus}보너스{/g} 따위를 더한 "
 "것입니다.\n"
 "{g|Encyclopedia:Check}판정{/g}의 {g|Encyclopedia:DC}난이도{/g}는 12 였습니다. 판정 "
-"결과({t|SourceRollPlusBonus})가  12 이상이므로, 시도는 성공했습니다."
+"결과({t|SourceRollPlusBonus})가 12 이상이므로, 시도는 성공했습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_16_ArmorClass::m_TitleText
@@ -4094,15 +4114,14 @@ msgid ""
 "points reach this number, the character dies."
 msgstr ""
 "{g|Encyclopedia:Attack}공격{/g}을 시도하려면 무기를 장비해야 합니다. 검을 휘두르거나, 아가리로 깨물거나, 마법의 "
-"힘으로 적을 불태울 수 있습니다.\n"
-"성공적인 공격의 {g|Encyclopedia:Damage}피해{/g}는 무기와 주사위 {g|Encyclopedia:Dice}굴림{/g} "
-"결과, 그리고 대상이 지닌 특정 유형의 피해에 대한 저항력이나 취약성 같은 다양한 요인에 의해 결정됩니다.\n"
+"힘으로 적을 불태울 수 있습니다. 성공적인 공격의 {g|Encyclopedia:Damage}피해{/g}는 무기와 주사위 "
+"{g|Encyclopedia:Dice}굴림{/g} 결과, 그리고 대상이 지닌 특정 유형의 피해에 대한 저항력이나 취약성 같은 다양한 "
+"요인에 의해 결정됩니다.\n"
 "{br}예를 들어 {t|SourceUnit} 당신의 캐릭터는 {t|TargetUnit} 적을 공격해 {t|Damage} 피해를 "
 "입혔습니다. 이 결과를 분석해봅시다:\n"
 "{t|DamageDetails}.\n"
 "{br}전투 피해는 대상의 {g|Encyclopedia:HP}생명점{/g}을 감소시킵니다. 생명점이 0에 도달하면 플레이어의 캐릭터는 "
-"혼수상태에 빠지며, 적은 사망합니다.\n"
-"캐릭터의 생명점은 0 미만으로 내려갈 수 있습니다. 캐릭터는 음수 생명점의 절댓값이 "
+"혼수상태에 빠지며, 적은 사망합니다. 캐릭터의 생명점은 0 미만으로 내려갈 수 있습니다. 캐릭터는 음수 생명점의 절댓값이 "
 "{g|Encyclopedia:Constitution}건강{/g} {g|Encyclopedia:Ability_Scores}능력치{/g}보다 "
 "낮은 한 생존합니다. 음수 생명점이 해당 값에 도달하면 캐릭터는 사망합니다."
 
@@ -4342,7 +4361,7 @@ msgstr ""
 #. Path = NewTutorial_CampMove::m_TitleText
 msgctxt "7dc72eeb-7da4-48a7-86f3-a862e1d0ceab"
 msgid "Camp Relocation"
-msgstr ""
+msgstr "야영지 재배치"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_CampMove::m_DescriptionText
@@ -4433,7 +4452,7 @@ msgstr ""
 #. Path = NewTutorial_OptimalFormation::m_SolutionNotFoundText
 msgctxt "ed185c48-1808-4692-8e7c-e59f490d4951"
 msgid "Optimal Formation"
-msgstr ""
+msgstr "최적 진형"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = NewTutorial_ReminderTBM::m_TitleText
@@ -4755,10 +4774,9 @@ msgstr ""
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = RestTutorial_CookingPotions::m_TitleText
-#, fuzzy
 msgctxt "eb162e28-ea1e-4306-8613-a02b02f1bb37"
 msgid "Potion Brewing"
-msgstr "포션 제조"
+msgstr "물약 제조"
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = RestTutorial_CookingPotions::m_DescriptionText
@@ -4774,6 +4792,11 @@ msgid ""
 "progress of brewing the potion advances by one stage, while a failed check "
 "does not advance their brewing progress towards its completion."
 msgstr ""
+"한 캐릭터가 물약을 제조하기 위해 이 작업에 배정되었습니다. 물약을 제조하려면 필요한 주문을 알아야 하고, 물약 제조 기술을 배워야 "
+"하며, 모든 재료를 가진 채 지식 (세계) 판정을 시도해야 합니다. 주문 레벨과 선택된 시전자 레벨이 높을 수록 물약을 제조하는 데 더 "
+"많은 시간이 걸립니다.\n"
+"{br}물약 제조는 선택한 주문에 따라 1~5단계를 거칩니다. 만일 캐릭터가 판정을 통과하면, 물약 제조가 다음 단계로 나아가지만 판정에 "
+"실패하면 완료 단계로 나아가지 않습니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = RestTutorial_CookingSoups::m_TitleText
@@ -4790,6 +4813,9 @@ msgid ""
 "recipe. Also, each character can cook a hearty meal, which doesn't require "
 "any recipes or ingredients. The effects of meals last 24 hours."
 msgstr ""
+"이 임무에 배정된 캐릭터는 물약 제조와 음식 조리를 동시에 수행할 수 있습니다. 식사를 준비하려면 적절한 식재료를 갖추고 요리법을 알고 "
+"있어야 합니다. 또한 각 캐릭터는 조리법이나 재료를 요구하지 않는 푸짐한 식사를 조리할 수도 있습니다. 식사의 효과는 24시간 동안 "
+"지속됩니다."
 
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = RestTutorial_Corruption::m_TitleText

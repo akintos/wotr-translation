@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-10-21 10:32+0000\n"
-"Last-Translator: 게으름 <qjsdurgkffo@gmail.com>\n"
+"PO-Revision-Date: 2022-10-30 17:45+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -885,7 +885,7 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} and a +"
 "3 bonus to {g|Encyclopedia:CMB}CMB{/g} against large and bigger enemies."
 msgstr ""
-"이 +3 풀 마갑은 착용자에게 +4 자연 갑옷 강화 {g|Encyclopedia:Armor_Class}AC{/g} "
+"이 +3 전신 마갑은 착용자에게 +4 자연 갑옷 강화 {g|Encyclopedia:Armor_Class}AC{/g} "
 "{g|Encyclopedia:Bonus}보너스{/g}와 대형 크기 이상의 적에 대한 +3 {g|Encyclopedia:CMB}CMB(전법 "
 "보너스){/g}를 제공합니다."
 
@@ -1536,9 +1536,9 @@ msgstr ""
 "이 +5 사슬 갑옷은 착용자에게 협박에 대한 {g|Encyclopedia:Persuasion}설득{/g} "
 "{g|Encyclopedia:Skills}스킬 판정{/g}에 +5 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 "
 "부여합니다. 착용자는 단일 {g|Encyclopedia:RangedAttack}원거리 공격{/g}에 10 이상의 "
-"{g|Encyclopedia:HP}HP{/g} {g|Encyclopedia:Damage}피해{/g}를 입을 때마다 "
-"{g|Encyclopedia:Armor_Class}AC{/g}에 +1 사기 보너스 1 {g|Encyclopedia:Combat_Round}"
-"간 얻게되며, 다음 {g|Encyclopedia:MeleeAttack}근접 공격{/g}이 명중시 추가적인 "
+"{g|Encyclopedia:HP}HP{/g} {g|Encyclopedia:Damage}피해{/g}를 입을 때마다 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}간 {g|Encyclopedia:Armor_Class}AC{/g}에 +1 "
+"사기 보너스를 받으며, 다음 {g|Encyclopedia:MeleeAttack}근접 공격{/g}이 명중시 추가로 "
 "{g|Encyclopedia:Dice}2d6{/g}의 {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 부여합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -1650,9 +1650,8 @@ msgid ""
 "until the end of combat."
 msgstr ""
 "이 +4 미스랄 사슬 조끼는 바드의 공연과 스칼드의 분노의 노래 클래스 능력이 착용자의 기절이나 쓰러짐으로 인해 중단되지 않도록 "
-"막습니다. 또한, 스칼드의 Song of the Fallen 으로 인해 부활한 아군들에게 "
-"{g|Encyclopedia:Attack}공격{/g}과 {g|Encyclopedia:Damage}피해{/g}에 +2 사기 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 전투 종료시까지 부여합니다."
+"막습니다. 또한, 스칼드의 전사자의 노래로 부활한 아군들은 전투 종료시까지 {g|Encyclopedia:Attack}공격{/g}과 "
+"{g|Encyclopedia:Damage}피해{/g}에 +2 사기 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = ChainshirtOfLifeVimItem::m_DisplayNameText
@@ -2215,7 +2214,7 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
 "이 +5 가죽 갑옷은 착용자의 {g|Encyclopedia:Trickery}손재주{/g} {g|Encyclopedia:Skills}기술 "
-"판정{/g}에 +15 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 게다가 착용자가 "
+"판정{/g}에 +15 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 추가로, 착용자가 "
 "{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 성공시 1 "
 "{g|Encyclopedia:Combat_Round}라운드{/g}간 환위 {g|Encyclopedia:Spell}주문{/g} 효과를 "
 "얻습니다 ."
@@ -3287,7 +3286,7 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} for the first 3 "
 "{g|Encyclopedia:Combat_Round}rounds{/g} of combat."
 msgstr ""
-"이 +5 하라마키는 착용자에게 전투의 첫 3{g|Encyclopedia:Combat_Round}라운드{/g} 동안 원소 "
+"이 +5 하라마키는 착용자에게 전투의 첫 3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 원소 "
 "{g|Encyclopedia:Damage}피해{/g}에 대한 면역을 제공합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -13132,44 +13131,44 @@ msgid ""
 "his followers and retreating back to the Newfound Sanctuary — now condemned "
 "to be called the Lost Chapel.\""
 msgstr ""
-"\" 새로운 성역은 이 어두운 땅의 길 잃은 신도들의 안식처였다. 성역은 두 팔을 벌려 성전사들과 상인들, 여행객들과 그들의 기도를 "
-"들어줄 모든 신들을 찬미하기 위해 온 평범한 사람들을 맞았다. 모든 사람들이 안전하게 밤을 보낼 수 있는 평화의 피난처.\n"
-"그렇기 때문에 데몬들의 잔혹한 공격의 대상이 된 것도 모르겠다. 그 날 아침, 태양은 뜨지 않았고, 우리가 어떤 음모가 도사리고 있는 지 "
-"깨달았을 때는, 모든 것이 너무 늦어버렸다. 불쾌한 검은 연기가 갑작스레 요새를 삼켰고, 우리들은 제대로 보지도, 숨을 쉬지도 못했다. "
-"저명한 마법사 자카리우스가 그 때 요새를 지휘하고 있었고, 그는연기가 공격의 전조임을 깨닫고는 경보를 울렸다. 그러자, 화염이 우리들을 "
-"덮쳤다. 비전의 불길이 하늘에서 쏟아져, 화염이 닿는 곳마다 불이 붙었다. 아무리 많은 양의 물을 쏟아 부어도 불을 끌 수 없었다. "
-"그리고는 수 천에 달하는 데몬들의 목에서 고함이 터져 나왔다. 우리 영혼에 위기가 닥쳤다. 요새의 성문은 즉시 함락되었으나 성전사들은 "
-"포기하지 않았다. 그들의 육체는 나무보다, 강철보다 더 굳건했다. 심연의 군세의 최전열은 우리들의 목숨을 구하기 위해 자신들의 것을 "
-"기꺼히 희생하고자 하는, 수비병들로 이루어진 살아있는 벽 앞에 멈춰섰다. 자카리우스 그 자신도 성전사들과 함께 맞서기 위해 담당 구역을 "
-"포기했다. 자카리우스의 주문은 우리들에게 화염구를 던지던 거인들을 하나 하나 쓰러뜨렸다. 그리고 몇 분 동안, 우리에게 희망이 있는 듯 "
-"했다.\n"
-"데몬들의 불경한 단어가 우리들의 몰락을 초래했다. 다른 데몬들보다 거대하고, 역겨운 데몬이 적의 전열에서 튀어나왔다.다른 데몬들보다 더 "
-"거대하고, 역겨운 데몬이 적의 전열에서 튀어나왔다. 그 데몬은 거대한 청동 뿔나팔을 갖고있었고, 뿔나팔은 얼굴들로 덮혀져 있었다. "
-"살아있는 사람들의 얼굴, 고통으로 비명지르는 얼굴. 데몬이 뿔나팔은 입에 대고 숨을 불어 넣자, 얼굴들이 신음의 합창을 하기 시작했고, "
-"데몬의 가슴이 터지고, 옆구리가 부러질 때 까지 계속되었다. 뿔나팔 그 자체도 그렇게 사악한 힘의 분출을 버티지 못한 나머지 폭발하고 "
-"말았지만, 괴물이 맡은 임무는 성공적으로 끝맺어졌다. 끔찍한 굉음이 쇄도했고, 우리들 중 그 누구도 그 소리에 저항하지 못했다. 모두가 "
-"정신을 잃었고, 불경한 단어는 성역의 방어 병력을 전멸시켰고 바닥에 끌린 자국만 남겼다.\n"
-"데몬들은 울부짖으며 요새의 포위에 서둘렀다. 거기서 데몬들은 곧 후회할 실수를 저질렀다.그렇다, 우리들은 부상당했고, 공포에 "
-"질려있었으며, 귀머거리였지만... 우리는 결코 패배하지는 않았다. 우리는 죽은 척 하며 데몬들이 안 뜰에서 흩어지길 기다렸고, 그들이 "
-"등을 보이자 적들에게로 뛰어들었다 ! 침입자들을 학살하고 난 후, 우리는 쓰러진 형제와 자매들의 곁으로 돌아갔다. 이 죽음의 연회의 "
-"새로운 장을 시작하기 위해서. 전우들의 벗은 시체로 세워진 바리케이드들. 그것들로 우리는 적들이 어디에서 위협이 찾아오는 지 파악할 "
-"시간도 주지 않고 적들을 쓰러뜨릴 수 있었다. 우리는 데몬들의 척추를 부수고, 우리들의 피로 익사시켰다.\n"
-"우리가 견뎌낸 침입자들의 포효는 죽음으로써 끝나게 되었다.성역은 그곳을 지나칠 정도로 멍청한 이들을 집어 삼켰고, 남은 데몬들은 마치 "
-"마비된 것만 같았다. 이 괴물들 조차 공포가 무엇인지 알고 있다.\n"
-"사령관 자카리우스는 공성을 무너뜨리기 위해 이 기회를 이용했다. 우리들의 수 많은 상처들에도 불구하고, 우리의 탈출, 아니, 삶에 대한 "
-"갈망으로 가득 찬 우리의 영웅적인 돌격은 요새와 데몬 군세 사이의 거리를, 그들의 군주가 불경한 기도를 끝맞힐 시간을 주지도 않고 "
-"주파하게 해 주었다. ! 우리는 데몬들의 전열을 뚫고 들어가며, 적들이 포기하고, 공포에 뒷걸음질 칠 때 까지 우리를 가로막는 데몬들을 "
-"닥치는 데로 베어 넘겼다. 우리에게는 방어할 것이 있었다. 우리가 목숨을 던지는 단 한가지 이유. 성역의 신들을 믿는 성직자들은 우리 "
-"진형 한 가운데에 있었고, 가장 젊은 전사와 가장 굳건한 전사와 발을 맞추고 있었다. 성직자들의 등은 성유물들의 무게로 굽혀져 있었고, "
-"그들의 얼굴은 고통으로 굳어져있었다. 하지만, 그들 모두 진실된 믿음을 갖고 있었고, 계속해서 웃고, 계속해서 우리들에게 힘을 불어넣어 "
-"주고, 치료하고, 또 주변 사람들을 축복해줄 수 있었다. 공포에도 불구하고, 그들은 계속해서 나아갔다. 죽는 것이 두려웠으나, 우리는 "
-"그들처럼 나아갔다.\n"
-"그리고 마침내 우리는 해냈다. 데몬 부대를 뚫고 나가는데 성공한 것이다. 우리는 두려움에 맞섰고, 그 두려움을 배를 바다로 항해하게하는 "
-"바람삼아 적에게서 달아날 수 있었다. 우리는 산그늘 속에서 사라졌고, 갖은 협곡 속에서 몸을 숨겼다. 그렇게 우리는 생존할 수 있었다.\n"
-"몇 년의 시간이 흘렀지만, 나는 아직도 우리 대열을 이끌었던 자카리우스와 그의 도제들의 영웅적인 위업을 기억한다. 적의 부대가 넘어오자, "
-"이 용맹한 영혼들은 뿔뿔히 흩어져 통로를 만들어 주었고, 멀리서 데몬들의 발목을 잡으며 가장 치명적인 함정들 속에서 도망칠 수 있게 "
-"해주었다. 하지만 그들의 힘에도 한계가 있었다. 데몬들의 포위망이 다시 좁혀졌고, 그들을 완전히 둘러쌌다. 그 끔찍한 날의 마지막 기억은 "
-"자카리우스다. 그는 자기 사람들을 모아 성역, 오늘 날에는 잊혀진 예배당으로 알려진 장소로 후퇴했다.\""
+"\"새로운 성역은 이 어두운 땅에서 길을 잃은 자들을 비추는 등대였다. 성역은 자신이 믿는 신에게 기도를 올리거나, 밤을 지새울 안전한 "
+"피난처를 찾는 성전사들과 상인들, 그리고 평범한 사람들을 모두 두 팔 벌려 맞이하였다.\n"
+"그 때문에 데몬들의 잔혹한 공격의 대상이 됐을지도 모르겠다. 그 날 아침에 태양은 뜨지 않았었다. 우리를 향해 어떤 음모가 도사리고 "
+"있는지 깨달았을 때는 모든 것이 너무 늦은 뒤였다. 불쾌한 검은 연기가 갑작스레 요새를 삼켰고, 우리들은 제대로 보지도, 숨을 쉬지도 "
+"못했다. 당시 요새를 수호자는 자카리우스라는 저명한 마법사였다. 그는 연기가 공격의 전조임을 깨닫고는 경보를 울렸다. 그 직후, 화염이 "
+"우리들을 덮쳤다. 마법적 불길이 하늘에서 쏟아져내렸다. 화염은 닿는 곳마다 불길을 질러댔으며, 아무리 많은 양의 물을 쏟아 부어도 그 "
+"불을 끌 수 없었다. 마지막으로 고함 소리가 도달했다. 수천에 달하는 데몬들이 우리의 영혼을 탐닉하기 위해 다가오며 내지르는 소리였다. "
+"요새의 성문은 즉시 함락되었으나 성전사들은 포기하지 않았다. 그들의 육체는 나무보다, 강철보다 더 굳건했다. 심연의 군세의 최전열은 "
+"우리들의 목숨을 구하기 위해 자신들의 것을 기꺼히 희생하고자 하는, 수비병들로 이루어진 살아있는 벽 앞에 멈춰섰다. 자카리우스 그 자신도 "
+"성전사들과 함께 맞서기 위해 담당 구역을 포기했다. 자카리우스의 주문은 우리들에게 화염구를 던지던 거인들을 하나 하나 쓰러뜨렸다. 그리고 "
+"몇 분 동안, 우리에게 희망이 있는 듯 했다.\n"
+"모든 희망을 어그러뜨린 것은 놈들의 불경한 언어였다. 다른 데몬들보다 더 거대하고, 더 역겨운 데몬이 적의 전열에서 튀어나왔다. 그 "
+"데몬은 여전히 살아서 비명을 질러대는 생생한 인간들의 얼굴로 뒤덮힌 거대한 청동 뿔나팔을 갖고 있었다. 데몬은 뿔나팔을 입에 대고 숨을 "
+"불기 시작했다. 그러자 얼굴들이 신음의 합창을 하기 시작했다. 그것은 자신의 가슴이 터지며 갈빗대가 활짝 벌어질 때까지, 또한 뿔나팔 그 "
+"자체마저 사악한 힘의 분출을 버티지 못하고 갈라질 때까지 계속해서 나팔을 불었다. 결국 괴물이 맡은 임무는 성공적으로 끝맺어졌다. 끔찍한 "
+"굉음이 쇄도했고, 그 소리를 듣고도 제정신을 유지할 수 있는 자는 그 누구도 없었다. 불경한 단어는 성역의 방어 병력을 전멸시켰고 바닥에 "
+"끌린 자국만 남겼다.\n"
+"데몬들은 울부짖으며 요새의 포위에 서둘렀다. 거기서 데몬들은 곧 후회할 실수를 저질렀다. 그렇다, 우리들은 부상당했고, 공포에 "
+"질려있었으며, 귀를 먹었지만... 아직 패배하지는 않았다. 우리는 죽은 척하며 데몬들이 안뜰에서 흩어지길 기다렸고, 그들이 등을 보인 "
+"순간 적들에게 뛰어들었다! 우리는 침입자들을 죽이고 난 뒤, 쓰러진 형제와 자매들의 곁에 다시 누웠다. 이 죽음의 연회의 새로운 장을 "
+"시작하기 위해서 말이다! 우리는 전우들의 시신으로 장벽을 세웠고, 알아채지 못한 적들을 기습하기 위해 그것을 이용했다. 우리는 데몬들의 "
+"목덜미를 붙들고, 가시 돋힌 척추를 부쉈으며, 우리들의 피로 익사시켰다.\n"
+"마침내 우리가 버텨내던 침입자의 비명이 사라졌다. 새로운 성역은 그곳을 지나칠 정도로 멍청한 이들을 집어삼켰고, 남은 데몬들은 마치 "
+"공포로 인해 마비된 것처럼 멀뚱히 서있었다. 이 괴물들조차도 공포를 알 수 있다니.\n"
+"사령관 자카리우스는 포위망을 무너뜨리기 위해 이 기회를 이용했다. 우리는 밖으로 나섰다… 아니, 우리는 뛰어들었다. 우리는 날개라도 달린 "
+"것처럼 살아남기 위해 돌진했다. 우리는, 수많은 상흔이 새겨진 채였던 우리는 요새와 데몬 진영 사이의 거리를 눈 깜짝할 새에 메웠고, "
+"그것은 너무나도 빨랐던 나머지 데몬 지휘관조차 자신의 불경한 기도를 끝맺지 못할 정도였다! 우리들 속에는 진정으로 우리가 목숨을 바쳐 "
+"보호해야할 이들이 존재했다. 새로운 성역내 모든 신들의 사제들이 우리 진영의 중앙에서 가장 젊고 강한 병사들과 발을 맞춰 전진했다. "
+"그들의 등은 유물의 무게로 인해 짓눌렸고, 그들의 얼굴은 고통으로 인해 일그러졌다. 그러나 그들에게는 여전히 미소를 유지하고, 우리를 "
+"고무하며, 가까이 다가오는 이들에게 치유와 축복을 내리기에 충분한 신앙심이 자리하고 있었다. 그들은 죽음을 두려워했지만, 그럼에도 앞으로 "
+"나아갔다. 우리 모두가 두려워했지만, 또한 우리 모두가 앞으로 나아갔다.\n"
+"그리고 우리는 해냈다. 우리는 데몬의 군대를 뚫고 길을 만들었다. 우리가 자신의 공포심을 마주하고, 공포심을 배를 띄우는 순풍삼아 "
+"혼비백산하여 달아난 것은 그 직후의 일이었다. 우리는 산의 그늘 속으로 사라졌다. 우리는 협곡 속으로 숨어들었다. 우리는 살아남았다.\n"
+"몇 년의 시간이 흘렀지만, 나는 아직도 우리 대열을 이끌었던 자카리우스와 그의 제자들을 봤던 것을 기억한다. 그들은 아군의 진형을 "
+"이끌었다. 그들이 데몬의 군세를 뚫어냈을 때, 그들은 흩어지며 통로를 만들었고, 우리가 위험천만한 함정들 속에서 도망칠 수 있도록 적들의 "
+"발을 붙들었다. 그러나, 그들의 힘 조차도 한계에 부딪혔다. 데몬의 포위망이 천천히 좁혀들어오며 그들과 우리들 무리를 갈라내버렸다. 내게 "
+"새겨진 마지막 기억은 자카리우스가 자신의 제자들을 그러모아 새로운 성역으로, 오늘날에는 잊혀진 예배당으로 불리는 장소로 다시 후퇴하는 "
+"광경이다.\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = ScrollOfGreatFreedom::m_DisplayNameText
@@ -14350,7 +14349,7 @@ msgid ""
 msgstr ""
 "타락한 성전사이자 마법사, 자카리우스가 이 무기를 그의 성물함으로 만들었습니다. 멘데브 성전 지도자가 리치를 쓰러뜨린 후, 마법사의 "
 "영혼은 이 마법봉 속으로 도망쳤고, 그렇게 마법봉은 강력한 마법 무기가 되었습니다.\n"
-"죽음 그 너머를 지배하는 자들은 성물함 안에서 뿜어져 나오는 자카리우스의 어두운 속삭임을 들을 수 있습니다."
+"죽음을 지배하는 자들은 성물함 안에서 뿜어져 나오는 자카리우스의 어두운 속삭임을 들을 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItem
 #. Path = ZiforianKey::m_DisplayNameText
@@ -14719,16 +14718,16 @@ msgid ""
 "misdeeds, for each of them had foreseen the calamity and did all in their "
 "power to prevent their death in the disaster that destroyed Thassilon.\""
 msgstr ""
-"\"죄악의 마법은 대 마법사이자 태실론의 군주인 위대한 씬이 이론적으로 정립한, 일곱가지 덕에 기반한다 그의 가르침에 따르면, 미덕들 ("
-"자비, 용기, 겸허,선, 사랑, 절제 그리고 열정) 은 제국의 중요 신앙 중 하나인 리살라가 부여한 것이라고 한다. 이러한 미덕들은 가장 "
-"공정하고, 정의롭고, 사려깊은 국가 지도자에게 받아들여졌다.\n"
-"하지만 정치적인 격변이 일곱 미덕을 일곱 죄악으로 변질시켰다 : 태실론은 한 사람이 운영하기에는 너무 거대해졌고, 가장 강력한 일곱명의 "
-"마법사 (룬 군주들) 하나하나가 왕국의 각 지방을 나누어 통치하기 시작했다. 황제 씬의 치세는 씬이 자신의 부하들에 의해 살해되면서 "
-"끝나게 되었고, 이들은 왕좌에 꼭두각시를 올리게 되었고, 룬 군주들은 그때부터 자유롭게, 자신만의 방법으로 자신이 맡은 지방을 통치할 수 "
-"있게 되었다. 이렇게, 이 전제군주들은 조금씩 씬의 가르침을 조소하기 시작했고 옛 스승이 지키고자 했던 미덕들의 타락한 화신이 되었다. "
-"욕심, 사치, 오만, 폭식, 질투, 분노와 나태가 태실론의 골수까지 좀먹고, 퇴폐와 한도를 모르는 낭비가 그 영토를 약화시켰다. 그리고 "
-"어스폴 사건이 발생해 제국이 무너졌다. 룬 군주들, 그들은 사라지지 않았다. 자국의 몰락을 예견한 마법사들은 필연적인 죽음에서 자신들을 "
-"구할 방법을 찾아냈다.\""
+"\"죄악의 마법은 대 마법사이자 타실론의 군주인 위대한 씬이 이론적으로 정립한, 일곱가지 미덕에 기반한다 그의 가르침에 따르면, 일곱 "
+"미덕들 — 자비, 용기, 겸허,선, 사랑, 절제 그리고 열정은 제국의 중요 신앙 중 하나인 리살라가 부여한 것이라고 한다. 이러한 "
+"미덕들은 가장 공정하고, 정의롭고, 사려깊은 국가 지도자에게 받아들여졌다.\n"
+"하지만 정치적인 격변이 일곱 미덕을 일곱 죄악으로 변질시켰다. 타실론은 한 사람이 운영하기에는 너무 거대해졌고, 가장 강력한 일곱 명의 "
+"마법사, 즉 룬 군주들이 왕국의 각 지방을 나누어 통치하기 시작했다. 황제 씬의 치세는 씬이 자신의 부하들에 의해 살해되면서 끝나게 "
+"되었다. 왕좌에는 황제 대신에 꼭두각시가 올랐고, 룬 군주들은 그때부터 자유롭게 자신만의 방법으로 자신이 맡은 지방을 통치할 수 있게 "
+"되었다. 이렇게, 이 전제 군주들은 조금씩 씬의 가르침을 조소하기 시작했고 옛 스승이 지키고자 했던 미덕들의 타락한 화신이 되었다. "
+"욕심, 사치, 오만, 폭식, 질투, 분노와 나태가 타실론의 골수까지 좀먹고, 퇴폐와 한도를 모르는 낭비가 그 영토를 약화시켰다. 타실론에 "
+"종말을 고한 어스폴조차도 룬 군주들의 악행은 끝내지 못했다. 그들은 각자 재앙을 내다보고 제국을 파괴할 재난에 휩쓸리지 않기 위해 모든 "
+"역량을 동원했기 때문이다.\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = AboutTitans::m_DisplayNameText
@@ -16151,7 +16150,7 @@ msgid ""
 "demons in the Abyss! And if anyone tells me a louse isn't a demon, then ha-"
 "ha to them! Could a monster like that come from anywhere besides the Abyss?\""
 msgstr ""
-"피탁스의 베르시멜이\n"
+"피탁스의 베르시멜 저\n"
 "예리한 글 출판사\n"
 "\"부상자들은 저녁으로 양배추 수프를 받았다. 전혀 놀랍지 않은 일이었다. 그들의 저녁으로 똑같은 음식이 나온지 일주일이 지났다. 이전에 "
 "병원의 거주민들은 종종 감자나 심지어는 순무를 받을 수 있을 정도로 운이 좋았다. 그러나 한 달 전, 세 번 빛난 신성한 태양과 우리 "
@@ -16161,19 +16160,19 @@ msgstr ""
 "부상자들은 기쁨 충만한 식사를 충분히 즐긴 뒤 담뱃대에 담배보다는 건초에 가까운 무언가를 다져 넣었다. 그들은 식사 후 담배 연기나 그 "
 "비슷한 무언가를 흡입하길 요구하는 나쁜 습관이라는 실용적인 문제를 행복한 방식으로 해결한 뒤에야 이야기할 기분이 되었다.\n"
 "\"가장 위험한 데몬이 누구라고 생각하시나요?\" 창병, 우즈리치가 뭉특한 팔로 뭉특한 다리를 긁으며 불었다. \"내가 보기에는 "
-"아브리칸딜루스가 가장 위험합니다. 그 괴물들은 바리시아 인들처럼 교활한데다 은밀하죠. 게다가 그 이빨은 훨씬 날카롭다고요! 보세요!\" "
+"아브리칸딜루가 가장 위험합니다. 그 괴물들은 바리시아 인들처럼 교활한데다 은밀하죠. 게다가 그 이빨은 훨씬 날카롭다고요! 보세요!\" "
 "그는 동료들에게 남아 있는 손가락 둘 하고도 반 개를 들어 그의 요점을 강조했다.\n"
-"\"그건 관점에 따라 다른 법이죠,\" 눈을 붕대로 감아 앞을 볼 수 없는 포병 그레글리가 대답했다. \"당신의 아브리칸딜루스는 대중적인 "
-"선택지긴 합니다. 하지만 발러야말로 진정한 악맙니다! 그가 자신의 채찍으로 당신을 후려치면, 눈알이 펑하고 튀어나오죠!\n"
+"\"그건 관점에 따라 다른 법이죠,\" 눈을 붕대로 감아 앞을 볼 수 없는 포병 그레글리가 대답했다. \"당신의 아브리칸딜루는 대중적인 "
+"선택지긴 합니다. 하지만 발러야말로 진정한 데몬입니다! 그가 자신의 채찍으로 당신을 후려치면, 눈알이 펑하고 튀어나오죠!\n"
 "그녀는 자신의 담뱃대를 열정적으로 휘두르다 내용물을 우즈리치의 얼굴에 튀겨버렸다. 우즈리치가 재채기를 하며 얼굴을 닦아내고 있을 때 "
 "브리기가 대화에 끼여들었다.\n"
-"\"발로어도 브리칸디루스도 괜찮은 답이에요, 그렇지만 벼룩보다 무서운 데몬은 이 세상엔 없다고 단언하죠. 물론, 다른 데몬들은 순간 "
-"이동을 할 수 있어요. 하지만 벼룩은 그럴 필요조차도 없는걸요! 당신이 어디를 보건, 그건 이미 거기 있을 거에요!\" 그리고 그는 그의 "
-"손을 셔츠 아래에 집어 넣어 그의 겨드랑이 어딘가에서 그의 연설 대상을 꺼내 친구들에게 보여주었다. \"채찍을 휘두르는 거대한 "
-"데몬에게서야 달아날 수 있지만, 한낱 벼룩한테서 도망칠 수 있는 사람이 있겠어요? 그들은 신병부터 장군까지 모두를 쏘아대죠. 여왕조차도 "
-"예외는 아니에요. 큰 해를 끼치지 못한다고 항변할 수야 있겠죠 — 그래요, 벼룩 한 마리가 빨아봐야 얼마나 빨겠어요? 그렇지만 "
-"친구들이여, 그들이 마신 병사의 피를 모두 합쳤다고 생각해봐요. 바다라도 만들 수 있을 거라고 생각하지 않으세요? 심연의 모든 데몬을 "
-"합쳐도 모자랄걸요! 누군가 내게 벼룩은 데몬이 아니라고 말한다면, 하하하, 답해드리죠! 이런 괴물이 심연이 아니면 어디서 왔겠어요?\""
+"\"발러도 아브리칸딜루도 괜찮은 답이에요, 그렇지만 벼룩보다 무서운 데몬은 이 세상엔 없다고 단언하죠. 물론, 다른 데몬들은 순간 이동을 "
+"할 수 있어요. 하지만 벼룩은 그럴 필요조차도 없는걸요! 당신이 어디를 보건, 그건 이미 거기 있을 거에요!\" 그리고 그는 그의 손을 "
+"셔츠 아래에 집어 넣어 그의 겨드랑이 어딘가에서 그의 연설 대상을 꺼내 친구들에게 보여주었다. \"채찍을 휘두르는 거대한 데몬에게서야 "
+"달아날 수 있지만, 한낱 벼룩한테서 도망칠 수 있는 사람이 있겠어요? 그들은 신병부터 장군까지 모두를 쏘아대죠. 여왕조차도 예외는 "
+"아니에요. 큰 해를 끼치지 못한다고 항변할 수야 있겠죠 — 그래요, 벼룩 한 마리가 빨아봐야 얼마나 빨겠어요? 그렇지만 친구들이여, "
+"그들이 마신 병사의 피를 모두 합쳤다고 생각해봐요. 바다라도 만들 수 있을 거라고 생각하지 않으세요? 심연의 모든 데몬을 합쳐도 "
+"모자랄걸요! 누군가 내게 벼룩은 데몬이 아니라고 말한다면, 비웃어버릴 거에요! 이런 괴물이 심연이 아니면 어디서 왔겠어요?\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemNote
 #. Path = FunnyText_HowTo::m_DisplayNameText
@@ -18982,6 +18981,20 @@ msgid ""
 "an inimitable and incorruptible ideal in the mage's soul — the ideal of "
 "immortality.\""
 msgstr ""
+"\"강제적인 고독이란 한때의 내게 있어 저주처럼 보였지만, 연구 자료를 확보한 지금에 와서는 훨씬 더 참을만해졌다. 현재의 궁핍한 형편에 "
+"미루어 보자면, 내게 남은 유일한 길은 과학적 시도와 정신적 수련뿐이다.\n"
+"가치 없는 재료로 지성 없는 언데드를 만드는 일은 독창적인 생각을 하지 못하는 무식한 자들의 대표적 행동이다. 가장 기본적인 노력과 "
+"마법만 투자하더라도, 그 어떤 사령술사던지 우리의 비술의 진정한 힘을 해방할 수 있다. 변환 학파의 마법을 활용함으로써, 일부 불완전한 "
+"시신들마저도 원래 상태보다 훨씬 더 향상된 하나의 구조체로 바뀔 수 있다. 그러나, 사령술의 길을 따르는 이들 중 가장 야심만만한 "
+"마법사들 마저도 마지막 한 걸음을 내디뎌 스스로를 자신의 피조물들과 같은 형상으로 변화시키는 일은 극히 드물다.\n"
+"왜? 극단적으로 짧은 시간을 가진 이들이 불사에 대해 그토록 강한 혐오감을 보이는 이유는 무엇인가? 아마 그 이유란 것은 지고한 만물의 "
+"질서에 감히 끼어들려는 자들을 방해하는 신들에 대한 두려움 때문일 것이다. 아니면 영원히 죽음을 방랑하는 자를 마주했을 때, 그들의 실체 "
+"껍데기가 지닌 부패와 건조에 대하여 본능적인 역겨움이 올라오기 때문일지도. 그도 아니라면 결심을 무디게 만드는 정서적 애착 때문일지도 "
+"모른다.\n"
+"모든 필멸자가 리치로 승화할 수 있는 것은 아니다. 리치가 된 자들 개개인마저도 나머지 동류들과는 전적으로 구별되는 길을 걸어왔다. "
+"하지만 심장에 꽂히는 칼날의 불가피성에 이끌린 우리는 동일한 하나의 목적으로 뭉쳤다. 사실, 승화란 성물함을 만드는 능력에 관한 지식에서 "
+"시작하는 것도, 진보된 사령술에 관한 서적에서 시작되는 것도 아니다. 이는 다만 마법사의 영혼 속에 간직된 모방할 수도 없고 변형될 수도 "
+"없는 이상, 바로 불멸성이라는 이상의 피조물인 것이다.\""
 
 #. Type = Kingmaker.Blueprints.Items.BlueprintItemThiefTool
 #. Path = ConsumableLockpickPlus10::m_DisplayNameText
@@ -23733,7 +23746,7 @@ msgstr ""
 #. Path = BeltOfBeastlySturdinessItem::m_DisplayNameText
 msgctxt "c7fa61e0-4c05-4426-9576-fe49c6d97be1"
 msgid "Belt of Beastly Sturdiness"
-msgstr ""
+msgstr "짐승같은 기운의 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = BeltOfBeastlySturdinessItem::m_DescriptionText
@@ -23753,7 +23766,7 @@ msgstr ""
 #. Path = BeltOfBloodlustItem::m_DisplayNameText
 msgctxt "92ff6708-9e2f-4452-95ac-74a752799300"
 msgid "Belt of Bloodlust"
-msgstr ""
+msgstr "피굶주림의 허리띠"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = BeltOfBloodlustItem::m_DescriptionText
@@ -23837,7 +23850,7 @@ msgid ""
 " against this enemy for 1 {g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
 "이 +4 {g|Encyclopedia:Strength}힘{/g}과 {g|Encyclopedia:Dexterity}민첩{/g}의 허리띠의 "
-"착용자는 적에게 돌진할 때 해당 적에 대한{g|Encyclopedia:Attack}명중{/g} 및 "
+"착용자는 적에게 돌진할 때 해당 적에 대한 {g|Encyclopedia:Attack}명중{/g} 및 "
 "{g|Encyclopedia:Damage}피해 굴림{/g}에 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 +"
 "4 사기 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
@@ -24730,6 +24743,11 @@ msgid ""
 "bludgeoning damage{/g} it receives is multiplied by 1.5 until the end of "
 "combat."
 msgstr ""
+"이 허리띠를 착용한 몽크는 기 1점을 소모해 대상의 심장과 폐를 에메랄드 베일로 감쌀 수 있습니다. 효과를 받은 크리처는 연약해져 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받습니다. 또한 {g|Encyclopedia:DC}DC{/g} 19 {g|Encyclopedia:Saving_Throw}인내 내성 "
+"굴림{/g}을 시도해 실패시 전투 종료시까지 받는 {g|Encyclopedia:Damage_Type}부수기 피해{/g}가 1.5배가 "
+"됩니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = KnightsEmblemSunsetBeltItem::m_DescriptionText
@@ -24739,7 +24757,6 @@ msgstr ""
 #. 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = KnightsEmblemSunsetBeltBuff::m_Description
-#, fuzzy
 msgctxt "afa1915d-9840-47b1-a057-abfc3d933502"
 msgid ""
 "You can cover yourself in an invisible corrupted fire. Under its effect, all "
@@ -24750,7 +24767,7 @@ msgid ""
 msgstr ""
 "스스로를 투명한 오염된 불꽃으로 덮을 수 있습니다. 이 효과를 받는 중일 때 모든 화염 {g|Encyclopedia:Spell}주문{/g}"
 "이 추가 {g|Encyclopedia:Dice}2d6{/g} 부정 {g|Encyclopedia:Damage}피해{/g}를 입힙니다. "
-"{g|Encyclopedia:Energy_Damage}화염 피해{/g} 면역을 얻는 대신 냉기 및 신성 피해에 약해집니다."
+"당신은 {g|Encyclopedia:Energy_Damage}화염 피해{/g} 면역을 얻지만, 냉기 및 신성 피해 취약 또한 얻습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = KorgathShackledFury::m_DisplayNameText
@@ -25097,11 +25114,12 @@ msgid ""
 "instantaneous, or permanent is not affected by this feat."
 msgstr ""
 "이 +4 {g|Encyclopedia:Constitution}건강{/g}의 허리띠는 착용자로부터 20 피트 반경 내의 아군이 적을 "
-"처치하면 착용자의 다음 {g|Encyclopedia:Spell}주문{/g}이 지속시간 연장 "
+"처치하면 착용자의 다음 {g|Encyclopedia:Spell}주문{/g}이 시간 연장 주문 "
 "{g|Encyclopedia:Feat}특기{/g}의 영향을 받은 것처럼 지속 시간을 연장시킵니다. 또한 착용자의 "
 "{g|Encyclopedia:Wisdom}지혜{/g}에 +4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다.\n"
-"지속시간 연장: 지속시간이 연장된 주문은 평시의 2배 동안 지속됩니다. {g|Encyclopedia:Concentration}집중{/g}"
-", 즉흥, 또는 영구 주문은 이 특기의 효과를 받지 않습니다."
+"시간 연장 주문: 시간 연장 주문은 지속시간이 보통 주문의 2 배입니다. 지속 시간 동안 "
+"{g|Encyclopedia:Concentration}집중{/g}을 요하는 주문, 즉발 주문, 영구적인 주문은 이 특기의 영향을 받지 "
+"않습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = UnceasingSlaughterItem::m_DisplayNameText
@@ -25949,7 +25967,7 @@ msgstr ""
 #. Path = SureFootingItem::m_DisplayNameText
 msgctxt "6f365aab-3312-4604-83b9-3dc17de08b4d"
 msgid "Sure Footing"
-msgstr "확신에 찬 발걸음"
+msgstr "단단한 디딤발"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = SureFootingItem::m_DescriptionText
@@ -25961,9 +25979,9 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} with a ranged weapon every "
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
-"이 장화는 착용자가 {g|Encyclopedia:Perception}지각{/g} {g|Encyclopedia:Skills}기술{/g}"
-"등급의 절반을 매 라운드 원거리 무기로 가하는 첫 번째 {g|Encyclopedia:Attack}공격{/g}의 "
-"{g|Encyclopedia:Damage}피해{/g}에 더해줍니다."
+"이 장화의 착용자는 각 라운드에 원거리 무기로 가한 첫 번째 {g|Encyclopedia:Attack}공격{/g} "
+"{g|Encyclopedia:Damage}피해{/g}에 {g|Encyclopedia:Perception}지각{/g} "
+"{g|Encyclopedia:Skills}기술{/g} 등급의 절반을 더합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGlasses
 #. Path = CinderGogglesItem::m_DisplayNameText
@@ -26215,7 +26233,7 @@ msgstr ""
 #. Path = GogglesOfQuickGraspItem::m_DisplayNameText
 msgctxt "5b46a93d-4fca-42c7-8db0-3effd29db7e3"
 msgid "Goggles of Quick Grasp"
-msgstr ""
+msgstr "빠른 판단의 안경"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGlasses
 #. Path = GogglesOfQuickGraspItem::m_DescriptionText
@@ -26591,7 +26609,7 @@ msgstr "스타 병사의 건틀렛"
 #. Path = BaphometFireCloth_AnimalisticFireItem::m_DisplayNameText
 msgctxt "0ca60b82-6e12-4073-badc-0d287af05740"
 msgid "Call of the Fiery Things"
-msgstr ""
+msgstr "맹렬한 화염의 부름"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = BaphometFireGloves_BurningCunningItem::m_DisplayNameText
@@ -27017,7 +27035,7 @@ msgstr ""
 #. Path = GlovesOfCollidingElementsItem::m_DisplayNameText
 msgctxt "c8b1ab65-9084-42b4-be67-ed2977328009"
 msgid "Gloves of Colliding Elements"
-msgstr ""
+msgstr "충돌하는 원소의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfCollidingElementsItem::m_DescriptionText
@@ -27170,7 +27188,7 @@ msgstr ""
 #. Path = GlovesOfHeavyImpactItem::m_DisplayNameText
 msgctxt "056be506-c156-4491-aafc-9fdb40032d32"
 msgid "Gloves of Heavy Impact"
-msgstr ""
+msgstr "육중한 충격의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfHeavyImpactItem::m_DescriptionText
@@ -27327,7 +27345,7 @@ msgstr "이 낡아빠진 장갑은 믿을 수 없을 정도로 무겁고 견고�
 #. Path = GlovesOfResourcefulMagusItem::m_DisplayNameText
 msgctxt "c3da6cb4-9118-40b7-b216-050737c155c6"
 msgid "Gloves of Resourceful Magus"
-msgstr ""
+msgstr "활기넘치는 메이거스의 장갑"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = GlovesOfResourcefulMagusItem::m_DescriptionText
@@ -27431,7 +27449,7 @@ msgstr ""
 #. Path = HarmPreventersItem::m_DisplayNameText
 msgctxt "518c1830-c6d0-4e25-845f-9d8a40ef34da"
 msgid "Harm Preventers"
-msgstr ""
+msgstr "유해 물질 보호구"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = HarmPreventersItem::m_DescriptionText
@@ -27677,7 +27695,7 @@ msgstr ""
 #. Path = SavageUnityItem::m_DisplayNameText
 msgctxt "a873dc78-57c6-4c37-90d8-976f73d824cb"
 msgid "Savage Unity"
-msgstr ""
+msgstr "야만의 유대"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = SavageUnityItem::m_DescriptionText
@@ -28399,9 +28417,8 @@ msgid ""
 "{g|Encyclopedia:Charisma}Charisma{/g} {g|Encyclopedia:Bonus}bonus{/g} to all "
 "{g|Encyclopedia:Damage}damage{/g} dealt by ranged weapons."
 msgstr ""
-"이 정신 완벽의 머리띠 +8 은 착용자의 {g|Encyclopedia:Charisma}매력{/g} "
-"{g|Encyclopedia:Bonus}보너스{/g}를 원거리 무기로 가한 {g|Encyclopedia:Damage}피해{/g}에 "
-"추가시켜줍니다."
+"이 +8 정신 완벽의 머리띠는 착용자가 원거리 무기로 가하는 {g|Encyclopedia:Damage}피해{/g}에 "
+"{g|Encyclopedia:Charisma}매력{/g} {g|Encyclopedia:Bonus}보너스{/g}를 추가시켜줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = DemonicResentmentItem::m_DisplayNameText
@@ -28434,7 +28451,7 @@ msgstr ""
 #. Path = DoublingAnnoyanceItem::m_DisplayNameText
 msgctxt "dd6dae8f-da9b-4ff3-99b0-9bb4419ed507"
 msgid "Doubling Annoyance"
-msgstr ""
+msgstr "짜증 배가"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = DoublingAnnoyanceItem::m_DescriptionText
@@ -28444,8 +28461,8 @@ msgid ""
 "Annoyed Wizard, they actually summon two wizards instead of one. Can only be "
 "equipped by a player character."
 msgstr ""
-"이 +6 완벽의 머리띠의 착용자가 영원히 짜증난 마법사를 소환하면, 두 명의 마법사를 소환합니다. 오직 플레이어 캐릭터만이 장비할 수 "
-"있습니다."
+"이 +6 정신 완벽의 머리띠의 착용자가 영원히 짜증난 마법사를 소환하면, 두 명의 마법사를 소환합니다. 오직 플레이어 캐릭터만이 장비할 "
+"수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = DravensHatItem::m_DisplayNameText
@@ -30085,7 +30102,7 @@ msgid ""
 "These lenses make it easier to keep an eye on someone. Worn by a powerful "
 "Aeon, they grant 3 additional uses of Enforcing Gaze per day."
 msgstr ""
-"이 렌즈는 특정 인을 주시하는 것을 도와줍니다. 강력한 에온이 이를 착용하면 하루에 집행의 응시를 3회 추가로 사용할 수 있습니다."
+"이 렌즈는 특정인을 주시하는 것을 도와줍니다. 강력한 에온이 이를 착용하면 하루에 집행의 응시를 3회 추가로 사용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = LightAbsoberHeadbandItem::m_DisplayNameText
@@ -31770,7 +31787,7 @@ msgid ""
 "{g|Encyclopedia:Wisdom}Wisdom{/g} and {g|Encyclopedia:Charisma}Charisma{/g}."
 msgstr ""
 "착용자는 세월의 무게를 온 몸으로 느끼게 됩니다. {g|Encyclopedia:Strength}힘{/g}, "
-"{g|Encyclopedia:Dexterity}민첩{/g}, {g|Encyclopedia:Dexterity}민첩{/g}에 -3 불경 "
+"{g|Encyclopedia:Dexterity}민첩{/g}, {g|Encyclopedia:Constitution}건강{/g}에 -3 불경 "
 "{g|Encyclopedia:Penalty}페널티{/g}를 받지만, {g|Encyclopedia:Intelligence}지능{/g}, "
 "{g|Encyclopedia:Wisdom}지혜{/g}, {g|Encyclopedia:Charisma}매력{/g}에 +2 불경 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
@@ -33053,10 +33070,9 @@ msgid ""
 "feat, they gain an additional +2 {g|Encyclopedia:Bonus}bonus{/g} to "
 "{g|Encyclopedia:Armor_Class}AC{/g}."
 msgstr ""
-"이 반지의 착용자가 동일한 반지를 착용한 동료와 10 피트 떨어져 있으면 둘 모두 등 맞대기 "
-"{g|Encyclopedia:Feat}특기{/g}의 효과를 받습니다. 만일 둘 모두 이미 등 맞대기 특기를 지니고 있었다면, "
-"{g|Encyclopedia:Armor_Class}AC{/g}에 추가 +2 {g|Encyclopedia:Bonus}보너스{/g}를 "
-"받습니다."
+"이 반지의 착용자가 동일한 반지를 착용한 동료와 10 피트내에 있으면 둘 모두 등 맞대기 {g|Encyclopedia:Feat}특기{/g}"
+"의 효과를 받습니다. 만일 둘 모두 이미 등 맞대기 특기를 지니고 있었다면, {g|Encyclopedia:Armor_Class}AC{/g}"
+"에 추가 +2 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = AmethystEncrustedRing::m_DisplayNameText
@@ -33397,7 +33413,7 @@ msgstr ""
 #. Path = BrokenPhylacteryBodyScytheItem::m_DisplayNameText
 msgctxt "754f8df6-7877-4913-9bb4-080d0e10fe92"
 msgid "Bane of Flesh"
-msgstr ""
+msgstr "육신의 파멸"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = BrokenPhylacteryBodyRingItem::m_DescriptionText
@@ -33949,7 +33965,7 @@ msgid ""
 "Iceplant hex, it also grants them +2 natural armor "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g}."
 msgstr ""
-"이 반지는 착용자에게 냉기 저항 10을 줍니다. 만일 착용자가 채송화 주술을 지니고 있다면 "
+"이 반지는 착용자에게 냉기 저항 10을 줍니다. 만일 착용자가 얼음 이식 주술을 지니고 있다면 "
 "{g|Encyclopedia:Armor_Class}AC{/g}에 +2 자연 방어 {g|Encyclopedia:Bonus}보너스{/g}를 "
 "부여합니다."
 
@@ -35984,8 +36000,8 @@ msgid ""
 "{g|Encyclopedia:Alignment}alignment{/g}."
 msgstr ""
 "이 로브는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +3 피하기 "
-"{g|Encyclopedia:Bonus}보너수{/g}를, {g|Encyclopedia:UnarmedAttack}비무장 명중{/g}과 "
-"{g|Encyclopedia:Damage}피해 굴림{/g}에 +5 보너스를 부여합니다. 오직 질서 악 "
+"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:UnarmedAttack}비무장 공격{/g}의 "
+"명중과 {g|Encyclopedia:Damage}피해 굴림{/g}에 +5 보너스를 부여합니다. 오직 질서 악 "
 "{g|Encyclopedia:Alignment}성향{/g}의 몽크만이 착용할 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -36091,7 +36107,7 @@ msgstr ""
 #. Path = RobeSourceOfDividingPowerItem::m_DisplayNameText
 msgctxt "df29d133-31c4-4a02-9940-f6927de17a95"
 msgid "Source of Dividing Power"
-msgstr ""
+msgstr "나눠지는 힘의 원천"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = RobeSourceOfDividingPowerItem::m_DescriptionText
@@ -36194,9 +36210,9 @@ msgid ""
 "checks{/g}, as well as +2 bonus to {g|Encyclopedia:Attack}attack rolls{/g} "
 "for {g|Encyclopedia:Attack_Of_Opportunity}attacks of opportunity{/g}."
 msgstr ""
-"이 천옷은 착용자에게 {g|Encyclopedia:Trickery}속임수{/g}에 +10 능숙 "
+"이 천옷은 착용자에게 {g|Encyclopedia:Trickery}손재주{/g}에 +10 능숙 "
 "{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Athletics}운동{/g} "
-"{g|Encyclopedia:Skills}기술 판정{/g}에 +10 능숙 보너스, "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +10 능숙 보너스, 그리고 "
 "{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g} {g|Encyclopedia:Attack}명중 "
 "굴림{/g}에 +2 보너스를 부여합니다."
 
@@ -37128,8 +37144,8 @@ msgid ""
 msgstr ""
 "이 망토의 착용자가 에너지 전달을 {g|Encyclopedia:Healing}치유{/g} 목적으로 사용하면, 착용자는 "
 "{g|Encyclopedia:Persuasion}설득{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 +2 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 받고 착용자가 시전하는 강제 기술어를 "
-"포함한{g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:Saving_Throw}내성{/g} "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받고 착용자가 시전하는 강제 기술어를 포함한 "
+"{g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:Saving_Throw}내성{/g} "
 "{g|Encyclopedia:DC}DC{/g}가 2 증가합니다. 이 효과는 캐릭터 레벨 만큼의 "
 "{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다.\n"
 "만일 이 망토의 착용자가 피해를 줄 목적으로 에너지 전달을 사용하면 영향받은 크리처는 의지 내성 굴림을 시도해 실패시 1 라운드 동안 "
@@ -38061,7 +38077,7 @@ msgstr ""
 #. Path = Artifact_HolySymbolOfIomedaeItem::m_DisplayNameText
 msgctxt "aedbc23f-5975-45ed-9fd1-97abb3017265"
 msgid "The Covenant of the Inheritor"
-msgstr "계승자의 약속"
+msgstr "계승자의 맹약"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = Artifact_HolySymbolOfIomedaeItem::m_DescriptionText
@@ -38453,7 +38469,7 @@ msgstr ""
 #. Path = BrazenWhipSummonBuff::m_DisplayName
 msgctxt "94e81761-0116-4289-8344-02808bad6c69"
 msgid "Brazen Whip"
-msgstr ""
+msgstr "황동 채찍"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = BrazenWhipItem::m_DescriptionText
@@ -38528,7 +38544,7 @@ msgstr ""
 #. Path = CaybenTankardAbility::m_DisplayName
 msgctxt "4ebf09bb-8bf8-459a-99a6-3221e0283b1e"
 msgid "Tankard of Free Spirit"
-msgstr ""
+msgstr "자유로운 영혼의 맥주잔"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = CaydenTankardItem::m_DescriptionText
@@ -38545,6 +38561,10 @@ msgid ""
 "Path, the summoned Azatas are additionally affected by the Heroism "
 "{g|Encyclopedia:Spell}spell{/g} effect."
 msgstr ""
+"이 드워프 맥주잔은 착용자가 하루에 한 번 가속 효과를 받은 아자타를 소환할 수 있게 해줍니다. 소유자는 7레벨에 릴렌드 아자타 하나를, "
+"9 레벨에 릴렌드 아자타 하나와 향상된 브랄라니 아자타 둘을, 11 레벨에 릴렌드 아자타 하나, 향상된 브랄라니 아자타 둘, 게일 아자타 "
+"하나를 소환할 수 있습니다. 이 드워프 맥주잔의 소유자가 아자타 신화의 길을 타고 있다면, 소환된 아자타들은 영웅심 "
+"{g|Encyclopedia:Spell}주문{/g}의 효과도 받습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = CaydenTankardItem::m_FlavorText
@@ -38555,6 +38575,8 @@ msgid ""
 "to the deceased owner, even in darkest times it was a tiny personal beacon "
 "of fun and freedom."
 msgstr ""
+"케이든 케일리언의 신성한 상징과 자연과 음악을 즐기는 한 무리의 아자타가 새겨진 단순한 맥주잔입니다. 당신은 사망한 전 주인이 가장 "
+"어두운 때에도 즐거음과 자유의 자그마한 신호로 맥주잔을 아꼈음을 알아볼 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = ChannelersRod::m_DisplayNameText
@@ -39078,7 +39100,7 @@ msgstr ""
 #. Path = DriedHandOfmartyrItem::m_DisplayNameText
 msgctxt "1435fbd3-b799-45c4-af5b-761fdada6b5b"
 msgid "Dried Hand of Martyr"
-msgstr ""
+msgstr "순교자의 말라붙은 손"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = DriedHandOfmartyrItem::m_DescriptionText
@@ -39294,7 +39316,7 @@ msgstr ""
 #. Path = FatalMarkQuiverItem::m_DisplayNameText
 msgctxt "ad5540a4-583c-49c7-a73a-4cbf485545a5"
 msgid "Fatal Mark"
-msgstr ""
+msgstr "치명적인 낙인"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = FatalMarkQuiverItem::m_DescriptionText
@@ -39317,7 +39339,7 @@ msgstr ""
 #. Path = FlayleafAbility::m_DisplayName
 msgctxt "f186784c-ac6e-4779-836a-39f9b64d9ae9"
 msgid "Flayleaf"
-msgstr ""
+msgstr "채찍풀"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = FlayleafItem::m_DescriptionText
@@ -39348,7 +39370,7 @@ msgctxt "9b0c6517-1237-4d22-a0ba-94e04d1b66fc"
 msgid ""
 "Some dried leaves of a reddish-brown color. When smoked, they bring peace to "
 "a troubled mind, and rest and relaxation to a weary soldier."
-msgstr ""
+msgstr "적갈색의 잎사귀를 말린 것입니다. 그 향기는 괴로운 정신에는 평화를, 지친 병사에게는 안식을 가져다 줍니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = GrandOwlOfWisdomItem::m_DisplayNameText
@@ -39891,7 +39913,7 @@ msgstr ""
 #. Path = MarksmansAidArrowsQuiverBuff::m_DisplayName
 msgctxt "86b20669-5381-4ad3-9b1e-ffab59eaa8b4"
 msgid "Quiver of Marksman's Aid"
-msgstr ""
+msgstr "명사수의 지원 화살통"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = MarksmansAidArrowsQuiverItem::m_DescriptionText
@@ -39917,6 +39939,10 @@ msgid ""
 "equips other quivers or weapons. Only one creature can be marked per "
 "encounter."
 msgstr ""
+"이 화살통의 착용자는 40 발의 화살을 쏠 수 있습니다. 이 화살은 {g|Encyclopedia:Damage}피해{/g}를 입히지는 "
+"않지만, 대신 적중시 적에게 표식을 남겨 해당 적에 대한 다른 모든 동료들의 {g|Encyclopedia:Attack}공격{/g}이 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 이 효과는 착용자가 다른 무기나 화살통으로 교체하더라도 착용자에게는 "
+"적용되지 않습니다. 조우 당 하나의 크리처에게만 표식을 남길 수 있습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = MetamagicRodGreaterBolster::m_DisplayNameText
@@ -39947,8 +39973,8 @@ msgid ""
 "dealt 2 damage per die rolled of the original spell. The spell no longer "
 "applies precision damage."
 msgstr ""
-"이 로드는 착용자가 하루에 세 개의 {g|Encyclopedia:Spell}spells{/g}을 확산 주문 "
-"{g|Encyclopedia:Feat}feat{/g}를 적용한 것처럼 확산시킬 수 있게 해줍니다.\n"
+"이 로드는 착용자가 하루에 세 개의 {g|Encyclopedia:Spell}주문{/g}을 확산 주문 "
+"{g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 확산시킬 수 있게 해줍니다.\n"
 "상급 로드는 9 레벨 이하의 주문에 사용할 수 있습니다.\n"
 "확산 주문: 주문이 모든 대상에게 {g|Encyclopedia:Dice}굴림{/g} 주사위 당 2 점의 추가 "
 "{g|Encyclopedia:Damage}피해{/g}를 입힙니다. 또한, {g|Encyclopedia:Spell_Target}주문의 "
@@ -40279,8 +40305,8 @@ msgid ""
 "dealt 2 damage per die rolled of the original spell. The spell no longer "
 "applies precision damage."
 msgstr ""
-"이 로드의 착용자는 하루에 세 번 확산 {g|Encyclopedia:Spell}spells{/g} "
-"{g|Encyclopedia:Feat}feat{/g}를 적용한 것처럼 주문을 확산시킬 수 있습니다.\n"
+"이 로드의 착용자는 하루에 세 번 확산 {g|Encyclopedia:Spell}주문{/g} "
+"{g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 주문을 확산시킬 수 있습니다.\n"
 "하급 로드는 3레벨 이하의 주문에 사용할 수 있습니다.\n"
 "확산 주문: 주문이 모든 대상에게 {g|Encyclopedia:Dice}굴림{/g} 주사위 당 2 점의 추가 "
 "{g|Encyclopedia:Damage}피해{/g}를 입힙니다. 또한, {g|Encyclopedia:Spell_Target}주문의 "
@@ -40679,8 +40705,8 @@ msgid ""
 "dealt 2 damage per die rolled of the original spell. The spell no longer "
 "applies precision damage."
 msgstr ""
-"이 로드의 착용자는 하루에 세 번 확산 {g|Encyclopedia:Spell}spells{/g} "
-"{g|Encyclopedia:Feat}feat{/g}를 적용한 것처럼 주문을 확산시킬 수 있습니다.\n"
+"이 로드의 착용자는 하루에 세 번 확산 {g|Encyclopedia:Spell}주문{/g} "
+"{g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 주문을 확산시킬 수 있습니다.\n"
 "일반 로드는 6레벨 이하의 주문에 사용할 수 있습니다.\n"
 "확산 주문: 주문이 모든 대상에게 {g|Encyclopedia:Dice}굴림{/g} 주사위 당 2 점의 추가 "
 "{g|Encyclopedia:Damage}피해{/g}를 입힙니다. 또한, {g|Encyclopedia:Spell_Target}주문의 "
@@ -41352,7 +41378,7 @@ msgstr "이 물약의 효과는 {g|Encyclopedia:Energy_Damage}화염 피해{/g}�
 #. Path = PreciousTreatPetBuff::m_DisplayName
 msgctxt "6a31a53e-9aed-4163-af89-03b4f05c4ecb"
 msgid "Precious Treat"
-msgstr ""
+msgstr "귀중한 장난감"
 
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = PreciousTreatItem::m_DescriptionText
@@ -42128,7 +42154,7 @@ msgid ""
 msgstr ""
 "이 로드의 착용자는 하루에 세 번 신속 주문 {g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 "
 "{g|Encyclopedia:Spell}주문{/g}을 신속화 할 수 있습니다.\n"
-"일반 로드는 3레벨 이하의 주문에 사용할 수 있습니다.\n"
+"일반 로드는 6레벨 이하의 주문에 사용할 수 있습니다.\n"
 "착용자가 뼈흔들기, 흡혈의 손길, 뼈부수기, 또는 방혈 주문으로 살아있는 크리처를 처치하면 이 로드의 사용 횟수 1회가 회복됩니다. 이 "
 "효과는 하루에 최대 3회 발동합니다.\n"
 "신속 주문: 주문을 {g|Encyclopedia:Swift_Action}신속 행동{/g}으로 시전합니다. 신속 주문을 시전한 라운드에는 "
@@ -46820,7 +46846,7 @@ msgstr "굶주림의 도리깨"
 #. Path = ChimeraRoughPowerFlailItem::m_DisplayNameText
 msgctxt "685c8dff-0f68-4523-a411-0a3f1780e5ac"
 msgid "Craving Maw"
-msgstr ""
+msgstr "갈망하는 아귀"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = ChimeraRoughPowerClubItem::m_DescriptionText
@@ -48077,7 +48103,7 @@ msgid ""
 "lands 3 consecutive hits on a fatigued enemy, that enemy must pass a "
 "Fortitude saving throw (DC 31) or become exhausted."
 msgstr ""
-"이 +5 악랄한 노움 갈고리 망치가 동일한 적에 3회 연속으로 적중하면 해당 적은 {g|Encyclopedia:DC}DC{/g}28 "
+"이 +5 악랄한 노움 갈고리 망치가 동일한 적에 3회 연속으로 적중하면 해당 적은 {g|Encyclopedia:DC}DC{/g} 28의 "
 "{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 시도해 실패시 피로 상태가 됩니다. 착용자가 피로 상태의 "
 "적에 3회 연속으로 적중하면 해당 적은 DC 31 인내 내성 굴림을 시도해 실패시 탈진 상태가 됩니다."
 
@@ -48085,7 +48111,7 @@ msgstr ""
 #. Path = CrushingMountainItem::m_DisplayNameText
 msgctxt "40ed3464-9408-4e63-a50e-9ee6ee22ece1"
 msgid "Crushing Cold"
-msgstr ""
+msgstr "살인적인 추위"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = CrushingMountainItem::m_DescriptionText
@@ -48641,7 +48667,7 @@ msgstr ""
 #. Path = DeadlyTollItem::m_DisplayNameText
 msgctxt "8db922d9-a021-4ba7-a18d-080e11150032"
 msgid "Deadly Toll"
-msgstr ""
+msgstr "죽음의 통행료"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DeadlyTollItem::m_DescriptionText
@@ -48711,7 +48737,7 @@ msgstr "이름값을 완벽히 해냅니다."
 #. Path = DecayingDaggerItem::m_DisplayNameText
 msgctxt "e423468d-df70-430b-a823-c5e91d28735c"
 msgid "Decaying Dagger"
-msgstr ""
+msgstr "부패의 단검"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DecayingDaggerItem::m_DescriptionText
@@ -48756,7 +48782,7 @@ msgstr ""
 #. Path = DecimationItem::m_DisplayNameText
 msgctxt "139d6cfe-9f99-4b38-8b67-8b01d24e7007"
 msgid "Decimation"
-msgstr ""
+msgstr "대량살상"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DecimationItem::m_DescriptionText
@@ -48787,9 +48813,9 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}round{/g}, it deals double the weapon damage."
 msgstr ""
 "이 +5 단검의 착용자가 얕은 베기 단검이 명중한 대상을 뒤따라 명중시킬 때마다, 그 적은 추가로 "
-"{g|Encyclopedia:Dice}2d6{/g} + 힘 수정치 만큼의{g|Encyclopedia:Damage_Type}베기 피해{/g}"
-"를 받습니다. 각 라운드마다, 이 무기로 넘어지거나 마비된 크리처에게 처음으로 {g|Encyclopedia:Damage}피해{/g}를 "
-"입힐 때 무기 피해를 두 배로 가합니다."
+"{g|Encyclopedia:Dice}2d6{/g} + 힘 수정치 만큼의 {g|Encyclopedia:Damage_Type}베기 "
+"피해{/g}를 받습니다. 각 라운드마다, 이 무기로 넘어지거나 마비된 크리처에게 처음으로 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힐 때 무기 피해를 두 배로 가합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DeepShadowDemonBite::m_DisplayNameText
@@ -48904,7 +48930,7 @@ msgstr ""
 #. Path = StauntonGlaiveMountItem::m_DisplayNameText
 msgctxt "c2f351a0-9ef3-40f0-9763-3080d43a5f26"
 msgid "Soulshear"
-msgstr ""
+msgstr "영혼 절단기"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DemonicHungerItem::m_DescriptionText
@@ -48938,6 +48964,10 @@ msgid ""
 "grimmest and most sinister enchantments, and no crusader would ever dare to "
 "reclaim the disgraced weapon."
 msgstr ""
+"영혼 강타자, 스턴튼 베인의 전투망치는 한 때 성전군 사이에서 명예와 존중의 상징이었습니다. 용맹의 검의 수호자가 팔라딘으로서의 자신의 "
+"의무를 거부하고 이중간첩이 되었을 때 그의 한 손 전투망치는 녹여져 바포메트의 추종자들이 숭배하는 글레이브 영혼 절단기로 제련되었습니다. "
+"여주인 미나고가 직접 가장 음울하고 사악한 마법으로 무기를 담금질 했으며, 어떤 성전군도 감히 불명예스러운 무기를 되찾고자 시도하지 "
+"않았습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DemonsTerrorItem::m_DisplayNameText
@@ -49236,7 +49266,7 @@ msgstr ""
 #. Path = DreadfulOnslaughtBuff::m_DisplayName
 msgctxt "d7c0c640-e115-427d-9e1e-bc415b282d94"
 msgid "Dreadful Onslaught"
-msgstr ""
+msgstr "끔찍한 도살"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = DreadfulOnslaughtItem::m_DescriptionText
@@ -57840,7 +57870,7 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} and immediately remove such effect. This "
 "weapon also has an 18–20 {g|Encyclopedia:Critical}critical{/g} threat range."
 msgstr ""
-"이 +2 무기의 착용자가 조우 당 한번 마비, 비틀거림, 기절, 석화, 속박 상태가 되면 무기의 "
+"이 +2 무기의 착용자가 조우 당 한 번 마비, 비틀거림, 기절, 석화, 속박 상태가 되면 무기의 "
 "{g|Encyclopedia:Damage}피해{/g}를 받는 대신 즉시 해당 효과를 제거합니다. 또한 이 무기는 18-20 "
 "{g|Encyclopedia:Critical}치명타{/g} 범위를 가집니다."
 
@@ -60497,6 +60527,9 @@ msgid ""
 "strike it proves that the powers of kindness and Light are much stronger "
 "than the Abyssal plague."
 msgstr ""
+"영혼 절단기라는 이름의 글레이브는 한 때 데몬의 유혹에 넘어가 정도를 저버린 팔라딘 스턴튼 베인의 것이였습니다. 그의 죽음 이후 성전군의 "
+"클레릭들은 무기를 정화해 어둠의 강화를 제거하여 순수한 신앙의 정수로 벼려내었습니다. 이 글레이브는 매 타격마다 친절함과 빛의 힘이 "
+"심연의 역병보다 훨씬 더 강력함을 증명합니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = StauntonGlaiveMountItem::m_DescriptionText
@@ -60519,6 +60552,8 @@ msgid ""
 "Its adamantine edge is an embodiment of the perfect balance between Dark and "
 "Light."
 msgstr ""
+"영혼 절단기라는 이름의 글레이브는 한 때 용맹한 팔라딘 스턴튼 베인의 소유였습니다. 데몬이 칼날에 그들의 치명적인 주문을 부여했고 성전의 "
+"가장 숙련된 메이지가 자신들의 주문으로 무기를 강화했습니다. 글레이브의 아다만틴 날은 어둠과 빛의 완벽한 균형을 체현했습니다."
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = StonecutterItem::m_DisplayNameText
@@ -60862,7 +60897,7 @@ msgstr ""
 #. Path = TheBlitzCutItem::m_DisplayNameText
 msgctxt "984d54f8-548e-41c2-afa8-a79d8cfd612b"
 msgid "The Blitz Cut Item"
-msgstr ""
+msgstr "전격 절단"
 
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = TheBlitzCutItem::m_DescriptionText
