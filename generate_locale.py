@@ -1,7 +1,7 @@
 import glob
 import json
 
-from pf2bp import TranslationFile
+from translation import TranslationFile
 
 
 translation_data_dict: dict[str, str] = {}
