@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-10-30 17:45+0000\n"
-"Last-Translator: 김옥현 <dhrgusdlrns@naver.com>\n"
+"PO-Revision-Date: 2022-11-01 17:58+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -548,13 +548,12 @@ msgstr ""
 "물이나 얼음, 또는 둘 다로 이루어진 장막으로 당신을 위험으로부터 보호합니다. 장막은 몸에 둘러 갑옷처럼 활용할 수도 있고, 주위를 "
 "떠다니며 {g|Encyclopedia:Attack}공격{/g}을 차단할 수도 있으며, 방패처럼 쓸 수도 있습니다. "
 "{g|Encyclopedia:Armor_Class}AC{/g}에 +4 갑옷 {g|Encyclopedia:Bonus}보너스{/g}를 "
-"부여하거나 AC에 +2 방패 보너스를 부여하며, 일반 동작으로 보너스의 종류를 변경할 수 있습니다. 이 보너스는 2레벨 이후로 "
-"키네티시스트 4 레벨마다 1 씩 증가합니다. 과열 1 점을 받으면 과열이 제거될 때까지 보너스를 1 점 늘릴 수 있습니다. 이런 식으로 "
-"보너스를 여러 번 늘릴 수는 있지만 처음 주어진 보너스의 50% 까지만 늘릴 수 있습니다.\n"
-"방패 보너스를 부여하기 위해 장막을 변경할 때는 이 한도를 초과하는 보너스는 적용되지 않지만, 장막의 보너스 유형을 다시 변경하면 그대로 "
-"남습니다.\n"
-"*역자 주: 장막을 갑옷으로 쓰고 과열 보너스를 최대한 적용한 뒤에 방패로 바꾸면, 방패의 과열 보너스 한도 만큼 보너스가 줄어들지만, "
-"다시 갑옷으로 되돌리면 보너스도 돌아온다는 얘기입니다."
+"부여하거나 AC에 +2 방패 보너스를 부여하며, {g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 해당 "
+"보너스의 종류를 변경할 수 있습니다. 이 보너스는 2레벨 이후로 키네티시스트 4 레벨마다 1 씩 증가합니다. 과열 1 점을 받으면 과열이 "
+"제거될 때까지 보너스를 1 점 늘릴 수 있습니다. 이런 식으로 보너스를 여러 번 늘릴 수는 있지만 처음 주어진 보너스의 50% 까지만 "
+"늘릴 수 있습니다.\n"
+"다른 유형의 보너스를 부여하기 위해 장막을 변경할 때, 과열 적용으로 얻은 추가 보너스는 소급 적용되지 않습니다. 그러나 장막의 보너스 "
+"유형을 원래대로 되돌리면 기존의 유형이 받았던 추가 보너스가 다시 적용됩니다."
 
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = SpellMasterFocusedSpellsResource::LocalizedName
@@ -1681,7 +1680,6 @@ msgstr "배신은 독이다"
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Staunton_Q0::Description
-#, fuzzy
 msgctxt "d14db7c2-f35e-4836-9faa-334eeb14724c"
 msgid ""
 "They say that treason is a poison, one where the traitor's soul is slowly "
@@ -1694,11 +1692,12 @@ msgid ""
 "take its place when everything has been burned to ash?\n"
 "Hatred."
 msgstr ""
-"배신은 독과 같아 배신자의 영혼은 수치심으로 재가 될 때까지 타오른다. 배신자는 죽음의 포옹을 받아들이기 전까지는 죄책감에서 도망칠 수 "
-"없다. 스턴튼 베인은 이 자비를 거부했다. Magrim은 그를 받아들이지 않았고, 이제 전 성전사는 영원히 자신의 불명예로 고통받게 될 "
-"것이다. 어둠 속에서 그의 안도의 한숨이 들린다. 그는 자신이 범한 죄와 그가 방조한 악행들을 고백한다. 배신은 독과 같아 배신자의 "
-"영혼은 수치심으로 재가 될 때까지 타오른다. 그러나 모든 것이 재가 되어버린다면, 무엇이 빈 자리를 차지하는가?\n"
-"증오."
+"배신은 독과 같아 배신자의 영혼은 수치심으로 재가 될 때까지 타오른다고들 한다. 죽음을 받아들이기 전까지는 그 누구도 이 진리에서 도망칠 "
+"수 없다. 스턴튼 베인은 이 자비를 거부했다. 마그림은 그를 받아들이지 않았고, 이제 전 성전사는 자신의 불명예로 인해 영원히 고통받게 "
+"될 것이다. 어둠과 비탄 속에서 그가 읆조리는 소리가 들린다... 자신이 범한 죄와 그가 방조한 악행들을 고백하는 그의 목소리가. 배신은 "
+"독과 같아 배신자의 영혼은 수치심으로 재가 될 때까지 타오른다… 그러나 모든 것이 재가 되어버리고 나면, 무엇이 그 빈 자리를 차지하는가?"
+"\n"
+"증오심이다."
 
 #. Type = Kingmaker.Blueprints.BlueprintCompanionStory
 #. Path = Trever_Q0::Title
@@ -2282,14 +2281,13 @@ msgstr ""
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::CharGen/PregenCharacterNames/m_CharacterNames/17/NameList
-#, fuzzy
 msgctxt "48a243ab-3c22-4818-a106-24af145547bb"
 msgid ""
 "Arken/Davina/Drinma/Imesah/Masozi/Nijena/Niramour/Ondrea/Rhialla/Valtyra/"
 "Egizia/Atiq/Amariqua/Lima/Nela/Kiama/Ntswe/Yaslin/Hisa/Ingvild"
 msgstr ""
-"아르켄/다비나/드린마/이메사/마소지/니제나/니라무어/온드레아/리얄라/발티라/에이지아/아틱/아마리콰/리마/넬라/키아마/Ntswe/"
-"야슬린/히사/잉빌드"
+"아르켄/다비나/드린마/이메사/마소지/니제나/니라무어/온드레아/리얄라/발티라/에이지아/아틱/아마리콰/리마/넬라/키아마/엔츠웨/야슬린/히사/잉"
+"빌드"
 
 #. Type = Kingmaker.Blueprints.Root.BlueprintRoot
 #. Path = BlueprintRoot::CharGen/PregenCharacterNames/m_CharacterNames/18/NameList
@@ -2682,7 +2680,7 @@ msgstr "오염된 동물 고기"
 #. Path = CrookedPawItem::m_DisplayNameText
 msgctxt "daa9cfc6-2be5-42bc-be12-0000624bb548"
 msgid "Crooked Paw"
-msgstr ""
+msgstr "구부러진 발"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = CrystallizedDemonicRageItem::m_DisplayNameText
@@ -3027,7 +3025,7 @@ msgstr "빛나는 갑각"
 #. Path = SkullberryItem::m_DisplayNameText
 msgctxt "83e44b3f-49bf-49f8-aee9-4a09a756b63b"
 msgid "Skullberry"
-msgstr ""
+msgstr "스컬베리"
 
 #. Type = Kingmaker.Craft.BlueprintIngredient
 #. Path = SlimySkinItem::m_DisplayNameText
@@ -3231,7 +3229,7 @@ msgstr ""
 #. Path = GlobalSpellDaringStrike::m_SpellName
 msgctxt "bb721b1d-5362-4174-b25f-952f26e1d54f"
 msgid "Daring Strike"
-msgstr ""
+msgstr "대담한 타격"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellDaringStrike::m_Description
@@ -3385,7 +3383,7 @@ msgstr "대상 부대를 전역 지도에서 적에게 점령되지 않은 지�
 #. Path = GlobalSpellMightyTempest::m_SpellName
 msgctxt "76a1c0f8-a0f2-42b1-bd35-3afc8b3c5201"
 msgid "Mighty Tempest"
-msgstr ""
+msgstr "강력한 태풍"
 
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
 #. Path = GlobalSpellMightyTempest::m_Description
@@ -3687,7 +3685,7 @@ msgstr "받은 피해 합계"
 #. Path = Formation_Auto::Name
 msgctxt "87fdb41f-d9c1-486f-a88b-f447cd63cc01"
 msgid "Optimal Auto Formation"
-msgstr ""
+msgstr "자동 최적 진형"
 
 #. Type = Kingmaker.Formations.BlueprintPartyFormation
 #. Path = Formation_Custom_01::Name
@@ -5565,7 +5563,7 @@ msgctxt "3b91684e-53ae-482f-aac4-79af40e1bbc9"
 msgid ""
 "In the times before the Worldwound, the court hearings were held in this "
 "little fortress. Now it lies in ruins, like so many others."
-msgstr ""
+msgstr "세계상처 이전의 시대에, 왕실 공청회가 이 작은 요새에서 열렸었다. 이제 다른 모든 것들처럼 그 또한 폐허의 일부가 되었다."
 
 #. Type = Kingmaker.Globalmap.Blueprints.BlueprintGlobalMapPoint
 #. Path = Location_BlackWingRuins::Description
