@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-10-31 14:25+0000\n"
+"PO-Revision-Date: 2022-11-06 11:22+0000\n"
 "Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -4271,9 +4271,9 @@ msgstr ""
 "{g|Encyclopedia:Wisdom}지혜{/g}, {g|Encyclopedia:Charisma}매력{/g} 수정치 중 가장 높은 "
 "것을 {g|Encyclopedia:Strength}힘{/g} 수정치로 사용합니다. 역장의 황소 돌진의 "
 "{g|Encyclopedia:CMB}CMB{/g}는 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}을 "
-"{g|Encyclopedia:BAB}기본 공격 보너스{/g}로 사용합니다; 블래스트를 추가로 맞출 때마다 역장의 힘 수정치와 +10 "
-"보너스를 추가합니다. 황소 돌진이 성공하면, 역장은 크리처를 직선 방향으로 밀어내고, 크리처는 "
-"{g|Encyclopedia:Saving_Throw}반사 내성{/g}에 실패하면 쓰러집니다."
+"{g|Encyclopedia:BAB}기본 공격 보너스{/g}로 사용하고, 역장의 힘 수정치와 추가로 적중한 블래스트당 +10 보너스를 "
+"더합니다. 황소 돌진이 성공하면, 역장은 크리처를 직선 방향으로 밀어내고, 크리처는 {g|Encyclopedia:Saving_Throw}"
+"반사 내성{/g}에 실패하면 쓰러집니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = BearsEndurance::m_DisplayName
@@ -34409,13 +34409,13 @@ msgstr "견습생의 손"
 #. Path = UniversalistSchoolEmpowerAbility::m_DisplayName
 msgctxt "f0f677e9-c9e3-41cb-ae50-15a19a350b76"
 msgid "Metamagic Mastery — Empower Spell"
-msgstr "메타매직 숙달 — 주문 강화"
+msgstr "메타매직 숙달 — 강화 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = UniversalistSchoolExtendAbility::m_DisplayName
 msgctxt "494763da-6df3-4273-b87a-c4139d650d70"
 msgid "Metamagic Mastery — Extend"
-msgstr "메타매직 숙달 - 시간 연장"
+msgstr "메타매직 숙달 — 시간 연장 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = UniversalistSchoolExtendAbility::m_Description
@@ -34440,19 +34440,19 @@ msgstr ""
 #. Path = UniversalistSchoolMaximizeAbility::m_DisplayName
 msgctxt "b8a51dc9-d9a9-4fb6-98ed-b0a703d0415c"
 msgid "Metamagic Mastery — Maximize Spell"
-msgstr "메타매직 숙달 — 주문 극대화"
+msgstr "메타매직 숙달 — 극대화 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = UniversalistSchoolQuickenAbility::m_DisplayName
 msgctxt "28ad04df-f4fc-4320-b09e-2c19eeb16a6f"
 msgid "Metamagic Mastery — Quicken Spell"
-msgstr "메타매직 숙달 — 주문 신속화"
+msgstr "메타매직 숙달 — 신속 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = UniversalistSchoolReachAbility::m_DisplayName
 msgctxt "15254242-c39e-4604-94c8-fff05fa73346"
 msgid "Metamagic Mastery — Reach Spell"
-msgstr "메타매직 숙달 — 주문 사거리 연장"
+msgstr "메타매직 숙달 — 거리 연장 주문"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = UniversalistSchoolReachAbility::m_Description
@@ -51215,19 +51215,19 @@ msgstr "초음파 화살통"
 #. Path = UniversalistSchoolEmpowerBuff::m_DisplayName
 msgctxt "586bd1f8-678f-4790-aec6-3d7419f62ce9"
 msgid "Metamagic Mastery — Empower"
-msgstr "메타매직 숙달 - 강화"
+msgstr "메타매직 숙달 — 강화"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = UniversalistSchoolExtendBuff::m_DisplayName
 msgctxt "69088ca3-46e1-449d-9963-0a37c874a37f"
 msgid "Metamagic Mastery — Extend"
-msgstr "메타매직 숙달 - 시간 연장"
+msgstr "메타매직 숙달 — 시간 연장"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = UniversalistSchoolMaximizeBuff::m_DisplayName
 msgctxt "c83419e8-be8f-4f05-b916-0cf21ae49dbe"
 msgid "Metamagic Mastery — Maximize"
-msgstr "메타매직 숙달 - 극대화"
+msgstr "메타매직 숙달 — 극대화"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = UniversalistSchoolQuickenBuff::m_DisplayName
@@ -51239,7 +51239,7 @@ msgstr "메타매직 숙달 — 신속"
 #. Path = UniversalistSchoolReachBuff::m_DisplayName
 msgctxt "b9e37973-1cc5-4ae4-adf5-b907a1ffc662"
 msgid "Metamagic Mastery — Reach"
-msgstr "메타매직 숙달 - 연장"
+msgstr "메타매직 숙달 — 거리 연장"
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = Unlootable::m_DisplayName

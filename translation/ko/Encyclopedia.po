@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-10-03 15:05+0000\n"
-"Last-Translator: Akintos <akintos47@gmail.com>\n"
+"PO-Revision-Date: 2022-11-06 11:22+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -739,7 +739,7 @@ msgstr ""
 #. Path = Charisma::Title
 msgctxt "bdfc093c-8039-4baf-aaa0-be4458d05fbf"
 msgid "Charisma (Cha)"
-msgstr "매력 (Charisma)"
+msgstr "매력 (Charisma, Cha)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Check::Blocks/0/Text
@@ -1610,7 +1610,7 @@ msgstr ""
 #. Path = Dexterity::Title
 msgctxt "45b6dbb9-9c79-467d-8eea-32cf61270698"
 msgid "Dexterity (Dex)"
-msgstr "민첩 (Dexterity)"
+msgstr "민첩 (Dexterity, Dex)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Dialogue_Skill_Checks::Blocks/0/Text
@@ -2100,7 +2100,7 @@ msgstr ""
 #. Path = Healing::Title
 msgctxt "22ec1ab1-01cd-458b-89d6-b1cde81496fe"
 msgid "Healing"
-msgstr "치유"
+msgstr "치유 (Healing)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Health_and_Death::Blocks/0/Text
@@ -2309,7 +2309,7 @@ msgstr ""
 #. Path = Initiative::Title
 msgctxt "83a0df4d-65b8-418a-b398-32f36a93ff77"
 msgid "Initiative"
-msgstr "우선권"
+msgstr "우선권 (Initiative)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Injury_Death::Blocks/0/Text
@@ -2359,7 +2359,7 @@ msgstr ""
 #. Path = Injury_Death::Title
 msgctxt "9c520f78-5bb9-4ce6-a28c-9921d410ab65"
 msgid "Injury and Death"
-msgstr "부상과 죽음"
+msgstr "부상과 죽음 (Injury and Death)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Inspect::Blocks/0/Text
@@ -2389,7 +2389,7 @@ msgstr ""
 #. Path = Inspect::Title
 msgctxt "9a9cb8e8-3d65-407a-baa4-1996382f8b51"
 msgid "Inspecting a creature"
-msgstr "크리처 조사"
+msgstr "크리처 조사 (Inspecting a creature)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Intelligence::Blocks/0/Text
@@ -2423,7 +2423,7 @@ msgstr ""
 #. Path = Intelligence::Title
 msgctxt "790ad56e-693f-4fe7-b329-dbe45d04c08f"
 msgid "Intelligence (Int)"
-msgstr "지능 (Int)"
+msgstr "지능 (Intelligence, Int)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Journal::Blocks/0/Text
@@ -2508,17 +2508,17 @@ msgid ""
 msgstr ""
 "무기 클래스란 전투에서 무기를 다루기 위해 들어가는 노력의 척도입니다.\n"
 "<b>경량 무기<b>\n"
-"경량무기는 한손으로 다룰 수 있으며 주무기로 장착했을 때 보다 보조무기로 장착한 경우에 다루기가 더 쉽습니다. 주 무기로 "
+"경량무기는 한손으로 다룰 수 있으며 보조 손으로 사용할 때 한손 무기보다 더 다루기 쉽습니다. 주 무기로 "
 "{g|Encyclopedia:MeleeAttack}근접 공격{/g}을 할 때는 착용자의 "
 "{g|Encyclopedia:Strength}힘{/g} 수정치가 {g|Encyclopedia:Damage}피해{/g} "
 "{g|Encyclopedia:Dice}굴림{/g}에 더해지며 보조 무기로 공격시에는 힘 "
-"{g|Encyclopedia:Bonus}보너스{/g}의 절반만이 적용됩니다. 양손으로 경량 무기를 사용중일 경우에는 마치 주 무기만 "
-"장착한 것 처럼 힘 보너스가 더해집니다.\n"
-"{g|Encyclopedia:UnarmedAttack}비무장{/g} 일격은 항상 경량 무기로 간주됩니다.\n"
+"{g|Encyclopedia:Bonus}보너스{/g}의 절반만이 적용됩니다. 양손으로 경량 무기를 사용중일 경우에는 주 손만 사용하는 "
+"것처럼 힘 보너스가 더해집니다.\n"
+"{g|Encyclopedia:UnarmedAttack}비무장{/g} 타격은 항상 경량 무기로 간주됩니다.\n"
 "<b>한손 무기<b>\n"
 "한손 무기는 주 무기나 보조 무기 모두로 사용될 수 있습니다. 주 무기 근접공격에는 착용자의 힘 수정치가 피해 굴림에 더해지며 보조 "
-"무기에는 절반만이 더해집니다. 만약 근접 전투중에 한손무기를 양손으로 사용중이라면 피해 굴림에 캐릭터의 힘 수정치의 1.5배가 피해 "
-"굴림에 더해집니다.\n"
+"무기에는 절반만이 더해집니다. 만약 근접 전투중에 한손 무기를 양손으로 사용중이라면 피해 굴림에 캐릭터의 힘 수정치의 1.5배가 "
+"더해집니다.\n"
 "<b>양손 무기<b>\n"
 "양손 무기를 효과적으로 다루기 위해서는 양손을 사용해야합니다. 이런 무기로 가해진 근접 공격의 피해 굴림에는 캐릭터의 힘 수정치의 "
 "1.5배가 더해집니다."
@@ -2527,7 +2527,7 @@ msgstr ""
 #. Path = Light_Weapon::Title
 msgctxt "bca855bc-52ed-4e4b-bb76-2088f30ea662"
 msgid "Light Weapon, One-Handed or Two-Handed"
-msgstr "경량 무기, 한손 또는 양손 (Light Weapon, One-Handed or Two-Handed)"
+msgstr "경량, 한손 또는 양손 무기(Light Weapon, One-Handed or Two-Handed)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Lore_Nature::Title
@@ -2559,7 +2559,7 @@ msgstr ""
 #. Path = Magic_School::Title
 msgctxt "47dce4d2-cd80-453c-95bb-23a049da33c8"
 msgid "Schools of magic"
-msgstr "마법 학파"
+msgstr "마법학파 (Schools of magic)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Map_Movement::Blocks/0/Text
@@ -2714,7 +2714,7 @@ msgstr ""
 #. Path = Move_Action::Title
 msgctxt "95079738-a763-492a-8f68-2e8c27564fb6"
 msgid "Move Action"
-msgstr "이동 행동"
+msgstr "이동 행동 (Move Action)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = NaturalAttack::Blocks/0/Text
@@ -2889,7 +2889,7 @@ msgstr ""
 #. Path = Range::Title
 msgctxt "fa5be50d-d7f0-4159-b7c2-ed2a85d41513"
 msgid "Range"
-msgstr "사거리"
+msgstr "사거리 (Range)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = RangedAttack::Blocks/0/Text
@@ -2922,7 +2922,7 @@ msgstr ""
 #. Path = RangedAttack::Title
 msgctxt "03a32773-3128-4dc3-bbb7-b2e8046c3140"
 msgid "Ranged Attacks"
-msgstr "원거리 공격"
+msgstr "원거리 공격 (Ranged Attacks)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Reach::Blocks/0/Text
@@ -3144,7 +3144,7 @@ msgstr ""
 #. Path = Saving_Throws_Results::Title
 msgctxt "124d712a-0c33-4880-bbdc-1277ecd334d9"
 msgid "Saving Throws"
-msgstr "내성 굴림"
+msgstr "내성 굴림 (Saving Throws)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Scrolls::Blocks/0/Text
@@ -3426,7 +3426,7 @@ msgstr ""
 #. Path = Special_Movement::Title
 msgctxt "c0d204fb-ae80-4d39-8d64-4a4b5aaec6bd"
 msgid "Special Movement Rules"
-msgstr "특별 이동 규칙"
+msgstr "특별 이동 규칙 (Special Movement Rules)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Speed::Blocks/0/Text
@@ -3740,7 +3740,7 @@ msgstr ""
 #. Path = Strength::Title
 msgctxt "63f9b6bc-99ad-4975-b18a-38d680050db7"
 msgid "Strength (Str)"
-msgstr "힘 (Str)"
+msgstr "힘 (Strength, Str)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Surprise::Blocks/0/Text
@@ -3817,7 +3817,7 @@ msgstr ""
 #. Path = Tactical_Movement::Title
 msgctxt "c788f4ab-200e-42cd-9444-586cc6142fa4"
 msgid "Tactical Movement"
-msgstr "전략적 이동"
+msgstr "전략적 이동 (Tactical Movement)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = Temporary_HP::Blocks/0/Text
@@ -5363,7 +5363,7 @@ msgstr ""
 #. Path = Wisdom::Title
 msgctxt "83cb2d5f-58a6-4eec-af7d-720def5cdb6c"
 msgid "Wisdom (Wis)"
-msgstr "지혜 (Wis)"
+msgstr "지혜 (Wisdom, Wis)"
 
 #. Type = Kingmaker.Blueprints.Encyclopedia.BlueprintEncyclopediaPage
 #. Path = XP::Blocks/0/Text
