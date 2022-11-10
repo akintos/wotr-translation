@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2022-11-06 11:22+0000\n"
+"PO-Revision-Date: 2022-11-10 12:47+0000\n"
 "Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -4114,7 +4114,7 @@ msgstr ""
 #. Path = Bane::m_DisplayName
 msgctxt "023509d4-0079-4943-a2a8-4bacdf355a1e"
 msgid "Bane"
-msgstr "파멸"
+msgstr "해악"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = Bane::m_Description
@@ -8329,7 +8329,7 @@ msgid ""
 "immune to this effect.[LONGSTART] Cause fear dispels remove fear.[LONGEND]"
 msgstr ""
 "대상 크리처는 겁먹음 상태가 됩니다. 대상이 {g|Encyclopedia:Saving_Throw}의지 내성{/g}에 성공하면 겁먹음 상태 "
-"대신 1{g|Encyclopedia:Combat_Round}라운드{/g} 동안 동요 상태가 됩니다. 6 HD 이상의 크리처는 이 효과에 "
+"대신 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 동요 상태가 됩니다. 6 HD 이상의 크리처는 이 효과에 "
 "면역입니다.[LONGSTART] 공포 유발은 공포 제거 주문을 해제합니다.[LONGEND]"
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -11792,7 +11792,7 @@ msgid ""
 "within its chest."
 msgstr ""
 "부정한 기도를 암송하며 대상을 움켜쥐는 동작을 취하면 가슴 속에 있던 심장이 빠져나와 당신의 손에 쥐어집니다.\n"
-"200 이하의 {g|Encyclopedia:HP}생명점{/g을 가진 대상은 {g|Encyclopedia:Saving_Throw}내성 "
+"200 이하의 {g|Encyclopedia:HP}생명점{/g}을 가진 대상은 {g|Encyclopedia:Saving_Throw}내성 "
 "굴림{/g}에 실패하면 즉시 죽습니다.\n"
 "201 이상의 생명점을 가진 대상은 내성 굴림에 실패하면 심장이 빠져나가진 않지만 1 분 동안 비틀거리고 "
 "{g|Encyclopedia:Dice}1d4{/g} 점의 {g|Encyclopedia:Constitution}건강{/g}이 소진되고 "
@@ -12171,7 +12171,7 @@ msgctxt "71f9f73f-6251-4417-aeb8-8c00f779eb5c"
 msgid ""
 "You take the form of a kalavakus, getting its powerful charge and horns "
 "abilities."
-msgstr "칼라바쿠스의 형태를 취해, 강력한 돌격 능력과 뿔들을 얻습니다."
+msgstr "칼라바쿠스의 형태를 취해, 강렬한 돌진 능력과 뿔을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DemonicFormIINabasu::m_DisplayName
@@ -12198,7 +12198,7 @@ msgstr "악마의 형태 — 쉬르"
 #. Path = DemonicFormISchir::m_Description
 msgctxt "61ab9654-4dd2-42f2-8b0b-e8a4e4bd2e11"
 msgid "You take the form of a schir, getting its powerful charge ability."
-msgstr "당신은 쉬르의 형태를 취해, 강력한 돌진 능력을 얻습니다."
+msgstr "당신은 쉬르의 형태를 취해, 강렬한 돌진 능력을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = DemonicFormIV::m_DisplayName
@@ -16274,7 +16274,7 @@ msgid ""
 msgstr ""
 "모든 크리처가 존재하는 목적은 단 하나, 바로 당신에게 복종하는 것입니다. 대상은 용도변경 주문의 효과를 받으나 "
 "{g|Encyclopedia:Damage}피해{/g}는 {g|Encyclopedia:Combat_Round}라운드{/g}당 "
-"{g|Encyclopedia:Dice}2d6{/g}이 됩니다. 그 후 대상은 {g|Encyclopedia:Saving_Throw}인내 "
+"{g|Encyclopedia:Dice}2d6{/g}입니다. 그 후 대상은 {g|Encyclopedia:Saving_Throw}인내 "
 "내성{/g}을 시도하여 실패 시 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 당 10 피해를 입습니다.\n"
 "용도변경: 당신은 대상에 복종의 저주를 내립니다. 2 시전자 레벨당 1 라운드 동안, 대상은 매 라운드 마다 1d6 피해를 입습니다. 이 "
 "효과가 적용되는 중에 대상이 사망하면 {g|Encyclopedia:Injury_Death}사망{/g}이후 시전자에게 지배되는 언데드 "
@@ -20430,7 +20430,7 @@ msgstr ""
 "{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage_Type}부수기 피해{/g}) 받습니다. "
 "그리고 구덩이가 수축했다가 본래 {g|Encyclopedia:Size}크기{/g}로 돌아오면서 안에 있는 누구나 매 라운드 4d6 점의 "
 "부수기 피해를 (반사 내성 성공시 절반) 받습니다. 구덩이의 계속해서 변화하는 벽은 상당히 오르기 힘들어서 오르려면 "
-"{g|Encyclopedia:DC}DC{/g}의 {g|Encyclopedia:Athletics}운동{/g}이나 "
+"{g|Encyclopedia:DC}DC{/g} 35의 {g|Encyclopedia:Athletics}운동{/g}이나 "
 "{g|Encyclopedia:Mobility}기동성{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 성공해야 합니다. "
 "{g|Encyclopedia:Spell}주문{/g}의 지속 시간이 끝나면, 구멍 안의 크리처가 서 있는 구덩이의 바닥이 지면까지 "
 "솟아오르는 데 한 라운드의 시간이 걸립니다."
@@ -24761,7 +24761,7 @@ msgstr ""
 "{g|Encyclopedia:Saving_Throw}내성{/g}에 실패한 크리처는 당신을 신성한 존재로 여기면서 땅에 엎드려 절을 하고, "
 "지속시간 동안 위축 상태가 됩니다. 다음 라운드 부터 대상은 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
 "다시 내성을 시도해 성공하면 주문의 효과를 끝낼 수 있습니다. 1 라운드 이상 영향을 받고나서 주문에서 풀려날 경우 "
-"{g|Encyclopedia:Dice}1d6{/g 점의 {g|Encyclopedia:Wisdom}지혜{/g}가 소진되고 1d4 라운드 "
+"{g|Encyclopedia:Dice}1d6{/g}점의 {g|Encyclopedia:Wisdom}지혜{/g}가 소진되고 1d4 라운드 "
 "동안 비틀거립니다. 처음부터 내성에 성공한 크리처는 1 라운드의 비틀거림 외에는 영향을 받지 않습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -34057,7 +34057,7 @@ msgstr ""
 "또한, 모든 크리처는 이 {g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:DC}DC{/g}에 대하여 "
 "{g|Encyclopedia:Combat_Maneuvers}전법{/g} {g|Encyclopedia:Check}판정{/g}, "
 "{g|Encyclopedia:Athletics}운동 판정{/g}, {g|Encyclopedia:Mobility}기동성 판정{/g} 중 "
-"하나를 성공하지 못하면 쓰러져서 파도에 떠내려 갑니다..\n"
+"하나를 성공하지 못하면 쓰러져서 파도에 떠내려 갑니다.\n"
 "이동의 자유는 크리처가 쓰나미에 의해 운반되는 것을 방지하지만 피해를 막지는 못합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -36284,7 +36284,7 @@ msgstr ""
 #. Path = AnimalFocusStagAnimalBuff::m_DisplayName
 msgctxt "4dc5e679-6630-4d54-b71d-874da1f8daaf"
 msgid "Animal Focus — Stag"
-msgstr "동물 중점 — 수사슴"
+msgstr "동물 중점화 — 수사슴"
 
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = AnimalFocusStag::m_Description
