@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2023-08-19 09:53+0000\n"
-"Last-Translator: theGunner <gunblur@hotmail.com>\n"
+"PO-Revision-Date: 2023-08-20 13:53+0000\n"
+"Last-Translator: Lee Jonghyun <gyoyocar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -449,7 +449,7 @@ msgstr "\"출구가 어디지?!\""
 msgctxt "04ff232e-2cb9-4aca-a5e4-e3f7d89446ec"
 msgid ""
 "\"What in the... Ah, Commander! This is another one of your jokes, huh?\""
-msgstr ""
+msgstr "\"이게 무슨...아, 사령관님! 또 농담하시는거죠, 네?"
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction 3::Action/Actions/0/IfFalse/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
@@ -644,25 +644,25 @@ msgstr ""
 msgctxt "9bd28bc1-4d88-4784-8e93-05dd0a084521"
 msgid ""
 "\"The main demon force is otherwise engaged. We can't waste this chance!\""
-msgstr ""
+msgstr "\"데몬들의 주 병력은 발이 묶여 있습니다. 이 기회를 버릴 수는 없습니다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction 6::Action/Actions/0/Actions/2/Action/Actions/0/IfFalse/Actions/0/IfTrue/Actions/0/WhatToBark
 msgctxt "aaaa5e64-1863-406f-8ddb-e95135102ab6"
 msgid "\"They're really on a rampage! Anyways, ready to get to work?\""
-msgstr ""
+msgstr "\"저 녀석들 난리 났군요! 어쨌든, 준비는 됐습니까?\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction 7::Action/Actions/0/WhatToBark
 msgctxt "b3cc2dec-0c40-4e9e-97e9-7c1ce2945c6c"
 msgid "\"You are free. Run for your life, and I will show you the way out.\""
-msgstr ""
+msgstr "\"당신은 안전합니다. 목숨을 구하고 싶으면 달아나시오. 내가 나가는 길을 알려 줄테니.\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction 8::Action/Actions/0/WhatToBark
 msgctxt "ebdf6222-1e71-41c3-8712-74d0b4cc338b"
 msgid "\"Hurry. I will tell you where to go.\""
-msgstr ""
+msgstr "\"서두르시오. 어디로 가야 하는지 알려 주겠소.\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction 9::Action/Actions/0/WhatToBark
@@ -697,7 +697,7 @@ msgstr "할"
 #. Path = BrokenPlayersPhylactery_temp::m_DisplayNameText
 msgctxt "aa535b98-46cc-4b72-9f0f-28ec659512ac"
 msgid "Broken Phylactery"
-msgstr ""
+msgstr "부서진 성물함"
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/OnSummmon/Actions/4/IfTrue/Actions/0/Loot/0/Item/m_DescriptionText
@@ -710,12 +710,14 @@ msgid ""
 "then destroyed it in a great act of treachery. The destruction of the "
 "phylactery kept his apprentice from attaining immortality."
 msgstr ""
+"언데드 위저드인 자카리우스는 그의 제자를 위해 이 혼의 그릇을 만들었으며, 배반당하자 이 것을 파괴했습니다. 이 성물함의 파괴는 그의 "
+"제자로 하여금 불멸성을 얻지 못하게 하였습니다."
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/OnSummmon/Actions/3/WhatToBark
 msgctxt "d9a8d8f2-6151-42a8-be67-87041aae5821"
 msgid "\"There you are! I'm going to spill some of your blood now!\""
-msgstr ""
+msgstr "\"여기 있었군! 네 피를 좀 흘리게 해야겠다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/1/IfTrue/Actions/0/WhatToBark
@@ -739,7 +741,7 @@ msgstr "\"내 거야! 이 반지는 내 거야! 너는 날 잡을 수 없을 거
 #. Path = CommandAction::Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "50fba792-dbee-4eab-a333-97e8d9ecb0bd"
 msgid "\"Ugh... I guess we made it...\""
-msgstr ""
+msgstr "\"어... 아무래도 해낸 거 같은데...\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/1/Action/Actions/0/WhatToBark
@@ -748,7 +750,7 @@ msgstr ""
 #. Path = HiddenSolderBarks::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "d32ca905-02ce-40cf-9508-9c74d2f7f816"
 msgid "\"Don't relax just yet! The battle isn't over!\""
-msgstr ""
+msgstr "\"안심은 아직이야! 전투는 끝나지 않았다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -763,7 +765,7 @@ msgstr "\"우리가 승리했다! 아이오메데를 찬양하라!\""
 #. Path = WoundedSolderBarks::Actions/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "8108d2e5-2c56-4666-ab1f-2065d4be3c77"
 msgid "\"We need to tend to our wounds...\""
-msgstr ""
+msgstr "\"우리는 상처를 치료해야 해...\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/4/Action/Actions/0/WhatToBark
@@ -772,7 +774,7 @@ msgstr ""
 #. Path = HiddenSolderBarks::Actions/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "2eaf9e71-46cc-42ef-8c02-329fc1d76fe5"
 msgid "\"We are overpowering them, Commander! Victory will be ours!\""
-msgstr ""
+msgstr "\"우리가 저들을 압도하고 있습니다, 사령관님! 승리는 우리 것이 될 것입니다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/1/WhatToBark
@@ -790,25 +792,25 @@ msgstr ""
 #. Path = NocticulaBigCircle_ButtonActions_7::Actions/Actions/11/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "8e8987ab-eedd-4d72-9b7a-eb02bf02c110"
 msgid "\"Have you decided to play my game? Good.\""
-msgstr ""
+msgstr "\"내가 만든 판에 올라오기로 결정했나? 좋아.\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "482c0a0c-9735-4512-ae77-f64a75cc7ee4"
 msgid "\"Somebody help me!\""
-msgstr ""
+msgstr "\"누가 좀 도와줘!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "7dfb88ed-c7c7-4ba1-8f67-9ee5f8886296"
 msgid "\"Let me out! I'm suffocating!\""
-msgstr ""
+msgstr "\"내보내 줘! 숨이 막힌다고!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "f81370dc-e0d5-4971-851d-e707934863f8"
 msgid "\"Open this damned door! Please, somebody open the door!\""
-msgstr ""
+msgstr "\"이 빌어먹을 문을 열어! 제발, 누가 문 좀 열어줘!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -820,7 +822,7 @@ msgstr "\"지친 방랑자여, 내게로 서둘러 오너라!\""
 #. Path = CommandAction::Action/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "51181848-f758-4b25-9bff-d1cc14eba15e"
 msgid "\"Um, ah... The next line is... Where's that scrap of paper... Aha!\""
-msgstr ""
+msgstr "\"음, 아...다음 줄은...그 종이 쪼가리가 어디 갔지... 아하!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/2/Action/Actions/0/WhatToBark
@@ -847,6 +849,7 @@ msgid ""
 "The statue of the Lady in Shadow seems to look directly at you. Her smile is "
 "arch, and slightly intrigued."
 msgstr ""
+"그림자의 여주인을 조각한 상은 당신을 똑바로 바라보는 것처럼 보인다. 그녀의 미소는 아치 모양을 그리며, 약간 흥미로워하고 있다."
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
@@ -856,12 +859,14 @@ msgid ""
 "should get your weapon while my enchantments cover you — or say goodbye to "
 "it forever.\""
 msgstr ""
+"\"네 장비를 되찾으려고 하지도 않고 탈출하려 했나? 내 마법이 너를 감싸줄 때 무기를 챙겨야 할 것이다 - 아니면 영영 찾지 못하거나."
+"\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
 msgctxt "9b1880ea-e67b-4981-8a22-137700dd0896"
 msgid "The tag on the skull reads, \"Specimen 367 — Finnean Dismar.\""
-msgstr ""
+msgstr "해골에 붙은 태그는 다음과 같이 적혀 있다: \"367번 견본 - 피니언 디스마르\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/OnSummmon/Actions/3/WhatToBark
@@ -879,19 +884,19 @@ msgstr "\"{Name}님께서 함께 하신다! 사령관님을 위하여!\""
 #. Path = CommandAction::Action/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "405b1235-bff1-4c8e-bb5e-2f9694d5647c"
 msgid "\"Slaughter the demons!\""
-msgstr ""
+msgstr "\"데몬들을 도륙하라!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "96e2aad8-e608-452f-9b4a-19108f117535"
 msgid "\"This is for Kenabres!\""
-msgstr ""
+msgstr "\"이건 케나브레스의 몫이다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/3/Action/Actions/0/WhatToBark
 msgctxt "e17925b2-e1ff-4dce-a3a7-87e3356b19df"
 msgid "\"Drezen will be free!\""
-msgstr ""
+msgstr "\"드레젠은 자유를 찾을 것이다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/4/Action/Actions/0/WhatToBark
@@ -900,7 +905,7 @@ msgstr ""
 #. Path = CommandBark 8::SharedText/String
 msgctxt "8128e973-30ff-400e-a63e-fee45240f600"
 msgid "\"Crusaders, onward!\""
-msgstr ""
+msgstr "\"성전사들이여, 전진하라!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/ActionsOnSpawn/Actions/0/WhatToBark
@@ -908,25 +913,25 @@ msgctxt "4d1929ef-45ec-42d0-999b-50da1d34ba76"
 msgid ""
 "\"Why do we need these pathetic cultists? Mortals can't fight. They're only "
 "good for eating!\""
-msgstr ""
+msgstr "\"왜 우리가 저 한심한 사교도들을 도와줘야 하지? 필멸자들은 싸움에 쓸모가 없다. 단지 맛만 좋을 뿐이지!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
 msgctxt "c112ec19-c442-41f5-851f-6f30cd2c8f1d"
 msgid "\"Kill me! Please! I can't take it anymore!\""
-msgstr ""
+msgstr "\"죽여 주시오! 제발! 더 이상 견딜 수 없소!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "c157f2c9-a62c-4862-8c96-f29473df5421"
 msgid "\"Water, please... Just a drop of water...\""
-msgstr ""
+msgstr "\"물을, 제발...물 한 방울이라도...\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/2/Action/Actions/0/WhatToBark
 msgctxt "a0eee348-a0fe-49de-a6bc-ba59d228c19c"
 msgid "\"Light... I haven't seen the sun for an eternity...\""
-msgstr ""
+msgstr "\"빛을...태양을 보지 못한 지 영겁의 세월이 흘렀소...\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/3/Action/Actions/0/WhatToBark
@@ -950,7 +955,7 @@ msgstr "\"헵자미라님! 다 말하겠습니다! 전부 다! 제발 풀어 주
 #. Path = Ygefeles_OldWoman::LocalizedName/String
 msgctxt "40ba173f-886b-4931-962c-06cebafdf51a"
 msgid "Ygefeles"
-msgstr ""
+msgstr "이게펠레스"
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
@@ -992,7 +997,7 @@ msgstr "\"나는 답이다. 그러면 질문은 무엇인가?\""
 #. Path = CommandAction::Action/Actions/0/WhatToBark
 msgctxt "e0b4aa89-3ba4-41bf-bcf9-ea360780373a"
 msgid "\"Oh no — I won't surrender to you just like that. Try and find me!\""
-msgstr ""
+msgstr "\"오 안되지 - 네게 그냥 항복하지는 않겠어. 한 번 나를 찾아 봐!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/0/Action/Actions/0/WhatToBark
@@ -1000,13 +1005,13 @@ msgctxt "fe05d0e1-5a1f-4b85-9bf0-5da87caed97d"
 msgid ""
 "\"Have you heard about the fresh arrival? The mistress ordered a careful "
 "watch be set on {mf|him|her}, but {mf|he|she} escaped.\""
-msgstr ""
+msgstr "\"이번에 온 사람들에 대해 들었어? 여주인께서는 그 녀석을 잘 지켜보라고 하셨지만, 녀석은 탈출했지.\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/Actions/1/Action/Actions/0/WhatToBark
 msgctxt "6ef3f5af-1af1-4ffc-b22a-e812bd240880"
 msgid "\"{mf|He|She} won't get away. No one can escape the Ivory Labyrinth.\""
-msgstr ""
+msgstr "\"녀석은 도망치지 못할거야. 상아 미궁을 탈출한 자는 아무도 없어.\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
@@ -1033,7 +1038,7 @@ msgstr "할라셀리악스"
 #. Path = CommandAction::Action/Actions/1/WhatToBark
 msgctxt "6ac41a12-5c82-4ad1-9cf8-f54d6715bc52"
 msgid "\"What have you done, ruffian?\""
-msgstr ""
+msgstr "\"무슨 짓을 한거냐, 깡패 놈아?\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/1/IfTrue/Actions/0/AfterTeleport/Actions/1/OnSummmon/Actions/2/Loot/0/Item/m_DisplayNameText
@@ -1071,26 +1076,26 @@ msgid ""
 "rebellion started against the Lady of Graves by a necromancer named {name}."
 msgstr ""
 "이 투구는 파라즈마의 전령의 피로 얼룩져 있다. 이 투구에는 파라즈마에게 드리는 기도가 다양한 언어로 새겨져 있다. 새겨진 글은 무덤의 "
-"여인을 찬양하며, 그녀의 법을 어기는 자에게 벌을 약속하는 내용이다.  윤기 나는 강철의 빛은 한때 파라즈마의 영웅의 심장을 용기로 "
+"여인을 찬양하며, 그녀의 법을 어기는 자에게 벌을 약속하는 내용이다. 윤기 나는 강철의 빛은 한때 파라즈마의 영웅의 심장을 용기로 "
 "채웠으나, 이제는 {name}(이)라 불리던 네크로맨서가 무덤의 여인에게 일으켰던 대담한 반란의 암울한 기억만을 담고 있다."
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
 msgctxt "e1c61748-3907-46ad-937e-9c47dd2b423d"
 msgid "\"Run, before you become one of us...\""
-msgstr ""
+msgstr "\"도망쳐라, 우리처럼 되기 전에...\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/NewName
 msgctxt "20db3eed-cf78-4f6e-a9de-c7704581e7e6"
 msgid "Foulsnout"
-msgstr ""
+msgstr "파울스나웃"
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
 msgctxt "7585d046-55c8-440e-a746-9f412eb2a50b"
 msgid "\"...and then he died, and no one knows...\""
-msgstr ""
+msgstr "\"...그리고 그는 죽었고, 누구도 알지 못했다...\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/OnSummmon/Actions/4/WhatToBark
@@ -1099,7 +1104,7 @@ msgstr ""
 #. Path = CommandAction::Action/Actions/0/OnSummmon/Actions/4/WhatToBark
 msgctxt "41df30e0-6b44-4d3f-84a4-b9d1a0d8da8d"
 msgid "\"You're here! I can smell you!\""
-msgstr ""
+msgstr "\"여기 있구나! 네 냄새가 난다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
@@ -1107,7 +1112,7 @@ msgctxt "ac11f561-24b7-4bad-8087-48ba02bb4dca"
 msgid ""
 "\"...one old Kellid told this my brothers and me on his deathbed, and then "
 "he died, and no one knows but us...\""
-msgstr ""
+msgstr "\"...한 늙은 켈리드가 내 형제들과 내게 죽기 전에 말해주고는 죽었지. 그래서 우리 말고는 아무도 몰라...\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/1/ActionsOnSpawn/Actions/0/NewName
@@ -1137,7 +1142,7 @@ msgstr "\"이봐, 지상인들! 와서 내 물건 봐봐!\""
 #. Path = CommandAction::Action/Actions/0/IfTrue/Actions/0/WhatToBark
 msgctxt "f9497177-8281-4381-8db6-4d18893c74c9"
 msgid "Ouch!"
-msgstr ""
+msgstr "악!"
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction::Action/Actions/0/WhatToBark
@@ -1154,13 +1159,13 @@ msgstr ""
 #. Path = CommandAction::Action/Actions/0/WhatToBark
 msgctxt "c99a0585-40b4-46d6-9682-3dcaa084edea"
 msgid "\"Well, are we going?\""
-msgstr ""
+msgstr "\"그래서, 출발하나?\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction1::Action/Actions/0/WhatToBark
 msgctxt "0d71a3dd-8762-46c0-bc00-3f3d7ecb53f1"
 msgid "\"Welcome, Chief Khara.\""
-msgstr ""
+msgstr "\"환영하오, 카하라 족장이여.\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction1::Action/Actions/0/WhatToBark
@@ -1169,6 +1174,7 @@ msgid ""
 "\"What are you eating back there? It sounds so tasty — I can hear you "
 "smacking your lips! I want some too!\""
 msgstr ""
+"\"저 뒤에서 네가 먹고 있는 게 뭐야? 정말 맛있는 소리가 나는데 - 네 입술이 서로 부딪히는 소리가 난다고! 나도 좀 줘!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction1::Action/Actions/0/WhatToBark
@@ -1180,7 +1186,7 @@ msgstr ""
 #. Path = CommandBark2::SharedText/String
 msgctxt "fa6833fe-dc68-480d-bab6-16df24606d96"
 msgid "\"Ha ha! Well met! Your city is burning, and you'll burn with it!\""
-msgstr ""
+msgstr "\"하하! 잘 만났군! 너의 도시는 불타고 있고, 너도 같이 타오를 것이다!\""
 
 #. Type = Kingmaker.AreaLogic.Cutscenes.CommandAction
 #. Path = CommandAction2::Action/Actions/0/WhatToBark
