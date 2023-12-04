@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-12 09:46+0900\n"
-"PO-Revision-Date: 2023-11-30 02:37+0000\n"
+"PO-Revision-Date: 2023-12-04 16:37+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -841,7 +841,7 @@ msgid ""
 "equal to your level."
 msgstr ""
 "10 레벨에, 아군을 {g|Encyclopedia:TouchAttack}접촉{/g}하여 1분 동안 비행 능력을 줍니다 (날개). 아군이 "
-"돌격 {g|Encyclopedia:Attack}공격{/g}을 성공할 때 마다, 해당 공격이 당신의 레벨과 동일한 피해를 추가로 가합니다."
+"돌격 {g|Encyclopedia:Attack}공격{/g}을 성공할 때마다, 해당 공격이 당신의 레벨과 동일한 피해를 추가로 가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AirBlessingMinorAbility::m_DisplayName
@@ -2530,7 +2530,7 @@ msgstr ""
 "1레벨에 동료 하나와 접촉하여 야성적 특성을 부여할 수 있습니다. 동료는 중형인 경우 {g|Encyclopedia:Dice}1d6{/g}"
 "점의 {g|Encyclopedia:Damage}피해{/g}를 가하는 2번의 발톱 {g|Encyclopedia:Attack}공격{/g}을 "
 "얻고 소형인 경우 1d4 피해의 공격을 얻습니다. 이는 주 {g|Encyclopedia:NaturalAttack}자연 공격{/g}이므로 "
-"대상 동료가 가진 어떠한 주 자연 공격이던 대체합니다. 이 효과는 1분 동안 지속됩니다."
+"대상 동료가 가진 주 자연 공격을 무엇이든 대체합니다. 이 효과는 1분 동안 지속됩니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = AnimalGrowth::m_DisplayName
@@ -7970,7 +7970,7 @@ msgstr ""
 "지정 범위 내의 모든 크리처에 영향을 미칩니다. 번개를 즉시 내려칠 필요는 없습니다. 주문 시전을 포함한 다른 "
 "{g|Encyclopedia:CA_Types}행동{/g}을 먼저 할 수도 있습니다. 첫 라운드 이후 매 라운드 마다 주문에 "
 "{g|Encyclopedia:Concentration}집중{/g}하여 {g|Encyclopedia:Standard_Actions}일반 "
-"행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때 마다, 주문의 지속시간이 1 분 씩 줄어듭니다."
+"행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때마다, 주문의 지속시간이 1 분 씩 줄어듭니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CallLightningAbility::m_DisplayName
@@ -8029,7 +8029,7 @@ msgstr ""
 "지정 범위 내의 모든 크리처에 영향을 미칩니다. 번개를 즉시 내려칠 필요는 없습니다. 주문 시전을 포함한 다른 "
 "{g|Encyclopedia:CA_Types}행동{/g}을 먼저 할 수도 있습니다. 첫 라운드 이후 매 라운드 마다 주문에 "
 "{g|Encyclopedia:Concentration}집중{/g}하여 {g|Encyclopedia:Standard_Actions}일반 "
-"행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때 마다, 주문의 지속 시간이 1 분씩 줄어듭니다."
+"행동{/g}으로 번개를 내려칠 수 있습니다. 번개를 불러낼 때마다, 주문의 지속 시간이 1 분씩 줄어듭니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = CallLightningStormAbility::m_DisplayName
@@ -12506,7 +12506,7 @@ msgid ""
 "the damage is increased to 3d6 damage per caster level. If the damage kills "
 "the target, you regain 10 {g|Encyclopedia:HP}hit points{/g} per caster level."
 msgstr ""
-"대상에 근접 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 적중 시킬 때 마다 "
+"대상에 근접 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 적중 시킬 때마다 "
 "{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 강제합니다. 내성에 성공한 경우 "
 "{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d6{/g} "
 "{g|Encyclopedia:Damage}피해{/g}를 입습니다. 내성 굴림에 실패한 경우 피해는 시전자 레벨 당 3d6 으로 "
@@ -13826,10 +13826,10 @@ msgid ""
 msgstr ""
 "{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 적이 자신의 "
 "{g|Encyclopedia:CA_Types}행동{/g}으로 고통받게 합니다. 대상이 {g|Encyclopedia:Attack}공격{/g}"
-"할 때 마다, ({g|Encyclopedia:Dice}1d6{/g} + 1/2 {g|Encyclopedia:Caster_Level}시전자 "
+"할 때마다, ({g|Encyclopedia:Dice}1d6{/g} + 1/2 {g|Encyclopedia:Caster_Level}시전자 "
 "레벨{/g}) 만큼의 {g|Encyclopedia:Damage}피해{/g}를 입습니다. 대상이 "
 "{g|Encyclopedia:Spell}주문{/g}을 시전하거나 {g|Encyclopedia:Special_Abilities}주문 유사 "
-"능력{/g}을 사용할 때 마다 (2d6 + 시전자 레벨)만큼의 피해를 입습니다. 이 효과는 4 시전자 레벨마다 1 "
+"능력{/g}을 사용할 때마다 (2d6 + 시전자 레벨)만큼의 피해를 입습니다. 이 효과는 4 시전자 레벨마다 1 "
 "{g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -19618,7 +19618,7 @@ msgid ""
 msgstr ""
 "아군 하나가 전투의 광기에 빠져듭니다. 전투의 끝까지 해당 아군은 적을 마구잡이로 {g|Encyclopedia:Attack}공격{/g}"
 "하지만 신화 레벨의 열 배에 해당하는 임시 {g|Encyclopedia:HP}생명점{/g}을 얻습니다. 이에 더해 이 아군이 대상을 "
-"처치할 때 마다 {g|Encyclopedia:Damage_Reduction}DR{/g} 5/악, "
+"처치할 때마다 {g|Encyclopedia:Damage_Reduction}DR{/g} 5/악, "
 "{g|Encyclopedia:CMD}CMD{/g}와 이동 방해, 마비, 기절 효과에 대한 "
 "{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}를 "
 "얻습니다. 이 보너스는 5번 중첩됩니다."
@@ -33568,7 +33568,7 @@ msgid ""
 msgstr ""
 "이 {g|Encyclopedia:Spell}주문{/g}은 상급 투명화처럼 작용하지만... 상급보다는 중상급 쪽에 가깝습니다. 공격적인 "
 "{g|Encyclopedia:CA_Types}행동{/g}을 취해도 투명화 효과가 반드시 종료되지는 않지만, 5% 확률로 종료될 수 "
-"있으며, 이 확률은 투명화 지속 중에 {g|Encyclopedia:Attack}공격{/g}을 시도할 때 마다 5% 씩 증가합니다."
+"있으며, 이 확률은 투명화 지속 중에 {g|Encyclopedia:Attack}공격{/g}을 시도할 때마다 5% 씩 증가합니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = TricksterMicroscopicProportions::m_DisplayName
@@ -34948,7 +34948,7 @@ msgstr ""
 "양에너지 전달은 워프리스트를 중심으로 반경 30 피트 이내에 있는 살아있는 크리처 모두를 "
 "{g|Encyclopedia:Healing}치유{/g}하는 파동을 일으킵니다. 치유되는 "
 "{g|Encyclopedia:Damage}피해{/g}량은 1 레벨에 {g|Encyclopedia:Dice}1d6{/g}점이며, 2 "
-"레벨이후 워 프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 레벨에 최대 7d6)."
+"레벨이후 워프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 레벨에 최대 7d6)."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarpriestChannelNegativeEnergy::m_Description
@@ -34966,10 +34966,10 @@ msgid ""
 msgstr ""
 "음에너지 전달은 워프리스트를 중심으로 반경 30 피트 이내에 있는 살아있는 크리처 모두에게 "
 "{g|Encyclopedia:Damage}피해{/g}를 입히는 파동을 일으킵니다. 피해량은 "
-"{g|Encyclopedia:Dice}1d6{/g}점이며 2 레벨 부터 워 프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 "
+"{g|Encyclopedia:Dice}1d6{/g}점이며 2 레벨 부터 워프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 "
 "레벨에 최대 7d6). 에너지 전달로 피해를 받는 크리처는 {g|Encyclopedia:Saving_Throw}의지 내성{/g}을 통해 "
-"피해를 반으로 줄일 수 있습니다. 이때의 {g|Encyclopedia:DC}DC{/g}는 10 + 워 프리스트 레벨의 1/2 + 워 "
-"프리스트의 {g|Encyclopedia:Wisdom}지혜{/g} 수정치입니다."
+"피해를 반으로 줄일 수 있습니다. 이때의 {g|Encyclopedia:DC}DC{/g}는 10 + 워프리스트 레벨의 1/2 + "
+"워프리스트의 {g|Encyclopedia:Wisdom}지혜{/g} 수정치입니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarpriestChannelNegativeHeal::m_Description
@@ -34985,7 +34985,7 @@ msgstr ""
 "음에너지 전달은 워프리스트를 중심으로 반경 30 피트 이내에 있는 언데드는 크리처 모두를 "
 "{g|Encyclopedia:Healing}치유{/g}하는 파동을 일으킵니다. 치유되는 "
 "{g|Encyclopedia:Damage}피해{/g}량은 1 레벨에 {g|Encyclopedia:Dice}1d6{/g}점이며, 2 "
-"레벨이후 워 프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 레벨에 최대 7d6)."
+"레벨이후 워프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 레벨에 최대 7d6)."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarpriestChannelPositiveHarm::m_Description
@@ -35003,10 +35003,10 @@ msgid ""
 msgstr ""
 "양에너지 전달은 워프리스트를 중심으로 반경 30 피트 이내에 있는 살아있는 크리처 모두에게 "
 "{g|Encyclopedia:Damage}피해{/g}를 입히는 파동을 일으킵니다. 피해량은 "
-"{g|Encyclopedia:Dice}1d6{/g}점이며 2 레벨 부터 워 프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 "
+"{g|Encyclopedia:Dice}1d6{/g}점이며 2 레벨 부터 워프리스트 레벨이 3 오를 때마다 1d6점씩 추가됩니다(20 "
 "레벨에 최대 7d6). 에너지 전달로 피해를 받는 크리처는 {g|Encyclopedia:Saving_Throw}의지 내성{/g}을 통해 "
-"피해를 반으로 줄일 수 있습니다. 이때의 {g|Encyclopedia:DC}DC{/g}는 10 + 워 프리스트 레벨의 1/2 + 워 "
-"프리스트의 {g|Encyclopedia:Wisdom}지혜{/g} 수정치입니다."
+"피해를 반으로 줄일 수 있습니다. 이때의 {g|Encyclopedia:DC}DC{/g}는 10 + 워프리스트 레벨의 1/2 + "
+"워프리스트의 {g|Encyclopedia:Wisdom}지혜{/g} 수정치입니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WarpriestFervorNegativeAbilitySelf::m_DisplayName
@@ -35054,7 +35054,7 @@ msgstr ""
 "를 입히는 원뿔 모양의 파동을 일으킵니다. 피해량은 {g|Encyclopedia:Dice}1d6{/g} 점이며 2 레벨 부터 워프리스트 "
 "레벨이 3 오를 때마다 1d6 점씩 추가됩니다 (20 레벨에 최대 7d6). 에너지 전달로 피해를 받는 크리처는 "
 "{g|Encyclopedia:Saving_Throw}의지 내성{/g}을 통해 피해를 반으로 줄일 수 있습니다. 이때의 "
-"{g|Encyclopedia:DC}DC{/g}는 10 + 워 프리스트 레벨의 1/2 + 워프리스트의 "
+"{g|Encyclopedia:DC}DC{/g}는 10 + 워프리스트 레벨의 1/2 + 워프리스트의 "
 "{g|Encyclopedia:Wisdom}지혜{/g} 수정치입니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -35354,8 +35354,8 @@ msgid ""
 "minute. This gives enemy {g|Encyclopedia:RangedAttack}ranged attack{/g} a "
 "chance to miss equal to twice your warpriest level."
 msgstr ""
-"10 레벨의 세찬 바람의 방벽을 주위에 두릅니다. 적의 {g|Encyclopedia:RangedAttack}원거리 공격{/g}에 대해 워 "
-"프리스트의 레벨의 두 배 만큼 빗맞을 확률을 얻습니다."
+"10 레벨의 세찬 바람의 방벽을 주위에 두릅니다. 적의 {g|Encyclopedia:RangedAttack}원거리 공격{/g}에 대해 "
+"워프리스트의 레벨의 두 배 만큼 빗맞을 확률을 얻습니다."
 
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = WeatherBlessingMinorAbility::m_DisplayName
@@ -51403,9 +51403,9 @@ msgid ""
 "Will save to resist taking 2 points of Charisma damage as the whispering "
 "slowly drives them mad."
 msgstr ""
-"던전의 벽에서 데몬의 영혼들이 튀어나와, 끊임없이 알아듣기 힘든 귓속말과 속삭임으로 정신을 갉아먹습니다. 던전에서 10분이 지날 때 "
-"마다, 혼돈-악 성향이 아닌 크리처들을 천천히 미치게 만들어 매력에 2 능력치 피해를 줍니다. DC 14 의지 내성으로 이 효과에 저항할 "
-"수 있습니다."
+"던전의 벽에서 데몬의 영혼들이 튀어나와, 끊임없이 알아듣기 힘든 귓속말과 속삭임으로 정신을 갉아먹습니다. 던전에서 10분이 지날 때마다, "
+"혼돈-악 성향이 아닌 크리처들을 천천히 미치게 만들어 매력에 2 능력치 피해를 줍니다. DC 14 의지 내성으로 이 효과에 저항할 수 "
+"있습니다."
 
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = WhiteroseOystersBuff::m_DisplayName
