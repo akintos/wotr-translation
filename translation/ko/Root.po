@@ -3,13 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-12-30 10:37+0000\n"
+"Last-Translator: akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.10.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. Calendar/Calendar/DaysOfWeek[0]/Name
 msgctxt "284d16eb-8d2e-4581-8614-e4b70b4064dd"
@@ -1445,46 +1447,36 @@ msgstr ""
 "대상의 방어도: {dc}"
 
 #. LocalizedTexts/GameLog/GameLog/Attack/TooltipAttackRollCriticalMiss
-#, fuzzy
-#| msgid ""
-#| "Attack result: Natural {d20}.\n"
-#| "Target's Armor Class: {dc}."
 msgctxt "6c4f6d5e-c247-4d07-bae7-437d46522303"
 msgid ""
 "Attack result: Natural {d20}\n"
 "Target's Armor Class: {dc}"
 msgstr ""
-"공격 결과: 순수 {d20}.\n"
-"대상의 방어도: {dc}."
+"공격 결과: 순수 {d20}\n"
+"대상의 방어도: {dc}"
 
 #. LocalizedTexts/GameLog/GameLog/Attack/TooltipAttackRollNatural20
-#, fuzzy
-#| msgid ""
-#| "Attack result: Natural {d20}.\n"
-#| "Target's Armor Class: {dc}."
 msgctxt "b622d9b2-1a57-4f43-8397-c98ec1f1c15b"
 msgid ""
 "Attack result: Natural {d20}\n"
 "Target's Armor Class: {dc}"
 msgstr ""
-"공격 결과: 순수 {d20}. \n"
-"대상의 방어도: {dc}."
+"공격 결과: 순수 {d20}\n"
+"대상의 방어도: {dc}"
 
 #. LocalizedTexts/GameLog/GameLog/Attack/TooltipCritRoll
-#, fuzzy
-#| msgid "Critical confirmation result: {roll} (roll: {d20} + modifiers: {mod})."
 msgctxt "623ee37d-9de9-48c6-91d5-e6bccd64618b"
 msgid ""
 "Critical confirmation result: {roll} (roll: {d20} + modifiers: {mod})\n"
 "Target's Armor Class: {dc}"
-msgstr "치명타 확정 결과: {roll} (굴림 결과: {d20} + 수정치: {mod})."
+msgstr ""
+"치명타 확정 결과: {roll} (굴림 결과: {d20} + 수정치: {mod})\n"
+"대상의 방어도: {dc}"
 
 #. LocalizedTexts/GameLog/GameLog/Attack/TooltipCritRollNatural20
-#, fuzzy
-#| msgid "Critical confirmation result: Natural {d20}."
 msgctxt "c365fe58-9fa1-4423-8874-046046598ed6"
 msgid "Critical confirmation result: Natural {d20}"
-msgstr "치명타 확정 결과: 순수 {d20}."
+msgstr "치명타 확정 결과: 순수 {d20}"
 
 #. LocalizedTexts/GameLog/GameLog/Attack/TooltipResultCritConfirmed
 msgctxt "c996e431-163c-4b27-91b9-a9bc7553d5e5"
@@ -1517,11 +1509,9 @@ msgid "Touch"
 msgstr "접촉"
 
 #. LocalizedTexts/GameLog/GameLog/AttackOfOpportunity/Message
-#, fuzzy
-#| msgid "<b>{source}</b> makes attack of opportunity against <b>{target}</b>"
 msgctxt "a0bebec9-7f2f-428e-b270-f9045fe04fed"
 msgid "<b>{source}</b> makes attack of opportunity against <b>{target}</b>."
-msgstr "<b>{source}</b>: <b>{target}</b>에게 기회 공격"
+msgstr "<b>{source}</b>: <b>{target}</b>에게 기회 공격."
 
 #. LocalizedTexts/GameLog/GameLog/BookEnded/Message
 msgctxt "7dc9feab-9a3f-47cf-b799-0a11b80cfb1d"
@@ -1549,18 +1539,14 @@ msgid "<b>{source}</b> can't disarm the trap."
 msgstr "<b>{source}</b>: 함정 해제 불가."
 
 #. LocalizedTexts/GameLog/GameLog/CastDefensivelyFail/Message
-#, fuzzy
-#| msgid "<b>{source}</b>: casting defensively check failed"
 msgctxt "4bffb019-c9af-4c79-b100-8abf4c2ec38a"
 msgid "<b>{source}</b>: casting defensively check failed."
-msgstr "<b>{source}</b>: 방어적 주문 시전 판정 실패"
+msgstr "<b>{source}</b>: 방어적 주문 시전 판정 실패."
 
 #. LocalizedTexts/GameLog/GameLog/CastDefensivelySuccess/Message
-#, fuzzy
-#| msgid "<b>{source}</b>: casting defensively check succeeded"
 msgctxt "a5e24336-6210-418d-bda3-c383dfdfee82"
 msgid "<b>{source}</b>: casting defensively check succeeded."
-msgstr "<b>{source}</b>: 방어적 주문 시전 판정 성공"
+msgstr "<b>{source}</b>: 방어적 주문 시전 판정 성공."
 
 #. LocalizedTexts/GameLog/GameLog/CastSpell/Message
 msgctxt "fa4899df-3e2d-4127-9f78-9c8d6dc2d66e"
@@ -1603,11 +1589,9 @@ msgid ""
 msgstr "<b>{source}</b>: <b>{target}</b> 에게 <b>{text}</b> 사용 시도, 실패."
 
 #. LocalizedTexts/GameLog/GameLog/CombatManeuver/MessageSuccess
-#, fuzzy
-#| msgid "<b>{source}</b> uses <b>{text}</b> against <b>{target}</b>!"
 msgctxt "56b49679-6689-4b30-943a-0de80f3c2388"
 msgid "<b>{source}</b> uses <b>{text}</b> against <b>{target}</b>."
-msgstr "<b>{source}</b>: <b>{target}</b> 에게 <b>{text}</b> 사용!"
+msgstr "<b>{source}</b>: <b>{target}</b> 에게 <b>{text}</b> 사용."
 
 #. LocalizedTexts/GameLog/GameLog/CombatManeuver/TooltipCritical
 msgctxt "64f2a017-89f4-4d69-b736-5e8d3305b6a0"
@@ -1708,11 +1692,9 @@ msgid "<b>{target}</b> receives <b>{count}</b> damage."
 msgstr "<b>{target}</b>: <b>{count}</b>의 피해 입음."
 
 #. LocalizedTexts/GameLog/GameLog/Damage/Tooltip
-#, fuzzy
-#| msgid "Damage result: <b>{count}</b>."
 msgctxt "5d7c17f9-5430-444b-8d2c-42fd83437168"
 msgid "Damage result: <b>{count}</b>"
-msgstr "피해 결과: <b>{count}</b>."
+msgstr "피해 결과: <b>{count}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/Damage/TooltipDifficulty
 msgctxt "b783aedc-1dd9-46f0-a344-1ac9985b7e2d"
@@ -20940,7 +20922,7 @@ msgstr ""
 #. SettingsRoot/UISettingsRoot/Settings/CrusadeDifficulty/CrusadeDifficulty/m_Description
 msgctxt "5fbdfddd-124a-4574-9e28-72812d55d9f7"
 msgid "Crusade management difficulty"
-msgstr ""
+msgstr "성전 관리 난이도"
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/m_TooltipDescription
@@ -20961,27 +20943,34 @@ msgid ""
 "You cannot gain the \"Sadistic Game Design\" achievement on \"Story\" or "
 "\"Casual\" difficulty."
 msgstr ""
+"원하는 대로 성전 관리 난이도를 설정할 수 있습니다. 자원 획득량과 고용 가능한 신병 수에 영향을 줍니다. 또한 용병을 추가로 무료 "
+"탐색할 수 있습니다.\n"
+"\"이야기\" 난이도는 자원 획득량과 고용 가능한 신병 수가 3배가 되며, 매주 용병 무료 탐색 횟수 3회를 추가로 제공합니다. 성전 "
+"사기는 -50 이하로 떨어질 수 없습니다.\n"
+"\"일반\" 난이도는 자원 획득량과 고용 가능한 신병 수가 2배가 되며, 매주 용병 무료 탐색 횟수 1회를 추가로 제공합니다.\n"
+"성전 관리 난이도는 전체 게임 난이도에 영향을 주지 않습니다. \"이야기\" 또는 \"일반\" 난이도에서는 \"가학적인 게임 디자인\" "
+"업적을 획득할 수 없습니다."
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/values[0]
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/values[0]
 #. SettingsRoot/UISettingsRoot/Settings/CrusadeDifficulty/CrusadeDifficulty/values[0]
 msgctxt "81117885-4b5b-4df8-aa09-c04c2d5a379d"
 msgid "Story"
-msgstr ""
+msgstr "이야기"
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/values[1]
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/values[1]
 #. SettingsRoot/UISettingsRoot/Settings/CrusadeDifficulty/CrusadeDifficulty/values[1]
 msgctxt "40922202-e212-4016-a74d-a072b8208bf3"
 msgid "Casual"
-msgstr ""
+msgstr "쉬움"
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/values[2]
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[14]/CrusadeDifficulty/values[2]
 #. SettingsRoot/UISettingsRoot/Settings/CrusadeDifficulty/CrusadeDifficulty/values[2]
 msgctxt "4f98945e-f7c1-4bc7-8c28-ead5f4d5d443"
 msgid "Standard"
-msgstr ""
+msgstr "표준"
 
 #. Components[2]/Bool/OnlyActiveCompanionsReceiveExperience/m_Description
 #. Components[1]/Bool/OnlyActiveCompanionsReceiveExperience/m_Description

@@ -3,13 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-12-30 10:37+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.10.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #. File = Armies/Abilities/BonusFactsForArmy/ArmyUnitsDissociated
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
@@ -26,17 +28,14 @@ msgstr ""
 #. File = Armies/CrusadeGlobalBuffs/DissociatedLeaderSkill
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Unit has a -1 penalty to AC, saving throws, and initiative, if there is an "
-#| "adjacent allied unit next to it. This is a mind-affecting effect."
 msgctxt "d911870f-bccf-46f3-88b3-8265b8c888aa"
 msgid ""
 "All {g|AdjacentUnits}[adjacent]{/g} allied units gain a -1 penalty to AC, "
 "saving throws, and initiative for 1 round at the start of each round. This "
 "is a mind-affecting effect."
-msgstr "유닛은 인접한 타일에 아군이 위치하면 AC, 내성 굴림, 우선권에 -1 페널티를 "
-"받습니다. 이는 정신 영향 효과입니다."
+msgstr ""
+"각 라운드 시작 시, {g|AdjacentUnits}[인접]{/g} 타일의 모든 아군 유닛이 1 라운드 동안 AC, 내성 굴림, 우선권에 "
+"-1 페널티를 받습니다. 이는 정신 영향 효과입니다."
 
 #. File = Armies/CrusadeGlobalBuffs/ReductionOfLosses2
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -120,16 +119,13 @@ msgstr "유닛은 최대 HP에 -35% 페널티를 가집니다."
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterAttackFormationBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in a 3×3 area gain a +2 bonus to attack and a -2 penalty to speed "
-#| "for 1 round. This ability is a Stratagem."
 msgctxt "424d67e8-7d50-4cd8-9736-4e89276c98c1"
 msgid ""
 "All allied units gain a +3 bonus to attack and a -2 penalty to speed. Only "
 "one \"formation\" type ability can be active. This ability is a Stratagem."
-msgstr "3x3 타일 범위 내 모든 유닛은 1 라운드 동안 명중에 +2 보너스, 속도에 -2 "
-"페널티를 받습니다. 이 능력은 책략입니다."
+msgstr ""
+"모든 아군 유닛이 명중에 +3 보너스, 속도에 -2 페널티를 받습니다. \"진형\" 능력은 한가지만 횔성화할 수 있습니다. 이 능력은 "
+"책략입니다."
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterAttackFormation
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -223,16 +219,13 @@ msgstr "조심해!"
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterChargeFormationBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in a 3×3 area gain a +2 bonus to speed and a -2 penalty to AC for "
-#| "1 round. This ability is a Stratagem."
 msgctxt "f6178a37-97c1-43c2-9fb6-4bc73045c1df"
 msgid ""
 "All allied units gain a +3 bonus to speed and a -2 penalty to AC. Only one "
 "\"formation\" type ability can be active. This ability is a Stratagem."
-msgstr "3x3 타일 범위 내 모든 유닛은 1 라운드 동안 속도에 +2 보너스, AC에 -2 "
-"페널티를 얻습니다. 이 능력은 책력 입니다."
+msgstr ""
+"모든 아군 유닛이 속도에 +3 보너스, AC에 -2 페널티를 얻습니다. \"진형\" 능력은 한가지만 횔성화할 수 있습니다. 이 능력은 "
+"책략 입니다."
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterChargeFormation
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -265,6 +258,7 @@ msgid ""
 "All infantry, ranged or cavalry units receive a +(1 + general's level/6) "
 "bonus to attack and saving throws for 3 rounds. This ability is a Stratagem."
 msgstr ""
+"모든 보병, 원거리, 기병 유닛이 3 라운드 동안 명중과 내성 굴림에 +(1 + 장군 레벨/6) 보너스를 받습니다. 이 능럭은 책략입니다."
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterCommand
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -279,7 +273,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "131bb005-b59c-477f-82e5-b1db06077230"
 msgid "Dispersal of Forces"
-msgstr ""
+msgstr "힘의 분산"
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterCover
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -298,8 +292,8 @@ msgid ""
 "receive a -1 penalty to speed and -2 penalty to initiative for 1 round. This "
 "ability is a Stratagem."
 msgstr ""
-"부대의 모든 유닛은 1 라운드 동안 AC에 +5 보너스, 속도에 -1 페널티, 우선권에 -"
-"2 페널티를 받습니다. 이 능력은 책략입니다."
+"부대의 모든 유닛은 1 라운드 동안 원거리 공격에 대한 AC에 +5 보너스, 속도에 -1 페널티, 우선권에 -2 페널티를 받습니다. 이 "
+"능력은 책략입니다."
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterCover
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -327,17 +321,14 @@ msgstr "엄폐"
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterDefenseFormationBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in a 3×3 area gain a +2 bonus to AC and receives a -2 penalty to "
-#| "attack for 1 round. This ability is a Stratagem."
 msgctxt "5a99e479-0d0b-4eed-abc2-752b8f3fd6a7"
 msgid ""
 "All allied units gain a +3 bonus to AC and receive a -2 penalty to attack. "
 "Only one \"formation\" type ability can be active. This ability is a "
 "Stratagem."
-msgstr "3x3 타일 범위 내 모든 유닛은 1 라운드 동안 AC에 +2 보너스, 명중에 -2 "
-"페널티를 받습니다. 이 능력은 책략입니다."
+msgstr ""
+"모든 아군 유닛이 AC에 +3 보너스, 명중에 -2 페널티를 받습니다. \"진형\" 능력은 한가지만 횔성화할 수 있습니다. 이 능력은 "
+"책략입니다."
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterDefenseFormation
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -402,18 +393,14 @@ msgstr "원소 무기"
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterFearsomeFormationRemoveAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units attacking the target unit for 1 round will become "
-#| "{g|Frightened_condition}[frightened]{/g}. This ability is a Stratagem."
 msgctxt "0ca200fa-de9f-4292-8a1f-3d3fbf457ff6"
 msgid ""
 "All units attacking the target unit for 1 round will become "
 "{g|Frightened_condition}[frightened]{/g}. Only one \"formation\" type "
 "ability can be active. This ability is a Stratagem."
 msgstr ""
-"1 라운드 동안 대상 유닛을 공격하는 모든 유닛은 "
-"{g|Frightened_condition}[겁먹음]{/g} 상태가 됩니다. 이 능력은 책략입니다."
+"1 라운드 동안 대상 유닛을 공격하는 모든 유닛은 {g|Frightened_condition}[겁먹음]{/g} 상태가 됩니다. \"진형\""
+" 능력은 한가지만 횔성화할 수 있습니다. 이 능력은 책략입니다."
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterFearsomeFormation
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -540,17 +527,12 @@ msgstr "정확한 예측"
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterRetaliationBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in a 3×3 area deal ((Power×Power + 5)×d6) physical damage to the "
-#| "enemy when damaged in melee. This ability is a Stratagem."
 msgctxt "f4b9cf9a-d742-4f68-82bf-561243bbb897"
 msgid ""
 "All units in a 3×3 area deal ((Power×Power + 5)d6) physical damage to the "
 "enemy when damaged in melee. This ability is a Stratagem."
 msgstr ""
-"3×3 범위 내의 모든 유닛이 적에게 근접 공격을 받으면 ((마력×마력 + 5)×d6) "
-"물리 피해를 반사합니다. 이 능력은 책략입니다."
+"3×3 범위 내의 모든 유닛이 적에게 근접 공격을 받으면 ((마력×마력 + 5)d6) 물리 피해를 반사합니다. 이 능력은 책략입니다."
 
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterRetaliation
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -582,16 +564,11 @@ msgstr "앙갚음"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerAcidTrapFact
 #. Type = Kingmaker.Blueprints.Facts.BlueprintUnitFact
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d6) acid damage to the activating unit for 3 rounds. "
-#| "This ability is a Trap."
 msgctxt "bdc0a868-65e5-4d60-bc00-751a869bd863"
 msgid ""
 "Deals ((Power×Power + 5)d6) acid damage to the activating unit for 3 rounds. "
 "This ability is a Trap."
-msgstr "함정을 작동시킨 유닛에게 3 라운드 동안 ((마력x마력+ 5)d6) 산성 피해를 "
-"입힙니다. 이것은 함정 능력입니다."
+msgstr "함정을 작동시킨 유닛에게 3 라운드 동안 ((마력x마력 + 5)d6) 산성 피해를 입힙니다. 이것은 함정 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerAcidTrap
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -662,16 +639,11 @@ msgstr "기절 함정"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerBoulderResource
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)×3d4) physical damage to the target unit. This is a "
-#| "Siege ability."
 msgctxt "b6b58f93-4195-45df-830c-7c65aa1463a5"
 msgid ""
 "Deals ((Power×Power + 5)×3d4) physical damage to the target unit. This is a "
 "Siege ability."
-msgstr "대상 유닛에게 ((마력x마력+ 5)×3d4) 물리 피해를 입힙니다. 이는 공성 "
-"능력입니다."
+msgstr "대상 유닛에게 ((마력x마력 + 5)×3d4) 물리 피해를 입힙니다. 이는 공성 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerBoulder
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -699,16 +671,11 @@ msgstr "바위"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerBurningLiquidAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)×2d6) fire damage to the target unit. This is a Siege "
-#| "ability."
 msgctxt "3452d3a3-209b-471a-91fc-cab205b4859d"
 msgid ""
 "Deals ((Power×Power + 5)×2d6) fire damage to the target unit. This is a "
 "Siege ability."
-msgstr "대상 유닛에게 ((마력x마력+ 5)×2d6) 화염 피해를 입힙니다. 이는 공성 "
-"능력입니다."
+msgstr "대상 유닛에게 ((마력x마력 + 5)×2d6) 화염 피해를 입힙니다. 이는 공성 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerBurningLiquid
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -736,17 +703,13 @@ msgstr "타오르는 액체"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerCaltropsResource
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Creates caltrops in a 3×3 area, which deal ((Power×Power+ 5)d10) physical "
-#| "damage to all passing units, except flying units. This ability is a Trap."
 msgctxt "a2803909-d6a6-448a-b92d-8cba0199b1c0"
 msgid ""
 "Creates caltrops in a 3×3 area, which deal ((Power×Power + 5)d10) physical "
 "damage to all passing units, except flying units. This ability is a Trap."
 msgstr ""
-"비행 유닛을 제외하고 지나는 모든 유닛에게 ((마력x마력+ 5)×d10) 물리 피해를 "
-"입히는 마름쇠를 3x3 타일 범위에 뿌립니다. 이는 함정 능력입니다."
+"비행 유닛을 제외하고 지나는 모든 유닛에게 ((마력x마력+ 5)d10) 물리 피해를 입히는 마름쇠를 3x3 타일 범위에 뿌립니다. 이는 "
+"함정 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerCaltrops
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -774,15 +737,11 @@ msgstr "마름쇠"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerCatapultAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals (Power×Power+ 5)d8 physical damage to the target unit. This is a Siege "
-#| "ability."
 msgctxt "f0a7c785-4fcd-48fd-86c4-519a11c4f9aa"
 msgid ""
 "Deals ((Power×Power + 5)d8) physical damage to the target unit. This is a "
 "Siege ability."
-msgstr "대상 능력에게 (마력x마력+ 5)×d8 물리 피해를 입힙니다. 이는 공성 능력입니다."
+msgstr "대상 유닛에게 (마력x마력 + 5)d8 물리 피해를 입힙니다. 이는 공성 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerCatapult
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -802,16 +761,11 @@ msgstr "투석"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerExplosivesTrapAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)×2d10) fire damage to the activating unit. This "
-#| "ability is a Trap."
 msgctxt "ad69f092-ad7f-427a-99a8-19594bb8983d"
 msgid ""
 "Deals ((Power×Power + 5)×2d10) fire damage to the activating unit. This "
 "ability is a Trap."
-msgstr "함정을 작동시킨 유닛에게 ((마력x마력+ 5)×2d10) 화염 피해를 입힙니다. 이것은 "
-"함정 능력입니다."
+msgstr "함정을 작동시킨 유닛에게 ((마력x마력 + 5)×2d10) 화염 피해를 입힙니다. 이것은 함정 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerExplosivesTrap
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -831,17 +785,13 @@ msgstr "폭발 함정"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerFlareAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in a 3×3 area become {g|Confused_condition}[confused]{/g} for 1 "
-#| "rounds. This is a Siege ability."
 msgctxt "3cc9fc02-0a3d-4c39-9a1e-07b87fc6ebf3"
 msgid ""
 "All units in a 3×3 area become {g|Confused_condition}[confused]{/g} for 1 "
 "round. This is a Siege ability."
 msgstr ""
-"3x3 타일 범위내 모든 유닛은 1 라운드 동안 {g|Confused_condition}[혼란]{/g} "
-"상태가 됩니다. 이는 공성 능력입니다."
+"3x3 타일 범위내 모든 유닛이 1 라운드 동안 {g|Confused_condition}[혼란]{/g} 상태가 됩니다. 이는 공성 "
+"능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerFlare
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -870,6 +820,8 @@ msgid ""
 "All enemy infantry, ranged or cavalry units receive a -(1 + general's level/"
 "6) penalty to AC and saving throws for 3 rounds. This is a Siege ability."
 msgstr ""
+"적군의 모든 보병, 원거리, 기병 유닛이 3 라운드 동안 AC와 내성 굴림에 -(1 + 장군 레벨/6) 페널티를 받습니다. 이 능럭은 "
+"공성입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerFocus
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -884,7 +836,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "856275ea-7037-40b3-9e6e-23766001d027"
 msgid "Hunt"
-msgstr ""
+msgstr "사냥"
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerFrostBlastTrap
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -901,19 +853,14 @@ msgstr ""
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerFrostBlastTrapBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "When activated deals ((Power×Power+ 5)d10) cold damage and inflicts a -2 "
-#| "penalty to speed to the activating unit for 3 rounds. This ability is a Trap "
-#| "with a cold effect."
 msgctxt "2e9bd961-6f67-4a69-a445-0aa7c758e990"
 msgid ""
 "When activated deals ((Power×Power + 5)d10) cold damage and inflicts a -2 "
 "penalty to speed to the activating unit for 3 rounds. This ability is a Trap "
 "with a cold effect."
 msgstr ""
-"함정을 작동시킨 유닛에게 ((마력x마력+ 5)d10) 냉기 피해를 입히고 3 라운드 "
-"동안 속도에 -2 페널티를 가합니다. 이것은 냉기 효과를 지닌 함정 능력입니다."
+"함정을 작동시킨 유닛에게 ((마력x마력 + 5)d10) 냉기 피해를 입히고 3 라운드 동안 속도에 -2 페널티를 가합니다. 이것은 냉기 "
+"효과를 지닌 함정 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerFrostBlastTrap
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -998,20 +945,14 @@ msgstr "작살"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerHolyBombResource
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Creates a holy storm in the target square for 3 rounds. The storm deals "
-#| "((Power×Power+ 5)d6) magic damage to any unit that enters it. This is a "
-#| "Siege ability."
 msgctxt "967dfce7-b365-43d6-a959-b0f933e247cb"
 msgid ""
 "Creates a holy storm in a 3×3 area for 3 rounds. The storm deals ((Power×"
 "Power + 5)d6) magic damage to any unit that enters it. This is a Siege "
 "ability."
 msgstr ""
-"3 라운드 동안 대상 범위에 신성한 폭풍을 일으킵니다. 이 폭풍은 폭풍에 "
-"들어오는 모든 유닛에게 ((마력x마력+ 5)d6) 마법 피해를 입힙니다. 이는 공성 "
-"능력입니다."
+"3 라운드 동안 대상 범위에 신성한 폭풍을 일으킵니다. 이 폭풍은 범위에 들어오는 모든 유닛에게 ((마력x마력 + 5)d6) 마법 피해를 "
+"입힙니다. 이는 공성 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerHolyBomb
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1051,17 +992,13 @@ msgstr "신성 폭탄"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerIceBombResource
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d4) cold damage to the target unit and inflicts a -1 "
-#| "penalty to speed for 1 round. This is a Siege ability with a cold effect."
 msgctxt "b3c43962-1691-42ef-a6f2-db0eef9b04c5"
 msgid ""
 "Deals ((Power×Power + 5)d4) cold damage to the target unit and inflicts a -1 "
 "penalty to speed for 1 round. This is a Siege ability with a cold effect."
 msgstr ""
-"대상 유닛에게 ((마력x마력+ 5)d4 냉기 피해를 입히고 1 라운드 동안 속도에 -1 "
-"페널티를 부가합니다. 이는 냉기 효과를 지닌 공성 능력입니다."
+"대상 유닛에게 ((마력x마력 + 5)d4 냉기 피해를 입히고 1 라운드 동안 속도에 -1 페널티를 가합니다. 이는 냉기 효과를 지닌 공성 "
+"능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerIceBomb
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1093,17 +1030,13 @@ msgstr "얼음 폭탄"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerLethargyTrapAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Inflicts {g|Sleeping_condition}[sleep]{/g} upon activating unit for 2 "
-#| "rounds. This ability is a Trap."
 msgctxt "5ad6bac4-777d-41c0-834a-07c54a944cab"
 msgid ""
 "Inflicts {g|Sleeping_condition}[sleep]{/g} upon activating and adjacent "
 "units for 2 rounds. This ability is a Trap."
 msgstr ""
-"함정을 작동시킨 유닛을 2 라운드 동안 {g|Sleeping_condition}[수면]{/g} 상태에 "
-"빠뜨립니다. 이것은 함정 능력입니다."
+"함정을 작동시킨 유닛과 그 인접 유닛들을 2 라운드 동안 {g|Sleeping_condition}[수면]{/g} 상태에 빠뜨립니다. "
+"이것은 함정 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerLethargyTrap
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1195,16 +1128,11 @@ msgstr "장애물"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerPitAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Creates a trap that immediately ends the turn of a passing unit, except "
-#| "flying units. This ability is a Trap."
 msgctxt "f7f24f49-7028-4f48-8c53-714fe764ff50"
 msgid ""
 "Creates a trap that immediately ends the turn of the activating unit, except "
 "flying units. This ability is a Trap."
-msgstr "비행 유닛을 제외하고 위를 지나가는 유닛의 턴을 즉시 종료시키는 함정을 "
-"설치합니다. 이것은 함정 능력입니다."
+msgstr "함정을 발동시킨 비 비행 유닛의 턴을 즉시 종료시키는 함정을 설치합니다. 이것은 함정 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerPit
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1266,19 +1194,14 @@ msgstr "연기 폭탄"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerSpringTrapFact
 #. Type = Kingmaker.Blueprints.Facts.BlueprintUnitFact
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Creates a trap that immediately ends the turn of a passing unit, except "
-#| "flying units, and deals ((Power×Power+ 5)d10) physical damage. This ability "
-#| "is a Trap."
 msgctxt "f4536d5b-196f-4f17-bb06-9565fe4f2c6b"
 msgid ""
 "Creates a trap that immediately ends the turn of the activating unit, except "
 "flying units, and deals ((Power×Power + 5)d10) physical damage to both "
 "activating and adjacent units. This ability is a Trap."
 msgstr ""
-"비행 유닛을 제외하고 위를 지나가는 유닛의 턴을 즉시 종료시키고 ((마력×마력+ "
-"5)d10) 물리 피해를 입히는 함정을 설치합니다. 이것은 함정 능력입니다."
+"함정을 발동안 비 비행 유닛의 턴을 즉시 종료시키고 ((마력×마력 + 5)d10) 물리 피해를 입히는 함정을 설치합니다. 이것은 함정 "
+"능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerSpringTrap
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1310,16 +1233,11 @@ msgstr "용수철 함정"
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerStickyBombBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in a 5×5 area receive a -3 penalty to speed for 5 rounds. This is "
-#| "a Siege ability."
 msgctxt "983c2cb4-fee1-400a-82d6-e29f59e7056a"
 msgid ""
 "All units in a 3×3 area receive a -2 penalty to speed for 3 rounds. This is "
 "a Siege ability."
-msgstr "5x5 타일 범위 내 모든 유닛은 속도에 -3 페널티를 받습니다. 이는 공성 "
-"능력입니다."
+msgstr "3x3 타일 범위 내 모든 유닛이 2 라운드 동안 속도에 -2 페널티를 받습니다. 이는 공성 능력입니다."
 
 #. File = Armies/Leaders/Abilities/RangerAbilities/RangerStickyBomb
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1394,15 +1312,11 @@ msgstr "믿음직함"
 #. File = Armies/Leaders/Feats/Bonus/Aeon3Spikes
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "All units deal (1d6 + 3) physical damage to the enemy when damaged in melee."
 msgctxt "733d6d67-0566-484a-940b-99f25d9c4b83"
 msgid ""
 "All units deal ((Power×Power + 5)d6/2) physical damage to the enemy when "
 "damaged in melee."
-msgstr "모든 유닛은 근접 공격으로 피해를 입을 시, 적에게 (1d6 + 3) 물리 피해를 "
-"입힙니다."
+msgstr "모든 유닛은 근접 공격으로 피해를 입을 시, 적에게 ((마력×마력 +5)d6/2) 물리 피해를 입힙니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Angel3BoltOfJustice
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1443,7 +1357,7 @@ msgctxt "af3f8215-d3f3-4b4d-aff7-39cb48aef2d9"
 msgid ""
 "Deals ((Power×Power + 5)d6) magic damage to the target non-demon, non-undead "
 "unit. This is a Divine spell."
-msgstr ""
+msgstr "데몬 및 언데드가 아닌 대상 유닛에게 ((마력×마력)d6) 마법 피해를 입힙니다. 이것은 신성 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Angel3BoltOfJusticeOthers
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1454,7 +1368,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "38f77d06-6804-4eef-8aa3-d16670f89eae"
 msgid "Bolt of Justice"
-msgstr ""
+msgstr "정의의 번개"
 
 #. File = Armies/Leaders/Feats/Bonus/Angel3SummonHeavenlyHost
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1503,16 +1417,11 @@ msgstr "천상의 군대 소환"
 #. File = Armies/Leaders/Feats/Bonus/Angel4BladeOfTheSunAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d8) magic damage to every enemy unit on the vertical "
-#| "line. This is a Divine spell."
 msgctxt "f66d184a-7be1-4346-b13e-e6edc4e6c4f7"
 msgid ""
 "Deals ((Power×Power + 5)d8) magic damage to every enemy unit on the vertical "
 "line. This is a Divine spell."
-msgstr "직선상의 모든 적 유닛에게 ((마력×마력 + 5)d8)의 마법 피해를 입힙니다. 이것은 "
-"신성 주문입니다."
+msgstr "한 열의 모든 적 유닛에게 ((마력×마력 + 5)d8)의 마법 피해를 입힙니다. 이것은 신성 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Angel4BladeOfTheSun
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1641,11 +1550,6 @@ msgstr "고양된 전진"
 #. File = Armies/Leaders/Feats/Bonus/Azata1SongOfSeasonsLeaderBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Each unit in the army restores ((Power×Power + 5)d6) HP to adjacent allied "
-#| "units and deals ((Power×Power + 5)d6) magic damage to adjacent enemy units "
-#| "at the end of the round. This is a Arcane spell with a heal effect."
 msgctxt "5e1502d1-d10e-4dcc-b241-53bf3e427bef"
 msgid ""
 "Each unit in the army restores ((Power×Power + 5)d6) HP to "
@@ -1653,9 +1557,9 @@ msgid ""
 "magic damage to {g|AdjacentUnits}[adjacent]{/g} enemy units at the end of "
 "the round. This is an Arcane spell with a heal effect."
 msgstr ""
-"라운드가 종료될 때 부대의 모든 유닛이 인접한 아군 유닛의 HP를 ((마력×마력 + "
-"5)d6) 회복하고, 인접한 적 유닛의 HP에 ((마력×마력 + 5)d6) 마법 피해를 "
-"입힙니다. 이것은 치유 효과를 가진 비전 주문입니다."
+"라운드가 종료될 때 부대의 모든 유닛이 {g|AdjacentUnits}[인접]{/g} 아군 유닛의 HP를 ((마력×마력 + 5)d6) "
+"회복하고, {g|AdjacentUnits}[인접]{/g}한 적 유닛에게 ((마력×마력 + 5)d6) 마법 피해를 입힙니다. 이것은 치유 "
+"효과를 가진 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Azata1SongOfSeasons
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1699,19 +1603,14 @@ msgstr "사계절의 노래"
 #. File = Armies/Leaders/Feats/Bonus/Azata1SongOfThePeopleResource
 #. Type = Kingmaker.Blueprints.BlueprintAbilityResource
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Flanking grants a +4 bonus to attack (instead of a +2 bonus to attack) and a "
-#| "+4 bonus to damage for 1 round. This is a Arcane spell with is a mind-"
-#| "affecting effect."
 msgctxt "345d593f-4ff8-444a-a938-91194a0b2ce7"
 msgid ""
 "Flanking grants a +4 bonus to attack (instead of a +2 bonus to attack) and a "
 "+4 bonus to damage for 1 round. This is an Arcane spell with is a mind-"
 "affecting effect."
 msgstr ""
-"1 라운드 동안 적을 협공할 때 명중에 +2 대신 +4 보너스를 받으며, 피해에 +4 "
-"보너스를 받습니다. 이것은 비전 주문이며 정신 영향 효과입니다."
+"1 라운드 동안 적을 협공할 때 명중에 +2 대신 +4 보너스를 받으며, 피해에 +4 보너스를 받습니다. 이것은 비전 주문이며 정신 영향 "
+"효과입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Azata1SongOfThePeople
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1758,14 +1657,11 @@ msgstr "부대가 추가 이동 점수 +10 을 얻습니다."
 #. File = Armies/Leaders/Feats/Bonus/Azata5SongOfTheLastPushLeaderBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Target unit gains an additional action for 2 rounds. This is an Arcane spell."
 msgctxt "611355f3-e992-4d3b-9f9d-8b5ce1445e23"
 msgid ""
 "All allied units gain an additional action at the start of the next round. "
 "This is an Arcane spell."
-msgstr "대상 유닛은 2 라운드 동안 추가 행동을 얻습니다. 이것은 비전 주문입니다."
+msgstr "모든 아군 유닛이 다음 라운드 시작 시까지 추가 행동을 얻습니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Azata5SongOfTheLastPush
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1805,16 +1701,11 @@ msgstr "마지막 공세의 노래"
 #. File = Armies/Leaders/Feats/Bonus/Azata5SongOfTheLastStepTeleportBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in the army gain teleport for 1 round and a -5 penalty to "
-#| "initiative for 3 rounds. This is a Arcane spell."
 msgctxt "fc08fce1-4a22-4e94-b91d-cfe4eb76bf7b"
 msgid ""
 "All units in the army gain teleport for 1 round and a -5 penalty to "
 "initiative for 3 rounds. This is an Arcane spell."
-msgstr "부대의 모든 유닛이 1 라운드 동안 순간이동을 얻고, 3 라운드 동안 우선권에 -5 "
-"패널티를 받습니다. 이것은 비전 주문입니다."
+msgstr "부대의 모든 유닛이 1 라운드 동안 순간이동을 얻고, 3 라운드 동안 우선권에 -5 패널티를 받습니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Azata5SongOfTheLastStep
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -1854,16 +1745,11 @@ msgstr "마지막 발걸음의 노래"
 #. File = Armies/Leaders/Feats/Bonus/Azata5SongOfTheSecondBreathLeaderBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Target unit gains a +(5 + Power/5) bonus to maximum HP. This is an Arcane "
-#| "spell with a heal effect."
 msgctxt "ad4ffb72-1b41-4930-a4c8-c842d0781a98"
 msgid ""
 "Target unit gains a +(5 + Power/5)% bonus to maximum HP. This is an Arcane "
 "spell with a heal effect."
-msgstr "대상 유닛은 최대 HP에 +(5 + 파워/5) 보너스를 얻습니다. 치유 효과가 있는 비전 "
-"주문입니다."
+msgstr "대상 유닛은 최대 HP에 +(5 + 마력/5)% 보너스를 얻습니다. 치유 효과가 있는 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Azata5SongOfTheSecondBreath
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -2117,18 +2003,14 @@ msgstr "영적 정원은 모든 유닛의 전투 사기에 +25 보너스를 제�
 #. File = Armies/Leaders/Feats/Bonus/Demon2ConsumingFlameAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d6) fire damage to all units in the army. Deals "
-#| "((Power×Power+ 5)d10) fire damage to all enemy units. This is a Arcane spell."
 msgctxt "e72d570f-60d4-4d2a-81fe-d9a52c871a4d"
 msgid ""
 "Deals ((Power×Power + 5)d6) fire damage to all units in the army. Deals "
 "((Power×Power + 5)d10) fire damage to all enemy units. This is an Arcane "
 "spell."
 msgstr ""
-"부대의 모든 유닛에게 ((마력×마력+ 5)d6) 화염 피해를 입힙니다. 모든 적 "
-"유닛에게 ((마력×마력+ 5)d10) 화염 피해를 입힙니다. 이는 비전 주문입니다."
+"부대의 모든 유닛에게 ((마력×마력 + 5)d6) 화염 피해를 입힙니다. 모든 적 유닛에게 ((마력×마력 + 5)d10) 화염 피해를 "
+"입힙니다. 이는 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Demon2ConsumingFlame
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -2152,16 +2034,11 @@ msgstr "화염의 비"
 #. File = Armies/Leaders/Feats/Bonus/Demon2FlamesOfTheAbyssBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d6) fire damage to the target unit every round. This "
-#| "is a Arcane spell."
 msgctxt "f91a9875-d240-4f59-a79a-abc39cba8dae"
 msgid ""
 "Deals ((Power×Power + 5)d6) fire damage to the target unit every round. This "
 "is an Arcane spell."
-msgstr "대상 유닛에게 매 라운드 ((마력×마력+ 5)d6) 피해를 입힙니다. 이는 비전 "
-"주문입니다."
+msgstr "대상 유닛에게 매 라운드 ((마력×마력 + 5)d6) 피해를 입힙니다. 이는 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Demon2FlamesOfTheAbyss
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -2185,11 +2062,9 @@ msgstr "심연의 불꽃"
 #. File = Armies/Leaders/Feats/Bonus/Demon2GreaterSummonDemonsAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid "Summons (Power×2) {g|Babaus}[Babaus]{/g}. This is a Arcane spell."
 msgctxt "e9dba180-8cf9-4049-981c-91515f8e9dde"
 msgid "Summons (Power×2) {g|Babaus}[Babaus]{/g}. This is an Arcane spell."
-msgstr "(마력x2) {g|Babaus}[바바우]{/g}를 소환합니다. 이는 비전 주문입니다."
+msgstr "(마력x2) {g|Babaus}[바바우]{/g}를 소환합니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Demon2GreaterSummonDemons
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -2209,11 +2084,9 @@ msgstr "상급 심연 소환"
 #. File = Armies/Leaders/Feats/Bonus/Demon2LesserSummonDemonsAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid "Summons (Power×2) {g|Dretches}[Dretches]{/g}. This is a Arcane spell."
 msgctxt "9f9b513d-e0ca-4136-8722-25c0bb4836af"
 msgid "Summons (Power×2) {g|Dretches}[Dretches]{/g}. This is an Arcane spell."
-msgstr "(마력x2) {g|Dretches}[드레치]{/g}를 소환합니다. 이는 비전 주문입니다."
+msgstr "(마력x2) {g|Dretches}[드레치]{/g}를 소환합니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Demon2LesserSummonDemons
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -2233,11 +2106,9 @@ msgstr "하급 심연 소환"
 #. File = Armies/Leaders/Feats/Bonus/Demon2SummonDemonsAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid "Summons (Power×2) {g|Schirs}[Schirs]{/g}. This is a Arcane spell."
 msgctxt "488d20cf-8cc3-4468-9baf-6433d599f383"
 msgid "Summons (Power×2) {g|Schirs}[Schirs]{/g}. This is an Arcane spell."
-msgstr "(마력x2) {g|Schirs}[쉬르]{/g}를 소환합니다. 이는 비전 주문입니다."
+msgstr "(마력x2) {g|Schirs}[쉬르]{/g}를 소환합니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Leaders/Feats/Bonus/Demon2SummonDemons
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3004,7 +2875,7 @@ msgctxt "274808bb-331a-47b6-88eb-1bb2eeb07a6f"
 msgid ""
 "All caster units in the army have a +5 bonus to fire, cold, acid, and "
 "electricity resistance."
-msgstr ""
+msgstr "부대의 모든 주문 시전 유닛이 +5 화염, 냉기 및 전기 저항 보너스를 얻습니다."
 
 #. File = Armies/Leaders/Feats/MageFeats/MageResistance
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3023,7 +2894,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "6b44bc41-ab4b-47e9-99bb-20b32360dc79"
 msgid "Elemental Protection"
-msgstr ""
+msgstr "원소 보호"
 
 #. File = Armies/Leaders/Feats/MageFeats/MagicalChannelingRank1
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3696,17 +3567,12 @@ msgstr "거짓 자비"
 #. File = Armies/Rituals/Lich1SiphonTimeAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in the army gain {g|Haste}[Haste]{/g}, all enemy units receive "
-#| "{g|Slow}[Slow]{/g}. This is a Arcane spell."
 msgctxt "46ba9e7c-3aa3-4ec7-8931-34d3e0b5a95f"
 msgid ""
 "All units in the army gain {g|Haste}[Haste]{/g}, all enemy units receive "
 "{g|Slow}[Slow]{/g}. This is an Arcane spell."
 msgstr ""
-"부대의 모든 유닛이 {g|Haste}[가속]{/g}을, 모든 적 유닛이 {g|Slow}[감속]{/g}"
-"을 받습니다. 이는 비전 주문입니다."
+"부대의 모든 유닛이 {g|Haste}[가속]{/g}을, 모든 적 유닛이 {g|Slow}[감속]{/g}을 받습니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Rituals/Lich1SiphonTime
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3730,16 +3596,11 @@ msgstr "시간 흡수"
 #. File = Armies/Rituals/RitualBaneBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Target unit receives a -1 penalty to attack for 3 rounds. Bane dispels "
-#| "Bless. This is a Divine spell."
 msgctxt "f83638a3-22a7-454f-b522-f230e1635ad6"
 msgid ""
 "All enemy units receive a -1 penalty to attack for 3 rounds. Bane dispels "
 "Bless. This is a Divine spell."
-msgstr "대상 유닛이 3 라운드 동안 명중에 -1 페널티를 받습니다. 파멸은 축복을 "
-"해제합니다. 이것은 신성 주문입니다."
+msgstr "모든 적 유닛이 3 라운드 동안 명중에 -1 페널티를 받습니다. 파멸은 축복을 해제합니다. 이것은 신성 주문입니다."
 
 #. File = Armies/Rituals/RitualBane
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3767,16 +3628,11 @@ msgstr "파멸"
 #. File = Armies/Rituals/RitualBearsEnduranceBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Target unit gains a +(3 + Power/8) bonus to maximum HP for 3 rounds. This is "
-#| "an Arcane spell."
 msgctxt "f9f3374e-b9ee-45c6-a40d-33626a5530c4"
 msgid ""
 "Target unit gains a +(3 + Power/8)% bonus to maximum HP for 3 rounds. This "
 "is an Arcane spell."
-msgstr "대상 유닛이 3 라운드 동안 최대 HP에 +(3 + 마력/8) 보너스를 받습니다. 이것은 "
-"비전 주문입니다."
+msgstr "대상 유닛이 3 라운드 동안 최대 HP에 +(3 + 마력/8)% 보너스를 받습니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Rituals/RitualBearsEndurance
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3804,16 +3660,11 @@ msgstr "곰의 지구력"
 #. File = Armies/Rituals/RitualBlessBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Target unit gains a +1 bonus to attack for 3 rounds. Bless dispels Bane. "
-#| "This is a Divine spell."
 msgctxt "2d56a7de-57c3-409c-9126-2f77daa5a693"
 msgid ""
 "All units in the army gain a +1 bonus to attack for 3 rounds. Bless dispels "
 "Bane. This is a Divine spell."
-msgstr "대상 유닛이 3 라운드 동안 명중에 +1 보너스를 받습니다. 축복은 파멸을 "
-"해제합니다. 이것은 신성 주문입니다."
+msgstr "부대의 모든 유닛이 3 라운드 동안 명중에 +1 보너스를 받습니다. 축복은 파멸을 해제합니다. 이것은 신성 주문입니다."
 
 #. File = Armies/Rituals/RitualBless
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3837,15 +3688,11 @@ msgstr "축복"
 #. File = Armies/Rituals/RitualBoneArrowAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals (Power×Power+ 5)d4 physical damage to the target unit. This is a "
-#| "Arcane spell."
 msgctxt "a22dac0a-8a7a-4dce-9ec9-43f459cec340"
 msgid ""
 "Deals ((Power×Power + 5)d8) physical damage to every unit on the horizontal "
 "line. This is an Arcane spell."
-msgstr "대상 유닛에게 (마력×마력+ 5)d4 물리 피해를 입힙니다. 이것은 비전 주문입니다."
+msgstr "한 행의 모든 유닛에게 (마력×마력 + 5)d8 물리 피해를 입힙니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Rituals/RitualBoneArrow
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3896,16 +3743,11 @@ msgstr "뼈 방패"
 #. File = Armies/Rituals/RitualBreathOfLifeAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Restores ((Power×Power+ 5)×2d8) HP to the target unit. This is a Divine "
-#| "spell with a heal effect."
 msgctxt "47855402-bcbc-4ce0-9dbf-e0c0aae4bd8c"
 msgid ""
 "Restores ((Power×Power + 5)×2d8) HP to the target unit. This is a Divine "
 "spell with a heal effect."
-msgstr "대상 유닛의 HP를 ((마력×마력 + 5)×2d8) 회복합니다. 이것은 신성 주문이며 치유 "
-"효과입니다."
+msgstr "대상 유닛의 HP를 ((마력×마력 + 5)×2d8) 회복합니다. 이것은 신성 주문이며 치유 효과입니다."
 
 #. File = Armies/Rituals/RitualBreathOfLife
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -3958,16 +3800,11 @@ msgstr "황소의 힘"
 #. File = Armies/Rituals/RitualCallLightningAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d10) electricity damage to the target unit. This is a "
-#| "Divine spell."
 msgctxt "7e21c5de-f68f-41ba-a900-43d5514b5703"
 msgid ""
 "Deals ((Power×Power + 5)d10) electricity damage to the target unit. This is "
 "a Divine spell."
-msgstr "대상 유닛에게 ((마력×마력 + 5)d10) 전기 피해를 가합니다. 이것은 신성 "
-"주문입니다."
+msgstr "대상 유닛에게 ((마력×마력 + 5)d10) 전기 피해를 가합니다. 이것은 신성 주문입니다."
 
 #. File = Armies/Rituals/RitualCallLightning
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4040,19 +3877,14 @@ msgstr "음에너지 전달"
 #. File = Armies/Rituals/RitualCrushingDespairAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All enemy units receive a -2 penalty to attack and initiative for 3 rounds "
-#| "and a -(10 + Power/5) penalty to combat morale. This is a Arcane spell with "
-#| "a mind-affecting effect."
 msgctxt "e3f5fb5c-761b-4694-9b01-7ebe1ed1f574"
 msgid ""
 "All enemy units receive a -2 penalty to attack and initiative for 3 rounds "
 "and a -(10 + Power/5) penalty to combat morale. This is an Arcane spell with "
 "a mind-affecting effect."
 msgstr ""
-"모든 적 유닛들이 3 라운드 동안 공격과 우선권에 -2 페널티를 받고, 전투 사기에 "
-"-(10 + 마력/5) 페널티를 받습니다. 이것은 비전 주문이며 정신 영향 효과입니다."
+"모든 적 유닛이 3 라운드 동안 공격과 우선권에 -2 페널티를 받고, 전투 사기에 -(10 + 마력/5) 페널티를 받습니다. 이것은 비전 "
+"주문이며 정신 영향 효과입니다."
 
 #. File = Armies/Rituals/RitualCrushingDespair
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4072,16 +3904,11 @@ msgstr "처참한 절망"
 #. File = Armies/Rituals/RitualCureWoundsAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Restores ((Power×Power+ 5)d8) HP to the target unit. This is a Divine spell "
-#| "with a heal effect."
 msgctxt "31aaeb84-5a3e-4b9b-9ce3-af0f76241044"
 msgid ""
 "Restores ((Power×Power + 5)d8) HP to the target unit. This is a Divine spell "
 "with a heal effect."
-msgstr "대상 유닛의 HP를 ((마력×마력+ 5)d8) 회복시킵니다. 이것은 치유 효과를 지닌 "
-"신성 주문입니다."
+msgstr "대상 유닛의 HP를 ((마력×마력 + 5)d8) 회복시킵니다. 이것은 치유 효과를 지닌 신성 주문입니다."
 
 #. File = Armies/Rituals/RitualCureWounds
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4175,16 +4002,11 @@ msgstr "원기 소진"
 #. File = Armies/Rituals/RitualFingerOfDeathAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)×3d6) negative energy damage to the target unit. This "
-#| "is a Arcane spell with a death effect."
 msgctxt "e2294615-93c7-4b48-9294-8ca6f72cdf3a"
 msgid ""
 "Deals ((Power×Power + 5)×3d6) negative energy damage to the target unit. "
 "This is an Arcane spell with a death effect."
-msgstr "대상 유닛에게 ((마력x마력+ 5)×3d6) 음에너지 피해를 입힙니다. 이것은 즉사 "
-"효과를 지닌 비전 주문입니다."
+msgstr "대상 유닛에게 ((마력x마력 + 5)×3d6) 음에너지 피해를 입힙니다. 이것은 즉사 효과를 지닌 비전 주문입니다."
 
 #. File = Armies/Rituals/RitualFingerOfDeath
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4208,16 +4030,11 @@ msgstr "죽음의 손가락"
 #. File = Armies/Rituals/RitualFireStormAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d10) fire damage to all units in a 5×5 area. This is "
-#| "a Divine spell."
 msgctxt "a2f4f948-30dc-4b28-91fc-aec13b9dc106"
 msgid ""
 "Deals ((Power×Power + 5)d10) fire damage to all units in a 5×5 area. This is "
 "a Divine spell."
-msgstr "5×5 타일 범위내 모든 유닛에게 ((마력x마력+ 5)d10 화염 피해를 입힙니다. "
-"이것은 신성 주문입니다."
+msgstr "5×5 타일 범위 내 모든 유닛에게 ((마력x마력 + 5)d10 화염 피해를 입힙니다. 이것은 신성 주문입니다."
 
 #. File = Armies/Rituals/RitualFireStorm
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4237,16 +4054,11 @@ msgstr "화염 폭풍"
 #. File = Armies/Rituals/RitualFireballAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d6) fire damage to all units in a 3×3 area. This is a "
-#| "Arcane spell."
 msgctxt "7ed81ac0-4371-4b1b-b505-053f053dfe8e"
 msgid ""
 "Deals ((Power×Power + 5)d6) fire damage to all units in a 3×3 area. This is "
 "an Arcane spell."
-msgstr "3×3 타일 범위내 모든 유닛에게 ((마력x마력+ 5)d6 화염 피해를 입힙니다. 이것은 "
-"비전 주문입니다."
+msgstr "3×3 타일 범위내 모든 유닛에게 ((마력x마력 + 5)d6 화염 피해를 입힙니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Rituals/RitualFireball
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4278,20 +4090,14 @@ msgstr "화염구"
 #. File = Armies/Rituals/RitualGoodHopeBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in the army gain a +2 bonus to attack and initiative for 3 rounds "
-#| "and a +(10 + Power/5) bonus to combat morale. This is a Divine spell with is "
-#| "a mind-affecting effect."
 msgctxt "e28a8faa-75c0-4a7b-bf05-d0d12fd81652"
 msgid ""
 "All units in the army gain a +2 bonus to attack and initiative for 3 rounds "
 "and a +(10 + Power/5) bonus to combat morale. This is a Divine spell with a "
 "mind-affecting effect."
 msgstr ""
-"부대의 모든 유닛은 3 라운드 동안 명중과 우선권에 +2 보너스를 받고 전투 "
-"사기에 +(10 + 마력/5) 보너스를 얻습니다. 이것은 정신 영향 효과를 지닌 신성 "
-"주문입니다."
+"부대의 모든 유닛이 3 라운드 동안 명중과 우선권에 +2 보너스, 전투 사기에 +(10 + 마력/5) 보너스를 얻습니다. 이것은 정신 "
+"영향 효과를 지닌 신성 주문입니다."
 
 #. File = Armies/Rituals/RitualGoodHope
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4343,19 +4149,14 @@ msgstr "상급 음에너지 전달"
 #. File = Armies/Rituals/RitualHasteAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All units in the army gain a +2 bonus to speed, a +3 bonus to attack, a +5 "
-#| "bonus to initiative and a +3 bonus to Reflex saving throws for 1 round. This "
-#| "is a Arcane spell."
 msgctxt "191e01f3-b5e9-4f22-85d9-f7b6ac7017e0"
 msgid ""
 "All units in the army gain a +2 bonus to speed, a +3 bonus to attack, a +5 "
 "bonus to initiative and a +3 bonus to Reflex saving throws for 1 round. This "
 "is an Arcane spell."
 msgstr ""
-"부대의 모든 유닛은 1 라운드 동안 속도에 +2, 명중에 +3, 우선권에 +5, 반사 "
-"내성 굴림에 +3 보너스를 얻습니다. 이것은 비전 주문입니다."
+"부대의 모든 유닛이 1 라운드 동안 속도에 +2, 명중에 +3, 우선권에 +5, 반사 내성 굴림에 +3 보너스를 얻습니다. 이것은 비전 "
+"주문입니다."
 
 #. File = Armies/Rituals/RitualHaste
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4375,16 +4176,11 @@ msgstr "가속"
 #. File = Armies/Rituals/RitualHealAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Restores ((Power×Power+ 5)×3d6) HP to the target unit. This is a Divine "
-#| "spell with a heal effect."
 msgctxt "58bac3e6-b2ff-4504-a89f-8b2b55a05562"
 msgid ""
 "Restores ((Power×Power + 5)×3d6) HP to the target unit. This is a Divine "
 "spell with a heal effect."
-msgstr "대상 유닛의 HP를 ((마력x마력+ 5)×3d6) 회복시킵니다. 이것은 신성 주문이며 "
-"치유 효과입니다."
+msgstr "대상 유닛의 HP를 ((마력x마력 + 5)×3d6) 회복시킵니다. 이것은 신성 주문이며 치유 효과입니다."
 
 #. File = Armies/Rituals/RitualHeal
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4473,17 +4269,13 @@ msgstr "포박"
 #. File = Armies/Rituals/RitualIceStormBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d6) cold damage to all units in a 3×3 area and "
-#| "inflicts a -2 penalty to speed for 3 rounds. This is a Arcane spell."
 msgctxt "b4633e15-4107-4c85-9802-650e215e7fab"
 msgid ""
 "Deals ((Power×Power + 5)d6) cold damage to all units in a 3×3 area and "
 "inflicts a -2 penalty to speed for 3 rounds. This is an Arcane spell."
 msgstr ""
-"3×3 타일 범위내 모든 유닛에게 ((마력x마력+ 5)d6 피해를 입히고 3 라운드 동안 "
-"속도에 -2 페널티를 가합니다. 이것은 비전 주문입니다."
+"3×3 타일 범위내 모든 유닛에게 ((마력x마력 + 5)d6 피해를 입히고 3 라운드 동안 속도에 -2 페널티를 가합니다. 이것은 비전 "
+"주문입니다."
 
 #. File = Armies/Rituals/RitualIceStorm
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4576,16 +4368,11 @@ msgstr "기도"
 #. File = Armies/Rituals/RitualScorchingRayAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)d6) fire damage to the target unit. This is a Arcane "
-#| "spell."
 msgctxt "ce13d241-31c7-41db-8e66-734d73c044da"
 msgid ""
 "Deals ((Power×Power + 5)d6) fire damage to the target unit. This is an "
 "Arcane spell."
-msgstr "대상 유닛에게 ((마력x마력+ 5)d6) 화염 피해를 입힙니다. 이것은 비전 "
-"주문입니다."
+msgstr "대상 유닛에게 ((마력x마력 + 5)d6) 화염 피해를 입힙니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Rituals/RitualScorchingRay
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4638,19 +4425,14 @@ msgstr "신념의 방패"
 #. File = Armies/Rituals/RitualSlowAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "All enemy units receive a -2 penalty to speed, a -3 penalty to attack, a -5 "
-#| "penalty to initiative and a -3 penalty to Reflex saving throws for 1 round. "
-#| "This is a Arcane spell."
 msgctxt "d8be2768-9564-44b5-8b17-24b8b4bcb123"
 msgid ""
 "All enemy units receive a -2 penalty to speed, a -3 penalty to attack, a -5 "
 "penalty to initiative and a -3 penalty to Reflex saving throws for 1 round. "
 "This is an Arcane spell."
 msgstr ""
-"모든 적 유닛은 1 라운드 동안 속도에 -2, 명중에 -3, 우선권에 -5, 반사 내성 "
-"굴림에 -3 페널티를 받습니다. 이것은 비전 주문입니다."
+"모든 적 유닛이 1 라운드 동안 속도에 -2, 명중에 -3, 우선권에 -5, 반사 내성 굴림에 -3 페널티를 받습니다. 이것은 비전 "
+"주문입니다."
 
 #. File = Armies/Rituals/RitualSlow
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4670,16 +4452,11 @@ msgstr "감속"
 #. File = Armies/Rituals/RitualStoneCallAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Deals ((Power×Power+ 5)×2d6) physical damage to all units in a 3×3 area. "
-#| "This is a Arcane spell."
 msgctxt "7f65747d-fa85-4413-85ab-01c5bedfff1e"
 msgid ""
 "Deals ((Power×Power + 5)×2d6) physical damage to all units in a 3×3 area. "
 "This is an Arcane spell."
-msgstr "3×3 타일 범위내 모든 유닛에게 ((마력x마력+ 5)×2d6) 물리 피해를 입힙니다. "
-"이것은 비전 주문입니다."
+msgstr "3×3 타일 범위 내 모든 유닛에게 ((마력x마력+ 5)×2d6) 물리 피해를 입힙니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Rituals/RitualStoneCall
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
@@ -4699,16 +4476,11 @@ msgstr "자갈비"
 #. File = Armies/Rituals/RitualSummonMonsterAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "Summons (3 + power) elementals. The type of the elementals is chosen "
-#| "randomly. This is a Arcane spell."
 msgctxt "7d018bac-b24d-450c-b69e-c8838eba132b"
 msgid ""
 "Summons (3 + power) elementals. The type of the elementals is chosen "
 "randomly. This is an Arcane spell."
-msgstr "(3 + 마력) 정령을 소환합니다. 정령의 유형은 무작위로 선택됩니다. 이것은 비전 "
-"주문입니다."
+msgstr "(3 + 마력) 정령을 소환합니다. 정령의 유형은 무작위로 선택됩니다. 이것은 비전 주문입니다."
 
 #. File = Armies/Rituals/RitualSummonMonster
 #. Type = Kingmaker.Armies.Blueprints.BlueprintLeaderSkill
