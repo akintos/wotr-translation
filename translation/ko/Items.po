@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2023-12-31 13:37+0000\n"
+"PO-Revision-Date: 2024-01-02 00:37+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -8588,17 +8588,20 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} is "
 "increased by 2."
 msgstr ""
+"착용자가 전기 {g|Encyclopedia:Spell_Descriptor}기술어{/g}를 지닌 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 때마다, 해당 주문의 {g|Encyclopedia:Saving_Throw}"
+"내성 굴림{/g} {g|Encyclopedia:DC}DC{/g}가 2 증가합니다."
 
 #. File = Equipment/Armor/Items/Unique/Robes/RobeOfEarthEnchant
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintArmorEnchantment
 #. Path = m_Description
-#, fuzzy
-#| msgid "Grants +2 DC bonus to acid spells."
 msgctxt "a09f4dce-f2f8-4920-b903-613ecd883b1d"
 msgid ""
 "Grants +2 {g|Encyclopedia:DC}DC{/g} {g|Encyclopedia:Bonus}bonus{/g} to acid "
 "{g|Encyclopedia:Spell}spells{/g}."
-msgstr "산성 주문의 DC에 +2의 보너스를 제공합니다."
+msgstr ""
+"산성 {g|Encyclopedia:Spell}주문{/g} {g|Encyclopedia:DC}DC{/g}에 +2의 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/Robes/RobeOfEarthEnchant
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintArmorEnchantment
@@ -8628,6 +8631,9 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} is "
 "increased by 2."
 msgstr ""
+"착용자가 산성 {g|Encyclopedia:Spell_Descriptor}기술어{/g}를 지닌 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 때마다, 해당 주문의 {g|Encyclopedia:Saving_Throw}"
+"내성 굴림{/g} {g|Encyclopedia:DC}DC{/g}가 2 증가합니다."
 
 #. File = Equipment/Armor/Items/Unique/Robes/RobeOfFalseDeathCorrectItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -8664,15 +8670,16 @@ msgstr "거짓 죽음의 로브"
 #. File = Equipment/Armor/Items/Unique/Robes/RobeOfFire_CorrectItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid "Grants +2 DC bonus to fire spells."
 msgctxt "809a8524-166d-4051-bf1f-f36204dbea83"
 msgid ""
 "Whenever the wearer casts a {g|Encyclopedia:Spell}spell{/g} with fire "
 "{g|Encyclopedia:Spell_Descriptor}descriptor{/g}, its "
 "{g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} is "
 "increased by 2."
-msgstr "화염 주문의 DC에 +2의 보너스를 제공합니다."
+msgstr ""
+"착용자가 화염 {g|Encyclopedia:Spell_Descriptor}기술어{/g}를 지닌 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 때마다, 해당 주문의 {g|Encyclopedia:Saving_Throw}"
+"내성 굴림{/g} {g|Encyclopedia:DC}DC{/g}가 2 증가합니다."
 
 #. File = Equipment/Armor/Items/Unique/Robes/RobeOfFireEnchant
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintArmorEnchantment
@@ -8715,13 +8722,13 @@ msgstr "의식의 로브"
 #. File = Equipment/Armor/Items/Unique/Robes/RobeOfWaterEnchant
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintArmorEnchantment
 #. Path = m_Description
-#, fuzzy
-#| msgid "Grants +2 DC bonus to cold spells."
 msgctxt "38d93d93-0158-48d7-b941-644428833fcf"
 msgid ""
 "Grants +2 {g|Encyclopedia:DC}DC{/g} {g|Encyclopedia:Bonus}bonus{/g} to cold "
 "{g|Encyclopedia:Spell}spells{/g}."
-msgstr "냉기 주문의 DC에 +2의 보너스를 제공합니다."
+msgstr ""
+"냉기 {g|Encyclopedia:Spell}주문{/g}의 {g|Encyclopedia:DC}DC{/g}에 +2의 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/Robes/RobeOfWaterEnchant
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintArmorEnchantment
@@ -8751,6 +8758,9 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throw{/g} {g|Encyclopedia:DC}DC{/g} is "
 "increased by 2."
 msgstr ""
+"착용자가 냉기 {g|Encyclopedia:Spell_Descriptor}기술어{/g}를 지닌 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 때마다, 해당 주문의 {g|Encyclopedia:Saving_Throw}"
+"내성 굴림{/g} {g|Encyclopedia:DC}DC{/g}가 2 증가합니다."
 
 #. File = Equipment/Armor/Items/Unique/ShadowLeatherPlus1
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -8900,19 +8910,14 @@ msgstr "견습생의 로브"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter1/ArmorOfVigilanceItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +1 leather armor grants the wearer a +4 {g|Encyclopedia:Bonus}bonus{/g} "
-#| "to {g|Encyclopedia:Armor_Class}AC{/g} against sneak "
-#| "{g|Encyclopedia:Attack}attacks{/g}."
 msgctxt "7e66793d-30ff-4880-97d1-7ea0e885e407"
 msgid ""
 "This +1 leather armor grants the wearer a +4 {g|Encyclopedia:Bonus}bonus{/g} "
 "to {g|Encyclopedia:Armor_Class}AC{/g} against sneak attacks."
 msgstr ""
-"이 +1 가죽 갑옷은 착용자에게 은신 {g|Encyclopedia:Attack}공격{/g}에 대해 +"
-"4의 {g|Encyclopedia:Armor_Class}방어도{/g} {g|Encyclopedia:Bonus}보너스{/g} "
-"를 부여합니다 ."
+"이 +1 가죽 갑옷은 암습 {g|Encyclopedia:Attack}공격{/g}에 대한 착용자의 "
+"{g|Encyclopedia:Armor_Class}방어도{/g}에 +4 {g|Encyclopedia:Bonus}보너스{/g} 를 "
+"부여합니다 ."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter1/ArmorOfVigilanceItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9045,13 +9050,6 @@ msgstr "장로 야수의 마갑"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/BrestplateOfWhiteDragonItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 white dragonhide breastplate grants the wearer a cold aura and cold "
-#| "resistance 30. This breastplate can be worn by druids.\n"
-#| "Cold Aura: All creatures within 5 feet of this creature take "
-#| "{g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Energy_Damage}cold "
-#| "damage{/g} at the beginning of its turn."
 msgctxt "0e389317-dab9-4d9e-a25f-638a1ccffd6b"
 msgid ""
 "This +4 white dragonhide breastplate grants the wearer a cold aura and cold "
@@ -9061,11 +9059,11 @@ msgid ""
 "{g|Encyclopedia:Dice}2d6{/g} points of {g|Encyclopedia:Energy_Damage}cold "
 "damage{/g} at the beginning of its turn."
 msgstr ""
-"이 +4 화이트 드래곤 가죽 판금 흉갑은 착용자에게 냉기 오라와 냉기 저항 30을 "
-"부여합니다. 드루이드는 이 판금 흉갑을 착용할 수 있습니다.\n"
-"냉기 오라: 이 크리처 주변 5피트 범위 내에 있는 모든 크리처는 턴이 시작될 때 "
-"{g|Encyclopedia:Dice}2d6{/g} 점의 {g|Encyclopedia:Energy_Damage}냉기 피해{/g}"
-"를 받습니다."
+"이 +4 화이트 드래곤 가죽 판금 흉갑은 착용자에게 냉기 오라와 냉기 "
+"{g|Encyclopedia:Energy_Resistance}저항{/g} 30을 부여합니다. 드루이드는 이 판금 흉갑을 착용할 수 "
+"있습니다.\n"
+"냉기 오라: 이 크리처 주변 5피트 범위 내에 있는 모든 크리처는 턴이 시작될 때 {g|Encyclopedia:Dice}2d6{/g} "
+"점의 {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 받습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/BrestplateOfWhiteDragonItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9085,12 +9083,6 @@ msgstr "화이트 드래곤"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/ChainmailOfDragonFly/ChainmailOfDragonFlyItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 chainmail can be activated once per day to grant all allies in a 30 "
-#| "feet radius a +1 insight {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "{g|Encyclopedia:Dexterity}Dexterity{/g} and to {g|Encyclopedia:Attack}attack "
-#| "rolls{/g} against demons for 10 {g|Encyclopedia:Combat_Round}rounds{/g}."
 msgctxt "85fa9036-01de-468a-a96c-12026286a5db"
 msgid ""
 "This +3 chainmail can be activated once per day to grant all allies in a 30-"
@@ -9098,10 +9090,9 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g}"
 " against demons for 10 {g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
-"이 +3 사슬갑옷은 하루에 한번 30 피트 반경의 모든 아군에게 10 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
-"{g|Encyclopedia:Dexterity}민첩{/g}과 데몬에 대한 {g|Encyclopedia:Attack}명중 "
-"굴림{/g}에 +1 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
+"이 +3 사슬갑옷은 하루에 한번 30 피트 반경의 모든 아군에게 10 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"동안 데몬에 대한 {g|Encyclopedia:Attack}명중 굴림{/g}과 {g|Encyclopedia:Damage}피해 굴림{/g}"
+"에 +1 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/ChainmailOfDragonFly/ChainmailOfDragonFlyAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -9141,19 +9132,14 @@ msgstr "생기의 사슬조끼"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/ClothOfBlazingFighterItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This shirt grants the wearer a +5 competence {g|Encyclopedia:Bonus}bonus{/g} "
-#| "to {g|Encyclopedia:Athletics}Athletics{/g} {g|Encyclopedia:Skills}skill "
-#| "checks{/g} and fire resistance 30."
 msgctxt "92ee2f15-4825-4ecd-bed5-aa28a0c8f064"
 msgid ""
 "This shirt grants the wearer a +5 competence {g|Encyclopedia:Bonus}bonus{/g} "
 "to {g|Encyclopedia:Athletics}Athletics{/g} {g|Encyclopedia:Skills}skill "
 "checks{/g} and fire {g|Encyclopedia:Energy_Resistance}resistance{/g} 30."
 msgstr ""
-"이 셔츠는 착용자에게 화염 저항 30 과 {g|Encyclopedia:Athletics}운동{/g} "
-"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 "
+"이 셔츠는 착용자에게 화염 {g|Encyclopedia:Energy_Resistance}저항{/g} 30 과 "
+"{g|Encyclopedia:Athletics}운동{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/ClothOfBlazingFighterItem
@@ -9197,7 +9183,7 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} from the Plants domain as if they were 2 "
 "{g|Encyclopedia:Caster_Level}caster levels{/g} higher."
 msgstr ""
-"이 +3 가죽 갑옷 착용자의 식물 도메인 {g|Encyclopedia:Spell}주문{/g}은 "
+"이 +3 가죽 갑옷 착용자의 식물 영역 {g|Encyclopedia:Spell}주문{/g}은 "
 "{g|Encyclopedia:Caster_Level}시전자 레벨{/g}이 2단계 높아집니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/DelameresArmorItem
@@ -9246,13 +9232,6 @@ msgstr "대지의 포옹"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/ExquisiteChainBardingItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 chainshirt barding grants its wearer a +2 "
-#| "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Dexterity}Dexterity{/g} "
-#| "{g|Encyclopedia:Ability_Scores}ability score{/g}, and immunity to ability "
-#| "score {g|Encyclopedia:Damage}damage{/g} for the first 3 "
-#| "{g|Encyclopedia:Combat_Round}rounds{/g} of combat."
 msgctxt "fb05ca5a-e4fe-475f-a7fc-caaa91a1b0ad"
 msgid ""
 "This +3 chainshirt barding grants its wearer a +2 "
@@ -9262,10 +9241,9 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}rounds{/g} of combat."
 msgstr ""
 "이 +3 사슬조끼 마갑은 착용자에게 +2 {g|Encyclopedia:Dexterity}민첩{/g} "
-"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} "
-"{g|Encyclopedia:Bonus}보너스{/g}와, 전투 시작 후 3 "
-"{g|Encyclopedia:Combat_Round}라운드{/g}동안 능력치 점수 "
-"{g|Encyclopedia:Damage}피해{/g}에 대한 면역을 제공합니다."
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여하고, 전투의 첫 3 {g|Encyclopedia:Combat_Round}라운드{/g}동안 "
+"{g|Encyclopedia:AbilityDamage}능력치 피해{/g}에 대한 면역을 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/ExquisiteChainBardingItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9295,11 +9273,6 @@ msgstr "상승작용의 반신 판금갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/FrozenScalesItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 scalemail barding grants its wearer fire resistance 10 and partial "
-#| "{g|Encyclopedia:Concealment}concealment{/g} against "
-#| "{g|Encyclopedia:RangedAttack}ranged attacks{/g}."
 msgctxt "55fa714d-5a90-44e2-b0ed-30b9af6d82bc"
 msgid ""
 "This +3 scalemail barding grants its wearer fire "
@@ -9307,8 +9280,9 @@ msgid ""
 "{g|Encyclopedia:Concealment}concealment{/g} against "
 "{g|Encyclopedia:RangedAttack}ranged attacks{/g}."
 msgstr ""
-"이 +3 미늘 갑옷 마갑은 화염 저항 10과 {g|Encyclopedia:RangedAttack}원거리 "
-"공격{/g}에 대한 부분적인 {g|Encyclopedia:Concealment}은폐{/g}를 제공합니다."
+"이 +3 미늘 갑옷 마갑은 화염 {g|Encyclopedia:Energy_Resistance}저항{/g} 10과 "
+"{g|Encyclopedia:RangedAttack}원거리 공격{/g}에 대한 부분적인 "
+"{g|Encyclopedia:Concealment}은폐{/g}를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/FrozenScalesItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9320,23 +9294,16 @@ msgstr "얼어붙은 미늘"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/FullplateOfSpellNullifyItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 mithral full plate grants the wearer additional "
-#| "{g|Encyclopedia:Spell_Resistance}Spell Resistance{/g} 23."
 msgctxt "accd9baa-471d-4d97-84d2-8e3baf24a953"
 msgid ""
 "This +3 mithral full plate grants the wearer "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g} 23."
 msgstr ""
-"이 +3 미스랄 전신 판금갑옷은 착용자에게 추가적인 "
-"{g|Encyclopedia:Spell_Resistance}주문 저항{/g} 23을 부여합니다."
+"이 +3 미스랄 전신 판금갑옷은 착용자에게 {g|Encyclopedia:Spell_Resistance}주문 저항{/g} 23을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/FullplateOfSpellNullifyItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DisplayNameText
-#, fuzzy
-#| msgid "Fullplate of Spell Nullify"
 msgctxt "07515afa-1e0f-450d-8079-cba0964b01eb"
 msgid "Full Plate of Spell Nullify"
 msgstr "주문 무효화의 전신 판금갑옷"
@@ -9344,17 +9311,14 @@ msgstr "주문 무효화의 전신 판금갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/GleamingBandedArmorItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 banded armor grants the wearer fire resistance 30, immunity to "
-#| "sleep, electricity, and paralysis."
 msgctxt "06ad7f42-8d17-4746-9dc3-0bbe2880adf5"
 msgid ""
 "This +3 banded armor grants the wearer fire "
 "{g|Encyclopedia:Energy_Resistance}resistance{/g} 30, immunity to sleep, "
 "electricity, and paralysis."
-msgstr "이 +3 철판 사슬갑옷은 착용자에게 화염 저항 30과 전기, 마비, 수면에 대한 "
-"면역을 부여합니다."
+msgstr ""
+"이 +3 철판 사슬갑옷은 착용자에게 화염 {g|Encyclopedia:Energy_Resistance}저항{/g} 30과 전기, 마비, "
+"수면에 대한 면역을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/GleamingBandedArmorItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9380,12 +9344,6 @@ msgstr "호화롭고 화려한 햇볕색 하복"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/HaramakiOfScholarshipItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 haramaki grants its wearer a +5 сompetence "
-#| "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Knowledge_Arcana}"
-#| "Knowledge (Arcana){/g} {g|Encyclopedia:Skills}skill checks{/g} and a +4 "
-#| "bonus on {g|Encyclopedia:Concentration}Concentration checks{/g}."
 msgctxt "7c7464b7-e0f5-4958-9874-501ed535f69d"
 msgid ""
 "This +3 haramaki grants its wearer a +5 competence "
@@ -9394,9 +9352,8 @@ msgid ""
 "bonus on {g|Encyclopedia:Concentration}Concentration checks{/g}."
 msgstr ""
 "이 +3 하라마키는 착용자의 {g|Encyclopedia:Knowledge_Arcana}지식(비전){/g} "
-"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 "
-"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:Concentration}집중 "
-"판정{/g}에는 +4 보너스를 제공합니다."
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 {g|Encyclopedia:Bonus}보너스{/g}를, "
+"{g|Encyclopedia:Concentration}집중 판정{/g}에는 +4 보너스를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/HaramakiOfScholarshipItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9408,12 +9365,6 @@ msgstr "학술의 하라마키"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/HideArmorOfElementalCarnageItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this +4 hide armor casts a "
-#| "{g|Encyclopedia:Spell}spell{/g} with fire, electricity, cold or acid "
-#| "descriptor, that spell deals +1 point of {g|Encyclopedia:Damage}damage{/g} "
-#| "per die {g|Encyclopedia:Dice}rolled{/g}."
 msgctxt "8991ad27-e42e-420a-9932-2cc5da0e584a"
 msgid ""
 "Whenever the wearer of this +4 hide armor casts a "
@@ -9422,11 +9373,9 @@ msgid ""
 "of {g|Encyclopedia:Damage}damage{/g} per dice "
 "{g|Encyclopedia:Dice}rolled{/g}."
 msgstr ""
-"이 +4 털가죽 갑옷의 착용자가 화염, 전기, 냉기, 산성 "
-"{g|Encyclopedia:Spell_descriptors}기술어{/g}가 붙은 "
-"{g|Encyclopedia:Spell}주문{/g}을 시전할 경우, 주문의 "
-"{g|Encyclopedia:Damage}피해{/g}를 계산하는 {g|Encyclopedia:Dice}주사위{/g}"
-"수마다 1을 더합니다."
+"이 +4 털가죽 갑옷의 착용자가 화염, 전기, 냉기, 산성 {g|Encyclopedia:Spell_Descriptor}기술어{/g}가 "
+"붙은 {g|Encyclopedia:Spell}주문{/g}을 시전할 경우, 주문이 {g|Encyclopedia:Damage}피해{/g} "
+"굴림 {g|Encyclopedia:Dice}주사위{/g} 당 +1 피해를 추가로 입힙니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/HideArmorOfElementalCarnageItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9438,11 +9387,6 @@ msgstr "원소 학살의 털가죽 갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/LeatherArmorOfUsefulPocketsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 leather armor grants the wearer a +2 {g|Encyclopedia:Bonus}bonus{/g} "
-#| "to {g|Encyclopedia:Dexterity}Dexterity{/g}. Every day the wearer finds a "
-#| "random scroll in its pocket."
 msgctxt "1a25d176-0148-4308-8839-279a87e783c8"
 msgid ""
 "This +3 leather armor grants the wearer a +2 luck "
@@ -9450,9 +9394,9 @@ msgid ""
 "{g|Encyclopedia:Ability_Scores}ability score{/g}. Every day the wearer finds "
 "a random scroll in its pocket."
 msgstr ""
-"이 +3 가죽 갑옷은 착용자의 {g|Encyclopedia:Dexterity}민첩{/g}에 +2 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자는 매일 갑옷의 "
-"주머니에서 무작위의 주문 두루마리를 발견합니다."
+"이 +3 가죽 갑옷은 착용자의 {g|Encyclopedia:Dexterity}민첩{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +2 행운 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다. 착용자는 매일 갑옷의 주머니에서 무작위의 주문 두루마리를 발견합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/LeatherArmorOfUsefulPocketsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9464,11 +9408,6 @@ msgstr "유용한 주머니가 달린 가죽 갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/LeatherMantleOfNightItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 leather armor grants its wearer a +10 competence bonus on Stealth "
-#| "skill checks. In addition, whenever the wearer loses invisibility, he "
-#| "becomes blurred, as per the blur spell, for 1d4 rounds."
 msgctxt "5e0f1917-c88d-44ea-9318-04afd502f0ca"
 msgid ""
 "This +3 leather armor grants its wearer a +10 competence "
@@ -9478,9 +9417,10 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g}, for {g|Encyclopedia:Dice}1d4{/g} "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
-"이 +3 가죽갑옷은 착용자에게 은신 기술 판정에 +10 능숙 보너스를 제공합니다. "
-"추가로, 착용자가 투명화 상태에서 벗어나면, 1d4 라운드 동안 흐릿한 형체 "
-"주문을 받은 것과 같은 흐릿함 상태가 됩니다."
+"이 +3 가죽갑옷은 착용자의 {g|Encyclopedia:Stealth}은신{/g} {g|Encyclopedia:Skills}기술 "
+"판정{/g}에 +10 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 추가로, 착용자가 투명화 상태를 잃을 "
+"때마다 {g|Encyclopedia:Dice}1d4{/g} 라운드 동안 흐릿한 형체 {g|Encyclopedia:Spell}주문{/g}을 "
+"받은 것과 같은 흐릿함 상태가 됩니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/LeatherMantleOfNightItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9492,13 +9432,6 @@ msgstr "밤의 망토"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/LoneWolfsScalemailItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 scale mail grants its wearer immunity to "
-#| "{g|Encyclopedia:Flanking}flanking{/g} and a +3 insight "
-#| "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
-#| "against flying and {g|Encyclopedia:Incorporeal_Touch_Attack}incorporeal{/g} "
-#| "creatures."
 msgctxt "732ca332-db0f-4a4d-a599-c7fa779a5992"
 msgid ""
 "This +3 scalemail grants its wearer immunity to "
@@ -9506,17 +9439,13 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
 "against flying and incorporeal creatures."
 msgstr ""
-"이 +3 미늘갑옷은 착용자를 {g|Encyclopedia:Flanking}협공{/g} 상태에 "
-"면역되도록 하며, 비행하거나 "
-"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g}인 크리처의 공격에 대한 "
-"{g|Encyclopedia:Armor_Class}AC{/g}에 +3 통찰 {g|Encyclopedia:Bonus}보너스{/g}"
-"를 제공합니다."
+"이 +3 미늘갑옷은 착용자에게 {g|Encyclopedia:Flanking}협공{/g} 상태에 대한 면역을 부여하며, 비행하거나 "
+"비실체형인 크리처의 공격에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +3 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/LoneWolfsScalemailItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DisplayNameText
-#, fuzzy
-#| msgid "Lone Wolf's Scale Mail"
 msgctxt "fab10ab1-2d4f-4551-bf18-7f88dcc376d1"
 msgid "Lone Wolf's Scalemail"
 msgstr "고독한 늑대의 미늘갑옷"
@@ -9565,13 +9494,6 @@ msgstr "순례자의 셔츠"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/RobeElementalImbuement/RobeElementalImbuementItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this robe suffers elemental "
-#| "{g|Encyclopedia:Damage}damage{/g} (such as acid, fire, cold, electricity or "
-#| "sonic), for the next {g|Encyclopedia:Combat_Round}round{/g} any "
-#| "{g|Encyclopedia:Spell}spell{/g} cast by the wearer, if it deals the same "
-#| "kind of elemental damage, deals +2 damage per dice of damage suffered."
 msgctxt "aaa55239-0277-4154-bd86-fffbf7528fcb"
 msgid ""
 "Whenever the wearer of this robe suffers {g|Encyclopedia:Energy_Damage}"
@@ -9581,11 +9503,10 @@ msgid ""
 "kind of elemental damage, deals +2 damage per dice "
 "{g|Encyclopedia:Dice}rolled{/g}."
 msgstr ""
-"이 로브의 착용자가 원소 {g|Encyclopedia:Damage}피해{/g}를 (산, 화염, 냉기, "
-"전기, 음파) 입으면 다음 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
-"착용자가 시전하는 동일한 종류의 원소 피해를 입히는 모든 "
-"{g|Encyclopedia:Spell}주문{/g}이 입은 피해의 피해 굴림 주사위 당 +2 피해를 "
-"입힙니다."
+"이 로브의 착용자가 {g|Encyclopedia:Energy_Damage}원소 피해{/g}(산, 화염, 냉기, 전기, 음파)를 입을 "
+"때마다, 다음 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자가 동일한 종류의 원소 피해를 입히는 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전시 해당 주문은 피해 {g|Encyclopedia:Dice}굴림{/g} 주사위 "
+"당 +2 피해를 입힙니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/RobeElementalImbuement/RobeElementalImbuementItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -9597,12 +9518,6 @@ msgstr "원소 주입"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/RobeOfOrderItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If the wearer of this robe has a ki pool, the robe increases it by 2. If the "
-#| "wearer is of lawful {g|Encyclopedia:Alignment}alignment{/g}, it grants a +2 "
-#| "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} "
-#| "against chaotic enemies. This robe can be worn only by a monk."
 msgctxt "d44661da-a368-4dc3-917c-b5a3281428d6"
 msgid ""
 "If the wearer of this robe has a ki pool, the robe increases it by 2. If the "
@@ -9610,10 +9525,9 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g} "
 "against chaotic enemies. This robe can be worn only by a monk."
 msgstr ""
-"이 로브의 착용자가 기력을 지니고 있으면 2점 증가합니다. 만일 착용자가 질서 "
-"{g|Encyclopedia:Alignment}성향{/g}이라면 혼돈 성향 적에 대한 "
-"{g|Encyclopedia:Attack}명중 굴림{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}를 "
-"받습니다. 이 로브는 몽크만 장비할 수 있습니다."
+"이 로브의 착용자가 기력을 지니고 있으면 2점 증가합니다. 만일 착용자가 질서 {g|Encyclopedia:Alignment}성향{/g}"
+"이라면 혼돈 성향 적에 대한 {g|Encyclopedia:Attack}명중 굴림{/g}에 +2 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 이 로브는 몽크만 장비할 수 있습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/RobeOfOrderItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -9625,12 +9539,6 @@ msgstr "질서의 로브"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/RobeOfVirtueItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer a +2 dodge {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "{g|Encyclopedia:Armor_Class}AC{/g} and a +2 competence bonus on "
-#| "{g|Encyclopedia:Attack}attacks{/g} against evil enemies. Only Monk of good "
-#| "{g|Encyclopedia:Alignment}alignment{/g} can wear it."
 msgctxt "3637565f-e989-410f-a169-c8904015671b"
 msgid ""
 "This robe grants its wearer a +2 dodge {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -9639,9 +9547,8 @@ msgid ""
 " enemies. Only Monk of good alignment can wear it."
 msgstr ""
 "이 로브는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 피하기 "
-"{g|Encyclopedia:Bonus}보너스{/g}, 악 성향 적에 대한 "
-"{g|Encyclopedia:Attack}명중{/g}에 +2 능숙 보너스를 부여합니다. 오직 선 "
-"{g|Encyclopedia:Alignment}성향{/g} 몽크만이 장비할 수 있습니다."
+"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Alignment}악{/g} 성향 적에 대한 "
+"{g|Encyclopedia:Attack}명중{/g}에 +2 능숙 보너스를 부여합니다. 오직 선 성향 몽크만이 장비할 수 있습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/RobeOfVirtueItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -9727,8 +9634,7 @@ msgctxt "4de828a7-1306-4256-a0ff-11e7c1798f97"
 msgid ""
 "If the wearer of this shirt has the Fervor class ability, it grants them 3 "
 "additional uses of Fervor per day."
-msgstr "이 셔츠의 착용자가 백열 능력을 보유하고 있으면, 하루 당 3회의 추가 백열 사용 "
-"횟수를 부여합니다."
+msgstr "이 셔츠의 착용자가 백열 능력을 보유하고 있으면, 하루당 3회의 추가 백열 사용 횟수를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter3/TunicOfArdentWarpriestItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -9744,24 +9650,14 @@ msgstr "열성적인 워프리스트의 튜닉"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/PromiseOfGreatnessItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 breastplate makes the wearer's first {g|Encyclopedia:Spell}spell{/g} "
-#| "cast in any combat encouraging, as though using the Encouraging Spell "
-#| "{g|Encyclopedia:Feat}feat{/g}.\n"
-#| "Encouraging Spell: Any morale {g|Encyclopedia:Bonus}bonus{/g} granted by an "
-#| "encouraging spell is increased by 1."
 msgctxt "621a08a6-1a72-47ae-bc28-815a6e50278a"
 msgid ""
 "This +4 breastplate makes the wearer's first {g|Encyclopedia:Spell}spell{/g} "
 "cast in any combat bolstered, as though using the {g|FeatureBolsteredSpell}"
 "Bolster Spell{/g} {g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
-"이 +4 판금 흉갑은 착용자가 전투 중 처음 시전한 전투 격려 "
-"{g|Encyclopedia:Spell}주문{/g}에 대해, 메타매직(격려 주문) "
-"{g|Encyclopedia:Feat}피트{/g}가 적용된 것처럼 적용합니다.\n"
-"메타매직(격려 주문) : 격려 주문이 부여하는 모든 사기 "
-"{g|Encyclopedia:Bonus}보너스{/g}가 1 증가합니다."
+"이 +4 판금 흉갑의 착용자가 전투 중 처음 시전한 주문은 {g|FeatureBolsteredSpell}확산 메타매직{/g} "
+"{g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 시전됩니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/ArdentGuardItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9773,14 +9669,6 @@ msgstr "열정적인 수호자"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/ArmorOfVigilantSproutsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this +4 padded armor is hit by a sneak "
-#| "{g|Encyclopedia:Attack}attack{/g} or an "
-#| "{g|Encyclopedia:Attack_Of_Opportunity}attack of opportunity{/g}, the "
-#| "attacker must pass a {g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} "
-#| "({g|Encyclopedia:DC}DC{/g} 28) or become entangled for 3 "
-#| "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgctxt "6883dda4-acf4-48b6-a90a-b0f3a8db96a4"
 msgid ""
 "Whenever the wearer of this +4 padded armor is hit by a sneak attack or an "
@@ -9789,11 +9677,10 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} 28) or become {g|ConditionEntangled}entangled{/g} "
 "for 3 {g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
-"이 +4 누비 갑옷의 착용자가 기습 {g|Encyclopedia:Attack}공격{/g} 이나 "
-"{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을에 피격당할 때마다, "
-"공격자는 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g} "
-"({g|Encyclopedia:DC}DC{/g} 28)을 실패시 3 "
-"{g|Encyclopedia:Combat_Round}라운드{/g}간 속박됩니다."
+"이 +4 누비 갑옷의 착용자가 암습이나 {g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}에 맞을 "
+"때마다, 공격자는 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g} "
+"({g|Encyclopedia:DC}DC{/g} 28)을 실패시 3 {g|Encyclopedia:Combat_Round}라운드{/g}간 "
+"{g|ConditionEntangled}속박{/g}됩니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/ArmorOfVigilantSproutsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9805,20 +9692,14 @@ msgstr "경계하는 새싹의 갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/BeaconOfCarnageItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 breastplate grants its wearer {g|Encyclopedia:Damage_Reduction}DR{/g}"
-#| " 2/-. It increases by 1 for each enemy in {g|Encyclopedia:Threatened_Area}"
-#| "melee range{/g} of the wearer, but no higher than 5/-."
 msgctxt "b2c12b04-3615-4743-bfae-64f70502a028"
 msgid ""
 "This +4 breastplate grants its wearer {g|Encyclopedia:Damage_Reduction}DR{/g}"
 " 2/-. It increases by 1 for each enemy in melee range of the wearer, but no "
 "higher than 5/-."
 msgstr ""
-"이 +4 판금 흉갑은 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 2/- 를 "
-"부여합니다. 이 수치는 {g|Encyclopedia:Threatened_Area}근접 거리{/g} 내의 "
-"적마다 1 증가하지만 5/- 를 넘을수 없습니다."
+"이 +4 판금 흉갑은 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 2/- 를 부여합니다. 이 수치는 "
+"근접 거리 내의 적마다 1 증가하지만 5/- 를 넘을수 없습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/BeaconOfCarnageItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9881,19 +9762,6 @@ msgstr "침착한 감시자"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/ChainmailOfSpitefulBarbsMeleeBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "This +5 chainmail grants its wearer a +5 competence "
-#| "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Persuasion}Persuasion{/g} "
-#| "{g|Encyclopedia:Skills}skill checks{/g} made to initimidate. Whenever the "
-#| "wearer suffers 10 or more {g|Encyclopedia:HP}HP{/g} "
-#| "{g|Encyclopedia:Damage}damage{/g} from a single {g|Encyclopedia:RangedAttack}"
-#| "ranged attack{/g}, they gain a +1 morale bonus to "
-#| "{g|Encyclopedia:Armor_Class}AC{/g} for 1 "
-#| "{g|Encyclopedia:Combat_Round}round{/g}, and their next "
-#| "{g|Encyclopedia:MeleeAttack}melee attack{/g} deals additional "
-#| "{g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Damage_Type}piercing damage{/g} "
-#| "on a successful hit."
 msgctxt "ae32091c-8c94-43a1-a747-4ac3efba75db"
 msgid ""
 "This +5 chainmail grants its wearer a +5 competence "
@@ -9909,14 +9777,12 @@ msgid ""
 "on a successful hit."
 msgstr ""
 "이 +5 사슬갑옷은 착용자에게 협박에 대한 {g|Encyclopedia:Persuasion}설득{/g} "
-"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자는 단일 "
-"{g|Encyclopedia:RangedAttack}원거리 공격{/g}에 10 이상의 "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 +5 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다. 착용자는 단일 {g|Encyclopedia:RangedAttack}원거리 공격{/g}에 10 이상의 "
 "{g|Encyclopedia:HP}HP{/g} {g|Encyclopedia:Damage}피해{/g}를 입을 때마다 1 "
-"{g|Encyclopedia:Combat_Round}라운드{/g}간 {g|Encyclopedia:Armor_Class}AC{/g}"
-"에 +1 사기 보너스를 받으며, 다음 {g|Encyclopedia:MeleeAttack}근접 공격{/g}이 "
-"명중시 추가로 {g|Encyclopedia:Dice}2d6{/g}의 {g|Encyclopedia:Damage_Type}"
-"찌르기 피해{/g}를 부여합니다."
+"{g|Encyclopedia:Combat_Round}라운드{/g}간 {g|Encyclopedia:Armor_Class}AC{/g}에 +1 "
+"사기 보너스를 받으며, 다음 {g|Encyclopedia:MeleeAttack}근접 공격{/g}이 명중시 추가로 "
+"{g|Encyclopedia:Dice}2d6{/g}의 {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/ChainmailOfSpitefulBarbsACBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -9961,13 +9827,6 @@ msgstr "영원한 발라드"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/DragonfallItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 scale mail grants its wielder a +4 insight "
-#| "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
-#| "against dragons, and also a +2 insight bonus on "
-#| "{g|Encyclopedia:Attack}attack{/g}, {g|Encyclopedia:Damage}damage rolls{/g}, "
-#| "and {g|Encyclopedia:Saving_Throw}saving throws{/g} against dragons."
 msgctxt "e52ddb47-bc05-4aa3-958d-bd89846a9439"
 msgid ""
 "This +4 scalemail grants its wielder a +4 insight "
@@ -9976,10 +9835,10 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g}, {g|Encyclopedia:Damage}damage rolls{/g}, "
 "and {g|Encyclopedia:Saving_Throw}saving throws{/g} against dragons."
 msgstr ""
-"이 +4 미늘갑옷은 착용자에게 드래곤에 대한 {g|Encyclopedia:Armor_Class}AC{/g}"
-"에 +4 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 부여하며, 드래곤에 대한 "
-"{g|Encyclopedia:Attack}명중{/g}, {g|Encyclopedia:Damage}피해{/g}, "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 통찰 보너스를 부여합니다."
+"이 +4 미늘갑옷은 착용자에게 드래곤에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +4 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를, 드래곤에 대한 {g|Encyclopedia:Attack}명중{/g}, "
+"{g|Encyclopedia:Damage}피해{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 통찰 "
+"보너스를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/DragonfallItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -9991,14 +9850,6 @@ msgstr "용의 몰락"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/FlowingHalfplateItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 half-plate grants its wearer a + 5 {g|Encyclopedia:Bonus}bonus{/g} "
-#| "on Reflex {g|Encyclopedia:Saving_Throw}saving throws{/g}. In addition, "
-#| "whenever the wearer makes a successful Reflex saving throw against an "
-#| "{g|Encyclopedia:Attack}attack{/g} that normally deals half "
-#| "{g|Encyclopedia:Damage}damage{/g} on a successful save, they instead take no "
-#| "damage as if they had the Evasion {g|Encyclopedia:Feat}feat{/g}."
 msgctxt "3f87cd92-4a26-4592-8f3b-9833e6441aca"
 msgid ""
 "This +4 half-plate grants its wearer a + 5 {g|Encyclopedia:Bonus}bonus{/g} "
@@ -10008,11 +9859,10 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} on a successful save, they instead take no "
 "damage as if they had the Evasion {g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
-"이 +4 반신 판금갑옷은 착용자에게 +5 반사 {g|Encyclopedia:Saving_Throw}내성 "
-"굴림{/g} {g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 또한, 착용자가 반사 "
-"내성 굴림에 성공한 경우 착용자는 절반의 {g|Encyclopedia:Damage}피해{/g}를 "
-"입지 않고, 회피 {g|Encyclopedia:Feat}특기{/g}를 가진 것처럼 피해를 입지 않게 "
-"됩니다."
+"이 +4 반신 판금갑옷은 착용자의 {g|Encyclopedia:Saving_Throw}반사 내성{/g} 에 +5 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 또한, 착용자가 반사 내성 굴림에 성공한 경우 착용자는 절반의 "
+"{g|Encyclopedia:Damage}피해{/g}를 입지 않고, 회피 {g|Encyclopedia:Feat}특기{/g}를 가진 것처럼 "
+"피해를 입지 않게 됩니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/FlowingHalfplateItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10075,15 +9925,6 @@ msgstr "행복한 여행자의 셔츠"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/MysticGraceItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 leather armor is made from very light and delicate leather, "
-#| "increasing max {g|Encyclopedia:Dexterity}dexterity{/g} "
-#| "{g|Encyclopedia:Bonus}bonus{/g} by 1 and decreasing "
-#| "{g|Encyclopedia:Spell_Fail_Chance}arcane spell failure chance{/g} by 10%. It "
-#| "also grants the wielder a +2 bonus on {g|Encyclopedia:Caster_Level}caster "
-#| "level{/g} {g|Encyclopedia:Check}checks{/g} made to overcome "
-#| "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgctxt "5cfcc9ae-175e-4d63-9f9e-6804502567bc"
 msgid ""
 "This +3 leather armor is made from very light and delicate leather, "
@@ -10094,12 +9935,11 @@ msgid ""
 "{g|Encyclopedia:Check}checks{/g} made to overcome "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgstr ""
-"이 +3 가죽갑옷은 매우 가볍고 섬세한 가죽으로 만들어져, 최대 "
-"{g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Bonus}보너스{/g}를 1 "
-"증가시키고, {g|Encyclopedia:Spell_Fail_Chance}비전 주문 실패 확률{/g}을 10% "
-"낮춥니다. 또한 착용자에게 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 "
-"극복하기 위한 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} "
-"{g|Encyclopedia:Check}판정{/g}에 +2 보너스를 제공합니다."
+"이 +3 가죽갑옷은 매우 가볍고 섬세한 가죽으로 만들어져, 최대 {g|Encyclopedia:Dexterity}민첩{/g} 보너스를 1 "
+"증가시키고, {g|Encyclopedia:Spell_Fail_Chance}비전 주문 실패 확률{/g}을 10% 낮춥니다. 또한 착용자에게 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 극복하기 위한 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} {g|Encyclopedia:Check}판정{/g}에 +2 "
+"보너스를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/MysticGraceItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10144,19 +9984,14 @@ msgstr "위대함의 조짐"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/RealmProtectorItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 full plate grants its wearer additional stacking "
-#| "{g|Encyclopedia:Damage_Reduction}DR{/g} 2/- for each dead outsider in a 30 "
-#| "feet area."
 msgctxt "8de36a9a-7e5e-43f1-92be-f0794c82127f"
 msgid ""
 "This +4 full plate grants its wearer additional stacking "
 "{g|Encyclopedia:Damage_Reduction}DR{/g} 2/- for each dead outsider in a 30-"
 "foot area."
 msgstr ""
-"이 +4 전신 판금갑옷은 착용자에게 30 피트 범위 내의 죽은 외차원체마다 "
-"중첩되는 추가 {g|Encyclopedia:Damage_Reduction}DR{/g} 2/-을 부여합니다."
+"이 +4 전신 판금갑옷은 착용자에게 30 피트 범위 내의 죽은 외차원체마다 중첩되는 추가 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 2/-을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/RealmProtectorFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
@@ -10203,13 +10038,6 @@ msgstr "결의의 로브"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/RobeOfMaliceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants the wearer a +3 dodge {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "{g|Encyclopedia:Armor_Class}AC{/g}, and a +5 bonus to "
-#| "{g|Encyclopedia:UnarmedAttack}unarmed attack{/g} and {g|Encyclopedia:Damage}"
-#| "damage rolls{/g}. It can be worn only by a monk of Lawful Evil "
-#| "{g|Encyclopedia:Alignment}alignment{/g}."
 msgctxt "1a40ea69-1a6c-48f8-b401-7acca76a7f09"
 msgid ""
 "This robe grants the wearer a +3 dodge {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -10219,10 +10047,9 @@ msgid ""
 "lawful evil alignment{/g}."
 msgstr ""
 "이 로브는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +3 피하기 "
-"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:UnarmedAttack}비무장 "
-"공격{/g}의 명중과 {g|Encyclopedia:Damage}피해 굴림{/g}에 +5 보너스를 "
-"부여합니다. 오직 질서 악 {g|Encyclopedia:Alignment}성향{/g}의 몽크만이 "
-"착용할 수 있습니다."
+"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:UnarmedAttack}비무장 공격{/g}의 "
+"명중과 {g|Encyclopedia:Damage}피해 굴림{/g}에 +5 보너스를 부여합니다. 오직 "
+"{g|Encyclopedia:Alignment}질서 악{/g} 성향의 몽크만이 착용할 수 있습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/RobeOfMaliceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -10234,12 +10061,6 @@ msgstr "악의의 로브"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/RoyalMessengersChainshirtItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 mithral chainshirt grants its wearer a +4 "
-#| "{g|Encyclopedia:Bonus}bonus{/g} on Reflex {g|Encyclopedia:Saving_Throw}"
-#| "saving throws{/g} and a +10 competence bonus on {g|Encyclopedia:Mobility}"
-#| "Mobility checks{/g}."
 msgctxt "02da2e40-9473-4474-bf06-bb04af9c8bf2"
 msgid ""
 "This +4 mithral chainshirt grants its wearer a +4 "
@@ -10247,9 +10068,9 @@ msgid ""
 "saving throws{/g} and a +10 competence bonus on {g|Encyclopedia:Mobility}"
 "Mobility checks{/g}."
 msgstr ""
-"이 +4 미스랄 사슬조끼는 착용자의 반사 {g|Encyclopedia:Saving_Throw}내성 "
-"굴림{/g}에 +4의 {g|Encyclopedia:Bonus}보너스{/g}를, "
-"{g|Encyclopedia:Mobility}기동성{/g} 판정에 +10 능숙 보너스를 부여합니다."
+"이 +4 미스랄 사슬조끼는 착용자의 {g|Encyclopedia:Saving_Throw}반사 내성{/g}에 +4의 "
+"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:Mobility}기동성{/g} 판정에 +10 능숙 "
+"보너스를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/RoyalMessengersChainshirtItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10261,17 +10082,6 @@ msgstr "왕실 전령의 사슬조끼"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/SeasonedAssassinsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "While wearing this +4 studded armor you have total "
-#| "{g|Encyclopedia:Concealment}concealment{/g} against all "
-#| "{g|Encyclopedia:RangedAttack}ranged attacks{/g} (weapon and "
-#| "{g|Encyclopedia:TouchAttack}touch{/g}). Whenever you receive a "
-#| "{g|Encyclopedia:Critical}critical hit{/g} from a ranged "
-#| "{g|Encyclopedia:Attack}attack{/g}, you gain "
-#| "{g|Encyclopedia:Damage_Reduction}DR{/g} 10/- for {g|Encyclopedia:Dice}1d3{/g}"
-#| " {g|Encyclopedia:Combat_Round}rounds{/g}. However, receiving a critical hit "
-#| "in melee combat makes you prone for 1 round."
 msgctxt "f6e50257-4033-4b0d-bd3c-8d54ba1cf982"
 msgid ""
 "While wearing this +4 studded armor you have total "
@@ -10283,14 +10093,13 @@ msgid ""
 " {g|Encyclopedia:Combat_Round}rounds{/g}. However, receiving a critical hit "
 "in melee combat makes you prone for 1 round."
 msgstr ""
-"이 +4 징 박힌 가죽갑옷은 착용자를 모든 {g|Encyclopedia:RangedAttack}원거리 "
-"공격{/g} (무기와 {g|Encyclopedia:TouchAttack}접촉{/g} 모두)에 대한 완전 "
-"{g|Encyclopedia:Concealment}은폐{/g} 상태로 만듭니다. 착용자가 원거리 "
-"{g|Encyclopedia:Attack}공격{/g}에 의한 {g|Encyclopedia:Critical}치명타{/g}를 "
-"적중당할 때마다, 착용자는 {g|Encyclopedia:Dice}1d3{/g} "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
-"{g|Encyclopedia:Damage_Reduction}DR{/g} 10/-를 얻습니다. 그러나, 근접 "
-"공격으로 치명타를 적중당할 경우 착용자는 1라운드 동안 쓰러짐 상태가 됩니다."
+"이 +4 징 박힌 가죽갑옷은 착용자를 모든 {g|Encyclopedia:RangedAttack}원거리 공격{/g} (무기와 "
+"{g|Encyclopedia:TouchAttack}접촉{/g} 모두)에 대한 완전 "
+"{g|Encyclopedia:Concealment}은폐{/g} 상태로 만듭니다. 착용자가 원거리 공격에 의한 "
+"{g|Encyclopedia:Critical}치명타{/g}를 적중당할 때마다, 착용자는 {g|Encyclopedia:Dice}1d3{/g}"
+" {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 10/-를 얻습니다. 그러나, 근접 공격으로 치명타를 적중당할 "
+"경우 착용자는 1라운드 동안 쓰러짐 상태가 됩니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/SeasonedAssassinsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10348,13 +10157,6 @@ msgstr "부족 척후병의 털가죽 갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/TribalScoutsHideItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 hide armor grants the wearer a +10 competence "
-#| "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Stealth}Stealth{/g}. "
-#| "While in Stealth or invisible, all successful "
-#| "{g|Encyclopedia:Attack}attacks{/g} deal additional 6 force "
-#| "{g|Encyclopedia:Damage}damage{/g}."
 msgctxt "645a6166-c76f-455e-994b-3ccceacfea94"
 msgid ""
 "This +5 hide armor grants the wearer a +10 competence "
@@ -10363,10 +10165,10 @@ msgid ""
 "{g|Encyclopedia:Attack}attacks{/g} deal additional 6 "
 "{g|Encyclopedia:Energy_Damage}force damage{/g}."
 msgstr ""
-"이 +5 털가죽 갑옷은 착용자의 {g|Encyclopedia:Stealth}은신{/g} 기술에 +10 "
-"능숙 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한, 착용자가 은신 "
-"중이거나 투명 상태일 때 적중시킨 모든 {g|Encyclopedia:Attack}공격{/g}은 6 "
-"점의 역장 {g|Encyclopedia:Damage}피해{/g}를 추가로 입힙니다."
+"이 +5 털가죽 갑옷은 착용자의 {g|Encyclopedia:Stealth}은신{/g} 기술에 +10 능숙 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한, 착용자가 은신 중이거나 투명 상태일 때 적중시킨 모든 "
+"{g|Encyclopedia:Attack}공격{/g}은 6 점의 {g|Encyclopedia:Energy_Damage}역장 피해{/g}를 "
+"추가로 입힙니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/UndyingDevotionItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10418,14 +10220,6 @@ msgstr "떠돌이 사기꾼"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/WelcomeRespiteItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this +5 banded armor is {g|Encyclopedia:MeleeAttack}"
-#| "attacked in melee{/g} while being prone, stunned or staggered, the "
-#| "{g|Encyclopedia:Attack}attacker{/g} must pass a {g|Encyclopedia:Saving_Throw}"
-#| "Reflex saving throw{/g} ({g|Encyclopedia:DC}DC{/g} 30) or suffer from the "
-#| "same condition for 2 {g|Encyclopedia:Combat_Round}rounds{/g}. In addition, "
-#| "this armor grants its wearer immunity to fire and acid."
 msgctxt "028a3275-32ea-4da4-a8b0-8ae53b57594e"
 msgid ""
 "Whenever the wearer of this +5 banded armor is {g|Encyclopedia:MeleeAttack}"
@@ -10435,12 +10229,11 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}rounds{/g}. In addition, this armor grants its "
 "wearer {g|Encyclopedia:Energy_Immunity}immunity{/g} to fire and acid."
 msgstr ""
-"이 +5 철판 사슬갑옷의 착용자가 기절, 쓰러짐, 또는 비틀거림 상태에서 "
-"{g|Encyclopedia:MeleeAttack}근접 공격{/g}을 당할 경우, "
-"{g|Encyclopedia:Attack}공격자{/g}는 {g|Encyclopedia:Saving_Throw}반사 내성 "
-"굴림{/g} ({g|Encyclopedia:DC}DC{/g} 30)을 시행하여 실패할 경우 2 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자와 동일한 상태에 "
-"빠집니다. 또한, 이 갑옷은 착용자에게 화염과 산성에 대한 면역을 부여합니다."
+"이 +5 철판 사슬갑옷의 착용자가 기절, 쓰러짐, 또는 비틀거림 상태에서 {g|Encyclopedia:MeleeAttack}근접 "
+"공격{/g}을 당할 경우, 공격자는 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g} "
+"({g|Encyclopedia:DC}DC{/g} 30)을 시행하여 실패할 경우 2 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자와 동일한 상태에 빠집니다. 또한, 이 갑옷은 착용자에게 "
+"화염과 산성에 대한 면역을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter4/WelcomeRespiteItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10533,13 +10326,6 @@ msgstr "지치지 않는 전사의 판금 흉갑"
 #. File = World/Encounters/Ziggurat/Items/ClaspOfDeathItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +6 enhancement bonus to all mental ability "
-#| "scores (Intelligence, Wisdom, and Charisma). In addition, if the wearer of "
-#| "this belt has the ability Channel Negative Energy, it increases the amount "
-#| "of damage this ability does to living creatures or heals to undead creatures "
-#| "by +2d6."
 msgctxt "28eabb84-ef8f-4505-bfb4-a73b6619da6e"
 msgid ""
 "This robe grants its wearer a +6 enhancement bonus to all mental ability "
@@ -10548,10 +10334,8 @@ msgid ""
 "of damage this ability does to living creatures or heals to undead creatures "
 "by +2d6."
 msgstr ""
-"이 허리띠는 착용자의 모든 정신 능력치에 (지능, 지혜, 매력) +6 강화 보너스를 "
-"부여합니다. 또한 이 허리띠의 착용자가 음에너지 전달 능력을 보유하고 있다면, "
-"해당 능력이 살아있는 크리처에게 가하는 피해량과 언데드 크리처에 대한 "
-"치유량을 +2d6 증가시킵니다."
+"이 로브는 착용자의 모든 정신 능력치 (지능, 지혜, 매력) 에 +6 강화 보너스를 부여합니다. 또한 이 로브의 착용자가 음에너지 전달 "
+"능력을 보유하고 있다면, 해당 능력이 살아있는 크리처에게 가하는 피해량과 언데드 크리처에 대한 치유량을 +2d6 증가시킵니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/ClaspOfDeathRobeItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -10581,20 +10365,14 @@ msgstr "상급 요새화의 천옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/DeadlyRaysItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 haramaki grants its wearer a +4 insight "
-#| "{g|Encyclopedia:Bonus}bonus{/g} on ranged {g|Encyclopedia:TouchAttack}touch "
-#| "attack{/g} {g|Encyclopedia:Dice}rolls{/g}."
 msgctxt "864ec223-f2d4-4412-885f-8504d6fb51ac"
 msgid ""
 "This +5 haramaki grants its wearer a +4 insight "
 "{g|Encyclopedia:Bonus}bonus{/g} on ranged {g|Encyclopedia:TouchAttack}touch "
 "attack{/g} rolls."
 msgstr ""
-"이 +5 하라마키는 착용자의 원거리 {g|Encyclopedia:TouchAttack}접촉{/g} 명중 "
-"{g|Encyclopedia:Dice}굴림{/g}에 +4 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 "
-"제공합니다."
+"이 +5 하라마키는 착용자의 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g} 명중 굴림에 +4 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/DeadlyRaysItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10632,17 +10410,13 @@ msgstr "사막의 신기루"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/FullplateOfMindFocusItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "The wearer of this +5 mithral fullplate is immune to mind affecting "
-#| "conditions and \"can not {g|Encyclopedia:Attack}attack{/g}\" condition."
 msgctxt "fa517f0a-bc08-48fe-b061-d0af977baa52"
 msgid ""
 "The wearer of this +5 mithral full plate is immune to mind affecting "
 "conditions and \"can not {g|Encyclopedia:Attack}attack{/g}\" condition."
 msgstr ""
-"이 +5 미스랄 전신 판금갑옷의 착용자는 정신 영향 효과와 \""
-"{g|Encyclopedia:Attack}공격{/g}할 수 없는\" 상태에 면역입니다."
+"이 +5 미스랄 전신 판금갑옷의 착용자는 정신 영향 효과와 \"{g|Encyclopedia:Attack}공격{/g} 불가\" 상태에 "
+"면역입니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/FullplateOfMindFocusItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10654,8 +10428,6 @@ msgstr "정신 집중의 전신 판금갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/GrenadiersHalfPlateItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid "This +5 halfplate grants its wearer immunity against bombs."
 msgctxt "6c264868-a6e1-45a6-af76-03fd8c6ad71c"
 msgid "This +5 half-plate grants its wearer immunity against bombs."
 msgstr "이 +5 반신 판금갑옷은 착용자에게 폭탄에 대한 면역을 부여합니다."
@@ -10718,20 +10490,15 @@ msgstr "닥쳐오는 어둠"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/LoremastersRobeItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer a +3 insight {g|Encyclopedia:Bonus}bonus{/g} on "
-#| "all Knowledge and Lore {g|Encyclopedia:Skills}skill checks{/g} as well as a +"
-#| "2 bonus on Reflex {g|Encyclopedia:Saving_Throw}saving throws{/g}."
 msgctxt "0cbd31ef-ff0c-4150-a571-f98aa9047888"
 msgid ""
 "This robe grants its wearer a +3 insight {g|Encyclopedia:Bonus}bonus{/g} on "
 "all Knowledge and Lore {g|Encyclopedia:Skills}skill checks{/g} as well as a +"
 "2 bonus on {g|Encyclopedia:Saving_Throw}Reflex saving throws{/g}."
 msgstr ""
-"이 로브는 착용자의 모든 지식 및 전승 {g|Encyclopedia:Skills}기술 판정{/g}에 +"
-"3 통찰 {g|Encyclopedia:Bonus}보너스{/g}를, 반사 {g|Encyclopedia:Saving_Throw}"
-"내성 굴림{/g}에 +2 보너스를 부여합니다."
+"이 로브는 착용자의 모든 지식 및 전승 {g|Encyclopedia:Skills}기술 판정{/g}에 +3 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:Saving_Throw}반사 내성{/g}에 +2 "
+"보너스를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/LoremastersRobeItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -10763,12 +10530,6 @@ msgstr "지배자의 사슬갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/PanthersGraceItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 studded armor grants its wearer a +15 competence "
-#| "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Stealth}Stealth{/g} "
-#| "{g|Encyclopedia:Skills}skill checks{/g} as well as a +4 competence bonus on "
-#| "Reflex {g|Encyclopedia:Saving_Throw}saving throws{/g}."
 msgctxt "2f73782b-276d-41fa-9552-bc0da92fcf4d"
 msgid ""
 "This +5 studded armor grants its wearer a +15 competence "
@@ -10776,10 +10537,9 @@ msgid ""
 "{g|Encyclopedia:Skills}skill checks{/g} as well as a +4 competence bonus on "
 "{g|Encyclopedia:Saving_Throw}Reflex saving throws{/g}."
 msgstr ""
-"이 +5 징 박힌 가죽갑옷은 착용자의 {g|Encyclopedia:Stealth}은신{/g} "
-"{g|Encyclopedia:Skills}기술 판정{/g}에 +15 능숙 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 제공하며, 또한 반사 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4의 능숙 보너스를 제공합니다."
+"이 +5 징 박힌 가죽갑옷은 착용자의 {g|Encyclopedia:Stealth}은신{/g} {g|Encyclopedia:Skills}"
+"기술 판정{/g}에 +15 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 제공하며, 또한 "
+"{g|Encyclopedia:Saving_Throw}반사 내성{/g}에 +4의 능숙 보너스를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/PanthersGraceItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10791,18 +10551,12 @@ msgstr "표범의 우아함"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/PurgingChainsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 adamantine chainshirt makes its wearer immune to "
-#| "{g|Encyclopedia:Ability_Scores}ability score{/g} "
-#| "{g|Encyclopedia:Damage}damage{/g}."
 msgctxt "203e371c-6d3d-4d6d-9bf2-b6950a47027d"
 msgid ""
 "This +5 adamantine chainshirt makes its wearer immune to "
 "{g|Encyclopedia:AbilityDamage}ability score damage{/g}."
 msgstr ""
-"이 +5 아다만틴 사슬조끼는 착용자에게 {g|Encyclopedia:Ability_Scores}능력치 "
-"피해{/g}에 대한 면역을 부여합니다."
+"이 +5 아다만틴 사슬조끼는 착용자에게 {g|Encyclopedia:AbilityDamage}능력치 피해{/g}에 대한 면역을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/PurgingChainsItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -10814,13 +10568,6 @@ msgstr "해제의 사슬"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/RobeOfAngelicPrudenceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer a +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
-#| "to {g|Encyclopedia:Charisma}Charisma{/g} and "
-#| "{g|Encyclopedia:Wisdom}Wisdom{/g} {g|Encyclopedia:Ability_Scores}ability "
-#| "scores{/g}. It also allows the wearer to cast greater angelic aspect at will "
-#| "as a 20th level cleric."
 msgctxt "b896bf3a-d3f2-4e67-a3df-d2a3259d43e1"
 msgid ""
 "This robe grants its wearer a +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
@@ -10829,10 +10576,10 @@ msgid ""
 "scores{/g}. It also allows the wearer to cast {g|SpellsGreaterAngelicAspect}"
 "greater angelic aspect{/g} at will as a 20th level cleric."
 msgstr ""
-"이 로브는 착용자의 {g|Encyclopedia:Charisma}매력{/g} 및 "
-"{g|Encyclopedia:Wisdom}지혜{/g} {g|Encyclopedia:Ability_Scores}능력치{/g}에 +"
-"4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자가 20 레벨 "
-"클레릭의 상급 엔젤의 형상을 시전할 수 있게 해줍니다."
+"이 로브는 착용자의 {g|Encyclopedia:Charisma}매력{/g} 및 {g|Encyclopedia:Wisdom}지혜{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다. 또한 착용자는 20 레벨 클레릭에 준하는 {g|SpellsGreaterAngelicAspect}상급 엔젤의 형상/g}을 "
+"자유롭게 시전할 수 있습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter5/RobeOfAngelicPrudenceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -10924,16 +10671,6 @@ msgstr "뛰어난 지도자의 사슬조끼"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter6/RobeOfMephistophelesItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This robe grants its wearer an aura which makes all enemies in a 30 feet "
-#| "radius suffer a -4 {g|Encyclopedia:Penalty}penalty{/g} on "
-#| "{g|Encyclopedia:Saving_Throw}saving throws{/g} against fear, compulsion and "
-#| "charm effects. In addition, once per day, the wearer of this robe can make "
-#| "all enemies in a 30 feet radius pass a Will saving throw "
-#| "({g|Encyclopedia:DC}DC{/g} 30), on fail they lose their minds, become "
-#| "hostile to everybody and start {g|Encyclopedia:Attack}attacking{/g} targets "
-#| "indiscriminately for 1 minute."
 msgctxt "4bd80faf-37f3-4f64-8c76-03535396213d"
 msgid ""
 "This robe grants its wearer an aura which makes all enemies in a 30-foot "
@@ -10945,13 +10682,10 @@ msgid ""
 "hostile to everybody and start attacking targets indiscriminately for 1 "
 "minute."
 msgstr ""
-"이 로브는 착용자에게 30 피트 반경의 모든 적의 공포, 강제, 매혹 효과에 대한 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 -4 "
-"{g|Encyclopedia:Penalty}페널티{/g}를 부과하는 오라를 방출하는 능력을 "
-"부여합니다. 또한 이 로브의 착용자는 하루에 한 번 30 피트 반경의 모든 적에게 "
-"{g|Encyclopedia:DC}DC{/g} 30 의지 내성 굴림을 강제해 실패시 정신을 잃어 1분 "
-"동안 모두에게 적대적이 되고 아무나 무차별적으로 "
-"{g|Encyclopedia:Attack}공격{/g}합니다."
+"이 로브는 착용자에게 30 피트 반경의 모든 적의 공포, 강제, 매혹 효과에 대한 {g|Encyclopedia:Saving_Throw}"
+"내성 굴림{/g}에 -4 {g|Encyclopedia:Penalty}페널티{/g}를 부과하는 오라를 방출하는 능력을 부여합니다. 또한 이 "
+"로브의 착용자는 하루에 한 번 30 피트 반경의 모든 적에게 {g|Encyclopedia:DC}DC{/g} 30 의지 내성 굴림을 강제해 "
+"실패시 정신을 잃어 1분 동안 모두에게 적대적이 되고 아무나 무차별적으로 공격합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter6/RobeOfMephistophelesAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -10984,11 +10718,6 @@ msgstr "은빛 안개"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter6/ThroneKeeperItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 adamantine full plate mail grants its wearer 10 "
-#| "{g|Encyclopedia:Damage_Reduction}DR{/g}/-, immunity to cold and fire as well "
-#| "as all {g|Encyclopedia:Combat_Maneuvers}combat maneuvers{/g}."
 msgctxt "4e2d9fc8-125c-4aea-aebf-55a84a5ced5b"
 msgid ""
 "This +5 adamantine full plate mail grants its wearer 10 "
@@ -10996,9 +10725,9 @@ msgid ""
 "{g|Encyclopedia:Energy_Immunity}immunity{/g} to cold and fire as well as all "
 "{g|Encyclopedia:Combat_Maneuvers}combat maneuvers{/g}."
 msgstr ""
-"이 +5 아다만틴 전신 판금갑옷은 착용자에게 "
-"{g|Encyclopedia:Damage_Reduction}DR{/g} 10/- 과 함께 냉기와 화염, 그리고 "
-"모든 {g|Encyclopedia:Combat_Maneuvers}전법{/g}에 대한 면역을 부여합니다."
+"이 +5 아다만틴 전신 판금갑옷은 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 10/- 과 함께 "
+"냉기와 화염, 그리고 모든 {g|Encyclopedia:Combat_Maneuvers}전법{/g}에 대한 "
+"{g|Encyclopedia:Energy_Immunity}면역{/g}을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter6/ThroneKeeperItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -11010,18 +10739,13 @@ msgstr "옥좌의 수호자"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter6/TrueSerenityItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This shirt grants its wearer {g|Encyclopedia:Spell_Resistance}spell "
-#| "resistance{/g} 34 against the enemies of chaotic "
-#| "{g|Encyclopedia:Alignment}alignment{/g}."
 msgctxt "3ee75d0b-d811-47ba-937f-83aa98d78b42"
 msgid ""
 "This shirt grants its wearer {g|Encyclopedia:Spell_Resistance}spell "
 "resistance{/g} 34 against the enemies of {g|Encyclopedia:Alignment}chaotic "
 "alignment{/g}."
 msgstr ""
-"이 셔츠는 착용자의 혼돈 {g|Encyclopedia:Alignment}성향{/g} 적에 대한 "
+"이 셔츠는 착용자의  {g|Encyclopedia:Alignment}혼돈 성향{/g} 적에 대한 "
 "{g|Encyclopedia:Spell_Resistance}주문 저항{/g} 34 를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Chapter6/TrueSerenityItem
@@ -11107,16 +10831,6 @@ msgstr "린드 가문의 사슬갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter2/KnightsEmblem/KnightsEmblemSunsetChainmailPenaltyBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "This +2 chainmail grants the wearer a +2 sacred "
-#| "{g|Encyclopedia:Bonus}bonus{/g} to Fortitude {g|Encyclopedia:Saving_Throw}"
-#| "saving throws{/g}. The wearer can choose to you can suffer a -2 "
-#| "{g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g} to "
-#| "grant all party members a +1 bonus to AC. While under this effect, an enemy "
-#| "that's {g|Encyclopedia:Attack}attacking{/g} the wearer must pass a Reflex "
-#| "saving throw ({g|Encyclopedia:DC}DC{/g} 17) or suffer "
-#| "{g|Encyclopedia:Dice}3d4{/g} {g|Encyclopedia:Damage_Type}piercing damage{/g}."
 msgctxt "09f2d8ca-3b95-4702-b857-f4d0f613fa14"
 msgid ""
 "This +2 chainmail grants the wearer a +2 sacred "
@@ -11128,13 +10842,12 @@ msgid ""
 "saving throw ({g|Encyclopedia:DC}DC{/g} 17) or suffer "
 "{g|Encyclopedia:Dice}3d4{/g} {g|Encyclopedia:Damage_Type}piercing damage{/g}."
 msgstr ""
-"이 +2 사슬갑옷은 착용자의 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 +2 신성 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자는 스스로의 "
-"{g|Encyclopedia:Armor_Class}AC{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 받는 "
-"대신 일행 전원의 AC에 +1 보너스를 부여할지를 선택할 수 있습니다. 이 효과를 적용하고 있는 착용자를 "
-"{g|Encyclopedia:Attack}공격{/g}한 적은 반사 내성 굴림({g|Encyclopedia:DC}DC{/g} 17)을 "
-"시행하거나 {g|Encyclopedia:Dice}3d4{/g} {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 "
-"입습니다."
+"이 +2 사슬갑옷은 착용자의 {g|Encyclopedia:Saving_Throw}인내 내성{/g}에 +2 신성 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자는 {g|Encyclopedia:Armor_Class}AC{/g}"
+"에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 받는 대신 일행 전원의 AC에 +1 보너스를 부여할 수도 있습니다. "
+"이 효과를 적용하고 있는 착용자를 {g|Encyclopedia:Attack}공격{/g}한 적은 반사 내성 "
+"굴림({g|Encyclopedia:DC}DC{/g} 17)을 시도해 실패시 {g|Encyclopedia:Dice}3d4{/g} "
+"{g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 입습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter2/KnightsEmblem/KnightsEmblemEmeraldChainmailItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -11166,19 +10879,6 @@ msgstr "말랜더의 참회"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter2/KnightsEmblem/KnightsEmblemSunsetChainmailItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +2 chainmail partially absorbs magic from chaotic or evil creatures. "
-#| "When such creatures {g|Encyclopedia:Attack}attack{/g} the wearer with magic, "
-#| "for the next two {g|Encyclopedia:Combat_Round}rounds{/g}, the wearer gains a "
-#| "+2 profane {g|Encyclopedia:Bonus}bonus{/g} to attack and "
-#| "{g|Encyclopedia:Damage}damage rolls{/g}, and {g|Encyclopedia:Caster_Level}"
-#| "caster level{/g} {g|Encyclopedia:Check}checks{/g} made to overcome "
-#| "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}. When this effect "
-#| "ends, the first attack the wearer makes suffers -4 "
-#| "{g|Encyclopedia:Penalty}penalty{/g} to attack and damage "
-#| "{g|Encyclopedia:Dice}roll{/g}, as well as a caster level checks made to "
-#| "overcome {g|Encyclopedia:Spell}spell{/g} resistance (if needed)."
 msgctxt "9947963a-f2f2-4b1a-b0d0-4d2bc24582bc"
 msgid ""
 "This +2 chainmail partially absorbs magic from {g|Encyclopedia:Alignment}"
@@ -11193,15 +10893,13 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalty{/g} to attack and damage roll, as well as a "
 "caster level checks made to overcome spell resistance (if needed)."
 msgstr ""
-"이 +2 사슬갑옷은 혼돈 혹은 악 크리처의 마법을 부분적으로 흡수합니다. 이러한 "
-"크리처가 착용자를 마법으로 {g|Encyclopedia:Attack}공격{/g}할 경우, 다음 두 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자는 명중 굴림과 "
-"{g|Encyclopedia:Damage}피해 굴림{/g}, {g|Encyclopedia:Spell_Resistance}주문 "
-"저항{/g}을 뚫기 위한 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} "
-"{g|Encyclopedia:Check}판정{/g}에 +2 불경 {g|Encyclopedia:Bonus}보너스{/g}를 "
-"받습니다. 이 효과가 종료된 뒤, 착용자는 명중 굴림과 피해 "
-"{g|Encyclopedia:Dice}굴림{/g}, 주문 저항을 뚫기 위한 시전자 레벨 판정(필요할 "
-"경우)에 -4 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
+"이 +2 사슬갑옷은 {g|Encyclopedia:Alignment}혼돈 또는 악{/g} 성향 크리처의 마법을 부분적으로 흡수합니다. "
+"이러한 크리처가 착용자를 마법으로 {g|Encyclopedia:Attack}공격{/g}할 경우, 다음 두 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자는 명중 굴림과 {g|Encyclopedia:Damage}"
+"피해 굴림{/g}, {g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 뚫기 위한 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} {g|Encyclopedia:Check}판정{/g}에 +2 불경 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 이 효과가 종료된 뒤, 착용자의 첫번째 공격은 명중 굴림과 피해 굴림, "
+"주문 저항을 뚫기 위한 시전자 레벨 판정(필요할 경우)에 -4 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter2/KnightsEmblem/KnightsEmblemSunsetChainmailBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -11229,14 +10927,6 @@ msgstr "말랜더의 모독"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarAgilityClothItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This clean and nice shirt is weaved from Retriever spider web, purified with "
-#| "druidic magic. Whenever a druid wearing it casts a "
-#| "{g|Encyclopedia:Spell}spell{/g} from their spellbook, they cast it as if "
-#| "they were one level higher. They also gain a +10 competence "
-#| "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Nature}Lore "
-#| "(Nature){/g} {g|Encyclopedia:Skills}skill checks{/g}."
 msgctxt "67a567b7-3894-4e9a-8570-7db22c73082a"
 msgid ""
 "This clean and nice shirt is woven from Retriever spider web, purified with "
@@ -11246,11 +10936,10 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Lore_Nature}Lore "
 "(nature){/g} {g|Encyclopedia:Skills}skill checks{/g}."
 msgstr ""
-"이 깨끗하고 훌륭한 셔츠는 드루이드 마법으로 정화한 리트리버 거미줄로 "
-"짜였습니다. 이 셔츠를 착용한 드루이드는 드루이드 주문책에서 "
-"{g|Encyclopedia:Spell}주문{/g}을 시전할 때 1 레벨 더 높은 것으로 취급됩니다. "
-"또한 {g|Encyclopedia:Lore_Nature}전승 (자연){/g} {g|Encyclopedia:Skills}기술 "
-"판정{/g}에 +10 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
+"이 깨끗하고 훌륭한 셔츠는 드루이드 마법으로 정화한 리트리버 거미줄로 짜였습니다. 이 셔츠를 착용한 드루이드는 드루이드 주문책에서 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 때 1 레벨 더 높은 것으로 취급됩니다. 또한 "
+"{g|Encyclopedia:Lore_Nature}전승 (자연){/g} {g|Encyclopedia:Skills}기술 판정{/g}에 +"
+"10 능숙 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarAgilityClothItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -11330,28 +11019,13 @@ msgstr ""
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarCloth_IntermediateItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DisplayNameText
-#, fuzzy
-#| msgid "Dark Retriever's Shirt"
 msgctxt "25ece5b6-aa7c-4d47-be9e-4e4879ecd0d7"
 msgid "First Retriever's Shirt"
-msgstr "어둠 리트리버 셔츠"
+msgstr "최초의 리트리버의 셔츠"
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarMasochisticClothItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This shirt is weaved from spider web. It strangles the wearer, inflicting a -"
-#| "5 {g|Encyclopedia:Penalty}penalty{/g} to "
-#| "{g|Encyclopedia:Mobility}Mobility{/g} {g|Encyclopedia:Skills}skill checks{/g}"
-#| ". It also helps to discharge electric {g|Encyclopedia:Damage}damage{/g}, "
-#| "granting the wearer electricity resistance 30. Whenever the wearer is hit by "
-#| "a non-{g|Encyclopedia:Damage_Type}slashing{/g} weapon, they must pass a "
-#| "{g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} "
-#| "({g|Encyclopedia:DC}DC{/g} 20) or become staggered for the first "
-#| "{g|Encyclopedia:Attack}attack{/g} in a {g|Encyclopedia:Combat_Round}round{/g}"
-#| ", as well as suffer a -2 penalty to attack {g|Encyclopedia:Dice}rolls{/g} "
-#| "for one round."
 msgctxt "e39dff24-d3c7-4a36-b8c1-e1a736fee4fd"
 msgid ""
 "This shirt is woven from spider web. It strangles the wearer, inflicting a -"
@@ -11366,16 +11040,14 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} in a {g|Encyclopedia:Combat_Round}round{/g}"
 ", as well as suffer a -2 penalty to attack rolls for one round."
 msgstr ""
-"이 셔츠는 거미줄로 직조되었습니다. 셔츠는 착용자를 옥죄어 "
-"{g|Encyclopedia:Mobility}기동성{/g} {g|Encyclopedia:Skills}기술 판정{/g}에 -"
-"5 {g|Encyclopedia:Penalty}페널티{/g}를 부여합니다. 또한 전기 "
-"{g|Encyclopedia:Damage}피해{/g}를 흘려보내는 것을 도와 전기 저항 30을 "
-"부여합니다. 착용자가 {g|Encyclopedia:Damage_Type}베기{/g} 무기를 제외한 "
-"무기에 적중당하면, 공격자는 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}"
-"을 ({g|Encyclopedia:DC}DC{/g} 20) 시도해 실패시 해당 "
-"{g|Encyclopedia:Combat_Round}라운드{/g}의 첫 번째 "
-"{g|Encyclopedia:Attack}공격{/g}에 대해 비틀거림 상태가 되고 한 라운드 동안 "
-"명중 {g|Encyclopedia:Dice}굴림{/g}에 -2 페널티를 받습니다."
+"이 셔츠는 거미줄로 직조되었습니다. 셔츠는 착용자를 옥죄어 {g|Encyclopedia:Mobility}기동성{/g} "
+"{g|Encyclopedia:Skills}기술 판정{/g}에 -5 {g|Encyclopedia:Penalty}페널티{/g}를 부여합니다. "
+"또한 {g|Encyclopedia:Energy_Damage}전기 피해{/g}의 전도를 도와 전기 "
+"{g|Encyclopedia:Energy_Resistance}저항{/g} 30을 부여합니다. 착용자가 "
+"{g|Encyclopedia:Damage_Type}베기{/g} 무기를 제외한 무기에 적중당하면, 공격자는 "
+"{g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}을 ({g|Encyclopedia:DC}DC{/g} 20) "
+"시도해 실패시 해당 {g|Encyclopedia:Combat_Round}라운드{/g}의 첫번째 "
+"{g|Encyclopedia:Attack}공격{/g}에 대해 비틀거림 상태가 되고 한 라운드 동안 명중 굴림에 -2 페널티를 받습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarMasochisticClothItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -11391,24 +11063,6 @@ msgstr "존 쿠쏜의 숨막히는 손길"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarMasochisticPaddedItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +4 padded armor is very stiff. The wearer suffers -2 "
-#| "{g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Attack}attack "
-#| "rolls{/g} and {g|Encyclopedia:Constitution}Constitution{/g} score. However, "
-#| "the wearer gets electricity resistance 30. If they suffer any electrical "
-#| "{g|Encyclopedia:Damage}damage{/g}, the armor becomes infused with "
-#| "electricity: for the next {g|Encyclopedia:Combat_Round}round{/g}, the "
-#| "wearer's attacks deal additional {g|Encyclopedia:Dice}1d12{/g} electric "
-#| "damage, and the {g|Encyclopedia:Spell}spells{/g} with the electric "
-#| "descriptor they cast become quickened, as though using the Quicken Spell "
-#| "{g|Encyclopedia:Feat}feat{/g}.\n"
-#| "Quicken Spell: Casting a quickened spell is a {g|Encyclopedia:Swift_Action}"
-#| "swift action{/g}. You can perform another {g|Encyclopedia:CA_Types}action{/g}"
-#| ", even casting another spell, in the same round as you cast a quickened "
-#| "spell. A spell whose {g|Encyclopedia:Casting_Time}casting time{/g} is more "
-#| "than 1 round or 1 {g|Encyclopedia:Full_Round_Action}full-round action{/g} "
-#| "cannot be quickened."
 msgctxt "65819084-feef-4265-8910-205419367b0c"
 msgid ""
 "This +4 padded armor is very stiff. The wearer suffers -2 "
@@ -11429,29 +11083,25 @@ msgid ""
 "than 1 round or 1 {g|Encyclopedia:Full_Round_Action}full-round action{/g} "
 "cannot be quickened."
 msgstr ""
-"이 +4 누비 갑옷은 매우 뻣뻣합니다. 착용자는 {g|Encyclopedia:Attack}명중 "
-"굴림{/g}과 {g|Encyclopedia:Constitution}건강{/g} 능력치에 -2 "
-"{g|Encyclopedia:Penalty}패널티{/g}를 겪게 됩니다. 그러나 착용자는 전기 저항 "
-"30을 얻고, 모든 전격 {g|Encyclopedia:Damage}피해{/g}를 겪을 경우 갑옷에 "
-"전격이 부여됩니다: 다음 {g|Encyclopedia:Combat_Round}라운드{/g}에 착용자의 "
-"공격은 추가적인 {g|Encyclopedia:Dice}1d12{/g}의 전격 피해와 전격 기술어 "
-"{g|Encyclopedia:Spell}주문{/g}을 시전시 신속해 집니다. 마치 신속 주문 "
-"{g|Encyclopedia:Feat}재주{/g}를 가진것처럼.\n"
-"신속 주문: 신속 주문은 시전시 {g|Encyclopedia:Swift_Action}신속 행동{/g}"
-"입니다. 즉 당신은 다른 {g|Encyclopedia:CA_Types}행동{/g}, 이를테면 신속 "
-"주문을 사용한 라운드에 다른 주문 시전 등. 해당 주문의 "
+"이 +4 누비 갑옷은 매우 뻣뻣합니다. 착용자는 {g|Encyclopedia:Attack}명중 굴림{/g}과 "
+"{g|Encyclopedia:Constitution}건강{/g} 능력치에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"겪게 됩니다. 그러나 착용자는 전기 {g|Encyclopedia:Energy_Resistance}저항{/g} 30을 얻습니다. 착용자가 "
+"{g|Encyclopedia:Energy_Damage}전기 피해{/g}를 받을 경우 갑옷에 전격이 부여됩니다: 다음 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 착용자의 공격은 "
+"{g|Encyclopedia:Dice}1d12{/g}의 전기 피해를 추가로 입히며, 전기 "
+"{g|Encyclopedia:Spell_Descriptor}기술어{/g}를 지닌 {g|Encyclopedia:Spell}주문{/g}은 "
+"신속 메타매직 {g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 시전됩니다.\n"
+"신속 주문: 신속 주문은 시전시 {g|Encyclopedia:Swift_Action}신속 행동{/g}입니다. 즉 당신은 다른 "
+"{g|Encyclopedia:CA_Types}행동{/g}, 이를테면 신속 주문을 사용한 라운드에 다른 주문 시전 등. 해당 주문의 "
 "{g|Encyclopedia:Casting_Time}시전 시간{/g}이 1라운드 또는 1 "
-"{g|Encyclopedia:Full_Round_Action}라운드 전체 행동{/g}일 경우 신속해 질 수 "
-"없습니다."
+"{g|Encyclopedia:Full_Round_Action}라운드 전체 행동{/g}일 경우 신속해 질 수 없습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarPadded_IntermediateItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DisplayNameText
-#, fuzzy
-#| msgid "Dark Retriever's Padded Armor"
 msgctxt "b5ed46fe-19e2-4b9c-b478-86372d7c87b5"
 msgid "First Retriever's Padded Armor"
-msgstr "어둠의 리트리버의 누비 갑옷"
+msgstr "최초의 리트리버의 누비 갑옷"
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/DemonicAltar/DemonicAltarTrypophobiaClothItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -11567,16 +11217,6 @@ msgstr "독초의 철판 사슬갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/Plague/PlagueDeathBandedItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +3 banded armor grants the wearer ferocity as per the universal monster "
-#| "rule.\n"
-#| "Ferocity: A creature with ferocity remains conscious and can continue "
-#| "fighting even if its hit point total is below 0. The creature is still "
-#| "staggered and loses 1 hit point each {g|Encyclopedia:Combat_Round}round{/g}. "
-#| "A creature with ferocity still dies when its hit point total reaches a "
-#| "negative amount equal to its {g|Encyclopedia:Constitution}Constitution{/g} "
-#| "score."
 msgctxt "e6b3c3c5-d9bf-4cbe-8da9-1c602059ec9d"
 msgid ""
 "This +3 banded armor grants the wearer ferocity as per the universal monster "
@@ -11588,12 +11228,11 @@ msgid ""
 "when its hit point total reaches a negative amount equal to its "
 "{g|Encyclopedia:Constitution}Constitution{/g} score."
 msgstr ""
-"이 +3 철판 사슬갑옷은 착용자에게 범용 몬스터 규칙의 흉포성을 부여합니다.\n"
-"흉포성: 흉포성을 가진 크리처는 생명점 0 이 되더라도 의식을 잃지 않고 계속 "
-"싸울 수 있습니다. 크리처는 비틀거리면서 매 "
-"{g|Encyclopedia:Combat_Round}라운드{/g}마다 1 점의 생명점을 잃습니다. "
-"흉포성을 가진 크리처는 생명점이 {g|Encyclopedia:Constitution}건강{/g} 수치의 "
-"음수만큼 떨어지면 죽습니다."
+"이 +3 철판 사슬갑옷은 착용자에게 범용 몬스터 규칙에 포함된 흉포성 능력을 부여합니다.\n"
+"흉포성: 흉포성을 가진 크리처는 생명점 0 이 되더라도 의식을 잃지 않고 계속 싸울 수 있습니다. 크리처는 비틀거리면서 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}마다 1 점의 {g|Encyclopedia:HP}생명점{/g}을 "
+"잃습니다. 흉포성을 가진 크리처는 생명점이 {g|Encyclopedia:Constitution}건강{/g} 수치의 음수만큼 떨어지면 "
+"죽습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/Plague/PlagueDeathBandedItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -11609,19 +11248,14 @@ msgstr "불굴의 생명"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/Plague/PlaguePersistenceBandedItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this +4 banded armor is hit, the wearer gets a fast "
-#| "{g|Encyclopedia:Healing}healing{/g} 1 (stacks up to 10) until the end of the "
-#| "combat."
 msgctxt "8e08b546-454a-4669-a099-e947a3022845"
 msgid ""
 "Whenever the wearer of this +4 banded armor is hit, the wearer gets a "
 "{g|Encyclopedia:Fast_Healing}fast healing{/g} 1 (stacks up to 10) until the "
 "end of the combat."
 msgstr ""
-"이 +4 철판 사슬갑옷의 착용자가 피격당할 때마다, 착용자는 1점의 빠른 "
-"{g|Encyclopedia:Healing}치유{/g} (10점까지 누적)를 전투 종료시까지 얻습니다."
+"이 +4 철판 사슬갑옷의 착용자가 피격당할 때마다, 착용자는 전투 종료까지 {g|Encyclopedia:Fast_Healing}빠른 "
+"치유{/g} 1 (10까지 누적) 을 얻습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/Plague/PlaguePersistenceBandedItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -11735,16 +11369,6 @@ msgstr ""
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/Sarenrae/SarenraeObliteratingLightScalemailItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the enemy confirms a {g|Encyclopedia:Critical}critical hit{/g} "
-#| "against the wielder of this +3 mithral scale mail, every enemy in 30 feet "
-#| "area must pass a {g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} "
-#| "({g|Encyclopedia:DC}DC{/g} 20) or become blinded for "
-#| "{g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}rounds{/g} and "
-#| "suffer 4d6 positive {g|Encyclopedia:Energy_Damage}energy damage{/g}. "
-#| "Successful saving throw negates blindness and halves the "
-#| "{g|Encyclopedia:Damage}damage{/g}."
 msgctxt "7e08da00-7922-4479-83c9-b388f88bc3ec"
 msgid ""
 "Whenever the enemy confirms a {g|Encyclopedia:Critical}critical hit{/g} "
@@ -11756,13 +11380,12 @@ msgid ""
 "Successful saving throw negates blindness and halves the "
 "{g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
-"이 +3 미스랄 미늘갑옷의 착용자에게 적의 {g|Encyclopedia:Critical}치명타{/g}"
-"가 적중할 경우, 착용자의 30피트 거리 내의 모든 적은 "
-"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} "
-"20)에 실패할 경우 {g|Encyclopedia:Dice}1d4{/g} "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 실명 상태가 되며 4d6의 양 "
-"{g|Encyclopedia:Energy_Damage}에너지 피해{/g}를 입습니다. 성공할 경우 실명 "
-"상태가 되지 않으며, 절반의 {g|Encyclopedia:Damage}피해{/g}를 입습니다."
+"이 +3 미스랄 미늘갑옷의 착용자에게 적의 {g|Encyclopedia:Critical}치명타{/g}가 적중할 경우, 착용자의 30피트 "
+"거리 내의 모든 적은 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g} "
+"({g|Encyclopedia:DC}DC{/g} 20)에 실패할 경우 {g|Encyclopedia:Dice}1d4{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 실명 상태가 되며 4d6 "
+"{g|Encyclopedia:Energy_Damage}양에너지{/g}를 입습니다. 성공할 경우 실명 상태가 되지 않으며, 절반의 "
+"{g|Encyclopedia:Damage}피해{/g}를 입습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter3/Sarenrae/SarenraeObliteratingLightScalemailItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -11827,48 +11450,6 @@ msgstr "맹렬한 화염의 부름"
 #. File = Equipment/Gloves/PF2/CrusadeRelics/Chapter5/BaphometFire/BaphometFireGloves_BurningCunningItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = m_FlavorText
-#, fuzzy
-#| msgid ""
-#| "The followers of demon lord Baphomet commit countless crimes to earn his "
-#| "favor. Kearius was a servant of Desna who was in charge of the temple "
-#| "shelter, but secretly worshipped the Lord of Beasts. He took advantage of "
-#| "his position to build a cunning maze in the temple's secret basement and "
-#| "filled it with fierce and bloodthirsty monsters. Each night, Kearius cast an "
-#| "overly trusting vagabond or a homeless person into the maze, where they met "
-#| "their grisly end.\n"
-#| "The cultist spread heresy and depravity, corrupting the other priests. "
-#| "Baphomet took note of his servant's guile and bestowed an incredible gift "
-#| "upon him — a spark of the flame gracing the brow of the Lord of Monsters "
-#| "himself. The lantern containing this spark could summon fiery denizens of "
-#| "the Abyss, and its swaying could hypnotize or conjure terrifying illusions. "
-#| "Kearius enshrined the flame of his lord and master at the very heart of his "
-#| "maze.\n"
-#| "But soon enough, an incredible thing happened. A lonely beggar boy — a frail "
-#| "and timid creature — fell into Kearius' clutches and was cast down into the "
-#| "maze. Somehow, he managed to survive and reach the very center of the trap. "
-#| "He reached out for the flame with his scraggly hands and was gone. "
-#| "Frightened and furious, Kearius found the empty shrine and set out to pursue "
-#| "the pilferer. He feared that Baphomet might learn about this failure and "
-#| "punish his negligent servant.\n"
-#| "After a while, he learned of entire villages reduced to ash by fiery "
-#| "creatures, with the survivors driven insane by the eerie glow of a sinister "
-#| "flame. They raved and rambled about a frail beggar boy with hellish fire in "
-#| "the palm of his hands.\n"
-#| "Kearius tracked the young man down. Fear tugged at his heart and nudged him "
-#| "towards madness. When he finally reached the boy, the beggar laughed and "
-#| "turned into a cocky young man, decked in the garb of a Baphomet cultist. The "
-#| "grinning rogue said it was the Lord of Monsters himself who had inspired him "
-#| "to steal the unholy flame, and even devised the guise of the feeble child. "
-#| "Kearius's failure would be his downfall, and the sneaky thief would take his "
-#| "place as Baphomet's most loyal servant. A fight broke out where both demon "
-#| "worshippers sought to destroy one another, but neither could gain the upper "
-#| "hand. When they became tired, the Lord of Beasts' flame slipped from the "
-#| "thief's sweaty hands and fell onto a pile of dead branches. Fiery creatures "
-#| "emerged from the fire and surrounded the weakened priests, the monsters' "
-#| "eyes glowing like embers. The cultists pleaded with their master for "
-#| "protection, but their appeals fell on deaf ears. The spawn of Baphomet's "
-#| "flame feasted on the sinners' flesh all night, and when the fire burned out, "
-#| "only a tiny spark of the unholy flame was left smoldering among the remains."
 msgctxt "e3c7c83a-1cb2-468c-a454-2199358caeb9"
 msgid ""
 "The followers of the demon lord Baphomet commit countless crimes to earn his "
@@ -11912,60 +11493,33 @@ msgid ""
 "flame feasted on the sinners' flesh all night, and when the fire burned out, "
 "only a tiny spark of the unholy flame was left smoldering among the remains."
 msgstr ""
-"데몬 군주, 바포메트의 신도들은 그의 호의를 얻기 위해 범죄를 저지르는 것을 "
-"마다하지 않습니다. 케아리우스는 한 때 데즈나를 섬기는 신전 파수꾼이었지만, "
-"비밀리에 짐승들의 군주를 숭배하고 있었습니다. 그는 자신의 위치를 이용해서 "
-"신전 지하에 미궁을 건설하였고, 피에 목마른 괴물들을 그곳에 풀어놓았습니다. "
-"매일 밤, 케아리우스는 그곳에 방랑자, 또는 너무 순진한 거지들을 그곳에 "
-"보냈고, 그들 모두 끔찍한 결말을 맞았습니다. \n"
-"거기에 그치지 않고, 그는 다른 사제들도 타락시키고, 또 이교와 부정함을 "
-"퍼뜨렸습니다. 바포메트는 사악한 케아리우스의 교활함을 눈여겨 보았고, 그에게 "
-"특별한 선물을 해 주었습니다. 바로 바포메트의 이마를 장식하는 화염의 "
-"불티였습니다. 이 불티가 들어있는 랜턴은 사용자가 심연의 불타는 존재들을 "
-"소환할 수 있게 해 주고, 또 흔드는 것만으로도 환각상태에 빠지게 하거나, "
-"공포스러운 환영을 만들어 낼 수 있었습니다. 케아리우스는 이 유물을 미궁 가장 "
-"깊숙한 곳에 보관했습니다.\n"
-"하지만, 곧 놀라운 일이 일어났습니다. 어느 미천하고, 보잘것 없는 젊은 거지가 "
-"사교도의 손아귀에 들어가, 미궁으로 던저졌습니다. 이상하게도, 그는 생존하는 "
-"데 성공했고, 미궁의 심장부에 도달할 수 있었습니다. 지저분한 손으로 그는 "
-"화염을 움켜쥐었고, 사라져버렸습니다. 그와 동시에 분노하고 겁에 질린 "
-"케아리우스는 텅 비어버린 성물함을 보게 되었고, 유물을 훔처간 도둑을 쫓기 "
-"시작했습니다. 케아리우스는 바포메트가 자신이 실패했음을 알게될까봐, 또 그런 "
-"게으른 신자를 처벌할까봐 두려움에 떨었습니다.\n"
-"얼마 안있어, 그는 화염 짐승들이 몇 개나 되는 마을들을 잿더미로 만들었고, "
-"생존자들이 불길한 화염으로 인해 미쳐버렸다는 사실을 듣게 되었습니다. 그들은 "
-"모두 횡설수설하며, 지옥의 화염을 두 손에 쥔, 병약한 젊은 거지를 "
-"언급했습니다. \n"
-"공포로 인해 케아리우스는 서서히 미쳐가기 시작했습니다. 소년을 쫓던 "
-"케아리우스는 그를 마침내 그를 붙잡았지만 거지는 웃음을 터뜨리며, 바포메트 "
-"사교도들의 로브를 입은 오만한 젊은 남자로 변했습니다. 입에 웃음을 머금고, "
-"그는 케아리우스에게 말하길, 자신에게 불경한 화염을 훔치라고 자극한 것은 "
-"괴물들의 군주 자신이며, 병약한 소년으로 변장하라는 것도 바포메트의 "
-"생각이었다고 했습니다. 케아리우스가 실패한다면 그는 끔찍한 운명을 맞게될 "
-"것이고, 교활한 도둑은 바포메트의 가장 충실한 신도로써 그의 자리를 차지할 "
-"것입니다. 두 데몬 숭배자는 사투를 벌였으나, 그 누구도 우세를 점하지 "
-"못했습니다. 결국 그들은 너무 지쳐 더 이상 전투를 벌일 수 없게 되었고, 짐승 "
-"군주의 화염이 땀으로 축축하게 젖은 도둑의 손에서 빠져나와, 마른 가지 더미에 "
-"불을 붙였고, 잉걸불처럼 불타오르는 눈을 가진 화염 생명체들이 튀어나와 "
-"기진맥진한 성직자들을 둘러쌌습니다. 사교도들은 그들의 주인께 자신들을 "
-"보호하길 간청했으나, 바포메트는 아무런 답도 해주지 않았습니다. 밤동안, 이 "
-"바포메트의 화염 속에서 태어난 괴물들은 이 비천한 자들을 탐욕스럽게 "
-"뜯어먹었습니다. 마침내 화염이 모두 꺼졌을 때, 남아있는 것은 잿더미 속, "
-"불경한 화염의 불티 뿐이었습니다."
+"데몬 군주, 바포메트의 신도들은 그의 호의를 얻기 위해 범죄를 저지르는 것을 마다하지 않습니다. 케아리우스는 한 때 데즈나를 섬기는 신전 "
+"파수꾼이었지만, 비밀리에 짐승들의 군주를 숭배하고 있었습니다. 그는 자신의 위치를 이용해서 신전 지하에 미궁을 건설하였고, 피에 목마른 "
+"괴물들을 그곳에 풀어놓았습니다. 매일 밤, 케아리우스는 그곳에 방랑자, 또는 너무 순진한 거지들을 그곳에 보냈고, 그들 모두 끔찍한 "
+"결말을 맞았습니다. \n"
+"거기에 그치지 않고, 그는 다른 사제들도 타락시키고, 또 이교와 부정함을 퍼뜨렸습니다. 바포메트는 사악한 케아리우스의 교활함을 눈여겨 "
+"보았고, 그에게 특별한 선물을 해 주었습니다. 바로 바포메트의 이마를 장식하는 화염의 불티였습니다. 이 불티가 들어있는 랜턴은 사용자가 "
+"심연의 불타는 존재들을 소환할 수 있게 해 주고, 또 흔드는 것만으로도 환각상태에 빠지게 하거나, 공포스러운 환영을 만들어 낼 수 "
+"있었습니다. 케아리우스는 이 유물을 미궁 가장 깊숙한 곳에 보관했습니다.\n"
+"하지만, 곧 놀라운 일이 일어났습니다. 어느 미천하고, 보잘것 없는 젊은 거지가 사교도의 손아귀에 들어가, 미궁으로 던저졌습니다. "
+"이상하게도, 그는 생존하는 데 성공했고, 미궁의 심장부에 도달할 수 있었습니다. 지저분한 손으로 그는 화염을 움켜쥐었고, "
+"사라져버렸습니다. 그와 동시에 분노하고 겁에 질린 케아리우스는 텅 비어버린 성물함을 보게 되었고, 유물을 훔처간 도둑을 쫓기 "
+"시작했습니다. 케아리우스는 바포메트가 자신이 실패했음을 알게될까봐, 또 그런 게으른 신자를 처벌할까봐 두려움에 떨었습니다.\n"
+"얼마 안있어, 그는 화염 짐승들이 몇 개나 되는 마을들을 잿더미로 만들었고, 생존자들이 불길한 화염으로 인해 미쳐버렸다는 사실을 듣게 "
+"되었습니다. 그들은 모두 횡설수설하며, 지옥의 화염을 두 손에 쥔, 병약한 젊은 거지를 언급했습니다. \n"
+"공포로 인해 케아리우스는 서서히 미쳐가기 시작했습니다. 소년을 쫓던 케아리우스는 그를 마침내 그를 붙잡았지만 거지는 웃음을 터뜨리며, "
+"바포메트 사교도들의 로브를 입은 오만한 젊은 남자로 변했습니다. 입에 웃음을 머금고, 그는 케아리우스에게 말하길, 자신에게 불경한 화염을 "
+"훔치라고 자극한 것은 괴물들의 군주 자신이며, 병약한 소년으로 변장하라는 것도 바포메트의 생각이었다고 했습니다. 케아리우스가 실패한다면 "
+"그는 끔찍한 운명을 맞게될 것이고, 교활한 도둑은 바포메트의 가장 충실한 신도로써 그의 자리를 차지할 것입니다. 두 데몬 숭배자는 사투를 "
+"벌였으나, 그 누구도 우세를 점하지 못했습니다. 결국 그들은 너무 지쳐 더 이상 전투를 벌일 수 없게 되었고, 짐승 군주의 화염이 땀으로 "
+"축축하게 젖은 도둑의 손에서 빠져나와, 마른 가지 더미에 불을 붙였고, 잉걸불처럼 불타오르는 눈을 가진 화염 생명체들이 튀어나와 "
+"기진맥진한 성직자들을 둘러쌌습니다. 사교도들은 그들의 주인께 자신들을 보호하길 간청했으나, 바포메트는 아무런 답도 해주지 않았습니다. "
+"밤동안, 이 바포메트의 화염 속에서 태어난 괴물들은 이 비천한 자들을 탐욕스럽게 뜯어먹었습니다. 마침내 화염이 모두 꺼졌을 때, 남아있는 "
+"것은 잿더미 속, 불경한 화염의 불티 뿐이었습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/BaphometFire/BaphometFireCloth_BurningCunningItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this shirt kills an enemy with a fire "
-#| "{g|Encyclopedia:Spell}spell{/g}, they gain immunity to "
-#| "{g|Encyclopedia:AbilityDamage}ability score damage{/g} and their mental "
-#| "abilities scores are increased by +6 for 3 "
-#| "{g|Encyclopedia:Combat_Round}rounds{/g}. In addition, all the wearer's "
-#| "allies deal additional {g|Encyclopedia:Dice}3d6{/g} "
-#| "{g|Encyclopedia:Energy_Damage}fire damage{/g} on successful "
-#| "{g|Encyclopedia:Attack}attacks{/g} with weapons for 1 round."
 msgctxt "dbea0ee1-4526-4e11-8f36-65572b2da9ba"
 msgid ""
 "Whenever the wearer of this shirt kills an enemy with a fire "
@@ -11977,11 +11531,10 @@ msgid ""
 "on successful {g|Encyclopedia:Attack}attacks{/g} with weapons for 1 round."
 msgstr ""
 "이 셔츠의 착용자가 적을 화염 {g|Encyclopedia:Spell}주문{/g}으로 처치하면 3 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|Encyclopedia:AbilityDamage}"
-"능력치 피해{/g} 면역을 얻고 정신 능력치가 +6 증가합니다. 이에 더해 착용자의 "
-"모든 아군은 1 라운드 동안 무기 {g|Encyclopedia:Attack}공격{/g}을 적중시키면 "
-"추가로 {g|Encyclopedia:Dice}3d6{/g} {g|Encyclopedia:Energy_Damage}화염 "
-"피해{/g}를 입힙니다."
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|Encyclopedia:AbilityDamage}능력치 "
+"피해{/g} 면역을 얻고 정신 능력치가 +6 증가합니다. 이에 더해 착용자의 모든 아군은 1 라운드 동안 무기 "
+"{g|Encyclopedia:Attack}공격{/g}을 적중시키면 추가로 {g|Encyclopedia:Dice}3d6{/g} "
+"{g|Encyclopedia:Energy_Damage}화염 피해{/g}를 입힙니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/BaphometFire/BaphometFireCloth_BurningCunningItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShirt
@@ -12094,11 +11647,9 @@ msgstr ""
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/ColorlessRemains/ColorlessRemainsBreastplate_IntermediateItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DisplayNameText
-#, fuzzy
-#| msgid "Colorless One's Breastplate"
 msgctxt "46fa0886-8c53-418d-b434-e74ff91dbe4b"
 msgid "Breastplate of the Colorless One"
-msgstr "무색의 판금 흉갑"
+msgstr "색 없는 자의 판금 흉갑"
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/ColorlessRemains/ColorlessRemainsBreastplate_MadnessAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -12107,13 +11658,6 @@ msgstr "무색의 판금 흉갑"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/ColorlessRemains/ColorlessRemainsBreastplate_MadnessItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 breastplate is made of crystal and can be worn by a druid. At the "
-#| "start of every combat, all enemies in a 50 feet range around the wearer must "
-#| "pass a {g|Encyclopedia:Saving_Throw}Will saving throw{/g} "
-#| "({g|Encyclopedia:DC}DC{/g} 32) or become confused for 2 "
-#| "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgctxt "aac4a3b7-3ed5-42cc-a4e7-e9c35328a834"
 msgid ""
 "This +5 breastplate is made of crystal and can be worn by a druid. At the "
@@ -12122,11 +11666,9 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} 32) or become confused for 2 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
-"이 +5 판금 흉갑은 크리스탈로 만들어저 드루이드가 입을 수 있습니다. 매 전투 "
-"시작시 착용자로부터 50 피트 반경이내의 모든 적은 "
-"{g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} "
-"32) 을 실시하여 실패시 2 {g|Encyclopedia:Combat_Round}라운드{/g}간 혼란에 "
-"빠집니다."
+"이 +5 판금 흉갑은 크리스탈로 만들어저 드루이드가 입을 수 있습니다. 매 전투 시작시 착용자로부터 50 피트 반경이내의 모든 적은 "
+"{g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g} ({g|Encyclopedia:DC}DC{/g} 32) 을 "
+"시도해 실패시 2 {g|Encyclopedia:Combat_Round}라운드{/g}간 혼란에 빠집니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/ColorlessRemains/ColorlessRemainsBreastplate_MadnessAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -12154,12 +11696,6 @@ msgstr "광기의 인장"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/ColorlessRemains/ColorlessRemainsBreastplate_SolidItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +5 breastplate is made of crystal and can be worn by a druid. It grants "
-#| "the wearer a {g|Encyclopedia:Damage_Reduction}DR{/g} 3/- and moderate "
-#| "fortification, but also makes the wearer vulnerable to "
-#| "{g|Encyclopedia:Energy_Damage}sonic damage{/g}."
 msgctxt "8d3e87cb-73bb-446b-94f6-eed070e243ca"
 msgid ""
 "This +5 breastplate is made of crystal and can be worn by a druid. It grants "
@@ -12168,10 +11704,10 @@ msgid ""
 "{g|Encyclopedia:Energy_Vulnerability}vulnerable{/g} to "
 "{g|Encyclopedia:Energy_Damage}sonic damage{/g}."
 msgstr ""
-"이 +5 판금 흉갑은 크리스탈로 만들어져 있어 드루이드가 착용할 수 있습니다. "
-"착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 3/- 와 중급 요새화를 "
-"부여하지만, 착용자는 {g|Encyclopedia:Energy_Damage}음파 피해{/g}에 대한 "
-"약점을 얻습니다."
+"이 +5 판금 흉갑은 크리스탈로 만들어져 있어 드루이드가 착용할 수 있습니다. 착용자에게 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 3/- 와 중급 요새화를 제공하지만, "
+"{g|Encyclopedia:Energy_Damage}음파 피해{/g} "
+"{g|Encyclopedia:Energy_Vulnerability}취약{/g} 또한 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/CrusadeRelics/Chapter5/ColorlessRemains/ColorlessRemainsBreastplate_SolidItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -12214,15 +11750,6 @@ msgstr "흐르는 미늘"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/FullplateOfRetributionItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever an enemy lands a hit on the wearer of this +2 mithral full plate "
-#| "mail, the {g|Encyclopedia:Attack}attacker{/g} has to pass a "
-#| "{g|Encyclopedia:Saving_Throw}Reflex saving throw{/g} "
-#| "({g|Encyclopedia:DC}DC{/g} 18) or suffer {g|Encyclopedia:Dice}1d3{/g} "
-#| "{g|Encyclopedia:Damage}damage{/g} to {g|Encyclopedia:Strength}Strength{/g}. "
-#| "If the attacker passes the saving throw, they suffer 1d3 "
-#| "{g|Encyclopedia:Damage_Type}piercing damage{/g} instead."
 msgctxt "ca09390d-dac9-42d5-a915-130d9ac69a7b"
 msgid ""
 "Whenever an enemy lands a melee hit on the wearer of this +2 mithral full "
@@ -12233,12 +11760,10 @@ msgid ""
 "throw, they suffer 1d3 {g|Encyclopedia:Damage_Type}piercing damage{/g} "
 "instead."
 msgstr ""
-"이 +2 미스랄 전신 판금갑옷 착용자에게 공격을 적중시킬 때마다, "
-"{g|Encyclopedia:Attack}공격{/g}자는 회피{g|Encyclopedia:Saving_Throw}내성 "
-"굴림{/g}({g|Encyclopedia:DC}DC{/g} 18)에 성공하지 못할 경우 "
-"{g|Encyclopedia:Dice}1d3{/g}의 {g|Encyclopedia:Strength}힘{/g} "
-"{g|Encyclopedia:Damage}피해{/g}를 입습니다. 내성 굴림에 성공한 경우, 대신 "
-"1d3의 {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 입습니다."
+"이 +2 미스랄 전신 판금갑옷 착용자에게 근접 공격을 적중시킬 때마다, 공격자는 {g|Encyclopedia:Saving_Throw}반사 "
+"내성 굴림{/g}({g|Encyclopedia:DC}DC{/g} 18)에 실패시 {g|Encyclopedia:Dice}1d3{/g}의 "
+"{g|Encyclopedia:Strength}힘{/g} {g|Encyclopedia:Damage}피해{/g}를 입습니다. 내성 굴림에 "
+"성공한 경우, 대신 1d3의 {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 입습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/FullplateOfRetributionItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -12294,11 +11819,6 @@ msgstr "생기의 반신 판금갑옷"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/MuscleWarmerItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +2 hide barding grants its wearer cold resistance 10 and a +2 "
-#| "competence {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}"
-#| "saving throws{/g} against movement-impairing effects."
 msgctxt "8b9c8eca-f4e7-4106-83dd-4b22dda2ba03"
 msgid ""
 "This +2 hide barding grants its wearer cold "
@@ -12306,8 +11826,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g} against movement-impairing effects."
 msgstr ""
-"이 +2 털가죽 마갑은 착용자에게 냉기 저항 10과 이동 방해 효과에 대한 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 능숙 "
+"이 +2 털가죽 마갑은 착용자에게 냉기 {g|Encyclopedia:Energy_Resistance}저항{/g} 10과 이동 방해 효과에 "
+"대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 능숙 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/MuscleWarmerItem
@@ -12324,14 +11844,14 @@ msgctxt "f5de078c-940a-44d0-9112-30b0aa4e10cd"
 msgid ""
 "This +5 chainshirt barding grants its wearer {g|Encyclopedia:Fast_Healing}"
 "fast healing{/g} 20."
-msgstr ""
+msgstr "이 +5 사슬조끼 마갑은 착용자에게 {g|Encyclopedia:Fast_Healing}빠른 치유{/g} 20을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/PF2_DLC1/BardingOfLifeItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DisplayNameText
 msgctxt "c57fed59-908b-4cf1-bd26-e80c31976a9a"
 msgid "Barding of Life"
-msgstr ""
+msgstr "생명의 마갑"
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/PF2_DLC1/EverlastingLightAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -12350,6 +11870,11 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} for 3 "
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 +5 전신 판금갑옷은 착용자에게 공포와 강제 효과에 대한 면역을 제공합니다. 착용자가 이러한 효과의 대상이 될 때마다 3 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 자신을 포함한 30 피트 내의 모든 아군들이 "
+"{g|Encyclopedia:Attack}명중{/g} 및 {g|Encyclopedia:Damage}피해 굴림{/g}, 그리고 모든 "
+"{g|Encyclopedia:Saving_Throw}내성{/g}에 +4 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"받습니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/PF2_DLC1/EverlastingLightAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -12360,7 +11885,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "38b0a90e-3854-4c8f-9cb5-99121773dfb9"
 msgid "Everlasting Light"
-msgstr ""
+msgstr "꺼지지 않는 빛"
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/PF2_DLC1/SoullesCommandAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -12385,6 +11910,15 @@ msgid ""
 "while the previous creature is still alive, it disappears, and the new "
 "creature is summoned instead."
 msgstr ""
+"이 +5 하라마키는 착용자가 시전하는 모든 사령학파 {g|Encyclopedia:Spell}주문{/g}의 "
+"{g|Encyclopedia:DC}DC{/g}를 2 증가시킵니다. 추가로 착용자가 적에게 치명적인 "
+"{g|Encyclopedia:Damage}피해{/g}를 가하면 1분 동안 아래 목록의 크리처들 중 하나가 당신의 편으로 소환됩니다.\n"
+"1) 피에 굶주린 해골\n"
+"2) 미라\n"
+"3) 주문 두루마리 미라\n"
+"4) 나이트셰이드 나이트크롤러\n"
+"이 효과로는 동시에 하나의 크리처만이 지속될 수 있습니다. 이전에 소환된 크리처가 살아있는 동안 효과가 다시 발생하는 경우, 이전 "
+"크리처는 사라지고 새로운 크리처가 소환됩니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/PF2_DLC1/SoullesCommandAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -12395,24 +11929,19 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "26a1ef37-f7bb-4e7f-87f9-67656a900dd6"
 msgid "Soulless Command"
-msgstr ""
+msgstr "무정한 명령"
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Prologue/CryptRaidersArmorItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +1 scale mail grants its wearer a +2 insight "
-#| "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
-#| "against undead."
 msgctxt "c31a7a0d-bd8e-4e7a-9368-370ce8ca22d3"
 msgid ""
 "This +1 scalemail grants its wearer a +2 insight "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
 "against undead."
 msgstr ""
-"이 +1 미늘 갑옷은 착용자에게 언데드에 대해 {g|Encyclopedia:Armor_Class}AC{/g}"
-"에 +2 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
+"이 +1 미늘 갑옷은 착용자에게 언데드에 대한{g|Encyclopedia:Armor_Class}AC{/g}에 +2 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/Prologue/CryptRaidersArmorItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -12467,21 +11996,15 @@ msgstr "불가피의 로브"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/RockOfNatureItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +2 breastplate grants the wearer a +2 insight "
-#| "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
-#| "against {g|Encyclopedia:Attack}attacks{/g} made with "
-#| "{g|Encyclopedia:NaturalAttack}natural weapons{/g}."
 msgctxt "fb74374f-c562-426c-b44b-9b06e6405815"
 msgid ""
 "This +2 breastplate grants the wearer a +2 insight "
 "{g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
 "against {g|Encyclopedia:NaturalAttack}attacks made with natural weapons{/g}."
 msgstr ""
-"이 +2 판금 흉갑은 착용자에게 {g|Encyclopedia:NaturalAttack}자연 무기{/g} "
-"{g|Encyclopedia:Attack}공격{/g}에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +"
-"2의 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
+"이 +2 판금 흉갑은 착용자에게 {g|Encyclopedia:NaturalAttack}자연 무기 공격{/g}에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +2의 통찰 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/RockOfNatureItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -12516,16 +12039,13 @@ msgstr "비단 베일"
 #. File = Equipment/Armor/Items/Unique/UniquePF2/VeteransArmorItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This +2 padded armor grants the wielder 10 resistance against fire and "
-#| "electricity."
 msgctxt "cb60962a-1c7c-4f26-b581-b1cdbd8d803b"
 msgid ""
 "This +2 padded armor grants the wielder 10 "
 "{g|Encyclopedia:Energy_Resistance}resistance{/g} against fire and "
 "electricity."
-msgstr "이 +2 누비 갑옷은 착용자에게 화염 저항과 전기 저항 10을 부여합니다."
+msgstr ""
+"이 +2 누비 갑옷은 착용자에게 화염 및 전기 {g|Encyclopedia:Energy_Resistance}저항{/g} 10을 부여합니다."
 
 #. File = Equipment/Armor/Items/Unique/UniquePF2/VeteransArmorItem
 #. Type = Kingmaker.Blueprints.Items.Armors.BlueprintItemArmor
@@ -12944,13 +12464,6 @@ msgstr "정복자 드래곤"
 #. File = Equipment/Belts/Artisan/HalfElfMaleTailor/DivineSupportBeltItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +3 deflection {g|Encyclopedia:Bonus}bonus{/g} "
-#| "to {g|Encyclopedia:Armor_Class}AC{/g}, Negative "
-#| "{g|Encyclopedia:Energy_Resistance}Energy Resistance{/g} 10, and the ability "
-#| "to cast banishment {g|Encyclopedia:Spell}spell{/g} once per day as a 13th "
-#| "level wizard."
 msgctxt "924ed44e-38e0-4ff9-87c7-9b067d4532b6"
 msgid ""
 "This belt grants its wearer a +3 deflection {g|Encyclopedia:Bonus}bonus{/g} "
@@ -12959,10 +12472,9 @@ msgid ""
 "banishment {g|Encyclopedia:Spell}spell{/g} once per day as a 13th level "
 "wizard."
 msgstr ""
-"이 허리띠는 착용자에게 {g|Encyclopedia:Armor_Class}AC{/g}에 +3 굴절 "
-"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Energy_Resistance}음에너지 "
-"저항{/g} 10을 주고, 하루에 한 번 13 레벨 위저드의 추방 "
-"{g|Encyclopedia:Spell}주문{/g} 시전 능력을 제공합니다."
+"이 허리띠는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +3 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}, 음에너지 {g|Encyclopedia:Energy_Resistance}저항{/g} "
+"10을 주고, 하루에 한 번 13 레벨 위저드의 추방 {g|Encyclopedia:Spell}주문{/g} 시전 능력을 제공합니다."
 
 #. File = Equipment/Belts/Artisan/HalfElfMaleTailor/DivineSupportBeltItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -13183,13 +12695,11 @@ msgstr "육체적 형태의 허리띠 +6"
 #. File = Equipment/Belts/BeltOfLesserColdResistanceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid "This belt grants its wearer cold resistance 10."
 msgctxt "62c8022f-6565-43ce-872e-33b40a197532"
 msgid ""
 "This belt grants its wearer cold "
 "{g|Encyclopedia:Energy_Resistance}resistance{/g} 10."
-msgstr "이 허리띠는 착용자에게 냉기 저항 10을 제공합니다."
+msgstr "이 허리띠는 착용자에게 냉기 {g|Encyclopedia:Energy_Resistance}저항{/g} 10을 제공합니다."
 
 #. File = Equipment/Belts/BeltOfLesserColdResistanceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -13303,13 +12813,17 @@ msgid ""
 "addition, this belt increases the {g|Encyclopedia:Critical}critical{/g} "
 "range of the wearer's weapon by 1."
 msgstr ""
+"이 허리띠는 착용자의 {g|Encyclopedia:Strength}힘{/g}, {g|Encyclopedia:Dexterity}민첩{/g}"
+"과 {g|Encyclopedia:Constitution}건강{/g}에 +8 강화 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다. 추가로, 이 허리띠는 착용자가 사용하는 무기의 "
+"{g|Encyclopedia:Critical}치명타{/g} 범위를 1 늘려줍니다."
 
 #. File = Equipment/Belts/BeltOfPerfection8Extra
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DisplayNameText
 msgctxt "58918a24-80de-4c9b-8ef9-10d00c4aaaf6"
 msgid "Flawless Belt of Physical Perfection +8"
-msgstr ""
+msgstr "결점 없는 육체적 완벽의 허리띠 +8"
 
 #. File = Equipment/Belts/BeltOfStrength2
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -13503,13 +13017,6 @@ msgstr "육체적 흐름의 허리띠 +6"
 #. File = Equipment/Belts/CordOfStubbornFuryItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This {g|Encyclopedia:Bonus}bonus{/g} grants its wearer a +2 enhancement "
-#| "bonus to {g|Encyclopedia:Constitution}Constitution{/g}. Instead of becoming "
-#| "fatigued after raging, wearer takes 1 {g|Encyclopedia:Damage}damage{/g} each "
-#| "{g|Encyclopedia:Combat_Round}round{/g} for a number of rounds equal to 2 "
-#| "times the number of rounds spent in the rage."
 msgctxt "12cf98ec-d44b-4383-9b7a-f8becdac022f"
 msgid ""
 "This belt grants its wearer a +2 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
@@ -13519,10 +13026,9 @@ msgid ""
 "to twice the number of {g|Encyclopedia:Combat_Round}rounds{/g} spent in the "
 "rage."
 msgstr ""
-"이 허리띠는 착용자의 {g|Encyclopedia:Constitution}건강{/g}에 +2 강화 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 줍니다. 착용자는 격노 후 피로해지는 대신 "
-"격노한 라운드의 두 배만큼의 라운드 동안 매 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 1 점의 "
+"이 허리띠는 착용자의 {g|Encyclopedia:Constitution}건강{/g} "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +2 강화 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"줍니다. 착용자는 격노 후 피로해지는 대신 격노한 {g|Encyclopedia:Combat_Round}라운드{/g}의 두 배만큼 "
 "{g|Encyclopedia:Damage}피해{/g}를 입습니다."
 
 #. File = Equipment/Belts/CordOfStubbornFuryItem
@@ -13605,13 +13111,24 @@ msgid ""
 "{g|Encyclopedia:Initiative}initiative{/g}, they roll twice and take the "
 "better result."
 msgstr ""
+"유성 모양의 버클로 장식된 이 허리띠는 한때 불멸의 전사 위저드가 직접 휘두르던 힘의 편린을 착용자에게 부여합니다.\n"
+"첫째, 착용자는 {g|Encyclopedia:Attack}명중 굴림{/g}에 +5 신성 "
+"{g|Encyclopedia:Bonus}보너스{/g}, 무기의 {g|Encyclopedia:Damage}피해 굴림{/g}에 +10 신성 "
+"보너스를 받습니다.\n"
+"둘째, 착용자를 목표로 정한 {g|Encyclopedia:Spell}주문{/g}과 "
+"{g|Encyclopedia:Special_Abilities}주문 유사 능력{/g}은 시전자에게 되돌아갑니다. \n"
+"셋째, 착용자가 {g|Encyclopedia:Combat_Round}라운드{/g}에 처음으로 "
+"{g|Encyclopedia:RangedAttack}원거리 공격{/g}에 피격당하면, 이 허리띠가 해당 공격의 모든 "
+"{g|Encyclopedia:Physical_Damage}물리 피해{/g}를 무효화합니다. \n"
+"마지막으로, 착용자가 {g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Dice}굴림{/g}을 "
+"할 때마다, 두 번 굴려 더 나은 결과를 취합니다."
 
 #. File = Equipment/Belts/DLC4/BeltOfAroden/BeltOfArodenItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DisplayNameText
 msgctxt "9a86b638-ca3f-408d-985b-f3d17e039c91"
 msgid "Belt of the Last of the First Humans"
-msgstr ""
+msgstr "태초의 인간의 최후 허리띠"
 
 #. File = Equipment/Belts/DLC5/DLC5_BeltOfLesserShadowform
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -13633,6 +13150,13 @@ msgid ""
 "can remain incorporeal for up to 5 {g|Encyclopedia:Combat_Round}rounds{/g} "
 "per day. These rounds need not be consecutive."
 msgstr ""
+"이 허리띠는 착용자의 {g|Encyclopedia:Dexterity}민첩{/g}에 +2 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 같은 유형의 보너스는 보통 중첩되지 않습니다.\n"
+"추가로, 착용자는 {g|Encyclopedia:Swift_Action}신속 행동{/g}을 사용해 비실체형이 될 수 있습니다. 비실체형이 "
+"되면 비마법 무기에 {g|Encyclopedia:Damage}피해{/g}를 입지 않고, 유령 접촉 성질이나 신성, 신격 또는 "
+"{g|Encyclopedia:Energy_Damage}역장 피해{/g}가 없는 모든 원천으로부터 절반의 피해만을 받습니다. 착용자는 "
+"하루에 최대 5 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 비실체형이 될 수 있습니다. 라운드는 이어서 "
+"사용하지 않아도 됩니다."
 
 #. File = Equipment/Belts/DLC5/DLC5_BeltOfLesserShadowform
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -13643,7 +13167,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "93ef3112-541e-43ad-b32d-e74d7ec33a2d"
 msgid "Belt of Lesser Shadowform"
-msgstr ""
+msgstr "하급 그림자 형상의 허리띠"
 
 #. File = Equipment/Belts/KineticistBelts/DevilsSashItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -13833,13 +13357,6 @@ msgstr "값어치 없어 보이는 조약돌을 보석처럼 세공하고 광택
 #. File = Equipment/Belts/LateChapters/InfernalCordGreaterItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "{g|Encyclopedia:Constitution}Constitution{/g}. Whenever an enemy scores a "
-#| "{g|Encyclopedia:Critical}critical hit{/g} against the wearer, the wearer "
-#| "gains fast {g|Encyclopedia:Healing}healing{/g} 4 for 1 minute.\n"
-#| "It can't be equipped by good characters."
 msgctxt "246ea32b-acf3-4cf1-9cc9-922f98f670a2"
 msgid ""
 "This belt grants +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} to "
@@ -13850,8 +13367,8 @@ msgid ""
 msgstr ""
 "이 허리띠는 {g|Encyclopedia:Constitution}건강{/g}에 +4 강화 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 착용자가 적에게 "
-"{g|Encyclopedia:Critical}치명타{/g}를 적중당하면 빠른 "
-"{g|Encyclopedia:Healing}치유{/g} 4를 1분간 얻습니다.\n"
+"{g|Encyclopedia:Critical}치명타{/g}를 적중당하면 1분 동안 {g|Encyclopedia:Fast_Healing}"
+"빠른 치유{/g} 4를 얻습니다.\n"
 "이 장비는 선 성향 캐릭터가 착용할 수 없습니다."
 
 #. File = Equipment/Belts/LateChapters/InfernalCordGreaterItem
@@ -13922,20 +13439,15 @@ msgstr "향상된 보호의 허리띠"
 #. File = Equipment/Belts/UniquePF2/Chapter2/BeltOfAlacrityItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt of {g|Encyclopedia:Dexterity}Dexterity{/g} +4 also grants its "
-#| "wearer a +4 competence {g|Encyclopedia:Bonus}bonus{/g} on Reflex "
-#| "{g|Encyclopedia:Saving_Throw}saving throws{/g}."
 msgctxt "950dac46-2897-4a01-aef8-f3f3c01db5c2"
 msgid ""
 "This belt of {g|Encyclopedia:Dexterity}Dexterity{/g} +4 also grants its "
 "wearer a +4 competence {g|Encyclopedia:Bonus}bonus{/g} on "
 "{g|Encyclopedia:Saving_Throw}Reflex saving throws{/g}."
 msgstr ""
-"이 +4 {g|Encyclopedia:Dexterity}민첩{/g}의 허리띠의 착용자는 반사 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +4 능숙 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
+"이 +4 {g|Encyclopedia:Dexterity}민첩{/g}의 허리띠는 착용자의 "
+"{g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 +4 능숙 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter2/BeltOfAlacrityItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -14095,13 +13607,6 @@ msgstr "피굶주림의 허리띠"
 #. File = Equipment/Belts/UniquePF2/Chapter4/BeltOfCourageousChargeItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this belt of {g|Encyclopedia:Strength}Strength{/g} "
-#| "and {g|Encyclopedia:Dexterity}Dexterity{/g} +4 charges an enemy, they gain a "
-#| "+4 morale {g|Encyclopedia:Bonus}bonus{/g} on "
-#| "{g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g}"
-#| " against this enemy for 1 {g|Encyclopedia:Combat_Round}round{/g}."
 msgctxt "d80daf2d-38ac-4319-9c75-d1999b6fcf3b"
 msgid ""
 "Whenever the wearer of this belt of {g|Encyclopedia:Strength}Strength{/g} "
@@ -14110,11 +13615,10 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} and {g|Encyclopedia:Damage}damage rolls{/g}"
 " against this enemy for 1 {g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
-"이 +4 {g|Encyclopedia:Strength}힘{/g}과 {g|Encyclopedia:Dexterity}민첩{/g}의 "
-"허리띠의 착용자는 적에게 돌진할 때 해당 적에 대한 "
-"{g|Encyclopedia:Attack}명중{/g} 및 {g|Encyclopedia:Damage}피해 굴림{/g}에 1 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 +4 사기 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
+"이 +4 {g|Encyclopedia:Strength}힘{/g}과 {g|Encyclopedia:Dexterity}민첩{/g}의 허리띠의 "
+"착용자는 적에게 돌진하면 해당 적에 대한 {g|Encyclopedia:Attack}명중{/g} 및 "
+"{g|Encyclopedia:Damage}피해 굴림{/g}에 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 +"
+"4 사기 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter4/BeltOfCourageousChargeItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -14130,16 +13634,6 @@ msgstr "용맹한 돌진의 허리띠"
 #. File = Equipment/Belts/UniquePF2/Chapter4/BeltOfThunderousChargingItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +6 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
-#| "to {g|Encyclopedia:Strength}Strength{/g}. It also magnifies the wearer's "
-#| "momentum granting her a +2 bonus on the bull rush and overrun "
-#| "{g|Encyclopedia:Combat_Maneuvers}maneuvers{/g}. In addition, whenever the "
-#| "wearer of this belt charges an enemy, the enemy suffers a -2 "
-#| "{g|Encyclopedia:Penalty}penalty{/g} to {g|Encyclopedia:Armor_Class}AC{/g} "
-#| "against {g|Encyclopedia:RangedAttack}ranged attacks{/g} for 4 "
-#| "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgctxt "8ef96ffd-9bd9-4ac2-bcf1-6f57736ddd62"
 msgid ""
 "This belt grants its wearer a +6 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
@@ -14152,12 +13646,11 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
 "이 허리띠는 착용자의 {g|Encyclopedia:Strength}힘{/g}에 +6 강화 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자의 가속력을 "
-"강화해, 황소 돌진과 짓밟기 {g|Encyclopedia:Combat_Maneuvers}전법{/g}에 +2 "
-"보너스를 부여합니다. 추가로 이 허리띠의 착용자가 적에게 돌진하면 해당 적은 4 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|Encyclopedia:RangedAttack}"
-"원거리 공격{/g}에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 -2 "
-"{g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자의 가속력을 강화해, 황소 돌진과 짓밟기 "
+"{g|Encyclopedia:Combat_Maneuvers}전법{/g}에 +2 보너스를 부여합니다. 추가로, 이 허리띠의 착용자가 적에게 "
+"돌진하면 해당 적은 4 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"{g|Encyclopedia:RangedAttack}원거리 공격{/g}에 대한 "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter4/BeltOfThunderousChargingBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -14173,12 +13666,6 @@ msgstr "천둥같은 돌진의 허리띠"
 #. File = Equipment/Belts/UniquePF2/Chapter4/BeltOfVeneratedChampionItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt of {g|Encyclopedia:Constitution}Constitution{/g} +6 grants its "
-#| "wearer a +2 {g|Encyclopedia:Bonus}bonus{/g} on Fortitude "
-#| "{g|Encyclopedia:Saving_Throw}saving throws{/g} and a +1 insight bonus to "
-#| "{g|Encyclopedia:Armor_Class}AC{/g} against Evil creatures and effects."
 msgctxt "e25adc4f-e199-4f1c-945f-48dca5b59424"
 msgid ""
 "This belt of {g|Encyclopedia:Constitution}Constitution{/g} +6 grants its "
@@ -14186,9 +13673,9 @@ msgid ""
 "Fortitude saving throws{/g} and a +1 insight bonus to "
 "{g|Encyclopedia:Armor_Class}AC{/g} against Evil creatures and effects."
 msgstr ""
-"이 +6 {g|Encyclopedia:Constitution}건강{/g}의 허리띠는 착용자의 "
-"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}"
-"를, 사악한 크리처와 효과에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +1 통찰 보너스를 부여합니다."
+"이 +6 {g|Encyclopedia:Constitution}건강{/g}의 허리띠는 사악한 크리처와 효과에 대한 착용자의 "
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}, "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +1 통찰 보너스를 부여합니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter4/BeltOfVeneratedChampionItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -14200,18 +13687,6 @@ msgstr "위대한 대전사의 허리띠"
 #. File = Equipment/Belts/UniquePF2/Chapter4/ClutchOfCorruptionItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt grants its wearer a +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
-#| "to {g|Encyclopedia:Strength}Strength{/g} and a +8 enhancement bonus to "
-#| "{g|Encyclopedia:Constitution}Constitution{/g} {g|Encyclopedia:Ability_Scores}"
-#| "ability scores{/g}. In addition, whenever the wearer of this belt confirms a "
-#| "{g|Encyclopedia:Critical}critical hit{/g} with a "
-#| "{g|Encyclopedia:NaturalAttack}natural weapon{/g}, the enemy must pass a "
-#| "{g|Encyclopedia:Saving_Throw}Will saving throw{/g} ({g|Encyclopedia:DC}DC{/g}"
-#| " 28) or become vulnerable to negative energy and unholy "
-#| "{g|Encyclopedia:Damage}damage{/g} for 2 "
-#| "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgctxt "7cadf8c4-f1f9-44e2-a090-65368f7a0f84"
 msgid ""
 "This belt grants its wearer a +4 enhancement {g|Encyclopedia:Bonus}bonus{/g} "
@@ -14227,12 +13702,12 @@ msgid ""
 msgstr ""
 "이 허리띠는 착용자의 {g|Encyclopedia:Strength}힘{/g}에 +4 강화 "
 "{g|Encyclopedia:Bonus}보너스{/g}를, {g|Encyclopedia:Constitution}건강{/g} "
-"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +8 강화 보너스를 부여합니다. "
-"또한 이 허리띠의 착용자가 {g|Encyclopedia:NaturalAttack}자연 무기{/g}로 "
-"{g|Encyclopedia:Critical}치명타{/g}를 확정하면, 해당 적은 "
-"{g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}을 ({g|Encyclopedia:DC}DC{/g} "
-"28) 시도해 실패시 음에너지와 부정 {g|Encyclopedia:Damage}피해{/g} 취약을 2 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 얻습니다."
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +8 강화 보너스를 부여합니다. 또한 이 허리띠의 착용자가 "
+"{g|Encyclopedia:NaturalAttack}자연 무기{/g}로 {g|Encyclopedia:Critical}치명타{/g}를 "
+"확정하면, 해당 적은 {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}을 "
+"({g|Encyclopedia:DC}DC{/g} 28) 시도해 실패시 2 {g|Encyclopedia:Combat_Round}라운드{/g}"
+" 동안 음에너지와 {g|Encyclopedia:Energy_Damage}부정 피해{/g} "
+"{g|Encyclopedia:Energy_Vulnerability}취약{/g}을 얻습니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter4/ClutchOfCorruptionItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -14279,12 +13754,6 @@ msgstr "무모한 자의 허리띠"
 #. File = Equipment/Belts/UniquePF2/Chapter4/DisplayOfPowerItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt of {g|Encyclopedia:Strength}Strength{/g} +6 grants its wearer a 15 "
-#| "feet aura that makes all enemies in range suffer a -2 "
-#| "{g|Encyclopedia:Penalty}penalty{/g} on Will {g|Encyclopedia:Saving_Throw}"
-#| "saving throws{/g}."
 msgctxt "524bb85f-c6bf-442f-9fb1-e6f0bffa12bb"
 msgid ""
 "This belt of {g|Encyclopedia:Strength}Strength{/g} +6 grants its wearer a 15-"
@@ -14292,9 +13761,9 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalty{/g} on {g|Encyclopedia:Saving_Throw}Will "
 "saving throws{/g}."
 msgstr ""
-"이 +6 {g|Encyclopedia:Strength}힘{/g}의 허리띠는 착용자에게 15 피트 반경의 "
-"모든 적의 의지 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 -2 "
-"{g|Encyclopedia:Penalty}페널티{/g}를 오라를 부여합니다."
+"이 +6 {g|Encyclopedia:Strength}힘{/g}의 허리띠는 15 피트 반경 내 모든 적의 "
+"{g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}"
+"를 부여하는 오라를 착용자에게 제공합니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter4/DisplayOfPowerBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -14343,14 +13812,6 @@ msgstr "도마뱀 꼬리"
 #. File = Equipment/Belts/UniquePF2/Chapter4/LizardTailItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This belt was specifically created for less humanoid creatures, but "
-#| "humanoids can use it in polymorphed form as well. While in it the wearer "
-#| "gets +3 morale {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "{g|Encyclopedia:Armor_Class}AC{/g} and Reflex {g|Encyclopedia:Saving_Throw}"
-#| "saving throws{/g}. The wearer also gets a +8 circumstance bonus to AC for "
-#| "the first {g|Encyclopedia:Combat_Round}round{/g} of every combat."
 msgctxt "ab09fad3-8291-4191-accf-2ed7b8d6ba99"
 msgid ""
 "If the wearer of this belt is an animal companion, or is currently under a "
@@ -14359,27 +13820,14 @@ msgid ""
 "Reflex saving throws{/g}. The wearer also gets a +8 circumstance bonus to AC "
 "for the first {g|Encyclopedia:Combat_Round}round{/g} of every combat."
 msgstr ""
-"이 허리띠는 비 인간형 크리처를 위해 특별히 제작되었습니다만, 인간형 "
-"크리처들도 변신한 형태에서 사용할 수 있습니다. 착용자는 "
-"{g|Encyclopedia:Armor_Class}AC{/g}와 반사 {g|Encyclopedia:Saving_Throw}내성 "
-"굴림{/g}에 +1 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 또한 착용자는 매 "
-"전투의 첫 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 AC에 +8 상황 보너스를 "
-"받습니다."
+"이 허리띠의 착용자가 동물 동료이거나 변이 효과를 받는 중이라면, 착용자에게{g|Encyclopedia:Armor_Class}AC{/g}"
+"와 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}에 +3 사기 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 또한 착용자는 매 전투의 첫 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 AC에 +8 상황 보너스를 받습니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter4/TimelyAssistanceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever an ally in a 20 feet area of the wearer lands a killing blow, this "
-#| "belt of {g|Encyclopedia:Constitution}Constitution{/g} +4 makes the wearer's "
-#| "next {g|Encyclopedia:Spell}spell{/g} extended as though using the Extend "
-#| "Spell {g|Encyclopedia:Feat}feat{/g}. It also grants the wearer a +4 "
-#| "enhancement {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "{g|Encyclopedia:Wisdom}Wisdom{/g}.\n"
-#| "Extend Spell: An extended spell lasts twice as long as normal. A spell with "
-#| "a duration of {g|Encyclopedia:Concentration}concentration{/g}, "
-#| "instantaneous, or permanent is not affected by this feat."
 msgctxt "081a3b4b-9e01-4a49-89ab-31c41e3f012a"
 msgid ""
 "Whenever an ally in a 20-foot area of the wearer lands a killing blow, this "
@@ -14392,14 +13840,13 @@ msgid ""
 "a duration of {g|Encyclopedia:Concentration}concentration{/g}, "
 "instantaneous, or permanent is not affected by this feat."
 msgstr ""
-"이 +4 {g|Encyclopedia:Constitution}건강{/g}의 허리띠는 착용자로부터 20 피트 "
-"반경 내의 아군이 적을 처치하면 착용자의 다음 {g|Encyclopedia:Spell}주문{/g}"
-"이 시간 연장 주문 {g|Encyclopedia:Feat}특기{/g}의 영향을 받은 것처럼 지속 "
-"시간을 연장시킵니다. 또한 착용자의 {g|Encyclopedia:Wisdom}지혜{/g}에 +4 강화 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다.\n"
-"시간 연장 주문: 시간 연장 주문은 지속시간이 보통 주문의 2 배입니다. 지속 "
-"시간 동안 {g|Encyclopedia:Concentration}집중{/g}을 요하는 주문, 즉발 주문, "
-"영구적인 주문은 이 특기의 영향을 받지 않습니다."
+"이 +4 {g|Encyclopedia:Constitution}건강{/g}의 허리띠의 착용자로부터 20 피트 반경 내의 아군이 적을 "
+"처치하면, 착용자의 다음 {g|Encyclopedia:Spell}주문{/g}은 시간 연장 주문 "
+"{g|Encyclopedia:Feat}특기{/g}의 영향을 받은 것처럼 지속 시간이 연장됩니다. 또한 착용자의 "
+"{g|Encyclopedia:Wisdom}지혜{/g}에 +4 강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다.\n"
+"시간 연장 주문: 시간 연장 주문은 지속시간이 보통 주문의 2 배입니다. 지속 시간 동안 "
+"{g|Encyclopedia:Concentration}집중{/g}을 요하는 주문, 즉발 주문, 영구적인 주문은 이 특기의 영향을 받지 "
+"않습니다."
 
 #. File = Equipment/Belts/UniquePF2/Chapter4/TimelyAssistanceItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -14545,13 +13992,6 @@ msgstr ""
 #. File = Equipment/Belts/UniquePF2/CrusadeRelics/Chapter2/KnightsEmblem/KnightsEmblemSunsetBeltItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "You can cover yourself in an invisible corrupted fire. Under its effect, all "
-#| "your fire {g|Encyclopedia:Spell}spells{/g} deal additional "
-#| "{g|Encyclopedia:Dice}2d6{/g} unholy {g|Encyclopedia:Damage}damage{/g}. You "
-#| "become immune to {g|Encyclopedia:Energy_Damage}fire damage{/g}, but gain "
-#| "weakness to cold and holy damage."
 msgctxt "afa1915d-9840-47b1-a057-abfc3d933502"
 msgid ""
 "You can cover yourself in an invisible corrupted fire. Under its effect, all "
@@ -14560,11 +14000,10 @@ msgid ""
 ". You become {g|Encyclopedia:Energy_Immunity}immune{/g} to fire damage, but "
 "gain weakness to cold and holy damage."
 msgstr ""
-"스스로를 투명한 오염된 불꽃으로 덮을 수 있습니다. 이 효과를 받는 중일 때 "
-"모든 화염 {g|Encyclopedia:Spell}주문{/g}이 추가 {g|Encyclopedia:Dice}2d6{/g} "
-"부정 {g|Encyclopedia:Damage}피해{/g}를 입힙니다. 당신은 "
-"{g|Encyclopedia:Energy_Damage}화염 피해{/g} 면역을 얻지만, 냉기 및 신성 피해 "
-"취약 또한 얻습니다."
+"스스로를 투명한 오염된 불꽃으로 덮을 수 있습니다. 이 효과를 받는 중일 때 모든 화염 {g|Encyclopedia:Spell}주문{/g}"
+"이 추가 {g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Energy_Damage}부정 피해{/g}를 "
+"입힙니다. 당신은 화염 피해 {g|Encyclopedia:Energy_Immunity}면역{/g}을 얻지만, 냉기 및 신성 피해 취약 "
+"또한 받습니다."
 
 #. File = Equipment/Belts/UniquePF2/CrusadeRelics/Chapter3/OldEarth/OldEarthBelt_IntermediateItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
@@ -14773,12 +14212,6 @@ msgstr "순정한 정신"
 #. File = Equipment/Belts/UniquePF2/CrusadeRelics/Chapter5/MaskOfAreshkagal/MaskOfAreshkagalBelt_VoidItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentBelt
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever the wearer of this Belt of Physical Perfection +4 kills an enemy "
-#| "who had full {g|Encyclopedia:HP}health{/g} with a single hit, all enemies in "
-#| "a 30 feet radius become staggered for 1 "
-#| "{g|Encyclopedia:Combat_Round}round{/g}."
 msgctxt "8b4bb8cc-3be2-435a-ba79-04c7b4796412"
 msgid ""
 "Whenever the wearer of this Belt of Physical Perfection +4 kills an enemy "
@@ -14786,9 +14219,8 @@ msgid ""
 "a 30-foot radius become staggered for 1 "
 "{g|Encyclopedia:Combat_Round}round{/g}."
 msgstr ""
-"이 +4 육체적 완벽의 허리띠의 착용자가 단일 타격으로 최대 "
-"{g|Encyclopedia:HP}생명점{/g} 상태의 적을 처치하면, 30피트 반경의 모든 적이 "
-"1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 비틀거립니다."
+"이 +4 육체적 완벽의 허리띠의 착용자가 단일 타격으로 최대 {g|Encyclopedia:HP}생명점{/g} 상태의 적을 처치하면, 30 "
+"피트 반경의 모든 적이 1 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 비틀거립니다."
 
 #. File = Equipment/Belts/UniquePF2/CrusadeRelics/Chapter5/MaskOfAreshkagal/MaskOfAreshkagalBelt_VoidAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -14938,20 +14370,14 @@ msgstr "이 장화는 고급 가죽으로 만들어 내구성과 편안함에 �
 #. File = Equipment/Boots/BootsOfSwiftFoot
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "These boots increase the wearer's movement {g|Encyclopedia:Speed}speed{/g} "
-#| "by 10. That's a enhancement {g|Encyclopedia:Bonus}bonus{/g} and it does not "
-#| "stack with other enhancement bonuses."
 msgctxt "f0b6c459-0d2a-4449-950f-5517b24ebf62"
 msgid ""
 "These boots increase the wearer's movement {g|Encyclopedia:Speed}speed{/g} "
 "by 10. This is an enhancement {g|Encyclopedia:Bonus}bonus{/g} and it does "
 "not stack with other enhancement bonuses."
 msgstr ""
-"이 장화는 착용자의 이동 {g|Encyclopedia:Speed}속도{/g}를 10 증가시킵니다. "
-"이것은 강화 {g|Encyclopedia:Bonus}보너스{/g}이며 다른 강화 보너스와 중첩되지 "
-"않습니다."
+"이 장화는 착용자의 이동 {g|Encyclopedia:Speed}속도{/g}를 10 증가시킵니다. 이것은 강화 "
+"{g|Encyclopedia:Bonus}보너스{/g}이며 다른 강화 보너스와 중첩되지 않습니다."
 
 #. File = Equipment/Boots/BootsOfSwiftFoot
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentFeet
@@ -16605,10 +16031,9 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
 "이 팔찌의 착용자가 {g|Encyclopedia:Critical}치명타{/g}를 확정하면 적은 "
-"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 시도해 "
-"({g|Encyclopedia:DC}DC{/g} 23) 실패시 2 "
-"{g|Encyclopedia:Combat_Round}라운드{/g}간 {g|Encyclopedia:Damage_Type}관통 "
-"데미지{/g}에 취약 상태가 됩니다."
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 시도해 ({g|Encyclopedia:DC}DC{/g} 23)"
+" 실패시 2 {g|Encyclopedia:Combat_Round}라운드{/g}간 {g|Encyclopedia:Damage_Type}관통 "
+"피해{/g}에 취약 상태가 됩니다."
 
 #. File = Equipment/Bracers/PF2/Chapter3/BracersOfBreachingItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentWrist
@@ -26370,12 +25795,11 @@ msgid ""
 "bleed doesn't stack with itself, but stacks with bleed effects from other "
 "sources."
 msgstr ""
-"이 투구의 착용자가 근접 무기로 대상을 적중시키면, 대상은 "
-"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 ({g|Encyclopedia:DC}DC{/g} "
-"25) 시도해 실패시 착용자의 {g|Encyclopedia:Strength}힘{/g} 수정치 만큼의 "
-"출혈 {g|Encyclopedia:Damage}피해{/g}를 {g|Encyclopedia:Dice}1d4{/g} "
-"{g|Encyclopedia:Combat_Round}라운드{/g}동안 입습니다. 이 출혈은 다른 효과로 "
-"인한 출혈과는 중첩되지만, 이 투구의 출혈끼리는 중첩되지 않습니다."
+"이 투구의 착용자가 근접 무기로 대상을 적중시키면, 대상은 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}을 "
+"({g|Encyclopedia:DC}DC{/g} 25) 시도해 실패시 착용자의 {g|Encyclopedia:Strength}힘{/g} "
+"수정치만큼의 출혈 {g|Encyclopedia:Damage}피해{/g}를 {g|Encyclopedia:Dice}1d4{/g} "
+"{g|Encyclopedia:Combat_Round}라운드{/g}동안 입습니다. 이 출혈은 다른 효과로 인한 출혈과는 중첩되지만, 이 "
+"투구의 출혈끼리는 중첩되지 않습니다."
 
 #. File = Equipment/Headgear/UniquePF2/PF2_DLC1/TwilightShadeItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -28234,8 +27658,8 @@ msgid ""
 "If the wearer of this ring has the bardic performance ability, it grants "
 "them an additional {g|Encyclopedia:Combat_Round}round{/g} of its use per day."
 msgstr ""
-"이 반지의 착용자가 바드 공연 능력을 보유하고 있다면, 해당 능력의 하루 당 "
-"사용 {g|Encyclopedia:Combat_Round}라운드{/g} 수가 1 증가합니다."
+"이 반지의 착용자가 바드 공연 능력을 보유하고 있다면, 해당 능력의 하루당 사용 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 수가 1 증가합니다."
 
 #. File = Equipment/Rings/UniquePF2/Chapter1/RingOfBardResourcefulnessItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -29571,8 +28995,7 @@ msgctxt "6d8903df-18f3-445a-8f9b-7faed3bd9f81"
 msgid ""
 "If the wearer of this ring has smite evil class ability, this ring grants "
 "them one additional use of it per day after resting."
-msgstr "이 반지의 착용자가 악 처단 클래스 능력을 보유하고 있다면, 휴식 이후 하루 당 "
-"1회의 추가 사용 횟수를 얻습니다."
+msgstr "이 반지의 착용자가 악 처단 클래스 능력을 보유하고 있다면, 휴식 이후 하루당 1회의 추가 사용 횟수를 얻습니다."
 
 #. File = Equipment/Rings/UniquePF2/PaladinsRingItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -49097,16 +48520,14 @@ msgid ""
 "{g|FeatureSelectiveSpell}Selective Spell{/g} {g|Encyclopedia:Feat}feat{/g}.\n"
 "Greater rods can be used with spells of 9th level or lower."
 msgstr ""
-"이 로드의 착용자는 하루에 세 번 선택적 주문 {g|Encyclopedia:Feat}특기{/g}를 "
-"적용한 것처럼 {g|Encyclopedia:Spell}주문{/g}을 시전할 수 있습니다.\n"
+"이 로드의 착용자는 하루에 세 번 선택적 주문 {g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 있습니다.\n"
 "상급 로드는 9레벨 이하의 주문에 사용할 수 있습니다.\n"
-"선택적 주문: 단발성 범위 효과 {g|Encyclopedia:Spell}주문{/g}을 선택적 "
-"주문으로 시전할 때, 당신은 해당 주문 관련 {g|Encyclopedia:Ability_Scores}"
-"능력치 점수{/g} 수정치 만큼의 대상을 선택할 수 있습니다 (바드, 오라클, "
-"팔라딘, 소서러, 서모너의 경우 {g|Encyclopedia:Charisma}매력{/g}; 위치, "
-"위저드의 경우 {g|Encyclopedia:Intelligence}지능{/g}, 클레릭, 드루이드, "
-"인퀴지터, 레인저의 경우 {g|Encyclopedia:Wisdom}지혜{/g}). 이 대상들은 주문의 "
-"효과에서 제외됩니다."
+"선택적 주문: 단발성 범위 효과 {g|Encyclopedia:Spell}주문{/g}을 선택적 주문으로 시전할 때, 당신은 해당 주문 관련 "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} 수정치만큼의 대상을 선택할 수 있습니다 (바드, 오라클, "
+"팔라딘, 소서러, 서모너의 경우 {g|Encyclopedia:Charisma}매력{/g}; 위치, 위저드의 경우 "
+"{g|Encyclopedia:Intelligence}지능{/g}, 클레릭, 드루이드, 인퀴지터, 레인저의 경우 "
+"{g|Encyclopedia:Wisdom}지혜{/g}). 이 대상들은 주문의 효과에서 제외됩니다."
 
 #. File = Items/Rods/MetamagicRodSelectiveGreater/MetamagicRodGreaterSelective
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
@@ -49157,16 +48578,14 @@ msgid ""
 "{g|FeatureSelectiveSpell}Selective Spell{/g} {g|Encyclopedia:Feat}feat{/g}.\n"
 "Lesser rods can be used with spells of 3rd level or lower."
 msgstr ""
-"이 로드의 착용자는 하루에 세 번 선택적 주문 {g|Encyclopedia:Feat}특기{/g}를 "
-"적용한 것처럼 {g|Encyclopedia:Spell}주문{/g}을 시전할 수 있습니다.\n"
+"이 로드의 착용자는 하루에 세 번 선택적 주문 {g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 있습니다.\n"
 "하급 로드는 3레벨 이하의 주문에 사용할 수 있습니다.\n"
-"선택적 주문: 단발성 범위 효과 {g|Encyclopedia:Spell}주문{/g}을 선택적 "
-"주문으로 시전할 때, 당신은 해당 주문 관련 {g|Encyclopedia:Ability_Scores}"
-"능력치 점수{/g} 수정치 만큼의 대상을 선택할 수 있습니다 (바드, 오라클, "
-"팔라딘, 소서러, 서모너의 경우 {g|Encyclopedia:Charisma}매력{/g}; 위치, "
-"위저드의 경우 {g|Encyclopedia:Intelligence}지능{/g}, 클레릭, 드루이드, "
-"인퀴지터, 레인저의 경우 {g|Encyclopedia:Wisdom}지혜{/g}). 이 대상들은 주문의 "
-"효과에서 제외됩니다."
+"선택적 주문: 단발성 범위 효과 {g|Encyclopedia:Spell}주문{/g}을 선택적 주문으로 시전할 때, 당신은 해당 주문 관련 "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} 수정치만큼의 대상을 선택할 수 있습니다 (바드, 오라클, "
+"팔라딘, 소서러, 서모너의 경우 {g|Encyclopedia:Charisma}매력{/g}; 위치, 위저드의 경우 "
+"{g|Encyclopedia:Intelligence}지능{/g}, 클레릭, 드루이드, 인퀴지터, 레인저의 경우 "
+"{g|Encyclopedia:Wisdom}지혜{/g}). 이 대상들은 주문의 효과에서 제외됩니다."
 
 #. File = Items/Rods/MetamagicRodSelectiveLesser/MetamagicRodLesserSelective
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
@@ -49217,16 +48636,14 @@ msgid ""
 "{g|FeatureSelectiveSpell}Selective Spell{/g} {g|Encyclopedia:Feat}feat{/g}.\n"
 "Regular rods can be used with spells of 6th level or lower."
 msgstr ""
-"이 로드의 착용자는 하루에 세 번 선택적 주문 {g|Encyclopedia:Feat}특기{/g}를 "
-"적용한 것처럼 {g|Encyclopedia:Spell}주문{/g}을 시전할 수 있습니다.\n"
+"이 로드의 착용자는 하루에 세 번 선택적 주문 {g|Encyclopedia:Feat}특기{/g}를 적용한 것처럼 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전할 수 있습니다.\n"
 "일반 로드는 6레벨 이하의 주문에 사용할 수 있습니다.\n"
-"선택적 주문: 단발성 범위 효과 {g|Encyclopedia:Spell}주문{/g}을 선택적 "
-"주문으로 시전할 때, 당신은 해당 주문 관련 {g|Encyclopedia:Ability_Scores}"
-"능력치 점수{/g} 수정치 만큼의 대상을 선택할 수 있습니다 (바드, 오라클, "
-"팔라딘, 소서러, 서모너의 경우 {g|Encyclopedia:Charisma}매력{/g}; 위치, "
-"위저드의 경우 {g|Encyclopedia:Intelligence}지능{/g}, 클레릭, 드루이드, "
-"인퀴지터, 레인저의 경우 {g|Encyclopedia:Wisdom}지혜{/g}). 이 대상들은 주문의 "
-"효과에서 제외됩니다."
+"선택적 주문: 단발성 범위 효과 {g|Encyclopedia:Spell}주문{/g}을 선택적 주문으로 시전할 때, 당신은 해당 주문 관련 "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} 수정치만큼의 대상을 선택할 수 있습니다 (바드, 오라클, "
+"팔라딘, 소서러, 서모너의 경우 {g|Encyclopedia:Charisma}매력{/g}; 위치, 위저드의 경우 "
+"{g|Encyclopedia:Intelligence}지능{/g}, 클레릭, 드루이드, 인퀴지터, 레인저의 경우 "
+"{g|Encyclopedia:Wisdom}지혜{/g}). 이 대상들은 주문의 효과에서 제외됩니다."
 
 #. File = Items/Rods/MetamagicRodSelectiveNormal/MetamagicRodNormalSelective
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
@@ -49576,6 +48993,13 @@ msgid ""
 "{g|Encyclopedia:Saving_Throw}Fortitude saving throw{/g} halves the damage) "
 "and becomes {g|ConditionFatigued}fatigued{/g}."
 msgstr ""
+"이 저주받은 두루마리는 드워프의 가죽에 핏빛 룬으로 새겨져 있습니다. 이 두루마리를 읽으면 시전자 반경 30피트 내의 모든 아군이 3 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 역장을 제외한 모든 "
+"{g|Encyclopedia:Energy_Damage}에너지 피해{/g}에 면역이 됩니다. 이 효과가 사라진 후 시전자는 "
+"{g|Encyclopedia:Character_Level}캐릭터 레벨{/g}당 {g|Encyclopedia:Dice}1d6{/g} "
+"{g|Encyclopedia:Damage}피해{/g}를 받고({g|Encyclopedia:DC}DC{/g} 35 "
+"{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g} 성공시 반감) {g|ConditionFatigued}피로{/g}"
+" 상태가 됩니다."
 
 #. File = Items/Scrolls/DLC3Scrolls/ScrollOfCompleteMagicImmunity
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
@@ -68508,10 +67932,9 @@ msgid ""
 "{g|Encyclopedia:Strength}Strength{/g} modifier "
 "{g|Encyclopedia:Damage}damage{/g}."
 msgstr ""
-"이 무기는 +5/+5 양날도끼 입니다. 첫번째 날이 명중할 때마다 대상에게 처형의 "
-"표식을 남깁니다. 두번째 날이 표식된 적을 명중시키면, "
-"{g|Encyclopedia:Dice}1d10{/g} + {g|Encyclopedia:Strength}힘{/g} 수정치 만큼 "
-"추가 {g|Encyclopedia:Damage}피해{/g}를 입힙니다."
+"이 무기는 +5/+5 양날도끼 입니다. 첫번째 날이 명중할 때마다 대상에게 처형의 표식을 남깁니다. 두번째 날이 표식된 적을 명중시키면, "
+"{g|Encyclopedia:Dice}1d10{/g} + {g|Encyclopedia:Strength}힘{/g} 수정치만큼 추가 "
+"{g|Encyclopedia:Damage}피해{/g}를 입힙니다."
 
 #. File = Weapons/Items/Unique/LateChapters_3rdPart/FaterenderItem/FaterenderItem
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
@@ -71349,17 +70772,6 @@ msgstr "장애의 입맞춤"
 #. File = Weapons/Items/UniquePF2/Chapter3/CruelFateVulnerabilityBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "This +3 punching dagger increases the {g|Encyclopedia:Saving_Throw}save{/g} "
-#| "{g|Encyclopedia:DC}DC{/g} against the assasin's "
-#| "{g|Encyclopedia:Injury_Death}Death{/g} {g|Encyclopedia:Attack}Attack{/g} "
-#| "ability by 2. Whenever the wielder of this dagger lands a first sneak attack "
-#| "against new enemy, the target must pass a Reflex saving throw (DC 23) or "
-#| "become vulnerable to {g|Encyclopedia:Damage_Type}piercing damage{/g} for "
-#| "{g|Encyclopedia:Dice}1d3{/g} {g|Encyclopedia:Combat_Round}rounds{/g}. If "
-#| "this sneak attack was assassin's Death Attack, saving throw DC against it is "
-#| "increased by 2."
 msgctxt "65a6b264-c5a1-4a7e-b21b-8226b2500119"
 msgid ""
 "This +3 punching dagger increases the {g|Encyclopedia:Saving_Throw}save{/g} "
@@ -71372,14 +70784,12 @@ msgid ""
 "this sneak attack was assassin's Death Attack, saving throw DC against it is "
 "increased by 2."
 msgstr ""
-"이 +3 주먹칼은 어새신의 {g|Encyclopedia:Injury_Death}즉사{/g} "
-"{g|Encyclopedia:Attack}공격{/g} 능력에 대한 "
-"{g|Encyclopedia:Saving_Throw}내성{/g} {g|Encyclopedia:DC}DC{/g}를 2 "
-"증가시킵니다. 이 주먹칼의 착용자가 새 적에 처음으로 암습 공격을 적중시키면 "
-"해당 적은 DC 23 반사 내성 굴림을 시도해 실패시 {g|Encyclopedia:Dice}1d3{/g} "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|Encyclopedia:Damage_Type}"
-"찌르기 피해{/g} 취약을 얻습니다. 만일 해당 암습이 어새신의 즉사 "
-"공격이었다면, 그에 대항하는 내성 굴림 DC가 2 증가합니다."
+"이 +3 주먹칼은 어쌔신의 즉사 {g|Encyclopedia:Attack}공격{/g} 능력에 대한 "
+"{g|Encyclopedia:Saving_Throw}내성{/g} {g|Encyclopedia:DC}DC{/g}를 2 증가시킵니다. 이 "
+"주먹칼의 착용자가 새 적에 처음으로 암습 공격을 적중시키면 해당 적은 DC 23 반사 내성 굴림을 시도해 실패시 "
+"{g|Encyclopedia:Dice}1d3{/g} {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"{g|Encyclopedia:Damage_Type}찌르기 피해{/g} 취약을 얻습니다. 만일 해당 암습이 어쌔신의 즉사 공격이었다면, "
+"그에 대항하는 내성 굴림 DC가 2 증가합니다."
 
 #. File = Weapons/Items/UniquePF2/Chapter3/CruelFateItem
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
@@ -73878,11 +73288,10 @@ msgid ""
 "{g|ConditionParalyzed}paralyzed{/g} creature first time in a "
 "{g|Encyclopedia:Combat_Round}round{/g}, it deals double the weapon damage."
 msgstr ""
-"이 +5 단검의 착용자가 얕은 베기 단검이 명중한 대상을 뒤따라 명중시킬 때마다, "
-"그 적은 추가로 {g|Encyclopedia:Dice}2d6{/g} + 힘 수정치 만큼의 "
-"{g|Encyclopedia:Damage_Type}베기 피해{/g}를 받습니다. 각 라운드마다, 이 "
-"무기로 넘어지거나 마비된 크리처에게 처음으로 {g|Encyclopedia:Damage}피해{/g}"
-"를 입힐 때 무기 피해를 두 배로 가합니다."
+"이 +5 단검의 착용자가 얕은 베기 단검이 명중한 대상을 뒤따라 명중시킬 때마다, 그 적은 추가로 "
+"{g|Encyclopedia:Dice}2d6{/g} + 힘 수정치만큼의 {g|Encyclopedia:Damage_Type}베기 피해{/g}"
+"를 받습니다. 각 라운드마다, 이 무기로 넘어지거나 마비된 크리처에게 처음으로 {g|Encyclopedia:Damage}피해{/g}를 "
+"입힐 때 무기 피해를 두 배로 가합니다."
 
 #. File = Weapons/Items/UniquePF2/Chapter4/DeepRipItem
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
@@ -81702,36 +81111,28 @@ msgid ""
 "levels beyond 1st."
 msgstr ""
 "1 레벨에서, 키네티시스트는 속성에 맞는 단순 초능력 블래스트를 습득합니다.\n"
-"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 키네티시스트는 초능력 "
-"블래스트를 근거리 목표 하나에게 방출할 수 있습니다. 블래스트를 겨누기 "
-"위해서는 최소한 한 손은 비어있어야 합니다. 초능력 블래스트로 인한 모든 "
-"{g|Encyclopedia:Damage}피해{/g}는 {g|Encyclopedia:Damage_Reduction}피해 "
-"감소{/g}를 우회할 때 마법 피해로 간주됩니다. 초능력 블래스트는 무기 중점화 "
-"같은 {g|Encyclopedia:Feat}특기{/g}에서 한 종류의 무기로 취급됩니다. "
-"키네티시스트는 초능력 블래스트를 휘두르거나 움켜쥔 것으로 여겨지지 않고, "
-"초능력 블래스트로 맹격 특기를 쓸 수 없습니다. 가장 약한 초능력 블래스트 "
-"조차도 상당한 양의 원소 물질이나 에너지를 포함하고 있기 때문에, 어떤 "
-"{g|Encyclopedia:Size}크기{/g}의 군체에게도 완전한 피해를 가합니다. (범위 "
-"블래스트는 군체에 추가 피해를 가합니다).\n"
+"{g|Encyclopedia:Standard_Actions}일반 행동{/g}으로 키네티시스트는 초능력 블래스트를 근거리 목표 하나에게 "
+"방출할 수 있습니다. 블래스트를 겨누기 위해서는 최소한 한 손은 비어있어야 합니다. 초능력 블래스트로 인한 모든 "
+"{g|Encyclopedia:Damage}피해{/g}는 {g|Encyclopedia:Damage_Reduction}피해 감소{/g}를 "
+"우회할 때 마법 피해로 간주됩니다. 초능력 블래스트는 무기 중점화 같은 {g|Encyclopedia:Feat}특기{/g}에서 한 종류의 "
+"무기로 취급됩니다. 키네티시스트는 초능력 블래스트를 휘두르거나 움켜쥔 것으로 여겨지지 않고, 초능력 블래스트로 맹격 특기를 쓸 수 "
+"없습니다. 가장 약한 초능력 블래스트 조차도 상당한 양의 원소 물질이나 에너지를 포함하고 있기 때문에, 어떤 "
+"{g|Encyclopedia:Size}크기{/g}의 군체에게도 완전한 피해를 가합니다. (범위 블래스트는 군체에 추가 피해를 가합니다)."
+"\n"
 "단순 블래스트에는 물리 블래스트와 에너지 블래스트가 있습니다.\n"
 "물리 블래스트는 {g|Encyclopedia:RangedAttack}원거리 공격{/g}이며 "
-"{g|Encyclopedia:Dice}1d6{/g}+1 + 키네티시스트의 "
-"{g|Encyclopedia:Constitution}건강{/g} 수정치 만큼의 피해를 입힙니다. 1 레벨 "
-"이후로 매 홀수 레벨마다 1d6+1 씩 피해가 증가합니다. "
-"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}은 물리 블래스트에 대해서는 "
-"적용되지 않습니다.\n"
-"에너지 블래스트는 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}이고 1d6 + "
-"1/2 키네티시스트의 건강 수정치 만큼의 피해를 입힙니다. 1 레벨 이후로 매 홀수 "
-"키네티시스트 레벨마다 1d6 씩 피해가 증가합니다.\n"
-"복합 블래스트는 원소를 조합하여 새로운 블래스트를 형성합니다. 키네티시스트가 "
-"추가 원소로 새로운 원소를 습득하면, 보유한 원소로 조합 가능한 모든 복합 "
-"블래스트를 습득합니다.\n"
-"대부분의 복합 블래스트는 단순 블래스트 처럼 물리 블래스트이거나 에너지 "
-"블래스트 입니다.\n"
-"물리 복합 블래스트는 2d6+2 + 키네티시스트의 건강 수정치의 피해를 가하고, 1 "
-"레벨 이후로 매 홀수 키네티시스트 레벨마다 2d6+2 씩 피해가 증가합니다.\n"
-"에너지 복합 블래스트는 2d6 + 1/2 키네티시스트의 건강 수정치의 피해를 가하고, "
-"1 레벨 이후로 매 홀수 키네티시스트 레벨마다 2d6 씩 피해가 증가합니다."
+"{g|Encyclopedia:Dice}1d6{/g}+1 + 키네티시스트의 {g|Encyclopedia:Constitution}건강{/g} "
+"수정치만큼의 피해를 입힙니다. 1 레벨 이후로 매 홀수 레벨마다 1d6+1 씩 피해가 증가합니다. "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}은 물리 블래스트에 대해서는 적용되지 않습니다.\n"
+"에너지 블래스트는 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}이고 1d6 + 1/2 키네티시스트의 건강 "
+"수정치만큼의 피해를 입힙니다. 1 레벨 이후로 매 홀수 키네티시스트 레벨마다 1d6 씩 피해가 증가합니다.\n"
+"복합 블래스트는 원소를 조합하여 새로운 블래스트를 형성합니다. 키네티시스트가 추가 원소로 새로운 원소를 습득하면, 보유한 원소로 조합 "
+"가능한 모든 복합 블래스트를 습득합니다.\n"
+"대부분의 복합 블래스트는 단순 블래스트 처럼 물리 블래스트이거나 에너지 블래스트 입니다.\n"
+"물리 복합 블래스트는 2d6+2 + 키네티시스트의 건강 수정치의 피해를 가하고, 1 레벨 이후로 매 홀수 키네티시스트 레벨마다 2d6+2 "
+"씩 피해가 증가합니다.\n"
+"에너지 복합 블래스트는 2d6 + 1/2 키네티시스트의 건강 수정치의 피해를 가하고, 1 레벨 이후로 매 홀수 키네티시스트 레벨마다 "
+"2d6 씩 피해가 증가합니다."
 
 #. File = Classes/Kineticist/ElementalFocus/KineticBlastFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature

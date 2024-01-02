@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2023-12-31 13:37+0000\n"
+"PO-Revision-Date: 2024-01-02 00:37+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -740,12 +740,12 @@ msgstr ""
 #. LocalizedTexts/AbilityModifiers/AbilityModifierStrings[55]/Name
 msgctxt "60e2278a-2ff5-4382-bb68-b363fe648ace"
 msgid "Other"
-msgstr ""
+msgstr "기타"
 
 #. LocalizedTexts/AbilityModifiers/AbilityModifierStrings[57]/Name
 msgctxt "be42cee2-629e-415a-8bec-c9d7538d789a"
 msgid "Equipped armor"
-msgstr ""
+msgstr "착용한 갑옷"
 
 #. LocalizedTexts/AbilityModifiers/AbilityModifierStrings[5]/Name
 msgctxt "43190791-b32a-4df1-b278-91cbbc25592a"
@@ -1040,7 +1040,7 @@ msgstr "전법: 넘어뜨리기"
 #. LocalizedTexts/CombatManeuver/CombatManeuvers[10]/Text
 msgctxt "d05dd7af-1dfb-4949-bfe5-8344554f1b70"
 msgid "Combat Maneuver: Pull"
-msgstr ""
+msgstr "전법: 당기기"
 
 #. LocalizedTexts/CombatManeuver/CombatManeuvers[11]/Text
 msgctxt "7903d9c8-8c67-4531-b394-0f7051c33cac"
@@ -1401,18 +1401,14 @@ msgid "Miss"
 msgstr "빗나감"
 
 #. LocalizedTexts/GameLog/GameLog/Attack/ParryFail
-#, fuzzy
-#| msgid "{source} failed to parry an attack from {target}"
 msgctxt "84b96973-c07a-40c7-bd65-2b17d5ff97c7"
 msgid "<b>{source}</b> failed to parry an attack from <b>{target}</b>."
-msgstr "{source}: {target}의 공격 쳐내기 실패"
+msgstr "<b>{source}</b>: <b>{target}</b>의 공격 쳐내기 실패."
 
 #. LocalizedTexts/GameLog/GameLog/Attack/ParrySuccess
-#, fuzzy
-#| msgid "{source} successfully parried an attack from {target}"
 msgctxt "9406853d-299c-4d57-b91b-33786996322e"
 msgid "<b>{source}</b> successfully parried an attack from <b>{target}</b>."
-msgstr "{source}: {target}의 공격 쳐냄"
+msgstr "<b>{source}</b>: <b>{target}</b>의 공격 쳐내기 성공."
 
 #. LocalizedTexts/GameLog/GameLog/Attack/ParryTooltipInitiator
 msgctxt "f17961b4-b318-473a-9a58-bb68982768e4"
@@ -1573,14 +1569,14 @@ msgctxt "9e744195-bcd4-4917-a001-e578c2d7de59"
 msgid ""
 "<b>{source}</b> tries to use <b>{text}</b> against <b>{target}</b> — "
 "critical fail!"
-msgstr ""
+msgstr "<b>{source}</b>: <b>{target}</b>에 <b>{text}</b> 사용 - 대실패!"
 
 #. LocalizedTexts/GameLog/GameLog/CombatManeuver/MessageCriticalSuccess
 msgctxt "e88b27d5-32b8-4063-9ee2-dc0f8f51dd44"
 msgid ""
 "<b>{source}</b> uses <b>{text}</b> against <b>{target}</b> — critical "
 "success!"
-msgstr ""
+msgstr "<b>{source}</b>: <b>{target}</b>에 <b>{text}</b> 사용 - 대성공!"
 
 #. LocalizedTexts/GameLog/GameLog/CombatManeuver/MessageFail
 msgctxt "1e4be199-e98d-4a6e-904d-8f2dcf330864"
@@ -1599,6 +1595,8 @@ msgid ""
 "Attack result: Natural {d20}\n"
 "Target's CMD: {dc}"
 msgstr ""
+"공격 결과: 자연 {d20}\n"
+"대상의 CMD: {dc}"
 
 #. LocalizedTexts/GameLog/GameLog/CombatStarted/Message
 msgctxt "19f7ca9b-10f1-4ef0-8bcd-1b98f7d3b4e5"
@@ -1712,11 +1710,9 @@ msgid "Successful saving throw halves the damage."
 msgstr "내성 굴림 성공으로 인해 피해가 절반으로 줄어듦."
 
 #. LocalizedTexts/GameLog/GameLog/Damage/TooltipReducedBySavingThrow
-#, fuzzy
-#| msgid "Successful saving throw reduced damage by {count}%"
 msgctxt "70a1bead-70c0-473c-9c0d-7cf0a938a860"
 msgid "Successful saving throw reduced damage by {count}%."
-msgstr "내성 굴림 성공으로 인해 피해가 {count}% 줄어듦"
+msgstr "내성 굴림 성공으로 인해 피해가 {count}% 감소됨."
 
 #. LocalizedTexts/GameLog/GameLog/Damage/TooltipReduction
 msgctxt "36986f5d-fec9-4ff7-baea-52b5dddbcfb2"
@@ -1729,11 +1725,9 @@ msgid "<b>{count}</b> precision damage is dealt due to sneak attack."
 msgstr "암습으로 <b>{count}</b>의 정밀 피해를 가함."
 
 #. LocalizedTexts/GameLog/GameLog/Damage/TooltipSource
-#, fuzzy
-#| msgid "Damage source: <b>{text}</b>."
 msgctxt "ab186e48-1532-4cc1-b54b-beafc340e626"
 msgid "Damage source: <b>{text}</b>"
-msgstr "피해 원인: <b>{text}</b>."
+msgstr "피해 원인: <b>{text}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/DeflectArrow/Message
 msgctxt "3544c89c-03e3-4adc-809a-559e5bf36361"
@@ -1771,43 +1765,31 @@ msgid "<b>{source}</b> fails to dispel <b>{text}</b> from <b>{target}</b>."
 msgstr "<b>{source}</b>: <b>{target}</b>의 <b>{text}</b> 해제 실패."
 
 #. LocalizedTexts/GameLog/GameLog/DispelFail/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Difficulty (DR): {dc}.\n"
-#| "Caster level check: {roll} (roll {d20} + modifiers: {mod}).\n"
-#| "Result: fail."
 msgctxt "8977d772-462c-4898-9ac6-4a55985366b4"
 msgid ""
 "Difficulty (DR): {dc}\n"
 "Caster level check: {roll} (roll {d20} + modifiers: {mod})\n"
 "Result: fail"
 msgstr ""
-"난이도 (DR): {dc}.\n"
-"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod}).\n"
-"결과: 실패."
+"난이도 (DR): {dc}\n"
+"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod})\n"
+"결과: 실패"
 
 #. LocalizedTexts/GameLog/GameLog/DispelSuccess/Message
-#, fuzzy
-#| msgid "<b>{source}</b> dispels <b>{text}</b> from <b>{target}</b>"
 msgctxt "236942d0-28a8-4423-ab2f-f64157acfd34"
 msgid "<b>{source}</b> dispels <b>{text}</b> from <b>{target}</b>."
-msgstr "<b>{source}</b>: <b>{target}</b>의 <b>{text}</b> 해제 성공"
+msgstr "<b>{source}</b>: <b>{target}</b>의 <b>{text}</b> 해제 성공."
 
 #. LocalizedTexts/GameLog/GameLog/DispelSuccess/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Difficulty (DR): {dc}.\n"
-#| "Caster level check: {roll} (roll {d20} + modifiers: {mod}).\n"
-#| "Result: success."
 msgctxt "bd93872e-2b6b-4884-bdee-f87abf80cc67"
 msgid ""
 "Difficulty (DR): {dc}\n"
 "Caster level check: {roll} (roll {d20} + modifiers: {mod})\n"
 "Result: success"
 msgstr ""
-"난이도 (DR): {dc}.\n"
-"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod}).\n"
-"결과: 성공."
+"난이도 (DR): {dc}\n"
+"시전자 레벨 판정: {roll} (굴림 결과: {d20} + 수정치: {mod})\n"
+"결과: 성공"
 
 #. LocalizedTexts/GameLog/GameLog/DoorSpotted/Message
 msgctxt "c530abc7-682a-41a2-83d9-5934021125e4"
@@ -1857,7 +1839,7 @@ msgstr "<b>{source}</b>: <b>{target}</b>의 레벨을 일시적으로 <b>{count}
 #. LocalizedTexts/GameLog/GameLog/FeatureAdded/Message
 msgctxt "862f842b-b530-4f98-8441-a42722a04022"
 msgid "Acquired: <b>{source}</b>"
-msgstr ""
+msgstr "획득: <b>{source}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/HealDamage/HealMessage
 msgctxt "cc2142fc-376e-427d-a739-f609492c002c"
@@ -1875,11 +1857,9 @@ msgid "<b>{target}</b> gains <b>{count}</b> hit points from unknown source."
 msgstr "<b>{target}</b>: 알 수 없는 출처로부터 생명점 <b>{count}</b> 획득."
 
 #. LocalizedTexts/GameLog/GameLog/HealDamage/Tooltip
-#, fuzzy
-#| msgid "Effective heal: <b>{count}</b>."
 msgctxt "36b31a8f-07fb-49ba-9218-0af3ce4ee600"
 msgid "Effective heal: <b>{count}</b>"
-msgstr "실효 치유: <b>{count}</b>."
+msgstr "실효 치유: <b>{count}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/HealDamage/TooltipTotalResult
 msgctxt "e68dd31b-4998-4327-bf6f-327d1afa87ac"
@@ -1901,18 +1881,14 @@ msgid "<b>{target}</b> had <b>{count} {description}</b> damage restored."
 msgstr "<b>{target}</b>: <b>{count} {description}</b> 피해 회복됨."
 
 #. LocalizedTexts/GameLog/GameLog/HealStatDamage/TooltipCount
-#, fuzzy
-#| msgid "Restored: <b>{count} {description}</b>."
 msgctxt "542b722f-fb01-4e09-9d7c-a849f84aa231"
 msgid "Restored: <b>{count} {description}</b>"
-msgstr "회복됨: <b>{count} {description}</b>."
+msgstr "회복됨: <b>{count} {description}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/HealStatDamage/TooltipSource
-#, fuzzy
-#| msgid "Source: <b>{source}</b>."
 msgctxt "1e79d4a6-358b-46ca-aa02-ce3d35f3cfc9"
 msgid "Source: <b>{source}</b>"
-msgstr "출처: <b>{source}</b>."
+msgstr "출처: <b>{source}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/HealStatDrain/MessageWithSource
 msgctxt "6381e747-4976-4057-bdff-fb4636c15dc3"
@@ -1930,18 +1906,14 @@ msgid ""
 msgstr "<b>{target}</b>: 소진된 <b>{description}</b> <b>{count}</b> 회복함."
 
 #. LocalizedTexts/GameLog/GameLog/HealStatDrain/TooltipCount
-#, fuzzy
-#| msgid "Restored: <b>{count} {description}</b>."
 msgctxt "093d453c-19b7-47c6-8144-b2cbad4992a7"
 msgid "Restored: <b>{count} {description}</b>"
-msgstr "회복됨: <b>{count} {description}</b>."
+msgstr "회복됨: <b>{count} {description}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/HealStatDrain/TooltipSource
-#, fuzzy
-#| msgid "Source: <b>{source}</b>."
 msgctxt "d69fec0c-db7e-4ef6-b63e-c38db247cba5"
 msgid "Source: <b>{source}</b>"
-msgstr "출처: <b>{source}</b>."
+msgstr "출처: <b>{source}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/HitDiceRestriction/Message
 msgctxt "3614a181-9d64-4776-8f4c-faca5f39cb2c"
@@ -1949,18 +1921,14 @@ msgid "<b>{target}</b> has {count} HD and cannot be affected by <b>{text}</b>."
 msgstr "<b>{target}</b>의 HD 가 {count} 이므로 <b>{text}</b> 의 영향을 받지 않음."
 
 #. LocalizedTexts/GameLog/GameLog/InitiativeRoll/Message
-#, fuzzy
-#| msgid "<b>{source}</b>: Initiative check <b>{roll}</b>."
 msgctxt "9eb800a5-4d71-479c-b4c1-d226af4c6983"
 msgid "<b>{source}</b>: Initiative check <b>{roll}</b>"
-msgstr "<b>{source}</b>: 우선권 판정 <b>{roll}</b>."
+msgstr "<b>{source}</b>: 우선권 판정 <b>{roll}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/InitiativeRoll/Tooltip
-#, fuzzy
-#| msgid "Check: {roll} (roll: {d20} + modifiers: {mod})."
 msgctxt "bdc36cb6-422f-482a-8b86-c1e1dd72a4e3"
 msgid "Check: {roll} (roll: {d20} + modifiers: {mod})"
-msgstr "판정: {roll} (굴림 결과: {d20} + 수정치: {mod})."
+msgstr "판정: {roll} (굴림 결과: {d20} + 수정치: {mod})"
 
 #. LocalizedTexts/GameLog/GameLog/ItemEquipped/Message
 msgctxt "ee65b61a-52cc-44ee-a6b0-9769bf3324a9"
@@ -1968,11 +1936,9 @@ msgid "<b>{source}</b> equips <b>{text}</b>."
 msgstr "<b>{source}</b>: <b>{text}</b> 장비."
 
 #. LocalizedTexts/GameLog/GameLog/ItemGained/Message
-#, fuzzy
-#| msgid "Received item: <b>{text}</b>."
 msgctxt "99c4964b-9040-4328-8de2-a411541a880b"
 msgid "Received item: <b>{text}</b>"
-msgstr "물품 획득: <b>{text}</b>."
+msgstr "물품 획득: <b>{text}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/ItemIdentified/Message
 msgctxt "1e0ef02f-6805-41c2-9f5c-da8625624d2d"
@@ -1989,11 +1955,9 @@ msgstr ""
 "{description}"
 
 #. LocalizedTexts/GameLog/GameLog/ItemLost/Message
-#, fuzzy
-#| msgid "Lost item: <b>{text}</b>."
 msgctxt "67766d1b-5b3d-4dc0-aaf0-6a43bcfb3ade"
 msgid "Lost item: <b>{text}</b>"
-msgstr "아이템 손실: <b>{text}</b>."
+msgstr "아이템 손실: <b>{text}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/ItemUnequipped/Message
 msgctxt "92f92f19-7e26-48b1-a198-ef1479edd090"
@@ -2011,18 +1975,14 @@ msgid "Unable to identify <b>{text}</b>. Failed at a {text_with_tags} check."
 msgstr "<b>{text}</b> 식별 불가. {text_with_tags} 판정 실패."
 
 #. LocalizedTexts/GameLog/GameLog/ItemsGained/Message
-#, fuzzy
-#| msgid "Received items: <b>{text} x{count}</b>."
 msgctxt "a029839b-d627-4a36-8240-ce5daf88b737"
 msgid "Received items: <b>{text} x{count}</b>"
-msgstr "아이템 획득: <b>{text} x{count}</b>."
+msgstr "아이템 획득: <b>{text} x{count}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/ItemsLost/Message
-#, fuzzy
-#| msgid "Lost items: <b>{text} x{count}</b>."
 msgctxt "95c42752-0e46-4aa0-b68c-59e1c3e587e1"
 msgid "Lost items: <b>{text} x{count}</b>"
-msgstr "아이템 손실: <b>{text} x{count}</b>."
+msgstr "아이템 손실: <b>{text} x{count}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/KineticistBurnAccept/Message
 msgctxt "2521695d-85ff-47fc-9cd8-3dce69b45a54"
@@ -2035,18 +1995,14 @@ msgid "<b>{source}</b> heals <b>{count}</b> points of burn."
 msgstr "<b>{source}</b>: <b>{count}</b> 점의 과열을 치유함."
 
 #. LocalizedTexts/GameLog/GameLog/LocationRevealed/Message
-#, fuzzy
-#| msgid "New location discovered: <b>{text}</b>."
 msgctxt "07ee1721-8e83-41d3-a40c-cab342dce9eb"
 msgid "New location discovered: <b>{text}</b>"
-msgstr "새로운 장소 발견: <b>{text}</b>."
+msgstr "새로운 장소 발견: <b>{text}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/LockIsJammed/Message
-#, fuzzy
-#| msgid "The lock is jammed"
 msgctxt "3a42d43d-e87f-421b-a6ac-339e177871c0"
 msgid "The lock is jammed."
-msgstr "자물쇠 고장남"
+msgstr "자물쇠 고장남."
 
 #. LocalizedTexts/GameLog/GameLog/MoneyGained/Message
 msgctxt "d480ae6c-e448-43e9-aa9f-68d1ba2626d9"
@@ -2114,20 +2070,15 @@ msgid "<b>{source}</b>: <b>{text}</b> saving throw failed."
 msgstr "<b>{source}</b>: <b>{text}</b> 내성 굴림 실패."
 
 #. LocalizedTexts/GameLog/GameLog/SavingThrowFail/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Saving throw result: {roll} (roll {d20} + modifiers: {mod}).\n"
-#| "Difficulty (DC): {dc}.\n"
-#| "Result: failure."
 msgctxt "d701199d-0be8-4cef-acf7-419ab81ae352"
 msgid ""
 "Saving throw result: {roll} (roll {d20} + modifiers: {mod})\n"
 "Difficulty (DC): {dc}\n"
 "Result: failure"
 msgstr ""
-"내성 굴림 결과: {roll} (굴림 결과: {d20} + 수정치: {mod}). \n"
-"난이도 (DC): {dc}. \n"
-"결과: 실패."
+"내성 굴림 결과: {roll} (굴림 결과: {d20} + 수정치: {mod})\n"
+"난이도 (DC): {dc}\n"
+"결과: 실패"
 
 #. LocalizedTexts/GameLog/GameLog/SavingThrowSuccess/Message
 msgctxt "49b6da79-3991-41f7-92cb-57d34835f07e"
@@ -2135,32 +2086,27 @@ msgid "<b>{source}</b>: <b>{text}</b> saving throw succeeded."
 msgstr "<b>{source}</b>: <b>{text}</b> 내성 굴림 성공."
 
 #. LocalizedTexts/GameLog/GameLog/SavingThrowSuccess/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Saving throw result: {roll} (roll {d20} + modifiers: {mod}).\n"
-#| "Difficulty (DC): {dc}.\n"
-#| "Result: success."
 msgctxt "f9326820-eefb-4454-9c5b-da8a32afa655"
 msgid ""
 "Saving throw result: {roll} (roll {d20} + modifiers: {mod})\n"
 "Difficulty (DC): {dc}\n"
 "Result: success"
 msgstr ""
-"내성 굴림 결과: {roll} (굴림 결과: {d20} + 수정치: {mod}). \n"
-"난이도 (DC): {dc}. \n"
-"결과: 성공."
+"내성 굴림 결과: {roll} (굴림 결과: {d20} + 수정치: {mod})\n"
+"난이도 (DC): {dc}\n"
+"결과: 성공"
 
 #. LocalizedTexts/GameLog/GameLog/ShadowEffectIgnored/Message
 msgctxt "ac81ca39-27cd-412f-a417-8fa43f622f20"
 msgid ""
 "Shadow Effect ignored. Chance: <b>{roll_chance}</b>. Roll: <b>{roll}</b>"
-msgstr ""
+msgstr "그림자 효과 무시됨. 확률: <b>{roll_chance}</b>. 굴림: <b>{roll}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/ShadowEffectOccur/Message
 msgctxt "b6d6dbb1-ba67-483d-9878-96dc34b2638e"
 msgid ""
 "Shadow Effect occurred. Chance: <b>{roll_chance}</b>. Roll: <b>{roll}</b>"
-msgstr ""
+msgstr "그림자 효과 발동됨. 확률: <b>{roll_chance}</b>. 굴림: <b>{roll}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/SkillCheckFail/Message
 msgctxt "4d5d1259-68ed-45e7-819a-8ab0ef00ca6e"
@@ -2183,20 +2129,15 @@ msgid "<b>{source}</b> spell was lost."
 msgstr "<b>{source}</b>: 주문 손실."
 
 #. LocalizedTexts/GameLog/GameLog/SpellFail/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Check: {d100}.\n"
-#| "Spell Failure chance: {chance_dc}.\n"
-#| "Result: failure."
 msgctxt "99bee009-b9e0-4f5b-b6f8-e57e5020e04f"
 msgid ""
 "Check: {d100}\n"
 "Spell Failure chance: {chance_dc}\n"
 "Result: failure"
 msgstr ""
-"판정: {d100}. \n"
-"주문 실패 확률: {chance_dc}. \n"
-"결과: 실패."
+"판정: {d100}\n"
+"주문 실패 확률: {chance_dc}\n"
+"결과: 실패"
 
 #. LocalizedTexts/GameLog/GameLog/SpellForbidden/Message
 msgctxt "3be12469-f1e5-41d9-a52c-1098f363ee7e"
@@ -2204,17 +2145,13 @@ msgid "<b>{source}</b> spell was lost."
 msgstr "<b>{source}</b> 주문 손실됨."
 
 #. LocalizedTexts/GameLog/GameLog/SpellForbidden/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Spell Failure chance: {chance_dc}.\n"
-#| "Result: failure."
 msgctxt "81b6666b-80ac-4bd1-be19-6dc952c2b7e0"
 msgid ""
 "Spell Failure chance: {chance_dc}\n"
 "Result: failure"
 msgstr ""
-"주문 실패 확률: {chance_dc}.\n"
-"결과: 실패."
+"주문 실패 확률: {chance_dc}\n"
+"결과: 실패"
 
 #. LocalizedTexts/GameLog/GameLog/SpellImmunity/Message
 msgctxt "3b94c1b4-725e-4d64-860b-6c609fcb3afb"
@@ -2228,20 +2165,15 @@ msgid ""
 msgstr "<b>{source}</b>: <b>{target}</b>의 주문 저항에 막힘."
 
 #. LocalizedTexts/GameLog/GameLog/SpellResistanceNotPassed/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Check: {roll} (roll: {d20} + modifiers: {mod}).\n"
-#| "Spell Resistance (SR): {dc}.\n"
-#| "Result: failure."
 msgctxt "0ab13989-cd78-46b0-96b3-c89a6c0e954b"
 msgid ""
 "Check: {roll} (roll: {d20} + modifiers: {mod})\n"
 "Spell Resistance (SR): {dc}\n"
 "Result: failure"
 msgstr ""
-"판정: {roll} (굴림 결과: {d20} + 수정치: {mod}). \n"
-"주문 저항 (SR): {dc}. \n"
-"결과: 실패."
+"판정: {roll} (굴림 결과: {d20} + 수정치: {mod})\n"
+"주문 저항 (SR): {dc}\n"
+"결과: 실패"
 
 #. LocalizedTexts/GameLog/GameLog/SpellResistancePassed/Message
 msgctxt "f83aaa49-e70a-4756-bb4b-604466d5a190"
@@ -2249,25 +2181,20 @@ msgid "<b>{source}</b> overcomes the spell resistance of <b>{target}</b>."
 msgstr "<b>{source}</b>: <b>{target}</b>의 주문 저항을 관통."
 
 #. LocalizedTexts/GameLog/GameLog/SpellResistancePassed/Tooltip
-#, fuzzy
-#| msgid ""
-#| "Check: {roll} (roll: {d20} + modifiers: {mod}).\n"
-#| "Spell Resistance (SR): {dc}.\n"
-#| "Result: success."
 msgctxt "5bffdd24-5e14-48b4-996e-3fd67cc55fdc"
 msgid ""
 "Check: {roll} (roll: {d20} + modifiers: {mod})\n"
 "Spell Resistance (SR): {dc}\n"
 "Result: success"
 msgstr ""
-"판정: {roll} (굴림 결과: {d20} + 수정치: {mod}). \n"
-"주문 저항 (SR): {dc}. \n"
-"결과: 성공."
+"판정: {roll} (굴림 결과: {d20} + 수정치: {mod})\n"
+"주문 저항 (SR): {dc}\n"
+"결과: 성공"
 
 #. LocalizedTexts/GameLog/GameLog/SpellTurnedBack/Message
 msgctxt "fb420c1b-20d7-4dd2-bfad-2bf7d35295a9"
 msgid "<b>{target}</b> reflects <b>{text}</b> back to <b>{source}</b>."
-msgstr ""
+msgstr "<b>{target}</b>: <b>{text}</b> 주문을 <b>{source}</b>에게 반사함."
 
 #. LocalizedTexts/GameLog/GameLog/StatDamage/MessageWithSource
 msgctxt "ea43c9cd-91d3-44ea-9b9d-b3477fadc7fb"
@@ -2285,18 +2212,14 @@ msgid ""
 msgstr "<b>{target}</b>: 미확인 출처로부터 <b>{count} {description}</b> 피해를 입음."
 
 #. LocalizedTexts/GameLog/GameLog/StatDamage/TooltipCount
-#, fuzzy
-#| msgid "Damage result: <b>{count} {description}</b>."
 msgctxt "18515b8d-cfd4-47bb-baeb-c77be35a48a4"
 msgid "Damage result: <b>{count} {description}</b>"
-msgstr "피해 결과: <b>{count} {description}</b>."
+msgstr "피해 결과: <b>{count} {description}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/StatDamage/TooltipSource
-#, fuzzy
-#| msgid "Damage source: <b>{source}</b>."
 msgctxt "a7d4cad8-2e7e-4067-9962-9db451bd5cdf"
 msgid "Damage source: <b>{source}</b>"
-msgstr "피해 출처: <b>{source}</b>."
+msgstr "피해 출처: <b>{source}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/StatDrain/MessageWithSource
 msgctxt "a0e64f5f-9790-4cf7-90d7-ad6e8020bc1e"
@@ -2313,24 +2236,20 @@ msgid ""
 msgstr "<b>{target}</b>: 미확인 출처에게 <b>{count} {description}</b> 소진 당함."
 
 #. LocalizedTexts/GameLog/GameLog/StatDrain/TooltipCount
-#, fuzzy
-#| msgid "Drain result: <b>{count} {description}</b>."
 msgctxt "e13f20d2-9391-4c61-b00d-8992e49e7f2f"
 msgid "Drain result: <b>{count} {description}</b>"
-msgstr "소진 결과: <b>{count} {description}</b>."
+msgstr "소진 결과: <b>{count} {description}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/StatDrain/TooltipSource
-#, fuzzy
-#| msgid "Source: <b>{source}</b>."
 msgctxt "44d99318-aaed-4bec-9138-2eecee96aab7"
 msgid "Source: <b>{source}</b>"
-msgstr "출처: <b>{source}</b>."
+msgstr "출처: <b>{source}</b>"
 
 #. LocalizedTexts/GameLog/GameLog/StoryModeBuffImmunity/Message
 msgctxt "e57a5c7e-fb05-4b27-ae27-72d3681a7aaf"
 msgid ""
 "{source} is immune to {text} in current combat due to difficulty settings."
-msgstr ""
+msgstr "{source}: 난이도 설정으로 인해 이번 전투에서 {text}에 면역."
 
 #. LocalizedTexts/GameLog/GameLog/StoryModeEnergyDrainImmunity/Message
 msgctxt "03adc040-56c5-4538-b4a3-cf5e933873f5"
@@ -2475,11 +2394,9 @@ msgid "{source} spots {target}!"
 msgstr "<b>{source}</b>: <b>{target}</b> 발견!"
 
 #. LocalizedTexts/GameLog/GameLog/UnitInspectFailed/Message
-#, fuzzy
-#| msgid "<b>{text}</b> inspect failed"
 msgctxt "c9de0bcc-93a6-4489-ae75-686c7b25beda"
 msgid "<b>{text}</b> inspect failed."
-msgstr "<b>{text}</b> 조사 실패"
+msgstr "<b>{text}</b> 조사 실패."
 
 #. LocalizedTexts/GameLog/GameLog/UnitInspected/Message
 msgctxt "5257e2a6-d963-42b5-99b0-045bc86a4fb3"
@@ -2492,25 +2409,19 @@ msgid "{source} gains <b>{count}</b> experience."
 msgstr "<b>{source}</b>: <b>{count}</b> 경험치 획득."
 
 #. LocalizedTexts/GameLog/GameLog/UseAbility/Message
-#, fuzzy
-#| msgid "<b>{source}</b> uses ability: <b>{text}</b>."
 msgctxt "8adf2cb0-8541-4b98-bc1c-af1ee50f7e7f"
 msgid "<b>{source}</b> uses ability: <b>{text}</b>"
-msgstr "<b>{source}</b>: <b>{text}</b> 능력 사용."
+msgstr "<b>{source}</b>: <b>{text}</b> 능력 사용"
 
 #. LocalizedTexts/GameLog/GameLog/UseItem/Message
-#, fuzzy
-#| msgid "<b>{source}</b> uses item: <b>{text}</b>."
 msgctxt "be7942ed-3af1-4fc7-b20b-41966d2f80b7"
 msgid "<b>{source}</b> uses item: <b>{text}</b>"
-msgstr "<b>{source}</b>: <b>{text}</b> 사용."
+msgstr "<b>{source}</b>: <b>{text}</b> 사용"
 
 #. LocalizedTexts/GameLog/GameLog/XpGain/Message
-#, fuzzy
-#| msgid "Gained experience: <b>{count}</b>."
 msgctxt "0baca1d5-a855-4ae7-aa9f-14723f52f1f0"
 msgid "Gained experience: <b>{count}</b>"
-msgstr "경험치 획득: <b>{count}</b>."
+msgstr "경험치 획득: <b>{count}</b>"
 
 #. LocalizedTexts/Glossaries[0]/Glossary[0]/Description
 msgctxt "d8a0ffe1-c1e7-47c2-95c6-2dd3318f6c44"
@@ -2927,19 +2838,6 @@ msgid "Nidal"
 msgstr "나이달"
 
 #. LocalizedTexts/Glossaries[0]/Glossary[27]/Description
-#, fuzzy
-#| msgid ""
-#| "Once a rising power poised to unite its neighbors under its banner, "
-#| "Numeria's leadership has fallen into decay. Here, savagery and science exist "
-#| "side by side. Amid the wreckage of a crashed starship from a distant world, "
-#| "technomancers from across Golarion flock to research and exploit the "
-#| "technological wonders found within the otherworldly ruins; meanwhile, tribes "
-#| "of primitive barbarians cling to age-old tradition and eschew technology in "
-#| "favor of their own raw skill and martial prowess. This is a nation where, "
-#| "under the auspices of technological advancement and the betterment of "
-#| "civilization, a select few rule a subjugated nation as despots and tyrants, "
-#| "placing their own power and continued reign above the well-being of their "
-#| "citizens."
 msgctxt "e387a0fa-63ce-4cd8-b6ff-bd210d8d6d72"
 msgid ""
 "Once a rising power poised to unite its neighbors under its banner, today "
@@ -2954,14 +2852,11 @@ msgid ""
 "placing their own power and continued reign above the well-being of their "
 "citizens."
 msgstr ""
-"한때 주변을 모두 누메리아의 깃발 아래 통합해버릴 기세였던 누메리아의 "
-"지도력은 쇠약해졌습니다. 이곳에는 야만과 과학이 공존합니다. 먼 세계에서 "
-"추락한 우주선의 잔해를 두고, 다른 세계의 유적에서 기술적 경이를 연구하고 "
-"이용하기 위해 골라리온 전역에서 기계술사들이 몰려드는 한편, 원시적인 야만 "
-"부족들은 오랜 전통에 매여 첨단 기술을 기피하고 날것 그대로의 기술과 무용을 "
-"지키고자 합니다. 이 나라는 기술 발전과 문명 향상이라는 명목 아래, 선택된 "
-"소수의 폭군이자 독재자가 나라를 예속하여 시민의 행복보다는 권력과 지배의 "
-"지속이 우선시되는 곳입니다."
+"한때 이웃 국가들을 기치 아래 통합할 태세를 갖춘 신흥 강국이었던 누메리아는 오늘날 쇠락의 길로 접어들었습니다. 이곳에는 야만과 과학이 "
+"공존합니다. 먼 세계에서 추락한 우주선의 잔해를 두고, 골라리온 전역의 테크노맨서들이 이계의 폐허에서 발견한 경이로운 기술을 연구하고 "
+"활용하기 위해 모여드는 반면, 원시적인 야만 부족들은 오랜 전통에 매여 첨단 기술을 기피하고 날것 그대로의 기술과 무용을 지키고자 "
+"합니다. 이 나라는 기술 발전과 문명 향상이라는 명목 아래, 선택된 소수의 폭군이자 독재자가 나라를 예속하여 시민의 행복보다는 권력과 "
+"지배의 지속이 우선시되는 곳입니다."
 
 #. LocalizedTexts/Glossaries[0]/Glossary[27]/Name
 msgctxt "b335c1ed-ad01-4bed-9de2-948598d2dc62"
@@ -4514,8 +4409,6 @@ msgstr ""
 "이유를 더해줍니다."
 
 #. LocalizedTexts/Glossaries[2]/Glossary Characters[0]/Name
-#, fuzzy
-#| msgid "Hellkinghts"
 msgctxt "6bc88179-05a8-48dc-be4d-5195b7356ebb"
 msgid "Hellknights"
 msgstr "헬나이트"
@@ -5455,14 +5348,6 @@ msgstr ""
 "녹티큘라의 남매이기도 합니다."
 
 #. LocalizedTexts/Glossaries[2]/Glossary Characters[4]/Description
-#, fuzzy
-#| msgid ""
-#| "Aroden was the immortal Azlanti who raised the Starstone from the bottom of "
-#| "the Inner Sea, and in so doing founded the city of Absalom and ascending to "
-#| "godhood. Prophecy told of his return to Golarion and the beginning of a new "
-#| "Age of Glory. On the eve of his return, however, his clerics were cut off "
-#| "from his power, and terrible storms wracked the world. Now presumed dead, "
-#| "Aroden's demise ushered in the current Age of Lost Omens."
 msgctxt "eb5d2c07-4d54-4e56-8bec-40bc5365a123"
 msgid ""
 "Aroden was the immortal Azlanti who raised the Starstone from the bottom of "
@@ -5472,12 +5357,10 @@ msgid ""
 "from his power, and terrible storms wracked the world. Now presumed dead, "
 "Aroden's demise ushered in the current Age of Lost Omens."
 msgstr ""
-"아로덴은 아즐란트의 불멸자였습니다. 그는 내해 바닥에서 스타스톤을 "
-"끌어올렸으며, 도시 압살롬을 세우고 신으로 승천했습니다. 예언에 따르면 "
-"아로덴은 골라리온에 돌아와 새로운 영광의 시대가 시작될 예정이었습니다만, "
-"귀환의 날을 하루 앞두고 아로덴의 권능과 클레릭간의 연결이 끊어지더니 "
-"무시무시한 폭풍이 골라리온을 덮쳤습니다. 현재 아로덴은 사망한 것으로 "
-"추정되며, 그의 죽음은 잃어버린 징조의 시대로 불리는 현시대로 이어어졌습니다."
+"아로덴은 아즐란트의 불멸자였습니다. 그는 내해 바닥에서 스타스톤을 끌어올렸으며, 도시 압살롬을 세우고 신으로 승천했습니다. 예언에 따르면 "
+"아로덴은 골라리온에 돌아와 새로운 영광의 시대가 시작될 예정이었습니다만, 귀환의 날을 하루 앞두고 아로덴의 권능과 클레릭간의 연결이 "
+"끊어지더니 무시무시한 폭풍이 골라리온을 덮쳤습니다. 현재 아로덴은 사망한 것으로 추정되며, 그의 죽음은 잃어버린 징조의 시대로 불리는 "
+"현시대로 이어어졌습니다."
 
 #. LocalizedTexts/Glossaries[2]/Glossary Characters[4]/Name
 msgctxt "024b336d-430f-4646-a2e2-ed390dd7980c"
@@ -6675,16 +6558,11 @@ msgstr "당신은 노예상들을 살해하고 노예들을 해방시킴으로�
 "엎었습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[14]/Description
-#, fuzzy
-#| msgid ""
-#| "While you were wandering around beseiged Kenabres, the demons managed to "
-#| "take the initiative and inflict serious damage on the city's defenders."
 msgctxt "ee4e416d-c1ce-42e2-97b6-d653133cd9d9"
 msgid ""
 "While you were wandering around besieged Kenabres, the demons managed to "
 "take the initiative and inflict serious damage on the city's defenders."
-msgstr "당신이 공격당한 케나브레스의 주변을 돌아다니던 동안, 데몬들이 선공권을 얻어 "
-"도시의 방어자들에게 심각한 피해를 가했습니다."
+msgstr "포위된 케나브레스를 돌아다니는 동안 데몬들이 선공권을 잡고 도시의 방어자들에게 심각한 피해를 가했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[150]/Description
 msgctxt "43b75c3b-901e-4b92-ab81-a658c8c0694d"
@@ -6950,16 +6828,11 @@ msgid "You purchased slaves at the Fleshmarkets."
 msgstr "당신은 살덩이 시장에서 노예를 구매했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[18]/Description
-#, fuzzy
-#| msgid ""
-#| "A fit of uncontrollable rage led you to attacking the crusader Staunton "
-#| "Vhane, who tried to bring you back to your senses."
 msgctxt "28b87520-6df1-4ef9-965b-e636797f23dc"
 msgid ""
 "The Defender's Heart was defeated by your actions, or rather, by your "
 "failure to act."
-msgstr "통제할 수 없는 분노가 당신을 정신차리게 만드려던 스턴튼 베인을 공격하도록 "
-"만들었습니다."
+msgstr "수호자의 심장은 당신의 행동, 아니 행동하지 않음으로 인해 패배했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[19]/Description
 msgctxt "a61caa50-70cc-4a04-b812-41d835e96e67"
@@ -6969,17 +6842,13 @@ msgid ""
 msgstr "당신은 에스트로드의 탑에서 역병 전파자 잔티르의 서기에게 죽음을 허락했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[1]/Description
-#, fuzzy
-#| msgid ""
-#| "You can't remember where did you get the bracers with your name and the "
-#| "inscription 'I promise' on them. Seems like you've always had them."
 msgctxt "bc89c44c-3e22-47a1-b1c8-9108684c83ea"
 msgid ""
 "You can't remember where you got the bracers with your name and the "
 "inscription \"I promise\" on them. Seems like you've always had them."
 msgstr ""
-"당신은 자신의 이름과 '약속이야' 라는 문장이 새겨진 팔찌를 어디서 얻었는지 "
-"기억하지 못합니다. 아무래도 항상 가지고 다녔던 것 같습니다."
+"당신은 자신의 이름과 \"약속하마\" 라는 문장이 새겨진 팔찌를 어디서 얻었는지 기억하지 못합니다. 아무래도 항상 가지고 다녔던 것 "
+"같습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[20]/Description
 msgctxt "851decfe-2f16-4d70-8f89-5406e29e1816"
@@ -7176,11 +7045,9 @@ msgid "You destroyed the Wardstone, but released the fallen souls within it."
 msgstr "당신은 수호석을 파괴했지만, 내부에 있던 타락한 영혼들 또한 해방했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[47]/Description
-#, fuzzy
-#| msgid "You destroyed the Wardstone, but released the fallen souls within it."
 msgctxt "0103da1b-f6e5-4fc0-90a3-fdd3b7f7c2c1"
 msgid "You managed to avert catastrophe without destroying the Wardstone."
-msgstr "당신은 수호석을 파괴했지만, 내부에 있던 타락한 영혼들 또한 해방했습니다."
+msgstr "수호석을 파괴하지 않고 재앙을 피하는 데 성공했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[48]/Description
 msgctxt "a392d356-e53a-4d82-bebf-9c18a1adf35e"
@@ -7207,19 +7074,13 @@ msgstr "당신은 위험을 짊어지고 이방인에게 무기를 건네받아 
 "공격했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[50]/Description
-#, fuzzy
-#| msgid ""
-#| "You saved the poor caravaner whose eyes were eaten by vescavors. However, he "
-#| "mysteriously disappeared afterwards."
 msgctxt "dbf5c2bf-739b-4855-bb71-0a27f177e9d1"
 msgid ""
 "You saved the poor caravanner whose eyes were eaten by vescavors. However, "
 "he mysteriously disappeared afterward."
-msgstr "당신은 베스카버 무리에 눈을 포식당한 불운한 행상인을 구했습니다."
+msgstr "당신은 베스카버 무리에 눈을 포식당한 불운한 행상인을 구했습니다. 그러나 그 직후 행상인은 사라져 버리고 말았습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[51]/Description
-#, fuzzy
-#| msgid "You decided not to aid the beleagured Hellknights."
 msgctxt "35d59fd6-ca5f-4040-adb5-ef718969aca4"
 msgid "You decided not to aid the beleaguered Hellknights."
 msgstr "당신은 포위된 헬나이트들을 지원하지 않기로 결정했습니다."
@@ -7231,16 +7092,11 @@ msgid ""
 msgstr "당신은 포위된 헬나이트를 도왔지만, 그들과 협력하지는 않았습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[53]/Description
-#, fuzzy
-#| msgid ""
-#| "You aided the beleagured Hellknights, and accepted their leader's offer to "
-#| "help you in your campaign."
 msgctxt "681eb46f-e69d-4e9f-8ce4-59d06b0d8744"
 msgid ""
 "You aided the beleaguered Hellknights, and accepted their leader's offer to "
 "help you in your campaign."
-msgstr "당신은 포위된 헬나이트들을 지원했고, 당신의 작전을 돕겠다는 그들의 지도자의 "
-"제안을 수락했습니다."
+msgstr "당신은 포위된 헬나이트들을 지원했고, 당신의 작전을 돕겠다는 헬나이트 지휘관의 제안을 수락했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[54]/Description
 msgctxt "8aae914f-c8bd-4835-a4a2-4551665bf39c"
@@ -7386,11 +7242,9 @@ msgid "You executed the traitor Nurah Dendiwhar."
 msgstr "당신은 배신자 누라 덴디워르를 처형했습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[74]/Description
-#, fuzzy
-#| msgid "You did away with the traitor Nurah Dendiwhar."
 msgctxt "065ae1ae-00d0-411b-9ea1-6bfcddac5d0e"
 msgid "You won the respect of the traitor Nurah Dendiwhar."
-msgstr "당신은 배신자 누라 덴디워르를 처리했습니다."
+msgstr "당신은 배신자 누라 덴디와르의 신임을 샀습니다."
 
 #. LocalizedTexts/Glossaries[5]/Glossary Decisions 1[75]/Description
 msgctxt "389591f8-9e68-4180-8b7f-7fe0acb12428"
@@ -7829,11 +7683,9 @@ msgstr "당신은 병력들 앞에서 한 연설에서 당신의 결정을 발�
 "뒤 성전 사령관직을 내려놓고 여행을 떠날 것입니다."
 
 #. LocalizedTexts/Glossaries[6]/Glossary Decisions 2[134]/Description
-#, fuzzy
-#| msgid "You left Threshold without closing the Worldwound."
 msgctxt "19f4f236-a5c8-4c0e-9d34-1a2f9e318918"
 msgid "You left the Worldwound open."
-msgstr "당신은 세계상처를 닫지 않고 극점을 떠났습니다."
+msgstr "당신은 세계상처를 닫지 않았습니다."
 
 #. LocalizedTexts/Glossaries[6]/Glossary Decisions 2[135]/Description
 msgctxt "8be2e5ac-7494-4bca-8732-1b59ab205f5c"
@@ -8337,11 +8189,9 @@ msgid "You asked the Storyteller to tell you what was going on with the Queen."
 msgstr "당신은 이야기꾼에게 여왕이 무엇을 하고 있는지 말해달라고 요청했습니다."
 
 #. LocalizedTexts/Glossaries[6]/Glossary Decisions 2[35]/Description
-#, fuzzy
-#| msgid "Queen Galfrey did not survive the battle of Iz."
 msgctxt "236e7b2b-81da-4ab9-8d9c-86c651a170f1"
 msgid "Queen Galfrey did not survive the events of the Fifth Crusade."
-msgstr "갈프리 여왕은 이즈의 전투에서 살아남지 못했습니다."
+msgstr "갈프리 여왕은 5차 성전 도중 전사했습니다."
 
 #. LocalizedTexts/Glossaries[6]/Glossary Decisions 2[36]/Description
 msgctxt "2371bc9e-5278-4be0-b32f-67364fc50e3c"
@@ -8531,15 +8381,10 @@ msgstr "당신은 네니오를 도와 그녀의 친구가 되었습니다. 또�
 "기억해내도록 설득하는 데조차 성공했습니다."
 
 #. LocalizedTexts/Glossaries[6]/Glossary Decisions 2[64]/Description
-#, fuzzy
-#| msgid ""
-#| "You helped Nenio to follow her path to the end, but failed to become her "
-#| "friend along the way."
 msgctxt "01dc269a-094b-4a2b-8d82-5f897040f59f"
 msgid ""
 "In Nenio's eyes, you never became a person whose name is worth remembering."
-msgstr "당신은 네니오의 모험을 끝까지 도왔지만, 그 도중에 그녀의 친구가 되는 데는 "
-"실패했습니다."
+msgstr "네니오의 눈에, 당신은 끝내 기억할 만한 가치가 있는 사람이 되지 못했습니다."
 
 #. LocalizedTexts/Glossaries[6]/Glossary Decisions 2[65]/Description
 msgctxt "d30a2341-8a23-4d49-b1ce-50939a9e6b39"
@@ -8868,11 +8713,9 @@ msgid "Wand of"
 msgstr "마법봉 -"
 
 #. LocalizedTexts/ItemsFilter/ItemsFilterStrings/SorterTypeEntries[0]/Text
-#, fuzzy
-#| msgid "—"
 msgctxt "39611291-1036-4c22-b204-3b03ba04afd8"
 msgid "No Sorting"
-msgstr "—"
+msgstr "정렬 없음"
 
 #. LocalizedTexts/ItemsFilter/ItemsFilterStrings/SorterTypeEntries[10]/Text
 msgctxt "e0d91160-6c3c-4ae0-82d9-a08d392562dd"
@@ -8940,8 +8783,6 @@ msgid "Locked"
 msgstr "잠김"
 
 #. LocalizedTexts/LockedwithKey
-#, fuzzy
-#| msgid "Need key"
 msgctxt "e4c7a0a5-dc33-45f1-bcf2-f030690c50e4"
 msgid "Requires key"
 msgstr "열쇠 필요"
@@ -8971,24 +8812,19 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalty{/g}, but not a bonus, applies to attacks "
 "made with a bow, unless it's a composite bow."
 msgstr ""
-"{g|Encyclopedia:Strength}힘{/g}은 캐릭터의 물리적 능력을 말해줍니다. 이 "
-"능력은 파이터, 몽크, 기사단원 및 일부 레인저와 같은 직접 전투에 종사하는 "
-"사람들에게 중요합니다. 힘은 또한 캐릭터가 지탱할 수있는 최대 무게를 "
-"결정합니다. \n"
-"캐릭터의 힘이 0으로 떨어지면 너무 약해진 움직일 수도 없어져, "
-"{g|Encyclopedia:Injury_Death}의식불명{/g}에 빠지게 됩니다. "
-"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g} 유령과 같은 일부 "
-"크리처는 힘을 가지고 있지 않으며 모든 힘 기반 {g|Encyclopedia:Skills}기술{/g}"
-"이나 {g|Encyclopedia:Check}판정{/g}에 수정치를 가지지 않습니다.\n"
+"{g|Encyclopedia:Strength}힘{/g}은 캐릭터의 물리적 능력을 말해줍니다. 이 능력은 파이터, 몽크, 기사단원 및 일부 "
+"레인저와 같은 직접 전투에 종사하는 사람들에게 중요합니다. 힘은 또한 캐릭터가 지탱할 수있는 최대 무게를 결정합니다. \n"
+"캐릭터의 힘이 0으로 떨어지면 너무 약해진 움직일 수도 없어져, {g|Encyclopedia:Injury_Death}의식불명{/g}에 "
+"빠지게 됩니다. {g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g} 유령과 같은 일부 크리처는 힘을 "
+"가지고 있지 않으며 모든 힘 기반 {g|Encyclopedia:Skills}기술{/g}이나 "
+"{g|Encyclopedia:Check}판정{/g}에 수정치를 가지지 않습니다.\n"
 "캐릭터의 힘 수정치는 다음에 적용됩니다: \n"
 "{g|Encyclopedia:MeleeAttack}근접 명중{/g} {g|Encyclopedia:Dice}굴림{/g}.\n"
 "{g|Encyclopedia:Athletics}운동{/g} 및 힘 판정 (문을 부술 때 등등).\n"
-"근접 무기나 슬링을 포함한 투척 무기를 사용하는 경우의 {g|Encyclopedia:Damage}"
-"피해 굴림{/g}. 반대손 {g|Encyclopedia:Attack}공격{/g}은 캐릭터의 힘 보너스 "
-"중 절반만 받고, {g|Encyclopedia:Light_Weapon}양손{/g} 공격은 힘 보너스의 1.5 "
-"배를 받습니다. 합성궁 뿐만이 아니라 모든 활 공격에 힘 "
-"{g|Encyclopedia:Penalty}패널티{/g}가 부여되지만, 힘 보너스는 합성궁만 받을 "
-"수 있습니다."
+"근접 무기나 슬링을 포함한 투척 무기를 사용하는 경우의 {g|Encyclopedia:Damage}피해 굴림{/g}. 반대손 "
+"{g|Encyclopedia:Attack}공격{/g}은 캐릭터의 힘 보너스 중 절반만 받고, "
+"{g|Encyclopedia:Light_Weapon}양손{/g} 공격은 힘 보너스의 1.5 배를 받습니다. 합성궁 뿐만이 아니라 모든 활 "
+"공격에 힘 {g|Encyclopedia:Penalty}페널티{/g}가 부여되지만, 힘 보너스는 합성궁만 받을 수 있습니다."
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[0]/Name
 msgctxt "8cd8dcd2-4c70-405d-be6d-1368bb9ece00"
@@ -9494,37 +9330,6 @@ msgid "Concentration"
 msgstr "집중"
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[16]/Description
-#, fuzzy
-#| msgid ""
-#| "Some magic creatures have the {g|Encyclopedia:Special_Abilities}supernatural "
-#| "ability{/g} to instantly {g|Encyclopedia:Healing}heal{/g} "
-#| "{g|Encyclopedia:Damage}damage{/g} suffered from weapons, or ignore blows "
-#| "altogether as though they were invulnerable. Sometimes "
-#| "{g|Encyclopedia:Damage_Reduction}Damage Reduction{/g} (DR) represents such "
-#| "instant healing. Sometimes it represents the creature's tough hide. In any "
-#| "case, when a character sees that their {g|Encyclopedia:Attack}attacks{/g} "
-#| "are failing, they may switch to a different type of attack.\n"
-#| "A creature's DR is the amount of damage the creature ignores from normal "
-#| "attacks. Usually, a certain type of attack can overcome this reduction. This "
-#| "information is separated from the damage reduction number by a "
-#| "{g|Encyclopedia:Damage_Type}slash{/g}. For example, DR 5/magic means that a "
-#| "creature takes 5 less points of damage from all weapons except magical ones. "
-#| "If a dash follows the slash, then the damage reduction is effective against "
-#| "any attack, except those that ignore DR.\n"
-#| "Whenever damage reduction completely negates the damage from an attack, it "
-#| "also negates most special effects that accompany the attack, such as "
-#| "{g|Encyclopedia:Injury_Death}injury{/g}, poison, a monk's stunning, and "
-#| "injury-based disease. Damage Reduction does not negate "
-#| "{g|Encyclopedia:TouchAttack}touch attacks{/g}, {g|Encyclopedia:Energy_Damage}"
-#| "energy damage{/g} dealt along with an attack, or energy drains. Nor does it "
-#| "affect poisons or diseases delivered by inhalation, ingestion, or contact. "
-#| "Attacks whose damage is cancelled by the target's DR do not disrupt "
-#| "{g|Encyclopedia:Spell}spells{/g}.\n"
-#| "Spells, spell-like abilities, and energy attacks (including non-magical fire)"
-#| " ignore damage reduction.\n"
-#| "If a creature enjoys damage reduction from more than one source, the two "
-#| "forms of damage reduction do not stack. Instead, the creature receives the "
-#| "benefit of the better damage reduction given the situation."
 msgctxt "cafd8d27-4184-48c1-a3b9-b14e3a165981"
 msgid ""
 "Some magic creatures have the {g|Encyclopedia:Special_Abilities}supernatural "
@@ -9559,30 +9364,23 @@ msgid ""
 msgstr ""
 "일부 마법적 크리처는 무기로 인한 {g|Encyclopedia:Damage}피해{/g}를 즉시 "
 "{g|Encyclopedia:Healing}치유{/g}하거나 약화된 상태에서도 마무리 당하지 않는 "
-"{g|Encyclopedia:Special_Abilities}초자연적 능력{/g} 을 지니고 있습니다. 어떤 "
-"경우 {g|Encyclopedia:Damage_Reduction}피해 감소{/g} (DR)가 이러한 즉각적 "
-"치유 능력을 나타냅니다. 또 다른 경우는 크리처가 가진 단단한 가죽을 "
-"나타냅니다. 어떤 상황이든, 캐릭터의 {g|Encyclopedia:Attack}공격{/g}이 "
+"{g|Encyclopedia:Special_Abilities}초자연적 능력{/g} 을 지니고 있습니다. 어떤 경우 "
+"{g|Encyclopedia:Damage_Reduction}피해 감소{/g} (DR)가 이러한 즉각적 치유 능력을 나타냅니다. 또 다른 "
+"경우는 크리처가 가진 단단한 가죽을 나타냅니다. 어떤 상황이든, 캐릭터의 {g|Encyclopedia:Attack}공격{/g}이 "
 "실패한다면 다른 유형의 공격으로 전환해야 할 수도 있습니다.\n"
-"크리처의 DR은 일반 공격을 받을 때 크리처가 무시하는 피해의 양입니다. 대개 "
-"특정 유형의 공격이 이러한 피해 감소를 극복할 수 있습니다. 이 약점은 피해 "
-"감소량과 '/ '로 구분됩니다. 예를 들어, DR 5/마법은 크리처가 마법적 무기 "
-"이외의 모든 무기로부터 5점의 피해를 덜 받는다는 것을 의미합니다. '/'의 "
-"다음에 '—'가 오는 경우, DR을 무시하는 공격을 제외한 모든 공격이 가하는 "
+"크리처의 DR은 일반 공격을 받을 때 크리처가 무시하는 피해의 양입니다. 대개 특정 유형의 공격이 이러한 피해 감소를 극복할 수 "
+"있습니다. 이 약점은 피해 감소량과 '/ '로 구분됩니다. 예를 들어, DR 5/마법은 크리처가 마법적 무기 이외의 모든 무기로부터 "
+"5점의 피해를 덜 받는다는 것을 의미합니다. '/'의 다음에 '—'가 오는 경우, DR을 무시하는 공격을 제외한 모든 공격이 가하는 "
 "피해를 줄입니다.\n"
-"피해 감소가 공격에 의한 피해를 완전히 무효화 할 때마다 "
-"{g|Encyclopedia:Injury_Death}부상{/g}, 독, 몽크의 경직권 및 피해 기반 질병과 "
-"같이 공격이 동반하는 대부분의 특수 효과도 무효화됩니다. 피해 감소는 "
+"피해 감소가 공격에 의한 피해를 완전히 무효화 할 때마다 {g|Encyclopedia:Injury_Death}부상{/g}, 독, 몽크의 "
+"경직권 및 피해 기반 질병과 같이 공격이 동반하는 대부분의 특수 효과도 무효화됩니다. 피해 감소는 "
 "{g|Encyclopedia:TouchAttack}접촉 공격{/g}, 명중시 가해지는 "
-"{g|Encyclopedia:Energy_Damage}에너지 피해{/g} 및 원기 소진을 무효화하지 "
-"않습니다. 또한 흡입, 섭취 또는 접촉에 의해 전달되는 독이나 질병에도 효과가 "
-"없습니다. 대상의 DR에 의해 무효화된 공격은 {g|Encyclopedia:Spell}주문{/g}을 "
-"방해하지 않습니다.\n"
-"주문, 주문 유사 능력 및 비 마법적 불길을 포함한 에너지 공격은 피해 감소를 "
-"무시합니다.\n"
-"한 크리처가 둘 이상의 경로를 통해 피해 감소를 얻는 경우, 두 가지 형태의 피해 "
-"감소는 중첩되지 않습니다. 대신, 크리처는 상황에 따라 더 나은 피해 감소의 "
-"혜택을 받습니다."
+"{g|Encyclopedia:Energy_Damage}에너지 피해{/g} 및 원기 소진을 무효화하지 않습니다. 또한 흡입, 섭취 또는 "
+"접촉에 의해 전달되는 독이나 질병에도 효과가 없습니다. 대상의 DR에 의해 무효화된 공격은 "
+"{g|Encyclopedia:Spell}주문{/g}을 방해하지 않습니다.\n"
+"주문, 주문 유사 능력 및 비 마법적 불길을 포함한 에너지 공격은 피해 감소를 무시합니다.\n"
+"한 크리처가 둘 이상의 경로를 통해 피해 감소를 얻는 경우, 두 가지 형태의 피해 감소는 중첩되지 않습니다. 대신, 크리처는 상황에 따라 "
+"더 나은 피해 감소의 혜택을 받습니다."
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[16]/Name
 msgctxt "4a463aaa-fb2f-4d3d-a260-02840382caaf"
@@ -9590,12 +9388,6 @@ msgid "Damage Reduction (DR)"
 msgstr "피해 감소 (DR)"
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[17]/Description
-#, fuzzy
-#| msgid ""
-#| "As a character overcomes challenges, defeats monsters, and completes quests, "
-#| "he or she gains {g|Encyclopedia:XP}experience points{/g}. These points "
-#| "accumulate over time, and when they {g|Encyclopedia:Reach}reach{/g} or "
-#| "surpass a specific value, the character gains a level."
 msgctxt "0b65f2cf-0838-4b5a-b6fb-ac0d5217006a"
 msgid ""
 "As a character overcomes challenges, defeats monsters, and completes quests, "
@@ -9603,9 +9395,8 @@ msgid ""
 "accumulate over time, and when they reach or surpass a specific value, the "
 "character gains a level."
 msgstr ""
-"캐릭터가 도전을 극복하거나, 몬스터를 물리치거나, 임무를 완수하면 "
-"{g|Encyclopedia:XP}경험치{/g}를 얻습니다. 이렇게 축적된 경험치가 특정 수치 "
-"이상이 되면, 캐릭터는 새로운 레벨을 얻습니다."
+"캐릭터가 도전을 극복하거나, 몬스터를 물리치거나, 임무를 완수하면 {g|Encyclopedia:XP}경험치{/g}를 얻습니다. 이렇게 "
+"축적된 경험치가 특정 수치 이상이 되면, 캐릭터는 새로운 레벨을 얻습니다."
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[17]/Name
 msgctxt "eec4b5a0-ec81-4883-b582-d3372f4aa3cd"
@@ -9659,24 +9450,6 @@ msgid "Hit Points (HP)"
 msgstr "생명점 (HP)"
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[1]/Description
-#, fuzzy
-#| msgid ""
-#| "{g|Encyclopedia:Dexterity}Dexterity{/g} measures agility, reflexes, and "
-#| "balance. This is the most important ability for rogues, and is vital for "
-#| "characters seeking to excel with ranged weapons, such as the bow or sling. "
-#| "It's also useful for characters who wear light or medium armor — or no armor "
-#| "at all.\n"
-#| "If a character's Dexterity falls to 0, they become immobilized.\n"
-#| "Your character's Dexterity modifier applies to:\n"
-#| "{g|Encyclopedia:RangedAttack}Ranged attacks{/g} made with bows, crossbows, "
-#| "throwing axes, and many ranged {g|Encyclopedia:Spell}spell{/g} "
-#| "{g|Encyclopedia:Attack}attacks{/g} like scorching ray or searing light.\n"
-#| "{g|Encyclopedia:Armor_Class}Armor Class{/g} (AC), provided that the "
-#| "character is able to react to the attack.\n"
-#| "Reflex {g|Encyclopedia:Saving_Throw}saving throws{/g}, for avoiding "
-#| "fireballs and other attacks that you can escape by moving quickly.\n"
-#| "{g|Encyclopedia:Mobility}Mobility{/g}, {g|Encyclopedia:Trickery}Trickery{/g}"
-#| ", and {g|Encyclopedia:Stealth}Stealth checks{/g}."
 msgctxt "ec9a802a-97d2-409e-a8f6-3610d7b3da01"
 msgid ""
 "{g|Encyclopedia:Dexterity}Dexterity{/g} measures agility, reflexes, and "
@@ -9696,19 +9469,16 @@ msgid ""
 "{g|Encyclopedia:Mobility}Mobility{/g}, {g|Encyclopedia:Trickery}Trickery{/g}"
 ", and {g|Encyclopedia:Stealth}Stealth checks{/g}."
 msgstr ""
-"{g|Encyclopedia:Dexterity}민첩{/g}은 날렵함, 반사신경 및 균형을 말합니다. "
-"로그에게 가장 중요한 능력이며, 활이나 슬링과 같은 원거리 무기에 뛰어나고자 "
-"하는 캐릭터에게도 중요합니다. 또한 경장이나 평장 갑옷을 입은 캐릭터나 갑옷을 "
-"입지 않는 캐릭터에게도 유용합니다.\n"
+"{g|Encyclopedia:Dexterity}민첩{/g}은 날렵함, 반사신경 및 균형을 말합니다. 로그에게 가장 중요한 능력이며, "
+"활이나 슬링과 같은 원거리 무기에 뛰어나고자 하는 캐릭터에게도 중요합니다. 또한 경장이나 평장 갑옷을 입은 캐릭터나 갑옷을 입지 않는 "
+"캐릭터에게도 유용합니다.\n"
 "캐릭터의 민첩이 0으로 떨어지면 이동 불가 상태가 됩니다.\n"
 "캐릭터의 민첩 수정치는 다음에 적용됩니다:\n"
-"활, 쇠뇌, 투척 도끼 등{g|Encyclopedia:RangedAttack}원거리 공격{/g}과 "
-"이글거리는 광선, 타오르는 빛과 같은 원거리 {g|Encyclopedia:Attack}공격{/g} "
-"{g|Encyclopedia:Spell}주문{/g}.\n"
-"캐릭터가 공격에 반응 할 수 있을 때의{g|Encyclopedia:Armor_Class}방어도{/g} "
-"(AC).\n"
-"화염구와 같이 재빠른 움직임으로 탈출할 수 있는 공격에 대한 반사 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}.\n"
+"활, 쇠뇌, 투척 도끼 등{g|Encyclopedia:RangedAttack}원거리 공격{/g}과 이글거리는 광선, 타오르는 빛과 같은 "
+"원거리 {g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Spell}주문{/g}.\n"
+"캐릭터가 공격에 반응 할 수 있을 때의{g|Encyclopedia:Armor_Class}방어도{/g} (AC).\n"
+"화염구와 같이 재빠른 움직임으로 탈출할 수 있는 공격에 대한 {g|Encyclopedia:Saving_Throw}반사 내성 굴림{/g}."
+"\n"
 "{g|Encyclopedia:Mobility}기동성{/g}, {g|Encyclopedia:Trickery}손재주{/g} 및 "
 "{g|Encyclopedia:Stealth}은신 판정{/g}."
 
@@ -9904,25 +9674,6 @@ msgid "Perception (Wis)"
 msgstr "지각 (Wis)"
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[2]/Description
-#, fuzzy
-#| msgid ""
-#| "{g|Encyclopedia:Constitution}Constitution{/g} represents your character's "
-#| "{g|Encyclopedia:HP}health{/g} and stamina. A higher Constitution increases a "
-#| "character's Hit Points, so the ability is important for all classes. Some "
-#| "creatures, such as undead and constructs, do not have a Constitution score. "
-#| "Their modifier is +0 for any Constitution-based "
-#| "{g|Encyclopedia:Check}checks{/g}. If a character's Constitution falls to 0, "
-#| "the character dies.\n"
-#| "You apply your character's Constitution modifier to:\n"
-#| "Each {g|Encyclopedia:Dice}roll{/g} of a {g|Encyclopedia:Hit_Dice}Hit Die{/g}"
-#| ". (Note that Constitution {g|Encyclopedia:Penalty}penalties{/g} can never "
-#| "drop the result below 1. Thus, a character always gains at least 1 hit point "
-#| "each time he advances in level.)\n"
-#| "Fortitude {g|Encyclopedia:Saving_Throw}saving throws{/g} for resisting "
-#| "poison, disease, and similar threats.\n"
-#| "If a character's Constitution score changes enough to alter his or her "
-#| "Constitution modifier, the character's hit points also increase or decrease "
-#| "accordingly."
 msgctxt "8f84e162-e448-491e-a8bc-ca6f7f5ab652"
 msgid ""
 "{g|Encyclopedia:Constitution}Constitution{/g} represents your character's "
@@ -10062,17 +9813,6 @@ msgid "Knowledge (World) (INT; Trained Only)"
 msgstr "지식 (세계) (INT, 훈련 필요)"
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[35]/Description
-#, fuzzy
-#| msgid ""
-#| "Your Will reflects your resistance to mental influence as well as many "
-#| "magical effects.\n"
-#| "Generally, when you are subject to an unusual or magical "
-#| "{g|Encyclopedia:Attack}attack{/g}, you get a {g|Encyclopedia:Saving_Throw}"
-#| "saving throw{/g} to avoid or reduce the effect. Like an attack "
-#| "{g|Encyclopedia:Dice}roll{/g}, a saving throw is a d20 roll plus a "
-#| "{g|Encyclopedia:Bonus}bonus{/g} based on your class and level, and an "
-#| "associated ability. Your {g|Encyclopedia:Wisdom}Wisdom{/g} modifier is added "
-#| "to your Will saving throws."
 msgctxt "dd84a7f6-6d1b-4079-b5d9-406415f3dc9f"
 msgid ""
 "Your {g|Encyclopedia:Saving_Throw}Will{/g} reflects your resistance to "
@@ -10085,12 +9825,11 @@ msgid ""
 "modifier is added to your Will saving throws."
 msgstr ""
 "의지는 마법적 효과 등이 정신에 끼치는 영향에 대한 저항력을 말합니다.\n"
-"일반적으로, 평범하지 않거나 마법적인 {g|Encyclopedia:Attack}공격{/g}을 "
-"받으면, 당신은 그 효과를 무효화하거나 줄이기 위해 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도합니다. 명중 "
-"{g|Encyclopedia:Dice}굴림{/g}과 마찬가지로, 내성 굴림은 d20 굴림에 클래스와 "
-"레벨 및 관련 능력이 주는 {g|Encyclopedia:Bonus}보너스{/g}를 더합니다. "
-"{g|Encyclopedia:Wisdom}지혜{/g} 수정치가 당신의 의지 내성 굴림에 더해집니다."
+"일반적으로, 평범하지 않거나 마법적인 {g|Encyclopedia:Attack}공격{/g}을 받으면, 당신은 그 효과를 무효화하거나 "
+"줄이기 위해 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도합니다. 명중 "
+"{g|Encyclopedia:Dice}굴림{/g}과 마찬가지로, 내성 굴림은 d20 굴림에 클래스와 레벨 및 관련 능력이 주는 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 더합니다. {g|Encyclopedia:Wisdom}지혜{/g} 수정치가 당신의 "
+"의지 내성 굴림에 더해집니다."
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[35]/Name
 msgctxt "096ce5af-5d61-4a18-b85e-753b27f1c752"
@@ -10098,17 +9837,6 @@ msgid "Will"
 msgstr "의지"
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[36]/Description
-#, fuzzy
-#| msgid ""
-#| "Your Fortitude reflects your ability to stand up to physical punishment or "
-#| "{g|Encyclopedia:Attack}attacks{/g} against your vitality and "
-#| "{g|Encyclopedia:HP}health{/g}.\n"
-#| "Generally, when you are subject to an unusual or magical attack, you get a "
-#| "{g|Encyclopedia:Saving_Throw}saving throw{/g} to avoid or reduce the effect. "
-#| "Like an attack {g|Encyclopedia:Dice}roll{/g}, a saving throw is a d20 roll "
-#| "plus a {g|Encyclopedia:Bonus}bonus{/g} based on your class and level, and an "
-#| "associated ability. Your {g|Encyclopedia:Constitution}Constitution{/g} "
-#| "modifier is added to your Fortitude saving throws."
 msgctxt "fe512fcc-ad27-4d76-82db-44168f7c442f"
 msgid ""
 "Your {g|Encyclopedia:Saving_Throw}Fortitude{/g} reflects your ability to "
@@ -10122,14 +9850,11 @@ msgid ""
 "modifier is added to your Fortitude saving throws."
 msgstr ""
 "인내는 육체적으로 가혹한 상황이나 활력 및 {g|Encyclopedia:HP}체력{/g} 대한 "
-"육체적{g|Encyclopedia:Attack}공격{/g}과 부작용을 견딜 수 있는 캐릭터의 "
-"능력을 말합니다.\n"
-"일반적으로, 평범하지 않거나 마법적인 공격을 받으면, 당신은 그 효과를 "
-"무효화하거나 줄이기 위해 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 "
-"시도합니다. 명중 {g|Encyclopedia:Dice}굴림{/g}과 마찬가지로, 내성 굴림은 d20 "
-"굴림에 클래스와 레벨 및 관련 능력이 주는 {g|Encyclopedia:Bonus}보너스{/g}를 "
-"더합니다. {g|Encyclopedia:Constitution}건강{/g} 수정치가 당신의 인내 내성 "
-"굴림에 더해집니다."
+"육체적{g|Encyclopedia:Attack}공격{/g}과 부작용을 견딜 수 있는 캐릭터의 능력을 말합니다.\n"
+"일반적으로, 평범하지 않거나 마법적인 공격을 받으면, 당신은 그 효과를 무효화하거나 줄이기 위해 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도합니다. 명중 {g|Encyclopedia:Dice}굴림{/g}"
+"과 마찬가지로, 내성 굴림은 d20 굴림에 클래스와 레벨 및 관련 능력이 주는 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"더합니다. {g|Encyclopedia:Constitution}건강{/g} 수정치가 당신의 인내 내성 굴림에 더해집니다."
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[36]/Name
 msgctxt "7343da18-f92b-4572-bf49-12d4947458b6"
@@ -10451,22 +10176,6 @@ msgid "Range"
 msgstr "사거리"
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[4]/Description
-#, fuzzy
-#| msgid ""
-#| "{g|Encyclopedia:Wisdom}Wisdom{/g} describes a character's willpower, common "
-#| "sense, awareness, and intuition. Wisdom is the most important ability for "
-#| "clerics and druids, and it is also important for monks and rangers. If you "
-#| "want your character to have acute senses, strive for a high Wisdom.\n"
-#| "Every creature has a Wisdom score. If a character's Wisdom falls to 0, the "
-#| "character loses consciousness.\n"
-#| "You apply your character's Wisdom modifier to:\n"
-#| "Will {g|Encyclopedia:Saving_Throw}saving throws{/g} (for negating the "
-#| "effects of charm person and other {g|Encyclopedia:Spell}spells{/g}).\n"
-#| "{g|Encyclopedia:Perception}Perception{/g} and Lore "
-#| "{g|Encyclopedia:Check}checks{/g}.\n"
-#| "Clerics, druids, inquisitors and rangers get bonus spells based on their "
-#| "Wisdom scores. The minimum Wisdom score needed to cast a cleric, druid, or "
-#| "ranger spell is 10 + the spell's level."
 msgctxt "22d2a91b-00d4-4bfb-9dc1-04cee44100b4"
 msgid ""
 "{g|Encyclopedia:Wisdom}Wisdom{/g} describes a character's willpower, common "
@@ -10484,19 +10193,15 @@ msgid ""
 "Wisdom scores. The minimum Wisdom score needed to cast a cleric, druid, or "
 "ranger spell is 10 + the spell's level."
 msgstr ""
-"{g|Encyclopedia:Wisdom}지혜{/g}는 캐릭터의 의지력, 상식, 인식 및 직감을 "
-"나타냅니다. 지혜는 클레릭과 드루이드에게 가장 중요한 능력이며 몽크와 "
-"레인저에게도 중요합니다. 당신의 캐릭터가 예리한 감각을 가지기를 바란다면, "
-"지혜를 높게 설정하십시오.\n"
-"모든 크리처에게는 지혜 점수가 있습니다. 지혜가 0으로 떨어지면 의식을 "
-"잃습니다.\n"
+"{g|Encyclopedia:Wisdom}지혜{/g}는 캐릭터의 의지력, 상식, 인식 및 직감을 나타냅니다. 지혜는 클레릭과 드루이드에게 "
+"가장 중요한 능력이며 몽크와 레인저에게도 중요합니다. 당신의 캐릭터가 예리한 감각을 가지기를 바란다면, 지혜를 높게 설정하십시오.\n"
+"모든 크리처에게는 지혜 점수가 있습니다. 지혜가 0으로 떨어지면 의식을 잃습니다.\n"
 "지혜 수정치는 다음에 적용됩니다:\n"
-"사람 현혹 등의 {g|Encyclopedia:Spell}주문{/g}을 무효화하기 위한 의지 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}.\n"
+"사람 현혹 등의 {g|Encyclopedia:Spell}주문{/g}을 무효화하기 위한 {g|Encyclopedia:Saving_Throw}"
+"의지 내성 굴림{/g}.\n"
 "{g|Encyclopedia:Perception}지각{/g}과 전승 {g|Encyclopedia:Check}판정{/g}\n"
-"클레릭, 드루이드, 인퀴지터 및 레인저는 지혜 능력치에 따라 보너스 주문을 "
-"받습니다. 클레릭, 드루이드 또는 레인저 주문을 시전하는 데 필요한 최소 지혜 "
-"점수는 주문의 레벨 + 10입니다."
+"클레릭, 드루이드, 인퀴지터 및 레인저는 지혜 능력치에 따라 보너스 주문을 받습니다. 클레릭, 드루이드 또는 레인저 주문을 시전하는 데 "
+"필요한 최소 지혜 점수는 주문의 레벨 + 10입니다."
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[4]/Name
 msgctxt "f7eab873-418e-49c1-b840-d7e5d6c4b71f"
@@ -11009,53 +10714,39 @@ msgstr ""
 "{g|Encyclopedia:Armor_Class}AC{/g}는 민첩 보너스를 제외하고 계산됩니다."
 
 #. LocalizedTexts/MechanicTerms[0]/MechanicTerms[9]/Name
-#, fuzzy
-#| msgid "Flat Footed AC"
 msgctxt "a31d2c52-c9bd-47ae-acce-da52fa796535"
 msgid "Flat-Footed AC"
 msgstr "무방비 AC"
 
 #. LocalizedTexts/MetamagicNames/MetamagicNames[0]/Text
-#, fuzzy
-#| msgid "Empowered"
 msgctxt "f772cb0b-40c7-4daa-86fb-eb4b78fa23d4"
 msgid "{g|Empowered}Empowered{/g}"
-msgstr "강화"
+msgstr "{g|Empowered}강화{/g}"
 
 #. LocalizedTexts/MetamagicNames/MetamagicNames[1]/Text
-#, fuzzy
-#| msgid "Maximized"
 msgctxt "db56b391-3f5c-4fda-823d-b965331859b5"
 msgid "{g|Maximized}Maximized{/g}"
-msgstr "극대화"
+msgstr "{g|Maximized}극대화{/g}"
 
 #. LocalizedTexts/MetamagicNames/MetamagicNames[2]/Text
-#, fuzzy
-#| msgid "Quickened"
 msgctxt "564b5264-9ff3-4389-9eaf-195f1913fc01"
 msgid "{g|Quickened}Quickened{/g}"
-msgstr "신속"
+msgstr "{g|Quickened}신속{/g}"
 
 #. LocalizedTexts/MetamagicNames/MetamagicNames[3]/Text
-#, fuzzy
-#| msgid "Extended"
 msgctxt "6af4c562-0ca9-48bd-9a1d-7fd9f533d21c"
 msgid "{g|Extended}Extended{/g}"
-msgstr "시간 연장"
+msgstr "{g|Extended}시간 연장{/g}"
 
 #. LocalizedTexts/MetamagicNames/MetamagicNames[4]/Text
-#, fuzzy
-#| msgid "Heightened"
 msgctxt "16d9e4c2-70a5-4597-9b6e-a7183af4c43b"
 msgid "{g|Heightened}Heightened{/g}"
-msgstr "고양"
+msgstr "{g|Heightened}고양{/g}"
 
 #. LocalizedTexts/MetamagicNames/MetamagicNames[5]/Text
-#, fuzzy
-#| msgid "Reach"
 msgctxt "bf23d322-37ee-4ff7-9cde-5f845f893382"
 msgid "{g|Reach}Reach{/g}"
-msgstr "거리 연장"
+msgstr "{g|Reach}거리 연장{/g}"
 
 #. LocalizedTexts/MetamagicNames/MetamagicNames[6]/Text
 msgctxt "5d827674-abd7-4ea4-bda4-ff0cf39335f9"
@@ -11152,11 +10843,9 @@ msgid ""
 msgstr "동료가 전투에서 쓰러졌습니다. 휴식을 취한 뒤 동료 교체가 가능합니다."
 
 #. LocalizedTexts/Reasons/Reasons/HasForbiddenCondition
-#, fuzzy
-#| msgid "Unavailable for a reason: {text}"
 msgctxt "577476f9-c636-4ecd-89e4-8461ea513f4d"
 msgid "Caster must not have following condition: {text}"
-msgstr "사용 불가: {text}"
+msgstr "시전자가 다음 조건이 없어야 함: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/KineticNotEnoughBurnLeft
 msgctxt "3dd60063-2e1a-456a-a804-27be0574239c"
@@ -11179,11 +10868,9 @@ msgid "Mount is polymorphed"
 msgstr ""
 
 #. LocalizedTexts/Reasons/Reasons/NoRequiredCondition
-#, fuzzy
-#| msgid "A condition hasn't been met: {text}"
 msgctxt "d4e419d9-68b4-428d-9dfa-95f654dbf120"
 msgid "Caster doesn't have required condition: {text}"
-msgstr "조건이 충족되지 않음: {text}"
+msgstr "시전자가 다음 조건을 충족해야 함: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/NoResources
 msgctxt "4535d1bd-a134-4643-a6d5-ba08322d3273"
@@ -11271,30 +10958,24 @@ msgid "Hit Points condition is not met"
 msgstr "생명점 조건이 충족되지 않음"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasCondition
-#, fuzzy
-#| msgid "Target doesn't meet the required condition: {text}"
 msgctxt "bcb3720f-16da-475b-94af-d319eca7cb06"
 msgid "Target does not have required condition: {text}"
-msgstr "대상이 요구 조건을 충족하지 않음: {text}"
+msgstr "대상이 조건을 충족하지 않음: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasConditionOrBuff
-#, fuzzy
-#| msgid "Target has {text}"
 msgctxt "865e6ffe-b1de-4529-b719-f83fd827805b"
 msgid "Target has condition: {text}"
-msgstr "대상에 {text} 있음"
+msgstr "대상이 조건을 가짐: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasEffect
 msgctxt "aa115c42-8afe-45aa-a558-70b63f35152e"
 msgid "Target has effect: {text}"
-msgstr ""
+msgstr "대상이 효과를 가짐: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasFact
-#, fuzzy
-#| msgid "Target has {text}"
 msgctxt "5ea1da73-eb04-4dab-9336-4a3bc781a4a3"
 msgid "Target has feature: {text}"
-msgstr "대상에 {text} 있음"
+msgstr "대상이 특성을 가짐: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasMeleeWeaponInPrimaryHand
 msgctxt "68c4feff-89f0-4be9-967a-bceff7da3f06"
@@ -11309,11 +10990,9 @@ msgid "Target must not have the following condition: {text}"
 msgstr "대상이 요구 조건을 만족하지 않음: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasNoConditionAndBuff
-#, fuzzy
-#| msgid "Target has no {text}"
 msgctxt "6661b000-0c8a-4e01-bf75-169f289d460c"
 msgid "Target does not have condition: {text}"
-msgstr "대상에 {text} 없음"
+msgstr "대상이 조건을 가지지 않음: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasNoEffect
 msgctxt "751a2525-8310-4d69-92d7-157f15150bd9"
@@ -11321,11 +11000,9 @@ msgid "Target does not have effect: {text}"
 msgstr ""
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasNoFact
-#, fuzzy
-#| msgid "Target has no {text}"
 msgctxt "b8ca2d4b-76e4-4499-a3ee-a23e565c5e40"
 msgid "Target does not have feature: {text}"
-msgstr "대상에 {text} 없음"
+msgstr "대상이 특성을 가지지 않음: {text}"
 
 #. LocalizedTexts/Reasons/Reasons/TargetHasNoFactUnless
 msgctxt "4c2227f1-eec4-4a51-a00f-e652bb04676c"
@@ -11863,8 +11540,6 @@ msgid "Sling"
 msgstr "슬링"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[17]/Text
-#, fuzzy
-#| msgid "Hand axe"
 msgctxt "bf1957d6-b88c-4bc4-ad1f-00d5364edb50"
 msgid "Handaxe"
 msgstr "손도끼"
@@ -11910,11 +11585,9 @@ msgid "Spiked Light Shield Bash"
 msgstr "가시 소형 방패 치기"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[25]/Text
-#, fuzzy
-#| msgid "Battle Axe"
 msgctxt "58b93a6f-bfa9-4780-bf63-08cfeae16694"
 msgid "Battleaxe"
-msgstr "전투 도끼"
+msgstr "전투도끼"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[26]/Text
 msgctxt "ca41197e-16eb-4719-a5da-b6205e230b71"
@@ -12002,15 +11675,11 @@ msgid "Scythe"
 msgstr "대낫"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[41]/Text
-#, fuzzy
-#| msgid "Short Bow"
 msgctxt "31e2cb84-1a2d-49a0-8d28-af602e1d954e"
 msgid "Shortbow"
 msgstr "단궁"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[42]/Text
-#, fuzzy
-#| msgid "Long Bow"
 msgctxt "7c03ddbe-8c65-4f91-acfd-712e158242c8"
 msgid "Longbow"
 msgstr "장궁"
@@ -12188,27 +11857,27 @@ msgstr "초능력 블래스트"
 #. LocalizedTexts/Stats/Stats/WeaponEntries[75]/Text
 msgctxt "f22e5d95-8c24-4750-a43d-ee50515000f3"
 msgid "Tail"
-msgstr ""
+msgstr "꼬리"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[76]/Text
 msgctxt "4af9efc8-a92f-46fd-b63f-ced4c0001d03"
 msgid "Hoof"
-msgstr ""
+msgstr "발굽"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[77]/Text
 msgctxt "49669bbd-eb01-4f10-aa86-bfaa40dfcada"
 msgid "Talon"
-msgstr ""
+msgstr "맹금발톱"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[78]/Text
 msgctxt "c38e60ab-6bf9-4265-aedd-89eb7f4d1727"
 msgid "Tentacle"
-msgstr ""
+msgstr "촉수"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[79]/Text
 msgctxt "8875c83c-37ee-433f-ba11-eec4bedb614c"
 msgid "Sting"
-msgstr ""
+msgstr "침"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[7]/Text
 msgctxt "8c56c7bd-bd40-4f17-8605-30779f46fbe4"
@@ -12218,7 +11887,7 @@ msgstr "단창"
 #. LocalizedTexts/Stats/Stats/WeaponEntries[80]/Text
 msgctxt "e6d7cc35-aa74-401a-830c-82eaa094a68f"
 msgid "Slam"
-msgstr ""
+msgstr "후려치기"
 
 #. LocalizedTexts/Stats/Stats/WeaponEntries[81]/Text
 msgctxt "0d46783b-b21d-4401-a76f-d78d44447c16"
@@ -12376,7 +12045,6 @@ msgid "Sneak Attack"
 msgstr "암습"
 
 #. LocalizedTexts/Stats/Stats[34]/Text
-#, fuzzy
 msgctxt "69f1bf21-2155-4ff4-ad2b-39f29202bae1"
 msgid "Reach"
 msgstr "사거리"
@@ -12432,8 +12100,6 @@ msgid "Trap can't be disarmed directly"
 msgstr "직접 해제할 수 없는 함정"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[0]/Description
-#, fuzzy
-#| msgid "<align=center>Press [{bind|OpenJournal}] to open</align>"
 msgctxt "f03f4c4d-a968-47b6-bc43-50553d8dc673"
 msgid "<align=center>Press [{bind|OpenJournal}] to open.</align>"
 msgstr "<align=center>[{bind|OpenJournal}] 키를 눌러 열기.</align>"
@@ -12508,11 +12174,9 @@ msgstr ""
 "자동으로 레벨 업합니다."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[10]/Description
-#, fuzzy
-#| msgid "<align=center>Click to expand weapon sets</align>."
 msgctxt "4ae39bd9-34a4-4b97-a426-ca44a4a3e14f"
 msgid "<align=center>Click to expand weapon sets.</align>"
-msgstr "<align=center>무기 세트를 펼치려면 클릭하십시오</align>."
+msgstr "<align=center>무기 세트를 펼치려면 클릭하십시오.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[10]/Name
 msgctxt "c840383e-e460-432e-868d-7bcb4f0358bc"
@@ -12599,11 +12263,9 @@ msgid "All"
 msgstr "모두"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[11]/Description
-#, fuzzy
-#| msgid "<align=center>Click to try hide in shadows</align>"
 msgctxt "c373d77c-fdd9-4dd8-848e-bd5c7208fabc"
 msgid "<align=center>Click to try hide in shadows.</align>"
-msgstr "<align=center>은신을 하려면 클릭하십시오</align>"
+msgstr "<align=center>은신을 하려면 클릭하십시오.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[11]/Name
 msgctxt "5b32f52d-e087-4fa0-b770-28d4a5d83611"
@@ -12696,11 +12358,9 @@ msgid ""
 msgstr "사전 생성 빌드를 사용할 때 클래스의 크리처 소환 및 적 제어 능력 척도입니다."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[12]/Description
-#, fuzzy
-#| msgid "<align=center>Click to activate AI</align>"
 msgctxt "9cd3331f-3b5a-4ae7-8159-3317f07e43c6"
 msgid "<align=center>Click to activate AI.</align>"
-msgstr "<align=center>AI를 활성화하려면 클릭하십시오</align>"
+msgstr "<align=center>AI를 활성화하려면 클릭하십시오.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[12]/Name
 msgctxt "61d1749f-bfd1-497d-8720-664d4f52eb86"
@@ -12715,19 +12375,14 @@ msgid ""
 msgstr "사전 생성 빌드를 사용할 때 클래스의 공격 마법 시전 능력 척도입니다."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[131]/Description
-#, fuzzy
-#| msgid ""
-#| "<align=center>Press [{bind|Pause}] to end current charater's turn, or "
-#| "increase animation speed for the current character if the character is "
-#| "moving.</align>"
 msgctxt "5195f3cc-58f2-4b5d-b1ff-f91ed37d6fb3"
 msgid ""
 "<align=center>Press [{bind|Pause}] to end current character's turn, or "
 "increase animation speed for the current character if the character is "
 "moving.</align>"
 msgstr ""
-"<align=center>[{bind|Pause}]를 눌러 현재 캐릭터 턴을 종료 하거나, 현재 "
-"캐릭터가 움직일 때 애니메이션 속도를 높입니다.</align>"
+"<align=center>[{bind|Pause}] 키를 눌러 현재 캐릭터 턴을 종료 하거나, 현재 캐릭터가 움직일 때 애니메이션 속도를 "
+"높입니다.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[131]/Name
 msgctxt "f2f8d277-f387-44ac-90fa-80e6ad7001e9"
@@ -12759,6 +12414,8 @@ msgid ""
 "to rotate the camera. Click on the compass to align the camera toward "
 "north.</align>"
 msgstr ""
+"<align=center>[{bind|CameraRotateLeft}] 및 [{bind|CameraRotateRight}] 키를 눌러 "
+"카메라를 회전시킬 수 있습니다. 나침반을 클릭하여 카메라를 북쪽에 맞출 수 있습니다.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[135]/Name
 msgctxt "1d99af47-7858-4a59-81f1-2bad186fa7f5"
@@ -12792,11 +12449,9 @@ msgid "<align=center>Manage crusade forts, events and decrees</align>"
 msgstr "<align=center>성전군의 요새, 사건 및 칙령을 관리합니다</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[13]/Description
-#, fuzzy
-#| msgid "<align=center>Click to deactivate AI</align>"
 msgctxt "85bf9e3d-76aa-4012-a101-c110b063265b"
 msgid "<align=center>Click to deactivate AI.</align>"
-msgstr "<align=center>AI를 비활성화하려면 클릭하십시오</align>"
+msgstr "<align=center>클릭하면 AI를 비활성화합니다.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[13]/Name
 msgctxt "468540e2-52b9-4a2b-a8a5-07781d452f14"
@@ -12814,12 +12469,6 @@ msgid "Skip Time"
 msgstr "시간 보내기"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[142]/Description
-#, fuzzy
-#| msgid ""
-#| "By devouring the victims the Swarm increases the power of all their "
-#| "abilities depending on the CR of devoured creatures.\n"
-#| "The first number indicates the sum of CRs of all eaten creatures, the second "
-#| "— current size of the swarm."
 msgctxt "5a3e46f0-bf4c-46fb-9673-8bd53aea3788"
 msgid ""
 "By devouring victims, the Swarm increases the power of all its abilities "
@@ -12827,10 +12476,8 @@ msgid ""
 "The first number indicates the sum of the CRs of all the devoured creatures, "
 "the second — the current size of the swarm."
 msgstr ""
-"희생자를 집어삼킴으로써, 벌레떼는 포식한 크리처의 CR에 기반해 모든 능력의 "
-"힘을 증가시킵니다.\n"
-"앞쪽의 숫자는 섭취한 크리처들의 총 CR 합계를 의미하며, 뒤쪽의 숫자는 "
-"벌레떼의 현재 크기를 나타냅니다."
+"희생자를 집어삼킴으로써, 벌레떼는 포식한 크리처의 CR에 기반해 모든 능력의 힘을 증가시킵니다.\n"
+"앞쪽의 숫자는 포식한 크리처들의 총 CR 합계를 의미하며, 뒤쪽의 숫자는 벌레떼의 현재 크기를 나타냅니다."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[142]/Name
 msgctxt "e98c254d-8140-4712-9397-9c4f2df9e38b"
@@ -12838,10 +12485,6 @@ msgid "Size of the Swarm"
 msgstr "벌레 떼 규모"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[143]/Description
-#, fuzzy
-#| msgid ""
-#| "The first number indicates the current amount of burn, the second — maximal "
-#| "amount of burn."
 msgctxt "eb9fe1c4-0134-45e5-a3d0-8c80756d55a8"
 msgid ""
 "The first number indicates the current amount of burn, the second — the "
@@ -12942,11 +12585,9 @@ msgid "Quickened"
 msgstr ""
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[14]/Description
-#, fuzzy
-#| msgid "<align=center>Click to cancel stealth</align>"
 msgctxt "ff2f8a3e-937f-418d-8a80-5b0ce4f66685"
 msgid "<align=center>Click to cancel stealth.</align>"
-msgstr "<align=center>클릭하여 은신 해제</align>"
+msgstr "<align=center>클릭하여 은신 해제.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[14]/Name
 msgctxt "145c13b8-ade5-409e-8346-17decead9c81"
@@ -12973,7 +12614,7 @@ msgstr ""
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[150]/Name
 msgctxt "2c6cf562-a840-479d-8031-dacc6097ce87"
 msgid "Extended"
-msgstr ""
+msgstr "시간 연장"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[151]/Description
 msgctxt "d3eefcd9-d248-44be-80e3-b40709bab229"
@@ -13001,7 +12642,7 @@ msgstr ""
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[151]/Name
 msgctxt "fd735ca6-67fa-4e03-af94-b060d435a234"
 msgid "Heightened"
-msgstr ""
+msgstr "고양"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[152]/Description
 msgctxt "f81b9bff-e7ab-4fc1-b654-a396765aa947"
@@ -13023,7 +12664,7 @@ msgstr ""
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[152]/Name
 msgctxt "eb023c7e-e48d-4dc0-b888-84b364152e25"
 msgid "Reach"
-msgstr ""
+msgstr "거리 연장"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[153]/Description
 msgctxt "47f02e77-7d19-4093-b7e7-658b342f471e"
@@ -13032,11 +12673,13 @@ msgid ""
 "Level decrease: 1 (A completely normal spell uses up a spell slot one level "
 "lower than the spell's actual level.)"
 msgstr ""
+"당신의 {g|Encyclopedia:Spell}주문{/g}을 조금 덜 신비하게 만들 수 있습니다.\n"
+"레벨 감소: 1 (완전 평범한 주문은 원래 주문의 레벨보다 1 단계 낮은 주문 칸을 사용합니다)."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[153]/Name
 msgctxt "3ce34dcc-1c08-4c81-9d11-d587a8465084"
 msgid "Completely Normal"
-msgstr ""
+msgstr "완전 평범"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[154]/Description
 msgctxt "ae963388-3bf4-4b5e-a97f-6cd295530680"
@@ -13053,11 +12696,17 @@ msgid ""
 "Spells that do not require a saving throw to resist or lessen the spell's "
 "effect do not benefit from this {g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
+"{g|Encyclopedia:Spell}주문{/g}을 더욱 집요하게 만들어 대상이 그 효과에 저항하기 어렵게 합니다.\n"
+"이점 : 집요 주문의 대상이 되거나 그 범위 내에 위치한 크리처는 주문에 대한 {g|Encyclopedia:Saving_Throw}내성 "
+"굴림{/g}에 성공하면 주문의 효과에 대한 추가 내성 굴림을 굴려야 합니다. 만일 크리처가 두 번째 내성 굴림에 실패하면 첫 내성 굴림에 "
+"실패한 것처럼 주문의 모든 효과를 적용받습니다.\n"
+"레벨 증가: +2 (집요 주문은 원래 주문의 레벨보다 2 레벨 더 높은 주문 칸을 사용합니다.)\n"
+"내성 굴림을 요구하지 않는 주문은 이 {g|Encyclopedia:Feat}특기{/g}의 이점을 얻지 못합니다."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[154]/Name
 msgctxt "585d0396-2722-483d-bab6-c43eedac1116"
 msgid "Persistent"
-msgstr ""
+msgstr "집요"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[155]/Description
 msgctxt "f482ae8b-74bc-457f-9ef9-33da2dc152ec"
@@ -13077,11 +12726,19 @@ msgid ""
 "Spells that do not have an area of effect or a duration of instantaneous do "
 "not benefit from this {g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
+"당신의 아군은 오인 사격을 두려워하지 않아도 됩니다.\n"
+"이점: 단발성 범위 효과 {g|Encyclopedia:Spell}주문{/g}을 선택적 주문으로 시전할 때, 당신은 해당 주문 관련 "
+"{g|Encyclopedia:Ability_Scores}능력치 점수{/g} 수정치만큼의 대상을 선택할 수 있습니다 (바드, 오라클, "
+"팔라딘, 소서러, 서모너의 경우 {g|Encyclopedia:Charisma}매력{/g}; 위치, 위저드의 경우 "
+"{g|Encyclopedia:Intelligence}지능{/g}, 클레릭, 드루이드, 인퀴지터, 레인저의 경우 "
+"{g|Encyclopedia:Wisdom}지혜{/g}). 이 대상들은 주문의 효과에서 제외됩니다.\n"
+"레벨 증가: +1 (선택적 주문은 원래 주문의 레벨보다 1 레벨 높은 주문 칸을 사용합니다.)\n"
+"범위 효과가 아니거나 지속 시간을 지닌 주문은 이 {g|Encyclopedia:Feat}특기{/g}의 이점을 얻을 수 없습니다."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[155]/Name
 msgctxt "c103d33e-d135-4c1e-9059-0f6e41312c96"
 msgid "Selective"
-msgstr ""
+msgstr "선택적"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[156]/Description
 msgctxt "fd58ab76-7f76-45cb-b0b8-4cb2dc5ff6c7"
@@ -13096,18 +12753,21 @@ msgid ""
 "Level Increase: +1 (A bolstered spell uses up a spell slot one level higher "
 "than the spell's actual level.)"
 msgstr ""
+"당신의 {g|Encyclopedia:Spell}주문{/g}이 더 강력해지고 추가적인 범위 "
+"{g|Encyclopedia:Damage}피해{/g}를 입히게 만듭니다.\n"
+"이점: 주문이 모든 대상에게 주사위 당 2 점의 추가 피해를 입힙니다. 또한, {g|Encyclopedia:Spell_Target}주문의 "
+"대상{/g} 주변 5 피트 범위 내의 모든 적에게 주문의 주사위 당 2 점의 피해를 입힙니다. 주문으로 정밀 피해를 입힐 수 없습니다.\n"
+"레벨 증가: 1 (확산 주문은 원래 주문의 레벨보다 1 단계 높은 주문 슬롯을 사용합니다.)"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[156]/Name
 msgctxt "5cb235bc-d429-4d43-adac-5e4aa3746741"
 msgid "Bolstered"
-msgstr ""
+msgstr "확산"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[15]/Description
-#, fuzzy
-#| msgid "<align=center>Click to expand spells bar</align>."
 msgctxt "fcfbda1e-aade-44d6-b930-982e0c9f0442"
 msgid "<align=center>Click to expand spells bar.</align>"
-msgstr "<align=center>클릭하여 주문 바 확장</align>."
+msgstr "<align=center>클릭하여 주문 바 확장.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[15]/Name
 msgctxt "0ebd60a5-6c57-4d97-b915-d98ab1714fb4"
@@ -13125,11 +12785,9 @@ msgid "Spellbook"
 msgstr "주문책"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[17]/Description
-#, fuzzy
-#| msgid "<align=center>Click to expand action bar</align>."
 msgctxt "4f7c86a0-2355-45bc-aa41-83d694fcd980"
 msgid "<align=center>Click to expand action bar.</align>"
-msgstr "<align=center>클릭하여 액션 바 확장</align>."
+msgstr "<align=center>클릭하여 액션 바 확장.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[17]/Name
 msgctxt "9c708112-56fa-4728-83ad-d674deb3dfb5"
@@ -13147,11 +12805,9 @@ msgid "Abilities"
 msgstr "능력"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[19]/Description
-#, fuzzy
-#| msgid "<align=center>Click to expand usable items bar</align>."
 msgctxt "8d0caf4d-237a-423b-adb6-547a22931deb"
 msgid "<align=center>Click to expand usable items bar.</align>"
-msgstr "<align=center>클릭하여 사용 아이템 바 확장</align>."
+msgstr "<align=center>클릭하면 사용 아이템 바를 펼칩니다.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[19]/Name
 msgctxt "ff37b1b6-9eb6-4cdc-a654-2462bb1dfe49"
@@ -13174,11 +12830,9 @@ msgid "Belt"
 msgstr "허리띠"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[21]/Description
-#, fuzzy
-#| msgid "<align=center>Click to minimize weapon sets</align>."
 msgctxt "0e6f2519-2ede-4e43-b254-e413d029b47f"
 msgid "<align=center>Click to minimize weapon sets.</align>"
-msgstr "<align=center>클릭하여 무기 세트 최소화</align>."
+msgstr "<align=center>클릭하면 무기 세트를 닫습니다.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[21]/Name
 msgctxt "a3b9055d-e412-4a08-9d4f-56fcfc09a4dc"
@@ -13186,11 +12840,9 @@ msgid "Weapon sets"
 msgstr "무기 세트"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[22]/Description
-#, fuzzy
-#| msgid "<align=center>Click to open</align>."
 msgctxt "755e394a-a001-4cbc-bee3-b818184b8d5f"
 msgid "<align=center>Click to open.</align>"
-msgstr "<align=center>클릭하여 열기</align>."
+msgstr "<align=center>열기.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[22]/Name
 msgctxt "4aaee33b-e3aa-4730-88d8-6ff6ea4af25f"
@@ -13198,11 +12850,9 @@ msgid "Summary"
 msgstr "개요"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[23]/Description
-#, fuzzy
-#| msgid "<align=center>Click to open</align>."
 msgctxt "d845ab9f-f3d6-4416-9eb2-4c76d1a57729"
 msgid "<align=center>Click to open.</align>"
-msgstr "<align=center>클릭하여 열기</align>."
+msgstr "<align=center>열기.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[23]/Name
 msgctxt "1f1d0ae3-93b2-4b48-9553-c420af91387b"
@@ -13210,11 +12860,9 @@ msgid "Abilities"
 msgstr "능력"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[24]/Description
-#, fuzzy
-#| msgid "<align=center>Click to open</align>."
 msgctxt "2d6efe33-88ad-4316-9d6d-fb487530514d"
 msgid "<align=center>Click to open.</align>"
-msgstr "<align=center>클릭하여 열기</align>."
+msgstr "<align=center>열기.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[24]/Name
 msgctxt "5cf70093-ca47-4243-9f57-353cf4cd2b3f"
@@ -13222,11 +12870,9 @@ msgid "Martial"
 msgstr "전투"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[25]/Description
-#, fuzzy
-#| msgid "<align=center>Click to open</align>."
 msgctxt "c861ce9a-1af2-4703-82f8-ba6f511d01bf"
 msgid "<align=center>Click to open.</align>"
-msgstr "<align=center>클릭하여 열기</align>."
+msgstr "<align=center>열기.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[25]/Name
 msgctxt "4bff770d-fa5e-4866-888b-4054b2e58ef5"
@@ -13256,7 +12902,7 @@ msgstr "캐릭터"
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[44]/Description
 msgctxt "8bc6c7f0-b4a2-4842-b90e-af666a0843d9"
 msgid "<align=center>Set the formation of your party while moving.</align>"
-msgstr ""
+msgstr "<align=center>일행이 이동할 때의 대형을 설정합니다.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[45]/Name
 msgctxt "becb5c43-32f9-42ae-9370-9f3102ac88d8"
@@ -13672,17 +13318,12 @@ msgid "Exiting to global map is <b>blocked</b>."
 msgstr "세계지도로 나가는 것이 <b>차단되었습니다</b>."
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[9]/Description
-#, fuzzy
-#| msgid ""
-#| "<align=center>Press [{bind|SelectAllCharacters}] to select all "
-#| "characters</align>"
 msgctxt "93729468-22b0-4d26-9433-e63d08826d49"
 msgid ""
 "<align=center>Press [{bind|SelectAllCharacters}] to select all "
 "characters.</align>"
 msgstr ""
-"<align=center>[{bind|SelectAllCharacters}] 키를 눌러 모든 캐릭터를 선택할 수 "
-"있습니다.</align>"
+"<align=center>[{bind|SelectAllCharacters}] 키를 누르면 모든 캐릭터를 선택합니다.</align>"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[9]/Name
 msgctxt "d8063400-158b-4a59-ae95-5127b3810a55"
@@ -14060,8 +13701,6 @@ msgid "any Chaotic"
 msgstr "모든 혼돈"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Alignment/EGNeutralGroup
-#, fuzzy
-#| msgid "Neither Lawful, nor Chaotic"
 msgctxt "56a11b93-6156-48d6-bbb3-f3e09d260645"
 msgid "neither Lawful nor Chaotic"
 msgstr "질서도 혼돈도 아님"
@@ -14077,8 +13716,6 @@ msgid "any Good"
 msgstr "모든 선"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Alignment/LCNeutralGroup
-#, fuzzy
-#| msgid "Neither Good, nor Evil"
 msgctxt "ab04a678-f15f-453e-8e90-e40fc6988edc"
 msgid "neither Good nor Evil"
 msgstr "선도 악도 아님"
@@ -14533,11 +14170,9 @@ msgid "Horns color"
 msgstr "뿔색"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CharGen/LevelUp
-#, fuzzy
-#| msgid "Level up"
 msgctxt "02880fba-2bc4-4631-89f1-d1cfc2e2d3eb"
 msgid "Level-Up"
-msgstr "레벨 업"
+msgstr "레벨 상승"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CharGen/LoadDefaultClassButton
 msgctxt "66a11f5e-4a33-4f9e-8181-f125bcb4f003"
@@ -14741,7 +14376,6 @@ msgid "School"
 msgstr "학파"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CharGen/Scores
-#, fuzzy
 msgctxt "71a22ed7-765d-4cc4-892a-aed2b68271d5"
 msgid "Score"
 msgstr "점수"
@@ -15222,8 +14856,6 @@ msgid "Mythic rank {0}"
 msgstr "신화 레벨 {0}"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CharacterSheet/MythicLevelUp
-#, fuzzy
-#| msgid "Mythic rank up"
 msgctxt "aed82043-11fd-4561-ab0f-f91da908795f"
 msgid "Mythic Rank-Up"
 msgstr "신화 레벨 상승"
@@ -15269,7 +14901,6 @@ msgid "Permanent"
 msgstr "영구적"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CharacterSheet/RANGE
-#, fuzzy
 msgctxt "fd6c42b0-10c4-4e71-91c1-ee524b413a41"
 msgid "Range"
 msgstr "사거리"
@@ -15345,8 +14976,6 @@ msgid "Polymorph"
 msgstr "변이"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CharacterSheet/SmartItemStartDialog
-#, fuzzy
-#| msgid "Start dialog"
 msgctxt "e20f76f0-32a0-4a31-a926-28cebbf6bd3d"
 msgid "Start dialogue"
 msgstr "대화 시작"
@@ -15502,18 +15131,14 @@ msgid "Miss"
 msgstr "빗나감"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CombatTexts/ChangeCombatModeWhenInRealTime
-#, fuzzy
-#| msgid "RTWP Combat (Change)"
 msgctxt "11de3c08-0eca-4295-9c1d-1e0b4da5c3b0"
 msgid "RTWP Combat"
-msgstr "실시간 전투 (변경)"
+msgstr "실시간 전투"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CombatTexts/ChangeCombatModeWhenInTurnBased
-#, fuzzy
-#| msgid "Turn-Based Combat (Change)"
 msgctxt "656417da-51bc-4f8b-a30b-36b33d6653e3"
 msgid "Turn-Based Combat"
-msgstr "턴제 전투 (변경)"
+msgstr "턴제 전투"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CombatTexts/CombatStart
 msgctxt "9a777487-1514-4d29-ad25-10e045c7a36e"
@@ -15683,11 +15308,9 @@ msgid "Permanent"
 msgstr "영구적"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CommonTexts/ProgressWillBeLost
-#, fuzzy
-#| msgid " All unsaved progress will be lost."
 msgctxt "b5434f8b-559a-43e1-9836-528f74e47714"
 msgid "All unsaved progress will be lost."
-msgstr " 저장하지 않은 모든 진행 상태가 사라집니다."
+msgstr "저장하지 않은 모든 진행 상황이 버려집니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CommonTexts/QuitToDesctopLabel
 msgctxt "ad565782-c657-4281-a885-c00a272f3761"
@@ -15700,7 +15323,6 @@ msgid "Quit to main menu?"
 msgstr "메인 메뉴로 나가시겠습니까?"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CommonTexts/Reorder
-#, fuzzy
 msgctxt "797db91a-513e-4409-9e4a-72cd5d0e21f6"
 msgid "Reorder"
 msgstr "재정렬"
@@ -15723,17 +15345,17 @@ msgstr ""
 #. LocalizedTexts/UserInterfacesText/UIStrings/CommonTexts/SkinningFailed
 msgctxt "b34d8a04-fa67-4921-8e5b-f4688b62d30f"
 msgid "Skinning failed"
-msgstr ""
+msgstr "가죽 벗기기 실패"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CommonTexts/SkinningHalfSuccess
 msgctxt "3801fe9b-5f86-40fc-86fd-8f97ca79ad45"
 msgid "Skinning partially succeeded"
-msgstr ""
+msgstr "가죽 벗기기 일부 성공"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CommonTexts/SkinningSuccess
 msgctxt "70dd3834-b280-4655-8893-b4fe203f068b"
 msgid "Skinning succeeded"
-msgstr ""
+msgstr "가죽 벗기기 성공"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CommonTexts/Skip
 msgctxt "4a136b80-604c-4644-8cbd-73f70eca74a4"
@@ -15813,46 +15435,29 @@ msgid "Switching controls..."
 msgstr ""
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/ControllerModeTexts/GamepadConnectedGuideText
-#, fuzzy
-#| msgid "Restart application"
 msgctxt "e7859fdc-054c-4f61-afc6-3a3dab5186d3"
 msgid "Switch"
-msgstr "응용프로그램 재시작"
+msgstr "전환"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/ControllerModeTexts/GamepadConnectedHeaderText
 msgctxt "f03d5fed-7008-4212-adad-3f2a3b252ab0"
 msgid "Gamepad detected."
-msgstr ""
+msgstr "게임패드 감지됨."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/ControllerModeTexts/GamepadConnectedText
-#, fuzzy
-#| msgid ""
-#| "Gamepad detected. You have to restart game application if you want to use "
-#| "gamepad. All unsaved progress will be lost."
 msgctxt "a91815bc-f9f7-491a-8a87-0ee7f19b8186"
 msgid "Switch controls to gamepad?"
-msgstr "컨트롤러 감지됨. 컨트롤러를 사용하려면 게임을 다시 시작해야 합니다. 저장되지 "
-"않은 진행 상황은 사라집니다."
+msgstr "게임패드로 전환하시겠습니까?"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/ControllerModeTexts/GamepadDisconnectedGuideText
-#, fuzzy
-#| msgid ""
-#| "Press Enter to restart application and switch control mode. Or connect "
-#| "gamepad to continue."
 msgctxt "96b9b4dd-d230-4109-8284-0dbf7620ce25"
 msgid "Press <sprite name=\"Enter\"> to change controls."
-msgstr "응용프로그램을 재시작해 조작 방식을 변경하려면 Enter 키를 누르세요. 그렇지 "
-"않으면 컨트롤러를 연결하여 계속하세요."
+msgstr "<sprite name=\"Enter\"> 키를 누르면 조작이 전환됩니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/ControllerModeTexts/GamepadDisconnectedText
-#, fuzzy
-#| msgid ""
-#| "Gamepad disconnected. You have to restart game application if you want to "
-#| "use keyboard with mouse. All unsaved progress will be lost."
 msgctxt "ffcdf027-ca5b-44dc-8b7c-6f0ae4177600"
 msgid "Gamepad disconnected."
-msgstr "컨트롤러 연결 해제됨. 키보드와 마우스를 사용하려면 게임을 다시 시작해야 "
-"합니다. 저장되지 않은 진행 상황은 사라집니다."
+msgstr "게임패드 연결 끊김."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/ControllerModeTexts/PressAnyKeyText
 #, fuzzy
@@ -16460,8 +16065,6 @@ msgid "Change the group"
 msgstr ""
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GlobalMap/KingdomIsAutoDialogDesc
-#, fuzzy
-#| msgid "The crusade is in auto mode. Access is limited."
 msgctxt "a06c5452-4eaa-48cb-9d79-83382290c06b"
 msgid "The crusade is in automode. Access is limited."
 msgstr "자동 성전 모드입니다. 접근이 제한됩니다."
@@ -16506,8 +16109,8 @@ msgid ""
 "Would you like to begin resting?"
 msgstr ""
 "모든 캐릭터가 탈진했습니다.\n"
-"탈진한 캐릭터는 이동속도가 절반으로 줄어들고, 돌격을 사용 할 수 없으며, 힘과 "
-"민첩에 -6의 패널티를 받습니다. 완전히 휴식을 취하면 탈진 상태가 회복됩니다.\n"
+"탈진한 캐릭터는 이동속도가 절반으로 줄어들고, 돌격을 사용 할 수 없으며, 힘과 민첩에 -6의 페널티를 받습니다. 완전히 휴식을 취하면 "
+"탈진 상태가 회복됩니다.\n"
 "휴식을 취하시겠습니까?"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GlobalMap/PartyIsFatigue
@@ -16520,8 +16123,7 @@ msgid ""
 "Would you like to begin resting?"
 msgstr ""
 "모든 캐릭터가 피로합니다.\n"
-"피로한 캐릭터는 돌격을 사용 할 수 없고, 힘과 민첩에 -2의 패널티를 받습니다. "
-"완전히 휴식을 취하면 피로 상태가 회복됩니다.\n"
+"피로한 캐릭터는 돌격을 사용 할 수 없고, 힘과 민첩에 -2의 페널티를 받습니다. 완전히 휴식을 취하면 피로 상태가 회복됩니다.\n"
 "휴식을 취하시겠습니까?"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GlobalMap/PathIsUndefined
@@ -16745,25 +16347,19 @@ msgid "Formation"
 msgstr ""
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/LevelUpText
-#, fuzzy
-#| msgid "Level Up"
 msgctxt "dc0e8249-4f9e-40a8-928e-6408e0f1b18a"
 msgid "Level-Up"
 msgstr "레벨 상승"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/MythicLevelUpText
-#, fuzzy
-#| msgid "Mythic Rank Up"
 msgctxt "b37e330e-22ca-4112-8572-205eab080e8f"
 msgid "Mythic Rank-Up"
-msgstr "신화 등급 상승"
+msgstr "신화 레벨 상승"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/PauseButtonTooltipDescriptionText
-#, fuzzy
-#| msgid "Press [{bind|Pause}] to pause or unpause the game"
 msgctxt "d9c1b400-3948-4f0c-904d-d912396a389e"
 msgid "Press [{bind|Pause}] to pause or unpause the game."
-msgstr "[{bind|Pause}]를 눌러 게임을 일시정지하거나 재개하십시오"
+msgstr "[{bind|Pause}] 키를 누르면 게임이 일시정지됩니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/PauseButtonTooltipHeaderText
 msgctxt "ed7b3ad3-2848-45db-98e1-9bbfd1ec4473"
@@ -17123,11 +16719,9 @@ msgid "Choose Story"
 msgstr "이야기 선택"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NotificationTexts/AlignmentShiftedFormat
-#, fuzzy
-#| msgid "<color={0}>You've performed a {1} action</color>"
 msgctxt "baf29681-e1a8-4ab3-9d20-b181b9a89556"
 msgid "<color={0}>You performed an action that was {1}</color>"
-msgstr "<color={0}>당신은 {1} 성향의 행동을 했습니다.</color>"
+msgstr "<color={0}>{1} 성향의 행동을 했습니다.</color>"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NotificationTexts/CompanionWeightIsTooLarge
 msgctxt "757fc4bb-03be-4b6a-98ff-0ae57d6e0745"
@@ -17358,11 +16952,9 @@ msgid "Failed"
 msgstr "실패"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/QuesJournalTexts/QuestLastChapter
-#, fuzzy
-#| msgid "The last chapter to complete the quest, or it will fail afterwards."
 msgctxt "9e9f9734-d284-49de-9589-d204b19bb735"
 msgid "The last chapter to complete the quest, or it will fail afterward."
-msgstr "임무를 완료하기 위한 마지막 장입니다. 다음 장으로 넘어가면 임무를 실패합니다."
+msgstr "이번 장에 임무를 완료해야 합니다. 다음 장으로 넘어가면 임무를 실패합니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/QuesJournalTexts/QuestTimeToFail
 msgctxt "56ac3540-8c3a-4c5a-a548-a8423253d447"
@@ -18400,7 +17992,7 @@ msgstr ""
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/UnlimitedSpells
 msgctxt "b4d5cb68-6aa5-4b70-8f20-5c216b10bee8"
 msgid "There are no limits on this spell's daily use."
-msgstr "이 주문의 하루 당 사용 횟수는 제한이 없습니다."
+msgstr "이 주문의 하루당 사용 횟수는 제한이 없습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/WriteSpell
 msgctxt "5af94d53-c85c-43af-bb51-75346ff54a60"
@@ -20875,7 +20467,7 @@ msgctxt "c4753b04-e8ee-47d8-b265-f53938021fde"
 msgid ""
 "This option determines the severity of penalties and how much damage members "
 "of your party will receive in storm weather."
-msgstr "이 옵션은 일행이 받는 폭풍우 패널티와 대미지를 결정합니다."
+msgstr "이 옵션은 폭풍우 날씨에서 일행이 받는 페널티와 피해의 정도를 결정합니다."
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[12]/WeatherEffects/values[0]
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[12]/WeatherEffects/values[0]
