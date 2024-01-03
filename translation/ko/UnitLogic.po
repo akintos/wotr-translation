@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-02 00:37+0000\n"
+"PO-Revision-Date: 2024-01-03 01:37+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -155,7 +155,7 @@ msgstr "AC에 -4 페널티."
 #. Path = m_DisplayName
 msgctxt "b6b72a3c-0081-4c7c-9f5d-a4ad97ec5d10"
 msgid "All-Out Attack — Penalty"
-msgstr ""
+msgstr "총공격 — 페널티"
 
 #. File = Armies/Abilities/ArmyAshGiantRockThrowAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -163,7 +163,7 @@ msgstr ""
 msgctxt "3598f96d-29aa-4506-bb0b-16caa17ff6d7"
 msgid ""
 "Deals melee attack damage to the target unit anywhere on the battlefield."
-msgstr ""
+msgstr "전장 어디에서든 대상 유닛에게 근접 공격 피해를 입힙니다."
 
 #. File = Armies/Abilities/ArmyAshGiantRockThrowAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -1564,16 +1564,6 @@ msgstr "데즈나의 종 흔들기"
 #. File = Buffs/Areas/Act_3_DemonsHerecy/AzataIsland/DesnaHarpBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "For 7 days, whenever a companion enters the area of Azata's performance, "
-#| "they become invigorated. While under this effect, after a weapon "
-#| "{g|Encyclopedia:Attack}attack{/g} kills a living foe, one of the following "
-#| "effects happens. If its wielder is fatigued, it removes the fatigue. If "
-#| "exhausted, the companion becomes fatigued instead. If neither exhausted nor "
-#| "fatigued, the companion gains a +2 morale {g|Encyclopedia:Bonus}bonus{/g} on "
-#| "attack {g|Encyclopedia:Dice}rolls{/g} and a +10 feet enhancement bonus to "
-#| "all modes of movement possessed until the end of the next turn."
 msgctxt "00e7fa9b-ac07-47b8-9558-7b98d8e74dda"
 msgid ""
 "For 7 days, whenever a companion enters the area of Azata's performance, "
@@ -1586,13 +1576,11 @@ msgid ""
 "feet enhancement bonus to all modes of movement possessed until the end of "
 "the next turn."
 msgstr ""
-"7일 동안 아자타의 노래 공연 범위 안에 들어온 동료는 활기참 상태가 됩니다. 이 "
-"효과를 받는 중일 때, 무기 {g|Encyclopedia:Attack}공격{/g}이 살아있는 적을 "
-"죽이면 아래의 효과 중 하나가 발생합니다. 피로한 경우, 피로를 제거합니다. "
-"탈진 상태인 경우, 피로해집니다. 피로하지도 탈진 상태도 아닌 경우 동료는 다음 "
-"턴의 종료 시까지 명중 {g|Encyclopedia:Dice}굴림{/g}에 +2 사기 "
-"{g|Encyclopedia:Bonus}보너스{/g}를 받고, 모든 종류의 이동에 +10 피트 강화 "
-"보너스를 받습니다."
+"7일 동안 아자타의 노래 공연 범위 안에 들어온 동료는 활기참 상태가 됩니다. 이 효과를 받는 중일 때, 무기 "
+"{g|Encyclopedia:Attack}공격{/g}이 살아있는 적을 죽이면 아래의 효과 중 하나가 발생합니다. "
+"{g|ConditionFatigued}피로{/g}한 경우, 피로를 제거합니다. {g|ConditionExhausted}탈진{/g} 상태인 "
+"경우, 피로해집니다. 피로하지도 탈진 상태도 아닌 경우 동료는 다음 턴의 종료 시까지 명중 굴림에 +2 사기 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받고, 모든 종류의 이동에 +10 피트 강화 보너스를 받습니다."
 
 #. File = Buffs/Areas/Act_3_DemonsHerecy/AzataIsland/DesnaHarpBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -6161,7 +6149,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "31727698-0166-474d-bb31-32bdeeec1d4d"
 msgid "Primordial Fear"
-msgstr ""
+msgstr "원초적 공포"
 
 #. File = Buffs/PharasmaFavorBoon
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -6691,19 +6679,14 @@ msgid ""
 "{g|Encyclopedia:Swift_Action}swift action{/g}. At 15th level, this ability "
 "becomes a {g|Encyclopedia:Free_Action}free action{/g}."
 msgstr ""
-"2 레벨에 그레네디어는 하나의 무기나 탄환의 일부에 유해한 연금술 액체나 가루, "
-"특히 이 경우에는 산성 플라스크를 주입할 수 있습니다. 이 "
-"{g|Encyclopedia:CA_Types}행동{/g}은 연금술 도구를 소비하는 대신 그 도구의 "
-"효과를 해당 무기에 적용시킬 수 있습니다. 연금술 도구가 지닌 효과는 이것이 "
-"주입된 무기에 맞은 적에게 그대로 적용되지만, 추가적인 대상에게 확산되거나 "
-"전이되지 않고, 확산 피해를 주는 무기에 대한 또 다른 효과들로부터 이로운 "
-"영향을 받지 않습니다. 추가 {g|Encyclopedia:Damage}피해{/g}에는 "
-"{g|Encyclopedia:Critical}치명타{/g}로 인한 추가 피해가 적용되지 않습니다. "
-"이런 연금술적인 처리는 무기에 어떤 손상도 입히지 않으며, 무기로 적을 맞추지 "
-"않을 경우 1분 후에 효과가 사라집니다. 새로운 연금술 도구를 주입할 경우 "
-"기존에 이 능력을 통해 주입한 연금술 액체나 가루의 효과는 사라집니다. 6 "
-"레벨에 그레네디어는 연금술 무기 능력을 {g|Encyclopedia:Swift_Action}신속 "
-"행동{/g}으로 사용할 수 있습니다. 15 레벨에 이 능력은 "
+"2 레벨에 그레네디어는 하나의 무기나 탄환에 유해한 연금술 액체나 가루, 이 능력의 경우에는 산성 플라스크를 주입할 수 있습니다. 이 "
+"{g|Encyclopedia:CA_Types}행동{/g}은 연금술 도구를 소비하는 대신 그 도구의 효과를 해당 무기에 적용시킬 수 "
+"있습니다. 연금술 도구가 지닌 효과는 이것이 주입된 무기에 맞은 적에게 그대로 적용되지만, 더 많은 대상에게 확산되거나 전이되지 않고, "
+"확산 무기에 영향을 주는 효과로부터 이점을 받을 수 없습니다. 추가 {g|Encyclopedia:Damage}피해{/g}에는 "
+"{g|Encyclopedia:Critical}치명타{/g}로 인한 추가 피해가 적용되지 않습니다. 이런 연금술 처리는 무기에 어떤 손상도 "
+"입히지 않으며, 무기로 적을 맞추지 않을 경우 1분 후에 효과가 사라집니다. 새로운 연금술 도구를 주입할 경우 기존에 이 능력을 통해 "
+"주입한 연금술 액체나 가루의 효과는 사라집니다. 6 레벨에 그레네디어는 연금술 무기 능력을 "
+"{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 사용할 수 있습니다. 15 레벨에 이 능력은 "
 "{g|Encyclopedia:Free_Action}자유 행동{/g}이 됩니다."
 
 #. File = Classes/Alchemist/Archetypes/Grenadier/GrenadierAcidFlaskBuff
@@ -6758,19 +6741,14 @@ msgid ""
 "{g|Encyclopedia:Swift_Action}swift action{/g}. At 15th level, this ability "
 "becomes a {g|Encyclopedia:Free_Action}free action{/g}."
 msgstr ""
-"2 레벨에 그레네디어는 하나의 무기나 탄환의 일부에 유해한 연금술 액체나 가루, "
-"특히 이 경우에는 산성 플라스크를 주입할 수 있습니다. 이 "
-"{g|Encyclopedia:CA_Types}행동{/g}은 연금술 도구를 소비하는 대신 그 도구의 "
-"효과를 해당 무기에 적용시킬 수 있습니다. 연금술 도구가 지닌 효과는 이것이 "
-"주입된 무기에 맞은 적에게 그대로 적용되지만, 추가적인 대상에게 확산되거나 "
-"전이되지 않고, 확산 피해를 주는 무기에 대한 또 다른 효과들로부터 이로운 "
-"영향을 받지 않습니다. 추가 {g|Encyclopedia:Damage}피해{/g}에는 "
-"{g|Encyclopedia:Critical}치명타{/g}로 인한 추가 피해가 적용되지 않습니다. "
-"이런 연금술적인 처리는 무기에 어떤 손상도 입히지 않으며, 무기로 적을 맞추지 "
-"않을 경우 1분 후에 효과가 사라집니다. 새로운 연금술 도구를 주입할 경우 "
-"기존에 이 능력을 통해 주입한 연금술 액체나 가루의 효과는 사라집니다. 6 "
-"레벨에 그레네디어는 연금술 무기 능력을 {g|Encyclopedia:Swift_Action}신속 "
-"행동{/g}으로 사용할 수 있습니다. 15 레벨에 이 능력은 "
+"2 레벨에 그레네디어는 하나의 무기나 탄환에 유해한 연금술 액체나 가루, 이 능력의 경우에는 연금술사의 불을 주입할 수 있습니다. 이 "
+"{g|Encyclopedia:CA_Types}행동{/g}은 연금술 도구를 소비하는 대신 그 도구의 효과를 해당 무기에 적용시킬 수 "
+"있습니다. 연금술 도구가 지닌 효과는 이것이 주입된 무기에 맞은 적에게 그대로 적용되지만, 더 많은 대상에게 확산되거나 전이되지 않고, "
+"확산 무기에 영향을 주는 효과로부터 이점을 받을 수 없습니다. 추가 {g|Encyclopedia:Damage}피해{/g}에는 "
+"{g|Encyclopedia:Critical}치명타{/g}로 인한 추가 피해가 적용되지 않습니다. 이런 연금술 처리는 무기에 어떤 손상도 "
+"입히지 않으며, 무기로 적을 맞추지 않을 경우 1분 후에 효과가 사라집니다. 새로운 연금술 도구를 주입할 경우 기존에 이 능력을 통해 "
+"주입한 연금술 액체나 가루의 효과는 사라집니다. 6 레벨에 그레네디어는 연금술 무기 능력을 "
+"{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 사용할 수 있습니다. 15 레벨에 이 능력은 "
 "{g|Encyclopedia:Free_Action}자유 행동{/g}이 됩니다."
 
 #. File = Classes/Alchemist/Archetypes/Grenadier/GrenadierAlchemistFireBuff
@@ -6852,6 +6830,15 @@ msgid ""
 "{g|Encyclopedia:Swift_Action}swift action{/g}. At 15th level, this ability "
 "becomes a {g|Encyclopedia:Free_Action}free action{/g}."
 msgstr ""
+"2 레벨에 그레네디어는 하나의 무기나 탄환에 유해한 연금술 액체나 가루, 이 능력의 경우에는 성수를 주입할 수 있습니다. 이 "
+"{g|Encyclopedia:CA_Types}행동{/g}은 연금술 도구를 소비하는 대신 그 도구의 효과를 해당 무기에 적용시킬 수 "
+"있습니다. 연금술 도구가 지닌 효과는 이것이 주입된 무기에 맞은 적에게 그대로 적용되지만, 더 많은 대상에게 확산되거나 전이되지 않고, "
+"확산 무기에 영향을 주는 효과로부터 이점을 받을 수 없습니다. 추가 {g|Encyclopedia:Damage}피해{/g}에는 "
+"{g|Encyclopedia:Critical}치명타{/g}로 인한 추가 피해가 적용되지 않습니다. 이런 연금술 처리는 무기에 어떤 손상도 "
+"입히지 않으며, 무기로 적을 맞추지 않을 경우 1분 후에 효과가 사라집니다. 새로운 연금술 도구를 주입할 경우 기존에 이 능력을 통해 "
+"주입한 연금술 액체나 가루의 효과는 사라집니다. 6 레벨에 그레네디어는 연금술 무기 능력을 "
+"{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 사용할 수 있습니다. 15 레벨에 이 능력은 "
+"{g|Encyclopedia:Free_Action}자유 행동{/g}이 됩니다."
 
 #. File = Classes/Alchemist/Archetypes/Grenadier/GrenadierHolyWaterBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -6870,7 +6857,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "ff160021-1cd6-47f2-b779-5370c6041c11"
 msgid "Alchemical Weapon — Holy Water"
-msgstr ""
+msgstr "연금술 무기 — 성수"
 
 #. File = Classes/Alchemist/Archetypes/IncenseSynthesizer/IncenseFogNauseatedBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -28001,7 +27988,7 @@ msgstr "거미줄"
 #. Path = m_DisplayName
 msgctxt "2c0f3796-9acc-41d5-86c6-73d733fa3c21"
 msgid "Insightful Spell"
-msgstr ""
+msgstr "통찰력 있는 주문"
 
 #. File = Classes/Skald/Archetypes/CourtPoet/HandlingTheCrowdAbility
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
@@ -40448,7 +40435,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "67ae3374-89a4-46fe-8539-abc232c2e968"
 msgid "Enforcing Gaze — Primordial Magic Damage"
-msgstr ""
+msgstr "집행의 응시 — 원초적 마법 피해"
 
 #. File = Mythic/Aeon/AeonGaze/AeonPrimordialMagicHealGazeAbility
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
@@ -40459,7 +40446,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "0a163c18-2007-4680-8f00-3702372bc71e"
 msgid "Enforcing Gaze — Primordial Magic Heal"
-msgstr ""
+msgstr "집행의 응시 — 원초적 마법 치유"
 
 #. File = Mythic/Aeon/AeonGaze/AeonPrimordialMagicHealGazeAbility
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
@@ -40489,7 +40476,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "a3231cfc-d428-4a75-b212-8d16df567aae"
 msgid "Enforcing Gaze — Primordial Magic Support"
-msgstr ""
+msgstr "집행의 응시 — 원초적 마법 지원"
 
 #. File = Mythic/Aeon/AeonGaze/AeonPrimordialMagicSupportGazeAbility
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
@@ -50474,6 +50461,12 @@ msgid ""
 "saving throws against spells with the cold "
 "{g|Encyclopedia:Spell_Descriptor}descriptor{/g} until they leave the area."
 msgstr ""
+"얼음이 지면을 뒤덮어 초자연적인 냉기를 발산하고, 크리처들이 균형을 유지하기 어렵게 만듭니다. 이 얼음 지면은 험지로 취급됩니다. "
+"{g|Encyclopedia:Spell}주문{/g}이 시전된 후 {g|Encyclopedia:Combat_Round}매 라운드{/g}"
+"마다, 해당 범위에 있는 크리처들은 {g|Encyclopedia:Saving_Throw}반사 내성{/g}에 실패하면 넘어져 "
+"{g|ConditionProne}쓰러짐{/g} 상태가 됩니다. 해당 범위에 있는 크리처들은 범위를 떠날 때까지 매 라운드마다 "
+"{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 받고, 냉기 "
+"기술어를 포함한 주문에 대한 내성 굴림에 -2 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다."
 
 #. File = Spells/DLC4NewSpells/WinterGrasp
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
