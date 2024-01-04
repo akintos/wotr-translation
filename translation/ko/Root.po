@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-03 01:37+0000\n"
+"PO-Revision-Date: 2024-01-04 11:37+0000\n"
 "Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -733,9 +733,10 @@ msgid "Natural armor — form"
 msgstr "자연 갑옷 — 형태"
 
 #. LocalizedTexts/AbilityModifiers/AbilityModifierStrings[53]/Name
+#, fuzzy
 msgctxt "40ed2b07-ba93-46ec-bcd1-1f342b69b0ba"
 msgid "Anomaly"
-msgstr ""
+msgstr "변칙 개체"
 
 #. LocalizedTexts/AbilityModifiers/AbilityModifierStrings[55]/Name
 msgctxt "60e2278a-2ff5-4382-bb68-b363fe648ace"
@@ -12279,6 +12280,7 @@ msgid "Inspect"
 msgstr "조사"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[121]/Description
+#, fuzzy
 msgctxt "980c75e3-a9b9-40b8-bd3d-04046fdb3b6b"
 msgid ""
 "<align=center>Press [{bind|TacticalCombatInspect}] to enable tactical combat "
@@ -14002,7 +14004,7 @@ msgstr "클래스"
 msgctxt "ce9aebc4-7e2c-4d2a-8661-47693e7f6dc5"
 msgid ""
 "The selected class is not available because the prerequisites are not met."
-msgstr "선결조건이 충족되지 않았기 때문에 선택한 클래스를 사용할 수 없습니다."
+msgstr "선결 조건이 충족되지 않았기 때문에 선택한 클래스를 사용할 수 없습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CharGen/ClassIntroText
 msgctxt "716315d3-af51-46d5-9269-50b2e82bf593"
@@ -15471,13 +15473,13 @@ msgid "Gamepad disconnected."
 msgstr "게임패드 연결 끊김."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/ControllerModeTexts/PressAnyKeyText
-#, fuzzy
-#| msgid "Press any key"
 msgctxt "53358d4b-d069-4beb-a4e5-a1f4fc9917c2"
 msgid ""
 "Press <b>{console_bind|Confirm}</b> to use gamepad or <sprite name=\"Enter\""
 "> to use keyboard."
-msgstr "아무 키나 누르세요"
+msgstr ""
+"게임 패드를 사용하려면 <b>{console_bind|Confirm}</b> 를, 키보드를 사용하려면 <sprite name=\"Enter"
+"\"> 를 누르세요."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Credits/InputfieldPlaceholderText
 msgctxt "a4e22b41-9914-4e08-99fc-63621fe0d71c"
@@ -15492,42 +15494,42 @@ msgstr "탐색"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Credits/NextGroup
 msgctxt "b3a64b7a-04ca-4a63-86a6-9fc110ae9e75"
 msgid "Next group"
-msgstr ""
+msgstr "다음 그룹"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Credits/NextPage
 msgctxt "ec22daf3-6976-4be3-a1c2-1859680b46fe"
 msgid "Next page"
-msgstr ""
+msgstr "다음 페이지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Credits/Pause
 msgctxt "319b42f7-fb26-4bee-a604-c206fb8e04be"
 msgid "Pause"
-msgstr ""
+msgstr "일시정지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Credits/Play
 msgctxt "5490bf0f-8ca8-476f-ace4-fd5d8ed2af2a"
 msgid "Roll the credits"
-msgstr ""
+msgstr "크레딧 재생"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Credits/PreviousGroup
 msgctxt "b4004955-1dc2-4d4f-96b8-a535c3a37b7b"
 msgid "Previous group"
-msgstr ""
+msgstr "이전 그룹"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Credits/PreviousPage
 msgctxt "24d4861a-4636-43bd-8084-800f07542f14"
 msgid "Previous page"
-msgstr ""
+msgstr "이전 페이지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/AccelerationTooltipDesc
 msgctxt "5e47a8fa-8528-41de-a809-f1c004588174"
 msgid "Allows you to significantly shorten the length of battles."
-msgstr ""
+msgstr "전투에 걸리는 시간을 크게 단축할 수 있게 도와줍니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/AccelerationTooltipName
 msgctxt "2f21534b-2c37-4491-9d7f-7fc598bbc270"
 msgid "Combat Acceleration"
-msgstr ""
+msgstr "전투 가속"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/ArmyHasNoMovementPointsWarning
 msgctxt "c9869e4b-b668-4324-a0ba-0655d246958b"
@@ -15542,12 +15544,12 @@ msgstr "부대가 {0}에 도달할 수 없습니다."
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/AutoCombatTooltipDesc
 msgctxt "a730fde3-9e61-4e1c-8c39-0d6ea4cc0b23"
 msgid "Your troops will be controlled by the computer."
-msgstr ""
+msgstr "컴퓨터가 당신의 부대를 조종합니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/AutoCombatTooltipName
 msgctxt "2db623d9-67da-49a3-b67d-302bc66406d9"
 msgid "Auto-battle"
-msgstr ""
+msgstr "자동 전투"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/ChooseAbility
 msgctxt "aaafb235-d220-41e7-a328-6d4e77c7cd82"
@@ -15557,7 +15559,7 @@ msgstr "능력 선택"
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/ChoosePosition
 msgctxt "f6d56c8d-83cd-4578-bf9b-4bbe4ad12bd0"
 msgid "Select position"
-msgstr ""
+msgstr "위치 지정"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/CrusadeArmyName
 msgctxt "d133f577-6703-46f7-9745-fde342739669"
@@ -15587,7 +15589,7 @@ msgstr "확정 획득 능력"
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/Merge
 msgctxt "4b1a8d4b-3f1f-4386-b5bb-326b21640c4a"
 msgid "Merge units"
-msgstr ""
+msgstr "유닛 통합"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/Morale_0_20
 msgctxt "84a5cdc2-5381-4768-80d1-aa200aeec35b"
@@ -15622,7 +15624,7 @@ msgstr "와해됨"
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/MoveToAnotherArmy
 msgctxt "5b3c7952-2110-44d0-a634-ef2944331962"
 msgid "Move to another army"
-msgstr ""
+msgstr "다른 부대로 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/PerceptionTooltipDescription
 msgctxt "80031ab6-2d8f-466b-b1da-eb11c5d1534e"
@@ -15637,7 +15639,7 @@ msgstr "부대 지각"
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/RecruitLockTooltip
 msgctxt "80271f01-28d1-4c69-a447-22d2b821f3fa"
 msgid "The unit in this slot cannot be refreshed until next week."
-msgstr ""
+msgstr "이 슬롯의 유닛은 다음 주 전까지 회복할 수 없습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/CrusadeTexts/SetArmyDestinationFormat
 msgctxt "0bdce3ee-1718-406a-9ae9-311eb94c2283"
@@ -15662,37 +15664,39 @@ msgstr "장소 이름 표시"
 #. LocalizedTexts/UserInterfacesText/UIStrings/DLCManager/BuyButton
 msgctxt "086c9b7b-ea02-4db7-a883-3b288ba667f8"
 msgid "Buy"
-msgstr ""
+msgstr "구매"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/DLCManager/BuyButtonForNintendo
 msgctxt "b64c436d-18cf-42f2-9462-1a1b49b62b04"
 msgid "Choose"
-msgstr ""
+msgstr "선택"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/DLCManager/BuyHint
 msgctxt "79c8a7c3-174c-48a7-b16f-b0dcbe8d796a"
 msgid "Buy"
-msgstr ""
+msgstr "구매"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/DLCManager/DLCDisabledHint
+#, fuzzy
 msgctxt "0f217267-0311-42ae-8b29-aec0278a741a"
 msgid "Disable"
-msgstr ""
+msgstr "비활성"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/DLCManager/DLCEnabledHint
+#, fuzzy
 msgctxt "1fcc4355-371e-4be2-b7ed-eca14ffa88ae"
 msgid "Enable"
-msgstr ""
+msgstr "활성"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/DLCManager/DLCManagerScreenTitle
 msgctxt "182b490a-4f12-4ad3-a10b-647bf99654ce"
 msgid "DLC Manager"
-msgstr ""
+msgstr "DLC 매니저"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/DLCManager/NewDLC
 msgctxt "8acba746-0a6e-4f04-9db5-c68c562a4047"
 msgid "New!"
-msgstr ""
+msgstr "신규!"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dialog/AligmentShiftedFormat
 msgctxt "11935290-a8de-45fc-b71e-e5846c02a23b"
@@ -15762,7 +15766,7 @@ msgstr "성공"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/ChooseBoonText
 msgctxt "3be4da7a-e9df-43a2-a037-d934e2694cd1"
 msgid "Choose a Tailwind"
-msgstr ""
+msgstr "순풍 하나를 선택하시오"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonEndTierText
 msgctxt "683c80a7-a0f3-43d4-8889-1091bc26f113"
@@ -15770,6 +15774,8 @@ msgid ""
 "{name} has breached the veil of mystery over the Midnight Isles.\n"
 "A new path is open for those who come after h{mf|im|er}..."
 msgstr ""
+"{name}은(는) 칠흑의 군도에 깔린 수수께끼를 풀어내었습니다.\n"
+"이후의 방문자들에게 새로운 길이 열립니다..."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonGameOverText
 msgctxt "36024463-7cf6-499c-b0c9-3815a09f3171"
@@ -15777,61 +15783,63 @@ msgid ""
 "{name}'s adventures are over.\n"
 "The Midnight Isles await new heroes..."
 msgstr ""
+"{name}의 모험은 끝났습니다.\n"
+"칠흑의 군도는 새로운 영웅들을 기다립니다..."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsAttemptText
 msgctxt "e44189d2-cf88-4d79-bf3c-49c4ba13e0d2"
 msgid "Attempt number"
-msgstr ""
+msgstr "시도 횟수"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsBestFighterText
 msgctxt "6eb8800b-0cd1-41c7-aea2-a17e9bd90557"
 msgid "Most valuable party member"
-msgstr ""
+msgstr "최고의 파티원"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsChestsFoundText
 msgctxt "72410a0b-8292-4389-83ec-342b5de99fcc"
 msgid "Chests opened"
-msgstr ""
+msgstr "개봉한 상자"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsChestsTotalText
 msgctxt "a2aea19e-50d7-4f71-98d2-1ba48d5b7a39"
 msgid "Total chests on visited islands"
-msgstr ""
+msgstr "방문한 섬들의 총 상자 개수"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsCostEquipmentText
 msgctxt "b90576e9-e892-4694-87bb-f5bc086b1de6"
 msgid "Equipment value"
-msgstr ""
+msgstr "장비 가치"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsDamageDoneText
 msgctxt "0024f5b5-ff29-4b9b-be49-781f158d9e8e"
 msgid "Damage dealt"
-msgstr ""
+msgstr "가한 피해량"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsDamageReceivedText
 msgctxt "9654e963-68fa-4ddf-a6b3-beafa021ca1a"
 msgid "Damage suffered"
-msgstr ""
+msgstr "받은 피해량"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsDurationGameText
 msgctxt "d324aec3-266b-4396-b20d-8f4a01089b43"
 msgid "Adventure duration"
-msgstr ""
+msgstr "모험 기간"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsEnemiesDefeatedText
 msgctxt "df961c33-d47a-4c2d-b399-b4716e80150d"
 msgid "Enemies defeated"
-msgstr ""
+msgstr "무찌른 적"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsIslandText
 msgctxt "0ceb2d53-ec99-49f7-bb59-413772fea014"
 msgid "Islands visited"
-msgstr ""
+msgstr "방문한 섬"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonStatisticsUnsurpassedOpponentText
 msgctxt "74218f32-b105-4df2-b157-e4230c83ce68"
 msgid "Fatal enemy"
-msgstr ""
+msgstr "최후의 적"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonWantGoToMainMenuText
 msgctxt "c2cba652-8d61-4d1f-9c00-6b2e59ad0d48"
@@ -15839,6 +15847,8 @@ msgid ""
 "Return to the main menu?\n"
 "All unsaved progress save will be lost."
 msgstr ""
+"메인 메뉴로 돌아가시겠습니까?\n"
+"저장되지 않은 모든 진행 사항이 사라집니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/DungeonWinHeaderText
 msgctxt "93a29b20-56aa-4a32-bbde-359eec927d90"
@@ -15847,6 +15857,8 @@ msgid ""
 "treasure of the Midnight Isles.\n"
 "But could this story have a different ending?"
 msgstr ""
+"성공했습니다! 보물 사냥꾼 {name}은 칠흑의 군도의 보물을 손에 넣었습니다.\n"
+"하지만 이 이야기에 다른 결말이 있지는 않을까요?"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/MapIslandDifficultyDescription
 msgctxt "8dfcdeac-9641-4e0c-b3da-738f2be26815"
@@ -15856,21 +15868,23 @@ msgid ""
 "of skull icons next to each island: one — a regular adventure, two — a "
 "serious challenge, three — a deadly peril."
 msgstr ""
+"한 지역의 섬들에서도 당신을 기다리는 몬스터와 함정의 난이도는 각기 다릅니다. 이는 지도 화면에서 각 섬들 옆에 해골의 개수로 표시됩니다:"
+" 하나는 평범한 모험, 둘은 상당한 도전, 셋은 목숨의 위협입니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/MapIslandDifficultyName
 msgctxt "33cd9982-42ed-4fad-aaa8-ab4685f9e1f1"
 msgid "Peril Rating"
-msgstr ""
+msgstr "위험도"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/NextAttemptText
 msgctxt "99e7a5cd-9ee8-452b-8e7b-3c98c36abdda"
 msgid "Start a new journey"
-msgstr ""
+msgstr "새 여정 시작"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Dungeon/NoBoonText
 msgctxt "8d685291-6c4f-4d5d-931d-111675b31021"
 msgid "No tailwind accompanied this journey."
-msgstr ""
+msgstr "이 여정은 순풍을 동반하지 않습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EncyclopediaTexts/EncyclopediaGlossaryButton
 msgctxt "35da1dcd-c2b2-4632-83a8-1abfa85fc72d"
@@ -15885,57 +15899,57 @@ msgstr "크리처"
 #. LocalizedTexts/UserInterfacesText/UIStrings/EncyclopediaTexts/NextPage
 msgctxt "3ceb91f4-205c-499b-8d23-d438239ff740"
 msgid "Next page"
-msgstr ""
+msgstr "다음 페이지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EncyclopediaTexts/OpenPage
 msgctxt "fffea153-5197-42a4-a097-e03bc88f2a24"
 msgid "View page"
-msgstr ""
+msgstr "페이지 보기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EncyclopediaTexts/PreviousPage
 msgctxt "554a5b16-8525-4b32-b962-a2a35f81dbe0"
 msgid "Previous page"
-msgstr ""
+msgstr "이전 페이지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EscMenuTexts/BugReport
 msgctxt "23303dff-204a-4635-a672-813071475953"
 msgid "Bug report"
-msgstr ""
+msgstr "버그 리포트"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EscMenuTexts/LoadButton
 msgctxt "298d42bb-1286-47d7-8008-8989f341032c"
 msgid "Load game"
-msgstr ""
+msgstr "불러오기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EscMenuTexts/MainMenu
 msgctxt "5e9b34b3-92cc-4542-8619-8b3516fba06c"
 msgid "Main menu"
-msgstr ""
+msgstr "메인 메뉴"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EscMenuTexts/OptionsButton
 msgctxt "808ea16f-8d39-4668-b939-884a5dc56c4a"
 msgid "Settings"
-msgstr ""
+msgstr "설정"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EscMenuTexts/QuickLoadButton
 msgctxt "566a32e7-713c-448c-aebc-0a8567fd8ac5"
 msgid "Quick load"
-msgstr ""
+msgstr "빠른 불러오기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EscMenuTexts/QuickSaveButton
 msgctxt "ea1c8b29-cd70-4565-8199-9b0ed300d774"
 msgid "Quick save"
-msgstr ""
+msgstr "빠른 저장"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/EscMenuTexts/SaveButton
 msgctxt "182290d6-1c1f-4a68-94a8-7c20a830c96d"
 msgid "Save game"
-msgstr ""
+msgstr "저장하기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/FormationTexts/FreeMovement
 msgctxt "0a547622-6ec7-4cc6-aa34-1b198137c517"
 msgid "Free Formation"
-msgstr ""
+msgstr "자유 진형"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/FormationTexts/HoldTheLine
 msgctxt "73beccfe-ed27-45a7-88e3-fc9985b9c573"
@@ -15945,12 +15959,12 @@ msgstr "진형 유지"
 #. LocalizedTexts/UserInterfacesText/UIStrings/FormationTexts/MoveCharacter
 msgctxt "ac46ea83-da11-4f71-8984-b8a17250e62f"
 msgid "Move character"
-msgstr ""
+msgstr "캐릭터 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/FormationTexts/MoveCharacterFree
 msgctxt "5785612d-36d9-454e-a9d9-e6e9e5e41f15"
 msgid "Hold to unbind character from the grid"
-msgstr ""
+msgstr "길게 눌러 캐릭터를 그리드에서 빼내기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/FormationTexts/RestoreToDefault
 msgctxt "3ec3a70b-4e19-4193-8954-a453a57d8994"
@@ -16073,7 +16087,7 @@ msgstr "언젠가"
 #. LocalizedTexts/UserInterfacesText/UIStrings/GlobalMap/GroupChangeParty
 msgctxt "53b60bbc-e11f-46c7-9284-af15b0bc50b8"
 msgid "Change the group"
-msgstr ""
+msgstr "그룹 변경"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GlobalMap/KingdomIsAutoDialogDesc
 msgctxt "a06c5452-4eaa-48cb-9d79-83382290c06b"
@@ -16178,19 +16192,20 @@ msgid "The crusade is not available"
 msgstr "성전에 접근할 수 없읍"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GroupChangerTexts/DismissCharacter
+#, fuzzy
 msgctxt "8bf4a648-0a34-45f0-bfc9-620bf0e55640"
 msgid "Dismiss"
-msgstr ""
+msgstr "해산"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GroupChangerTexts/MoveAll
 msgctxt "9b386dcd-0e72-4c1f-a9b5-01c28266061b"
 msgid "Move all"
-msgstr ""
+msgstr "전체 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GroupChangerTexts/MoveCharacter
 msgctxt "9879835f-9885-441b-a14d-39630cbaffc2"
 msgid "Move"
-msgstr ""
+msgstr "이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/GroupChangerTexts/PartyCommonHeader
 msgctxt "7d588ee7-e532-41f1-a5b7-dd66f0bc92a6"
@@ -16215,147 +16230,149 @@ msgstr "동료"
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/ActionBar
 msgctxt "16763f11-d167-4af1-b7e4-287fe560125a"
 msgid "Action bar"
-msgstr ""
+msgstr "액션 바"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/All
 msgctxt "72f0e79d-82a9-4676-85cf-6f7c90c0ddd4"
 msgid "All"
-msgstr ""
+msgstr "전부"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/ChangeAction
 msgctxt "131e32a0-09df-48b7-9246-86395a527d5f"
 msgid "Change action"
-msgstr ""
+msgstr "행동 변경"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/ChangeCombatLogSize
 msgctxt "dc856e86-18f5-443a-aeda-59cb43d30c5a"
 msgid "Change combat log size"
-msgstr ""
+msgstr "전투 기록 크기 변경"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/CharactersList
 msgctxt "6f973987-dbb2-49e9-bb36-44319c283250"
 msgid "Characters list"
-msgstr ""
+msgstr "캐릭터 목록"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/Combat
 msgctxt "ea1651eb-f3e4-492d-a1e2-ac4098178880"
 msgid "Combat"
-msgstr ""
+msgstr "전투"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/CombatLogLabel
 msgctxt "c2e2e992-964d-49d2-8d49-f433b2b623ef"
 msgid "Combat log"
-msgstr ""
+msgstr "전투 기록"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/Dialog
 msgctxt "c4902a50-5045-43b7-bfa4-1dbc9e7693ec"
 msgid "Dialogue"
-msgstr ""
+msgstr "대화"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/EndTurn
 msgctxt "f4c4dd7d-84e8-486a-b2a3-b3c407080d6d"
 msgid "End turn"
-msgstr ""
+msgstr "턴 종료"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/EnterCombatLog
 msgctxt "a52c8cb0-405b-4aac-b1d6-a2ed8f362d7c"
 msgid "Combat log"
-msgstr ""
+msgstr "전투 기록"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/Events
 msgctxt "57397458-61ca-42d8-bd72-9060b1e78a8e"
 msgid "Events"
-msgstr ""
+msgstr "사건"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/ExitCombatLog
 msgctxt "e4c0320c-284a-4570-9271-ef7c61bcaa4d"
 msgid "Exit combat log"
-msgstr ""
+msgstr "전투 기록 나가기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/HideCombatLog
 msgctxt "38241339-e6d8-4c4a-a3a2-02ecf0475db1"
 msgid "Hide combat log"
-msgstr ""
+msgstr "전투 기록 숨기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/HighLightObjects
 msgctxt "6025eda0-af17-481b-84d8-751cb52cca9b"
 msgid "Highlight objects"
-msgstr ""
+msgstr "상호 작용 가능 사물 표시"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/HoldCombatLogVisibility
 msgctxt "f19911c8-b26f-4091-a75d-014726625538"
 msgid "Pin log"
-msgstr ""
+msgstr "기록 고정"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/Inspect
 msgctxt "5e5c5f3a-00b8-44f0-a058-e29470e5c3ab"
 msgid "Inspect"
-msgstr ""
+msgstr "조사"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/Menu
 msgctxt "d3b49373-aaaa-4be6-8ee8-eb3bfa216a5b"
 msgid "Menu"
-msgstr ""
+msgstr "메뉴"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/Pause
 msgctxt "bca49083-61a5-4fa5-947b-0586aad2187f"
 msgid "Pause"
-msgstr ""
+msgstr "일시정지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/Pointer
 msgctxt "60400f2e-b756-46f6-97dd-1bb1a2fad570"
 msgid "Cursor"
-msgstr ""
+msgstr "커서"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/PointerTerrainMode
+#, fuzzy
 msgctxt "d8d0bc7b-5b2b-4a65-837b-38fc16e37d8e"
 msgid "Pointer terrain mode"
-msgstr ""
+msgstr "선명한 지형 모드"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/ShowCombatLog
 msgctxt "003d2f3d-ce80-4794-817c-ffa1f697bffe"
 msgid "Show combat log"
-msgstr ""
+msgstr "전투 기록 보이기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/SwitchFullMove
 msgctxt "12863d4b-518c-43cf-b90e-59da356e735b"
 msgid "Full move"
-msgstr ""
+msgstr "전체 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/SwitchSingleMove
+#, fuzzy
 msgctxt "4213e57d-4d36-4804-b9d0-96b7fdc0235f"
 msgid "Single move"
-msgstr ""
+msgstr "단일 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/SwitchToFiveFeet
 msgctxt "12c393cc-fe3e-4f8b-b783-7921ec925e8b"
 msgid "5-ft. step"
-msgstr ""
+msgstr "5 피트 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/HUDTexts/UnholdCombatLogVisibility
 msgctxt "301660f8-a284-4e0c-a4c8-11f768a1cf5a"
 msgid "Unpin log"
-msgstr ""
+msgstr "기록 고정 해제"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/CameraMoveMode
 msgctxt "3533bde0-befc-4dbc-bfe9-2a2c8eae85d4"
 msgid "Move Camera"
-msgstr ""
+msgstr "카메라 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/CameraRotateMode
 msgctxt "f087e908-e3ab-4793-822f-36910d333e82"
 msgid "Rotate Camera"
-msgstr ""
+msgstr "카메라 회전"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/EncyclopediaText
 msgctxt "6faee02b-2538-4e53-9eec-6a77708dadea"
 msgid "Encyclopedia"
-msgstr ""
+msgstr "백과사전"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/FormationText
 msgctxt "ffd841d9-28c9-404a-8532-4cf0b1b8c827"
 msgid "Formation"
-msgstr ""
+msgstr "진형"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/LevelUpText
 msgctxt "dc0e8249-4f9e-40a8-928e-6408e0f1b18a"
@@ -16380,12 +16397,12 @@ msgstr "일시정지"
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/RestText
 msgctxt "d218fe39-4e62-4254-8a70-467c00691596"
 msgid "Rest"
-msgstr ""
+msgstr "휴식"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/InGameMenuTexts/ShardsLevelUpText
 msgctxt "c2fa5eea-9e76-4e97-b2cc-4470217d2287"
 msgid "New Shard"
-msgstr ""
+msgstr "새로운 파편"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/LocalMapTexts/CameraIconName
 msgctxt "29cc2652-3452-47ca-b7f1-7b383c09042e"
@@ -16460,12 +16477,12 @@ msgstr "관심 지역"
 #. LocalizedTexts/UserInterfacesText/UIStrings/LocalMapTexts/SetDestination
 msgctxt "ebf18408-62fb-4a19-8d52-019622155478"
 msgid "Set destination"
-msgstr ""
+msgstr "목적지 설정"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/LocalMapTexts/ShowLegend
 msgctxt "f9f6b362-04d1-4b05-b79f-313014ed7db1"
 msgid "Legend"
-msgstr ""
+msgstr "레전드"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Lockpick/Destroy
 msgctxt "34099dbc-ad24-4758-989d-d5523c80318f"
@@ -16512,12 +16529,12 @@ msgctxt "c7c0a4c7-f889-41b5-8489-244b09685f97"
 msgid ""
 "Upon leaving the current area, all non-notable trophies left behind will be "
 "destroyed."
-msgstr ""
+msgstr "현재 자역을 떠남과 동시에, 남겨진 모든 전리품들이 파괴될 것입니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/LootWindow/RemoveUncollectedLootHint
 msgctxt "e0c4ad3c-f7ea-4822-a52a-d4aed2cfbd23"
 msgid "Destroy Uncollected Loot"
-msgstr ""
+msgstr "수집하지 않은 전리품 파괴"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/LootWindow/Skinning
 msgctxt "23e3b22f-aa79-4227-8905-c38e475bbf9d"
@@ -16544,13 +16561,15 @@ msgid ""
 "launch. We recommend that you verify the files' integrity: https://owlcat."
 "games/how-to-verify-integrity."
 msgstr ""
+"손상된 로컬 파일이 이전 실행의 크래시를 유발한 것으로 파악됩니다. 무결성 검사를 실행할 것를 추천드립니다: https://owlcat."
+"games/how-to-verify-integrity."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/CrashDumpFoundDialogueFreeSpace
 msgctxt "54b9478e-a5dd-4a59-a4ad-af385098f25c"
 msgid ""
 "It looks like the game crashed during the last session due to a lack of disk "
 "space."
-msgstr ""
+msgstr "디스크 공간 부족으로 인해 마지막 세션에 크래시가 발생한 것으로 파악됩니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/CrashDumpFoundDialogueMods
 msgctxt "171c0d0c-45b8-47d1-a2a1-8c3dc3f79934"
@@ -16560,6 +16579,9 @@ msgid ""
 "GameLogFull.txt and GameLogFullPrev.txt to the mod's developer. If you don't "
 "use mods, then please send us a crash report at https://owlcat.games/support."
 msgstr ""
+"당신이 설치한 모드의 에러 때문에 이전 게임에 크래시가 발생한 것으로 파악됩니다. 불행히도, 이 경우 저희는 도움을 드릴 수 없습니다. "
+"모드 개발자에게 GameLogFull.txt 및 GameLogFullPrev.txt 파일을 보고해주십시오. 모드를 사용하지 않으신다면, "
+"크래시 리포트를 https://owlcat.games/support 로 전달해주십시오."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/Credits
 msgctxt "77c562b0-f42c-4065-bec6-09d42ff9be1d"
@@ -16569,7 +16591,7 @@ msgstr "제작진"
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/DLCManager
 msgctxt "2fbcaaad-24b3-43a0-94e0-9693d8c9e94b"
 msgid "DLC"
-msgstr ""
+msgstr "DLC"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/ExceptionDialogueCorrupted
 msgctxt "5154c11e-2eb2-4d7e-b0f2-0f20c49f5cbe"
@@ -16577,11 +16599,13 @@ msgid ""
 "The error was probably caused by damaged local files. We recommend that you "
 "verify the files' integrity: https://owlcat.games/how-to-verify-integrity."
 msgstr ""
+"해당 오류가 로컬 파일의 손상으로 야기되었을 가능성이 있습니다. 파일 무결성 검사를 추천드립니다: https://owlcat.games/"
+"how-to-verify-integrity."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/ExceptionDialogueFreeSpace
 msgctxt "852e8e12-be7b-410d-b4ad-59ad5d763baf"
 msgid "There is not enough disk space available."
-msgstr ""
+msgstr "충분한 여유 디스크 공간이 없습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/Exit
 msgctxt "97601121-c4dc-47ff-844c-98ab0ff2e92c"
@@ -16603,7 +16627,7 @@ msgctxt "0f4bb5ea-291b-47c5-b398-6743ca9c7633"
 msgid ""
 "Don't miss the newest RPG from Owlcats.\n"
 "Out now!"
-msgstr ""
+msgstr "Owlcats의 신작 RPG를 놓치지 마세요!"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/MotivationEndPart
 msgctxt "ee9914c6-69ae-4754-a8ff-2b2b99d7886e"
@@ -16656,12 +16680,12 @@ msgstr "새로운 게임"
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/Shards
 msgctxt "b2af7c26-c261-4e69-a5a7-f22b03eef68b"
 msgid "Shard Powers"
-msgstr ""
+msgstr "파편의 힘"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/MainMenu/SteamButtonText
 msgctxt "36d90d2c-faba-4e62-817a-b9234c4b4614"
 msgid "Wishlist now"
-msgstr ""
+msgstr "지금 찜하기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NewGameWin/ChooseDifficulty
 msgctxt "ff621b81-3a51-4c20-812d-4d1688a63e6f"
@@ -16695,6 +16719,8 @@ msgid ""
 "campaign. If you want your Knight Commander to explore the Midnight Isles, "
 "just wait for an invitation from chapter 3 on."
 msgstr ""
+"이 DLC는 독립적 모험으로도, 주요 캠페인의 일부로도 플레이할 수 있습니다. 성전 사령관이 칠흑의 군도를 탐사하기를 원하신다면, "
+"3장에서 초대를 기다리십시오."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NewGameWin/DlcDisable
 msgctxt "71f32909-c567-4d13-9767-b48cc62449d0"
@@ -16702,17 +16728,21 @@ msgid "You don't own this scenario yet"
 msgstr "이 시나리오를 갖고 있지 않음"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NewGameWin/LastAzlantiMode
+#, fuzzy
 msgctxt "58b1b521-50b5-4154-8117-2943f395097a"
 msgid "Sink or Swim Mode"
-msgstr ""
+msgstr "생사의 기로 모드"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NewGameWin/LastAzlantiModeMessage
+#, fuzzy
 msgctxt "e790f298-aa04-4ca0-b1ea-5de024983040"
 msgid ""
 "In Sink or Swim mode you are limited to one save slot. Decide now if you "
 "want to turn it on: once the game starts, you won't be able to change your "
 "mind!"
 msgstr ""
+"생사의 기로 모드에서는 하나의 저장 슬롯만이 주어집니다. 활성화 하고 싶은지 신중히 결정하십시오: 일단 게임이 시작되면 번복은 "
+"불가능합니다!"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NewGameWin/MenuTitleNewGame
 msgctxt "1a26c41d-0bd2-474c-83a5-8fcb662dff1b"
@@ -16720,9 +16750,10 @@ msgid "New Game"
 msgstr "새로운 게임"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NewGameWin/SaveInjection
+#, fuzzy
 msgctxt "b9989172-8d49-4832-9457-533de51d1019"
 msgid "Character Import"
-msgstr ""
+msgstr "캐릭터 연동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/NewGameWin/SelectorStory
 msgctxt "c6a4afcf-4641-47de-91a1-84c343a8d4dd"
@@ -16838,119 +16869,123 @@ msgid "<b>Gained {0} Experience</b>"
 msgstr "<b>경험치 {0} 획득</b>"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/HideGUIButton
+#, fuzzy
 msgctxt "1c14e7f8-53c1-4e1a-a32a-c323a7589b61"
 msgid "[B]"
-msgstr ""
+msgstr "[B]"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/HideGui
 msgctxt "4e583643-ad8c-4f30-9f7c-d7c7338fa98a"
 msgid "Hide game UI"
-msgstr ""
+msgstr "게임 UI 숨기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/HideHud
 msgctxt "608fd923-62c7-4f69-9c8d-e4b08ec92e7f"
 msgid "Hide photomode UI"
-msgstr ""
+msgstr "포토모드 UI 숨기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/HideUIButton
 msgctxt "99599488-dff5-4ae7-b18d-32c680df361f"
 msgid "[H]"
-msgstr ""
+msgstr "[H]"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/NextButton
 msgctxt "f588751a-54eb-4ea0-ac28-0bb4f4bc4b75"
 msgid "[E]"
-msgstr ""
+msgstr "[E]"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/PrevButton
 msgctxt "ccff969b-99c0-4798-88a5-1395b7343eb1"
 msgid "[Q]"
-msgstr ""
+msgstr "[Q]"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameDepthOfField
 msgctxt "b6353af4-287e-4be4-8ac6-9ac277ea91fe"
 msgid "Depth of Field"
-msgstr ""
+msgstr "피사계 심도"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameFrames
 msgctxt "4e9df854-f2c7-4774-8af8-d68e60ba28d0"
 msgid "Frames"
-msgstr ""
+msgstr "프레임"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameGrain
 msgctxt "b7e62fb6-1491-47e9-840a-fec309dfcf25"
 msgid "Film Grain"
-msgstr ""
+msgstr "필름 그레인"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameIcons
+#, fuzzy
 msgctxt "c9de6e27-ecb6-4bac-b5b4-450a16708eae"
 msgid "Logos"
-msgstr ""
+msgstr "로고스"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameOther
 msgctxt "c78cf125-7ae9-4412-9cd4-027c8d49d222"
 msgid "Visual perception"
-msgstr ""
+msgstr "시지각"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameSkyBox
+#, fuzzy
 msgctxt "4dfe9461-0ae9-4c29-97d5-61b74a12a4e8"
 msgid "Skyboxes"
-msgstr ""
+msgstr "스카이박스"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameStickers
+#, fuzzy
 msgctxt "b9a18695-10fd-44cf-b074-02695e28bf26"
 msgid "Stickers"
-msgstr ""
+msgstr "스티커"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameVignettes
 msgctxt "d9bda829-8e72-4f6f-8fd2-5b361aa5011e"
 msgid "Vignette"
-msgstr ""
+msgstr "비네트"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/SectionNameWeather
 msgctxt "28042724-ce65-494d-8d50-00aeec20b72e"
 msgid "Weather"
-msgstr ""
+msgstr "날씨"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/ShowGui
 msgctxt "26755df1-1be8-458f-868b-bd00b4e39dc4"
 msgid "Show game UI"
-msgstr ""
+msgstr "게임 UI 보이기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/ShowHud
 msgctxt "a0c95c6f-35ac-4b38-af91-56423713d797"
 msgid "Show UI"
-msgstr ""
+msgstr "UI 보이기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/UpDownCamera
 msgctxt "a5422285-051d-4689-8d62-5a6544e01144"
 msgid "Vertical movement"
-msgstr ""
+msgstr "수직 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/UpDownCameraButton
 msgctxt "80f61ebb-20a5-4f0f-bebf-4975be871da3"
 msgid "[R][F]"
-msgstr ""
+msgstr "[R][F]"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/WASDButton
 msgctxt "1aada06f-f1da-4035-b009-515720b4871c"
 msgid "[W][A][S][D]"
-msgstr ""
+msgstr "[W][A][S][D]"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/WASDLabel
 msgctxt "39959aab-f2fc-4de7-b6be-d346cab10ce4"
 msgid "Horizontal movement"
-msgstr ""
+msgstr "수평 이동"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/PhotoModeUI/ZXCButton
 msgctxt "6eb84cce-eede-4007-98e1-38c4d2692eeb"
 msgid "[Z][C][X]"
-msgstr ""
+msgstr "[Z][C][X]"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/QuesJournalTexts/HideCompletedQuests
 msgctxt "46351d29-7bce-4a63-b1ee-d736c1087d97"
 msgid "Hide completed quests"
-msgstr ""
+msgstr "완료한 임무 숨기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/QuesJournalTexts/QuestComplite
 msgctxt "b5a63ab3-b399-42fd-8cde-26b5564eb0e7"
@@ -17000,7 +17035,7 @@ msgstr "자동 할당"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/BeginRestHint
 msgctxt "edb5c122-ba55-4417-be74-2e3adb388d34"
 msgid "Rest"
-msgstr ""
+msgstr "휴식"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/CamouflageResultFailText
 msgctxt "111cec0d-cfdd-4e2d-a9d2-d29ecd330e44"
@@ -17033,12 +17068,6 @@ msgid "Level of corruption"
 msgstr "오염 단계"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/CorruptionLevelTooltipText
-#, fuzzy
-#| msgid ""
-#| "This is your current level of corruption. Corruption growth with each day of "
-#| "rest. It has 3 levels of strength. It is advised to avoid the 3rd level of "
-#| "corruption. Different locations might have different corruption growth. Rest "
-#| "in a safe location to remove all corruption."
 msgctxt "7f90a712-c7a7-4a40-a0a6-2d31cd683ec1"
 msgid ""
 "This is your current level of corruption. Corruption grows with each day of "
@@ -17046,10 +17075,8 @@ msgid ""
 "corruption level 3. Corruption can grow at different rates depending on the "
 "location. Rest in a safe location to remove all corruption."
 msgstr ""
-"현재 오염 단계를 나타냅니다. 오염은 휴식을 취하는 날마다 증가하며, 최대 "
-"3단계까지 존재합니다. 3단계 오염은 피하는 것을 권장합니다. 지역에 따라 "
-"오염이 증가하는 양이 다를 수 있습니다. 안전한 장소에서 휴식하여 오염을 모두 "
-"제거하십시오."
+"현재 오염 단계를 나타냅니다. 오염은 휴식을 취하는 날마다 증가하며, 최대 3단계까지 존재합니다. 3단계 오염은 피하는 것을 권장합니다. "
+"지역에 따라 오염이 증가하는 양이 다를 수 있습니다. 안전한 장소에서 휴식하여 오염을 모두 제거하십시오."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/CraftFeature
 msgctxt "fd51c0b0-36a6-4f56-9288-2cc11a29904f"
@@ -17075,11 +17102,9 @@ msgid "Total bonuses (Alchemy)"
 msgstr "총 보너스 (연금술)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/D20AlchemyTooltipText
-#, fuzzy
-#| msgid "Bonuses to Knowledge: World skill check"
 msgctxt "7715e863-c7cc-44ee-a688-d6b48b0a5571"
 msgid "Bonuses to Knowledge (world) skill check"
-msgstr "지식: 세계 기술 판정 보너스"
+msgstr "지식(세계) 기술 판정 보너스"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/D20CamouflageTooltipHeader
 msgctxt "c8754fab-e82d-409c-9186-7d47d375362e"
@@ -17097,11 +17122,9 @@ msgid "Total bonuses (Protective Rituals)"
 msgstr "총 보너스 (보호 의식)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/D20DivineTooltipText
-#, fuzzy
-#| msgid "Bonuses to Lore: Religion skill check"
 msgctxt "999014ce-a971-4457-9cab-f7bdf77b66b8"
 msgid "Bonuses to Lore (religion) skill check"
-msgstr "전승: 종교 기술 판정 보너스"
+msgstr "전승(종교) 기술 판정 보너스"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/D20GuardTooltipHeader
 msgctxt "e56493b8-b360-4063-a402-3d072cfffa91"
@@ -17119,11 +17142,9 @@ msgid "Total bonuses (Scroll Scribing)"
 msgstr "총 보너스 (두루마리 제작)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/D20ScribingTooltipText
-#, fuzzy
-#| msgid "Bonuses to Knowledge: Arcana or Lore: Religion skill check"
 msgctxt "33621269-deeb-45d5-92a0-ed528e59db05"
 msgid "Bonuses to Knowledge (arcana) or Lore (religion) skill check"
-msgstr "지식: 비전 또는 전승: 종교 기술 판정 보너스"
+msgstr "지식(비전) 또는 전승(종교) 기술 판정 보너스"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/DCAlchemyTooltipHeader
 msgctxt "95277fcd-ef74-4c4b-9b5a-a868238f13fd"
@@ -17131,11 +17152,9 @@ msgid "Difficulty Class (Alchemy)"
 msgstr "난이도 (연금술)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/DCAlchemyTooltipText
-#, fuzzy
-#| msgid "Difficulty Class of a Knowledge: World skill check for brewing potions"
 msgctxt "c7a36e46-6a80-4775-abbb-05d379a98fad"
 msgid "Difficulty Class of a Knowledge (world) skill check for brewing potions"
-msgstr "물약을 제작하기 위한 지식: 세계 기술 판정 난이도"
+msgstr "물약을 제작하기 위한 지식(세계) 기술 판정 난이도"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/DCCamouflageTooltipHeader
 msgctxt "ac1f454d-a3f9-44e5-afdc-24d9e7637892"
@@ -17153,11 +17172,9 @@ msgid "Difficulty Class (Protective Rituals)"
 msgstr "난이도 (보호 의식)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/DCDivineTooltipText
-#, fuzzy
-#| msgid "Difficulty Class of a Lore: Religion skill check"
 msgctxt "b8f14ead-47de-498f-9f02-f3d25afdf682"
 msgid "Difficulty Class of a Lore (religion) skill check"
-msgstr "전승: 종교 기술 판정 난이도"
+msgstr "전승(종교) 기술 판정 난이도"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/DCGuardTooltipHeader
 msgctxt "26a323f2-a579-4ff1-9490-270419cd8f62"
@@ -17179,11 +17196,9 @@ msgid "Difficulty Class (Scroll Scribing)"
 msgstr "난이도 (두루마리 제작)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/DCScribingTooltipText
-#, fuzzy
-#| msgid "Difficulty Class of a Lore: Religion or Knowledge: Arcana"
 msgctxt "687b81ac-a179-4677-b076-ce6538e90e9b"
 msgid "Difficulty Class of a Lore (religion) or Knowledge (arcana)"
-msgstr "전승: 종교 또는 지식: 비전 기술 판정 난이도"
+msgstr "전승(종교) 또는 지식(비전) 기술 판정 난이도"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/DivineServiceResultFailText
 msgctxt "e9125c37-36d4-4740-9bcd-205e3297006a"
@@ -17234,12 +17249,12 @@ msgstr "{0}시간 휴식 후 공격당했습니다!"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/NightWatchResultFailText
 msgctxt "8a37172e-118c-4075-bb8b-9ec795c35992"
 msgid "The enemies have caught the party off-guard"
-msgstr ""
+msgstr "일행이 방심한 틈을 타 적들에게 기습당했습니다"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/NightWatchResultSuccessText
 msgctxt "5372cea6-ad4c-4764-ad4c-b67fa22620bc"
 msgid "The guards have raised alarm"
-msgstr ""
+msgstr "보초들이 적들의 야습을 사전에 포착했습니다"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/NoIncidentText
 msgctxt "0e1ee963-519b-4f21-9b82-c1c3432e5f1e"
@@ -17314,31 +17329,30 @@ msgid "—"
 msgstr "—"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/ScrollScribingResultSuccessText
-#, fuzzy
-#| msgid "Scribing scrolls progressed successfully"
 msgctxt "ebf31f90-7df9-4c65-ab17-5e5115fb20cf"
 msgid "Scribing scrolls progressed successfully."
-msgstr "두루마리 제작 진행에 성공했습니다"
+msgstr "두루마리 제작 진행에 성공했습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/ScrollScribingSkillArcane
 msgctxt "06c17b3c-6819-49c5-a95b-a6aabedd7f7e"
 msgid "Knowledge (Arcana)"
-msgstr ""
+msgstr "지식 (비전)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/ScrollScribingSkillDescription
+#, fuzzy
 msgctxt "b8c51ba5-4912-4d20-b9b1-d9dc1959319f"
 msgid "Choose a scroll scribing skill"
-msgstr ""
+msgstr "두루마리 제작에 사용할 기술을 선택"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/ScrollScribingSkillReligion
 msgctxt "c56440b8-d641-4502-a03d-4a75a2c57ee5"
 msgid "Lore (Religion)"
-msgstr ""
+msgstr "전승 (종교)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/SkipBark
 msgctxt "71f1af85-9629-4d8d-b94f-65d4d25ec4aa"
 msgid "Skip cue"
-msgstr ""
+msgstr "대사 넘기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/SkipTimeCurrentTimeFormat
 msgctxt "90866a6a-ecd8-463c-b318-070bde495af8"
@@ -17346,7 +17360,6 @@ msgid "Current time: {0}"
 msgstr "현재 시간: {0}"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/SkipTimeSkipUntilFormat
-#, fuzzy
 msgctxt "6daa8fe0-bace-4f69-a551-f2a2b6fced09"
 msgid "Skip until: {0}"
 msgstr "시간 보내기: {0}"
@@ -17354,7 +17367,7 @@ msgstr "시간 보내기: {0}"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Rest/TooltipHint
 msgctxt "eae93272-a391-4374-a07b-95695c7c9b9e"
 msgid "Tooltip"
-msgstr ""
+msgstr "툴팁"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SaveInjectorTexts/DelveNumberFormat
 msgctxt "4f5653f5-6ee1-415f-b16c-5bbba7c77f58"
@@ -17483,11 +17496,9 @@ msgid ""
 msgstr "자동 운영 모드를 켜면, 성전을 직접 조작하거나 다시 끌 수 없게 됩니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/BrightnessHint
-#, fuzzy
-#| msgid "Adjust the brightness to your monitor"
 msgctxt "77273089-1143-42e0-8559-06d5a93eb6cf"
 msgid "Adjust the image display of a bright and dark locations to your screen."
-msgstr "모니터의 밝기를 조정하십시오"
+msgstr "밝은 부분과 어두운 부분의 이미지를 화면에 맞게 조정하십시오."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/Cancel
 msgctxt "fc9fecbd-22d6-45a0-9a16-d670dc2c32bb"
@@ -17502,82 +17513,82 @@ msgstr "{0}의 모든 설정을 취소하시겠습니까?"
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlConfirmHint
 msgctxt "47a8804b-3e8c-4234-a85b-ecfded5b4be5"
 msgid "Action / Confirm"
-msgstr ""
+msgstr "행동 / 확인"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlDPadDownHint
 msgctxt "58d3653d-0c00-49cf-a53b-ada716ddb427"
 msgid "Inspect"
-msgstr ""
+msgstr "조사"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlDPadLeftHint
 msgctxt "37dd65ff-7812-4ea1-87a6-6ffd46f98d28"
 msgid "Cursor"
-msgstr ""
+msgstr "커서"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlDPadRightHint
 msgctxt "64b63112-ffc2-4cd7-8169-95006944fed1"
 msgid "Combat log"
-msgstr ""
+msgstr "전투 기록"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlDPadUpHint
 msgctxt "5a68d2ff-c31c-44f4-a236-67ab7ce84057"
 msgid "RTWP combat / Turn-Based combat"
-msgstr ""
+msgstr "실시간 / 턴제"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlDeclineHint
 msgctxt "5ee53ab4-4ab9-4ec3-8385-75994d82dda2"
 msgid "Stop"
-msgstr ""
+msgstr "정지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlFunc01Hint
 msgctxt "5efbfa60-fbf6-4539-9c97-419a2a643f11"
 msgid "Pause"
-msgstr ""
+msgstr "일시정지"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlFunc02Hint
 msgctxt "4279b080-a8a0-467a-aa30-294967a4df9f"
 msgid "Action bar"
-msgstr ""
+msgstr "액션 바"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlFuncAdditionalHint
 msgctxt "4d08d218-8fe3-480b-9597-da522ec26abd"
 msgid "Map"
-msgstr ""
+msgstr "지도"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlLeftBottomHint
 msgctxt "d6cf505e-cf8f-4e85-be63-a793deb47c9a"
 msgid "Group"
-msgstr ""
+msgstr "그룹"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlLeftStickButtonHint
 msgctxt "79018e28-a476-44ba-b59a-a618036cedca"
 msgid "Highlight objects"
-msgstr ""
+msgstr "상호 작용 가능 사물 표시"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlLeftUpHint
 msgctxt "7e7d3a62-b5b0-4201-b967-07a962b76726"
 msgid "Previous target"
-msgstr ""
+msgstr "이전 대상"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlOptionsHint
 msgctxt "8912342b-cbe5-4c33-91b2-19ec6585e6e4"
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlRightBottomHint
 msgctxt "cc13e98d-b3ee-4f98-a0ee-977a111a01eb"
 msgid "Menu"
-msgstr ""
+msgstr "메뉴"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlRightStickButtonHint
 msgctxt "9b105335-c9f3-4427-b18a-dc1b5b429895"
 msgid "Move / Rotate"
-msgstr ""
+msgstr "이동 / 회전"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ConsoleControlRightUpHint
 msgctxt "beb9cf72-28c2-4231-9be0-5ee1db7942c9"
 msgid "Next target"
-msgstr ""
+msgstr "다음 대상"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/DialogCancel
 msgctxt "3101d9d8-a8e2-4ca5-b449-dc57dda3cec7"
@@ -17637,7 +17648,7 @@ msgstr "이미 사용중인 단축키는 배정할 수 없습니다."
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/ResetToDefaultHold
 msgctxt "dca2b876-afc2-4011-865d-e5c7ebfa1f7a"
 msgid "Default (Hold)"
-msgstr ""
+msgstr "기본값 (입력 유지)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SettingsUI/RestartConfirmation
 msgctxt "451540e2-cbae-4fb8-b857-21a677642907"
@@ -17726,12 +17737,12 @@ msgstr "기술 수치"
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/AddMetamagic
 msgctxt "f022737f-86cf-43b5-ae86-48e121f6f948"
 msgid "Add metamagic"
-msgstr ""
+msgstr "메타매직 추가"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/AutoCastConsoleHint
 msgctxt "42cae8b3-5672-4c8e-b2ea-cd15894beccb"
 msgid "This spell or ability can be used in automatic mode."
-msgstr ""
+msgstr "이 주문 또는 능력은 자동 모드에서 사용될 수 있습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/AutoCastHint
 msgctxt "601427a1-35ff-46b1-9488-9273cebaf094"
@@ -17805,7 +17816,7 @@ msgstr "<sprite name=\"star\" color=#{0}>"
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/HidePossibleSpells
 msgctxt "cff65a6a-ad85-44f4-9bf3-3700b0d9dc03"
 msgid "Hide unlearned spells"
-msgstr ""
+msgstr "배우지 않은 주문 숨기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/InvalidSpellLevel
 msgctxt "40d11668-957c-48e6-bbcd-2c8bafe48820"
@@ -17815,15 +17826,11 @@ msgid ""
 msgstr "이 주문을 주문책에 기록하려면 효과 레벨을 낮추어야 합니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/LeftClickForgetTooltipHint
-#, fuzzy
-#| msgid "Left-click to forget"
 msgctxt "c27fc1c1-9342-4c03-83c3-6ea0b174307c"
 msgid "Left-click to forget."
 msgstr "왼쪽 버튼을 눌러 잊기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/LeftClickMemorizeTooltipHint
-#, fuzzy
-#| msgid "Left-click to memorize"
 msgctxt "6b72ddd3-8a5c-40d9-875b-0abec95a29f2"
 msgid "Left-click to memorize."
 msgstr "왼쪽 버튼을 눌러 암기"
@@ -17836,39 +17843,27 @@ msgstr "레벨"
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/MaxLevel
 msgctxt "1b4553c8-3e5e-4c58-8362-da1b5d7b7279"
 msgid "Current caster level"
-msgstr ""
+msgstr "현재 시전자 레벨"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/MemorizePanelCantrips
-#, fuzzy
-#| msgid ""
-#| "Each day, wizards can prepare a number of cantrips, or level-0 spells. These "
-#| "spells are cast like any other spell, but they are not expended when cast "
-#| "and may be used again."
 msgctxt "c7e05da0-f09a-45f2-9258-80713f2ba65e"
 msgid ""
 "Each day, arcane spellcasters can prepare a number of cantrips, or level-0 "
 "spells. These spells are cast like any other spell, but they are not "
 "expended when cast and may be used again."
 msgstr ""
-"위저드는 매일 캔트립이라 불리는 0레벨 주문 몇 개를 준비할 수 있습니다. 이 "
-"주문은 다른 주문들과 똑같은 방식으로 시전할 수 있지만, 소모되지 않고 다시 "
-"사용할 수 있습니다."
+"비전 주문 시전자들은 매일 캔트립이라 불리는 0레벨 주문 몇 개를 준비할 수 있습니다. 이 주문은 다른 주문들과 똑같은 방식으로 시전할 "
+"수 있지만, 소모되지 않고 다시 사용할 수 있습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/MemorizePanelOrisons
-#, fuzzy
-#| msgid ""
-#| "Each day, clerics can prepare a number of orisons, or level-0 spells. These "
-#| "spells are cast like any other spell, but they are not expended when cast "
-#| "and may be used again."
 msgctxt "aa39dbed-19b8-4b0b-a327-0a78ece6eaca"
 msgid ""
 "Each day, divine spellcasters can prepare a number of orisons, or level-0 "
 "spells. These spells are cast like any other spell, but they are not "
 "expended when cast and may be used again."
 msgstr ""
-"클레릭은 매일 오리즌이라고 불리는 0레벨 주문 몇 개를 준비할 수 있습니다. 이 "
-"주문은 다른 주문들과 똑같은 방식으로 시전할 수 있지만, 소모되지 않고 다시 "
-"사용할 수 있습니다."
+"신성 주문 시전자들은 매일 오리즌이라고 불리는 0레벨 주문 몇 개를 준비할 수 있습니다. 이 주문은 다른 주문들과 똑같은 방식으로 시전할 "
+"수 있지만, 소모되지 않고 다시 사용할 수 있습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/MemorizedSpells
 msgctxt "e2b9e25e-f605-46e2-be6b-ff079e0e1fe7"
@@ -17913,7 +17908,7 @@ msgstr "<color=#FF0000> <b>반대 학파</b> (암기하기 위해 주문 슬롯 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/RemoveMetamagic
 msgctxt "06a5650f-a3e4-4d0d-b7c4-9ddf05e28f42"
 msgid "Remove metamagic"
-msgstr ""
+msgstr "메타매직 제거"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/ResultSpellLevel
 msgctxt "5a5eff37-0da7-4dbe-a467-193e29af4273"
@@ -17923,12 +17918,12 @@ msgstr "최종 주문 레벨"
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/SelectBorder
 msgctxt "fbedef71-4965-4c89-b2b0-3636951bc9aa"
 msgid "Select border"
-msgstr ""
+msgstr "가장자리 선택"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/SelectColor
 msgctxt "f750731e-bbf8-4878-bcc1-6ad7f8781090"
 msgid "Select color"
-msgstr ""
+msgstr "색상 선택"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/ShowPossibleSpells
 msgctxt "4077855a-7002-45ff-b891-d3420e342f6b"
@@ -17936,10 +17931,6 @@ msgid "Show all spells"
 msgstr "모든 주문 보기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/SpecializationSchoolTooltipHint
-#, fuzzy
-#| msgid ""
-#| "<color=#008000><b>Specialization school</b> (Uses special slots first, when "
-#| "memorized.)</color>"
 msgctxt "79486d32-79ee-4bd3-b01e-5c559c35cf0f"
 msgid ""
 "<color=#008000><b>Specialization school</b> (Uses special slots first, when "
@@ -17964,12 +17955,12 @@ msgstr "주문책"
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/SpellbookKnowledgeArcane
 msgctxt "6b2b6443-04d3-41b3-95ba-e31fda1de10c"
 msgid "Arcane Spellcaster"
-msgstr ""
+msgstr "비전 주문 시전자"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/SpellbookLoreReligion
 msgctxt "322e6587-715e-4636-ae2d-a239dc0e200b"
 msgid "Divine Spellcaster"
-msgstr ""
+msgstr "신성 주문 시전자"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/SpellBookTexts/SpellsPreparingAlchemist
 msgctxt "9a56d386-894f-42d9-b351-0af89fd999c5"
@@ -18028,22 +18019,23 @@ msgstr "이 공격으로 기록한 처치 수: {0}"
 #. LocalizedTexts/UserInterfacesText/UIStrings/TacticalCombatTexts/LeaderActionBarHint
 msgctxt "071fa512-70e8-44df-bed8-1d083637cd81"
 msgid "Action bar (leader)"
-msgstr ""
+msgstr "액션 바 (지휘관)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TacticalCombatTexts/Replay
 msgctxt "a8719a5b-bd2c-4d90-a22a-d87742defddc"
 msgid "Play manually"
-msgstr ""
+msgstr "수동으로 진행"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TacticalCombatTexts/SkipMove
+#, fuzzy
 msgctxt "bad8ae12-bd96-4fd4-9f4c-5ecff63163f1"
 msgid "[Draft] Skip Move"
-msgstr ""
+msgstr "[임시] 이동 넘기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TacticalCombatTexts/UnitActionBarHint
 msgctxt "72a6f683-3cc5-4e2c-b211-6fe6bf49a751"
 msgid "Action bar (unit)"
-msgstr ""
+msgstr "액션 바 (유닛)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TermsOfUseTexts/AcceptBtn
 msgctxt "af5fa82d-25ea-49ac-b50f-52966dd5af63"
@@ -18070,15 +18062,6 @@ msgid "Close"
 msgstr "닫기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TermsOfUseTexts/SubLicence
-#, fuzzy
-#| msgid ""
-#| "PATHFINDER: WRATH OF THE RIGHTEOUS includes Open Content available under "
-#| "Open Game License (<u><color=#703565><link=\"https://owlcatgames.com/"
-#| "OGLPFWotR\">OGLPFWotR</link></color></u>). You can find a complete "
-#| "description of Open Content and all related information locally in PDF "
-#| "format (<game installation folder>\\OGL) or on our site "
-#| "(<u><color=#703565><link=\"https:/owlcatgames.com/PFWotRCRPGRD\""
-#| ">PFWotRCRPGRD</link></color></u>)."
 msgctxt "1d4edb3e-4c7c-4bde-81a8-8020eaadfd60"
 msgid ""
 "PATHFINDER: WRATH OF THE RIGHTEOUS includes Open Content available under the "
@@ -18088,13 +18071,12 @@ msgid ""
 "on our website (<u><color=#703565><link=\"https://owlcat.games/PFWotRCRPGRD\""
 ">PFWotRCRPGRD</link></color></u>)."
 msgstr ""
-"PATHFINDER: WRATH OF THE RIGHTEOUS includes Open Content available under "
-"Open Game License (<u><color=#703565><link=\"https://owlcatgames.com/"
-"OGLPFWotR\">OGLPFWotR</link></color></u>). You can find a complete "
-"description of Open Content and all related information locally in PDF "
-"format (<game installation folder>\\OGL) or on our site "
-"(<u><color=#703565><link=\"https:/owlcatgames.com/PFWotRCRPGRD\""
-">PFWotRCRPGRD</link></color></u>)."
+"PATHFINDER: WRATH OF THE RIGHTEOUS 는 Open Game License 하에 공개된 컨텐츠들을 포함합니다 "
+"(<u><color=#703565><link=\"https://owlcatgames.com/OGLPFWotR\""
+">OGLPFWotR</link></color></u>). 당신은 공개 컨텐츠 및 그에 관계된 모든 정보를 PDF 파일 (<game "
+"installation folder>\\OGL) 또는 저희 사이트 (<u><color=#703565><link=\"https"
+":/owlcatgames.com/PFWotRCRPGRD\">PFWotRCRPGRD</link></color></u>) 에서 열람할 수 "
+"있습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TermsOfUseTexts/SubLicenceConsole
 msgctxt "ef97d6ab-73b5-464f-91e9-d09db501082e"
@@ -18106,6 +18088,12 @@ msgid ""
 "(<u><color=#703565><link=\"https://owlcat.games/PFWotRCRPGRD\""
 ">PFWotRCRPGRD</link></color></u>)."
 msgstr ""
+"PATHFINDER: WRATH OF THE RIGHTEOUS 는 Open Game License 하에 공개되어 사용 가능한 컨텐츠들을 "
+"포함합니다 (<u><color=#703565><link=\"https://owlcatgames.com/OGLPFWotR\""
+">OGLPFWotR</link></color></u>). 당신은 공개 컨텐츠 및 그에 관계된 모든 정보를 PDF 파일 (<game "
+"installation folder>\\OGL) 또는 저희 사이트 (<u><color=#703565><link=\"https"
+":/owlcatgames.com/PFWotRCRPGRD\">PFWotRCRPGRD</link></color></u>) 에서 열람할 수 "
+"있습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TermsOfUseTexts/SubLicenceSwitch
 msgctxt "6a555772-9924-4f53-8608-6006ced9840d"
@@ -18114,6 +18102,9 @@ msgid ""
 "Open Game License (<u><color=#703565><link=\"https://owlcat.games/OGLPFWotR\""
 ">OGLPFWotR</link></color></u>)."
 msgstr ""
+"PATHFINDER: WRATH OF THE RIGHTEOUS 는 Open Game License 하에 공개되어 사용 가능한 컨텐츠들을 "
+"포함합니다 (<u><color=#703565><link=\"https://owlcatgames.com/OGLPFWotR\""
+">OGLPFWotR</link></color></u>)."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/TimeTexts/TimeDay
 msgctxt "24392a49-f90f-4ec5-b58d-f57d02de5f82"
@@ -18253,7 +18244,7 @@ msgstr "캐릭터 레벨"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/ChoseCharacter
 msgctxt "2a7c5663-aeb9-4419-9d70-1bdecf730d28"
 msgid "Chose character"
-msgstr ""
+msgstr "캐릭터 선택"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/ClassBonus
 msgctxt "303328c4-0d1e-4c85-9403-4d91b1162b12"
@@ -18468,7 +18459,7 @@ msgstr "선택할 수 있는 항목 없음"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/NoOneInClasses
 msgctxt "9777aa56-2794-41fc-baee-f1b03b4a7f67"
 msgid "Doesn't have any of the following classes:"
-msgstr ""
+msgstr "다음의 클래스 레벨 없음:"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/NoPet
 msgctxt "89ea9095-bc3b-48fb-98cf-67fc6a2ee768"
@@ -18476,11 +18467,9 @@ msgid "No animal companion"
 msgstr "동물 동료 없음"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/NoProficiencies
-#, fuzzy
-#| msgid "Doesn't have the following proficiencies"
 msgctxt "cbb33d84-f995-4d90-80c8-523917b92df0"
 msgid "Doesn't have the following proficiencies:"
-msgstr "다음 숙련 없음"
+msgstr "다음의 숙련 없음:"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/NonMagicWeaponImmunity
 msgctxt "2966b545-9284-4238-8ed4-3a6170be4a3c"
@@ -18590,7 +18579,7 @@ msgstr "Shift+<size=150%><sprite name=RightMouseBTN></size> 확장"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/Skills
 msgctxt "c33228e5-e20a-4693-9d5f-849393a6c15d"
 msgid "Skills"
-msgstr ""
+msgstr "기술"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tooltips/Source
 msgctxt "a6ad451d-a08b-48e8-89c0-627e9ae3f879"
@@ -18884,12 +18873,13 @@ msgstr "튜토리얼 숨기기"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Tutorial/HideSimilarTutorials
 msgctxt "b90326ae-c52d-4429-a4c6-39e38e5b257a"
 msgid "Hide Similar Tutorials"
-msgstr ""
+msgstr "비슷한 튜토리얼 숨기기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/AspectHeader
+#, fuzzy
 msgctxt "94f9a066-93dc-4ab7-b075-4da64f51a56f"
 msgid "Aspect"
-msgstr ""
+msgstr "외관"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/ButtomDescription
 msgctxt "cd51b553-bcc3-4a7d-a1f3-874d2f09d04d"
@@ -18900,11 +18890,15 @@ msgid ""
 "<b>Normal issue</b>: all other issues except for critical issues.\n"
 "<b>Suggestion</b>: any ideas about how to improve the game experience."
 msgstr ""
+"<b>치명적 문제</b>: 크래시, 저장 파일 오염, 임무 완료 불가, 파티가 끼임, 캐릭터 성장을 막는 문제 등 게임 진행을 저해하는 "
+"문제들입니다.\n"
+"<b>일반 문제</b>: 치명적 문제를 제외한 모든 문제들입니다.\n"
+"<b>제안</b>: 게임 플레이 경험을 향상할 수 있는 아이디어 전반입니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/ClearButtonText
 msgctxt "9d149f1c-5f34-4b36-a11c-9884788d59cb"
 msgid "Clear"
-msgstr ""
+msgstr "비우기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/ConsoleDesctiptionHeader
 msgctxt "034dde03-f246-45c2-afb1-07162bac88ca"
@@ -18913,23 +18907,25 @@ msgid ""
 "the game after the dialogue with a character\" or \"Can't equip an item into "
 "a weapon slot.\""
 msgstr ""
+"버그에 대한 간단한 설명을 작성해주십시오. 예를 들면, \"캐릭터와 대화 진행 후 게임을 진행할 수 없음\" 이나 \"무기 슬롯에 아이템 "
+"착용 불가\" 와 같습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/ConsoleEmailUpdatesCheckBoxDescription
 msgctxt "8c4733f4-6f84-4361-9d4f-e9dd3fc00731"
 msgid ""
 "We will send you an email with a link to an online form where you can "
 "describe the issue in detail."
-msgstr ""
+msgstr "당신의 이메일로 문제에 관한 세부 사항을 상세히 설명할 수 있는 온라인 양식을 보내드리겠습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/ContextHeader
 msgctxt "f63445ac-6c77-4e51-bea8-e7b9d6e18e70"
 msgid "Context"
-msgstr ""
+msgstr "경위"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/CriticalTogle
 msgctxt "28897bb8-0641-4db0-bb90-57518ce2fc60"
 msgid "Critical"
-msgstr ""
+msgstr "치명적"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/DesctiptionHeader
 msgctxt "47e9d440-9ede-411b-8ee1-7630f624aca1"
@@ -18938,26 +18934,28 @@ msgid ""
 "for us to fix it.\n"
 "2. Help us reproduce the bug. What steps caused the bug to occur?"
 msgstr ""
+"1. 버그에 대해 설명해주십시오. 더 상세히 묘사해주실수록, 저희가 수정하는 것도 더 쉬워질 것입니다.\n"
+"2. 버그를 재현할 수 있도록 도와주십시오. 어떤 과정을 통해 버그가 발생하였습니까?"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/DiscordHeader
 msgctxt "10bbee44-949f-40fe-97c8-c743c2c65dea"
 msgid "Discord (optional)"
-msgstr ""
+msgstr "디스코드 (선택 사항)"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/EditScreenShotText
 msgctxt "e4ed252f-a2ac-4850-9281-0eb0524cf81e"
 msgid "Edit Screenshot"
-msgstr ""
+msgstr "스크린샷 편집"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/Email
 msgctxt "d66b8c52-df5f-46a7-beb1-a3f2103a6fd1"
 msgid "Email"
-msgstr ""
+msgstr "이메일"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/EmailHeader
 msgctxt "ca747f12-8140-45e4-93a9-5007ca7f3583"
 msgid "Please enter your email address here."
-msgstr ""
+msgstr "당신의 이메일 주소를 입력해주십시오."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/EmailUpdatesCheckBoxDescription
 msgctxt "b6d09257-7a54-4f57-8551-48d69e264727"
@@ -18965,18 +18963,20 @@ msgid ""
 "By checking this box, you agree to receive updates related to the game and "
 "other news from <link=\"pp\">Owlcat Games</link>."
 msgstr ""
+"여기에 체크하시면 <link=\"pp\">Owlcat Games</link>의 게임 및 기타 소식에 관한 최신 업데이트를 받으실 수 "
+"있습니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/Header
 msgctxt "8919e94c-446f-4def-be23-0b81010ada36"
 msgid "Bug Report"
-msgstr ""
+msgstr "오류 제보"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/HintText
 msgctxt "47c358ee-32fb-4f67-b59a-9cb480cbdca1"
 msgid ""
 "A screenshot, your save file, and your system specs will be sent along with "
 "this bug report."
-msgstr ""
+msgstr "스크린샷, 저장 파일 및 시스템 성능이 해당 버그 리포트와 함께 전송될 것입니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/InputLogDescription
 msgctxt "75f76d6a-cd18-4bc8-b40b-e7eb584c3e04"
@@ -18986,21 +18986,24 @@ msgid ""
 "response to keyboard input, enable this option, press the problematic keys, "
 "and then submit a bug report."
 msgstr ""
+"이 옵션을 활성하면 게임 로그에 포함된 당신의 키입력을 버그 리포트에 첨부합니다. 키보드 입력에 관한 문제를 겪으신다면, 이 옵션을 "
+"활성화하고, 문제가 있는 키를 누른 뒤, 버그 리포트를 전송해주십시오."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/InputLogEnabledTitle
 msgctxt "73737d60-f703-499e-ade2-a3a5c91aa486"
 msgid "Record keyboard input"
-msgstr ""
+msgstr "키보드 입력 녹화"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/NormalTogle
 msgctxt "1d5b0374-c7b4-41a5-be98-80a2f2baa80e"
 msgid "Normal"
-msgstr ""
+msgstr "일반"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/OpenBugReportText
+#, fuzzy
 msgctxt "4ce0a7e3-bcb6-4010-8f8c-f630f57451f9"
 msgid "To open this window, you can use the buttons"
-msgstr ""
+msgstr "이 창을 열려면 버튼을 사용하십시오"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/PrivacyCheckBoxDescription
 msgctxt "d7539815-983d-462e-9246-1d6806828f02"
@@ -19008,26 +19011,28 @@ msgid ""
 "By providing this bug report, you agree to the processing of the data it "
 "contains in accordance with the <link=\"pp\">Privacy Policy.</link>"
 msgstr ""
+"이 버그 리포트를 제공하시면 귀하께서는 <link=\"pp\">개인 정보 정책</link>과 관련된 데이터의 처리에 동의하게 됩니다."
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/SaveButtonText
 msgctxt "282731d5-6430-49bb-9762-17a7bca56765"
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/SendButton
 msgctxt "24558deb-4000-431e-a8ed-078d7118085a"
 msgid "Send"
-msgstr ""
+msgstr "전송"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/UIBugReport/SuggestionTogle
 msgctxt "3b908a98-797c-4759-94f3-577de701e1c5"
 msgid "Suggestion"
-msgstr ""
+msgstr "제안"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/BackToStash
+#, fuzzy
 msgctxt "7ec16b79-9f86-4dc2-8a97-dec900474563"
 msgid "Back to stash"
-msgstr ""
+msgstr "되돌리기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/BeforeClose
 msgctxt "4b576345-70d3-4427-b229-f686a6b811d7"
@@ -19047,7 +19052,7 @@ msgstr "거래!"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/Items
 msgctxt "debe2b31-0933-4b83-b27d-e1efaa22d0fc"
 msgid "Items"
-msgstr ""
+msgstr "물품"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/MassSell
 msgctxt "1f46058b-7e4e-4e8d-8a05-e464cf17e434"
@@ -19057,27 +19062,29 @@ msgstr "잡화 판매"
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/MassSellSettings
 msgctxt "4df8f363-fe0e-4f14-b4b2-7eec7b46cadd"
 msgid "Bulk Selling Settings"
-msgstr ""
+msgstr "일괄 판매 설정"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/MinusTen
+#, fuzzy
 msgctxt "89548714-0ce1-4771-9856-a2dbf14e6450"
 msgid "Minus ten"
-msgstr ""
+msgstr "10 감소"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/Off
 msgctxt "4b3dffd2-97a9-46d8-9e95-df914cdd6855"
 msgid "Off"
-msgstr ""
+msgstr "끄기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/On
 msgctxt "a3b5656e-fe79-4450-9923-a470b69cb964"
 msgid "On"
-msgstr ""
+msgstr "켜기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/PlusTen
+#, fuzzy
 msgctxt "12fd28bb-55e0-4e72-9757-588f9054de88"
 msgid "Plus ten"
-msgstr ""
+msgstr "10 증가"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/ReturnAll
 msgctxt "cd16383c-038f-4c1f-b6b8-00dad8d6739a"
@@ -19085,29 +19092,31 @@ msgid "Return"
 msgstr "대가"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/ReturnBuy
+#, fuzzy
 msgctxt "8ffde70e-f40a-428d-a029-8b846926aae1"
 msgid "Return Buying"
-msgstr ""
+msgstr "구매로 돌아가기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/ReturnSell
+#, fuzzy
 msgctxt "0b55d4b8-e2c9-4216-a05e-c75481665b6b"
 msgid "Return Selling"
-msgstr ""
+msgstr "판매로 돌아가기"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/SelectCharacter
 msgctxt "572c304d-0846-4dd9-b43b-2232d6015dd1"
 msgid "Select character"
-msgstr ""
+msgstr "캐릭터 선택"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/VendorOffer
 msgctxt "4a6d285f-aacb-4322-9f9c-15488f56b0c1"
 msgid "Vendor's Offer"
-msgstr ""
+msgstr "상인의 제안"
 
 #. LocalizedTexts/UserInterfacesText/UIStrings/Vendor/YourOffer
 msgctxt "1343b009-0301-4b42-b289-3764a159f280"
 msgid "Your Offer"
-msgstr ""
+msgstr "당신의 제안"
 
 #. LocalizedTexts/WarningNotification/WarningNotifications[10]/Text
 msgctxt "bff0ca93-cc46-497e-8eed-a136f001bbc5"
@@ -19760,13 +19769,6 @@ msgstr "마우스 오른쪽 버튼 기능"
 
 #. SettingsRoot/UISettingsRoot/Controls[0]/ControlsPointer/SettingsList[7]/RightButtonFunction/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/MouseRightButtonFunction/RightButtonFunction/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "Standard — right mouse button click duplicates the left mouse button click\n"
-#| "Force move — right mouse button click issues the \"move\" command\n"
-#| "RTS cursor — right mouse button click functions according to the classic "
-#| "real-time strategy algorithm: it issues either \"move\" or \"attack\" "
-#| "commands depending on the objects it hovers over"
 msgctxt "be56e0cb-fdd8-4673-8c68-7d2899f48731"
 msgid ""
 "Standard — right mouse button click duplicates the left mouse button click.\n"
@@ -19775,11 +19777,10 @@ msgid ""
 "real-time strategy algorithm: it issues either \"move\" or \"attack\" "
 "commands depending on the objects it hovers over."
 msgstr ""
-"표준 - 마우스 오른쪽 버튼 클릭이 마우스 왼쪽 버튼 클릭과 똑같아집니다.\n"
-"강제 이동 - 마우스 오른쪽 버튼을 클릭하면 \"이동\"명령이 실행됩니다. \n"
-"RTS 커서 - 마우스 오른쪽 버튼 클릭이 고전적인 실시간 전략 알고리즘에 따른 "
-"기능을 수행합니다: 마우스로 가리킨 객체에 따라 \"이동\"또는 \"공격\"명령을 "
-"내립니다"
+"표준 — 마우스 오른쪽 버튼 클릭이 마우스 왼쪽 버튼 클릭과 똑같아집니다.\n"
+"강제 이동 — 마우스 오른쪽 버튼을 클릭하면 \"이동\"명령이 실행됩니다. \n"
+"RTS 커서 — 마우스 오른쪽 버튼 클릭이 고전적인 실시간 전략 알고리즘에 따른 기능을 수행합니다: 마우스로 가리킨 객체에 따라 \"이동"
+"\"또는 \"공격\"명령을 내립니다"
 
 #. SettingsRoot/UISettingsRoot/Controls[0]/ControlsPointer/SettingsList[7]/RightButtonFunction/values[0]
 #. SettingsRoot/UISettingsRoot/Settings/MouseRightButtonFunction/RightButtonFunction/values[0]
@@ -19850,16 +19851,12 @@ msgstr "일시정지"
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[11]/QuickLoad/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/QuickLoad/QuickLoad/m_Description
-#, fuzzy
-#| msgid "Quick Load"
 msgctxt "6d90e34d-7339-426e-bf9f-a7288e98fe7a"
 msgid "Quickload"
 msgstr "빠른 블러오기"
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[12]/QuickSave/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/QuickSave/QuickSave/m_Description
-#, fuzzy
-#| msgid "Quick Save"
 msgctxt "2b445a05-daaa-4a60-aea9-37c9a3865432"
 msgid "Quicksave"
 msgstr "빠른 저장"
@@ -19950,43 +19947,30 @@ msgstr "턴 행동 변경"
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[25]/ChangeCursorAction/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/ChangeCursorAction/ChangeCursorAction/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "Pressing this button during the turn-based mode will switch actions "
-#| "available for the currently selected target. For example, full round attack "
-#| "action, or a single attack action and a move action."
 msgctxt "f332990b-ec44-41e9-9f3f-c3312a68845b"
 msgid ""
 "Pressing this button during the turn-based mode will switch actions "
 "available for the currently selected target. For example, full-round attack "
 "action, or a single attack action and a move action."
 msgstr ""
-"턴 기반 모드중 이 버튼을 누르면 현재 선택된 대상의 행동을 변경합니다. 예를 "
-"들면, 전력 공격 행동 또는, 단일 공격 행동 후 이동 행동과 같은 경우입니다."
+"턴 기반 모드중 이 버튼을 누르면 현재 선택된 대상의 행동을 변경합니다. 예를 들면, 전력 공격 행동 또는, 단일 공격 행동 후 이동 "
+"행동과 같은 경우입니다."
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[26]/ModifyMovementLimit/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/ModifyMovementLimit/ModifyMovementLimit/m_Description
-#, fuzzy
-#| msgid "Use 5-ft move while in the turn-based mode"
 msgctxt "c36f1898-b831-48a3-889d-8551a3cf6c0e"
 msgid "Use 5-ft. move while in the turn-based mode"
 msgstr "턴 기반 모드에서 5피트 이동 사용"
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[26]/ModifyMovementLimit/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/ModifyMovementLimit/ModifyMovementLimit/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "While this button is pressed, the character will use a 5-feet step action "
-#| "instead of a standard move action, if the 5-feet step action is still "
-#| "available during the current turn."
 msgctxt "407d7be2-f324-4ed2-8603-6c899eb217dd"
 msgid ""
 "While this button is pressed, the character will use a 5-foot-step action "
 "instead of a standard move action, if the 5-foot-step action is still "
 "available during the current turn."
 msgstr ""
-"이 버튼이 눌려있는 동안, 해당 턴에 5피트 이동을 할 수 있다면, 캐릭터는 일반 "
-"이동 행동 대신 5피트 이동 행동을 사용합니다."
+"이 버튼이 눌려있는 동안, 해당 턴에 5피트 이동을 할 수 있다면, 캐릭터는 일반 이동 행동 대신 5피트 이동 행동을 사용합니다."
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[27]/SkipBark/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/SkipBark/SkipBark/m_Description
@@ -19996,8 +19980,6 @@ msgstr "컷신중 대사 넘기기"
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[28]/SkipCutscene/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/SkipCutscene/SkipCutscene/m_Description
-#, fuzzy
-#| msgid "Skip Cutscene"
 msgctxt "0238d37e-97d9-49f9-9318-64b527526c86"
 msgid "Skip a cutscene"
 msgstr "컷신 넘기기"
@@ -20040,9 +20022,10 @@ msgstr "조사"
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[8]/TacticalCombatInspect/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/TacticalCombatInspect/TacticalCombatInspect/m_Description
+#, fuzzy
 msgctxt "0515054e-8e19-4273-b1e0-b46e81036cca"
 msgid "Tactical combat inspection"
-msgstr ""
+msgstr "전술 전투 조사"
 
 #. SettingsRoot/UISettingsRoot/Controls[1]/KeybindingsGeneral/SettingsList[9]/Unpause/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/Unpause/Unpause/m_Description
@@ -20105,11 +20088,9 @@ msgstr "대화 선택 1"
 
 #. SettingsRoot/UISettingsRoot/Controls[3]/KeybindingsDialog/SettingsList[10]/NextOrEnd/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/NextOrEnd/NextOrEnd/m_Description
-#, fuzzy
-#| msgid "Continue/end dialogue"
 msgctxt "a6581f57-4f5c-4ecc-bae9-0d0af1368ff6"
 msgid "Continue or end dialogue"
-msgstr "대화 계속 / 종료"
+msgstr "대화 계속 또는 종료"
 
 #. SettingsRoot/UISettingsRoot/Controls[3]/KeybindingsDialog/SettingsList[1]/DialogChoice2/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/DialogChoices[1]/DialogChoice2/m_Description
@@ -20582,13 +20563,6 @@ msgstr "동행 중인 동료만 경험치 받기"
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[16]/OnlyActiveCompanionsReceiveExperience/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[16]/OnlyActiveCompanionsReceiveExperience/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/OnlyActiveCompanionsReceiveExperience/OnlyActiveCompanionsReceiveExperience/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "If you enable this option, only companions in your current party will gain "
-#| "experience. If there are less than six companions, each of them will receive "
-#| "increased experience.\n"
-#| "Disable this option for all companions to gain experience, even if they are "
-#| "not in your current party."
 msgctxt "872833c0-80c4-4de7-b60e-fd45cdcfd22e"
 msgid ""
 "If you enable this option, only the companions that are currently in your "
@@ -20597,10 +20571,9 @@ msgid ""
 "Disable this option for all companions to gain experience, even if they are "
 "not in your current party."
 msgstr ""
-"이 옵션을 사용하면 현재 일행에 있는 동료만 경험치를 얻을 수 있습니다. 동료가 "
-"6명 미만인 경우, 각자가 더 많은 경험치를 받게됩니다. \n"
-"동행하지 않더라도 모든 동료가 경험치를 얻도록하려면 이 옵션을 "
-"비활성화하십시오."
+"이 옵션을 사용하면 현재 일행에 있는 동료만 경험치를 얻을 수 있습니다. 동료가 6명 미만인 경우, 각자가 더 많은 경험치를 받게됩니다. "
+"\n"
+"동행하지 않더라도 모든 동료가 경험치를 얻도록하려면 이 옵션을 비활성화하십시오."
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[17]/OnlyInitiatorReceiveSkillCheckExperience/m_Description
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[17]/OnlyInitiatorReceiveSkillCheckExperience/m_Description
@@ -20636,16 +20609,11 @@ msgstr "마지막 아즐란트인 모드"
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[18]/LastAzlantiMode/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/OnlyOneSave/LastAzlantiMode/m_TooltipDescription
 #. EnterActions/Actions[0]/ConditionsChecker/Conditions[1]/m_Setting/LastAzlantiMode/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "Only one save slot is available in this mode. The game saves automatically "
-#| "in key points and upon game exit."
 msgctxt "fd45f4bc-c5a8-4319-845a-85472c492082"
 msgid ""
 "Only one save slot is available in this mode. The game saves automatically "
 "at key points and upon exiting the game."
-msgstr "이 모드에서는 오직 하나의 저장 슬롯만을 사용할 수 있습니다. 중요 지점을 "
-"지나거나 게임을 종료할 때 자동으로 저장됩니다."
+msgstr "이 모드에서는 오직 하나의 저장 슬롯만을 사용할 수 있습니다. 중요 지점을 지날 때와 게임을 종료할 때 자동으로 저장됩니다."
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[1]/CriticalHits/m_Description
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[1]/CriticalHits/m_Description
@@ -20773,8 +20741,6 @@ msgstr "이 옵션을 켜면 전투가 끝났을 때 겁먹음, 마비와 같은
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[6]/AutoLevelup/m_Description
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[6]/AutoLevelup/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/AutoLevelUp/AutoLevelup/m_Description
-#, fuzzy
-#| msgid "Auto Level Up"
 msgctxt "b4470c4e-a785-4849-bee6-f7f78c1e37e9"
 msgid "Auto level-up"
 msgstr "자동 레벨 업"
@@ -20782,17 +20748,6 @@ msgstr "자동 레벨 업"
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[6]/AutoLevelup/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[6]/AutoLevelup/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/AutoLevelUp/AutoLevelup/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "Toggles automatic leveling-up for party members. When on, gaining levels "
-#| "happens automatically, and you can monitor how the hero's skills and "
-#| "abilities develop. You can turn off automatic leveling-up for any companion, "
-#| "but then you'll have to manage their development for the remainder of the "
-#| "game.\n"
-#| "<b>Off</b> — custom leveling-up of all characters.\n"
-#| "<b>Companions</b> — custom leveling-up of player's character. Companions are "
-#| "leveled-up automatically.\n"
-#| "<b>All possible</b> — all characters are leveled-up automatically."
 msgctxt "0d396ea6-ed41-4e83-a778-9cff2e40fe6d"
 msgid ""
 "Toggles automatic leveling-up for party members. When on, gaining levels "
@@ -20805,13 +20760,10 @@ msgid ""
 "leveled-up automatically.\n"
 "<b>All possible</b> — all characters are leveled up automatically."
 msgstr ""
-"일행의 자동 레벨 업을 설정합니다. 켜져 있으면 레벨 획득이 자동으로 "
-"이루어지며, 영웅의 기술과 능력이 어떻게 발전했는지 볼 수 있습니다. 각 동료의 "
-"자동 레벨 업을 해제할 수 있지만, 이후의 레벨 업은 수동으로 해야하며 다시 "
-"활성화할 수 없습니다.\n"
+"일행의 자동 레벨 업을 설정합니다. 켜져 있으면 레벨 획득이 자동으로 이루어지며, 영웅의 기술과 능력이 어떻게 발전했는지 볼 수 "
+"있습니다. 각 동료의 자동 레벨 업을 해제할 수 있지만, 이후의 레벨 업은 수동으로 해야하며 다시 활성화할 수 없습니다.\n"
 "<b>끄기</b> — 모든 캐릭터를 수동으로 레벨 업 합니다.\n"
-"<b>동료만</b> — 플레이어 캐릭터만 수동으로 레벨 업 합니다. 동료들은 자동으로 "
-"레벨 업 됩니다.\n"
+"<b>동료만</b> — 플레이어 캐릭터만 수동으로 레벨 업 합니다. 동료들은 자동으로 레벨 업 됩니다.\n"
 "<b>모두</b> — 모든 캐릭터가 자동으로 레벨 업 됩니다."
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[6]/AutoLevelup/values[0]
@@ -20941,9 +20893,8 @@ msgid ""
 "have even more enemies, and some enemies will be replaced with more powerful "
 "ones."
 msgstr ""
-"전투 조우 당 적의 규모와 강함을 조정합니다. \"소규모\" 모드라면, 많은 "
-"전투에서 적의 숫자가 감소합니다. \"대규모\" 모드에선 대부분의 도전적인 "
-"전투에 더 많은 적을 배치하며, 일부 적들은 강화된 개체로 대체됩니다."
+"전투 조우 당 적의 규모와 강함을 조정합니다. \"강화됨\" 모드에선 대부분의 도전적인 전투에 더 많은 적을 배치하며, 일부 적들은 "
+"강화된 개체로 대체됩니다."
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/SettingsList[9]/CombatEncountersCapacity/values[0]
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/SettingsList[9]/CombatEncountersCapacity/values[0]
@@ -20959,7 +20910,7 @@ msgstr "표준"
 #| msgid "Enlarged"
 msgctxt "6468039f-1e0d-4194-b280-5537aebe0b92"
 msgid "Increased"
-msgstr "대규모"
+msgstr "강화됨"
 
 #. SettingsRoot/UISettingsRoot/DifficultySettings[0]/DifficultySettingsGroup/Title
 msgctxt "75487543-aba7-4c82-b55b-fdd33d9e4912"
@@ -21004,17 +20955,15 @@ msgstr "Español"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[0]/GameMainSettingsGroup/SettingsList[0]/Localization/values[5]
 #. SettingsRoot/UISettingsRoot/Settings/Localization/Localization/values[5]
-#, fuzzy
-#| msgid "简体中文"
 msgctxt "9764195d-bca0-4340-97a3-a2729796c528"
 msgid "Chinese"
-msgstr "简体中文"
+msgstr "중국어"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[0]/GameMainSettingsGroup/SettingsList[10]/CameraRotationSpeed/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/CameraRotationSpeed/CameraRotationSpeed/m_Description
 msgctxt "f75ce443-3348-4a45-ab85-64671f035b71"
 msgid "Camera rotation speed"
-msgstr ""
+msgstr "카메라 회전 속도"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[0]/GameMainSettingsGroup/SettingsList[11]/ImmersiveMode/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/ImmersiveMode/ImmersiveMode/m_Description
@@ -21170,41 +21119,37 @@ msgstr "게임 설정"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[1]/GameSaveSettingsGroup/SettingsList[0]/AutosaveEnabled/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/AutosaveEnabled/AutosaveEnabled/m_Description
-#, fuzzy
-#| msgid "Auto Save Enabled"
 msgctxt "bc007cad-a834-4416-9fe8-660ba52f012a"
 msgid "Autosave enabled"
 msgstr "자동 저장 활성화"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[1]/GameSaveSettingsGroup/SettingsList[1]/AutosaveSlots/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/AutosaveSlots/AutosaveSlots/m_Description
-#, fuzzy
-#| msgid "Auto Save Slots"
 msgctxt "498d14aa-d29d-46c6-9eee-406fb2517de2"
 msgid "Autosave slots"
-msgstr "자동 저장 칸"
+msgstr "자동 저장 슬롯"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[1]/GameSaveSettingsGroup/SettingsList[2]/QuicksaveSlots/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/QuicksaveSlots/QuicksaveSlots/m_Description
-#, fuzzy
-#| msgid "Quick Save Slots"
 msgctxt "fe21dfa6-e225-43d8-ab2d-3622c35ef14b"
 msgid "Quicksave slots"
-msgstr "빠른 저장 칸"
+msgstr "빠른 저장 슬롯"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[1]/GameSaveSettingsGroup/SettingsList[3]/OfferToImportSaves/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/OfferToImportSaves/OfferToImportSaves/m_Description
+#, fuzzy
 msgctxt "a19c8483-76cd-42a9-96a6-1cd68795b0f1"
 msgid "Offer importing from completed DLC campaigns"
-msgstr ""
+msgstr "완료된 DLC 캠페인의 정보를 불러올 것을 제안함"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[1]/GameSaveSettingsGroup/SettingsList[3]/OfferToImportSaves/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/OfferToImportSaves/OfferToImportSaves/m_TooltipDescription
+#, fuzzy
 msgctxt "f998d67a-5f52-4351-ac09-4c9c4948816e"
 msgid ""
 "Offer to import characters and decisions from completed DLC campaigns as "
 "soon as the opportunity arises."
-msgstr ""
+msgstr "기회가 생기는 즉시 완료된 DLC 캠페인의 캐릭터와 결정들을 불러올 것을 제안합니다."
 
 #. SettingsRoot/UISettingsRoot/GameSettings[1]/GameSaveSettingsGroup/Title
 msgctxt "4d6957dc-fe58-49df-a526-b8d0a6417cc8"
@@ -21263,7 +21208,7 @@ msgstr "부대 튜토리얼"
 #. SettingsRoot/UISettingsRoot/Settings/ShowContextTutorial/ContextTutorial/m_Description
 msgctxt "5a2a3191-ef31-4512-a530-1997c2d7f482"
 msgid "Context tutorial"
-msgstr ""
+msgstr "상황별 튜토리얼"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[2]/Tutorial/Title
 msgctxt "37887880-389e-46f1-87db-5632a8ba1932"
@@ -21808,8 +21753,6 @@ msgstr "항상"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[6]/GameOvertipPlayer/SettingsList[2]/HPBarForCompanionsIsShort/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/PartyHPIsShort/HPBarForCompanionsIsShort/m_Description
-#, fuzzy
-#| msgid "Show text HP instead on HP bar for party members"
 msgctxt "b9250063-e1d7-44e8-890a-54e2bd90b63c"
 msgid "Show text HP instead of HP bar for party members"
 msgstr "일행의 HP를 체력바 대신 숫자로 표시"
@@ -22182,8 +22125,6 @@ msgstr "항상"
 
 #. SettingsRoot/UISettingsRoot/GameSettings[7]/GameOvertipEnemies/SettingsList[2]/HPBarForEnemiesIsShort/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/EnemyHPIsShort/HPBarForEnemiesIsShort/m_Description
-#, fuzzy
-#| msgid "Show text HP instead on HP bar for enemies"
 msgctxt "4cf7ced7-47dd-4deb-a140-4525c970961c"
 msgid "Show text HP instead of HP bar for enemies"
 msgstr "적의 HP를 체력바 대신 숫자로 표시"
@@ -22820,16 +22761,11 @@ msgstr "피사계 심도"
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[1]/GraphicsQualitySettingsGroup/SettingsList[4]/DepthOfField/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/DepthOfField/DepthOfField/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "Depth of Focus (DoF). Objects will look sharp only in the focal field and "
-#| "blurred if they're closer or farther away."
 msgctxt "6279200c-1ea7-4d9e-bed6-f38021ff7662"
 msgid ""
 "Depth of Field (DoF). Objects will look sharp only in the focal field and "
 "blurred if they're closer or farther away."
-msgstr "초점 심도 (DoF). 물체는 초점 필드에서만 선명하게 보일 것이며, 더 가까이 "
-"있거나 멀어지면 흐려질 것입니다."
+msgstr "피사계 심도 (DoF). 물체는 초점 필드에서만 선명하게 보일 것이며, 더 가까이 있거나 멀어지면 흐려질 것입니다."
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[1]/GraphicsQualitySettingsGroup/SettingsList[5]/Bloom/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/Bloom/Bloom/m_Description
@@ -22926,11 +22862,9 @@ msgstr "감마 조정"
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[0]/GammaCorrectionWithImages/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/GammaCorrection/GammaCorrectionWithImages/m_TooltipDescription
-#, fuzzy
-#| msgid "Adjusts the color scheme to your monitor."
 msgctxt "afd7f933-3d89-473d-9e09-51e174e0f0ba"
 msgid "Adjusts the color scheme to your screen."
-msgstr "모니터의 배색을 조정합니다."
+msgstr "화면의 배색을 조정합니다."
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[1]/Contrast/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/Contrast/Contrast/m_Description
@@ -22940,11 +22874,9 @@ msgstr "대비"
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[1]/Contrast/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/Contrast/Contrast/m_TooltipDescription
-#, fuzzy
-#| msgid "Adjusts the contrast to your monitor."
 msgctxt "57d45986-7c2f-4de6-8270-4da704eeecc1"
 msgid "Adjusts the contrast to your screen."
-msgstr "모니터의 대비를 조정합니다."
+msgstr "화면의 대비를 조정합니다."
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[2]/Protanopia/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/Protanopia/Protanopia/m_Description
@@ -22954,11 +22886,9 @@ msgstr "적색맹"
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[2]/Protanopia/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/Protanopia/Protanopia/m_TooltipDescription
-#, fuzzy
-#| msgid "Adjusts the protanopia to your monitor."
 msgctxt "3955e52d-c4b8-4396-adae-14e48c550570"
 msgid "Adjusts the protanopia to your screen."
-msgstr "적색맹 필터를 적용합니다."
+msgstr "화면에 적색맹 필터를 적용합니다."
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[3]/Deuteranopia/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/Deuteranopia/Deuteranopia/m_Description
@@ -22968,11 +22898,9 @@ msgstr "녹색맹"
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[3]/Deuteranopia/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/Deuteranopia/Deuteranopia/m_TooltipDescription
-#, fuzzy
-#| msgid "Adjusts the deuteranopia to your monitor."
 msgctxt "480e2ed7-d29d-48a5-8c9a-dc38991f30e3"
 msgid "Adjusts the deuteranopia to your screen."
-msgstr "녹색맹 필터를 적용합니다."
+msgstr "화면에 녹색맹 필터를 적용합니다."
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[4]/Tritanopia/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/Tritanopia/Tritanopia/m_Description
@@ -22982,11 +22910,9 @@ msgstr "청색맹"
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/SettingsList[4]/Tritanopia/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/Tritanopia/Tritanopia/m_TooltipDescription
-#, fuzzy
-#| msgid "Adjusts the tritanopia to your monitor."
 msgctxt "28d2159b-c8a2-4494-aecd-f64ede169eec"
 msgid "Adjusts the tritanopia to your screen."
-msgstr "청색맹 필터를 적용합니다."
+msgstr "화면에 청색맹 필터를 적용합니다."
 
 #. SettingsRoot/UISettingsRoot/GraphicsSettings[2]/GraphicsVisualPerceptionSettingsGroup/Title
 msgctxt "58883e4d-a986-4a6d-bdc7-e5ae805cf4ed"
@@ -22999,11 +22925,9 @@ msgid "Brightness"
 msgstr "밝기"
 
 #. SettingsRoot/UISettingsRoot/Settings/Brightness/Brightness/m_TooltipDescription
-#, fuzzy
-#| msgid "Adjusts the brightness to your monitor."
 msgctxt "c3cf2bb3-786e-4e19-a274-765e9a9b65fc"
 msgid "Adjusts the brightness to your screen."
-msgstr "모니터의 밝기를 조정합니다."
+msgstr "화면의 밝기를 조정합니다."
 
 #. SettingsRoot/UISettingsRoot/Settings/CanSeeTheirClassSpecificClothes/SCCCanSeeTheirClassSpecificClothes/m_Description
 msgctxt "06e5453d-b900-4c2f-9a01-43412eebc67f"
@@ -23033,17 +22957,6 @@ msgid "Enemy difficulty"
 msgstr "적 난이도"
 
 #. SettingsRoot/UISettingsRoot/Settings/EnemyDifficulty/EnemyDifficulty/m_TooltipDescription
-#, fuzzy
-#| msgid ""
-#| "This option determines whether the ability values of enemies are diminished "
-#| "or increased.\n"
-#| "<b>Weak</b> enemies have their ability scores reduced by 4 and their Attack "
-#| "Bonus, and AC will be reduced by 2.\n"
-#| "<b>Normal</b> enemies have their ability scores unchanged.\n"
-#| "<b>Strengthened</b> enemies have their ability scores increased by 4, and "
-#| "their Attack Bonus and AC will be increased by 2.\n"
-#| "<b>Insane</b> enemies have their ability scores increased by 8, and their "
-#| "Attack Bonus and AC will be increased by 4."
 msgctxt "302c1033-9baa-4135-a428-4ef3df66fb45"
 msgid ""
 "This option determines whether the ability values of enemies are diminished "
@@ -23057,13 +22970,10 @@ msgid ""
 "base attack bonus and AC will be increased by 4."
 msgstr ""
 "이 설정은 적의 능력치의 증감 정도를 결정합니다.\n"
-"<b>약함</b> — 적들의 모든 능력치가 4만큼 감소하고 공격 보너스와 AC가 2만큼 "
-"감소합니다.\n"
+"<b>약함</b> — 적들의 모든 능력치가 4만큼 감소하고 기본 공격 보너스와 AC가 2만큼 감소합니다.\n"
 "<b>보통</b> — 적들의 능력치에 변동이 없습니다.\n"
-"<b>강함</b> — 적들의 모든 능력치가 4만큼 증가하고, 공격 보너스와 AC가 2만큼 "
-"증가합니다.\n"
-"<b>매우 강함</b> — 적들의 모든 능력치가 8만큼 증가하고, 공격 보너스와 AC가 "
-"4만큼 증가합니다."
+"<b>강함</b> — 적들의 모든 능력치가 4만큼 증가하고, 기본 공격 보너스와 AC가 2만큼 증가합니다.\n"
+"<b>매우 강함</b> — 적들의 모든 능력치가 8만큼 증가하고, 기본 공격 보너스와 AC가 4만큼 증가합니다."
 
 #. SettingsRoot/UISettingsRoot/Settings/EnemyDifficulty/EnemyDifficulty/values[0]
 msgctxt "be5c5526-b72e-496f-abca-f4b09812dcb1"
@@ -23171,8 +23081,6 @@ msgstr "전체 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[0]/SoundVolumeMaster/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeMaster/SoundVolumeMaster/m_TooltipDescription
-#, fuzzy
-#| msgid "Move slider to change the volume of all voices and effects."
 msgctxt "24a238f1-7f27-40dc-95be-e82811f6baf8"
 msgid "Move the slider to change the volume of all voices and effects."
 msgstr "슬라이더를 움직여 모든 음성과 효과음 볼륨을 변경합니다."
@@ -23185,8 +23093,6 @@ msgstr "환경 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[1]/SoundVolumeAmbience/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeAmbience/SoundVolumeAmbience/m_TooltipDescription
-#, fuzzy
-#| msgid "Move slider to change the volume of ambient sounds."
 msgctxt "c660273d-5ce1-4bdf-a2d2-f43fd7e6b7dc"
 msgid "Move the slider to change the volume of ambient sounds."
 msgstr "슬라이더를 움직여 주변 환경 볼륨을 변경합니다."
@@ -23199,8 +23105,6 @@ msgstr "음악 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[2]/SoundVolumeMusic/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeMusic/SoundVolumeMusic/m_TooltipDescription
-#, fuzzy
-#| msgid "Move slider to change the music volume."
 msgctxt "e8cfeaab-457b-4a71-9f6e-dc353c3daa01"
 msgid "Move the slider to change the volume of music."
 msgstr "슬라이더를 움직여 음악 볼륨을 변경합니다."
@@ -23209,13 +23113,13 @@ msgstr "슬라이더를 움직여 음악 볼륨을 변경합니다."
 #. SettingsRoot/UISettingsRoot/Settings/VolumeSFX/SoundVolumeSFX/m_Description
 msgctxt "16b5231c-bfb0-4510-96b7-20106c6857c0"
 msgid "Sound effects volume"
-msgstr ""
+msgstr "음향 효과 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[3]/SoundVolumeSFX/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeSFX/SoundVolumeSFX/m_TooltipDescription
 msgctxt "4366503e-b1d6-4413-9ffd-598c02c79d99"
 msgid "Move the slider to change the volume of sound effects."
-msgstr ""
+msgstr "슬라이더를 움직여 음향 효과 볼륨을 변경합니다."
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[4]/SoundVolumeVoices/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/VolumeVoices/SoundVolumeVoices/m_Description
@@ -23225,8 +23129,6 @@ msgstr "음성 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[4]/SoundVolumeVoices/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeVoices/SoundVolumeVoices/m_TooltipDescription
-#, fuzzy
-#| msgid "Move slider to change the volume of voices."
 msgctxt "a1149d18-3b82-4171-94e8-9090818c18ce"
 msgid "Move the slider to change the volume of voices."
 msgstr "슬라이더를 움직여 음성 볼륨을 변경합니다."
@@ -23235,13 +23137,13 @@ msgstr "슬라이더를 움직여 음성 볼륨을 변경합니다."
 #. SettingsRoot/UISettingsRoot/Settings/VolumeDialogue/SoundVolumeDialogue/m_Description
 msgctxt "30af99c4-b0eb-4fd3-804a-81a1fd3fb57e"
 msgid "Dialogue volume"
-msgstr ""
+msgstr "대사 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[5]/SoundVolumeDialogue/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeDialogue/SoundVolumeDialogue/m_TooltipDescription
 msgctxt "95c2f839-ab59-4dc0-93ca-89df1e1f1399"
 msgid "Move the slider to change the volume of dialogue."
-msgstr ""
+msgstr "슬라이더를 움직여 대사 볼륨을 변경합니다."
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[6]/SoundVolumeMagicChants/m_Description
 #. SettingsRoot/UISettingsRoot/Settings/VolumeMagicChants/SoundVolumeMagicChants/m_Description
@@ -23251,8 +23153,6 @@ msgstr "마법 영창 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[6]/SoundVolumeMagicChants/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeMagicChants/SoundVolumeMagicChants/m_TooltipDescription
-#, fuzzy
-#| msgid "Move slider to change the volume of magic chant sounds."
 msgctxt "1a8162ef-8985-4a6e-8b4d-b2a3af449c67"
 msgid "Move the slider to change the volume of magic chant sounds."
 msgstr "슬라이더를 움직여 마법 영창 볼륨을 변경합니다."
@@ -23265,8 +23165,6 @@ msgstr "사용자 인터페이스 볼륨"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[7]/SoundVolumeUI/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeUI/SoundVolumeUI/m_TooltipDescription
-#, fuzzy
-#| msgid "Move slider to change the volume of user interface"
 msgctxt "20b89e20-90c1-43fe-b98b-f5a19e65fd10"
 msgid "Move the slider to change the volume of user interface."
 msgstr "슬라이더를 움직여 사용자 인터페이스의 볼륨을 변경합니다."
@@ -23275,13 +23173,13 @@ msgstr "슬라이더를 움직여 사용자 인터페이스의 볼륨을 변경�
 #. SettingsRoot/UISettingsRoot/Settings/VolumeBoost/SoundVolumeBoost/m_Description
 msgctxt "52d09b59-aec8-40f8-89e6-f6d54ac77bb1"
 msgid "Double volume"
-msgstr ""
+msgstr "볼륨 두 배"
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/SettingsList[8]/SoundVolumeBoost/m_TooltipDescription
 #. SettingsRoot/UISettingsRoot/Settings/VolumeBoost/SoundVolumeBoost/m_TooltipDescription
 msgctxt "8c59ade7-a24d-433b-b487-ba9e0a88c68b"
 msgid "Doubles the master volume."
-msgstr ""
+msgstr "마스터 볼륨을 두 배로 높입니다."
 
 #. SettingsRoot/UISettingsRoot/SoundSettings[0]/SoundVolumeSettingsGroup/Title
 msgctxt "fe85af60-34a9-4e8f-ada9-b3ba7095dd68"
@@ -23362,199 +23260,204 @@ msgstr "게임 초반에 튜토리얼을 표시합니다. 게임 중에 언제�
 #. SettingsRoot/UISettingsRoot/StartGame[0]/StartGameDifficultySettingsGroup/Title
 msgctxt "f4086a6a-9cbd-484e-a784-e8588b15cdbd"
 msgid "Game difficulty"
-msgstr ""
+msgstr "게임 난이도"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/DepthOfFieldSettings[0]/PhotoModeDepthOfField/SettingsList[0]/EnableDepthOfField/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/EnableDepthOfField/EnableDepthOfField/m_Description
 msgctxt "915b0b29-385f-42bd-be15-237a20b8f83d"
 msgid "Enable depth of field"
-msgstr ""
+msgstr "피사계 심도 활성"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/DepthOfFieldSettings[0]/PhotoModeDepthOfField/SettingsList[1]/FocusDistance/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/FocusDistance/FocusDistance/m_Description
+#, fuzzy
 msgctxt "b1cd4d83-54d3-41c2-82ca-4377a2df9d35"
 msgid "Focus distance"
-msgstr ""
+msgstr "초점 거리"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/DepthOfFieldSettings[0]/PhotoModeDepthOfField/SettingsList[2]/FocalLength/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/FocalLength/FocalLength/m_Description
+#, fuzzy
 msgctxt "ffeed194-afa8-4371-934e-2fd54a5481ef"
 msgid "Focal length"
-msgstr ""
+msgstr "초점 길이"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/DepthOfFieldSettings[0]/PhotoModeDepthOfField/SettingsList[3]/Aperture/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Aperture/Aperture/m_Description
+#, fuzzy
 msgctxt "ff0ef3ed-70d1-4fab-b342-b6e23e1050db"
 msgid "Aperture"
-msgstr ""
+msgstr "조리개"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/DepthOfFieldSettings[0]/PhotoModeDepthOfField/Title
 msgctxt "205b9a38-5589-4682-8481-a1a528cd9c05"
 msgid "Depth of field"
-msgstr ""
+msgstr "피사계 심도"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/FrameSettings[0]/PhotoModeFramesSettings/SettingsList[1]/FramesInt/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Frames/FramesInt/m_Description
 msgctxt "b1cc1c01-4150-435a-9e65-582028ef0dcb"
 msgid "Frames"
-msgstr ""
+msgstr "프레임"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/FrameSettings[0]/PhotoModeFramesSettings/Title
 msgctxt "f921da76-0684-4412-9a58-70c24a26c38a"
 msgid "Frames"
-msgstr ""
+msgstr "프레임"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/GrainSettings[0]/PhotoModeGrain/SettingsList[1]/GrainType/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/GrainType/GrainType/m_Description
 msgctxt "4f618c3c-699d-432d-bf7a-64ba956c9677"
 msgid "Film grain type"
-msgstr ""
+msgstr "필름 그레인 유형"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/GrainSettings[0]/PhotoModeGrain/SettingsList[2]/GrainIntensity/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/GrainIntensity/GrainIntensity/m_Description
 msgctxt "e1fe1f35-a3c1-43b1-b79c-db7d32b660c2"
 msgid "Intensity"
-msgstr ""
+msgstr "강도"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/GrainSettings[0]/PhotoModeGrain/Title
 msgctxt "cc0438a6-61d3-4964-a82c-6331c7a494ff"
 msgid "Film grain"
-msgstr ""
+msgstr "필름 그레인"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/IconsSettings[0]/PhotoModeIconsSettings/SettingsList[1]/IconsPlace/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/IconsPlace/IconsPlace/m_Description
 msgctxt "4ab9c37e-9693-45d0-8d9e-aeab7ac7d4bb"
 msgid "Current logo"
-msgstr ""
+msgstr "현재 로고"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/IconsSettings[0]/PhotoModeIconsSettings/SettingsList[2]/SelectedIconEnable/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/SelectedIconEnable/SelectedIconEnable/m_Description
 msgctxt "60b78e0b-373e-43dd-b441-21978da3e582"
 msgid "Show current logo"
-msgstr ""
+msgstr "현재 로고 보기"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/IconsSettings[0]/PhotoModeIconsSettings/SettingsList[3]/Icons/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Icons/Icons/m_Description
 msgctxt "1e411973-2950-4443-b431-556f0717f6e8"
 msgid "Logo selection"
-msgstr ""
+msgstr "로고 선택"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/IconsSettings[0]/PhotoModeIconsSettings/SettingsList[7]/IconScale/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/IconsScale/IconScale/m_Description
 msgctxt "3ba9ea47-a453-4229-a3ce-5e9ef6063222"
 msgid "Size"
-msgstr ""
+msgstr "크기"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/IconsSettings[0]/PhotoModeIconsSettings/Title
 msgctxt "5e0c2c63-081c-4c44-97c9-7f6740d6c51b"
 msgid "Logos settings"
-msgstr ""
+msgstr "로고 설정"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/OtherSettings[0]/PhotoModeOtherSettings/SettingsList[0]/PostExposure/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/PostExposure/PostExposure/m_Description
+#, fuzzy
 msgctxt "d943161a-7751-4722-a564-5b52addba9e1"
 msgid "Post exposure"
-msgstr ""
+msgstr "사후 노출"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/OtherSettings[0]/PhotoModeOtherSettings/SettingsList[1]/Contrast/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Contrast/Contrast/m_Description
 msgctxt "9bce778e-55cf-45ed-880c-33dc798fbf66"
 msgid "Contrast"
-msgstr ""
+msgstr "대비"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/OtherSettings[0]/PhotoModeOtherSettings/SettingsList[2]/Saturation/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Saturation/Saturation/m_Description
 msgctxt "8492c582-93a9-461f-8a92-073370480def"
 msgid "Saturation"
-msgstr ""
+msgstr "포화"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/OtherSettings[0]/PhotoModeOtherSettings/SettingsList[3]/Temperature/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Temperature/Temperature/m_Description
 msgctxt "0cbbaa2d-66c0-4e1f-b644-d9eb94364425"
 msgid "Temperature"
-msgstr ""
+msgstr "온도"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/OtherSettings[0]/PhotoModeOtherSettings/SettingsList[4]/ChromaticAberration/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/ChromaticAberration/ChromaticAberration/m_Description
 msgctxt "030a3b0b-de9a-458c-b131-5a7e411db368"
 msgid "Chromatic aberration"
-msgstr ""
+msgstr "색 수차"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/OtherSettings[0]/PhotoModeOtherSettings/SettingsList[5]/Sepia/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Sepia/Sepia/m_Description
 msgctxt "f80b3f2a-343f-4faf-9331-af83b8db69eb"
 msgid "Sepia"
-msgstr ""
+msgstr "세피아"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/OtherSettings[0]/PhotoModeOtherSettings/Title
 msgctxt "62688903-80f1-4c3f-93d0-cc6f783d0403"
 msgid "Other"
-msgstr ""
+msgstr "기타"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/SkyBoxSettings[0]/PhotoModeSkyBoxSettings/SettingsList[1]/SkyBoxSelect/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/SkyBoxes/SkyBoxSelect/m_Description
+#, fuzzy
 msgctxt "6b05f59c-ac88-4ee8-9dbf-47d277ebd328"
 msgid "Skybox selection"
-msgstr ""
+msgstr "스카이박스 선택"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/StickersSettings[0]/PhotoModeStickersSettings/SettingsList[1]/StickersSelective/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/StickersSelective/StickersSelective/m_Description
 msgctxt "62e3b7a8-e527-4a28-a82c-ed32ca709f2d"
 msgid "Current sticker"
-msgstr ""
+msgstr "현재 스티커"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/StickersSettings[0]/PhotoModeStickersSettings/SettingsList[2]/SelectedStickerEnable/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/SelectedStickersEnable/SelectedStickerEnable/m_Description
 msgctxt "81d103ac-3467-49f7-b06f-888796115dbf"
 msgid "Show current sticker"
-msgstr ""
+msgstr "현재 스티커 보이기"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/StickersSettings[0]/PhotoModeStickersSettings/SettingsList[3]/StickersInt/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Stickers/StickersInt/m_Description
 msgctxt "542129d0-1045-47f3-ac3a-fc9cfb8881b2"
 msgid "Sticker selection"
-msgstr ""
+msgstr "스티커 선택"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/StickersSettings[0]/PhotoModeStickersSettings/SettingsList[6]/StickersScale/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/StickerScale/StickersScale/m_Description
 msgctxt "ebbf4ebe-ec16-4833-9295-50966fcd2392"
 msgid "Sticker size"
-msgstr ""
+msgstr "스티커 크기"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/StickersSettings[0]/PhotoModeStickersSettings/SettingsList[7]/StickersRotation/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/StickerRotation/StickersRotation/m_Description
 msgctxt "d25f8ed9-7b0c-4d11-832d-4a9fa00d9f22"
 msgid "Sticker rotation"
-msgstr ""
+msgstr "스티커 회전"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/VignetteSettings[0]/PhotoModeVignette/SettingsList[3]/VignetteIntensity/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/VignetteIntensity/VignetteIntensity/m_Description
 msgctxt "a0f3deef-a863-4a99-8ee9-7c754e9ede63"
 msgid "Intensity"
-msgstr ""
+msgstr "강도"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/VignetteSettings[0]/PhotoModeVignette/SettingsList[4]/VignetteSmoothness/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Smoothness/VignetteSmoothness/m_Description
 msgctxt "e8663109-99b7-4858-ac4f-12122fd3da41"
 msgid "Smoothness"
-msgstr ""
+msgstr "부드러움"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/VignetteSettings[0]/PhotoModeVignette/SettingsList[5]/VignetteRounded/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Rounded/VignetteRounded/m_Description
 msgctxt "98c4a294-69f1-4ed4-a4e7-03f03f3768cb"
 msgid "Roundness"
-msgstr ""
+msgstr "둥글기"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/VignetteSettings[0]/PhotoModeVignette/Title
 msgctxt "cd1733f5-a92f-4877-a09c-cffb49319256"
 msgid "Vignette"
-msgstr ""
+msgstr "비네트"
 
 #. UIPhotoModeRoot/UIPhotoModeRoot/WeatherSettings[0]/PhotoModeWeather/SettingsList[1]/Weather/m_Description
 #. UIPhotoModeRoot/UIPhotoModeRoot/PhotoMode/Weather/Weather/m_Description
 msgctxt "b7048937-fc78-4bb3-bbec-bca7d6870b6f"
 msgid "Weather selection"
-msgstr ""
+msgstr "날씨 선택"
 
 #. UIRoot/AvoidButton
 msgctxt "0f0163ad-c158-43f6-8b8f-fe2fa8fff87c"
