@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-06 14:37+0000\n"
-"Last-Translator: OSI <sein4510@naver.com>\n"
+"PO-Revision-Date: 2024-01-07 16:37+0000\n"
+"Last-Translator: akintos <akintos47@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -64,13 +64,6 @@ msgstr "불태우기"
 #. File = CreatureAbilities/Ferocity
 #. Type = Kingmaker.Blueprints.Facts.BlueprintUnitFact
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "A creature with ferocity remains conscious and can continue fighting even if "
-#| "its hit point total is below 0. The creature is still staggered and loses 1 "
-#| "hit point each {g|Encyclopedia:Combat_Round}round{/g}. A creature with "
-#| "ferocity still dies when its hit point total reaches a negative amount equal "
-#| "to its {g|Encyclopedia:Constitution}Constitution{/g} score."
 msgctxt "ad5e639d-6731-47c7-8cd6-db98c22b568c"
 msgid ""
 "A creature with ferocity remains conscious and can continue fighting even if "
@@ -80,9 +73,9 @@ msgid ""
 "when its hit point total reaches a negative amount equal to its "
 "{g|Encyclopedia:Constitution}Constitution{/g} score."
 msgstr ""
-"흉포성을 가진 크리처는 생명점이 0 이 되더라도 의식을 잃지 않고 계속 싸울 수 "
-"있습니다. 크리처는 비틀거리면서 매 {g|Encyclopedia:Combat_Round}라운드{/g}"
-"마다 1 점의 생명점을 잃습니다. 흉포성을 가진 크리처는 생명점이 "
+"흉포성을 가진 크리처는 {g|Encyclopedia:HP}생명점{/g}이 0 이 되더라도 의식을 잃지 않고 계속 싸울 수 있습니다. "
+"크리처는 {g|ConditionStaggered}비틀거림{/g} 상태가 되고 매 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}마다 생명점을 1 점씩 잃습니다. 흉포성을 가진 크리처는 생명점이 "
 "{g|Encyclopedia:Constitution}건강{/g} 수치의 음수만큼 떨어지면 죽습니다."
 
 #. File = CreatureAbilities/Ferocity
@@ -104,98 +97,98 @@ msgstr ""
 #. Path = Persones[0]/Text
 msgctxt "00a668e7-f57b-4bac-a496-68a16a0de34b"
 msgid "Thank you for playing our game!"
-msgstr ""
+msgstr "저희 게임을 플레이해 주셔서 감사합니다!"
 
 #. File = Credits/GEMCapital
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsGroup
 #. Path = HeaderText
 msgctxt "4f92cc96-8e22-45bb-a7c4-93edf4f4979a"
 msgid "GEM Capital"
-msgstr ""
+msgstr "GEM Capital"
 
 #. File = Credits/GEMCapital
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsGroup
 #. Path = LeftPageText
 msgctxt "469dd712-7515-4eee-90d2-09c0511ffbd6"
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #. File = Credits/GEMCapitalRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
 #. Path = Roles[0]/NameRole
 msgctxt "69dd0209-28c6-4056-8d1c-a634ef0731df"
 msgid "Founder & Managing Partner"
-msgstr ""
+msgstr "Founder & Managing Partner"
 
 #. File = Credits/GEMCapitalRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
 #. Path = Roles[1]/NameRole
 msgctxt "012717e1-36a0-4103-b277-98918015f770"
 msgid "Managing Director"
-msgstr ""
+msgstr "Managing Director"
 
 #. File = Credits/GEMCapitalRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
 #. Path = Roles[2]/NameRole
 msgctxt "6c47cb9c-8c9b-4738-9bcf-d37b346929ed"
 msgid "Games & Entertainment Leader"
-msgstr ""
+msgstr "Games & Entertainment Leader"
 
 #. File = Credits/GoldTier
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsGroup
 #. Path = HeaderText
 msgctxt "c16e2ae4-3d44-48c0-864d-f56c3296ff4e"
 msgid "Gold Tier"
-msgstr ""
+msgstr "Gold Tier"
 
 #. File = Credits/GoldTier
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsGroup
 #. Path = LeftPageText
 msgctxt "13056b5d-2fa2-46d0-bbcf-11ec87e5dd74"
 msgid "Gold Tier"
-msgstr ""
+msgstr "Gold Tier"
 
 #. File = Credits/MetaPublishing
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsGroup
 #. Path = HeaderText
 msgctxt "e9c39f7d-f5f7-4930-8923-7cf9b59b0945"
 msgid "META Publishing"
-msgstr ""
+msgstr "META Publishing"
 
 #. File = Credits/MetaPublishing
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsGroup
 #. Path = LeftPageText
 msgctxt "25a217cd-68aa-418c-9c18-9cf5c0607581"
 msgid "Publisher"
-msgstr ""
+msgstr "Publisher"
 
 #. File = Credits/MetaPublishingRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
 #. Path = Roles[0]/NameRole
 msgctxt "7120a833-9079-4ec0-8b08-d85d8b9e6d9f"
 msgid "Digital Distribution Director"
-msgstr ""
+msgstr "Digital Distribution Director"
 
 #. File = Credits/MetaPublishingRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
 #. Path = Roles[1]/NameRole
 msgctxt "da072483-aeec-4cd7-a84b-07d4aebe43f8"
 msgid "Director of UA"
-msgstr ""
+msgstr "Director of UA"
 
 #. File = Credits/MetaPublishingRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
 #. Path = Roles[2]/NameRole
 msgctxt "150e6211-a982-4fb6-a969-a9045774f4f5"
 msgid "Marketing Director"
-msgstr ""
+msgstr "Marketing Director"
 
 #. File = Credits/MetaPublishingRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
 #. Path = Roles[3]/NameRole
 msgctxt "28118bfd-672d-448f-83e0-2c5583531eec"
 msgid "Product Manager"
-msgstr ""
+msgstr "Product Manager"
 
 #. File = Credits/MetaPublishingRoles
 #. Type = Kingmaker.Blueprints.Credits.BlueprintCreditsRoles
