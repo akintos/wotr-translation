@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-13 13:37+0000\n"
+"PO-Revision-Date: 2024-01-15 11:37+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -332,12 +332,10 @@ msgstr "최고의 재료"
 #. File = Kingdom/CrusadeProjects/LeadershipProjects/Event59BloodPotion
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = m_MechanicalDescription
-#, fuzzy
-#| msgid "All units gain the {g|BloodPotion}[Blood Potion]{/g} feat for 14 days."
 msgctxt "1b016eed-982a-4db6-91d0-58806fd1f3a5"
 msgid ""
 "All units gain the {g|BloodPotion_feat}[Blood Potion]{/g} feat for 14 days."
-msgstr "모든 유닛이 14 일 동안 {g|BloodPotion}[피 물약]{/g} 특기를 얻습니다."
+msgstr "모든 유닛이 14 일 동안 {g|BloodPotion_feat}[피 물약]{/g} 특기를 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/ArmyUnitsBloodPotion
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -531,19 +529,14 @@ msgstr "명사수들을 위한 장비"
 #. File = Kingdom/CrusadeProjects/LogisticsProjects/Event33WeaponsFromDaggermark
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = m_MechanicalDescription
-#, fuzzy
-#| msgid ""
-#| "The cost of recruiting trainable units reduces by 10% for 15 days. All "
-#| "special purpose units gain the {g|WeaponsFromDaggermark}[Weapons from "
-#| "Daggermark]{/g} feat for 15 days."
 msgctxt "3f99619b-3793-4def-ab39-53e5154dab12"
 msgid ""
 "The cost of recruiting trainable units reduces by 10% for 15 days. All "
 "special purpose units gain the {g|WeaponsFromDaggermark_feat}[Weapons from "
 "Daggermark]{/g} feat for 15 days."
 msgstr ""
-"15일 동안 훈련 유닛의 모집 비용이 10% 감소합니다. 15일 동안 모든 특수 목적 "
-"유닛들은 {g|WeaponsFromDaggermark}[대거 마크의 무기]{/g} 특기를 얻습니다."
+"15일 동안 훈련 유닛의 모집 비용이 10% 감소합니다. 15일 동안 모든 특수 목적 유닛들은 "
+"{g|WeaponsFromDaggermark_feat}[대거 마크의 무기]{/g} 특기를 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/ArmyUnitsEquipmentSpecOps
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -1084,7 +1077,7 @@ msgstr "유닛은 명중에 +1 보너스를 가집니다."
 #. Path = DisplayName
 msgctxt "9c11b7f6-63b1-4c6a-b90d-d11dcf6e75bd"
 msgid "Spirit's Blessing"
-msgstr ""
+msgstr "정령의 축복"
 
 #. File = Armies/CrusadeGlobalBuffs/Event03GrowthOreVeins
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -1693,6 +1686,8 @@ msgid ""
 "Barracks receive the {g|Vulnerable}[Vulnerable]{/g} "
 "{g|Encyclopedia:Feat}feat{/g}."
 msgstr ""
+"중앙 궁술 훈련장과 중앙 마굿간에서 훈련 가능한 모든 유닛의 모집량이 20% 증가합니다. 중앙 병영에서 훈련 가능한 모든 유닛이 "
+"{g|Vulnerable}[취약]{/g} {g|Encyclopedia:Feat}특기{/g}를 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/Event60ArmyUnitsVulnerable
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -1783,14 +1778,14 @@ msgstr "몰아치는 힘"
 msgctxt "880df5ab-85b4-4e8b-943a-10d543d1a258"
 msgid ""
 "Materials Points income increases by 10. Energy Points income increases by 5."
-msgstr ""
+msgstr "물자 점수 수입이 10 증가합니다. 에너지 점수 수입이 5 증가합니다."
 
 #. File = Armies/CrusadeGlobalBuffs/Event76UsefulFlora
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = DisplayName
 msgctxt "962cc7a2-0c29-450d-b48d-f95d7c5f7474"
 msgid "Herbal Medicine"
-msgstr ""
+msgstr "약초"
 
 #. File = Armies/CrusadeGlobalBuffs/Event78GrowthTheWorldIsInDanger
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -1939,7 +1934,7 @@ msgstr "건물 건설 비용이 20% 감소합니다."
 #. Path = DisplayName
 msgctxt "fb23fca0-fc2e-470a-a7dd-2147f0620960"
 msgid "Order in the Rear"
-msgstr "배후의 규율"
+msgstr "후방의 규율"
 
 #. File = Armies/CrusadeGlobalBuffs/FlagAeon1RecruitIncrease
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -2076,10 +2071,6 @@ msgstr "데몬의 파멸"
 #. File = Armies/CrusadeGlobalBuffs/FlagAngel1FInances
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = Description
-#, fuzzy
-#| msgid ""
-#| "The effect of positive morale on Finance, Materials and Energy Points income "
-#| "increases by 33%."
 msgctxt "434d9650-5677-4c2c-8ab6-6a036affd546"
 msgid ""
 "The effect of positive morale on Finance, Materials, and Energy Points "
@@ -2306,8 +2297,6 @@ msgstr "유닛은 최대 HP에 +3% 보너스를 가집니다."
 #. File = Armies/CrusadeGlobalBuffs/FlagDiplomacy5Infantry
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = DisplayName
-#, fuzzy
-#| msgid "Andoran Equipment"
 msgctxt "bbf8facc-c80f-4333-bd3e-c99d564b1901"
 msgid "Andoren Equipment"
 msgstr "안도란 장비"
@@ -2315,15 +2304,11 @@ msgstr "안도란 장비"
 #. File = Armies/CrusadeGlobalBuffs/FlagDiplomacy7CrusadeResourcesForRegions
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = Description
-#, fuzzy
-#| msgid ""
-#| "Recruitment growth for trainable units increases by 1% for each captured "
-#| "region."
 msgctxt "a700bee1-fb9a-4f32-ad1d-a388d347e57f"
 msgid ""
 "Recruitment growth for trainable units increases by 15% for each captured "
 "region."
-msgstr "점령한 지역 하나당, 훈련 유닛의 모집 성장이 1% 증가합니다."
+msgstr "점령한 지역 하나당, 훈련 유닛의 모집 성장이 15% 증가합니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagDiplomacy7CrusadeResourcesForRegions
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -2750,8 +2735,6 @@ msgstr "글라운더 역병"
 #. File = Armies/CrusadeGlobalBuffs/FlagLogistics5AllIncome
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = Description
-#, fuzzy
-#| msgid "Finance, Materials and Energy Points income increases by 5%."
 msgctxt "f7208c87-e2d5-454c-b814-36be082b88d8"
 msgid "Finance, Materials, and Energy Points income increases by 5%."
 msgstr "재정, 물자, 그리고 에너지 점수 수입이 5% 증가합니다."
@@ -2964,15 +2947,9 @@ msgstr "쇠약의 독"
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterPoisonousStrike1Ability
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "{g|Poison_condition}[Poisons]{/g} the target unit, deals ((Power×Power+ 5)d6)"
-#| " physical damage and applies a -1 penalty to Constitution."
 msgctxt "fb1cbfbf-eb74-42c0-b85e-ac372811c83e"
 msgid "Target unit gains the {g|Poison_I_feat}[Poison I]{/g} feat."
-msgstr ""
-"대상 유닛을 {g|Poison_condition}[중독]{/g}시켜, ((마력×마력 + 5)d6) 물리 "
-"피해를 입히고 건강에 -1 페널티를 가합니다."
+msgstr "대상 유닛이 {g|Poison_I_feat}[중독 I]{/g} 특기를 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagPoisonousStrike1
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3000,15 +2977,9 @@ msgstr "독 I"
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterPoisonousStrike2Ability
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "{g|Poison_condition}[Poisons]{/g} the target unit, deals ((Power×Power+ 5)d8)"
-#| " physical damage and applies a -2 penalty to Constitution."
 msgctxt "0d5d5379-9e05-4671-ae25-a04a9e8a2bc1"
 msgid "Target unit gains the {g|Poison_II_feat}[Poison II]{/g} feat."
-msgstr ""
-"대상 유닛을 {g|Poison_condition}[중독]{/g}시켜, ((마력×마력 + 5)d8) 물리 "
-"피해를 입히고 건강에 -2 페널티를 가합니다."
+msgstr "대상 유닛이 {g|Poison_II_feat}[중독 II]{/g} 특기를 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagPoisonousStrike2
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3036,15 +3007,9 @@ msgstr "독 II"
 #. File = Armies/Leaders/Abilities/FighterAbilities/FighterPoisonousStrike3Ability
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "{g|Poison_condition}[Poisons]{/g} the target unit, deals ((Power×Power+ "
-#| "5)d10) physical damage and applies a -3 penalty to Constitution."
 msgctxt "2add2084-485c-49a5-bfa9-c7e648ed8c37"
 msgid "Target unit gains the {g|Poison_III_feat}[Poison III]{/g} feat."
-msgstr ""
-"대상 유닛을 {g|Poison_condition}[중독]{/g}시켜, ((마력×마력 + 5)d10) 물리 "
-"피해를 입히고 건강에 -3 페널티를 가합니다."
+msgstr "대상 유닛이 {g|Poison_III_feat}[중독 III]{/g} 특기를 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagPoisonousStrike3
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3064,12 +3029,10 @@ msgstr "독 III"
 #. File = Armies/CrusadeGlobalBuffs/FlagTrickster1Experience
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = Description
-#, fuzzy
-#| msgid "The general gains additional (level×d100) experience points every day."
 msgctxt "04c04428-967e-46f3-860b-58e5b643e4ef"
 msgid ""
 "Every general gains additional (level×d100) experience points every day."
-msgstr "매일 지휘관들은 (레벨xd100)에 해당하는 경험치를 받습니다."
+msgstr "매일 모든 지휘관이 (레벨xd100)에 해당하는 경험치를 받습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagTrickster1Experience
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3167,19 +3130,14 @@ msgstr "왕관을 쓴 체스말"
 #. File = Armies/Leaders/Feats/Bonus/Trickster3KillOrderFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "At the start of the battle, a random enemy unit receives the black spot. "
-#| "After that unit is destroyed, all units in the crusader army gain the "
-#| "{g|CriticalStrike}[CriticalStrike]{/g} feat."
 msgctxt "4877d7e7-5af1-4054-9ef3-9f36cc88fce6"
 msgid ""
 "At the start of the battle, a random enemy unit receives the black spot. "
 "After that unit is destroyed, all units in the crusader army gain the "
 "{g|CriticalStrike}[Critical Strike]{/g} feat."
 msgstr ""
-"전투 시작시 무작위 적 하나가 흑점으로 지정됩니다. 해당 유닛이 파괴되면 성전 "
-"부대의 모든 유닛이 {g|CriticalStrike}[치명적 일격]{/g} 특기를 얻습니다."
+"전투 시작 시 무작위 적 하나가 흑점으로 지정됩니다. 해당 유닛이 파괴되면 성전 부대의 모든 유닛이 {g|CriticalStrike}["
+"치명적 일격]{/g} 특기를 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagTrickster3CombatKillOrder
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3237,8 +3195,7 @@ msgid ""
 "At the start of the battle, random unoccupied squares are marked on the "
 "battlefield. Units standing there gain a 50% chance to deal double damage."
 msgstr ""
-"전투 시작시 전장의 점유되지 않은 무작위 타일이 표시됩니다. 해당 타일에 "
-"자리잡은 유닛은 50% 확률로 두 배의 피해를 가합니다."
+"전투 시작 시 전장의 점유되지 않은 무작위 타일이 표시됩니다. 해당 타일에 자리잡은 유닛은 50% 확률로 두 배의 피해를 가합니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagTrickster3CombatPlaceOfPower
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3437,11 +3394,9 @@ msgstr "장엄한 준마"
 #. File = Armies/CrusadeGlobalBuffs/GrowthCuttingTheCost
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
 #. Path = Description
-#, fuzzy
-#| msgid "Finance Points income increases by 20."
 msgctxt "085e0802-e6e6-4532-b7d4-08bea08a38ee"
 msgid "Finance Points income increases by 200."
-msgstr "재정 점수 수입이 20 증가합니다."
+msgstr "재정 점수 수입이 200 증가합니다."
 
 #. File = Armies/CrusadeGlobalBuffs/GrowthCuttingTheCost
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3553,12 +3508,10 @@ msgstr "자원 부족"
 #. File = Kingdom/CrusadeProjects/LogisticsProjects/Event54TamingMonsters
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = m_MechanicalDescription
-#, fuzzy
-#| msgid "Adds 3 Energy Points and 6,000 Logistics experience points."
 msgctxt "754dfe4c-444e-4bc5-a1a1-af5478549de5"
 msgid ""
 "Energy Points income increases by 3, adds 6,000 Logistics experience points."
-msgstr "에너지 점수 수입이 3 증가하고, 병참 경험치 6000 을 얻습니다."
+msgstr "에너지 점수 수입이 3 증가하고, 병참 경험치 6000을 얻습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/GrowthTamingMonsters
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -3850,17 +3803,12 @@ msgstr "에온 소환"
 #. File = Kingdom/CrusadeProjects/Aeon/Aeon6Kolyarut
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The Axis stands ready to help the crusade. The legions of Inevitables are "
-#| "waiting till mortal sorcerers open a planar gate for them."
 msgctxt "5a94ec70-a533-4bfb-a444-6117cc71d1ce"
 msgid ""
 "Axis stands ready to help the crusade. The legions of Inevitables are "
 "waiting till mortal sorcerers open a planar gate for them."
 msgstr ""
-"액시스는 성전을 도울 준비가 되어있습니다. 필연자 군단이 필멸자 마법사가 "
-"그들의 도착을 위해 차원관문을 열어주길 기다리고 있습니다."
+"액시스는 성전을 도울 준비가 되어있습니다. 필연자 군단이 필멸자 마법사가 그들의 도착을 위해 차원관문을 열어주길 기다리고 있습니다."
 
 #. File = Kingdom/CrusadeProjects/Aeon/Aeon6Kolyarut
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -4300,43 +4248,26 @@ msgstr "보고"
 #. File = Kingdom/CrusadeProjects/CrusadeEvents/Ch5_Gladiators_reinf_notif
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The gladiators from Alushinyrra who came with the Commander to Golarion are "
-#| "ready to continue to fight for the glory of their master."
 msgctxt "f05b58ca-f55b-46d9-8cf5-16e804d1f4d4"
 msgid ""
 "The gladiators from Alushinyrra who came with the Commander to Golarion are "
 "ready to continue to fight for the glory of their {mf|master|mistress}."
-msgstr "사령관을 따라 골라리온에 온 알루시니라의 검투사들은 주인의 가장 위대한 "
-"영광을 위해 싸울 결의를 다졌습니다."
+msgstr "사령관을 따라 골라리온에 온 알루시니라의 검투사들은 주인의 가장 위대한 영광을 위해 싸울 결의를 다졌습니다."
 
 #. File = Kingdom/CrusadeProjects/CrusadeEvents/Ch5_GolarionSlaves_reinf_notif
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The Golarian slaves rescued by the Commander in Alushinyrra are infinitely "
-#| "grateful and they are ready to get even with the demons with weapons in hand."
 msgctxt "64ba6bdc-b75d-4d07-9f9d-65050748fe33"
 msgid ""
 "The Golarian slaves rescued by the Commander in Alushinyrra are infinitely "
 "grateful, and they are ready to get even with the demons with weapons in "
 "hand."
 msgstr ""
-"무한한 감사를 표하며, 사령관에게 구해진 알루시니라의 골라리온 출신 노예들은 "
-"데몬들에 대항해 손에 무기를 들 준비가 되어있습니다."
+"무한한 감사를 표하며, 사령관에게 구출된 알루시니라의 골라리온 출신 노예들은 데몬들에 대항해 손에 무기를 들 준비가 되어있습니다."
 
 #. File = Kingdom/CrusadeProjects/CrusadeEvents/Ch5_RealCommander_reinf_notif
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "In the absence of the Commander the crusaders were led by Queen Galfrey but "
-#| "everyone remembered that the official title of leader of the crusade had not "
-#| "been taken away from the Commander. {mf|His|Her} glory attracted many "
-#| "warriors, and a detachment of such volunteers just arrived under the walls "
-#| "of Drezen."
 msgctxt "b54a506b-8a55-4072-8b26-2e6ce0ca4654"
 msgid ""
 "In the Commander's absence, the crusaders were led by Queen Galfrey, but "
@@ -4345,28 +4276,20 @@ msgid ""
 "warriors, and a detachment of such volunteers have just arrived at the walls "
 "of Drezen."
 msgstr ""
-"사령관의 부재에 갈프리 여왕이 성전을 이끌게 되었습니다. 하지만 그 누구도 "
-"사령관이 공식적인 성전군의 수장이라는 사실을 잊지 않았습니다. 사령관의 "
-"명성은 수 많은 전사들을 성전으로 이끌었고, 또 많은 수의 자원자들이 드레젠의 "
-"성문 앞에서 입대를 요청합니다."
+"사령관이 없는 사이 갈프리 여왕이 성전을 이끌었습니다. 하지만 그 누구도 사령관이 공식적인 성전군의 수장이라는 사실을 잊지 않았습니다. "
+"사령관의 명성은 수많은 전사들을 성전으로 이끌었고, 이러한 자원병들로 이루어진 한 분대가 드레젠의 성문 앞에 도착했습니다."
 
 #. File = Kingdom/CrusadeProjects/CrusadeEvents/Ch5_ShadowDemons_reinf_notif
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "A pack of shadow demons followed their master to Golarion. They have "
-#| "captured the bodies of the bull-headed warriors of Baphomet who were "
-#| "besieging Drezen, and are awaiting orders."
 msgctxt "4d4dd480-cabb-4b8d-b316-34d51bc7df4d"
 msgid ""
 "A pack of shadow demons has followed their master to Golarion. They have "
 "captured the bodies of the bull-headed warriors of Baphomet who were "
 "besieging Drezen, and they are now awaiting orders."
 msgstr ""
-"한 그림자 데몬 무리가 골라리온까지 그들의 주인을 따라왔습니다. 그들은 "
-"드레젠을 공성중인 바포메트 교단의 황소 머리 전사들의 몸을 빼앗았고, 이제 "
-"명령을 기다리고 있습니다."
+"한 그림자 데몬 무리가 골라리온까지 그들의 주인을 따라왔습니다. 그들은 드레젠을 공성 중인 바포메트 교단의 황소 머리 전사들의 몸을 "
+"빼앗았고, 그들은 이제 명령을 기다리고 있습니다."
 
 #. File = Kingdom/CrusadeProjects/CrusadeEvents/Ch5_TrashAssassins_reinf_notif
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -4386,11 +4309,6 @@ msgstr ""
 #. File = Kingdom/CrusadeProjects/CrusadeEvents/Ch5_Wardstoun_reinf_notif
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Thanks to the power of the Wardstone residing in Drezen the demon siege was "
-#| "much less bloody than it could have been. Enough soldiers survived in the "
-#| "citadel to form a fighting detachment waiting for the Commander's orders."
 msgctxt "2d7ff699-57eb-4bfe-aa37-ab4ede982b15"
 msgid ""
 "Thanks to the power of the Wardstone residing in Drezen, the demon siege was "
@@ -4398,10 +4316,8 @@ msgid ""
 "citadel to form a fighting detachment that is now awaiting the Commander's "
 "orders."
 msgstr ""
-"수호석에 깃든 힘 덕분에 드레젠에 대한 데몬들의 공성은 우리가 생각했던 것 "
-"보다 더 적은 손실을 입었습니다. 드레젠 성채 내에서 요새를 지키던 병사들 중 "
-"충분히 많은 병사가 생존했고, 별 어려움 없이 군 부대를 재조직하고, 또 "
-"사령관의 명령을 다시 받들 수 있게 되었습니다."
+"수호석에 깃든 힘 덕분에 데몬들의 드레젠 공성이 초래한 손실은 생각보다 적었습니다. 드레젠 성채 내에서 요새를 지키던 병사들 중 충분히 "
+"많은 병사들이 생존했고, 별 어려움 없이 전투 분대를 재조직해, 사령관의 명령을 다시 받들 수 있게 되었습니다."
 
 #. File = Kingdom/CrusadeProjects/Demon/Demon5AshGiants
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -4992,20 +4908,14 @@ msgstr "성찬"
 #. File = Kingdom/CrusadeProjects/DiplomacyProjects/Diplomacy2Finances
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "A parade in honor of Her Majesty Queen Galfrey will display respect the "
-#| "Commander has towards Nerosyan and its ruler. This sign of loyalty will "
-#| "appeal to Mendevian nobles and ensure their favor."
 msgctxt "d4c39886-b246-4bfa-9f4c-659cb438922b"
 msgid ""
 "A parade in honor of Her Majesty Queen Galfrey will display respect the "
 "Commander has toward Nerosyan and its ruler. This sign of loyalty will "
 "appeal to Mendevian nobles and ensure their favor."
 msgstr ""
-"갈프리 여왕 폐하를 기리는 행진은 사령관이 네로시안과 그 곳의 지배자에 대한 "
-"존경심을 보여주었습니다. 이러한 충성심의 표시는 멘데브의 귀족들에게 좋은 "
-"인상을 남기고, 그들의 호의를 살 것입니다."
+"갈프리 여왕 폐하를 기리는 행진은 사령관이 네로시안과 그 곳의 지배자에 대한 존경심을 보여주었습니다. 이러한 충성심의 표시는 멘데브의 "
+"귀족들에게 좋은 인상을 남기고, 그들의 호의를 살 것입니다."
 
 #. File = Kingdom/CrusadeProjects/DiplomacyProjects/Diplomacy2Finances
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -5197,20 +5107,14 @@ msgstr "귀족 가문의 도움"
 #. File = Kingdom/CrusadeProjects/DiplomacyProjects/Diplomacy4RecruitLightCavalry
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "While the aristocrats and officials are basking in the glory of the "
-#| "conquerers of the Worldwound, the common people of Mendev will come to the "
-#| "Commander's aid and send a militia to help the crusade."
 msgctxt "56edb01e-8b2d-41ae-9266-b6c8a3a4f326"
 msgid ""
 "While the aristocrats and officials are basking in the glory of the "
 "conquerors of the Worldwound, the common people of Mendev will come to the "
 "Commander's aid and send a militia to help the crusade."
 msgstr ""
-"귀족들과 관리들이 세계상처 정복자의 영광에 취해있을 때, 멘데브의 평민들은 "
-"사령관을 돕기 위해 드레젠에 찾아올 것이며, 성전을 돕기 위해 민병대를 파견할 "
-"것입니다."
+"귀족들과 관리들이 세계상처 정복자의 영광에 취해있을 때, 멘데브의 평민들은 사령관을 돕기 위해 드레젠에 찾아올 것이며, 성전을 돕기 위해 "
+"민병대를 파견할 것입니다."
 
 #. File = Kingdom/CrusadeProjects/DiplomacyProjects/Diplomacy4RecruitLightCavalry
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -5672,16 +5576,11 @@ msgstr "골렘들을 돌려받는 대가로, 드워프들이 병사와 금화를
 #. File = Kingdom/CrusadeProjects/DiplomacyProjects/Event14RansomFromTheMountainKings
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = m_MechanicalDescription
-#, fuzzy
-#| msgid ""
-#| "12 {g|ShieldBearers}[ShieldBearers]{/g} are recruited at the Commander's "
-#| "headquarters, adds 1,500 Finance Points."
 msgctxt "d6f43a1f-efb7-481f-a96f-bc453c7599bb"
 msgid ""
 "12 {g|ShieldBearers}[Shield Bearers]{/g} are recruited at the Commander's "
 "headquarters, adds 1,500 Finance Points."
-msgstr "사령관의 지휘부에 12 {g|ShieldBearers}[방패병]{/g}이 모집되고, 재정 점수가 "
-"1,500 증가합니다."
+msgstr "사령관의 지휘부에 12 {g|Shield Bearers}[방패병]{/g}이 모집되고, 재정 점수가 1,500 증가합니다."
 
 #. File = Kingdom/CrusadeProjects/DiplomacyProjects/Event14RansomFromTheMountainKings
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -5927,8 +5826,6 @@ msgstr "괴수 조련사가 성공적으로 드레이크들을 훈련시켰습�
 #. File = Kingdom/CrusadeProjects/DiplomacyProjects/Event61DrakeTraining
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = m_MechanicalDescription
-#, fuzzy
-#| msgid "All generals gain {g|PetDrake}[PetDrake]{/g} ability."
 msgctxt "bea6c44f-26e3-4473-ac0a-5f8eac6530c8"
 msgid "All generals gain {g|PetDrake}[Pet Drake]{/g} ability."
 msgstr "모든 지휘관은 {g|PetDrake}[애완 드레이크]{/g} 능력을 얻습니다."
@@ -6319,16 +6216,11 @@ msgstr "드래곤 부대"
 #. File = Kingdom/CrusadeProjects/KTCEvents/AeonQ10_StartKTC
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Irabeth asks for an audience with the Commander. She reports that an "
-#| "important letter has reached the citadel."
 msgctxt "06f62617-f020-434a-bdf0-f41c633983d3"
 msgid ""
 "Irabeth seeks an audience with the Commander. She reports that an important "
 "letter has reached the citadel."
-msgstr "이라베스가 알현을 요청합니다. 그녀는 성채에 중요한 편지가 도착했다고 "
-"전합니다."
+msgstr "이라베스가 알현을 원합니다. 그녀는 성채에 중요한 편지가 도착했다고 전합니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/AeonQ10_StartKTC
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6386,16 +6278,11 @@ msgstr "접견이 받아들여졌습니다."
 #. File = Kingdom/CrusadeProjects/KTCEvents/AeonQ11_StartKTC
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Two Kellids have arrived in Drezen, they demand a fair trial. They await an "
-#| "audience with the Commander."
 msgctxt "ac7723bf-64b0-4b66-b917-61eab3b94c6d"
 msgid ""
 "Two Kellids have arrived in Drezen demanding a fair trial. They await an "
 "audience with the Commander."
-msgstr "두명의 켈리드인이 드레젠에 도착해, 공정한 재판을 요구하고 있습니다. 그들은 "
-"사령관을 접견하고자 합니다."
+msgstr "두명의 켈리드인이 드레젠에 도착해, 공정한 재판을 요구하고 있습니다. 그들은 사령관을 접견하고자 합니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/AeonQ11_StartKTC
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6411,32 +6298,21 @@ msgstr "공정한 재판을 위한 청원"
 #. File = Kingdom/CrusadeProjects/KTCEvents/AeonQ5_StartKTC
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Averis, a warrior of the crusade, claims that a crime has taken place. She "
-#| "asks for an audience with the Commander."
 msgctxt "edfa160e-c4ba-470e-a4a1-c109a7975345"
 msgid ""
 "Averis, a warrior of the crusade, claims that a crime has taken place. She "
 "seeks an audience with the Commander."
-msgstr "성전군의 전사, 아베리스는 범죄가 일어났다고 주장합니다. 그녀는 사령관을 "
-"접견하고자 합니다."
+msgstr "성전군의 전사, 아베리스는 범죄가 일어났다고 주장합니다. 그녀는 사령관을 알현하고자 합니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/AeonQ9_StartKTC
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "A murder has been committed in the citadel. Officer Lellan awaits an "
-#| "audience with the Commander to plead for {mf|him|her} participation in the "
-#| "court-martial."
 msgctxt "b9090c68-6968-4822-b4aa-7069b4aa62cc"
 msgid ""
 "A murder has been committed in the citadel. Officer Lellan awaits an "
 "audience with the Commander to plead for {mf|him|her} to participate in the "
 "court-martial."
-msgstr "성채에서 살인 사건이 발생했습니다. 장교 렐란은 사령관이 군법회의에 참여할 "
-"것을 요청하며, 면담을 기다리고 있습니다."
+msgstr "성채에서 살인 사건이 발생했습니다. 장교 렐란은 사령관에게 군법회의에 참여할 것을 요청하며, 면담을 기다리고 있습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/AeonQ9_StartKTC
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6543,17 +6419,12 @@ msgstr "대런과의 만남"
 #. File = Kingdom/CrusadeProjects/KTCEvents/Daeran_Q3_KTC_DaeranGifts
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Daeran has filed a request for a public audience with the Commander. It "
-#| "seems that he has either something important to announce or a new jest."
 msgctxt "3fec1cea-c4ae-4b09-b0cb-e1d36cb4272a"
 msgid ""
 "Daeran has filed a request for a public audience with the Commander. It "
 "seems that he has either something important to announce or a new jest to "
 "try out."
-msgstr "대런은 사령관에게 공개 면담을 요청했습니다. 중요한 사항을 알리거나, 새로운 "
-"농담을 준비한 것 같습니다."
+msgstr "대런은 사령관에게 공개 면담을 요청했습니다. 중요한 사항을 알리거나, 새로운 농담을 시도해야 할 것 같습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/Daeran_Q3_KTC_DaeranGifts
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6569,19 +6440,14 @@ msgstr "대런이 면담을 요청합니다"
 #. File = Kingdom/CrusadeProjects/KTCEvents/Daeran_Q3_KTC_LiotrTellsVerdict
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Irabeth reports that a letter has been delivered from a certain high-ranking "
-#| "inquisitor. It is to be handed to the Commander, confidentially and for "
-#| "h{mf|is|er} eyes only."
 msgctxt "bbf366b6-9388-44e7-ada4-735450c40230"
 msgid ""
 "Irabeth reports that a letter has been received from a certain high-ranking "
 "inquisitor. It is to be handed to the Commander, confidentially and for "
 "h{mf|is|er} eyes only."
 msgstr ""
-"어떤 고위 인퀴지터가 편지를 보내왔다고 이라베스는 사령관에게 보고했습니다. "
-"이 비밀 문서는 사령관만이 볼 수 있도록 촛농 봉인이 찍혀 있습니다."
+"이라베스는 어떤 고위 인퀴지터가 편지를 보내왔다고 사령관에게 보고했습니다. 이 비밀 문서는 사령관만이 볼 수 있도록 촛농 봉인이 찍혀 "
+"있습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/Daeran_Q3_KTC_LiotrLetter
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6738,16 +6604,11 @@ msgstr "에온의 부름"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_AngelRankUp05
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "An angel is waiting for an audience in Drezen to share the wisdom of Heaven "
-#| "with the leader of the crusaders."
 msgctxt "23f981e1-13b0-4923-8328-7169389dcadc"
 msgid ""
 "An angel is awaiting an audience in Drezen, hoping to share the wisdom of "
 "Heaven with the leader of the crusaders."
-msgstr "엔젤 하나가 천상의 지혜를 나누고자, 성전의 지도자와의 면담을 기다리고 "
-"있습니다."
+msgstr "엔젤 하나가 천상의 지혜를 나누고자, 성전의 지도자와의 면담을 기다리고 있습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_AngelRankUp01
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6787,15 +6648,11 @@ msgstr "천상의 접견"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_ArushaRedout
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Arueshalae asks to spare some time for a private talk, once the crusade "
-#| "leader can take a break from matters of Drezen."
 msgctxt "bc56e186-9fc8-4218-bfb8-b6f97ec370ef"
 msgid ""
 "Arueshalae wishes to have a private conversation with the Commander whenever "
 "{mf|he|she} can spare some time in Drezen."
-msgstr "사령관이 한가할 때, 아루샬레는사령관과 개인적인 대화를 나누길 원합니다."
+msgstr "아루샬레는 사령관이 드레젠에서 시간이 날 때 {mf|그|그녀}와 사적인 대화를 나누길 원합니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_ArueshalaeVSDemon
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6819,10 +6676,6 @@ msgstr "아루샬레는 대화를 원합니다"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_AzataAligmentFix
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Aranka and Aivu want to meet the Commander... for some very important "
-#| "occasion!"
 msgctxt "a1dfc055-bedf-478d-aa43-4f4d3c879698"
 msgid ""
 "Aranka and Aivu want to meet with the Commander... on some very important "
@@ -6839,20 +6692,14 @@ msgstr "깜짝 방문"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_AzataKids
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "An entire group of... children and adolescents has arrived in Drezen. The "
-#| "guards have taken care of them, but their leader asks for an audience with "
-#| "the Commander."
 msgctxt "d1e15de3-10bf-4ce6-bf64-d5daa58b02af"
 msgid ""
 "An entire group of... children and adolescents has arrived in Drezen. The "
 "guards have taken care of them, but their leader is seeking an audience with "
 "the Commander."
 msgstr ""
-"어린이와 청소년으로... 이루어진 집단이 드레젠에 도착했습니다. 경비병들은 "
-"그들을 세심하게 돌봐주었지만, 그들의 지도자는 사령관과 면담을 요청하고 "
-"있습니다."
+"어린이와 청소년으로... 이루어진 집단이 드레젠에 도착했습니다. 경비병들은 그들을 세심하게 돌봐주었지만, 그들의 지도자는 사령관과의 "
+"면담을 원합니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_AzataKids
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6929,17 +6776,12 @@ msgstr "낙원에서 온 방랑 상인이 궁전에 도착했습니다. 그들�
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_CamelliaEscaped
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Irabeth reports that one of the Commander's retinue has deserted from the "
-#| "crusade. She awaits a personal meeting to share the details."
 msgctxt "830309f2-33ff-4d70-bb19-8e31ab954a73"
 msgid ""
 "Irabeth reports that one of the Commander's retinue has deserted the "
 "crusade. She awaits a personal meeting to share the details."
 msgstr ""
-"이라베스는 사령관의 시행원 한명이 성전군에서 탈영했다고 보고했습니다. 그녀는 "
-"자세한 내용을 알리기 위해 개인적인 만남을 기다리고 있습니다."
+"이라베스는 사령관의 시행원 한명이 성전군에서 탈영했다고 보고했습니다. 그녀는 자세한 내용을 알리기 위해 개인적인 만남을 기다리고 있습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_CamelliaEscaped
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -6955,15 +6797,11 @@ msgstr "보고된 탈영"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_ReturnToManor
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "Camellia asks the Commander to spare some time for a private talk, once "
-#| "{mf|he|she} can take a break from matters of Drezen."
 msgctxt "7ad79228-e7f3-46af-ad3c-3f21e15af813"
 msgid ""
 "Camellia wishes to have a private conversation with the Commander whenever "
 "{mf|he|she} can spare some time in Drezen."
-msgstr "사령관이 한가할 때, 카멜리아는 사령관과 개인적인 대화를 나누길 원합니다."
+msgstr "카멜리아는 사령관이 드레젠에서 시간이 날 때 {mf|그|그녀}와 사적인 대화를 나누길 원합니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_CamelliaVSAeon
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -7001,16 +6839,11 @@ msgstr "매우 설득력 있는 엘프의 등장"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_DragonsDusk_LatimasComes
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The archaeologist Lathimas has arrived in Drezen and asks for an audience "
-#| "with the leader of the crusaders to propose some \"interesting adventure.\""
 msgctxt "4b323c8a-03ea-4376-a836-2710f30b49af"
 msgid ""
 "The archaeologist Lathimas has arrived in Drezen and seeks an audience with "
 "the leader of the crusaders to propose an \"interesting adventure.\""
-msgstr "고고학자 라티마스가 드레젠에 도착했고, 성전 지도자에게 \"흥미로운 모험\"을 "
-"제안하고자 접견을 요청하고 있습니다."
+msgstr "고고학자 라티마스가 드레젠에 도착했고, 성전 지도자에게 \"흥미로운 모험\"을 제안하고자 접견을 요청하고 있습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_DawnOfDragons_Q_Latimas
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -7026,19 +6859,12 @@ msgstr "고고학자의 도착"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_DemonFixNOW
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The demon Yozz, Nocticula's servant, has slipped a letter into the "
-#| "Commander's study and expresses his expectations to be allowed a private "
-#| "audience shortly."
 msgctxt "98738c9d-f291-4d75-9a8e-b2937854f5c8"
 msgid ""
 "The demon Yozz, Nocticula's servant, has slipped a letter into the "
 "Commander's study stating that he expects a private audience in the near "
 "future."
-msgstr ""
-"녹티큘라의 하수인, 데몬 요즈는 사령관의 집무실에 편지를 슬쩍 놓으며, 짧은 "
-"개인적인 접견이 이루어지리라는 기대감을 나타냈습니다."
+msgstr "녹티큘라의 하수인, 데몬 요즈는 사령관의 집무실에 편지를 슬쩍 놓으며, 조만간 개인적으로 접견하길 바란다고 했습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_DemonFixNOW
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -7058,19 +6884,12 @@ msgstr "요즈와의 만남"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_DemonRankUp03
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The demon Yozz, Nocticula's servant, has slipped a letter into the "
-#| "Commander's study and expresses his expectations to be allowed a private "
-#| "audience shortly."
 msgctxt "cd314bbe-3375-46e5-bfe4-d9d9c6f02fff"
 msgid ""
 "The demon Yozz, Nocticula's servant, has slipped a letter into the "
 "Commander's study stating that he expects a private audience in the near "
 "future."
-msgstr ""
-"녹티큘라의 하수인, 데몬 요즈는 사령관의 집무실에 편지를 슬쩍 놓으며, 짧은 "
-"개인적인 접견이 이루어지리라는 기대감을 나타냈습니다."
+msgstr "녹티큘라의 하수인, 데몬 요즈는 사령관의 집무실에 편지를 슬쩍 놓으며, 조만간 개인적으로 접견하길 바란다고 했습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_DemonRankUp01
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
@@ -7172,10 +6991,6 @@ msgstr "심연에서 온 조언자"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_DevilRankUp5
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "The esteemed general Megidiah Vallys has submitted an official request to be "
-#| "granted an audience."
 msgctxt "caf2c62f-fb6b-4e73-81af-a6891085c4e8"
 msgid ""
 "The esteemed general Megidiah Vallys has submitted an official request for "
@@ -7257,16 +7072,11 @@ msgstr "용의 충고"
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_ElyankaComing
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
 #. Path = LocalizedDescription
-#, fuzzy
-#| msgid ""
-#| "A group of sinister envoys from Ustalav has arrived in Drezen. Their leader, "
-#| "Elyanka Camilary, is waiting for an audience with the Commander."
 msgctxt "063cbbcd-7334-41cc-86cb-6eaf47a47cc7"
 msgid ""
 "A group of sinister envoys from Ustalav has arrived in Drezen. Their leader, "
 "Elyanka Camilary, is awaiting an audience with the Commander."
-msgstr "한 무리의 사악한 사절단이 드레젠에 도착했습니다. 그들의 지도자인 엘얀카 "
-"카밀라리가 사령관 알현을 기다리고 있습니다."
+msgstr "한 무리의 사악한 사절단이 드레젠에 도착했습니다. 그들의 지도자인 엘얀카 카밀라리가 사령관 알현을 기다리고 있습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCEvents/KTC_ElyankaComing
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomEvent
