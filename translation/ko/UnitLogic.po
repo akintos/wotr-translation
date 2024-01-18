@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-17 08:37+0000\n"
+"PO-Revision-Date: 2024-01-18 10:23+0000\n"
 "Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -32996,7 +32996,7 @@ msgstr "의지 내성 굴림에 -1 페널티."
 #. Path = m_DisplayName
 msgctxt "d256f27c-e944-4a85-84dd-3e30be7b9bbf"
 msgid "Cracked skull"
-msgstr "금 간 두개골"
+msgstr "두개골 손상"
 
 #. File = Equipment/Gloves/Artifact_StarGauntlet/Artifact_StarGauntletRay
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -42835,16 +42835,6 @@ msgstr "오염된 피"
 #. File = Mythic/Lich/LichSpells/CorruptedBlood
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "You corrupt an enemy's blood, making it contagious. The target is nauseated "
-#| "for 1 {g|Encyclopedia:Combat_Round}round{/g} per "
-#| "{g|Encyclopedia:Caster_Level}caster level{/g}. Every round it can make a new "
-#| "{g|Encyclopedia:Saving_Throw}saving throw{/g} to remove the nauseated "
-#| "condition. If the saving throw is successful, the target instead becomes "
-#| "sickened. If the target dies while nauseated condition, it deals "
-#| "{g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}damage{/g} to all "
-#| "creatures in 15 feet radius and applies Corrupted Blood to them."
 msgctxt "314c6654-0d8f-4cea-b970-5776e6ea0bdd"
 msgid ""
 "You corrupt an enemy's blood, making it contagious. The target is "
@@ -42857,15 +42847,12 @@ msgid ""
 "instead becomes sickened.\n"
 "Each round it can make a new saving throw against this condition."
 msgstr ""
-"당신은 적의 피를 오염시켜 전염병에 걸리게 합니다. 대상은 "
-"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}만큼의 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 구토 상태가 됩니다. 매 "
-"라운드마다 대상은 구토 상태에서 벗어나기 위해 새로운 "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도할 수 있습니다. 만일 내성 "
-"굴림에 성공한다면, 대상은 고통 상태가 됩니다. 만일 구토 상태가 지속 중일 때 "
-"대상이 사망하면, 대상은 15피트 반경의 모든 크리처에게 "
-"{g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}피해{/g}와 오염된 피를 "
-"가합니다."
+"적의 피를 오염시켜 전염병에 걸리게 합니다. 대상은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}만큼의 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|ConditionNauseated}구토{/g} 상태가 "
+"됩니다. 만일 구토 상태가 지속 중일 때 대상이 사망하면, 대상은 15피트 반경의 모든 크리처에게 "
+"{g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}피해{/g}를 가하고 오염된 피를 "
+"적용합니다. 대상이 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 성공한다면 대신 고통 상태가 됩니다.\n"
+"크리처는 이 상태에 대해 매 라운드 새로운 내성 굴림을 시도할 수 있습니다."
 
 #. File = Mythic/Lich/LichSpells/CorruptedBlood
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -42886,31 +42873,26 @@ msgstr ""
 #. File = Spells/Level2/HideousLaughter
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = LocalizedDuration
-#, fuzzy
-#| msgid "1 round/level, can save each round"
 msgctxt "d7cb2411-bd6e-4b59-a72d-43ea018de978"
 msgid ""
 "1 {g|Encyclopedia:Combat_Round}round{/g}/level, can "
 "{g|Encyclopedia:Saving_Throw}save{/g} each round"
-msgstr "1 라운드 / 레벨, 매 라운드 내성 가능"
+msgstr ""
+"1 {g|Encyclopedia:Combat_Round}라운드{/g}/레벨, 매 라운드 "
+"{g|Encyclopedia:Saving_Throw}내성{/g} 가능"
 
 #. File = Mythic/Lich/LichSpells/CorruptedBloodBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "You are nauseated. Additionally, if you die, you deal "
-#| "{g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}damage{/g} to all "
-#| "creatures in 15 feet radius and apply Corrupted Blood to them."
 msgctxt "6e9af387-7c1e-4570-b21f-6f4c279e0b04"
 msgid ""
 "You are {g|ConditionNauseated}nauseated{/g}. Additionally, if you die, you "
 "deal {g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}damage{/g} to all "
 "creatures in a 15-foot radius and apply Corrupted Blood to them."
 msgstr ""
-"구토중입니다. 추가적으로 사망 시 15 피트 반경의 모든 크리처에게 "
-"{g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}피해{/g}를 입히고 오염된 "
-"피 효과를 부여합니다."
+"{g|ConditionNauseated}구토{/g}중입니다. 사망 시 15피트 반경의 모든 크리처에게 "
+"{g|Encyclopedia:Dice}6d6{/g} {g|Encyclopedia:Damage}피해{/g}를 입히고 오염된 피 효과를 "
+"적용합니다."
 
 #. File = Mythic/Lich/LichSpells/DeathRealm
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -42946,11 +42928,6 @@ msgstr "죽음의 영역"
 #. File = Mythic/Lich/LichSpells/DenyDeathBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "You place a ward, guarding the target from "
-#| "{g|Encyclopedia:Injury_Death}death{/g}. For the next 10 minutes per level if "
-#| "the target dies, it is instead saved, but paralyzed until the end of battle."
 msgctxt "6d49ec9b-186c-4077-a925-cea40650315e"
 msgid ""
 "You place a ward, guarding the target from "
@@ -42958,9 +42935,8 @@ msgid ""
 "the target dies, it is instead saved, but {g|ConditionParalyzed}paralyzed{/g}"
 " until the end of battle."
 msgstr ""
-"수호물을 설치해 대상을 {g|Encyclopedia:Injury_Death}죽음{/g}으로부터 "
-"보호합니다. 레벨당 10분 동안 대상이 사망하는 것을 막아주지만 대신 전투의 "
-"끝까지 마비됩니다."
+"수호물을 설치해 대상을 {g|Encyclopedia:Injury_Death}죽음{/g}으로부터 보호합니다. 레벨당 10분 동안, 대상이 "
+"죽으려 한다면 그 죽음을 방지하지만, 대신 전투의 끝까지 {g|ConditionParalyzed}마비{/g} 상태가 됩니다."
 
 #. File = Mythic/Lich/LichSpells/DenyDeath
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -43018,6 +42994,12 @@ msgid ""
 "dies during the effect, it is revived after death as an undead creature "
 "under your command."
 msgstr ""
+"필멸자의 영혼에 탈출구란 없습니다.\n"
+"이 {g|Encyclopedia:Spell}주문{/g}은 {g|SpellsRepurpose}용도변경{/g}과 비슷하지만, 효과가 영구히 "
+"지속됩니다. 대상은 즉시 2 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Energy_Damage}부정 피해{/g} ({g|Encyclopedia:Saving_Throw}인내 "
+"내성{/g}으로 무효) 를 받고, 그 뒤로 죽을 때까지 매 {g|Encyclopedia:Combat_Round}라운드{/g} 시전자 "
+"레벨당 1d6 부정 피해를 받습니다. 이 효과가 사라지기 전에 대상이 사망하면, 대상은 당신의 명령을 받는 언데드 크리처로 되살아납니다."
 
 #. File = Mythic/Lich/LichSpells/DoomOfServitude
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -43040,15 +43022,6 @@ msgstr "죽음의 포옹"
 #. File = Mythic/Lich/LichSpells/EmbraceOfDeath
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "You surround the target with necromantic energies, embracing it with the "
-#| "power of unlife. If the target fails a {g|Encyclopedia:Saving_Throw}Will "
-#| "saving throw{/g}, it falls into a coma and starts receiving "
-#| "{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Constitution}Constitution{/g} "
-#| "drain every {g|Encyclopedia:Combat_Round}round{/g}. It can attempt new "
-#| "saving throws every round. On a successful save it is staggered for 1 more "
-#| "round and suffers 1d6 Constitution drain."
 msgctxt "f757caab-9b91-4894-8e76-419deef4ebd4"
 msgid ""
 "You surround the target with necromantic energies, embracing it with the "
@@ -43061,21 +43034,14 @@ msgid ""
 "Constitution drain."
 msgstr ""
 "대상을 사령의 에너지로 둘러 비생명의 힘으로 감싸 안습니다. 대상이 {g|Encyclopedia:Saving_Throw}의지 내성 "
-"굴림{/g}에 실패한 경우 혼수 상태에 빠지고 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
+"굴림{/g}에 실패한 경우 혼수 상태에 빠져 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
 "{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Constitution}건강{/g}이 소진됩니다. 대상은 "
-"매 라운드 새 내성 굴림을 시도할 수 있습니다. 내성 굴림에 성공하면 대상은 1 라운드 동안 비틀거리고 1d6 건강이 소진됩니다."
+"매 라운드 새로운 내성 굴림을 시도할 수 있습니다. 내성 굴림에 성공하면 대상은 1 라운드 동안 "
+"{g|ConditionStaggered}비틀거림{/g} 상태가 되며 1d6 건강이 소진됩니다."
 
 #. File = Mythic/Lich/LichSpells/EmbraceOfDeathBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
-#, fuzzy
-#| msgid ""
-#| "You fall into a coma and start receiving {g|Encyclopedia:Dice}1d6{/g} "
-#| "{g|Encyclopedia:Constitution}Constitution{/g} drain every "
-#| "{g|Encyclopedia:Combat_Round}round{/g}. You can attempt new "
-#| "{g|Encyclopedia:Saving_Throw}saving throws{/g} every round, and a successful "
-#| "save leaves you staggered for 1 more round and makes you suffer 1d6 "
-#| "Constitution drain."
 msgctxt "dabf0a94-fcf9-4315-8229-7f72626e4d07"
 msgid ""
 "You fall into a coma and start receiving {g|Encyclopedia:Dice}1d6{/g} "
@@ -43087,8 +43053,8 @@ msgid ""
 msgstr ""
 "혼수 상태에 빠져 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
 "{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Constitution}건강{/g}이 소진됩니다. 매 "
-"라운드마다 새 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도하여 성공할 시 한 라운드 동안 추가로 "
-"비틀거리고 1d6 건강이 소진됩니다."
+"라운드마다 새로운 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}을 시도하여 성공할 시 1 라운드 동안 "
+"{g|ConditionStaggered}비틀거림{/g} 상태가 되며 1d6 건강이 소진됩니다."
 
 #. File = Mythic/Lich/LichSpells/Exsanguinate
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -43385,14 +43351,14 @@ msgctxt "3076cbde-1639-40c4-a7a9-bfb1d9a990ae"
 msgid ""
 "Dismiss the {g|SpellsRepurpose}Repurpose{/g} effect on an undead creature "
 "under your command and kill it."
-msgstr ""
+msgstr "언데드 크리처의 {g|SpellsRepurpose}용도변경{/g} 효과를 해제하고 처치합니다."
 
 #. File = Mythic/Lich/LichSpells/RepurposeForcedEnd
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_DisplayName
 msgctxt "b474e551-d33e-4b01-b4ac-cab3f7f281fa"
 msgid "Dismiss Repurpose"
-msgstr ""
+msgstr "용도변경 해제"
 
 #. File = Mythic/Lich/LichSpells/RestoreUndead
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -45295,9 +45261,10 @@ msgstr "투명화"
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BalefulPolymorphFrog
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_DisplayName
+#, fuzzy
 msgctxt "e2ddaa59-04fe-4c91-9b17-6c4e617255f1"
 msgid "Wild Magic Charge"
-msgstr ""
+msgstr "날뛰는 마법 방출"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BlyzzardAbyss/BlizzardAbyssIcyArmorBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45312,6 +45279,10 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g}, the armor breaks and the creature loses "
 "all its benefits."
 msgstr ""
+"이 크리처는 두꺼운 얼음층으로 싸여 {g|Encyclopedia:Damage_Reduction}DR{/g} 6/"
+"{g|Encyclopedia:Damage_Type}부수기{/g} 및 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 "
+"자연 방어 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 이 효과로 30점의 "
+"{g|Encyclopedia:Damage}피해{/g}를 막아내면 갑옷이 파괴되어 크리처가 이 효과의 모든 이점을 잃습니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BlyzzardAbyss/BlizzardAbyssTierIAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -45339,6 +45310,15 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} = 15 + the {g|Encyclopedia:Spell}spell{/g}'s "
 "level) each time they cast a spell."
 msgstr ""
+"시스허드의 표식을 지닌 채 눈보라에 들어선 크리처는 {g|BuffBlizzardAbyssIcyArmor}빙하의 갑주{/g} 효과를 얻어 "
+"갑옷이 파괴되거나 다시 적용될 때까지 이점을 얻습니다. 시스허드의 표식을 지니지 않은 크리처는 "
+"{g|Encyclopedia:Dexterity}민첩{/g}에 -2 {g|Encyclopedia:Penalty}페널티{/g}, "
+"{g|Encyclopedia:Attack}명중 굴림{/g}에 -1 페널티를 받고, 이동 {g|Encyclopedia:Speed}속도{/g}"
+"가 5피트 줄어들며, 매 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 받습니다. "
+"거기에 더해, 크리처는 주문을 시전할 때마다 {g|Encyclopedia:DC}DC{/g} 15 + "
+"{g|Encyclopedia:Spell}주문{/g} 레벨의 {g|Encyclopedia:Concentration}집중 판정{/g}을 "
+"성공해야 합니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BlyzzardAbyss/BlizzardAbyssTierIAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -45353,7 +45333,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "c7b8a81d-2905-41e5-8c3b-5e8ae864557e"
 msgid "Abyssal Blizzard"
-msgstr ""
+msgstr "심연의 눈보라"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BlyzzardAbyss/BlizzardAbyssTierIIAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -45381,6 +45361,15 @@ msgid ""
 "({g|Encyclopedia:DC}DC{/g} = 15 + the {g|Encyclopedia:Spell}spell{/g}'s "
 "level) each time they cast a spell."
 msgstr ""
+"시스허드의 표식을 지닌 채 눈보라에 들어선 크리처는 {g|BuffBlizzardAbyssIcyArmor}빙하의 갑주{/g} 효과를 얻어 "
+"갑옷이 파괴되거나 다시 적용될 때까지 이점을 얻습니다. 시스허드의 표식을 지니지 않은 크리처는 "
+"{g|Encyclopedia:Dexterity}민첩{/g}에 -4 {g|Encyclopedia:Penalty}페널티{/g}, "
+"{g|Encyclopedia:Attack}명중 굴림{/g}에 -1 페널티를 받고, 이동 {g|Encyclopedia:Speed}속도{/g}"
+"가 10피트 줄어들며, 매 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"{g|Encyclopedia:Dice}2d6{/g} {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 받습니다. "
+"거기에 더해, 크리처는 주문을 시전할 때마다 {g|Encyclopedia:DC}DC{/g} 15 + "
+"{g|Encyclopedia:Spell}주문{/g} 레벨의 {g|Encyclopedia:Concentration}집중 판정{/g}을 "
+"성공해야 합니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BlyzzardAbyss/BlizzardAbyssTierIIAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -45395,7 +45384,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "09dc7a28-abcc-4727-a9f7-c7ad2e85c74f"
 msgid "Abyssal Cold"
-msgstr ""
+msgstr "심연의 혹한"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BlyzzardAbyss/MarkOfSithhudBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45404,14 +45393,14 @@ msgctxt "6362c915-16aa-44bd-b41b-7358f776bf3b"
 msgid ""
 "This creature serves the fallen demon lord Sithhud, and as long as its "
 "loyalty is absolute, the icy winds of the Abyss will protect it."
-msgstr ""
+msgstr "이 크리처는 몰락한 데몬 군주 시스허드를 섬기며, 그 충성심이 굳건한 한 심연의 칼바람이 그를 보호할 것입니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BlyzzardAbyss/MarkOfSithhudBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "7ef5ff55-fd53-479a-a17b-32df795067f3"
 msgid "Mark of Sithhud"
-msgstr ""
+msgstr "시스허드의 표식"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/BurnBuff1d6
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45437,13 +45426,15 @@ msgid ""
 "take the better result. However, should you roll a natural 20, your luck is "
 "sure to run out."
 msgstr ""
+"당신은 {g|Encyclopedia:Dice}d20{/g} 굴림을 시도할 때마다 두 번 굴려 더 나은 결과를 취합니다. 하지만, 순수 "
+"20을 굴리게 되면 당신의 행운도 끝납니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChampagneOfRisk/DLC5_ChampagneOfRiskBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "6904b979-adaf-4f39-9143-776821bc5b02"
 msgid "Fortune Favors the Foolhardy"
-msgstr ""
+msgstr "무모한 자를 비추는 행운"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChampagneOfRisk/DLC5_ChampagneOfRiskCurseBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45457,13 +45448,17 @@ msgid ""
 "{g|Encyclopedia:Skills}skill checks{/g}, and {g|Encyclopedia:Concentration}"
 "concentration checks{/g}. This is a curse effect."
 msgstr ""
+"당신은 도박을 했으며, 위대한 승리를 목전에 둔 바로 그 순간 행운이 당신을 떠나갔습니다. 당신은 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}, {g|Encyclopedia:Saving_Throw}내성 굴림{/g}, "
+"{g|Encyclopedia:Skills}기술 판정{/g} 및 {g|Encyclopedia:Concentration}집중 판정{/g}에 -"
+"4 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. 이것은 저주 효과입니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChampagneOfRisk/DLC5_ChampagneOfRiskCurseBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "8dd4051b-f3e4-496e-af55-1c9a9bdce9de"
 msgid "Folly of Chance"
-msgstr ""
+msgstr "도박의 어리석음"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChampagneOfRisk/DLC5_ChampagneOfRiskPotionBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45486,13 +45481,22 @@ msgid ""
 "the effect of the life bubble {g|Encyclopedia:Spell}spell{/g} are unaffected "
 "by the pool's fumes."
 msgstr ""
+"모험의 샴페인 웅덩이에 발을 들인 크리처는 행운의 쇄도를 경험하며, 매 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}을 시도해 실패시 그 중독성 만큼이나 변덕스럽기도 한 초자연적 행운에 "
+"굴복합니다. 영향을 받은 크리처는 {g|Encyclopedia:Dice}d20{/g} 굴림을 시도할 때마다 두 번 굴려 더 나은 결과를 "
+"취합니다. 이 효과는 불안정하며, 오직 웅덩이 안에 있을 때와 웅덩이를 나온 뒤 1라운드만 적용됩니다. 웅덩이에 영향을 받았던 크리처는 "
+"24시간 동안 다시 영향을 받지 않습니다. 크리처가 이 효과를 받는 중에 순수 20을 굴리는 경우, 모든 이점을 잃고 하루 동안 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}, 내성 굴림, {g|Encyclopedia:Skills}기술 판정{/g} 및 "
+"{g|Encyclopedia:Concentration}집중 판정{/g}에 -4 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받습니다. 이것은 저주 효과입니다. 생명 거품 {g|Encyclopedia:Spell}주문{/g}의 효과를 받는 크리처는 웅덩이의 독기에 "
+"영향을 받지 않습니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChampagneOfRisk/DLC5_ChampagneOfRiskPotionBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "de6edc0f-8829-4292-94d8-ab678e3e1b67"
 msgid "Champagne of Risk"
-msgstr ""
+msgstr "모험의 샴페인"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChaoticTransformation/DLC5_ChaoticTransformationBarkskinBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45594,13 +45598,26 @@ msgid ""
 "the life bubble {g|Encyclopedia:Spell}spell{/g} are unaffected by the pool's "
 "fumes."
 msgstr ""
+"쏟아진 무질서한 변신의 물약 웅덩이에 발을 들인 크리처는 매 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g}을 시도해 실패시 아래의 효과 중 하나를 무작위로 받습니다:\n"
+"{g|SpellsBarkskin}나무껍질{/g}\n"
+"{g|SpellsBeastShapeI}짐승의 모습 I{/g}\n"
+"{g|SpellsBeastShapeII}짐승의 모습 II{/g}\n"
+"{g|SpellsBalefulPolymorph}유해한 변이{/g}\n"
+"{g|SpellsGreaterAnimalAspect}동물의 형상, 상급{/g} (무작위 하나)\n"
+"{g|SpellsElementalBodyI}정령의 육신 I{/g} (무작위 하나)\n"
+"{g|SpellsEnlargePerson}사람 확대{/g}\n"
+"{g|SpellsReducePerson}사람 축소{/g}\n"
+"이 효과는 불안정하며, 오직 웅덩이 안에 있을 때와 웅덩이를 나온 뒤 1라운드만 적용됩니다. 웅덩이에 영향을 받았던 크리처는 24시간 "
+"동안 다시 영향을 받지 않습니다. 생명 거품 {g|Encyclopedia:Spell}주문{/g}의 효과를 받는 크리처는 웅덩이의 독기에 "
+"영향을 받지 않습니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChaoticTransformation/DLC5_ChaoticTransformationPotionBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "7cfcb44d-3ce8-4b72-bf73-24c82d1c2ceb"
 msgid "Potion of Chaotic Transformation"
-msgstr ""
+msgstr "무질서한 변신의 물약"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ChaoticTransformation/DLC5_ChaoticTransformationReducePersonBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45672,7 +45689,7 @@ msgctxt "5b30d25e-b28d-4028-a496-f2245698b2ba"
 msgid ""
 "You have inhaled the fumes of a strange potion brewed by a mad goblin "
 "alchemist and are now suffering from fits of uncontrollable laughter."
-msgstr ""
+msgstr "당신은 미친 고블린 알케미스트가 혼합한 이상한 약물의 연기를 들이쉬었으며, 이제 통제되지 않는 웃음 발작을 일으키는 중입니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ContagiousLaughter/DLC5_ContagiousLaughterBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45683,7 +45700,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "a2652641-ae81-402c-bed2-391fe6d3b56a"
 msgid "Contagious Laughter"
-msgstr ""
+msgstr "전염성 폭소"
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ContagiousLaughter/DLC5_ContagiousLaughterPotionBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -45702,13 +45719,19 @@ msgid ""
 "for 24 hours. Creatures under the effect of the life bubble spell are "
 "unaffected by the pool's fumes."
 msgstr ""
+"쏟아진 전염성 폭소의 물약 웅덩이에 발을 들인 크리처는 매 {g|Encyclopedia:Combat_Round}라운드{/g} "
+"{g|Encyclopedia:Saving_Throw}의지 내성{/g}을 시도해 실패시 {g|SpellsHideousLaughter}끔찍한 "
+"웃음{/g} {g|Encyclopedia:Spell}주문{/g}의 효과를 받습니다. 이 크리처가 웃고 있는 매 라운드마다, 15피트 반경 "
+"내 유해성 증기에 면역을 지니지 않은 모든 크리처들은 의지 내성을 시도해 실패시 같은 효과를 받습니다. 이 효과는 불안정하며, 오직 "
+"웅덩이 안에 있을 때와 웅덩이를 나온 뒤 1라운드만 적용됩니다. 웅덩이에 영향을 받았던 크리처는 24시간 동안 다시 영향을 받지 "
+"않습니다. 생명 거품 주문의 효과를 받는 크리처는 웅덩이의 독기에 영향을 받지 않습니다."
 
 #. File = Spells/CutsceneSpells/DLC5/GoblinsPartyInTheTower/ContagiousLaughter/DLC5_ContagiousLaughterPotionBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "19f5a220-cf46-4f13-904b-b44524c7c86c"
 msgid "Potion of Contagious Laughter"
-msgstr ""
+msgstr "전염성 폭소의 물약"
 
 #. File = QA/Clockwork/Scenario/Exploration/test
 #. Type = Kingmaker.QA.Clockwork.BlueprintClockworkScenario
@@ -45772,7 +45795,7 @@ msgstr "이야기"
 #. Path = m_DisplayName
 msgctxt "dd2c1ef2-36a5-4a7e-836e-93698c8f561b"
 msgid "Wild Magic Wave"
-msgstr ""
+msgstr "날뛰는 마법 파동"
 
 #. File = Spells/CutsceneSpells/DeathWardBuff_IsFromSpell
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -46499,6 +46522,11 @@ msgid ""
 "{g|Encyclopedia:Damage_Type}piercing damage{/g} on successful grapple "
 "{g|Encyclopedia:Check}checks{/g}."
 msgstr ""
+"대상의 관절 부위들이 두껍고 날카로워지며, 주먹과 팔꿈치, 어깨, 척추, 무릎의 피부를 뚫고 고통스럽게 튀어나옵니다. 각 대상은 자연 "
+"방어에 +1 {g|Encyclopedia:Bonus}보너스{/g} 및 {g|Encyclopedia:NaturalAttack}자연 "
+"무기{/g}의 피해에 +2 보너스를 받고 붙잡기 {g|Encyclopedia:Check}판정{/g} 성공시 "
+"{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Damage_Type}찌르기 피해{/g}를 추가로 "
+"가합니다."
 
 #. File = Spells/DLC4NewSpells/BoneFists
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -46513,7 +46541,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "20a1f1b3-65a2-41b6-b4b4-b89101ea0adb"
 msgid "Bone Fists"
-msgstr ""
+msgstr "뼈주먹"
 
 #. File = Spells/DLC4NewSpells/BurningEntangle
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -46534,13 +46562,21 @@ msgid ""
 "{g|Encyclopedia:Concealment}concealment{/g} (20% miss chance). When the "
 "spell's duration expires, the vines burn away entirely."
 msgstr ""
+"이 {g|Encyclopedia:Spell}주문{/g}은 {g|SpellsEntangle}휘감기{/g}와 비슷하지만, 불 붙은 줄기를 "
+"깝니다. 이 주문에 의해 {g|ConditionEntangled}속박{/g}된 상태로 차례를 시작하는 크리처는 "
+"{g|Encyclopedia:Dice}4d6{/g} {g|Encyclopedia:Energy_Damage}화염 피해{/g} "
+"({g|Encyclopedia:Saving_Throw}반사 내성{/g}을 통해 {g|Encyclopedia:Damage}핗9{/g} 반감)"
+" 를, 속박되지 않은 채 범위 내에서 차례를 시작하는 크리처는 2d6 화염 피해 (반사 내성을 통해 피해 반감) 를 받습니다. 줄기로부터 "
+"피어오르는 연기가 시야의 일부를 방해합니다. 연기 속에서 행하는 {g|Encyclopedia:Attack}공격{/g}이나 연기 속에 있는 "
+"대상을 향한 공격에 {g|Encyclopedia:Concealment}은폐{/g} (빗맞을 확률 20%) 가 적용됩니다. 덩굴은 주문의 "
+"지속 시간이 끝나면 완전히 타서 사라집니다."
 
 #. File = Spells/DLC4NewSpells/BurningEntangle
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_DisplayName
 msgctxt "9e8e357c-ad78-4ad9-9abb-73fada2fba8e"
 msgid "Burning Entanglement"
-msgstr ""
+msgstr "불타는 휘감기"
 
 #. File = Spells/DLC4NewSpells/DimensionalAnchor
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -46549,6 +46585,7 @@ msgstr ""
 #. File = Spells/DLC4NewSpells/DimensionalAnchorBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_Description
+#, fuzzy
 msgctxt "c8d472a5-49c3-49b4-b182-9f5817c6ddfb"
 msgid ""
 "A green ray springs from your hand. You must make a ranged "
@@ -46564,6 +46601,13 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} forms. Also, dimensional anchor does not "
 "prevent summoned creatures from disappearing at the end of a summoning spell."
 msgstr ""
+"당신의 손으로부터 녹색 광선이 발사됩니다. 당신은 대상을 맞추기 위한 원거리 {g|Encyclopedia:TouchAttack}접촉 "
+"공격{/g}을 성공해야 합니다. 광선에 맞은 크리처 또는 물체는 초차원 이동을 완전히 봉쇄하는 희미한 에메랄드빛 마법장에 둘러싸입니다. "
+"차원 닻은 깜빡임, {g|SpellsDimensionDoor}차원문{/g}, 공간 보행, 순간이동 및 기타 "
+"{g|Encyclopedia:Special_Abilities}주문 유사 능력{/g}과 같은 형식의 이동 일체를 금지합니다.\n"
+"차원 닻은 {g|Encyclopedia:Spell}주문{/g}이 시전된 시점에 이미 에테리얼 또는 아스트랄 형태였던 크리처의 이동, "
+"그리고 초차원적 인지나 {g|Encyclopedia:Attack}공격{/g}을 방해하지는 않습니다. 또한 차원 닻은 소환 주문의 종료로 "
+"인한 소환된 크리처의 소멸도 막지 못합니다."
 
 #. File = Spells/DLC4NewSpells/DimensionalAnchor
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -46572,9 +46616,10 @@ msgstr ""
 #. File = Spells/DLC4NewSpells/DimensionalAnchorBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
+#, fuzzy
 msgctxt "ce7e9599-578d-49a1-84fd-c50459c0c80b"
 msgid "Dimensional Anchor"
-msgstr ""
+msgstr "차원 닻"
 
 #. File = Spells/DLC4NewSpells/ExplosionOfRot
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -46594,13 +46639,20 @@ msgid ""
 "{g|Encyclopedia:Penalty}penalty{/g} on the saving throw and takes 1 extra "
 "point of damage per die."
 msgstr ""
+"범위 내 모든 크리처들을 휩쓰는 부패의 폭발을 일으킵니다. 이 악랄한 부패 에너지의 분출은 살아있지 않은 크리처나 구조물 마저도 "
+"무너뜨리거나 약하게 만듭니다. 효과 범위 내의 크리처들은 {g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 "
+"{g|Encyclopedia:Dice}1d6{/g} (최대 15d6) 점의 {g|Encyclopedia:Damage}피해{/g}를 받고 "
+"1d4 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|ConditionStaggered}비틀거림{/g} "
+"상태가 됩니다.{g|Encyclopedia:Saving_Throw}반사 내성{/g}에 성공한 크리처는 피해를 절반으로 줄이고 비틀거리지 "
+"않습니다. 식물 크리처는 이 부패 효과에 특히나 취약합니다; 범위 내의 식물 크리처는 내성 굴림에 -2 "
+"{g|Encyclopedia:Penalty}페널티{/g}를 뱓으며 주사위당 1점의 피해를 추가로 받습니다."
 
 #. File = Spells/DLC4NewSpells/ExplosionOfRot
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
 #. Path = m_DisplayName
 msgctxt "d8c10409-e220-490c-a2c4-816bf72e30dc"
 msgid "Explosion of Rot"
-msgstr ""
+msgstr "부패 폭발"
 
 #. File = Spells/DLC4NewSpells/MortalTerror
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
