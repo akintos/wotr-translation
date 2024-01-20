@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-17 08:37+0000\n"
+"PO-Revision-Date: 2024-01-20 00:37+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -1821,7 +1821,7 @@ msgstr "<b>{source}</b>: <b>{target}</b>의 일시적 음수 레벨을 <b>{count
 #. LocalizedTexts/GameLog/GameLog/EnergyDrainImmune/Message
 msgctxt "8106a3f7-1f4a-40d6-a554-d8c79ebe33ae"
 msgid "{target} is immune to energy drain."
-msgstr "<b>{target}</b>: 원기 흡수에 면역."
+msgstr "<b>{target}</b>: 원기 소진에 면역."
 
 #. LocalizedTexts/GameLog/GameLog/EnergyDrainPermanent/Message
 msgctxt "fdad0bca-6d1a-424c-9f40-1c190c69278a"
@@ -1988,12 +1988,12 @@ msgstr "아이템 손실: <b>{text} x{count}</b>"
 #. LocalizedTexts/GameLog/GameLog/KineticistBurnAccept/Message
 msgctxt "2521695d-85ff-47fc-9cd8-3dce69b45a54"
 msgid "<b>{source}</b> accepts <b>{count}</b> points of burn."
-msgstr "<b>{source}</b>: <b>{count}</b> 점의 과열을 받음."
+msgstr "<b>{source}</b>: <b>{count}</b>점의 과열을 받음."
 
 #. LocalizedTexts/GameLog/GameLog/KineticistBurnHeal/Message
 msgctxt "6bcf3cb1-7c60-4e95-971a-ee6a8ac2738a"
 msgid "<b>{source}</b> heals <b>{count}</b> points of burn."
-msgstr "<b>{source}</b>: <b>{count}</b> 점의 과열을 치유함."
+msgstr "<b>{source}</b>: <b>{count}</b>점의 과열을 치유함."
 
 #. LocalizedTexts/GameLog/GameLog/LocationRevealed/Message
 msgctxt "07ee1721-8e83-41d3-a40c-cab342dce9eb"
@@ -2257,7 +2257,7 @@ msgctxt "03adc040-56c5-4538-b4a3-cf5e933873f5"
 msgid ""
 "{target} is immune to energy drain in current combat due to difficulty "
 "settings."
-msgstr "{target}은 난이도 설정상 원기 흡수에 면역입니다."
+msgstr "{target}은 난이도 설정상 원기 소진에 면역입니다."
 
 #. LocalizedTexts/GameLog/GameLog/TacticalCombatDamage/AttackersCount
 msgctxt "7af4169c-6c89-4c68-8c81-ea51c37527fb"
@@ -9694,7 +9694,7 @@ msgstr ""
 "캐릭터의 건강 수정치는 다음에 적용됩니다:\n"
 "각 {g|Encyclopedia:Hit_Dice}생명 주사위{/g} {g|Encyclopedia:Dice}굴림{/g}. (건강 "
 "{g|Encyclopedia:Penalty}페널티{/g}는 굴림 결과를 1 이하로 떨어뜨릴 수 없습니다. 따라서 캐릭터는 레벨이 올라갈 "
-"때마다 항상 최소 1 점의 생명점을 얻습니다.) \n"
+"때마다 항상 최소 1점의 생명점을 얻습니다.) \n"
 "중독, 질병 및 이와 유사한 위협에 대한 {g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}.\n"
 "캐릭터의 건강 수치가 건강 수정치를 변경하기에 충분할 정도로 변경되면, 캐릭터의 생명점도 그에 따라 증가하거나 감소합니다."
 
@@ -11220,7 +11220,7 @@ msgstr "구토"
 #. LocalizedTexts/SpellDescriptorNames/SpellDescriptorNames[23]/Text
 msgctxt "3a5b2b10-e21b-4112-be72-f44038dbad86"
 msgid "Frightened"
-msgstr "겁에 질림"
+msgstr "겁먹음"
 
 #. LocalizedTexts/SpellDescriptorNames/SpellDescriptorNames[24]/Text
 msgctxt "67e44787-eda2-4cd9-abaa-00179634782b"
@@ -12747,8 +12747,8 @@ msgid ""
 msgstr ""
 "당신의 {g|Encyclopedia:Spell}주문{/g}이 더 강력해지고 추가적인 범위 "
 "{g|Encyclopedia:Damage}피해{/g}를 입히게 만듭니다.\n"
-"이점: 주문이 모든 대상에게 주사위당 2 점의 추가 피해를 입힙니다. 또한, {g|Encyclopedia:Spell_Target}주문의 "
-"대상{/g} 주변 5 피트 범위 내의 모든 적에게 주문의 주사위당 2 점의 피해를 입힙니다. 주문으로 정밀 피해를 입힐 수 없습니다.\n"
+"이점: 주문이 모든 대상에게 주사위당 2점의 추가 피해를 입힙니다. 또한, {g|Encyclopedia:Spell_Target}주문의 "
+"대상{/g} 주변 5 피트 범위 내의 모든 적에게 주문의 주사위당 2점의 피해를 입힙니다. 주문으로 정밀 피해를 입힐 수 없습니다.\n"
 "레벨 증가: 1 (확산 주문은 원래 주문의 레벨보다 1 단계 높은 주문 슬롯을 사용합니다.)"
 
 #. LocalizedTexts/UITooltipData[0]/UITooltipData[156]/Name
@@ -13405,7 +13405,7 @@ msgstr "험지"
 #. LocalizedTexts/UnitConditions/ConditionStrings[12]/Text
 msgctxt "8ae09619-5dfa-49a5-8de9-8b2db2a9f834"
 msgid "Frightened"
-msgstr "겁에 질림"
+msgstr "겁먹음"
 
 #. LocalizedTexts/UnitConditions/ConditionStrings[13]/Text
 msgctxt "f98ec490-b6bd-4154-ae52-74edab0baf71"
