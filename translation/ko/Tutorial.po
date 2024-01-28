@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-26 08:37+0000\n"
-"Last-Translator: OSI <sein4510@naver.com>\n"
+"PO-Revision-Date: 2024-01-28 14:37+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -104,13 +104,16 @@ msgid ""
 "to bear within you, the more adverse traits you will receive and the "
 "stronger the pull of evil will be."
 msgstr ""
+"당신은 시스허드의 영혼 파편 중 하나를 얻었으며, 이를 이용해 데몬 군주의 힘을 약간이나마 얻을 수 있습니다. 각 파편은 당신에게 "
+"영구적인 보너스와 당신이 선택하는 파편의 축복을 줍니다. 하지만, 파편이 더 많아질수록 당신에게 적용되는 불리한 특성도 더 많아지고, "
+"사악함을 향한 이끌림 또한 강해질 것입니다."
 
 #. File = Tutorials/ClassMythicTutorial/ShardsTutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "a3040d47-5109-491a-91a5-758de3885189"
 msgid "Sithhud's Soul Shards"
-msgstr ""
+msgstr "시스허드의 영혼 파편"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_AbilityDamage
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -475,14 +478,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Autocast
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "{g|Encyclopedia:Cantrips_Orisons}Cantrips{/g} and orisons are a special kind "
-#| "of {g|Encyclopedia:Spell}spell{/g} that can be cast an infinite number of "
-#| "times a day. Some examples of such spells are Acid Splash and Ray of Frost.\n"
-#| "If you click RMB on such a spell, it will move into the Active Slot, and the "
-#| "character will automatically use it instead of their equipped weapon when "
-#| "{g|Encyclopedia:Attack}attacking{/g}."
 msgctxt "c3fbd2df-d9f1-4e97-8138-2e3389b0f759"
 msgid ""
 "{g|Encyclopedia:Cantrips_Orisons}Cantrips{/g} and orisons are a special kind "
@@ -493,12 +488,9 @@ msgid ""
 "character will automatically use it instead of their equipped weapon when "
 "attacking."
 msgstr ""
-"{g|Encyclopedia:Cantrips_Orisons}캔트립{/g}과 오리즌은 횟수 제한 없이 시전할 "
-"수 있는 특별한 종류의 주문입니다. 산성 분사, 서리 광선 주문 캔트립에 "
-"해당됩니다.\n"
-"이런 주문에 마우스 오른쪽 버튼을 클릭하면 활성 슬롯으로 이동되며, 해당 "
-"캐릭터가 {g|Encyclopedia:Attack}공격{/g}할 때 착용한 무기 대신 해당 주문을 "
-"사용합니다."
+"{g|Encyclopedia:Cantrips_Orisons}캔트립{/g}과 오리즌은 횟수 제한 없이 시전할 수 있는 특별한 종류의 "
+"주문입니다. 산성 분사, 서리 광선 주문 캔트립에 해당됩니다.\n"
+"이런 주문에 마우스 오른쪽 버튼을 클릭하면 활성 슬롯으로 이동되며, 해당 캐릭터가 공격할 때 착용한 무기 대신 해당 주문을 사용합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Autocast
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -507,12 +499,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Autocast_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "Make use of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g} by automatically "
-#| "casting them with {g|Encyclopedia:Spell}spellcasters{/g} who are ineffective "
-#| "at using certain weapon types. For instance, you can use cantrips instead of "
-#| "{g|Encyclopedia:Attack}attacking{/g} with a crossbow."
 msgctxt "8d563142-7569-49d6-ae3e-86950293051f"
 msgid ""
 "Make use of {g|Encyclopedia:Cantrips_Orisons}cantrips{/g} by automatically "
@@ -520,10 +506,9 @@ msgid ""
 "at using certain weapon types. For instance, you can use cantrips instead of "
 "attacking with a crossbow."
 msgstr ""
-"특정 무기 유형을 효과적으로 사용하지 못하는 {g|Encyclopedia:Spell}주문 "
-"시전자{/g}들이 자동적으로 {g|Encyclopedia:Cantrips_Orisons}캔트립{/g}을 "
-"시전하게 만드세요. 예를 들어 쇠뇌로 {g|Encyclopedia:Attack}공격{/g}하는 대신 "
-"캔트립을 사용할 수 있습니다."
+"특정 무기 유형을 효과적으로 사용하지 못하는 {g|Encyclopedia:Spell}주문 시전자{/g}들이 자동적으로 "
+"{g|Encyclopedia:Cantrips_Orisons}캔트립{/g}을 시전하게 만드세요. 예를 들어 쇠뇌공격하는 대신 캔트립을 "
+"사용할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Autocast
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -564,6 +549,10 @@ msgid ""
 "Automatically\", and the spell will move into the Active Slot. The character "
 "will automatically use it instead of their equipped weapon when attacking."
 msgstr ""
+"{g|Encyclopedia:Cantrips_Orisons}캔트립{/g}과 오리즌은 횟수 제한 없이 시전할 수 있는 특별한 종류의 "
+"주문입니다. 산성 분사, 서리 광선 주문 캔트립에 해당됩니다.\n"
+"이 주문들 중 하나를 선택해, 컨텍스트 메뉴를 연 뒤 \"자동으로 사용\"을 선택하면 주문이 활성 슬롯으로 이동할 것입니다. 캐릭터는 "
+"장비한 무기로 공격하는 대신 이 주문을 자동으로 사용합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_BardicPerformance
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -629,13 +618,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_BaseAttackBonus
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "Different classes increase their {g|Encyclopedia:BAB}base attack bonus{/g} "
-#| "at different paces. Barbarians, fighters, monks, paladins, rangers, and "
-#| "slayers increase their base {g|Encyclopedia:Attack}attack{/g} "
-#| "{g|Encyclopedia:Bonus}bonus{/g} the quickest while wizards and sorcerers are "
-#| "the slowest."
 msgctxt "ea2c83f6-3e29-42ab-a059-d548260d810a"
 msgid ""
 "Different classes increase their {g|Encyclopedia:BAB}base attack bonus{/g} "
@@ -643,10 +625,8 @@ msgid ""
 "slayers increase their base attack bonus the quickest while wizards and "
 "sorcerers are the slowest."
 msgstr ""
-"{g|Encyclopedia:BAB}기본 공격 보너스{/g} 증가 속도는 클래스에 따라 다릅니다. "
-"바바리안, 파이터, 몽크, 팔라딘, 레인저, 슬레이어는 기본 "
-"{g|Encyclopedia:Attack}공격{/g} {g|Encyclopedia:Bonus}보너스{/g}를 가장 빠른 "
-"속도로 향상시키는데 비해 위저드와 소서러는 가장 느립니다."
+"{g|Encyclopedia:BAB}기본 공격 보너스{/g} 증가 속도는 클래스에 따라 다릅니다. 바바리안, 파이터, 몽크, 팔라딘, "
+"레인저, 슬레이어는 기본 공격 보너스를 가장 빠른 속도로 향상시키는데 비해 위저드와 소서러는 가장 느립니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_BaseAttackBonus
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -671,19 +651,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Blindness
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "A blind creature suffers from several {g|Encyclopedia:Penalty}penalties{/g}. "
-#| "Their {g|Encyclopedia:Armor_Class}AC{/g} drops by 2, they lose their whole "
-#| "{g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "AC, and most {g|Encyclopedia:Skills}skills{/g} depending on "
-#| "{g|Encyclopedia:Strength}Strength{/g} and Dexterity, as well as "
-#| "{g|Encyclopedia:Perception}Perception{/g}, get a -4 penalty. Because of "
-#| "blindness, every {g|Encyclopedia:Attack}attack{/g} the character attempts "
-#| "has a 50% miss chance regardless of the {g|Encyclopedia:Dice}roll{/g} "
-#| "result. Blindness frequently works only for a short time, so you can just "
-#| "wait for it to end. Some severe cases require "
-#| "{g|Encyclopedia:Healing}healing{/g}."
 msgctxt "a15c46a1-9d38-4771-be3e-6c3d226e8872"
 msgid ""
 "A {g|ConditionBlind}blind{/g} creature suffers from several "
@@ -699,24 +666,18 @@ msgid ""
 "wait for it to end. Some severe cases require "
 "{g|Encyclopedia:Healing}healing{/g}."
 msgstr ""
-"실명한 크리처는 다양한 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. "
+"{g|ConditionBlind}실명{/g}한 크리처는 다양한 {g|Encyclopedia:Penalty}페널티{/g}를 받습니다. "
 "{g|Encyclopedia:Armor_Class}AC{/g}가 2 감소하고, AC에 대한 모든 "
 "{g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Bonus}보너스{/g}를 잃으며 "
-"{g|Encyclopedia:Perception}지각{/g}등 {g|Encyclopedia:Strength}힘{/g}과 "
-"민첩에 기반한 {g|Encyclopedia:Skills}기술{/g}들에 -4 페널티를 받습니다. "
-"실명한 캐릭터가 시도하는 모든 {g|Encyclopedia:Attack}공격{/g}은 "
-"{g|Encyclopedia:Dice}굴림{/g} 결과와 무관하게 50% 빗나감 확률을 얻습니다. "
-"실명은 대개 지속 시간이 매우 짧으므로 효과가 끝날 때까지 그저 기다릴 수도 "
-"있습니다. 몇몇 심각한 경우에는 {g|Encyclopedia:Healing}치유{/g}를 필요로 "
-"합니다."
+"{g|Encyclopedia:Perception}지각{/g}등 {g|Encyclopedia:Strength}힘{/g}과 민첩에 기반한 "
+"{g|Encyclopedia:Skills}기술{/g}들에 -4 페널티를 받습니다. 실명한 캐릭터가 시도하는 모든 "
+"{g|Encyclopedia:Attack}공격{/g}은 {g|Encyclopedia:Dice}굴림{/g} 결과와 무관하게 50% 빗나감 "
+"확률을 얻습니다. 실명은 대개 지속 시간이 매우 짧으므로 효과가 끝날 때까지 그저 기다릴 수도 있습니다. 몇몇 심각한 경우에는 "
+"{g|Encyclopedia:Healing}치유{/g}를 필요로 합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Blindness
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "Blindness can be cured by such {g|Encyclopedia:Spell}spells{/g} as remove "
-#| "blindness, {g|Encyclopedia:Healing}heal{/g} and greater restoration."
 msgctxt "2b309e08-d0fb-4052-a01c-fb6b1a5125c3"
 msgid ""
 "{g|ConditionBlind}Blindness{/g} can be cured by such "
@@ -724,17 +685,16 @@ msgid ""
 "blindness{/g}, {g|SpellsHeal}heal{/g} and {g|SpellsRestorationGreater}"
 "greater restoration{/g}."
 msgstr ""
-"실명은 실명 제거, {g|Encyclopedia:Healing}치유{/g}, 상급 상태회복과 같은 "
+"{g|ConditionBlind}실명{/g}은 {g|SpellsRemoveBlindness}실명 제거{/g}, "
+"{g|SpellsHeal}치유{/g}, {g|SpellsRestorationGreater}상급 상태회복{/g}과 같은 "
 "{g|Encyclopedia:Spell}주문{/g}을 이용하여 치료할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Blindness
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid "You can cure blindness using:"
 msgctxt "b1f054d7-eac0-4b4f-9aef-690c4e82bd4b"
 msgid "You can cure {g|ConditionBlind}blindness{/g} using:"
-msgstr "실명은 다음을 사용해 치료할 수 있습니다:"
+msgstr "{g|ConditionBlind}실명{/g}은 다음을 사용해 치료할 수 있습니다:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Blindness
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -746,20 +706,13 @@ msgstr "실명"
 #. File = Tutorials/ContextTutorial/ContextTutor_Blindness
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid "Your character {t|SourceUnit} was blinded."
 msgctxt "fe4ff47f-42b7-45e7-9b29-2f9c958ab4a9"
 msgid "Your character {t|SourceUnit} was {g|ConditionBlind}blinded{/g}."
-msgstr "캐릭터가 실명 상태입니다."
+msgstr "{t|SourceUnit}(이)가 {g|ConditionBlind}실명{/g} 상태입니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Blindsight
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This ability allows a creature to ignore the effects of such "
-#| "{g|Encyclopedia:Spell}spells{/g} as blur, displacement, invisibility, mirror "
-#| "image. Remember this when you fight it."
 msgctxt "9cf1ebb2-d20d-4e0c-a8b1-6fccc04125e3"
 msgid ""
 "This ability allows a creature to ignore the effects of such "
@@ -768,9 +721,9 @@ msgid ""
 "{g|SpellsInvisibility}invisibility{/g}, {g|SpellsMirrorImage}mirror image{/g}"
 ". Remember this when you fight it."
 msgstr ""
-"이 능력은 크리처가 흐릿한 형체, 환위, 투명화, 거울상 같은 "
-"{g|Encyclopedia:Spell}주문{/g}의 효과를 무시하게 해줍니다. 이러한 적과 "
-"전투할 때 주의하십시오."
+"이 능력은 크리처가 {g|SpellsBlur}흐릿한 형체{/g}, {g|SpellsDisplacement}환위{/g}, "
+"{g|SpellsInvisibility}투명화{/g}, {g|SpellsMirrorImage}거울상{/g} 같은 "
+"{g|Encyclopedia:Spell}주문{/g}의 효과를 무시하게 해줍니다. 이러한 적과 전투할 때 주의하십시오."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Blindsight
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -962,13 +915,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_CompanionDeath
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "To resurrect a dead character, find the {g|Encyclopedia:Spell}spell{/g} (or "
-#| "a spell scroll) breath of life (can only be used within 2 "
-#| "{g|Encyclopedia:Combat_Round}rounds{/g} after "
-#| "{g|Encyclopedia:Injury_Death}death{/g}), raise dead or resurrection, and use "
-#| "it — or go to a safe zone and find someone who can read it for you."
 msgctxt "01090d7a-c5ff-47b9-b325-34247ece71c6"
 msgid ""
 "To resurrect a dead character, find the {g|Encyclopedia:Spell}spell{/g} (or "
@@ -978,11 +924,11 @@ msgid ""
 "or {g|SpellsResurrection}resurrection{/g}, and use it — or go to a safe zone "
 "and find someone who can read it for you."
 msgstr ""
-"사망한 캐릭터를 되살리려면, 생명의 숨결 "
+"사망한 캐릭터를 되살리려면, {g|SpellsBreathOfLife}생명의 숨결{/g} "
 "({g|Encyclopedia:Injury_Death}사망{/g} 이후 2 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 이내에만 사용 가능), 소생, 부활 "
-"{g|Encyclopedia:Spell}주문{/g}(또는 두루마리)을 찾아 사용하거나, 안전한 "
-"곳으로 가서 두루마리를 대신 사용해 줄 사람을 찾으십시오."
+"{g|Encyclopedia:Combat_Round}라운드{/g} 이내에만 사용 가능), {g|SpellsRaiseDead}소생{/g} "
+"또는 {g|SpellsResurrection}부활{/g} {g|Encyclopedia:Spell}주문{/g} (또는 두루마리) 을 찾아 "
+"사용하거나, 안전한 곳으로 가서 두루마리를 대신 사용해 줄 사람을 찾으십시오."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_CompanionDeath
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -1041,12 +987,6 @@ msgstr "{t|TargetUnit}(은)는 {t|Descriptor} 상태에 면역입니다."
 #. File = Tutorials/ContextTutorial/ContextTutor_Confusion
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "A confused creature can't think straight or act normally. It can't tell a "
-#| "friend from an enemy, and keeps {g|Encyclopedia:Attack}attacking{/g} the "
-#| "last creature that attacked it until it dies or moves out of sight. This "
-#| "condition rarely lasts long, and usually you can just wait until it's over."
 msgctxt "d9a27492-acc1-41af-ab3e-198388651759"
 msgid ""
 "A {g|ConditionConfusion}confused{/g} creature can't think straight or act "
@@ -1055,29 +995,20 @@ msgid ""
 "until it dies or moves out of sight. This condition rarely lasts long, and "
 "usually you can just wait until it's over."
 msgstr ""
-"혼란 상태의 캐릭터는 똑바로 사고하거나 정상적으로 행동할 수 없습니다. 친구와 "
-"적을 구분하지 못하고 자신을 공격한 마지막 크리처가 죽거나 시야 밖으로 사라질 "
-"때까지 계속 {g|Encyclopedia:Attack}공격{/g}할 것입니다. 이러한 상태는 대부분 "
-"지속시간이 짧으므로, 끝날 때까지 기다리기만 해도 됩니다."
+"{g|ConditionConfusion}혼란{/g} 상태의 캐릭터는 똑바로 사고하거나 정상적으로 행동할 수 없습니다. 친구와 적을 "
+"구분하지 못하고 자신을 공격한 마지막 크리처가 죽거나 시야 밖으로 사라질 때까지 계속 {g|Encyclopedia:Attack}공격{/g}"
+"할 것입니다. 이러한 상태는 대부분 지속시간이 짧으므로, 끝날 때까지 기다리기만 해도 됩니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Confusion
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid "You can remove the confusion state with:"
 msgctxt "21c10438-8f6d-416e-9528-44d7695f3558"
 msgid "You can remove the {g|ConditionConfusion}confusion{/g} state with:"
-msgstr "혼란 상태는 다음과 같은 것들로 제거할 수 있습니다:"
+msgstr "{g|ConditionConfusion}혼란{/g} 상태는 다음과 같은 것들로 제거할 수 있습니다:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Confusion
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "You can remove the confusion state with the break enchantment "
-#| "{g|Encyclopedia:Spell}spell{/g}, or stronger "
-#| "{g|Encyclopedia:Healing}restoration{/g} spells. The dispel magic spell could "
-#| "also come handy."
 msgctxt "7d8f5a15-a0d6-4f48-9818-26e23e47c09d"
 msgid ""
 "You can remove the {g|ConditionConfusion}confusion{/g} state with the "
@@ -1086,9 +1017,9 @@ msgid ""
 "{g|SpellsRestoration}restoration{/g} spells. The {g|SpellsDispelMagic}dispel "
 "magic{/g} spell could also come handy."
 msgstr ""
-"부여 파해 {g|Encyclopedia:Spell}주문{/g}이나 보다 강력한 "
-"{g|Encyclopedia:Healing}상태회복{/g} 주문들을 통해 혼란 상태를 제거할 수 "
-"있습니다. 마법 해제 주문 또한 유용할 수 있습니다."
+"{g|SpellsBreakEnchantment}부여 파해{/g} {g|Encyclopedia:Spell}주문{/g}이나 보다 강력한 "
+"{g|SpellsRestoration}상태회복{/g} 주문들을 통해 혼란 상태를 제거할 수 있습니다. "
+"{g|SpellsDispelMagic}마법 해제{/g} 주문 또한 유용할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Confusion
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -1100,12 +1031,10 @@ msgstr "혼란"
 #. File = Tutorials/ContextTutorial/ContextTutor_Confusion
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid "Your character {t|SourceUnit} has become confused."
 msgctxt "2f3634da-ac29-4018-81af-2d10356eb7cb"
 msgid ""
 "Your character {t|SourceUnit} has become {g|ConditionConfusion}confused{/g}."
-msgstr "당신의 {t|SourceUnit} 캐릭터가 혼란 상태에 빠졌습니다."
+msgstr "{t|SourceUnit}(이)가 {g|ConditionConfusion}혼란{/g} 상태에 빠졌습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_CriticalIncoming
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -1310,46 +1239,29 @@ msgstr "피해 감소 N/-"
 #. File = Tutorials/ContextTutorial/ContextTutor_DRUltimate
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You have met the enemy {t|TargetUnit} who possesses the "
-#| "{g|Encyclopedia:AbilityDamage}ability damage{/g} reduction of the N/- type. "
-#| "It cannot be overcome."
 msgctxt "af93e6bb-3c76-44fb-a43b-d27927d38bba"
 msgid ""
 "You have met the enemy {t|TargetUnit} who possesses the ability damage "
 "reduction of the N/- type. It cannot be overcome."
 msgstr ""
-"방금 N/- 유형의 {g|Encyclopedia:Damage_Reduction}피해 감소{/g} 능력을 보유한 "
-"{t|TargetUnit} 적과 조우했습니다. 이 피해 감소 능력은 상쇄할 수 없습니다."
+"방금 N/- 유형의 {g|Encyclopedia:Damage_Reduction}피해 감소{/g} 능력을 보유한 {t|TargetUnit} "
+"적과 조우했습니다. 이 피해 감소 능력은 상쇄할 수 없습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_DeathDoor
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "On the lower {g|Encyclopedia:DC}difficulty{/g} levels, instead of dying, a "
-#| "character is crippled instead. Unless you {g|Encyclopedia:Healing}cure{/g} "
-#| "the condition, the next time that character would actually die."
 msgctxt "8e0bd61e-5bea-4cbf-a125-52e3d0973776"
 msgid ""
 "On the lower difficulty levels, instead of dying, a character is crippled "
 "instead. Unless you {g|Encyclopedia:Healing}cure{/g} the condition, the next "
 "time that character would actually die."
 msgstr ""
-"낮은 {g|Encyclopedia:DC}난이도{/g}에서는, 죽는 대신 캐릭터가 빈사 상태에 "
-"빠지게 됩니다. 해당 캐릭터를 {g|Encyclopedia:Healing}치료{/g}해주지 않으면, "
-"빈사 상태에 빠진 캐릭터는 진짜로 죽게 됩니다."
+"낮은 난이도에서는, 죽는 대신 캐릭터가 빈사 상태에 빠지게 됩니다. 해당 캐릭터를 {g|Encyclopedia:Healing}치료{/g}"
+"해주지 않으면, 빈사 상태에 빠진 캐릭터는 진짜로 죽게 됩니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_DeathDoor
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "To remove the crippled condition, you need to {g|Encyclopedia:Rest}rest{/g} "
-#| "in a safe place (such as the Defender's Heart or a war camp), or use the "
-#| "greater {g|Encyclopedia:Healing}restoration{/g} "
-#| "{g|Encyclopedia:Spell}spell{/g}."
 msgctxt "ee504356-dbcd-43af-b50f-5be583e3bc29"
 msgid ""
 "To remove the crippled condition, you need to {g|Encyclopedia:Rest}rest{/g} "
@@ -1357,9 +1269,9 @@ msgid ""
 "{g|SpellsRestorationGreater}greater restoration{/g} "
 "{g|Encyclopedia:Spell}spell{/g}."
 msgstr ""
-"빈사 상태에서 벗어나려면, 수호자의 심장이나 주둔지와 같은 안전한 장소 "
-"{g|Encyclopedia:Rest}휴식{/g}을 취하거나 상급 {g|Encyclopedia:Healing}상태 "
-"회복{/g} {g|Encyclopedia:Spell}주문{/g}을 사용해야 합니다."
+"빈사 상태에서 벗어나려면, 수호자의 심장이나 주둔지와 같은 안전한 장소 {g|Encyclopedia:Rest}휴식{/g}을 취하거나 "
+"{g|SpellsRestorationGreater}상급 상태회복{/g} {g|Encyclopedia:Spell}주문{/g}을 사용해야 "
+"합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_DeathDoor
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -1411,13 +1323,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Desease
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "You can {g|Encyclopedia:Healing}cure{/g} a disease with "
-#| "{g|Encyclopedia:Spell}spells{/g} (or spell scrolls), such as remove disease "
-#| "or heal.\n"
-#| "From the 3rd level on, paladins become immune to diseases. Throw them "
-#| "against infectious enemies, and fear nothing!"
 msgctxt "db273809-8ea7-40be-8c36-0030a5dc2da7"
 msgid ""
 "You can {g|Encyclopedia:Healing}cure{/g} a disease with "
@@ -1426,10 +1331,10 @@ msgid ""
 "From the 3rd level on, paladins become immune to diseases. Throw them "
 "against infectious enemies, and fear nothing!"
 msgstr ""
-"질병은 질병을 치료하거나 치유하는 종류의 {g|Encyclopedia:Spell}주문{/g}이나 "
-"주문 두루마리로 {g|Encyclopedia:Healing}치료{/g}할 수 있습니다.\n"
-"3레벨이 넘는 팔라딘은 질병에 면역이 됩니다. 팔라딘을 질병 공격을 하는 적들과 "
-"맞서게 하여, 질병 걱정에서 벗어나십시오!"
+"질병은 {g|SpellsRemoveDisease}질병 제거{/g}나 {g|SpellsHeal}치유{/g}와 같은 "
+"{g|Encyclopedia:Spell}주문{/g} 및 주문 두루마리로 {g|Encyclopedia:Healing}치료{/g}할 수 "
+"있습니다.\n"
+"3레벨이 넘는 팔라딘은 질병에 면역이 됩니다. 팔라딘을 질병 공격을 하는 적들과 맞서게 하여, 질병 걱정에서 벗어나십시오!"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Desease
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -1451,15 +1356,6 @@ msgstr "당신의 {t|TargetUnit} 캐릭터가 질병에 걸렸으며, {t|SourceF
 #. File = Tutorials/ContextTutorial/ContextTutor_DualWielding
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Making an {g|Encyclopedia:Attack}attack{/g} with a "
-#| "{g|Encyclopedia:Light_Weapon}one-handed{/g} or a light weapon, you can make "
-#| "an additional attack with a weapon in the other hand. In this case, the "
-#| "first attack gets a -6 {g|Encyclopedia:Penalty}penalty{/g}, and the second "
-#| "up to -10 to the attack {g|Encyclopedia:Dice}roll{/g}. Additionally, the "
-#| "second attack only receives half the {g|Encyclopedia:Strength}Strength{/g} "
-#| "{g|Encyclopedia:Bonus}bonus{/g}."
 msgctxt "28313742-c97b-47b9-b34e-7164eee94ab5"
 msgid ""
 "Making an {g|Encyclopedia:Attack}attack{/g} with a "
@@ -1471,11 +1367,9 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g}."
 msgstr ""
 "{g|Encyclopedia:Light_Weapon}한 손{/g} 무기나 가벼운 무기로 "
-"{g|Encyclopedia:Attack}공격{/g}할 때 다른 손의 무기로 추가 공격을 시도할 수 "
-"있습니다. 이 경우 공격 {g|Encyclopedia:Dice}굴림{/g}에 첫 공격은 -6 "
-"{g|Encyclopedia:Penalty}페널티{/g}를, 두 번째 공격은 -10 페널티를 받습니다. "
-"이에 더해 두 번째 공격은 {g|Encyclopedia:Strength}힘{/g} "
-"{g|Encyclopedia:Bonus}보너스{/g}의 절반만을 받습니다."
+"{g|Encyclopedia:Attack}공격{/g}할 때 다른 손의 무기로 추가 공격을 시도할 수 있습니다. 이 경우 명중 굴림에 첫 "
+"공격은 -6 {g|Encyclopedia:Penalty}페널티{/g}를, 두 번째 공격은 -10 페널티를 받습니다. 이에 더해 두 번째 "
+"공격은 {g|Encyclopedia:Strength}힘{/g} {g|Encyclopedia:Bonus}보너스{/g}의 절반만을 받습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_DualWielding
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -1800,12 +1694,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Exhausted
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Fatigued characters fight way worse than if they have had a good "
-#| "{g|Encyclopedia:Rest}rest{/g}. Additionally, a rest restores some lost "
-#| "{g|Encyclopedia:HP}HP{/g}, allows {g|Encyclopedia:Spell}spellcasters{/g} to "
-#| "replenish their spells, and helps get rid of many negative conditions."
 msgctxt "34cabc32-1baa-40dc-b3d0-321e2cbe2d3e"
 msgid ""
 "{g|ConditionFatigued}Fatigued{/g} characters fight way worse than if they "
@@ -1814,22 +1702,13 @@ msgid ""
 "{g|Encyclopedia:Spell}spellcasters{/g} to replenish their spells, and helps "
 "get rid of many negative conditions."
 msgstr ""
-"피로한 캐릭터는 좋은 {g|Encyclopedia:Rest}휴식{/g}을 취했을 때보다 훨씬 "
+"{g|ConditionFatigued}피로{/g}한 캐릭터는 좋은 {g|Encyclopedia:Rest}휴식{/g}을 취했을 때보다 훨씬 "
 "약해집니다. 또한, 휴식은 약간의 잃은 {g|Encyclopedia:HP}HP{/g}를 회복시키고, "
-"{g|Encyclopedia:Spell}주문 시전자{/g}들이 소모한 주문을 재충전하며, 다양한 "
-"부정적인 상태의 제거를 돕습니다."
+"{g|Encyclopedia:Spell}주문 시전자{/g}들이 소모한 주문을 재충전하며, 다양한 부정적인 상태의 제거를 돕습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Exhausted
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "Set up a {g|Encyclopedia:Rest}camp{/g} and have a rest. Don't forget to "
-#| "assign a lookout! For the worst cases, you could use the lesser "
-#| "{g|Encyclopedia:Healing}restoration{/g} {g|Encyclopedia:Spell}spell{/g} to "
-#| "make exhausted characters merely fatigued and get rid of fatigued "
-#| "characters' conditions. More powerful versions of this spell remove the "
-#| "exhausted condition directly."
 msgctxt "fae8a31e-a8a8-4c98-b6dd-909cec63ac5f"
 msgid ""
 "Set up a {g|Encyclopedia:Rest}camp{/g} and have a rest. Don't forget to "
@@ -1840,11 +1719,10 @@ msgid ""
 "characters' conditions. More powerful versions of this spell remove the "
 "exhausted condition directly."
 msgstr ""
-"{g|Encyclopedia:Rest}야영지{/g}를 차리고 휴식을 취하세요. 경계인원을 세우는 "
-"것 또한 잊지 마세요! 불가피한 경우, 하급 {g|Encyclopedia:Healing}상태회복{/g}"
-" {g|Encyclopedia:Spell}주문{/g}을 통해 탈진한 동료들을 피로 상태로 "
-"회복시키거나, 피로 상태를 제거할 수 있습니다. 보다 강력한 상태회복 주문은 "
-"탈진 상태를 곧바로 제거할 수 있습니다."
+"{g|Encyclopedia:Rest}야영지{/g}를 차리고 휴식을 취하세요. 경계인원을 세우는 것 또한 잊지 마세요! 불가피한 경우, "
+"{g|SpellsRestorationLesser}하급 상태회복{/g} {g|Encyclopedia:Spell}주문{/g}을 통해 "
+"{g|ConditionExhausted}탈진{/g}한 동료들을 {g|ConditionFatigued}피로{/g} 상태로 회복시키거나, "
+"피로 상태를 제거할 수 있습니다. 보다 강력한 상태회복 주문은 탈진 상태를 곧바로 제거할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Exhausted
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -1856,32 +1734,17 @@ msgstr "피로"
 #. File = Tutorials/ContextTutorial/ContextTutor_Exhausted
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "Your party has exhausted members. You really need to "
-#| "{g|Encyclopedia:Rest}rest{/g}."
 msgctxt "8e40d7a7-6c26-4875-9c8f-a5afba8d8fa6"
 msgid ""
 "Your party has {g|ConditionExhausted}exhausted{/g} members. You really need "
 "to {g|Encyclopedia:Rest}rest{/g}."
-msgstr "일행 중에 지친 캐릭터가 있습니다. {g|Encyclopedia:Rest}휴식{/g}이 필요합니다."
+msgstr ""
+"일행 중에 {g|ConditionExhausted}탈진{/g}한 캐릭터가 있습니다. {g|Encyclopedia:Rest}휴식{/g}이 "
+"필요합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Flatfooted
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "A creature is {g|Encyclopedia:Flat_Footed}flat-footed{/g} when it doesn't "
-#| "expect an {g|Encyclopedia:Attack}attack{/g}. In this state, it loses the "
-#| "{g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g} to "
-#| "{g|Encyclopedia:Armor_Class}AC{/g} and becomes vulnerable to sneak attacks. "
-#| "During the first {g|Encyclopedia:Combat_Round}round{/g} of every combat, "
-#| "every creature is flat-footed until it has its turn to act according to its "
-#| "{g|Encyclopedia:Initiative}initiative{/g}. A creature is also treated as "
-#| "flat-footed when it can't see an enemy (it might happen if it's blinded, or "
-#| "the enemy is invisible). When there are more enemies in melee than your "
-#| "allies, they outflank you, treating your characters as flat-footed and "
-#| "getting an attack bonus."
 msgctxt "fff22998-fb60-4008-a38f-fb01bee199fb"
 msgid ""
 "A creature is {g|Encyclopedia:Flat_Footed}flat-footed{/g} when it doesn't "
@@ -1896,29 +1759,17 @@ msgid ""
 "more enemies in melee than your allies, they outflank you, treating your "
 "characters as flat-footed and getting an attack bonus."
 msgstr ""
-"{g|Encyclopedia:Flat_Footed}무방비{/g} 상태인 크리처는 "
-"{g|Encyclopedia:Attack}공격{/g}에 대응할 수 없습니다. 이 상태에서는 "
-"{g|Encyclopedia:Armor_Class}AC{/g}의 {g|Encyclopedia:Dexterity}민첩{/g} "
-"{g|Encyclopedia:Bonus}보너스{/g}를 잃으며 암습에 취약해집니다. 전투의 첫 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안, 모든 크리처는 각자의 "
-"{g|Encyclopedia:Initiative}우선권{/g}에 따라 행동하기 전까지 무방비 상태가 "
-"됩니다. 적을 볼 수 없는 경우 (실명 상태이거나 적이 투명할 때) 에도 무방비 "
-"상태로 취급됩니다. 근거리에 적의 수가 아군보다 많을 경우, 포위당한 "
-"캐릭터들을 무방비 상태로 취급하며 적들이 공격 보너스를 받습니다."
+"{g|Encyclopedia:Flat_Footed}무방비{/g} 상태인 크리처는 {g|Encyclopedia:Attack}공격{/g}에 "
+"대응할 수 없습니다. 이 상태에서는 {g|Encyclopedia:Armor_Class}AC{/g}의 "
+"{g|Encyclopedia:Dexterity}민첩{/g} {g|Encyclopedia:Bonus}보너스{/g}를 잃으며 암습에 "
+"취약해집니다. 전투의 첫 {g|Encyclopedia:Combat_Round}라운드{/g} 동안, 모든 크리처는 각자의 "
+"{g|Encyclopedia:Initiative}우선권{/g}에 따라 행동하기 전까지 무방비 상태가 됩니다. 적을 볼 수 없는 경우 "
+"({g|ConditionBlind}실명{/g} 상태이거나 적이 투명할 때) 에도 무방비 상태로 취급됩니다. 근거리에 적의 수가 아군보다 "
+"많을 경우, 포위당한 캐릭터들을 무방비 상태로 취급하며 적들이 공격 보너스를 받습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Flatfooted
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "Characters whose {g|Encyclopedia:Armor_Class}AC{/g} depends on their "
-#| "{g|Encyclopedia:Dexterity}Dexterity{/g} {g|Encyclopedia:Bonus}bonus{/g}, "
-#| "need to raise their {g|Encyclopedia:Initiative}initiative{/g} (for example, "
-#| "by taking the Improved Initiative {g|Encyclopedia:Feat}feat{/g}), so they "
-#| "won't be defenseless at the beginning of a battle.\n"
-#| "You can also try encircling enemies, hold them off in tight spaces (such as "
-#| "doors), control their movements with {g|Encyclopedia:Spell}spells{/g} like "
-#| "entangle."
 msgctxt "0da068c5-36f0-4e54-9661-bf930da6ce09"
 msgid ""
 "Characters whose {g|Encyclopedia:Armor_Class}AC{/g} depends on their "
@@ -1934,8 +1785,8 @@ msgstr ""
 "{g|Encyclopedia:Bonus}보너스{/g}에 의존하는 캐릭터는 전투 시작 시 무방비 상태가 되지 않도록 "
 "{g|Encyclopedia:Initiative}우선권{/g}을 늘릴 필요가 있습니다. 예를 들어, 향상된 우선권 "
 "{g|Encyclopedia:Feat}특기{/g}를 얻는 방법이 있습니다.\n"
-"또한 적을 둘러싸거나, 문 등을 활용해 좁은 장소에 붙들어 두거나, 휘감기 등의 {g|Encyclopedia:Spell}주문{/g}을 "
-"사용해 적의 움직임을 제약할 수 있습니다."
+"또한 적을 둘러싸거나, 문 등을 활용해 좁은 장소에 붙들어 두거나, {g|SpellsEntangle}휘감기{/g} 등의 "
+"{g|Encyclopedia:Spell}주문{/g}을 사용해 적의 움직임을 제약할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Flatfooted
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2008,31 +1859,18 @@ msgstr "대부분의 적들은 일행 중 가장 취약한 캐릭터를 {g|Encyc
 #. File = Tutorials/ContextTutorial/ContextTutor_GazeAttack
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Gaze {g|Encyclopedia:Attack}attack{/g} is a special type of attack, only "
-#| "available to rare creatures. A creature that possesses such an attack "
-#| "attempts to use it against all its enemies in a 30 feet radius."
 msgctxt "b6a7d02b-f67b-4190-bc19-d656ea7becfc"
 msgid ""
 "Gaze {g|Encyclopedia:Attack}attack{/g} is a special type of attack, only "
 "available to rare creatures. A creature that possesses such an attack "
 "attempts to use it against all its enemies in a 30-foot radius."
 msgstr ""
-"응시 {g|Encyclopedia:Attack}공격{/g}은 특별한 유형의 공격으로, 소수의 "
-"크리처들만이 사용 가능합니다. 이러한 능력을 가진 크리처는 반경 30 피트 내의 "
-"모든 적에게 능력을 사용하려 시도합니다."
+"응시 {g|Encyclopedia:Attack}공격{/g}은 특별한 유형의 공격으로, 소수의 크리처들만이 사용 가능합니다. 이러한 능력을 "
+"가진 크리처는 반경 30피트 내의 모든 적에게 능력 사용을 시도합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_GazeAttack
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid ""
-#| "When fighting enemies who possess gaze {g|Encyclopedia:Attack}attacks{/g}, "
-#| "it's good to have the Echolocation ability, as well as the Blind Fight "
-#| "{g|Encyclopedia:Feat}feat{/g}. High {g|Encyclopedia:Bonus}bonuses{/g} to "
-#| "{g|Encyclopedia:Saving_Throw}saving throws{/g} would serve you well too. You "
-#| "can use:"
 msgctxt "5dd5a5f0-5b75-4535-afcd-60bae980e191"
 msgid ""
 "When fighting enemies who possess gaze {g|Encyclopedia:Attack}attacks{/g}, "
@@ -2041,23 +1879,14 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonuses{/g} to {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g} would serve you well too. You can use:"
 msgstr ""
-"응시 {g|Encyclopedia:Attack}공격{/g}을 가진 적과 싸울 때는 반향 능력이나 "
-"눈감고 싸우기 {g|Encyclopedia:Feat}특기{/g}가 유용합니다. "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 대한 높은 "
-"{g|Encyclopedia:Bonus}보너스{/g} 또한 도움이 될 것입니다. 다음과 같은 것들을 "
-"사용할 수 있습니다:"
+"응시 {g|Encyclopedia:Attack}공격{/g}을 가진 적과 싸울 때는 {g|SpellsEcholocation}반향{/g} "
+"능력이나 눈감고 싸우기 {g|Encyclopedia:Feat}특기{/g}가 유용합니다. "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 대한 높은 {g|Encyclopedia:Bonus}보너스{/g} "
+"또한 도움이 될 것입니다. 다음과 같은 것들을 사용할 수 있습니다:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_GazeAttack
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "When fighting enemies who possess gaze {g|Encyclopedia:Attack}attacks{/g}, "
-#| "it's good to have the Echolocation ability, as well as the Blind Fight "
-#| "{g|Encyclopedia:Feat}feat{/g}. High {g|Encyclopedia:Bonus}bonuses{/g} to "
-#| "{g|Encyclopedia:Saving_Throw}saving throws{/g} would serve you well too. "
-#| "Also, whenever possible, try to keep a distance more than 30 feet away from "
-#| "such enemies."
 msgctxt "7d326a55-ac85-460f-8c56-d102718735b4"
 msgid ""
 "When fighting enemies who possess gaze {g|Encyclopedia:Attack}attacks{/g}, "
@@ -2067,11 +1896,10 @@ msgid ""
 "throws{/g} would serve you well too. Also, whenever possible, try to keep a "
 "distance more than 30 feet away from such enemies."
 msgstr ""
-"응시 {g|Encyclopedia:Attack}공격{/g}을 가진 적과 싸울 때는 반향 능력이나 "
-"눈감고 싸우기 {g|Encyclopedia:Feat}특기{/g}가 유용합니다. "
-"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 대한 높은 "
-"{g|Encyclopedia:Bonus}보너스{/g} 또한 도움이 될 것입니다. 또한 가능하다면 "
-"그러한 적에게서 30 피트 이상의 거리를 유지하십시오."
+"응시 {g|Encyclopedia:Attack}공격{/g}을 가진 적과 싸울 때는 {g|SpellsEcholocation}반향{/g} "
+"능력이나 눈감고 싸우기 {g|Encyclopedia:Feat}특기{/g}가 유용합니다. "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 대한 높은 {g|Encyclopedia:Bonus}보너스{/g} "
+"또한 도움이 될 것입니다. 또한 가능하다면 그러한 적에게서 30 피트 이상의 거리를 유지하십시오."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_GazeAttack
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2094,19 +1922,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Identification
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "To learn the properties of a magic item, you need to identify it. Once the "
-#| "item is added to your inventory, the character with the highest "
-#| "{g|Encyclopedia:Knowledge_Arcana}Knowledge (Arcana){/g} "
-#| "{g|Encyclopedia:Skills}skill{/g} {g|Encyclopedia:Bonus}bonus{/g} will make a "
-#| "Knowledge (Arcana) skill {g|Encyclopedia:Check}check{/g} with a "
-#| "{g|Encyclopedia:DC}DC{/g} that depends on the specific item. If the check is "
-#| "successful, you will immediately learn every magical property the item has. "
-#| "If the check is failed, you can automatically identify the item at any "
-#| "vendor.\n"
-#| "{br}Upon increasing their Knowledge (Arcana) skill bonus, the character will "
-#| "make another attempt at identifying all unidentified items in your inventory."
 msgctxt "c6eb2658-a76c-4e4c-9149-a08441d70f44"
 msgid ""
 "To learn the properties of a magic item, you need to identify it. Once the "
@@ -2120,15 +1935,12 @@ msgid ""
 "{br}Upon increasing their Knowledge (arcana) skill bonus, the character will "
 "make another attempt at identifying all unidentified items in your inventory."
 msgstr ""
-"마법 물품이 가진 특성을 확인하려면 먼저 그것을 감정해야 합니다. 물품을 "
-"획득할 때 가장 높은 {g|Encyclopedia:Knowledge_Arcana}지식: 비전{/g} "
-"{g|Encyclopedia:Skills}기술{/g} {g|Encyclopedia:Bonus}보너스{/g}를 지닌 "
-"캐릭터가 아이템에 맞는 {g|Encyclopedia:DC}DC{/g}의 지식 (비전) 기술 "
-"{g|Encyclopedia:Check}판정{/g}을 시도할 것입니다. 판정이 성공하면 즉시 "
-"물품이 지닌 모든 마법적 특성을 알게 됩니다. 판정이 실패하면 아무 상인에게나 "
-"가서 자동적으로 감정할 수 있습니다.\n"
-"{br}지식 (비전) 기술 보너스를 증가시키면 캐릭터는 소지품 내 감정되지 않은 "
-"모든 물품에 대해 다시 감정을 시도할 것입니다."
+"마법 물품이 가진 특성을 확인하려면 먼저 그것을 감정해야 합니다. 물품을 획득할 때 가장 높은 "
+"{g|Encyclopedia:Knowledge_Arcana}지식 (비전){/g} {g|Encyclopedia:Skills}기술{/g} "
+"보너스를 지닌 캐릭터가 아이템에 맞는 {g|Encyclopedia:DC}DC{/g}의 지식 (비전) 기술 "
+"{g|Encyclopedia:Check}판정{/g}을 시도할 것입니다. 판정이 성공하면 즉시 물품이 지닌 모든 마법적 특성을 알게 "
+"됩니다. 판정이 실패하면 아무 상인에게나 가서 자동적으로 감정할 수 있습니다.\n"
+"{br}지식 (비전) 기술 보너스를 증가시키면 캐릭터는 소지품 내 감정되지 않은 모든 물품에 대해 다시 감정을 시도할 것입니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Identification
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2164,22 +1976,15 @@ msgstr "일행 내 아무도 감정할 수 없는 {t|SourceItem} 아이템을 �
 #. File = Tutorials/ContextTutorial/ContextTutor_Incorporeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "{g|Encyclopedia:Incorporeal_Touch_Attack}Incorporeal{/g} creatures receive "
-#| "halved {g|Encyclopedia:Damage}damage{/g} from magic weapons and "
-#| "{g|Encyclopedia:Spell}spells{/g}. Ghost touch weapons deal them full damage, "
-#| "and nonmagical weapons deal no damage at all."
 msgctxt "799dc4b0-ab1f-4f9a-88c9-247fe9191964"
 msgid ""
 "Incorporeal creatures receive halved {g|Encyclopedia:Damage}damage{/g} from "
 "magic weapons and {g|Encyclopedia:Spell}spells{/g}. Ghost touch weapons deal "
 "them full damage, and nonmagical weapons deal no damage at all."
 msgstr ""
-"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g} 크리처는 마법 무기와 "
-"{g|Encyclopedia:Spell}주문{/g}으로부터 절반의 {g|Encyclopedia:Damage}피해{/g}"
-"를 받습니다. 유령 접촉 무기는 모든 피해를 주며, 비마법 무기는 전혀 피해를 "
-"주지 않습니다."
+"비실체 크리처는 마법 무기와 {g|Encyclopedia:Spell}주문{/g}으로부터 절반의 "
+"{g|Encyclopedia:Damage}피해{/g}를 받습니다. 유령 접촉 무기는 모든 피해를 주며, 비마법 무기는 전혀 피해를 주지 "
+"않습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Incorporeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2191,14 +1996,6 @@ msgstr "이 적과 효과적으로 싸우기 위해 다음을 사용하십시오
 #. File = Tutorials/ContextTutorial/ContextTutor_Incorporeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "Against the {g|Encyclopedia:Incorporeal_Touch_Attack}incorporeal{/g} "
-#| "enemies, use a weapon with the ghost touch {g|Encyclopedia:Special_Abilities}"
-#| "special ability{/g}. You can temporarily give it to a weapon using a class "
-#| "ability or an expendable item. As a last resort, you can use regular magic "
-#| "weapons or {g|Encyclopedia:Spell}spells{/g}, but their effectiveness will be "
-#| "halved."
 msgctxt "8ae5082a-4ee5-4d66-9415-3a108e73881e"
 msgid ""
 "Against the incorporeal enemies, use a weapon with the ghost touch special "
@@ -2206,11 +2003,9 @@ msgid ""
 "expendable item. As a last resort, you can use regular magic weapons or "
 "{g|Encyclopedia:Spell}spells{/g}, but their effectiveness will be halved."
 msgstr ""
-"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g} 적에 대항할 때 유령 접촉 "
-"{g|Encyclopedia:Special_Abilities}특수 성질{/g}을 지닌 무기를 사용하세요. "
-"클래스 능력이나 소모품을 사용해 무기에 일시적으로 해당 성질을 부여할 수 "
-"있습니다. 최후의 수단으로 일반적인 마법 무기나 {g|Encyclopedia:Spell}주문{/g}"
-"을 사용할 수 도 있지만, 그들은 절반의 피해를 입힙니다."
+"비실체 적에 대항할 때 유령 접촉 특수 성질을 지닌 무기를 사용하세요. 클래스 능력이나 소모품을 사용해 무기에 일시적으로 해당 성질을 "
+"부여할 수 있습니다. 최후의 수단으로 일반적인 마법 무기나 {g|Encyclopedia:Spell}주문{/g}을 사용할 수 도 있지만, "
+"그들은 절반의 피해를 입힙니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Incorporeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2222,29 +2017,17 @@ msgstr "비실체 적"
 #. File = Tutorials/ContextTutorial/ContextTutor_Incorporeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You have encountered the enemy {t|SourceUnit}. This enemy is "
-#| "{g|Encyclopedia:Incorporeal_Touch_Attack}incorporeal{/g}, it receives no "
-#| "{g|Encyclopedia:Damage}damage{/g} from nonmagical weapons."
 msgctxt "583e7b3c-95df-457a-8117-fb89e81c3191"
 msgid ""
 "You have encountered the enemy {t|SourceUnit}. This enemy is incorporeal, it "
 "receives no {g|Encyclopedia:Damage}damage{/g} from nonmagical weapons."
 msgstr ""
-"{t|SourceUnit} 적을 만났습니다. 이 적은 "
-"{g|Encyclopedia:Incorporeal_Touch_Attack}비실체{/g} 이므로 비마법 무기로부터 "
-"{g|Encyclopedia:Damage}피해{/g}를 입지 않습니다."
+"{t|SourceUnit} 적을 만났습니다. 이 적은 비실체 이므로 비마법 무기로부터 {g|Encyclopedia:Damage}피해{/g}"
+"를 입지 않습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Insanity
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Insanity is a negative condition, similar to confusion, that has an infinite "
-#| "duration. An insane creature can't tell a friend from an enemy. It will "
-#| "{g|Encyclopedia:Attack}attack{/g} the last creature that attacked it, until "
-#| "it either dies, or disappears from sight."
 msgctxt "2e19b70f-95d4-4f8b-b73f-ce4da1d247a4"
 msgid ""
 "Insanity is a negative condition, similar to "
@@ -2253,42 +2036,31 @@ msgid ""
 "{g|Encyclopedia:Attack}attack{/g} the last creature that attacked it, until "
 "it either dies, or disappears from sight."
 msgstr ""
-"광기는 부정적 상태로, 혼란과 비슷하지만, 지속 시간이 무한대입니다. 광기 "
-"상태의 크리처는 아군과 적을 구별할 수 없습니다. 자신을 마지막으로 공격한 "
-"적을 대상이 죽거나, 시야에서 사라질 때까지 공격할 것입니다."
+"광기는 부정적 상태로, {g|ConditionConfusion}혼란{/g}과 비슷하지만, 지속 시간이 무한대입니다. 광기 상태의 크리처는 "
+"아군과 적을 구별할 수 없습니다. 자신을 마지막으로 공격한 적을 대상이 죽거나, 시야에서 사라질 때까지 공격할 것입니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Insanity
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid ""
-#| "Insanity can only be removed by powerful {g|Encyclopedia:Spell}spells{/g}, "
-#| "such as {g|Encyclopedia:Healing}heal{/g} and greater restoration. You can "
-#| "use:"
 msgctxt "756ca44b-4a7c-405d-af1d-1b986b4b35ba"
 msgid ""
 "Insanity can only be removed by powerful {g|Encyclopedia:Spell}spells{/g}, "
 "such as {g|SpellsHeal}heal{/g} and {g|SpellsRestorationGreater}greater "
 "restoration{/g}. You can use:"
 msgstr ""
-"광기 상태는 오직 {g|Encyclopedia:Healing}치유{/g} 또는 상급 상태회복 등의 "
-"강력한 {g|Encyclopedia:Spell}주문{/g}으로만 제거할 수 있습니다. 현재 사용 "
-"가능:"
+"광기 상태는 오직 {g|SpellsHeal}치유{/g} 또는 {g|SpellsRestorationGreater}상급 상태회복{/g} 등의 "
+"강력한 {g|Encyclopedia:Spell}주문{/g}으로만 제거할 수 있습니다. 현재 사용 가능:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Insanity
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "Insanity can only be removed by powerful {g|Encyclopedia:Spell}spells{/g}, "
-#| "such as {g|Encyclopedia:Healing}heal{/g} and greater restoration."
 msgctxt "3390760f-9ca0-4594-a6ae-ae5b38894c89"
 msgid ""
 "Insanity can only be removed by powerful {g|Encyclopedia:Spell}spells{/g}, "
 "such as {g|SpellsHeal}heal{/g} and {g|SpellsRestorationGreater}greater "
 "restoration{/g}."
 msgstr ""
-"광기 상태는 오직 {g|Encyclopedia:Healing}치유{/g} 또는 상급 상태회복 등의 "
+"광기 상태는 오직 {g|SpellsHeal}치유{/g} 또는 {g|SpellsRestorationGreater}상급 상태회복{/g} 등의 "
 "강력한 {g|Encyclopedia:Spell}주문{/g}으로만 제거할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Insanity
@@ -2324,28 +2096,17 @@ msgstr "장비 교체"
 #. File = Tutorials/ContextTutorial/ContextTutor_ItemUpgrade
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You have the item {t|SolutionItem} in your inventory, which is significantly "
-#| "better than the {t|SourceItem} item your character {t|SourceUnit} has "
-#| "equipped."
 msgctxt "e4944f78-2b35-4e86-b052-5d19fa8f9cce"
 msgid ""
 "You have the item {t|SolutionItem} in your inventory, which is significantly "
 "better than the item {t|SourceItem} {t|SourceUnit} has equipped."
 msgstr ""
-"현재 {t|SourceUnit} 캐릭터가 착용한 {t|SourceItem} 보다 나은 {t|SolutionItem}"
-" 장비를 가지고 있습니다."
+"현재 {t|SourceUnit} 캐릭터가 착용한 {t|SourceItem} 보다 나은 {t|SolutionItem} 장비를 가지고 "
+"있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_LowHPHeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "You can regain lost {g|Encyclopedia:HP}HP{/g} with "
-#| "{g|Encyclopedia:Spell}spells{/g}, potions and resting. You can buy potions "
-#| "of {g|Encyclopedia:Healing}cure{/g} wounds from vendors, or get them as "
-#| "trophies."
 msgctxt "836b0a5e-44b4-4a0a-bac8-ae2009dd64c2"
 msgid ""
 "You can regain lost {g|Encyclopedia:HP}HP{/g} with "
@@ -2353,19 +2114,13 @@ msgid ""
 "{g|Encyclopedia:Rest}resting{/g}. You can buy potions of cure wounds from "
 "vendors, or get them as trophies."
 msgstr ""
-"{g|Encyclopedia:Spell}주문{/g}이나 물약을 사용하거나 휴식을 해서 잃은 "
-"{g|Encyclopedia:HP}HP{/g}를 회복할 수 있습니다. 상처 "
-"{g|Encyclopedia:Healing}치료{/g} 물약은 상점에서 구매하거나, 적들에게서 "
-"전리품으로 얻을 수 있습니다."
+"{g|Encyclopedia:Spell}주문{/g}이나 물약을 사용하거나 {g|Encyclopedia:Rest}휴식{/g}을 해서 잃은 "
+"{g|Encyclopedia:HP}HP{/g}를 회복할 수 있습니다. 상처 치료 물약은 상점에서 구매하거나, 적들에게서 전리품으로 얻을 "
+"수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_LowHPHeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "{g|Encyclopedia:Healing}Healing{/g} {g|Encyclopedia:Spell}spells{/g}, such "
-#| "as cure light wounds, are available to many classes, including bard, cleric, "
-#| "druid, inquisitor, oracle, paladin, shaman, and witch."
 msgctxt "cf113ca1-ff6b-43a1-a2b5-3f5c1328e9ea"
 msgid ""
 "{g|Encyclopedia:Healing}Healing{/g} {g|Encyclopedia:Spell}spells{/g}, such "
@@ -2373,18 +2128,16 @@ msgid ""
 "classes, including bard, cleric, druid, inquisitor, oracle, paladin, shaman, "
 "and witch."
 msgstr ""
-"바드, 클레릭, 드루이드, 인퀴지터, 오라클, 팔라딘, 샤먼, 위치 등 다양한 "
-"클래스가 가벼운 상처 치료 등의 {g|Encyclopedia:Healing}치유{/g} "
-"{g|Encyclopedia:Spell}주문{/g}을 사용할 수 있습니다."
+"바드, 클레릭, 드루이드, 인퀴지터, 오라클, 팔라딘, 샤먼, 위치 등 다양한 클래스가 {g|SpellsCureLightWounds}"
+"가벼운 상처 치료{/g} 등의 {g|Encyclopedia:Healing}치유{/g} {g|Encyclopedia:Spell}주문{/g}"
+"을 사용할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_LowHPHeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid "You can cure a character with:"
 msgctxt "fdc82207-3dac-4fc8-b2c5-f1b8be6084e1"
 msgid "You can {g|Encyclopedia:Healing}cure{/g} a character with:"
-msgstr "캐릭터 치료 방법:"
+msgstr "캐릭터 {g|Encyclopedia:Healing}치료{/g} 방법:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_LowHPHeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2396,17 +2149,13 @@ msgstr "전투 중 회복"
 #. File = Tutorials/ContextTutorial/ContextTutor_LowHPHeal
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "One of your characters' {g|Encyclopedia:HP}HP{/g} has dropped below 50%. You "
-#| "should {g|Encyclopedia:Healing}cure{/g} their wounds."
 msgctxt "7aa5570e-f398-43f1-97c4-f5d51e3d7c4b"
 msgid ""
 "{t|SourceUnit}'s {g|Encyclopedia:HP}HP{/g} has dropped below 50%. You should "
 "{g|Encyclopedia:Healing}cure{/g} their wounds."
 msgstr ""
-"캐릭터들 중 한명의 {g|Encyclopedia:HP}HP{/g}가 절반 아래로 떨어졌습니다. "
-"부상을 {g|Encyclopedia:Healing}치료{/g}해야 합니다."
+"{t|SourceUnit}의 {g|Encyclopedia:HP}HP{/g}가 절반 아래로 떨어졌습니다. 부상을 "
+"{g|Encyclopedia:Healing}치료{/g}해야 합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_MagicRod
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2481,20 +2230,14 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_MagicWand
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "To use a wand, drag it from the inventory to one of the belt slots of the "
-#| "character {t|SolutionUnit}. Then, on the {g|Encyclopedia:Spell}spells{/g} "
-#| "bar, open the belt bar and use the wand from it."
 msgctxt "4907adaa-459a-4f20-b659-40364dc43d96"
 msgid ""
 "To use a wand, drag it from the inventory to one of {t|SolutionUnit}'s belt "
 "slots. Then, on the {g|Encyclopedia:Spell}spells{/g} bar, open the belt bar "
 "and use the wand from it."
 msgstr ""
-"마법봉을 사용하려면 소지품에서 물품을 끌어 {t|SolutionUnit} 캐릭터의 허리띠 "
-"슬롯에 놓으세요. 그 후 {g|Encyclopedia:Spell}주문{/g} 바에서 허리띠 바를 "
-"열어 마법봉을 사용하세요."
+"마법봉을 사용하려면 소지품에서 물품을 끌어 {t|SolutionUnit} 캐릭터의 허리띠 슬롯에 놓으세요. 그 후 "
+"{g|Encyclopedia:Spell}주문{/g} 바에서 허리띠 바를 열어 마법봉을 사용하세요."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_MagicWand
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2514,14 +2257,9 @@ msgstr "마법봉"
 #. File = Tutorials/ContextTutorial/ContextTutor_MagicWand_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You have acquired the wand {t|SourceItem}. Character {t|SolutionUnit} can "
-#| "use it."
 msgctxt "c50bf40b-3305-49a0-8273-e5cd11c3d1fa"
 msgid "You have acquired the wand {t|SourceItem}. {t|SolutionUnit} can use it."
-msgstr "{t|SourceItem} 마법봉을 획득했습니다. {t|SolutionUnit} 캐릭터가 사용할 수 "
-"있습니다."
+msgstr "{t|SourceItem} 마법봉을 획득했습니다. {t|SolutionUnit}(이)가 사용할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_MagicWand_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2532,6 +2270,9 @@ msgid ""
 "slots. Then, on the {g|Encyclopedia:Spell}spells{/g} bar, open the context "
 "menu, select \"Usable Items\", select the wand, and use it."
 msgstr ""
+"마법봉을 사용하려면 소지품에서 물품을 끌어 {t|SolutionUnit} 캐릭터의 허리띠 슬롯에 놓으세요. 그 후 "
+"{g|Encyclopedia:Spell}주문{/g} 바에서 컨텍스트 메뉴를 열고 \"사용 가능 물품\"을 고르고 완드를 선택한 뒤 "
+"사용하십시오."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_MaterialComponent
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2599,15 +2340,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_MeleeShooting
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "To remove the {g|Encyclopedia:Penalty}penalty{/g} to the "
-#| "{g|Encyclopedia:Attack}attack roll{/g} for shooting into melee, give the "
-#| "character the Precise Shot {g|Encyclopedia:Feat}feat{/g} (most classes would "
-#| "require taking the Point Blank Shot feat first).\n"
-#| "You can also focus your {g|Encyclopedia:RangedAttack}ranged attacks{/g} on "
-#| "enemies who are not engaged in melee (such as "
-#| "{g|Encyclopedia:Spell}spellcasters{/g} and archers)."
 msgctxt "ca601e2d-6827-44ac-97b3-96afdd315d50"
 msgid ""
 "To remove the {g|Encyclopedia:Penalty}penalty{/g} to the "
@@ -2644,12 +2376,6 @@ msgstr "{t|SourceUnit} 캐릭터가 근접 전투 중인 적을 사격했습니�
 #. File = Tutorials/ContextTutorial/ContextTutor_MemorizedSpells
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Alchemists, clerics, druids, maguses, paladins, rangers, warpriests and "
-#| "wizards prepare their {g|Encyclopedia:Spell}spells{/g} for the day during "
-#| "{g|Encyclopedia:Rest}rest{/g}, and expend them when casting.\n"
-#| "To cast these spells again, a character needs to rest."
 msgctxt "85ee615e-9913-47c3-a13c-288f15c10bfb"
 msgid ""
 "Alchemists, clerics, druids, magi, paladins, rangers, warpriests and wizards "
@@ -2657,9 +2383,8 @@ msgid ""
 "{g|Encyclopedia:Rest}rest{/g}, and expend them when casting.\n"
 "To cast these spells again, a character needs to rest."
 msgstr ""
-"알케미스트, 클레릭, 드루이드, 메이거스, 팔라딘, 레인저, 워프리스트, 위자드는 "
-"{g|Encyclopedia:Rest}휴식{/g} 중에 그 날을 위한 "
-"{g|Encyclopedia:Spell}주문{/g}을 준비하고, 주문을 시전할 때 소모합니다.\n"
+"알케미스트, 클레릭, 드루이드, 메이거스, 팔라딘, 레인저, 워프리스트, 위자드는 {g|Encyclopedia:Rest}휴식{/g} 중에 "
+"그 날을 위한 {g|Encyclopedia:Spell}주문{/g}을 준비하고, 주문을 시전할 때 소모합니다.\n"
 "주문을 다시 시전하기 위해서는 휴식을 해야 합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_MemorizedSpells
@@ -2691,17 +2416,13 @@ msgstr "주문 준비"
 #. File = Tutorials/ContextTutorial/ContextTutor_MemorizedSpells
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "Your character {t|SourceUnit} has a free {g|Encyclopedia:Spell}spell{/g} "
-#| "slot. Before resting, you should fill it."
 msgctxt "8f1cbda6-89d1-40de-998a-d557b5ca704c"
 msgid ""
 "Your character {t|SourceUnit} has a free {g|Encyclopedia:Spell}spell{/g} "
 "slot. Before {g|Encyclopedia:Rest}resting{/g}, you should fill it."
 msgstr ""
-"{t|SourceUnit} 캐릭터는 빈 {g|Encyclopedia:Spell}주문{/g} 슬롯을 가지고 "
-"있습니다. 휴식 전에 채워야 합니다."
+"{t|SourceUnit} 캐릭터는 빈 {g|Encyclopedia:Spell}주문{/g} 슬롯을 가지고 있습니다. "
+"{g|Encyclopedia:Rest}휴식{/g}을 하기 전에 채워둬야 합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Metamagic
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2729,19 +2450,13 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Metamagic
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "You can use metamagic to improve your {g|Encyclopedia:Spell}spells{/g} — for "
-#| "example, increase their distance and use spells, that usually require a "
-#| "{g|Encyclopedia:TouchAttack}touch{/g}, from a distance."
 msgctxt "bb2b7e1d-cb1f-4eab-902f-c776142b2d60"
 msgid ""
 "You can use metamagic to improve your {g|Encyclopedia:Spell}spells{/g} — for "
 "example, increase their distance and use spells, that usually require a "
 "touch, from a distance."
 msgstr ""
-"{g|Encyclopedia:Spell}주문{/g}을 강화하기 위해 메타매직을 사용할 수 "
-"있습니다. 예를 들어 사거리를 증가시켜 {g|Encyclopedia:TouchAttack}접촉{/g} "
+"{g|Encyclopedia:Spell}주문{/g}을 강화하기 위해 메타매직을 사용할 수 있습니다. 예를 들어 사거리를 증가시켜 접촉 "
 "주문을 원거리에서 사용할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Metamagic
@@ -2765,27 +2480,6 @@ msgstr "이 페이지는 메타매직 페이지입니다. 여기서 주문을 �
 #. File = Tutorials/ContextTutorial/ContextTutor_MountCombat
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Riding and mounted combat are available to any character that has an animal "
-#| "companion larger than them by one {g|Encyclopedia:Size}size{/g} category ("
-#| "for example, a large animal for a medium character or a medium animal for a "
-#| "small character). Such characters have a {g|Encyclopedia:Special_Abilities}"
-#| "special ability{/g} on their {g|Encyclopedia:CA_Types}action{/g} bar that "
-#| "allows them to mount up or dismount.\n"
-#| "{br}Whenever a mounted character is {g|Encyclopedia:Attack}attacked{/g}, all "
-#| "enemy attacks are directed at their mount by default, except for special "
-#| "attacks intended specifically for the rider. Therefore riding improves "
-#| "mounted characters' survivability.\n"
-#| "{br}A mounted character can perform all the actions available to those who "
-#| "fight on foot — attacking with melee or ranged weapons, casting "
-#| "{g|Encyclopedia:Spell}spells{/g}, throwing bombs, etc.\n"
-#| "{br}The mount will attack enemies on its own if it is close enough to "
-#| "{g|Encyclopedia:Reach}reach{/g} them. Thus both the rider and their mount "
-#| "can perform a full-attack action against the enemy. If your character "
-#| "attacks from a distance and you are satisfied with their survivability, it "
-#| "is better to send the animal companion ahead of them into battle without "
-#| "mounting."
 msgctxt "f71ae028-c38e-4665-a263-639a681defbe"
 msgid ""
 "Riding and mounted combat are available to any character that has an animal "
@@ -2808,21 +2502,15 @@ msgid ""
 "satisfied with their survivability, it is better to send the animal "
 "companion ahead of them into battle without mounting."
 msgstr ""
-"탑승과 탑승 전투는 {g|Encyclopedia:Size}크기{/g} 범주가 한 단계 이상 더 큰 "
-"동물 동료를 지닌 누구나 가능합니다. 예를 들어, 대형 동물 동료를 지닌 중형 "
-"캐릭터나, 중형 동물 동료를 지닌 소형 캐릭터의 경우 가능합니다. 이러한 "
-"캐릭터들은 {g|Encyclopedia:CA_Types}행동{/g} 창에 탑승과 하마를 가능케하는 "
-"{g|Encyclopedia:Special_Abilities}특수 능력{/g}을 가지고 있습니다.\n"
-"{br}탑승 상태의 캐릭터가 {g|Encyclopedia:Attack}공격{/g}받을 때, 모든 적의 "
-"공격은 기수를 노리는 특수 공격을 제외하면 기본적으로 탈것에 가해집니다. "
-"따라서 탑승은 캐릭터의 생존 능력을 향상시킵니다.\n"
-"{br}탑승 상태의 캐릭터는 근접 무기나 원거리 무기를 활용한 공격, "
-"{g|Encyclopedia:Spell}주문{/g} 시전, 폭탄 투척 등 보행 상태에서 싸울 때의 "
-"모든 행동을 취할 수 있습니다. \n"
-"{br}탈것은 {g|Encyclopedia:Reach}사거리{/g} 내에 들어온 적을 공격할 "
-"것입니다. 고로 기수와 탈것 모두 적에게 전력 공격을 시도할 수 있습니다. 만일 "
-"캐릭터가 원거리에서 공격하며 충분한 생존능력을 가지고 있다면, 동물 동료를 "
-"타지 않고 전투에 뛰어들도록 내보내는 것이 좋을 것입니다."
+"탑승과 탑승 전투는 {g|Encyclopedia:Size}크기{/g} 범주가 한 단계 이상 더 큰 동물 동료를 지닌 누구나 가능합니다. "
+"예를 들어, 대형 동물 동료를 지닌 중형 캐릭터나, 중형 동물 동료를 지닌 소형 캐릭터의 경우 가능합니다. 이러한 캐릭터들은 액션 바에 "
+"탑승과 하마를 가능케하는 {g|Encyclopedia:Special_Abilities}특수 능력{/g}을 가지고 있습니다.\n"
+"{br}탑승 상태의 캐릭터가 {g|Encyclopedia:Attack}공격{/g}받을 때, 모든 적의 공격은 기수를 노리는 특수 공격을 "
+"제외하면 기본적으로 탈것에 가해집니다. 따라서 탑승은 캐릭터의 생존 능력을 향상시킵니다.\n"
+"{br}탑승 상태의 캐릭터는 근접 무기나 원거리 무기를 활용한 공격, {g|Encyclopedia:Spell}주문{/g} 시전, 폭탄 "
+"투척 등 보행 상태에서 싸울 때의 모든 {g|Encyclopedia:CA_Types}행동{/g}을 취할 수 있습니다. \n"
+"{br}탈것은 사거리 내에 들어온 적을 공격할 것입니다. 고로 기수와 탈것 모두 적에게 전력 공격을 시도할 수 있습니다. 만일 캐릭터가 "
+"원거리에서 공격하며 충분한 생존능력을 가지고 있다면, 동물 동료를 타지 않고 전투에 뛰어들도록 내보내는 것이 좋을 것입니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_MountCombat
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2844,15 +2532,6 @@ msgstr "{t|SourceUnit} 캐릭터는 탑승 전투에 적합한 {t|TargetUnit} �
 #. File = Tutorials/ContextTutorial/ContextTutor_MythicReinforce
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Throughout the game, you will occasionally encounter colored options marked "
-#| "as associated with a specific mythic path. These are dialogue branches that "
-#| "embody the spirit of a particular manifestation of mythic powers. In the "
-#| "earlier stages of the game, these options must be selected in order to gain "
-#| "the opportunity to set out on the corresponding mythic path. Once your "
-#| "mythic path is set, unique alternatives inaccessible to other mythic paths "
-#| "will become available to you."
 msgctxt "8f5267cf-5e2d-42d7-9f23-bde99c798283"
 msgid ""
 "Throughout the game, you will occasionally encounter options marked as "
@@ -2863,11 +2542,9 @@ msgid ""
 "mythic path is set, unique alternatives inaccessible to other mythic paths "
 "will become available to you."
 msgstr ""
-"게임을 진행하다 보면 종종 특정 신화의 길과 연관된 것으로 표시된 색깔 "
-"선택지를 마주칠 것입니다. 이들은 특정 신화의 길과 관련된 대화 선택지입니다. "
-"게임의 초기 지점에서 이 선택지들은 각각에 호응하는 신화의 길을 해금하기 위한 "
-"기회를 얻기 위해 반드시 선택될 필요가 있습니다. 일단 신화의 길이 정해지면 "
-"다른 신화의 길에게는 불가능한 대안들이 열릴 것입니다."
+"게임을 진행하다 보면 종종 특정 신화의 길과 연관된 것으로 표시된 선택지를 마주칠 것입니다. 이들은 특정 신화의 길과 관련된 대화 "
+"선택지입니다. 게임의 초기 지점에서 이 선택지들은 각각에 호응하는 신화의 길을 해금하기 위한 기회를 얻기 위해 반드시 선택될 필요가 "
+"있습니다. 일단 신화의 길이 정해지면 다른 신화의 길에게는 불가능한 대안들이 열릴 것입니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_MythicReinforce
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2879,12 +2556,6 @@ msgstr "신화의 길에 의해 잠긴 대화 선택지"
 #. File = Tutorials/ContextTutorial/ContextTutor_NewRecipe
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "You have found a new recipe. To learn it, right-click it in your inventory "
-#| "and choose the \"Memorize\" option. Different recipes require different "
-#| "ingredients, and dishes cooked using them grant unique "
-#| "{g|Encyclopedia:Bonus}bonuses{/g}."
 msgctxt "089693b0-6cb7-4ee1-bbea-4180f3bb06b2"
 msgid ""
 "You have found a new recipe. To learn it, right-click it in your inventory "
@@ -2892,9 +2563,8 @@ msgid ""
 "ingredients, and cooked dishes grant unique "
 "{g|Encyclopedia:Bonus}bonuses{/g}."
 msgstr ""
-"새 조리법을 찾았습니다. 조리법을 배우려면 소지품에서 오른쪽 클릭한 뒤 "
-"\"외우기\" 선택지를 고르세요. 조리법마다 다른 식재료를 필요로 하며, 조리법을 "
-"활용한 식사는 고유한 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
+"새 조리법을 찾았습니다. 조리법을 배우려면 소지품에서 오른쪽 클릭한 뒤 \"외우기\" 선택지를 고르세요. 조리법마다 다른 식재료를 필요로 "
+"하며, 조리법을 활용한 식사는 고유한 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_NewRecipe
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2924,13 +2594,15 @@ msgid ""
 "require different ingredients, and cooked dishes grant unique "
 "{g|Encyclopedia:Bonus}bonuses{/g}."
 msgstr ""
+"새 조리법을 찾았습니다. 조리법을 배우려면 소지품에서 선택한 뒤, 컨텍스트 메뉴를 열어 \"외우기\" 선택지를 고르세요. 조리법마다 다른 "
+"식재료를 필요로 하며, 조리법을 활용한 식사는 고유한 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_NewRecipe_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "67931cc9-7fb8-43ea-ac66-6668da11a92e"
 msgid "New Recipes"
-msgstr ""
+msgstr "새로운 요리법"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_NonStackBonus
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -2995,45 +2667,31 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Paralysis
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "A paralyzed character freezes on a spot and is unable to move or act. "
-#| "Paralysis usually has a short duration, and you can just wait until it ends."
 msgctxt "c1e1fc49-4c59-43ae-b401-474b57b5ae40"
 msgid ""
 "A {g|ConditionParalyzed}paralyzed{/g} character freezes on a spot and is "
 "unable to move or act. Paralysis usually has a short duration, and you can "
 "just wait until it ends."
 msgstr ""
-"마비된 캐릭터는 특정 지점에서 얼어붙어 움직이거나 행동할 수 없습니다. 마비는 "
-"대개 짧은 지속 시간을 가지므로, 끝날 때까지 가만히 기다릴 수도 있습니다."
+"{g|ConditionParalyzed}마비{/g}된 캐릭터는 특정 지점에서 얼어붙어 움직이거나 행동할 수 없습니다. 마비는 대개 짧은 "
+"지속 시간을 가지므로, 끝날 때까지 가만히 기다릴 수도 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Paralysis
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid ""
-#| "You can easily prevent paralysis with the {g|Encyclopedia:Spell}spell{/g} "
-#| "freedom of movement.\n"
-#| "You can remove paralysis with:"
 msgctxt "f827e408-72a6-4873-af81-9a5647db6330"
 msgid ""
 "You can easily prevent paralysis with the {g|Encyclopedia:Spell}spell{/g} "
 "{g|SpellsFreedomOfMovement}freedom of movement{/g}.\n"
 "You can remove paralysis with:"
 msgstr ""
-"'이동의 자유' 주문을 사용해 쉽게 마비를 예방할 수 있습니다.\n"
+"{g|SpellsFreedomOfMovement}이동의 자유{/g} {g|Encyclopedia:Spell}주문{/g}을 사용해 쉽게 "
+"마비를 예방할 수 있습니다.\n"
 "마비는 다음을 이용해 제거할 수 있습니다:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Paralysis
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "You can remove paralysis with the remove paralysis "
-#| "{g|Encyclopedia:Spell}spell{/g}, or a stronger "
-#| "{g|Encyclopedia:Healing}restorative{/g} magic.\n"
-#| "You can easily prevent paralysis with the spell freedom of movement."
 msgctxt "bfa31126-d712-4c9d-8a0b-5ebc4a43ad7e"
 msgid ""
 "You can {g|SpellsRemoveParalysis}remove paralysis{/g} with the remove "
@@ -3042,9 +2700,9 @@ msgid ""
 "You can easily prevent paralysis with the spell {g|SpellsFreedomOfMovement}"
 "freedom of movement{/g}."
 msgstr ""
-"'마비 제거' {g|Encyclopedia:Spell}주문{/g} 또는 보다 강력한 "
-"{g|Encyclopedia:Healing}상태회복{/g} 마법으로 마비를 제거할 수 있습니다.\n"
-"'이동의 자유' 주문으로 마비를 쉽게 예방할 수 있습니다."
+"{g|SpellsRemoveParalysis}마비 제거{/g} {g|Encyclopedia:Spell}주문{/g} 또는 보다 강력한 "
+"{g|Encyclopedia:Healing}상태회복{/g} 계열 마법으로 마비를 제거할 수 있습니다.\n"
+"{g|SpellsFreedomOfMovement}이동의 자유{/g} 주문으로 마비를 쉽게 예방할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Paralysis
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3056,12 +2714,10 @@ msgstr "마비"
 #. File = Tutorials/ContextTutorial/ContextTutor_Paralysis
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid "Your character {t|SourceUnit} has been paralyzed."
 msgctxt "4644ebc6-037d-49ea-9db3-1ef608a56f69"
 msgid ""
 "Your character {t|SourceUnit} has been {g|ConditionParalyzed}paralyzed{/g}."
-msgstr "{t|SourceUnit} 캐릭터가 마비되었습니다."
+msgstr "{t|SourceUnit} 캐릭터가 {g|ConditionParalyzed}마비{/g}되었습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_PetDeath
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3124,13 +2780,6 @@ msgstr "석화를 제거하기 위해 다음과 같은 것들을 사용할 수 �
 #. File = Tutorials/ContextTutorial/ContextTutor_Petrification
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "To remove petrification, use the {g|Encyclopedia:Spell}spell{/g} (or spell "
-#| "scroll) of stone to flesh, and someone who can cast (or read) it. You can "
-#| "also use the break enchantment spell, but it would take a "
-#| "{g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}check{/g}"
-#| " to succeed."
 msgctxt "ab8895dc-9567-448b-a7e0-44708532ec3c"
 msgid ""
 "To remove petrification, use the {g|Encyclopedia:Spell}spell{/g} (or spell "
@@ -3140,8 +2789,9 @@ msgid ""
 "{g|Encyclopedia:Check}check{/g} to succeed."
 msgstr ""
 "석화를 제거하기 위해서는 석화 해제 {g|Encyclopedia:Spell}주문{/g} 또는 두루마리와, 그것을 시전하거나 읽을 수 있는 "
-"사람이 필요합니다. 또한 '부여 파해' 주문을 시도해 볼 수 있으나, {g|Encyclopedia:Caster_Level}시전자 "
-"레벨{/g} {g|Encyclopedia:Check}판정{/g}에 성공해야 합니다."
+"사람이 필요합니다. 또한 {g|SpellsBreakEnchantment}부여 파해{/g} 주문을 시도해 볼 수 있으나, "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} {g|Encyclopedia:Check}판정{/g}에 성공해야 "
+"합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Petrification
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3180,12 +2830,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Poison
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid ""
-#| "Before fighting a venomous enemy, it would be wise to cast the Delay Poison "
-#| "{g|Encyclopedia:Spell}spell{/g}.\n"
-#| "You can remove poison either by waiting until its effect ends, or with a "
-#| "spell:"
 msgctxt "c8f32c41-b2c2-441c-962c-533b751e6d7d"
 msgid ""
 "Before fighting a venomous enemy, it would be wise to cast the "
@@ -3193,22 +2837,13 @@ msgid ""
 "You can remove poison either by waiting until its effect ends, or with a "
 "spell:"
 msgstr ""
-"독 공격을 하는 적과 싸우기 전에, 독 지연 {g|Encyclopedia:Spell}주문{/g}을 "
-"먼저 시전하고 싸우는 것을 추천합니다.\n"
-"중독된 경우에는 효과가 끝날 때까지 기다리거나, 주문을 통해서 해독할 수 "
-"있습니다:"
+"독 공격을 하는 적과 싸우기 전에, {g|SpellsDelayPoison}독 지연{/g} "
+"{g|Encyclopedia:Spell}주문{/g}을 먼저 시전하고 싸우는 것을 추천합니다.\n"
+"중독된 경우에는 효과가 끝날 때까지 기다리거나, 주문을 통해서 해독할 수 있습니다:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Poison
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "You can remove poison either by waiting until its effect ends, or with a "
-#| "{g|Encyclopedia:Spell}spell{/g} like neutralize poison (needs a "
-#| "{g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}check{/g}"
-#| " to succeed) or {g|Encyclopedia:Healing}heal{/g}.\n"
-#| "Before fighting a venomous enemy, it would be wise to cast the Delay Poison "
-#| "spell."
 msgctxt "90faffd8-48a1-4223-88ac-0d0c00e8550a"
 msgid ""
 "You can remove poison either by waiting until its effect ends, or with a "
@@ -3218,11 +2853,10 @@ msgid ""
 "Before fighting a venomous enemy, it would be wise to cast the "
 "{g|SpellsDelayPoison}Delay Poison{/g} spell."
 msgstr ""
-"독의 효과가 끝날 때까지 기다리거나 '독 중화' {g|Encyclopedia:Spell}주문{/g}( "
-"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} {g|Encyclopedia:Check}판정{/g} "
-"성공을 필요로합니다) 또는 '{g|Encyclopedia:Healing}치유{/g}'를 통해 해독할 "
-"수 있습니다.\n"
-"독을 가진 적과 싸우기 전에 '독 지연' 주문을 시전하는 편이 현명합니다."
+"독의 효과가 끝날 때까지 기다리거나 {g|SpellsNeutralizePoison}독 중화{/g} "
+"{g|Encyclopedia:Spell}주문{/g}( {g|Encyclopedia:Caster_Level}시전자 레벨{/g} "
+"{g|Encyclopedia:Check}판정{/g}이 필요) 또는 {g|SpellsHeal}치유{/g}를 통해 해독할 수 있습니다.\n"
+"독을 가진 적과 싸우기 전에 {g|SpellsDelayPoison}독 지연{/g} 주문을 시전하는 편이 현명합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Poison
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3262,17 +2896,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_PrebuffDefense
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "The best way to improve your chances in a fight is to prepare for it "
-#| "beforehand. Many of your characters' {g|Encyclopedia:Spell}spells{/g} can "
-#| "significantly empower your party. Some of these spells last for a while and "
-#| "can be used as soon as you enter an area, while others are best cast right "
-#| "before the battle starts or even in combat. Among such spells, there are "
-#| "those that will always be handy to have (such as Heroism or Barkskin) and "
-#| "those that are useful in specific circumstances — like protection from "
-#| "various energy types, protection from poison, fear, and other negative "
-#| "effects."
 msgctxt "fc50227c-e076-4473-b4ee-c09ae37f1893"
 msgid ""
 "The best way to improve your chances in a fight is to prepare for it "
@@ -3285,13 +2908,11 @@ msgid ""
 "circumstances — like protection from various energy types, protection from "
 "poison, fear, and other negative effects."
 msgstr ""
-"전투에서 승리할 확률을 증가시키는 최고의 방법은 사전에 준비하는 것입니다. "
-"당신 캐릭터의 {g|Encyclopedia:Spell}주문{/g}중 다수는 당신의 일행을 극적으로 "
-"강화할 수 있습니다. 이 주문들 중 일부는 상당 시간 동안 지속되므로 지역에 "
-"입장하자마자 시전할 수도 있으나, 몇몇 주문들은 전투 시작 직전 또는 전투 중에 "
-"시전하는 것이 낫습니다. 그러한 주문들 중에는 '영웅심'이나 '나무껍질'처럼 "
-"언제나 유용한 것도 있으나, 특정 에너지 유형으로부터의 보호, 독, 공포 다른 "
-"부정적인 효과로부터의 보호 등 특수한 상황에서만 활약할 수 있는 것도 있습니다."
+"전투에서 승리할 확률을 증가시키는 최고의 방법은 사전에 준비하는 것입니다. 당신 캐릭터의 "
+"{g|Encyclopedia:Spell}주문{/g}중 다수는 당신의 일행을 극적으로 강화할 수 있습니다. 이 주문들 중 일부는 상당 시간 "
+"동안 지속되므로 지역에 입장하자마자 시전할 수도 있으나, 몇몇 주문들은 전투 시작 직전 또는 전투 중에 시전하는 것이 낫습니다. 그러한 "
+"주문들 중에는 {g|SpellsHeroism}영웅심{/g}이나 {g|SpellsBarkskin}나무껍질{/g}처럼 언제나 유용한 것도 "
+"있으나, 특정 에너지 유형으로부터의 보호, 독, 공포 다른 부정적인 효과로부터의 보호 등 특수한 상황에서만 활약할 수 있는 것도 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_PrebuffAttack
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3352,13 +2973,12 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Regeneration
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionFoundText
-#, fuzzy
-#| msgid "To neutralize this creature's regeneration, use this:"
 msgctxt "b8c0287b-0e4d-4754-b38a-c913bd2d8838"
 msgid ""
 "To neutralize this creature's {g|Encyclopedia:Regeneration}regeneration{/g}, "
 "use this:"
-msgstr "이 크리처의 재생을 무력화시키기 위해 다음과 같은 것들을 사용할 수 있습니다:"
+msgstr ""
+"이 크리처의 {g|Encyclopedia:Regeneration}재생{/g}을 무력화시키기 위해 다음과 같은 것들을 사용할 수 있습니다:"
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Regeneration
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3477,14 +3097,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_ScrollNPC
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "In safe areas, such as a {g|Encyclopedia:Rest}camp{/g} or a city, you can "
-#| "find a merchant who can read {g|Encyclopedia:Spell}spell{/g} scrolls. For "
-#| "example, you can ask such a character to read a Scroll of "
-#| "{g|Encyclopedia:Healing}Restoration{/g} for you to get rid of negative "
-#| "levels or other adverse effects. This method can be especially useful when "
-#| "you need to resurrect a dead character with a Scroll of Raise Dead."
 msgctxt "1b8717a6-6f0e-4129-8fb9-36b688328765"
 msgid ""
 "In safe areas, such as a {g|Encyclopedia:Rest}camp{/g} or a city, you can "
@@ -3495,12 +3107,10 @@ msgid ""
 "you need to resurrect a dead character with a Scroll of {g|SpellsRaiseDead}"
 "Raise Dead{/g}."
 msgstr ""
-"{g|Encyclopedia:Rest}야영지{/g}나 도시 같은 안전한 지역에서 "
-"{g|Encyclopedia:Spell}주문{/g} 두루마리를 읽을 수 있는 상인을 찾을 수 "
-"있습니다. 예를 들자면, 그러한 캐릭터에게 {g|Encyclopedia:Healing}회복{/g} "
-"두루마리를 읽어달라 부탁해 음수 레벨이나 다른 부정적 효과를 제거할 수 "
-"있습니다. 이 방법은 사망한 캐릭터를 소생 두루마리로 되살릴 때 특히 "
-"유용합니다."
+"{g|Encyclopedia:Rest}야영지{/g}나 도시 같은 안전한 지역에서 {g|Encyclopedia:Spell}주문{/g} "
+"두루마리를 읽을 수 있는 상인을 찾을 수 있습니다. 예를 들자면, 그러한 캐릭터에게 "
+"{g|Encyclopedia:Healing}상태회복{/g} 두루마리를 읽어달라 부탁해 음수 레벨이나 다른 부정적 효과를 제거할 수 "
+"있습니다. 이 방법은 사망한 캐릭터를 {g|SpellsRaiseDead}소생{/g} 두루마리로 되살릴 때 특히 유용합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_ScrollNPC
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3524,16 +3134,12 @@ msgstr "두루마리의 주문 시전"
 #. File = Tutorials/ContextTutorial/ContextTutor_ScrollNPC
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You have a {t|SourceItem} in your possession, but none of your party can "
-#| "read it to cast the {g|Encyclopedia:Spell}spell{/g}."
 msgctxt "c96492f7-c842-41b3-9993-33a7c2553062"
 msgid ""
 "You have the scroll {t|SourceItem} in your possession, but none of your "
 "party can read it to cast the {g|Encyclopedia:Spell}spell{/g}."
 msgstr ""
-"소지품에 {t|SourceItem}를 지니고 있지만 일행 중 누구도 그것을 읽어 "
+"소지품에 {t|SourceItem} 두루마리를 지니고 있지만 일행 중 누구도 그것을 읽어 "
 "{g|Encyclopedia:Spell}주문{/g}을 시전할 수 없습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Scrolls
@@ -3567,21 +3173,14 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_Scrolls
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "To use a scroll, drag it from the inventory to one of the belt slots of the "
-#| "character {t|SolutionUnit}. Then, on the {g|Encyclopedia:Spell}spells{/g} "
-#| "bar, open the belt bar and use the scroll from it. When you use a scroll, it "
-#| "disappears."
 msgctxt "9026be9a-5714-498a-ae8c-3a8f57497fa3"
 msgid ""
 "To use a scroll, drag it from the inventory to one of {t|SolutionUnit}'s "
 "belt slots. Then, on the {g|Encyclopedia:Spell}spells{/g} bar, open the belt "
 "bar and use the scroll from it. When you use a scroll, it disappears."
 msgstr ""
-"두루마리를 사용하려면 소지품에서 {t|SolutionUnit} 캐릭터의 허리띠 칸에 "
-"끌어넣으세요. 이후 {g|Encyclopedia:Spell}주문{/g} 창에서 허리띠 창을 열어 "
-"두루마리를 사용하세요. 두루마리는 사용시 사라집니다."
+"두루마리를 사용하려면 소지품에서 {t|SolutionUnit} 캐릭터의 허리띠 칸에 끌어넣으세요. 이후 "
+"{g|Encyclopedia:Spell}주문{/g} 창에서 허리띠 창을 열어 두루마리를 사용하세요. 두루마리는 사용시 사라집니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Scrolls
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3601,18 +3200,13 @@ msgstr "두루마리"
 #. File = Tutorials/ContextTutorial/ContextTutor_Scrolls_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You have the scroll {t|SourceItem}. Your character {t|SolutionUnit} can read "
-#| "it to {g|Encyclopedia:Healing}heal{/g} the wounded ally {t|SourceUnit}."
 msgctxt "be56b363-5346-4cca-9f0d-7b2724c7e90e"
 msgid ""
 "You have the scroll {t|SourceItem}. {t|SolutionUnit} can read it to "
 "{g|Encyclopedia:Healing}heal{/g} the wounded ally {t|SourceUnit}."
 msgstr ""
-"{t|SourceItem} 두루마리를 보유하고 있습니다. {t|SolutionUnit}(은)는 "
-"두루마리를 읽어 다친 아군 {t|SourceUnit}(을)를 "
-"{g|Encyclopedia:Healing}치유{/g}할 수 있습니다."
+"{t|SourceItem} 두루마리를 보유하고 있습니다. {t|SolutionUnit}(은)는 두루마리를 읽어 다친 아군 "
+"{t|SourceUnit}(을)를 {g|Encyclopedia:Healing}치유{/g}할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_ScrollsMemorizing
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3662,20 +3256,14 @@ msgstr "두루마리에서 주문 익히기"
 #. File = Tutorials/ContextTutorial/ContextTutor_ScrollsMemorizing_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You have acquired a scroll {t|SourceItem}. Your character {t|SolutionUnit} "
-#| "can learn the {g|Encyclopedia:Spell}spell{/g} from it to add it to their "
-#| "spellbook. It will destroy the scroll."
 msgctxt "a63462d5-458b-4d65-ac4a-303c3d10a254"
 msgid ""
 "You have acquired the scroll {t|SourceItem}. {t|SolutionUnit} can learn the "
 "{g|Encyclopedia:Spell}spell{/g} from it to add it to their spellbook. It "
 "will destroy the scroll."
 msgstr ""
-"{t|SourceItem} 두루마리를 얻었습니다. 당신의 캐릭터 {t|SolutionUnit}(은)는 "
-"두루마리에서 {g|Encyclopedia:Spell}주문{/g}을 을 익혀 주문책에 추가할 수 "
-"있습니다. 이는 두루마리를 파괴합니다."
+"{t|SourceItem} 두루마리를 얻었습니다. 당신의 캐릭터 {t|SolutionUnit}(은)는 두루마리에서 "
+"{g|Encyclopedia:Spell}주문{/g}을 을 익혀 주문책에 추가할 수 있습니다. 이는 두루마리를 파괴합니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_ScrollsMemorizing_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3686,6 +3274,8 @@ msgid ""
 "screen of the character that will learn it, select the scroll, open the "
 "context menu, and select \"Copy to Spellbook\"."
 msgstr ""
+"두루마리에서 {g|Encyclopedia:Spell}주문{/g}을 배우려면 주문을 배울 캐릭터의 장비 창을 열어, 두루마리를 선택한 뒤 "
+"컨텍스트 메뉴에서 \"주문책으로 복사\"를 선택하세요."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_Scrolls_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3697,6 +3287,9 @@ msgid ""
 "context menu, select \"Usable Items\", and use the scroll. When you use a "
 "scroll, it disappears."
 msgstr ""
+"두루마리를 사용하려면 소지품에서 {t|SolutionUnit} 캐릭터의 허리띠 칸에 끌어넣으세요. 이후 "
+"{g|Encyclopedia:Spell}주문{/g} 창에컨텍스트 메뉴를 열고, \"사용 가능 물품\"을 고른 뒤 두루마리를 사용하세요. "
+"두루마리는 사용시 사라집니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_SneakAttack
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3705,18 +3298,6 @@ msgstr ""
 #. File = Tutorials/ContextTutorial/ContextTutor_SneakAttackRecruit
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Sneak {g|Encyclopedia:Attack}attack{/g} is a special power available to some "
-#| "classes (such as arcane trickster, assassin, rogue, slayer, vivisectionist). "
-#| "It allows them to deal more {g|Encyclopedia:Damage}damage{/g} to enemies "
-#| "when they are {g|Encyclopedia:Flat_Footed}flat-footed{/g} or outflanked. You "
-#| "can deal sneak attack damage with both weapons and "
-#| "{g|Encyclopedia:Spell}spells{/g}.\n"
-#| "To deal additional sneak attack damage with a {g|Encyclopedia:RangedAttack}"
-#| "ranged attack{/g} or a spell, you need to be within a 30 feet range from the "
-#| "target. A spell can't deal sneak attack damage unless it requires a ranged "
-#| "{g|Encyclopedia:TouchAttack}touch attack{/g} to hit."
 msgctxt "944d22e6-ee96-42fe-896b-d54b807ae2aa"
 msgid ""
 "Sneak attack is a special power available to some classes (such as arcane "
@@ -3729,11 +3310,11 @@ msgid ""
 "target. A spell can't deal sneak attack damage unless it requires a ranged "
 "{g|Encyclopedia:TouchAttack}touch attack{/g} to hit."
 msgstr ""
-"{g|Encyclopedia:Attack}암습{/g}은 일부 클래스에게 (아케인 트릭스터, 어쌔신, 로그, 슬레이어, 비비섹셔니스트) "
-"허용된 특별한 힘입니다. 암습은 적이 {g|Encyclopedia:Flat_Footed}무방비{/g} 또는 협공 상태일 때 추가 "
+"암습은 일부 클래스에게 (아케인 트릭스터, 어쌔신, 로그, 슬레이어, 비비섹셔니스트) 허용된 특별한 힘입니다. 암습은 적이 "
+"{g|Encyclopedia:Flat_Footed}무방비{/g} 또는 협공 상태일 때 추가 "
 "{g|Encyclopedia:Damage}피해{/g}를 입히게 해줍니다. 당신은 암습 피해를 무기와 "
 "{g|Encyclopedia:Spell}주문{/g} 모두로 입힐 수 있습니다.\n"
-"암습 피해를 {g|Encyclopedia:RangedAttack}원거리 공격{/g}이나 주문으로 입히기 위해서는 대상으로부터 30 피트 "
+"암습 피해를 {g|Encyclopedia:RangedAttack}원거리 공격{/g}이나 주문으로 입히기 위해서는 대상으로부터 30피트 "
 "이내에 위치해야 합니다. 원거리 {g|Encyclopedia:TouchAttack}접촉 공격{/g}을 요구하지 않는 주문은 암습 피해를 "
 "가할 수 없습니다."
 
@@ -3759,20 +3340,14 @@ msgstr "암습"
 #. File = Tutorials/ContextTutorial/ContextTutor_SneakAttack
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "Your enemy {t|SourceUnit} has dealt increased "
-#| "{g|Encyclopedia:Damage}damage{/g} to your character {t|TargetUnit} with a "
-#| "sneak {g|Encyclopedia:Attack}attack{/g}."
 msgctxt "c304d095-42b1-4b53-a6f7-057faeecdd84"
 msgid ""
 "Your enemy {t|SourceUnit} has dealt increased "
 "{g|Encyclopedia:Damage}damage{/g} to your character {t|TargetUnit} with a "
 "sneak attack."
 msgstr ""
-"{t|SourceUnit} 적은 당신의 캐릭터 {t|TargetUnit}에게 "
-"{g|Encyclopedia:Attack}암습{/g}으로 증가한 {g|Encyclopedia:Damage}피해{/g}를 "
-"입혔습니다."
+"{t|SourceUnit} 적은 당신의 캐릭터 {t|TargetUnit}에게 암습으로 증가한 "
+"{g|Encyclopedia:Damage}피해{/g}를 입혔습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_SneakAttackRecruit
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3787,18 +3362,12 @@ msgstr "적에게 추가 {g|Encyclopedia:Damage}피해{/g}를 입히기 위해 �
 #. File = Tutorials/ContextTutorial/ContextTutor_SneakAttackRecruit
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "You group now has {t|SourceUnit} — a character capable of dealing increased "
-#| "{g|Encyclopedia:Damage}damage{/g} to your enemies with a sneak "
-#| "{g|Encyclopedia:Attack}attack{/g}."
 msgctxt "fbf15fa8-77d3-42d8-b88c-4a6fddd03339"
 msgid ""
 "You group now has {t|SourceUnit} — a character capable of dealing increased "
 "{g|Encyclopedia:Damage}damage{/g} to your enemies with a sneak attack."
 msgstr ""
-"일행에 {t|SourceUnit} 캐릭터가 추가되었습니다. 이 캐릭터는 "
-"{g|Encyclopedia:Attack}암습{/g}으로 적에게 증가한 "
+"일행에 {t|SourceUnit} 캐릭터가 추가되었습니다. 이 캐릭터는 암습으로 적에게 증가한 "
 "{g|Encyclopedia:Damage}피해{/g}를 입힐 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_SpellResistance
@@ -3925,19 +3494,14 @@ msgstr "아군의 주문 저항"
 #. File = Tutorials/ContextTutorial/ContextTutor_SpellResistanceBuff
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "Character {t|TargetUnit} misses the positive effects of your "
-#| "{g|Encyclopedia:Spell}spells{/g} because of their "
-#| "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgctxt "e7abafaf-8c2f-496b-a065-7d1f0b7dd1e4"
 msgid ""
 "{t|TargetUnit} misses the positive effects of your "
 "{g|Encyclopedia:Spell}spells{/g} because of their "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgstr ""
-"{t|TargetUnit} 캐릭터는 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}으로 "
-"인해 당신 {g|Encyclopedia:Spell}주문{/g}의 이로운 효과를 받지 못했습니다."
+"{t|TargetUnit}(은)는 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}으로 인해 "
+"{g|Encyclopedia:Spell}주문{/g}의 이로운 효과를 받지 못했습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_SpellResistanceItem
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -3999,19 +3563,14 @@ msgstr "아군의 주문 저항"
 #. File = Tutorials/ContextTutorial/ContextTutor_SpellResistanceItem
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TriggerText
-#, fuzzy
-#| msgid ""
-#| "Character {t|TargetUnit} misses out on the positive effects of your "
-#| "{g|Encyclopedia:Spell}spells{/g} because of their "
-#| "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgctxt "db4a522d-f181-4d01-8af9-3240c01dd478"
 msgid ""
 "{t|TargetUnit} misses out on the positive effects of your "
 "{g|Encyclopedia:Spell}spells{/g} because of their "
 "{g|Encyclopedia:Spell_Resistance}spell resistance{/g}."
 msgstr ""
-"{t|TargetUnit} 캐릭터는 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}으로 "
-"인해 {g|Encyclopedia:Spell}주문{/g}의 이로운 효과를 받지 못했습니다."
+"{t|TargetUnit}(은)는 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}으로 인해 "
+"{g|Encyclopedia:Spell}주문{/g}의 이로운 효과를 받지 못했습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_SpontaneousDruid
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4068,14 +3627,6 @@ msgstr "임의 시전"
 #. File = Tutorials/ContextTutorial/ContextTutor_SpontaneousPriest
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Some classes (such as cleric and druid) have the ability of spontaneous "
-#| "{g|Encyclopedia:Spell}spellcasting{/g}. For example, a good cleric has no "
-#| "need to prepare {g|Encyclopedia:Healing}healing{/g} spells: they can lose "
-#| "almost any spell they have prepared (except the domain spells) to cast a "
-#| "cure wounds spell of the same level. In the same way, an evil cleric can "
-#| "lose prepared spells to cast inflict wounds."
 msgctxt "7546c2f3-288a-4167-a52b-151bd9b902f1"
 msgid ""
 "Some classes (such as cleric and druid) have the ability of spontaneous "
@@ -4086,12 +3637,10 @@ msgid ""
 "the same level. In the same way, an evil cleric can lose prepared spells to "
 "cast inflict wounds."
 msgstr ""
-"클레릭이나 드루이드 같은 몇몇 클래스는 임의 {g|Encyclopedia:Spell}주문 "
-"시전{/g} 능력을 가지고 있습니다. 예를 들어 선한 클레릭은 "
-"{g|Encyclopedia:Healing}치유{/g} 주문을 준비할 필요가 없습니다. 그들은 영역 "
-"주문을 제외한 거의 모든 주문을 아무 것이나 소모해 동일 레벨의 상처 치료 "
-"주문을 시전할 수 있습니다. 악 성향의 클레릭은 동일한 방식으로 상처 입히기 "
-"주문을 시전할 수 있습니다."
+"클레릭이나 드루이드 같은 몇몇 클래스는 임의 {g|Encyclopedia:Spell}주문 시전{/g} 능력을 가지고 있습니다. 예를 들어 "
+"{g|Encyclopedia:Alignment}선 성향{/g} 클레릭은 {g|Encyclopedia:Healing}치유{/g} 주문을 "
+"준비할 필요가 없습니다. 그들은 영역 주문을 제외한 거의 모든 주문을 아무 것이나 소모해 동일 레벨의 상처 치료 주문을 시전할 수 "
+"있습니다. 악 성향의 클레릭은 동일한 방식으로 상처 입히기 주문을 시전할 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_SpontaneousPriest
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4161,12 +3710,6 @@ msgstr "{t|SourceUnit} 적대적인 군체와 전투에 돌입했습니다."
 #. File = Tutorials/ContextTutorial/ContextTutor_TargetType
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Some {g|Encyclopedia:Spell}spells{/g} can only be cast on certain targets. "
-#| "For example, the Hold Person spell must be cast on a humanoid. However, "
-#| "there are many enemies that may have the appearance of a humanoid but are, "
-#| "in fact, otherworldly creatures or other types of creatures."
 msgctxt "c964673f-94e5-4666-92fe-d96d36b920f9"
 msgid ""
 "Some {g|Encyclopedia:Spell}spells{/g} can only be cast on certain targets. "
@@ -4175,10 +3718,9 @@ msgid ""
 "humanoid but are, in fact, otherworldly creatures or other types of "
 "creatures."
 msgstr ""
-"어떤 {g|Encyclopedia:Spell}주문{/g}들은 특정한 대상에게만 시전 가능합니다. "
-"예를 들어, 사람 포박 주문은 인간형 적에게만 사용가능합니다. 하지만 인간과 "
-"유사한 외견을 지닌 수많은 적은 사실 외차원체거나 다른 유형의 크리처일 수 "
-"있습니다."
+"어떤 {g|Encyclopedia:Spell}주문{/g}들은 특정한 대상에게만 시전 가능합니다. 예를 들어, "
+"{g|SpellsHoldPerson}사람 포박{/g} 주문은 인간형 적에게만 사용가능합니다. 하지만 인간과 유사한 외견을 지닌 수많은 "
+"적은 사실 외차원체거나 다른 유형의 크리처일 수 있습니다."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_TargetType
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4211,19 +3753,6 @@ msgstr "{t|SourceAbility} 능력을 유효하지 않은 대상 {t|TargetUnit}에
 #. File = Tutorials/ContextTutorial/ContextTutor_TouchAC
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "There are many {g|Encyclopedia:Spell}spells{/g} and abilities that your "
-#| "armor won't protect you against: to work, they need to just "
-#| "{g|Encyclopedia:TouchAttack}touch{/g} the target. This is the touch "
-#| "{g|Encyclopedia:Attack}attack{/g}, it ignores armor and shields. A "
-#| "creature's {g|Encyclopedia:Touch_AC}touch AC{/g} is usually lower than their "
-#| "full {g|Encyclopedia:Armor_Class}AC{/g}, as it doesn't include the "
-#| "{g|Encyclopedia:Bonus}bonuses{/g} from the armor, natural armor, and shields."
-#| "\n"
-#| "Touch attacks can be made both in melee and from a distance (ray).\n"
-#| "In most cases, the larger a creature is, the bigger the difference between "
-#| "its full AC and touch AC."
 msgctxt "ea57eff6-1033-48d5-aa19-6351ad438b3f"
 msgid ""
 "There are many {g|Encyclopedia:Spell}spells{/g} and abilities that your "
@@ -4237,12 +3766,10 @@ msgid ""
 "In most cases, the larger a creature is, the bigger the difference between "
 "its full AC and touch AC."
 msgstr ""
-"갑옷이 방어해줄 수 없는 다양한 {g|Encyclopedia:Spell}주문{/g}과 능력이 "
-"존재합니다. 이들은 대개 작용을 위해 대상과 "
-"{g|Encyclopedia:TouchAttack}접촉{/g}하기만 하면 됩니다. 이는 접촉 "
-"{g|Encyclopedia:Attack}공격{/g}으로 분류되며, 방패와 갑옷을 무시합니다. "
-"크리처의 {g|Encyclopedia:Touch_AC}접촉 AC{/g}는 갑옷, 자연 방어, 방패로부터 "
-"얻는 {g|Encyclopedia:Bonus}보너스{/g}를 포함하지 않으므로 대개 보유한 전체 "
+"갑옷이 방어해줄 수 없는 다양한 {g|Encyclopedia:Spell}주문{/g}과 능력이 존재합니다. 이들은 대개 작용을 위해 대상과 "
+"접촉만 하면 됩니다. 이는 {g|Encyclopedia:TouchAttack}접촉 공격{/g}으로 분류되며, 방패와 갑옷을 무시합니다. "
+"크리처의 {g|Encyclopedia:Touch_AC}접촉 AC{/g}는 갑옷, 자연 방어, 방패로부터 얻는 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 포함하지 않으므로 대개 보유한 전체 "
 "{g|Encyclopedia:Armor_Class}AC{/g} 보다 낮습니다.\n"
 "접촉 공격은 근거리 뿐만 아니라 원거리에서도 (광선) 이루어질 수 있습니다.\n"
 "대부분의 경우 크리처의 크기가 클수록 AC 전체와 접촉 AC간의 격차가 큽니다."
@@ -4257,18 +3784,13 @@ msgstr "전투 능률성을 늘리기 위해 다음을 사용해보세요:"
 #. File = Tutorials/ContextTutorial/ContextTutor_TouchAC
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_SolutionNotFoundText
-#, fuzzy
-#| msgid ""
-#| "When you fight an enemy with a low {g|Encyclopedia:TouchAttack}touch{/g} "
-#| "{g|Encyclopedia:Armor_Class}AC{/g}, use combat "
-#| "{g|Encyclopedia:Spell}spells{/g}."
 msgctxt "cd01f886-2d14-4e3e-a21f-4e100df43b0f"
 msgid ""
 "When you fight an enemy with a low {g|Encyclopedia:Touch_AC}touch AC{/g}, "
 "use combat {g|Encyclopedia:Spell}spells{/g}."
 msgstr ""
-"{g|Encyclopedia:TouchAttack}접촉{/g} {g|Encyclopedia:Armor_Class}AC{/g}가 "
-"낮은 적과 싸울 때는 공격 {g|Encyclopedia:Spell}주문{/g}을 사용해보세요."
+"{g|Encyclopedia:Touch_AC}접촉 AC{/g}가 낮은 적과 싸울 때는 공격 "
+"{g|Encyclopedia:Spell}주문{/g}을 사용해보세요."
 
 #. File = Tutorials/ContextTutorial/ContextTutor_TouchAC
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4389,18 +3911,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_01_Chapter2Intro
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "You can now control armies on the global map. Winning battles against demon "
-#| "forces will provide you with a number of benefits, such as:\n"
-#| "{br}- resources to help your economy;\n"
-#| "{br}- relics, which can be turned into powerful new items for your party;\n"
-#| "{br}- captured enemy fortifications that previously blocked the advance of "
-#| "both your party and your armies. These fortifications can be rebuilt into "
-#| "forts for your own troops.\n"
-#| "{br}Enemy armies differ in their strength, which is displayed as a number "
-#| "next to the army's name. By hovering over the enemy army, you can learn more "
-#| "about its composition and the reward it is guarding."
 msgctxt "35a3ce9f-200a-4711-9011-9bb5448f1845"
 msgid ""
 "You can now control armies on the global map. Winning battles against demon "
@@ -4414,28 +3924,16 @@ msgid ""
 "to the army's name. By hovering over the enemy army, you can learn more "
 "about its composition and the reward it is guarding."
 msgstr ""
-"이제 세계지도에서 부대를 조종할 수 있습니다. 데몬 군대와의 전투에서 승리하면 "
-"수많은 이득을 얻을 수 있습니다. 예를 들어서:\n"
-"{br}- 당신의 재정에 도움을 줄 자원\n"
-"{br}- 일행이 사용할 수 있는 강력한 아이템이 되어줄 유물\n"
-"{br}- 이전까지 당신의 일행과 부대의 진군을 방해했던 적 진지를 점령. 또한 이 "
-"진지를 당신의 군대를 위한 요새로 재건할 수 있습니다.\n"
-"{br}적군 부대의 전투력은 다양하며, 적군 부대의 이름 옆에 숫자로서 "
-"나타납니다. 적군 부대에 커서를 올림으로써, 그 부대의 구성과 무찔렀을 때의 "
-"보상에 대해서 알 수 있습니다."
+"이제 세계지도에서 부대를 조종할 수 있습니다. 데몬 군대와의 전투에서 승리하면 수많은 이득을 얻을 수 있습니다. 예를 들어서:\n"
+"* 당신의 재정에 도움을 줄 자원\n"
+"* 일행이 사용할 수 있는 강력한 아이템이 되어줄 유물\n"
+"* 이전까지 당신의 일행과 부대의 진군을 방해했던 적 진지를 점령. 또한 이 진지를 당신의 군대를 위한 요새로 재건할 수 있습니다.\n"
+"적군 부대의 전투력은 다양하며, 적군 부대의 이름 옆에 숫자로서 나타납니다. 적군 부대에 커서를 올림으로써, 그 부대의 구성과 무찔렀을 "
+"때의 보상에 대해서 알 수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_01_Chapter2Intro
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "You can switch between party management and army command modes by clicking "
-#| "the banners at the top of the screen.\n"
-#| "{br}In army command mode, you can select armies by either using the panel on "
-#| "the left or clicking the figures on the map.\n"
-#| "{br}Much like your party, armies use roads to move around the map. To move, "
-#| "an army must spend movement points, which can be restored by resting for one "
-#| "day."
 msgctxt "1632890f-2143-442a-9f21-1640e0aadc41"
 msgid ""
 "You can switch between party management and army command modes by clicking "
@@ -4446,13 +3944,10 @@ msgid ""
 "army must spend movement points, which can be restored by resting for one "
 "day."
 msgstr ""
-"화면 상단의 깃발로 표현된 파티원 관리 모드와 부대 명령 모드를 클릭함으로써 "
-"둘 사이를 자유롭게 오갈 수 있습니다.\n"
-"{br}부대 명령 모드에서는 지도 상의 모형으로 표현되거나 패널에서 직접 "
-"선택함으로써 부대를 선택할 수 있습니다.\n"
-"{br}당신의 파티와 같이, 부대는 이동할 때 도로를 통해서 이동합니다. 부대가 "
-"움직이려면 이동 점수를 사용해야하며, 이 점수는 하루 동안 휴식함으로써 "
-"회복됩니다."
+"화면 상단의 깃발로 표현된 파티원 관리 모드와 부대 명령 모드를 클릭함으로써 둘 사이를 자유롭게 오갈 수 있습니다.\n"
+"부대 명령 모드에서는 지도 상의 모형으로 표현되거나 패널에서 직접 선택함으로써 부대를 선택할 수 있습니다.\n"
+"당신의 파티와 같이, 부대는 이동할 때 도로를 통해서 이동합니다. 부대가 움직이려면 이동 점수를 사용해야하며, 이 점수는 하루 동안 "
+"휴식함으로써 회복됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_01_Chapter2Intro
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4481,6 +3976,12 @@ msgid ""
 "to the army's name. By hovering over the enemy army, you can learn more "
 "about its composition and the reward it is guarding."
 msgstr ""
+"이제 세계지도에서 부대를 조종할 수 있습니다. 데몬 군대와의 전투에서 승리하면 수많은 이득을 얻을 수 있습니다. 예를 들어서:\n"
+"* 당신의 재정에 도움을 줄 자원\n"
+"* 일행이 사용할 수 있는 강력한 아이템이 되어줄 유물\n"
+"* 이전까지 당신의 일행과 부대의 진군을 방해했던 적 진지를 점령. 또한 이 진지를 당신의 군대를 위한 요새로 재건할 수 있습니다.\n"
+"적군 부대의 전투력은 다양하며, 적군 부대의 이름 옆에 숫자로서 나타납니다. 적군 부대에 커서를 올림으로써, 그 부대의 구성과 무찔렀을 "
+"때의 보상에 대해서 알 수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_01_Chapter2Intro_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4495,19 +3996,15 @@ msgid ""
 "army must spend movement points, which can be restored by resting for one "
 "day."
 msgstr ""
+"<b>{console_bind|FuncAdditional}</b> 버튼을 눌러 파티원 관리 모드와 부대 명령 모드 사이를 자유롭게 오갈 "
+"수 있습니다.\n"
+"부대 명령 모드에서는 <b>{console_bind|LeftBottom}</b> 버튼을 눌러 부대를 선택할 수 있습니다.\n"
+"당신의 파티와 같이, 부대는 이동할 때 도로를 통해서 이동합니다. 부대가 움직이려면 이동 점수를 사용해야하며, 이 점수는 하루 동안 "
+"휴식함으로써 회복됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_02_Battle
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Your army has engaged in battle!\n"
-#| "{br}The enemy army is displayed on the right, and the crusader army is on "
-#| "the left.\n"
-#| "{br}Battles are played out in turn-based mode. The turn order is displayed "
-#| "at the top of the screen. Units with high initiative act first. Once all "
-#| "units have taken their turn, a new round begins and the turn order is "
-#| "repeated."
 msgctxt "20e91ac1-a8d9-49cc-9ecf-262a99bdda6e"
 msgid ""
 "Your army has engaged in battle!\n"
@@ -4518,10 +4015,9 @@ msgid ""
 "have taken their turn, a new round begins and the turn order is repeated."
 msgstr ""
 "당신의 군대가 전투중입니다!\n"
-"{br}적 군대는 오른 쪽에, 성전군은 왼쪽에 나타납니다.\n"
-"{br}전투는 턴 기반 모드로 진행됩니다. 턴 순서는 화면 위쪽에 표시됩니다. 높은 "
-"우선권을 지닌 유닛이 가장 먼저 행동합니다. 모든 유닛이 자신의 턴을 수행하면 "
-"새 라운드가 시작되고 턴 순서가 반복됩니다."
+"적 군대는 오른 쪽에, 성전군은 왼쪽에 나타납니다.\n"
+"전투는 턴 기반 모드로 진행됩니다. 턴 순서는 화면 위쪽에 표시됩니다. 높은 우선권을 지닌 유닛이 가장 먼저 행동합니다. 모든 유닛이 "
+"자신의 턴을 수행하면 새 라운드가 시작되고 턴 순서가 반복됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_02_Battle
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4530,17 +4026,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_02_Battle_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "During its turn, a unit can perform one of the following actions:\n"
-#| "{br}- move and/or use its melee attack. The range of the unit's movement "
-#| "depends on its speed;\n"
-#| "{br}- use a ranged attack, if one is available to the unit and there are no "
-#| "enemies near it;\n"
-#| "{br}- use an ability, if one is available to the unit (abilities are "
-#| "displayed at the bottom of the screen);\n"
-#| "{br}- take up the Total Defense, boosting its AC for one round;\n"
-#| "{br}- wait, postponing its action until the end of the round."
 msgctxt "b0cddad0-9b9f-43c0-b0b4-228376ae49de"
 msgid ""
 "During its turn, a unit can perform one of the following actions:\n"
@@ -4554,11 +4039,11 @@ msgid ""
 "* Wait, postponing its action until the end of the round."
 msgstr ""
 "자신의 턴에, 유닛은 다음 중 하나의 행동을 취할 수 있습니다.\n"
-"{br}- 이동 또는 근접 공격, 이동 거리는 속도에 기반합니다;\n"
-"{br}- 원거리 공격, 원거리 공격을 할 수 있고, 근처에 적이 없어야 합니다;\n"
-"{br}- 능력 사용, 능력을 사용할 수 있어야 합니다 (능력은 화면 아래쪽에 표시됩니다);\n"
-"{br}- 전력 방어, 1 라운드 동안 AC를 증가시킵니다.\n"
-"{br}- 대기, 행동을 라운드 종료 시 까지 미룹니다."
+"* 이동 또는 근접 공격, 이동 거리는 속도에 기반합니다.\n"
+"* 원거리 공격, 원거리 공격을 할 수 있고, 근처에 적이 없어야 합니다.\n"
+"* 능력 사용, 능력을 사용할 수 있어야 합니다 (능력은 화면 아래쪽에 표시됩니다).\n"
+"* 전력 방어, 1 라운드 동안 AC를 증가시킵니다.\n"
+"* 대기, 행동을 라운드 종료 시 까지 미룹니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_02_Battle
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4578,17 +4063,6 @@ msgstr "유닛 행동"
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_02_Battle_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[2]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Whenever a unit performs an attack, the damage dealt is calculated as "
-#| "follows:\n"
-#| "{br}- all soldiers in the attacking unit make a damage roll to determine the "
-#| "base damage;\n"
-#| "{br}- the damage multiplier is determined according to the formula [("
-#| "Attacking Unit's Attack + 21 — Target's AC)×0.05]. The damage multiplier "
-#| "cannot be less than 0.05;\n"
-#| "{br}- the base damage is multiplied by the damage multiplier, resulting in "
-#| "the total damage dealt."
 msgctxt "83162662-9518-440e-a14e-1e86d43d7f7d"
 msgid ""
 "Whenever a unit performs an attack, the damage dealt is calculated as "
@@ -4602,10 +4076,10 @@ msgid ""
 "total damage dealt."
 msgstr ""
 "공격을 수행할 때, 피해량은 아래와 같이 계산됩니다.\n"
-"{br}- 공격 유닛의 모든 병사가 피해 굴림을 해 기본 피해를 결정합니다;\n"
-"{br}- 피해 수정치는 다음과 같은 공식을 따릅니다. [(공격 유닛의 공격 + 21 — "
-"대상의 AC)×0.05]. 피해 수정치는 0.05 미만으로 내려가지 않습니다.\n"
-"{br}- 기본 피해에 피해 수정치를 곱해 총 피해량을 결정합니다."
+"* 공격 유닛의 모든 병사가 피해 굴림을 해 기본 피해를 결정합니다.\n"
+"* 피해 수정치는 다음과 같은 공식을 따릅니다. [(공격 유닛의 공격 + 21 — 대상의 AC)×0.05]. 피해 수정치는 0.05 "
+"미만으로 내려가지 않습니다.\n"
+"* 기본 피해에 피해 수정치를 곱해 총 피해량을 결정합니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_02_Battle
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4631,27 +4105,14 @@ msgid ""
 "units have taken their turn, a new round begins and the turn order is "
 "repeated."
 msgstr ""
+"당신의 군대가 전투중입니다!\n"
+"적 군대는 오른 쪽에, 성전군은 왼쪽에 나타납니다.\n"
+"전투는 턴 기반 모드로 진행됩니다. 턴 순서는 화면 좌측에 표시됩니다. 높은 우선권을 지닌 유닛이 가장 먼저 행동합니다. 모든 유닛이 "
+"자신의 턴을 수행하면 새 라운드가 시작되고 턴 순서가 반복됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_03_General
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "You have defeated your first enemy army and received a number of Finance "
-#| "Points. You can use these Finance Points to hire a general for your army. "
-#| "This can be done by accessing the army window in the left corner of the "
-#| "screen.\n"
-#| "{br}Generals can use various spells and abilities in combat. Their "
-#| "capabilities grow as their level increases. Generals gain experience by "
-#| "winning battles at the head of their army.\n"
-#| "{br}Each general belongs to one of three classes as indicated by an icon "
-#| "next to their portrait:\n"
-#| "{br}- Fighter (sword and shield) focuses on boosting the strength of their "
-#| "troops;\n"
-#| "{br}- Ranger (bow) weakens enemy units;\n"
-#| "{br}- Wizard (fireball) utilizes a wide variety of spells in combat.\n"
-#| "{br}Generals cannot be killed. If a general's army is defeated, after three "
-#| "days the general can be assigned to a new army."
 msgctxt "bea7bd5b-4249-4416-bd35-a0c908f3087e"
 msgid ""
 "You have defeated your first enemy army and received a number of Finance "
@@ -4669,19 +4130,15 @@ msgid ""
 "Generals cannot be killed. If a general's army is defeated, the general can "
 "be assigned to a new army after three days."
 msgstr ""
-"첫 번째 적 군세를 쓰러뜨려 상당한 재정 점수를 얻었습니다. 이 재정 점수를 "
-"사용해 군대의 지휘관을 고용할 수 있습니다. 이는 화면 왼쪽 구석의 군대창에서 "
-"들어가서 할 수 있습니다.\n"
-"{br}지휘관은 전투 중 다양한 주문과 능력을 사용할 수 있습니다. 그들의 능력은 "
-"레벨이 증가하면서 성장합니다. 지휘관은 군대의 장으로써 전투에서 승리할 때 "
-"경험치를 얻습니다.\n"
-"{br}각 지휘관은 세 개의 클래스 중 하나를 지니며, 이는 초상화 옆 아이콘을 "
-"통해 나타납니다.\n"
-"{br}- 파이터는 (검과 방패) 병사들의 힘을 늘리는데 집중합니다.\n"
-"{br}- 레인저는 (활) 적 유닛을 약화합니다.\n"
-"{br}- 위저드는 (화염구) 전투 중 다양한 주문을 활용합니다.\n"
-"{br}지휘관은 사망하지 않습니다. 만일 지휘관의 군대가 패배하면, 3일 후 새 "
-"군대의 지휘를 맡을 수 있습니다."
+"첫 번째 적 군세를 쓰러뜨려 상당한 재정 점수를 얻었습니다. 이 재정 점수를 사용해 군대의 지휘관을 고용할 수 있습니다. 이는 화면 왼쪽 "
+"구석의 군대창에 들어가서 할 수 있습니다.\n"
+"지휘관은 전투 중 다양한 주문과 능력을 사용할 수 있습니다. 그들의 능력은 레벨이 증가하면서 성장합니다. 지휘관은 군대의 장으로써 "
+"전투에서 승리할 때 경험치를 얻습니다.\n"
+"각 지휘관은 세 개의 클래스 중 하나를 지니며, 이는 초상화 옆 아이콘을 통해 나타납니다.\n"
+"* 파이터는 (검과 방패) 병사들의 힘을 늘리는데 집중합니다.\n"
+"* 레인저는 (활) 적 유닛을 약화합니다.\n"
+"* 위저드는 (화염구) 전투 중 다양한 주문을 활용합니다.\n"
+"지휘관은 사망하지 않습니다. 만일 지휘관의 군대가 패배하면, 3일 후 새 군대의 지휘를 맡을 수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_03_General
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4690,18 +4147,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_03_General_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "The general's Attack and Defense are added as a bonus to the attack and AC "
-#| "of all units in their army.\n"
-#| "{br}The general's Power affects the effectiveness of their abilities and "
-#| "spells.\n"
-#| "Initially, an army can be composed of up to three units, but experienced "
-#| "generals who have the Master of Maneuver feat can lead armies made up of a "
-#| "larger number of units.\n"
-#| "{br}When the battle results in a victory, the general's infirmary brings "
-#| "back some of the lost units. The infirmary size is limited, and thus it "
-#| "prioritizes restoring units of the highest value."
 msgctxt "bdafe4c5-0d70-4ce2-9f74-f90889a840ca"
 msgid ""
 "The general's Attack and Defense are added as a bonus to the attack and AC "
@@ -4716,11 +4161,10 @@ msgid ""
 "prioritizes restoring units of the highest value."
 msgstr ""
 "지휘관의 공격과 방어는 군대 내 모든 유닛의 명중과 AC에 보너스로 더해집니다.\n"
-"{br}지휘관의 마력은 그들의 능력과 주문의 효과성에 영향을 줍니다.\n"
-"군대는 처음에 최대 세 유닛을 조합할 수 있지만, 전술가 특기를 지닌 경험 많은 "
-"지휘관은 더 많은 수의 유닛으로 구성된 군대를 지휘할 수 있습니다.\n"
-"{br}전투가 승리로 끝나면, 지휘관의 의무대는 손실 유닛의 일부를 "
-"소생시킬겁니다. 의무대의 크기는 한정되어 있으므로 가장 고가치의 유닛부터 "
+"지휘관의 마력은 그들의 능력과 주문의 효과성에 영향을 줍니다.\n"
+"군대는 처음에 최대 세 유닛을 조합할 수 있지만, 전술가 특기를 지닌 경험 많은 지휘관은 더 많은 수의 유닛으로 구성된 군대를 지휘할 수 "
+"있습니다.\n"
+"전투가 승리로 끝나면, 지휘관의 의무대는 손실 유닛의 일부를 소생시킬겁니다. 의무대의 크기는 한정되어 있으므로 가장 고가치의 유닛부터 "
 "회복시키는 것이 우선됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_03_General
@@ -4756,6 +4200,16 @@ msgid ""
 "Generals cannot be killed. If a general's army is defeated, the general can "
 "be assigned to a new army after three days."
 msgstr ""
+"첫 번째 적 군세를 쓰러뜨려 상당한 재정 점수를 얻었습니다. 이 재정 점수를 사용해 군대의 지휘관을 고용할 수 있습니다. 이는 군대창에서 "
+"할 수 있습니다. 군대를 선택하고 <b>{console_bind|Func02}</b>을 누른 뒤 "
+"<b>{console_bind|Func01}</b>을 눌러 군대창을 여십시오.\n"
+"지휘관은 전투 중 다양한 주문과 능력을 사용할 수 있습니다. 그들의 능력은 레벨이 증가하면서 성장합니다. 지휘관은 군대의 장으로써 "
+"전투에서 승리할 때 경험치를 얻습니다.\n"
+"각 지휘관은 세 개의 클래스 중 하나를 지니며, 이는 초상화 옆 아이콘을 통해 나타납니다.\n"
+"* 파이터는 (검과 방패) 병사들의 힘을 늘리는데 집중합니다.\n"
+"* 레인저는 (활) 적 유닛을 약화합니다.\n"
+"* 위저드는 (화염구) 전투 중 다양한 주문을 활용합니다.\n"
+"지휘관은 사망하지 않습니다. 만일 지휘관의 군대가 패배하면, 3일 후 새 군대의 지휘를 맡을 수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_04_GeneralInCombat
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4764,15 +4218,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_04_GeneralInCombat_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Once per round, before the action of any allied unit, a general can use an "
-#| "ability or a spell.\n"
-#| "{br}The abilities of generals in the Fighter and Ranger classes have a "
-#| "limited number of uses per battle.\n"
-#| "{br}The spells of a Wizard do not have this restriction, but their use "
-#| "requires spending the general's Energy. Each day, generals restore 10% of "
-#| "their maximum Energy."
 msgctxt "9e53031c-0a74-40e9-8dc8-c28ba7d3a903"
 msgid ""
 "Once per round, before the action of any allied unit, a general can use an "
@@ -4783,23 +4228,13 @@ msgid ""
 "spending the general's Energy. Each day, generals restore 10% of their "
 "maximum Energy."
 msgstr ""
-"라운드 당 한 번, 아군 유닛이 행동을 취하기 전에 지휘관은 능력이나 주문을 "
-"사용할 수 있습니다.\n"
-"{br}파이터 또는 레인저 클래스의 지휘관이 지닌 능력은 전투당 사용횟수가 "
-"제한되어 있습니다.\n"
-"{br}위저드의 주문들은 사용횟수 제한은 없으나, 대신 지휘관의 에너지를 "
-"소모합니다. 지휘관은 매일 최대 에너지의 10%를 회복합니다."
+"라운드 당 한 번, 아군 유닛이 행동을 취하기 전에 지휘관은 능력이나 주문을 사용할 수 있습니다.\n"
+"파이터 또는 레인저 클래스의 지휘관이 지닌 능력은 전투당 사용횟수가 제한되어 있습니다.\n"
+"위저드의 주문들은 사용횟수 제한은 없으나, 대신 지휘관의 에너지를 소모합니다. 지휘관은 매일 최대 에너지의 10%를 회복합니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_05_Hiring
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "This new victory has brought you more Finance Points, which can be used to "
-#| "bolster your army.\n"
-#| "{br}To recruit new units, click the Recruit button on the panel on the left "
-#| "at the bottom of the screen. Recruited units appear in Kenabres. At the "
-#| "beginning of each week, new units become available for recruitment."
 msgctxt "a3fd8963-082c-4e7f-9c67-f4adce0d6ef6"
 msgid ""
 "This new victory has brought you more Finance Points, which can be used to "
@@ -4808,10 +4243,9 @@ msgid ""
 "the bottom of the screen. Recruited units appear in Kenabres. New units will "
 "be available for recruitment at the beginning of each week."
 msgstr ""
-"이 새로운 승리는 당신에게 더 많은 재정 점수를 가져다 주었고, 이는 군대를 "
-"강화하기 위해 사용될 수 있습니다.\n"
-"{br}새 유닛을 고용하려면 화면 왼쪽 아래에 고용 단추를 누르세요. 고용된 "
-"유닛은 케나브레스에 나타납니다. 한 주의 시작에 새 유닛이 고용가능해집니다."
+"이 새로운 승리는 당신에게 더 많은 재정 점수를 가져다 주었고, 이는 군대를 강화하기 위해 사용될 수 있습니다.\n"
+"새 유닛을 고용하려면 화면 왼쪽 아래에 고용 단추를 누르세요. 고용된 유닛은 케나브레스에 나타납니다. 한 주가 시작되면 새 유닛을 고용할 "
+"수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_05_Hiring_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4824,21 +4258,13 @@ msgid ""
 "\"Recruit\". Recruited units appear in Kenabres. New units will be available "
 "for recruitment at the beginning of each week."
 msgstr ""
+"이 새로운 승리는 당신에게 더 많은 재정 점수를 가져다 주었고, 이는 군대를 강화하기 위해 사용될 수 있습니다.\n"
+"새 유닛을 고용하려면 <b>{console_bind|LeftBottom}</b> 버튼을 누른 뒤 \"고용\"을 선택하십시오. 고용된 "
+"유닛은 케나브레스에 나타납니다. 한 주가 시작되면 새 유닛을 고용할 수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_06_ArmyManagement
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "If two of your armies stand next to each other on the global map, you can "
-#| "transfer units between them by clicking the button that appears next to the "
-#| "army's name. Upon exchanging troops, the number of movement points of each "
-#| "army will become equal to the lowest value among the two.\n"
-#| "{br}Clicking the \"i\" button next to the army's name on the left will take "
-#| "you to the army management screen. Here you can set your units' starting "
-#| "positions at the beginning of combat. You can split your units by holding "
-#| "Ctrl or Shift and moving the unit to a different slot. You can also create a "
-#| "new army here by clicking the button on the right."
 msgctxt "7d114f92-9eed-4679-b463-382eb0fe0fc4"
 msgid ""
 "If two of your armies stand next to each other on the global map, you can "
@@ -4853,9 +4279,9 @@ msgid ""
 msgstr ""
 "만일 세계 지도에서 두 부대가 나란히 위치한다면, 군대의 이름 옆에 나타난 단추를 눌러 그들 간에 유닛을 교환할 수 있습니다. 유닛을 "
 "교환할 때 각 군대의 이동 점수는 둘 중 낮은 수치로 통일될 것입니다.\n"
-"{br}군대의 이름 옆 \"i\" 버튼을 누르는 것은 당신을 부대 관리 화면으로 데려갈 것입니다. 여기서 당신은 유닛의 전투 시작 시 "
-"위치를 조정할 수 있습니다. 당신은 Ctrl이나 Shift을 누른 채 유닛을 다른 슬롯으로 옮김으로써 유닛을 분리할 수 있습니다. 또한 "
-"여기서 오른쪽에 있는 버튼을 눌러 새 부대를 창설할 수도 있습니다."
+"군대의 이름 옆 \"i\" 버튼을 누르면 부대 관리 화면이 나타납니다. 여기서 당신은 유닛의 전투 시작 시 위치를 조정할 수 있습니다. "
+"당신은 Ctrl이나 Shift을 누른 채 유닛을 다른 슬롯으로 옮김으로써 유닛을 분리할 수 있습니다. 또한 여기서 오른쪽에 있는 버튼을 "
+"눌러 새 부대를 창설할 수도 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_06_ArmyManagement_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4875,6 +4301,13 @@ msgid ""
 "different slot. You can also create a new army here by holding "
 "<b>{console_bind|Func01}</b>."
 msgstr ""
+"만일 세계 지도에서 두 부대가 나란히 위치한다면, <b>{console_bind|Func02}</b>와 "
+"<b>{console_bind|RightStickButton}</b> 를 순서대로 눌러 그들 간에 유닛을 교환할 수 있습니다. 유닛을 "
+"교환할 때 각 군대의 이동 점수는 둘 중 낮은 수치로 통일될 것입니다.\n"
+"<b>{console_bind|Func02}</b> 를 누르고 <b>{console_bind|Func01}</b> 를 누르면 부대 관리 "
+"화면이 나타납니다. 여기서 당신은 유닛의 전투 시작 시 위치를 조정할 수 있습니다. 당신은 "
+"<b>{console_bind|LeftStickButton}</b> 를 누른 뒤 유닛을 다른 슬롯으로 옮김으로써 유닛을 분리할 수 "
+"있습니다. 또한 여기서 <b>{console_bind|Func01}</b> 를 눌러 새 부대를 창설할 수도 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_07_Morale
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4883,24 +4316,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_07_Morale_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "The Morale stat reflects the general mood of the crusaders. Positive morale "
-#| "increases resource income and the number of troops available for "
-#| "recruitment, while negative morale decreases these numbers.\n"
-#| "{br}Morale changes depending on the Morale Banners. While special conditions "
-#| "are met, the Banner remains green and increases morale by 1 per day. If the "
-#| "special conditions are not met, the Banner turns yellow for 3 days, but "
-#| "still increases morale by 1 per day. Then the Banner turns red and decreases "
-#| "morale by 3 per day.\n"
-#| "{br}Your army is currently carrying two Banners:\n"
-#| "{br}- the Banner of Victories stays green while you defeat demon armies. "
-#| "Each victory over a demon Army adds 4 days to the time the Banner of "
-#| "Victories stays green.\n"
-#| "{br}- the Banner of the March on Drezen stays green while you defeat demon "
-#| "armies on the road to Drezen. Each victory over a demon Army on the road to "
-#| "Drezen adds 10 days to the time the Banner of the March on Drezen stays "
-#| "green."
 msgctxt "43d43aec-3466-41b6-b749-6d063c8e4bdf"
 msgid ""
 "The Morale stat reflects the general mood of the crusaders. Positive morale "
@@ -4920,19 +4335,15 @@ msgid ""
 "Drezen adds 10 days to the time the Banner of the March on Drezen stays "
 "green."
 msgstr ""
-"사기 수치는 성전군의 일반적인 분위기를 나타냅니다. 긍정적인 사기는 자원 "
-"수입과 고용가능한 병사의 수를 늘리지만, 부정적인 사기는 이들을 감소시킵니다."
-"\n"
-"{br}사기는 사기 깃발에 따라 변화합니다. 특정 조건이 만족되면, 깃발은 "
-"초록색으로 유지되고 사기는 매일 1씩 증가합니다. 만일 특정 조건이 충족되지 "
-"않으면, 깃발은 3일 동안 노란색으로 변하지만, 여전히 사기가 매일 1씩 "
-"증가합니다. 이후 깃발은 붉은 색으로 변하며 사기가 하루에 3씩 감소합니다.\n"
-"{br}당신의 부대는 현재 깃발 두 개를 지고 있습니다:\n"
-"{br}- 승리의 깃발은 데몬 군대를 쓰러뜨리는 동안 초록색으로 유지됩니다. "
-"각각의 승리는 승리의 깃발을 4일 더 초록색으로 유지시킵니다.\n"
-"{br}- 드레젠 진군의 깃발은 드레젠으로 향한 길 위에서 데몬 군대를 쓰러뜨리는 "
-"동안 초록색으로 유지됩니다. 드레젠으로 향한 길 위에서 데몬 군대를 쓰러뜨릴 "
-"때마다 드레젠 진군의 깃발이 10일 더 초록색으로 유지됩니다."
+"사기 수치는 성전군의 일반적인 분위기를 나타냅니다. 긍정적인 사기는 자원 수입과 고용가능한 병사의 수를 늘리지만, 부정적인 사기는 이들을 "
+"감소시킵니다.\n"
+"사기는 사기 깃발에 따라 변화합니다. 특정 조건이 만족되면, 깃발은 초록색으로 유지되고 사기는 매일 1씩 증가합니다. 만일 특정 조건이 "
+"충족되지 않으면, 깃발은 3일 동안 노란색으로 변하지만, 여전히 사기가 매일 1씩 증가합니다. 이후 깃발은 붉은 색으로 변하며 사기가 "
+"하루에 3씩 감소합니다.\n"
+"당신의 부대는 현재 깃발 두 개를 지고 있습니다:\n"
+"* 승리의 깃발은 데몬 군대를 쓰러뜨리는 동안 초록색으로 유지됩니다. 각각의 승리는 승리의 깃발을 4일 더 초록색으로 유지시킵니다.\n"
+"* 드레젠 진군의 깃발은 드레젠으로 향한 길 위에서 데몬 군대를 쓰러뜨리는 동안 초록색으로 유지됩니다. 드레젠으로 향한 길 위에서 데몬 "
+"군대를 쓰러뜨릴 때마다 드레젠 진군의 깃발이 10일 더 초록색으로 유지됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_07_Morale
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4941,16 +4352,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_07_Morale_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[1]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Each unit has its own combat morale, the starting value of which depends on "
-#| "the crusade morale. Various combat effects and spells can change combat "
-#| "morale until the end of the battle.\n"
-#| "{br}Positive combat morale grants the unit a chance to perform another "
-#| "action in the same turn, while units with negative combat morale have a "
-#| "chance to panic and lose their action or even flee.\n"
-#| "{br}Undead units as well as some others do not have combat morale and thus "
-#| "are not affected by any effects that increase or decrease it."
 msgctxt "ba722ede-564a-4130-abd2-b2a82392bc46"
 msgid ""
 "Each unit has its own combat morale, the starting value of which depends on "
@@ -4964,9 +4365,9 @@ msgid ""
 msgstr ""
 "각각의 유닛은 각자 전투 사기를 지니고 있으며, 시작 시 사기값은 성전 사기에 따라 결정됩니다. 다양한 전투 효과와 주문들은 전투 종료 "
 "시까지 전투 사기를 변화시킬 수 있습니다.\n"
-"{br}긍정적인 전투 사기는 동일한 차례에 다른 행동을 수행할 기회를 부여하지만 부정적인 전투 사기를 지닌 유닛은 확률적으로 공황에 빠져 "
-"행동 기회를 상실하거나 심지어는 달아납니다.\n"
-"{br}언데드 유닛과 몇 다른 유닛들은 전투 사기를 지니지 않아 사기 증가나 감소 효과를 받지 않습니다."
+"긍정적인 전투 사기는 동일한 차례에 다른 행동을 수행할 기회를 부여하지만 부정적인 전투 사기를 지닌 유닛은 확률적으로 공황에 빠져 행동 "
+"기회를 상실하거나 심지어는 달아납니다.\n"
+"언데드 유닛과 몇 다른 유닛들은 전투 사기를 지니지 않아 사기 증가나 감소 효과를 받지 않습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_07_Morale
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -4982,18 +4383,6 @@ msgstr "유닛 전투 사기"
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_08_Chapter3Intro
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Now that you have captured Drezen, new options for the crusade have become "
-#| "available to you!\n"
-#| "{br}You can now construct buildings in forts and Drezen, issue decrees, and "
-#| "capture and investigate new regions. Both mercenary and trainable units will "
-#| "appear at the Commander's headquarters in Drezen.\n"
-#| "{br}The demon armies will try to take Drezen from you. Destroy them, or else "
-#| "after seven days of siege, Drezen will be completely blockaded by enemy "
-#| "forces and you will no longer be able to command the crusade.\n"
-#| "{br}To access the crusade management menu, click the button in the bottom "
-#| "right corner of the screen on the global map."
 msgctxt "511cd33f-6149-470d-9789-09a55a9bb4bb"
 msgid ""
 "Now that you have captured Drezen, new options for the crusade have become "
@@ -5008,14 +4397,11 @@ msgid ""
 "corner of the screen on the global map."
 msgstr ""
 "이제 드레젠을 함락했고, 성전군을 위한 새 선택지가 개방되었습니다!\n"
-"{br}당신은 요새와 드레젠에 건물을 짓고, 칙령을 발령하고, 새 지역을 확보하고 "
-"탐사할 수 있습니다. 용병과 고용가능한 유닛이 드레젠의 사령관의 지휘부에 "
-"나타날 것입니다.\n"
-"{br}데몬 부대들은 당신에게서 드레젠을 빼앗으려 시도할 것입니다. 그들을 "
-"파괴하지 못하면 7일의 공성 뒤에 드레젠은 적 군세에 의해 완전히 봉쇄되어 "
-"당신은 성전군을 더이상 지휘할 수 없게됩니다.\n"
-"{br}성전 관리 메뉴에 진입하려면 세계 지도 화면의 오른쪽 아래 구석에 위치한 "
-"단추를 누르세요."
+"당신은 요새와 드레젠에 건물을 짓고, 칙령을 발령하고, 새 지역을 확보하고 탐사할 수 있습니다. 용병과 고용가능한 유닛이 드레젠의 "
+"사령관의 지휘부에 나타날 것입니다.\n"
+"데몬 부대들은 당신에게서 드레젠을 빼앗으려 시도할 것입니다. 그들을 파괴하지 못하면 7일의 공성 뒤에 드레젠은 적 군세에 의해 완전히 "
+"봉쇄되어 당신은 성전군을 더이상 지휘할 수 없게됩니다.\n"
+"성전 관리 메뉴에 진입하려면 세계 지도 화면의 오른쪽 아래 구석에 위치한 단추를 누르세요."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_08_Chapter3Intro
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5024,21 +4410,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_08_Chapter3Intro_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Developing each of the crusade stats opens up new options that empower your "
-#| "armies and economy.\n"
-#| "{br}- Military focuses on drilling and training units. Recruit both "
-#| "trainable and mercenary units to improve the rank of your Military stat.\n"
-#| "{br}- Logistics focuses on economy and construction. Construct buildings to "
-#| "improve the rank of your Logistics stat.\n"
-#| "{br}- Diplomacy focuses on establishing contacts with mercenaries and "
-#| "foreign nations. Enhance the significance of the crusade by earning "
-#| "resources of all types to improve the rank of your Diplomacy stat.\n"
-#| "{br}- Leadership focuses on morale and army generals. Win battles and level "
-#| "up your generals to improve the rank of your Leadership stat.\n"
-#| "{br}Once the rank-up requirements for one of the crusader stats have been "
-#| "met, you will unlock the corresponding decree."
 msgctxt "76eddaf8-e009-48f5-8aa4-ad40b941c3bd"
 msgid ""
 "Developing each of the crusade stats opens up new options that empower your "
@@ -5055,19 +4426,13 @@ msgid ""
 "Once the rank-up requirements for one of the crusader stats have been met, "
 "you will unlock the corresponding decree."
 msgstr ""
-"개별 성전 지표를 발전시키면 부대와 경제를 강화할 새 선택지를 개방할 수 "
-"있습니다.\n"
-"{br}- 군사는 유닛을 교육하고 훈련하는 데 집중합니다. 훈련 가능한 유닛과 용병 "
-"유닛을 고용하면 군사 지표의 등급을 늘릴 수 있습니다.\n"
-"{br}- 병참은 경제와 건축에 집중합니다. 병참 지표 등급을 증진시키기 위해 "
-"건물을 지으세요.\n"
-"{br}- 교섭은 용병단 및 외국과 연락을 유지하는 데 초점을 맞춥니다. 모든 "
-"유형의 자원을 획득해 성전군의 이름을 알리면 교섭 지표의 등급을 높일 수 "
-"있습니다.\n"
-"{br}- 통솔은 사기와 부대 지휘관들을 나타내는 지표입니다. 전투에서 승리하고 "
-"지휘관의 레벨을 높이면 통솔 경험치의 등급 또한 높아집니다.\n"
-"{br}성전군 지표의 등급을 올리기 위한 필요 조건이 만족되면 이에 상응하는 "
-"칙령이 해금됩니다."
+"개별 성전 지표를 발전시키면 부대와 경제를 강화할 새 선택지를 개방할 수 있습니다.\n"
+"* 군사는 유닛을 교육하고 훈련하는 데 집중합니다. 훈련 가능한 유닛과 용병 유닛을 고용하면 군사 지표의 등급을 늘릴 수 있습니다.\n"
+"* 병참은 경제와 건축에 집중합니다. 병참 지표 등급을 증진시키기 위해 건물을 지으세요.\n"
+"* 교섭은 용병단 및 외국과 연락을 유지하는 데 초점을 맞춥니다. 모든 유형의 자원을 획득해 성전군의 이름을 알리면 교섭 지표의 등급을 "
+"높일 수 있습니다.\n"
+"* 통솔은 사기와 부대 지휘관들을 나타내는 지표입니다. 전투에서 승리하고 지휘관의 레벨을 높이면 통솔 경험치의 등급 또한 높아집니다.\n"
+"성전군 지표의 등급을 올리기 위한 필요 조건이 만족되면 이에 상응하는 칙령이 해금됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_08_Chapter3Intro
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5087,18 +4452,6 @@ msgstr "성전 지표"
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_08_Chapter3Intro_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[1]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Your military campaign will require three types of resources: Finance "
-#| "Points, Materials Points, and Energy Points.\n"
-#| "{br}Finance Points are used for all of the crusade's various needs, but "
-#| "first and foremost, they are needed to recruit units.\n"
-#| "{br}Materials Points are used primarily for building construction.\n"
-#| "{br}Energy Points are used for the recruitment of mythic units and the "
-#| "completion of certain decrees.\n"
-#| "{br}You gain new resource points each day. Prevailing over demon armies in "
-#| "battle and constructing certain buildings increase the income of resources. "
-#| "You can also purchase the required resources with gold."
 msgctxt "06c147ec-6ee7-41cc-9fa4-d47f75320b37"
 msgid ""
 "Your military campaign will require three types of resources: Finance "
@@ -5112,15 +4465,12 @@ msgid ""
 "battle and constructing certain buildings increase the income of resources. "
 "You can also purchase the required resources with gold."
 msgstr ""
-"당신의 군사 활동에는 재정 점수, 물자 점수, 에너지 점수라는 세 종류의 자원이 "
-"필요합니다.\n"
-"{br}재정 점수는 성전군의 다양한 필요들을 충족시킬 때 항상 요구됩니다. 그러나 "
-"가장 중요한 사용처는 유닛 고용입니다.\n"
-"{br}물자 점수는 우선적으로 건축에 사용됩니다.\n"
-"{br}에너지 점수는 신화적 유닛의 고용이나 특정 칙령의 완료에 요구됩니다.\n"
-"{br}당신은 매일 새 자원 점수를 얻습니다. 데몬 부대를 전투에서 쓰러뜨리거나 "
-"특정 건물을 짓는 것은 자원 수입을 늘릴 것입니다. 또한 금화로 필요한 자원을 "
-"구매할 수도 있습니다."
+"당신의 군사 활동에는 재정 점수, 물자 점수, 에너지 점수라는 세 종류의 자원이 필요합니다.\n"
+"재정 점수는 성전군의 다양한 필요들을 충족시킬 때 항상 요구됩니다. 그러나 가장 중요한 사용처는 유닛 고용입니다.\n"
+"물자 점수는 우선적으로 건축에 사용됩니다.\n"
+"에너지 점수는 신화적 유닛의 고용이나 특정 칙령의 완료에 요구됩니다.\n"
+"당신은 매일 새 자원 점수를 얻습니다. 데몬 부대를 전투에서 쓰러뜨리거나 특정 건물을 짓는 것은 자원 수입을 늘릴 것입니다. 또한 금화로 "
+"필요한 자원을 구매할 수도 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_08_Chapter3Intro
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5149,20 +4499,17 @@ msgid ""
 "To access the crusade management menu, on the global map press "
 "<b>{console_bind|RightBottom}</b>and select \"Crusade\"."
 msgstr ""
+"이제 드레젠을 함락했고, 성전군을 위한 새 선택지가 개방되었습니다!\n"
+"당신은 요새와 드레젠에 건물을 짓고, 칙령을 발령하고, 새 지역을 확보하고 탐사할 수 있습니다. 용병과 고용가능한 유닛이 드레젠의 "
+"사령관의 지휘부에 나타날 것입니다.\n"
+"데몬 부대들은 당신에게서 드레젠을 빼앗으려 시도할 것입니다. 그들을 파괴하지 못하면 7일의 공성 뒤에 드레젠은 적 군세에 의해 완전히 "
+"봉쇄되어 당신은 성전군을 더이상 지휘할 수 없게됩니다.\n"
+"성전 관리 메뉴에 진입하려면 세계 지도 화면에서 <b>{console_bind|RightBottom}</b>를 누르고 \"성전\"을 "
+"선택하십시오."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_09_Kingdom
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "On the crusade management screen, you can:\n"
-#| "{br}- make decisions regarding current events, which are displayed at the "
-#| "bottom of the screen on the left;\n"
-#| "{br}- issue decrees, which can be displayed by clicking the Decrees button "
-#| "on the right. You can display only a fraction of the available decrees by "
-#| "selecting one of the filters;\n"
-#| "{br}- construct buildings in forts and Drezen. To access the construction "
-#| "screen, click on Drezen or a fort on the map."
 msgctxt "648dcead-a3a1-4b9a-b6fc-aad53fb88b9e"
 msgid ""
 "On the crusade management screen, you can:\n"
@@ -5175,11 +4522,9 @@ msgid ""
 "screen, click on Drezen or a fort on the map."
 msgstr ""
 "성전군 관리 화면에서는 다음을 할 수 있습니다:\n"
-"{br}- 화면 왼쪽 아래에 나타난 최근 사건에 대한 결정 내리기;\n"
-"{br}- 오른쪽의 칙령 버튼을 누르면 나타나는 칙령 발령하기. 필터를 눌러 "
-"활성가능한 칙령만을 표시할 수도 있습니다;\n"
-"{br}- 요새와 드레젠에 건물 짓기. 건축 화면에 접근하려면, 드레젠이나 지도 "
-"상의 요새를 누르세요."
+"* 화면 왼쪽 아래에 나타난 최근 사건에 대한 결정 내리기.\n"
+"* 오른쪽의 칙령 버튼을 누르면 나타나는 칙령 발령하기. 필터를 눌러 활성가능한 칙령만을 표시할 수도 있습니다.\n"
+"* 요새와 드레젠에 건물 짓기. 건축 화면에 접근하려면, 드레젠이나 지도 상의 요새를 누르세요."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_09_Kingdom_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5196,6 +4541,11 @@ msgid ""
 "screen, switch to \"Cities\", select Drezen or a fort on the map, and press "
 "<b>{console_bind|Confirm}</b>."
 msgstr ""
+"성전군 관리 화면에서는 다음을 할 수 있습니다:\n"
+"* 화면 왼쪽 아래에 나타난 최근 사건에 대한 결정 내리기.\n"
+"* 오른쪽의 칙령 버튼을 누르면 나타나는 칙령 발령하기. 필터를 눌러 활성가능한 칙령만을 표시할 수도 있습니다.\n"
+"* 요새와 드레젠에 건물 짓기. 건축 화면에 접근하려면, 드레젠이나 지도 상의 요새를 선택한 뒤 "
+"<b>{console_bind|Confirm}</b> 를 누르십시오."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_10_Edicts
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5223,13 +4573,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_10_Edicts_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[1]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Your progress in crusade management unlocks certain special decrees:\n"
-#| "{br}- a stat rank-up decree becomes available upon meeting specific rank-up "
-#| "requirements;\n"
-#| "{br}- a relic upgrade decree, which turns a relic into a powerful artifact "
-#| "for your party to use, becomes available when you obtain a suitable relic."
 msgctxt "422bb5c7-098f-45f1-9232-c870867c526f"
 msgid ""
 "Your progress in crusade management unlocks certain special decrees:\n"
@@ -5239,9 +4582,8 @@ msgid ""
 "your party to use, becomes available when you obtain a suitable relic."
 msgstr ""
 "성전 관리에서의 진전이 특정한 특수 칙령을 해금합니다:\n"
-"{br}- 지표 등급 상승 칙령은 특정 등급 상승 필요 조건을 충족하면 개방됩니다.\n"
-"{br}- 유물을 일행이 사용할 수 있는 강력한 마법 물품으로 바꾸는 유물 강화 "
-"칙령은 특정 유물을 획득하면 활성화할 수 있게 됩니다."
+"* 지표 등급 상승 칙령은 특정 등급 상승 필요 조건을 충족하면 개방됩니다.\n"
+"* 유물을 일행이 사용할 수 있는 강력한 마법 물품으로 바꾸는 유물 강화 칙령은 특정 유물을 획득하면 활성화할 수 있게 됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_10_Edicts
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5261,20 +4603,6 @@ msgstr "특수 칙령"
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_11_Mercs_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Now you need your own infrastructure to hire trainable units. To recruit "
-#| "infantry units build the Main Barracks, to recruit ranged units build the "
-#| "Main Shooting Range, to recruit cavalry units build the Main Stables.\n"
-#| "{br}You still have access to mercenary units. These arrive in Drezen every "
-#| "week. The base stats of mercenary units are better than those of trainable "
-#| "units, but mercenaries require more resources and can only be recruited as a "
-#| "group in its entirety.\n"
-#| "{br}If you are not satisfied with the mercenaries that have arrived in a "
-#| "given week, you can search for new units. The number of times you can search "
-#| "for free per week is limited but can be increased in time.\n"
-#| "{br}Depending on the mythic path that you have chosen, you will gain access "
-#| "to decrees that recruit special mythic units to your cause."
 msgctxt "8d114356-b37a-43b4-a21b-f852723868d7"
 msgid ""
 "Now you need your own infrastructure to hire trainable units. To recruit "
@@ -5290,17 +4618,13 @@ msgid ""
 "Depending on the mythic path that you have chosen, you will gain access to "
 "decrees that recruit special mythic units to your cause."
 msgstr ""
-"이제 훈련 가능한 유닛을 고용하기 위해 당신만의 기반시설이 필요합니다. 보병 "
-"유닛을 고용하려면 중앙 병영을, 원거리 유닛을 고용하려면 중앙 궁술 훈련장을, "
-"기병 유닛을 고용하려면 중앙 마굿간을 건설해야 합니다.\n"
-"{br}용병 유닛은 이전과 마찬가지로 모집할 수 있습니다. 용병들은 매 주 "
-"드레젠에 도착합니다. 용병 유닛의 기본 능력치는 훈련 가능 유닛들보다 낫지만, "
-"용병들은 더 많은 자원을 요구하며 용병단 전체를 집단으로 고용해야 합니다.\n"
-"{br}만일 금주에 도착한 용병들이 마음에 들지 않는다면 다른 용병들을 찾아볼 "
-"수도 있습니다. 매 주 무료 탐색 횟수는 제한되어 있지만, 이후에 그 횟수를 늘릴 "
-"수 있습니다.\n"
-"{br}선택한 신화의 길에 따라 특별한 신화적 유닛을 고용하기 위한 칙령을 얻을 "
-"것입니다."
+"이제 훈련 가능한 유닛을 고용하기 위해 당신만의 기반시설이 필요합니다. 보병 유닛을 고용하려면 중앙 병영을, 원거리 유닛을 고용하려면 "
+"중앙 궁술 훈련장을, 기병 유닛을 고용하려면 중앙 마굿간을 건설해야 합니다.\n"
+"용병 유닛은 이전과 마찬가지로 모집할 수 있습니다. 용병들은 매 주 드레젠에 도착합니다. 용병 유닛의 기본 능력치는 훈련 가능 유닛들보다 "
+"낫지만, 용병들은 더 많은 자원을 요구하며 용병단 전체를 집단으로 고용해야 합니다.\n"
+"만일 금주에 도착한 용병들이 마음에 들지 않는다면 다른 용병들을 찾아볼 수도 있습니다. 매 주 무료 탐색 횟수는 제한되어 있지만, 이후에 "
+"그 횟수를 늘릴 수 있습니다.\n"
+"선택한 신화의 길에 따라 특별한 신화적 유닛을 고용하기 위한 칙령을 얻을 것입니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_12_Chapter3Morale
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5309,26 +4633,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_12_Chapter3Morale_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "After capturing Drezen the crusaders raised the three Morale Banners on the "
-#| "city walls:\n"
-#| "{br}- the Banner of Victories stays green while you defeat demon armies. "
-#| "Each victory over a demon Army in Lands of Yath, Gray Road, Lake Lost to the "
-#| "Sun, and Wintersun Lands regions adds 6 days to the time the Banner of "
-#| "Victories stays green.\n"
-#| "{br}- the Banner of Conquest stays green while you capture demon forts. Each "
-#| "capture of a demon fort in Lands of Yath, Gray Road, Lake Lost to the Sun, "
-#| "and Wintersun Lands regions adds 30 days to the time the Banner of Conquest "
-#| "stays green. Reclaiming forts that were previously lost does not affect the "
-#| "Banner of Conquest.\n"
-#| "{br}- the Banner of Defense remains green as long as none of your forts are "
-#| "under siege. If any of your forts is besieged, the Banner of Defense turns "
-#| "yellow for 3 days, then turns red. As long as any fort remains captured by "
-#| "the demons, this Banner remains red.\n"
-#| "{br}Banners still affect the daily change of crusade morale. A red Banner "
-#| "decreases morale by 3 per day, a yellow or green Banner increases it by 1 "
-#| "per day."
 msgctxt "4a4f898c-67f4-4752-8c42-21a51454e13e"
 msgid ""
 "After capturing Drezen the crusaders raised the three Morale Banners on the "
@@ -5351,19 +4655,15 @@ msgid ""
 "per day."
 msgstr ""
 "드레젠을 탈환한 뒤 성전군은 도시 장벽에 세 종류의 사기 깃발을 꽂았습니다.\n"
-"{br}- 승리의 깃발은 당신이 데몬 부대를 쓰러뜨리는 동안 녹색으로 유지됩니다. "
-"야스의 대지, 회색 길, 태양을 잃은 호수 및 윈터선 대지 지역에 위치한 데몬 "
-"부대에 대한 승리는 각각 승리의 깃발을 6일 더 녹색으로 유지합니다.\n"
-"{br}- 정복의 깃발은 당신이 데몬 요새를 함락하는 동안 녹색으로 유지됩니다. "
-"야스의 대지, 회색 길, 태양을 잃은 호수 및 윈터선 대지 지역에 위치한 데몬 "
-"요새를 함락할 때마다 정복의 깃발은 30일 더 녹색으로 유지됩니다. 상실한 "
-"요새를 탈환하는 것은 정복의 깃발에 영향을 주지 않습니다.\n"
-"{br}- 방어의 깃발은 당신의 요새들 중 공성당하고 있는 요새가 없는 한 녹색으로 "
-"유지됩니다. 만일 요새 중 하나라도 공성당하고 있다면 방어의 깃발은 3일 간 "
-"황색으로 변한 뒤 적색으로 바뀝니다. 만일 아무 요새라도 데몬에게 함락된 "
-"상태라면 이 깃발은 붉은 색으로 유지됩니다.\n"
-"{br}깃발들은 여전히 성전 사기의 일일 변화에 영향을 줍니다. 적색 깃발은 "
-"사기를 매일 3 감소시키지만, 녹색과 황색 깃발은 매일 사기를 1 증가시킵니다."
+"* 승리의 깃발은 당신이 데몬 부대를 쓰러뜨리는 동안 녹색으로 유지됩니다. 야스의 대지, 회색 길, 태양을 잃은 호수 및 윈터선 대지 "
+"지역에 위치한 데몬 부대에 대한 승리는 각각 승리의 깃발을 6일 더 녹색으로 유지합니다.\n"
+"* 정복의 깃발은 당신이 데몬 요새를 함락하는 동안 녹색으로 유지됩니다. 야스의 대지, 회색 길, 태양을 잃은 호수 및 윈터선 대지 "
+"지역에 위치한 데몬 요새를 함락할 때마다 정복의 깃발은 30일 더 녹색으로 유지됩니다. 상실한 요새를 탈환하는 것은 정복의 깃발에 영향을 "
+"주지 않습니다.\n"
+"* 방어의 깃발은 당신의 요새들 중 공성당하고 있는 요새가 없는 한 녹색으로 유지됩니다. 만일 요새 중 하나라도 공성당하고 있다면 방어의 "
+"깃발은 3일 간 황색으로 변한 뒤 적색으로 바뀝니다. 만일 아무 요새라도 데몬에게 함락된 상태라면 이 깃발은 붉은 색으로 유지됩니다.\n"
+"깃발들은 여전히 성전 사기의 일일 변화에 영향을 줍니다. 적색 깃발은 사기를 매일 3 감소시키지만, 녹색과 황색 깃발은 매일 사기를 1 "
+"증가시킵니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_13_Regions
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5372,12 +4672,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_13_Regions_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "The global map is split into a number of regions. To capture a region, you "
-#| "must free all of the forts located in that region.\n"
-#| "{br}You can construct buildings in the forts you have freed. Forts can be "
-#| "upgraded, thus increasing the number of squares available for construction."
 msgctxt "de76a2ff-83f6-404d-be53-398b2867f4a0"
 msgid ""
 "The global map is split into a number of regions. To capture a region, you "
@@ -5385,10 +4679,8 @@ msgid ""
 "You can construct buildings in the forts you have freed. Forts can be "
 "upgraded, thus increasing the number of squares available for construction."
 msgstr ""
-"세계 지도는 다양한 지역으로 구분됩니다. 지역 하나를 확보하려면 해당 지역내 "
-"모든 요새를 해방해야 합니다.\n"
-"{br}당신은 해방한 요새 내에 건물을 지을 수 있습니다. 요새는 강화될 수 "
-"있으며, 강화된 요새는 더 많은 건축 타일을 지닙니다."
+"세계 지도는 다양한 지역으로 구분됩니다. 지역 하나를 확보하려면 해당 지역내 모든 요새를 해방해야 합니다.\n"
+"당신은 해방한 요새 내에 건물을 지을 수 있습니다. 요새는 강화될 수 있으며, 강화된 요새는 더 많은 건축 타일을 지닙니다."
 
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_14_Buildings
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5397,16 +4689,6 @@ msgstr ""
 #. File = Tutorials/CrusadeRestTutorial/CrusadeTutorial_14_Buildings_Gamepad
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "To construct a building, select it on the panel on the right, then place it "
-#| "on one of the free squares. Buildings that take up more than one square will "
-#| "become available later on. Constructing new buildings takes resources and "
-#| "time.\n"
-#| "{br}Canceling a construction in progress will refund its resource cost "
-#| "completely. Razing a constructed building will refund only a part of its "
-#| "resource cost.\n"
-#| "Rank up crusade stats to gain access to new buildings."
 msgctxt "c2b5835c-6dc3-4add-b839-f57bb09fd554"
 msgid ""
 "To construct a building, select it on the panel on the right, then place it "
@@ -5418,11 +4700,9 @@ msgid ""
 "resource cost.\n"
 "Rank up crusade stats to gain access to new buildings."
 msgstr ""
-"건물을 지으려면 오른 쪽 패널에서 건물을 선택한 뒤 비어있는 타일 중 하나에 "
-"배치합니다. 하나 이상의 타일을 점유하는 건물들은 후에 해금될 것입니다. 새 "
-"건물을 짓는 것은 자원과 시간을 소모합니다.\n"
-"{br}진행 중인 건축을 취소하는 것은 자원 비용을 완전히 반환합니다. 건축이 "
-"완료된 건물을 철거하는 것은 자원 비용의 일부만을 반환합니다.\n"
+"건물을 지으려면 오른 쪽 패널에서 건물을 선택한 뒤 비어있는 타일 중 하나에 배치합니다. 하나 이상의 타일을 점유하는 건물들은 후에 "
+"해금될 것입니다. 새 건물을 짓는 것은 자원과 시간을 소모합니다.\n"
+"진행 중인 건축을 취소하는 것은 자원 비용을 완전히 반환합니다. 건축이 완료된 건물을 철거하는 것은 자원 비용의 일부만을 반환합니다.\n"
 "성전 지표의 등급이 상승하면 새 건물이 해금됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_AutoSave_Tutorial
@@ -5430,7 +4710,7 @@ msgstr ""
 #. Path = m_DescriptionText
 msgctxt "24cc43ae-d338-4d7c-875a-a23ab6576727"
 msgid "In this DLC, you are limited to only one save slot."
-msgstr ""
+msgstr "해당 DLC에서는 저장 슬롯이 하나로 제한됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_AutoSave_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5441,20 +4721,22 @@ msgid ""
 "The game saves automatically the first time you reach an Abyssal anchor, "
 "which usually takes the form of a statue."
 msgstr ""
+"섬을 탐사하는 중, 당신은 원하는 때에 저장을 할 수 없습니다. 당신이 대개 석상 형태로 존재하는 심연의 닻에 처음 도달하는 순간, "
+"게임이 자동으로 저장됩니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_AutoSave_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "ad318376-f037-4161-a970-59534da028fd"
 msgid "Limited Saves"
-msgstr ""
+msgstr "제한된 저장"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_AutoSave_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_TitleText
 msgctxt "55f60064-f737-499b-b4b8-ff8e067ce9ab"
 msgid "Abyssal Anchors"
-msgstr ""
+msgstr "심연의 닻"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Boons_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5466,13 +4748,15 @@ msgid ""
 "available tailwinds. Each of them will give your party its own unique "
 "benefits — if you find a way to use it right!"
 msgstr ""
+"당신은 순풍을 해금하였습니다. 칠흑의 군도의 보물들을 찾기 위해 새로운 캐릭터를 만들 때마다, 당신은 사용 가능한 순풍 중 하나를 고를 "
+"수 있습니다. 각 순풍은 당신의 일행에 특별한 이득을 줍니다 — 단, 당신이 적절한 사용법을 알아낸다면요!"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Boons_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "63a47991-8de8-4781-ab2b-18952a1dae8a"
 msgid "Tailwinds"
-msgstr ""
+msgstr "순풍"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_DarkBalorHealth_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5484,13 +4768,16 @@ msgid ""
 "vain. This monster doesn't replenish his HP between battles, so each of your "
 "subsequent attempts will have a better chance of success."
 msgstr ""
+"이 적은 극도로 강합니다. 당신이 첫 시도에 이것을 죽일 가능성은 매우 희박합니다. 다행히, 당신이 이 전투에 패배하더라도 헛수고가 "
+"되지는 않을 것입니다. 이 괴물은 전투를 거듭해도 HP가 회복되지 않으며, 따라서 여러 번의 시도를 거듭하면 성공의 가능성이 점점 커질 "
+"것입니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_DarkBalorHealth_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "3ff01f11-adda-43b3-9aff-f6ebf42ad4b6"
 msgid "The Monster From the Chain"
-msgstr ""
+msgstr "사슬에서 나온 괴물"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Map_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5499,7 +4786,7 @@ msgctxt "3a1638f7-f5c3-421f-9ddf-780175d540d3"
 msgid ""
 "The map allows you to chart the expedition's course, choosing which islands "
 "you want to visit on your way to the final goal."
-msgstr ""
+msgstr "지도를 통해 탐험의 경로를 계획하고, 최종 목적지까지의 여정 중에 정박할 섬들을 선택할 수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Map_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5513,20 +4800,23 @@ msgid ""
 "one — a regular adventure and a modest treasure, two — a serious challenge "
 "and a decent prize, three — a deadly peril and a big scoop."
 msgstr ""
+"한 지역의 섬들에서도 당신을 기다리는 몬스터와 함정의 난이도는 각기 다르며, 그에 따라 그들을 극복함으로써 얻을 수 있는 경험치와 보상의 "
+"크기 또한 다릅니다. 이는 지도 화면에서 각 섬들 옆에 해골의 개수로 표시됩니다: 하나는 평범한 모험, 둘은 상당한 도전, 셋은 목숨의 "
+"위협입니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Map_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "3bae77e7-2ee0-4308-9140-4817ebf231f7"
 msgid "Map"
-msgstr ""
+msgstr "지도"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Map_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_TitleText
 msgctxt "c1d3d82f-6e82-438f-8237-e91aac39c528"
 msgid "Island Difficulty"
-msgstr ""
+msgstr "섬의 난이도"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Port_tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5537,6 +4827,8 @@ msgid ""
 "equipment and hire new party members. When you return to port, all the "
 "Abyssal corruption from the expedition is removed."
 msgstr ""
+"항구에서, 당신은 휴식을 하거나 두루마리와 물약을 챙기고, 새 장비를 구입하거나 새 일행을 고용할 수 있습니다. 항구로 돌아오면 여행 중 "
+"쌓였던 심연 오염이 모두 사라집니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Port_tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5547,20 +4839,22 @@ msgid ""
 "every adventurer in the city.\n"
 "Need supplies? Find the chaplain, he'll provide you with everything you need."
 msgstr ""
+"일행을 보강할 필요성을 느끼십니까? 낚시꾼과 대화해보십시오. 이 수상쩍은 캐릭터는 도시에 있는 모든 모험가들을 알고 있습니다.\n"
+"보급이 필요하신가요? 목사에게 가십시오. 그는 당신에게 필요한 모든 물품을 공급해줄 것입니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Port_tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "fda144dc-d674-4022-ae59-3ccf5d2998f4"
 msgid "Alushinyrra Port"
-msgstr ""
+msgstr "알루시니라 항구"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Port_tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_TitleText
 msgctxt "bf12dab6-68ae-4ba1-8583-e40db52d762d"
 msgid "New Party Members"
-msgstr ""
+msgstr "새 일행"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Reward_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5569,14 +4863,14 @@ msgctxt "c0a1edb2-4f5d-474f-9834-3c1e0bfcc5a2"
 msgid ""
 "After braving the perils of the island, you can take its bounty. You could "
 "see what exactly at the map, while charting the course to the island."
-msgstr ""
+msgstr "당신은 섬의 위험들을 극복해 보상을 취할 수 있습니다. 지도에서 항해 경로를 계획하며 어떤 보상이 있는지 볼 수 있습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_Reward_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "a7d4686a-422c-4db8-bbec-bd44ae2bfae7"
 msgid "Bounty"
-msgstr ""
+msgstr "보상"
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_TierEnd_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5593,28 +4887,22 @@ msgid ""
 "every victory gives the ship a useful upgrade that will make your future "
 "adventures easier."
 msgstr ""
+"축하드립니다! 당신의 일행은 강대한 적을 무찌르고 당신의 목표로 형하는 비밀을 밝혀냈습니다. 이 영웅의 여정은 끝입니다. 하지만 보물 "
+"사냥은 계속됩니다. 새로운 선원을 모으고 이전까진 도달할 수 없던 섬들을 탐험하십시오. \n"
+"세 명의 강력한 수호자들이 보물로 향하는 당신의 길을 가로막습니다. 하나는 이미 당신이 해치웠고, 둘이 남았군요. 수호자를 무찌른 일행은 "
+"배를 떠나지만, 이로써 새로운 영웅들이 출항할 길이 열렸습니다. 추가로, 모든 승리는 미래의 모험을 더 쉽게 만들어줄 유용한 강화를 "
+"제공합니다."
 
 #. File = Tutorials/CrusadeRestTutorial/DLC3_TierEnd_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "c03d29c7-3329-48a5-955f-6143bfb97014"
 msgid "Defeating a Guardian"
-msgstr ""
+msgstr "수호자 무찌르기"
 
 #. File = Tutorials/CrusadeRestTutorial/RestTutorial_CookingPotions
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "A character assigned to this position can brew potions. To brew a potion, "
-#| "they need to know the required spell, have the Potion Brew skill learned, "
-#| "have all the ingredients, and attempt a Knowledge (World) check. The higher "
-#| "the level of the spell and chosen caster level, the longer the character "
-#| "will need to create a potion.\n"
-#| "{br}The process of brewing a potion involves between 1 and 5 stages, "
-#| "depending on the spell. If the character passes their check, then the "
-#| "progress of brewing the potion advances by one stage, while a failed check "
-#| "does not advance their brewing progress towards its completion."
 msgctxt "2b451ca7-7973-454d-aee0-653e190f7b66"
 msgid ""
 "A character assigned to this position can brew potions. To brew a potion, "
@@ -5627,13 +4915,11 @@ msgid ""
 "brewing the potion advances by one stage, while a failed check does not "
 "advance their brewing progress toward its completion."
 msgstr ""
-"한 캐릭터가 물약을 제조하기 위해 이 작업에 배정되었습니다. 물약을 제조하려면 "
-"필요한 주문을 알아야 하고, 물약 제조 기술을 배워야 하며, 모든 재료를 가진 채 "
-"지식 (세계) 판정을 시도해야 합니다. 주문 레벨과 선택된 시전자 레벨이 높을 "
-"수록 물약을 제조하는 데 더 많은 시간이 걸립니다.\n"
-"{br}물약 제조는 선택한 주문에 따라 1~5단계를 거칩니다. 만일 캐릭터가 판정을 "
-"통과하면, 물약 제조가 다음 단계로 나아가지만 판정에 실패하면 완료 단계로 "
-"나아가지 않습니다."
+"한 캐릭터가 물약을 제조하기 위해 이 작업에 배정되었습니다. 물약을 제조하려면 필요한 주문을 알아야 하고, 물약 제조 기술을 배워야 "
+"하며, 모든 재료를 가진 채 지식 (세계) 판정을 시도해야 합니다. 주문 레벨과 선택된 시전자 레벨이 높을 수록 물약을 제조하는 데 더 "
+"많은 시간이 걸립니다.\n"
+"물약 제조는 선택한 주문에 따라 1~5단계를 거칩니다. 만일 캐릭터가 판정을 통과하면, 물약 제조가 다음 단계로 나아가지만 판정에 "
+"실패하면 완료 단계로 나아가지 않습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/RestTutorial_CookingPotions
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5717,18 +5003,6 @@ msgstr "오염과 악몽"
 #. File = Tutorials/CrusadeRestTutorial/RestTutorial_CraftingScrolls
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "A character assigned to this position can scribe scrolls. To scribe a "
-#| "scroll, they need to know the required spell, have the Scribe Scrolls skill "
-#| "learned, have all the ingredients, and attempt a Lore (Religion) check for a "
-#| "divine spell or a Knowledge (Arcana) check for an arcane spell. It takes "
-#| "time to scribe a scroll. The higher the level of the spell and chosen caster "
-#| "level, the longer the character will need to scribe a scroll.\n"
-#| "{br}The scribing of a scroll involves between 1 and 5 stages, depending on "
-#| "the spell. If the character passes their check, then the progress of "
-#| "scribing a scroll advances by one stage, while a failed check does not "
-#| "advance their scribing progress towards its completion."
 msgctxt "2480ea81-013a-43a5-80e1-d0a925419889"
 msgid ""
 "A character assigned to this position can scribe scrolls. To scribe a "
@@ -5742,15 +5016,11 @@ msgid ""
 "scroll advances by one stage, while a failed check does not advance their "
 "scribing progress toward its completion."
 msgstr ""
-"이 임무에 배정된 캐릭터는 두루마리를 작성할 수 있습니다. 두루마리를 "
-"작성하려면 필요 주문을 알고 있는 상태에서 두루마리 작성 기술을 배운 뒤 모든 "
-"재료를 지닌 채 신성 주문의 경우 전승 (종교) 판정을, 비전 주문의 경우 지식 "
-"(비전) 판정을 시도해야 합니다. 두루마리 작성에는 시간이 걸립니다. 주문 "
-"레벨과 선택된 시전자 레벨이 높을수록 두루마리 작성에 더 많은 시간이 "
-"소요됩니다.\n"
-"{br}두루마리 작성은 주문에 따라 1~5 단계를 거칩니다. 캐릭터가 판정에 "
-"성공하면 두루마리 작성 진행도가 한 단계 올라가지만, 판정에 실패하면 제작이 "
-"진행되지 않습니다."
+"이 임무에 배정된 캐릭터는 두루마리를 작성할 수 있습니다. 두루마리를 작성하려면 필요 주문을 알고 있는 상태에서 두루마리 작성 기술을 "
+"배운 뒤 모든 재료를 지닌 채 신성 주문의 경우 전승 (종교) 판정을, 비전 주문의 경우 지식 (비전) 판정을 시도해야 합니다. 두루마리 "
+"작성에는 시간이 걸립니다. 주문 레벨과 선택된 시전자 레벨이 높을수록 두루마리 작성에 더 많은 시간이 소요됩니다.\n"
+"두루마리 작성은 주문에 따라 1~5 단계를 거칩니다. 캐릭터가 판정에 성공하면 두루마리 작성 진행도가 한 단계 올라가지만, 판정에 "
+"실패하면 제작이 진행되지 않습니다."
 
 #. File = Tutorials/CrusadeRestTutorial/RestTutorial_CraftingScrolls
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5771,31 +5041,28 @@ msgid ""
 "effects of the undertow acting upon the island, or your expedition might "
 "come to an abrupt end."
 msgstr ""
+"이 섬은 아래를 흐르는 마법 저류의 영향을 받으며, 당신의 탐험을 더욱 어렵게 만듭니다. 마법 저류는 여러 종류가 있으며 당신의 "
+"캐릭터들과 섬의 기이한 거주자들, 그리고 섬 그 자체에 다양한 방식으로 영향을 끼칩니다. 상륙하고 나면 어떤 저류가 섬에 발휘되고 있는지 "
+"유심히 살펴보십시오. 그렇지 않으면 당신의 여정이 계획에 없던 끝을 맞을 것입니다."
 
 #. File = Tutorials/DirectTutorial/DLC3_Modificators_Tutorial
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_TitleText
 msgctxt "1eb20536-870b-412e-a3fc-aaa128407606"
 msgid "Undertows"
-msgstr ""
+msgstr "저류"
 
 #. File = Tutorials/DirectTutorial/NewTutorial_0_BugReport
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = Components[0]/m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Please, assign an \"aspect\" to the bug you'd like to report. For example, "
-#| "if a creature has an issue with its visuals, hover the cursor over it, press "
-#| "Alt + b and select the Visual aspect from the menu."
 msgctxt "fc25a783-9df1-4c21-8c53-fe8ee17acf51"
 msgid ""
 "Please assign an aspect to the bug you'd like to report. For example, if a "
 "creature has an issue with its visuals, hover the cursor over it, press Alt +"
 " b, and select the \"Visual\" aspect from the menu."
 msgstr ""
-"부디 보고하려는 버그의 \"aspect\"를 남겨주세요. 예를 들어 특정 크리처의 "
-"외견(Visual)에 문제가 있다면 커서를 올리고 Alt + b 를 누른 뒤 메뉴에서 "
-"Visual aspect를 고르세요."
+"보고하려는 버그의 \"양상\"을 남겨주세요. 예를 들어 특정 크리처의 외견(Visual)에 문제가 있다면 커서를 올리고 Alt + b 를 "
+"누른 뒤 메뉴에서 \"시각\" 양상을 고르세요."
 
 #. File = Tutorials/DirectTutorial/NewTutorial_0_BugReport
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5814,20 +5081,14 @@ msgstr "버그 리포트 창에서 스크린샷을 편집할 수 있습니다. �
 #. File = Tutorials/DirectTutorial/NewTutorial_0_BugReport
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "By hovering the cursor over a unit, item or a {g|Encyclopedia:Spell}spell{/g}"
-#| " and pressing Alt + b you leave a special text on the screenshot. This will "
-#| "help us to better understand the bug's context and fix the bug."
 msgctxt "8db7ce81-ecae-4d6a-8dcd-d8bf22729980"
 msgid ""
 "By hovering the cursor over a unit, item, or {g|Encyclopedia:Spell}spell{/g} "
 "and pressing Alt + b, you leave a special text on the screenshot. This will "
 "help us to better understand the bug's context and fix the bug."
 msgstr ""
-"유닛, 물품, {g|Encyclopedia:Spell}주문{/g} 따위에 커서를 올려 놓은 채 Alt + "
-"b 를 누르면 스크린샷에 특별한 문구를 남길 수 있습니다. 이 기능은 우리가 "
-"버그의 맥락을 이해하고 해당 버그를 해결하는 데 도움을 줄 수 있습니다."
+"유닛, 물품, {g|Encyclopedia:Spell}주문{/g} 따위에 커서를 올려 놓은 채 Alt + b 를 누르면 스크린샷에 특별한 "
+"문구를 남길 수 있습니다. 이 기능은 우리가 버그의 맥락을 이해하고 해당 버그를 해결하는 데 도움을 줄 수 있습니다."
 
 #. File = Tutorials/DirectTutorial/NewTutorial_0_BugReport
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
@@ -5896,15 +5157,6 @@ msgstr "단서"
 #. File = Tutorials/DirectTutorial/NewTutorial_10_AbilityUse
 #. Type = Kingmaker.Tutorial.BlueprintTutorial
 #. Path = m_DescriptionText
-#, fuzzy
-#| msgid ""
-#| "Companion {t|SourceUnit} has the ability {t|SolutionAbility}. To use it:\n"
-#| "1. Click the companion {t|SourceUnit}'s portrait.\n"
-#| "2. Click the icon with the {g|Encyclopedia:Spell}spell{/g} "
-#| "{t|SolutionAbility} in the {g|Encyclopedia:CA_Types}action{/g} bar.\n"
-#| "3. Click <b>[LMB]</b> the companion {t|SourceUnit}'s portrait to "
-#| "{g|Encyclopedia:Healing}heal{/g} her.\n"
-#| "Healing restores lost {g|Encyclopedia:HP}hit points{/g}."
 msgctxt "95293321-1b95-4e21-a492-4b63b68e7860"
 msgid ""
 "Companion {t|SourceUnit} has the ability {t|SolutionAbility}. To use it:\n"
@@ -5915,13 +5167,11 @@ msgid ""
 "{g|Encyclopedia:Healing}heal{/g} her.\n"
 "Healing restores lost {g|Encyclopedia:HP}hit points{/g}."
 msgstr ""
-"{t|SourceUnit} 동료는 {t|SolutionAbility} 능력을 지니고 있습니다. 이 능력을 "
-"사용하려면\n"
+"{t|SourceUnit} 동료는 {t|SolutionAbility} 능력을 지니고 있습니다. 이 능력을 사용하려면\n"
 "1. {t|SourceUnit} 동료의 초상화를 누릅니다.\n"
-"2. {g|Encyclopedia:CA_Types}행동{/g} 단축바의 {t|SolutionAbility} "
-"{g|Encyclopedia:Spell}주문{/g} 아이콘을 누릅니다.\n"
-"3. {t|SourceUnit} 동료를 {g|Encyclopedia:Healing}치유{/g}하기 위해 동료의 "
-"초상화를 <b>[LMB]</b> 클릭합니다.\n"
+"2. 액션 바의 {t|SolutionAbility} {g|Encyclopedia:Spell}주문{/g} 아이콘을 누릅니다.\n"
+"3. {t|SourceUnit} 동료를 {g|Encyclopedia:Healing}치유{/g}하기 위해 동료의 초상화를 <b>[LMB]</"
+"b> 클릭합니다.\n"
 "치유는 잃어버린 {g|Encyclopedia:HP}생명점{/g}을 회복합니다."
 
 #. File = Tutorials/DirectTutorial/NewTutorial_10_AbilityUse_Gamepad
