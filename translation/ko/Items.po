@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-01-26 08:37+0000\n"
-"Last-Translator: OSI <sein4510@naver.com>\n"
+"PO-Revision-Date: 2024-02-06 04:37+0000\n"
+"Last-Translator: ㅇㅇ <fhsp1245@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -16860,6 +16860,8 @@ msgid ""
 "every enemy in a 10-foot range {g|Encyclopedia:Dice}2d8{/g} "
 "{g|Encyclopedia:Energy_Damage}fire damage{/g} every turn."
 msgstr ""
+"이 저항의.망튜 +5의 착용자는 매 턴 10피트 반경 내의 모든 적들에게 {g|Encyclopedia:Dice}2d8{/g} "
+"{g|Encyclopedia:Energy_Damage}fire damage{/g}를 가하는 불길의 오라를 얻습니다."
 
 #. File = Equipment/Cloaks/DLC3/DLC3_CloakOfRadianceFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
@@ -16870,7 +16872,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "0b6ce277-e3dc-44f3-a10d-b0798720ea8c"
 msgid "Cloak of Cinders"
-msgstr ""
+msgstr "잿불의 망토"
 
 #. File = Equipment/Cloaks/DLC3/DLC3_CloakOfSweetSpeakFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
@@ -16889,6 +16891,11 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} equal to their Charisma "
 "{g|Encyclopedia:Ability_Scores}ability score{/g}."
 msgstr ""
+"이 망토의 착용자는 모든 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 자신의 "
+"{g|Encyclopedia:Charisma}매력{/g} {g|Encyclopedia:Bonus}보너스{/g} 만큼 능숙 보너스를 "
+"받습니다 (있는 경우에 한해). 착용자가 어여쁜 기만의 거울의 효과를 받는 중이라면, 무기 "
+"{g|Encyclopedia:Attack}공격{/g}이 착용자의 매력 {g|Encyclopedia:Ability_Scores}능력치{/g}"
+" 만큼의 추가 {g|Encyclopedia:Damage}피해{/g}를 가합니다."
 
 #. File = Equipment/Cloaks/DLC3/DLC3_CloakOfSweetSpeakFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
@@ -16899,7 +16906,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "dde84474-ae72-4a6e-89bc-de98e9d2e0e7"
 msgid "Cloak of Sweet Lies"
-msgstr ""
+msgstr "달콤한 거짓말의 망토"
 
 #. File = Equipment/Cloaks/DLC3/RovagugSpawnCloakItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
@@ -18100,13 +18107,19 @@ msgid ""
 "{g|Encyclopedia:Dexterity}Dexterity{/g} score as well as a -3 penalty on "
 "Reflex saving throws for 3 {g|Encyclopedia:Combat_Round}rounds{/g}."
 msgstr ""
+"이 저항의 망토 +7은 착용자에게 적들을 느리고 약하게 만드는 얼어붙는 오라를 부여합니다. 10피트 반경 내의 모든 적들은 "
+"{g|Encyclopedia:Saving_Throw}인내 내성{/g} ({g|Encyclopedia:DC}DC{/g} 37) 을 시도해 "
+"실패시 {g|Encyclopedia:Dice}4d6{/g} {g|Encyclopedia:Energy_Damage}냉기 피해{/g}를 "
+"받고, 3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 기본 이동 "
+"{g|Encyclopedia:Speed}속도{/g}가 10피트 감소하며 {g|Encyclopedia:Dexterity}민찹{/g} 수치에 "
+"-4 {g|Encyclopedia:Penalty}페널티{/g} 및 반사 내성에 -3 페널티를 받습니다."
 
 #. File = Equipment/Cloaks/PF2/PF2_DLC1/GraveShiveringItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
 #. Path = m_DisplayNameText
 msgctxt "64aeb1d5-ef59-4e04-9ad3-90889602064b"
 msgid "Grave Shivering"
-msgstr ""
+msgstr "심각한 한기"
 
 #. File = Equipment/Cloaks/ShroudOfAbaddon
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentShoulders
@@ -18677,14 +18690,14 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "a8a92337-4f7d-48be-926b-82e831c75f7b"
 msgid "Locust Shepard's Staff"
-msgstr ""
+msgstr "메뚜기 목동의 지팡이"
 
 #. File = Equipment/DLC4BonusItems/StaffOfLocustWeaponItem
 #. Type = Kingmaker.Blueprints.Items.Weapons.BlueprintItemWeapon
 #. Path = m_FlavorText
 msgctxt "81a7f724-fe38-4f32-b584-1642c42b50af"
 msgid "This quarterstaff is adorned with thousands of locust husks."
-msgstr ""
+msgstr "이 육척봉은 수천 개의 메뚜기 껍질로 장식되어 있습니다."
 
 #. File = Equipment/Gloves/Artifact_StarGauntlet/Artifact_StarGauntletItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
@@ -18972,6 +18985,12 @@ msgid ""
 "{g|Encyclopedia:Wisdom}Wisdom{/g} modifier + their "
 "{g|Encyclopedia:Character_Level}character level{/g}."
 msgstr ""
+"이 장갑의 착용자가 {g|Encyclopedia:Critical}치명타{/g}를 확정할 때마다, 대상은 "
+"{g|Encyclopedia:Saving_Throw}인내 내성/g}을 시도해 실패시 {g|Encyclopedia:Dice}1d6{/g} "
+"출혈 {g|Encyclopedia:Damage}피해{/g}를 받습니다. 이 효과는 여러 번 중첩될 수 있지만, 대상은 매 턴 내성을 다시 "
+"시도해 출혈을 멈출 수 있습니다. 이 내성의 {g|Encyclopedia:DC}DC{/g}는 10 + 착용자의 "
+"{g|Encyclopedia:Wisdom}지혜{/g} 수정치 + {g|Encyclopedia:Character_Level}캐릭터 "
+"레벨{/g}입니다."
 
 #. File = Equipment/Gloves/DLC3/DLC3_GlovesOfSurgicalExtractionFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
@@ -18982,7 +19001,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "c52ac3a5-f425-4927-b646-97971f0a0648"
 msgid "Gloves of Phlebotomy"
-msgstr ""
+msgstr "사혈의 장갑"
 
 #. File = Equipment/Gloves/DLC3/GlovesNumerianItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
@@ -20421,13 +20440,16 @@ msgid ""
 "bonus increases by +4. These gloves also make any weapons wielded by the "
 "wearer anarchic."
 msgstr ""
+"이 장갑은 착용자가 무장 해제에 저항할 때 {g|Encyclopedia:CMD}CMD{/g}에 +4 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 제공합니다. 만약 착용자가 무기 훈련 능력을 가지고 있고, 그 효과가 적용되는 "
+"무기를 사용중이라면 해당 보너스가 +4로 증가합니다. 또한 이 장갑은 착용자가 장비한 무기에 무질서 성질을 부여합니다."
 
 #. File = Equipment/Gloves/PF2/PF2_DLC1/GlovesOfEntropyItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
 #. Path = m_DisplayNameText
 msgctxt "5b6373f5-20ef-421c-80f2-ed3c84d65a59"
 msgid "Gloves of Entropy"
-msgstr ""
+msgstr "엔트로피의 장갑"
 
 #. File = Equipment/Gloves/TrapspringerGloves
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGloves
@@ -20853,6 +20875,11 @@ msgid ""
 "{g|Encyclopedia:Intelligence}Intelligence{/g} {g|Encyclopedia:Ability_Scores}"
 "ability score{/g}."
 msgstr ""
+"이 안경의 착용자는 항상 진실의 시야 {g|Encyclopedia:Spell}주문{/g}의 효과를 받습니다. 또한 착용자는 "
+"{g|Encyclopedia:Initiative}우선권{/g} {g|Encyclopedia:Dice}굴림{/g}에 +2 불경 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 말할 수 없는 진실의 로브와 같이 착용된 경우, 추가로 "
+"{g|Encyclopedia:Intelligence}지능{/g} {g|Encyclopedia:Ability_Scores}능력치{/g}에 +"
+"2 능숙 보너스를 부여합니다."
 
 #. File = Equipment/Headgear/DLC3/DLC3_GlassesOfundeniableTruthItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGlasses
@@ -20879,6 +20906,9 @@ msgid ""
 "for 3 {g|Encyclopedia:Combat_Round}rounds{/g}. Multiple applications of this "
 "effect stack."
 msgstr ""
+"이 모자의 착용자는 적을 살해할 때마다 3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"{g|Encyclopedia:Attack}명중 굴림{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 이 "
+"효과는 여러번 중첩될 수 있습니다."
 
 #. File = Equipment/Headgear/DLC3/DLC3_HelmOfBitterEndBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -20893,7 +20923,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "70f4810a-0e79-4f39-a60b-c97d4452b9f6"
 msgid "Hat of the Bitter End"
-msgstr ""
+msgstr "쓰디 쓴 최후의 모자"
 
 #. File = Equipment/Headgear/DLC3/HatTricornFeatheredFeature
 #. Type = Kingmaker.Blueprints.Classes.BlueprintFeature
@@ -21507,6 +21537,14 @@ msgid ""
 "{g|Encyclopedia:Physical_Damage}physical damage{/g}, they gain "
 "{g|Encyclopedia:Damage_Reduction}DR{/g} 20/- for 1 round."
 msgstr ""
+"이 가면은 착용자에게 독에 대한 면역과 {g|Encyclopedia:Wisdom}지혜{/g} 및 "
+"{g|Encyclopedia:Charisma}매력{/g} {g|Encyclopedia:Ability_Scores}능력치{/g}에 +6 "
+"강화 {g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 또한 착용자의 "
+"{g|Encyclopedia:Alignment}성향{/g}을 알아내지 못하게 만듭니다.\n"
+"착용자는 특정 에너지 유형의 {g|Encyclopedia:Energy_Damage}피해{/g}를 받을 때마다 1 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 그 에너지 유형에 대한 저항 20을 얻습니다. 착용자가 "
+"{g|Encyclopedia:Physical_Damage}물리 피해{/g}를 받으면 1 라운드 동안 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 20/-를 얻습니더."
 
 #. File = Equipment/Headgear/DLC3/TheBrokenTricksterArtifact/DLC3_BrokenTricksterGlassesArtifactItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGlasses
@@ -21526,13 +21564,17 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}rounds{/g} against one of the following energy "
 "types: acid, cold, electricity, or fire."
 msgstr ""
+"하루에 세 번, 이 가면의 착용자는 빠른 {g|Encyclopedia:CA_Types}행동{/g}을 통해 3 "
+"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 한가지 에너지 유형에 대한 "
+"{g|Encyclopedia:Energy_Resistance}저항{/g} 20을 얻을 수 있습니다. 선택할 수 있는 에너지 유형은 다음과 "
+"같습니다: 산성, 냉기, 전기 또는 화염."
 
 #. File = Equipment/Headgear/DLC3/TheBrokenTricksterArtifact/DLC3_TrickstersPromiseGlassesItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGlasses
 #. Path = m_DisplayNameText
 msgctxt "a53fd8d2-e513-4c04-b13f-877e701a968a"
 msgid "Trickster's Promise"
-msgstr ""
+msgstr "사기꾼의 약조"
 
 #. File = Equipment/Headgear/EvasiveRoundHelmetItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -21965,13 +22007,18 @@ msgid ""
 "wearer immunity to mind-affecting {g|Encyclopedia:Spell}spells{/g} and "
 "conditions."
 msgstr ""
+"이 모자는 착용자의 모든 정신 {g|Encyclopedia:Ability_Scores}능력치{/g}에 "
+"({g|Encyclopedia:Intelligence}지능{/g}, {g|Encyclopedia:Wisdom}지혜{/g}, "
+"{g|Encyclopedia:Charisma}매력{/g}) +8 강화 {g|Encyclopedia:Bonus}보너스{/g}를 줍니다. "
+"같은 유형의 보너스는 보통 중첩되지 않습니다. 추가로 이 모자는 착용자에게 정신 영향 {g|Encyclopedia:Spell}주문{/g} "
+"및 상태에 대한 면역을 부여합니다."
 
 #. File = Equipment/Headgear/HeadbandOfPerfection8Extra
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = m_DisplayNameText
 msgctxt "7b72e679-0b6c-4bc9-b396-090be9023e32"
 msgid "Flawless Headband of Mental Perfection +8"
-msgstr ""
+msgstr "결점 없는 정신 완벽의 머리띠 +8"
 
 #. File = Equipment/Headgear/HeadbandOfWisdom2
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -22330,7 +22377,7 @@ msgstr "이 투구는 착용자에게 {g|Encyclopedia:Damage_Reduction}DR{/g} 10
 #. Path = m_DisplayNameText
 msgctxt "aee10445-3392-479f-b7e0-886db73e4bf4"
 msgid "Eternal Night"
-msgstr ""
+msgstr "영원한 밤"
 
 #. File = Equipment/Headgear/LateChapters/TripleFinHelmetItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -22539,13 +22586,16 @@ msgid ""
 "to living creatures or {g|Encyclopedia:Healing}heals{/g} to undead creatures "
 "by +{g|Encyclopedia:Dice}4d6{/g}."
 msgstr ""
+"이 머리띠의 착용자가 음에너지 전달 능력을 가졌다면, 해당 능력으로 살아있는 크리처에게 주는 "
+"{g|Encyclopedia:Damage}피해{/g}와 언데드 크리처에 대한 {g|Encyclopedia:Healing}치유{/g}량이 "
+"{g|Encyclopedia:Dice}4d6{/g} 증가합니다."
 
 #. File = Equipment/Headgear/PhylachetryOfNegativeChannelingGreater
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = m_DisplayNameText
 msgctxt "78cc623c-d02c-4dfc-adab-e3ac08a262ef"
 msgid "Greater Phylactery of Negative Channeling"
-msgstr ""
+msgstr "상급 음에너지 전달의 호부"
 
 #. File = Equipment/Headgear/PhylachetryOfNegativeChannelingLesser
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -22615,13 +22665,16 @@ msgid ""
 "to undead creatures or {g|Encyclopedia:Healing}heals{/g} to living creatures "
 "by +{g|Encyclopedia:Dice}4d6{/g}."
 msgstr ""
+"이 머리띠의 착용자가 양에너지 전달 능력을 가졌다면, 해당 능력으로 언데드 크리처에게 주는 "
+"{g|Encyclopedia:Damage}피해{/g}와 살아있는 크리처에 대한 {g|Encyclopedia:Healing}치유{/g}량이 "
+"{g|Encyclopedia:Dice}4d6{/g} 증가합니다."
 
 #. File = Equipment/Headgear/PhylachetryOfPositiveChannelingGreater
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = m_DisplayNameText
 msgctxt "82f7a755-ec0c-4ef4-bd03-9dcb1c20393a"
 msgid "Greater Phylactery of Positive Channeling"
-msgstr ""
+msgstr "상급 양에너지 전달의 호부"
 
 #. File = Equipment/Headgear/PhylachetryOfPositiveChannelingLesser
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -23011,6 +23064,13 @@ msgid ""
 "to summon an ancient black dragon to fight alongside the wearer for an hour. "
 "As long as the dragon remains summoned, the helmet loses its powers."
 msgstr ""
+"이 투구는 리치만 착용할 수 있습니다. 착용자의 성공적인 {g|Encyclopedia:Attack}공격{/g} (명중 굴림을 요구하는 "
+"{g|Encyclopedia:Spell}주문{/g} 포함) 은 {g|Encyclopedia:Dice}5d6{/g} "
+"{g|Encyclopedia:Energy_Damage}음에너지 피해{/g}를 추가로 가하며 착용자에게 같은 값의 임시 "
+"{g|Encyclopedia:HP}HP{/g}를 부여합니다. 착용자는 영구적인 진실의 시야 주문의 효과와 산성 "
+"{g|Encyclopedia:Energy_Immunity}면역{/g}을 얻습니다. 착용자에게 가해지는 모든 양에너지 피해를 반으로 "
+"줄입니다. 이 투구는 하루에 한 번 한 시간 동안 고대의 블랙 드래곤을 소환해 같은 편으로 싸우게 할 수 있습니다. 드래곤이 소환되어 "
+"있는 동안, 투구는 그 힘을 잃어버립니다."
 
 #. File = Equipment/Headgear/UniquePF2/Artifact_HornsOfNaraga/Artifact_HornsOfNaragaItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -23022,13 +23082,15 @@ msgid ""
 "himself, this helm seems to have a will of its own, one that is eager to "
 "serve the strongest necromancer on Golarion."
 msgstr ""
+"이 위협적인 투구에는 상처와 인장이 새겨진 권위적인 청동 장식에서 솟아난 한 쌍의 위협적인 드래곤 뿔이 달려있습니다. 타르 바폰 그 "
+"자신이 직접 창조한 이 투구에는 자신만의 의지가 있는 것으로 보이며, 골라리온에서 가장 강력한 사령술사를 섬기기를 갈망합니다."
 
 #. File = Equipment/Headgear/UniquePF2/Artifact_HornsOfNaraga/Artifact_HornsOfNaragaItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = m_DisplayNameText
 msgctxt "6654102f-ead2-41c3-acac-fae0f5662385"
 msgid "Horns of Naraga"
-msgstr ""
+msgstr "나라가의 뿔"
 
 #. File = Equipment/Headgear/UniquePF2/BlackHatOfHandsomenessItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -23959,7 +24021,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "5bcdd3ee-ce1d-41fb-af7b-babf5b21a7ce"
 msgid "The Steward of the Skein's defiled helmet"
-msgstr ""
+msgstr "실타래의 청지기의 더럽혀진 투구"
 
 #. File = Equipment/Headgear/UniquePF2/Chapter5/SturdySnootItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -24513,7 +24575,7 @@ msgstr "존재 분쇄"
 #. Path = m_DisplayNameText
 msgctxt "79bb5d8c-bcef-4d11-b835-fca987694913"
 msgid "DLC Item"
-msgstr ""
+msgstr "DLC 아이템"
 
 #. File = Equipment/Headgear/UniquePF2/DLC2/DLCTestItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -24524,6 +24586,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Saving_Throw}saving "
 "throws{/g} against mind-affecting conditions."
 msgstr ""
+"이 머리띠는 착용자에게 정신 영향 상태에 대한 {g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 능숙 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다."
 
 #. File = Equipment/Headgear/UniquePF2/GogglesOfMalocchioItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentGlasses
@@ -24670,13 +24734,14 @@ msgid ""
 "Whenever the wearer of this helm is under the effect of invisibility, they "
 "gain {g|Encyclopedia:Damage_Reduction}DR{/g} 10/-."
 msgstr ""
+"이 투구의 착용자는 투명화 효과를 받을 때마다 {g|Encyclopedia:Damage_Reduction}DR{/g} 10/-를 얻습니다."
 
 #. File = Equipment/Headgear/UniquePF2/PF2_DLC1/TwilightShadeItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
 #. Path = m_DisplayNameText
 msgctxt "5aea3637-32c1-4737-9587-8e31e842d00b"
 msgid "Twilight Shade"
-msgstr ""
+msgstr "황혼의 그늘"
 
 #. File = Equipment/Headgear/UniquePF2/RedHatOfHandsomenessItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentHead
@@ -25202,6 +25267,8 @@ msgid ""
 "to {g|Encyclopedia:Armor_Class}AC{/g}. Any morale bonuses the wearer has are "
 "doubled."
 msgstr ""
+"이 반지는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 착용자가 받는 모든 사기 보너스가 두 배가 됩니다."
 
 #. File = Equipment/Rings/DLC3/DLC3_RingOfInstantTriumphItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -25216,7 +25283,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "d06aaca3-e2bb-4665-967d-e0993215ba2d"
 msgid "Ring of Triumphant Advance"
-msgstr ""
+msgstr "위풍당당한 진군의 반지"
 
 #. File = Equipment/Rings/DLC4/RingOfAroden/RingofArodenItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -25259,6 +25326,28 @@ msgid ""
 "damage. If the wearer is on the Lich Mythic Path, the effects of this "
 "ability are reversed."
 msgstr ""
+"이 반지에는 칠망성이 장식되어 있습니다. 이는 고대 아즐란트인들이 진정한 통치자라면 무릇 갖춰야 한다고 믿었던 덕목을 상징합니다. 별의 "
+"일곱 정점은 서로 다른 색의 금속으로 이루어져 있지만, 그들의 접점에는 어떤 접점도 보이지 않는다는 데서 그 뛰어난 기술력을 엿볼 수 "
+"있습니다.\n"
+"이 반지는 착용자에게 여러 능력을 부여합니다:\n"
+"첫째, 착용자는 아래의 일곱 능력들 중 하나를 활성화할 수 있습니다:\n"
+"관용 — 착용자에게 무시무시한 형상 {g|Encyclopedia:Spell}주문{/g}의 효과를 부여합니다.\n"
+"겸손 — 착용자에게 흐릿한 형체 의 효과와 모든 {g|Encyclopedia:Skills}기술 판정{/g}에 +4 통찰 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다.\n"
+"절제 — 착용자에게 상급 거짓 생명 주문의 효과와 즉사 효과에 대한 내성 굴림에 +2 보너스를 부여합니다.\n"
+"박애 — 착용자에게 상급 영웅심 주문의 효과를 부여합니다.\n"
+"자비 — 착용자에게 정신 비우기 주문의 효과를 부여합니다.\n"
+"열정 — 착용자에게 바다의 망토 주문의 효과를 부여합니다.\n"
+"친절 — 착용자에게 복수의 돌풍 주문의 효과를 부여합니다.\n"
+"주문은 20레벨 주문 시전자에 준하는 효과를 가집니다.\n"
+"둘째, 착용자가 신화의 길을 타는 중이라면, 그 주요 능력을 하루에 5회 더 사용할 수 있습니다 (데몬이면 데몬의 격노, 데블이면 지옥의 "
+"칙령 등). 착용자의 신화 경로에 이같은 능력이 없는 경우, 이 반지의 힘이 착용자의 육체와 정신을 완벽하게 만들어 모든 "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +4 고유 보너스를 줍니다.\n"
+"셋째, 하루에 일곱 번 착용자에게 30피트 내의 모든 살아있는 크리처의 {g|Encyclopedia:HP}생명점{/g}을 "
+"{g|Encyclopedia:Dice}20d6{/g}점 {g|Encyclopedia:Healing}치유{/g}할 수 있는 능력을 "
+"부여합니다. 범위 내의 그렇지 않은 다른 크리처들은 같은 값의 {g|Encyclopedia:Energy_Damage}양에너지 피해{/g}"
+"를 받습니다. {g|Encyclopedia:Damage}피해{/g}를 받는 크리처들은 의지 내성을 통해 피해를 반으로 줄일 수 있습니다. "
+"착용자가 리치 신화의 길에 있는 경우, 이 능력의 효과는 반전됩니다."
 
 #. File = Equipment/Rings/DLC4/RingOfAroden/RingofArodenBurstAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -25290,13 +25379,16 @@ msgid ""
 "{g|Encyclopedia:Spell}spells{/g} (any spell with \"inflict\" in its name). "
 "In addition, the wearer gains resistance to negative energy 5."
 msgstr ""
+"어두운 생명 반지는 착용자에게 음에너지 전달과 상처 입히기 {g|Encyclopedia:Spell}주문{/g}들 (이름에 \"상처 "
+"입히기\"가 들어가는 모든 주문) 에 대한 {g|Encyclopedia:Saving_Throw}의지 내성{/g}에 +2 불경 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 부여합니다. 추가로, 착용자는 음에너지 저항 5를 얻습니다."
 
 #. File = Equipment/Rings/DLC5/DLC5_DarkLifeRing
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = m_DisplayNameText
 msgctxt "f9d635f0-f3a6-4784-b359-08a6b9fa4e77"
 msgid "Dark Life Ring"
-msgstr ""
+msgstr "어두운 생명 반지"
 
 #. File = Equipment/Rings/KineticistRings/InfernalBondRingItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -26004,13 +26096,15 @@ msgid ""
 "to {g|Encyclopedia:Armor_Class}AC{/g}. Bonuses of the same type usually "
 "don't stack."
 msgstr ""
+"이 반지는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +7 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 줍니다. 같은 유형의 보너스는 보통 중첩되지 않습니다."
 
 #. File = Equipment/Rings/RingOfProtection7
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = m_DisplayNameText
 msgctxt "57920093-ad41-40ec-8486-b9774945bc2b"
 msgid "Ring of Protection +7"
-msgstr ""
+msgstr "보호의 반지 +7"
 
 #. File = Equipment/Rings/RingOfProtection7Extra
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -26022,13 +26116,16 @@ msgid ""
 "don't stack. In addition, this ring grants its wearer the effect of moderate "
 "fortification."
 msgstr ""
+"이 반지는 착용자의 {g|Encyclopedia:Armor_Class}AC{/g}에 +7 굴절 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 줍니다. 같은 유형의 보너스는 보통 중첩되지 않습니다. 추가로, 착용자는 중급 "
+"요새화 효과도 받습니다."
 
 #. File = Equipment/Rings/RingOfProtection7Extra
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = m_DisplayNameText
 msgctxt "c2d9eb04-fcd7-4e02-8813-4b706cba7f7d"
 msgid "Flawless Ring of Protection +7"
-msgstr ""
+msgstr "결점 없는 보호의 반지 +7"
 
 #. File = Equipment/Rings/RingOfSecurityItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -27487,13 +27584,16 @@ msgid ""
 "grants a +2 insight bonus to {g|Encyclopedia:Armor_Class}AC{/g} against "
 "anomalies."
 msgstr ""
+"이 보호의 반지 +7은 환영학파 {g|Encyclopedia:Spell}주문{/g}에 대한 착용자의 "
+"{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +10 {g|Encyclopedia:Bonus}보너스{/g}를 "
+"부여합니다. 또한 변칙 개체에 대한 {g|Encyclopedia:Armor_Class}AC{/g}에 +2 통찰 보너스도 줍니다."
 
 #. File = Equipment/Rings/UniquePF2/PF2_DLC1/UnveilerItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
 #. Path = m_DisplayNameText
 msgctxt "551926a7-6691-418b-bd80-50d872cbdca7"
 msgid "The Unveiler"
-msgstr ""
+msgstr "베일을 벗기는 자"
 
 #. File = Equipment/Rings/UniquePF2/PaladinsRingItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -27713,13 +27813,17 @@ msgid ""
 "opportunity{/g} per {g|Encyclopedia:Combat_Round}round{/g}. If equipped with "
 "the Guardian's battleaxe, it gives the battleaxe the speed special quality."
 msgstr ""
+"이 +3 방패는 착용자에게 쓰러짐 상태에 대한 면역을 줍니다. 추가로 착용자에게 "
+"{g|Encyclopedia:Combat_Round}라운드{/g}당 추가 "
+"{g|Encyclopedia:Attack_Of_Opportunity}기회 공격{/g}을 1회 부여합니다. 수호자의 전투 도끼와 함께 "
+"장비하면, 이 전투 도끼에 신속 특수 성질을 부여합니다."
 
 #. File = Equipment/Shields/DLC3/DLC3_GuardianHeavyShieldSetItem
 #. Type = Kingmaker.Blueprints.Items.Shields.BlueprintItemShield
 #. Path = m_DisplayNameText
 msgctxt "140c7901-6ab0-41d7-b7a3-223158c33b69"
 msgid "Guardian's Shield"
-msgstr ""
+msgstr "수호자의 방패"
 
 #. File = Equipment/Shields/DLC5/DLC5_SunlessShieldItem
 #. Type = Kingmaker.Blueprints.Items.Shields.BlueprintItemShield
@@ -27733,6 +27837,10 @@ msgid ""
 "the scorching ray {g|Encyclopedia:Spell}spell{/g} as a 10th level wizard "
 "targeting the source of the fire damage."
 msgstr ""
+"이 +2 가시 중형 방패는 착용자에게 화염 {g|Encyclopedia:Energy_Resistance}저항{/g} 10을 부여합니다. "
+"착용자가 {g|Encyclopedia:Energy_Damage}화염 피해{/g}를 받을 때마다 이 방패가 에너지 충전을 1회 축적합니다. "
+"에너지 충전을 5회 축적하면, 이 방패가 화염 피해의 가해자를 향해 10레벨 위저드의 이글거리는 광선 "
+"{g|Encyclopedia:Spell}주문{/g}을 시전합니다."
 
 #. File = Equipment/Shields/DLC5/DLC5_SunlessShieldItem
 #. Type = Kingmaker.Blueprints.Items.Shields.BlueprintItemShield
@@ -29457,14 +29565,14 @@ msgstr "눈 멀게 하는 빛"
 #. Path = m_DisplayNameText
 msgctxt "ba8439d3-8b76-4a25-b938-f0bb44117279"
 msgid "Heavy Shield +1"
-msgstr ""
+msgstr "중형 방패 +1"
 
 #. File = Equipment/Shields/Unique/UniquePF2/CrusaderShields/HeavyShieldItemPlus3IHellknight
 #. Type = Kingmaker.Blueprints.Items.Shields.BlueprintItemShield
 #. Path = m_DisplayNameText
 msgctxt "b4f96880-b343-4108-b5d5-804bb6334ba2"
 msgid "Spiked Heavy Shield +3"
-msgstr ""
+msgstr "가시 중형 방패 +3"
 
 #. File = Equipment/Shields/Unique/UniquePF2/CultistShields/BaphometCultistHeavyShield
 #. Type = Kingmaker.Blueprints.Items.Shields.BlueprintItemShield
@@ -29869,7 +29977,7 @@ msgstr "소유의 가방, 대형"
 #. Path = m_DisplayNameText
 msgctxt "94cfa89d-d0a0-4676-bd40-272c477818e3"
 msgid "Pearl of Power (8th Level)"
-msgstr ""
+msgstr "힘의 보석 (8레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerEighthLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -29899,6 +30007,9 @@ msgid ""
 "day. The spell is then prepared again, just as if it had not been cast. The "
 "spell must be of a particular level, depending on the pearl."
 msgstr ""
+"보통 크기의 평범한 보석으로 보이는 이것은 모든 준비 {g|Encyclopedia:Spell}주문 시전자{/g}들 (클레릭이나 위저드 "
+"같은) 에게 도움이 됩니다. 하루에 한 번, 힘의 보석은 소유자의 명령에 따라 자신이 준비한 주문 하나를 불러내 그 날 중에 시전할 수 "
+"있습니다. 해당 주문은 시전되지 않은 것처럼 곧바로 다시 준비됩니다. 보석에 따라 특정 레벨의 주문만 시전할 수 있습니다."
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerEighthLevelItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
@@ -29927,13 +30038,15 @@ msgid ""
 "pearl to recall a spell of a lower level than the maximum spell level "
 "allowed by the pearl."
 msgstr ""
+"하루에 1레벨부터 9레벨까지 각 레벨마다 하나의 {g|Encyclopedia:Spell}주문{/g}이나 두 주문 (서로 다른 6레벨 "
+"이하의 주문) 을 불러올 수 있는 보석이 여럿 존재합니다. 소유자는 보석을 사용해 최대 레벨 이하의 주문 하나를 불러올 수 있습니다."
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerFirstLevelDoubleItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = m_DisplayNameText
 msgctxt "2d78a845-b356-4fa5-85c6-bf92e2215d95"
 msgid "Pearl of Power (1st Level, Two Spells)"
-msgstr ""
+msgstr "힘의 보석 (1레벨, 2주문)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerFirstLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -29948,14 +30061,14 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "1482c65f-523c-450f-8f60-9b3c6d1364ef"
 msgid "Pearl of Power (1st Level)"
-msgstr ""
+msgstr "힘의 보석 (1레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerFithLevelDoubleItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = m_DisplayNameText
 msgctxt "02450b01-8b71-4426-8460-d9292b622517"
 msgid "Pearl of Power (5th Level, Two Spells)"
-msgstr ""
+msgstr "힘의 보석 (5레벨, 2주문)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerFithLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -29970,14 +30083,14 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "e1b406c9-c745-4d7a-990d-8924e6d8ddf3"
 msgid "Pearl of Power (5th Level)"
-msgstr ""
+msgstr "힘의 보석 (5레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerFourthLevelDoubleItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = m_DisplayNameText
 msgctxt "755d7774-2d11-4059-9dea-ea9169ae9ee3"
 msgid "Pearl of Power (4th Level, Two Spells)"
-msgstr ""
+msgstr "힘의 보석 (4레벨, 2주문)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerFourthLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -29992,7 +30105,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "19dd35a9-0b6b-4046-8bf6-6aaddc37d4d5"
 msgid "Pearl of Power (4th Level)"
-msgstr ""
+msgstr "힘의 보석 (4레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerNinthLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -30003,14 +30116,14 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "75f2c779-6692-46d8-ae57-fd1d4784376b"
 msgid "Pearl of Power (9th Level)"
-msgstr ""
+msgstr "힘의 보석 (9레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerSecondLevelDoubleItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = m_DisplayNameText
 msgctxt "ace62593-38db-4d01-b309-c8ae21d0218e"
 msgid "Pearl of Power (2nd Level, Two Spells)"
-msgstr ""
+msgstr "힘의 보석 (2레벨, 2주문)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerSecondLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -30025,7 +30138,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "fb44c6c0-3c53-4594-9eea-a0ea0a7d852e"
 msgid "Pearl of Power (2nd Level)"
-msgstr ""
+msgstr "힘의 보석 (2레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerSeventhLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -30036,14 +30149,14 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "37266634-630c-418b-9b67-6bb424fcd97d"
 msgid "Pearl of Power (7th Level)"
-msgstr ""
+msgstr "힘의 보석 (7레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerSixthLevelDoubleItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = m_DisplayNameText
 msgctxt "d01aef48-e5a9-4c09-9892-e44aab4d677b"
 msgid "Pearl of Power (6th Level, Two Spells)"
-msgstr ""
+msgstr "힘의 보석 (6레벨, 2주문)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerSixthLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -30058,14 +30171,14 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "c8785166-b42e-493a-88df-0ddbf77c1f3a"
 msgid "Pearl of Power (6th Level)"
-msgstr ""
+msgstr "힘의 보석 (6레벨)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerThirdLevelDoubleItem
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentUsable
 #. Path = m_DisplayNameText
 msgctxt "01b69134-eac1-4f19-90be-f4151dc9949d"
 msgid "Pearl of Power (3rd Level, Two Spells)"
-msgstr ""
+msgstr "힘의 보석 (3레벨, 2주문)"
 
 #. File = Equipment/Slotless/PearlOfPower/DLC5_PearlOfPowerThirdLevelAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -30080,7 +30193,7 @@ msgstr ""
 #. Path = m_DisplayNameText
 msgctxt "221a9d9f-9ff0-4247-8cad-4e55196ca39e"
 msgid "Pearl of Power (3rd Level)"
-msgstr ""
+msgstr "힘의 보석 (3레벨)"
 
 #. File = Equipment/SpecialEditions/ArcaneSignet
 #. Type = Kingmaker.Blueprints.Items.Equipment.BlueprintItemEquipmentRing
@@ -50658,12 +50771,10 @@ msgid ""
 "apply against aberrations, oozes, plants, outsiders with the elemental "
 "subtype, or any creature specifically noted to lack a heart."
 msgstr ""
-"심장무적자 무기는 대부분의 살아있는 대상을 상대할 때 "
-"{g|Encyclopedia:Concealment}은폐{/g}로 인한 빗맞출 확률을 무시합니다. 다만, "
-"여전히 {g|Encyclopedia:Attack}공격{/g}에 제대로 된 타일을 향해야 합니다. 이 "
-"{g|Encyclopedia:Special_Abilities}특수 성질{/g}은 변이체, 우즈, 식물, 정령 "
-"하위 유형을 지닌 외차원체나 심장이 없다고 특별히 명시된 크리처에게는 통하지 "
-"않습니다."
+"심장추적자 무기는 대부분의 살아있는 대상을 상대할 때 {g|Encyclopedia:Concealment}은폐{/g}로 인한 빗맞출 확률을 "
+"무시합니다. 다만, 여전히 {g|Encyclopedia:Attack}공격{/g}에 제대로 된 타일을 향해야 합니다. 이 "
+"{g|Encyclopedia:Special_Abilities}특수 성질{/g}은 변이체, 우즈, 식물, 정령 하위 유형을 지닌 외차원체나 "
+"심장이 없다고 특별히 명시된 크리처에게는 통하지 않습니다."
 
 #. File = Weapons/Enchantments/Heartseeker
 #. Type = Kingmaker.Blueprints.Items.Ecnchantments.BlueprintWeaponEnchantment
