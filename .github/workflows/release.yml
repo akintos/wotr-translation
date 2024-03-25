@@ -11,7 +11,7 @@ jobs:
     if: contains(github.event.head_commit.message, '[skip ci]') == false
 
     steps:
-      - name: Checkout coude
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Set up Python 3.10
@@ -28,6 +28,9 @@ jobs:
         run: |
           python ./generate_locale.py
 
+      - name: Gzip compress the output file
+        run: gzip -k translation.json
+
       - name: Generate release tag
         id: generate_release_tag
         uses: alexvingg/next-release-tag@v1.0.4
@@ -43,8 +46,8 @@ jobs:
           name: Release ${{ steps.generate_release_tag.outputs.release_tag }}
           body: "Automated release"
 
-      - name: Upload Release Asset
-        id: upload-release-asset 
+      - name: Upload release asset
+        id: upload-release-asset-raw
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -54,6 +57,17 @@ jobs:
           asset_name: translation.json
           asset_content_type: application/json
       
+      - name: Upload release asset
+        id: upload-release-asset-gzip
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./translation.json.gz
+          asset_name: translation.json.gz
+          asset_content_type: application/gzip
+          
       - name: Delete old releases
         uses: dev-drprasad/delete-older-releases@v0.3.2
         with:
