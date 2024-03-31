@@ -1,3 +1,4 @@
+from pathlib import Path
 from typing import List
 
 from translate.storage import pypo
@@ -50,7 +51,7 @@ class TranslationEntry:
 
 
 class TranslationFile(List[TranslationEntry]):
-    def __init__(self, path: str = None) -> None:
+    def __init__(self, path: str | Path | None = None) -> None:
         super().__init__()
         if not path:
             return

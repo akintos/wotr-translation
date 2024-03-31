@@ -25,8 +25,9 @@ jobs:
           pip install -r requirements.txt
       
       - name: Run build script
+        id: build_translation_file
         run: |
-          python ./generate_locale.py
+          python ./generate_locale.py ./translation/ko ./translation.json
 
       - name: Gzip compress the output file
         run: gzip -k translation.json
@@ -44,7 +45,7 @@ jobs:
         with:
           tag: ${{ steps.generate_release_tag.outputs.release_tag }}
           name: Release ${{ steps.generate_release_tag.outputs.release_tag }}
-          body: "Automated release"
+          body: "Translated ${{ steps.build_translation_file.outputs.stats }}"
 
       - name: Upload release asset
         id: upload-release-asset-raw
