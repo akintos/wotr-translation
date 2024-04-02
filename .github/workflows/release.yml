@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
@@ -37,7 +37,6 @@ jobs:
         uses: alexvingg/next-release-tag@v1.0.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          tag_prefix: 'v'
 
       - name: Create a GitHub release
         id: create_release
@@ -46,31 +45,12 @@ jobs:
           tag: ${{ steps.generate_release_tag.outputs.release_tag }}
           name: Release ${{ steps.generate_release_tag.outputs.release_tag }}
           body: "Translated ${{ steps.build_translation_file.outputs.stats }}"
+          artifacts: |
+            translation.json
+            translation.json.gz
 
-      - name: Upload release asset
-        id: upload-release-asset-raw
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./translation.json
-          asset_name: translation.json
-          asset_content_type: application/json
-      
-      - name: Upload release asset
-        id: upload-release-asset-gzip
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./translation.json.gz
-          asset_name: translation.json.gz
-          asset_content_type: application/gzip
-          
       - name: Delete old releases
-        uses: dev-drprasad/delete-older-releases@v0.3.2
+        uses: dev-drprasad/delete-older-releases@v0.3.3
         with:
           keep_latest: 3
           delete_tags: true
