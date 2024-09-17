@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-09-16 05:43+0000\n"
+"PO-Revision-Date: 2024-09-17 17:43+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -3027,7 +3027,7 @@ msgid ""
 "{g|Encyclopedia:Caster_Level}caster level{/g} of your ally who struck you "
 "with their area of effect spell from the same school."
 msgstr ""
-"아군이 시전한 부여학파의 범위 {g|Encyclopedia:Spell}주문{/g}에 맞으면, 같은 학파의 주문에 대해 10 + 해당 "
+"아군이 시전한 환혹학파의 범위 {g|Encyclopedia:Spell}주문{/g}에 맞으면, 같은 학파의 주문에 대해 10 + 해당 "
 "아군의 {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 만큼의 "
 "{g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 받습니다."
 
@@ -3036,7 +3036,7 @@ msgstr ""
 #. Path = m_DisplayName
 msgctxt "db8b97ab-d29e-4bac-a677-794594032f74"
 msgid "Spell Resistance — Enchantment"
-msgstr "주문 저항 — 부여학파"
+msgstr "주문 저항 — 환혹학파"
 
 #. File = Buffs/DLC3/DLC3_BUFFS/DLC3_FriendlyAOEResistBuff/DLC3_FriendlyAoEResistanceEvocationBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -42089,7 +42089,7 @@ msgstr "예지의 칙령"
 #. Path = m_DisplayName
 msgctxt "007fb415-8440-445f-a5a9-4b0da943ae90"
 msgid "Decree of Enchantment"
-msgstr "부여의 칙령"
+msgstr "환혹의 칙령"
 
 #. File = Mythic/Devil/HellsDecree/HellsDecreeAbilityMagicEvocation
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -42332,7 +42332,7 @@ msgid ""
 "effect, with the {g|Encyclopedia:DC}DC{/g} of its saving throw increased by "
 "a number equal to half your mythic rank."
 msgstr ""
-"아군이 환영이나 부여학파 {g|Encyclopedia:Spell}주문{/g}에 대한 {g|Encyclopedia:Saving_Throw}"
+"아군이 환영이나 환혹학파 {g|Encyclopedia:Spell}주문{/g}에 대한 {g|Encyclopedia:Saving_Throw}"
 "내성 굴림{/g}을 할 때 자동적으로 성공합니다. 추가적으로 그 이후 시전자가 동일한 효과의 대상이 될 때 그 내성 굴림의 "
 "{g|Encyclopedia:DC}DC{/g}가 신화 레벨의 절반만큼 증가합니다."
 
@@ -42482,7 +42482,7 @@ msgstr "절대적인 죽음"
 #. Path = m_DisplayName
 msgctxt "eeea7073-cede-45da-99d7-dd7a2698b7f9"
 msgid "Blessing of Unlife"
-msgstr "비생명의 축복"
+msgstr "부정한 생명의 축복"
 
 #. File = Mythic/Lich/LichSpells/BlessingOfUnlife
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -42495,10 +42495,10 @@ msgid ""
 "{g|Encyclopedia:Damage_Reduction}DR{/g} 5/"
 "{g|Encyclopedia:Damage_Type}bludgeoning{/g}."
 msgstr ""
-"당신의 비생명의 힘은 동료들을 일시적으로 언데드와 유사하게 만듭니다. "
-"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 10분 동안 선택된 동료는 "
-"언데드 면역, 음에너지 친화성 및 {g|Encyclopedia:Damage_Reduction}DR{/g} 5/"
-"{g|Encyclopedia:Damage_Type}부수기{/g}를 얻습니다."
+"당신의 부정한 생명의 힘은 동료들을 일시적으로 언데드와 유사하게 만듭니다. {g|Encyclopedia:Caster_Level}시전자 "
+"레벨{/g}당 10분 동안 선택된 동료는 언데드 면역, 음에너지 친화성 및 "
+"{g|Encyclopedia:Damage_Reduction}DR{/g} 5/{g|Encyclopedia:Damage_Type}부수기{/g}"
+"를 얻습니다."
 
 #. File = Mythic/Lich/LichSpells/BlessingOfUnlifeBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -42630,10 +42630,10 @@ msgid ""
 "amount. If it's an ally, the damage is {g|FeatureMaximizeSpell}maximized{/g} "
 "to 8 damage per caster level."
 msgstr ""
-"대상 언데드 크리처에게서 비생명의 힘을 흡수합니다. 대상이 적인 경우, 그 대상은 {g|Encyclopedia:Caster_Level}"
-"시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d8{/g} {g|Encyclopedia:Damage}피해{/g}를 받고 "
-"당신은 동일한 양만큼 {g|Encyclopedia:Healing}치유{/g}됩니다. 만약 대상이 아군이라면 피해량이 "
-"{g|FeatureMaximizeSpell}극대화{/g}되어 시전자 레벨당 8이 됩니다."
+"대상 언데드 크리처에게서 부정한 생명의 힘을 흡수합니다. 대상이 적인 경우, 그 대상은 "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 {g|Encyclopedia:Dice}1d8{/g} "
+"{g|Encyclopedia:Damage}피해{/g}를 받고 당신은 동일한 양만큼 {g|Encyclopedia:Healing}치유{/g}"
+"됩니다. 만약 대상이 아군이라면 피해량이 {g|FeatureMaximizeSpell}극대화{/g}되어 시전자 레벨당 8이 됩니다."
 
 #. File = Mythic/Lich/LichSpells/ConsumeUndead
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -42903,7 +42903,7 @@ msgid ""
 "{g|ConditionStaggered}staggered{/g} for 1 more round and suffers 1d6 "
 "Constitution drain."
 msgstr ""
-"대상을 사령의 에너지로 둘러 비생명의 힘으로 감싸 안습니다. 대상이 {g|Encyclopedia:Saving_Throw}의지 내성 "
+"대상을 사령 에너지로 둘러 부정한 생명의 힘으로 감싸 안습니다. 대상이 {g|Encyclopedia:Saving_Throw}의지 내성 "
 "굴림{/g}에 실패한 경우 혼수 상태에 빠져 매 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
 "{g|Encyclopedia:Dice}1d6{/g} {g|Encyclopedia:Constitution}건강{/g}이 소진됩니다. 대상은 "
 "매 라운드 새로운 내성 굴림을 시도할 수 있습니다. 내성 굴림에 성공하면 대상은 1 라운드 동안 "
@@ -50065,7 +50065,7 @@ msgctxt "d90b63e7-035a-4ed7-a882-c675d93ce636"
 msgid ""
 "You call upon the powers of unlife to render the subject "
 "{g|ConditionBlind}blinded{/g}."
-msgstr "비생명의 힘을 투사해 대상을 {g|ConditionBlind}실명{/g} 상태로 만듭니다."
+msgstr "부정한 생명의 힘을 투사해 대상을 {g|ConditionBlind}실명{/g} 상태로 만듭니다."
 
 #. File = Spells/Level2/Blindness
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -50552,11 +50552,10 @@ msgid ""
 "{g|Encyclopedia:HP}hit points{/g} equal to {g|Encyclopedia:Dice}1d10{/g} + 1 "
 "per {g|Encyclopedia:Caster_Level}caster level{/g} (maximum +10)."
 msgstr ""
-"비생명의 힘을 끌어내 잠시나마 {g|Encyclopedia:Injury_Death}죽음{/g}을 회피할 "
-"수 있는 능력을 자신에게 부여합니다. {g|Encyclopedia:Spell}주문{/g}의 "
-"지속시간 동안 {g|Encyclopedia:Dice}1d10{/g} + {g|Encyclopedia:Caster_Level}"
-"시전자 레벨{/g}당 1(최대 +10)의 임시 {g|Encyclopedia:HP}생명점{/g}을 "
-"얻습니다."
+"부정한 생명의 힘을 끌어내 잠시나마 {g|Encyclopedia:Injury_Death}죽음{/g}을 회피할 수 있는 능력을 자신에게 "
+"부여합니다. {g|Encyclopedia:Spell}주문{/g}의 지속시간 동안 {g|Encyclopedia:Dice}1d10{/g} + "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g}당 1(최대 +10)의 임시 "
+"{g|Encyclopedia:HP}생명점{/g}을 얻습니다."
 
 #. File = Spells/Level2/FindTraps
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -56288,10 +56287,10 @@ msgid ""
 "that the creature is free of the spell, curse, or effect. Break enchantment "
 "only works on spells of 5th level or lower."
 msgstr ""
-"이 {g|Encyclopedia:Spell}주문{/g}은 부여학파, 변환학파 및 저주로부터 피해자를 해방시킵니다. 부여 파해는 즉발 "
+"이 {g|Encyclopedia:Spell}주문{/g}은 환혹학파, 변환학파 주문 및 저주로부터 피해자를 해방시킵니다. 부여 파해는 즉발 "
 "효과까지도 되돌릴 수 있습니다. 해당하는 각 효과가 가진 11+ 시전자 레벨의 {g|Encyclopedia:DC}DC{/g}에 대해 "
 "{g|Encyclopedia:Caster_Level}시전자 레벨{/g} {g|Encyclopedia:Check}판정{/g} (1d20 + "
-"시전자 레벨, 최대 +15)을 실시합니다. 성공하면 그 부여학파, 변환학파 및 저주 효과를 종료 시킵니다. 부여 파해는 오직 5레벨 "
+"시전자 레벨, 최대 +15)을 실시합니다. 성공하면 해당 환혹학파, 변환학파 및 저주 효과를 종료시킵니다. 부여 파해는 오직 5레벨 "
 "이하의 주문에만 효과가 있습니다."
 
 #. File = Spells/Level5/BreakEnchantment
@@ -63655,7 +63654,7 @@ msgid ""
 "{g|Encyclopedia:Combat_Round}round{/g} to avoid being "
 "{g|ConditionNauseated}nauseated{/g} for 1 round."
 msgstr ""
-"이 부여학파 주문에 영향받은 크리처는 황홀경 상태에 빠집니다. {g|Encyclopedia:Spell}주문{/g}의 지속시간이 끝날 "
+"이 환혹학파 주문에 영향받은 크리처는 황홀경 상태에 빠집니다. {g|Encyclopedia:Spell}주문{/g}의 지속시간이 끝날 "
 "때까지, 크리처의 이동 {g|Encyclopedia:Speed}속도{/g}는 반으로 줄어들고 매 "
 "{g|Encyclopedia:Combat_Round}라운드{/g}마다 {g|Encyclopedia:Saving_Throw}의지 내성 "
 "굴림{/g}에 실패하면 1 라운드 동안 {g|ConditionNauseated}구토{/g} 상태가 됩니다."
