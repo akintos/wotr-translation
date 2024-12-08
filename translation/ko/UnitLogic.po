@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-12-02 04:43+0000\n"
+"PO-Revision-Date: 2024-12-08 03:43+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -392,7 +392,7 @@ msgstr "혼란"
 msgctxt "cbb8f323-22e3-4eb8-89c1-0adbf823fe7d"
 msgid ""
 "Unit has a +30% bonus to maximum HP and a +10 bonus to all ability scores."
-msgstr "유닛은 최대 HP에 +30% 보너스, 모든 능력치 점수에 +10 보너스를 받습니다."
+msgstr "유닛은 최대 HP에 +30% 보너스, 모든 능력치에 +10 보너스를 받습니다."
 
 #. File = Armies/Abilities/ArmyCureModerateWounds
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -2016,9 +2016,9 @@ msgid ""
 msgstr ""
 "대문이 비명 지릅니다. 50피트 범위 안의 모든 크리처는 ({g|Encyclopedia:DC}DC{/g} 35) "
 "{g|Encyclopedia:Saving_Throw}인내 내성 굴림{/g}에 실패하면 {g|Encyclopedia:HP}HP{/g}에 "
-"170 {g|Encyclopedia:Damage}피해{/g}, 모든 {g|Encyclopedia:Ability_Scores}능력치 "
-"점수{/g}에 {g|Encyclopedia:Dice}1d4{/g} 피해를 입습니다.({g|Encyclopedia:Strength}힘{/g}"
-", {g|Encyclopedia:Dexterity}민첩{/g}, {g|Encyclopedia:Constitution}건강{/g}, "
+"170 {g|Encyclopedia:Damage}피해{/g}, 모든 {g|Encyclopedia:Ability_Scores}능력치{/g}"
+"에 {g|Encyclopedia:Dice}1d4{/g} 피해를 입습니다.({g|Encyclopedia:Strength}힘{/g}, "
+"{g|Encyclopedia:Dexterity}민첩{/g}, {g|Encyclopedia:Constitution}건강{/g}, "
 "{g|Encyclopedia:Wisdom}지혜{/g}, {g|Encyclopedia:Intelligence}지능{/g}, "
 "{g|Encyclopedia:Charisma}매력{/g}) 내성 굴림에 성공하면 피해를 무효화합니다."
 
@@ -30024,7 +30024,7 @@ msgid ""
 "Once a creature has benefited from this hex, it cannot benefit from it again "
 "for 24 hours."
 msgstr ""
-"대상은 두 {g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 대해 최대 4점의 "
+"대상은 두 {g|Encyclopedia:Ability_Scores}능력치{/g}에 대해 최대 4점의 "
 "{g|Encyclopedia:AbilityDamage}능력치 피해{/g}를 {g|Encyclopedia:Healing}치유{/g}합니다."
 "\n"
 "이 주술로 혜택을 받은 크리처는 24시간 동안 동일한 주술의 혜택을 받지 못합니다."
@@ -30556,7 +30556,7 @@ msgid ""
 msgstr ""
 "건강에 +1의 강화 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다. 이 보너스는 위저드 레벨이 5 오를 때마다 +1이 "
 "되며, 20레벨에 최대 +5가 됩니다. 자유롭게 보너스를 얻는 능력치를 바꿀 수 있습니다. 20레벨에 이 보너스는 원하는 두 가지 신체 "
-"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 적용됩니다."
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 적용됩니다."
 
 #. File = Classes/Wizard/Transmutation/TransmutationPhysicalEnhancementToggleConstitution
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
@@ -30586,7 +30586,7 @@ msgid ""
 msgstr ""
 "민첩에 +1의 강화 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다. 이 보너스는 위저드 레벨이 5 오를 때마다 +1이 "
 "되며, 20레벨에 최대 +5가 됩니다. 자유롭게 보너스를 얻는 능력치를 바꿀 수 있습니다. 20레벨에 이 보너스는 원하는 두 가지 신체 "
-"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 적용됩니다."
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 적용됩니다."
 
 #. File = Classes/Wizard/Transmutation/TransmutationPhysicalEnhancementToggleDexterity
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
@@ -30616,7 +30616,7 @@ msgid ""
 msgstr ""
 "힘에 +1의 강화 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다. 이 보너스는 위저드 레벨이 5 오를 때마다 +1이 "
 "되며, 20레벨에 최대 +5가 됩니다. 자유롭게 보너스를 얻는 능력치를 바꿀 수 있습니다. 20레벨에 이 보너스는 원하는 두 가지 신체 "
-"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 적용됩니다."
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 적용됩니다."
 
 #. File = Classes/Wizard/Transmutation/TransmutationPhysicalEnhancementToggleStrength
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
@@ -34132,7 +34132,7 @@ msgid ""
 msgstr ""
 "이 효과를 받는 크리처는 모든 정신 영향 효과, 즉사 효과, 질병, 마비, 독, 수면 효과, 기절에 면역을 얻습니다. 비치명 "
 "{g|Encyclopedia:Damage}피해{/g}, {g|Encyclopedia:AbilityDamage}능력치 소진{/g}, 원기 "
-"소진에는 적용되지 않습니다. 육체 {g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 대한 피해, 탈진, 피로에 "
+"소진에는 적용되지 않습니다. 육체 {g|Encyclopedia:Ability_Scores}능력치{/g}에 대한 피해, 탈진, 피로에 "
 "면역을 얻습니다.({g|Encyclopedia:Constitution}건강{/g}, {g|Encyclopedia:Strength}힘{/g}"
 ", {g|Encyclopedia:Dexterity}민첩{/g}) 그 대신, 양에너지 전달과 음에너지 전달 모두에 피해 입습니다."
 
@@ -36156,8 +36156,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to random {g|Encyclopedia:Ability_Scores}"
 "ability score{/g} for a day."
 msgstr ""
-"태초 세계 고기 파이를 먹으면 하루 동안 무작위 {g|Encyclopedia:Ability_Scores}"
-"능력치 점수{/g}에 +4 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
+"태초 세계 고기 파이를 먹으면 하루 동안 무작위 {g|Encyclopedia:Ability_Scores}능력치{/g}에 +4 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 얻습니다."
 
 #. File = Items/Cooking/BuffsParty/FirstWorldMincePieBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -36453,8 +36453,8 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to all {g|Encyclopedia:Ability_Scores}"
 "ability scores{/g} for a day."
 msgstr ""
-"타오르는 타코를 먹으면 하루 동안 모든 {g|Encyclopedia:Ability_Scores}능력치 "
-"점수{/g}에 +4 요리 {g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
+"타오르는 타코를 먹으면 하루 동안 모든 {g|Encyclopedia:Ability_Scores}능력치{/g}에 +4 요리 "
+"{g|Encyclopedia:Bonus}보너스{/g}를 받습니다."
 
 #. File = Items/Cooking/BuffsParty/MagicalSoups/CremeSoupWithaSnoutBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -37699,7 +37699,7 @@ msgid ""
 "undead creatures. This effect lasts for (1×mythic rank) days. This is a "
 "death effect."
 msgstr ""
-"대상 부대의 모든 유닛은 명중, 내성 굴림, 능력치 점수에 -2 페널티, 최대 HP에 -10% 페널티를 받습니다. 이 주문은 언데드 "
+"대상 부대의 모든 유닛은 명중, 내성 굴림, 능력치에 -2 페널티, 최대 HP에 -10% 페널티를 받습니다. 이 주문은 언데드 "
 "크리처에게는 작용하지 않습니다. 이 효과는 (1×신화 레벨) 일 만큼 지속됩니다. 이는 죽음 효과입니다."
 
 #. File = Kingdom/GlobalMapRituals/GlobalSpellLichEnervation
@@ -37726,8 +37726,8 @@ msgid ""
 "attack, AC and saving throws, and a -10% penalty to maximum HP. This effect "
 "lasts for 3 days. This is a death effect. This move can only be used once."
 msgstr ""
-"대상 부대의 모든 유닛은 모든 능력치 점수, 명중, AC, 내성 굴림에 -2 페널티, 최대 HP에 -10% 페널티를 받습니다. 이 효과는 "
-"3일 동안 지속됩니다. 이는 죽음 효과입니다. 이 행동은 한 번 만 사용할 수 있습니다."
+"대상 부대의 모든 유닛은 모든 능력치, 명중, AC, 내성 굴림에 -2 페널티, 최대 HP에 -10% 페널티를 받습니다. 이 효과는 3일 "
+"동안 지속됩니다. 이는 죽음 효과입니다. 이 행동은 한 번 만 사용할 수 있습니다."
 
 #. File = Kingdom/GlobalMapRituals/GlobalSpellNegativeEnergyBlast
 #. Type = Kingmaker.Crusade.GlobalMagic.BlueprintGlobalMagicSpell
@@ -40772,7 +40772,7 @@ msgid ""
 "{g|Encyclopedia:Bonus}bonus{/g} to two {g|Encyclopedia:Ability_Scores}"
 "ability scores{/g}. Simultaneously only one such effect can be in place."
 msgstr ""
-"데몬 대군주는 자신의 두 {g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 +2 불경 "
+"데몬 대군주는 자신의 두 {g|Encyclopedia:Ability_Scores}능력치{/g}에 +2 불경 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 부여할 수 있습니다. 이러한 효과는 오직 하나만 활성화될 수 있습니다."
 
 #. File = Mythic/Demon/DemonQuestReward/DemonicOverlord/ProfaneAscensionAbility1
@@ -40928,7 +40928,7 @@ msgid ""
 "to an {g|Encyclopedia:Ability_Scores}ability score{/g}. Simultaneously only "
 "one such effect can be in place."
 msgstr ""
-"데몬 지배자는 자신의 {g|Encyclopedia:Ability_Scores}능력치 점수{/g} 하나에 +2 불경 "
+"데몬 지배자는 자신의 {g|Encyclopedia:Ability_Scores}능력치{/g} 하나에 +2 불경 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 부여할 수 있습니다. 이 효과는 한 번에 하나만 활성화할 수 있습니다."
 
 #. File = Mythic/Demon/DemonQuestReward/DemonicRegent/ProfaneBendeictionAbility
@@ -42834,8 +42834,8 @@ msgstr ""
 "한 영역에 끔찍한 흉물을 만들어 냅니다. 그것은 영역 안의 모든 이를 {g|Encyclopedia:Attack}공격{/g}하며, 넘어 "
 "뜨리기를 시도하고 ({g|Encyclopedia:BAB}BAB{/g}대신 시전자 레벨을, "
 "{g|Encyclopedia:Strength}힘{/g} 대신 {g|Encyclopedia:Spell}주문 시전{/g} "
-"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}를 사용), {g|Encyclopedia:Dice}2d6{/g} "
-"+ {g|Encyclopedia:Caster_Level}시전자 레벨{/g} 만큼의 피해를 가하고, 속박한 뒤 1d4 무작위 육체 능력치 "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}를 사용), {g|Encyclopedia:Dice}2d6{/g} + "
+"{g|Encyclopedia:Caster_Level}시전자 레벨{/g} 만큼의 피해를 가하고, 속박한 뒤 1d4 무작위 육체 능력치 "
 "피해를 가합니다. 영역은 시전자 레벨만큼의 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 지속됩니다."
 
 #. File = Mythic/Lich/LichSpells/DomainOfTheHungryFlesh
@@ -63014,9 +63014,10 @@ msgstr ""
 "이 {g|Encyclopedia:Spell}주문{/g}은 {g|SpellsRestorationLesser}하급 상태회복{/g}과 "
 "비슷하지만, {g|Encyclopedia:Healing}치유{/g} 받는 크리처의 모든 영구 또는 임시 음수 레벨을 해제한다는 점이 "
 "다릅니다. 또한 상급 상태회복은 크리처의 능력을 저해하는 모든 마법적 효과를 해제하고, 모든 "
-"{g|Encyclopedia:AbilityDamage}능력치 피해{/g}와 소진된 {g|Encyclopedia:Ability_Scores}"
-"능력치 점수{/g}를 회복시킵니다. {g|ConditionFatigued}피로{/g}와 {g|ConditionExhausted}탈진{/g}"
-", 모든 형태의 광기, {g|ConditionConfusion}혼란{/g} 및 그와 유사한 정신 효과를 제거합니다."
+"{g|Encyclopedia:AbilityDamage}능력치 피해{/g}와 소진된 "
+"{g|Encyclopedia:Ability_Scores}능력치{/g}를 회복시킵니다. {g|ConditionFatigued}피로{/g}와 "
+"{g|ConditionExhausted}탈진{/g}, 모든 형태의 광기, {g|ConditionConfusion}혼란{/g} 및 그와 "
+"유사한 정신 효과를 제거합니다."
 
 #. File = Spells/Level7/RestorationGreater
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -68948,10 +68949,10 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g} effect."
 msgstr ""
 "사바멜레크가 자신의 신화적인 힘을 사용해 추종자 사이에 타락을 퍼뜨립니다. 영향받은 크리처는 모든 "
-"{g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 +4 불경 "
-"{g|Encyclopedia:Bonus}보너스{/g}, {g|Encyclopedia:Armor_Class}AC{/g}에 +4 자연 방어 "
-"보너스를 받고 {g|SpellsWavesOfExhaustion}피로의 파동{/g} {g|Encyclopedia:Spell}주문{/g} "
-"효과에 대해 면역을 얻습니다."
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 +4 불경 {g|Encyclopedia:Bonus}보너스{/g}, "
+"{g|Encyclopedia:Armor_Class}AC{/g}에 +4 자연 방어 보너스를 받고 "
+"{g|SpellsWavesOfExhaustion}피로의 파동{/g} {g|Encyclopedia:Spell}주문{/g} 효과에 대해 "
+"면역을 얻습니다."
 
 #. File = Units/Monsters/Demon Vrolikai/MongrelQuest/SavamelehMythicAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -70735,15 +70736,13 @@ msgid ""
 "Wisdom ability scores for {g|Encyclopedia:Dice}1d4{/g} rounds and are immune "
 "to such riddles for the same duration."
 msgstr ""
-"머리 속에서 아레시카갈의 수수께끼가 들립니다. {g|Encyclopedia:Saving_Throw}"
-"의지 내성 굴림{/g}에 실패하면 풀 수 없는 질문들에 삼켜져 3 "
-"{g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
+"머리 속에서 아레시카갈의 수수께끼가 들립니다. {g|Encyclopedia:Saving_Throw}의지 내성 굴림{/g}에 실패하면 풀 "
+"수 없는 질문들에 삼켜져 3 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 "
 "{g|Encyclopedia:Intelligence}지능{/g}과 {g|Encyclopedia:Wisdom}지혜{/g} "
-"{g|Encyclopedia:Ability_Scores}능력치{/g}에 -4 "
-"{g|Encyclopedia:Penalty}페널티{/g}를 받고 1 라운드 동안 행동할 수 없습니다. "
-"이 페널티는 중첩되지 않습니다. 의지 내성 굴림에 성공하면 "
-"{g|Encyclopedia:Dice}1d4{/g} 라운드 동안 지혜와 지능 능력치 점수에 -2 "
-"페널티를 받고 동일한 시간 동안 이 효과에 면역을 얻습니다."
+"{g|Encyclopedia:Ability_Scores}능력치{/g}에 -4 {g|Encyclopedia:Penalty}페널티{/g}를 "
+"받고 1 라운드 동안 행동할 수 없습니다. 이 페널티는 중첩되지 않습니다. 의지 내성 굴림에 성공하면 "
+"{g|Encyclopedia:Dice}1d4{/g} 라운드 동안 지혜와 지능 능력치에 -2 페널티를 받고 동일한 시간 동안 이 효과에 "
+"면역을 얻습니다."
 
 #. File = Units/NPC/Commoners/Act_5_HeraldOfTheIvoryLabyrinth/AreshkagalDungeon/AreshkagalBoss/AreshkaFeats/RiddleOfEternityAbility
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -72265,7 +72264,7 @@ msgid ""
 msgstr ""
 "서큐버스는 하루에 한 번 {g|Encyclopedia:Full_Round_Action}라운드 전체 행동{/g}으로 효과를 받기를 원하는 "
 "인간형 크리처와 1 전체 {g|Encyclopedia:Combat_Round}라운드{/g} 동안 접촉하여 불경한 선물을 줄 수 있습니다. "
-"대상은 그가 선택한 {g|Encyclopedia:Ability_Scores}능력치 점수{/g}에 +2 불경 "
+"대상은 그가 선택한 {g|Encyclopedia:Ability_Scores}능력치{/g}에 +2 불경 "
 "{g|Encyclopedia:Bonus}보너스{/g}를 받습니다. 한 크리처는 서큐버스로부터 둘 이상의 불경한 선물을 받을 수 없습니다."
 
 #. File = Units/NPC/Commoners/Demon Succubus/Lair/Lair_SuccubusBossProfaneBonusesDEX
