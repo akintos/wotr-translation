@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2024-12-08 03:43+0000\n"
+"PO-Revision-Date: 2024-12-12 10:43+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -49,7 +49,7 @@ msgstr ""
 "DC 16 {g|Encyclopedia:Saving_Throw}의지 내성{/g}에 실패 할 경우 공포로 인해 6 "
 "{g|Encyclopedia:Combat_Round}라운드{/g} 동안 {g|ConditionParalyzed}마비{/g}되며, 성공 시 "
 "같은 시간 동안 {g|ConditionShaken}동요{/g} 상태에 빠집니다. 대상은 매 라운드마다 "
-"{g|ConditionFrightened}공포{/g}에 대한 내성 굴림을 시도 할 수 있습니다."
+"{g|ConditionFrightened}겁먹음{/g} 상태에 대한 내성 굴림을 시도 할 수 있습니다."
 
 #. File = Abilities/TrollhoudnHowl
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -638,7 +638,7 @@ msgstr "대상 유닛에게 (마력d6×유닛 수) 만큼의 냉기 피해를 �
 #. Path = m_DisplayName
 msgctxt "4014b22f-1e5a-4711-aea7-4cbea4ec4948"
 msgid "Eye Rays (Electricity)"
-msgstr "눈알빔 (전기)"
+msgstr "눈 광선 (전기)"
 
 #. File = Armies/Abilities/ArmyRetrieverEyerRay_Electricity
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -2351,7 +2351,7 @@ msgstr ""
 "수 없습니다</b>\n"
 "당신의 캐릭터는 <b>치명적인 부상을 입어도 사망하지 않습니다</b>. 대신, <b>죽음의 문턱</b> 상태를 받게 됩니다. 만약 죽음의 "
 "문턱 상태의 캐릭터가 치명적인 부상을 입으면, 사망합니다. 안전하고 편안한 곳에서 휴식을 취하면 죽음의 문턱 상태를 제거할 수 있습니다. "
-"이외에도 즉사 효과, 원기 소진, 독 또는 다른 효과에 의해서 사망할 수 있습니다.\n"
+"이외에도 죽음 효과, 원기 소진, 독 또는 다른 효과에 의해서 사망할 수 있습니다.\n"
 "주인공이 사망하면 게임이 끝납니다. 동료가 죽으면 소생 또는 대부분의 모험가가 지불하기 어려워하는 매우 비싼 서비스를 통해 부활시킬 수 "
 "있습니다."
 
@@ -9978,7 +9978,7 @@ msgstr ""
 "받은 크리처의 {g|Encyclopedia:HP}생명점{/g}이 해당 크리처의 건강 능력치의 음수보다 높다면 대상은 되살아나고 새로운 "
 "생명점을 가진 채로 안정 상태가 됩니다. 만약 크리처의 생명점이 해당 크리처의 건강 수치의 음수와 같거나 그보다 낮다면 크리처는 죽은 "
 "상태로 남아있습니다. 생명의 숨결 주문을 통해 살아난 크리처는 하루 동안 일시적으로 레벨이 1 감소합니다.\n"
-"즉사 효과로 인해 죽은 크리처는 생명의 숨결을 통해 되살릴 수 없습니다.\n"
+"죽음 효과로 인해 죽은 크리처는 생명의 숨결을 통해 되살릴 수 없습니다.\n"
 "다른 치료 주문들과 같이, 생명의 숨결은 언데드 크리처에게는 치료 대신 피해를 주며, 언데드를 되살리지 않습니다."
 
 #. File = Classes/Arcanist/Archetypes/WhiteMage/WhiteMageBreathOfLifeCast
@@ -10520,7 +10520,7 @@ msgstr ""
 "어쌔신은 자신을 인식하지 못한 대상에게 근접 무기로 특별한 {g|Encyclopedia:Attack}공격{/g}을 시도할 수 있습니다. "
 "이 공격은 어쌔신의 선택에 따라 대상을 마비 또는 즉사시키는 효과를 가집니다. 이 즉사 공격은 "
 "{g|Encyclopedia:Full_Round_Action}라운드 전체 행동{/g}입니다. 대상이 어쌔신을 감지하거나 적으로 인식하면 "
-"즉사 공격은 실패합니다. 만일 즉사 공격의 희생자가 즉사 효과에 대해 ({g|Encyclopedia:DC}DC{/g} 10 + 어쌔신의 "
+"즉사 공격은 실패합니다. 만일 즉사 공격의 희생자가 죽음 효과에 대해 ({g|Encyclopedia:DC}DC{/g} 10 + 어쌔신의 "
 "{g|Encyclopedia:Class_Level}클래스 레벨{/g} + 어쌔신의 "
 "{g|Encyclopedia:Intelligence}지능{/g} 수정치) {g|Encyclopedia:Saving_Throw}인내 "
 "내성{/g}에 실패하면 사망합니다. 마비 효과에 대한 내성 굴림에 실패하면 희생자는 "
@@ -11317,28 +11317,28 @@ msgstr "치명 태세"
 #. Path = m_DisplayName
 msgctxt "360b7a06-cf8b-4bde-89d8-3873777cfbd7"
 msgid "Inspire Ferocity"
-msgstr "흉포성 고무"
+msgstr "흉포함 고취"
 
 #. File = Classes/Barbarian/RagePowers/RecklessStancePowers/InspireFerocityEffectBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "581a79d5-cc2c-4c4e-9de8-266f23f1dcfa"
 msgid "Inspire Ferocity"
-msgstr "흉포성 고무"
+msgstr "흉포함 고취"
 
 #. File = Classes/Barbarian/RagePowers/RecklessStancePowers/InspireFerocityRageBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
 #. Path = m_DisplayName
 msgctxt "c25a8eb2-4e9c-4f64-88ad-495673588a35"
 msgid "Inspire Ferocity"
-msgstr "흉포성 고무"
+msgstr "흉포함 고취"
 
 #. File = Classes/Barbarian/RagePowers/RecklessStancePowers/InspireFerocityToggleAbility
 #. Type = Kingmaker.UnitLogic.ActivatableAbilities.BlueprintActivatableAbility
 #. Path = m_DisplayName
 msgctxt "c15c72e2-1607-425f-bd23-f3b702d5a9b8"
 msgid "Inspire Ferocity"
-msgstr "흉포성 고무"
+msgstr "흉포함 고취"
 
 #. File = Classes/Barbarian/RagePowers/RecklessStancePowers/RecklessStanceEffectBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -12115,7 +12115,7 @@ msgid ""
 "addition, all {g|Encyclopedia:NaturalAttack}natural attacks{/g} count as if "
 "they were silver and cold iron."
 msgstr ""
-"10레벨에 흉포성 고무는 영향받은 모든 아군에게 {g|SpellsMagicFang}마법 송곳니{/g} "
+"10레벨에 흉포함 고취는 영향받은 모든 아군에게 {g|SpellsMagicFang}마법 송곳니{/g} "
 "{g|Encyclopedia:Spell}주문{/g}의 효과를 부여합니다. 이에 더해 모든 "
 "{g|Encyclopedia:NaturalAttack}자연 공격{/g}은 은 또는 한철로 취급됩니다."
 
@@ -12127,7 +12127,7 @@ msgid ""
 "At 14th level inspire ferocity makes all {g|Encyclopedia:NaturalAttack}"
 "natural attacks{/g} by affected allies count as if they were adamantine."
 msgstr ""
-"14레벨에 흉포성 고무는 영향받은 모든 아군의 {g|Encyclopedia:NaturalAttack}자연 공격{/g}을 아다만틴으로 "
+"14레벨에 흉포함 고취는 영향받은 모든 아군의 {g|Encyclopedia:NaturalAttack}자연 공격{/g}을 아다만틴으로 "
 "취급받게 합니다."
 
 #. File = Classes/Bard/Archetypes/BeastTamer/InspireFerocity/BeastTamerInspireFerocity18EffectBuff
@@ -12139,7 +12139,7 @@ msgid ""
 "{g|SpellsGreaterMagicFang}greater magic fang{/g} "
 "{g|Encyclopedia:Spell}spell{/g}."
 msgstr ""
-"18레벨에 흉포성 고무는 영향 받은 아군에게 {g|SpellsGreaterMagicFang}상급 마법 송곳니{/g} "
+"18레벨에 흉포함 고취는 영향 받은 아군에게 {g|SpellsGreaterMagicFang}상급 마법 송곳니{/g} "
 "{g|Encyclopedia:Spell}주문{/g}의 효과를 부여합니다."
 
 #. File = Classes/Bard/Archetypes/Thundercaller/InciteRageAll/InciteRageAllBuff
@@ -14482,7 +14482,7 @@ msgid ""
 "prepared spells."
 msgstr ""
 "이 {g|Encyclopedia:Spell}주문{/g}은 {g|SpellsRaiseDead}소생{/g}과 같은 기능을 하지만, 모든 "
-"사망한 크리처, 심지어는 즉사 효과 또는 분해로 인해 사망한 크리처까지도 되살릴 수 있으며, 완전한 상태로 회복시킨다는 점에서 다릅니다."
+"사망한 크리처, 심지어는 죽음 효과 또는 분해로 인해 사망한 크리처까지도 되살릴 수 있으며, 완전한 상태로 회복시킨다는 점에서 다릅니다."
 "\n"
 "주문이 완성되면, 대상 크리처는 즉시 완전한 {g|Encyclopedia:HP}생명점{/g}, 활기 및 건강으로 회복되며, 준비된 주문도 "
 "잃지 않습니다."
@@ -16862,11 +16862,11 @@ msgstr ""
 "{g|Encyclopedia:Attack}공격{/g}을 할 수 없으며 주변 영역을 "
 "{g|Encyclopedia:Threatened_Area}위협{/g}하지 않습니다. 회오리바람 속의 크리처들은 "
 "{g|Encyclopedia:Dexterity}민첩{/g}에 –4 {g|Encyclopedia:Penalty}페널티{/g}, 명중 굴림에 "
-"–2 페널티를 받으며, 주문 시전 시{g|Encyclopedia:Concentration}집중 판정{/g} "
-"({g|Encyclopedia:DC}DC{/g} 15 + {g|Encyclopedia:Spell}주문{/g}의 레벨) 에 성공해야 "
-"합니다. 영향을 받은 크리처는 각 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
+"–2 페널티를 받으며, 주문 시전 시 {g|Encyclopedia:Concentration}집중 판정{/g} "
+"({g|Encyclopedia:DC}DC{/g} 15 + {g|Encyclopedia:Spell}주문{/g}의 레벨)에 성공해야 합니다. "
+"영향을 받은 크리처는 각 {g|Encyclopedia:Combat_Round}라운드{/g}마다 "
 "{g|Encyclopedia:Saving_Throw}반사 내성{/g} (DC 10 + 눈보라 하수인의 레벨 절반 + 눈보라 하수인의 "
-"{g|Encyclopedia:Strength}힘{/g} 수정치) 을 시도해 실패 시 눈보라 하수인의 가시 공격에 맞은 것처럼 "
+"{g|Encyclopedia:Strength}힘{/g} 수정치)을 시도해 실패 시 눈보라 하수인의 가시 공격에 맞은 것처럼 "
 "{g|Encyclopedia:Damage}피해{/g}를 받습니다."
 
 #. File = Classes/Druid/Archetypes/WinterChild/BlizzardServant/BlizzardServantWhirlwind/BlizzardServantWhirlwindDebuff
@@ -32634,7 +32634,7 @@ msgid ""
 msgstr ""
 "소유자는 하루에 한 번 {g|Encyclopedia:Free_Action}자유 행동{/g}으로 장치에 내장된 나노 기기를 5 "
 "{g|Encyclopedia:Combat_Round}라운드{/g} 동안 활성화하여 {g|Encyclopedia:Fast_Healing}"
-"빠른 치유{/g} 5와 독, 즉사 효과, 마비, 기절, 질병에 대한 면역을 얻습니다. 또한 지정 폭탄 혼합물의 효과를 받습니다. 소유자의 "
+"빠른 치유{/g} 5와 독, 죽음 효과, 마비, 기절, 질병에 대한 면역을 얻습니다. 또한 지정 폭탄 혼합물의 효과를 받습니다. 소유자의 "
 "레벨이 16 이상이면 집중 고양의 지속시간이 10 라운드로 증가합니다."
 
 #. File = Equipment/Bracers/GearsRuleBuff
@@ -33607,7 +33607,7 @@ msgid ""
 "{g|Encyclopedia:Spell}spell{/g} and a +2 {g|Encyclopedia:Bonus}bonus{/g} on "
 "{g|Encyclopedia:Saving_Throw}saving throws{/g} against death effects."
 msgstr ""
-"이 반지는 착용자에게 상급 거짓 생명 {g|Encyclopedia:Spell}주문{/g}의 효과와 즉사 효과에 대한 "
+"이 반지는 착용자에게 상급 거짓 생명 {g|Encyclopedia:Spell}주문{/g}의 효과와 죽음 효과에 대한 "
 "{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 {g|Encyclopedia:Bonus}보너스{/g}를 "
 "부여합니다."
 
@@ -34130,7 +34130,7 @@ msgid ""
 "{g|Encyclopedia:Strength}Strength{/g}), as well as to exhaustion and fatigue "
 "effects. However, both positive and negative energy deal damage to it."
 msgstr ""
-"이 효과를 받는 크리처는 모든 정신 영향 효과, 즉사 효과, 질병, 마비, 독, 수면 효과, 기절에 면역을 얻습니다. 비치명 "
+"이 효과를 받는 크리처는 모든 정신 영향 효과, 죽음 효과, 질병, 마비, 독, 수면 효과, 기절에 면역을 얻습니다. 비치명 "
 "{g|Encyclopedia:Damage}피해{/g}, {g|Encyclopedia:AbilityDamage}능력치 소진{/g}, 원기 "
 "소진에는 적용되지 않습니다. 육체 {g|Encyclopedia:Ability_Scores}능력치{/g}에 대한 피해, 탈진, 피로에 "
 "면역을 얻습니다.({g|Encyclopedia:Constitution}건강{/g}, {g|Encyclopedia:Strength}힘{/g}"
@@ -49940,7 +49940,7 @@ msgid ""
 "{g|Encyclopedia:Damage}damage{/g} + 1 point per {g|Encyclopedia:Caster_Level}"
 "caster level{/g} (maximum +10)."
 msgstr ""
-"기도를 통해 상처입은 크리처에게 장시간 지속되는 도움을 제공합니다. 주문 지속시간 동안, 대상은 공포 및 즉사 효과에 대한 "
+"기도를 통해 상처입은 크리처에게 장시간 지속되는 도움을 제공합니다. 주문 지속시간 동안, 대상은 공포 및 죽음 효과에 대한 "
 "{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
 "받습니다. 또한 {g|Encyclopedia:Spell}주문{/g}의 지속시간 중 대상은 언제든지 "
 "{g|Encyclopedia:Swift_Action}신속 행동{/g}으로 주문을 해제할 수 있습니다. 이러할 경우 대상은 내성 굴림에 "
@@ -59866,7 +59866,7 @@ msgstr ""
 "{g|Encyclopedia:Attack}명중 굴림{/g}, {g|Encyclopedia:Damage}피해 굴림{/g} 및 "
 "{g|Encyclopedia:Saving_Throw}내성 굴림{/g}에 +2 사기 {g|Encyclopedia:Bonus}보너스{/g}를 "
 "얻습니다.\n"
-"즉사 효과로 죽은 크리처는 이 효과로 부활 할 수 없습니다. 이 주문은 언데드 크리처에게는 피해를 입히며, 부활시킬 수 없습니다."
+"죽음 효과로 죽은 크리처는 이 효과로 부활 할 수 없습니다. 이 주문은 언데드 크리처에게는 피해를 입히며, 부활시킬 수 없습니다."
 
 #. File = Spells/Level6/InspiringRecoveryBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -68608,7 +68608,7 @@ msgstr ""
 "{g|Encyclopedia:Strength}힘{/g}, {g|Encyclopedia:Dexterity}민첩{/g}, "
 "{g|Encyclopedia:Constitution}건강{/g} {g|Encyclopedia:Ability_Scores}능력치{/g}에 +"
 "4 불경 {g|Encyclopedia:Bonus}보너스{/g}를 얻습니다. 보가 무리는 한 번에 셋 이하의 다른 크리처의 생명력을 섭취할 "
-"수 있습니다. 이는 즉사 효과입니다."
+"수 있습니다. 이는 죽음 효과입니다."
 
 #. File = Units/Monsters/Demon Kakuen-taka/DLC4_Bhoga_Raise
 #. Type = Kingmaker.UnitLogic.Abilities.Blueprints.BlueprintAbility
@@ -73549,8 +73549,8 @@ msgid ""
 "resistance{/g} equal to 5 + the wielders's {g|Encyclopedia:Class_Level}class "
 "level{/g}."
 msgstr ""
-"광휘는 착용자에게 5+착용자의 {g|Encyclopedia:Class_Level}클래스 레벨{/g}"
-"만큼의 {g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 부여합니다."
+"광휘는 착용자에게 5 + 착용자의 {g|Encyclopedia:Class_Level}클래스 레벨{/g}만큼의 "
+"{g|Encyclopedia:Spell_Resistance}주문 저항{/g}을 부여합니다."
 
 #. File = Weapons/Items/UniqueUpgradableArtifacts/RadianceEffectBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
