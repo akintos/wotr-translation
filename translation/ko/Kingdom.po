@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 19:21+0900\n"
-"PO-Revision-Date: 2025-10-09 18:44+0000\n"
+"PO-Revision-Date: 2025-10-15 12:44+0000\n"
 "Last-Translator: OSI <sein4510@naver.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
@@ -2678,9 +2678,8 @@ msgid ""
 "victory. The cost of recruiting mercenary units increases by 100%, "
 "recruitment growth for trainable units reduces by 50%."
 msgstr ""
-"부대는 승리 시, 살해당한 적/275 에 해당하는 유닛 가치의 "
-"{g|Skeletons}[스켈레톤]{/g} 과{g|Zombies}[좀비]{/g} 보충을 받습니다. 용병 "
-"유닛의 모집 비용이 100% 증가하고, 훈련 유닛의 모집 성장이 50% 감소합니다."
+"부대는 승리 시, (살해당한 적의 값/275)만큼 {g|Skeletons}[해골]{/g}과 {g|Zombies}[좀비]{/g} 보충을 "
+"받습니다. 용병 유닛의 모집 비용이 100% 증가하고, 훈련 유닛의 모집 성장이 50% 감소합니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagLich0Necromancy
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -2699,10 +2698,8 @@ msgid ""
 "left the city and intend to fight the Swarm in the field. The fools believe "
 "that they stand a chance of winning in such conditions."
 msgstr ""
-"사령관의 변해버린 모습에 겁에질린 성전의 지휘관들은 드레젠 주둔군의 "
-"잔존병들을 긁어모아 반란을 일으켰습니다. 그들은 도시를 떠났고, 들판에서 "
-"벌레떼와 맞서려 합니다. 이 멍청이들은 이런 상황에서도 승리할 가능성이 있다고 "
-"믿고 있습니다."
+"사령관의 변해버린 모습에 겁에질린 성전의 지휘관들은 드레젠 주둔군의 잔존병들을 긁어모아 반란을 일으켰습니다. 이들은 도시를 떠나, "
+"전장에서 무리와 맞서려 합니다. 이 멍청이들은 이런 상황에서도 승리할 가능성이 있다고 믿고 있습니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagLocust4Plague
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomBuff
@@ -2710,7 +2707,7 @@ msgstr ""
 msgctxt "dcaad749-3fd1-4afe-9e61-72c56afd74cd"
 msgid ""
 "All swarm units gain the {g|GhlaunderPlague}[Ghlaunder Plague]{/g} feat."
-msgstr "모든 벌레떼 유닛이 {g|GhlaunderPlague}[글라운더 역병]{/g} 특기를 얻습니다."
+msgstr "모든 군체 유닛이 {g|GhlaunderPlague}[글라운더 역병]{/g} 특기를 얻습니다."
 
 #. File = Armies/Abilities/BonusFactsForArmy/ArmyLocust4GhlaunderPlagueBuff
 #. Type = Kingmaker.UnitLogic.Buffs.Blueprints.BlueprintBuff
@@ -3372,8 +3369,8 @@ msgid ""
 "but with less than 250 Value, the {g|Mastodons}[Mastodons]{/g} are summoned "
 "for units with 250 or more Value."
 msgstr ""
-"모든 훈련 유닛은 동물 동료를 소환할 수 있게 됩니다. 소환되는 동물 동료의 수는 소환한 유닛의 수와 동일합니다. 유닛들의 유닛 가치가 "
-"30 이하일 경우, {g|Elks}[엘크]{/g}가 소환되고, 30 이상 250 이하일 경우 {g|Centipedes}[지네]{/g}가, "
+"모든 훈련 유닛은 동물 동료를 소환할 수 있게 됩니다. 소환되는 동물 동료의 수는 소환한 유닛의 수와 동일합니다. 유닛의 값이 30 "
+"이하일 경우, {g|Elks}[엘크]{/g}가 소환되고, 30 이상 250 이하일 경우 {g|Centipedes}[지네]{/g}가, "
 "250 이상일 경우 {g|Mastodons}[마스토돈]{/g}이 소환됩니다."
 
 #. File = Armies/CrusadeGlobalBuffs/FlagTrickster6Pets
@@ -8357,8 +8354,8 @@ msgid ""
 "{g|Skeletons}[Skeletons]{/g} and {g|Zombies}[Zombies]{/g} gain the "
 "{g|ElyankasRites}[Elyanka's Rites]{/g} feat."
 msgstr ""
-"{g|Skeletons}[스켈레톤]{/g} 과 {g|Zombies}[좀비]{/g}가 {g|ElyankasRites}[엘얀카의 의식]{/g}"
-" 특기를 얻습니다."
+"{g|Skeletons}[해골]{/g} 과 {g|Zombies}[좀비]{/g}가 {g|ElyankasRites}[엘얀카의 의식]{/g} "
+"특기를 얻습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCProjects/ElyankaUndeadUpgrade_level2
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -8476,7 +8473,7 @@ msgctxt "3f1a6e92-0802-44bb-a49a-56f72551f463"
 msgid ""
 "{g|HagsCurse}[Hags' Curse]{/g} has been removed. Removes units with a total "
 "Value of 1,000."
-msgstr "{g|HagsCurse}[해그의 저주]{/g}가 제거되었습니다. 총 가치가 1,000 이 넘는 유닛이 제거됩니다."
+msgstr "{g|HagsCurse}[해그의 저주]{/g}가 제거되었습니다. 총 1,000의 유닛이 제거됩니다."
 
 #. File = Kingdom/CrusadeProjects/KTCProjects/HagsProblems_Army
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -9005,7 +9002,7 @@ msgstr "잔티르 뱅의 기록물이 연구되었습니다."
 #. Path = m_MechanicalDescription
 msgctxt "1644abbf-056f-4b4f-92d6-ab1d5d008745"
 msgid "Crusade morale reduces by 20. Removes units with a total Value of 500."
-msgstr "성전 사기가 20 감소합니다. 총 가치 합계 500의 유닛들이 제거됩니다."
+msgstr "성전 사기가 20 감소합니다. 총 500의 유닛이 제거됩니다."
 
 #. File = Kingdom/CrusadeProjects/KTCProjects/MythicLocust_XanthirExperiments
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -9159,8 +9156,8 @@ msgid ""
 "{g|Skeletons}[Skeletons]{/g} and {g|Zombies}[Zombies]{/g} gain the "
 "{g|VampiricTouch}[Vampiric Touch]{/g} feat."
 msgstr ""
-"{g|Skeletons}[스켈레톤]{/g} 과 {g|Zombies}[좀비]{/g} 유닛이 "
-"{g|VampiricTouch}[흡혈의 손길]{/g} 특기를 얻습니다."
+"{g|Skeletons}[해골]{/g} 과 {g|Zombies}[좀비]{/g} 유닛이 {g|VampiricTouch}[흡혈의 손길]{/g}"
+" 특기를 얻습니다."
 
 #. File = Kingdom/CrusadeProjects/KTCProjects/SeptimusUndeadUpgrade_level2
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -9286,8 +9283,8 @@ msgid ""
 "{g|SkeletonSharpshooters}[Skeleton Sharpshooters]{/g} are recruited at the "
 "Commander's headquarters."
 msgstr ""
-"사령관의 지휘부에 6 {g|SkeletonChampions}[스켈레톤 챔피언]{/g}과 "
-"{g|SkeletonSharpshooters}[스켈레톤 명사수]{/g}가 모집되었습니다."
+"사령관의 지휘부에 6 {g|SkeletonChampions}[해골 투사]{/g}와 {g|SkeletonSharpshooters}[해골 "
+"명사수]{/g}가 모집되었습니다."
 
 #. File = Kingdom/CrusadeProjects/LeadershipProjects/Event07DeathRedeemsAll
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -10627,11 +10624,9 @@ msgid ""
 "useful experience and, most importantly, prevent them from thinking too much "
 "about harmful ideas."
 msgstr ""
-"신중한 자들의 반란은 아무리 확고하고 충성스러워 보이는 군대라도 도덕적 "
-"부패가 내면을 좀먹고 있을 수도 있으며, 또한 감독이 필요하다는 사실을 "
-"보여주었습니다. 정기적인 군사훈련은 병사들과 장교들이 건장한 육체를 갖도록 "
-"하고, 유용한 경험을 쌓게합니다. 또한 가장 중요한 것은, 그들이 해로운 생각에 "
-"너무 몰두하지 않도록 막아준다는 것입니다."
+"신중파의 폭동은 아무리 확고하고 충성스러워 보이는 군대라도 도덕적 부패가 내면을 좀먹고 있을 수도 있으며, 감독이 필요하다는 사실을 "
+"보여주었습니다. 정기적인 군사 훈련은 병사들과 장교들이 건장한 육체를 갖도록 하고, 유용한 경험을 쌓게 합니다. 또한 가장 중요한 것은, "
+"그들이 해로운 생각에 너무 몰두하지 않도록 막아준다는 것입니다."
 
 #. File = Kingdom/CrusadeProjects/LeadershipProjects/Leadership8LeaderEXP
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -10753,7 +10748,7 @@ msgctxt "55e1ae9b-80d0-411b-9e83-9efe59d6d2c8"
 msgid ""
 "9 {g|SkeletonSharpshooters}[Skeleton Sharpshooters]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr "사령관의 지휘부에 9 {g|SkeletonSharpshooters}[스켈레톤 명사수]{/g}가 모집됩니다."
+msgstr "사령관의 지휘부에 9 {g|SkeletonSharpshooters}[해골 명사수]{/g}가 모집됩니다."
 
 #. File = Kingdom/CrusadeProjects/Lich/Lich3SkeletonArchers
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -10781,8 +10776,7 @@ msgctxt "01b2caa5-8ee5-4a5b-a008-b59bb7cbfb23"
 msgid ""
 "9 {g|SkeletonChampions}[Skeleton Champions]{/g} are recruited at the "
 "Commander's headquarters."
-msgstr "사령관의 지휘부에 9 {g|SkeletonChampions}[스켈레톤 챔피언]{/g}이 "
-"모집되었습니다."
+msgstr "사령관의 지휘부에 9 {g|SkeletonChampions}[해골 투사]{/g}가 모집되었습니다."
 
 #. File = Kingdom/CrusadeProjects/Lich/Lich3Skeletons
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -10813,14 +10807,14 @@ msgctxt "61a45c21-2495-400c-a5ac-f19a04672d95"
 msgid ""
 "45 {g|Skeletons}[Skeletons]{/g} are recruited at the Commander's "
 "headquarters."
-msgstr "사령관의 지휘부에 45 {g|Skeletons}[스켈레톤]{/g}이 모집되었습니다."
+msgstr "사령관의 지휘부에 45 {g|Skeletons}[해골]{/g}이 모집되었습니다."
 
 #. File = Kingdom/CrusadeProjects/Lich/Lich3Skeletons
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
 #. Path = LocalizedName
 msgctxt "26948d5a-8b2a-4d30-a369-cc9deeb5bb15"
 msgid "Skeletons Creation"
-msgstr "스켈레톤 생성"
+msgstr "해골 생성"
 
 #. File = Kingdom/CrusadeProjects/Lich/Lich3UndeadAristocracyForGlossary
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -10832,8 +10826,8 @@ msgid ""
 "{g|Vampires}[Vampires]{/g} are recruited at the Commander's headquarters — "
 "depending on the previous choice."
 msgstr ""
-"사령관의 지휘부에 9 {g|SkeletonSharpshooters}[스켈레톤 명사수]{/g}, 9 {g|SkeletonChampions}["
-"스켈레톤 챔피언]{/g} 또는 10 {g|Vampires}[뱀파이어]{/g}가 모집됩니다. 모집되는 부대는 이전의 선택에 달려있습니다."
+"사령관의 지휘부에 9 {g|SkeletonSharpshooters}[해골 명사수]{/g}, 9 {g|SkeletonChampions}["
+"해골 투사]{/g} 또는 10 {g|Vampires}[뱀파이어]{/g}가 모집됩니다. 모집되는 부대는 이전의 선택에 달려있습니다."
 
 #. File = Kingdom/CrusadeProjects/Lich/Lich3Vampires
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintKingdomProject
@@ -15706,7 +15700,7 @@ msgstr "열망에 찬 사제는 여정에 나섰습니다. 아마 그 누구도 
 msgctxt "89b58e1b-28f2-4f44-abdc-f8e3b62ba867"
 msgid ""
 "{g|Event_2_1}[Choice effects]{/g} Agree, letting the priest go to his death"
-msgstr "{g|Event_2_1}[선택 효과]{/g} 동의, 사제를 필연적인 죽음으로 향하게 한다"
+msgstr "{g|Event_2_1}[선택 효과]{/g} 동의하여, 사제가 죽게 둔다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent02
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -16276,9 +16270,7 @@ msgctxt "8256d1d6-95a1-4d2b-887e-f53ce7611748"
 msgid ""
 "The rumors are lies, but they bring people hope and help them get through "
 "these tough times."
-msgstr ""
-"소문들이 사람들에게 어려운 시기를 이겨낼 힘과 희망을 준다는 사실 앞에서, 그 "
-"소문들이 모두 거짓이라는 사실은 별로 중요하지 않습니다."
+msgstr "소문은 거짓이지만 사람들에게 희망을 주고 힘든 시기를 극복하는 데 도움이 됩니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent06
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -17144,8 +17136,8 @@ msgid ""
 "commanders has been drawing in new recruits."
 msgstr ""
 "소시엘이 두 장교에게 서로 배워야 할 점이 있다고 설득했습니다. 소시엘의 조언을 따라, 조사관들은 두 남자를 같은 임무에 파견했습니다. "
-"그리고 두 남자가 야영지에 돌아왔을 때, 이 둘은 서로 믿을 수 있는 전우가 되어있었습니다. 그들의 부대가 조화롭게 임무를 수행하자, 두 "
-"부대를 지휘하는 두 남자의 명성에 이끌려 성전에 참여하고자 하는 이들이 많아졌습니다."
+"그리고 두 남자가 야영지에 돌아왔을 때, 이 둘은 서로 믿을 수 있는 전우가 되어있었습니다. 두 사람의 부대는 이후로도 사이 좋게 성과를 "
+"거두었고, 두 위대한 지휘관의 명성에 힘입어 성전에 참여하고자 하는 이들이 많아졌습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent12
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -17985,7 +17977,7 @@ msgstr "가난한 자들의 손에 쥐어져 있다하더라도, 검은 여전�
 #. Path = m_EventSolutions[0]/m_SolutionText
 msgctxt "1e5cc843-1825-474c-bed5-bd7ad17a2736"
 msgid "{g|Event_20_1}[Choice effects]{/g} Accept them into the army"
-msgstr "{g|Event_20_1}[선택 효과]{/g} 그들의 입대를 허가한다"
+msgstr "{g|Event_20_1}[선택 효과]{/g} 이들의 입대를 허가한다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent20
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -18022,7 +18014,7 @@ msgstr ""
 #. Path = m_EventSolutions[2]/m_SolutionText
 msgctxt "02d493ee-2994-4c51-8e02-225b8aaed3fd"
 msgid "{g|Event_20_3}[Choice effects]{/g} Send them to Mendev"
-msgstr "{g|Event_20_3}[선택 효과]{/g} 그들을 멘데브로 보낸다"
+msgstr "{g|Event_20_3}[선택 효과]{/g} 이들을 멘데브로 보낸다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent20
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -18072,8 +18064,8 @@ msgid ""
 "least. But the crusaders do not wish to fight side by side with these "
 "vagrants either."
 msgstr ""
-"병자들, 빈자들, 또 심약한 이들이 드레젠에 도착했고, 이들은 성전에 참여하고 싶어합니다. 그들의 삶은 고단하고, 갈 곳도 없지만, "
-"최소한 영웅으로 죽고 싶어 합니다. 하지만 성전사들은 이 부랑자들과 함께 싸우고 싶어하지 않습니다."
+"병자들, 빈자들, 허약한 자들이 드레젠에 도착했고, 이들은 성전에 참여하고 싶어합니다. 그들의 삶은 고단하고, 갈 곳도 없지만, 최소한 "
+"영웅으로 죽고 싶어 합니다. 하지만 성전사들은 이 부랑자들과 함께 싸우고 싶어하지 않습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent20
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -18364,7 +18356,7 @@ msgstr ""
 #. Path = LocalizedName
 msgctxt "5ae4f5c8-a0b6-431d-8fe0-f20af33548c4"
 msgid "Inconvenient Heroes"
-msgstr "적합하지 않은영웅들"
+msgstr "불편한 영웅들"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent24
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -18377,11 +18369,9 @@ msgid ""
 "comrades. The outcasts went to Mendev, bringing their despair with them like "
 "plague. Their words have dissuaded many from joining the crusaders."
 msgstr ""
-"비관주의자들과 무기력한 병사들은 치욕스러운 처벌 끝에 추방되었습니다. 그들의 "
-"나약함을 목격한 병사들은, 전투에서 죽는 것이 놀림감이 되고 무시당하는 것 "
-"보다 낫다는 사실을 깨닫게 되었습니다. 추방자들은 멘데브로 돌아갔지만, "
-"그곳에서도 질병처럼 절망을 퍼뜨려 많은 사람들이 성전에 참여하는 것을 "
-"망설였습니다."
+"패배주의자들과 온순한 자들은 치욕스러운 처벌 끝에 추방되었습니다. 그들의 나약함을 목격한 병사들은, 전투에서 죽는 것이 놀림감이 되고 "
+"무시당하는 것보다 낫다는 사실을 깨닫게 되었습니다. 추방자들은 멘데브로 돌아갔지만, 그곳에서도 질병처럼 절망을 퍼뜨려 많은 사람들이 "
+"성전에 참여하는 것을 망설였습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent24
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -18389,7 +18379,7 @@ msgstr ""
 msgctxt "1ce2b9a0-979a-49a5-9abb-3d5f47094c8a"
 msgid ""
 "{g|Event_24_1}[Choice effects]{/g} Banish the defeatists without remorse"
-msgstr "{g|Event_24_1}[선택 효과]{/g} 그 어떤 후회도 없이 이들을 추방한다"
+msgstr "{g|Event_24_1}[선택 효과]{/g} 가차 없이 이들을 추방한다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent24
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -18802,7 +18792,7 @@ msgstr ""
 #. Path = m_EventSolutions[0]/m_SolutionText
 msgctxt "5ad76189-b251-4c8c-97d6-266768843207"
 msgid "{g|Event_28_1}[Choice effects]{/g} Ban libation"
-msgstr "{g|Event_28_1}[선택 효과]{/g} 음주를 금지시킨다"
+msgstr "{g|Event_28_1}[선택 효과]{/g} 음주를 금지한다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent28
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -19056,8 +19046,7 @@ msgid ""
 "uncompromising decision. As for the slaves, who were left in Numeria, their "
 "fate, most likely, was grim."
 msgstr ""
-"노예 거래를 금지하는 많은 국가들이 사령관의 이러한 결단을 지지합니다. 어두운 "
-"운명만이 누메리아를 떠나지 못한 노예들을 기다릴 것입니다."
+"노예 거래를 금지하는 많은 국가들이 사령관의 이러한 결단을 지지합니다. 누메리아에 남겨진 노예들의 운명은 암울할 수밖에 없었습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent30
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -19610,7 +19599,7 @@ msgid ""
 "soldier on for a couple more months. And Woljif will make sure that these "
 "months turn into years."
 msgstr ""
-"어떤 군인이든 과거에 저지른 잘못이 수십 가지 있을 테고, 월지프는 그 잘못을 전부 찾아냈습니다. 그는 노병들에게 몇 달 더 복무하는 "
+"어떤 군인이든 과거에 저지른 잘못이 수십 가지 있을 테고, 울지프는 그 잘못을 전부 찾아냈습니다. 그는 노병들에게 몇 달 더 복무하는 "
 "처벌을 내렸고, 이미 자유를 앞둔 이들은 몇 달쯤은 기꺼이 더 복무하겠다고 응했습니다. 그리고 울지프는 이 몇 달이 몇 년이 되도록 "
 "만들었습니다."
 
@@ -19666,7 +19655,7 @@ msgstr ""
 #. Path = m_EventSolutions[0]/m_SolutionText
 msgctxt "5caf5de4-35b3-4593-8289-fb3e9135b020"
 msgid "{g|Event_36_1}[Choice effects]{/g} Lay the fallen to rest"
-msgstr "{g|Event_36_1}[선택 효과]{/g} 사자들을 쉬게한다"
+msgstr "{g|Event_36_1}[선택 효과]{/g} 전사자들에게 안식을 준다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent36
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -19768,7 +19757,7 @@ msgctxt "39ea2848-c5f0-44b9-b988-603cc6a8cbd9"
 msgid ""
 "{g|Event_37_2}[Choice effects]{/g} Assign the children to work on the home "
 "front"
-msgstr "{g|Event_37_2}[선택 효과]{/g}아이들에게 전시 노동을 부과한다"
+msgstr "{g|Event_37_2}[선택 효과]{/g}아이들에게 후방 작업을 배정한다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent37
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -20015,7 +20004,7 @@ msgstr ""
 #. Path = m_EventSolutions[3]/m_SolutionText
 msgctxt "8243350c-bfe9-40c8-975c-3d17ce22da81"
 msgid "{g|Event_39_5}[Choice effects]{/g} Convince them to become crusaders"
-msgstr "{g|Event_39_5}[선택 효과]{/g} 그들이 성전에 동참하도록 설득한다"
+msgstr "{g|Event_39_5}[선택 효과]{/g} 그들이 성전사가 되도록 설득한다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent39
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -20169,7 +20158,7 @@ msgid ""
 "already grown bored with. They are well-trained and can prove useful in a "
 "fight."
 msgstr ""
-"수집가는 더 이상 자신의 흥미를 끌지 못하는 괴물들을 드레젠으로 보낼 것입니다. 이 괴물들은 잘 훈련 되어있으며, 전투에서 쓸모가 있어 "
+"수집가는 더 이상 자신의 흥미를 끌지 못하는 괴물들을 드레젠으로 보낼 것입니다. 이 괴물들은 잘 훈련되어 있으며, 전투에서 쓸모가 있어 "
 "보입니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent41
@@ -20249,7 +20238,7 @@ msgid ""
 "rarest and deadliest demons and delivering them to the collector. The more "
 "exclusive the product, the higher the payment."
 msgstr ""
-"그레이버는 아주 희귀하고 위험한 데몬을 추적하여 수집가에게 전달할 사냥꾼 집단을 구성할 것입니다. 희귀한 상품일수록 가격이 올라갑니다."
+"그레이보르는 아주 희귀하고 위험한 데몬을 추적하여 수집가에게 전달할 사냥꾼 집단을 구성할 것입니다. 희귀한 상품일수록 가격이 올라갑니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent41
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -20414,9 +20403,8 @@ msgid ""
 "destruction, but they are willing to make up for these expenses with loyal "
 "service in the crusade."
 msgstr ""
-"오젬 기사단은 사령관의 도움에 감사를 표합니다. 기사들은 유물의 파괴로 일어날 "
-"충격을 최소화 시키기 위해 귀중한 마법 자원들을 요구할 것입니다만, 그 대신 "
-"성전군에 합류해 적과 맞서 싸울 것입니다."
+"오젬 기사단은 사령관의 도움에 감사를 표합니다. 기사단이 유물의 파괴의 여파를 최소화하려면 귀중한 마법 자원들이 필요하겠지만, 이들은 "
+"성전에서의 충성스러운 봉사로 그 비용을 기꺼이 만회하고자 합니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent43
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -20455,7 +20443,7 @@ msgid ""
 "brought to {mf|him|her}. {mf|He|She} broke the containment seal and bent the "
 "relic that inherited a part of Tar-Baphon's power to {mf|his|her} will."
 msgstr ""
-"오젬의 기사들을 교활한 함정으로 몰아넣은 사령관은 그들을 모두 죽이고, 그들이 가져온 강력한 유물을 가져오라고 명령했습니다. 사령관은 "
+"오젬 기사단을 교활한 함정으로 몰아넣은 사령관은 그들을 모두 죽이고, 그들이 가져온 강력한 유물을 가져오라고 명령했습니다. 사령관은 "
 "봉인을 부수고, 타르바폰의 힘의 유산을 철혈의 의지로 굴복시켰습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent43
@@ -20510,7 +20498,7 @@ msgstr ""
 #. Path = LocalizedName
 msgctxt "0acb6883-a2de-4c48-9349-cf897d983cc7"
 msgid "Deadly Legacy"
-msgstr "죽음의 유산"
+msgstr "치명적인 유산"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent44
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -21598,8 +21586,7 @@ msgid ""
 "{mf|him|her}. She will capture demons in the wastes, charm them, and send "
 "them to Drezen."
 msgstr ""
-"서큐버스는 사령관의 분노가 두려워 사령관을 섬기기로 했습니다. 그녀는 "
-"황무지의 데몬들을 포획하고, 매혹하고, 드레젠에 보낼 겁니다."
+"이 데몬은 사령관의 분노가 두려워 사령관을 섬기기로 했습니다. 그녀는 황무지의 데몬들을 포획하고, 매혹하고, 드레젠에 보낼 것입니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent53
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -21619,8 +21606,8 @@ msgid ""
 "from such a curious \"roomer.\" And they will be sure to thank the Commander "
 "for it."
 msgstr ""
-"울지프는 멘데브의 씨플링 은신처 중 한 곳으로 이동할 기회를 주었습니다. 서큐버스는 그들의 잘 숨겨진 피난처에서 여러가지 실험을 진행할 "
-"수 있을 것입니다. 씨플링들은 호기심 많은 \"세입자\" 에게서 뭔가를 얻어낼 수도 있고요. 어떻게 되건 그들 모두가 사령관에게 감사할 "
+"울지프는 이 데몬에게 멘데브의 씨플링들의 은신처 중 한 곳으로 이동할 기회를 주었습니다. 서큐버스는 그들의 잘 숨겨진 피난처에서 여러가지 "
+"실험을 진행할 수 있을 것입니다. 씨플링들은 호기심 많은 \"세입자\"에게서 뭔가를 얻어낼 수도 있고요. 그들 모두가 사령관에게 감사할 "
 "것입니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent53
@@ -23670,7 +23657,7 @@ msgstr ""
 #. Path = m_EventSolutions[2]/m_SolutionText
 msgctxt "6f1949e8-08d1-4bf0-a6ff-469a36d4c100"
 msgid "{g|Event_72_4}[Choice effects]{/g} Find the real guilty party"
-msgstr "{g|Event_72_4}[선택 효과]{/g} 진짜 죄인을 찾는다"
+msgstr "{g|Event_72_4}[선택 효과]{/g} 진짜 범인을 찾는다"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent72
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -24284,7 +24271,7 @@ msgid ""
 "The naysayers who doubted the necessity of the crusade were attacked by the "
 "raging mob."
 msgstr ""
-"진짜 심연의 하수인들을 보낼 수 있는데, 왜 굳이 데몬의 공격을 위장해야 할까요? 사령관이 소환한 데몬들은 이웃 국가들로 향해 진정한 "
+"진짜 심연의 종자들을 보낼 수 있는데, 왜 굳이 데몬의 공격을 모방해야 할까요? 사령관이 소환한 데몬들은 이웃 국가들로 향해 진정한 "
 "대학살을 일으켰습니다. 온 아비스탄이 히스테리에 빠지자, 성전군은 신병들과 자금을 안정적인 경로로 받을 수 있게 되었습니다. 또한 성전의 "
 "필요성을 의심하는 성전 반대론자들은 성난 민중에게 공격받았습니다."
 
@@ -24394,9 +24381,9 @@ msgid ""
 "escaped the first chance they got. Not everyone believes the story of the "
 "\"encircled.\""
 msgstr ""
-"이미 공격 받아 전멸한 것으로 생각된 부대 하나가 드레젠으로 돌아왔습니다. 심문 도중 그들이 말하길, 병사들은 적에게 포위 되어있었으며, "
-"목숨을 구하기 위해 탈영병인 척 해야 했다고 말했습니다. 그들은 데몬들에게 충성 서약을 했고, 그들의 어두운 의식에 동참했지만, 기회가 "
-"보이는 즉시 탈출했다고 합니다. 하지만 그 누구도 그들이 \"포위되었다는\" 이야기를 믿지 않습니다."
+"이미 공격 받아 전멸한 것으로 생각된 부대 하나가 드레젠으로 돌아왔습니다. 심문 도중 그들이 말하길, 병사들은 적에게 포위당해, 목숨을 "
+"보전하기 위해 탈영병인 척 해야 했다고 말했습니다. 그들은 데몬들에게 충성 서약을 했고, 데몬들의 어두운 의식에 동참했지만, 기회가 "
+"보이는 즉시 탈출했다고 합니다. 하지만 그 누구도 그들이 \"포위당했다\"는 이야기를 믿지 않습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent79
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -24460,8 +24447,8 @@ msgid ""
 "serve such an exemplary employer."
 msgstr ""
 "장교들은 느슨한 규율을 요구하고, 장교들의 폭정을 끝낼 것을 부르짖는 성난 용병들을 이끌고 있는 사람이 누구인지 보고는 크게 "
-"당황했습니다. 바로 사령관이었습니다. 그들의 모든 요구는 수용되었고, 사령관의 행동에 대한 소문은 빠르게 퍼졌으며, 모범적인 고용주 "
-"밑에서 일하고 싶은 용병단들이 드레젠에 성벽 밑에 나타났습니다."
+"당황했습니다. 바로 사령관이었습니다. 그들의 모든 요구는 수용되었고, 사령관의 행동에 대한 소문은 빠르게 퍼져, 모범적인 고용주 밑에서 "
+"일하고 싶은 용병단들이 드레젠에 성벽 밖에 나타났습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent80
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -25064,10 +25051,9 @@ msgid ""
 "powerful general of the Abyss. They brought the demon's weapon to the "
 "Commander as proof of their success."
 msgstr ""
-"그레이보르는 한명의 모험가로서 패스파인더와 이야기를 나누었고, 그들에게 "
-"상당한 보상을 조건으로, \"부업\"을 맡도록 설득했습니다. 이 4인조는 대담하게 "
-"데몬의 영역을 습격하여 심연의 강력한 지휘관을 쓰러뜨렸습니다. 그들은 그들의 "
-"성공의 증거로 데몬의 무기를 사령관에게 가져왔습니다."
+"그레이보르는 한명의 모험가로서 패스파인더와 이야기를 나누었고, 그들에게 상당한 보상을 조건으로, \"부업\"을 맡도록 설득했습니다. 이 "
+"4인조는 대담하게 데몬의 영역을 습격하여 심연의 강력한 지휘관을 쓰러뜨렸습니다. 그들은 성공의 증거로 데몬의 무기를 사령관에게 "
+"가져왔습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent86
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -25099,7 +25085,7 @@ msgstr ""
 #. Path = LocalizedName
 msgctxt "6cc2a29d-c90c-413f-829f-062dcde4bd8a"
 msgid "The Fighter, the Cleric, the Wizard, and the Rogue"
-msgstr "전사 성직자 마법사 그리고 도적"
+msgstr "전사, 성직자, 마법사, 도적"
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent87
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -25168,10 +25154,9 @@ msgid ""
 "such a reproach by the Commander, acts of heroism are now being performed "
 "more frequently by officers on the battlefield."
 msgstr ""
-"병사들의 등 뒤에 숨는 것은 장교가 할 행동이 아닙니다. 그 장교는 그러한 위험 "
-"상황에서도 휘하의 병사들을 보호하며, 타의 모범이 되었어야 합니다. 사령관이 "
-"훈계를 하고 나자, 장교들이 자신들을 희생해 전우들을 지켜주는 등, 영웅적인 "
-"면모를 더 자주 보여주게 되었습니다."
+"병사들의 등 뒤에 숨는 것은 장교가 할 행동이 아닙니다. 그 장교는 그러한 위험 상황에서도 휘하의 병사들을 보호하며, 타의 모범이 "
+"되었어야 했습니다. 사령관이 훈계를 하고 나자, 장교들이 자신들을 희생해 전우들을 지켜주는 등, 영웅적인 면모를 더 자주 보여주게 "
+"되었습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent87
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -25193,8 +25178,8 @@ msgid ""
 "This \"enforced heroism\" angered the troops, but the officer claims he did "
 "the right thing because his life is more important."
 msgstr ""
-"한 부대의 병사들이 지휘관을 처벌해달라고 요청합니다. 전투 중에 그는 부하들에게 주문을 걸어, 상황에 따라 그들의 몸으로 자신을 "
-"보호하도록 했습니다. 이 \"강제적 영웅심\"는 부대원들의 분노를 샀지만, 장교는 자신의 목숨이 더 중요하기 때문에 마땅한 일을 한 "
+"한 부대의 병사들이 지휘관을 처벌해 달라고 요청합니다. 전투 중에 그는 부하들에게 주문을 걸어, 상황에 따라 부하들의 몸으로 자신을 "
+"보호하도록 했습니다. 이 \"강제적 영웅주의\"는 부대원들의 분노를 샀지만, 장교는 자신의 목숨이 더 중요하기 때문에 마땅한 일을 한 "
 "것이라고 주장합니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent87
@@ -25409,8 +25394,8 @@ msgid ""
 msgstr ""
 "성전에 참여하는 연금술사들을 위한 작은 학교가 드레젠에 설립되었습니다. 처음에 자겔포른츠는 그곳의 교장이 되는 데에 불안감을 느꼈지만, "
 "네니오가 \"가르치는 것은 쉬워요\" 라고 그를 안심시켰습니다. 이 창의력 넘치는 연금술사가 넘치는 에너지를 가르침에 쏟기 시작하자, "
-"전과 달리 커다란 문제가 자주 발생하지 않게 되었습니다. 알고 보니 그는 상당히 훌륭한 교육자였고, 그 누구도 마실 거라고 상상도 못한 "
-"다양한 연금술 물질이 건강에 미치는 흥미로운 사실들을 백과사전에 적어놓으며, 네니오 역시 큰 기쁨을 느꼈습니다."
+"전과 달리 커다란 문제가 자주 발생하지 않게 되었습니다. 알고 보니 그는 상당히 훌륭한 교육자였고, 네니오의 백과사전에는 이전에 아무도 "
+"생각하지 못했던 다양한 연금술 물질의 건강 효과에 대한 항목이 쏟아져 들어왔습니다."
 
 #. File = World/Crusade/Events/CrusadeEvents/CrusadeEvent89
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -26159,7 +26144,7 @@ msgid ""
 "protection, but it also turned the cruel touch of Zon-Kuthon upon the bearer."
 msgstr ""
 "존쿠쏜의 암흑사제는 첫 번째 리트리버의 거미줄로 만든 물건에 그가 믿는 신의 은총을 부여했습니다. 고통의 대공의 축복은 보호력을 "
-"부여했지만, 소지자에게 존쿠쏜의 잔인한 손길을 건네기도 합니다."
+"부여했지만, 소지자에게 존쿠쏜의 잔인한 손길이 되기도 했습니다."
 
 #. File = World/Crusade/Events/Relics/Ch3/AltarOfTheDarkHunter_Enchanting_event
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -27066,8 +27051,8 @@ msgid ""
 "scourged Rovagug! The sun will drive away the darkness and incinerate its "
 "minions in this last bloody sunset!"
 msgstr ""
-"여신의 인내심이 한계에 달했고, 이제 그녀는 적들에게 분노를 쏟아내고자 합니다. 그녀의 힘은 과거 로바거그를 공격했던 것처럼, 불순한 "
-"자들을 처단할 것입니다! 핏빛 노을 속에서 태양이 어둠을 몰아내고, 그 하수인들을 불 태워버릴 것입니다!"
+"여신의 인내심이 한계에 달했고, 그녀는 적들에게 분노를 쏟아내고자 합니다. 그녀의 힘은 과거 로바거그를 공격했던 것처럼, 불순한 자들을 "
+"처단할 것입니다! 핏빛 노을 속에서 태양이 어둠을 몰아내고, 그 하수인들을 불태워버릴 것입니다!"
 
 #. File = World/Crusade/Events/Relics/Ch3/InnocentDawn_Enchanting_event
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -28526,9 +28511,9 @@ msgid ""
 "fear will pass once the underground warriors have spilled the blood of their "
 "foes and experienced their first victory."
 msgstr ""
-"한 무리의 잡종들이 드레젠에 도착했습니다. 이 사냥꾼들은 지하 동굴에서는 용감했을지도 모르지만, 지상에서는 용기를 잃었습니다. "
-"이들은햇빛을 무서워하고, 탁 트인 공간에서 방향감각을 상실하고, 또 여태껏 만나 보지 못한 적으로 인해 큰 동요를 느낍니다. 하지만 "
-"웬두아그는 지하 사냥꾼들이 첫번째 전투에서 적의 피를 흩뿌리고, 승리를 맛본다면 잡종들이 가진 공포는 사라질 것이라고 확신합니다."
+"한 무리의 잡종들이 드레젠에 도착했습니다. 이 사냥꾼들은 지하 동굴에서는 용감했을지도 모르지만, 지상에서는 용기를 잃었습니다. 이들은 "
+"햇빛을 무서워하고, 탁 트인 공간에서 방향감각을 상실하고, 여태껏 만나 보지 못한 적으로 인해 큰 동요를 느낍니다. 하지만 웬두아그는 "
+"지하 사냥꾼들이 첫번째 전투에서 적의 피를 흩뿌리고, 승리를 맛본다면 잡종들이 가진 공포는 사라질 것이라고 확신합니다."
 
 #. File = World/Crusade/Events/StoryEvents/Ch3/ForbiddenPractices/ForbiddenPractices_event
 #. Type = Kingmaker.Kingdom.Blueprints.BlueprintCrusadeEvent
@@ -28656,7 +28641,7 @@ msgstr ""
 "예킴 클로르의 시체는 잔해에 묻힌 채, 드레젠의 성벽 안에서 발견되었습니다. 그의 상처로 보건대, 그는 데몬에게 살해된 것이 아니라, "
 "비슷한 신장의 사람에게 살해된 것으로 보입니다. 부검과 인근 지역의 조사를 통해, 클로르는 자신의 의지로 범죄 현장에 나타났다는 사실을 "
 "알 수 있었습니다. 그 후, 가슴을 꿰뚫는 관통상을 입어 정신을 잃었고, 머지 않아 사망한 것으로 보입니다. 또한 살인자는 시체 은닉을 "
-"중요하게 생각하지 않은 것 같습니다. 조사관은 살인자는 조급해 하지 않았고, 살인 기술에 통달한 인물인데, 일부러 시체를 발견하기 쉬운 "
+"중요하게 생각하지 않은 것 같습니다. 조사관은 살인자가 조급해 하지 않았고, 살인 기술에 통달한 인물인데, 일부러 시체를 발견하기 쉬운 "
 "곳에 두었을 것이라는 결론을 내렸습니다."
 
 #. File = World/Crusade/Events/StoryEvents/Ch3/SomebodyIsKilled/SomebodyIsKilled_event
